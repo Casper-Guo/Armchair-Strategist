@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+seaborn
+fastf1
+import_ipynb
