@@ -14,6 +14,9 @@ main
 # Cache Directory
 /Cache 
 
+# checkpoints directory
+/.ipynb_checkpoints
+
 # Visual debugger configurations
 .vscode/
 .vs/
@@ -76,6 +79,10 @@ Icon
 
 # image files
 *.ppm
+*.png 
+*.jpg
+*.jpeg
+*.svg 
 
 # perf files
 perf.data*
