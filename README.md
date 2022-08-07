@@ -16,7 +16,7 @@ These two csv files can be directly ingested by `visualizations.ipynb` for plott
 In order to manually refresh the datasets on your device, run both `data_loading.ipynb` and `data_transformation.ipynb`. These files will attepmpt to grab the latest lap time data from the FastF1 API and apply all the needed transformations to prepare them for visualization.
 
 ### Usage
-There are four plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the provided examples and accompanying documentation. Here is an overview:
+There are four plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
 
 - `tyre_usage_pie`: Visualize the frequency of compound usage within a season and allows filtering by events and drivers
 - `plot_driver_lap_times`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
