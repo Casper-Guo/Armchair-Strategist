@@ -424,6 +424,9 @@ def plot_compounds_lineplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD
     # Copy compounds values
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds
+       
+    # store warnings for compounds that are requested but not plotted
+    warnings = []
  
     for i in range(len(event_objects)):
         included_laps = included_laps_df_list[i]
@@ -433,13 +436,16 @@ def plot_compounds_lineplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD
             compounds_copy = convert_compound_names(years[i], event_objects[i]["RoundNumber"], compounds)
                             
         for compound in compounds_copy:
-            ax = sns.lineplot(x=medians.loc[compound].index, 
-                              y=medians.loc[compound].values, 
-                              ax=axes[i], 
-                              color=args[1][compound],
-                              marker=args[2][compound],
-                              markersize=4,
-                              label=compound)
+            if compound in medians.index:
+                ax = sns.lineplot(x=medians.loc[compound].index, 
+                                y=medians.loc[compound].values, 
+                                ax=axes[i], 
+                                color=args[1][compound],
+                                marker=args[2][compound],
+                                markersize=4,
+                                label=compound)
+            else:
+                warnings.append("{} is not plotted for {} {} because there is no valid lap time data".format(compound, years[i], event_objects[i]["EventName"]))
 
         ax.set_ylabel(y, fontsize=12)
                    
@@ -463,7 +469,7 @@ def plot_compounds_lineplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD
     fig.suptitle(t=" VS ".join(compounds), fontsize="16")
     plt.show()
     
-    return fig
+    return fig, warnings
 
 
 def plot_compounds_boxplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD"], x="TyreLife", upper_bound=10, absolute_compound=True ):
@@ -549,16 +555,18 @@ def plot_compounds_boxplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD"
                 
     args = plot_args(absolute_compound)
     
-    # Copy compounds values
-    # May need to convert from relative to absolute names when plotting
-    compounds_copy = compounds
+    # warnings for compounds that are requested but not plotted
+    warnings = []
  
     for i in range(len(event_objects)):
         included_laps = included_laps_df_list[i]
-        
-        if absolute_compound:
-            compounds_copy = convert_compound_names(years[i], event_objects[i]["RoundNumber"], compounds)
 
+        plotted_compounds = included_laps["Compound"].unique()
+
+        for compound in compounds:
+            if compound not in plotted_compounds:
+                warnings.append("{} is not plotted for {} {} because there is no valid lap time data".format(compound, years[i], event_objects[i]["EventName"]))
+        
         ax = sns.boxplot(data=included_laps,
                              x=x,
                              y=y,
@@ -591,5 +599,5 @@ def plot_compounds_boxplot(years, events, y, compounds=["SOFT", "MEDIUM", "HARD"
     fig.suptitle(t=" VS ".join(compounds), fontsize="16")
     plt.show()
     
-    return fig
+    return fig, warnings
     
