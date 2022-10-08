@@ -11,7 +11,7 @@ Use `pip install -r requirements.txt` to install all dependencies.
 ### Data Freshness
 `transformed_laps_2021.csv` covers all 22 races of the 2021 season.
 
-`transformed_laps_2022.csv` has coverage up until round 17, the Singapore Grand Prix. (updated 10//06/22)
+`transformed_laps_2022.csv` has coverage up until round 17, the Singapore Grand Prix. (updated 10/06/22)
 
 These two csv files can be directly ingested by `visualizations.ipynb` for plotting purposes. I will aim to keep the csv updated as much and as soon as possible.
 
