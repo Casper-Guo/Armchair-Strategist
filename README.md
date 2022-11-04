@@ -20,10 +20,11 @@ In order to manually refresh the datasets on your device, run both `data_loading
 If you have loaded parts of the 2022 season before and is looking to acquire the data for new grand prix only, there is a section in `data_loading.ipynb` titled `Incremental Load` that implements this functionality.
 
 ### Usage
-There are four plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
+There are five plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
 
 - `tyre_usage_pie`: Visualize the frequency of compound usage within a season and allows filtering by events and drivers
 - `plot_driver_lap_times`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
+- `plot_strategy_barplot`: Visualize tyre strategy within a single event with SC and VSC highlighted. Allows selecting any number of drivers
 - `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting any number of events from either the 2021 or the 2022 season
 - `plot_compounds_boxplot`: Visualize tyre performance over time by compound as boxplots. Allows selecting any number of events from either the 2021 or the 2022 season
 
