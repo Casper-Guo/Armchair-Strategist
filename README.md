@@ -26,7 +26,7 @@ There are five plotting functions provided in `visualizations.ipynb`. Their usag
 - `plot_driver_lap_times`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
 - `plot_strategy_barplot`: Visualize tyre strategy within a single event with SC and VSC highlighted. Allows selecting any number of drivers
 - `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting any number of events from either the 2021 or the 2022 season
-- `plot_compounds_boxplot`: Visualize tyre performance over time by compound as boxplots. Allows selecting any number of events from either the 2021 or the 2022 season
+- `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting any number of events from either the 2021 or the 2022 season
 
 ### Metrics Definitions
 Detailed metric definitions can be found in the `data_transformation.ipynb` file. Here we present a list of columns available in the csvs.
