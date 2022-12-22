@@ -1,23 +1,22 @@
 # F1-Data-Visualization
-Functions for visualizing lap time and tyre usage data from all races of the 2021 and 2022 F1 seasons.
+A repository of engineered F1 data and visualization tools.
 
 Website being built in this [repo](https://github.com/brianmakesthings/F1-Web-Server.git).
+
+Repository under refactoring.
 
 ## Requirements 
 Use `pip install -r requirements.txt` to install all dependencies.
 
 ## General Information
 
-### Data Freshness
-`transformed_laps_2021.csv` covers all 22 races of the 2021 season.
+### Data Source
+All data sourced from the [FastF1](https://github.com/theOehrly/Fast-F1) package.
 
-`transformed_laps_2022.csv` covers all 22 races of the 2022 season.
+### Data Availability
+Data from all the races beginning in the 2018 season are available. This repository will be regularly updated during the F1 season.
 
-These two csv files can be directly ingested by `visualizations.ipynb` for plotting purposes. I will aim to keep the csv updated as much and as soon as possible.
-
-In order to manually refresh the datasets on your device, run both `data_loading.ipynb` and `data_transformation.ipynb`. These files will attepmpt to grab the latest lap time data from the FastF1 API and apply all the needed transformations to prepare them for visualization.
-
-If you have loaded parts of the 2022 season before and is looking to acquire the data for new grand prix only, there is a section in `data_loading.ipynb` titled `Incremental Load` that implements this functionality.
+You can use `data_loading.ipynb` and `data_transformation.ipynb` to renew your local data.
 
 ### Usage
 There are five plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
@@ -25,11 +24,11 @@ There are five plotting functions provided in `visualizations.ipynb`. Their usag
 - `tyre_usage_pie`: Visualize the frequency of compound usage within a season and allows filtering by events and drivers
 - `plot_driver_lap_times`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
 - `plot_strategy_barplot`: Visualize tyre strategy within a single event with SC and VSC highlighted. Allows selecting any number of drivers
-- `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting any number of events from either the 2021 or the 2022 season
-- `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting any number of events from either the 2021 or the 2022 season
+- `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting multiple events
+- `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting multiple events
 
 ### Metrics Definitions
-Detailed metric definitions can be found in the `data_transformation.ipynb` file. Here we present a list of columns available in the csvs.
+Detailed metric definitions can be found in the `data_transformation.ipynb` file. 
 
 - All columns provided by the FastF1 [Laps](https://theoehrly.github.io/Fast-F1/core.html?highlight=session#fastf1.core.Laps) object
 - `RoundNumber`: (str) Round number of the event that the lap belongs to 
@@ -47,6 +46,3 @@ Detailed metric definitions can be found in the `data_transformation.ipynb` file
 - `sDeltaToRep`: (float) `DeltaToRep` in seconds, accurate to three digits
 - `sDeltaToFastest`: (float) `DeltaToFastest` in seconds, accurate to three digits
 - `sDeltaToLapRep`: (float) `DeltaToLapRep` in seconds, accurate to three digits
-
-### Data Source
-All data sourced from the [FastF1](https://github.com/theOehrly/Fast-F1) package.
