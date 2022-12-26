@@ -1,0 +1,71 @@
+# Visualization palettes, markers, and labels configuration
+
+slick_tyre_names = ["SOFT", "MEDIUM", "HARD"]
+relative_labels  = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
+absolute_labels  = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
+
+[fresh_markers]
+true = "o"
+false = "X"
+
+[relative.palette]
+SOFT         = "#da291c"
+MEDIUM       = "#ffd12e"
+HARD         = "#f0f0ec"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[relative.markers]
+SOFT         = "o"
+MEDIUM       = "^"
+HARD         = "s"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
+
+[absolute.palette_19_]
+# same as 2018 palette in the range of ultrasoft to hard 
+
+C1           = "#00a2f3"
+C2           = "#ffd12e"
+C3           = "#f0f0ec"
+c4           = "#00a2f3"
+c5           = "#b14ca8"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[absolute.palette_2018]
+HYPERSOFT    = "#feb4c3"
+ULTRASOFT    = "#b14ca8"
+SUPERSOFT    = "#da291c"
+SOFT         = "#ffd12e"
+MEDIUM       = "#f0f0ec"
+HARD         = "#00a2f3"
+SUPERHARD    = "#fe813f"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[absolute.markers_19_]
+C1           = "H"
+C2           = "p"
+C3           = "s"
+C4           = "^"
+C5           = "o"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
+
+[absolute.markers_18]
+HYPERSOFT    = "o"
+ULTRASOFT    = "^"
+SUPERSOFT    = "s"
+SOFT         = "d"
+MEDIUM       = "p"
+HARD         = "H"
+SUPERHARD    = "h"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
