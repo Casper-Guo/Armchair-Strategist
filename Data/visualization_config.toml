@@ -39,7 +39,7 @@ UNKNOWN      = "*"
 19_ = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
 18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD", "INTERMEDIATE", "WET", "UNKNOWN"]
 
-[absolute.palette_19_]
+[absolute.palette.19_]
 # same as 2018 palette in the range of ultrasoft to hard 
 
 C1           = "#00a2f3"
@@ -51,7 +51,7 @@ INTERMEDIATE = "#43b02a"
 WET          = "#0067ad"
 UNKNOWN      = "#00ffff"
 
-[absolute.palette_18]
+[absolute.palette.18]
 HYPERSOFT    = "#feb4c3"
 ULTRASOFT    = "#b14ca8"
 SUPERSOFT    = "#da291c"
@@ -63,7 +63,7 @@ INTERMEDIATE = "#43b02a"
 WET          = "#0067ad"
 UNKNOWN      = "#00ffff"
 
-[absolute.markers_19_]
+[absolute.markers.19_]
 C1           = "H"
 C2           = "p"
 C3           = "s"
@@ -73,7 +73,7 @@ INTERMEDIATE = "P"
 WET          = "X"
 UNKNOWN      = "*"
 
-[absolute.markers_18]
+[absolute.markers.18]
 HYPERSOFT    = "o"
 ULTRASOFT    = "^"
 SUPERSOFT    = "s"
