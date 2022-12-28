@@ -1,6 +1,8 @@
 # Visualization palettes, markers, and labels configuration
 
-slick_tyre_names = ["SOFT", "MEDIUM", "HARD"]
+[slick_names]
+19_ = ["SOFT", "MEDIUM", "HARD"]
+18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD"]
 
 [num_rounds]
 2018 = 21
