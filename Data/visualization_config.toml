@@ -1,12 +1,21 @@
 # Visualization palettes, markers, and labels configuration
 
 slick_tyre_names = ["SOFT", "MEDIUM", "HARD"]
-relative_labels  = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
-absolute_labels  = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
+
+[num_rounds]
+2018 = 21
+2019 = 21
+2020 = 17 
+2021 = 22
+2022 = 22
+2023 = 24
 
 [fresh_markers]
 true = "o"
 false = "X"
+
+[relative]
+labels = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
 
 [relative.palette]
 SOFT         = "#da291c"
@@ -24,19 +33,23 @@ INTERMEDIATE = "P"
 WET          = "X"
 UNKNOWN      = "*"
 
+[absolute.labels]
+19_ = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
+18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD", "INTERMEDIATE", "WET", "UNKNOWN"]
+
 [absolute.palette_19_]
 # same as 2018 palette in the range of ultrasoft to hard 
 
 C1           = "#00a2f3"
 C2           = "#ffd12e"
 C3           = "#f0f0ec"
-c4           = "#00a2f3"
-c5           = "#b14ca8"
+C4           = "#da291c"
+C5           = "#b14ca8"
 INTERMEDIATE = "#43b02a"
 WET          = "#0067ad"
 UNKNOWN      = "#00ffff"
 
-[absolute.palette_2018]
+[absolute.palette_18]
 HYPERSOFT    = "#feb4c3"
 ULTRASOFT    = "#b14ca8"
 SUPERSOFT    = "#da291c"
