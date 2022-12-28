@@ -28,7 +28,7 @@ There are five plotting functions provided in `visualizations.ipynb`. Their usag
 - `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting multiple events
 
 ### Metrics Definitions
-Detailed metric definitions can be found in the `data_transformation.ipynb` file. 
+Detailed metric definitions can be found in the `data_transformation.ipynb` file. All columns are accurate to three digits.
 
 - All columns provided by the FastF1 [Laps](https://theoehrly.github.io/Fast-F1/core.html?highlight=session#fastf1.core.Laps) object. Note that the `LapTime` column is converted from the native timedelta type to float type equal to the total seconds in the timedelta entry.
 - `RoundNumber`: (str) Round number of the event that the lap belongs to 
@@ -36,9 +36,9 @@ Detailed metric definitions can be found in the `data_transformation.ipynb` file
 - `IsSlick`: (bool) Whether the lap is completed on slick tyres
 - `CompoundName`: (str) The name of the compound used for this lap (C1, C2, C3, C4, C5, INTERMEDIATE, WET)
 - `IsValid`: (bool) See documentation
-- `PctFromRep`: (float) Percent difference between the current lap time and the representative lap time of the event, accurate to three digits
-- `PctFromFastest`: (float) Percent difference between the current lap time and fastest lap time of the event, accurate to three digits
-- `PctFromLapRep`: (float) Percent difference between the current lap time and the representative lap time for all laps of the same lap number, accurate to three digits
-- `DeltaToRep`: (float) `DeltaToRep` in seconds, accurate to three digits
-- `DeltaToFastest`: (float) `DeltaToFastest` in seconds, accurate to three digits
-- `DeltaToLapRep`: (float) `DeltaToLapRep` in seconds, accurate to three digits
+- `DeltaToRep`: (float) Difference between the lap time and the representative lap time of the event in seconds
+- `DeltaToFastest`: (float) Difference between the current lap time and fastest lap time of the event in seconds
+- `DeltaToLapRep`: (float) Difference between the current lap time and the lap representative time as a percentage in seconds
+- `PctFromRep`: (float) Difference between the lap time and the representative lap time of the event as a percentage
+- `PctFromFastest`: (float) Difference between the current lap time and fastest lap time of the event as a percentage
+- `PctFromLapRep`: (float) Difference between the current lap time and the lap representative time as a percentage
