@@ -22,7 +22,7 @@ You can use `data_loading.ipynb` and `data_transformation.ipynb` to renew your l
 There are five plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
 
 - `tyre_usage_pie`: Visualize the frequency of compound usage within a season and allows filtering by events and drivers
-- `plot_driver_lap_times`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
+- `plot_driver_stats`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
 - `plot_strategy_barplot`: Visualize tyre strategy within a single event with SC and VSC highlighted. Allows selecting any number of drivers
 - `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting multiple events
 - `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting multiple events
@@ -38,7 +38,7 @@ Detailed metric definitions can be found in the `data_transformation.ipynb` file
 - `IsValid`: (bool) See documentation
 - `DeltaToRep`: (float) Difference between the lap time and the representative lap time of the event in seconds
 - `DeltaToFastest`: (float) Difference between the current lap time and fastest lap time of the event in seconds
-- `DeltaToLapRep`: (float) Difference between the current lap time and the lap representative time as a percentage in seconds
+- `DeltaToLapRep`: (float) Difference between the current lap time and the lap representative time in seconds
 - `PctFromRep`: (float) Difference between the lap time and the representative lap time of the event as a percentage
 - `PctFromFastest`: (float) Difference between the current lap time and fastest lap time of the event as a percentage
 - `PctFromLapRep`: (float) Difference between the current lap time and the lap representative time as a percentage
