@@ -12,10 +12,15 @@
 2022 = 22
 2023 = 24
 
-[fresh_markers]
+[fresh.markers]
 True = "o"
 False = "X"
 Unknown = "*"
+
+[fresh.hatch]
+True = "None"
+False = "///"
+Unknown = "xx"
 
 [relative]
 labels = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
