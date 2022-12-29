@@ -13,13 +13,13 @@
 2023 = 24
 
 [fresh.markers]
-True = "o"
-False = "X"
+True    = "o"
+False   = "X"
 Unknown = "*"
 
 [fresh.hatch]
-True = "None"
-False = "///"
+True    = "None"
+False   = "///"
 Unknown = "xx"
 
 [relative]
