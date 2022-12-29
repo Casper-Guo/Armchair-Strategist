@@ -13,8 +13,9 @@
 2023 = 24
 
 [fresh_markers]
-true = "o"
-false = "X"
+True = "o"
+False = "X"
+Unknown = "*"
 
 [relative]
 labels = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
