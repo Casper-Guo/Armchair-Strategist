@@ -3,8 +3,6 @@ A repository for engineered F1 data and visualization tools.
 
 Website being built in this [repo](https://github.com/brianmakesthings/F1-Web-Server.git).
 
-Repository under refactoring.
-
 ## Requirements 
 Use `pip install -r requirements.txt` to install all dependencies.
 
@@ -19,13 +17,13 @@ Data from all races beginning in the 2018 season, excluding test sessions, are a
 You can use `data_loading.ipynb` and `data_transformation.ipynb` to renew your local data.
 
 ### Usage
-There are five plotting functions provided in `visualizations.ipynb`. Their usage will hopefully be clear through the examples provided at the end of the notebook and accompanying documentation. Here is an overview:
+There are five plotting functions provided in `visualizations.ipynb`. Documentation and examples are provided in the same notebook. Here is an overview:
 
-- `tyre_usage_pie`: Visualize the frequency of compound usage within a season and allows filtering by events and drivers
-- `plot_driver_stats`: Visualize driver lap time data within a single event. Allows selecting any number of drivers
-- `plot_strategy_barplot`: Visualize tyre strategy within a single event with SC and VSC highlighted. Allows selecting any number of drivers
-- `plot_compounds_lineplot`: Visualize tyre performance over time by compound as line charts. Allows selecting multiple events
-- `plot_compounds_distribution`: Visualize tyre performance distribution over time by compound with boxplots or violin plots. Allows selecting multiple events
+- `tyre_usage_pie`: Visualize the frequency of compound usage within select races or an entire season
+- `plot_driver_stats`: Visualize various driver pace data within a single race.
+- `plot_strategy_barplot`: Visualize tyre strategy within a single race with SC and VSC periods highlighted.
+- `plot_compounds_lineplot`: Visualize performance over time by compound as line charts. Allows plotting multiple races simultaneously for easier comparison
+- `plot_compounds_distribution`: Visualize performance distribution over time by compound with either boxplots or violin plots. Allows plotting multiple races simultaneously for easier comparison
 
 ### Metrics Definitions
 Detailed metric definitions can be found in the `data_transformation.ipynb` file. All columns are accurate to three digits.
@@ -36,9 +34,9 @@ Detailed metric definitions can be found in the `data_transformation.ipynb` file
 - `IsSlick`: (bool) Whether the lap is completed on slick tyres
 - `CompoundName`: (str) The name of the compound used for this lap (C1, C2, C3, C4, C5, INTERMEDIATE, WET)
 - `IsValid`: (bool) See documentation
-- `DeltaToRep`: (float) Difference between the lap time and the representative lap time of the event in seconds
-- `DeltaToFastest`: (float) Difference between the current lap time and fastest lap time of the event in seconds
+- `DeltaToRep`: (float) Difference between the lap time and the representative lap time (see definition in the notebook) of the race in seconds
+- `DeltaToFastest`: (float) Difference between the current lap time and fastest lap time of the race in seconds
 - `DeltaToLapRep`: (float) Difference between the current lap time and the lap representative time in seconds
-- `PctFromRep`: (float) Difference between the lap time and the representative lap time of the event as a percentage
-- `PctFromFastest`: (float) Difference between the current lap time and fastest lap time of the event as a percentage
+- `PctFromRep`: (float) Difference between the lap time and the representative lap time of the race as a percentage
+- `PctFromFastest`: (float) Difference between the current lap time and fastest lap time of the race as a percentage
 - `PctFromLapRep`: (float) Difference between the current lap time and the lap representative time as a percentage

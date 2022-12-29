@@ -3,5 +3,7 @@ pandas
 matplotlib
 seaborn
 fastf1
-import_ipynb
+datetime
+os
 tomli
+warnings
