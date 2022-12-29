@@ -1,0 +1,92 @@
+# Visualization palettes, markers, and labels configuration
+
+[slick_names]
+19_ = ["SOFT", "MEDIUM", "HARD"]
+18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD"]
+
+[num_rounds]
+2018 = 21
+2019 = 21
+2020 = 17 
+2021 = 22
+2022 = 22
+2023 = 24
+
+[fresh.markers]
+True    = "o"
+False   = "X"
+Unknown = "*"
+
+[fresh.hatch]
+True    = "None"
+False   = "///"
+Unknown = "xx"
+
+[relative]
+labels = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
+
+[relative.palette]
+SOFT         = "#da291c"
+MEDIUM       = "#ffd12e"
+HARD         = "#f0f0ec"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[relative.markers]
+SOFT         = "o"
+MEDIUM       = "^"
+HARD         = "s"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
+
+[absolute.labels]
+19_ = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
+18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD", "INTERMEDIATE", "WET", "UNKNOWN"]
+
+[absolute.palette.19_]
+# same as 2018 palette in the range of ultrasoft to hard 
+
+C1           = "#00a2f3"
+C2           = "#ffd12e"
+C3           = "#f0f0ec"
+C4           = "#da291c"
+C5           = "#b14ca8"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[absolute.palette.18]
+HYPERSOFT    = "#feb4c3"
+ULTRASOFT    = "#b14ca8"
+SUPERSOFT    = "#da291c"
+SOFT         = "#ffd12e"
+MEDIUM       = "#f0f0ec"
+HARD         = "#00a2f3"
+SUPERHARD    = "#fe813f"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[absolute.markers.19_]
+C1           = "H"
+C2           = "p"
+C3           = "s"
+C4           = "^"
+C5           = "o"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
+
+[absolute.markers.18]
+HYPERSOFT    = "o"
+ULTRASOFT    = "^"
+SUPERSOFT    = "s"
+SOFT         = "d"
+MEDIUM       = "p"
+HARD         = "H"
+SUPERHARD    = "h"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
