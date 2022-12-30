@@ -49,8 +49,8 @@ UNKNOWN      = "*"
 # same as 2018 palette in the range of ultrasoft to hard 
 
 C1           = "#00a2f3"
-C2           = "#ffd12e"
-C3           = "#f0f0ec"
+C2           = "#f0f0ec"
+C3           = "#ffd12e"
 C4           = "#da291c"
 C5           = "#b14ca8"
 INTERMEDIATE = "#43b02a"
