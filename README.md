@@ -40,7 +40,7 @@ Detailed metric definitions can be found in the `data_transformation.ipynb` file
 - `IsSlick`: (bool) Whether the lap is completed on slick tyres
 - `CompoundName`: (str) The name of the compound used for this lap (C1, C2, C3, C4, C5, INTERMEDIATE, WET)
 - `IsValid`: (bool) See documentation
-- `Pos`: (int) drivers' positions at the end of each lap
+- `Position`: (int) drivers' positions at the end of each lap
 - `DeltaToRep`: (float) Difference between the lap time and the representative lap time (see definition in the notebook) of the race in seconds
 - `DeltaToFastest`: (float) Difference between the current lap time and fastest lap time of the race in seconds
 - `DeltaToLapRep`: (float) Difference between the current lap time and the lap representative time in seconds
