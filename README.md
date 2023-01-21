@@ -2,8 +2,6 @@
 
 A repository for engineered F1 data and visualization tools.
 
-Website being built in this [repo](https://github.com/brianmakesthings/F1-Web-Server.git).
-
 ## Requirements
 
 Use `pip install -r requirements.txt` to install all dependencies.
