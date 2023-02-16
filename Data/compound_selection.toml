@@ -1,9 +1,7 @@
 # Compound selection for all races beginning in the 2018 season 
-# Possible values are 1 - 7 in the 2018 season 
-# And 1 -5 in all other seasons
 
 [2018]
-# Sources: 
+# Sources
 # https://maxf1.net/en/2018-f1-pirelli-tyre-compound-choice/
 # https://www.motorsportweek.com/2018/06/28/18808/ (Italy)
 
@@ -30,7 +28,7 @@
 21 = ["HYPERSOFT","ULTRASOFT","SUPERSOFT"]
 
 [2019]
-# Source:
+# Source
 # https://press.pirelli.com/2019-abu-dhabi-grand-prix---tyre-compound-choices/
 
 1  = ["C2","C3","C4"]
@@ -131,3 +129,11 @@
 20 = ["C2","C3","C4"]
 21 = ["C2","C3","C4"]
 22 = ["C3","C4","C5"]
+
+[2023]
+# Source
+# https://press.pirelli.com/2023-tyre-compound-choices--bahrain-saudi-arabia-australia/ (Bahrain - Australia)
+
+1 = ["C1","C2","C3"]
+2 = ["C2","C3","C4"]
+3 = ["C2","C3","C4"]
