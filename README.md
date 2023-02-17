@@ -29,7 +29,7 @@ There are six plotting functions provided in `visualizations.ipynb`. Documentati
 - `compounds_lineplot`: Visualize performance over time by compound in multiple races as line plots.
 - `compounds_distribution`: Visualize performance distribution over time by compound in multiple races with either boxplots or violin plots.
 
-There is also a helper functio, `add_gap`, for calculating gap to a specific driver which can then be plotted. 
+There is also a helper function, `add_gap`, for calculating gap to a specific driver which can then be plotted. 
 
 ### Metrics Definitions
 
