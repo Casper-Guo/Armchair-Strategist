@@ -23,10 +23,10 @@ with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:
 
 
 def correct_dtype(df_laps):
-    '''
+    """
     Requires: 
     df_laps has the following columns: ["Time", "PitInTime", "PitOutTime", "IsPersonalBest"]
-    '''
+    """
 
     # convert from object (string) to timedelta
     df_laps[["Time", "PitInTime", "PitOutTime"]] = df_laps[[
@@ -109,10 +109,21 @@ def filter_round_driver(df_laps, round_number, drivers):
     return df_laps
 
 
+def filter_round_driver_upper(df_laps, round_number, drivers, upper_bound):
+    """
+    Filter by round number, drivers to include, and lap time upper bound.
+    """
+
+    df_laps = df_laps[(df_laps["RoundNumber"] == round_number) & (
+        df_laps["Driver"].isin(drivers)) & (df_laps["PctFromFastest"] < upper_bound)]
+
+    return df_laps
+
+
 def filter_round_compound_valid_upper(df_laps, round_number, compounds, upper_bound):
-    '''
+    """
     Filter by round number, whether lap is valid, and compound name
-    '''
+    """
     df_laps = df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"]) &
                       (df_laps["Compound"].isin(compounds)) & (df_laps["PctFromFastest"] < upper_bound)]
 
@@ -165,9 +176,9 @@ def pick_driver_color(driver):
 
 
 def add_gap(season, driver):
-    '''
+    """
     Add a column containing the gap to the requested driver at the end of each lap 
-    '''
+    """
 
     df_laps = df_dict[season]
     assert driver.upper() in df_laps["Driver"].unique()
@@ -433,7 +444,7 @@ def driver_stats_scatterplot(season, event, drivers=3, y="LapTime", upper_bound=
     return fig
 
 
-def driver_stats_lineplot(season, event, drivers=3, y="Position"):
+def driver_stats_lineplot(season, event, drivers=3, y="Position", upper_bound=10):
     """
     Plot driver data during a race
 
@@ -454,6 +465,9 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position"):
 
         y: str, default: Position
             Name of the column to be used as the y-axis.
+
+        upper_bound: int, default: 10
+            Only laps whose lap time is no more than <upper_bound>% slower than the fastest lap time will be plotted.
 
     Returns: Figure
     """
@@ -478,7 +492,8 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position"):
         drivers = included_laps[included_laps["RoundNumber"]
                                 == round_number]["Driver"].unique()[:drivers]
 
-    included_laps = filter_round_driver(included_laps, round_number, drivers)
+    included_laps = filter_round_driver_upper(
+        included_laps, round_number, drivers, upper_bound)
 
     # adjust plot size based on number of laps
     num_laps = included_laps["LapNumber"].nunique()
@@ -494,8 +509,9 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position"):
         driver_laps = included_laps[included_laps["Driver"] == driver]
         driver_color = pick_driver_color(driver)
 
-        sns.lineplot(driver_laps, x="LapNumber",
-                     y=y, ax=ax, color=driver_color)
+        sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax,
+                     color=driver_color, errorbar=None)
+        plt.grid(axis="x")
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
@@ -507,8 +523,6 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position"):
     plt.show()
 
     return fig
-
-# WARNING: A row may fall under both categories
 
 
 def lap_filter_sc(row):
@@ -538,13 +552,13 @@ def find_sc_laps(df_laps):
 
 
 def shade_sc_periods(sc_laps, VSC=False):
-    '''
+    """
     Shade SC periods lasting at least one lap on the current figure
 
     Args:
         sc_laps: array-like
             Array of integers indicating laps under SC or VSC 
-    '''
+    """
 
     sc_laps_copy = np.append(sc_laps, [-1])
 
@@ -707,7 +721,7 @@ def convert_compound_names(season, round_number, compounds):
 
 
 def process_input(seasons, events, y, compounds, x, upper_bound, absolute_compound):
-    '''
+    """
     Sanitize input parameters seasons, events, compound, and x 
 
     Show related warnings and carry necessary assertions 
@@ -718,7 +732,7 @@ def process_input(seasons, events, y, compounds, x, upper_bound, absolute_compou
 
         included_laps_lst: list of pd.DataFrame
         list of dataframes corresponding to each requested race
-    '''
+    """
     # unpack
     compounds = [compound.upper() for compound in compounds]
 
