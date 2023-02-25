@@ -80,12 +80,12 @@ def update_data(season, path):
 
 
 def read_csv(path):
-    '''
+    """
     Read csv file at path location and filter for relevant columns
 
     Requires:
     csv file located at path location is derived from a fastf1 laps object
-    '''
+    """
 
     return pd.read_csv(path,
                        header=0,
@@ -99,10 +99,10 @@ def read_csv(path):
 
 
 def correct_dtype(df_laps):
-    '''
+    """
     Requires: 
     df_laps has the following columns: ["Time", "LapTime", "PitInTime", "PitOutTime", "IsPersonalBest"]
-    '''
+    """
 
     # convert from object (string) to timedelta
     df_laps[["Time", "LapTime", "PitInTime", "PitOutTime"]] = df_laps[[
@@ -149,10 +149,10 @@ def load_laps():
 
 
 def add_is_slick(season, df_laps):
-    '''
+    """
     Requires:
     df_laps has the following column: ["Compound"]
-    '''
+    """
 
     slick_names = []
 
@@ -167,14 +167,14 @@ def add_is_slick(season, df_laps):
 
 
 def add_compound_name(df_laps, compound_selection, season):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["Compound", "RoundNumber"]
 
     Assumes:
         - all data contained in compound_selection is from the same season 
         - df_laps contain data from the same season as compound_selection
-    '''
+    """
     if season == 2018:
         df_laps["CompoundName"] = df_laps["Compound"]
 
@@ -202,11 +202,11 @@ def add_compound_name(df_laps, compound_selection, season):
 
 
 def convert_compound(df_laps):
-    '''
+    """
     Requires:
         df_laps must be the 2018 dataset
         df_laps has the following columns: ["Compound", "RoundNumber"]
-    '''
+    """
 
     compounds_2018 = compound_selection["2018"]
 
@@ -246,10 +246,10 @@ def add_pos(df_laps):
 
 
 def add_is_valid(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["IsSlick", "IsAccurate", "TrackStatus"]
-    '''
+    """
 
     def check_lap_valid(row):
         return row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
@@ -260,10 +260,10 @@ def add_is_valid(df_laps):
 
 
 def find_rep_times(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "IsValid", "LapTime"]
-    '''
+    """
 
     rounds = df_laps["RoundNumber"].unique()
     rep_times = {}
@@ -277,10 +277,10 @@ def find_rep_times(df_laps):
 
 
 def add_rep_deltas(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "IsValid", "LapTime"]
-    '''
+    """
 
     rep_times = find_rep_times(df_laps)
 
@@ -298,10 +298,10 @@ def add_rep_deltas(df_laps):
 
 
 def find_fastest_times(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "IsPersonalBest", "LapTime"]
-    '''
+    """
 
     rounds = df_laps["RoundNumber"].unique()
     fastest_times = {}
@@ -315,10 +315,10 @@ def find_fastest_times(df_laps):
 
 
 def add_fastest_deltas(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "IsPersonalBest", "LapTime"]
-    '''
+    """
 
     fastest_times = find_fastest_times(df_laps)
 
@@ -336,10 +336,10 @@ def add_fastest_deltas(df_laps):
 
 
 def find_lap_reps(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "LapNumber", "IsValid", "LapTime"]
-    '''
+    """
 
     lap_reps = {}
 
@@ -359,10 +359,10 @@ def find_lap_reps(df_laps):
 
 
 def add_lap_rep_deltas(df_laps):
-    '''
+    """
     Requires:
     df_laps has the following columns: ["RoundNumber", "LapNumber", "IsValid", "LapTime"]
-    '''
+    """
 
     lap_reps = find_lap_reps(df_laps)
 
@@ -381,7 +381,7 @@ def add_lap_rep_deltas(df_laps):
 
 
 def find_diff(items):
-    '''
+    """
     Find the rows present in all_laps but missing in transformed_laps 
     for a given season
 
@@ -395,7 +395,7 @@ def find_diff(items):
     Assumes:
         all_laps have at least as many rows as transformed_laps
         The ith row in transformed_laps correspond to the ith row in all_laps
-    '''
+    """
 
     if len(items) == 1:
         # If there is only one pair, the key should be "all"
