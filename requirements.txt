@@ -1,9 +1,8 @@
-numpy
-pandas
-matplotlib
-seaborn
-fastf1
-datetime
-os
-tomli
-warnings
+fastf1==2.3.0
+matplotlib==3.6.2
+numpy==1.24.1
+pandas==1.5.2
+seaborn==0.12.2
+scipy==1.9.3
+tomli==2.0.1
+tomli-w==1.0.0

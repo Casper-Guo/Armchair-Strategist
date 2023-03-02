@@ -14,6 +14,7 @@ main
 # Subdirectories
 /Cache 
 /Graphs
+/env
 
 # checkpoints directory
 /.ipynb_checkpoints
