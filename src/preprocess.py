@@ -458,7 +458,7 @@ def main():
     if pd.isna(rounds_completed):
         rounds_completed = 0
 
-    print((f"Correctness Check: {rounds_completed} rounds of the {current_season}"
+    print((f"Correctness Check: {rounds_completed} rounds of the {current_season} "
            "season have been completed"))
     num_rounds[current_season] = rounds_completed
 
@@ -495,7 +495,7 @@ def main():
             add_fastest_deltas(df_transform)
             add_lap_rep_deltas(df_transform)
 
-            path = root_path / "Data" / "transformed_laps_{season}.csv"
+            path = root_path / "Data" / f"transformed_laps_{season}.csv"
 
             if Path.is_file(path):
                 # if the file already exists, then don't need to write header again
