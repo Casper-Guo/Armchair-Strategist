@@ -54,7 +54,7 @@ def load_laps():
             if splits[0] == "transformed":
                 season = int(splits[2])
                 df = pd.read_csv(root_path / "Data" / file, header=0,
-                                 index_col=0, true_values=["True"], false_values=["False"])
+                                 true_values=["True"], false_values=["False"])
                 correct_dtype(df)
                 df_dict[season] = df
 
