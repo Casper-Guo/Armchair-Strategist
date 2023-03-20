@@ -35,7 +35,7 @@ def load_all_data(season, path):
 
     if race_dfs:
         all_laps = pd.concat(race_dfs, ignore_index=True)
-        all_laps.to_csv(path)
+        all_laps.to_csv(path, index=False)
         print(f"Finished loading {season} season data.")
     else:
         print(f"No data available for {season} season yet.")
@@ -74,7 +74,12 @@ def update_data(season, path):
 
     all_laps = pd.concat(race_dfs, ignore_index=True)
 
-    all_laps.to_csv(path, mode='a')
+    with open(path, 'a') as csv:
+        csv.write("\n")
+        # if there are previous date
+        # don't write column headers again
+        all_laps.to_csv(path, 'a', header=False)
+
     print(f"Finished updating {season} season data.")
     return None
 
@@ -159,7 +164,7 @@ def add_is_slick(season, df_laps):
     if season == 2018:
         slick_names = visual_config["slick_names"]["18"]
     else:
-        slick_names = visual_config["slick_names"]["19_22"]
+        slick_names = visual_config["slick_names"]["19_"]
 
     df_laps["IsSlick"] = df_laps["Compound"].apply(lambda x: x in slick_names)
 
@@ -495,12 +500,11 @@ def main():
             if Path.is_file(path):
                 # if the file already exists, then don't need to write header again
                 # need to move the cursor onto a new line before appending
-                with open(path, 'a') as append:
-                    append.write("\n")
-
-                df_transform.to_csv(path, mode="a", header=False)
+                with open(path, 'a') as csv:
+                    csv.write("\n")
+                    df_transform.to_csv(path, mode="a", header=False)
             else:
-                df_transform.to_csv(path)
+                df_transform.to_csv(path, index=False)
 
     return 0
 
