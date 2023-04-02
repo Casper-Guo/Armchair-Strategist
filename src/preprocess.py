@@ -64,7 +64,7 @@ def update_data(season, path):
     race_dfs = []
 
     for i in missing_rounds:
-        race = f.get_session(2022, i, 'R')
+        race = f.get_session(2023, i, 'R')
         race.load()
         laps = race.laps
         laps["RoundNumber"] = i
@@ -74,11 +74,7 @@ def update_data(season, path):
 
     all_laps = pd.concat(race_dfs, ignore_index=True)
 
-    with open(path, 'a') as csv:
-        csv.write("\n")
-        # if there are previous date
-        # don't write column headers again
-        all_laps.to_csv(path, 'a', header=False)
+    all_laps.to_csv(path, mode='a', index=False, header=False)
 
     print(f"Finished updating {season} season data.")
     return None
@@ -238,8 +234,8 @@ def convert_compound(df_laps):
 
 def add_pos(df_laps):
     df_laps["Position"] = pd.Series(dtype="int")
-
-    for round in range(1, int(df_laps["RoundNumber"].max()) + 1):
+    
+    for round in range(int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1):
         df_round = df_laps[df_laps["RoundNumber"] == round]
 
         for lap in range(1, int(df_round["LapNumber"].max()) + 1):
@@ -453,7 +449,7 @@ def main():
 
     current_schedule = f.get_event_schedule(current_season)
     rounds_completed = current_schedule[current_schedule["EventDate"] < datetime.now(
-    )]["RoundNumber"].max()
+        )]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0
@@ -499,10 +495,7 @@ def main():
 
             if Path.is_file(path):
                 # if the file already exists, then don't need to write header again
-                # need to move the cursor onto a new line before appending
-                with open(path, 'a') as csv:
-                    csv.write("\n")
-                    df_transform.to_csv(path, mode="a", header=False)
+                df_transform.to_csv(path, mode="a", index=False, header=False)
             else:
                 df_transform.to_csv(path, index=False)
 
