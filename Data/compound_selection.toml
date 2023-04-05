@@ -132,8 +132,11 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/2023-tyre-compound-choices--bahrain-saudi-arabia-australia/ (Bahrain - Australia)
+# https://press.pirelli.com/2023-tyre-compound-choices--azerbaijan-usa-and-italy/ (Bahrain - Imola)
 
 1 = ["C1","C2","C3"]
 2 = ["C2","C3","C4"]
 3 = ["C2","C3","C4"]
+4 = ["C3","C4","C5"]
+5 = ["C2","C3","C4"]
+6 = ["C3","C4","C5"]
