@@ -326,7 +326,7 @@ def tyre_usage_pie(season, title=None, events=None, drivers=None, slick_only=Tru
     return fig
 
 
-def driver_stats_scatterplot(season, event, drivers=3, y="LapTime", upper_bound=10, absolute_compound=False):
+def driver_stats_scatterplot(season, event, drivers=20, y="LapTime", upper_bound=10, absolute_compound=False):
     """
     Plot driver data during a race
 
