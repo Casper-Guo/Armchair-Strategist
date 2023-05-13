@@ -1,8 +1,8 @@
-fastf1==2.3.0
-matplotlib==3.6.2
-numpy==1.24.1
-pandas==1.5.2
-seaborn==0.12.2
-scipy==1.9.3
-tomli==2.0.1
-tomli-w==1.0.0
+fastf1<3.0.0
+pandas<2.0.0
+matplotlib
+numpy
+seaborn
+scipy
+tomli
+tomli-w
