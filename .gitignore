@@ -15,6 +15,9 @@ main
 /Cache 
 /Graphs
 /env
+/venv
+/test
+/.venv
 
 # checkpoints directory
 /.ipynb_checkpoints
