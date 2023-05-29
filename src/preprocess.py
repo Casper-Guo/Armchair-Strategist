@@ -51,6 +51,7 @@ def update_data(season, path):
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
     newest_round = num_rounds[season]
     all_rounds = set(range(1, newest_round + 1))
+
     missing_rounds = all_rounds.difference(loaded_rounds)
 
     if not missing_rounds:
@@ -65,7 +66,13 @@ def update_data(season, path):
 
     for i in missing_rounds:
         race = f.get_session(2023, i, 'R')
-        race.load()
+
+        try:
+            race.load()
+        except:
+            # Handles FastF1 errors
+            print(f"Cannot load {race}")
+
         laps = race.laps
         laps["RoundNumber"] = i
         laps["EventName"] = schedule.loc[schedule["RoundNumber"]
@@ -234,7 +241,7 @@ def convert_compound(df_laps):
 
 def add_pos(df_laps):
     df_laps["Position"] = pd.Series(dtype="int")
-    
+
     for round in range(int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1):
         df_round = df_laps[df_laps["RoundNumber"] == round]
 
@@ -449,7 +456,7 @@ def main():
 
     current_schedule = f.get_event_schedule(current_season)
     rounds_completed = current_schedule[current_schedule["EventDate"] < datetime.now(
-        )]["RoundNumber"].max()
+    )]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0
