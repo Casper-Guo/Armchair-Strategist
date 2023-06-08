@@ -132,13 +132,15 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/2023-tyre-compound-choices--monaco-and-spain/ (Bahrain - Spain)
+# https://press.pirelli.com/2023-tyre-compound-choices--canada-austria-and-great-britain/ (Bahrain - Great Britain)
 
-1 = ["C1","C2","C3"]
-2 = ["C2","C3","C4"]
-3 = ["C2","C3","C4"]
-4 = ["C3","C4","C5"]
-5 = ["C2","C3","C4"]
-6 = ["C3","C4","C5"]
-7 = ["C3","C4","C5"]
-8 = ["C1","C2","C3"]
+1  = ["C1","C2","C3"]
+2  = ["C2","C3","C4"]
+3  = ["C2","C3","C4"]
+4  = ["C3","C4","C5"]
+5  = ["C2","C3","C4"]
+6  = ["C3","C4","C5"]
+7  = ["C1","C2","C3"]
+8  = ["C3","C4","C5"]
+9  = ["C3","C4","C5"]
+10 = ["C1","C2","C3"]
