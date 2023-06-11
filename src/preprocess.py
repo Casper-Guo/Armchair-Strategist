@@ -25,12 +25,11 @@ def load_all_data(season, path):
     schedule = f.get_event_schedule(season)
 
     for i in range(1, num_rounds[season] + 1):
-        race = f.get_session(season, i, 'R')
+        race = f.get_session(season, i, "R")
         race.load()
         laps = race.laps
         laps["RoundNumber"] = i
-        laps["EventName"] = schedule[schedule["RoundNumber"]
-                                     == i]["EventName"].item()
+        laps["EventName"] = schedule[schedule["RoundNumber"] == i]["EventName"].item()
         race_dfs.append(laps)
 
     if race_dfs:
@@ -65,7 +64,7 @@ def update_data(season, path):
     race_dfs = []
 
     for i in missing_rounds:
-        race = f.get_session(2023, i, 'R')
+        race = f.get_session(2023, i, "R")
 
         try:
             race.load()
@@ -75,13 +74,14 @@ def update_data(season, path):
 
         laps = race.laps
         laps["RoundNumber"] = i
-        laps["EventName"] = schedule.loc[schedule["RoundNumber"]
-                                         == i]["EventName"].item()
+        laps["EventName"] = schedule.loc[schedule["RoundNumber"] == i][
+            "EventName"
+        ].item()
         race_dfs.append(laps)
 
     all_laps = pd.concat(race_dfs, ignore_index=True)
 
-    all_laps.to_csv(path, mode='a', index=False, header=False)
+    all_laps.to_csv(path, mode="a", index=False, header=False)
 
     print(f"Finished updating {season} season data.")
     return None
@@ -95,26 +95,43 @@ def read_csv(path):
     csv file located at path location is derived from a fastf1 laps object
     """
 
-    return pd.read_csv(path,
-                       header=0,
-                       true_values=["TRUE"],
-                       false_values=["FALSE"],
-                       usecols=["Time", "DriverNumber", "LapTime", "LapNumber", "Stint",
-                                "PitOutTime", "PitInTime", "IsPersonalBest", "Compound", "TyreLife", "FreshTyre",
-                                "Team", "Driver", "TrackStatus", "IsAccurate", "RoundNumber",
-                                "EventName"]
-                       )
+    return pd.read_csv(
+        path,
+        header=0,
+        true_values=["TRUE"],
+        false_values=["FALSE"],
+        usecols=[
+            "Time",
+            "DriverNumber",
+            "LapTime",
+            "LapNumber",
+            "Stint",
+            "PitOutTime",
+            "PitInTime",
+            "IsPersonalBest",
+            "Compound",
+            "TyreLife",
+            "FreshTyre",
+            "Team",
+            "Driver",
+            "TrackStatus",
+            "IsAccurate",
+            "RoundNumber",
+            "EventName",
+        ],
+    )
 
 
 def correct_dtype(df_laps):
     """
-    Requires: 
+    Requires:
     df_laps has the following columns: ["Time", "LapTime", "PitInTime", "PitOutTime", "IsPersonalBest"]
     """
 
     # convert from object (string) to timedelta
-    df_laps[["Time", "LapTime", "PitInTime", "PitOutTime"]] = df_laps[[
-        "Time", "LapTime", "PitInTime", "PitOutTime"]].apply(pd.to_timedelta)
+    df_laps[["Time", "LapTime", "PitInTime", "PitOutTime"]] = df_laps[
+        ["Time", "LapTime", "PitInTime", "PitOutTime"]
+    ].apply(pd.to_timedelta)
     df_laps["LapTime"] = df_laps["LapTime"].apply(lambda x: x.total_seconds())
 
     # convert from object (string) to bool
@@ -180,7 +197,7 @@ def add_compound_name(df_laps, compound_selection, season):
     df_laps has the following columns: ["Compound", "RoundNumber"]
 
     Assumes:
-        - all data contained in compound_selection is from the same season 
+        - all data contained in compound_selection is from the same season
         - df_laps contain data from the same season as compound_selection
     """
     if season == 2018:
@@ -195,11 +212,15 @@ def add_compound_name(df_laps, compound_selection, season):
             if row.loc["Compound"] not in compound_to_index:
                 return row.loc["Compound"]
             else:
-                return compound_selection[str(row.loc["RoundNumber"])][compound_to_index[row.loc["Compound"]]]
+                return compound_selection[str(row.loc["RoundNumber"])][
+                    compound_to_index[row.loc["Compound"]]
+                ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
-            print("Compound selection record is missing for round " +
-                  str(row.loc["RoundNumber"]))
+            print(
+                "Compound selection record is missing for round "
+                + str(row.loc["RoundNumber"])
+            )
 
             # terminate cell
             assert False
@@ -225,11 +246,17 @@ def convert_compound(df_laps):
             if row.loc["Compound"] not in visual_config["slick_names"]["18"]:
                 return row.loc["Compound"]
             else:
-                return index_to_compound[compounds_2018[str(row.loc["RoundNumber"])].index(row.loc["Compound"])]
+                return index_to_compound[
+                    compounds_2018[str(row.loc["RoundNumber"])].index(
+                        row.loc["Compound"]
+                    )
+                ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
-            print("Compound selection record is missing for 2018 season round " +
-                  str(row.loc["RoundNumber"]))
+            print(
+                "Compound selection record is missing for 2018 season round "
+                + str(row.loc["RoundNumber"])
+            )
 
             # terminate cell
             assert False
@@ -242,12 +269,13 @@ def convert_compound(df_laps):
 def add_pos(df_laps):
     df_laps["Position"] = pd.Series(dtype="int")
 
-    for round in range(int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1):
+    for round in range(
+        int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1
+    ):
         df_round = df_laps[df_laps["RoundNumber"] == round]
 
         for lap in range(1, int(df_round["LapNumber"].max()) + 1):
-            ranks = df_round[df_round["LapNumber"]
-                             == lap]["Time"].rank(method="first")
+            ranks = df_round[df_round["LapNumber"] == lap]["Time"].rank(method="first")
             df_laps.loc[ranks.index, "Position"] = ranks.values
 
     return df_laps
@@ -260,7 +288,9 @@ def add_is_valid(df_laps):
     """
 
     def check_lap_valid(row):
-        return row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
+        return (
+            row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
+        )
 
     df_laps["IsValid"] = df_laps.apply(check_lap_valid, axis=1)
 
@@ -277,8 +307,9 @@ def find_rep_times(df_laps):
     rep_times = {}
 
     for round_number in rounds:
-        median = df_laps[(df_laps["RoundNumber"] == round_number) & (
-            df_laps["IsValid"] == True)]["LapTime"].median()
+        median = df_laps[
+            (df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"] == True)
+        ]["LapTime"].median()
         rep_times[round_number] = round(median, 3)
 
     return rep_times
@@ -315,8 +346,10 @@ def find_fastest_times(df_laps):
     fastest_times = {}
 
     for round_number in rounds:
-        fastest = df_laps[(df_laps["RoundNumber"] == round_number) & (
-            df_laps["IsPersonalBest"] == True)]["LapTime"].min()
+        fastest = df_laps[
+            (df_laps["RoundNumber"] == round_number)
+            & (df_laps["IsPersonalBest"] == True)
+        ]["LapTime"].min()
         fastest_times[round_number] = round(fastest, 3)
 
     return fastest_times
@@ -357,8 +390,9 @@ def find_lap_reps(df_laps):
         lap_numbers = round_laps["LapNumber"].unique()
 
         for lap_number in lap_numbers:
-            median = round_laps[round_laps["LapNumber"]
-                                == lap_number]["LapTime"].median()
+            median = round_laps[round_laps["LapNumber"] == lap_number][
+                "LapTime"
+            ].median()
             round_lap_reps[lap_number] = round(median, 3)
 
         lap_reps[round_number] = round_lap_reps
@@ -375,12 +409,17 @@ def add_lap_rep_deltas(df_laps):
     lap_reps = find_lap_reps(df_laps)
 
     def delta_to_lap_rep(row):
-        return row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+        return (
+            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+        )
 
     def pct_from_lap_rep(row):
-        delta = row.loc["LapTime"] - \
-            lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
-        return round(delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3)
+        delta = (
+            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+        )
+        return round(
+            delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3
+        )
 
     df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
     df_laps["PctFromLapRep"] = df_laps.apply(pct_from_lap_rep, axis=1)
@@ -390,12 +429,12 @@ def add_lap_rep_deltas(df_laps):
 
 def find_diff(items):
     """
-    Find the rows present in all_laps but missing in transformed_laps 
+    Find the rows present in all_laps but missing in transformed_laps
     for a given season
 
     Args:
         items: list
-        list derived from a dict_items object containing all key value 
+        list derived from a dict_items object containing all key value
         pairs in a key in the return value of load_laps()
 
         i.e all dataframes associated with a certain F1 season
@@ -440,7 +479,8 @@ def find_diff(items):
             print("transformed_laps is up-to-date")
         else:
             print(
-                F"{num_row_all - num_row_transformed} rows will be added to transformed_laps")
+                f"{num_row_all - num_row_transformed} rows will be added to transformed_laps"
+            )
 
         return diff.iloc[num_row_transformed:]
     else:
@@ -455,14 +495,19 @@ def main():
     load_seasons = list(range(2018, current_season + 1))
 
     current_schedule = f.get_event_schedule(current_season)
-    rounds_completed = current_schedule[current_schedule["EventDate"] < datetime.now(
-    )]["RoundNumber"].max()
+    rounds_completed = current_schedule[current_schedule["EventDate"] < datetime.now()][
+        "RoundNumber"
+    ].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0
 
-    print((f"Correctness Check: {rounds_completed} rounds of the {current_season} "
-           "season have been completed"))
+    print(
+        (
+            f"Correctness Check: {rounds_completed} rounds of the {current_season} "
+            "season have been completed"
+        )
+    )
     num_rounds[current_season] = rounds_completed
 
     for season in load_seasons:
@@ -484,10 +529,7 @@ def main():
 
         if df_transform.shape[0] != 0:
             add_is_slick(season, df_transform)
-            add_compound_name(df_transform,
-                              compound_selection[str(season)],
-                              season
-                              )
+            add_compound_name(df_transform, compound_selection[str(season)], season)
 
             if season == 2018:
                 convert_compound(df_transform)

@@ -10,7 +10,7 @@ def main():
     f.Cache.enable_cache(cache_path)
 
     # plotting setup
-    sns.set(rc={"figure.dpi": 300, 'savefig.dpi': 300})
+    sns.set(rc={"figure.dpi": 300, "savefig.dpi": 300})
     plt.style.use("dark_background")
 
     # Suppress pandas SettingWithCopy warning
@@ -22,5 +22,5 @@ def main():
     # Visualizations below
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
