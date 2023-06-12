@@ -1,3 +1,5 @@
+"""Load and transform F1 data from the FastF1 API."""
+
 import tomli
 import fastf1 as f
 import pandas as pd
@@ -86,7 +88,7 @@ def update_data(season: int, path: Path):
         try:
             race.load()
         except:
-            # Handles FastF1 errors
+            # TODO: Proper handling of FastF1 errors
             print(f"Cannot load {race}")
 
         laps = race.laps
@@ -104,7 +106,7 @@ def update_data(season: int, path: Path):
     return None
 
 
-def read_csv(path: Path):
+def read_csv(path: Path) -> pd.DataFrame:
     """Read csv file at path location and filter for relevant columns.
 
     Requires:
@@ -112,6 +114,9 @@ def read_csv(path: Path):
 
     Args:
         path: The path to the csv file containing partial season data.
+
+    Returns:
+        A pandas dataframe object.
     """
     return pd.read_csv(
         path,
@@ -141,11 +146,24 @@ def read_csv(path: Path):
 
 
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """
-    Requires:
-    df_laps has the following columns: ["Time", "LapTime", "PitInTime", "PitOutTime", "IsPersonalBest"]
-    """
+    """Fix columns with incorrect data types or missing values.
 
+    Requires:
+        df_laps has the following columns: [`Time`,
+                                            `LapTime`,
+                                            `PitInTime`,
+                                            `PitOutTime`,
+                                            `IsPersonalBest`
+                                            ]
+
+    Effects:
+        - Cast all timing columns to timedelta type
+        - Convert the `LapTime` column to integer type
+        - Infer missing `IsPersonalBest` values as False
+
+    Returns:
+        The transformed dataframe.
+    """
     # convert from object (string) to timedelta
     df_laps[["Time", "LapTime", "PitInTime", "PitOutTime"]] = df_laps[
         ["Time", "LapTime", "PitInTime", "PitOutTime"]
@@ -160,13 +178,33 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def fill_compound(df_laps):
+def fill_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Infer missing `Compound` values as `UNKNOWN`.
+
+    Requires:
+        df_laps has the `Compound` column.
+    """
     df_laps["Compound"] = df_laps["Compound"].fillna(value="UNKNOWN")
 
     return df_laps
 
 
-def load_laps():
+def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
+    """Parse a directory and load all available data csvs.
+
+    Examples:
+        - all_laps_2023.csv
+        - all_laps_2022.csv
+        - transformed_laps_2022.csv
+        - transformed_laps_2021.csv
+
+        reads to
+        {
+            2023: {"all": df}
+            2022: {"all": df, "transformed": df}
+            2021: {"transformed": df}
+        }
+    """
     df_dict = {}
 
     for file in Path.iterdir(root_path / "Data"):
@@ -191,12 +229,17 @@ def load_laps():
     return df_dict
 
 
-def add_is_slick(season, df_laps):
-    """
-    Requires:
-    df_laps has the following column: ["Compound"]
-    """
+def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add a `IsSlick` column to df_laps in place.
 
+    All compounds that are not intermediate or wet are considered slick.
+
+    Requires:
+        df_laps has the `Compound` column.
+
+    Returns:
+        The modified dataframe.
+    """
     slick_names = []
 
     if season == 2018:
@@ -206,17 +249,27 @@ def add_is_slick(season, df_laps):
 
     df_laps["IsSlick"] = df_laps["Compound"].apply(lambda x: x in slick_names)
 
-    return None
+    return df_laps
 
 
-def add_compound_name(df_laps, compound_selection, season):
-    """
+def add_compound_name(
+    df_laps: pd.DataFrame,
+    compound_selection: dict[str, dict[str, list[str]]],
+    season: int,
+) -> pd.DataFrame:
+    """Infer the underlying compound names and add it to df_laps in place.
+
+    Args:
+        df_laps: A pandas dataframe containing data from a single season.
+        compound_selection: The underlying slick compounds selection
+        by Grand Prix round number, in the order from the softest to hardest.
+        season: The season to which df_laps and compound_selection refer to.
+
     Requires:
-    df_laps has the following columns: ["Compound", "RoundNumber"]
+        df_laps has the following columns: [`Compound`, `RoundNumber`]
 
-    Assumes:
-        - all data contained in compound_selection is from the same season
-        - df_laps contain data from the same season as compound_selection
+    Returns:
+        The modified dataframe.
     """
     if season == 2018:
         df_laps["CompoundName"] = df_laps["Compound"]
@@ -248,13 +301,32 @@ def add_compound_name(df_laps, compound_selection, season):
     return df_laps
 
 
-def convert_compound(df_laps):
-    """
-    Requires:
-        df_laps must be the 2018 dataset
-        df_laps has the following columns: ["Compound", "RoundNumber"]
-    """
+def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add the relative compound names (SOFT, MEDIUM, HARD) to 2018 data in place.
 
+    The 2018 data only has the underlying compound names (ultrasoft etc.)
+    but sometimes we want access to the relative compound names as well.
+
+    Args:
+        df_laps: A pandas dataframe containing data from the 2018 season.
+
+    Requires:
+        df_laps has the following columns: [1Compound1, `RoundNumber`].
+
+    Example:
+        2018 round 1 uses the following compound selection:
+        ["ULTRASOFT", "SUPERSOFT", "SOFT"]
+        So the following mapping is applied:
+        {
+            "ULTRASOFT": "SOFT",
+            "SUPERSOFT": "MEDIUM",
+            "SOFT": "HARD"
+        }
+
+    Returns:
+        The 2018 dataframe, with the `Compound` column overwritten
+        with relative compound names.
+    """
     compounds_2018 = compound_selection["2018"]
 
     def convert_compound(row):
@@ -271,12 +343,12 @@ def convert_compound(df_laps):
                 ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
+            # TODO: raise a custom exception
             print(
                 "Compound selection record is missing for 2018 season round "
                 + str(row.loc["RoundNumber"])
             )
 
-            # terminate cell
             assert False
 
     df_laps["Compound"] = df_laps.apply(convert_compound, axis=1)
@@ -284,7 +356,9 @@ def convert_compound(df_laps):
     return df_laps
 
 
-def add_pos(df_laps):
+def add_pos(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Infer position at the end of each lap."""
+    # TODO: deprecate this function
     df_laps["Position"] = pd.Series(dtype="int")
 
     for round in range(
@@ -301,10 +375,16 @@ def add_pos(df_laps):
     return df_laps
 
 
-def add_is_valid(df_laps):
-    """
+def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add a `IsValid` column in place to identify fast laps.
+
+    A valid lap is defined as one that is:
+        - ran on slick tyres
+        - fits FastF1's definition for accurate laps
+        - ran under green flag conditions
+
     Requires:
-    df_laps has the following columns: ["IsSlick", "IsAccurate", "TrackStatus"]
+        df_laps has the following columns: [`IsSlick`, `IsAccurate`, `TrackStatus`]
     """
 
     def check_lap_valid(row):
@@ -317,31 +397,35 @@ def add_is_valid(df_laps):
     return df_laps
 
 
-def find_rep_times(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "IsValid", "LapTime"]
-    """
+def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
+    """Find the medians of all valid laptimes by round number.
 
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `IsValid`, `LapTime`]
+    """
     rounds = df_laps["RoundNumber"].unique()
     rep_times = {}
 
     for round_number in rounds:
         median = df_laps[
-            (df_laps["RoundNumber"] == round_number) & (
-                df_laps["IsValid"] == True)
+            (df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"])
         ]["LapTime"].median()
         rep_times[round_number] = round(median, 3)
 
     return rep_times
 
 
-def add_rep_deltas(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "IsValid", "LapTime"]
-    """
+def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add two columns that calculate the difference to the representative lap time.
 
+    `DeltaToRep` contains the difference to therepresentative lap time in second.
+
+    `PctFromRep` contains the difference to the representative lap time
+    as a percentage of the representative lap time.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `LapTime`]
+    """
     rep_times = find_rep_times(df_laps)
 
     def delta_to_rep(row):
@@ -357,31 +441,39 @@ def add_rep_deltas(df_laps):
     return df_laps
 
 
-def find_fastest_times(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "IsPersonalBest", "LapTime"]
-    """
+def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
+    """Find the fastest, non-deleted lap times by round.
 
+    The fastest lap time per round is inferred by taking the min of
+    individual drivers' fastest laps, which already exclude deleted lap times.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `IsPersonalBest`, `LapTime`]
+    """
     rounds = df_laps["RoundNumber"].unique()
     fastest_times = {}
 
     for round_number in rounds:
         fastest = df_laps[
-            (df_laps["RoundNumber"] == round_number)
-            & (df_laps["IsPersonalBest"] == True)
+            (df_laps["RoundNumber"] == round_number) & (
+                df_laps["IsPersonalBest"])
         ]["LapTime"].min()
         fastest_times[round_number] = round(fastest, 3)
 
     return fastest_times
 
 
-def add_fastest_deltas(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "IsPersonalBest", "LapTime"]
-    """
+def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add two columns that calculate the difference to the fastest lap time.
 
+    `DeltaToFastest` contains the difference to the fastest lap time in second.
+
+    `PctFromFastest` contains the difference to the fastest lap time as a
+    percentage of the fastest lap time.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `LapTime`]
+    """
     fastest_times = find_fastest_times(df_laps)
 
     def delta_to_fastest(row):
@@ -397,12 +489,15 @@ def add_fastest_deltas(df_laps):
     return df_laps
 
 
-def find_lap_reps(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "LapNumber", "IsValid", "LapTime"]
-    """
+def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
+    """Find the median lap times for every lap.
 
+    Requires:
+        df_laps has the following columns: [`RoundNumber`,
+                                            `LapNumber`,
+                                            `IsValid`,
+                                            `LapTime`]
+    """
     lap_reps = {}
 
     for round_number in df_laps["RoundNumber"].unique():
@@ -421,12 +516,17 @@ def find_lap_reps(df_laps):
     return lap_reps
 
 
-def add_lap_rep_deltas(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["RoundNumber", "LapNumber", "IsValid", "LapTime"]
-    """
+def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Add two columns that calculate the difference to the lap representative time.
 
+    `DeltaToLapRep` contains the difference to the lap rep time in second.
+
+    `PctFromLapRep` contains the difference to the lap rep time as a
+    percentage of the lap rep time.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `LapTime`]
+    """
     lap_reps = find_lap_reps(df_laps)
 
     def delta_to_lap_rep(row):
@@ -451,23 +551,21 @@ def add_lap_rep_deltas(df_laps):
     return df_laps
 
 
-def find_diff(items):
-    """
-    Find the rows present in all_laps but missing in transformed_laps
-    for a given season
+def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
+    """Find the rows present in all_laps but missing in transformed_laps.
 
     Args:
-        items: list
-        list derived from a dict_items object containing all key value
-        pairs in a key in the return value of load_laps()
-
-        i.e all dataframes associated with a certain F1 season
+        items: list of key value pairs where:
+        the key is the type of the dataframe (either all or transformed)
+        the value is the dataframe object
 
     Assumes:
-        all_laps have at least as many rows as transformed_laps
-        The ith row in transformed_laps correspond to the ith row in all_laps
-    """
+        - all_laps have at least as many rows as transformed_laps
+        - The ith row in transformed_laps correspond to the ith row in all_laps
 
+    Returns:
+        The part of all_laps that is missing in transformed_laps.
+    """
     if len(items) == 1:
         # If there is only one pair, the key should be "all"
         assert items[0][0] == "all"
@@ -503,7 +601,10 @@ def find_diff(items):
             print("transformed_laps is up-to-date")
         else:
             print(
-                f"{num_row_all - num_row_transformed} rows will be added to transformed_laps"
+                (
+                    f"{num_row_all - num_row_transformed}"
+                    "rows will be added to transformed_laps"
+                )
             )
 
         return diff.iloc[num_row_transformed:]
@@ -512,6 +613,7 @@ def find_diff(items):
 
 
 def main():
+    """Load and transform all newly available data."""
     Path.mkdir(cache_path, exist_ok=True)
     f.Cache.enable_cache(cache_path)
     Path.mkdir(data_path, exist_ok=True)

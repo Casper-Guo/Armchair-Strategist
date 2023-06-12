@@ -20,5 +20,5 @@ repos:
       - id: flake8
         args:
           - --max-line-length=88
-          - --max-doc-length=88
+          - --max-doc-length=96
           - --ignore=E203,W503,D
