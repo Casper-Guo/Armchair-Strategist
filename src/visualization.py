@@ -386,7 +386,6 @@ def driver_stats_scatterplot(
             If a list is used, it should contain the three letter abbreviations
             of the drivers to be plotted
             If a int is used, the top {int} drivers' strategies will be plotted
-            If None, all drivers are plotted
             By default, only the podium finishers are plotted
 
         y: str, default: LapTime
@@ -417,9 +416,6 @@ def driver_stats_scatterplot(
 
     args = plot_args(season, absolute_compound)
     included_laps = df_dict[season]
-
-    if drivers is None:
-        drivers = 20
 
     if isinstance(drivers, int):
         drivers = included_laps[included_laps["RoundNumber"] == round_number][
@@ -502,7 +498,7 @@ def driver_stats_scatterplot(
     return fig
 
 
-def driver_stats_lineplot(season, event, drivers=3, y="Position", upper_bound=10):
+def driver_stats_lineplot(season, event, drivers=20, y="Position", upper_bound=10):
     """
     Plot driver data during a race
 
@@ -518,7 +514,6 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position", upper_bound=10
             If a list is used, it should contain the three letter abbreviations
             of the drivers to be plotted
             If a int is used, the top {int} drivers' strategies will be plotted
-            If None, all drivers are plotted
             By default, only the podium finishers are plotted
 
         y: str, default: Position
@@ -531,22 +526,12 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position", upper_bound=10
     """
 
     plt.style.use("dark_background")
-    fontdict = {
-        "fontsize": rcParams["axes.titlesize"],
-        "fontweight": rcParams["axes.titleweight"],
-        "color": rcParams["axes.titlecolor"],
-        "verticalalignment": "baseline",
-        "horizontalalignment": "center",
-    }
 
     event_info = f.get_event(season, event)
     round_number = event_info["RoundNumber"]
     event_name = event_info["EventName"]
 
     included_laps = df_dict[season]
-
-    if drivers is None:
-        drivers = 20
 
     if isinstance(drivers, int):
         drivers = included_laps[included_laps["RoundNumber"] == round_number][
@@ -585,6 +570,104 @@ def driver_stats_lineplot(season, event, drivers=3, y="Position", upper_bound=10
             fontsize=12,
         )
         sns.despine(left=True, bottom=True)
+
+    fig.suptitle(t=f"{season} {event_name}", fontsize=20)
+    plt.show()
+
+    return fig
+
+
+def driver_stats_distplot(
+    season,
+    event,
+    drivers=10,
+    y="LapTime",
+    upper_bound=10,
+    swarm=True,
+    absolute_compound=False,
+):
+    """
+    Plot driver data during a race
+
+    Args:
+        season: int
+            Championship season
+
+        event: int or str
+            Round number or name of the event
+            Name is fuzzy matched by fastf1.get_event()
+
+        drivers: list or int, default:3
+            If a list is used, it should contain the three letter abbreviations
+            of the drivers to be plotted
+            If a int is used, the top {int} drivers' strategies will be plotted
+            If None, all drivers are plotted
+            By default, only the podium finishers are plotted
+
+        y: str, default: Position
+            Name of the column to be used as the y-axis.
+
+        upper_bound: int, default: 10
+            Only laps whose lap time is no more than <upper_bound>% slower than the fastest lap time will be plotted.
+
+    Returns: Figure
+    """
+
+    plt.style.use("dark_background")
+
+    event_info = f.get_event(season, event)
+    round_number = event_info["RoundNumber"]
+    event_name = event_info["EventName"]
+
+    included_laps = df_dict[season]
+
+    if isinstance(drivers, int):
+        drivers = included_laps[included_laps["RoundNumber"] == round_number][
+            "Driver"
+        ].unique()[:drivers]
+
+    included_laps = filter_round_driver_upper(
+        included_laps, round_number, drivers, upper_bound
+    )
+
+    # Adjust plot size based on number of drivers plotted
+    fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 8))
+    args = plot_args(season, absolute_compound)
+
+    driver_colors = [pick_driver_color(driver) for driver in drivers]
+    sns.violinplot(
+        data=included_laps,
+        x="Driver",
+        y=y,
+        inner=None,
+        scale="area",
+        palette=driver_colors,
+    )
+
+    if swarm:
+        sns.swarmplot(
+            data=included_laps,
+            x="Driver",
+            y=y,
+            hue=args[0],
+            palette=args[1],
+            linewidth=0,
+            size=5,
+        )
+
+    handles, labels = ax.get_legend_handles_labels()
+    order = find_legend_order(labels)
+    ax.legend(
+        handles=[handles[idx] for idx in order],
+        labels=[labels[idx] for idx in order],
+        loc="best",
+        title=args[0],
+        frameon=True,
+        fontsize=10,
+        framealpha=0.5,
+    )
+
+    ax.grid(visible=False)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     plt.show()
