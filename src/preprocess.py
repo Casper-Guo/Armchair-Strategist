@@ -17,10 +17,16 @@ with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
-def load_all_data(season, path):
-    # assumes there is no data for the season yet
-    # data will be stored at the location specified by path as a csv
+def load_all_data(season: int, path: Path):
+    """Load all available data in a season.
 
+    Assumes:
+        None of the data for the season is already loaded.
+
+    Args:
+        season: The season to load
+        path: The path to a csv file where the data will be stored.
+    """
     race_dfs = []
     schedule = f.get_event_schedule(season)
 
@@ -29,7 +35,8 @@ def load_all_data(season, path):
         race.load()
         laps = race.laps
         laps["RoundNumber"] = i
-        laps["EventName"] = schedule[schedule["RoundNumber"] == i]["EventName"].item()
+        laps["EventName"] = schedule[schedule["RoundNumber"]
+                                     == i]["EventName"].item()
         race_dfs.append(laps)
 
     if race_dfs:
@@ -42,7 +49,17 @@ def load_all_data(season, path):
     return None
 
 
-def update_data(season, path):
+def update_data(season: int, path: Path):
+    """Update the data for a season.
+
+    Assumes:
+        Some of that season's data is already loaded.
+
+    Args:
+        season: The season to update.
+        path: The path to a csv file where some of that season's data
+        should already by loaded.
+    """
     existing_data = pd.read_csv(path, index_col=0, header=0)
 
     schedule = f.get_event_schedule(season)
@@ -87,14 +104,15 @@ def update_data(season, path):
     return None
 
 
-def read_csv(path):
-    """
-    Read csv file at path location and filter for relevant columns
+def read_csv(path: Path):
+    """Read csv file at path location and filter for relevant columns.
 
     Requires:
-    csv file located at path location is derived from a fastf1 laps object
-    """
+        csv file located at path location is derived from a fastf1 laps object.
 
+    Args:
+        path: The path to the csv file containing partial season data.
+    """
     return pd.read_csv(
         path,
         header=0,
@@ -122,7 +140,7 @@ def read_csv(path):
     )
 
 
-def correct_dtype(df_laps):
+def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Requires:
     df_laps has the following columns: ["Time", "LapTime", "PitInTime", "PitOutTime", "IsPersonalBest"]
@@ -270,12 +288,14 @@ def add_pos(df_laps):
     df_laps["Position"] = pd.Series(dtype="int")
 
     for round in range(
-        int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1
+        int(df_laps["RoundNumber"].min()), int(
+            df_laps["RoundNumber"].max()) + 1
     ):
         df_round = df_laps[df_laps["RoundNumber"] == round]
 
         for lap in range(1, int(df_round["LapNumber"].max()) + 1):
-            ranks = df_round[df_round["LapNumber"] == lap]["Time"].rank(method="first")
+            ranks = df_round[df_round["LapNumber"]
+                             == lap]["Time"].rank(method="first")
             df_laps.loc[ranks.index, "Position"] = ranks.values
 
     return df_laps
@@ -308,7 +328,8 @@ def find_rep_times(df_laps):
 
     for round_number in rounds:
         median = df_laps[
-            (df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"] == True)
+            (df_laps["RoundNumber"] == round_number) & (
+                df_laps["IsValid"] == True)
         ]["LapTime"].median()
         rep_times[round_number] = round(median, 3)
 
@@ -410,15 +431,18 @@ def add_lap_rep_deltas(df_laps):
 
     def delta_to_lap_rep(row):
         return (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+            row.loc["LapTime"] -
+            lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
         )
 
     def pct_from_lap_rep(row):
         delta = (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+            row.loc["LapTime"] -
+            lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
         )
         return round(
-            delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3
+            delta / lap_reps[row.loc["RoundNumber"]
+                             ][row.loc["LapNumber"]] * 100, 3
         )
 
     df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
@@ -529,7 +553,8 @@ def main():
 
         if df_transform.shape[0] != 0:
             add_is_slick(season, df_transform)
-            add_compound_name(df_transform, compound_selection[str(season)], season)
+            add_compound_name(
+                df_transform, compound_selection[str(season)], season)
 
             if season == 2018:
                 convert_compound(df_transform)
