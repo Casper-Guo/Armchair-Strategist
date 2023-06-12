@@ -23,13 +23,14 @@ You can use `data_loading.ipynb` and `data_transformation.ipynb` to renew your l
 There are six plotting functions provided in `visualizations.ipynb`. Documentation and examples are provided in the same notebook. Here is an overview:
 
 - `tyre_usage_pie`: Visualize the frequency of compound usage within select races or entire seasons.
-- `driver_stats_scatterplot`: Visualize various driver pace data within a single race.
-- `driver_stats_lineplot`: Visualize various driver pace data within a single race.
-- `strategy_barplot`: Visualize tyre strategies within a single race with SC and VSC periods highlighted.
+- `driver_stats_scatterplot`: Visualize various pace data within a single race as a scatterplot.
+- `driver_stats_lineplot`: Visualize various pace data within a single race as a lineplot.
+- `driver_stats_distplot`: Visualize the distribution of various pace data within a single race as a violin plot with optional swarm plot.
+- `strategy_barplot`: Visualize tyre strategies within a single race with SC and VSC periods highlighted as a barplot.
 - `compounds_lineplot`: Visualize performance over time by compound in multiple races as line plots.
 - `compounds_distribution`: Visualize performance distribution over time by compound in multiple races with either boxplots or violin plots.
 
-There is also a helper function, `add_gap`, for calculating gap to a specific driver which can then be plotted. 
+There is also a helper function, `add_gap`, for calculating gap to a specific driver which can then be plotted.
 
 ### Metrics Definitions
 
