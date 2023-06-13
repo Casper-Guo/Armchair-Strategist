@@ -1,3 +1,5 @@
+"""Plotting functions and other visualization helpers."""
+
 import fastf1 as f
 import fastf1.plotting as p
 import numpy as np
@@ -6,8 +8,11 @@ import seaborn as sns
 import tomli
 from pathlib import Path
 from math import ceil
+import matplotlib
 from matplotlib import rcParams, pyplot as plt
+from typing import TypeAlias, Callable, Literal, Iterable, Optional
 
+Figure: TypeAlias = matplotlib.figure.Figure
 
 root_path = Path(__file__).absolute().parents[1]
 
@@ -22,12 +27,20 @@ with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
-def correct_dtype(df_laps):
-    """
-    Requires:
-    df_laps has the following columns: ["Time", "PitInTime", "PitOutTime", "IsPersonalBest"]
-    """
+def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """Fix incorrectly parsed data types.
 
+    All timing data are cast to timedelta from string.
+    `TrackStatus` is cast to string from int.
+    `FreshTyre` has its missing values filled with UNKNOWN and then cast to string.
+
+    Requires:
+        df_laps has the following columns: [`Time`,
+                                            `PitInTime`,
+                                            `PitOutTime`,
+                                            "TrackStatus`,
+                                            `FreshTyre`]
+    """
     # convert from object (string) to timedelta
     df_laps[["Time", "PitInTime", "PitOutTime"]] = df_laps[
         ["Time", "PitInTime", "PitOutTime"]
@@ -45,7 +58,8 @@ def correct_dtype(df_laps):
     return df_laps
 
 
-def load_laps():
+def load_laps() -> dict[int, pd.DataFrame]:
+    """Load transformed data by season."""
     df_dict = {}
 
     for file in Path.iterdir(root_path / "Data"):
@@ -69,19 +83,26 @@ def load_laps():
 df_dict = load_laps()
 
 
-def find_legend_order(labels):
+def find_legend_order(labels: Iterable[str]) -> list[str]:
+    """Provide the index of a list of compounds sorted from soft to hard.
+
+    Args:
+        labels: A list of string representing the tyre compounds.
+
+    Returns:
+        A list of ints corresponding to the original index of the
+        compound names if they were in sorted order (softest to hardest,
+        slick compounds first).
+
+    Examples:
+        labels = ["MEDIUM", "HARD", "SOFT"]
+        desired = ["SOFT", "MEDIUM", "HARD"]
+        return [2, 0, 1]
+
+        labels = ["C3", "C1", "WET"]
+        desired = ["C1", "C3", "WET"],
+        return [1, 0, 2]
     """
-    Given the list of labels, return a list of int that specifies their appropriate order in the legend
-
-    e.g. labels = ["MEDIUM", "HARD", "SOFT"]
-         desired = ["SOFT", "MEDIUM", "HARD"]
-         return [2, 0, 1]
-
-         labels = ["C3", "C1", "WET"]
-         desired = ["C1", "C3", "WET"],
-         return [1, 0, 2]
-    """
-
     order = []
     old_indices = list(range(len(labels)))
     sorted_labels = []
@@ -102,16 +123,21 @@ def find_legend_order(labels):
         sorted_labels = visual_config["relative"]["labels"]
 
     pos = [sorted_labels.index(label) for label in labels]
-    order = [old_index for sorted_index, old_index in sorted(zip(pos, old_indices))]
+    order = [old_index for _, old_index in sorted(zip(pos, old_indices))]
 
     return order
 
 
-def filter_round_driver(df_laps, round_number, drivers):
-    """
-    Filter by round number and drivers
-    """
+def filter_round_driver(
+    df_laps: pd.DataFrame, round_number: int, drivers: Iterable[str]
+) -> pd.DataFrame:
+    """Filter dataframe by round number and drivers.
 
+    Round number requires exact match.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`, `Driver`]
+    """
     df_laps = df_laps[
         (df_laps["RoundNumber"] == round_number) & (df_laps["Driver"].isin(drivers))
     ]
@@ -119,11 +145,20 @@ def filter_round_driver(df_laps, round_number, drivers):
     return df_laps
 
 
-def filter_round_driver_upper(df_laps, round_number, drivers, upper_bound):
-    """
-    Filter by round number, drivers to include, and lap time upper bound.
-    """
+def filter_round_driver_upper(
+    df_laps: pd.DataFrame,
+    round_number: int,
+    drivers: Iterable[str],
+    upper_bound: int | float,
+) -> pd.DataFrame:
+    """Filter dataframe by round number, drivers, and lap time upper bound.
 
+    Round number requires exact match.
+    Upper bound is given as the percentage difference from the fastest lap.
+
+    Requires:
+        df_laps has the following columnds: [`RoundNumber`, `Driver`, `PctFromFastest`]
+    """
     df_laps = df_laps[
         (df_laps["RoundNumber"] == round_number)
         & (df_laps["Driver"].isin(drivers))
@@ -133,9 +168,21 @@ def filter_round_driver_upper(df_laps, round_number, drivers, upper_bound):
     return df_laps
 
 
-def filter_round_compound_valid_upper(df_laps, round_number, compounds, upper_bound):
-    """
-    Filter by round number, whether lap is valid, and compound name
+def filter_round_compound_valid_upper(
+    df_laps: pd.DataFrame,
+    round_number: int,
+    compounds: Iterable[str],
+    upper_bound: int | float,
+) -> pd.DataFrame:
+    """Filter dataframe by round number, validity, compound names, and lap time upper bound.
+
+    Round number requires exact match.
+
+    Requires:
+        df_laps has the following columns: [`RoundNumber`,
+                                            `IsValid`,
+                                            `Compound`,
+                                            `PctFromFastest`]
     """
     df_laps = df_laps[
         (df_laps["RoundNumber"] == round_number)
@@ -147,19 +194,18 @@ def filter_round_compound_valid_upper(df_laps, round_number, compounds, upper_bo
     return df_laps
 
 
-def plot_args(season, absolute_compound):
-    """
-    Given the input argument, return a list of the corresponding arguments to be supplied to the plotting function
+def plot_args(season: int, absolute_compound: bool) -> tuple:
+    """Get plotting arguments based on the season and compound type.
 
     Args:
-        season: int
-        Championship season
+        season: Championship season
 
-        absolute_compound: bool
-            If true, use absolute compound names (C1, C2 ...) in legend
-            Else, use relative compound names (SOFT, MEDIUM, HARD) in legend
+        absolute_compound: If true, use absolute compound names
+                           (C1, C2 ...) in legend
+                           Else, use relative compound names
+                           (SOFT, MEDIUM, HARD) in legend
 
-    Returns: tuple
+    Returns:
         (hue, palette, marker, labels)
     """
     if absolute_compound:
@@ -186,20 +232,20 @@ def plot_args(season, absolute_compound):
         )
 
 
-def pick_driver_color(driver):
-    # try to use FastF1's driver color
-    # if it is not provided, default to white
+def pick_driver_color(driver: str) -> str:
+    """Find the driver's color.
+
+    If the driver is currently active, use his FastF1 color.
+    Else, default to gray.
+    """
     if p.DRIVER_TRANSLATE.get(driver, "NA") in p.DRIVER_COLORS:
         return p.DRIVER_COLORS[p.DRIVER_TRANSLATE[driver]]
     else:
-        return "#ffffff"
+        return "#808080"
 
 
-def add_gap(season, driver):
-    """
-    Add a column containing the gap to the requested driver at the end of each lap
-    """
-
+def add_gap(season: int, driver: str) -> pd.DataFrame:
+    """Calculate the gap to a certain driver for all laps in a season."""
     df_laps = df_dict[season]
     assert driver.upper() in df_laps["Driver"].unique()
     df_driver = df_laps[df_laps["Driver"] == driver]
@@ -231,7 +277,9 @@ def add_gap(season, driver):
     return df_laps
 
 
-def make_autopct(values):
+def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
+    """Format group sizes as percentages of the total."""
+
     def my_autopct(pct):
         total = sum(values)
 
@@ -243,7 +291,9 @@ def make_autopct(values):
     return my_autopct
 
 
-def get_pie_palette(season, absolute, labels):
+def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[str]:
+    """Get the tyre compound palette needed for the pie chart."""
+    # TODO: Find ways to unify this with plot_args or similar
     if absolute:
         if season == 2018:
             return [
@@ -257,7 +307,8 @@ def get_pie_palette(season, absolute, labels):
         return [visual_config["relative"]["palette"][label] for label in labels]
 
 
-def make_pie_title(season, slick_only):
+def make_pie_title(season: int, slick_only: bool) -> str:
+    """Compose the pie chart title."""
     if slick_only:
         return f"Slick Compound Usage in the {season} Season"
     else:
@@ -265,45 +316,48 @@ def make_pie_title(season, slick_only):
 
 
 def tyre_usage_pie(
-    season,
-    title=None,
-    events=None,
-    drivers=None,
-    slick_only=True,
-    absolute_compound=True,
-):
-    """
-    Visualize tyre usage trends in select races or an entire season with pie chart
+    season: int,
+    title: Optional[str] = None,
+    events: Optional[list[int | str]] = None,
+    drivers: Optional[list[str]] = None,
+    slick_only: bool = True,
+    absolute_compound: bool = True,
+) -> Figure:
+    """Visualize tyre usage trends by compound with a pie chart.
+
+    The keyword arguments configure the range of data from which
+    the tyre usage frequency is calculated.
 
     Args:
-        season: int {2021, 2022}
-            Championship season
+        season: Championship season
 
-        title: str, default:None
-            Use the default argument to get an automatically formatted title
-            (Only available when events and drivers are both None)
+        title: Use default argument to use an automatically formatted title.
+        Only available when events and drivers are None.
 
-        events: list, default: None
-            A list containing the round number (as int) or the names of events
-            e.g. [1, "Hungary", "British Grand Prix", "Monza"]
-            Name fuzzy matching provided by fastf1.get_event()
-            Using the default value will select all events
+        events: A list containing the round numbers (as int) or the names of events.
+        Examples: [1, "Hungary", "British Grand Prix", "Monza"]
+        Name fuzzy matched by fastf1.get_event().
+        Leave empty will select all events in the season.
 
-        drivers: list, default:None
-            A list containing three-letter driver abbreviations
-            e.g. ["VER", "HAM"]
-            Using the default value will select all drivers
+        drivers: A list containing three-letter driver abbreviations.
+        Examples: ["VER", "HAM"]
+        Leave empty to select all drivers.
 
-        slick_only: bool, default:True
-            If true, only laps raced on slick tyres are counted
-            If false, all laps are counted
+        slick_only: If true, only laps raced on slick tyres are counted.
+        If false, all laps are counted.
 
-        absolute_compound: bool, default:True
-            If true, group tyres by their absolute compound names (C1, C2 etc.)
-            If false, group tyres by their names in the respective events (SOFT, MEDIUM, HARD)
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-    Returns: Figure object
+    Examples:
+        Using the following arguments:
+            events = [1, 2, 3, 4, 5]
+            drivers = ["VER", "HAM"]
+            slick_only = True
+        Will plot the tyre compounds used by Hamilton and Verstappan
+        in the first 5 Grand Prix only.
     """
+    # TODO: use kwargs for optional arguments
     included_laps = df_dict[season]
 
     if title is None and events is None and drivers is None:
@@ -323,7 +377,7 @@ def tyre_usage_pie(
         drivers = pd.unique(included_laps["Driver"])
 
     if slick_only:
-        included_laps = included_laps[included_laps["IsSlick"] == True]
+        included_laps = included_laps[included_laps["IsSlick"]]
 
     included_laps = included_laps[
         (included_laps["RoundNumber"].isin(events))
@@ -369,38 +423,34 @@ def tyre_usage_pie(
 
 
 def driver_stats_scatterplot(
-    season, event, drivers=20, y="LapTime", upper_bound=10, absolute_compound=False
-):
-    """
-    Plot driver data during a race
+    season: int,
+    event: int | str,
+    drivers: Iterable[str] | int = 20,
+    y: str = "LapTime",
+    upper_bound: int | float = 10,
+    absolute_compound: bool = False,
+) -> Figure:
+    """Visualize driver data during a race as a scatterplot.
 
     Args:
-        season: int
-            Championship season
+        season: Championship season
 
-        event: int or str
-            Round number or name of the event
-            Name is fuzzy matched by fastf1.get_event()
+        event: Round number or name of the event.
+        Name is fuzzy matched by fastf1.get_event().
 
-        drivers: list or int, default:3
-            If a list is used, it should contain the three letter abbreviations
-            of the drivers to be plotted
-            If a int is used, the top {int} drivers' strategies will be plotted
-            By default, only the podium finishers are plotted
+        drivers: If a list is used, it should contain the three
+        letter abbreviations of the drivers to be plotted.
+        If a int is used, the top # drivers' strategies will be plotted.
+        By default, only the podium finishers are plotted.
 
-        y: str, default: LapTime
-            Name of the column to be used as the y-axis.
+        y: Name of the column to be used as the y-axis.
 
-        upper_bound: float, default: 10
-            The upper bound on PctFromFastest for included laps
+        upper_bound: The upper bound on included laps as a percentage of the fastest lap.
+        By default, only laps that are within 110% of the fastest lap are plotted.
 
-            e.g. By default, only laps that are no more than 10% slower than the fastest lap are plotted
-
-        absolute_compound: bool, default: False
-
-    Returns: Figure
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-
     plt.style.use("dark_background")
     fontdict = {
         "fontsize": rcParams["axes.titlesize"],
@@ -456,7 +506,8 @@ def driver_stats_scatterplot(
             "LapNumber"
         ].to_numpy()
 
-        # After pitstops are identified, we can filter out laps that doesn't meet the upper_bound
+        # After pitstops are identified,
+        # filter out laps that doesn't meet the upper_bound
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
         if driver_laps.shape[0] < 5:
@@ -498,33 +549,35 @@ def driver_stats_scatterplot(
     return fig
 
 
-def driver_stats_lineplot(season, event, drivers=20, y="Position", upper_bound=10):
-    """
-    Plot driver data during a race
+def driver_stats_lineplot(
+    season: int,
+    event: int | str,
+    drivers: Iterable[str] | int = 3,
+    y: str = "Position",
+    upper_bound: int | float = 10,
+    grid: Literal["both", "x", "y"] | None = None,
+) -> Figure:
+    """Visualize driver data during a race as a lineplot.
 
     Args:
-        season: int
-            Championship season
+        season: Championship season
 
-        event: int or str
-            Round number or name of the event
-            Name is fuzzy matched by fastf1.get_event()
+        event: Round number or name of the event.
+        Name is fuzzy matched by fastf1.get_event().
 
-        drivers: list or int, default:3
-            If a list is used, it should contain the three letter abbreviations
-            of the drivers to be plotted
-            If a int is used, the top {int} drivers' strategies will be plotted
-            By default, only the podium finishers are plotted
+        drivers: If a list is used, it should contain the three
+        letter abbreviations of the drivers to be plotted.
+        If a int is used, the top # drivers' strategies will be plotted.
+        By default, only the podium finishers are plotted.
 
-        y: str, default: Position
-            Name of the column to be used as the y-axis.
+        y: Name of the column to be used as the y-axis.
 
-        upper_bound: int, default: 10
-            Only laps whose lap time is no more than <upper_bound>% slower than the fastest lap time will be plotted.
+        upper_bound: The upper bound on included laps as a percentage of the fastest lap.
+        By default, only laps that are within 110% of the fastest lap are plotted.
 
-    Returns: Figure
+        grid: Provided to plt.grid() axis argument.
+        Leave empty to plot no grid.
     """
-
     plt.style.use("dark_background")
 
     event_info = f.get_event(season, event)
@@ -559,7 +612,6 @@ def driver_stats_lineplot(season, event, drivers=20, y="Position", upper_bound=1
         sns.lineplot(
             driver_laps, x="LapNumber", y=y, ax=ax, color=driver_color, errorbar=None
         )
-        plt.grid(axis="x")
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
@@ -571,6 +623,9 @@ def driver_stats_lineplot(season, event, drivers=20, y="Position", upper_bound=1
         )
         sns.despine(left=True, bottom=True)
 
+    if grid in ["both", "x", "y"]:
+        plt.grid(axis=grid)
+
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     plt.show()
 
@@ -578,41 +633,37 @@ def driver_stats_lineplot(season, event, drivers=20, y="Position", upper_bound=1
 
 
 def driver_stats_distplot(
-    season,
-    event,
-    drivers=10,
-    y="LapTime",
-    upper_bound=10,
-    swarm=True,
-    absolute_compound=False,
-):
-    """
-    Plot driver data during a race
+    season: int,
+    event: int | str,
+    drivers: Iterable[str] | int = 10,
+    y: str = "LapTime",
+    upper_bound: float | int = 10,
+    swarm: bool = True,
+    absolute_compound: bool = False,
+) -> Figure:
+    """Visualize race data distribution as a violinplot + optional swarmplot.
 
     Args:
-        season: int
-            Championship season
+        season: Championship season
 
-        event: int or str
-            Round number or name of the event
-            Name is fuzzy matched by fastf1.get_event()
+        event: Round number or name of the event.
+        Name is fuzzy matched by fastf1.get_event().
 
-        drivers: list or int, default:3
-            If a list is used, it should contain the three letter abbreviations
-            of the drivers to be plotted
-            If a int is used, the top {int} drivers' strategies will be plotted
-            If None, all drivers are plotted
-            By default, only the podium finishers are plotted
+        drivers: If a list is used, it should contain the three
+        letter abbreviations of the drivers to be plotted.
+        If a int is used, the top # drivers' strategies will be plotted.
+        By default, only the podium finishers are plotted.
 
-        y: str, default: Position
-            Name of the column to be used as the y-axis.
+        y: Name of the column to be used as the y-axis.
 
-        upper_bound: int, default: 10
-            Only laps whose lap time is no more than <upper_bound>% slower than the fastest lap time will be plotted.
+        upper_bound: The upper bound on included laps as a percentage of the fastest lap.
+        By default, only laps that are within 110% of the fastest lap are plotted.
 
-    Returns: Figure
+        swarm: Toggle swarmplot visibility.
+
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-
     plt.style.use("dark_background")
 
     event_info = f.get_event(season, event)
@@ -675,24 +726,34 @@ def driver_stats_distplot(
     return fig
 
 
-def lap_filter_sc(row):
-    # if track status column includes 4
-    # at least part of the lap is under safety car
-    # may slightly overcount
+def lap_filter_sc(row: pd.Series) -> bool:
+    """Check if any part of a lap is ran under safety car.
+
+    Track status 4 stands for safety car.
+
+    Caveats:
+        Might overcount, unsure if the lap after "safety car in this lap will be included.
+    """
     return "4" in row.loc["TrackStatus"]
 
 
-def lap_filter_vsc(row):
-    # track status = 6 is VSC deployed
-    # track status = 7 is VSC ending
-    # check if any part of the lap falls into either category
+def lap_filter_vsc(row: pd.Series) -> bool:
+    """Check if any part of a lap is ran under virtual safety car.
+
+    Track status 6 is VSC deployed.
+    Track status 7 is VSC ending.
+
+    Caveats:
+        Might double count with the `lap_filter_sc` function.
+    """
     return ("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])
 
 
-def find_sc_laps(df_laps):
-    # df should be rows from a single event
-    # at the minimum, both LapNumber and TrackStatus has to be present
+def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+    """Find the unique lap numbers that is ran under SC or VSC.
 
+    The resulting arrays are sorted before they are returned.
+    """
     sc_laps = np.sort(
         df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique()
     )
@@ -703,15 +764,14 @@ def find_sc_laps(df_laps):
     return sc_laps, vsc_laps
 
 
-def shade_sc_periods(sc_laps, VSC=False):
-    """
-    Shade SC periods lasting at least one lap on the current figure
+def shade_sc_periods(sc_laps: np.ndarray, VSC: bool = False):
+    """Shade SC or VSC periods lasting at least one lap on the current figure.
 
     Args:
-        sc_laps: array-like
-            Array of integers indicating laps under SC or VSC
-    """
+        sc_laps: Sorted array of integers indicating laps under SC or VSC.
 
+        VSC: Toggle VSC hatches and label.
+    """
     sc_laps_copy = np.append(sc_laps, [-1])
 
     start = 0
@@ -742,39 +802,35 @@ def shade_sc_periods(sc_laps, VSC=False):
     return None
 
 
-def strategy_barplot(season, event, drivers=None, absolute_compound=False):
-    """
-    Plot the tyre strategy during a race
+def strategy_barplot(
+    season: int,
+    event: int | str,
+    drivers: Iterable[str] | int = None,
+    absolute_compound: bool = False,
+) -> Figure:
+    """Visualize tyre strategies as a horizontal barplot.
 
     Args:
-        season: int
-            Championship season
+        season: Championship season
 
-        event: int or str
-            Round number or name of the event
-            Name is fuzzy matched by fastf1.get_event()
+        event: Round number or name of the event.
+        Name is fuzzy matched by fastf1.get_event().
 
-        drivers: list or int, default: None
-            If a list is used, it should contain the three letter abbreviations
-            of the drivers to be plotted
-            If a int is used, the top {int} drivers' strategies will be plotted
-            If None, all drivers are plotted
+        drivers: If a list is used, it should contain the three
+        letter abbreviations of the drivers to be plotted.
+        If a int is used, the top # drivers' strategies will be plotted.
+        By default, only the podium finishers are plotted.
 
-        absolute_compound: bool, default: False
-            If True, use absolute compound palette (C1, C2 etc.)
-
-            If False, use relative compound palette (SOFT, MEDIUM, HARD)
-
-    Returns: Figure
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-
     event_info = f.get_event(season, event)
     round_number = event_info["RoundNumber"]
     event_name = event_info["EventName"]
 
     included_laps = df_dict[season]
 
-    if drivers == None:
+    if drivers is None:
         drivers = included_laps[included_laps["RoundNumber"] == round_number][
             "Driver"
         ].unique()
@@ -854,21 +910,24 @@ def strategy_barplot(season, event, drivers=None, absolute_compound=False):
     return fig
 
 
-def convert_compound_names(season, round_number, compounds):
-    """
-    Convert relative compound names to absolute names
+def convert_compound_names(
+    season: int, round_number: int, compounds: Iterable[str]
+) -> tuple[str]:
+    """Convert relative compound names to absolute compound names.
 
     Args:
-        season: int
-        Championship season
+        season: Championship season
 
-        round_number: int
+        round_number: Grand Prix round number.
 
-        compounds: list of relative compound names
+        compounds: Relative compound names to convert.
 
-    Returns:
-        comp_names: tuple of absolute compound names
+    Examples:
+        2023 round 1 selects C1, C2, C3 compounds.
 
+        Then convert_compound_names(
+        2023, 1, ["SOFT", "HARD"]
+        ) = ["C1", "C3"]
     """
     compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
     if season == 2018:
@@ -886,18 +945,21 @@ def convert_compound_names(season, round_number, compounds):
     return tuple(return_vals)
 
 
-def process_input(seasons, events, y, compounds, x, upper_bound, absolute_compound):
-    """
-    Sanitize input parameters seasons, events, compound, and x
-
-    Show related warnings and carry necessary assertions
+def process_input(
+    seasons: Iterable[int],
+    events: Iterable[str | int],
+    y: str,
+    compounds: Iterable[str],
+    x: str,
+    upper_bound: int | float,
+    absolute_compound: bool,
+) -> tuple[list[f.Event], list[pd.DataFrame]]:
+    """Sanitize input parameters to compound plots.
 
     Returns:
-        event_objects: list of FastF1.Event
-        list of event objects corresponding to each requested race
+        event_objects: List of event objects corresponding to each requested race
 
-        included_laps_lst: list of pd.DataFrame
-        list of dataframes corresponding to each requested race
+        included_laps_lst: List of dataframes corresponding to each requested race
     """
     # unpack
     compounds = [compound.upper() for compound in compounds]
@@ -947,52 +1009,40 @@ def process_input(seasons, events, y, compounds, x, upper_bound, absolute_compou
 
 
 def compounds_lineplot(
-    seasons,
-    events,
-    y="LapTime",
-    compounds=["SOFT", "MEDIUM", "HARD"],
-    x="TyreLife",
-    upper_bound=10,
-    absolute_compound=True,
-):
-    """
-    Visualize performance of each compound over time
+    seasons: Iterable[int],
+    events: Iterable[int | str],
+    y: str = "LapTime",
+    compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
+    x: str = "TyreLife",
+    upper_bound: int | float = 10,
+    absolute_compound: bool = True,
+) -> tuple[Figure, list[str]]:
+    """Visualize compound performances as a lineplot.
 
     Caveats:
-        Only laps with IsValid=True are considered
+        Only laps with `IsValid=True` are considered
 
     Args:
-        seasons: list of int or str
-            Championship seasons of the events
+        seasons: Championship seasons of the events
 
-        events: list of int or str
-            A mix of round numbers or names of the events
-            Name is fuzzy matched by fastf1.get_event()
+        events: A mix of round numbers or names of the events
+        Name is fuzzy matched by fastf1.get_event()
 
-        Each (season, event) pair should uniquely identify an event
+        Each (season, event) pair should uniquely identify an event.
 
-        y: str, default: "LapTime"
-            The column to use as the y-axis.
+        y: The column to use as the y-axis.
 
-        compounds: list of str {"SOFT", "MEDIUM", "HARD"}, default: ["SOFT", "MEDIUM", "HARD"]
-            The compounds in the head-to-head
+        compounds: The compounds to plot.
 
-        x: str {"TyreLife", "LapNumber"} recommended, default: "TyreLife"
-            The column to use as the x-axis
+        x: The column to use as the x-axis.
+        `TyreLife` or `LapNumber` recommended.
 
-        upper_bound: float, default: 10
-           The upper bound on PctFromFastest for included laps
+        upper_bound: The upper bound on included laps as a percentage of the fastest lap.
+        By default, only laps that are less than 10% slower than the fastest lap are plotted.
 
-            e.g. By default, only laps that are no more than 10% slower than the fastest lap are plotted
-
-        absolute_compound: bool, default: True
-            If True, use absolute compound palette (C1, C2 etc.)
-
-            If False, use relative compound palette (SOFT, MEDIUM, HARD)
-
-    Returns: Figure, Warnings
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-
     plt.style.use("dark_background")
 
     event_objects, included_laps_lst = process_input(
@@ -1072,56 +1122,43 @@ def compounds_lineplot(
 
 
 def compounds_distribution(
-    seasons,
-    events,
-    y="LapTime",
-    compounds=["SOFT", "MEDIUM", "HARD"],
-    violin_plot=False,
-    x="TyreLife",
-    upper_bound=10,
-    absolute_compound=True,
+    seasons: Iterable[int],
+    events: Iterable[int | str],
+    y: str = "LapTime",
+    compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
+    violin_plot: bool = False,
+    x: str = "TyreLife",
+    upper_bound: int | float = 10,
+    absolute_compound: bool = True,
 ):
-    """
-    Plot boxplot for selected y axis by event
+    """Visualize compound performance as a boxplot or violinplot.
 
     Caveats:
-        Only laps with IsValid=True are considered
+        Only laps with `IsValid=True` are considered
 
     Args:
-        seasons: list of int or str
-            Championship seasons of the races
+        seasons: Championship seasons of the events
 
-        events: list of int or str
-            A mix of round numbers or names of the events
-            Name is fuzzy matched by fastf1.get_event()
+        events: A mix of round numbers or names of the events
+        Name is fuzzy matched by fastf1.get_event()
 
-        (each (season, event) pair should uniquely identify an event)
+        Each (season, event) pair should uniquely identify an event.
 
-        y: str, default: "LapTime"
-            The column to use as the y-axis.
+        y: The column to use as the y-axis.
 
-        compounds: list of str {"SOFT", "MEDIUM", "HARD"}, default: ["SOFT", "MEDIUM", "HARD"]
-            The compounds in the head-to-head
+        compounds: The compounds to plot.
 
-        violin_plot: bool, default: False
-            If True, makes violin plots. Else make boxplots
+        violin_plot: Toggles violinplot and boxplot.
 
-        x: str {"TyreLife", "LapNumber"} recommended, default: "TyreLife"
-            The column to use as the x-axis
+        x: The column to use as the x-axis.
+        `TyreLife` or `LapNumber` recommended.
 
-        upper_bound: float, default: 10
-            The upper bound on PctFromFastest for included laps
+        upper_bound: The upper bound on included laps as a percentage of the fastest lap.
+        By default, only laps that are less than 10% slower than the fastest lap are plotted.
 
-            e.g. By default, only laps that are no more than 10% slower than the fastest lap are plotted
-
-        absolute_compound: bool, default: True
-            If True, use absolute compound palette (C1, C2 etc.)
-
-            If False, use relative compound palette (SOFT, MEDIUM, HARD)
-
-    Returns: Figure, Warnings
+        absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
+        Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-
     plt.style.use("dark_background")
 
     event_objects, included_laps_lst = process_input(
@@ -1155,10 +1192,18 @@ def compounds_distribution(
         plotted_compounds = included_laps["Compound"].unique()
         event_name = event_objects[i]["EventName"]
 
-        for compound in compounds:
+        round_number = event_objects[i]["RoundNumber"]
+
+        if absolute_compound:
+            compounds_copy = convert_compound_names(seasons[i], round_number, compounds)
+
+        for compound in compounds_copy:
             if compound not in plotted_compounds:
                 warning_msgs.append(
-                    f"{compound} is not plotted for {seasons[i]} {event_name} because there is no valid lap time data"
+                    (
+                        f"{compound} is not plotted for {seasons[i]} {event_name}"
+                        "because there is no valid lap time data"
+                    )
                 )
 
         if violin_plot:
