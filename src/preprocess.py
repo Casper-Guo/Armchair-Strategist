@@ -3,9 +3,13 @@
 import tomli
 import fastf1 as f
 import pandas as pd
+import logging
 from datetime import datetime
 from pathlib import Path
 
+logging.basicConfig(
+    level=logging.INFO, format="%(levelname)s-%(filename)s-%(funcname)s: %(message)s"
+)
 
 root_path = Path(__file__).absolute().parents[1]
 cache_path = root_path / "Cache"
@@ -43,9 +47,9 @@ def load_all_data(season: int, path: Path):
     if race_dfs:
         all_laps = pd.concat(race_dfs, ignore_index=True)
         all_laps.to_csv(path, index=False)
-        print(f"Finished loading {season} season data.")
+        logging.info(f"Finished loading {season} season data.")
     else:
-        print(f"No data available for {season} season yet.")
+        logging.info(f"No data available for {season} season yet.")
 
     return None
 
@@ -72,12 +76,12 @@ def update_data(season: int, path: Path):
     missing_rounds = all_rounds.difference(loaded_rounds)
 
     if not missing_rounds:
-        print(f"{season} season is already up to date.")
+        logging.info(f"{season} season is already up to date.")
         return None
     else:
         # correctness check
-        print("Existing coverage: ", loaded_rounds)
-        print("Coverage to be added: ", missing_rounds)
+        logging.info("Existing coverage: ", loaded_rounds)
+        logging.info("Coverage to be added: ", missing_rounds)
 
     race_dfs = []
 
@@ -88,7 +92,7 @@ def update_data(season: int, path: Path):
             race.load()
         except:
             # TODO: Proper handling of FastF1 errors
-            print(f"Cannot load {race}")
+            logging.warning(f"Cannot load {race}")
 
         laps = race.laps
         laps["RoundNumber"] = i
@@ -101,7 +105,7 @@ def update_data(season: int, path: Path):
 
     all_laps.to_csv(path, mode="a", index=False, header=False)
 
-    print(f"Finished updating {season} season data.")
+    logging.info(f"Finished updating {season} season data.")
     return None
 
 
@@ -287,7 +291,7 @@ def add_compound_name(
                 ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
-            print(
+            logging.error(
                 "Compound selection record is missing for round "
                 + str(row.loc["RoundNumber"])
             )
@@ -343,7 +347,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
             # TODO: raise a custom exception
-            print(
+            logging.error(
                 "Compound selection record is missing for 2018 season round "
                 + str(row.loc["RoundNumber"])
             )
@@ -563,7 +567,7 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
         # If there is only one pair, the key should be "all"
         assert items[0][0] == "all"
 
-        print("No transfromed_laps found")
+        logging.info("No transfromed_laps found")
 
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return items[0][1]
@@ -591,9 +595,9 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
         assert num_row_all >= num_row_transformed
 
         if num_row_all == num_row_transformed:
-            print("transformed_laps is up-to-date")
+            logging.info("transformed_laps is up-to-date")
         else:
-            print(
+            logging.info(
                 (
                     f"{num_row_all - num_row_transformed}"
                     "rows will be added to transformed_laps"
@@ -621,7 +625,7 @@ def main():
     if pd.isna(rounds_completed):
         rounds_completed = 0
 
-    print(
+    logging.info(
         (
             f"Correctness Check: {rounds_completed} rounds of the {current_season} "
             "season have been completed"
@@ -643,7 +647,7 @@ def main():
     data = load_laps()
 
     for season, dfs in data.items():
-        print(str(season) + ":")
+        logging.info(str(season) + ":")
         df_transform = find_diff(list(dfs.items()))
 
         if df_transform.shape[0] != 0:
