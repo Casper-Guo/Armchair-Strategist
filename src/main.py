@@ -1,8 +1,11 @@
+"""Visualization playground."""
+
 import warnings
 from visualization import *
 
 
 def main():
+    """Setup for visualizations."""
     root_path = Path(__file__).absolute().parents[1]
 
     # connect to cache
