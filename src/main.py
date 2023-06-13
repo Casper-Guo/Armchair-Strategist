@@ -1,11 +1,11 @@
 """Visualization playground."""
 
 import warnings
-from visualization import *
+from visualization import f, sns, plt, pd, Path
 
 
 def main():
-    """Setup for visualizations."""
+    """Set up visualizations."""
     root_path = Path(__file__).absolute().parents[1]
 
     # connect to cache
@@ -20,6 +20,7 @@ def main():
     pd.options.mode.chained_assignment = None
 
     # Suppress Seaborn false positive warnings
+    # TODO: This is dangerous
     warnings.filterwarnings("ignore")
 
     # Visualizations below`

@@ -6,11 +6,16 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import tomli
+import logging
 from pathlib import Path
 from math import ceil
 import matplotlib
 from matplotlib import rcParams, pyplot as plt
 from typing import TypeAlias, Callable, Literal, Iterable, Optional
+
+logging.basicConfig(
+    level=logging.INFO, format="%(levelname)s-%(filename)s-%(funcname)s: %(message)s"
+)
 
 Figure: TypeAlias = matplotlib.figure.Figure
 
@@ -511,7 +516,7 @@ def driver_stats_scatterplot(
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
         if driver_laps.shape[0] < 5:
-            print(f"WARNING: {driver} HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT")
+            logging.warning(f"{driver} HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT")
 
         sns.scatterplot(
             data=driver_laps,
@@ -764,7 +769,7 @@ def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
     return sc_laps, vsc_laps
 
 
-def shade_sc_periods(sc_laps: np.ndarray, VSC: bool = False):
+def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
     """Shade SC or VSC periods lasting at least one lap on the current figure.
 
     Args:
@@ -792,8 +797,8 @@ def shade_sc_periods(sc_laps: np.ndarray, VSC: bool = False):
                     xmax=sc_laps_copy[end - 1] - 1,
                     alpha=0.5,
                     color="orange",
-                    hatch="-" if VSC else None,
-                    label="VSC" if VSC else "SC",
+                    hatch="-" if vsc else None,
+                    label="VSC" if vsc else "SC",
                 )
 
             start = end
@@ -972,8 +977,9 @@ def process_input(
         ], f"requested compound {compound} is not valid"
 
     if x != "LapNumber" and x != "TyreLife":
-        print(
-            f"Using {x} as the x-axis is not recommended. The recommended arguments are LapNumber and TyreLife"
+        logging.warning(
+            f"Using {x} as the x-axis is not recommended."
+            " The recommended arguments are LapNumber and TyreLife"
         )
 
     assert (
@@ -981,11 +987,11 @@ def process_input(
     ), f"num seasons ({len(seasons)}) does not match num events ({len(events)})"
 
     if not absolute_compound and len(events) > 1:
-        print(
+        logging.warning(
             """
-              WARNING: Different events may use different compounds under the same name!
-                       e.g. SOFT may be any of C3 to C5 dependinging on the event
-              """
+            Different events may use different compounds under the same name!
+            e.g. SOFT may be any of C3 to C5 dependinging on the event
+            """
         )
 
     # Combine seasons and events and get FastF1 event objects
@@ -1016,7 +1022,7 @@ def compounds_lineplot(
     x: str = "TyreLife",
     upper_bound: int | float = 10,
     absolute_compound: bool = True,
-) -> tuple[Figure, list[str]]:
+) -> Figure:
     """Visualize compound performances as a lineplot.
 
     Caveats:
@@ -1064,9 +1070,6 @@ def compounds_lineplot(
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
-    # store warnings for compounds that are requested but not plotted
-    warning_msgs = []
-
     for i in range(len(event_objects)):
         args = plot_args(seasons[i], absolute_compound)
         included_laps = included_laps_lst[i]
@@ -1090,8 +1093,11 @@ def compounds_lineplot(
                     label=compound,
                 )
             else:
-                warning_msgs.append(
-                    f"{compounds[i]} is not plotted for {seasons[i]} {event_name} because there is not enough data"
+                logging.warning(
+                    (
+                        f"{compounds[i]} is not plotted for {seasons[i]} {event_name}"
+                        " because there is not enough data"
+                    )
                 )
 
         ax.set_ylabel(y, fontsize=12)
@@ -1118,7 +1124,7 @@ def compounds_lineplot(
     fig.suptitle(t=" VS ".join(compounds), fontsize=14)
     plt.show()
 
-    return fig, warning_msgs
+    return fig
 
 
 def compounds_distribution(
@@ -1130,7 +1136,7 @@ def compounds_distribution(
     x: str = "TyreLife",
     upper_bound: int | float = 10,
     absolute_compound: bool = True,
-):
+) -> Figure:
     """Visualize compound performance as a boxplot or violinplot.
 
     Caveats:
@@ -1182,16 +1188,12 @@ def compounds_distribution(
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
-    # store warnings for compounds that are requested but not plotted
-    warning_msgs = []
-
     for i in range(len(event_objects)):
         args = plot_args(seasons[i], absolute_compound)
         included_laps = included_laps_lst[i]
 
         plotted_compounds = included_laps["Compound"].unique()
         event_name = event_objects[i]["EventName"]
-
         round_number = event_objects[i]["RoundNumber"]
 
         if absolute_compound:
@@ -1199,10 +1201,10 @@ def compounds_distribution(
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
-                warning_msgs.append(
+                logging.warning(
                     (
                         f"{compound} is not plotted for {seasons[i]} {event_name}"
-                        "because there is no valid lap time data"
+                        " because there is no valid lap time data"
                     )
                 )
 
@@ -1242,4 +1244,4 @@ def compounds_distribution(
     fig.suptitle(t=" VS ".join(compounds), fontsize="16")
     plt.show()
 
-    return fig, warning_msgs
+    return fig

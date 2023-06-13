@@ -18,7 +18,4 @@ repos:
     rev: 6.0.0
     hooks:
       - id: flake8
-        args:
-          - --max-line-length=88
-          - --max-doc-length=96
-          - --ignore=E203,W503,D
+        args: ["--max-line-length=96", "--ignore=E203,W503,D"]
