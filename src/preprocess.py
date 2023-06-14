@@ -4,11 +4,11 @@ import tomli
 import fastf1 as f
 import pandas as pd
 import logging
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 logging.basicConfig(
-    level=logging.INFO, format="%(levelname)s-%(filename)s-%(funcname)s: %(message)s"
+    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
 )
 
 root_path = Path(__file__).absolute().parents[1]
@@ -618,9 +618,13 @@ def main():
     load_seasons = list(range(2018, current_season + 1))
 
     current_schedule = f.get_event_schedule(current_season)
-    rounds_completed = current_schedule[current_schedule["EventDate"] < datetime.now()][
-        "RoundNumber"
-    ].max()
+    five_hours_past = (datetime.now(timezone.utc) - timedelta(hours=5)).replace(
+        tzinfo=None
+    )
+    five_hours_past = datetime.now()
+    rounds_completed = current_schedule[
+        current_schedule["Session5DateUtc"] < five_hours_past
+    ]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0

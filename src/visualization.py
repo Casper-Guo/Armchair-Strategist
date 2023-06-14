@@ -14,7 +14,7 @@ from matplotlib import rcParams, pyplot as plt
 from typing import TypeAlias, Callable, Literal, Iterable, Optional
 
 logging.basicConfig(
-    level=logging.INFO, format="%(levelname)s-%(filename)s-%(funcname)s: %(message)s"
+    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
 )
 
 Figure: TypeAlias = matplotlib.figure.Figure
