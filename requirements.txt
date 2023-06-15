@@ -1,4 +1,4 @@
-fastf1<3.0.0
+fastf1
 pandas<2.0.0
 matplotlib
 numpy
@@ -9,3 +9,4 @@ tomli-w
 pre-commit
 pydocstyle
 flake8
+isort
