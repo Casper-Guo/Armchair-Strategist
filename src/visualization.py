@@ -655,6 +655,8 @@ def driver_stats_lineplot(
 
     if grid in ["both", "x", "y"]:
         plt.grid(axis=grid)
+    else:
+        plt.grid(visible=False)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     plt.show()

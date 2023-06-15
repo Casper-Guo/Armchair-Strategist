@@ -84,7 +84,6 @@ Icon
 
 # image files
 *.ppm
-*.png 
 *.jpg
 *.jpeg
 *.svg 
