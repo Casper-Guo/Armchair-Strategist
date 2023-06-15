@@ -12,7 +12,6 @@ logging.basicConfig(
 )
 
 root_path = Path(__file__).absolute().parents[1]
-cache_path = root_path / "Cache"
 data_path = root_path / "Data"
 current_season = 2023
 num_rounds = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 24}
@@ -38,7 +37,7 @@ def load_all_data(season: int, path: Path):
 
     for i in range(1, num_rounds[season] + 1):
         race = f.get_session(season, i, "R")
-        race.load()
+        race.load(telemetry=False)
         laps = race.laps
         laps["RoundNumber"] = i
         laps["EventName"] = schedule[schedule["RoundNumber"] == i]["EventName"].item()
@@ -89,7 +88,7 @@ def update_data(season: int, path: Path):
         race = f.get_session(2023, i, "R")
 
         try:
-            race.load()
+            race.load(telemetry=False)
         except:
             # TODO: Proper handling of FastF1 errors
             logging.warning(f"Cannot load {race}")
@@ -611,8 +610,6 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
 
 def main():
     """Load and transform all newly available data."""
-    Path.mkdir(cache_path, exist_ok=True)
-    f.Cache.enable_cache(cache_path)
     Path.mkdir(data_path, exist_ok=True)
 
     load_seasons = list(range(2018, current_season + 1))
