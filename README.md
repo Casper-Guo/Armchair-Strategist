@@ -5,10 +5,10 @@
 
 Engineered F1 data from the 2018 season onwards and visualization tools.
 
-![](docs/staic/laptime.png "laptime")
-![](docs/staic/position.png "position")
-![](docs/staic/tyre.png "tyre")
-![](docs/staic/strategy.png "strategy")
+![](docs/static/laptime.png "laptime")
+![](docs/static/position.png "position")
+![](docs/static/tyre.png "tyre")
+![](docs/static/strategy.png "strategy")
 
 ## Requirements
 
