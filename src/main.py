@@ -1,7 +1,8 @@
 """Visualization playground."""
 
 import warnings
-from visualization import f, sns, plt, pd, Path
+
+from visualization import Path, f, pd, plt, sns
 
 
 def main():
