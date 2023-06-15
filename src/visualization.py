@@ -21,10 +21,6 @@ Figure: TypeAlias = matplotlib.figure.Figure
 
 root_path = Path(__file__).absolute().parents[1]
 
-# connect to cache
-cache_path = root_path / "Cache"
-f.Cache.enable_cache(cache_path)
-
 with open(root_path / "Data" / "compound_selection.toml", "rb") as toml:
     compound_selection = tomli.load(toml)
 
