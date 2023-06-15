@@ -296,7 +296,6 @@ def add_compound_name(
                 + str(row.loc["RoundNumber"])
             )
 
-            # terminate cell
             assert False
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)

@@ -235,6 +235,44 @@ def plot_args(season: int, absolute_compound: bool) -> tuple:
         )
 
 
+def get_drivers(
+    session: f.core.Session, drivers: Iterable[str | int] | str | int
+) -> list[str]:
+    """Find driver three-letter abbreviations.
+
+    Args:
+        session: The race session object, relevant for determining finishing order.
+
+        drivers: The following argument formats are accepted:
+            - A single integer retrieve the highest finishing drivers
+              e.g. drivers = 10 will fetch the point finishiers
+            - A string representing either the driver's three letter abbreviation
+              or driver number.
+              e.g. "VER" or "44"
+            - A list of integers and/or strings representing either the driver's
+              three letter abbreviation or driver number.
+              e.g. ["VER", "44", 14]
+
+    Returns:
+        The drivers' three-letter abbreviations, in the order requested.
+        (Or in the case of int argument, in the finishing order.)
+    """
+    if isinstance(drivers, int):
+        result = session.results.sort_values(by="Position", kind="stable")
+        drivers = result["Abbreviation"].unique()[:drivers]
+        return list(drivers)
+    elif isinstance(drivers, str):
+        drivers = [drivers]
+
+    ret = []
+    for driver in drivers:
+        if isinstance(driver, (int, float)):
+            driver = str(int(driver))
+        ret.append(session.get_driver(driver)["Abbreviation"])
+
+    return ret
+
+
 def pick_driver_color(driver: str) -> str:
     """Find the driver's color.
 
@@ -328,7 +366,7 @@ def tyre_usage_pie(
 ) -> Figure:
     """Visualize tyre usage trends by compound with a pie chart.
 
-    The keyword arguments configure the range of data from which
+    The arguments configure the range of data from which
     the tyre usage frequency is calculated.
 
     Args:
@@ -428,7 +466,7 @@ def tyre_usage_pie(
 def driver_stats_scatterplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str] | int = 20,
+    drivers: Iterable[str | int] | str | int = 20,
     y: str = "LapTime",
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
@@ -441,10 +479,8 @@ def driver_stats_scatterplot(
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
 
-        drivers: If a list is used, it should contain the three
-        letter abbreviations of the drivers to be plotted.
-        If a int is used, the top # drivers' strategies will be plotted.
-        By default, only the podium finishers are plotted.
+        drivers: See `get_drivers` for all accepted formats.
+        By default, all drivers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -463,18 +499,13 @@ def driver_stats_scatterplot(
         "horizontalalignment": "center",
     }
 
-    event_info = f.get_event(season, event)
-    round_number = event_info["RoundNumber"]
-    event_name = event_info["EventName"]
+    session = f.get_session(season, event, "R")
+    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    round_number = session.event["RoundNumber"]
+    event_name = session.event["EventName"]
+    drivers = get_drivers(session, drivers)
 
-    args = plot_args(season, absolute_compound)
     included_laps = df_dict[season]
-
-    if isinstance(drivers, int):
-        drivers = included_laps[included_laps["RoundNumber"] == round_number][
-            "Driver"
-        ].unique()[:drivers]
-
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
     max_width = 4
@@ -487,6 +518,8 @@ def driver_stats_scatterplot(
         sharex=True,
         figsize=(5 * num_col, 5 * num_row),
     )
+
+    args = plot_args(season, absolute_compound)
 
     # Prevent TypeError when only one driver is plotted
     if len(drivers) == 1:
@@ -558,7 +591,7 @@ def driver_stats_lineplot(
     drivers: Iterable[str] | int = 3,
     y: str = "Position",
     upper_bound: int | float = 10,
-    grid: Literal["both", "x", "y"] | None = None,
+    grid: Optional[Literal["both", "x", "y"]] = None,
 ) -> Figure:
     """Visualize driver data during a race as a lineplot.
 
@@ -568,10 +601,8 @@ def driver_stats_lineplot(
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
 
-        drivers: If a list is used, it should contain the three
-        letter abbreviations of the drivers to be plotted.
-        If a int is used, the top # drivers' strategies will be plotted.
-        By default, only the podium finishers are plotted.
+        drivers: See `get_drivers` for all accepted formats.
+        By default, the podium finishers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -583,17 +614,13 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    event_info = f.get_event(season, event)
-    round_number = event_info["RoundNumber"]
-    event_name = event_info["EventName"]
+    session = f.get_session(season, event, "R")
+    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    round_number = session.event["RoundNumber"]
+    event_name = session.event["EventName"]
+    drivers = get_drivers(session, drivers)
 
     included_laps = df_dict[season]
-
-    if isinstance(drivers, int):
-        drivers = included_laps[included_laps["RoundNumber"] == round_number][
-            "Driver"
-        ].unique()[:drivers]
-
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
     )
@@ -652,10 +679,8 @@ def driver_stats_distplot(
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
 
-        drivers: If a list is used, it should contain the three
-        letter abbreviations of the drivers to be plotted.
-        If a int is used, the top # drivers' strategies will be plotted.
-        By default, only the podium finishers are plotted.
+        drivers: See `get_drivers` for all accepted formats.
+        By default, the point finishers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -669,17 +694,13 @@ def driver_stats_distplot(
     """
     plt.style.use("dark_background")
 
-    event_info = f.get_event(season, event)
-    round_number = event_info["RoundNumber"]
-    event_name = event_info["EventName"]
+    session = f.get_session(season, event, "R")
+    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    round_number = session.event["RoundNumber"]
+    event_name = session.event["EventName"]
+    drivers = get_drivers(session, drivers)
 
     included_laps = df_dict[season]
-
-    if isinstance(drivers, int):
-        drivers = included_laps[included_laps["RoundNumber"] == round_number][
-            "Driver"
-        ].unique()[:drivers]
-
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
     )
@@ -808,7 +829,7 @@ def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
 def strategy_barplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str] | int = None,
+    drivers: Iterable[str] | int = 20,
     absolute_compound: bool = False,
 ) -> Figure:
     """Visualize tyre strategies as a horizontal barplot.
@@ -819,29 +840,19 @@ def strategy_barplot(
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
 
-        drivers: If a list is used, it should contain the three
-        letter abbreviations of the drivers to be plotted.
-        If a int is used, the top # drivers' strategies will be plotted.
-        By default, only the podium finishers are plotted.
+        drivers: See `get_drivers` for all accepted formats.
+        By default, all drivers are plotted.
 
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    event_info = f.get_event(season, event)
-    round_number = event_info["RoundNumber"]
-    event_name = event_info["EventName"]
+    session = f.get_session(season, event, "R")
+    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    round_number = session.event["RoundNumber"]
+    event_name = session.event["EventName"]
+    drivers = get_drivers(session, drivers)
 
     included_laps = df_dict[season]
-
-    if drivers is None:
-        drivers = included_laps[included_laps["RoundNumber"] == round_number][
-            "Driver"
-        ].unique()
-    elif isinstance(drivers, int):
-        drivers = included_laps[included_laps["RoundNumber"] == round_number][
-            "Driver"
-        ].unique()[:drivers]
-
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
     fig, ax = plt.subplots(figsize=(5, len(drivers) // 2 + 1))
@@ -956,7 +967,7 @@ def process_input(
     x: str,
     upper_bound: int | float,
     absolute_compound: bool,
-) -> tuple[list[f.Event], list[pd.DataFrame]]:
+) -> tuple[list[f.events.Event], list[pd.DataFrame]]:
     """Sanitize input parameters to compound plots.
 
     Returns:
