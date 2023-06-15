@@ -86,7 +86,7 @@ def load_laps() -> dict[int, pd.DataFrame]:
 df_dict = load_laps()
 
 
-def find_legend_order(labels: Iterable[str]) -> list[str]:
+def find_legend_order(labels: Iterable[str]) -> list[int]:
     """Provide the index of a list of compounds sorted from soft to hard.
 
     Args:
@@ -895,7 +895,7 @@ def strategy_barplot(
     vsc_laps = [lap for lap in vsc_laps if lap not in sc_laps]
 
     shade_sc_periods(sc_laps)
-    shade_sc_periods(vsc_laps, VSC=True)
+    shade_sc_periods(vsc_laps, vsc=True)
 
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
