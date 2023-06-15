@@ -41,7 +41,8 @@ def load_all_data(season: int, path: Path):
         race.load(telemetry=False)
         laps = race.laps
         laps["RoundNumber"] = i
-        laps["EventName"] = schedule[schedule["RoundNumber"] == i]["EventName"].item()
+        laps["EventName"] = schedule[schedule["RoundNumber"]
+                                     == i]["EventName"].item()
         race_dfs.append(laps)
 
     if race_dfs:
@@ -141,7 +142,8 @@ def read_csv(path: Path) -> pd.DataFrame:
             "Team",
             "Driver",
             "TrackStatus",
-            "Position" "IsAccurate",
+            "Position",
+            "IsAccurate",
             "RoundNumber",
             "EventName",
         ],
@@ -438,7 +440,8 @@ def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
 
     for round_number in rounds:
         fastest = df_laps[
-            (df_laps["RoundNumber"] == round_number) & (df_laps["IsPersonalBest"])
+            (df_laps["RoundNumber"] == round_number) & (
+                df_laps["IsPersonalBest"])
         ]["LapTime"].min()
         fastest_times[round_number] = round(fastest, 3)
 
@@ -513,15 +516,18 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 
     def delta_to_lap_rep(row):
         return (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+            row.loc["LapTime"] -
+            lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
         )
 
     def pct_from_lap_rep(row):
         delta = (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+            row.loc["LapTime"] -
+            lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
         )
         return round(
-            delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3
+            delta / lap_reps[row.loc["RoundNumber"]
+                             ][row.loc["LapNumber"]] * 100, 3
         )
 
     df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
@@ -582,7 +588,7 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
             logging.info(
                 (
                     f"{num_row_all - num_row_transformed}"
-                    "rows will be added to transformed_laps"
+                    " rows will be added to transformed_laps"
                 )
             )
 
@@ -636,7 +642,8 @@ def main():
 
         if df_transform.shape[0] != 0:
             add_is_slick(season, df_transform)
-            add_compound_name(df_transform, compound_selection[str(season)], season)
+            add_compound_name(
+                df_transform, compound_selection[str(season)], season)
 
             if season == 2018:
                 convert_compound(df_transform)
