@@ -1,17 +1,19 @@
 """Plotting functions and other visualization helpers."""
 
+import logging
+from math import ceil
+from pathlib import Path
+from typing import Callable, Iterable, Literal, Optional, TypeAlias
+
 import fastf1 as f
 import fastf1.plotting as p
+import matplotlib
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import tomli
-import logging
-from pathlib import Path
-from math import ceil
-import matplotlib
-from matplotlib import rcParams, pyplot as plt
-from typing import TypeAlias, Callable, Literal, Iterable, Optional
+from matplotlib import pyplot as plt
+from matplotlib import rcParams
 
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"

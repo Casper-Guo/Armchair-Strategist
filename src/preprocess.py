@@ -1,11 +1,12 @@
 """Load and transform F1 data from the FastF1 API."""
 
-import tomli
+import logging
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
 import fastf1 as f
 import pandas as pd
-import logging
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
+import tomli
 
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
