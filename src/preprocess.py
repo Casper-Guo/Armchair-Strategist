@@ -141,7 +141,7 @@ def read_csv(path: Path) -> pd.DataFrame:
             "Team",
             "Driver",
             "TrackStatus",
-            "IsAccurate",
+            "Position" "IsAccurate",
             "RoundNumber",
             "EventName",
         ],
@@ -354,23 +354,6 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
             assert False
 
     df_laps["Compound"] = df_laps.apply(convert_compound, axis=1)
-
-    return df_laps
-
-
-def add_pos(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Infer position at the end of each lap."""
-    # TODO: deprecate this function
-    df_laps["Position"] = pd.Series(dtype="int")
-
-    for round in range(
-        int(df_laps["RoundNumber"].min()), int(df_laps["RoundNumber"].max()) + 1
-    ):
-        df_round = df_laps[df_laps["RoundNumber"] == round]
-
-        for lap in range(1, int(df_round["LapNumber"].max()) + 1):
-            ranks = df_round[df_round["LapNumber"] == lap]["Time"].rank(method="first")
-            df_laps.loc[ranks.index, "Position"] = ranks.values
 
     return df_laps
 
@@ -658,7 +641,6 @@ def main():
             if season == 2018:
                 convert_compound(df_transform)
 
-            add_pos(df_transform)
             add_is_valid(df_transform)
             add_rep_deltas(df_transform)
             add_fastest_deltas(df_transform)
