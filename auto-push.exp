@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+exp_internal 1
+set -Eeuo pipefail
+set PASSWORD [lindex $argv 0];
+
+spawn git push
+
+expect {
+  "\r*(yes/no)? " {
+    send "yes\r"
+    exp_continue
+  }
+  "\r*Enter passphrase for key '/home/robery/.ssh/id_ed25519': " {
+    send "$PASSWORD\r"
+  }
+}
+expect eof
