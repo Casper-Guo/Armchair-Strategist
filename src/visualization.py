@@ -466,7 +466,7 @@ def tyre_usage_pie(
 def driver_stats_scatterplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str | int] | str | int = 20,
+    drivers: Iterable[str | int] | str | int = 3,
     y: str = "LapTime",
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
@@ -480,7 +480,7 @@ def driver_stats_scatterplot(
         Name is fuzzy matched by fastf1.get_event().
 
         drivers: See `get_drivers` for all accepted formats.
-        By default, all drivers are plotted.
+        By default, the podium finishers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -588,7 +588,7 @@ def driver_stats_scatterplot(
 def driver_stats_lineplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str] | int = 3,
+    drivers: Iterable[str] | int = 20,
     y: str = "Position",
     upper_bound: int | float = 10,
     grid: Optional[Literal["both", "x", "y"]] = None,
@@ -602,7 +602,7 @@ def driver_stats_lineplot(
         Name is fuzzy matched by fastf1.get_event().
 
         drivers: See `get_drivers` for all accepted formats.
-        By default, the podium finishers are plotted.
+        By default, all drivers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -857,7 +857,7 @@ def strategy_barplot(
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
-    fig, ax = plt.subplots(figsize=(5, len(drivers) // 2 + 1))
+    fig, ax = plt.subplots(figsize=(5, len(drivers) // 3 + 1))
     plt.style.use("dark_background")
 
     driver_stints = (
