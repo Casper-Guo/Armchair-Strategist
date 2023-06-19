@@ -3,6 +3,7 @@
 set -Eeuo pipefail
 set -x
 
+cd /mnt/d/Projects/F1-Visualization
 exec > ETL.log 2>&1
 date
 
