@@ -2,7 +2,7 @@
 exp_internal 1
 set -Eeuo pipefail
 set PASSWORD [lindex $argv 0];
-set timeout -1
+set timeout 60
 
 spawn git push
 

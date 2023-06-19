@@ -17,6 +17,8 @@ data_path = root_path / "Data"
 current_season = 2023
 num_rounds = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 24}
 
+f.Cache.enable_cache(root_path / "Cache")
+
 with open(root_path / "Data" / "compound_selection.toml", "rb") as toml:
     compound_selection = tomli.load(toml)
 with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:

@@ -1,3 +1,4 @@
-wsl.exe chmod +x data-refresh.sh
-wsl.exe chmod +x auto-push.exp
-wsl.exe ./data-refresh.sh
+wsl.exe chmod +x /mnt/d/Projects/F1-Visualization/data-refresh.sh
+wsl.exe chmod +x /mnt/d/Projects/F1-Visualization/auto-push.exp
+wsl.exe /mnt/d/Projects/F1-Visualization/data-refresh.sh
+timeout /t 10
