@@ -132,7 +132,7 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/2023-tyre-compound-choices--canada-austria-and-great-britain/ (Bahrain - Great Britain)
+# https://press.pirelli.com/tyre-news-and-nominations-for-hungary-and-belgium/ (Bahrain - Belgium)
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -144,3 +144,5 @@
 8  = ["C3","C4","C5"]
 9  = ["C3","C4","C5"]
 10 = ["C1","C2","C3"]
+11 = ["C3","C4","C5"]
+12 = ["C2","C3","C4"]
