@@ -237,16 +237,23 @@ def plot_args(season: int, absolute_compound: bool) -> tuple:
 
 
 def get_drivers(
-    session: f.core.Session, drivers: Iterable[str | int] | str | int
+    session: f.core.Session,
+    drivers: Iterable[str | int] | str | int,
+    by: str = "Position",
 ) -> list[str]:
     """Find driver three-letter abbreviations.
+
+    Assumes:
+        session.results is sorted by finishing position
 
     Args:
         session: The race session object, relevant for determining finishing order.
 
         drivers: The following argument formats are accepted:
-            - A single integer retrieve the highest finishing drivers
-              e.g. drivers = 10 will fetch the point finishiers
+            - A single integer retrieve the highest ordered drivers
+              e.g. drivers = 10 with by = "Position" will fetch the point finishiers
+
+              drivers = 20 will return all available drivers
             - A string representing either the driver's three letter abbreviation
               or driver number.
               e.g. "VER" or "44"
@@ -254,13 +261,16 @@ def get_drivers(
               three letter abbreviation or driver number.
               e.g. ["VER", "44", 14]
 
+        by: The key by which the drivers are sorted. Default is sorting by finishing position.
+            See all available options in FastF1 `Session.results` documentation.
+
     Returns:
         The drivers' three-letter abbreviations, in the order requested.
         (Or in the case of int argument, in the finishing order.)
     """
     if isinstance(drivers, int):
-        result = session.results.sort_values(by="Position", kind="stable")
-        drivers = result["Abbreviation"].unique()[:drivers]
+        result = session.results.sort_values(by=by, kind="stable")
+        drivers = result["Abbreviation"].unique()[: min(drivers, result.count())]
         return list(drivers)
     elif isinstance(drivers, str):
         drivers = [drivers]
@@ -275,17 +285,27 @@ def get_drivers(
 
 
 def get_session_info(
-    season: int, event: int | str, drivers: Iterable[str | int] | str | int = 3
+    season: int,
+    event: int | str,
+    drivers: Iterable[str | int] | str | int = 3,
+    teammate_comp: bool = False,
 ) -> tuple[int, str, list[str]]:
     """Retrieve session information based on season and event number / name.
 
     If event is provided as a string, then the name fuzzy matching is done by Fastf1.
+
+    If teammate_comp is True, then the drivers are returned in the order of increasing team
+    names (higher finishing teammate first) instead of by finishing position.
     """
     session = f.get_session(season, event, "R")
     session.load(laps=False, telemetry=False, weather=False, messages=False)
     round_number = session.event["RoundNumber"]
     event_name = session.event["EventName"]
-    drivers = get_drivers(session, drivers)
+
+    if teammate_comp:
+        drivers = get_drivers(session, drivers, by="TeamName")
+    else:
+        drivers = get_drivers(session, drivers)
 
     return round_number, event_name, drivers
 
@@ -866,11 +886,12 @@ def driver_stats_lineplot(
 def driver_stats_distplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str] | int = 10,
+    drivers: Iterable[str | int] | str | int = 10,
     y: str = "LapTime",
     upper_bound: float | int = 10,
     swarm: bool = True,
     absolute_compound: bool = False,
+    teammate_comp: bool = False,
 ) -> Figure:
     """Visualize race data distribution as a violinplot + optional swarmplot.
 
@@ -886,16 +907,22 @@ def driver_stats_distplot(
         y: Name of the column to be used as the y-axis.
 
         upper_bound: The upper bound on included laps as a percentage of the fastest lap.
-        By default, only laps that are within 110% of the fastest lap are plotted.
+        By default, only laps that are less than 10% slower than the fastest lap are plotted.
 
         swarm: Toggle swarmplot visibility.
 
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
+
+        teammate_comp: If true, teammates are plotted next to each other with higher finishing
+        teammate to the left. Otherwise, the drivers are plotted by finishing order
+        (higher finishing to the left).
     """
     plt.style.use("dark_background")
 
-    round_number, event_name, drivers = get_session_info(season, event, drivers)
+    round_number, event_name, drivers = get_session_info(
+        season, event, drivers, teammate_comp
+    )
     included_laps = df_dict[season]
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
@@ -913,6 +940,7 @@ def driver_stats_distplot(
         inner=None,
         scale="area",
         palette=driver_colors,
+        order=drivers,
     )
 
     if swarm:
