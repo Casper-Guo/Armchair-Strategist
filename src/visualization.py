@@ -773,7 +773,7 @@ def driver_stats_scatterplot(
 def driver_stats_lineplot(
     season: int,
     event: int | str,
-    drivers: Iterable[str] | int = 20,
+    drivers: Iterable[str | int] | str | int = 20,
     y: str = "Position",
     upper_bound: int | float = 10,
     grid: Optional[Literal["both", "x", "y"]] = None,
@@ -792,7 +792,7 @@ def driver_stats_lineplot(
         y: Name of the column to be used as the y-axis.
 
         upper_bound: The upper bound on included laps as a percentage of the fastest lap.
-        By default, only laps that are within 110% of the fastest lap are plotted.
+        By default, only laps that are less than 10% slower than the fastest lap are plotted.
 
         grid: Provided to plt.grid() axis argument.
         Leave empty to plot no grid.
@@ -801,6 +801,15 @@ def driver_stats_lineplot(
 
     round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
+    included_laps = filter_round_driver(included_laps, round_number, drivers)
+
+    # find safety car (both SC and VSC) periods
+    # only safety car lasting at least one full lap will be shown
+    # if a lap falls under both category, SC takes precedence
+    sc_laps, vsc_laps = find_sc_laps(included_laps)
+    vsc_laps = [lap for lap in vsc_laps if lap not in sc_laps]
+
+    # do upper bound filtering after SC periods are identified
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
     )
@@ -838,10 +847,16 @@ def driver_stats_lineplot(
         )
         sns.despine(left=True, bottom=True)
 
+    # shade SC periods
+    shade_sc_periods(sc_laps)
+    shade_sc_periods(vsc_laps, vsc=True)
+
     if grid in ["both", "x", "y"]:
         plt.grid(axis=grid)
     else:
         plt.grid(visible=False)
+
+    plt.legend(loc="lower right", fontsize=10)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
 
