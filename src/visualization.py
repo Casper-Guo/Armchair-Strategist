@@ -714,7 +714,7 @@ def driver_stats_scatterplot(
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
-    max_width = 4
+    max_width = 5
     num_row = ceil(len(drivers) / max_width)
     num_col = len(drivers) if len(drivers) < max_width else max_width
     fig, axes = plt.subplots(
