@@ -458,7 +458,6 @@ def tyre_usage_pie(
     ax.axis("equal")
     ax.set_title(title)
     plt.setp(autotexts, size=12)
-    plt.show()
 
     return fig
 
@@ -580,7 +579,6 @@ def driver_stats_scatterplot(
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     axes.flatten()[num_col - 1].legend(loc="best", fontsize=8, framealpha=0.5)
-    plt.show()
 
     return fig
 
@@ -659,7 +657,6 @@ def driver_stats_lineplot(
         plt.grid(visible=False)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
-    plt.show()
 
     return fig
 
@@ -747,7 +744,6 @@ def driver_stats_distplot(
     ax.grid(visible=False)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
-    plt.show()
 
     return fig
 
@@ -920,8 +916,6 @@ def strategy_barplot(
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.spines["left"].set_visible(False)
-
-    plt.show()
 
     return fig
 
@@ -1133,7 +1127,6 @@ def compounds_lineplot(
     compounds = [compounds[i] for i in find_legend_order(compounds)]
 
     fig.suptitle(t=" VS ".join(compounds), fontsize=14)
-    plt.show()
 
     return fig
 
@@ -1253,6 +1246,5 @@ def compounds_distribution(
     compounds = [compounds[i] for i in find_legend_order(compounds)]
 
     fig.suptitle(t=" VS ".join(compounds), fontsize="16")
-    plt.show()
 
     return fig
