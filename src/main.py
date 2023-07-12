@@ -2,7 +2,12 @@
 
 import warnings
 
-from visualization import Path, f, pd, plt, sns
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+# uncomment this
+# import visualization as viz
 
 
 def main():
@@ -18,7 +23,7 @@ def main():
     # TODO: This is dangerous
     warnings.filterwarnings("ignore")
 
-    # Visualizations below`
+    # Visualizations below
 
 
 if __name__ == "__main__":
