@@ -18,9 +18,9 @@ False   = "X"
 Unknown = "*"
 
 [fresh.hatch]
-True    = "None"
+True    = ""
 False   = "///"
-Unknown = "None"
+Unknown = ""
 
 [relative]
 labels = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET", "UNKNOWN"]
