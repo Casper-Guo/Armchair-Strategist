@@ -626,7 +626,12 @@ def driver_stats_lineplot(
     # adjust plot size based on number of laps
     num_laps = included_laps["LapNumber"].nunique()
     fig, ax = plt.subplots(figsize=(ceil(num_laps * 0.25), 8))
-    ax.invert_yaxis()
+
+    if y == "Position" or y.startswith("GapTo"):
+        ax.invert_yaxis()
+
+    if y == "Position":
+        plt.yticks(range(2, 21, 2))
 
     if len(drivers) > 10:
         ax.grid(which="major", axis="x")
