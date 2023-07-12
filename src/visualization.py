@@ -274,6 +274,22 @@ def get_drivers(
     return ret
 
 
+def get_session_info(
+    season: int, event: int | str, drivers: Iterable[str | int] | str | int = 3
+) -> tuple[int, str, list[str]]:
+    """Retrieve session information based on season and event number / name.
+
+    If event is provided as a string, then the name fuzzy matching is done by Fastf1.
+    """
+    session = f.get_session(season, event, "R")
+    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    round_number = session.event["RoundNumber"]
+    event_name = session.event["EventName"]
+    drivers = get_drivers(session, drivers)
+
+    return round_number, event_name, drivers
+
+
 def pick_driver_color(driver: str) -> str:
     """Find the driver's color.
 
@@ -317,6 +333,181 @@ def add_gap(season: int, driver: str) -> pd.DataFrame:
     df_dict[season] = df_laps
 
     return df_laps
+
+
+def lap_filter_sc(row: pd.Series) -> bool:
+    """Check if any part of a lap is ran under safety car.
+
+    Track status 4 stands for safety car.
+
+    Caveats:
+        Might overcount, unsure if the lap after "safety car in this lap will be included.
+    """
+    return "4" in row.loc["TrackStatus"]
+
+
+def lap_filter_vsc(row: pd.Series) -> bool:
+    """Check if any part of a lap is ran under virtual safety car.
+
+    Track status 6 is VSC deployed.
+    Track status 7 is VSC ending.
+
+    Caveats:
+        Might double count with the `lap_filter_sc` function.
+    """
+    return ("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])
+
+
+def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+    """Find the unique lap numbers that is ran under SC or VSC.
+
+    The resulting arrays are sorted before they are returned.
+    """
+    sc_laps = np.sort(
+        df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique()
+    )
+    vsc_laps = np.sort(
+        df_laps[df_laps.apply(lap_filter_vsc, axis=1)]["LapNumber"].unique()
+    )
+
+    return sc_laps, vsc_laps
+
+
+def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
+    """Shade SC or VSC periods lasting at least one lap on the current figure.
+
+    Args:
+        sc_laps: Sorted array of integers indicating laps under SC or VSC.
+
+        VSC: Toggle VSC hatches and label.
+    """
+    sc_laps_copy = np.append(sc_laps, [-1])
+
+    start = 0
+    end = 1
+
+    while end < len(sc_laps_copy):
+        # check if two SC laps are continuous
+        if sc_laps_copy[end] == sc_laps_copy[end - 1] + 1:
+            end += 1
+        else:
+            # current SC period has ended
+            # if the period is at least one full lap
+            if end - start > 1:
+                # minus one to correct for zero indexing on the plot
+                # but one indexing in the data
+                plt.axvspan(
+                    xmin=sc_laps_copy[start] - 1,
+                    xmax=sc_laps_copy[end - 1] - 1,
+                    alpha=0.5,
+                    color="orange",
+                    hatch="-" if vsc else None,
+                    label="VSC" if vsc else "SC",
+                )
+
+            start = end
+            end += 1
+
+    return None
+
+
+def convert_compound_names(
+    season: int, round_number: int, compounds: Iterable[str]
+) -> tuple[str]:
+    """Convert relative compound names to absolute compound names.
+
+    Args:
+        season: Championship season
+
+        round_number: Grand Prix round number.
+
+        compounds: Relative compound names to convert.
+
+    Examples:
+        2023 round 1 selects C1, C2, C3 compounds.
+
+        Then convert_compound_names(
+        2023, 1, ["SOFT", "HARD"]
+        ) = ["C1", "C3"]
+    """
+    compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
+    if season == 2018:
+        compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
+
+    return_vals = []
+
+    for compound in compounds:
+        return_vals.append(
+            compound_selection[str(season)][str(round_number)][
+                compound_to_index[compound]
+            ]
+        )
+
+    return tuple(return_vals)
+
+
+def process_input(
+    seasons: Iterable[int],
+    events: Iterable[str | int],
+    y: str,
+    compounds: Iterable[str],
+    x: str,
+    upper_bound: int | float,
+    absolute_compound: bool,
+) -> tuple[list[f.events.Event], list[pd.DataFrame]]:
+    """Sanitize input parameters to compound plots.
+
+    Returns:
+        event_objects: List of event objects corresponding to each requested race
+
+        included_laps_lst: List of dataframes corresponding to each requested race
+    """
+    # unpack
+    compounds = [compound.upper() for compound in compounds]
+
+    for compound in compounds:
+        assert compound in [
+            "SOFT",
+            "MEDIUM",
+            "HARD",
+        ], f"requested compound {compound} is not valid"
+
+    if x != "LapNumber" and x != "TyreLife":
+        logging.warning(
+            f"Using {x} as the x-axis is not recommended."
+            " The recommended arguments are LapNumber and TyreLife"
+        )
+
+    assert (
+        seasons and events and len(seasons) == len(events)
+    ), f"num seasons ({len(seasons)}) does not match num events ({len(events)})"
+
+    if not absolute_compound and len(events) > 1:
+        logging.warning(
+            """
+            Different events may use different compounds under the same name!
+            e.g. SOFT may be any of C3 to C5 dependinging on the event
+            """
+        )
+
+    # Combine seasons and events and get FastF1 event objects
+    event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
+    included_laps_lst = []
+
+    for season, event in zip(seasons, event_objects):
+        df_laps = filter_round_compound_valid_upper(
+            df_dict[season], event["RoundNumber"], compounds, upper_bound
+        )
+
+        # LapRep columns have outliers that can skew the graph y-axis
+        # The high outlier values are filtered by upper_bound
+        # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
+        if y == "PctFromLapRep" or y == "DeltaToLapRep":
+            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]
+
+        included_laps_lst.append(df_laps)
+
+    return event_objects, included_laps_lst
 
 
 def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
@@ -499,12 +690,7 @@ def driver_stats_scatterplot(
         "horizontalalignment": "center",
     }
 
-    session = f.get_session(season, event, "R")
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
-    round_number = session.event["RoundNumber"]
-    event_name = session.event["EventName"]
-    drivers = get_drivers(session, drivers)
-
+    round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
@@ -613,12 +799,7 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    session = f.get_session(season, event, "R")
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
-    round_number = session.event["RoundNumber"]
-    event_name = session.event["EventName"]
-    drivers = get_drivers(session, drivers)
-
+    round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
@@ -699,12 +880,7 @@ def driver_stats_distplot(
     """
     plt.style.use("dark_background")
 
-    session = f.get_session(season, event, "R")
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
-    round_number = session.event["RoundNumber"]
-    event_name = session.event["EventName"]
-    drivers = get_drivers(session, drivers)
-
+    round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
@@ -754,82 +930,6 @@ def driver_stats_distplot(
     return fig
 
 
-def lap_filter_sc(row: pd.Series) -> bool:
-    """Check if any part of a lap is ran under safety car.
-
-    Track status 4 stands for safety car.
-
-    Caveats:
-        Might overcount, unsure if the lap after "safety car in this lap will be included.
-    """
-    return "4" in row.loc["TrackStatus"]
-
-
-def lap_filter_vsc(row: pd.Series) -> bool:
-    """Check if any part of a lap is ran under virtual safety car.
-
-    Track status 6 is VSC deployed.
-    Track status 7 is VSC ending.
-
-    Caveats:
-        Might double count with the `lap_filter_sc` function.
-    """
-    return ("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])
-
-
-def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
-    """Find the unique lap numbers that is ran under SC or VSC.
-
-    The resulting arrays are sorted before they are returned.
-    """
-    sc_laps = np.sort(
-        df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique()
-    )
-    vsc_laps = np.sort(
-        df_laps[df_laps.apply(lap_filter_vsc, axis=1)]["LapNumber"].unique()
-    )
-
-    return sc_laps, vsc_laps
-
-
-def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
-    """Shade SC or VSC periods lasting at least one lap on the current figure.
-
-    Args:
-        sc_laps: Sorted array of integers indicating laps under SC or VSC.
-
-        VSC: Toggle VSC hatches and label.
-    """
-    sc_laps_copy = np.append(sc_laps, [-1])
-
-    start = 0
-    end = 1
-
-    while end < len(sc_laps_copy):
-        # check if two SC laps are continuous
-        if sc_laps_copy[end] == sc_laps_copy[end - 1] + 1:
-            end += 1
-        else:
-            # current SC period has ended
-            # if the period is at least one full lap
-            if end - start > 1:
-                # minus one to correct for zero indexing on the plot
-                # but one indexing in the data
-                plt.axvspan(
-                    xmin=sc_laps_copy[start] - 1,
-                    xmax=sc_laps_copy[end - 1] - 1,
-                    alpha=0.5,
-                    color="orange",
-                    hatch="-" if vsc else None,
-                    label="VSC" if vsc else "SC",
-                )
-
-            start = end
-            end += 1
-
-    return None
-
-
 def strategy_barplot(
     season: int,
     event: int | str,
@@ -850,12 +950,7 @@ def strategy_barplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    session = f.get_session(season, event, "R")
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
-    round_number = session.event["RoundNumber"]
-    event_name = session.event["EventName"]
-    drivers = get_drivers(session, drivers)
-
+    round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
@@ -924,105 +1019,6 @@ def strategy_barplot(
     ax.spines["left"].set_visible(False)
 
     return fig
-
-
-def convert_compound_names(
-    season: int, round_number: int, compounds: Iterable[str]
-) -> tuple[str]:
-    """Convert relative compound names to absolute compound names.
-
-    Args:
-        season: Championship season
-
-        round_number: Grand Prix round number.
-
-        compounds: Relative compound names to convert.
-
-    Examples:
-        2023 round 1 selects C1, C2, C3 compounds.
-
-        Then convert_compound_names(
-        2023, 1, ["SOFT", "HARD"]
-        ) = ["C1", "C3"]
-    """
-    compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
-    if season == 2018:
-        compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
-
-    return_vals = []
-
-    for compound in compounds:
-        return_vals.append(
-            compound_selection[str(season)][str(round_number)][
-                compound_to_index[compound]
-            ]
-        )
-
-    return tuple(return_vals)
-
-
-def process_input(
-    seasons: Iterable[int],
-    events: Iterable[str | int],
-    y: str,
-    compounds: Iterable[str],
-    x: str,
-    upper_bound: int | float,
-    absolute_compound: bool,
-) -> tuple[list[f.events.Event], list[pd.DataFrame]]:
-    """Sanitize input parameters to compound plots.
-
-    Returns:
-        event_objects: List of event objects corresponding to each requested race
-
-        included_laps_lst: List of dataframes corresponding to each requested race
-    """
-    # unpack
-    compounds = [compound.upper() for compound in compounds]
-
-    for compound in compounds:
-        assert compound in [
-            "SOFT",
-            "MEDIUM",
-            "HARD",
-        ], f"requested compound {compound} is not valid"
-
-    if x != "LapNumber" and x != "TyreLife":
-        logging.warning(
-            f"Using {x} as the x-axis is not recommended."
-            " The recommended arguments are LapNumber and TyreLife"
-        )
-
-    assert (
-        seasons and events and len(seasons) == len(events)
-    ), f"num seasons ({len(seasons)}) does not match num events ({len(events)})"
-
-    if not absolute_compound and len(events) > 1:
-        logging.warning(
-            """
-            Different events may use different compounds under the same name!
-            e.g. SOFT may be any of C3 to C5 dependinging on the event
-            """
-        )
-
-    # Combine seasons and events and get FastF1 event objects
-    event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
-    included_laps_lst = []
-
-    for season, event in zip(seasons, event_objects):
-        df_laps = filter_round_compound_valid_upper(
-            df_dict[season], event["RoundNumber"], compounds, upper_bound
-        )
-
-        # LapRep columns have outliers that can skew the graph y-axis
-        # The high outlier values are filtered by upper_bound
-        # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
-        if y == "PctFromLapRep" or y == "DeltaToLapRep":
-            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]
-
-        included_laps_lst.append(df_laps)
-
-    return event_objects, included_laps_lst
 
 
 def compounds_lineplot(
