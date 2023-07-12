@@ -21,12 +21,12 @@ logging.basicConfig(
 
 Figure: TypeAlias = matplotlib.figure.Figure
 
-root_path = Path(__file__).absolute().parents[1]
+ROOT_PATH = Path(__file__).absolute().parents[1]
 
-with open(root_path / "Data" / "compound_selection.toml", "rb") as toml:
+with open(ROOT_PATH / "Data" / "compound_selection.toml", "rb") as toml:
     compound_selection = tomli.load(toml)
 
-with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:
+with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
@@ -65,14 +65,14 @@ def load_laps() -> dict[int, pd.DataFrame]:
     """Load transformed data by season."""
     df_dict = {}
 
-    for file in Path.iterdir(root_path / "Data"):
+    for file in Path.iterdir(ROOT_PATH / "Data"):
         if file.suffix == ".csv":
             splits = file.stem.split("_")
 
             if splits[0] == "transformed":
                 season = int(splits[2])
                 df = pd.read_csv(
-                    root_path / "Data" / file,
+                    ROOT_PATH / "Data" / file,
                     header=0,
                     true_values=["True"],
                     false_values=["False"],

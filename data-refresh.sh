@@ -23,6 +23,7 @@ then
 fi
 
 python3 src/preprocess.py
+python3 src/readme_update.py
 git add .
 git commit -m "Automatic data refresh"
 ./auto-push.exp "$PASSWORD" -d

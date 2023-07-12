@@ -5,10 +5,30 @@
 
 Engineered F1 data from the 2018 season onwards and visualization tools.
 
-![](docs/static/laptime.png "laptime")
-![](docs/static/position.png "position")
-![](docs/static/tyre.png "tyre")
-![](docs/static/strategy.png "strategy")
+<details>
+<summary><b>Most Recent Race Visualizations</b></summary>
+
+<details>
+<summary>Pit Stop Strategies</summary>
+
+![](docs/visuals/strategy.png "strategy")
+
+</details>
+
+<details>
+<summary>Position Changes</summary>
+
+![](docs/visuals/position.png "position")
+
+</details>
+
+<details>
+<summary>Point Finishers Race Pace</summary>
+
+![](docs/visuals/laptime.png "laptime")
+
+</details>
+</details>
 
 ## Requirements
 

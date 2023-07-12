@@ -12,16 +12,16 @@ logging.basicConfig(
     level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
 )
 
-root_path = Path(__file__).absolute().parents[1]
-data_path = root_path / "Data"
-current_season = 2023
-num_rounds = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 24}
+ROOT_PATH = Path(__file__).absolute().parents[1]
+DATA_PATH = ROOT_PATH / "Data"
+CURRENT_SEASON = 2023
+NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 24}
 
-f.Cache.enable_cache(root_path / "Cache")
+f.Cache.enable_cache(ROOT_PATH / "Cache")
 
-with open(root_path / "Data" / "compound_selection.toml", "rb") as toml:
+with open(ROOT_PATH / "Data" / "compound_selection.toml", "rb") as toml:
     compound_selection = tomli.load(toml)
-with open(root_path / "Data" / "visualization_config.toml", "rb") as toml:
+with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
@@ -38,7 +38,7 @@ def load_all_data(season: int, path: Path):
     race_dfs = []
     schedule = f.get_event_schedule(season)
 
-    for i in range(1, num_rounds[season] + 1):
+    for i in range(1, NUM_ROUNDS[season] + 1):
         race = f.get_session(season, i, "R")
         race.load(telemetry=False)
         laps = race.laps
@@ -72,7 +72,7 @@ def update_data(season: int, path: Path):
     schedule = f.get_event_schedule(season)
 
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
-    newest_round = num_rounds[season]
+    newest_round = NUM_ROUNDS[season]
     all_rounds = set(range(1, newest_round + 1))
 
     missing_rounds = all_rounds.difference(loaded_rounds)
@@ -213,7 +213,7 @@ def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
     """
     df_dict = {}
 
-    for file in Path.iterdir(root_path / "Data"):
+    for file in Path.iterdir(ROOT_PATH / "Data"):
         if file.suffix == ".csv":
             splits = file.stem.split("_")
 
@@ -594,13 +594,9 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
         raise ValueError("Unexpected input length")
 
 
-def main():
-    """Load and transform all newly available data."""
-    Path.mkdir(data_path, exist_ok=True)
-
-    load_seasons = list(range(2018, current_season + 1))
-
-    current_schedule = f.get_event_schedule(current_season)
+def get_last_round_number() -> int:
+    """Return the last finished round number in the current season."""
+    current_schedule = f.get_event_schedule(CURRENT_SEASON)
     five_hours_past = (datetime.now(timezone.utc) - timedelta(hours=5)).replace(
         tzinfo=None
     )
@@ -612,16 +608,26 @@ def main():
     if pd.isna(rounds_completed):
         rounds_completed = 0
 
+    return rounds_completed
+
+
+def main() -> int:
+    """Load and transform all newly available data."""
+    Path.mkdir(DATA_PATH, exist_ok=True)
+
+    load_seasons = list(range(2018, CURRENT_SEASON + 1))
+    rounds_completed = get_last_round_number()
+
     logging.info(
         (
-            f"Correctness Check: {rounds_completed} rounds of the {current_season} "
+            f"Correctness Check: {rounds_completed} rounds of the {CURRENT_SEASON} "
             "season have been completed"
         )
     )
-    num_rounds[current_season] = rounds_completed
+    NUM_ROUNDS[CURRENT_SEASON] = rounds_completed
 
     for season in load_seasons:
-        path = root_path / "Data" / ("all_laps_" + str(season) + ".csv")
+        path = ROOT_PATH / "Data" / ("all_laps_" + str(season) + ".csv")
 
         if Path.is_file(path):
             update_data(season, path)
@@ -649,7 +655,7 @@ def main():
             add_fastest_deltas(df_transform)
             add_lap_rep_deltas(df_transform)
 
-            path = root_path / "Data" / f"transformed_laps_{season}.csv"
+            path = ROOT_PATH / "Data" / f"transformed_laps_{season}.csv"
 
             if Path.is_file(path):
                 # if the file already exists, then don't need to write header again
