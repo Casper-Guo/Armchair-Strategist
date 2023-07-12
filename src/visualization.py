@@ -270,7 +270,7 @@ def get_drivers(
     """
     if isinstance(drivers, int):
         result = session.results.sort_values(by=by, kind="stable")
-        drivers = result["Abbreviation"].unique()[: min(drivers, result.count())]
+        drivers = result["Abbreviation"].unique()[:drivers]
         return list(drivers)
     elif isinstance(drivers, str):
         drivers = [drivers]
@@ -890,10 +890,11 @@ def driver_stats_distplot(
     y: str = "LapTime",
     upper_bound: float | int = 10,
     swarm: bool = True,
+    violin: bool = True,
     absolute_compound: bool = False,
     teammate_comp: bool = False,
 ) -> Figure:
-    """Visualize race data distribution as a violinplot + optional swarmplot.
+    """Visualize race data distribution as a violinplot or boxplot + optional swarmplot.
 
     Args:
         season: Championship season
@@ -911,18 +912,21 @@ def driver_stats_distplot(
 
         swarm: Toggle swarmplot visibility.
 
+        violin: Toggles between violinplot and boxplot.
+
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: If true, teammates are plotted next to each other with higher finishing
-        teammate to the left. Otherwise, the drivers are plotted by finishing order
-        (higher finishing to the left).
+        teammate_comp: If true, teammates are plotted next to each other with higher
+        finishing teammate to the left. Otherwise, the drivers are plotted by
+        finishing order (higher finishing to the left).
     """
     plt.style.use("dark_background")
 
     round_number, event_name, drivers = get_session_info(
         season, event, drivers, teammate_comp
     )
+
     included_laps = df_dict[season]
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
@@ -933,15 +937,30 @@ def driver_stats_distplot(
     args = plot_args(season, absolute_compound)
 
     driver_colors = [pick_driver_color(driver) for driver in drivers]
-    sns.violinplot(
-        data=included_laps,
-        x="Driver",
-        y=y,
-        inner=None,
-        scale="area",
-        palette=driver_colors,
-        order=drivers,
-    )
+
+    if violin:
+        sns.violinplot(
+            data=included_laps,
+            x="Driver",
+            y=y,
+            inner=None,
+            scale="area",
+            palette=driver_colors,
+            order=drivers,
+        )
+    else:
+        sns.boxplot(
+            data=included_laps,
+            x="Driver",
+            y=y,
+            palette=driver_colors,
+            order=drivers,
+            whiskerprops=dict(color="white"),
+            boxprops=dict(edgecolor="white"),
+            medianprops=dict(color="white"),
+            capprops=dict(color="white"),
+            showfliers=False,
+        )
 
     if swarm:
         sns.swarmplot(
@@ -954,17 +973,17 @@ def driver_stats_distplot(
             size=5,
         )
 
-    handles, labels = ax.get_legend_handles_labels()
-    order = find_legend_order(labels)
-    ax.legend(
-        handles=[handles[idx] for idx in order],
-        labels=[labels[idx] for idx in order],
-        loc="best",
-        title=args[0],
-        frameon=True,
-        fontsize=10,
-        framealpha=0.5,
-    )
+        handles, labels = ax.get_legend_handles_labels()
+        order = find_legend_order(labels)
+        ax.legend(
+            handles=[handles[idx] for idx in order],
+            labels=[labels[idx] for idx in order],
+            loc="best",
+            title=args[0],
+            frameon=True,
+            fontsize=10,
+            framealpha=0.5,
+        )
 
     ax.grid(visible=False)
 
