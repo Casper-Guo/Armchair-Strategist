@@ -5,8 +5,7 @@
 
 Engineered F1 data from the 2018 season onwards and visualization tools.
 
-<details>
-<summary><b>Most Recent Race Visualizations</b></summary>
+## Visualizations of the Most Recent Race
 
 <details>
 <summary>Pit Stop Strategies</summary>
@@ -27,7 +26,6 @@ Engineered F1 data from the 2018 season onwards and visualization tools.
 
 ![](docs/visuals/laptime.png "laptime")
 
-</details>
 </details>
 
 ## Requirements
