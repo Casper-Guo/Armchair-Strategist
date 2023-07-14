@@ -8,23 +8,41 @@ Engineered F1 data from the 2018 season onwards and visualization tools.
 ## Visualizations of the Most Recent Race
 
 <details>
-<summary>Pit Stop Strategies</summary>
+<summary><b>Pit Stop Strategies</b></summary>
 
 ![](docs/visuals/strategy.png "strategy")
 
 </details>
 
 <details>
-<summary>Position Changes</summary>
+<summary><b>Position Changes</b></summary>
 
 ![](docs/visuals/position.png "position")
 
 </details>
 
 <details>
-<summary>Point Finishers Race Pace</summary>
+<summary><b>Point Finishers Race Pace</b></summary>
 
 ![](docs/visuals/laptime.png "laptime")
+
+</details>
+
+<details>
+<summary><b>Teammate Pace Comparisons</b></summary>
+
+![](docs/visuals/teammate_box.png "teammate_box")
+
+Violinplot with all laptimes:
+![](docs/visuals/teammate_violin.png "teammate_violin")
+
+</details>
+
+<details>
+<summary><b>Podium Finishers Gap to Winner</b></summary>
+
+Work in progress...
+![](docs/visuals/podium_gap.png "podium_gap")
 
 </details>
 
