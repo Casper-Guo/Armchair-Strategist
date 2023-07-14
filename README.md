@@ -39,6 +39,13 @@ Violinplot with all laptimes:
 </details>
 
 <details>
+<summary><b>Team Pace Comparisons</b></summary>
+
+![](docs/visuals/team_pace.png "team_pace")
+
+</details>
+
+<details>
 <summary><b>Podium Finishers Gap to Winner</b></summary>
 
 Work in progress...

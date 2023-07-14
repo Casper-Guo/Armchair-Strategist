@@ -976,7 +976,7 @@ def driver_stats_distplot(
         drivers = teammate_comp_order(included_laps, drivers, y)
 
     # Adjust plot size based on number of drivers plotted
-    fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 8))
+    fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 10))
     args = plot_args(season, absolute_compound)
 
     driver_colors = [pick_driver_color(driver) for driver in drivers]
