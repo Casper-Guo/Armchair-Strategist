@@ -10,46 +10,45 @@ Engineered F1 data from the 2018 season onwards and visualization tools.
 <details>
 <summary><b>Pit Stop Strategies</b></summary>
 
-![](docs/visuals/strategy.png "strategy")
+![](Docs/visuals/strategy.png "strategy")
 
 </details>
 
 <details>
 <summary><b>Position Changes</b></summary>
 
-![](docs/visuals/position.png "position")
+![](Docs/visuals/position.png "position")
 
 </details>
 
 <details>
 <summary><b>Point Finishers Race Pace</b></summary>
 
-![](docs/visuals/laptime.png "laptime")
-
-</details>
-
-<details>
-<summary><b>Teammate Pace Comparisons</b></summary>
-
-![](docs/visuals/teammate_box.png "teammate_box")
-
-Violinplot with all laptimes:
-![](docs/visuals/teammate_violin.png "teammate_violin")
-
-</details>
-
-<details>
-<summary><b>Team Pace Comparisons</b></summary>
-
-![](docs/visuals/team_pace.png "team_pace")
+![](Docs/visuals/laptime.png "laptime")
 
 </details>
 
 <details>
 <summary><b>Podium Finishers Gap to Winner</b></summary>
 
-Work in progress...
-![](docs/visuals/podium_gap.png "podium_gap")
+![](Docs/visuals/podium_gap.png "podium_gap")
+
+</details>
+
+<details>
+<summary><b>Teammate Pace Comparisons</b></summary>
+
+![](Docs/visuals/teammate_box.png "teammate_box")
+
+Violinplot with all laptimes:
+![](Docs/visuals/teammate_violin.png "teammate_violin")
+
+</details>
+
+<details>
+<summary><b>Team Pace Comparisons</b></summary>
+
+![](Docs/visuals/team_pace.png "team_pace")
 
 </details>
 

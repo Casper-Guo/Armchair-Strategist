@@ -348,7 +348,7 @@ def add_gap(season: int, driver: str) -> pd.DataFrame:
 
         return (row.loc["Time"] - driver_laptimes[round][lap]).total_seconds()
 
-    df_laps[f"Gapto{driver}"] = df_laps.apply(
+    df_laps[f"GapTo{driver}"] = df_laps.apply(
         lambda row: calculate_gap(row, driver), axis=1
     )
     df_dict[season] = df_laps

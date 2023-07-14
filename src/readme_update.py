@@ -1,5 +1,7 @@
 """Make up-to-date visualizations for README."""
+import shutil
 import warnings
+from pathlib import Path
 
 import fastf1 as f
 import fastf1.plotting as p
@@ -12,6 +14,7 @@ import visualization as viz
 from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
 
 # plotting setup
+visuals_path = ROOT_PATH / "Docs" / "visuals"
 mpl.use("Agg")
 sns.set(rc={"figure.dpi": 300, "savefig.dpi": 300})
 plt.style.use("dark_background")
@@ -24,17 +27,31 @@ pd.options.mode.chained_assignment = None
 warnings.filterwarnings("ignore")
 
 completed_round = get_last_round_number()
+session = f.get_session(CURRENT_SEASON, completed_round, "R")
+session.load(telemetry=False, weather=False, messages=False)
+
+podium_finishers = viz.get_drivers(session, drivers=3)
+race_winner = podium_finishers[0]
+viz.add_gap(CURRENT_SEASON, race_winner)
+podium_gap = viz.driver_stats_lineplot(
+    season=CURRENT_SEASON,
+    event=completed_round,
+    drivers=podium_finishers,
+    y=f"GapTo{race_winner}",
+    grid="both",
+)
+plt.savefig(visuals_path / "podium_gap.png")
 
 laptime = viz.driver_stats_scatterplot(
     season=CURRENT_SEASON, event=completed_round, drivers=10
 )
-plt.savefig(ROOT_PATH / "docs/visuals/laptime.png")
+plt.savefig(visuals_path / "laptime.png")
 
 strategy = viz.strategy_barplot(season=CURRENT_SEASON, event=completed_round)
-plt.savefig(ROOT_PATH / "docs/visuals/strategy.png")
+plt.savefig(visuals_path / "strategy.png")
 
 position = viz.driver_stats_lineplot(season=CURRENT_SEASON, event=completed_round)
-plt.savefig(ROOT_PATH / "docs/visuals/position.png")
+plt.savefig(visuals_path / "position.png")
 
 teammate_box = viz.driver_stats_distplot(
     season=CURRENT_SEASON,
@@ -44,7 +61,7 @@ teammate_box = viz.driver_stats_distplot(
     teammate_comp=True,
     drivers=20,
 )
-plt.savefig(ROOT_PATH / "docs/visuals/teammate_box.png")
+plt.savefig(visuals_path / "teammate_box.png")
 
 teammate_violin = viz.driver_stats_distplot(
     season=CURRENT_SEASON,
@@ -53,13 +70,12 @@ teammate_violin = viz.driver_stats_distplot(
     drivers=20,
     upper_bound=7,
 )
-plt.savefig(ROOT_PATH / "docs/visuals/teammate_violin.png")
+plt.savefig(visuals_path / "teammate_violin.png")
 
 # use basic fastf1 to make team pace comparison plot
 p.setup_mpl(misc_mpl_mods=False)
-session = f.get_session(CURRENT_SEASON, completed_round, "R")
-session.load(telemetry=False, weather=False, messages=False)
 laps = session.laps.pick_wo_box()
+event_name = session.event["EventName"]
 
 laps["LapTime (s)"] = laps["LapTime"].dt.total_seconds()
 team_order = (
@@ -84,9 +100,12 @@ sns.boxplot(
     capprops=dict(color="white"),
     showfliers=False,
 )
-plt.title(f"{CURRENT_SEASON} {session.event['EventName']}")
+plt.title(f"{CURRENT_SEASON} {event_name}")
 plt.grid(visible=False)
 ax.set(xlabel=None)
-plt.savefig(ROOT_PATH / "docs/visuals/team_pace.png")
+plt.savefig(visuals_path / "team_pace.png")
 
-# Add podium gap to winner plot
+# Copy the visualizations
+dest = ROOT_PATH / "Visualizations" / f"{CURRENT_SEASON}" / f"{event_name}"
+Path.mkdir(dest, parents=True, exist_ok=True)
+shutil.copytree(visuals_path, dest, dirs_exist_ok=True)
