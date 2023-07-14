@@ -1,5 +1,6 @@
 """Plotting functions and other visualization helpers."""
 
+import itertools
 import logging
 from math import ceil
 from pathlib import Path
@@ -355,6 +356,37 @@ def add_gap(season: int, driver: str) -> pd.DataFrame:
     return df_laps
 
 
+def teammate_comp_order(
+    included_laps: pd.DataFrame, drivers: list[str], by: str
+) -> list[str]:
+    """Reorder teammates by the median gap in some metric in descending order.
+
+    For example, if by is LapTime, then the teammates with the biggest median laptime
+    difference will appear first.
+
+    Assumes:
+        by is a column in included_laps.
+    """
+    metric_median = included_laps.groupby("Driver").median()[by]
+    team_median_gaps = []
+
+    for i in range(0, len(drivers) - 1, 2):
+        teammates = drivers[i], drivers[i + 1]
+        median_gap = abs(metric_median[teammates[0]] - metric_median[teammates[1]])
+        team_median_gaps.append([teammates, median_gap])
+
+    team_median_gaps.sort(key=lambda x: x[1], reverse=True)
+
+    # handles odd number of drivers case
+    standout = drivers[-1:] if len(drivers) % 2 == 1 else []
+
+    # unfortunately iterable unpacking is not allowed in comprehensions
+    drivers = list(itertools.chain(*[team[0] for team in team_median_gaps]))
+    drivers.extend(standout)
+
+    return drivers
+
+
 def lap_filter_sc(row: pd.Series) -> bool:
     """Check if any part of a lap is ran under safety car.
 
@@ -681,6 +713,7 @@ def driver_stats_scatterplot(
     y: str = "LapTime",
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
+    teammate_comp: bool = False,
 ) -> Figure:
     """Visualize driver data during a race as a scatterplot.
 
@@ -700,6 +733,9 @@ def driver_stats_scatterplot(
 
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
+
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order for explnation.
+        If False, the drivers are plotted by finishing order (higher finishing to the left).
     """
     plt.style.use("dark_background")
     fontdict = {
@@ -710,11 +746,16 @@ def driver_stats_scatterplot(
         "horizontalalignment": "center",
     }
 
-    round_number, event_name, drivers = get_session_info(season, event, drivers)
+    round_number, event_name, drivers = get_session_info(
+        season, event, drivers, teammate_comp
+    )
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
-    max_width = 5
+    if teammate_comp:
+        drivers = teammate_comp_order(included_laps, drivers, y)
+
+    max_width = 4 if teammate_comp else 5
     num_row = ceil(len(drivers) / max_width)
     num_col = len(drivers) if len(drivers) < max_width else max_width
     fig, axes = plt.subplots(
@@ -917,9 +958,8 @@ def driver_stats_distplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: If true, teammates are plotted next to each other with higher
-        finishing teammate to the left. Otherwise, the drivers are plotted by
-        finishing order (higher finishing to the left).
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order for explnation.
+        If False, the drivers are plotted by finishing order (higher finishing to the left).
     """
     plt.style.use("dark_background")
 
@@ -931,6 +971,9 @@ def driver_stats_distplot(
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
     )
+
+    if teammate_comp:
+        drivers = teammate_comp_order(included_laps, drivers, y)
 
     # Adjust plot size based on number of drivers plotted
     fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 8))
@@ -969,6 +1012,7 @@ def driver_stats_distplot(
             y=y,
             hue=args[0],
             palette=args[1],
+            order=drivers,
             linewidth=0,
             size=5,
         )
