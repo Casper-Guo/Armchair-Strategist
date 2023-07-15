@@ -372,7 +372,20 @@ def teammate_comp_order(
 
     for i in range(0, len(drivers) - 1, 2):
         teammates = drivers[i], drivers[i + 1]
-        median_gap = abs(metric_median[teammates[0]] - metric_median[teammates[1]])
+
+        # one of the teammates may not have any valid data!
+        # and thus will not be in the team_median_gaps dictionary
+        # in that case, do not plot the teammate with no valid data
+        # TODO: this is ugly, should be able to do better
+        try:
+            median_gap = abs(metric_median[teammates[0]] - metric_median[teammates[1]])
+        except KeyError as e:
+            logging.warning(f"{e} has no data entry for {by} and will not be plotted")
+            for driver in teammates:
+                if driver in metric_median.index:
+                    team_median_gaps.append([[driver], 0])
+            continue
+
         team_median_gaps.append([teammates, median_gap])
 
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
@@ -892,6 +905,12 @@ def driver_stats_lineplot(
 
     for driver in drivers:
         driver_laps = included_laps[included_laps["Driver"] == driver]
+
+        if driver_laps[y].count() == 0:
+            # nothing to plot for this driver
+            logging.warning(f"{driver} has no data entry for {y}")
+            continue
+
         driver_color = pick_driver_color(driver)
 
         sns.lineplot(
