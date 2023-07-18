@@ -4,6 +4,7 @@ ETL.log
 # subdirectories
 /Cache
 /Graphs
+/Visualizations
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
