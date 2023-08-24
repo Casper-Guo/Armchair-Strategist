@@ -383,7 +383,7 @@ def teammate_comp_order(
             logging.warning(f"{e} has no data entry for {by} and will not be plotted")
             for driver in teammates:
                 if driver in metric_median.index:
-                    team_median_gaps.append([[driver], 0])
+                    team_median_gaps.append([tuple(driver), 0])
             continue
 
         team_median_gaps.append([teammates, median_gap])

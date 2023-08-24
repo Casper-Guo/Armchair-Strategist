@@ -25,6 +25,12 @@ with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
+class TOML_out_of_date_error(Exception):
+    """Raised when Data/compound_selection.toml is not up to date."""
+
+    pass
+
+
 def load_all_data(season: int, path: Path):
     """Load all available data in a season.
 
@@ -348,13 +354,12 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
                 ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
-            # TODO: raise a custom exception
             logging.error(
                 "Compound selection record is missing for 2018 season round "
                 + str(row.loc["RoundNumber"])
             )
 
-            assert False
+            raise TOML_out_of_date_error
 
     df_laps["Compound"] = df_laps.apply(convert_compound, axis=1)
 
