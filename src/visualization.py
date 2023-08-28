@@ -849,7 +849,7 @@ def driver_stats_lineplot(
     event: int | str,
     drivers: Iterable[str | int] | str | int = 20,
     y: str = "Position",
-    upper_bound: int | float = 10,
+    upper_bound: Optional[int | float] = None,
     grid: Optional[Literal["both", "x", "y"]] = None,
 ) -> Figure:
     """Visualize driver data during a race as a lineplot.
@@ -866,7 +866,8 @@ def driver_stats_lineplot(
         y: Name of the column to be used as the y-axis.
 
         upper_bound: The upper bound on included laps as a percentage of the fastest lap.
-        By default, only laps that are less than 10% slower than the fastest lap are plotted.
+        Defaults to none in signature to enable checking whether a value is explicitly passed.
+        Usually, the value is set to 10 in function body.
 
         grid: Provided to plt.grid() axis argument.
         Leave empty to plot no grid.
@@ -883,6 +884,12 @@ def driver_stats_lineplot(
     sc_laps, vsc_laps = find_sc_laps(included_laps)
     vsc_laps = [lap for lap in vsc_laps if lap not in sc_laps]
 
+    if upper_bound is None:
+        if y == "Position" or y.startswith("GapTo"):
+            upper_bound = 30
+        else:
+            upper_bound = 10
+
     # do upper bound filtering after SC periods are identified
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
@@ -892,11 +899,11 @@ def driver_stats_lineplot(
     num_laps = included_laps["LapNumber"].nunique()
     fig, ax = plt.subplots(figsize=(ceil(num_laps * 0.25), 8))
 
-    if y == "Position" or y.startswith("GapTo"):
-        ax.invert_yaxis()
-
     if y == "Position":
         plt.yticks(range(2, 21, 2))
+
+    if y == "Position" or y.startswith("GapTo"):
+        ax.invert_yaxis()
 
     if len(drivers) > 10:
         ax.grid(which="major", axis="x")
