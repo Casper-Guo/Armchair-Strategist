@@ -132,7 +132,7 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/tyre-news-and-nominations-for-hungary-and-belgium/ (Bahrain - Belgium)
+# https://press.pirelli.com/news-and-tyre-choices-for-zandvoort-and-monza/ (Bahrain - Monza)
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -146,3 +146,5 @@
 10 = ["C1","C2","C3"]
 11 = ["C3","C4","C5"]
 12 = ["C2","C3","C4"]
+13 = ["C1","C2","C3"]
+14 = ["C3","C4","C5"]
