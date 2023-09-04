@@ -88,8 +88,8 @@ def update_data(season: int, path: Path):
         return None
     else:
         # correctness check
-        logging.info("Existing coverage: ", loaded_rounds)
-        logging.info("Coverage to be added: ", missing_rounds)
+        logging.info(f"Existing coverage: {loaded_rounds}")
+        logging.info(f"Coverage to be added: {missing_rounds}")
 
     race_dfs = []
 
