@@ -1,6 +1,5 @@
 """Plotting functions and other visualization helpers."""
 
-import itertools
 import logging
 from math import ceil
 from pathlib import Path
@@ -368,33 +367,34 @@ def teammate_comp_order(
         by is a column in included_laps.
     """
     metric_median = included_laps.groupby("Driver").median()[by]
+    laps_recorded = included_laps.groupby("Driver").size()
+    drivers_to_plot = laps_recorded.loc[lambda x: x > 5].index
     team_median_gaps = []
 
     for i in range(0, len(drivers) - 1, 2):
         teammates = drivers[i], drivers[i + 1]
 
-        # one of the teammates may not have any valid data!
+        # Some drivers not have any valid data!
         # and thus will not be in the team_median_gaps dictionary
         # in that case, do not plot the teammate with no valid data
-        # TODO: this is ugly, should be able to do better
-        try:
+        if teammates[0] in drivers_to_plot and teammates[1] in drivers_to_plot:
             median_gap = abs(metric_median[teammates[0]] - metric_median[teammates[1]])
-        except KeyError as e:
-            logging.warning(f"{e} has no data entry for {by} and will not be plotted")
+            team_median_gaps.append([teammates, median_gap])
+        else:
             for driver in teammates:
-                if driver in metric_median.index:
-                    team_median_gaps.append([tuple(driver), 0])
-            continue
-
-        team_median_gaps.append([teammates, median_gap])
+                if driver in drivers_to_plot:
+                    team_median_gaps.append([tuple([driver]), 0])
+                else:
+                    logging.warning(
+                        f"{driver} has less than 5 laps of data and will not be plotted"
+                    )
 
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
 
     # handles odd number of drivers case
     standout = drivers[-1:] if len(drivers) % 2 == 1 else []
 
-    # unfortunately iterable unpacking is not allowed in comprehensions
-    drivers = list(itertools.chain(*[team[0] for team in team_median_gaps]))
+    drivers = [driver for team in team_median_gaps for driver in team[0]]
     drivers.extend(standout)
 
     return drivers
