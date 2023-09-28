@@ -132,7 +132,7 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/news-and-tyre-choices-for-zandvoort-and-monza/ (Bahrain - Monza)
+# https://press.pirelli.com/two-confirmations-and-an-innovation-in-the-tyre-choices-for-the-american-continent/ (Bahrain - Brazil)
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -151,3 +151,7 @@
 15 = ["C3","C4","C5"]
 16 = ["C1","C2","C3"]
 17 = ["C1","C2","C3"]
+18 = ["C1","C2","C3"]
+19 = ["C2","C3","C4"]
+20 = ["C3","C4","C5"]
+21 = ["C2","C3","C4"]
