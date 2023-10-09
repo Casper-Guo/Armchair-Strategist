@@ -5,6 +5,7 @@ ETL.log
 /Cache
 /Graphs
 /Visualizations
+/Notebooks
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
