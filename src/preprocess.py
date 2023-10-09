@@ -538,13 +538,11 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
+def find_diff(dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """Find the rows present in all_laps but missing in transformed_laps.
 
     Args:
-        items: list of key value pairs where:
-        the key is the type of the dataframe (either all or transformed)
-        the value is the dataframe object
+        dfs: a dictionary where the key is either "all" or "transformed"
 
     Assumes:
         - all_laps have at least as many rows as transformed_laps
@@ -553,33 +551,22 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
     Returns:
         The part of all_laps that is missing in transformed_laps.
     """
-    if len(items) == 1:
+    if len(dfs) == 1:
         # If there is only one pair, the key should be "all"
-        assert items[0][0] == "all"
+        assert "all" in dfs
 
         logging.info("No transfromed_laps found")
 
         # If no transformed_laps is found, the entirety of all_laps is in the diff
-        return items[0][1]
+        return dfs["all"]
 
-    elif len(items) == 2:
+    elif len(dfs) == 2:
         # "all" should be the key for the first pair in items
         # but we will not rely on this
+        assert all([key in dfs for key in ["all", "transformed"]])
 
-        num_row_all = 0
-        num_row_transformed = 0
-        diff = pd.DataFrame()
-
-        if items[0][0] == "all":
-            num_row_all = items[0][1].shape[0]
-            num_row_transformed = items[1][1].shape[0]
-            diff = items[0][1]
-        elif items[0][0] == "transformed":
-            num_row_all = items[1][1].shape[0]
-            num_row_transformed = items[0][1].shape[0]
-            diff = items[1][1]
-        else:
-            raise ValueError("Unexpected key")
+        num_row_all = dfs["all"].shape[0]
+        num_row_transformed = dfs["transformed"].shape[0]
 
         # see assumption
         assert num_row_all >= num_row_transformed
@@ -594,7 +581,7 @@ def find_diff(items: list[tuple[str, pd.DataFrame]]) -> pd.DataFrame:
                 )
             )
 
-        return diff.iloc[num_row_transformed:]
+        return dfs["all"].iloc[num_row_transformed:]
     else:
         raise ValueError("Unexpected input length")
 
@@ -646,7 +633,7 @@ def main() -> int:
 
     for season, dfs in data.items():
         logging.info(str(season) + ":")
-        df_transform = find_diff(list(dfs.items()))
+        df_transform = find_diff(dfs)
 
         if df_transform.shape[0] != 0:
             add_is_slick(season, df_transform)
