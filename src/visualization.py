@@ -747,8 +747,9 @@ def driver_stats_scatterplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order for explnation.
-        If False, the drivers are plotted by finishing order (higher finishing to the left).
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
+        for explanation. If False, the drivers are plotted by finishing order
+        (higher finishing to the left).
     """
     plt.style.use("dark_background")
     fontdict = {
@@ -984,8 +985,9 @@ def driver_stats_distplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order for explnation.
-        If False, the drivers are plotted by finishing order (higher finishing to the left).
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
+        for explanation. If False, the drivers are plotted by finishing order
+        (higher finishing to the left).
     """
     plt.style.use("dark_background")
 

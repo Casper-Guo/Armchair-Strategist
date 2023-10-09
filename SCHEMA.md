@@ -27,7 +27,7 @@ The following columns from `all_laps_*.csv`:
 - **RoundNumber** (`int`)
 - **EventName** (`str`)
 
-The follwing columns are added. All numerical columns are accurate to three places.
+The following columns are added. All numerical columns are accurate to three places.
 
 - **IsSlick** (`bool`): A flag for whether the lap is completed on any of the slick compounds.
 - **CompoundName** (`string`): The name of the underlying compound.

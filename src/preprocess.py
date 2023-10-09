@@ -25,7 +25,7 @@ with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
     visual_config = tomli.load(toml)
 
 
-class TOML_out_of_date_error(Exception):
+class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""
 
     pass
@@ -359,7 +359,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
                 + str(row.loc["RoundNumber"])
             )
 
-            raise TOML_out_of_date_error
+            raise OutdatedTOMLError
 
     df_laps["Compound"] = df_laps.apply(convert_compound, axis=1)
 
