@@ -5,51 +5,93 @@
 
 Engineered F1 data from the 2018 season onwards and visualization tools. Visualizations automatically updated to reflect the latest race on the Monday after the race at midnight EDT.
 
-## Visualizations of the Most Recent Race
+## Visualizations of the Most Recent Race/Examples
 
 <details>
-<summary><b>Pit Stop Strategies</b></summary>
-
-![](Docs/visuals/strategy.png "strategy")
-
+    <summary>
+        <b>Pit Stop Strategies</b>
+    </summary>
+    <img src="Docs/visuals/strategy.png", alt="strategy">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>strategy_barplot(season, event)</code>
+    </details>
 </details>
 
 <details>
-<summary><b>Position Changes</b></summary>
-
-![](Docs/visuals/position.png "position")
-
+    <summary>
+        <b>Position Changes</b>
+    </summary>
+    <img src="Docs/visuals/position.png" alt="position">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>driver_stats_scatterplot(season, event, drivers=10)</code>
+    </details>
 </details>
 
 <details>
-<summary><b>Point Finishers Race Pace</b></summary>
-
-![](Docs/visuals/laptime.png "laptime")
-
+    <summary>
+        <b>Point Finishers Race Pace</b>
+    </summary>
+    <img src="Docs/visuals/laptime.png" alt="laptime">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>strategy_barplot(season, event)</code>
+    </details>
 </details>
 
 <details>
-<summary><b>Podium Finishers Gap to Winner</b></summary>
-
-![](Docs/visuals/podium_gap.png "podium_gap")
-
+    <summary>
+        <b>Podium Finishers Gap to Winner</b>
+    </summary>
+    <img src="Docs/visuals/podium_gap.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        See <code>src/readme_update.py</code>
+    </details>
 </details>
 
 <details>
-<summary><b>Teammate Pace Comparisons</b></summary>
-
-![](Docs/visuals/teammate_box.png "teammate_box")
-
-Violinplot with all laptimes:
-![](Docs/visuals/teammate_violin.png "teammate_violin")
-
+    <summary>
+        <b>Teammate Pace Comparisons</b>
+    </summary>
+    Boxplot visualization:
+    <img src="Docs/visuals/teammate_box.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True, drivers=20)</code>
+    </details>
+    Violinplot with all laptimes:
+    <img src="Docs/visuals/teammate_violin.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True, drivers=20)</code>
+    </details>
 </details>
 
 <details>
-<summary><b>Team Pace Comparisons</b></summary>
-
-![](Docs/visuals/team_pace.png "team_pace")
-
+    <summary>
+        <b>Team Pace Comparisons</b>
+    </summary>
+    <img src="Docs/visuals/team_pace.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        See <code>src/readme_update.py</code>
+    </details>
 </details>
 
 ## Requirements
@@ -62,13 +104,12 @@ All data sourced from the [FastF1](https://github.com/theOehrly/Fast-F1) package
 
 ## Data Availability
 
-Data from all races beginning in the 2018 season, excluding test sessions, are available. This repository will be regularly updated during the F1 season.
+Data from all races beginning in the 2018 season, excluding test sessions, are available. This repository will be automatically updated during the F1 season.
 
 ## Metrics Definitions
 
 See `SCHEMA.md` for details on the columns provided in `Data/all_laps_*.csv` and `Data/transformed_laps_*.csv` files.
 
-## Important Files
+## Usage Guide
 
-- Use `src/main.py` or `Notebooks/visualization.ipynb` to make your own visualizations. `Notebooks/visualization.ipynb` contains some example visualizations towards the end of the file.
-- `Notebooks/data_loading.ipynb` and `Notebooks/data_transformation.ipynb` are _planned for removal_. Prefer `src/preprocessing.py` for acquiring and processing data.
+- Use `src/main.py` to make your own visualizations.
