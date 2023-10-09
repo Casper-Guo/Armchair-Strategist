@@ -1,4 +1,5 @@
 """Make up-to-date visualizations for README."""
+import logging
 import shutil
 import warnings
 from pathlib import Path
@@ -12,6 +13,10 @@ import seaborn as sns
 
 import visualization as viz
 from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
+
+logging.basicConfig(
+    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
+)
 
 # plotting setup
 visuals_path = ROOT_PATH / "Docs" / "visuals"
@@ -30,6 +35,7 @@ completed_round = get_last_round_number()
 session = f.get_session(CURRENT_SEASON, completed_round, "R")
 session.load(telemetry=False, weather=False, messages=False)
 
+logging.info("Making podium gap graph...")
 podium_finishers = viz.get_drivers(session, drivers=3)
 race_winner = podium_finishers[0]
 viz.add_gap(CURRENT_SEASON, race_winner)
@@ -42,17 +48,21 @@ podium_gap = viz.driver_stats_lineplot(
 )
 plt.savefig(visuals_path / "podium_gap.png")
 
+logging.info("Making lap time graph...")
 laptime = viz.driver_stats_scatterplot(
     season=CURRENT_SEASON, event=completed_round, drivers=10
 )
 plt.savefig(visuals_path / "laptime.png")
 
+logging.info("Making strategy graph...")
 strategy = viz.strategy_barplot(season=CURRENT_SEASON, event=completed_round)
 plt.savefig(visuals_path / "strategy.png")
 
+logging.info("Making position change graph...")
 position = viz.driver_stats_lineplot(season=CURRENT_SEASON, event=completed_round)
 plt.savefig(visuals_path / "position.png")
 
+logging.info("Making teammate comparison boxplot...")
 teammate_box = viz.driver_stats_distplot(
     season=CURRENT_SEASON,
     event=completed_round,
@@ -63,6 +73,7 @@ teammate_box = viz.driver_stats_distplot(
 )
 plt.savefig(visuals_path / "teammate_box.png")
 
+logging.info("Making teammate comp violinplot...")
 teammate_violin = viz.driver_stats_distplot(
     season=CURRENT_SEASON,
     event=completed_round,
@@ -73,6 +84,7 @@ teammate_violin = viz.driver_stats_distplot(
 plt.savefig(visuals_path / "teammate_violin.png")
 
 # use basic fastf1 to make team pace comparison plot
+logging.info("Making team pace comparison graph...")
 p.setup_mpl(misc_mpl_mods=False)
 laps = session.laps.pick_wo_box()
 event_name = session.event["EventName"]
