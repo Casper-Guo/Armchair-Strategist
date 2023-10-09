@@ -73,7 +73,7 @@ teammate_violin = viz.driver_stats_distplot(
 plt.savefig(visuals_path / "teammate_violin.png")
 
 # use basic fastf1 to make team pace comparison plot
-p.setup_mpl(mpl_timedelta_support=False, misc_mpl_mods=False)
+p.setup_mpl(misc_mpl_mods=False)
 laps = session.laps.pick_wo_box()
 event_name = session.event["EventName"]
 
