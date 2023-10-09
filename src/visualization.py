@@ -733,6 +733,7 @@ def driver_stats_scatterplot(
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
     teammate_comp: bool = False,
+    lap_numbers: Optional[list[int]] = None,
 ) -> Figure:
     """Visualize driver data during a race as a scatterplot.
 
@@ -756,6 +757,13 @@ def driver_stats_scatterplot(
         teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
         for explanation. If False, the drivers are plotted by finishing order
         (higher finishing to the left).
+
+        lap_numbers: A list of consecutive lap numbers representing a segment of the event.
+        Recommend constructing this argument from a range object.
+
+    Caveat:
+        Providing a list of numbers that is not consecutive as lap_numbers will cause
+        undefined behavior.
     """
     plt.style.use("dark_background")
     fontdict = {
@@ -774,6 +782,10 @@ def driver_stats_scatterplot(
 
     if teammate_comp:
         drivers = teammate_comp_order(included_laps, drivers, y)
+
+    if lap_numbers is not None:
+        assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
+        included_laps = included_laps[included_laps["LapNumber"].isin(lap_numbers)]
 
     max_width = 4 if teammate_comp else 5
     num_row = ceil(len(drivers) / max_width)
@@ -829,7 +841,6 @@ def driver_stats_scatterplot(
             markers=visual_config["fresh"]["markers"],
             legend="auto" if index == num_col - 1 else False,
         )
-
         ax.vlines(
             ymin=plt.yticks()[0][1],
             ymax=plt.yticks()[0][-2],
@@ -858,6 +869,7 @@ def driver_stats_lineplot(
     y: str = "Position",
     upper_bound: Optional[int | float] = None,
     grid: Optional[Literal["both", "x", "y"]] = None,
+    lap_numbers: Optional[list[int]] = None,
 ) -> Figure:
     """Visualize driver data during a race as a lineplot.
 
@@ -878,12 +890,23 @@ def driver_stats_lineplot(
 
         grid: Provided to plt.grid() axis argument.
         Leave empty to plot no grid.
+
+        lap_numbers: A list of consecutive lap numbers representing a segment of the event.
+        Recommend constructing this argument from a range object.
+
+    Caveat:
+        Providing a list of numbers that is not consecutive as lap_numbers will cause
+        undefined behavior.
     """
     plt.style.use("dark_background")
 
     round_number, event_name, drivers = get_session_info(season, event, drivers)
     included_laps = df_dict[season]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
+
+    if lap_numbers is not None:
+        assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
+        included_laps = included_laps[included_laps["LapNumber"].isin(lap_numbers)]
 
     # find safety car (both SC and VSC) periods
     # only safety car lasting at least one full lap will be shown
@@ -893,7 +916,7 @@ def driver_stats_lineplot(
 
     if upper_bound is None:
         if y == "Position" or y.startswith("GapTo"):
-            upper_bound = 30
+            upper_bound = 100
         else:
             upper_bound = 10
 
