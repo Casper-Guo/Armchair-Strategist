@@ -538,10 +538,11 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def find_diff(dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
+def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
     """Find the rows present in all_laps but missing in transformed_laps.
 
     Args:
+        season: championship season
         dfs: a dictionary where the key is either "all" or "transformed"
 
     Assumes:
@@ -555,7 +556,7 @@ def find_diff(dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         # If there is only one pair, the key should be "all"
         assert "all" in dfs
 
-        logging.info("No transfromed_laps found")
+        logging.info(f"{season}: No transfromed_laps found")
 
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return dfs["all"]
@@ -572,12 +573,12 @@ def find_diff(dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         assert num_row_all >= num_row_transformed
 
         if num_row_all == num_row_transformed:
-            logging.info("transformed_laps is up-to-date")
+            logging.info(f"transformed_laps_{season} is up-to-date")
         else:
             logging.info(
                 (
                     f"{num_row_all - num_row_transformed}"
-                    " rows will be added to transformed_laps"
+                    f" rows will be added to transformed_laps_{season}"
                 )
             )
 
@@ -632,8 +633,7 @@ def main() -> int:
     data = load_laps()
 
     for season, dfs in data.items():
-        logging.info(str(season) + ":")
-        df_transform = find_diff(dfs)
+        df_transform = find_diff(season, dfs)
 
         if df_transform.shape[0] != 0:
             add_is_slick(season, df_transform)
