@@ -87,6 +87,12 @@ def load_laps() -> dict[int, pd.DataFrame]:
 df_dict = load_laps()
 
 
+def get_laps(season: int, round: int) -> pd.DataFrame:
+    """Get transformed laps for a race."""
+    df_season = df_dict[season]
+    return df_season[df_season["RoundNumber"] == round]
+
+
 def find_legend_order(labels: Iterable[str]) -> list[int]:
     """Provide the index of a list of compounds sorted from soft to hard.
 
