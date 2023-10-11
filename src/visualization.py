@@ -372,7 +372,7 @@ def teammate_comp_order(
     Assumes:
         by is a column in included_laps.
     """
-    metric_median = included_laps.groupby("Driver").median()[by]
+    metric_median = included_laps.groupby("Driver").median(numeric_only=True)[by]
     laps_recorded = included_laps.groupby("Driver").size()
     drivers_to_plot = laps_recorded.loc[lambda x: x > 5].index
     team_median_gaps = []
@@ -1243,7 +1243,7 @@ def compounds_lineplot(
     for i in range(len(event_objects)):
         args = plot_args(seasons[i], absolute_compound)
         included_laps = included_laps_lst[i]
-        medians = included_laps.groupby([args[0], x])[y].median()
+        medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
 
         round_number = event_objects[i]["RoundNumber"]
         event_name = event_objects[i]["EventName"]

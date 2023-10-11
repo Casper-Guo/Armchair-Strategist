@@ -93,7 +93,7 @@ laps["LapTime (s)"] = laps["LapTime"].dt.total_seconds()
 team_order = (
     laps[["Team", "LapTime (s)"]]
     .groupby("Team")
-    .median()["LapTime (s)"]
+    .median(numeric_only=True)["LapTime (s)"]
     .sort_values()
     .index
 )

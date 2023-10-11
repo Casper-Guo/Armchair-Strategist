@@ -1,5 +1,5 @@
 fastf1
-pandas<2.0.0
+pandas
 matplotlib
 numpy
 seaborn

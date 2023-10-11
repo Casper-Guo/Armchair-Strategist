@@ -400,7 +400,7 @@ def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
     for round_number in rounds:
         median = df_laps[
             (df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"])
-        ]["LapTime"].median()
+        ]["LapTime"].median(numeric_only=True)
         rep_times[round_number] = round(median, 3)
 
     return rep_times
@@ -498,7 +498,7 @@ def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
         for lap_number in lap_numbers:
             median = round_laps[round_laps["LapNumber"] == lap_number][
                 "LapTime"
-            ].median()
+            ].median(numeric_only=True)
             round_lap_reps[lap_number] = round(median, 3)
 
         lap_reps[round_number] = round_lap_reps
