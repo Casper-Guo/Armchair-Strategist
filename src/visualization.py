@@ -518,8 +518,8 @@ def convert_compound_names(
 
 
 def process_input(
-    seasons: Iterable[int],
-    events: Iterable[str | int],
+    seasons: int | Iterable[int],
+    events: int | str | Iterable[str | int],
     y: str,
     compounds: Iterable[str],
     x: str,
@@ -549,8 +549,11 @@ def process_input(
             " The recommended arguments are LapNumber and TyreLife"
         )
 
-    assert (
-        seasons and events and len(seasons) == len(events)
+    if isinstance(events, int) or isinstance(events, str):
+        events = [events]
+
+    assert len(seasons) == len(
+        events
     ), f"num seasons ({len(seasons)}) does not match num events ({len(events)})"
 
     if not absolute_compound and len(events) > 1:
@@ -1185,8 +1188,8 @@ def strategy_barplot(
 
 
 def compounds_lineplot(
-    seasons: Iterable[int],
-    events: Iterable[int | str],
+    seasons: int | Iterable[int],
+    events: int | str | Iterable[int | str],
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     x: str = "TyreLife",
@@ -1221,6 +1224,9 @@ def compounds_lineplot(
     """
     plt.style.use("dark_background")
 
+    if isinstance(seasons, int):
+        seasons = [seasons]
+
     event_objects, included_laps_lst = process_input(
         seasons, events, y, compounds, x, upper_bound, absolute_compound
     )
@@ -1233,7 +1239,7 @@ def compounds_lineplot(
     )
 
     # Prevent TypeError when only one event is plotted
-    if len(events) == 1:
+    if len(event_objects) == 1:
         axes = [axes]
 
     # Copy compounds values
@@ -1241,6 +1247,7 @@ def compounds_lineplot(
     compounds_copy = compounds.copy()
 
     for i in range(len(event_objects)):
+        ax = axes[i]
         args = plot_args(seasons[i], absolute_compound)
         included_laps = included_laps_lst[i]
         medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
@@ -1253,10 +1260,10 @@ def compounds_lineplot(
 
         for compound in compounds_copy:
             if compound in medians.index:
-                ax = sns.lineplot(
+                sns.lineplot(
                     x=medians.loc[compound].index,
                     y=medians.loc[compound].values,
-                    ax=axes[i],
+                    ax=ax,
                     color=args[1][compound],
                     marker=args[2][compound],
                     markersize=4,
@@ -1272,9 +1279,9 @@ def compounds_lineplot(
 
         ax.set_ylabel(y, fontsize=12)
 
-        handles, labels = axes[i].get_legend_handles_labels()
+        handles, labels = ax.get_legend_handles_labels()
         order = find_legend_order(labels)
-        axes[i].legend(
+        ax.legend(
             handles=[handles[idx] for idx in order],
             labels=[labels[idx] for idx in order],
             loc="best",
@@ -1297,8 +1304,8 @@ def compounds_lineplot(
 
 
 def compounds_distribution(
-    seasons: Iterable[int],
-    events: Iterable[int | str],
+    seasons: int | Iterable[int],
+    events: int | str | Iterable[int | str],
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     violin_plot: bool = False,
@@ -1336,6 +1343,9 @@ def compounds_distribution(
     """
     plt.style.use("dark_background")
 
+    if not isinstance(seasons, int):
+        seasons = [seasons]
+
     event_objects, included_laps_lst = process_input(
         seasons, events, y, compounds, x, upper_bound, absolute_compound
     )
@@ -1350,7 +1360,7 @@ def compounds_distribution(
     )
 
     # Prevent TypeError when only one event is plotted
-    if len(events) == 1:
+    if len(event_objects) == 1:
         axes = [axes]
 
     # Copy compounds values
@@ -1358,10 +1368,11 @@ def compounds_distribution(
     compounds_copy = compounds.copy()
 
     for i in range(len(event_objects)):
+        ax = axes[i]
         args = plot_args(seasons[i], absolute_compound)
         included_laps = included_laps_lst[i]
 
-        plotted_compounds = included_laps["Compound"].unique()
+        plotted_compounds = included_laps[args[0]].unique()
         event_name = event_objects[i]["EventName"]
         round_number = event_objects[i]["RoundNumber"]
 
@@ -1378,12 +1389,12 @@ def compounds_distribution(
                 )
 
         if violin_plot:
-            ax = sns.violinplot(
-                data=included_laps, x=x, y=y, ax=axes[i], hue=args[0], palette=args[1]
+            sns.violinplot(
+                data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1]
             )
         else:
-            ax = sns.boxplot(
-                data=included_laps, x=x, y=y, ax=axes[i], hue=args[0], palette=args[1]
+            sns.boxplot(
+                data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1]
             )
 
         ax.set_ylabel(y, fontsize=12)
@@ -1392,9 +1403,9 @@ def compounds_distribution(
         ax.set_xticks(xticks)
         ax.grid(which="both", axis="y")
 
-        handles, labels = axes[i].get_legend_handles_labels()
+        handles, labels = ax.get_legend_handles_labels()
         order = find_legend_order(labels)
-        axes[i].legend(
+        ax.legend(
             handles=[handles[idx] for idx in order],
             labels=[labels[idx] for idx in order],
             loc="best",

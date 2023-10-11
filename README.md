@@ -113,3 +113,30 @@ See `SCHEMA.md` for details on the columns provided in `Data/all_laps_*.csv` and
 ## Usage Guide
 
 - Use `src/main.py` to make your own visualizations.
+
+## Additional Examples
+<details>
+    <summary>
+        <b>Tyre Degradation Lineplot</b>
+    </summary>
+    <img src="Docs/examples/tyre_line.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>compounds_lineplot(seasons, events)</code>
+    </details>
+</details>
+
+<details>
+    <summary>
+        <b>Tyre Degradation Distribution Plot</b>
+    </summary>
+    <img src="Docs/examples/tyre_dist.png">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>compounds_distplot(seasons, events)</code>
+    </details>
+</details>
