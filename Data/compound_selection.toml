@@ -132,7 +132,7 @@
 
 [2023]
 # Source
-# https://press.pirelli.com/two-confirmations-and-an-innovation-in-the-tyre-choices-for-the-american-continent/ (Bahrain - Brazil)
+# https://press.pirelli.com/a-soft-landing-for-the-2023-world-championship/
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -155,3 +155,5 @@
 19 = ["C2","C3","C4"]
 20 = ["C3","C4","C5"]
 21 = ["C2","C3","C4"]
+22 = ["C3","C4","C5"]
+23 = ["C3","C4","C5"]
