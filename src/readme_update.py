@@ -34,6 +34,7 @@ warnings.filterwarnings("ignore")
 completed_round = get_last_round_number()
 session = f.get_session(CURRENT_SEASON, completed_round, "R")
 session.load(telemetry=False, weather=False, messages=False)
+logging.info("Visualizing %s", session)
 
 logging.info("Making podium gap graph...")
 podium_finishers = viz.get_drivers(session, drivers=3)
