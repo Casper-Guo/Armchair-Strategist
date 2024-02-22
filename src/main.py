@@ -13,7 +13,7 @@ import seaborn as sns
 def main():
     """Set up visualizations."""
     # plotting setup
-    sns.set(rc={"figure.dpi": 300, "savefig.dpi": 300})
+    sns.set_theme(rc={"figure.dpi": 300, "savefig.dpi": 300})
     plt.style.use("dark_background")
 
     # Suppress pandas SettingWithCopy warning
