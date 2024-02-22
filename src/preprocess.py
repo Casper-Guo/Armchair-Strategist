@@ -14,8 +14,8 @@ logging.basicConfig(
 
 ROOT_PATH = Path(__file__).absolute().parents[1]
 DATA_PATH = ROOT_PATH / "Data"
-CURRENT_SEASON = 2023
-NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 24}
+CURRENT_SEASON = datetime.now().year
+NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22, 2024: 24}
 
 f.Cache.enable_cache(ROOT_PATH / "Cache")
 
@@ -94,7 +94,7 @@ def update_data(season: int, path: Path):
     race_dfs = []
 
     for i in missing_rounds:
-        race = f.get_session(2023, i, "R")
+        race = f.get_session(season, i, "R")
 
         try:
             race.load(telemetry=False)
