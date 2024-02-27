@@ -64,7 +64,7 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 def load_laps() -> dict[int, pd.DataFrame]:
     """Load transformed data by season."""
-    df_dict = {}
+    dfs = {}
 
     for file in Path.iterdir(ROOT_PATH / "Data"):
         if file.suffix == ".csv":
@@ -79,18 +79,18 @@ def load_laps() -> dict[int, pd.DataFrame]:
                     false_values=["False"],
                 )
                 correct_dtype(df)
-                df_dict[season] = df
+                dfs[season] = df
 
-    return df_dict
+    return dfs
 
 
 df_dict = load_laps()
 
 
-def get_laps(season: int, round: int) -> pd.DataFrame:
+def get_laps(season: int, round_number: int) -> pd.DataFrame:
     """Get transformed laps for a race."""
     df_season = df_dict[season]
-    return df_season[df_season["RoundNumber"] == round]
+    return df_season[df_season["RoundNumber"] == round_number]
 
 
 def find_legend_order(labels: Iterable[str]) -> list[int]:
@@ -118,14 +118,11 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
     sorted_labels = []
 
     if any(
-        [
-            name in labels
-            for name in ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"]
-        ]
+        name in labels for name in ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"]
     ):
         # 2018 absolute compound names
         sorted_labels = visual_config["absolute"]["labels"]["18"]
-    elif any([label.startswith("C") for label in labels]):
+    elif any(label.startswith("C") for label in labels):
         # 19_22 absolute compound names
         sorted_labels = visual_config["absolute"]["labels"]["19_22"]
     else:
@@ -226,20 +223,19 @@ def plot_args(season: int, absolute_compound: bool) -> tuple:
                 visual_config["absolute"]["markers"]["18"],
                 visual_config["absolute"]["labels"]["18"],
             )
-        else:
-            return (
-                "CompoundName",
-                visual_config["absolute"]["palette"]["19_22"],
-                visual_config["absolute"]["markers"]["19_22"],
-                visual_config["absolute"]["labels"]["19_22"],
-            )
-    else:
         return (
-            "Compound",
-            visual_config["relative"]["palette"],
-            visual_config["relative"]["markers"],
-            visual_config["relative"]["labels"],
+            "CompoundName",
+            visual_config["absolute"]["palette"]["19_22"],
+            visual_config["absolute"]["markers"]["19_22"],
+            visual_config["absolute"]["labels"]["19_22"],
         )
+
+    return (
+        "Compound",
+        visual_config["relative"]["palette"],
+        visual_config["relative"]["markers"],
+        visual_config["relative"]["labels"],
+    )
 
 
 def get_drivers(
@@ -278,7 +274,7 @@ def get_drivers(
         result = session.results.sort_values(by=by, kind="stable")
         drivers = result["Abbreviation"].unique()[:drivers]
         return list(drivers)
-    elif isinstance(drivers, str):
+    if isinstance(drivers, str):
         drivers = [drivers]
 
     ret = []
@@ -324,8 +320,8 @@ def pick_driver_color(driver: str) -> str:
     """
     if p.DRIVER_TRANSLATE.get(driver, "NA") in p.DRIVER_COLORS:
         return p.DRIVER_COLORS[p.DRIVER_TRANSLATE[driver]]
-    else:
-        return "#808080"
+
+    return "#808080"
 
 
 def add_gap(season: int, driver: str) -> pd.DataFrame:
@@ -337,25 +333,24 @@ def add_gap(season: int, driver: str) -> pd.DataFrame:
     # start a memo
     driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
 
-    def calculate_gap(row, driver):
-        round = row.loc["RoundNumber"]
+    def calculate_gap(row):
+        round_number = row.loc["RoundNumber"]
         lap = row.loc["LapNumber"]
 
-        if lap not in driver_laptimes[round]:
+        if lap not in driver_laptimes[round_number]:
             laptime = df_driver[
-                (df_driver["RoundNumber"] == round) & (df_driver["LapNumber"] == lap)
+                (df_driver["RoundNumber"] == round_number)
+                & (df_driver["LapNumber"] == lap)
             ]["Time"]
 
             if laptime.empty:
-                driver_laptimes[round][lap] = pd.NaT
+                driver_laptimes[round_number][lap] = pd.NaT
             else:
-                driver_laptimes[round][lap] = laptime.iloc[0]
+                driver_laptimes[round_number][lap] = laptime.iloc[0]
 
-        return (row.loc["Time"] - driver_laptimes[round][lap]).total_seconds()
+        return (row.loc["Time"] - driver_laptimes[round_number][lap]).total_seconds()
 
-    df_laps[f"GapTo{driver}"] = df_laps.apply(
-        lambda row: calculate_gap(row, driver), axis=1
-    )
+    df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
     df_dict[season] = df_laps
 
     return df_laps
@@ -479,8 +474,6 @@ def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
             start = end
             end += 1
 
-    return None
-
 
 def convert_compound_names(
     season: int, round_number: int, compounds: Iterable[str]
@@ -543,13 +536,13 @@ def process_input(
             "HARD",
         ], f"requested compound {compound} is not valid"
 
-    if x != "LapNumber" and x != "TyreLife":
+    if x not in {"LapNumber", "TyreLife"}:
         logging.warning(
             f"Using {x} as the x-axis is not recommended."
             " The recommended arguments are LapNumber and TyreLife"
         )
 
-    if isinstance(events, int) or isinstance(events, str):
+    if isinstance(events, (int, str)):
         events = [events]
 
     assert len(seasons) == len(
@@ -576,7 +569,7 @@ def process_input(
         # LapRep columns have outliers that can skew the graph y-axis
         # The high outlier values are filtered by upper_bound
         # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
-        if y == "PctFromLapRep" or y == "DeltaToLapRep":
+        if y in {"PctFromLapRep", "DeltaToLapRep"}:
             df_laps = df_laps[df_laps["PctFromLapRep"] > -5]
 
         included_laps_lst.append(df_laps)
@@ -606,20 +599,20 @@ def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[
             return [
                 visual_config["absolute"]["palette"]["18"][label] for label in labels
             ]
-        else:
-            return [
-                visual_config["absolute"]["palette"]["19_22"][label] for label in labels
-            ]
-    else:
-        return [visual_config["relative"]["palette"][label] for label in labels]
+
+        return [
+            visual_config["absolute"]["palette"]["19_22"][label] for label in labels
+        ]
+
+    return [visual_config["relative"]["palette"][label] for label in labels]
 
 
 def make_pie_title(season: int, slick_only: bool) -> str:
     """Compose the pie chart title."""
     if slick_only:
         return f"Slick Compound Usage in the {season} Season"
-    else:
-        return f"All Compound Usage in the {season} Season"
+
+    return f"All Compound Usage in the {season} Season"
 
 
 def tyre_usage_pie(
@@ -703,7 +696,7 @@ def tyre_usage_pie(
     labels = lap_counts.index
     palette = get_pie_palette(season, absolute_compound, labels)
 
-    wedges, texts, autotexts = ax.pie(
+    _, _, autotexts = ax.pie(
         x=lap_counts.values,
         labels=labels,
         colors=palette,
@@ -810,7 +803,7 @@ def driver_stats_scatterplot(
     # LapRep columns have outliers that can skew the graph y-axis
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
-    if y == "PctFromLapRep" or y == "DeltaToLapRep":
+    if y in {"PctFromLapRep", "DeltaToLapRep"}:
         included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
 
     for index, driver in enumerate(drivers):
@@ -1058,10 +1051,10 @@ def driver_stats_distplot(
             y=y,
             palette=driver_colors,
             order=drivers,
-            whiskerprops=dict(color="white"),
-            boxprops=dict(edgecolor="white"),
-            medianprops=dict(color="white"),
-            capprops=dict(color="white"),
+            whiskerprops={"color": "white"},
+            boxprops={"edgecolor": "white"},
+            medianprops={"color": "white"},
+            capprops={"color": "white"},
             showfliers=False,
         )
 
@@ -1140,7 +1133,7 @@ def strategy_barplot(
         stints = driver_stints.loc[driver_stints["Driver"] == driver]
 
         previous_stint_end = 0
-        for idx, stint in stints.iterrows():
+        for _, stint in stints.iterrows():
             plt.barh(
                 [driver],
                 stint["StintLength"],
@@ -1351,7 +1344,7 @@ def compounds_distribution(
     )
 
     # adjust plot size based on the chosen x-axis
-    x_ticks = max([laps[x].nunique() for laps in included_laps_lst])
+    x_ticks = max(laps[x].nunique() for laps in included_laps_lst)
     fig, axes = plt.subplots(
         nrows=len(event_objects),
         sharex=True,

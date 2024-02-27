@@ -107,10 +107,10 @@ sns.boxplot(
     y="LapTime (s)",
     order=team_order,
     palette=team_palette,
-    whiskerprops=dict(color="white"),
-    boxprops=dict(edgecolor="white"),
-    medianprops=dict(color="grey"),
-    capprops=dict(color="white"),
+    whiskerprops={"color": "white"},
+    boxprops={"edgecolor": "white"},
+    medianprops={"color": "grey"},
+    capprops={"color": "white"},
     showfliers=False,
 )
 plt.title(f"{CURRENT_SEASON} {event_name}")
