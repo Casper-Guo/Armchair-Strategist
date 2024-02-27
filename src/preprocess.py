@@ -224,19 +224,19 @@ def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
             splits = file.stem.split("_")
 
             # "all" or "transformed"
-            type = splits[0]
+            df_type = splits[0]
             season = int(splits[2])
 
             df = read_csv(file)
 
-            if type == "all":
+            if df_type == "all":
                 correct_dtype(df)
                 fill_compound(df)
 
             if season not in df_dict:
                 df_dict[season] = {}
 
-            df_dict[season][type] = df
+            df_dict[season][df_type] = df
 
     return df_dict
 
@@ -294,10 +294,10 @@ def add_compound_name(
         try:
             if row.loc["Compound"] not in compound_to_index:
                 return row.loc["Compound"]
-            else:
-                return compound_selection[str(row.loc["RoundNumber"])][
-                    compound_to_index[row.loc["Compound"]]
-                ]
+
+            return compound_selection[str(row.loc["RoundNumber"])][
+                compound_to_index[row.loc["Compound"]]
+            ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
@@ -340,28 +340,26 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     compounds_2018 = compound_selection["2018"]
 
-    def convert_compound(row):
+    def convert_helper(row):
         index_to_compound = {0: "SOFT", 1: "MEDIUM", 2: "HARD"}
 
         try:
             if row.loc["Compound"] not in visual_config["slick_names"]["18"]:
                 return row.loc["Compound"]
-            else:
-                return index_to_compound[
-                    compounds_2018[str(row.loc["RoundNumber"])].index(
-                        row.loc["Compound"]
-                    )
-                ]
-        except KeyError:
+
+            return index_to_compound[
+                compounds_2018[str(row.loc["RoundNumber"])].index(row.loc["Compound"])
+            ]
+        except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
                 "Compound selection record is missing for 2018 season round "
                 + str(row.loc["RoundNumber"])
             )
 
-            raise OutdatedTOMLError
+            raise OutdatedTOMLError from exc
 
-    df_laps["Compound"] = df_laps.apply(convert_compound, axis=1)
+    df_laps["Compound"] = df_laps.apply(convert_helper, axis=1)
 
     return df_laps
 
@@ -561,10 +559,10 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return dfs["all"]
 
-    elif len(dfs) == 2:
+    if len(dfs) == 2:
         # "all" should be the key for the first pair in items
         # but we will not rely on this
-        assert all([key in dfs for key in ["all", "transformed"]])
+        assert all(key in dfs for key in ["all", "transformed"])
 
         num_row_all = dfs["all"].shape[0]
         num_row_transformed = dfs["transformed"].shape[0]
@@ -583,8 +581,8 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
             )
 
         return dfs["all"].iloc[num_row_transformed:]
-    else:
-        raise ValueError("Unexpected input length")
+
+    raise ValueError("Unexpected input length")
 
 
 def get_last_round_number() -> int:
