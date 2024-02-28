@@ -387,7 +387,8 @@ def teammate_comp_order(
                     team_median_gaps.append([tuple([driver]), 0])
                 else:
                     logging.warning(
-                        f"{driver} has less than 5 laps of data and will not be plotted"
+                        "%s has less than 5 laps of data and will not be plotted",
+                        driver,
                     )
 
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
@@ -538,8 +539,8 @@ def process_input(
 
     if x not in {"LapNumber", "TyreLife"}:
         logging.warning(
-            f"Using {x} as the x-axis is not recommended."
-            " The recommended arguments are LapNumber and TyreLife"
+            "Using %s as the x-axis is not recommended. (Recommended x: LapNumber, TyreLife)",
+            x,
         )
 
     if isinstance(events, (int, str)):
@@ -822,7 +823,7 @@ def driver_stats_scatterplot(
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
         if driver_laps.shape[0] < 5:
-            logging.warning(f"{driver} HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT")
+            logging.warning("%s HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT", driver)
 
         sns.scatterplot(
             data=driver_laps,
@@ -941,7 +942,7 @@ def driver_stats_lineplot(
 
         if driver_laps[y].count() == 0:
             # nothing to plot for this driver
-            logging.warning(f"{driver} has no data entry for {y}")
+            logging.warning("%s has no data entry for %s", driver, y)
             continue
 
         driver_color = pick_driver_color(driver)
@@ -1265,8 +1266,10 @@ def compounds_lineplot(
             else:
                 logging.warning(
                     (
-                        f"{compounds[i]} is not plotted for {seasons[i]} {event_name}"
-                        " because there is not enough data"
+                        "%s is not plotted for %s %s because there is not enough data",
+                        compounds[i],
+                        seasons[i],
+                        event_name,
                     )
                 )
 
@@ -1376,8 +1379,10 @@ def compounds_distribution(
             if compound not in plotted_compounds:
                 logging.warning(
                     (
-                        f"{compound} is not plotted for {seasons[i]} {event_name}"
-                        " because there is no valid lap time data"
+                        "%s is not plotted for %s %s because there is not enough data",
+                        compounds[i],
+                        seasons[i],
+                        event_name,
                     )
                 )
 
