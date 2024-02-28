@@ -55,11 +55,9 @@ def load_all_data(season: int, path: Path):
     if race_dfs:
         all_laps = pd.concat(race_dfs, ignore_index=True)
         all_laps.to_csv(path, index=False)
-        logging.info(f"Finished loading {season} season data.")
+        logging.info("Finished loading %d season data.", season)
     else:
-        logging.info(f"No data available for {season} season yet.")
-
-    return None
+        logging.info("No data available for %d season yet.", season)
 
 
 def update_data(season: int, path: Path):
@@ -84,12 +82,12 @@ def update_data(season: int, path: Path):
     missing_rounds = all_rounds.difference(loaded_rounds)
 
     if not missing_rounds:
-        logging.info(f"{season} season is already up to date.")
+        logging.info("%d season is already up to date.", season)
         return None
-    else:
-        # correctness check
-        logging.info(f"Existing coverage: {loaded_rounds}")
-        logging.info(f"Coverage to be added: {missing_rounds}")
+
+    # correctness check
+    logging.info("Existing coverage: %s", loaded_rounds)
+    logging.info("Coverage to be added: %s", missing_rounds)
 
     race_dfs = []
 
@@ -100,7 +98,7 @@ def update_data(season: int, path: Path):
             race.load(telemetry=False)
         except:
             # TODO: Proper handling of FastF1 errors
-            logging.warning(f"Cannot load {race}")
+            logging.warning("Cannot load %s", race)
 
         laps = race.laps
         laps["RoundNumber"] = i
@@ -113,7 +111,7 @@ def update_data(season: int, path: Path):
 
     all_laps.to_csv(path, mode="a", index=False, header=False)
 
-    logging.info(f"Finished updating {season} season data.")
+    logging.info("Finished updating %d season data.", season)
     return None
 
 
@@ -301,8 +299,8 @@ def add_compound_name(
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
-                "Compound selection record is missing for round "
-                + str(row.loc["RoundNumber"])
+                "Compound selection record is missing for round %s",
+                row.loc["RoundNumber"],
             )
 
             assert False
@@ -353,8 +351,8 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
-                "Compound selection record is missing for 2018 season round "
-                + str(row.loc["RoundNumber"])
+                "Compound selection record is missing for 2018 season round %s",
+                row.loc["RoundNumber"],
             )
 
             raise OutdatedTOMLError from exc
@@ -554,7 +552,7 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         # If there is only one pair, the key should be "all"
         assert "all" in dfs
 
-        logging.info(f"{season}: No transfromed_laps found")
+        logging.info("%d: No transfromed_laps found", season)
 
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return dfs["all"]
@@ -571,13 +569,12 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         assert num_row_all >= num_row_transformed
 
         if num_row_all == num_row_transformed:
-            logging.info(f"transformed_laps_{season} is up-to-date")
+            logging.info("transformed_laps_%d is up-to-date", season)
         else:
             logging.info(
-                (
-                    f"{num_row_all - num_row_transformed}"
-                    f" rows will be added to transformed_laps_{season}"
-                )
+                "%d rows will be added to transformed_laps_%d",
+                num_row_all - num_row_transformed,
+                season,
             )
 
         return dfs["all"].iloc[num_row_transformed:]
@@ -610,10 +607,9 @@ def main() -> int:
     rounds_completed = get_last_round_number()
 
     logging.info(
-        (
-            f"Correctness Check: {rounds_completed} rounds of the {CURRENT_SEASON} "
-            "season have been completed"
-        )
+        "Correctness Check: %d rounds of the %d season have been completed",
+        rounds_completed,
+        CURRENT_SEASON,
     )
     NUM_ROUNDS[CURRENT_SEASON] = rounds_completed
 
