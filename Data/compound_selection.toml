@@ -157,3 +157,11 @@
 21 = ["C2","C3","C4"]
 22 = ["C3","C4","C5"]
 23 = ["C3","C4","C5"]
+
+[2024]
+# Source
+# https://press.pirelli.com/pirelli-nominates-the-compounds-for-the-start-of-2024/
+
+1 = ["C1","C2","C3"]
+2 = ["C2","C3","C4"]
+3 = ["C3","C4","C5"]
