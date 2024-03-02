@@ -80,6 +80,7 @@ def update_data(season: int, path: Path):
     all_rounds = set(range(1, newest_round + 1))
 
     missing_rounds = all_rounds.difference(loaded_rounds)
+    missing_rounds = sorted(list(missing_rounds))
 
     if not missing_rounds:
         logging.info("%d season is already up to date.", season)
@@ -108,11 +109,9 @@ def update_data(season: int, path: Path):
         race_dfs.append(laps)
 
     all_laps = pd.concat(race_dfs, ignore_index=True)
-
     all_laps.to_csv(path, mode="a", index=False, header=False)
 
     logging.info("Finished updating %d season data.", season)
-    return None
 
 
 def read_csv(path: Path) -> pd.DataFrame:
