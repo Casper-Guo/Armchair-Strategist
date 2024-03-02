@@ -4,14 +4,6 @@
 19_ = ["SOFT", "MEDIUM", "HARD"]
 18  = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD"]
 
-[num_rounds]
-2018 = 21
-2019 = 21
-2020 = 17 
-2021 = 22
-2022 = 22
-2023 = 24
-
 [fresh.markers]
 True    = "o"
 False   = "X"

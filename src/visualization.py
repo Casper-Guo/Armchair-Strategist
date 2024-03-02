@@ -215,6 +215,7 @@ def plot_args(season: int, absolute_compound: bool) -> tuple:
     Returns:
         (hue, palette, marker, labels)
     """
+    # TODO: this depends on the assumption that the C0 compound is not used
     if absolute_compound:
         if season == 2018:
             return (
