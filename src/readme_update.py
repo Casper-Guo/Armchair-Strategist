@@ -21,7 +21,7 @@ logging.basicConfig(
 # plotting setup
 visuals_path = ROOT_PATH / "Docs" / "visuals"
 mpl.use("Agg")
-sns.set(rc={"figure.dpi": 300, "savefig.dpi": 300})
+sns.set_theme(rc={"figure.dpi": 300, "savefig.dpi": 300})
 plt.style.use("dark_background")
 
 # Suppress pandas SettingWithCopy warning
