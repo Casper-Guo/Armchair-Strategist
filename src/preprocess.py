@@ -1,8 +1,10 @@
 """Load and transform F1 data from the FastF1 API."""
 
 import logging
+from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import TypeAlias
 
 import fastf1 as f
 import pandas as pd
@@ -15,14 +17,30 @@ logging.basicConfig(
 ROOT_PATH = Path(__file__).absolute().parents[1]
 DATA_PATH = ROOT_PATH / "Data"
 CURRENT_SEASON = datetime.now().year
-NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22, 2024: 24}
+
+# NUM_ROUNDS[CURRENT_SEASON] = number of completed rounds and is calculated in main
+NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22}
+
+# TODO: See if this can be determined from FastF1 with a small number of requests
+SPRINT_ROUNDS = {
+    2021: {10, 14, 19},
+    2022: {4, 11, 21},
+    2023: {4, 9, 12, 17, 18, 20},
+    2024: {5, 6, 11, 19, 21, 23},
+}
+
+# Map session ids to full session names, and reverse
+SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
+SESSION_NAMES = {name: id for id, name in SESSION_IDS.items()}
 
 f.Cache.enable_cache(ROOT_PATH / "Cache")
 
-with open(ROOT_PATH / "Data" / "compound_selection.toml", "rb") as toml:
-    compound_selection = tomli.load(toml)
-with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
-    visual_config = tomli.load(toml)
+with open(DATA_PATH / "compound_selection.toml", "rb") as toml:
+    COMPOUND_SELECTION = tomli.load(toml)
+with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
+    VISUAL_CONFIG = tomli.load(toml)
+
+Session: TypeAlias = f.core.Session
 
 
 class OutdatedTOMLError(Exception):  # noqa: N801
@@ -31,7 +49,19 @@ class OutdatedTOMLError(Exception):  # noqa: N801
     pass
 
 
-def load_all_data(season: int, path: Path):
+def get_session(season: int, round_number: int, session_type: str) -> Session:
+    """Get fastf1 session only when it exists."""
+    match session_type:
+        case "R":
+            return f.get_session(season, round_number, session_type)
+        case "S":
+            if round_number in SPRINT_ROUNDS.get(season, ()):
+                return f.get_session(season, round_number, session_type)
+        case _:
+            raise ValueError("%s is not a supported session identifier", session_type)
+
+
+def load_all_data(season: int, path: Path, session_type: str):
     """Load all available data in a season.
 
     Assumes:
@@ -40,27 +70,39 @@ def load_all_data(season: int, path: Path):
     Args:
         season: The season to load
         path: The path to a csv file where the data will be stored.
+        session_type: Indicate session type, follow FastF1 session identifier convention
     """
-    race_dfs = []
+    dfs = []
     schedule = f.get_event_schedule(season)
 
     for i in range(1, NUM_ROUNDS[season] + 1):
-        race = f.get_session(season, i, "R")
-        race.load(telemetry=False)
-        laps = race.laps
+        session = get_session(season, i, session_type)
+        if session is None:
+            continue
+
+        try:
+            session.load(telemetry=False)
+        except Exception as e:
+            # TODO: Proper handling of FastF1 errors
+            logging.warning("Cannot load %s", session)
+            raise e
+
+        laps = session.laps
         laps["RoundNumber"] = i
         laps["EventName"] = schedule[schedule["RoundNumber"] == i]["EventName"].item()
-        race_dfs.append(laps)
+        dfs.append(laps)
 
-    if race_dfs:
-        all_laps = pd.concat(race_dfs, ignore_index=True)
+    if dfs:
+        all_laps = pd.concat(dfs, ignore_index=True)
         all_laps.to_csv(path, index=False)
         logging.info("Finished loading %d season data.", season)
     else:
-        logging.info("No data available for %d season yet.", season)
+        logging.info(
+            "No data available for %d season %s yet.", season, SESSION_IDS[session_type]
+        )
 
 
-def update_data(season: int, path: Path):
+def update_data(season: int, path: Path, session_type: str):
     """Update the data for a season.
 
     Assumes:
@@ -70,6 +112,7 @@ def update_data(season: int, path: Path):
         season: The season to update.
         path: The path to a csv file where some of that season's data
         should already by loaded.
+        session_type: Indicate session type, follow FastF1 session identifier convention
     """
     existing_data = pd.read_csv(path, index_col=0, header=0)
 
@@ -90,28 +133,40 @@ def update_data(season: int, path: Path):
     logging.info("Existing coverage: %s", loaded_rounds)
     logging.info("Coverage to be added: %s", missing_rounds)
 
-    race_dfs = []
+    dfs = []
 
     for i in missing_rounds:
-        race = f.get_session(season, i, "R")
+        session = get_session(season, i, session_type)
+        if session is None:
+            continue
 
         try:
-            race.load(telemetry=False)
-        except:
+            session.load(telemetry=False)
+        except Exception as e:
             # TODO: Proper handling of FastF1 errors
-            logging.warning("Cannot load %s", race)
+            logging.warning("Cannot load %s", session)
+            raise e
 
-        laps = race.laps
+        laps = session.laps
         laps["RoundNumber"] = i
         laps["EventName"] = schedule.loc[schedule["RoundNumber"] == i][
             "EventName"
         ].item()
-        race_dfs.append(laps)
+        dfs.append(laps)
 
-    all_laps = pd.concat(race_dfs, ignore_index=True)
-    all_laps.to_csv(path, mode="a", index=False, header=False)
+    if dfs:
+        all_laps = pd.concat(dfs, ignore_index=True)
+        all_laps.to_csv(path, mode="a", index=False, header=False)
+    else:
+        logging.info(
+            "All available %d season %s data are already loaded",
+            season,
+            SESSION_IDS[session_type],
+        )
 
-    logging.info("Finished updating %d season data.", season)
+    logging.info(
+        "Finished updating %d season %s data.", season, SESSION_IDS[session_type]
+    )
 
 
 def read_csv(path: Path) -> pd.DataFrame:
@@ -198,42 +253,48 @@ def fill_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
-    """Parse a directory and load all available data csvs.
+def parse_csv_path(path: Path) -> tuple[int, str, str]:
+    """Parse a data path and calculate season, session, and type."""
+    filename_splits = path.stem.split("_")
+    season = int(filename_splits[-1])
+    parent_dir = path.parent.name
+    data_type = filename_splits[0]
+    return season, SESSION_NAMES[parent_dir], data_type
+
+
+def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
+    """Parse the data directory and load all available data csvs.
 
     Examples:
-        - all_laps_2023.csv
-        - all_laps_2022.csv
-        - transformed_laps_2022.csv
-        - transformed_laps_2021.csv
+        grand_prix
+            - all_grand_prix_laps_2024.csv
+            - all_grand_prix_laps_2022.csv
+            - transformed_grand_prix_laps_2022.csv
+        sprint
+            - all_sprint_laps_2024.csv
+            - transformed_sprint_laps_2024.csv
 
         reads to
         {
-            2023: {"all": df}
-            2022: {"all": df, "transformed": df}
-            2021: {"transformed": df}
+            2024: {
+                    S: {"all": df, "transformed": df},
+                    R: {"all": df}
+                  }
+            2022: {R: {"all": df, "transformed": df}}
         }
     """
-    df_dict = {}
+    df_dict = defaultdict(lambda: defaultdict(lambda: defaultdict()))
 
-    for file in Path.iterdir(ROOT_PATH / "Data"):
-        if file.suffix == ".csv":
-            splits = file.stem.split("_")
+    for file in DATA_PATH.glob("**/*.csv"):
+        season, session, data_type = parse_csv_path(file)
 
-            # "all" or "transformed"
-            df_type = splits[0]
-            season = int(splits[2])
+        df = read_csv(file)
 
-            df = read_csv(file)
+        if data_type == "all":
+            correct_dtype(df)
+            fill_compound(df)
 
-            if df_type == "all":
-                correct_dtype(df)
-                fill_compound(df)
-
-            if season not in df_dict:
-                df_dict[season] = {}
-
-            df_dict[season][df_type] = df
+        df_dict[season][session][data_type] = df
 
     return df_dict
 
@@ -252,9 +313,9 @@ def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
     slick_names = []
 
     if season == 2018:
-        slick_names = visual_config["slick_names"]["18"]
+        slick_names = VISUAL_CONFIG["slick_names"]["18"]
     else:
-        slick_names = visual_config["slick_names"]["19_"]
+        slick_names = VISUAL_CONFIG["slick_names"]["19_"]
 
     df_laps["IsSlick"] = df_laps["Compound"].apply(lambda x: x in slick_names)
 
@@ -263,14 +324,14 @@ def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
 
 def add_compound_name(
     df_laps: pd.DataFrame,
-    compound_selection: dict[str, dict[str, list[str]]],
+    season_selection: dict[str, dict[str, list[str]]],
     season: int,
 ) -> pd.DataFrame:
     """Infer the underlying compound names and add it to df_laps in place.
 
     Args:
         df_laps: A pandas dataframe containing data from a single season.
-        compound_selection: The underlying slick compounds selection
+        season_selection: The underlying slick compounds selection for one particular season
         by Grand Prix round number, in the order from the softest to hardest.
         season: The season to which df_laps and compound_selection refer to.
 
@@ -292,13 +353,14 @@ def add_compound_name(
             if row.loc["Compound"] not in compound_to_index:
                 return row.loc["Compound"]
 
-            return compound_selection[str(row.loc["RoundNumber"])][
+            return season_selection[str(row.loc["RoundNumber"])][
                 compound_to_index[row.loc["Compound"]]
             ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
-                "Compound selection record is missing for round %s",
+                "Compound selection record is missing for %d season round %d",
+                season,
                 row.loc["RoundNumber"],
             )
 
@@ -335,13 +397,13 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
         The 2018 dataframe, with the `Compound` column overwritten
         with relative compound names.
     """
-    compounds_2018 = compound_selection["2018"]
+    compounds_2018 = COMPOUND_SELECTION["2018"]
 
     def convert_helper(row):
         index_to_compound = {0: "SOFT", 1: "MEDIUM", 2: "HARD"}
 
         try:
-            if row.loc["Compound"] not in visual_config["slick_names"]["18"]:
+            if row.loc["Compound"] not in VISUAL_CONFIG["slick_names"]["18"]:
                 return row.loc["Compound"]
 
             return index_to_compound[
@@ -350,7 +412,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
             logging.error(
-                "Compound selection record is missing for 2018 season round %s",
+                "Compound selection record is missing for 2018 season round %d",
                 row.loc["RoundNumber"],
             )
 
@@ -533,12 +595,15 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
+def find_diff(
+    season: int, dfs: dict[str, pd.DataFrame], session_type: str
+) -> pd.DataFrame:
     """Find the rows present in all_laps but missing in transformed_laps.
 
     Args:
         season: championship season
         dfs: a dictionary where the key is either "all" or "transformed"
+        session_type: Indicate session type, follow FastF1 session identifier convention
 
     Assumes:
         - all_laps have at least as many rows as transformed_laps
@@ -568,11 +633,16 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame]) -> pd.DataFrame:
         assert num_row_all >= num_row_transformed
 
         if num_row_all == num_row_transformed:
-            logging.info("transformed_laps_%d is up-to-date", season)
+            logging.info(
+                "transformed_%s_laps_%d is up-to-date",
+                SESSION_IDS[session_type],
+                season,
+            )
         else:
             logging.info(
-                "%d rows will be added to transformed_laps_%d",
+                "%d rows will be added to transformed_%s_laps_%d",
                 num_row_all - num_row_transformed,
+                SESSION_IDS[session_type],
                 season,
             )
 
@@ -598,9 +668,48 @@ def get_last_round_number() -> int:
     return rounds_completed
 
 
+def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
+    """Update transformed_laps if it doesn't match all_laps.
+
+    Args:
+        season: championship season
+        dfs: a dictionary where the key is either "all" or "transformed"
+        session_type: Indicate session type, follow FastF1 session identifier convention
+
+    Effects:
+        Write transformed csv to path
+    """
+    df_transform = find_diff(season, dfs, session_type)
+
+    if df_transform.shape[0] != 0:
+        add_is_slick(season, df_transform)
+        add_compound_name(df_transform, COMPOUND_SELECTION[str(season)], season)
+
+        if season == 2018:
+            convert_compound(df_transform)
+
+        add_is_valid(df_transform)
+        add_rep_deltas(df_transform)
+        add_fastest_deltas(df_transform)
+        add_lap_rep_deltas(df_transform)
+
+        path = (
+            DATA_PATH
+            / SESSION_IDS[session_type]
+            / f"transformed_{SESSION_IDS[session_type]}_laps_{season}.csv"
+        )
+
+        if Path.is_file(path):
+            # if the file already exists, then don't need to write header again
+            df_transform.to_csv(path, mode="a", index=False, header=False)
+        else:
+            df_transform.to_csv(path, index=False)
+
+
 def main() -> int:
     """Load and transform all newly available data."""
-    Path.mkdir(DATA_PATH, exist_ok=True)
+    Path.mkdir(DATA_PATH / "sprint", parents=True, exist_ok=True)
+    Path.mkdir(DATA_PATH / "grand_prix", parents=True, exist_ok=True)
 
     load_seasons = list(range(2018, CURRENT_SEASON + 1))
     rounds_completed = get_last_round_number()
@@ -613,40 +722,21 @@ def main() -> int:
     NUM_ROUNDS[CURRENT_SEASON] = rounds_completed
 
     for season in load_seasons:
-        path = ROOT_PATH / "Data" / ("all_laps_" + str(season) + ".csv")
+        for session_type, session_name in SESSION_IDS.items():
+            path = DATA_PATH / session_name / f"all_{session_name}_laps_{season}.csv"
 
-        if Path.is_file(path):
-            update_data(season, path)
-        else:
-            load_all_data(season, path)
+            if Path.is_file(path):
+                update_data(season, path, session_type)
+            else:
+                load_all_data(season, path, session_type)
 
     # Suppress SettingWithCopy Warning
     pd.options.mode.chained_assignment = None
 
     data = load_laps()
-
-    for season, dfs in data.items():
-        df_transform = find_diff(season, dfs)
-
-        if df_transform.shape[0] != 0:
-            add_is_slick(season, df_transform)
-            add_compound_name(df_transform, compound_selection[str(season)], season)
-
-            if season == 2018:
-                convert_compound(df_transform)
-
-            add_is_valid(df_transform)
-            add_rep_deltas(df_transform)
-            add_fastest_deltas(df_transform)
-            add_lap_rep_deltas(df_transform)
-
-            path = ROOT_PATH / "Data" / f"transformed_laps_{season}.csv"
-
-            if Path.is_file(path):
-                # if the file already exists, then don't need to write header again
-                df_transform.to_csv(path, mode="a", index=False, header=False)
-            else:
-                df_transform.to_csv(path, index=False)
+    for season in data:
+        for session_type, dfs in data[season].items():
+            transform(season, dfs, session_type)
 
     return 0
 
