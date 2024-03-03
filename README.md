@@ -3,7 +3,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
-Engineered F1 data from the 2018 season onwards and visualization tools. Visualizations automatically updated to reflect the latest race on the Monday after the race at midnight EDT.
+This repository contains engineered F1 data for all grand prixs and sprint races from the 2018 season onwards and some handy visualization tools. Visualizations in the README are automatically updated to reflect the latest race on the Monday after the race at midnight EDT.
 
 ## Visualizations of the Most Recent Race/Examples
 
