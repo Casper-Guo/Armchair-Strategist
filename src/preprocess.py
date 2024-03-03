@@ -46,8 +46,6 @@ Session: TypeAlias = f.core.Session
 class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""
 
-    pass
-
 
 def get_session(season: int, round_number: int, session_type: str) -> Session:
     """Get fastf1 session only when it exists."""
@@ -58,6 +56,7 @@ def get_session(season: int, round_number: int, session_type: str) -> Session:
             if round_number in SPRINT_ROUNDS.get(season, ()):
                 return f.get_session(season, round_number, session_type)
         case _:
+            # pylint: disable=raising-format-tuple
             raise ValueError("%s is not a supported session identifier", session_type)
 
 
@@ -167,6 +166,8 @@ def update_data(season: int, path: Path, session_type: str):
     logging.info(
         "Finished updating %d season %s data.", season, SESSION_IDS[session_type]
     )
+
+    return None
 
 
 def read_csv(path: Path) -> pd.DataFrame:
@@ -283,6 +284,7 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
             2022: {R: {"all": df, "transformed": df}}
         }
     """
+    # pylint: disable=unnecessary-lambda
     df_dict = defaultdict(lambda: defaultdict(lambda: defaultdict()))
 
     for file in DATA_PATH.glob("**/*.csv"):
@@ -624,7 +626,7 @@ def find_diff(
     if len(dfs) == 2:
         # "all" should be the key for the first pair in items
         # but we will not rely on this
-        assert all(key in dfs for key in {"all", "transformed"})
+        assert "all" in dfs and "transformed" in dfs
 
         num_row_all = dfs["all"].shape[0]
         num_row_transformed = dfs["transformed"].shape[0]

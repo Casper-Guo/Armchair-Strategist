@@ -30,3 +30,16 @@ repos:
     hooks:
     - id: codespell
       args: ["-f", "-S", "*.csv, *.png"]
+  - repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args:
+            [
+            "src",
+            "--rcfile=.pylint.toml", # Link to your config file
+            "--disable=fixme"
+            ]

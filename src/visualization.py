@@ -13,8 +13,11 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib import rcParams
 
+# fmt: off
 from preprocess import (COMPOUND_SELECTION, DATA_PATH, SESSION_IDS,
                         SESSION_NAMES, VISUAL_CONFIG, Session)
+
+# fmt: on
 
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
@@ -106,7 +109,7 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
     sorted_labels = []
 
     if any(
-        name in labels for name in {"HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"}
+        name in labels for name in ("HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD")
     ):
         # 2018 absolute compound names
         sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["18"]
@@ -592,6 +595,7 @@ def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
         # additional call to int is for type conversion
         # not duplicated rounding
         val = int(round(pct * total / 100.0))
+        # pylint: disable=consider-using-f-string
         return "{p:.1f}%  ({v:d})".format(p=pct, v=val)
 
     return my_autopct
@@ -1206,6 +1210,7 @@ def strategy_barplot(
     return fig
 
 
+# pylint: disable=dangerous-default-value
 def compounds_lineplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
@@ -1268,17 +1273,19 @@ def compounds_lineplot(
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
-    for i in range(len(event_objects)):
-        ax = axes[i]
-        args = plot_args(seasons[i], absolute_compound)
-        included_laps = included_laps_list[i]
+    for idx, event in enumerate(event_objects):
+        ax = axes[idx]
+        args = plot_args(seasons[idx], absolute_compound)
+        included_laps = included_laps_list[idx]
         medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
 
-        round_number = event_objects[i]["RoundNumber"]
-        event_name = event_objects[i]["EventName"]
+        round_number = event["RoundNumber"]
+        event_name = event["EventName"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(seasons[i], round_number, compounds)
+            compounds_copy = convert_compound_names(
+                seasons[idx], round_number, compounds
+            )
 
         for compound in compounds_copy:
             if compound in medians.index:
@@ -1295,8 +1302,8 @@ def compounds_lineplot(
                 logging.warning(
                     (
                         "%s is not plotted for %s %s because there is not enough data",
-                        compounds[i],
-                        seasons[i],
+                        compounds[idx],
+                        seasons[idx],
                         event_name,
                     )
                 )
@@ -1306,8 +1313,8 @@ def compounds_lineplot(
         handles, labels = ax.get_legend_handles_labels()
         order = find_legend_order(labels)
         ax.legend(
-            handles=[handles[idx] for idx in order],
-            labels=[labels[idx] for idx in order],
+            handles=[handles[i] for i in order],
+            labels=[labels[i] for i in order],
             loc="best",
             title=args[0],
             frameon=True,
@@ -1315,7 +1322,7 @@ def compounds_lineplot(
             framealpha=0.5,
         )
 
-        ax.set_title(label=f"{seasons[i]} {event_name}", fontsize=12)
+        ax.set_title(label=f"{seasons[idx]} {event_name}", fontsize=12)
         ax.grid(which="both", axis="y")
         sns.despine(left=True, bottom=True)
 
@@ -1327,6 +1334,7 @@ def compounds_lineplot(
     return fig
 
 
+# pylint: disable=dangerous-default-value
 def compounds_distribution(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
@@ -1394,25 +1402,27 @@ def compounds_distribution(
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
-    for i in range(len(event_objects)):
-        ax = axes[i]
-        args = plot_args(seasons[i], absolute_compound)
-        included_laps = included_laps_list[i]
+    for idx, event in enumerate(event_objects):
+        ax = axes[idx]
+        args = plot_args(seasons[idx], absolute_compound)
+        included_laps = included_laps_list[idx]
 
         plotted_compounds = included_laps[args[0]].unique()
-        event_name = event_objects[i]["EventName"]
-        round_number = event_objects[i]["RoundNumber"]
+        event_name = event["EventName"]
+        round_number = event["RoundNumber"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(seasons[i], round_number, compounds)
+            compounds_copy = convert_compound_names(
+                seasons[idx], round_number, compounds
+            )
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
                 logging.warning(
                     (
                         "%s is not plotted for %s %s because there is not enough data",
-                        compounds[i],
-                        seasons[i],
+                        compounds[idx],
+                        seasons[idx],
                         event_name,
                     )
                 )
@@ -1435,8 +1445,8 @@ def compounds_distribution(
         handles, labels = ax.get_legend_handles_labels()
         order = find_legend_order(labels)
         ax.legend(
-            handles=[handles[idx] for idx in order],
-            labels=[labels[idx] for idx in order],
+            handles=[handles[i] for i in order],
+            labels=[labels[i] for i in order],
             loc="best",
             title=args[0],
             frameon=True,
@@ -1444,7 +1454,7 @@ def compounds_distribution(
             framealpha=0.5,
         )
 
-        ax.set_title(label=f"{seasons[i]} {event_name}", fontsize=12)
+        ax.set_title(label=f"{seasons[idx]} {event_name}", fontsize=12)
         sns.despine(left=True, bottom=True)
 
     # reorder compound names for title
