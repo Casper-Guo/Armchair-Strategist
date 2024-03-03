@@ -10,9 +10,7 @@ import fastf1 as f
 import pandas as pd
 import tomli
 
-logging.basicConfig(
-    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 
 ROOT_PATH = Path(__file__).absolute().parents[1]
 DATA_PATH = ROOT_PATH / "Data"
@@ -31,7 +29,7 @@ SPRINT_ROUNDS = {
 
 # Map session ids to full session names, and reverse
 SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
-SESSION_NAMES = {name: id for id, name in SESSION_IDS.items()}
+SESSION_NAMES = {name: session_id for session_id, name in SESSION_IDS.items()}
 
 f.Cache.enable_cache(ROOT_PATH / "Cache")
 
@@ -44,7 +42,7 @@ Session: TypeAlias = f.core.Session
 
 
 class OutdatedTOMLError(Exception):  # noqa: N801
-    """Raised when Data/compound_selection.toml is not up to date."""
+    """Raised when Data/compound_selection.toml is not up to date."""  # noqa: D203
 
 
 def get_session(season: int, round_number: int, session_type: str) -> Session:
@@ -56,12 +54,14 @@ def get_session(season: int, round_number: int, session_type: str) -> Session:
             if round_number in SPRINT_ROUNDS.get(season, ()):
                 return f.get_session(season, round_number, session_type)
         case _:
-            # pylint: disable=raising-format-tuple
             raise ValueError("%s is not a supported session identifier", session_type)
+
+    return None
 
 
 def load_all_data(season: int, path: Path, session_type: str):
-    """Load all available data in a season.
+    """
+    Load all available data in a season.
 
     Assumes:
         None of the data for the season is already loaded.
@@ -102,7 +102,8 @@ def load_all_data(season: int, path: Path, session_type: str):
 
 
 def update_data(season: int, path: Path, session_type: str):
-    """Update the data for a season.
+    """
+    Update the data for a season.
 
     Assumes:
         Some of that season's data is already loaded.
@@ -126,7 +127,7 @@ def update_data(season: int, path: Path, session_type: str):
 
     if not missing_rounds:
         logging.info("%d season is already up to date.", season)
-        return None
+        return
 
     # correctness check
     logging.info("Existing coverage: %s", loaded_rounds)
@@ -148,9 +149,7 @@ def update_data(season: int, path: Path, session_type: str):
 
         laps = session.laps
         laps["RoundNumber"] = i
-        laps["EventName"] = schedule.loc[schedule["RoundNumber"] == i][
-            "EventName"
-        ].item()
+        laps["EventName"] = schedule.loc[schedule["RoundNumber"] == i]["EventName"].item()
         dfs.append(laps)
 
     if dfs:
@@ -163,15 +162,14 @@ def update_data(season: int, path: Path, session_type: str):
             SESSION_IDS[session_type],
         )
 
-    logging.info(
-        "Finished updating %d season %s data.", season, SESSION_IDS[session_type]
-    )
+    logging.info("Finished updating %d season %s data.", season, SESSION_IDS[session_type])
 
-    return None
+    return
 
 
 def read_csv(path: Path) -> pd.DataFrame:
-    """Read csv file at path location and filter for relevant columns.
+    """
+    Read csv file at path location and filter for relevant columns.
 
     Requires:
         csv file located at path location is derived from a fastf1 laps object.
@@ -211,7 +209,8 @@ def read_csv(path: Path) -> pd.DataFrame:
 
 
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Fix columns with incorrect data types or missing values.
+    """
+    Fix columns with incorrect data types or missing values.
 
     Requires:
         df_laps has the following columns: [`Time`,
@@ -244,7 +243,8 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def fill_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Infer missing `Compound` values as `UNKNOWN`.
+    """
+    Infer missing `Compound` values as `UNKNOWN`.
 
     Requires:
         df_laps has the `Compound` column.
@@ -264,7 +264,8 @@ def parse_csv_path(path: Path) -> tuple[int, str, str]:
 
 
 def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
-    """Parse the data directory and load all available data csvs.
+    """
+    Parse the data directory and load all available data csvs.
 
     Examples:
         grand_prix
@@ -284,7 +285,6 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
             2022: {R: {"all": df, "transformed": df}}
         }
     """
-    # pylint: disable=unnecessary-lambda
     df_dict = defaultdict(lambda: defaultdict(lambda: defaultdict()))
 
     for file in DATA_PATH.glob("**/*.csv"):
@@ -302,7 +302,8 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
 
 
 def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add a `IsSlick` column to df_laps in place.
+    """
+    Add a `IsSlick` column to df_laps in place.
 
     All compounds that are not intermediate or wet are considered slick.
 
@@ -329,7 +330,8 @@ def add_compound_name(
     season_selection: dict[str, dict[str, list[str]]],
     season: int,
 ) -> pd.DataFrame:
-    """Infer the underlying compound names and add it to df_laps in place.
+    """
+    Infer the underlying compound names and add it to df_laps in place.
 
     Args:
         df_laps: A pandas dataframe containing data from a single season.
@@ -374,7 +376,8 @@ def add_compound_name(
 
 
 def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add the relative compound names (SOFT, MEDIUM, HARD) to 2018 data in place.
+    """
+    Add the relative compound names (SOFT, MEDIUM, HARD) to 2018 data in place.
 
     The 2018 data only has the underlying compound names (ultrasoft etc.)
     but sometimes we want access to the relative compound names as well.
@@ -426,7 +429,8 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add a `IsValid` column in place to identify fast laps.
+    """
+    Add a `IsValid` column in place to identify fast laps.
 
     A valid lap is defined as one that is:
         - ran on slick tyres
@@ -438,9 +442,7 @@ def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
 
     def check_lap_valid(row):
-        return (
-            row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
-        )
+        return row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
 
     df_laps["IsValid"] = df_laps.apply(check_lap_valid, axis=1)
 
@@ -448,7 +450,8 @@ def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
-    """Find the medians of all valid laptimes by round number.
+    """
+    Find the medians of all valid laptimes by round number.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`, `IsValid`, `LapTime`]
@@ -457,16 +460,17 @@ def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
     rep_times = {}
 
     for round_number in rounds:
-        median = df_laps[
-            (df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"])
-        ]["LapTime"].median(numeric_only=True)
+        median = df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"])][
+            "LapTime"
+        ].median(numeric_only=True)
         rep_times[round_number] = round(median, 3)
 
     return rep_times
 
 
 def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add two columns that calculate the difference to the representative lap time.
+    """
+    Add two columns that calculate the difference to the representative lap time.
 
     `DeltaToRep` contains the difference to therepresentative lap time in second.
 
@@ -492,7 +496,8 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
-    """Find the fastest, non-deleted lap times by round.
+    """
+    Find the fastest, non-deleted lap times by round.
 
     The fastest lap time per round is inferred by taking the min of
     individual drivers' fastest laps, which already exclude deleted lap times.
@@ -513,7 +518,8 @@ def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
 
 
 def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add two columns that calculate the difference to the fastest lap time.
+    """
+    Add two columns that calculate the difference to the fastest lap time.
 
     `DeltaToFastest` contains the difference to the fastest lap time in second.
 
@@ -539,7 +545,8 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 
 def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
-    """Find the median lap times for every lap.
+    """
+    Find the median lap times for every lap.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`,
@@ -555,9 +562,9 @@ def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
         lap_numbers = round_laps["LapNumber"].unique()
 
         for lap_number in lap_numbers:
-            median = round_laps[round_laps["LapNumber"] == lap_number][
-                "LapTime"
-            ].median(numeric_only=True)
+            median = round_laps[round_laps["LapNumber"] == lap_number]["LapTime"].median(
+                numeric_only=True
+            )
             round_lap_reps[lap_number] = round(median, 3)
 
         lap_reps[round_number] = round_lap_reps
@@ -566,7 +573,8 @@ def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
 
 
 def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Add two columns that calculate the difference to the lap representative time.
+    """
+    Add two columns that calculate the difference to the lap representative time.
 
     `DeltaToLapRep` contains the difference to the lap rep time in second.
 
@@ -579,17 +587,11 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     lap_reps = find_lap_reps(df_laps)
 
     def delta_to_lap_rep(row):
-        return (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
-        )
+        return row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
 
     def pct_from_lap_rep(row):
-        delta = (
-            row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
-        )
-        return round(
-            delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3
-        )
+        delta = row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+        return round(delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3)
 
     df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
     df_laps["PctFromLapRep"] = df_laps.apply(pct_from_lap_rep, axis=1)
@@ -597,10 +599,9 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def find_diff(
-    season: int, dfs: dict[str, pd.DataFrame], session_type: str
-) -> pd.DataFrame:
-    """Find the rows present in all_laps but missing in transformed_laps.
+def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> pd.DataFrame:
+    """
+    Find the rows present in all_laps but missing in transformed_laps.
 
     Args:
         season: championship season
@@ -656,13 +657,11 @@ def find_diff(
 def get_last_round_number() -> int:
     """Return the last finished round number in the current season."""
     current_schedule = f.get_event_schedule(CURRENT_SEASON)
-    five_hours_past = (datetime.now(timezone.utc) - timedelta(hours=5)).replace(
-        tzinfo=None
-    )
+    five_hours_past = (datetime.now(timezone.utc) - timedelta(hours=5)).replace(tzinfo=None)
     five_hours_past = datetime.now()
-    rounds_completed = current_schedule[
-        current_schedule["Session5DateUtc"] < five_hours_past
-    ]["RoundNumber"].max()
+    rounds_completed = current_schedule[current_schedule["Session5DateUtc"] < five_hours_past][
+        "RoundNumber"
+    ].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0
@@ -671,7 +670,8 @@ def get_last_round_number() -> int:
 
 
 def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
-    """Update transformed_laps if it doesn't match all_laps.
+    """
+    Update transformed_laps if it doesn't match all_laps.
 
     Args:
         season: championship season

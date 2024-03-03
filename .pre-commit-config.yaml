@@ -1,45 +1,14 @@
 repos:
-  - repo: https://github.com/psf/black
-    rev: 23.3.0
-    hooks:
-      - id: black-jupyter
-        # It is recommended to specify the latest version of Python
-        # supported by your project here, or alternatively use
-        # pre-commit's default_language_version, see
-        # https://pre-commit.com/#top_level-default_language_version
-        language_version: python3.11
-  - repo: https://github.com/PyCQA/pydocstyle
-    rev: 6.3.0
-    hooks:
-      - id: pydocstyle
-        additional_dependencies:
-          - toml
-  - repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0
-    hooks:
-      - id: flake8
-        args: ["--max-line-length=96"]
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
-    hooks:
-      - id: isort
-        name: isort (python)
-        args: ["src"]
   - repo: https://github.com/codespell-project/codespell
     rev: v2.2.4
     hooks:
     - id: codespell
       args: ["-f", "-S", "*.csv, *.png"]
-  - repo: local
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.3.0
     hooks:
-      - id: pylint
-        name: pylint
-        entry: pylint
-        language: system
-        types: [python]
-        args:
-            [
-            "src",
-            "--rcfile=.pylint.toml", # Link to your config file
-            "--disable=fixme"
-            ]
+        # Run the linter.
+        - id: ruff
+        # Run the formatter.
+        - id: ruff-format

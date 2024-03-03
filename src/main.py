@@ -7,7 +7,7 @@ import pandas as pd
 import seaborn as sns
 
 # uncomment this
-# import visualization as viz
+# import visualization as viz noqa: ERA001
 
 
 def main():
