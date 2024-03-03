@@ -70,7 +70,7 @@ def load_all_data(season: int, path: Path, session_type: str):
     Args:
         season: The season to load
         path: The path to a csv file where the data will be stored.
-        session_type: Indicate session type, follow FastF1 session identifier convention
+        session_type: Follow FastF1 session identifier convention
     """
     dfs = []
     schedule = f.get_event_schedule(season)
@@ -112,7 +112,7 @@ def update_data(season: int, path: Path, session_type: str):
         season: The season to update.
         path: The path to a csv file where some of that season's data
         should already by loaded.
-        session_type: Indicate session type, follow FastF1 session identifier convention
+        session_type: Follow FastF1 session identifier convention
     """
     existing_data = pd.read_csv(path, index_col=0, header=0)
 
@@ -603,7 +603,7 @@ def find_diff(
     Args:
         season: championship season
         dfs: a dictionary where the key is either "all" or "transformed"
-        session_type: Indicate session type, follow FastF1 session identifier convention
+        session_type: Follow FastF1 session identifier convention
 
     Assumes:
         - all_laps have at least as many rows as transformed_laps
@@ -624,7 +624,7 @@ def find_diff(
     if len(dfs) == 2:
         # "all" should be the key for the first pair in items
         # but we will not rely on this
-        assert all(key in dfs for key in ["all", "transformed"])
+        assert all(key in dfs for key in {"all", "transformed"})
 
         num_row_all = dfs["all"].shape[0]
         num_row_transformed = dfs["transformed"].shape[0]
@@ -674,7 +674,7 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
     Args:
         season: championship season
         dfs: a dictionary where the key is either "all" or "transformed"
-        session_type: Indicate session type, follow FastF1 session identifier convention
+        session_type: Follow FastF1 session identifier convention
 
     Effects:
         Write transformed csv to path
