@@ -1,4 +1,5 @@
 """Make up-to-date visualizations for README."""
+
 import logging
 import shutil
 import warnings

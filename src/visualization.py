@@ -2,7 +2,6 @@
 
 import logging
 from math import ceil
-from pathlib import Path
 from typing import Callable, Iterable, Literal, Optional, TypeAlias
 
 import fastf1 as f
@@ -11,23 +10,17 @@ import matplotlib
 import numpy as np
 import pandas as pd
 import seaborn as sns
-import tomli
 from matplotlib import pyplot as plt
 from matplotlib import rcParams
+
+from preprocess import (COMPOUND_SELECTION, DATA_PATH, SESSION_IDS,
+                        SESSION_NAMES, VISUAL_CONFIG, Session)
 
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
 )
 
 Figure: TypeAlias = matplotlib.figure.Figure
-
-ROOT_PATH = Path(__file__).absolute().parents[1]
-
-with open(ROOT_PATH / "Data" / "compound_selection.toml", "rb") as toml:
-    compound_selection = tomli.load(toml)
-
-with open(ROOT_PATH / "Data" / "visualization_config.toml", "rb") as toml:
-    visual_config = tomli.load(toml)
 
 
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -62,35 +55,30 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def load_laps() -> dict[int, pd.DataFrame]:
+def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
     """Load transformed data by season."""
     dfs = {}
 
-    for file in Path.iterdir(ROOT_PATH / "Data"):
-        if file.suffix == ".csv":
-            splits = file.stem.split("_")
+    for file in DATA_PATH.glob("**/transformed_*.csv"):
+        season = int(file.stem.split("_")[-1])
+        session_type = SESSION_NAMES[file.parent.name]
+        df = pd.read_csv(
+            file,
+            header=0,
+            true_values=["True"],
+            false_values=["False"],
+        )
+        correct_dtype(df)
 
-            if splits[0] == "transformed":
-                season = int(splits[2])
-                df = pd.read_csv(
-                    ROOT_PATH / "Data" / file,
-                    header=0,
-                    true_values=["True"],
-                    false_values=["False"],
-                )
-                correct_dtype(df)
-                dfs[season] = df
+        if season not in dfs:
+            dfs[season] = {}
+
+        dfs[season][session_type] = df
 
     return dfs
 
 
-df_dict = load_laps()
-
-
-def get_laps(season: int, round_number: int) -> pd.DataFrame:
-    """Get transformed laps for a race."""
-    df_season = df_dict[season]
-    return df_season[df_season["RoundNumber"] == round_number]
+DF_DICT = load_laps()
 
 
 def find_legend_order(labels: Iterable[str]) -> list[int]:
@@ -118,16 +106,16 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
     sorted_labels = []
 
     if any(
-        name in labels for name in ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"]
+        name in labels for name in {"HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"}
     ):
         # 2018 absolute compound names
-        sorted_labels = visual_config["absolute"]["labels"]["18"]
+        sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["18"]
     elif any(label.startswith("C") for label in labels):
         # 19_22 absolute compound names
-        sorted_labels = visual_config["absolute"]["labels"]["19_22"]
+        sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["19_22"]
     else:
         # default to relative names
-        sorted_labels = visual_config["relative"]["labels"]
+        sorted_labels = VISUAL_CONFIG["relative"]["labels"]
 
     pos = [sorted_labels.index(label) for label in labels]
     order = [old_index for _, old_index in sorted(zip(pos, old_indices))]
@@ -220,27 +208,27 @@ def plot_args(season: int, absolute_compound: bool) -> tuple:
         if season == 2018:
             return (
                 "CompoundName",
-                visual_config["absolute"]["palette"]["18"],
-                visual_config["absolute"]["markers"]["18"],
-                visual_config["absolute"]["labels"]["18"],
+                VISUAL_CONFIG["absolute"]["palette"]["18"],
+                VISUAL_CONFIG["absolute"]["markers"]["18"],
+                VISUAL_CONFIG["absolute"]["labels"]["18"],
             )
         return (
             "CompoundName",
-            visual_config["absolute"]["palette"]["19_22"],
-            visual_config["absolute"]["markers"]["19_22"],
-            visual_config["absolute"]["labels"]["19_22"],
+            VISUAL_CONFIG["absolute"]["palette"]["19_22"],
+            VISUAL_CONFIG["absolute"]["markers"]["19_22"],
+            VISUAL_CONFIG["absolute"]["labels"]["19_22"],
         )
 
     return (
         "Compound",
-        visual_config["relative"]["palette"],
-        visual_config["relative"]["markers"],
-        visual_config["relative"]["labels"],
+        VISUAL_CONFIG["relative"]["palette"],
+        VISUAL_CONFIG["relative"]["markers"],
+        VISUAL_CONFIG["relative"]["labels"],
     )
 
 
 def get_drivers(
-    session: f.core.Session,
+    session: Session,
     drivers: Iterable[str | int] | str | int,
     by: str = "Position",
 ) -> list[str]:
@@ -290,17 +278,18 @@ def get_drivers(
 def get_session_info(
     season: int,
     event: int | str,
+    session_type: str,
     drivers: Iterable[str | int] | str | int = 3,
     teammate_comp: bool = False,
 ) -> tuple[int, str, list[str]]:
-    """Retrieve session information based on season and event number / name.
+    """Retrieve session information based on season, event number/name, and session identifier.
 
     If event is provided as a string, then the name fuzzy matching is done by Fastf1.
 
     If teammate_comp is True, then the drivers are returned in the order of increasing team
     names (higher finishing teammate first) instead of by finishing position.
     """
-    session = f.get_session(season, event, "R")
+    session = f.get_session(season, event, session_type)
     session.load(laps=False, telemetry=False, weather=False, messages=False)
     round_number = session.event["RoundNumber"]
     event_name = session.event["EventName"]
@@ -325,14 +314,8 @@ def pick_driver_color(driver: str) -> str:
     return "#808080"
 
 
-def add_gap(season: int, driver: str) -> pd.DataFrame:
+def add_gap(season: int, driver: str):
     """Calculate the gap to a certain driver for all laps in a season."""
-    df_laps = df_dict[season]
-    assert driver.upper() in df_laps["Driver"].unique()
-    df_driver = df_laps[df_laps["Driver"] == driver]
-
-    # start a memo
-    driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
 
     def calculate_gap(row):
         round_number = row.loc["RoundNumber"]
@@ -351,10 +334,20 @@ def add_gap(season: int, driver: str) -> pd.DataFrame:
 
         return (row.loc["Time"] - driver_laptimes[round_number][lap]).total_seconds()
 
-    df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
-    df_dict[season] = df_laps
+    for session_type in SESSION_IDS:
+        df_laps = DF_DICT[season].get(session_type)
 
-    return df_laps
+        if df_laps is None:
+            continue
+
+        assert driver.upper() in df_laps["Driver"].unique()
+        df_driver = df_laps[df_laps["Driver"] == driver]
+
+        # start a memo
+        driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
+        df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
+
+        DF_DICT[season][session_type] = df_laps
 
 
 def teammate_comp_order(
@@ -504,7 +497,7 @@ def convert_compound_names(
 
     for compound in compounds:
         return_vals.append(
-            compound_selection[str(season)][str(round_number)][
+            COMPOUND_SELECTION[str(season)][str(round_number)][
                 compound_to_index[compound]
             ]
         )
@@ -515,6 +508,7 @@ def convert_compound_names(
 def process_input(
     seasons: int | Iterable[int],
     events: int | str | Iterable[str | int],
+    session_types: str | Iterable[str],
     y: str,
     compounds: Iterable[str],
     x: str,
@@ -526,30 +520,23 @@ def process_input(
     Returns:
         event_objects: List of event objects corresponding to each requested race
 
-        included_laps_lst: List of dataframes corresponding to each requested race
+        included_laps_list: List of dataframes corresponding to each requested race
     """
     # unpack
     compounds = [compound.upper() for compound in compounds]
 
     for compound in compounds:
-        assert compound in [
+        assert compound in {
             "SOFT",
             "MEDIUM",
             "HARD",
-        ], f"requested compound {compound} is not valid"
+        }, f"requested compound {compound} is not valid"
 
     if x not in {"LapNumber", "TyreLife"}:
         logging.warning(
             "Using %s as the x-axis is not recommended. (Recommended x: LapNumber, TyreLife)",
             x,
         )
-
-    if isinstance(events, (int, str)):
-        events = [events]
-
-    assert len(seasons) == len(
-        events
-    ), f"num seasons ({len(seasons)}) does not match num events ({len(events)})"
 
     if not absolute_compound and len(events) > 1:
         logging.warning(
@@ -559,13 +546,30 @@ def process_input(
             """
         )
 
+    if isinstance(seasons, (int, str)):
+        seasons = [seasons]
+
+    if isinstance(events, (int, str)):
+        events = [events]
+
+    if isinstance(session_types, str):
+        session_types = [session_types]
+
+    if session_types is None:
+        session_types = ["R" for i in range(len(seasons))]
+
+    assert (
+        len(seasons) == len(events) == len(session_types)
+    ), f"Arguments {seasons}, {events}, {session_types} have different lengths."
+
     # Combine seasons and events and get FastF1 event objects
     event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
-    included_laps_lst = []
 
-    for season, event in zip(seasons, event_objects):
+    included_laps_list = []
+
+    for season, event, session_type in zip(seasons, event_objects, session_types):
         df_laps = filter_round_compound_valid_upper(
-            df_dict[season], event["RoundNumber"], compounds, upper_bound
+            DF_DICT[season][session_type], event["RoundNumber"], compounds, upper_bound
         )
 
         # LapRep columns have outliers that can skew the graph y-axis
@@ -574,9 +578,9 @@ def process_input(
         if y in {"PctFromLapRep", "DeltaToLapRep"}:
             df_laps = df_laps[df_laps["PctFromLapRep"] > -5]
 
-        included_laps_lst.append(df_laps)
+        included_laps_list.append(df_laps)
 
-    return event_objects, included_laps_lst
+    return event_objects, included_laps_list
 
 
 def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
@@ -599,14 +603,14 @@ def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[
     if absolute:
         if season == 2018:
             return [
-                visual_config["absolute"]["palette"]["18"][label] for label in labels
+                VISUAL_CONFIG["absolute"]["palette"]["18"][label] for label in labels
             ]
 
         return [
-            visual_config["absolute"]["palette"]["19_22"][label] for label in labels
+            VISUAL_CONFIG["absolute"]["palette"]["19_22"][label] for label in labels
         ]
 
-    return [visual_config["relative"]["palette"][label] for label in labels]
+    return [VISUAL_CONFIG["relative"]["palette"][label] for label in labels]
 
 
 def make_pie_title(season: int, slick_only: bool) -> str:
@@ -619,6 +623,7 @@ def make_pie_title(season: int, slick_only: bool) -> str:
 
 def tyre_usage_pie(
     season: int,
+    session_type: str = "R",
     title: Optional[str] = None,
     events: Optional[list[int | str]] = None,
     drivers: Optional[list[str]] = None,
@@ -632,6 +637,8 @@ def tyre_usage_pie(
 
     Args:
         season: Championship season
+
+        session_type: Follow Fastf1 session identifier convention.
 
         title: Use default argument to use an automatically formatted title.
         Only available when events and drivers are None.
@@ -659,8 +666,7 @@ def tyre_usage_pie(
         Will plot the tyre compounds used by Hamilton and Verstappan
         in the first 5 Grand Prix only.
     """
-    # TODO: use kwargs for optional arguments
-    included_laps = df_dict[season]
+    included_laps = DF_DICT[season][session_type]
 
     if title is None and events is None and drivers is None:
         title = make_pie_title(season, slick_only)
@@ -669,9 +675,11 @@ def tyre_usage_pie(
         events = pd.unique(included_laps["RoundNumber"])
     else:
         events = [
-            f.get_event(season, event)["RoundNumber"]
-            if isinstance(event, str)
-            else event
+            (
+                f.get_event(season, event)["RoundNumber"]
+                if isinstance(event, str)
+                else event
+            )
             for event in events
         ]
 
@@ -726,6 +734,7 @@ def tyre_usage_pie(
 def driver_stats_scatterplot(
     season: int,
     event: int | str,
+    session_type: str = "R",
     drivers: Iterable[str | int] | str | int = 3,
     y: str = "LapTime",
     upper_bound: int | float = 10,
@@ -740,6 +749,8 @@ def driver_stats_scatterplot(
 
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
+
+        session_type: Follow Fastf1 session identifier convention.
 
         drivers: See `get_drivers` for all accepted formats.
         By default, the podium finishers are plotted.
@@ -773,9 +784,9 @@ def driver_stats_scatterplot(
     }
 
     round_number, event_name, drivers = get_session_info(
-        season, event, drivers, teammate_comp
+        season, event, session_type, drivers, teammate_comp
     )
-    included_laps = df_dict[season]
+    included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
     if teammate_comp:
@@ -836,7 +847,7 @@ def driver_stats_scatterplot(
             hue_order=args[3],
             style="FreshTyre",
             style_order=["True", "False", "Unknown"],
-            markers=visual_config["fresh"]["markers"],
+            markers=VISUAL_CONFIG["fresh"]["markers"],
             legend="auto" if index == num_col - 1 else False,
         )
         ax.vlines(
@@ -863,6 +874,7 @@ def driver_stats_scatterplot(
 def driver_stats_lineplot(
     season: int,
     event: int | str,
+    session_type: str = "R",
     drivers: Iterable[str | int] | str | int = 20,
     y: str = "Position",
     upper_bound: Optional[int | float] = None,
@@ -876,6 +888,8 @@ def driver_stats_lineplot(
 
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
+
+        session_type: Follow Fastf1 session identifier convention.
 
         drivers: See `get_drivers` for all accepted formats.
         By default, all drivers are plotted.
@@ -898,8 +912,10 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    round_number, event_name, drivers = get_session_info(season, event, drivers)
-    included_laps = df_dict[season]
+    round_number, event_name, drivers = get_session_info(
+        season, event, session_type, drivers
+    )
+    included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
     if lap_numbers is not None:
@@ -966,7 +982,7 @@ def driver_stats_lineplot(
     shade_sc_periods(sc_laps)
     shade_sc_periods(vsc_laps, vsc=True)
 
-    if grid in ["both", "x", "y"]:
+    if grid in {"both", "x", "y"}:
         plt.grid(axis=grid)
     else:
         plt.grid(visible=False)
@@ -981,6 +997,7 @@ def driver_stats_lineplot(
 def driver_stats_distplot(
     season: int,
     event: int | str,
+    session_type: str = "R",
     drivers: Iterable[str | int] | str | int = 10,
     y: str = "LapTime",
     upper_bound: float | int = 10,
@@ -996,6 +1013,8 @@ def driver_stats_distplot(
 
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
+
+        session_type: Follow Fastf1 session identifier convention.
 
         drivers: See `get_drivers` for all accepted formats.
         By default, the point finishers are plotted.
@@ -1019,10 +1038,10 @@ def driver_stats_distplot(
     plt.style.use("dark_background")
 
     round_number, event_name, drivers = get_session_info(
-        season, event, drivers, teammate_comp
+        season, event, session_type, drivers, teammate_comp
     )
 
-    included_laps = df_dict[season]
+    included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver_upper(
         included_laps, round_number, drivers, upper_bound
     )
@@ -1094,6 +1113,7 @@ def driver_stats_distplot(
 def strategy_barplot(
     season: int,
     event: int | str,
+    session_type: str = "R",
     drivers: Iterable[str] | int = 20,
     absolute_compound: bool = False,
 ) -> Figure:
@@ -1105,14 +1125,18 @@ def strategy_barplot(
         event: Round number or name of the event.
         Name is fuzzy matched by fastf1.get_event().
 
+        session_type: Follow Fastf1 session identifier convention.
+
         drivers: See `get_drivers` for all accepted formats.
         By default, all drivers are plotted.
 
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    round_number, event_name, drivers = get_session_info(season, event, drivers)
-    included_laps = df_dict[season]
+    round_number, event_name, drivers = get_session_info(
+        season, event, session_type, drivers
+    )
+    included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
     fig, ax = plt.subplots(figsize=(5, len(drivers) // 3 + 1))
@@ -1143,7 +1167,7 @@ def strategy_barplot(
                 color=args[1][stint[args[0]]],
                 edgecolor="black",
                 fill=True,
-                hatch=visual_config["fresh"]["hatch"][stint["FreshTyre"]],
+                hatch=VISUAL_CONFIG["fresh"]["hatch"][stint["FreshTyre"]],
             )
 
             previous_stint_end += stint["StintLength"]
@@ -1185,6 +1209,7 @@ def strategy_barplot(
 def compounds_lineplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
+    session_types: Optional[str | Iterable[str]] = None,
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     x: str = "TyreLife",
@@ -1204,6 +1229,8 @@ def compounds_lineplot(
 
         Each (season, event) pair should uniquely identify an event.
 
+        session_types: Follow Fastf1 session identifier convention.
+
         y: The column to use as the y-axis.
 
         compounds: The compounds to plot.
@@ -1222,8 +1249,8 @@ def compounds_lineplot(
     if isinstance(seasons, int):
         seasons = [seasons]
 
-    event_objects, included_laps_lst = process_input(
-        seasons, events, y, compounds, x, upper_bound, absolute_compound
+    event_objects, included_laps_list = process_input(
+        seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
     )
 
     fig, axes = plt.subplots(
@@ -1244,7 +1271,7 @@ def compounds_lineplot(
     for i in range(len(event_objects)):
         ax = axes[i]
         args = plot_args(seasons[i], absolute_compound)
-        included_laps = included_laps_lst[i]
+        included_laps = included_laps_list[i]
         medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
 
         round_number = event_objects[i]["RoundNumber"]
@@ -1303,6 +1330,7 @@ def compounds_lineplot(
 def compounds_distribution(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
+    session_types: Optional[str | Iterable[str]] = None,
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     violin_plot: bool = False,
@@ -1323,6 +1351,8 @@ def compounds_distribution(
 
         Each (season, event) pair should uniquely identify an event.
 
+        session_types: Follow Fastf1 session identifier convention.
+
         y: The column to use as the y-axis.
 
         compounds: The compounds to plot.
@@ -1340,15 +1370,15 @@ def compounds_distribution(
     """
     plt.style.use("dark_background")
 
-    if not isinstance(seasons, int):
+    if isinstance(seasons, int):
         seasons = [seasons]
 
-    event_objects, included_laps_lst = process_input(
-        seasons, events, y, compounds, x, upper_bound, absolute_compound
+    event_objects, included_laps_list = process_input(
+        seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
     )
 
     # adjust plot size based on the chosen x-axis
-    x_ticks = max(laps[x].nunique() for laps in included_laps_lst)
+    x_ticks = max(laps[x].nunique() for laps in included_laps_list)
     fig, axes = plt.subplots(
         nrows=len(event_objects),
         sharex=True,
@@ -1367,7 +1397,7 @@ def compounds_distribution(
     for i in range(len(event_objects)):
         ax = axes[i]
         args = plot_args(seasons[i], absolute_compound)
-        included_laps = included_laps_lst[i]
+        included_laps = included_laps_list[i]
 
         plotted_compounds = included_laps[args[0]].unique()
         event_name = event_objects[i]["EventName"]
