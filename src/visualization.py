@@ -815,8 +815,7 @@ def driver_stats_scatterplot(
         included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
 
     for index, driver in enumerate(drivers):
-        row = index // max_width
-        col = index % max_width
+        row, col = divmod(index, max_width)
 
         ax = axes[row][col] if num_row > 1 else axes[col]
 
