@@ -14,20 +14,25 @@ from matplotlib import pyplot as plt
 from matplotlib import rcParams
 
 # fmt: off
-from preprocess import (COMPOUND_SELECTION, DATA_PATH, SESSION_IDS,
-                        SESSION_NAMES, VISUAL_CONFIG, Session)
+from preprocess import (
+    COMPOUND_SELECTION,
+    DATA_PATH,
+    SESSION_IDS,
+    SESSION_NAMES,
+    VISUAL_CONFIG,
+    Session,
+)
 
 # fmt: on
 
-logging.basicConfig(
-    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 
 Figure: TypeAlias = matplotlib.figure.Figure
 
 
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
-    """Fix incorrectly parsed data types.
+    """
+    Fix incorrectly parsed data types.
 
     All timing data are cast to timedelta from string.
     `TrackStatus` is cast to string from int.
@@ -85,7 +90,8 @@ DF_DICT = load_laps()
 
 
 def find_legend_order(labels: Iterable[str]) -> list[int]:
-    """Provide the index of a list of compounds sorted from soft to hard.
+    """
+    Provide the index of a list of compounds sorted from soft to hard.
 
     Args:
         labels: A list of string representing the tyre compounds.
@@ -104,13 +110,10 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
         desired = ["C1", "C3", "WET"],
         return [1, 0, 2]
     """
-    order = []
     old_indices = list(range(len(labels)))
     sorted_labels = []
 
-    if any(
-        name in labels for name in ("HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD")
-    ):
+    if any(name in labels for name in ("HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD")):
         # 2018 absolute compound names
         sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["18"]
     elif any(label.startswith("C") for label in labels):
@@ -121,26 +124,22 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
         sorted_labels = VISUAL_CONFIG["relative"]["labels"]
 
     pos = [sorted_labels.index(label) for label in labels]
-    order = [old_index for _, old_index in sorted(zip(pos, old_indices))]
 
-    return order
+    return [old_index for _, old_index in sorted(zip(pos, old_indices))]
 
 
 def filter_round_driver(
     df_laps: pd.DataFrame, round_number: int, drivers: Iterable[str]
 ) -> pd.DataFrame:
-    """Filter dataframe by round number and drivers.
+    """
+    Filter dataframe by round number and drivers.
 
     Round number requires exact match.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`, `Driver`]
     """
-    df_laps = df_laps[
-        (df_laps["RoundNumber"] == round_number) & (df_laps["Driver"].isin(drivers))
-    ]
-
-    return df_laps
+    return df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["Driver"].isin(drivers))]
 
 
 def filter_round_driver_upper(
@@ -149,7 +148,8 @@ def filter_round_driver_upper(
     drivers: Iterable[str],
     upper_bound: int | float,
 ) -> pd.DataFrame:
-    """Filter dataframe by round number, drivers, and lap time upper bound.
+    """
+    Filter dataframe by round number, drivers, and lap time upper bound.
 
     Round number requires exact match.
     Upper bound is given as the percentage difference from the fastest lap.
@@ -157,13 +157,11 @@ def filter_round_driver_upper(
     Requires:
         df_laps has the following columnds: [`RoundNumber`, `Driver`, `PctFromFastest`]
     """
-    df_laps = df_laps[
+    return df_laps[
         (df_laps["RoundNumber"] == round_number)
         & (df_laps["Driver"].isin(drivers))
         & (df_laps["PctFromFastest"] < upper_bound)
     ]
-
-    return df_laps
 
 
 def filter_round_compound_valid_upper(
@@ -172,7 +170,8 @@ def filter_round_compound_valid_upper(
     compounds: Iterable[str],
     upper_bound: int | float,
 ) -> pd.DataFrame:
-    """Filter dataframe by round number, validity, compound names, and lap time upper bound.
+    """
+    Filter dataframe by round number, validity, compound names, and lap time upper bound.
 
     Round number requires exact match.
 
@@ -182,18 +181,17 @@ def filter_round_compound_valid_upper(
                                             `Compound`,
                                             `PctFromFastest`]
     """
-    df_laps = df_laps[
+    return df_laps[
         (df_laps["RoundNumber"] == round_number)
         & (df_laps["IsValid"])
         & (df_laps["Compound"].isin(compounds))
         & (df_laps["PctFromFastest"] < upper_bound)
     ]
 
-    return df_laps
-
 
 def plot_args(season: int, absolute_compound: bool) -> tuple:
-    """Get plotting arguments based on the season and compound type.
+    """
+    Get plotting arguments based on the season and compound type.
 
     Args:
         season: Championship season
@@ -235,7 +233,8 @@ def get_drivers(
     drivers: Iterable[str | int] | str | int,
     by: str = "Position",
 ) -> list[str]:
-    """Find driver three-letter abbreviations.
+    """
+    Find driver three-letter abbreviations.
 
     Assumes:
         session.results is sorted by finishing position
@@ -285,7 +284,8 @@ def get_session_info(
     drivers: Iterable[str | int] | str | int = 3,
     teammate_comp: bool = False,
 ) -> tuple[int, str, list[str]]:
-    """Retrieve session information based on season, event number/name, and session identifier.
+    """
+    Retrieve session information based on season, event number/name, and session identifier.
 
     If event is provided as a string, then the name fuzzy matching is done by Fastf1.
 
@@ -306,7 +306,8 @@ def get_session_info(
 
 
 def pick_driver_color(driver: str) -> str:
-    """Find the driver's color.
+    """
+    Find the driver's color.
 
     If the driver is currently active, use his FastF1 color.
     Else, default to gray.
@@ -326,8 +327,7 @@ def add_gap(season: int, driver: str):
 
         if lap not in driver_laptimes[round_number]:
             laptime = df_driver[
-                (df_driver["RoundNumber"] == round_number)
-                & (df_driver["LapNumber"] == lap)
+                (df_driver["RoundNumber"] == round_number) & (df_driver["LapNumber"] == lap)
             ]["Time"]
 
             if laptime.empty:
@@ -353,10 +353,9 @@ def add_gap(season: int, driver: str):
         DF_DICT[season][session_type] = df_laps
 
 
-def teammate_comp_order(
-    included_laps: pd.DataFrame, drivers: list[str], by: str
-) -> list[str]:
-    """Reorder teammates by the median gap in some metric in descending order.
+def teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str) -> list[str]:
+    """
+    Reorder teammates by the median gap in some metric in descending order.
 
     For example, if by is LapTime, then the teammates with the biggest median laptime
     difference will appear first.
@@ -400,7 +399,8 @@ def teammate_comp_order(
 
 
 def lap_filter_sc(row: pd.Series) -> bool:
-    """Check if any part of a lap is ran under safety car.
+    """
+    Check if any part of a lap is ran under safety car.
 
     Track status 4 stands for safety car.
 
@@ -411,7 +411,8 @@ def lap_filter_sc(row: pd.Series) -> bool:
 
 
 def lap_filter_vsc(row: pd.Series) -> bool:
-    """Check if any part of a lap is ran under virtual safety car.
+    """
+    Check if any part of a lap is ran under virtual safety car.
 
     Track status 6 is VSC deployed.
     Track status 7 is VSC ending.
@@ -423,22 +424,20 @@ def lap_filter_vsc(row: pd.Series) -> bool:
 
 
 def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
-    """Find the unique lap numbers that is ran under SC or VSC.
+    """
+    Find the unique lap numbers that is ran under SC or VSC.
 
     The resulting arrays are sorted before they are returned.
     """
-    sc_laps = np.sort(
-        df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique()
-    )
-    vsc_laps = np.sort(
-        df_laps[df_laps.apply(lap_filter_vsc, axis=1)]["LapNumber"].unique()
-    )
+    sc_laps = np.sort(df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique())
+    vsc_laps = np.sort(df_laps[df_laps.apply(lap_filter_vsc, axis=1)]["LapNumber"].unique())
 
     return sc_laps, vsc_laps
 
 
 def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
-    """Shade SC or VSC periods lasting at least one lap on the current figure.
+    """
+    Shade SC or VSC periods lasting at least one lap on the current figure.
 
     Args:
         sc_laps: Sorted array of integers indicating laps under SC or VSC.
@@ -476,7 +475,8 @@ def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
 def convert_compound_names(
     season: int, round_number: int, compounds: Iterable[str]
 ) -> tuple[str]:
-    """Convert relative compound names to absolute compound names.
+    """
+    Convert relative compound names to absolute compound names.
 
     Args:
         season: Championship season
@@ -500,9 +500,7 @@ def convert_compound_names(
 
     for compound in compounds:
         return_vals.append(
-            COMPOUND_SELECTION[str(season)][str(round_number)][
-                compound_to_index[compound]
-            ]
+            COMPOUND_SELECTION[str(season)][str(round_number)][compound_to_index[compound]]
         )
 
     return tuple(return_vals)
@@ -518,7 +516,8 @@ def process_input(
     upper_bound: int | float,
     absolute_compound: bool,
 ) -> tuple[list[f.events.Event], list[pd.DataFrame]]:
-    """Sanitize input parameters to compound plots.
+    """
+    Sanitize input parameters to compound plots.
 
     Returns:
         event_objects: List of event objects corresponding to each requested race
@@ -595,7 +594,6 @@ def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
         # additional call to int is for type conversion
         # not duplicated rounding
         val = int(round(pct * total / 100.0))
-        # pylint: disable=consider-using-f-string
         return "{p:.1f}%  ({v:d})".format(p=pct, v=val)
 
     return my_autopct
@@ -606,13 +604,9 @@ def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[
     # TODO: Find ways to unify this with plot_args or similar
     if absolute:
         if season == 2018:
-            return [
-                VISUAL_CONFIG["absolute"]["palette"]["18"][label] for label in labels
-            ]
+            return [VISUAL_CONFIG["absolute"]["palette"]["18"][label] for label in labels]
 
-        return [
-            VISUAL_CONFIG["absolute"]["palette"]["19_22"][label] for label in labels
-        ]
+        return [VISUAL_CONFIG["absolute"]["palette"]["19_22"][label] for label in labels]
 
     return [VISUAL_CONFIG["relative"]["palette"][label] for label in labels]
 
@@ -634,7 +628,8 @@ def tyre_usage_pie(
     slick_only: bool = True,
     absolute_compound: bool = True,
 ) -> Figure:
-    """Visualize tyre usage trends by compound with a pie chart.
+    """
+    Visualize tyre usage trends by compound with a pie chart.
 
     The arguments configure the range of data from which
     the tyre usage frequency is calculated.
@@ -679,11 +674,7 @@ def tyre_usage_pie(
         events = pd.unique(included_laps["RoundNumber"])
     else:
         events = [
-            (
-                f.get_event(season, event)["RoundNumber"]
-                if isinstance(event, str)
-                else event
-            )
+            (f.get_event(season, event)["RoundNumber"] if isinstance(event, str) else event)
             for event in events
         ]
 
@@ -694,8 +685,7 @@ def tyre_usage_pie(
         included_laps = included_laps[included_laps["IsSlick"]]
 
     included_laps = included_laps[
-        (included_laps["RoundNumber"].isin(events))
-        & (included_laps["Driver"].isin(drivers))
+        (included_laps["RoundNumber"].isin(events)) & (included_laps["Driver"].isin(drivers))
     ]
 
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -746,7 +736,8 @@ def driver_stats_scatterplot(
     teammate_comp: bool = False,
     lap_numbers: Optional[list[int]] = None,
 ) -> Figure:
-    """Visualize driver data during a race as a scatterplot.
+    """
+    Visualize driver data during a race as a scatterplot.
 
     Args:
         season: Championship season
@@ -830,9 +821,7 @@ def driver_stats_scatterplot(
         ax = axes[row][col] if num_row > 1 else axes[col]
 
         driver_laps = included_laps[included_laps["Driver"] == driver]
-        pit_in_laps = driver_laps[driver_laps["PitInTime"].notnull()][
-            "LapNumber"
-        ].to_numpy()
+        pit_in_laps = driver_laps[driver_laps["PitInTime"].notna()]["LapNumber"].to_numpy()
 
         # After pitstops are identified,
         # filter out laps that doesn't meet the upper_bound
@@ -885,7 +874,8 @@ def driver_stats_lineplot(
     grid: Optional[Literal["both", "x", "y"]] = None,
     lap_numbers: Optional[list[int]] = None,
 ) -> Figure:
-    """Visualize driver data during a race as a lineplot.
+    """
+    Visualize driver data during a race as a lineplot.
 
     Args:
         season: Championship season
@@ -916,9 +906,7 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    round_number, event_name, drivers = get_session_info(
-        season, event, session_type, drivers
-    )
+    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
@@ -939,9 +927,7 @@ def driver_stats_lineplot(
             upper_bound = 10
 
     # do upper bound filtering after SC periods are identified
-    included_laps = filter_round_driver_upper(
-        included_laps, round_number, drivers, upper_bound
-    )
+    included_laps = filter_round_driver_upper(included_laps, round_number, drivers, upper_bound)
 
     # adjust plot size based on number of laps
     num_laps = included_laps["LapNumber"].nunique()
@@ -968,9 +954,7 @@ def driver_stats_lineplot(
 
         driver_color = pick_driver_color(driver)
 
-        sns.lineplot(
-            driver_laps, x="LapNumber", y=y, ax=ax, color=driver_color, errorbar=None
-        )
+        sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax, color=driver_color, errorbar=None)
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
@@ -1010,7 +994,8 @@ def driver_stats_distplot(
     absolute_compound: bool = False,
     teammate_comp: bool = False,
 ) -> Figure:
-    """Visualize race data distribution as a violinplot or boxplot + optional swarmplot.
+    """
+    Visualize race data distribution as a violinplot or boxplot + optional swarmplot.
 
     Args:
         season: Championship season
@@ -1046,9 +1031,7 @@ def driver_stats_distplot(
     )
 
     included_laps = DF_DICT[season][session_type]
-    included_laps = filter_round_driver_upper(
-        included_laps, round_number, drivers, upper_bound
-    )
+    included_laps = filter_round_driver_upper(included_laps, round_number, drivers, upper_bound)
 
     if teammate_comp:
         drivers = teammate_comp_order(included_laps, drivers, y)
@@ -1121,7 +1104,8 @@ def strategy_barplot(
     drivers: Iterable[str] | int = 20,
     absolute_compound: bool = False,
 ) -> Figure:
-    """Visualize tyre strategies as a horizontal barplot.
+    """
+    Visualize tyre strategies as a horizontal barplot.
 
     Args:
         season: Championship season
@@ -1137,9 +1121,7 @@ def strategy_barplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    round_number, event_name, drivers = get_session_info(
-        season, event, session_type, drivers
-    )
+    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
     included_laps = filter_round_driver(included_laps, round_number, drivers)
 
@@ -1147,9 +1129,7 @@ def strategy_barplot(
     plt.style.use("dark_background")
 
     driver_stints = (
-        included_laps[
-            ["Driver", "Stint", "Compound", "CompoundName", "FreshTyre", "LapNumber"]
-        ]
+        included_laps[["Driver", "Stint", "Compound", "CompoundName", "FreshTyre", "LapNumber"]]
         .groupby(["Driver", "Stint", "Compound", "CompoundName", "FreshTyre"])
         .count()
         .reset_index()
@@ -1210,7 +1190,6 @@ def strategy_barplot(
     return fig
 
 
-# pylint: disable=dangerous-default-value
 def compounds_lineplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
@@ -1221,7 +1200,8 @@ def compounds_lineplot(
     upper_bound: int | float = 10,
     absolute_compound: bool = True,
 ) -> Figure:
-    """Visualize compound performances as a lineplot.
+    """
+    Visualize compound performances as a lineplot.
 
     Caveats:
         Only laps with `IsValid=True` are considered
@@ -1283,9 +1263,7 @@ def compounds_lineplot(
         event_name = event["EventName"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(
-                seasons[idx], round_number, compounds
-            )
+            compounds_copy = convert_compound_names(seasons[idx], round_number, compounds)
 
         for compound in compounds_copy:
             if compound in medians.index:
@@ -1334,7 +1312,6 @@ def compounds_lineplot(
     return fig
 
 
-# pylint: disable=dangerous-default-value
 def compounds_distribution(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
@@ -1346,7 +1323,8 @@ def compounds_distribution(
     upper_bound: int | float = 10,
     absolute_compound: bool = True,
 ) -> Figure:
-    """Visualize compound performance as a boxplot or violinplot.
+    """
+    Visualize compound performance as a boxplot or violinplot.
 
     Caveats:
         Only laps with `IsValid=True` are considered
@@ -1412,9 +1390,7 @@ def compounds_distribution(
         round_number = event["RoundNumber"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(
-                seasons[idx], round_number, compounds
-            )
+            compounds_copy = convert_compound_names(seasons[idx], round_number, compounds)
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
@@ -1428,13 +1404,9 @@ def compounds_distribution(
                 )
 
         if violin_plot:
-            sns.violinplot(
-                data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1]
-            )
+            sns.violinplot(data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1])
         else:
-            sns.boxplot(
-                data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1]
-            )
+            sns.boxplot(data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1])
 
         ax.set_ylabel(y, fontsize=12)
         xticks = ax.get_xticks()

@@ -11,13 +11,10 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-
 import visualization as viz
 from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
 
-logging.basicConfig(
-    level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 
 # plotting setup
 visuals_path = ROOT_PATH / "Docs" / "visuals"
@@ -51,9 +48,7 @@ podium_gap = viz.driver_stats_lineplot(
 plt.savefig(visuals_path / "podium_gap.png")
 
 logging.info("Making lap time graph...")
-laptime = viz.driver_stats_scatterplot(
-    season=CURRENT_SEASON, event=completed_round, drivers=10
-)
+laptime = viz.driver_stats_scatterplot(season=CURRENT_SEASON, event=completed_round, drivers=10)
 plt.savefig(visuals_path / "laptime.png")
 
 logging.info("Making strategy graph...")
