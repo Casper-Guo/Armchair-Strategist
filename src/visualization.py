@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(m
 Figure: TypeAlias = matplotlib.figure.Figure
 
 
-def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
+def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Fix incorrectly parsed data types.
 
@@ -76,7 +76,7 @@ def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
             true_values=["True"],
             false_values=["False"],
         )
-        correct_dtype(df)
+        _correct_dtype(df)
 
         if season not in dfs:
             dfs[season] = {}
@@ -89,7 +89,7 @@ def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
 DF_DICT = load_laps()
 
 
-def find_legend_order(labels: Iterable[str]) -> list[int]:
+def _find_legend_order(labels: Iterable[str]) -> list[int]:
     """
     Provide the index of a list of compounds sorted from soft to hard.
 
@@ -128,7 +128,7 @@ def find_legend_order(labels: Iterable[str]) -> list[int]:
     return [old_index for _, old_index in sorted(zip(pos, old_indices))]
 
 
-def filter_round_driver(
+def _filter_round_driver(
     df_laps: pd.DataFrame, round_number: int, drivers: Iterable[str]
 ) -> pd.DataFrame:
     """
@@ -142,7 +142,7 @@ def filter_round_driver(
     return df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["Driver"].isin(drivers))]
 
 
-def filter_round_driver_upper(
+def _filter_round_driver_upper(
     df_laps: pd.DataFrame,
     round_number: int,
     drivers: Iterable[str],
@@ -164,7 +164,7 @@ def filter_round_driver_upper(
     ]
 
 
-def filter_round_compound_valid_upper(
+def _filter_round_compound_valid_upper(
     df_laps: pd.DataFrame,
     round_number: int,
     compounds: Iterable[str],
@@ -189,7 +189,7 @@ def filter_round_compound_valid_upper(
     ]
 
 
-def plot_args(season: int, absolute_compound: bool) -> tuple:
+def _plot_args(season: int, absolute_compound: bool) -> tuple:
     """
     Get plotting arguments based on the season and compound type.
 
@@ -353,7 +353,7 @@ def add_gap(season: int, driver: str):
         DF_DICT[season][session_type] = df_laps
 
 
-def teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str) -> list[str]:
+def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str) -> list[str]:
     """
     Reorder teammates by the median gap in some metric in descending order.
 
@@ -398,7 +398,7 @@ def teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str
     return drivers
 
 
-def lap_filter_sc(row: pd.Series) -> bool:
+def _lap_filter_sc(row: pd.Series) -> bool:
     """
     Check if any part of a lap is ran under safety car.
 
@@ -410,7 +410,7 @@ def lap_filter_sc(row: pd.Series) -> bool:
     return "4" in row.loc["TrackStatus"]
 
 
-def lap_filter_vsc(row: pd.Series) -> bool:
+def _lap_filter_vsc(row: pd.Series) -> bool:
     """
     Check if any part of a lap is ran under virtual safety car.
 
@@ -418,28 +418,25 @@ def lap_filter_vsc(row: pd.Series) -> bool:
 
     Track status 6 is VSC deployed.
     Track status 7 is VSC ending.
-
-    Caveats:
-        Might double count with the `lap_filter_sc` function.
     """
     return (("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])) and (
         "4" not in row.loc["TrackStatus"]
     )
 
 
-def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+def _find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
     """
     Find the unique lap numbers that is ran under SC or VSC.
 
     The resulting arrays are sorted before they are returned.
     """
-    sc_laps = np.sort(df_laps[df_laps.apply(lap_filter_sc, axis=1)]["LapNumber"].unique())
-    vsc_laps = np.sort(df_laps[df_laps.apply(lap_filter_vsc, axis=1)]["LapNumber"].unique())
+    sc_laps = np.sort(df_laps[df_laps.apply(_lap_filter_sc, axis=1)]["LapNumber"].unique())
+    vsc_laps = np.sort(df_laps[df_laps.apply(_lap_filter_vsc, axis=1)]["LapNumber"].unique())
 
     return sc_laps, vsc_laps
 
 
-def shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
+def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     """
     Shade SC and VSC periods.
 
@@ -490,7 +487,7 @@ def shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     plot_periods(vsc_laps, "VSC", "-")
 
 
-def convert_compound_names(
+def _convert_compound_name(
     season: int, round_number: int, compounds: Iterable[str]
 ) -> tuple[str]:
     """
@@ -506,7 +503,7 @@ def convert_compound_names(
     Examples:
         2023 round 1 selects C1, C2, C3 compounds.
 
-        Then convert_compound_names(
+        Then _convert_compound_name(
         2023, 1, ["SOFT", "HARD"]
         ) = ["C1", "C3"]
     """
@@ -524,7 +521,7 @@ def convert_compound_names(
     return tuple(return_vals)
 
 
-def process_input(
+def _process_input(
     seasons: int | Iterable[int],
     events: int | str | Iterable[str | int],
     session_types: str | Iterable[str],
@@ -588,7 +585,7 @@ def process_input(
     included_laps_list = []
 
     for season, event, session_type in zip(seasons, event_objects, session_types):
-        df_laps = filter_round_compound_valid_upper(
+        df_laps = _filter_round_compound_valid_upper(
             DF_DICT[season][session_type], event["RoundNumber"], compounds, upper_bound
         )
 
@@ -603,7 +600,7 @@ def process_input(
     return event_objects, included_laps_list
 
 
-def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
+def _make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
     """Format group sizes as percentages of the total."""
 
     def my_autopct(pct):
@@ -617,9 +614,9 @@ def make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
     return my_autopct
 
 
-def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[str]:
+def _get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[str]:
     """Get the tyre compound palette needed for the pie chart."""
-    # TODO: Find ways to unify this with plot_args or similar
+    # TODO: Find ways to unify this with _plot_args or similar
     if absolute:
         if season == 2018:
             return [VISUAL_CONFIG["absolute"]["palette"]["18"][label] for label in labels]
@@ -629,7 +626,7 @@ def get_pie_palette(season: int, absolute: bool, labels: Iterable[str]) -> list[
     return [VISUAL_CONFIG["relative"]["palette"][label] for label in labels]
 
 
-def make_pie_title(season: int, slick_only: bool) -> str:
+def _make_pie_title(season: int, slick_only: bool) -> str:
     """Compose the pie chart title."""
     if slick_only:
         return f"Slick Compound Usage in the {season} Season"
@@ -686,7 +683,7 @@ def tyre_usage_pie(
     included_laps = DF_DICT[season][session_type]
 
     if title is None and events is None and drivers is None:
-        title = make_pie_title(season, slick_only)
+        title = _make_pie_title(season, slick_only)
 
     if events is None:
         events = pd.unique(included_laps["RoundNumber"])
@@ -716,19 +713,19 @@ def tyre_usage_pie(
         lap_counts = included_laps.groupby("Compound").size()
 
     labels = lap_counts.index
-    palette = get_pie_palette(season, absolute_compound, labels)
+    palette = _get_pie_palette(season, absolute_compound, labels)
 
     _, _, autotexts = ax.pie(
         x=lap_counts.values,
         labels=labels,
         colors=palette,
-        autopct=make_autopct(lap_counts),
+        autopct=_make_autopct(lap_counts),
         counterclock=False,
         startangle=90,
     )
 
     handles, labels = ax.get_legend_handles_labels()
-    label_order = find_legend_order(labels)
+    label_order = _find_legend_order(labels)
     ax.legend(
         handles=[handles[i] for i in label_order],
         labels=[labels[i] for i in label_order],
@@ -776,7 +773,7 @@ def driver_stats_scatterplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
+        teammate_comp: Toggles teammate comparison mode. See _teammate_comp_order
         for explanation. If False, the drivers are plotted by finishing order
         (higher finishing to the left).
 
@@ -800,10 +797,10 @@ def driver_stats_scatterplot(
         season, event, session_type, drivers, teammate_comp
     )
     included_laps = DF_DICT[season][session_type]
-    included_laps = filter_round_driver(included_laps, round_number, drivers)
+    included_laps = _filter_round_driver(included_laps, round_number, drivers)
 
     if teammate_comp:
-        drivers = teammate_comp_order(included_laps, drivers, y)
+        drivers = _teammate_comp_order(included_laps, drivers, y)
 
     if lap_numbers is not None:
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
@@ -820,7 +817,7 @@ def driver_stats_scatterplot(
         figsize=(5 * num_col, 5 * num_row),
     )
 
-    args = plot_args(season, absolute_compound)
+    args = _plot_args(season, absolute_compound)
 
     # Prevent TypeError when only one driver is plotted
     if len(drivers) == 1:
@@ -925,13 +922,13 @@ def driver_stats_lineplot(
 
     round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
-    included_laps = filter_round_driver(included_laps, round_number, drivers)
+    included_laps = _filter_round_driver(included_laps, round_number, drivers)
 
     if lap_numbers is not None:
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
         included_laps = included_laps[included_laps["LapNumber"].isin(lap_numbers)]
 
-    sc_laps, vsc_laps = find_sc_laps(included_laps)
+    sc_laps, vsc_laps = _find_sc_laps(included_laps)
 
     if upper_bound is None:
         if y == "Position" or y.startswith("GapTo"):
@@ -940,7 +937,9 @@ def driver_stats_lineplot(
             upper_bound = 10
 
     # do upper bound filtering after SC periods are identified
-    included_laps = filter_round_driver_upper(included_laps, round_number, drivers, upper_bound)
+    included_laps = _filter_round_driver_upper(
+        included_laps, round_number, drivers, upper_bound
+    )
 
     # adjust plot size based on number of laps
     num_laps = included_laps["LapNumber"].nunique()
@@ -980,7 +979,7 @@ def driver_stats_lineplot(
         sns.despine(left=True, bottom=True)
 
     # shade SC periods
-    shade_sc_periods(sc_laps, vsc_laps)
+    _shade_sc_periods(sc_laps, vsc_laps)
 
     if grid in {"both", "x", "y"}:
         plt.grid(axis=grid)
@@ -1032,7 +1031,7 @@ def driver_stats_distplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
+        teammate_comp: Toggles teammate comparison mode. See _teammate_comp_order
         for explanation. If False, the drivers are plotted by finishing order
         (higher finishing to the left).
     """
@@ -1043,14 +1042,16 @@ def driver_stats_distplot(
     )
 
     included_laps = DF_DICT[season][session_type]
-    included_laps = filter_round_driver_upper(included_laps, round_number, drivers, upper_bound)
+    included_laps = _filter_round_driver_upper(
+        included_laps, round_number, drivers, upper_bound
+    )
 
     if teammate_comp:
-        drivers = teammate_comp_order(included_laps, drivers, y)
+        drivers = _teammate_comp_order(included_laps, drivers, y)
 
     # Adjust plot size based on number of drivers plotted
     fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 10))
-    args = plot_args(season, absolute_compound)
+    args = _plot_args(season, absolute_compound)
 
     driver_colors = [pick_driver_color(driver) for driver in drivers]
 
@@ -1091,7 +1092,7 @@ def driver_stats_distplot(
         )
 
         handles, labels = ax.get_legend_handles_labels()
-        order = find_legend_order(labels)
+        order = _find_legend_order(labels)
         ax.legend(
             handles=[handles[idx] for idx in order],
             labels=[labels[idx] for idx in order],
@@ -1135,7 +1136,7 @@ def strategy_barplot(
     """
     round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
-    included_laps = filter_round_driver(included_laps, round_number, drivers)
+    included_laps = _filter_round_driver(included_laps, round_number, drivers)
 
     fig, ax = plt.subplots(figsize=(5, len(drivers) // 3 + 1))
     plt.style.use("dark_background")
@@ -1149,7 +1150,7 @@ def strategy_barplot(
     driver_stints = driver_stints.rename(columns={"LapNumber": "StintLength"})
     driver_stints = driver_stints.sort_values(by=["Stint"])
 
-    args = plot_args(season, absolute_compound)
+    args = _plot_args(season, absolute_compound)
 
     for driver in drivers:
         stints = driver_stints.loc[driver_stints["Driver"] == driver]
@@ -1168,7 +1169,7 @@ def strategy_barplot(
 
             previous_stint_end += stint["StintLength"]
 
-    shade_sc_periods(*find_sc_laps(included_laps))
+    _shade_sc_periods(*_find_sc_laps(included_laps))
 
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
@@ -1239,7 +1240,7 @@ def compounds_lineplot(
     if isinstance(seasons, int):
         seasons = [seasons]
 
-    event_objects, included_laps_list = process_input(
+    event_objects, included_laps_list = _process_input(
         seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
     )
 
@@ -1260,7 +1261,7 @@ def compounds_lineplot(
 
     for idx, event in enumerate(event_objects):
         ax = axes[idx]
-        args = plot_args(seasons[idx], absolute_compound)
+        args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
         medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
 
@@ -1268,7 +1269,7 @@ def compounds_lineplot(
         event_name = event["EventName"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(seasons[idx], round_number, compounds)
+            compounds_copy = _convert_compound_name(seasons[idx], round_number, compounds)
 
         for compound in compounds_copy:
             if compound in medians.index:
@@ -1294,7 +1295,7 @@ def compounds_lineplot(
         ax.set_ylabel(y, fontsize=12)
 
         handles, labels = ax.get_legend_handles_labels()
-        order = find_legend_order(labels)
+        order = _find_legend_order(labels)
         ax.legend(
             handles=[handles[i] for i in order],
             labels=[labels[i] for i in order],
@@ -1310,7 +1311,7 @@ def compounds_lineplot(
         sns.despine(left=True, bottom=True)
 
     # reorder compound names for title
-    compounds = [compounds[i] for i in find_legend_order(compounds)]
+    compounds = [compounds[i] for i in _find_legend_order(compounds)]
 
     fig.suptitle(t=" VS ".join(compounds), fontsize=14)
 
@@ -1364,7 +1365,7 @@ def compounds_distribution(
     if isinstance(seasons, int):
         seasons = [seasons]
 
-    event_objects, included_laps_list = process_input(
+    event_objects, included_laps_list = _process_input(
         seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
     )
 
@@ -1387,7 +1388,7 @@ def compounds_distribution(
 
     for idx, event in enumerate(event_objects):
         ax = axes[idx]
-        args = plot_args(seasons[idx], absolute_compound)
+        args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
 
         plotted_compounds = included_laps[args[0]].unique()
@@ -1395,7 +1396,7 @@ def compounds_distribution(
         round_number = event["RoundNumber"]
 
         if absolute_compound:
-            compounds_copy = convert_compound_names(seasons[idx], round_number, compounds)
+            compounds_copy = _convert_compound_name(seasons[idx], round_number, compounds)
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
@@ -1420,7 +1421,7 @@ def compounds_distribution(
         ax.grid(which="both", axis="y")
 
         handles, labels = ax.get_legend_handles_labels()
-        order = find_legend_order(labels)
+        order = _find_legend_order(labels)
         ax.legend(
             handles=[handles[i] for i in order],
             labels=[labels[i] for i in order],
@@ -1435,7 +1436,7 @@ def compounds_distribution(
         sns.despine(left=True, bottom=True)
 
     # reorder compound names for title
-    compounds = [compounds[i] for i in find_legend_order(compounds)]
+    compounds = [compounds[i] for i in _find_legend_order(compounds)]
 
     fig.suptitle(t=" VS ".join(compounds), fontsize="16")
 
