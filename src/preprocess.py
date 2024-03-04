@@ -9,6 +9,9 @@ from typing import TypeAlias
 import fastf1 as f
 import pandas as pd
 import tomli
+from fastf1.core import InvalidSessionError, NoLapDataError
+from fastf1.ergast.interface import ErgastError
+from fastf1.req import RateLimitExceededError
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 
@@ -81,9 +84,8 @@ def load_all_data(season: int, path: Path, session_type: str):
 
         try:
             session.load(telemetry=False)
-        except Exception as e:
-            # TODO: Proper handling of FastF1 errors
-            logging.warning("Cannot load %s", session)
+        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
+            logging.error("Cannot load %s", session)
             raise e
 
         laps = session.laps
@@ -142,9 +144,8 @@ def update_data(season: int, path: Path, session_type: str):
 
         try:
             session.load(telemetry=False)
-        except Exception as e:
-            # TODO: Proper handling of FastF1 errors
-            logging.warning("Cannot load %s", session)
+        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
+            logging.error("Cannot load %s", session)
             raise e
 
         laps = session.laps
