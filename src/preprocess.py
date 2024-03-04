@@ -4,7 +4,7 @@ import logging
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import TypeAlias
+from typing import Iterable, TypeAlias
 
 import fastf1 as f
 import pandas as pd
@@ -20,15 +20,8 @@ DATA_PATH = ROOT_PATH / "Data"
 CURRENT_SEASON = datetime.now().year
 
 # NUM_ROUNDS[CURRENT_SEASON] = number of completed rounds and is calculated in main
+# Calculating this from fastf1 event schedule is non-trivial due to cancelled races
 NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22}
-
-# TODO: See if this can be determined from FastF1 with a small number of requests
-SPRINT_ROUNDS = {
-    2021: {10, 14, 19},
-    2022: {4, 11, 21},
-    2023: {4, 9, 12, 17, 18, 20},
-    2024: {5, 6, 11, 19, 21, 23},
-}
 
 # Map session ids to full session names, and reverse
 SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
@@ -42,6 +35,17 @@ with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
     VISUAL_CONFIG = tomli.load(toml)
 
 Session: TypeAlias = f.core.Session
+
+
+def get_sprint_rounds(season: int) -> dict[int, Iterable[int]]:
+    """Return the sprint weekend round numbers in a season."""
+    schedule = f.get_event_schedule(season)
+    return schedule[schedule["EventFormat"].isin(("sprint", "sprint_shootout"))]["RoundNumber"]
+
+
+SPRINT_ROUNDS = {
+    season: get_sprint_rounds(season) for season in range(2021, CURRENT_SEASON + 1)
+}
 
 
 class OutdatedTOMLError(Exception):  # noqa: N801
