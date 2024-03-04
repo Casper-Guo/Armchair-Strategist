@@ -405,7 +405,7 @@ def lap_filter_sc(row: pd.Series) -> bool:
     Track status 4 stands for safety car.
 
     Caveats:
-        Might overcount, unsure if the lap after "safety car in this lap will be included.
+        Unsure if the lap after "safety car in this lap" will be included.
     """
     return "4" in row.loc["TrackStatus"]
 
@@ -414,13 +414,17 @@ def lap_filter_vsc(row: pd.Series) -> bool:
     """
     Check if any part of a lap is ran under virtual safety car.
 
+    A lap is only counted if none of it is ran under full safety car
+
     Track status 6 is VSC deployed.
     Track status 7 is VSC ending.
 
     Caveats:
         Might double count with the `lap_filter_sc` function.
     """
-    return ("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])
+    return (("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])) and (
+        "4" not in row.loc["TrackStatus"]
+    )
 
 
 def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
@@ -435,41 +439,55 @@ def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
     return sc_laps, vsc_laps
 
 
-def shade_sc_periods(sc_laps: np.ndarray, vsc: bool = False):
+def shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     """
-    Shade SC or VSC periods lasting at least one lap on the current figure.
+    Shade SC and VSC periods.
 
     Args:
-        sc_laps: Sorted array of integers indicating laps under SC or VSC.
+        sc_laps: Sorted array of integers indicating laps under safety car
 
-        VSC: Toggle VSC hatches and label.
+        vsc_laps: sorted array of integers indicating laps under virtual safety car
     """
-    sc_laps_copy = np.append(sc_laps, [-1])
+    sc_laps = np.append(sc_laps, [-1])
+    vsc_laps = np.append(vsc_laps, [-1])
 
-    start = 0
-    end = 1
+    def plot_periods(laps, label, hatch=None):
+        start = 0
+        end = 1
 
-    while end < len(sc_laps_copy):
-        # check if two SC laps are continuous
-        if sc_laps_copy[end] == sc_laps_copy[end - 1] + 1:
-            end += 1
-        else:
-            # current SC period has ended
-            # if the period is at least one full lap
-            if end - start > 1:
-                # minus one to correct for zero indexing on the plot
-                # but one indexing in the data
-                plt.axvspan(
-                    xmin=sc_laps_copy[start] - 1,
-                    xmax=sc_laps_copy[end - 1] - 1,
-                    alpha=0.5,
-                    color="orange",
-                    hatch="-" if vsc else None,
-                    label="VSC" if vsc else "SC",
-                )
+        while end < len(laps):
+            # check if the current SC period is still ongoing
+            if laps[end] == laps[end - 1] + 1:
+                end += 1
+            else:
+                if end - start > 1:
+                    # the latest SC period lasts for more than one lap
+                    plt.axvspan(
+                        # minus one to correct for zero indexing on the plot
+                        # but one indexing in the data
+                        xmin=laps[start] - 1,
+                        xmax=laps[end - 1] - 1,
+                        alpha=0.5,
+                        color="orange",
+                        # only produce one label in legend
+                        label=label if start == 0 else "_",
+                        hatch=hatch,
+                    )
+                else:
+                    # end = start + 1, the latest SC period lasts only one lap
+                    plt.axvspan(
+                        xmin=laps[start] - 1,
+                        xmax=laps[start],
+                        alpha=0.5,
+                        color="orange",
+                        label=label if start == 0 else "_",
+                        hatch=hatch,
+                    )
+                start = end
+                end += 1
 
-            start = end
-            end += 1
+    plot_periods(sc_laps, "SC")
+    plot_periods(vsc_laps, "VSC", "-")
 
 
 def convert_compound_names(
@@ -913,11 +931,7 @@ def driver_stats_lineplot(
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
         included_laps = included_laps[included_laps["LapNumber"].isin(lap_numbers)]
 
-    # find safety car (both SC and VSC) periods
-    # only safety car lasting at least one full lap will be shown
-    # if a lap falls under both category, SC takes precedence
     sc_laps, vsc_laps = find_sc_laps(included_laps)
-    vsc_laps = [lap for lap in vsc_laps if lap not in sc_laps]
 
     if upper_bound is None:
         if y == "Position" or y.startswith("GapTo"):
@@ -966,8 +980,7 @@ def driver_stats_lineplot(
         sns.despine(left=True, bottom=True)
 
     # shade SC periods
-    shade_sc_periods(sc_laps)
-    shade_sc_periods(vsc_laps, vsc=True)
+    shade_sc_periods(sc_laps, vsc_laps)
 
     if grid in {"both", "x", "y"}:
         plt.grid(axis=grid)
@@ -1155,14 +1168,7 @@ def strategy_barplot(
 
             previous_stint_end += stint["StintLength"]
 
-    # shade safety car (both SC and VSC) periods
-    # only safety car lasting at least one full lap will be shown
-    # if a lap falls under both category, SC takes precedence
-    sc_laps, vsc_laps = find_sc_laps(included_laps)
-    vsc_laps = [lap for lap in vsc_laps if lap not in sc_laps]
-
-    shade_sc_periods(sc_laps)
-    shade_sc_periods(vsc_laps, vsc=True)
+    shade_sc_periods(*find_sc_laps(included_laps))
 
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
