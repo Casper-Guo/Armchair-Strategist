@@ -58,7 +58,7 @@ def get_session(season: int, round_number: int, session_type: str) -> Session:
         case "R":
             return f.get_session(season, round_number, session_type)
         case "S":
-            if round_number in SPRINT_ROUNDS.get(season, ()):
+            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season].array:
                 return f.get_session(season, round_number, session_type)
         case _:
             raise ValueError("%s is not a supported session identifier", session_type)
