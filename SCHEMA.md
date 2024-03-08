@@ -1,6 +1,6 @@
 # `all_laps_*.csv`
 
-- All columns provided by [`Fastf1.laps](https://docs.fastf1.dev/core.html#laps)
+- All columns provided by [Fastf1.laps](https://docs.fastf1.dev/core.html#laps)
 - **RoundNumber** (`int`): Championship round number.
 - **EventName** (`str`): Name of the Grand Prix, as provided by Fastf1 [Event Schedule](https://docs.fastf1.dev/events.html#event-schedule-data)'s `EventName` column.
 
