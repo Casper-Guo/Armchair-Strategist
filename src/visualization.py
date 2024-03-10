@@ -878,6 +878,7 @@ def driver_stats_scatterplot(
     return fig
 
 
+# TODO: set default driver quantity dynamically
 def driver_stats_lineplot(
     season: int,
     event: int | str,

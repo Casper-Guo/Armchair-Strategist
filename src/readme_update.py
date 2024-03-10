@@ -60,6 +60,7 @@ position = viz.driver_stats_lineplot(season=CURRENT_SEASON, event=completed_roun
 plt.savefig(visuals_path / "position.png")
 
 logging.info("Making teammate comparison boxplot...")
+# TODO: remove dependency on hard-coded driver quantity
 teammate_box = viz.driver_stats_distplot(
     season=CURRENT_SEASON,
     event=completed_round,
