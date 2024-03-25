@@ -325,6 +325,9 @@ def add_gap(season: int, driver: str):
         round_number = row.loc["RoundNumber"]
         lap = row.loc["LapNumber"]
 
+        if round_number not in driver_laptimes:
+            return 0
+
         if lap not in driver_laptimes[round_number]:
             laptime = df_driver[
                 (df_driver["RoundNumber"] == round_number) & (df_driver["LapNumber"] == lap)
