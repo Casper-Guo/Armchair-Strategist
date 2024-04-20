@@ -55,7 +55,7 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/readme_update.py</code>
+        See <code>src/adhoc_visuals.py</code>
     </details>
 </details>
 
@@ -90,7 +90,7 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/readme_update.py</code>
+        See <code>src/adhoc_visuals.py</code>
     </details>
 </details>
 
