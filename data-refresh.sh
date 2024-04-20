@@ -22,7 +22,7 @@ then
 fi
 
 python3 src/preprocess.py
-python3 src/readme_update.py >/dev/null
+python3 src/adhoc_visuals.py >/dev/null
 git add .
 git commit -m "Automatic data refresh" || true # ignore non-zero exit status when there's no diff on main 
 ./auto-push.exp "$PASSWORD" -d
