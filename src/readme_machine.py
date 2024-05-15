@@ -140,7 +140,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         .sort_values()
         .index
     )
-    team_palette = {team: p.team_color(team.strip()) for team in team_order}
+    team_palette = {team: p.team_color(team) for team in team_order}
 
     _, ax = plt.subplots(figsize=(15, 10))
     sns.boxplot(
