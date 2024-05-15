@@ -2,12 +2,14 @@
 
 import warnings
 
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+mpl.use("Agg")
 # uncomment this
-# import visualization as viz noqa: ERA001
+# import visualization as viz # noqa: ERA001
 
 
 def main():
