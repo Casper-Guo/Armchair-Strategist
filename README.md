@@ -55,7 +55,7 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/adhoc_visuals.py</code>
+        See <code>src/readme_machine.py</code>
     </details>
 </details>
 
@@ -90,7 +90,7 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/adhoc_visuals.py</code>
+        See <code>src/readme_machine.py</code>
     </details>
 </details>
 
@@ -112,7 +112,7 @@ See `SCHEMA.md` for details on the columns provided in `Data/all_laps_*.csv` and
 
 ## Usage Guide
 
-- Use `src/main.py` to make your own visualizations.
+- Use `src/adhoc_visuals.py` to make your own visualizations.
 
 ## Additional Examples
 <details>
