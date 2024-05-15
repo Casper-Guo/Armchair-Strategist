@@ -18,7 +18,7 @@ from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 
 # plotting setup
-VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
+DOC_VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
 mpl.use("Agg")
 sns.set_theme(rc={"figure.dpi": 300, "savefig.dpi": 300})
 plt.style.use("dark_background")
@@ -33,8 +33,8 @@ warnings.filterwarnings("ignore")
 
 
 @click.command()
-@click.option("-s", "--season", "season", default=CURRENT_SEASON, type=int)
-@click.option("-r", "--round", "round_number", default=COMPLETED_ROUND, type=int)
+@click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
+@click.argument("round_number", nargs=1, default=COMPLETED_ROUND, type=int)
 @click.option(
     "--grand-prix/--sprint-race",
     "-g",
@@ -42,34 +42,41 @@ warnings.filterwarnings("ignore")
     default=True,
     help="Toggle between plotting the sprint race or the grand prix",
 )
-def main(season: int, round_number: int, grand_prix: bool):
+@click.option("--update-readme", is_flag=True)
+def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     """Make the README suite of visualizations."""
-    global VISUALS_PATH
+    global DOC_VISUALS_PATH
     session = f.get_session(season, round_number, "R" if grand_prix else "S")
     session.load(telemetry=False, weather=False, messages=False)
     event_name = session.event["EventName"]
 
-    cli_call = not (
-        (season == CURRENT_SEASON) and (round_number == COMPLETED_ROUND) and grand_prix
-    )
     dest = ROOT_PATH / "Visualizations" / f"{season}" / f"{event_name}"
 
-    if cli_call:
-        if dest.is_dir():
-            overwrite_confirmation = input(
-                (
-                    "WARNING:\n"
-                    f"{dest} may already contain the desired visualizations.\n"
-                    "Enter Y if you wish to overwrite them: "
-                )
+    if dest.is_dir():
+        if update_readme:
+            copy_hint = input(
+                "The desired visualizations may have already been created in "
+                f"{dest}.\n"
+                f"Enter Y if you want to copy them to {DOC_VISUALS_PATH} directly, "
+                "otherwise, enter N: "
             )
-            if overwrite_confirmation.upper() != "Y":
-                logging.info("Overwriting permission not given, aborting.")
+            if copy_hint == "Y":
+                shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
+                logging.info("Copied visualizations from %s to %s", dest, DOC_VISUALS_PATH)
                 return
-        else:
-            Path.mkdir(dest, parents=True, exist_ok=True)
 
-        VISUALS_PATH = dest
+        overwrite_confirmation = input(
+            (
+                "WARNING:\n"
+                f"{dest} may already contain the desired visualizations.\n"
+                "Enter Y if you wish to overwrite them: "
+            )
+        )
+        if overwrite_confirmation.upper() != "Y":
+            logging.info("Overwriting permission not given, aborting.")
+            return
+    else:
+        Path.mkdir(dest, parents=True, exist_ok=True)
 
     logging.info("Visualizing %s", session)
 
@@ -84,19 +91,19 @@ def main(season: int, round_number: int, grand_prix: bool):
         y=f"GapTo{race_winner}",
         grid="both",
     )
-    plt.savefig(VISUALS_PATH / "podium_gap.png")
+    plt.savefig(dest / "podium_gap.png")
 
     logging.info("Making lap time graph...")
     viz.driver_stats_scatterplot(season=season, event=round_number, drivers=10)
-    plt.savefig(VISUALS_PATH / "laptime.png")
+    plt.savefig(dest / "laptime.png")
 
     logging.info("Making strategy graph...")
     viz.strategy_barplot(season=season, event=round_number)
-    plt.savefig(VISUALS_PATH / "strategy.png")
+    plt.savefig(dest / "strategy.png")
 
     logging.info("Making position change graph...")
     viz.driver_stats_lineplot(season=season, event=round_number)
-    plt.savefig(VISUALS_PATH / "position.png")
+    plt.savefig(dest / "position.png")
 
     logging.info("Making teammate comparison boxplot...")
     # TODO: remove dependency on hard-coded driver quantity
@@ -108,7 +115,7 @@ def main(season: int, round_number: int, grand_prix: bool):
         teammate_comp=True,
         drivers=20,
     )
-    plt.savefig(VISUALS_PATH / "teammate_box.png")
+    plt.savefig(dest / "teammate_box.png")
 
     logging.info("Making teammate comp violinplot...")
     viz.driver_stats_distplot(
@@ -118,7 +125,7 @@ def main(season: int, round_number: int, grand_prix: bool):
         drivers=20,
         upper_bound=7,
     )
-    plt.savefig(VISUALS_PATH / "teammate_violin.png")
+    plt.savefig(dest / "teammate_violin.png")
 
     # use basic fastf1 to make team pace comparison plot
     logging.info("Making team pace comparison graph...")
@@ -133,9 +140,9 @@ def main(season: int, round_number: int, grand_prix: bool):
         .sort_values()
         .index
     )
-    team_palette = {team: p.team_color(team) for team in team_order}
+    team_palette = {team: p.team_color(team.strip()) for team in team_order}
 
-    fig, ax = plt.subplots(figsize=(15, 10))
+    _, ax = plt.subplots(figsize=(15, 10))
     sns.boxplot(
         data=laps,
         x="Team",
@@ -151,11 +158,11 @@ def main(season: int, round_number: int, grand_prix: bool):
     plt.title(f"{CURRENT_SEASON} {event_name}")
     plt.grid(visible=False)
     ax.set(xlabel=None)
-    plt.savefig(VISUALS_PATH / "team_pace.png")
+    plt.savefig(dest / "team_pace.png")
 
     # Copy the visualizations
-    if not cli_call:
-        shutil.copytree(VISUALS_PATH, dest, dirs_exist_ok=True)
+    if update_readme:
+        shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
