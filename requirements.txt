@@ -10,3 +10,4 @@ pre-commit
 pydocstyle
 flake8
 isort
+click

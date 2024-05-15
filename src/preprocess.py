@@ -27,8 +27,6 @@ NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22}
 SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
 SESSION_NAMES = {name: session_id for session_id, name in SESSION_IDS.items()}
 
-f.Cache.enable_cache(ROOT_PATH / "Cache")
-
 with open(DATA_PATH / "compound_selection.toml", "rb") as toml:
     COMPOUND_SELECTION = tomli.load(toml)
 with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
