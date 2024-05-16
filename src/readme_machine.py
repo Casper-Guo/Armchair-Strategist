@@ -135,7 +135,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     # is fixed in Fastf1
     # pick_quicklaps is undesirable because it is
     # not robust against mixed conditions
-    laps = session.laps.pick_quicklaps(1.1)
+    laps = session.laps.pick_wo_box().pick_track_status("467", how="none")
 
     laps["LapTime (s)"] = laps["LapTime"].dt.total_seconds()
     team_order = (
