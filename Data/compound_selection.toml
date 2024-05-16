@@ -160,7 +160,7 @@
 
 [2024]
 # Source
-# https://press.pirelli.com/pirelli-nominates-the-compounds-for-the-start-of-2024/
+# https://press.pirelli.com/same-soft-trio-for-imola-monaco-and-montreal
 
 1 = ["C1","C2","C3"]
 2 = ["C2","C3","C4"]
@@ -168,3 +168,6 @@
 4 = ["C1","C2","C3"]
 5 = ["C2","C3","C4"]
 6 = ["C2","C3","C4"]
+7 = ["C3","C4","C5"]
+8 = ["C3","C4","C5"]
+9 = ["C3","C4","C5"]
