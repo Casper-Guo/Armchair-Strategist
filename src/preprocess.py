@@ -4,7 +4,7 @@ import logging
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Iterable, TypeAlias
+from typing import TypeAlias
 
 import fastf1 as f
 import pandas as pd
@@ -35,10 +35,14 @@ with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
 Session: TypeAlias = f.core.Session
 
 
-def get_sprint_rounds(season: int) -> dict[int, Iterable[int]]:
+def get_sprint_rounds(season: int) -> set[int]:
     """Return the sprint weekend round numbers in a season."""
     schedule = f.get_event_schedule(season)
-    return schedule[schedule["EventFormat"].isin(("sprint", "sprint_shootout"))]["RoundNumber"]
+    return set(
+        schedule[
+            schedule["EventFormat"].isin(("sprint", "sprint_shootout", "sprint_qualifying"))
+        ]["RoundNumber"]
+    )
 
 
 SPRINT_ROUNDS = {
@@ -56,7 +60,7 @@ def get_session(season: int, round_number: int, session_type: str) -> Session:
         case "R":
             return f.get_session(season, round_number, session_type)
         case "S":
-            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season].array:
+            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season]:
                 return f.get_session(season, round_number, session_type)
         case _:
             raise ValueError("%s is not a supported session identifier", session_type)
@@ -124,7 +128,12 @@ def update_data(season: int, path: Path, session_type: str):
 
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
     newest_round = NUM_ROUNDS[season]
-    all_rounds = set(range(1, newest_round + 1))
+
+    all_rounds = set()
+    if session_type == "R":
+        all_rounds = set(range(1, newest_round + 1))
+    elif session_type == "S":
+        all_rounds = SPRINT_ROUNDS[season]
 
     missing_rounds = all_rounds.difference(loaded_rounds)
     missing_rounds = sorted(list(missing_rounds))
