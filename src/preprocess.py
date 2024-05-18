@@ -14,6 +14,7 @@ from fastf1.ergast.interface import ErgastError
 from fastf1.req import RateLimitExceededError
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
+logger = logging.getLogger(__name__)
 
 ROOT_PATH = Path(__file__).absolute().parents[1]
 DATA_PATH = ROOT_PATH / "Data"
@@ -91,7 +92,7 @@ def load_all_data(season: int, path: Path, session_type: str):
         try:
             session.load(telemetry=False)
         except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
-            logging.error("Cannot load %s", session)
+            logger.error("Cannot load %s", session)
             raise e
 
         laps = session.laps
@@ -102,9 +103,9 @@ def load_all_data(season: int, path: Path, session_type: str):
     if dfs:
         all_laps = pd.concat(dfs, ignore_index=True)
         all_laps.to_csv(path, index=False)
-        logging.info("Finished loading %d season data.", season)
+        logger.info("Finished loading %d season data.", season)
     else:
-        logging.info(
+        logger.info(
             "No data available for %d season %s yet.", season, SESSION_IDS[session_type]
         )
 
@@ -137,12 +138,12 @@ def update_data(season: int, path: Path, session_type: str):
     missing_rounds = sorted(list(missing_rounds))
 
     if not missing_rounds:
-        logging.info("%d season is already up to date.", season)
+        logger.info("%d season is already up to date.", season)
         return
 
     # correctness check
-    logging.info("Existing coverage: %s", loaded_rounds)
-    logging.info("Coverage to be added: %s", missing_rounds)
+    logger.info("Existing coverage: %s", loaded_rounds)
+    logger.info("Coverage to be added: %s", missing_rounds)
 
     dfs = []
 
@@ -154,7 +155,7 @@ def update_data(season: int, path: Path, session_type: str):
         try:
             session.load(telemetry=False)
         except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
-            logging.error("Cannot load %s", session)
+            logger.error("Cannot load %s", session)
             raise e
 
         laps = session.laps
@@ -166,13 +167,13 @@ def update_data(season: int, path: Path, session_type: str):
         all_laps = pd.concat(dfs, ignore_index=True)
         all_laps.to_csv(path, mode="a", index=False, header=False)
     else:
-        logging.info(
+        logger.info(
             "All available %d season %s data are already loaded",
             season,
             SESSION_IDS[session_type],
         )
 
-    logging.info("Finished updating %d season %s data.", season, SESSION_IDS[session_type])
+    logger.info("Finished updating %d season %s data.", season, SESSION_IDS[session_type])
 
     return
 
@@ -372,7 +373,7 @@ def add_compound_name(
             ]
         except KeyError:
             # error handling for when compound_selection.toml is not up-to-date
-            logging.error(
+            logger.error(
                 "Compound selection record is missing for %d season round %d",
                 season,
                 row.loc["RoundNumber"],
@@ -426,7 +427,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
             ]
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
-            logging.error(
+            logger.error(
                 "Compound selection record is missing for 2018 season round %d",
                 row.loc["RoundNumber"],
             )
@@ -629,7 +630,7 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
         # If there is only one pair, the key should be "all"
         assert "all" in dfs
 
-        logging.info("%d: No transfromed_laps found", season)
+        logger.info("%d: No transfromed_laps found", season)
 
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return dfs["all"]
@@ -646,13 +647,13 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
         assert num_row_all >= num_row_transformed
 
         if num_row_all == num_row_transformed:
-            logging.info(
+            logger.info(
                 "transformed_%s_laps_%d is up-to-date",
                 SESSION_IDS[session_type],
                 season,
             )
         else:
-            logging.info(
+            logger.info(
                 "%d rows will be added to transformed_%s_laps_%d",
                 num_row_all - num_row_transformed,
                 SESSION_IDS[session_type],
@@ -726,7 +727,7 @@ def main() -> int:
     load_seasons = list(range(2018, CURRENT_SEASON + 1))
     rounds_completed = get_last_round_number()
 
-    logging.info(
+    logger.info(
         "Correctness Check: %d rounds of the %d season have been completed",
         rounds_completed,
         CURRENT_SEASON,

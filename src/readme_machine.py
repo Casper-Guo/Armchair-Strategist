@@ -16,6 +16,7 @@ import visualization as viz
 from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
+logger = logging.getLogger(__name__)
 
 # plotting setup
 DOC_VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
@@ -62,25 +63,25 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
             )
             if copy_hint == "Y":
                 shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
-                logging.info("Copied visualizations from %s to %s", dest, DOC_VISUALS_PATH)
+                logger.info("Copied visualizations from %s to %s", dest, DOC_VISUALS_PATH)
                 return
 
         overwrite_confirmation = input(
             (
                 "WARNING:\n"
                 f"{dest} may already contain the desired visualizations.\n"
-                "Enter Y if you wish to overwrite them: "
+                "Enter Y if you wish to overwrite them, otherwise, enter N: "
             )
         )
         if overwrite_confirmation.upper() != "Y":
-            logging.info("Overwriting permission not given, aborting.")
+            logger.info("Overwriting permission not given, aborting.")
             return
     else:
         Path.mkdir(dest, parents=True, exist_ok=True)
 
-    logging.info("Visualizing %s", session)
+    logger.info("Visualizing %s", session)
 
-    logging.info("Making podium gap graph...")
+    logger.info("Making podium gap graph...")
     podium_finishers = viz.get_drivers(session, drivers=3)
     race_winner = podium_finishers[0]
     viz.add_gap(season, race_winner)
@@ -93,19 +94,19 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     )
     plt.savefig(dest / "podium_gap.png")
 
-    logging.info("Making lap time graph...")
+    logger.info("Making lap time graph...")
     viz.driver_stats_scatterplot(season=season, event=round_number, drivers=10)
     plt.savefig(dest / "laptime.png")
 
-    logging.info("Making strategy graph...")
+    logger.info("Making strategy graph...")
     viz.strategy_barplot(season=season, event=round_number)
     plt.savefig(dest / "strategy.png")
 
-    logging.info("Making position change graph...")
+    logger.info("Making position change graph...")
     viz.driver_stats_lineplot(season=season, event=round_number)
     plt.savefig(dest / "position.png")
 
-    logging.info("Making teammate comparison boxplot...")
+    logger.info("Making teammate comparison boxplot...")
     # TODO: remove dependency on hard-coded driver quantity
     viz.driver_stats_distplot(
         season=season,
@@ -117,7 +118,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     )
     plt.savefig(dest / "teammate_box.png")
 
-    logging.info("Making teammate comp violinplot...")
+    logger.info("Making teammate comp violinplot...")
     viz.driver_stats_distplot(
         season=season,
         event=round_number,
@@ -128,7 +129,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     plt.savefig(dest / "teammate_violin.png")
 
     # use basic fastf1 to make team pace comparison plot
-    logging.info("Making team pace comparison graph...")
+    logger.info("Making team pace comparison graph...")
     p.setup_mpl(misc_mpl_mods=False)
 
     # TODO: use pick_wo_box and pick_track_status once the later

@@ -26,6 +26,7 @@ from preprocess import (
 # fmt: on
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
+logger = logging.getLogger(__name__)
 
 Figure: TypeAlias = matplotlib.figure.Figure
 
@@ -385,7 +386,7 @@ def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: st
                 if driver in drivers_to_plot:
                     team_median_gaps.append([tuple([driver]), 0])
                 else:
-                    logging.warning(
+                    logger.warning(
                         "%s has less than 5 laps of data and will not be plotted",
                         driver,
                     )
@@ -553,13 +554,13 @@ def _process_input(
         }, f"requested compound {compound} is not valid"
 
     if x not in {"LapNumber", "TyreLife"}:
-        logging.warning(
+        logger.warning(
             "Using %s as the x-axis is not recommended. (Recommended x: LapNumber, TyreLife)",
             x,
         )
 
     if not absolute_compound and len(events) > 1:
-        logging.warning(
+        logger.warning(
             """
             Different events may use different compounds under the same name!
             e.g. SOFT may be any of C3 to C5 dependinging on the event
@@ -845,7 +846,7 @@ def driver_stats_scatterplot(
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
         if driver_laps.shape[0] < 5:
-            logging.warning("%s HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT", driver)
+            logger.warning("%s HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT", driver)
 
         sns.scatterplot(
             data=driver_laps,
@@ -965,7 +966,7 @@ def driver_stats_lineplot(
 
         if driver_laps[y].count() == 0:
             # nothing to plot for this driver
-            logging.warning("%s has no data entry for %s", driver, y)
+            logger.warning("%s has no data entry for %s", driver, y)
             continue
 
         driver_color = pick_driver_color(driver)
@@ -1287,7 +1288,7 @@ def compounds_lineplot(
                     label=compound,
                 )
             else:
-                logging.warning(
+                logger.warning(
                     (
                         "%s is not plotted for %s %s because there is not enough data",
                         compounds[idx],
@@ -1404,7 +1405,7 @@ def compounds_distribution(
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
-                logging.warning(
+                logger.warning(
                     (
                         "%s is not plotted for %s %s because there is not enough data",
                         compounds[idx],
