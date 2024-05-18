@@ -129,11 +129,9 @@ def update_data(season: int, path: Path, session_type: str):
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
     newest_round = NUM_ROUNDS[season]
 
-    all_rounds = set()
-    if session_type == "R":
-        all_rounds = set(range(1, newest_round + 1))
-    elif session_type == "S":
-        all_rounds = SPRINT_ROUNDS[season]
+    all_rounds = set(range(1, newest_round + 1))
+    if session_type == "S":
+        all_rounds = SPRINT_ROUNDS[season].intersection(all_rounds)
 
     missing_rounds = all_rounds.difference(loaded_rounds)
     missing_rounds = sorted(list(missing_rounds))
