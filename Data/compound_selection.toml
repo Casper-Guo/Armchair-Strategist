@@ -160,14 +160,17 @@
 
 [2024]
 # Source
-# https://press.pirelli.com/same-soft-trio-for-imola-monaco-and-montreal
+# https://press.pirelli.com/no-surprises-for-the-compounds-for-spain-austria-and-great-britain/
 
-1 = ["C1","C2","C3"]
-2 = ["C2","C3","C4"]
-3 = ["C3","C4","C5"]
-4 = ["C1","C2","C3"]
-5 = ["C2","C3","C4"]
-6 = ["C2","C3","C4"]
-7 = ["C3","C4","C5"]
-8 = ["C3","C4","C5"]
-9 = ["C3","C4","C5"]
+1  = ["C1","C2","C3"]
+2  = ["C2","C3","C4"]
+3  = ["C3","C4","C5"]
+4  = ["C1","C2","C3"]
+5  = ["C2","C3","C4"]
+6  = ["C2","C3","C4"]
+7  = ["C3","C4","C5"]
+8  = ["C3","C4","C5"]
+9  = ["C3","C4","C5"]
+10 = ["C1","C2","C3"]
+11 = ["C3","C4","C5"]
+12 = ["C1","C2","C3"]
