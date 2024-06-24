@@ -7,6 +7,11 @@ ETL.log
 /Visualizations
 /Notebooks
 
+# generated adhoc plots
+/*.png
+/*.svg
+/src/adhoc_visuals.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
