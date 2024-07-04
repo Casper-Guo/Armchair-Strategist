@@ -1,0 +1,79 @@
+[project]
+version = "1.0.0"
+name = "f1_visualization"
+authors = [{ email = "casperg@umich.edu", name = "Casper Guo" }]
+description = "Transformed data and visualization tools for all Formula 1 races since 2018"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastf1 >= 3.3.0",
+    "pandas >= 1.5.0",
+    "matplotlib >= 3.7.0",
+    "numpy >= 1.26.0",
+    "seaborn >= 0.13.0",
+    "tomli >= 2.0.0",
+    "tomli-w >= 1.0.0",
+    "pre-commit >= 3.6.0",
+    "click >= 8.0.0",
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["f1_visualization"]
+
+[tool.ruff]
+include = ["f1_visualization/*.py", "_consts.py"]
+line-length = 96
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint]
+select = [
+    # Pyflakes
+    "F",
+    # pycodestyle warnings
+    "W",
+    # pycodestyle errors
+    "E",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # pydocstyle
+    "D1",
+    "D2",
+    "D3",
+    "D400",
+    "D401",
+    "D402",
+    "D403",
+    "D404",
+    # flake8-blind-except
+    "BLE",
+    # flake8-builtins
+    "A",
+    # flake8-logging-format
+    "G",
+    # flake8-print
+    "T20",
+    # flake8-raise
+    "RSE",
+    # flake8-return
+    "RET",
+    # flake8-simplify
+    "SIM",
+    # flake8-use-pathlib
+    "PTH",
+    # eradicate
+    "ERA",
+    # pandas-vet
+    "PD",
+]
+
+ignore = ["D211", "D212", "PD901", "PTH123"]

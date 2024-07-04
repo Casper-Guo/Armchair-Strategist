@@ -54,7 +54,7 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/readme_machine.py</code>
+        See <code>f1_visualization/readme_machine.py</code>
     </details>
 </details>
 
@@ -89,13 +89,12 @@ This repository contains engineered F1 data for all grand prixs and sprint races
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>src/readme_machine.py</code>
+        See <code>f1_visualization/readme_machine.py</code>
     </details>
 </details>
 
-## Requirements
-
-Use `python3 -m pip install -r requirements.txt` to install all dependencies.
+## Build
+Build with `pip install -e .`
 
 ## Data Source
 
@@ -111,7 +110,7 @@ See `SCHEMA.md` for details on the columns provided in `Data/all_laps_*.csv` and
 
 ## Usage Guide
 
-- Use `src/adhoc_visuals.py` to make your own visualizations.
+- Use `f1_visualization/adhoc_visuals.py` to make your own visualizations.
 
 ## Additional Examples
 <details>

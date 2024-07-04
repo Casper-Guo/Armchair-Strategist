@@ -12,8 +12,10 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-import visualization as viz
-from preprocess import CURRENT_SEASON, ROOT_PATH, get_last_round_number
+
+import f1_visualization.visualization as viz
+from f1_visualization._consts import CURRENT_SEASON, ROOT_PATH
+from f1_visualization.preprocess import get_last_round_number
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)

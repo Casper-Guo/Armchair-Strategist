@@ -10,7 +10,7 @@ ETL.log
 # generated adhoc plots
 /*.png
 /*.svg
-/src/adhoc_visuals.py
+/f1_visualization/adhoc_visuals.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
