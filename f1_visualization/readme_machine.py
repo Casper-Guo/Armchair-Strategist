@@ -49,9 +49,10 @@ warnings.filterwarnings("ignore")
 def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     """Make the README suite of visualizations."""
     global DOC_VISUALS_PATH
-    session = f.get_session(season, round_number, "R" if grand_prix else "S")
+    session_type = "R" if grand_prix else "S"
+    session = f.get_session(season, round_number, session_type)
     session.load(telemetry=False, weather=False, messages=False)
-    event_name = session.event["EventName"]
+    event_name = f"{session.event["EventName"]} - {session.name}"
 
     dest = ROOT_PATH / "Visualizations" / f"{season}" / f"{event_name}"
 
@@ -90,6 +91,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     viz.driver_stats_lineplot(
         season=season,
         event=round_number,
+        session_type=session_type,
         drivers=podium_finishers,
         y=f"GapTo{race_winner}",
         grid="both",
@@ -97,15 +99,25 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     plt.savefig(dest / "podium_gap.png")
 
     logger.info("Making lap time graph...")
-    viz.driver_stats_scatterplot(season=season, event=round_number, drivers=10)
+    viz.driver_stats_scatterplot(
+        season=season, event=round_number, session_type=session_type, drivers=10
+    )
     plt.savefig(dest / "laptime.png")
 
     logger.info("Making strategy graph...")
-    viz.strategy_barplot(season=season, event=round_number)
+    viz.strategy_barplot(
+        season=season,
+        event=round_number,
+        session_type=session_type,
+    )
     plt.savefig(dest / "strategy.png")
 
     logger.info("Making position change graph...")
-    viz.driver_stats_lineplot(season=season, event=round_number)
+    viz.driver_stats_lineplot(
+        season=season,
+        event=round_number,
+        session_type=session_type,
+    )
     plt.savefig(dest / "position.png")
 
     logger.info("Making teammate comparison boxplot...")
@@ -113,6 +125,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     viz.driver_stats_distplot(
         season=season,
         event=round_number,
+        session_type=session_type,
         violin=False,
         swarm=False,
         teammate_comp=True,
@@ -124,6 +137,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     viz.driver_stats_distplot(
         season=season,
         event=round_number,
+        session_type=session_type,
         teammate_comp=True,
         drivers=20,
         upper_bound=7,
