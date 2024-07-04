@@ -21,8 +21,8 @@ then
     git checkout main
 fi
 
-python3 src/preprocess.py
-python3 src/readme_machine.py --update-readme >/dev/null
+python3 f1_visualization/preprocess.py
+python3 f1_visualization/readme_machine.py --update-readme >/dev/null
 git add .
 git commit -m "Automatic data refresh" || true # ignore non-zero exit status when there's no diff on main 
 ./auto-push.exp "$PASSWORD" -d

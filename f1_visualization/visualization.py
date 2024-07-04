@@ -2,33 +2,27 @@
 
 import logging
 from math import ceil
-from typing import Callable, Iterable, Literal, Optional, TypeAlias
+from typing import Callable, Iterable, Literal, Optional
 
 import fastf1 as f
 import fastf1.plotting as p
-import matplotlib
 import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib import rcParams
 
-# fmt: off
-from preprocess import (
+from f1_visualization._consts import (
     COMPOUND_SELECTION,
     DATA_PATH,
     SESSION_IDS,
     SESSION_NAMES,
     VISUAL_CONFIG,
-    Session,
 )
-
-# fmt: on
+from f1_visualization._types import Figure, Session
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)
-
-Figure: TypeAlias = matplotlib.figure.Figure
 
 
 def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -936,10 +930,7 @@ def driver_stats_lineplot(
     sc_laps, vsc_laps = _find_sc_laps(included_laps)
 
     if upper_bound is None:
-        if y == "Position" or y.startswith("GapTo"):
-            upper_bound = 100
-        else:
-            upper_bound = 10
+        upper_bound = 100 if y == "Position" or y.startswith("GapTo") else 10
 
     # do upper bound filtering after SC periods are identified
     included_laps = _filter_round_driver_upper(

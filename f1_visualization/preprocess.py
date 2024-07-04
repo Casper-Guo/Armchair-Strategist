@@ -4,36 +4,26 @@ import logging
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import TypeAlias
 
 import fastf1 as f
 import pandas as pd
-import tomli
 from fastf1.core import InvalidSessionError, NoLapDataError
 from fastf1.ergast.interface import ErgastError
 from fastf1.req import RateLimitExceededError
 
+from f1_visualization._consts import (
+    COMPOUND_SELECTION,
+    CURRENT_SEASON,
+    DATA_PATH,
+    NUM_ROUNDS,
+    SESSION_IDS,
+    SESSION_NAMES,
+    VISUAL_CONFIG,
+)
+from f1_visualization._types import Session
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)
-
-ROOT_PATH = Path(__file__).absolute().parents[1]
-DATA_PATH = ROOT_PATH / "Data"
-CURRENT_SEASON = datetime.now().year
-
-# NUM_ROUNDS[CURRENT_SEASON] = number of completed rounds and is calculated in main
-# Calculating this from fastf1 event schedule is non-trivial due to cancelled races
-NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22}
-
-# Map session ids to full session names, and reverse
-SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
-SESSION_NAMES = {name: session_id for session_id, name in SESSION_IDS.items()}
-
-with open(DATA_PATH / "compound_selection.toml", "rb") as toml:
-    COMPOUND_SELECTION = tomli.load(toml)
-with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
-    VISUAL_CONFIG = tomli.load(toml)
-
-Session: TypeAlias = f.core.Session
 
 
 def get_sprint_rounds(season: int) -> set[int]:
