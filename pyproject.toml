@@ -15,6 +15,7 @@ dependencies = [
     "tomli-w >= 1.0.0",
     "pre-commit >= 3.6.0",
     "click >= 8.0.0",
+    "dash >= 2.17.0",
 ]
 
 [build-system]
@@ -22,7 +23,7 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["f1_visualization"]
+packages = ["F1_visualization"]
 
 [tool.ruff]
 include = ["f1_visualization/*.py", "_consts.py"]
