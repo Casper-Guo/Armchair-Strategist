@@ -5,15 +5,53 @@ from datetime import datetime, timedelta
 import dash_bootstrap_components as dbc
 import fastf1 as f
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, dash_table, dcc
+from dash import Dash, Input, Output, State, callback, html, dash_table, dcc
+from plotly import graph_objects as go
 
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
-from f1_visualization.visualization import _filter_round_driver, get_session_info, load_laps
+from f1_visualization.visualization import get_session_info, load_laps
+
+import graphs
 
 # must not be modified
 DF_DICT = load_laps()
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+
+tab0 = dbc.Tab(
+    dbc.Card(
+        dbc.CardBody(
+            [
+                dbc.Row(dash_table.DataTable(page_size=25, id="data-table")),
+                dbc.Row(
+                    dcc.Slider(
+                        min=101,
+                        max=120,
+                        marks={i: str(i) for i in [101] + list(range(105, 121, 5))},
+                        value=107,
+                        tooltip={"placement": "top"},
+                        id="upper-bound-debug",
+                    )
+                ),
+                dbc.Row(
+                    dcc.RangeSlider(
+                        min=1,
+                        step=1,
+                        allowCross=False,
+                        tooltip={"placement": "bottom"},
+                        id="lap-numbers-debug",
+                    )
+                ),
+            ]
+        )
+    ),
+    label="debug",
+)
+
+tab1 = dbc.Tab(
+    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="strategy"
+)
+
+app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
 
 app.layout = dbc.Container(
     [
@@ -24,7 +62,7 @@ app.layout = dbc.Container(
                         options=list(range(CURRENT_SEASON, 2017, -1)),
                         placeholder="Select a season",
                         value=None,
-                        id="season-dropdown",
+                        id="season",
                     )
                 ),
                 dbc.Col(
@@ -32,7 +70,7 @@ app.layout = dbc.Container(
                         options=[],
                         placeholder="Select a event",
                         value=None,
-                        id="event-dropdown",
+                        id="event",
                     ),
                 ),
                 dbc.Col(
@@ -40,7 +78,7 @@ app.layout = dbc.Container(
                         options=[],
                         placeholder="Select a session",
                         value=None,
-                        id="session-dropdown",
+                        id="session",
                     ),
                 ),
                 dbc.Col(
@@ -57,10 +95,18 @@ app.layout = dbc.Container(
                 dcc.Store(id="laps"),
             ],
         ),
+        html.Br(),
         dbc.Row(
             [
                 dbc.Col(
-                    dcc.Dropdown(options=[], value=[], disabled=True, multi=True, id="drivers")
+                    dcc.Dropdown(
+                        options=[],
+                        value=[],
+                        placeholder="Select drivers",
+                        disabled=True,
+                        multi=True,
+                        id="drivers",
+                    )
                 ),
                 dbc.Col(
                     dcc.RadioItems(
@@ -73,50 +119,19 @@ app.layout = dbc.Container(
                         id="absolute-compound",
                     )
                 ),
-                dbc.Col(
-                    dcc.RadioItems(
-                        options=[
-                            {"label": "Teammate Side-by-side", "value": True},
-                            {"label": "Finishing Order", "value": False},
-                        ],
-                        value=False,
-                        inline=True,
-                        id="teammate-comp",
-                    )
-                ),
             ]
         ),
-        dbc.Row(dash_table.DataTable(page_size=10, id="data-table")),
-        # dbc.Row(
-        #     [dbc.Col(dcc.Loading(type="default", children=dcc.Graph(id="strategy-barplot")))]
-        # ),
-        dbc.Row(
-            dcc.Slider(
-                min=101,
-                max=120,
-                marks={i: str(i) for i in [101] + list(range(105, 121, 5))},
-                value=107,
-                tooltip={"placement": "top"},
-                id="upper-bound",
-            )
-        ),
-        dbc.Row(
-            dcc.RangeSlider(
-                min=1,
-                step=1,
-                allowCross=False,
-                id="lap-numbers",
-            )
-        ),
+        html.Br(),
+        dbc.Tabs([tab0, tab1]),
     ]
 )
 
 
 @callback(
-    Output("event-dropdown", "options"),
-    Output("event-dropdown", "value"),
+    Output("event", "options"),
+    Output("event", "value"),
     Output("event-schedule", "data"),
-    Input("season-dropdown", "value"),
+    Input("season", "value"),
 )
 def set_event_options(
     season: int | None,
@@ -143,9 +158,9 @@ def set_event_options(
 
 
 @callback(
-    Output("session-dropdown", "options"),
-    Output("session-dropdown", "value"),
-    Input("event-dropdown", "value"),
+    Output("session", "options"),
+    Output("session", "value"),
+    Input("event", "value"),
     Input("event-schedule", "data"),
 )
 def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], None]:
@@ -170,9 +185,9 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
 
 @callback(
     Output("load-session", "disabled"),
-    Input("season-dropdown", "value"),
-    Input("event-dropdown", "value"),
-    Input("session-dropdown", "value"),
+    Input("season", "value"),
+    Input("event", "value"),
+    Input("session", "value"),
 )
 def enable_load_session(season: int | None, event: str | None, session: str | None) -> bool:
     """Toggles load session button on when the previous three fields are filled."""
@@ -180,15 +195,69 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
 
 
 @callback(
+    Output("drivers", "options"),
+    Output("drivers", "value"),
+    Output("drivers", "disabled"),
+    Output("session-info", "data"),
+    Output("laps", "data"),
+    Input("load-session", "n_clicks"),
+    State("season", "value"),
+    State("event", "value"),
+    State("session", "value"),
+)
+def get_driver_list(
+    n_clicks: int, season: int, event: str, session: str
+) -> tuple[list[str], list, bool, tuple[int, str, list[str]], dict]:
+    """
+    Populate the drivers dropdown boxes.
+
+    Since this requires loading the session, we will save some metadata at the same tine.
+    """
+    # return default values on startup
+    if n_clicks == 0:
+        return [], [], True, (), {}
+    # We expect these three variables to be set subsequently
+    round_number, event_name, drivers = get_session_info(season, event, session, drivers=20)
+
+    included_laps = DF_DICT[season][session]
+    included_laps = included_laps[included_laps["RoundNumber"] == round_number]
+
+    return (
+        drivers,
+        drivers,
+        False,
+        (round_number, event_name, drivers),
+        included_laps.to_dict(),
+    )
+
+
+@callback(
+    Output("lap-numbers-debug", "max"),
+    Output("lap-numbers-debug", "value"),
+    Output("lap-numbers-debug", "marks"),
+    Input("laps", "data"),
+)
+def set_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
+    """Configure range slider based on the number of laps in a session."""
+    if not data:
+        return 20, [1, 20], {i: str(i) for i in range(1, 21, 5)}
+    df = pd.DataFrame.from_dict(data)
+    num_laps = df["LapNumber"].max()
+
+    marks = {i: str(i) for i in [1] + list(range(5, num_laps + 1, 5))}
+    return num_laps, [1, num_laps], marks
+
+
+@callback(
     Output("data-table", "data"),
     Output("data-table", "columns"),
-    Input("laps", "data"),
     Input("drivers", "value"),
-    Input("upper-bound", "value"),
-    Input("lap-numbers", "value"),
+    Input("upper-bound-debug", "value"),
+    Input("lap-numbers-debug", "value"),
+    State("laps", "data"),
 )
 def refresh_data_table(
-    data: dict, drivers: list[str], upper_bound: int, lap_numbers: list[int]
+    drivers: list[str], upper_bound: int, lap_numbers: list[int], data: dict
 ) -> dict:
     """
     Reload the data table after loading session.
@@ -212,60 +281,31 @@ def refresh_data_table(
 
 
 @callback(
-    Output("drivers", "options"),
-    Output("drivers", "value"),
-    Output("drivers", "disabled"),
-    Output("session-info", "data"),
-    Output("laps", "data"),
-    Input("load-session", "n_clicks"),
-    State("season-dropdown", "value"),
-    State("event-dropdown", "value"),
-    State("session-dropdown", "value"),
-    State("teammate-comp", "value"),
+    Output("strategy-plot", "figure"),
+    Input("drivers", "value"),
+    Input("absolute-compound", "value"),
+    State("season", "value"),
+    State("laps", "data"),
+    State("session-info", "data"),
 )
-def get_driver_list(
-    n_clicks: int, season: int, event: str, session: str, teammate_comp: bool
-) -> tuple[list[str], list, bool, tuple[int, str, list[str]], dict]:
-    """
-    Populate the drivers dropdown boxes.
+def render_strategy_plot(
+    drivers: list[str],
+    absolute_compound: bool,
+    season: int,
+    included_laps: dict,
+    session_info: tuple[int, str, list[str]],
+) -> go.Figure:
+    """Configure strategy plot title dynamically."""
+    # return empty figure on startup
+    if not included_laps:
+        return go.Figure()
+    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
-    Since this requires loading the session, we will save some metadata at the same tine.
-    """
-    # return default values on startup
-    if n_clicks == 0:
-        return [], [], True, (), {}
-    # We expect these three variables to be set subsequently
-    round_number, event_name, drivers = get_session_info(
-        season, event, session, teammate_comp=teammate_comp, drivers=20
-    )
-
-    included_laps = DF_DICT[season][session]
-    included_laps = _filter_round_driver(included_laps, round_number, drivers)
-
-    return (
-        drivers,
-        [],
-        False,
-        (round_number, event_name, drivers),
-        included_laps.to_dict(),
-    )
-
-
-@callback(
-    Output("lap-numbers", "max"),
-    Output("lap-numbers", "value"),
-    Output("lap-numbers", "marks"),
-    Input("laps", "data"),
-)
-def set_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
-    """Configure range slider based on the number of laps in a session."""
-    if not data:
-        return 20, [1, 20]
-    df = pd.DataFrame.from_dict(data)
-    num_laps = df["LapNumber"].max()
-
-    marks = {i: str(i) for i in [1] + list(range(stop=num_laps + 1, step=5))[1:]}
-    return num_laps, [1, num_laps], marks
+    event_name = session_info[1]
+    fig = graphs.strategy_barplot(included_laps, season, drivers, absolute_compound)
+    fig.update_layout(title=event_name)
+    return fig
 
 
 if __name__ == "__main__":
