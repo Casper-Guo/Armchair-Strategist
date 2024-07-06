@@ -4,57 +4,173 @@ from datetime import datetime, timedelta
 
 import dash_bootstrap_components as dbc
 import fastf1 as f
+import graphs
 import pandas as pd
-from dash import Dash, Input, Output, State, callback, html, dash_table, dcc
+from dash import Dash, Input, Output, State, callback, dcc, html
 from plotly import graph_objects as go
 
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
 from f1_visualization.visualization import get_session_info, load_laps
 
-import graphs
-
 # must not be modified
 DF_DICT = load_laps()
 
 
-tab0 = dbc.Tab(
-    dbc.Card(
-        dbc.CardBody(
-            [
-                dbc.Row(dash_table.DataTable(page_size=25, id="data-table")),
-                dbc.Row(
-                    dcc.Slider(
-                        min=101,
-                        max=120,
-                        marks={i: str(i) for i in [101] + list(range(105, 121, 5))},
-                        value=107,
-                        tooltip={"placement": "top"},
-                        id="upper-bound-debug",
-                    )
-                ),
-                dbc.Row(
-                    dcc.RangeSlider(
-                        min=1,
-                        step=1,
-                        allowCross=False,
-                        tooltip={"placement": "bottom"},
-                        id="lap-numbers-debug",
-                    )
-                ),
-            ]
-        )
-    ),
-    label="debug",
-)
+def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:
+    """Generate generic slider for setting upper bound."""
+    return dcc.Slider(
+        min=100,
+        max=150,
+        marks={i: str(i) for i in range(100, 116, 5)} | {150: "Show All"},
+        value=107,
+        tooltip={"placement": "top"},
+        id=slider_id,
+        **kwargs,
+    )
 
-tab1 = dbc.Tab(
+
+def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:
+    """Generate generic range slider for setting lap numbers."""
+    return dcc.RangeSlider(
+        min=1, step=1, allowCross=False, tooltip={"placement": "bottom"}, id=slider_id, **kwargs
+    )
+
+
+def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
+    """Configure range slider based on the number of laps in a session."""
+    if not data:
+        return 20, [1, 20], {i: str(i) for i in range(1, 21, 5)}
+    df = pd.DataFrame.from_dict(data)
+    num_laps = df["LapNumber"].max()
+
+    marks = {i: str(i) for i in [1] + list(range(5, num_laps + 1, 5))}
+    return num_laps, [1, num_laps], marks
+
+
+strategy_tab = dbc.Tab(
     dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="strategy"
 )
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
+scatterplot_tab = dbc.Tab(
+    dbc.Card(
+        dbc.CardBody(
+            [
+                dbc.Row(
+                    dcc.Dropdown(
+                        options=[
+                            {"label": "Lap Time", "value": "LapTime"},
+                            {"label": "Seconds to Median", "value": "DeltaToRep"},
+                            {"label": "Percent from Median", "value": "PctFromRep"},
+                            {"label": "Seconds to Fastest", "value": "DeltaToFastest"},
+                            {"label": "Percent from Fastest", "value": "PctFromFastest"},
+                            {
+                                "label": "Seconds to Adjusted Representative Time",
+                                "value": "DeltaToLapRep",
+                            },
+                            {
+                                "label": "Percent from Adjusted Representative Time",
+                                "value": "PctFromLapRep",
+                            },
+                        ],
+                        value="LapTime",
+                        placeholder="Select the variable to put in y-axis",
+                        clearable=False,
+                        id="scatter-y",
+                    )
+                ),
+                html.Br(),
+                dbc.Row(dcc.Loading(dcc.Graph(id="scatterplot"))),
+                html.Br(),
+                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
+                dbc.Row(upper_bound_slider(slider_id="upper-bound-scatter")),
+                html.Br(),
+                html.P("Select the range of lap numbers to include:"),
+                dbc.Row(lap_numbers_slider(slider_id="lap-numbers-scatter")),
+            ]
+        )
+    ),
+    label="scatterplot",
+)
 
+lineplot_tab = dbc.Tab(
+    dbc.Card(
+        dbc.CardBody(
+            [
+                dbc.Row(
+                    dcc.Dropdown(
+                        options=[
+                            {"label": "Position", "value": "Position"},
+                            {"label": "Lap Time", "value": "LapTime"},
+                            {"label": "Seconds to Median", "value": "DeltaToRep"},
+                            {"label": "Percent from Median", "value": "PctFromRep"},
+                            {"label": "Seconds to Fastest", "value": "DeltaToFastest"},
+                            {"label": "Percent from Fastest", "value": "PctFromFastest"},
+                            {
+                                "label": "Seconds to Adjusted Representative Time",
+                                "value": "DeltaToLapRep",
+                            },
+                            {
+                                "label": "Percent from Adjusted Representative Time",
+                                "value": "PctFromLapRep",
+                            },
+                        ],
+                        value="Position",
+                        placeholder="Select the variable to put in y-axis",
+                        clearable=False,
+                        id="line-y",
+                    )
+                ),
+                html.Br(),
+                dbc.Row(dcc.Loading(dcc.Graph(id="lineplot"))),
+                html.Br(),
+                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
+                dbc.Row(upper_bound_slider(slider_id="upper-bound-line")),
+                html.Br(),
+                html.P("Select the range of lap numbers to include:"),
+                dbc.Row(lap_numbers_slider(slider_id="lap-numbers-line")),
+            ]
+        )
+    ),
+    label="lineplot",
+)
+
+distplot_tab = dbc.Tab(
+    dbc.Card(
+        dbc.CardBody(
+            [
+                dbc.Row(
+                    [
+                        dbc.Col(
+                            dcc.Checklist(
+                                options=[" Swarmplot On"], value=[True], id="swarmplot"
+                            )
+                        ),
+                        dbc.Col(
+                            dcc.RadioItems(
+                                options=[
+                                    {"label": " Violinplot", "value": True},
+                                    {"label": " Boxplot", "value": False},
+                                ],
+                                value=True,
+                                inline=True,
+                                id="violin",
+                            )
+                        ),
+                    ]
+                ),
+                html.Br(),
+                dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
+                dbc.Row(upper_bound_slider(slider_id="upper-bound-dist")),
+            ]
+        )
+    ),
+    label="Distribution Plot",
+)
+
+app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
 app.layout = dbc.Container(
     [
+        html.H1("F1 Strategy Visualisation"),
         dbc.Row(
             [
                 dbc.Col(
@@ -107,22 +223,11 @@ app.layout = dbc.Container(
                         multi=True,
                         id="drivers",
                     )
-                ),
-                dbc.Col(
-                    dcc.RadioItems(
-                        options=[
-                            {"label": "Absolute Compound", "value": True},
-                            {"label": "Relative Compound", "value": False},
-                        ],
-                        value=False,
-                        inline=True,
-                        id="absolute-compound",
-                    )
-                ),
+                )
             ]
         ),
         html.Br(),
-        dbc.Tabs([tab0, tab1]),
+        dbc.Tabs([strategy_tab, scatterplot_tab, lineplot_tab, distplot_tab]),
     ]
 )
 
@@ -161,7 +266,7 @@ def set_event_options(
     Output("session", "options"),
     Output("session", "value"),
     Input("event", "value"),
-    Input("event-schedule", "data"),
+    State("event-schedule", "data"),
 )
 def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], None]:
     """
@@ -232,70 +337,41 @@ def get_driver_list(
 
 
 @callback(
-    Output("lap-numbers-debug", "max"),
-    Output("lap-numbers-debug", "value"),
-    Output("lap-numbers-debug", "marks"),
+    Output("lap-numbers-scatter", "max"),
+    Output("lap-numbers-scatter", "value"),
+    Output("lap-numbers-scatter", "marks"),
     Input("laps", "data"),
 )
-def set_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
-    """Configure range slider based on the number of laps in a session."""
-    if not data:
-        return 20, [1, 20], {i: str(i) for i in range(1, 21, 5)}
-    df = pd.DataFrame.from_dict(data)
-    num_laps = df["LapNumber"].max()
-
-    marks = {i: str(i) for i in [1] + list(range(5, num_laps + 1, 5))}
-    return num_laps, [1, num_laps], marks
+def set_scatterplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
+    """Set up scatterplot tab lap numbers slider."""
+    return configure_lap_numbers_slider(data)
 
 
 @callback(
-    Output("data-table", "data"),
-    Output("data-table", "columns"),
-    Input("drivers", "value"),
-    Input("upper-bound-debug", "value"),
-    Input("lap-numbers-debug", "value"),
-    State("laps", "data"),
+    Output("lap-numbers-line", "max"),
+    Output("lap-numbers-line", "value"),
+    Output("lap-numbers-line", "marks"),
+    Input("laps", "data"),
 )
-def refresh_data_table(
-    drivers: list[str], upper_bound: int, lap_numbers: list[int], data: dict
-) -> dict:
-    """
-    Reload the data table after loading session.
-
-    For debugging only.
-    """
-    if not data:
-        # placeholder
-        data = DF_DICT[2024]["R"]
-        return data.to_dict("records"), [{"name": i, "id": i} for i in data.columns]
-
-    df = pd.DataFrame.from_dict(data)
-    minimum, maximum = lap_numbers
-    lap_interval = range(minimum, maximum + 1)
-    df = df[
-        (df["Driver"].isin(drivers))
-        & (df["PctFromFastest"] < (upper_bound - 100))
-        & (df["LapNumber"].isin(lap_interval))
-    ]
-    return df.to_dict("records"), [{"name": i, "id": i} for i in df.columns]
+def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
+    """Set up lineplot tab lap numbers slider."""
+    return configure_lap_numbers_slider(data)
 
 
 @callback(
     Output("strategy-plot", "figure"),
     Input("drivers", "value"),
-    Input("absolute-compound", "value"),
     State("season", "value"),
     State("laps", "data"),
     State("session-info", "data"),
 )
 def render_strategy_plot(
     drivers: list[str],
-    absolute_compound: bool,
     season: int,
     included_laps: dict,
     session_info: tuple[int, str, list[str]],
 ) -> go.Figure:
-    """Configure strategy plot title dynamically."""
+    """Filter laps and configure strategy plot title."""
     # return empty figure on startup
     if not included_laps:
         return go.Figure()
@@ -303,8 +379,47 @@ def render_strategy_plot(
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
     event_name = session_info[1]
-    fig = graphs.strategy_barplot(included_laps, season, drivers, absolute_compound)
+    fig = graphs.strategy_barplot(included_laps, season, drivers)
     fig.update_layout(title=event_name)
+    return fig
+
+
+@callback(
+    Output("scatterplot", "figure"),
+    Input("drivers", "value"),
+    Input("scatter-y", "value"),
+    Input("upper-bound-scatter", "value"),
+    Input("lap-numbers-scatter", "value"),
+    State("season", "value"),
+    State("laps", "data"),
+    State("session-info", "data"),
+)
+def render_scatterplot(
+    drivers: list[str],
+    y: str,
+    upper_bound: float,
+    lap_numbers: list[int],
+    season: int,
+    included_laps: dict,
+    session_info: tuple[int, str, list[str]],
+) -> go.Figure:
+    """Filter laps and configure scatterplot title."""
+    if not included_laps:
+        return go.Figure()
+
+    minimum, maximum = lap_numbers
+    lap_interval = range(minimum, maximum + 1)
+    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = included_laps[
+        (included_laps["Driver"].isin(drivers))
+        & (included_laps["PctFromFastest"] < (upper_bound - 100))
+        & (included_laps["LapNumber"].isin(lap_interval))
+    ]
+
+    fig = graphs.stats_scatterplot(included_laps, season, drivers, y)
+    event_name = session_info[1]
+    fig.update_layout(title=event_name)
+
     return fig
 
 
