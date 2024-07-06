@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import tomli
 from plotly.subplots import make_subplots
 
-from f1_visualization.visualization import _find_sc_laps
+from f1_visualization.visualization import _find_sc_laps, pick_driver_color
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:
     VISUAL_CONFIG = tomli.load(toml)
@@ -66,7 +66,7 @@ def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray):
     sc_laps = np.append(sc_laps, [-1])
     vsc_laps = np.append(vsc_laps, [-1])
 
-    def plot_periods(laps, label, hatch=None):
+    def plot_periods(laps):
         start = 0
         end = 1
 
@@ -100,8 +100,8 @@ def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray):
                 start = end
                 end += 1
 
-    plot_periods(sc_laps, "SC")
-    plot_periods(vsc_laps, "VSC", "-")
+    plot_periods(sc_laps)
+    plot_periods(vsc_laps)
     return fig
 
 
@@ -138,7 +138,7 @@ def strategy_barplot(
                     orientation="h",
                     marker={"color": args[1][stint[args[0]]]},
                     marker_pattern_shape=VISUAL_CONFIG["fresh"]["hatch"][stint["FreshTyre"]],
-                    hovertext=f"Stint {stint_num}",
+                    name=f"{driver} stint {stint_num}",
                 )
             )
             stint_num += 1
@@ -157,7 +157,7 @@ def strategy_barplot(
         showlegend=False,
         autosize=False,
         width=1250,
-        height=50 * len(drivers),
+        height=max(300, 50 * len(drivers)),
     )
     return fig
 
@@ -209,6 +209,7 @@ def stats_scatterplot(
                     "color": driver_laps[args[0]].map(args[1]),
                     "symbol": driver_laps["FreshTyre"].map(VISUAL_CONFIG["fresh"]["markers"]),
                 },
+                name=f"{driver}",
             ),
             row=row,
             col=col,
@@ -219,6 +220,104 @@ def stats_scatterplot(
         showlegend=False,
         autosize=False,
         width=1250,
-        height=250 * num_row,
+        height=400 if num_row == 1 else (300 * num_row),
+    )
+    return fig
+
+
+def stats_lineplot(
+    included_laps: pd.DataFrame, drivers: list[str], y: str, upper_bound: int
+) -> go.Figure:
+    """Make lineplots showing a statistic."""
+    # TODO: incorporate the add_gap functionality
+
+    # Identify SC and VSC laps before filtering for upper bound
+    sc_laps, vsc_laps = _find_sc_laps(included_laps)
+    included_laps = included_laps[included_laps["PctFromFastest"] <= (upper_bound - 100)]
+
+    fig = go.Figure()
+
+    # LapRep columns have outliers that can skew the graph y-axis
+    # The high outlier values are filtered by upper_bound
+    # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
+    if y in {"PctFromLapRep", "DeltaToLapRep"}:
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
+
+    for index, driver in enumerate(reversed(drivers)):
+        driver_laps = included_laps[(included_laps["Driver"] == driver)]
+
+        # the top left subplot is indexed (1, 1)
+        row, col = divmod(index, 4)
+        row += 1
+        col += 1
+
+        fig.add_trace(
+            go.Scatter(
+                x=driver_laps["LapNumber"],
+                y=driver_laps[y],
+                mode="lines",
+                line={"color": pick_driver_color(driver)},
+                name=f"{driver}",
+            )
+        )
+
+    fig = shade_sc_periods(fig, sc_laps, vsc_laps)
+    if y == "Position":
+        fig.update_yaxes(autorange="reversed")
+
+    fig.update_layout(
+        template="plotly_dark",
+        xaxis_title="Lap Number",
+        yaxis_title=y,
+        autosize=False,
+        width=1250,
+        height=max(50 * len(drivers), 500),
+        legend_traceorder="reversed",
+    )
+    return fig
+
+
+def stats_distplot(
+    included_laps: pd.DataFrame,
+    drivers: list[str],
+    boxplot: bool,
+) -> go.Figure:
+    """Make distribution plot of lap times, with optional swarm and boxplots."""
+    fig = go.Figure()
+
+    for driver in drivers:
+        driver_laps = included_laps[included_laps["Driver"] == driver]
+        if boxplot:
+            fig.add_trace(
+                go.Box(
+                    y=driver_laps["LapTime"],
+                    boxmean=True,
+                    boxpoints="outliers",
+                    pointpos=0,
+                    fillcolor=pick_driver_color(driver),
+                    line={"color": "dimgray"},
+                    name=driver,
+                    showwhiskers=True,
+                )
+            )
+        else:
+            fig.add_trace(
+                go.Violin(
+                    y=driver_laps["LapTime"],
+                    fillcolor=pick_driver_color(driver),
+                    line={"color": pick_driver_color(driver)},
+                    name=driver,
+                    opacity=1,
+                )
+            )
+
+    fig.update_layout(
+        template="plotly_dark",
+        xaxis_title="Driver",
+        yaxis_title="Lap Time (s)",
+        showlegend=False,
+        autosize=False,
+        width=1250,
+        height=500,
     )
     return fig

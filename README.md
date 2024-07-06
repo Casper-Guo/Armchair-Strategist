@@ -96,6 +96,9 @@ This repository contains engineered F1 data for all grand prixs and sprint races
 ## Build
 Build with `pip install -e .`
 
+## Dashboard
+Run dashboard locally with `python3 Dashboard/app.py`
+
 ## Data Source
 
 All data sourced from the [FastF1](https://github.com/theOehrly/Fast-F1) package.

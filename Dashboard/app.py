@@ -1,6 +1,7 @@
 """Layout Dash app structure."""
 
 from datetime import datetime, timedelta
+from typing import TypeAlias
 
 import dash_bootstrap_components as dbc
 import fastf1 as f
@@ -11,6 +12,8 @@ from plotly import graph_objects as go
 
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
 from f1_visualization.visualization import get_session_info, load_laps
+
+Session_info: TypeAlias = tuple[int, str, list[str]]
 
 # must not be modified
 DF_DICT = load_laps()
@@ -39,7 +42,7 @@ def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:
 def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     """Configure range slider based on the number of laps in a session."""
     if not data:
-        return 20, [1, 20], {i: str(i) for i in range(1, 21, 5)}
+        return 60, [1, 60], {i: str(i) for i in range(1, 61, 5)}
     df = pd.DataFrame.from_dict(data)
     num_laps = df["LapNumber"].max()
 
@@ -140,26 +143,21 @@ distplot_tab = dbc.Tab(
             [
                 dbc.Row(
                     [
-                        dbc.Col(
-                            dcc.Checklist(
-                                options=[" Swarmplot On"], value=[True], id="swarmplot"
-                            )
-                        ),
-                        dbc.Col(
-                            dcc.RadioItems(
-                                options=[
-                                    {"label": " Violinplot", "value": True},
-                                    {"label": " Boxplot", "value": False},
-                                ],
-                                value=True,
-                                inline=True,
-                                id="violin",
-                            )
-                        ),
+                        dcc.Dropdown(
+                            options=[
+                                {"label": " Show boxplot", "value": True},
+                                {"label": " Show violin plot", "value": False},
+                            ],
+                            value=True,
+                            clearable=False,
+                            id="boxplot",
+                        )
                     ]
                 ),
                 html.Br(),
                 dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
+                html.Br(),
+                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
                 dbc.Row(upper_bound_slider(slider_id="upper-bound-dist")),
             ]
         )
@@ -198,8 +196,19 @@ app.layout = dbc.Container(
                     ),
                 ),
                 dbc.Col(
+                    dcc.Dropdown(
+                        options=[
+                            {"label": "Finishing order", "value": False},
+                            {"label": "Teammate side-by-side", "value": True},
+                        ],
+                        value=False,
+                        clearable=False,
+                        id="teammate-comp",
+                    )
+                ),
+                dbc.Col(
                     dbc.Button(
-                        children="Load Session",
+                        children="Load Session / Reorder Drivers",
                         n_clicks=0,
                         disabled=True,
                         color="success",
@@ -309,10 +318,11 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
     State("season", "value"),
     State("event", "value"),
     State("session", "value"),
+    State("teammate-comp", "value"),
 )
 def get_driver_list(
-    n_clicks: int, season: int, event: str, session: str
-) -> tuple[list[str], list, bool, tuple[int, str, list[str]], dict]:
+    n_clicks: int, season: int, event: str, session: str, teammate_comp: bool
+) -> tuple[list[str], list, bool, Session_info, dict]:
     """
     Populate the drivers dropdown boxes.
 
@@ -322,7 +332,9 @@ def get_driver_list(
     if n_clicks == 0:
         return [], [], True, (), {}
     # We expect these three variables to be set subsequently
-    round_number, event_name, drivers = get_session_info(season, event, session, drivers=20)
+    round_number, event_name, drivers = get_session_info(
+        season, event, session, drivers=20, teammate_comp=teammate_comp
+    )
 
     included_laps = DF_DICT[season][session]
     included_laps = included_laps[included_laps["RoundNumber"] == round_number]
@@ -369,11 +381,11 @@ def render_strategy_plot(
     drivers: list[str],
     season: int,
     included_laps: dict,
-    session_info: tuple[int, str, list[str]],
+    session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup
-    if not included_laps:
+    if not included_laps or not drivers:
         return go.Figure()
     included_laps = pd.DataFrame.from_dict(included_laps)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
@@ -401,10 +413,10 @@ def render_scatterplot(
     lap_numbers: list[int],
     season: int,
     included_laps: dict,
-    session_info: tuple[int, str, list[str]],
+    session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and configure scatterplot title."""
-    if not included_laps:
+    if not included_laps or not drivers:
         return go.Figure()
 
     minimum, maximum = lap_numbers
@@ -423,5 +435,76 @@ def render_scatterplot(
     return fig
 
 
+@callback(
+    Output("lineplot", "figure"),
+    Input("drivers", "value"),
+    Input("line-y", "value"),
+    Input("upper-bound-line", "value"),
+    Input("lap-numbers-line", "value"),
+    State("laps", "data"),
+    State("session-info", "data"),
+)
+def render_lineplot(
+    drivers: list[str],
+    y: str,
+    upper_bound: float,
+    lap_numbers: list[int],
+    included_laps: dict,
+    session_info: Session_info,
+) -> go.Figure:
+    """Filter laps and configure lineplot title."""
+    if not included_laps or not drivers:
+        return go.Figure()
+
+    minimum, maximum = lap_numbers
+    lap_interval = range(minimum, maximum + 1)
+    included_laps = pd.DataFrame.from_dict(included_laps)
+
+    # upper bound not filtered here because we need to identify SC/VSC laps
+    # inside the function
+    included_laps = included_laps[
+        (included_laps["Driver"].isin(drivers))
+        & (included_laps["LapNumber"].isin(lap_interval))
+    ]
+
+    fig = graphs.stats_lineplot(included_laps, drivers, y, upper_bound)
+    event_name = session_info[1]
+    fig.update_layout(title=event_name)
+
+    return fig
+
+
+@callback(
+    Output("distplot", "figure"),
+    Input("drivers", "value"),
+    Input("upper-bound-dist", "value"),
+    Input("boxplot", "value"),
+    State("laps", "data"),
+    State("session-info", "data"),
+)
+def render_distplot(
+    drivers: list[str],
+    upper_bound: int,
+    boxplot: bool,
+    included_laps: dict,
+    session_info: Session_info,
+) -> go.Figure:
+    """Filter laps and render distribution plot."""
+    if not included_laps or not drivers:
+        return go.Figure()
+
+    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = included_laps[
+        (included_laps["Driver"].isin(drivers))
+        & (included_laps["PctFromFastest"] < (upper_bound - 100))
+    ]
+
+    fig = graphs.stats_distplot(included_laps, drivers, boxplot)
+    event_name = session_info[1]
+    fig.update_layout(title=event_name)
+
+    return fig
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server()
