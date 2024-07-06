@@ -18,6 +18,7 @@ from f1_visualization._consts import (
     NUM_ROUNDS,
     SESSION_IDS,
     SESSION_NAMES,
+    SPRINT_FORMATS,
     VISUAL_CONFIG,
 )
 from f1_visualization._types import Session
@@ -29,11 +30,7 @@ logger = logging.getLogger(__name__)
 def get_sprint_rounds(season: int) -> set[int]:
     """Return the sprint weekend round numbers in a season."""
     schedule = f.get_event_schedule(season)
-    return set(
-        schedule[
-            schedule["EventFormat"].isin(("sprint", "sprint_shootout", "sprint_qualifying"))
-        ]["RoundNumber"]
-    )
+    return set(schedule[schedule["EventFormat"].isin(SPRINT_FORMATS)]["RoundNumber"])
 
 
 SPRINT_ROUNDS = {

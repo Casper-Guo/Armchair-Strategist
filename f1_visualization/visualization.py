@@ -199,7 +199,6 @@ def _plot_args(season: int, absolute_compound: bool) -> tuple:
     Returns:
         (hue, palette, marker, labels)
     """
-    # TODO: this depends on the assumption that the C0 compound is not used
     if absolute_compound:
         if season == 2018:
             return (
@@ -208,11 +207,19 @@ def _plot_args(season: int, absolute_compound: bool) -> tuple:
                 VISUAL_CONFIG["absolute"]["markers"]["18"],
                 VISUAL_CONFIG["absolute"]["labels"]["18"],
             )
+        if season < 2023:
+            return (
+                "CompoundName",
+                VISUAL_CONFIG["absolute"]["palette"]["19_22"],
+                VISUAL_CONFIG["absolute"]["markers"]["19_22"],
+                VISUAL_CONFIG["absolute"]["labels"]["19_22"],
+            )
+
         return (
             "CompoundName",
-            VISUAL_CONFIG["absolute"]["palette"]["19_22"],
-            VISUAL_CONFIG["absolute"]["markers"]["19_22"],
-            VISUAL_CONFIG["absolute"]["labels"]["19_22"],
+            VISUAL_CONFIG["absolute"]["palette"]["23_"],
+            VISUAL_CONFIG["absolute"]["markers"]["23_"],
+            VISUAL_CONFIG["absolute"]["labels"]["23_"],
         )
 
     return (
@@ -305,12 +312,12 @@ def pick_driver_color(driver: str) -> str:
     Find the driver's color.
 
     If the driver is currently active, use his FastF1 color.
-    Else, default to gray.
+    Else, default to CSS slate gray.
     """
     if p.DRIVER_TRANSLATE.get(driver, "NA") in p.DRIVER_COLORS:
         return p.DRIVER_COLORS[p.DRIVER_TRANSLATE[driver]]
 
-    return "#808080"
+    return "#778899"
 
 
 def add_gap(season: int, driver: str):
@@ -1314,7 +1321,7 @@ def compounds_lineplot(
     return fig
 
 
-def compounds_distribution(
+def compounds_distplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
     session_types: Optional[str | Iterable[str]] = None,

@@ -37,4 +37,4 @@ The following columns are added. All numerical columns are accurate to three pla
 - **DeltaToFastest** (`float`): Difference in seconds to the fastest, non-deleted lap in the race.
 - **PctFromFastest** (`float`): Difference from the fastest, non-deleted lap in the race as a percentage of the fastest lap time.
 - **DeltaToLapRep** (`float`): Difference in seconds to the median lap time of all valid laps in the race with the same lap number.
-- **PctFromRep** (`float`): Difference from the median lap time of all valid laps in the race with the same lap number as a percentage of the lap representative time.
+- **PctFromLapRep** (`float`): Difference from the median lap time of all valid laps in the race with the same lap number as a percentage of the lap representative time.

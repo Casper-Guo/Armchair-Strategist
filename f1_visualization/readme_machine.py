@@ -148,10 +148,6 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     logger.info("Making team pace comparison graph...")
     p.setup_mpl(misc_mpl_mods=False)
 
-    # TODO: use pick_wo_box and pick_track_status once the later
-    # is fixed in Fastf1
-    # pick_quicklaps is undesirable because it is
-    # not robust against mixed conditions
     laps = session.laps.pick_wo_box().pick_track_status("467", how="none")
 
     laps["LapTime (s)"] = laps["LapTime"].dt.total_seconds()
