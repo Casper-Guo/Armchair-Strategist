@@ -1,7 +1,7 @@
 # secrets
 *.pem*
 .password
-ETL.log
+*.log
 aws_login.sh
 
 # subdirectories
