@@ -297,7 +297,7 @@ def get_session_info(
     session = f.get_session(season, event, session_type)
     session.load(laps=False, telemetry=False, weather=False, messages=False)
     round_number = session.event["RoundNumber"]
-    event_name = f"{session.event["EventName"]} - {session.name}"
+    event_name = f"{session.event['EventName']} - {session.name}"
 
     if teammate_comp:
         drivers = get_drivers(session, drivers, by="TeamName")

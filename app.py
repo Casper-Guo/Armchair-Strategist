@@ -171,6 +171,7 @@ distplot_tab = dbc.Tab(
 )
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
+server = app.server
 app.layout = dbc.Container(
     [
         html.H1("F1 Strategy Visualisation"),
@@ -514,4 +515,4 @@ def render_distplot(
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8000)

@@ -1,10 +1,9 @@
 #!/usr/bin/expect
 exp_internal 1
 set -Eeuo pipefail
-set PASSWORD [lindex $argv 0];
 set timeout 60
 
-spawn git push
+spawn git push origin main
 
 expect {
   "\r*(yes/no)? " {
@@ -12,7 +11,7 @@ expect {
     exp_continue
   }
   "\r*Enter passphrase for key '/home/robery/.ssh/id_ed25519': " {
-    send "$PASSWORD\r"
+    send "\r"
   }
 }
 expect eof
