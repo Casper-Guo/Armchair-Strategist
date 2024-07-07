@@ -1,5 +1,8 @@
+# secrets
+*.pem*
 .password
 ETL.log
+aws_login.sh
 
 # subdirectories
 /Cache

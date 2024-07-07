@@ -5,12 +5,17 @@ from typing import TypeAlias
 
 import dash_bootstrap_components as dbc
 import fastf1 as f
-import graphs
 import pandas as pd
 from dash import Dash, Input, Output, State, callback, dcc, html
 from plotly import graph_objects as go
 
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
+from f1_visualization.plotly_dash.graphs import (
+    stats_distplot,
+    stats_lineplot,
+    stats_scatterplot,
+    strategy_barplot,
+)
 from f1_visualization.visualization import get_session_info, load_laps
 
 Session_info: TypeAlias = tuple[int, str, list[str]]
@@ -391,7 +396,7 @@ def render_strategy_plot(
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
     event_name = session_info[1]
-    fig = graphs.strategy_barplot(included_laps, season, drivers)
+    fig = strategy_barplot(included_laps, season, drivers)
     fig.update_layout(title=event_name)
     return fig
 
@@ -428,7 +433,7 @@ def render_scatterplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = graphs.stats_scatterplot(included_laps, season, drivers, y)
+    fig = stats_scatterplot(included_laps, season, drivers, y)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
@@ -467,7 +472,7 @@ def render_lineplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = graphs.stats_lineplot(included_laps, drivers, y, upper_bound)
+    fig = stats_lineplot(included_laps, drivers, y, upper_bound)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
@@ -499,7 +504,7 @@ def render_distplot(
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
     ]
 
-    fig = graphs.stats_distplot(included_laps, drivers, boxplot)
+    fig = stats_distplot(included_laps, drivers, boxplot)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
