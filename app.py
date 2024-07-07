@@ -229,13 +229,15 @@ app.layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(
-                    dcc.Dropdown(
-                        options=[],
-                        value=[],
-                        placeholder="Select drivers",
-                        disabled=True,
-                        multi=True,
-                        id="drivers",
+                    dcc.Loading(
+                        dcc.Dropdown(
+                            options=[],
+                            value=[],
+                            placeholder="Select drivers",
+                            disabled=True,
+                            multi=True,
+                            id="drivers",
+                        )
                     )
                 )
             ]
@@ -512,4 +514,4 @@ def render_distplot(
 
 
 if __name__ == "__main__":
-    app.run_server()
+    app.run(debug=True)
