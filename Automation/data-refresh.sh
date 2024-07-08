@@ -16,6 +16,7 @@ trap handle_failure ERR
 trap handle_failure SIGTERM
 
 date
+UTC=$(date)
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
 pkill -f gunicorn || :
 
@@ -27,4 +28,4 @@ git commit -m "Automatic data refresh" || true # ignore non-zero exit status whe
 
 # relaunch dash app
 gunicorn app:server -b :8000 &
-aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Success"
+aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Success - $UTC"
