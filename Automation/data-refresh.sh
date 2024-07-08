@@ -27,5 +27,5 @@ git commit -m "Automatic data refresh" || true # ignore non-zero exit status whe
 ./Automation/auto-push.exp -d
 
 # relaunch dash app
-gunicorn app:server -b :8000 &
+gunicorn app:server -b :8000 >/dev/null 2>./Automation/dash.log &
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Success - $UTC"

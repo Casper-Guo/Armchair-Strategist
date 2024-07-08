@@ -23,5 +23,5 @@ pkill -f gunicorn || :
 ./Automation/auto-pull.exp -d
 
 # relaunch dash app
-gunicorn app:server -b :8000 &
+gunicorn app:server -b :8000 >/dev/null 2>./Automation/dash.log &
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/sync-code.log --subject "Code Syncing Success - $UTC"
