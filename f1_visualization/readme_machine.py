@@ -52,7 +52,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     session_type = "R" if grand_prix else "S"
     session = f.get_session(season, round_number, session_type)
     session.load(telemetry=False, weather=False, messages=False)
-    event_name = f"{session.event["EventName"]} - {session.name}"
+    event_name = f"{session.event['EventName']} - {session.name}"
 
     dest = ROOT_PATH / "Visualizations" / f"{season}" / f"{event_name}"
 
