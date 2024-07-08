@@ -58,16 +58,9 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
 
     if dest.is_dir():
         if update_readme:
-            copy_hint = input(
-                "The desired visualizations may have already been created in "
-                f"{dest}.\n"
-                f"Enter Y if you want to copy them to {DOC_VISUALS_PATH} directly, "
-                "otherwise, enter N: "
-            )
-            if copy_hint == "Y":
-                shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
-                logger.info("Copied visualizations from %s to %s", dest, DOC_VISUALS_PATH)
-                return
+            shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
+            logger.info("Copied visualizations from %s to %s", dest, DOC_VISUALS_PATH)
+            return
 
         overwrite_confirmation = input(
             (
