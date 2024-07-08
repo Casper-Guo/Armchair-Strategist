@@ -1,10 +1,12 @@
-# F1-Data-Visualization
+# Armchair Strategist
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-This repository contains engineered F1 data for all grand prixs and sprint races from the 2018 season onwards and some handy visualization tools. Visualizations in the README are automatically updated to reflect the latest race on the Monday after the race at midnight EDT.
+This repository contains all the code for the armchair strategist [dashboard](www.armchair-strategist.dev) as well as engineered data for F1 races from the 2018 season onwards.
 
-## Visualizations of the Most Recent Race/Examples
+The dashboard and visualizations in this README are updated every Monday at midnight to reflect the latest race.
+
+## Visualizations of the Most Recent Race
 
 <details>
     <summary>
@@ -94,9 +96,9 @@ This repository contains engineered F1 data for all grand prixs and sprint races
 </details>
 
 ## Build
-Build with `pip install -e .`
+Build with `pip install -e .` Using a virtual environment is recommended.
 
-## Dashboard
+## [Dashboard](www.armchair-strategist.dev)
 Run dashboard locally with `python3 Dashboard/app.py`
 
 ## Data Source
@@ -105,15 +107,11 @@ All data sourced from the [FastF1](https://github.com/theOehrly/Fast-F1) package
 
 ## Data Availability
 
-Data from all races beginning in the 2018 season, excluding test sessions, are available. This repository will be automatically updated during the F1 season.
+Data from all grand prixs and sprint races beginning in the 2018 season, excluding test sessions, are available. This repository will be automatically updated during the F1 season.
 
 ## Metrics Definitions
 
 See `SCHEMA.md` for details on the columns provided in `Data/all_laps_*.csv` and `Data/transformed_laps_*.csv` files.
-
-## Usage Guide
-
-- Use `f1_visualization/adhoc_visuals.py` to make your own visualizations.
 
 ## Additional Examples
 <details>
