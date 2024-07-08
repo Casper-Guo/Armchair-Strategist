@@ -16,6 +16,9 @@ expect {
   "*Already up to date.*" {
     exit 0
   }
+  "*Fast-forward*" {
+    exit 0
+  }
 }
 expect eof
 
