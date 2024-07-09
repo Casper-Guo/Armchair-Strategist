@@ -233,7 +233,10 @@ def stats_lineplot(
 
     # Identify SC and VSC laps before filtering for upper bound
     sc_laps, vsc_laps = _find_sc_laps(included_laps)
-    included_laps = included_laps[included_laps["PctFromFastest"] <= (upper_bound - 100)]
+
+    # keep all laps if y is position to eliminate any implicit gaps
+    if y != "Position":
+        included_laps = included_laps[included_laps["PctFromFastest"] <= (upper_bound - 100)]
 
     fig = go.Figure()
 
