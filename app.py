@@ -174,7 +174,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
 server = app.server
 app.layout = dbc.Container(
     [
-        html.H1("F1 Strategy Visualisation"),
+        html.H1("Armchair Strategist"),
         dbc.Row(
             [
                 dbc.Col(
