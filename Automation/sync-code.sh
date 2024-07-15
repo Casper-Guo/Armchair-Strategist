@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 set -x
 
-cd ~/F1-Data-Visualization
+cd ~/Armchair-Strategist
 exec > ./Automation/sync-code.log 2>&1
 
 handle_failure() {
