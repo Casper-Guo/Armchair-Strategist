@@ -33,22 +33,19 @@ def get_sprint_rounds(season: int) -> set[int]:
     return set(schedule[schedule["EventFormat"].isin(SPRINT_FORMATS)]["RoundNumber"])
 
 
-SPRINT_ROUNDS = {
-    season: get_sprint_rounds(season) for season in range(2021, CURRENT_SEASON + 1)
-}
-
-
 class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""  # noqa: D203
 
 
-def get_session(season: int, round_number: int, session_type: str) -> Session:
+def get_session(
+    season: int, round_number: int, session_type: str, sprint_rounds: dict[int, set[int]]
+) -> Session:
     """Get fastf1 session only when it exists."""
     match session_type:
         case "R":
             return f.get_session(season, round_number, session_type)
         case "S":
-            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season]:
+            if season in sprint_rounds and round_number in sprint_rounds[season]:
                 return f.get_session(season, round_number, session_type)
         case _:
             raise ValueError("%s is not a supported session identifier", session_type)
@@ -56,7 +53,9 @@ def get_session(season: int, round_number: int, session_type: str) -> Session:
     return None
 
 
-def load_all_data(season: int, path: Path, session_type: str):
+def load_all_data(
+    season: int, path: Path, session_type: str, sprint_rounds: dict[int, set[int]]
+):
     """
     Load all available data in a season.
 
@@ -72,7 +71,7 @@ def load_all_data(season: int, path: Path, session_type: str):
     schedule = f.get_event_schedule(season)
 
     for i in range(1, NUM_ROUNDS[season] + 1):
-        session = get_session(season, i, session_type)
+        session = get_session(season, i, session_type, sprint_rounds)
         if session is None:
             continue
 
@@ -97,7 +96,7 @@ def load_all_data(season: int, path: Path, session_type: str):
         )
 
 
-def update_data(season: int, path: Path, session_type: str):
+def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[int, set[int]]):
     """
     Update the data for a season.
 
@@ -119,7 +118,7 @@ def update_data(season: int, path: Path, session_type: str):
 
     all_rounds = set(range(1, newest_round + 1))
     if session_type == "S":
-        all_rounds = SPRINT_ROUNDS[season].intersection(all_rounds)
+        all_rounds = sprint_rounds[season].intersection(all_rounds)
 
     missing_rounds = all_rounds.difference(loaded_rounds)
     missing_rounds = sorted(list(missing_rounds))
@@ -135,7 +134,7 @@ def update_data(season: int, path: Path, session_type: str):
     dfs = []
 
     for i in missing_rounds:
-        session = get_session(season, i, session_type)
+        session = get_session(season, i, session_type, sprint_rounds)
         if session is None:
             continue
 
@@ -236,6 +235,9 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     # treat missing entries as False
     df_laps["IsPersonalBest"] = df_laps["IsPersonalBest"].fillna(value="False")
     df_laps["IsPersonalBest"] = df_laps["IsPersonalBest"].astype(bool)
+
+    # make sure TrackStatus is stored as ints so it can be converted to strings later
+    df_laps["TrackStatus"] = df_laps["TrackStatus"].fillna(0.0).astype(int)
 
     return df_laps
 
@@ -711,6 +713,10 @@ def main() -> int:
     Path.mkdir(DATA_PATH / "sprint", parents=True, exist_ok=True)
     Path.mkdir(DATA_PATH / "grand_prix", parents=True, exist_ok=True)
 
+    sprint_rounds = {
+        season: get_sprint_rounds(season) for season in range(2021, CURRENT_SEASON + 1)
+    }
+
     load_seasons = list(range(2018, CURRENT_SEASON + 1))
     rounds_completed = get_last_round_number()
 
@@ -726,9 +732,9 @@ def main() -> int:
             path = DATA_PATH / session_name / f"all_{session_name}_laps_{season}.csv"
 
             if Path.is_file(path):
-                update_data(season, path, session_type)
+                update_data(season, path, session_type, sprint_rounds)
             else:
-                load_all_data(season, path, session_type)
+                load_all_data(season, path, session_type, sprint_rounds)
 
     # Suppress SettingWithCopy Warning
     pd.options.mode.chained_assignment = None
