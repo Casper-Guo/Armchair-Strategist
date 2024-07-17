@@ -4,6 +4,9 @@
 *.log
 aws_login.sh
 
+# playground notebooks
+*.ipynb
+
 # subdirectories
 /Cache
 /Graphs
