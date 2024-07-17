@@ -456,16 +456,9 @@ def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `IsValid`, `LapTime`]
     """
-    rounds = df_laps["RoundNumber"].unique()
-    rep_times = {}
+    eligible_laps = df_laps[df_laps["IsValid"]]
 
-    for round_number in rounds:
-        median = df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["IsValid"])][
-            "LapTime"
-        ].median(numeric_only=True)
-        rep_times[round_number] = round(median, 3)
-
-    return rep_times
+    return eligible_laps.groupby("RoundNumber")["LapTime"].median().round(decimals=3).to_dict()
 
 
 def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -505,16 +498,9 @@ def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `IsPersonalBest`, `LapTime`]
     """
-    rounds = df_laps["RoundNumber"].unique()
-    fastest_times = {}
+    eligible_laps = df_laps[df_laps["IsPersonalBest"]]
 
-    for round_number in rounds:
-        fastest = df_laps[
-            (df_laps["RoundNumber"] == round_number) & (df_laps["IsPersonalBest"])
-        ]["LapTime"].min()
-        fastest_times[round_number] = round(fastest, 3)
-
-    return fastest_times
+    return eligible_laps.groupby("RoundNumber")["LapTime"].min().to_dict()
 
 
 def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -554,22 +540,12 @@ def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
                                             `IsValid`,
                                             `LapTime`]
     """
-    lap_reps = {}
-
-    for round_number in df_laps["RoundNumber"].unique():
-        round_lap_reps = {}
-        round_laps = df_laps[df_laps["RoundNumber"] == round_number]
-        lap_numbers = round_laps["LapNumber"].unique()
-
-        for lap_number in lap_numbers:
-            median = round_laps[round_laps["LapNumber"] == lap_number]["LapTime"].median(
-                numeric_only=True
-            )
-            round_lap_reps[lap_number] = round(median, 3)
-
-        lap_reps[round_number] = round_lap_reps
-
-    return lap_reps
+    return (
+        df_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"]
+        .median()
+        .round(decimals=3)
+        .to_dict()
+    )
 
 
 def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -587,11 +563,11 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     lap_reps = find_lap_reps(df_laps)
 
     def delta_to_lap_rep(row):
-        return row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
+        return row.loc["LapTime"] - lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])]
 
     def pct_from_lap_rep(row):
-        delta = row.loc["LapTime"] - lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]]
-        return round(delta / lap_reps[row.loc["RoundNumber"]][row.loc["LapNumber"]] * 100, 3)
+        delta = row.loc["LapTime"] - lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])]
+        return round(delta / lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])] * 100, 3)
 
     df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
     df_laps["PctFromLapRep"] = df_laps.apply(pct_from_lap_rep, axis=1)
