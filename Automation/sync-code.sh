@@ -3,6 +3,7 @@ set -Eeuo pipefail
 set -x
 
 cd ~/Armchair-Strategist
+source ./env/bin/activate
 exec > ./Automation/sync-code.log 2>&1
 
 handle_failure() {
@@ -24,5 +25,6 @@ pkill -f gunicorn || :
 
 # relaunch dash app
 gunicorn app:server -b :8000 >/dev/null 2>./Automation/dash.log &
-pgrep gunicorn
+sleep 3
+pgrep gunicorn && lsof -i :8000
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/sync-code.log --subject "Code Syncing Success - $UTC"

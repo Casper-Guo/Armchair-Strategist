@@ -4,6 +4,7 @@ set -Eeuo pipefail
 set -x
 
 cd ~/Armchair-Strategist
+source ./env/bin/activate
 exec > ./Automation/data-refresh.log 2>&1
 
 handle_failure() {
@@ -28,5 +29,6 @@ git commit -m "Automatic data refresh" || true # ignore non-zero exit status whe
 
 # relaunch dash app
 gunicorn app:server -b :8000 >/dev/null 2>./Automation/dash.log &
-pgrep gunicorn
+sleep 3
+pgrep gunicorn && lsof -i :8000
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Success - $UTC"
