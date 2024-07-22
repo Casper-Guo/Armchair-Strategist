@@ -22,7 +22,7 @@ date
 UTC=$(date)
 # assume EC2 instance running from main
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
-pkill -f gunicorn || :
+pkill -cef gunicorn || :
 
 ./Automation/auto-pull.exp -d
 
