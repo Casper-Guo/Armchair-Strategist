@@ -15,7 +15,7 @@ handle_failure() {
     then
         # failure in preprocessing, bad data might have been written to file
         git restore .
-    else if [[ "$error_command" == *readme_machine.py* ]]
+    elif [[ "$error_command" == *readme_machine.py* ]]
     then
         # failure in making README graphics, withhold all graph updates only
         git restore Docs/visuals/*
