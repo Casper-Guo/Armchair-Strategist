@@ -22,7 +22,7 @@ handle_failure() {
     fi
 
     # relaunch server
-    ./Automation/start_server.sh
+    ./Automation/start-server.sh
 
     aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Failure - $error_line: $error_command"
 }
@@ -41,5 +41,5 @@ git commit -m "Automatic data refresh" || true # ignore non-zero exit status whe
 ./Automation/auto-push.exp -d
 
 # relaunch dash app
-./Automation/start_server.sh
+./Automation/start-server.sh
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/data-refresh.log --subject "Data Refresh Success - $UTC"

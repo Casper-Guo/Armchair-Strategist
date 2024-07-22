@@ -11,7 +11,7 @@ handle_failure() {
     error_command=$BASH_COMMAND
 
     # relaunch server even if auto-pull fails
-    ./Automation/start_server.sh
+    ./Automation/start-server.sh
 
     aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/sync-code.log --subject "Code Syncing Failure - $error_line: $error_command"
 }
@@ -27,5 +27,5 @@ pkill -f gunicorn || :
 ./Automation/auto-pull.exp -d
 
 # relaunch dash app
-./Automation/start_server.sh
+./Automation/start-server.sh
 aws sns publish --topic-arn arn:aws:sns:us-east-2:637423600104:Armchair-Strategist --message file://./Automation/sync-code.log --subject "Code Syncing Success - $UTC"
