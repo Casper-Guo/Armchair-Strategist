@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 cd ~/Armchair-Strategist
 source ./env/bin/activate
 gunicorn app:server -b :8000 >/dev/null 2>./Automation/dash.log &
