@@ -170,7 +170,11 @@ distplot_tab = dbc.Tab(
     label="Distribution Plot",
 )
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
+app = Dash(
+    __name__,
+    external_stylesheets=[dbc.themes.SANDSTONE],
+    title="Armchair Strategist - A F1 Strategy Dashboard",
+)
 server = app.server
 app.layout = dbc.Container(
     [
@@ -245,6 +249,14 @@ app.layout = dbc.Container(
         ),
         html.Br(),
         dbc.Tabs([strategy_tab, scatterplot_tab, lineplot_tab, distplot_tab]),
+        html.Br(),
+        dbc.Row(
+            dcc.Markdown("""
+            All data provided by [FastF1](https://github.com/theOehrly/Fast-F1).
+
+            Feature requests and bug reports etc. are welcome at the [source repository](https://github.com/Casper-Guo/Armchair-Strategist).
+        """)
+        ),
     ]
 )
 
