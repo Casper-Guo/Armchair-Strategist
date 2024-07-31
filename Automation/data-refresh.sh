@@ -4,7 +4,6 @@ set -Eeuo pipefail
 set -x
 
 cd ~/Armchair-Strategist
-source ./env/bin/activate
 exec > ./Automation/data-refresh.log 2>&1
 
 handle_failure() {
@@ -29,7 +28,7 @@ handle_failure() {
 trap handle_failure ERR
 trap handle_failure SIGTERM
 
-date
+source ./env/bin/activate 2>/dev/null
 UTC=$(date)
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
 pkill -cef gunicorn || :
@@ -38,7 +37,7 @@ python3 f1_visualization/preprocess.py
 python3 f1_visualization/readme_machine.py --update-readme >/dev/null
 git add .
 git commit -m "Automatic data refresh" || true # ignore non-zero exit status when there's no diff on main
-./Automation/auto-push.exp -d
+./Automation/auto-push.exp -d 2>./Automation/auto-push.log
 
 # relaunch dash app
 ./Automation/start-server.sh
