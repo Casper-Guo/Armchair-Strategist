@@ -99,7 +99,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
 Build with `pip install -e .` Using a virtual environment is recommended.
 
 ## [Dashboard](www.armchair-strategist.dev)
-Run dashboard locally with `python3 Dashboard/app.py`
+Run dashboard locally with `python3 app.py`
 
 ## Data Source
 
