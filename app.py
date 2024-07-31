@@ -1,6 +1,5 @@
 """Layout Dash app structure."""
 
-from datetime import datetime, timedelta
 from typing import TypeAlias
 
 import dash_bootstrap_components as dbc
@@ -274,15 +273,12 @@ def set_event_options(
     if season is None:
         return [], None, None
 
-    schedule = f.get_event_schedule(season)
-    # drops testing sessions
-    schedule = schedule[schedule["RoundNumber"] != 0]
+    schedule = f.get_event_schedule(season, include_testing=False)
 
     if season == CURRENT_SEASON:
-        # TODO: calculate this properly
-        # complicated by pandas incompatibility with some datetime calculation
-        utc_six_hours_ago = datetime.now() - timedelta(hours=2)
-        schedule = schedule[schedule["Session5DateUtc"] < utc_six_hours_ago]
+        # only include events for which we have processed data
+        last_round = DF_DICT[CURRENT_SEASON]["R"]["RoundNumber"].max()
+        schedule = schedule[schedule["RoundNumber"] <= last_round]
 
     return (
         list(schedule["EventName"]),
