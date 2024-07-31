@@ -123,67 +123,6 @@ def _find_legend_order(labels: Iterable[str]) -> list[int]:
     return [old_index for _, old_index in sorted(zip(pos, old_indices))]
 
 
-def _filter_round_driver(
-    df_laps: pd.DataFrame, round_number: int, drivers: Iterable[str]
-) -> pd.DataFrame:
-    """
-    Filter dataframe by round number and drivers.
-
-    Round number requires exact match.
-
-    Requires:
-        df_laps has the following columns: [`RoundNumber`, `Driver`]
-    """
-    return df_laps[(df_laps["RoundNumber"] == round_number) & (df_laps["Driver"].isin(drivers))]
-
-
-def _filter_round_driver_upper(
-    df_laps: pd.DataFrame,
-    round_number: int,
-    drivers: Iterable[str],
-    upper_bound: int | float,
-) -> pd.DataFrame:
-    """
-    Filter dataframe by round number, drivers, and lap time upper bound.
-
-    Round number requires exact match.
-    Upper bound is given as the percentage difference from the fastest lap.
-
-    Requires:
-        df_laps has the following columnds: [`RoundNumber`, `Driver`, `PctFromFastest`]
-    """
-    return df_laps[
-        (df_laps["RoundNumber"] == round_number)
-        & (df_laps["Driver"].isin(drivers))
-        & (df_laps["PctFromFastest"] < upper_bound)
-    ]
-
-
-def _filter_round_compound_valid_upper(
-    df_laps: pd.DataFrame,
-    round_number: int,
-    compounds: Iterable[str],
-    upper_bound: int | float,
-) -> pd.DataFrame:
-    """
-    Filter dataframe by round number, validity, compound names, and lap time upper bound.
-
-    Round number requires exact match.
-
-    Requires:
-        df_laps has the following columns: [`RoundNumber`,
-                                            `IsValid`,
-                                            `Compound`,
-                                            `PctFromFastest`]
-    """
-    return df_laps[
-        (df_laps["RoundNumber"] == round_number)
-        & (df_laps["IsValid"])
-        & (df_laps["Compound"].isin(compounds))
-        & (df_laps["PctFromFastest"] < upper_bound)
-    ]
-
-
 def _plot_args(season: int, absolute_compound: bool) -> tuple:
     """
     Get plotting arguments based on the season and compound type.
@@ -590,9 +529,13 @@ def _process_input(
     included_laps_list = []
 
     for season, event, session_type in zip(seasons, event_objects, session_types):
-        df_laps = _filter_round_compound_valid_upper(
-            DF_DICT[season][session_type], event["RoundNumber"], compounds, upper_bound
-        )
+        df_all = DF_DICT[season][session_type]
+        df_laps = df_all[
+            (df_all["RoundNumber"] == event["RoundNumber"])
+            & (df_all["IsValid"])
+            & (df_all["Compound"].isin(compounds))
+            & (df_all["PctFromFastest"] < upper_bound)
+        ]
 
         # LapRep columns have outliers that can skew the graph y-axis
         # The high outlier values are filtered by upper_bound
@@ -676,7 +619,9 @@ def driver_stats_scatterplot(
         season, event, session_type, drivers, teammate_comp
     )
     included_laps = DF_DICT[season][session_type]
-    included_laps = _filter_round_driver(included_laps, round_number, drivers)
+    included_laps = included_laps[
+        (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
+    ]
 
     if teammate_comp:
         drivers = _teammate_comp_order(included_laps, drivers, y)
@@ -802,7 +747,9 @@ def driver_stats_lineplot(
 
     round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
-    included_laps = _filter_round_driver(included_laps, round_number, drivers)
+    included_laps = included_laps[
+        (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
+    ]
 
     if lap_numbers is not None:
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
@@ -814,9 +761,11 @@ def driver_stats_lineplot(
         upper_bound = 100 if y == "Position" or y.startswith("GapTo") else 10
 
     # do upper bound filtering after SC periods are identified
-    included_laps = _filter_round_driver_upper(
-        included_laps, round_number, drivers, upper_bound
-    )
+    included_laps = included_laps[
+        (included_laps["RoundNumber"] == round_number)
+        & (included_laps["Driver"].isin(drivers))
+        & (included_laps["PctFromFastest"] < upper_bound)
+    ]
 
     # adjust plot size based on number of laps
     num_laps = included_laps["LapNumber"].nunique()
@@ -919,9 +868,11 @@ def driver_stats_distplot(
     )
 
     included_laps = DF_DICT[season][session_type]
-    included_laps = _filter_round_driver_upper(
-        included_laps, round_number, drivers, upper_bound
-    )
+    included_laps = included_laps[
+        (included_laps["RoundNumber"] == round_number)
+        & (included_laps["Driver"].isin(drivers))
+        & (included_laps["PctFromFastest"] < upper_bound)
+    ]
 
     if teammate_comp:
         drivers = _teammate_comp_order(included_laps, drivers, y)
@@ -1013,7 +964,9 @@ def strategy_barplot(
     """
     round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
-    included_laps = _filter_round_driver(included_laps, round_number, drivers)
+    included_laps = included_laps[
+        (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
+    ]
 
     fig, ax = plt.subplots(figsize=(5, len(drivers) // 3 + 1))
     plt.style.use("dark_background")
