@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import fastf1 as f
+import numpy as np
 import pandas as pd
 from fastf1.core import InvalidSessionError, NoLapDataError
 from fastf1.ergast.interface import ErgastError
@@ -633,8 +634,21 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
 def get_last_round_number() -> int:
     """Return the last finished round number in the current season."""
     current_schedule = f.get_event_schedule(CURRENT_SEASON)
-    five_hours_past = (datetime.now(timezone.utc) - timedelta(hours=5)).replace(tzinfo=None)
-    five_hours_past = datetime.now()
+
+    # only load a session that is at most five hours old
+    # this allows for a max session length of three hours
+    # and a two-hour window for Fastf1 to make the session available
+    five_hours_past = datetime.now(timezone.utc) - timedelta(hours=5)
+
+    # Numpy might issue a deprecation warning or user warning for this conversion
+    # From numpy documentation:
+    #
+    # if the string contains a trailing timezone (A ‘Z’ or a timezone offset),
+    # the timezone will be dropped and a User Warning is given
+    # Datetime64 objects should be considered to be UTC and therefore have an offset of +0000
+    #
+    # This is our use case and the warning can be ignored
+    five_hours_past = np.datetime64(five_hours_past)
     rounds_completed = current_schedule[current_schedule["Session5DateUtc"] < five_hours_past][
         "RoundNumber"
     ].max()
