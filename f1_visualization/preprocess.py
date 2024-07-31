@@ -112,8 +112,6 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     """
     existing_data = pd.read_csv(path, index_col=0, header=0)
 
-    schedule = f.get_event_schedule(season)
-
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
     newest_round = NUM_ROUNDS[season]
 
@@ -132,6 +130,7 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     logger.info("Existing coverage: %s", loaded_rounds)
     logger.info("Coverage to be added: %s", missing_rounds)
 
+    schedule = f.get_event_schedule(season)
     dfs = []
 
     for i in missing_rounds:
