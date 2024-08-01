@@ -1,7 +1,7 @@
 name: "Check Dash App Run Mode"
 on:
   pull_request:
-    types: [opened, edited, reopened, synchronize]
+    types: [opened, edited, reopened, synchronize, ready_for_review]
 
 jobs:
   check_pr:
