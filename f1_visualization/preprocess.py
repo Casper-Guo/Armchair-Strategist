@@ -229,7 +229,7 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     df_laps[["Time", "LapTime", "PitInTime", "PitOutTime"]] = df_laps[
         ["Time", "LapTime", "PitInTime", "PitOutTime"]
     ].apply(pd.to_timedelta)
-    df_laps["LapTime"] = df_laps["LapTime"].apply(lambda x: x.total_seconds())
+    df_laps["LapTime"] = df_laps["LapTime"].dt.total_seconds()
 
     # convert from object (string) to bool
     # treat missing entries as False
