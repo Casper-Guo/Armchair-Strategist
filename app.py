@@ -29,7 +29,7 @@ DF_DICT = load_laps()
 def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     """Configure range slider based on the number of laps in a session."""
     if not data:
-        return 60, [1, 60], {i: str(i) for i in range(1, 61, 5)}
+        return 60, [1, 60], {i: str(i) for i in [1] + list(range(5, 61, 5))}
     df = pd.DataFrame.from_dict(data)
     num_laps = df["LapNumber"].max()
 
@@ -49,16 +49,16 @@ app.layout = app_layout
 
 @callback(
     Output("event", "options"),
-    Output("event", "value"),
     Output("event-schedule", "data"),
     Input("season", "value"),
+    prevent_initial_call=True,
 )
 def set_event_options(
     season: int | None,
-) -> tuple[list[str], None, dict]:
+) -> tuple[list[str], dict]:
     """Get the names of all events in the selected season."""
     if season is None:
-        return [], None, None
+        return [], None
 
     schedule = f.get_event_schedule(season, include_testing=False)
 
@@ -69,18 +69,17 @@ def set_event_options(
 
     return (
         list(schedule["EventName"]),
-        None,
         schedule.set_index("EventName").to_dict(orient="index"),
     )
 
 
 @callback(
     Output("session", "options"),
-    Output("session", "value"),
     Input("event", "value"),
     State("event-schedule", "data"),
+    prevent_initial_call=True,
 )
-def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], None]:
+def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict]]:
     """
     Return the sessions contained in an event.
 
@@ -88,7 +87,7 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
     column labels to the corresponding entry.
     """
     if event is None:
-        return [], None
+        return []
 
     return [
         {"label": "Race", "value": "R"},
@@ -97,7 +96,7 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
             "value": "S",
             "disabled": schedule[event]["EventFormat"] not in SPRINT_FORMATS,
         },
-    ], None
+    ]
 
 
 @callback(
@@ -122,19 +121,22 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
     State("event", "value"),
     State("session", "value"),
     State("teammate-comp", "value"),
+    prevent_initial_call=True,
 )
 def get_driver_list(
-    n_clicks: int, season: int, event: str, session: str, teammate_comp: bool
+    _: int,  # ignores actual value of n_clicks
+    season: int,
+    event: str,
+    session: str,
+    teammate_comp: bool,
 ) -> tuple[list[str], list, bool, Session_info, dict]:
     """
     Populate the drivers dropdown boxes.
 
-    Since this requires loading the session, we will save some metadata at the same tine.
+    Since this requires loading the session, we will save some metadata at the same time.
+
+    Can assume that season, event, and session are all set (not None).
     """
-    # return default values on startup
-    if n_clicks == 0:
-        return [], [], True, (), {}
-    # We expect these three variables to be set subsequently
     round_number, event_name, drivers = get_session_info(
         season, event, session, drivers=20, teammate_comp=teammate_comp
     )
@@ -190,6 +192,7 @@ def render_strategy_plot(
     # return empty figure on startup
     if not included_laps or not drivers:
         return go.Figure()
+
     included_laps = pd.DataFrame.from_dict(included_laps)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
