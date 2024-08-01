@@ -171,7 +171,7 @@ def _plot_args(season: int, absolute_compound: bool) -> tuple:
 
 def get_drivers(
     session: Session,
-    drivers: Iterable[str | int] | str | int,
+    drivers: Optional[Iterable[str | int] | str | int] = None,
     by: str = "Position",
 ) -> list[str]:
     """
@@ -194,6 +194,7 @@ def get_drivers(
             - A list of integers and/or strings representing either the driver's
               three letter abbreviation or driver number.
               e.g. ["VER", "44", 14]
+            - None returns all drivers who appear in the session
 
         by: The key by which the drivers are sorted. Default is sorting by finishing position.
             See all available options in FastF1 `Session.results` documentation.
@@ -202,8 +203,10 @@ def get_drivers(
         The drivers' three-letter abbreviations, in the order requested.
         (Or in the case of int argument, in the finishing order.)
     """
+    result = session.results.sort_values(by=by, kind="stable")
+    if drivers is None:
+        return list(result["Abbreviation"].unique())
     if isinstance(drivers, int):
-        result = session.results.sort_values(by=by, kind="stable")
         drivers = result["Abbreviation"].unique()[:drivers]
         return list(drivers)
     if isinstance(drivers, str):
@@ -222,13 +225,15 @@ def get_session_info(
     season: int,
     event: int | str,
     session_type: str,
-    drivers: Iterable[str | int] | str | int = 3,
+    drivers: Optional[Iterable[str | int] | str | int] = None,
     teammate_comp: bool = False,
 ) -> tuple[int, str, list[str]]:
     """
     Retrieve session information based on season, event number/name, and session identifier.
 
     If event is provided as a string, then the name fuzzy matching is done by Fastf1.
+
+    Passing drivers=None (default) will select all drivers who appeared in the session.
 
     If teammate_comp is True, then the drivers are returned in the order of increasing team
     names (higher finishing teammate first) instead of by finishing position.
@@ -566,7 +571,7 @@ def driver_stats_scatterplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Iterable[str | int] | str | int = 3,
+    drivers: Optional[Iterable[str | int] | str | int] = None,
     y: str = "LapTime",
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
@@ -585,7 +590,7 @@ def driver_stats_scatterplot(
         session_type: Follow Fastf1 session identifier convention.
 
         drivers: See `get_drivers` for all accepted formats.
-        By default, the podium finishers are plotted.
+        By default, all drivers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
@@ -702,12 +707,11 @@ def driver_stats_scatterplot(
     return fig
 
 
-# TODO: set default driver quantity dynamically
 def driver_stats_lineplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Iterable[str | int] | str | int = 20,
+    drivers: Optional[Iterable[str | int] | str | int] = None,
     y: str = "Position",
     upper_bound: Optional[int | float] = None,
     grid: Optional[Literal["both", "x", "y"]] = None,
@@ -823,7 +827,7 @@ def driver_stats_distplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Iterable[str | int] | str | int = 10,
+    drivers: Optional[Iterable[str | int] | str | int] = 10,
     y: str = "LapTime",
     upper_bound: float | int = 10,
     swarm: bool = True,
@@ -942,7 +946,7 @@ def strategy_barplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Iterable[str] | int = 20,
+    drivers: Optional[Iterable[str] | int] = None,
     absolute_compound: bool = False,
 ) -> Figure:
     """

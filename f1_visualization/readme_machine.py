@@ -114,7 +114,6 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     plt.savefig(dest / "position.png")
 
     logger.info("Making teammate comparison boxplot...")
-    # TODO: remove dependency on hard-coded driver quantity
     viz.driver_stats_distplot(
         season=season,
         event=round_number,
@@ -122,7 +121,6 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         violin=False,
         swarm=False,
         teammate_comp=True,
-        drivers=20,
     )
     plt.savefig(dest / "teammate_box.png")
 
@@ -132,7 +130,6 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         event=round_number,
         session_type=session_type,
         teammate_comp=True,
-        drivers=20,
         upper_bound=7,
     )
     plt.savefig(dest / "teammate_violin.png")

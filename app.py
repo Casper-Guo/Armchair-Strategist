@@ -157,7 +157,7 @@ def get_session_metadata(
     Can assume that season, event, and session are all set (not None).
     """
     round_number, event_name, drivers = get_session_info(
-        season, event, session, drivers=20, teammate_comp=teammate_comp
+        season, event, session, teammate_comp=teammate_comp
     )
 
     included_laps = DF_DICT[season][session]
