@@ -67,16 +67,17 @@ app.layout = app_layout
 
 @callback(
     Output("event", "options"),
+    Output("event", "value"),
     Output("event-schedule", "data"),
     Input("season", "value"),
     prevent_initial_call=True,
 )
 def set_event_options(
     season: int | None,
-) -> tuple[list[str], dict]:
+) -> tuple[list[str], None, dict]:
     """Get the names of all events in the selected season."""
     if season is None:
-        return [], None
+        return [], None, None
 
     schedule = f.get_event_schedule(season, include_testing=False)
 
@@ -87,17 +88,19 @@ def set_event_options(
 
     return (
         list(schedule["EventName"]),
+        None,
         schedule.set_index("EventName").to_dict(orient="index"),
     )
 
 
 @callback(
     Output("session", "options"),
+    Output("session", "value"),
     Input("event", "value"),
     State("event-schedule", "data"),
     prevent_initial_call=True,
 )
-def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict]]:
+def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], None]:
     """
     Return the sessions contained in an event.
 
@@ -105,7 +108,7 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict]]:
     column labels to the corresponding entry.
     """
     if event is None:
-        return []
+        return [], None
 
     return [
         {"label": "Race", "value": "R"},
@@ -114,7 +117,7 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict]]:
             "value": "S",
             "disabled": schedule[event]["EventFormat"] not in SPRINT_FORMATS,
         },
-    ]
+    ], None
 
 
 @callback(
