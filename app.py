@@ -26,6 +26,24 @@ Session_info: TypeAlias = tuple[int, str, list[str]]
 DF_DICT = load_laps()
 
 
+def df_convert_timedelta(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Assumes df follows transformed_laps schema.
+
+    The pd.Timedelta type is not JSON serializable.
+    Columns with this data type need to be dropped or converted.
+    """
+    # The Time column is dropped directly since its information is retained by LapTime
+    df = df.drop(columns=["Time"])
+    # PitOUtTime and PitInTime contains information that we might need later
+    df[["PitInTime", "PitOutTime"]] = df[["PitInTime", "PitOutTime"]].fillna(
+        pd.Timedelta(0, unit="ms")
+    )
+    df["PitInTime"] = df["PitInTime"].dt.total_seconds()
+    df["PitOutTime"] = df["PitOutTime"].dt.total_seconds()
+    return df
+
+
 def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     """Configure range slider based on the number of laps in a session."""
     if not data:
@@ -123,7 +141,7 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
     State("teammate-comp", "value"),
     prevent_initial_call=True,
 )
-def get_driver_list(
+def get_session_metadata(
     _: int,  # ignores actual value of n_clicks
     season: int,
     event: str,
@@ -131,9 +149,7 @@ def get_driver_list(
     teammate_comp: bool,
 ) -> tuple[list[str], list, bool, Session_info, dict]:
     """
-    Populate the drivers dropdown boxes.
-
-    Since this requires loading the session, we will save some metadata at the same time.
+    Store session metadata and populate driver dropdown.
 
     Can assume that season, event, and session are all set (not None).
     """
@@ -143,6 +159,7 @@ def get_driver_list(
 
     included_laps = DF_DICT[season][session]
     included_laps = included_laps[included_laps["RoundNumber"] == round_number]
+    included_laps = df_convert_timedelta(included_laps)
 
     return (
         drivers,
