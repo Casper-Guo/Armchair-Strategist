@@ -1,0 +1,14 @@
+name: "Check Dash App Run Mode"
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check PR
+      uses: JJ/github-pr-contains-action@releases/v14.1
+      with:
+        github-token: ${{github.token}}
+        diffDoesNotContain: "app.run(debug=True)"
