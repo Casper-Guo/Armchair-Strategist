@@ -18,6 +18,9 @@ handle_failure() {
     then
         # failure in making README graphics, withhold all graph updates only
         git restore Docs/visuals/*
+        git add .
+        git commit -m "Partial data refresh (no visualizations)" || true # ignore non-zero exit status when there's no diff on main
+        ./Automation/auto-push.exp -d 2>./Automation/auto-push.log
     fi
 
     # relaunch server
