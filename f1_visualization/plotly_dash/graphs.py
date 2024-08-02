@@ -341,3 +341,66 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
         height=500,
     )
     return fig
+
+
+def compounds_distplot(
+    included_laps: pd.DataFrame, y: str, compounds: list[str], violin_plot: bool
+) -> go.Figure:
+    """PLot compound performance vs tyre age as either a boxplot or violin plot."""
+    fig = go.Figure()
+    yaxis_title = "Seconds to LRT" if y == "DeltaToLapRep" else "Percent from LRT"
+
+    _, palette, _, _ = _plot_args()
+    max_stint_length = 0
+
+    for compound in compounds:
+        compound_laps = included_laps[included_laps["Compound"] == compound]
+        # clip tyre life range to where there are at least three records
+        tyre_life_range = compound_laps.groupby("TyreLife").size()
+        tyre_life_range = tyre_life_range[tyre_life_range >= 3].index
+        max_stint_length = max(max_stint_length, tyre_life_range.max())
+
+        compound_laps = compound_laps[compound_laps["TyreLife"].isin(tyre_life_range)]
+
+        if violin_plot:
+            fig.add_trace(
+                go.Violin(
+                    x=compound_laps["TyreLife"],
+                    y=compound_laps[y],
+                    fillcolor=palette[compound],
+                    line={"color": palette[compound]},
+                    name=compound,
+                    opacity=1,
+                    spanmode="soft",
+                )
+            )
+        else:
+            fig.add_trace(
+                go.Box(
+                    x=compound_laps["TyreLife"],
+                    y=compound_laps[y],
+                    boxpoints="outliers",
+                    pointpos=0,
+                    fillcolor=palette[compound],
+                    line={"color": "dimgray"},
+                    name=compound,
+                    showwhiskers=True,
+                )
+            )
+
+    fig.update_layout(
+        template="plotly_dark",
+        boxmode="group",
+        violinmode="group",
+        xaxis={
+            "tickmode": "array",
+            "tickvals": list(range(5, max_stint_length, 5)),
+            "title": "Tyre Age",
+        },
+        yaxis_title=yaxis_title,
+        showlegend=False,
+        autosize=False,
+        width=1250,
+        height=500,
+    )
+    return fig

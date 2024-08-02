@@ -279,18 +279,35 @@ compound_plot_tab = dbc.Tab(
                 compound_plot_caveats,
                 html.Br(),
                 dbc.Row(
-                    dbc.Col(
-                        dcc.Dropdown(
-                            options=[
-                                {"label": "Show delta as seconds", "value": True},
-                                {"label": "Show delta as percentages", "value": False},
-                            ],
-                            value=True,
-                            clearable=False,
-                            placeholder="Select a unit",
-                            id="compound-unit",
-                        )
-                    )
+                    [
+                        dbc.Col(
+                            dcc.Dropdown(
+                                options=[
+                                    {"label": "Lineplot", "value": "lineplot"},
+                                    {"label": "Boxplot", "value": "boxplot"},
+                                    {"label": "Violin Plot", "value": "violinplot"},
+                                ],
+                                value="lineplot",
+                                clearable=False,
+                                placeholder="Select a plot type",
+                                id="compound-type",
+                            ),
+                            width=6,
+                        ),
+                        dbc.Col(
+                            dcc.Dropdown(
+                                options=[
+                                    {"label": "Show delta as seconds", "value": True},
+                                    {"label": "Show delta as percentages", "value": False},
+                                ],
+                                value=True,
+                                clearable=False,
+                                placeholder="Select a unit",
+                                id="compound-unit",
+                            ),
+                            width=6,
+                        ),
+                    ]
                 ),
                 html.Br(),
                 dbc.Row(

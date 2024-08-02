@@ -176,6 +176,23 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
     return not (season is not None and event is not None and session is not None)
 
 
+def create_compound_dropdown_options(compounds: Iterable[str]) -> list[dict]:
+    """Create compound dropdown options with styling."""
+    # sort the compounds
+    compound_order = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"]
+    compound_index = [compound_order.index(compound) for compound in compounds]
+    sorted_compounds = sorted(zip(compounds, compound_index), key=lambda x: x[1])
+    compounds = [compound for compound, _ in sorted_compounds]
+
+    return [
+        {
+            "label": html.Span(compound, style={"color": COMPOUND_PALETTE[compound]}),
+            "value": compound,
+        }
+        for compound in compounds
+    ]
+
+
 @callback(
     Output("session-info", "data"),
     Input("load-session", "n_clicks"),
@@ -463,12 +480,14 @@ def render_distplot(
 @callback(
     Output("compound-plot", "figure"),
     Input("compounds", "value"),
+    Input("compound-type", "value"),
     Input("compound-unit", "value"),
     State("laps", "data"),
     State("session-info", "data"),
 )
 def render_compound_plot(
     compounds: list[str],
+    plot_type: str,
     show_seconds: bool,
     included_laps: dict,
     session_info: Session_info,
@@ -478,10 +497,25 @@ def render_compound_plot(
         return go.Figure()
 
     included_laps = pd.DataFrame.from_dict(included_laps)
-    included_laps = included_laps[included_laps["Compound"].isin(compounds)]
+    included_laps = included_laps[
+        (included_laps["Compound"].isin(compounds)) & (included_laps["PctFromLapRep"] <= 10)
+    ]
 
     y = "DeltaToLapRep" if show_seconds else "PctFromLapRep"
-    fig = pg.compounds_lineplot(included_laps, y, compounds)
+    fig = go.Figure()
+
+    match plot_type:
+        case "lineplot":
+            fig = pg.compounds_lineplot(included_laps, y, compounds)
+        case "boxplot":
+            fig = pg.compounds_distplot(included_laps, y, compounds, False)
+        case "violinplot":
+            fig = pg.compounds_distplot(included_laps, y, compounds, True)
+        case _:
+            # this should never be triggered
+            # but just in case, return empty plot
+            return fig
+
     event_name = session_info[1]
     fig.update_layout(title=event_name)
     return fig
