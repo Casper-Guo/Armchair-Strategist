@@ -65,7 +65,9 @@ def load_all_data(
 
     Args:
         season: The season to load
+
         path: The path to a csv file where the data will be stored.
+
         session_type: Follow FastF1 session identifier convention
     """
     dfs = []
@@ -106,8 +108,11 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
 
     Args:
         season: The season to update.
+
         path: The path to a csv file where some of that season's data
+
         should already by loaded.
+
         session_type: Follow FastF1 session identifier convention
     """
     existing_data = pd.read_csv(path, index_col=0, header=0)
@@ -335,8 +340,11 @@ def add_compound_name(
 
     Args:
         df_laps: A pandas dataframe containing data from a single season.
+
         season_selection: The underlying slick compounds selection for one particular season
+
         by Grand Prix round number, in the order from the softest to hardest.
+
         season: The season to which df_laps and compound_selection refer to.
 
     Requires:
@@ -581,7 +589,9 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
 
     Args:
         season: championship season
+
         dfs: a dictionary where the key is either "all" or "transformed"
+
         session_type: Follow FastF1 session identifier convention
 
     Assumes:
@@ -664,7 +674,9 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
 
     Args:
         season: championship season
+
         dfs: a dictionary where the key is either "all" or "transformed"
+
         session_type: Follow FastF1 session identifier convention
 
     Effects:

@@ -2,7 +2,7 @@
 
 import logging
 from math import ceil
-from typing import Callable, Iterable, Literal, Optional
+from typing import Iterable, Literal, Optional
 
 import fastf1 as f
 import fastf1.plotting as p
@@ -230,12 +230,21 @@ def get_session_info(
     """
     Retrieve session information based on season, event number/name, and session identifier.
 
-    If event is provided as a string, then the name fuzzy matching is done by Fastf1.
+    Args:
+        season: Championship season
 
-    Passing drivers=None (default) will select all drivers who appeared in the session.
+        event: Round number or event name. If this argument is provided as a string, then
+        the fuzzy matching is done by Fastf1
 
-    If teammate_comp is True, then the drivers are returned in the order of increasing team
-    names (higher finishing teammate first) instead of by finishing position.
+        session_type: Currently support R for the race and S for sprint race
+
+        drivers: See `get_drivers` for all accepted formats.
+
+        teammate_comp: If True, the drivers are returned next to their teammates. Else,
+        the drivers are returned in the finishing order.
+
+    Returns:
+        A tuple containing the round number, event name, and the drivers in the specified order.
     """
     session = f.get_session(season, event, session_type)
     session.load(laps=False, telemetry=False, weather=False, messages=False)
@@ -537,9 +546,6 @@ def _process_input(
     if isinstance(session_types, str):
         session_types = [session_types]
 
-    if session_types is None:
-        session_types = ["R" for i in range(len(seasons))]
-
     assert (
         len(seasons) == len(events) == len(session_types)
     ), f"Arguments {seasons}, {events}, {session_types} have different lengths."
@@ -567,20 +573,6 @@ def _process_input(
         included_laps_list.append(df_laps)
 
     return event_objects, included_laps_list
-
-
-def _make_autopct(values: pd.DataFrame | pd.Series) -> Callable:
-    """Format group sizes as percentages of the total."""
-
-    def my_autopct(pct):
-        total = sum(values)
-
-        # additional call to int is for type conversion
-        # not duplicated rounding
-        val = int(round(pct * total / 100.0))
-        return "{p:.1f}%  ({v:d})".format(p=pct, v=val)
-
-    return my_autopct
 
 
 def driver_stats_scatterplot(
