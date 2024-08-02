@@ -80,7 +80,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     logger.info("Making podium gap graph...")
     podium_finishers = viz.get_drivers(session, drivers=3)
     race_winner = podium_finishers[0]
-    viz.add_gap(season, race_winner)
+    viz.add_gap(race_winner, inplace=True, season=season, session_type=session_type)
     viz.driver_stats_lineplot(
         season=season,
         event=round_number,

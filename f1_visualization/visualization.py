@@ -15,7 +15,6 @@ from matplotlib import rcParams
 from f1_visualization._consts import (
     COMPOUND_SELECTION,
     DATA_PATH,
-    SESSION_IDS,
     SESSION_NAMES,
     VISUAL_CONFIG,
 )
@@ -264,8 +263,17 @@ def pick_driver_color(driver: str) -> str:
     return "#778899"
 
 
-def add_gap(season: int, driver: str):
-    """Calculate the gap to a certain driver for all laps in a season."""
+def add_gap(
+    driver: str, df_laps: Optional[pd.DataFrame] = None, inplace: bool = False, **kwargs
+) -> pd.DataFrame:
+    """
+    Calculate the gap to a certain driver for all laps in a season.
+
+    If inplace=True, then the global variable DF_DICT will be modified.
+    Passed df_laps will be ignored.
+    Expect season and session_type to be specified as keyword arguments.
+    Modified df_laps will still be returned and set DF_DICT[season][session_type] = df_laps.
+    """
 
     def calculate_gap(row):
         round_number = row.loc["RoundNumber"]
@@ -286,20 +294,28 @@ def add_gap(season: int, driver: str):
 
         return (row.loc["Time"] - driver_laptimes[round_number][lap]).total_seconds()
 
-    for session_type in SESSION_IDS:
-        df_laps = DF_DICT[season].get(session_type)
+    assert not (
+        not inplace and df_laps is None
+    ), "df_laps must be provided if not editing in-place."
 
-        if df_laps is None:
-            continue
+    if inplace:
+        assert (
+            "season" in kwargs and "session_type" in kwargs
+        ), "Setting inplace=True requires specifying season and session_type."
+        season, session_type = kwargs["season"], kwargs["session_type"]
+        df_laps = DF_DICT[season][session_type]
 
-        assert driver.upper() in df_laps["Driver"].unique()
-        df_driver = df_laps[df_laps["Driver"] == driver]
+    assert driver.upper() in df_laps["Driver"].unique(), "Driver not available."
+    df_driver = df_laps[df_laps["Driver"] == driver]
 
-        # start a memo
-        driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
-        df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
+    # start a memo
+    driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
+    df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
 
-        DF_DICT[season][session_type] = df_laps
+    if inplace:
+        DF_DICT[kwargs["season"]][kwargs["session_type"]] = df_laps
+
+    return df_laps
 
 
 def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str) -> list[str]:
