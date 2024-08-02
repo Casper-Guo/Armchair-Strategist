@@ -273,55 +273,54 @@ def pick_driver_color(driver: str) -> str:
 
 
 def add_gap(
-    driver: str, df_laps: Optional[pd.DataFrame] = None, inplace: bool = False, **kwargs
+    driver: str, df_laps: Optional[pd.DataFrame] = None, modify_global: bool = False, **kwargs
 ) -> pd.DataFrame:
     """
-    Calculate the gap to a certain driver for all laps in a season.
+    Calculate the gap to a certain driver.
 
-    If inplace=True, then the global variable DF_DICT will be modified.
-    Passed df_laps will be ignored.
-    Expect season and session_type to be specified as keyword arguments.
-    Modified df_laps will still be returned and set DF_DICT[season][session_type] = df_laps.
+    Args;
+        driver: The driver to whom the gaps will be calculated
+
+        df_laps: The dataframe to modify. Default behaviored explained later
+
+        modify_global: Copies the modified dataframe to the global variable DF_DICT
+            - requires season and session_type to be provided as keyword arguments
+            - overrides any provided df_laps
+            - copies the return value to DF_DICT[season][session_type]
+
+    Returns:
+        Modified dataframe with the gap column under the name GapTo{driver}
     """
-
-    def calculate_gap(row):
-        round_number = row.loc["RoundNumber"]
-        lap = row.loc["LapNumber"]
-
-        if round_number not in driver_laptimes:
-            return 0
-
-        if lap not in driver_laptimes[round_number]:
-            laptime = df_driver[
-                (df_driver["RoundNumber"] == round_number) & (df_driver["LapNumber"] == lap)
-            ]["Time"]
-
-            if laptime.empty:
-                driver_laptimes[round_number][lap] = pd.NaT
-            else:
-                driver_laptimes[round_number][lap] = laptime.iloc[0]
-
-        return (row.loc["Time"] - driver_laptimes[round_number][lap]).total_seconds()
-
     assert not (
-        not inplace and df_laps is None
+        not modify_global and df_laps is None
     ), "df_laps must be provided if not editing in-place."
 
-    if inplace:
+    if modify_global:
         assert (
             "season" in kwargs and "session_type" in kwargs
-        ), "Setting inplace=True requires specifying season and session_type."
+        ), "Setting modify_global=True requires specifying season and session_type."
         season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
 
     assert driver.upper() in df_laps["Driver"].unique(), "Driver not available."
-    df_driver = df_laps[df_laps["Driver"] == driver]
 
-    # start a memo
-    driver_laptimes = {i: {} for i in df_driver["RoundNumber"].unique()}
-    df_laps[f"GapTo{driver}"] = df_laps.apply(calculate_gap, axis=1)
+    df_driver = df_laps[df_laps["Driver"] == driver][["RoundNumber", "LapNumber", "Time"]]
+    timing_column_name = f"{driver}Time"
+    df_driver = df_driver.rename(columns={"Time": timing_column_name})
 
-    if inplace:
+    # although the Time column has not had NaT value thus far
+    # for safety, fill with an obvious outlier so it can be filtered out later
+    df_driver[timing_column_name] = df_driver[timing_column_name].fillna(
+        pd.Timedelta(0, unit="ms")
+    )
+
+    df_laps = df_laps.merge(df_driver, on=["RoundNumber", "LapNumber"], validate="many_to_one")
+    df_laps[f"GapTo{driver}"] = (
+        df_laps["Time"] - df_laps[timing_column_name]
+    ).dt.total_seconds()
+    df_laps = df_laps.drop(columns=timing_column_name)
+
+    if modify_global:
         DF_DICT[kwargs["season"]][kwargs["session_type"]] = df_laps
 
     return df_laps
