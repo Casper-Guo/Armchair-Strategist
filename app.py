@@ -66,6 +66,18 @@ app.layout = app_layout
 
 
 @callback(
+    Output("plotly-warning", "is_open"),
+    Input("plotly-warning-toggle", "n_clicks"),
+    prevent_initial_call=True,
+)
+def toggle_plotly_warning(n_clicks: int) -> bool:
+    """Toggle the visibility of the Plotly warning."""
+    # start with n_clicks = 0 and open
+    # so odd n_clicks imply the warning should be closed
+    return (n_clicks % 2) != 1
+
+
+@callback(
     Output("event", "options"),
     Output("event", "value"),
     Output("event-schedule", "data"),
