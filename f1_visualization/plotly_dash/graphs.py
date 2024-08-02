@@ -15,44 +15,13 @@ with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") 
     VISUAL_CONFIG = tomli.load(toml)
 
 
-def _plot_args(season: int, absolute_compound: bool = False) -> tuple:
+def _plot_args() -> tuple:
     """
     Get plotting arguments based on the season and compound type.
-
-    Args:
-        season: Championship season
-
-        absolute_compound: If true, use absolute compound names
-                           (C1, C2 ...) in legend
-                           Else, use relative compound names
-                           (SOFT, MEDIUM, HARD) in legend
 
     Returns:
         (hue, palette, marker, labels)
     """
-    if absolute_compound:
-        if season == 2018:
-            return (
-                "CompoundName",
-                VISUAL_CONFIG["absolute"]["palette"]["18"],
-                VISUAL_CONFIG["absolute"]["markers"]["18"],
-                VISUAL_CONFIG["absolute"]["labels"]["18"],
-            )
-        if season < 2023:
-            return (
-                "CompoundName",
-                VISUAL_CONFIG["absolute"]["palette"]["19_22"],
-                VISUAL_CONFIG["absolute"]["markers"]["19_22"],
-                VISUAL_CONFIG["absolute"]["labels"]["19_22"],
-            )
-
-        return (
-            "CompoundName",
-            VISUAL_CONFIG["absolute"]["palette"]["23_"],
-            VISUAL_CONFIG["absolute"]["markers"]["23_"],
-            VISUAL_CONFIG["absolute"]["labels"]["23_"],
-        )
-
     return (
         "Compound",
         VISUAL_CONFIG["relative"]["palette"],
@@ -107,9 +76,7 @@ def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray):
 
 def strategy_barplot(
     included_laps: pd.DataFrame,
-    season: int,
     drivers: list[str],
-    absolute_compound: bool = False,
 ) -> go.Figure:
     """Make horizontal stacked barplot of driver strategies."""
     fig = go.Figure()
@@ -123,7 +90,7 @@ def strategy_barplot(
     driver_stints = driver_stints.rename(columns={"LapNumber": "StintLength"})
     driver_stints = driver_stints.sort_values(by=["Stint"])
 
-    args = _plot_args(season, absolute_compound)
+    args = _plot_args()
 
     # plotly puts the first trace at the bottom
     # so we need to reverse the list of the drivers to get them ordered by finishing position
@@ -150,7 +117,7 @@ def strategy_barplot(
         template="plotly_dark",
         xaxis={
             "tickmode": "array",
-            "tickvals": [1] + list(range(5, num_laps, 5)),
+            "tickvals": list(range(5, num_laps, 5)),
             "title": "Lap Number",
         },
         yaxis={"type": "category"},
@@ -164,13 +131,11 @@ def strategy_barplot(
 
 def stats_scatterplot(
     included_laps: pd.DataFrame,
-    season: int,
     drivers: list[str],
     y: str,
-    absolute_compound: bool = False,
 ) -> go.Figure:
     """Make scatterplots showing a statistic, one subplot for each driver."""
-    args = _plot_args(season, absolute_compound)
+    args = _plot_args()
 
     # LapRep columns have outliers that can skew the graph y-axis
     # The high outlier values are filtered by upper_bound
@@ -268,9 +233,14 @@ def stats_lineplot(
     if y == "Position":
         fig.update_yaxes(autorange="reversed")
 
+    num_laps = included_laps["LapNumber"].max()
     fig.update_layout(
         template="plotly_dark",
-        xaxis_title="Lap Number",
+        xaxis={
+            "tickmode": "array",
+            "tickvals": list(range(5, num_laps, 5)),
+            "title": "Lap Number",
+        },
         yaxis_title=y,
         autosize=False,
         width=1250,

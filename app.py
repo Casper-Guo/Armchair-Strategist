@@ -210,13 +210,11 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
 @callback(
     Output("strategy-plot", "figure"),
     Input("drivers", "value"),
-    State("season", "value"),
     State("laps", "data"),
     State("session-info", "data"),
 )
 def render_strategy_plot(
     drivers: list[str],
-    season: int,
     included_laps: dict,
     session_info: Session_info,
 ) -> go.Figure:
@@ -229,7 +227,7 @@ def render_strategy_plot(
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
     event_name = session_info[1]
-    fig = strategy_barplot(included_laps, season, drivers)
+    fig = strategy_barplot(included_laps, drivers)
     fig.update_layout(title=event_name)
     return fig
 
@@ -240,7 +238,6 @@ def render_strategy_plot(
     Input("scatter-y", "value"),
     Input("upper-bound-scatter", "value"),
     Input("lap-numbers-scatter", "value"),
-    State("season", "value"),
     State("laps", "data"),
     State("session-info", "data"),
 )
@@ -249,7 +246,6 @@ def render_scatterplot(
     y: str,
     upper_bound: float,
     lap_numbers: list[int],
-    season: int,
     included_laps: dict,
     session_info: Session_info,
 ) -> go.Figure:
@@ -266,7 +262,7 @@ def render_scatterplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = stats_scatterplot(included_laps, season, drivers, y)
+    fig = stats_scatterplot(included_laps, drivers, y)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
