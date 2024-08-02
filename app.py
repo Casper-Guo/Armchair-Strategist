@@ -1,11 +1,13 @@
 """Dash app layout and callbacks."""
 
-from typing import TypeAlias
+from pathlib import Path
+from typing import Iterable, TypeAlias
 
 import dash_bootstrap_components as dbc
 import fastf1 as f
 import pandas as pd
-from dash import Dash, Input, Output, State, callback
+import tomli
+from dash import Dash, Input, Output, State, callback, html
 from plotly import graph_objects as go
 
 import f1_visualization.plotly_dash.graphs as pg
@@ -17,6 +19,16 @@ Session_info: TypeAlias = tuple[int, str, list[str]]
 
 # must not be modified
 DF_DICT = load_laps()
+
+with open(
+    Path(__file__).absolute().parent
+    / "f1_visualization"
+    / "plotly_dash"
+    / "visualization_config.toml",
+    "rb",
+) as toml:
+    # TODO: revisit the palette
+    COMPOUND_PALETTE = tomli.load(toml)["relative"]["high_contrast_palette"]
 
 
 def df_convert_timedelta(df: pd.DataFrame) -> pd.DataFrame:
@@ -142,6 +154,23 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
 def enable_load_session(season: int | None, event: str | None, session: str | None) -> bool:
     """Toggles load session button on when the previous three fields are filled."""
     return not (season is not None and event is not None and session is not None)
+
+
+def create_compound_dropdown_options(compounds: Iterable[str]) -> list[dict]:
+    """Create compound dropdown options with styling."""
+    # sort the compounds
+    compound_order = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"]
+    compound_index = [compound_order.index(compound) for compound in compounds]
+    sorted_compounds = sorted(zip(compounds, compound_index), key=lambda x: x[1])
+    compounds = [compound for compound, _ in sorted_compounds]
+
+    return [
+        {
+            "label": html.Span(compound, style={"color": COMPOUND_PALETTE[compound]}),
+            "value": compound,
+        }
+        for compound in compounds
+    ]
 
 
 @callback(
@@ -412,6 +441,33 @@ def render_distplot(
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
+    return fig
+
+
+@callback(
+    Output("compound-plot", "figure"),
+    Input("compounds", "value"),
+    Input("compound-unit", "value"),
+    State("laps", "data"),
+    State("session-info", "data"),
+)
+def render_compound_plot(
+    compounds: list[str],
+    show_seconds: bool,
+    included_laps: dict,
+    session_info: Session_info,
+) -> go.Figure:
+    """Filter laps and render compound performance plot."""
+    if not included_laps or not compounds:
+        return go.Figure()
+
+    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = included_laps[included_laps["Compound"].isin(compounds)]
+
+    y = "DeltaToLapRep" if show_seconds else "PctFromLapRep"
+    fig = pg.compounds_lineplot(included_laps, y, compounds)
+    event_name = session_info[1]
+    fig.update_layout(title=event_name)
     return fig
 
 
