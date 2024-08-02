@@ -118,17 +118,15 @@ distplot_tab = dbc.Tab(
         dbc.CardBody(
             [
                 dbc.Row(
-                    [
-                        dcc.Dropdown(
-                            options=[
-                                {"label": " Show boxplot", "value": True},
-                                {"label": " Show violin plot", "value": False},
-                            ],
-                            value=True,
-                            clearable=False,
-                            id="boxplot",
-                        )
-                    ]
+                    dcc.Dropdown(
+                        options=[
+                            {"label": " Show boxplot", "value": True},
+                            {"label": " Show violin plot", "value": False},
+                        ],
+                        value=True,
+                        clearable=False,
+                        id="boxplot",
+                    )
                 ),
                 html.Br(),
                 dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
@@ -139,6 +137,35 @@ distplot_tab = dbc.Tab(
         )
     ),
     label="Distribution Plot",
+)
+
+plotly_js_warning = dbc.Toast(
+    dcc.Markdown("""
+       You should see an empty plot in the tab below. If not:
+       * Make sure javascript is enabled
+       * Try accessing the page with a different browser
+    """),
+    id="plotly-warning",
+    header="How to fix plots not loading",
+)
+
+external_links = dbc.Alert(
+    [
+        "All data provided by ",
+        html.A(
+            "FastF1",
+            href="https://github.com/theOehrly/Fast-F1",
+            className="alert-link",
+        ),
+        html.Hr(),
+        "Feature requests and bug reports etc. are welcome at the ",
+        html.A(
+            "source repository",
+            href="https://github.com/Casper-Guo/Armchair-Strategist",
+            className="alert-link",
+        ),
+    ],
+    color="info",
 )
 
 app_layout = dbc.Container(
@@ -197,43 +224,34 @@ app_layout = dbc.Container(
         ),
         html.Br(),
         dbc.Row(
-            [
-                dbc.Col(
-                    dcc.Loading(
-                        dcc.Dropdown(
-                            options=[],
-                            value=[],
-                            placeholder="Select drivers",
-                            disabled=True,
-                            multi=True,
-                            id="drivers",
-                        )
-                    )
+            dcc.Loading(
+                dcc.Dropdown(
+                    options=[],
+                    value=[],
+                    placeholder="Select drivers",
+                    disabled=True,
+                    multi=True,
+                    id="drivers",
                 )
-            ]
+            )
+        ),
+        html.Br(),
+        dbc.Row(
+            dbc.Col(
+                [
+                    plotly_js_warning,
+                    dbc.Button(
+                        "Toggle Instruction",
+                        color="primary",
+                        id="plotly-warning-toggle",
+                    ),
+                ],
+                width=4,
+            )
         ),
         html.Br(),
         dbc.Tabs([strategy_tab, scatterplot_tab, lineplot_tab, distplot_tab]),
         html.Br(),
-        dbc.Row(
-            dbc.Alert(
-                [
-                    "All data provided by ",
-                    html.A(
-                        "FastF1",
-                        href="https://github.com/theOehrly/Fast-F1",
-                        className="alert-link",
-                    ),
-                    html.Hr(),
-                    "Feature requests and bug reports etc. are welcome at the ",
-                    html.A(
-                        "source repository",
-                        href="https://github.com/Casper-Guo/Armchair-Strategist",
-                        className="alert-link",
-                    ),
-                ],
-                color="info",
-            )
-        ),
+        dbc.Row(external_links),
     ]
 )
