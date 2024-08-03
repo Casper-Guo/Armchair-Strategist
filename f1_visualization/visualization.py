@@ -278,7 +278,7 @@ def add_gap(
     """
     Calculate the gap to a certain driver.
 
-    Args;
+    Args:
         driver: The driver to whom the gaps will be calculated
 
         df_laps: The dataframe to modify. Default behaviored explained later
@@ -309,10 +309,8 @@ def add_gap(
     df_driver = df_driver.rename(columns={"Time": timing_column_name})
 
     # although the Time column has not had NaT value thus far
-    # for safety, fill with an obvious outlier so it can be filtered out later
-    df_driver[timing_column_name] = df_driver[timing_column_name].fillna(
-        pd.Timedelta(0, unit="ms")
-    )
+    # for consistency these are filled
+    df_driver[timing_column_name] = df_driver[timing_column_name].ffill()
 
     df_laps = df_laps.merge(df_driver, on=["RoundNumber", "LapNumber"], validate="many_to_one")
     df_laps[f"GapTo{driver}"] = (
