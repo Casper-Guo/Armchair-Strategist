@@ -538,24 +538,6 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps
 
 
-def find_lap_reps(df_laps: pd.DataFrame) -> dict[int, dict[int, float]]:
-    """
-    Find the median lap times for every lap.
-
-    Requires:
-        df_laps has the following columns: [`RoundNumber`,
-                                            `LapNumber`,
-                                            `IsValid`,
-                                            `LapTime`]
-    """
-    return (
-        df_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"]
-        .median()
-        .round(decimals=3)
-        .to_dict()
-    )
-
-
 def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Add two columns that calculate the difference to the lap representative time.
@@ -568,19 +550,21 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
     """
-    lap_reps = find_lap_reps(df_laps)
+    lap_reps = (
+        df_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"].median().round(decimals=3)
+    )
 
-    def delta_to_lap_rep(row):
-        return row.loc["LapTime"] - lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])]
+    df_laps = df_laps.merge(lap_reps, on=["RoundNumber", "LapNumber"], suffixes=(None, "_Rep"))
 
-    def pct_from_lap_rep(row):
-        delta = row.loc["LapTime"] - lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])]
-        return round(delta / lap_reps[(row.loc["RoundNumber"], row.loc["LapNumber"])] * 100, 3)
+    df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
+    df_laps["PctFromLapRep"] = (
+        (df_laps["LapTime"] - df_laps["LapTime_Rep"]) / df_laps["LapTime_Rep"] * 100
+    ).round(decimals=3)
 
-    df_laps["DeltaToLapRep"] = df_laps.apply(delta_to_lap_rep, axis=1)
-    df_laps["PctFromLapRep"] = df_laps.apply(pct_from_lap_rep, axis=1)
-
-    return df_laps
+    # all data engineering functions fully modify the dataframe in addition to returning them
+    # this is so this function can be called similarly to others in transform
+    df_laps = df_laps.drop(columns=["LapTime_Rep"])
+    return df_laps  # noqa: RET504
 
 
 def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> pd.DataFrame:
