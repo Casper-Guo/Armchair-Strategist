@@ -8,13 +8,8 @@ import pandas as pd
 from dash import Dash, Input, Output, State, callback
 from plotly import graph_objects as go
 
+import f1_visualization.plotly_dash.graphs as pg
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
-from f1_visualization.plotly_dash.graphs import (
-    stats_distplot,
-    stats_lineplot,
-    stats_scatterplot,
-    strategy_barplot,
-)
 from f1_visualization.plotly_dash.layout import (
     app_layout,
 )
@@ -33,15 +28,38 @@ def df_convert_timedelta(df: pd.DataFrame) -> pd.DataFrame:
     The pd.Timedelta type is not JSON serializable.
     Columns with this data type need to be dropped or converted.
     """
-    # The Time column is dropped directly since its information is retained by LapTime
-    df = df.drop(columns=["Time"])
-    # PitOUtTime and PitInTime contains information that we might need later
-    df[["PitInTime", "PitOutTime"]] = df[["PitInTime", "PitOutTime"]].fillna(
-        pd.Timedelta(0, unit="ms")
-    )
-    df["PitInTime"] = df["PitInTime"].dt.total_seconds()
-    df["PitOutTime"] = df["PitOutTime"].dt.total_seconds()
+    timedelta_columns = ["Time", "PitInTime", "PitOutTime"]
+    # usually the Time column has no NaT values
+    # it is included here for consistency
+    df[timedelta_columns] = df[timedelta_columns].fillna(pd.Timedelta(0, unit="ms"))
+
+    for column in timedelta_columns:
+        df[column] = df[column].dt.total_seconds()
     return df
+
+
+def add_gap(driver: str, df_laps: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate the gap to a certain driver.
+
+    Compared to the implementation in visualization.py. Here we assume
+    that the Time column has been converted to float type and that df_laps
+    contain laps from one round only.
+
+    The second assumption is checked during merging.
+    """
+    df_driver = df_laps[df_laps["Driver"] == driver][["LapNumber", "Time"]]
+    timing_column_name = f"{driver}Time"
+    df_driver = df_driver.rename(columns={"Time": timing_column_name})
+
+    # although the Time column has not had NaT value thus far
+    # for consistency these are filled
+    df_driver[timing_column_name] = df_driver[timing_column_name].ffill()
+
+    df_laps = df_laps.merge(df_driver, on="LapNumber", validate="many_to_one")
+    df_laps[f"GapTo{driver}"] = df_laps["Time"] - df_laps[timing_column_name]
+
+    return df_laps.drop(columns=timing_column_name)
 
 
 def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
@@ -227,7 +245,7 @@ def render_strategy_plot(
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
     event_name = session_info[1]
-    fig = strategy_barplot(included_laps, drivers)
+    fig = pg.strategy_barplot(included_laps, drivers)
     fig.update_layout(title=event_name)
     return fig
 
@@ -262,7 +280,7 @@ def render_scatterplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = stats_scatterplot(included_laps, drivers, y)
+    fig = pg.stats_scatterplot(included_laps, drivers, y)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
@@ -301,7 +319,7 @@ def render_lineplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = stats_lineplot(included_laps, drivers, y, upper_bound)
+    fig = pg.stats_lineplot(included_laps, drivers, y, upper_bound)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
@@ -333,7 +351,7 @@ def render_distplot(
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
     ]
 
-    fig = stats_distplot(included_laps, drivers, boxplot)
+    fig = pg.stats_distplot(included_laps, drivers, boxplot)
     event_name = session_info[1]
     fig.update_layout(title=event_name)
 
