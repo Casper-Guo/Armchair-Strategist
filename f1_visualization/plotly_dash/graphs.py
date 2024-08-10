@@ -194,8 +194,6 @@ def stats_lineplot(
     included_laps: pd.DataFrame, drivers: list[str], y: str, upper_bound: int
 ) -> go.Figure:
     """Make lineplots showing a statistic."""
-    # TODO: incorporate the add_gap functionality
-
     # Identify SC and VSC laps before filtering for upper bound
     sc_laps, vsc_laps = _find_sc_laps(included_laps)
 
@@ -230,7 +228,7 @@ def stats_lineplot(
         )
 
     fig = shade_sc_periods(fig, sc_laps, vsc_laps)
-    if y == "Position":
+    if y == "Position" or y.startswith("Gap"):
         fig.update_yaxes(autorange="reversed")
 
     num_laps = included_laps["LapNumber"].max()

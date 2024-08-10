@@ -78,7 +78,7 @@ session_picker_row = dbc.Row(
 add_gap_row = dbc.Row(
     dbc.Card(
         [
-            dbc.CardHeader("Calculate gaps to drivers"),
+            dbc.CardHeader("Calculate gaps between drivers"),
             dbc.CardBody(
                 [
                     dbc.Row(
