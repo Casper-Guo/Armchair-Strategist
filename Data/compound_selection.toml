@@ -160,7 +160,7 @@
 
 [2024]
 # Source
-# https://press.pirelli.com/tyre-news-and-nominations-for-hungary-and-belgium
+# https://press.pirelli.com/a-soft-september-for-pirelli-in-f1-compounds-confirmed-for-monza-baku-and-singapore/
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -176,3 +176,7 @@
 12 = ["C1","C2","C3"]
 13 = ["C3","C4","C5"]
 14 = ["C2","C3","C4"]
+15 = ["C1","C2","C3"]
+16 = ["C3","C4","C5"]
+17 = ["C3","C4","C5"]
+18 = ["C3","C4","C5"]
