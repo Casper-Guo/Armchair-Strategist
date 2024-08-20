@@ -29,7 +29,7 @@ def df_convert_timedelta(df: pd.DataFrame) -> pd.DataFrame:
     timedelta_columns = ["Time", "PitInTime", "PitOutTime"]
     # usually the Time column has no NaT values
     # it is included here for consistency
-    df[timedelta_columns] = df[timedelta_columns].fillna(pd.Timedelta(0, unit="ms"))
+    df[timedelta_columns] = df[timedelta_columns].ffill()
 
     for column in timedelta_columns:
         df[column] = df[column].dt.total_seconds()
@@ -49,10 +49,6 @@ def add_gap(driver: str, df_laps: pd.DataFrame) -> pd.DataFrame:
     df_driver = df_laps[df_laps["Driver"] == driver][["LapNumber", "Time"]]
     timing_column_name = f"{driver}Time"
     df_driver = df_driver.rename(columns={"Time": timing_column_name})
-
-    # although the Time column has not had NaT value thus far
-    # for consistency these are filled
-    df_driver[timing_column_name] = df_driver[timing_column_name].ffill()
 
     df_laps = df_laps.merge(df_driver, on="LapNumber", validate="many_to_one")
     df_laps[f"GapTo{driver}"] = df_laps["Time"] - df_laps[timing_column_name]
@@ -163,17 +159,13 @@ def get_session_metadata(
     event: str,
     session: str,
     teammate_comp: bool,
-) -> tuple[list[str], list, bool, Session_info]:
+) -> Session_info:
     """
     Store round number, event name, and the list of drivers into browser cache.
 
     Can assume that season, event, and session are all set (not None).
     """
-    round_number, event_name, drivers = get_session_info(
-        season, event, session, teammate_comp=teammate_comp
-    )
-
-    return (round_number, event_name, drivers)
+    return get_session_info(season, event, session, teammate_comp=teammate_comp)
 
 
 @callback(
