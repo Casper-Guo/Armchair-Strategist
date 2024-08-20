@@ -72,8 +72,14 @@ def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, 
     """Configure range slider based on the number of laps in a session."""
     if not data:
         return 60, [1, 60], {i: str(i) for i in [1] + list(range(5, 61, 5))}
-    df = pd.DataFrame.from_dict(data)
-    num_laps = df["LapNumber"].max()
+
+    try:
+        num_laps = max(data["LapNumber"].values())
+    except TypeError:
+        # the LapNumber column contains NaN, falls back to Pandas
+        # this has never been the case in existing data
+        df = pd.DataFrame.from_dict(data)
+        num_laps = df["LapNumber"].max()
 
     marks = {i: str(i) for i in [1] + list(range(5, num_laps + 1, 5))}
     return num_laps, [1, num_laps], marks
