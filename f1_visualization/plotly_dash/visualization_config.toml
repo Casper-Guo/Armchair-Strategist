@@ -35,6 +35,7 @@ UNKNOWN = "#00ffff"
 
 # For display on a white background
 # the customary palette is kept unchanged where the contrast is sufficiently high
+# TODO: improve this palette
 [relative.high_contrast_palette]
 SOFT = "#da291c"
 MEDIUM = "8a6d00"

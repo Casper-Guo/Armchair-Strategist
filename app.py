@@ -79,6 +79,26 @@ def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, 
     return num_laps, [1, num_laps], marks
 
 
+def style_compound_options(compounds: Iterable[str]) -> list[dict]:
+    """Create compound dropdown options with styling."""
+    compound_order = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"]
+    # discard unknown compounds
+    compounds = [compound for compound in compounds if compound in compound_order]
+
+    # sort the compounds
+    compound_index = [compound_order.index(compound) for compound in compounds]
+    sorted_compounds = sorted(zip(compounds, compound_index), key=lambda x: x[1])
+    compounds = [compound for compound, _ in sorted_compounds]
+
+    return [
+        {
+            "label": html.Span(compound, style={"color": COMPOUND_PALETTE[compound]}),
+            "value": compound,
+        }
+        for compound in compounds
+    ]
+
+
 app = Dash(
     __name__,
     external_stylesheets=[dbc.themes.SANDSTONE],
@@ -154,23 +174,6 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
 def enable_load_session(season: int | None, event: str | None, session: str | None) -> bool:
     """Toggles load session button on when the previous three fields are filled."""
     return not (season is not None and event is not None and session is not None)
-
-
-def create_compound_dropdown_options(compounds: Iterable[str]) -> list[dict]:
-    """Create compound dropdown options with styling."""
-    # sort the compounds
-    compound_order = ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"]
-    compound_index = [compound_order.index(compound) for compound in compounds]
-    sorted_compounds = sorted(zip(compounds, compound_index), key=lambda x: x[1])
-    compounds = [compound for compound, _ in sorted_compounds]
-
-    return [
-        {
-            "label": html.Span(compound, style={"color": COMPOUND_PALETTE[compound]}),
-            "value": compound,
-        }
-        for compound in compounds
-    ]
 
 
 @callback(
@@ -264,6 +267,19 @@ def set_y_axis_dropdowns(
         "LapTime",
         "LapTime",
     )
+
+
+@callback(
+    Output("compounds", "options"),
+    Output("compounds", "disabled"),
+    Input("laps", "data"),
+    prevent_initial_call=True,
+)
+def set_compounds_dropdown(data: dict) -> tuple[list[dict], bool]:
+    """Update compound plot dropdown options based on the laps dataframe."""
+    # exploit how Pandas dataframes are converted to dictionaries
+    # avoid having to construct a new dataframe
+    return style_compound_options(set(data["Compound"].values())), False
 
 
 @callback(
