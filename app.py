@@ -27,7 +27,6 @@ with open(
     / "visualization_config.toml",
     "rb",
 ) as toml:
-    # TODO: revisit the palette
     COMPOUND_PALETTE = tomli.load(toml)["relative"]["high_contrast_palette"]
 
 
@@ -492,7 +491,13 @@ def render_compound_plot(
         return go.Figure()
 
     included_laps = pd.DataFrame.from_dict(included_laps)
-    included_laps = included_laps[included_laps["Compound"].isin(compounds)]
+
+    # TyreLife = 1 rows seem to always be outliers relative to the representative lap time
+    # might be because they are out laps
+    # filter them out so the graph is not stretched
+    included_laps = included_laps[
+        (included_laps["Compound"].isin(compounds)) & (included_laps["TyreLife"] != 1)
+    ]
 
     y = "DeltaToLapRep" if show_seconds else "PctFromLapRep"
     fig = pg.compounds_lineplot(included_laps, y, compounds)
