@@ -97,6 +97,7 @@ add_gap_row = dbc.Row(
                             dbc.Button(
                                 "Add Gap",
                                 color="success",
+                                disabled=True,
                                 n_clicks=0,
                                 id="add-gap",
                             ),

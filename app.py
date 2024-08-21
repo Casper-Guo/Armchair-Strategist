@@ -183,6 +183,14 @@ def enable_load_session(season: int | None, event: str | None, session: str | No
 
 
 @callback(
+    Output("add-gap", "disabled"), Input("load-session", "n_clicks"), prevent_initial_call=True
+)
+def enable_add_gap(n_clicks: int) -> bool:
+    """Enable the add-gap button after a session has been loaded."""
+    return n_clicks == 0
+
+
+@callback(
     Output("session-info", "data"),
     Input("load-session", "n_clicks"),
     State("season", "value"),
