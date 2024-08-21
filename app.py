@@ -15,6 +15,9 @@ from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
 from f1_visualization.plotly_dash.layout import app_layout, line_y_options, scatter_y_options
 from f1_visualization.visualization import get_session_info, load_laps
 
+# Silent SettingWithCopyWarning
+pd.options.mode.chained_assignment = None
+
 Session_info: TypeAlias = tuple[int, str, list[str]]
 
 # must not be modified
