@@ -96,10 +96,13 @@ The dashboard and visualizations in this README are updated every Monday at midn
 </details>
 
 ## Build
-Build with `pip install -e .` Using a virtual environment is recommended.
+Build with `pip install -e .` Using a Python virtual environment is highly recommended.
 
 ## [Dashboard](www.armchair-strategist.dev)
-Run dashboard locally with `python3 app.py`
+Run dashboard locally with `python3 app.py`. Debug mode can be enabled by setting `app.run(debug=True)` in `app.py`.
+
+## Contributing
+You should install pre-commit hooks with `pre-commit install`.
 
 ## Data Source
 
