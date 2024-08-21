@@ -1,0 +1,38 @@
+name: Dashboard Bug Report
+description: Report a bug.
+title: "[BUG] <Please write a descriptive title here>"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file a bug report. Before you create a new issue, please check the issue section to see if there is already an issue discussing your problem.
+
+  - type: textarea
+    attributes:
+      label: "Your operating system:"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "The browser you are using to view the dashboard:"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Describe the bug:"
+      description: >
+        Please describe the bug you are experienceing and the behavior you expected
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce:"
+      description: >
+        A step-by-step description of how to reliably reproduce the bug you are seeing.
+        Please provide the input you used and the sequence of button presses.
+    validations:
+      required: true
