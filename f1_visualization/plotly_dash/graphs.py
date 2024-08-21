@@ -261,7 +261,7 @@ def stats_distplot(
                     boxpoints="outliers",
                     pointpos=0,
                     fillcolor=pick_driver_color(driver),
-                    line={"color": "dimgray"},
+                    line={"color": "lightslategray"},
                     name=driver,
                     showwhiskers=True,
                 )
@@ -271,9 +271,10 @@ def stats_distplot(
                 go.Violin(
                     y=driver_laps["LapTime"],
                     fillcolor=pick_driver_color(driver),
-                    line={"color": pick_driver_color(driver)},
+                    line={"color": "lightslategray"},
+                    meanline_visible=True,
                     name=driver,
-                    opacity=1,
+                    opacity=0.9,
                 )
             )
 
@@ -306,7 +307,7 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
         tyre_life_range = tyre_life_range[tyre_life_range >= 3].index
 
         # use the max instead of the length because tyre life range is
-        # not guarenteed to start at 0
+        # not guaranteed to start at 0
         max_stint_length = max(max_stint_length, tyre_life_range.max())
         median_LRT = compound_laps.groupby("TyreLife")[y].median(numeric_only=True)  # noqa: N806
         median_LRT = median_LRT.loc[tyre_life_range]  # noqa: N806
