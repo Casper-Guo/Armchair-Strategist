@@ -255,7 +255,7 @@ def get_session_laps(
 def set_driver_dropdowns(session_info: Session_info):
     """Configure driver dropdowns."""
     drivers = session_info[2]
-    return drivers, drivers, False, drivers, None, False
+    return drivers, drivers, False, drivers, [], False
 
 
 @callback(
