@@ -287,15 +287,16 @@ def set_y_axis_dropdowns(
 
 @callback(
     Output("compounds", "options"),
+    Output("compounds", "value"),
     Output("compounds", "disabled"),
     Input("laps", "data"),
     prevent_initial_call=True,
 )
-def set_compounds_dropdown(data: dict) -> tuple[list[dict], bool]:
+def set_compounds_dropdown(data: dict) -> tuple[list[dict], list, bool]:
     """Update compound plot dropdown options based on the laps dataframe."""
     # exploit how Pandas dataframes are converted to dictionaries
     # avoid having to construct a new dataframe
-    return style_compound_options(set(data["Compound"].values())), False
+    return style_compound_options(set(data["Compound"].values())), [], False
 
 
 @callback(
