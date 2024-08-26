@@ -117,7 +117,7 @@ def strategy_barplot(
         template="plotly_dark",
         xaxis={
             "tickmode": "array",
-            "tickvals": list(range(5, num_laps, 5)),
+            "tickvals": list(range(5, int(num_laps), 5)),
             "title": "Lap Number",
         },
         yaxis={"type": "category"},
@@ -231,7 +231,7 @@ def stats_lineplot(
         template="plotly_dark",
         xaxis={
             "tickmode": "array",
-            "tickvals": list(range(5, num_laps, 5)),
+            "tickvals": list(range(5, int(num_laps), 5)),
             "title": "Lap Number",
         },
         yaxis_title=y,
@@ -332,7 +332,7 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
         template="plotly_dark",
         xaxis={
             "tickmode": "array",
-            "tickvals": list(range(5, max_stint_length, 5)),
+            "tickvals": list(range(5, int(max_stint_length), 5)),
             "title": "Tyre Age",
         },
         yaxis_title=yaxis_title,
