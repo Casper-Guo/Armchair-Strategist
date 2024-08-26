@@ -554,7 +554,12 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         df_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"].median().round(decimals=3)
     )
 
-    df_laps = df_laps.merge(lap_reps, on=["RoundNumber", "LapNumber"], suffixes=(None, "_Rep"))
+    df_laps = df_laps.merge(
+        lap_reps,
+        on=["RoundNumber", "LapNumber"],
+        suffixes=(None, "_Rep"),
+        validate="many_to_one",
+    )
 
     df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
     df_laps["PctFromLapRep"] = (
@@ -678,7 +683,7 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
         add_is_valid(df_transform)
         add_rep_deltas(df_transform)
         add_fastest_deltas(df_transform)
-        add_lap_rep_deltas(df_transform)
+        df_transform = add_lap_rep_deltas(df_transform)
 
         path = (
             DATA_PATH
