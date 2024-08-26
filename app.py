@@ -83,7 +83,7 @@ def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, 
         df = pd.DataFrame.from_dict(data)
         num_laps = df["LapNumber"].max()
 
-    marks = {i: str(i) for i in [1] + list(range(5, num_laps + 1, 5))}
+    marks = {i: str(i) for i in [1] + list(range(5, int(num_laps + 1), 5))}
     return num_laps, [1, num_laps], marks
 
 
