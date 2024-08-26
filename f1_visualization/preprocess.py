@@ -298,8 +298,8 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
         df = read_csv(file)
 
         if data_type == "all":
-            correct_dtype(df)
-            fill_compound(df)
+            df = correct_dtype(df)
+            df = fill_compound(df)
 
         df_dict[season][session][data_type] = df
 
@@ -448,25 +448,11 @@ def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
     Requires:
         df_laps has the following columns: [`IsSlick`, `IsAccurate`, `TrackStatus`]
     """
-
-    def check_lap_valid(row):
-        return row.loc["IsSlick"] and row.loc["IsAccurate"] and row.loc["TrackStatus"] == 1
-
-    df_laps["IsValid"] = df_laps.apply(check_lap_valid, axis=1)
+    df_laps["IsValid"] = (
+        (df_laps["IsSlick"]) & (df_laps["IsAccurate"]) & (df_laps["TrackStatus"] == 1)
+    )
 
     return df_laps
-
-
-def find_rep_times(df_laps: pd.DataFrame) -> dict[int, float]:
-    """
-    Find the medians of all valid laptimes by round number.
-
-    Requires:
-        df_laps has the following columns: [`RoundNumber`, `IsValid`, `LapTime`]
-    """
-    eligible_laps = df_laps[df_laps["IsValid"]]
-
-    return eligible_laps.groupby("RoundNumber")["LapTime"].median().round(decimals=3).to_dict()
 
 
 def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -481,34 +467,22 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
     """
-    rep_times = find_rep_times(df_laps)
+    rep_times = (
+        df_laps[df_laps["IsValid"]].groupby("RoundNumber")["LapTime"].median().round(decimals=3)
+    )
+    df_laps = df_laps.merge(
+        rep_times,
+        on="RoundNumber",
+        suffixes=(None, "_Rep"),
+        validate="many_to_one",
+    )
 
-    def delta_to_rep(row):
-        return row.loc["LapTime"] - rep_times[row.loc["RoundNumber"]]
+    df_laps["DeltaToRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
+    df_laps["PctFromRep"] = (
+        (df_laps["LapTime"] - df_laps["LapTime_Rep"]) / df_laps["LapTime_Rep"] * 100
+    ).round(decimals=3)
 
-    def pct_from_rep(row):
-        delta = row.loc["LapTime"] - rep_times[row.loc["RoundNumber"]]
-        return round(delta / rep_times[row.loc["RoundNumber"]] * 100, 3)
-
-    df_laps["DeltaToRep"] = df_laps.apply(delta_to_rep, axis=1)
-    df_laps["PctFromRep"] = df_laps.apply(pct_from_rep, axis=1)
-
-    return df_laps
-
-
-def find_fastest_times(df_laps: pd.DataFrame) -> dict[int, float]:
-    """
-    Find the fastest, non-deleted lap times by round.
-
-    The fastest lap time per round is inferred by taking the min of
-    individual drivers' fastest laps, which already exclude deleted lap times.
-
-    Requires:
-        df_laps has the following columns: [`RoundNumber`, `IsPersonalBest`, `LapTime`]
-    """
-    eligible_laps = df_laps[df_laps["IsPersonalBest"]]
-
-    return eligible_laps.groupby("RoundNumber")["LapTime"].min().to_dict()
+    return df_laps.drop(columns=["LapTime_Rep"])
 
 
 def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -523,19 +497,20 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
     """
-    fastest_times = find_fastest_times(df_laps)
+    fastest_times = df_laps[df_laps["IsPersonalBest"]].groupby("RoundNumber")["LapTime"].min()
+    df_laps = df_laps.merge(
+        fastest_times,
+        on="RoundNumber",
+        suffixes=(None, "_Fastest"),
+        validate="many_to_one",
+    )
 
-    def delta_to_fastest(row):
-        return row.loc["LapTime"] - fastest_times[row.loc["RoundNumber"]]
+    df_laps["DeltaToFastest"] = df_laps["LapTime"] - df_laps["LapTime_Fastest"]
+    df_laps["PctFromFastest"] = (
+        (df_laps["LapTime"] - df_laps["LapTime_Fastest"]) / df_laps["LapTime_Fastest"] * 100
+    ).round(decimals=3)
 
-    def pct_from_fastest(row):
-        delta = row.loc["LapTime"] - fastest_times[row.loc["RoundNumber"]]
-        return round(delta / fastest_times[row.loc["RoundNumber"]] * 100, 3)
-
-    df_laps["DeltaToFastest"] = df_laps.apply(delta_to_fastest, axis=1)
-    df_laps["PctFromFastest"] = df_laps.apply(pct_from_fastest, axis=1)
-
-    return df_laps
+    return df_laps.drop(columns=["LapTime_Fastest"])
 
 
 def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -557,19 +532,16 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     df_laps = df_laps.merge(
         lap_reps,
         on=["RoundNumber", "LapNumber"],
-        suffixes=(None, "_Rep"),
+        suffixes=(None, "_LapRep"),
         validate="many_to_one",
     )
 
-    df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
+    df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_LapRep"]
     df_laps["PctFromLapRep"] = (
-        (df_laps["LapTime"] - df_laps["LapTime_Rep"]) / df_laps["LapTime_Rep"] * 100
+        (df_laps["LapTime"] - df_laps["LapTime_LapRep"]) / df_laps["LapTime_LapRep"] * 100
     ).round(decimals=3)
 
-    # all data engineering functions fully modify the dataframe in addition to returning them
-    # this is so this function can be called similarly to others in transform
-    df_laps = df_laps.drop(columns=["LapTime_Rep"])
-    return df_laps  # noqa: RET504
+    return df_laps.drop(columns=["LapTime_LapRep"])
 
 
 def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> pd.DataFrame:
@@ -674,15 +646,15 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
     df_transform = find_diff(season, dfs, session_type)
 
     if df_transform.shape[0] != 0:
-        add_is_slick(season, df_transform)
-        add_compound_name(df_transform, COMPOUND_SELECTION[str(season)], season)
+        df_transform = add_is_slick(season, df_transform)
+        df_transform = add_compound_name(df_transform, COMPOUND_SELECTION[str(season)], season)
 
         if season == 2018:
-            convert_compound(df_transform)
+            df_transform = convert_compound(df_transform)
 
-        add_is_valid(df_transform)
-        add_rep_deltas(df_transform)
-        add_fastest_deltas(df_transform)
+        df_transform = add_is_valid(df_transform)
+        df_transform = add_rep_deltas(df_transform)
+        df_transform = add_fastest_deltas(df_transform)
         df_transform = add_lap_rep_deltas(df_transform)
 
         path = (
