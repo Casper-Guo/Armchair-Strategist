@@ -282,7 +282,7 @@ def set_y_axis_dropdowns(
         scatter_y_options + gap_col_options,
         line_y_options + gap_col_options,
         "LapTime",
-        "LapTime",
+        "Position",
     )
 
 
