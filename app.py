@@ -1,5 +1,6 @@
 """Dash app layout and callbacks."""
 
+from collections import Counter
 from pathlib import Path
 from typing import Iterable, TypeAlias
 
@@ -296,7 +297,13 @@ def set_compounds_dropdown(data: dict) -> tuple[list[dict], list, bool]:
     """Update compound plot dropdown options based on the laps dataframe."""
     # exploit how Pandas dataframes are converted to dictionaries
     # avoid having to construct a new dataframe
-    return style_compound_options(set(data["Compound"].values())), [], False
+    compound_lap_count = Counter(data["Compound"].values())
+    eligible_compounds = [
+        compound
+        for compound, count in compound_lap_count.items()
+        if count >= (compound_lap_count.total() // 20)
+    ]
+    return style_compound_options(eligible_compounds), [], False
 
 
 @callback(
