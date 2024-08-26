@@ -258,7 +258,8 @@ compound_plot_caveats = dbc.Alert(
         ),
         html.Hr(),
         html.P(
-            "Only compounds that completed at least one sixth of all laps are shown. "
+            # 5% is estimated as three drivers each completing one third race length
+            "Only compounds that completed at least 5% of all laps can be shown. "
             "Outlier laps are filtered out."
         ),
         html.Hr(),
