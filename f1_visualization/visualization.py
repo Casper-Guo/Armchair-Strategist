@@ -832,7 +832,7 @@ def driver_stats_distplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Optional[Iterable[str | int] | str | int] = 10,
+    drivers: Optional[Iterable[str | int] | str | int] = None,
     y: str = "LapTime",
     upper_bound: float | int = 10,
     swarm: bool = True,
@@ -852,7 +852,7 @@ def driver_stats_distplot(
         session_type: Follow Fastf1 session identifier convention.
 
         drivers: See `get_drivers` for all accepted formats.
-        By default, the point finishers are plotted.
+        By default, all drivers are plotted.
 
         y: Name of the column to be used as the y-axis.
 
