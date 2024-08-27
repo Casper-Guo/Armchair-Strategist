@@ -264,12 +264,12 @@ def pick_driver_color(driver: str) -> str:
     Find the driver's color.
 
     If the driver is currently active, use his FastF1 color.
-    Else, default to CSS slate gray.
+    Else, default to CSS dark slate gray.
     """
     if p.DRIVER_TRANSLATE.get(driver, "NA") in p.DRIVER_COLORS:
         return p.DRIVER_COLORS[p.DRIVER_TRANSLATE[driver]]
 
-    return "#778899"
+    return "#2F4F4F"
 
 
 def add_gap(
