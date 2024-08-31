@@ -45,8 +45,7 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     ].apply(pd.to_timedelta)
 
     # TrackStatus column makes more sense as strings
-
-    assert df_laps.dtypes["TrackStatus"] == int
+    assert df_laps.dtypes["TrackStatus"] == np.int64
     df_laps["TrackStatus"] = df_laps["TrackStatus"].astype(str)
 
     # Fill FreshTyre column NAs with "Unknown"
