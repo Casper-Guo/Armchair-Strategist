@@ -317,6 +317,10 @@ compound_plot_tab = dbc.Tab(
 
 external_links = dbc.Alert(
     [
+        "Made by ",
+        html.A("Casper Guo", href="https://casper-guo.dev", className="alert-link"),
+        " ✌️",
+        html.Hr(),
         "All data provided by ",
         html.A(
             "FastF1",
