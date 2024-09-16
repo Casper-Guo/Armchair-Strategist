@@ -214,7 +214,11 @@ def get_session_metadata(
 
     Can assume that season, event, and session are all set (not None).
     """
-    return get_session_info(season, event, session, teammate_comp=teammate_comp)
+    round_number, event_name, drivers = get_session_info(
+        season, event, session, teammate_comp=teammate_comp
+    )
+    event_name = f"{season} {event_name}"
+    return round_number, event_name, drivers
 
 
 @callback(
