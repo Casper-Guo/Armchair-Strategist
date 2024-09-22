@@ -376,7 +376,7 @@ def add_compound_name(
                 row.loc["RoundNumber"],
             )
 
-            assert False
+            raise OutdatedTOMLError
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)
 
