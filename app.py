@@ -1,5 +1,6 @@
 """Dash app layout and callbacks."""
 
+import warnings
 from collections import Counter
 from pathlib import Path
 from typing import Iterable, TypeAlias
@@ -18,6 +19,9 @@ from f1_visualization.visualization import get_session_info, load_laps
 
 # Silent SettingWithCopyWarning
 pd.options.mode.chained_assignment = None
+
+# Silent Fastf1 FutureWarning regarding the use of plotting functions
+warnings.filterwarnings(action="ignore", message="Driver", category=FutureWarning)
 
 Session_info: TypeAlias = tuple[int, str, list[str]]
 
