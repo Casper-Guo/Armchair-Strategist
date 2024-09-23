@@ -338,9 +338,16 @@ external_links = dbc.Alert(
     color="info",
 )
 
+warning_2022 = dbc.Alert(
+    "2022 season data availability is sporadic due to an issue with the upstream API",
+    color="danger",
+    dismissable=True,
+)
+
 app_layout = dbc.Container(
     [
         html.H1("Armchair Strategist"),
+        dbc.Row(warning_2022),
         session_picker_row,
         dcc.Store(id="event-schedule"),
         dcc.Store(id="session-info"),
