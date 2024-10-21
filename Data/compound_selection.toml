@@ -160,7 +160,7 @@
 
 [2024]
 # Source
-# https://press.pirelli.com/a-soft-september-for-pirelli-in-f1-compounds-confirmed-for-monza-baku-and-singapore/
+# https://press.pirelli.com/these-are-the-tyres-for-the-americas/
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -180,3 +180,6 @@
 16 = ["C3","C4","C5"]
 17 = ["C3","C4","C5"]
 18 = ["C3","C4","C5"]
+19 = ["C2","C3","C4"]
+20 = ["C3","C4","C5"]
+21 = ["C3","C4","C5"]
