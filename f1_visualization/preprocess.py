@@ -472,6 +472,7 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     )
     df_laps = df_laps.merge(
         rep_times,
+        how="left",
         on="RoundNumber",
         suffixes=(None, "_Rep"),
         validate="many_to_one",
