@@ -1,5 +1,6 @@
 name: Dashboard Feature Request
 description: Please submit your ideas for improving FastF1 here.
+labels: ["enhancement"]
 title: "[ENH] <Please write a descriptive title here>"
 
 body:

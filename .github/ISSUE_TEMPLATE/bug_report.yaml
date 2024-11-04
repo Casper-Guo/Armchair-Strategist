@@ -1,5 +1,6 @@
 name: Dashboard Bug Report
 description: Report a bug.
+labels: ["bug"]
 title: "[BUG] <Please write a descriptive title here>"
 
 body:
