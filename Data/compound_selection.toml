@@ -160,7 +160,7 @@
 
 [2024]
 # Source
-# https://press.pirelli.com/these-are-the-tyres-for-the-americas/
+# https://press.pirelli.com/all-compounds-on-track-to-end-the-season/
 
 1  = ["C1","C2","C3"]
 2  = ["C2","C3","C4"]
@@ -183,3 +183,6 @@
 19 = ["C2","C3","C4"]
 20 = ["C3","C4","C5"]
 21 = ["C3","C4","C5"]
+22 = ["C3","C4","C5"]
+23 = ["C1","C2","C3"]
+24 = ["C3","C4","C5"]
