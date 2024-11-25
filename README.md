@@ -51,12 +51,12 @@ The dashboard and visualizations in this README are updated every Monday at midn
     <summary>
         <b>Podium Finishers Gap to Winner</b>
     </summary>
-    <img src="Docs/visuals/podium_gap.png">
+    <img src="Docs/visuals/podium_gap.png" alt="podium gap">
     <details>
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>f1_visualization/readme_machine.py</code>
+        <code>driver_stats_lineplot(season, event, drivers=3)</code>
     </details>
 </details>
 
@@ -65,7 +65,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <b>Teammate Pace Comparisons</b>
     </summary>
     Boxplot visualization:
-    <img src="Docs/visuals/teammate_box.png">
+    <img src="Docs/visuals/teammate_box.png" alt="teammate pace boxplot">
     <details>
         <summary>
             <b>Function call:</b>
@@ -73,7 +73,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True, drivers=20)</code>
     </details>
     Violinplot with all laptimes:
-    <img src="Docs/visuals/teammate_violin.png">
+    <img src="Docs/visuals/teammate_violin.png" alt="teammate pace violinplot">
     <details>
         <summary>
             <b>Function call:</b>
@@ -84,9 +84,22 @@ The dashboard and visualizations in this README are updated every Monday at midn
 
 <details>
     <summary>
-        <b>Team Pace Comparisons</b>
+        <b>Driver Pace Comparison</b>
     </summary>
-    <img src="Docs/visuals/team_pace.png">
+    <img src="Docs/visuals/driver_pace.png" alt="driver pace comparison">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>driver_stats_distplot(season, event, violin=True, swarm=True, teammate_comp=False, drivers=20)</code>
+    </details>
+</details>
+
+<details>
+    <summary>
+        <b>Team Pace Ranking</b>
+    </summary>
+    <img src="Docs/visuals/team_pace.png" alt="team pace comparison">
     <details>
         <summary>
             <b>Function call:</b>
