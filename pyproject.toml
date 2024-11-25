@@ -9,7 +9,7 @@ dependencies = [
     "fastf1 >= 3.4.4",
     "pandas >= 1.5.0",
     "matplotlib >= 3.7.0",
-    "numpy >= 1.26.0, < 2.0.0",
+    "numpy >= 1.26.0",
     "seaborn >= 0.13.0",
     "tomli >= 2.0.0",
     "tomli-w >= 1.0.0",
@@ -79,6 +79,8 @@ select = [
     "ERA",
     # pandas-vet
     "PD",
+    # Numpy
+    "NPY",
 ]
 
 ignore = ["D211", "D212", "PD901", "PTH123"]
