@@ -25,7 +25,6 @@ DOC_VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
 mpl.use("Agg")
 sns.set_theme(rc={"figure.dpi": 300, "savefig.dpi": 300})
 plt.style.use("dark_background")
-COMPLETED_ROUND = get_last_round_number()
 
 # Suppress pandas SettingWithCopy warning
 pd.options.mode.chained_assignment = None
@@ -37,7 +36,7 @@ warnings.filterwarnings("ignore")
 
 @click.command()
 @click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
-@click.argument("round_number", nargs=1, default=COMPLETED_ROUND, type=int)
+@click.argument("round_number", nargs=1, default=None, type=int)
 @click.option(
     "--grand-prix/--sprint-race",
     "-g",
@@ -49,6 +48,10 @@ warnings.filterwarnings("ignore")
 def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     """Make the README suite of visualizations."""
     global DOC_VISUALS_PATH
+
+    if round_number is None:
+        round_number = get_last_round_number()
+
     session_type = "R" if grand_prix else "S"
     session = f.get_session(season, round_number, session_type)
     session.load(telemetry=False, weather=False, messages=False)
