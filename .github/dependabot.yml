@@ -2,13 +2,23 @@ version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
+    target-branch: "main"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 5
-    reviewers:
-      - "dependabot[bot]"
+    open-pull-requests-limit: 10
     labels:
       - "dependencies"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+  # The following is a hack to enable checking for fastf1 patch releases!
+  # See https://github.com/dependabot/dependabot-core/issues/1778
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 1
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-name: "fastf1"
