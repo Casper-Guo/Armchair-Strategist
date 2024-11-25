@@ -92,12 +92,14 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         y=f"GapTo{race_winner}",
         grid="both",
     )
+    plt.tight_layout()
     plt.savefig(dest / "podium_gap.png")
 
     logger.info("Making lap time graph...")
     viz.driver_stats_scatterplot(
         season=season, event=round_number, session_type=session_type, drivers=10
     )
+    plt.tight_layout()
     plt.savefig(dest / "laptime.png")
 
     logger.info("Making strategy graph...")
@@ -106,6 +108,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         event=round_number,
         session_type=session_type,
     )
+    plt.tight_layout()
     plt.savefig(dest / "strategy.png")
 
     logger.info("Making position change graph...")
@@ -114,6 +117,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         event=round_number,
         session_type=session_type,
     )
+    plt.tight_layout()
     plt.savefig(dest / "position.png")
 
     logger.info("Making teammate comparison boxplot...")
@@ -125,6 +129,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         swarm=False,
         teammate_comp=True,
     )
+    plt.tight_layout()
     plt.savefig(dest / "teammate_box.png")
 
     logger.info("Making teammate comp violinplot...")
@@ -135,7 +140,18 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
         teammate_comp=True,
         upper_bound=7,
     )
+    plt.tight_layout()
     plt.savefig(dest / "teammate_violin.png")
+
+    logger.info("Making driver pace plot...")
+    viz.driver_stats_distplot(
+        season=season,
+        event=round_number,
+        session_type=session_type,
+        upper_bound=7,
+    )
+    plt.tight_layout()
+    plt.savefig(dest / "driver_pace.png")
 
     # use basic fastf1 to make team pace comparison plot
     logger.info("Making team pace comparison graph...")
@@ -169,6 +185,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     plt.title(f"{CURRENT_SEASON} {event_name}")
     plt.grid(visible=False)
     ax.set(xlabel=None)
+    plt.tight_layout()
     plt.savefig(dest / "team_pace.png")
 
     # Copy the visualizations
