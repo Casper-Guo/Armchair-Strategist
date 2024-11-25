@@ -30,7 +30,7 @@ build-backend = "setuptools.build_meta"
 packages = ["f1_visualization"]
 
 [tool.ruff]
-include = ["f1_visualization/*.py", "app.py"]
+include = ["f1_visualization/*.py", "./*.py"]
 line-length = 96
 indent-width = 4
 
