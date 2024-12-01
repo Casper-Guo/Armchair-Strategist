@@ -36,7 +36,7 @@ warnings.filterwarnings("ignore")
 
 @click.command()
 @click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
-@click.argument("round_number", nargs=1, default=None, type=int)
+@click.argument("round_number", nargs=1, default=-1, type=int)
 @click.option(
     "--grand-prix/--sprint-race",
     "-g",
@@ -49,7 +49,7 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     """Make the README suite of visualizations."""
     global DOC_VISUALS_PATH
 
-    if round_number is None:
+    if round_number == -1:
         round_number = get_last_round_number()
 
     session_type = "R" if grand_prix else "S"
