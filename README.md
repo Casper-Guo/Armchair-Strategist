@@ -70,7 +70,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True, drivers=20)</code>
+        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True)</code>
     </details>
     Violinplot with all laptimes:
     <img src="Docs/visuals/teammate_violin.png" alt="teammate pace violinplot">
@@ -78,7 +78,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True, drivers=20)</code>
+        <code>driver_stats_distplot(season, event, teammate_comp=True)</code>
     </details>
 </details>
 
@@ -91,7 +91,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event, violin=True, swarm=True, teammate_comp=False, drivers=20)</code>
+        <code>driver_stats_distplot(season, event)</code>
     </details>
 </details>
 
