@@ -54,8 +54,8 @@ def main():
         {
             "image_path": VISUALS_PATH / "laptime.png",
             "caption": (
-                "Point finishers' lap times. White vertical bars represent pitstops. ",
-                f"{dashboard_link}",
+                "Point finishers' lap times. White vertical bars represent pitstops. "
+                f"{dashboard_link}"
             ),
         },
         {
