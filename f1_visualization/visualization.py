@@ -351,7 +351,7 @@ def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: st
         else:
             for driver in teammates:
                 if driver in drivers_to_plot:
-                    team_median_gaps.append([tuple([driver]), 0])
+                    team_median_gaps.append([tuple(driver), 0])
                 else:
                     logger.warning(
                         "%s has less than 5 laps of data and will not be plotted",
