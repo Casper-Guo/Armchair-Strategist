@@ -35,7 +35,7 @@ def get_sprint_rounds(season: int) -> set[int]:
 
 
 class OutdatedTOMLError(Exception):  # noqa: N801
-    """Raised when Data/compound_selection.toml is not up to date."""  # noqa: D203
+    """Raised when Data/compound_selection.toml is not up to date."""
 
 
 def get_session(
@@ -124,8 +124,7 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     if session_type == "S":
         all_rounds = sprint_rounds[season].intersection(all_rounds)
 
-    missing_rounds = all_rounds.difference(loaded_rounds)
-    missing_rounds = sorted(list(missing_rounds))
+    missing_rounds = sorted(all_rounds.difference(loaded_rounds))
 
     if not missing_rounds:
         logger.info("%d season is already up to date.", season)
@@ -376,7 +375,7 @@ def add_compound_name(
                 row.loc["RoundNumber"],
             )
 
-            raise OutdatedTOMLError
+            raise OutdatedTOMLError from KeyError
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)
 
