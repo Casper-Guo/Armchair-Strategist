@@ -123,6 +123,19 @@ app.layout = app_layout
 
 
 @callback(
+    Output("season", "options"),
+    # a hack because all Dash callbacks require inputs
+    # no other callbacks modify this value so we expect
+    # this callback to be fired only once on initialization
+    Input("season", "placeholder"),
+)
+def set_season_options(_: str) -> list[int]:
+    """Get the list of seasons with available data."""
+    # dictionaries keys are returned in an unknown order
+    return sorted(DF_DICT.keys(), reverse=True)
+
+
+@callback(
     Output("event", "options"),
     Output("event", "value"),
     Output("event-schedule", "data"),
@@ -139,7 +152,8 @@ def set_event_options(
     schedule = f.get_event_schedule(season, include_testing=False)
 
     if season == CURRENT_SEASON:
-        # only include events for which we have processed data
+        # Do not have to worry about a keyerror here because a season
+        # can only be chosen from the dropdown if it is a key in DF_DICT
         last_round = DF_DICT[CURRENT_SEASON]["R"]["RoundNumber"].max()
         schedule = schedule[schedule["RoundNumber"] <= last_round]
 
