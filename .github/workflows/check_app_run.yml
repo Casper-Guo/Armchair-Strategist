@@ -11,4 +11,4 @@ jobs:
       uses: JJ/github-pr-contains-action@releases/v14.1
       with:
         github-token: ${{github.token}}
-        diffDoesNotContain: "app.run(debug=True)"
+        diffDoesNotContain: "debug=True"
