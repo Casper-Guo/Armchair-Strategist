@@ -3,8 +3,6 @@
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
-from f1_visualization._consts import CURRENT_SEASON
-
 
 def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:
     """Generate generic slider for setting upper bound."""
@@ -30,7 +28,7 @@ session_picker_row = dbc.Row(
     [
         dbc.Col(
             dcc.Dropdown(
-                options=list(range(CURRENT_SEASON, 2017, -1)),
+                options=[],
                 placeholder="Select a season",
                 value=None,
                 id="season",
