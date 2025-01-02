@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 import tomli
@@ -5,7 +6,7 @@ import tomli
 ROOT_PATH = Path(__file__).absolute().parents[1]
 DATA_PATH = ROOT_PATH / "Data"
 
-CURRENT_SEASON = 2024
+CURRENT_SEASON = datetime.now().year  # noqa: DTZ005
 
 # Number of completed rounds in the current season is computed dynamically
 # Calculating this from fastf1 event schedule is non-trivial due to cancelled races
