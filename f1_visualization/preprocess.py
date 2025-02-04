@@ -49,7 +49,7 @@ def get_session(
             if season in sprint_rounds and round_number in sprint_rounds[season]:
                 return f.get_session(season, round_number, session_type)
         case _:
-            raise ValueError("%s is not a supported session identifier", session_type)
+            raise ValueError(f"{session_type} is not a supported session identifier")
 
     return None
 
@@ -367,15 +367,14 @@ def add_compound_name(
             return season_selection[str(row.loc["RoundNumber"])][
                 compound_to_index[row.loc["Compound"]]
             ]
-        except KeyError:
+        except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
-            logger.error(
-                "Compound selection record is missing for %d season round %d",
-                season,
-                row.loc["RoundNumber"],
-            )
-
-            raise OutdatedTOMLError from KeyError
+            raise OutdatedTOMLError(
+                (
+                    "Compound selection record is missing for "
+                    f"{season} season round {row.loc['RoundNumber']}"
+                )
+            ) from exc
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)
 
@@ -423,12 +422,12 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
             ]
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
-            logger.error(
-                "Compound selection record is missing for 2018 season round %d",
-                row.loc["RoundNumber"],
-            )
-
-            raise OutdatedTOMLError from exc
+            raise OutdatedTOMLError(
+                (
+                    "Compound selection record is missing for 2018 season round "
+                    f"{row.loc['RoundNumber']}"
+                )
+            ) from exc
 
     df_laps["Compound"] = df_laps.apply(convert_helper, axis=1)
 
@@ -693,10 +692,14 @@ def main() -> int:
         for session_type, session_name in SESSION_IDS.items():
             path = DATA_PATH / session_name / f"all_{session_name}_laps_{season}.csv"
 
-            if Path.is_file(path):
-                update_data(season, path, session_type, sprint_rounds)
-            else:
-                load_all_data(season, path, session_type, sprint_rounds)
+            try:
+                if Path.is_file(path):
+                    update_data(season, path, session_type, sprint_rounds)
+                else:
+                    load_all_data(season, path, session_type, sprint_rounds)
+            except OutdatedTOMLError as exc:
+                # exc carries info about the first round number with missing compound info
+                logger.warning("%s. All later rounds of the same season are not loaded", exc)
 
     # Suppress SettingWithCopy Warning
     pd.options.mode.chained_assignment = None
