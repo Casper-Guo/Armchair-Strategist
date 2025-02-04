@@ -36,20 +36,32 @@ handle_failure() {
 trap handle_failure ERR
 trap handle_failure SIGTERM
 
+if [ $# -eq 1 ]; then
+  if [ "$1" != "-g" ] && [ "$1" != "-s" ]; then
+    echo "Error: Invalid flag for readme_machine.py."
+    echo "Error: Use -g for grand prix and -s for sprint."
+    exit 1
+  fi
+  flag="$1"
+else
+  flag="-g"
+fi
+
 source ./env/bin/activate 2>/dev/null
 UTC=$(date)
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
 pkill -cef gunicorn || true
 
 python3 f1_visualization/preprocess.py
-python3 f1_visualization/readme_machine.py --update-readme >/dev/null
-git add .
-git commit -m "Automatic data refresh" || true # ignore non-zero exit status when there's no diff on main
 
-# post to Reddit when there is new graphics available
-# -uno is not three separate options, rather it is really -u no which removes untracked files from output
-if git status -uno | grep -q "Your branch is ahead"; then
-    python3 reddit_machine.py
+# update README and commit if there are unstaged changes
+if [[ -n "$(git status -s)" ]]; then
+  python3 readme_machine.py --update-readme "$flag" >/dev/null
+  git add .
+  git commit -m "Automatic data refresh"
+
+  # post to Reddit when there is new graphics available
+  python3 reddit_machine.py
 fi
 
 ./Automation/auto-push.exp -d 2>./Automation/auto-push.log
