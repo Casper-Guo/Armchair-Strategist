@@ -23,7 +23,7 @@ pd.options.mode.chained_assignment = None
 # Silent Fastf1 FutureWarning regarding the use of plotting functions
 warnings.filterwarnings(action="ignore", message="Driver", category=FutureWarning)
 
-Session_info: TypeAlias = tuple[int, str, list[str]]
+Session_info: TypeAlias = tuple[int, str, tuple[str]]
 
 # must not be modified
 DF_DICT = load_laps()

@@ -1,6 +1,7 @@
 """Plotting functions and other visualization helpers."""
 
 import logging
+from functools import lru_cache
 from math import ceil
 from typing import Iterable, Literal, Optional
 
@@ -215,13 +216,22 @@ def get_drivers(
     return ret
 
 
+# From 2018 to the end of 2025, there will be roughly 256 total race-like sessions.
+# This is equivalent to the number of possible combinations of (season, event, session_type)
+# inputs as the dashboard sanitizes and blocks requests for non-existent sessions.
+
+
+# The function returns one small integer, one string of about 20 characters, and 20 strings
+# of 3 characters each for a total of around 168 bytes. The size of the input is roughly
+# equivalent. So the total size of the cache is well less than 1 MB.
+@lru_cache(maxsize=256)
 def get_session_info(
     season: int,
     event: int | str,
     session_type: str,
-    drivers: Optional[Iterable[str | int] | str | int] = None,
+    drivers: Optional[tuple[str | int] | str | int] = None,
     teammate_comp: bool = False,
-) -> tuple[int, str, list[str]]:
+) -> tuple[int, str, tuple[str]]:
     """
     Retrieve session information based on season, event number/name, and session identifier.
 
@@ -251,7 +261,7 @@ def get_session_info(
     else:
         drivers = get_drivers(session, drivers)
 
-    return round_number, event_name, drivers
+    return round_number, event_name, tuple(drivers)
 
 
 def pick_driver_color(driver: str) -> str:
@@ -319,7 +329,9 @@ def add_gap(
     return df_laps
 
 
-def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: str) -> list[str]:
+def _teammate_comp_order(
+    included_laps: pd.DataFrame, drivers: tuple[str], by: str
+) -> tuple[str]:
     """
     Reorder teammates by the median gap in some metric in descending order.
 
@@ -361,7 +373,7 @@ def _teammate_comp_order(included_laps: pd.DataFrame, drivers: list[str], by: st
     drivers = [driver for team in team_median_gaps for driver in team[0]]
     drivers.extend(standout)
 
-    return drivers
+    return tuple(drivers)
 
 
 def _lap_filter_sc(row: pd.Series) -> bool:
@@ -621,7 +633,7 @@ def driver_stats_scatterplot(
     }
 
     round_number, event_name, drivers = get_session_info(
-        season, event, session_type, drivers, teammate_comp
+        season, event, session_type, tuple(drivers), teammate_comp
     )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
@@ -749,7 +761,9 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
+    round_number, event_name, drivers = get_session_info(
+        season, event, session_type, tuple(drivers)
+    )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
@@ -868,7 +882,7 @@ def driver_stats_distplot(
     plt.style.use("dark_background")
 
     round_number, event_name, drivers = get_session_info(
-        season, event, session_type, drivers, teammate_comp
+        season, event, session_type, tuple(drivers), teammate_comp
     )
 
     included_laps = DF_DICT[season][session_type]
@@ -966,7 +980,9 @@ def strategy_barplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
+    round_number, event_name, drivers = get_session_info(
+        season, event, session_type, tuple(drivers)
+    )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
