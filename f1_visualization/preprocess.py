@@ -168,47 +168,6 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     return
 
 
-def read_csv(path: Path) -> pd.DataFrame:
-    """
-    Read csv file at path location and filter for relevant columns.
-
-    Requires:
-        csv file located at path location is derived from a fastf1 laps object.
-
-    Args:
-        path: The path to the csv file containing partial season data.
-
-    Returns:
-        A pandas dataframe object.
-    """
-    return pd.read_csv(
-        path,
-        header=0,
-        true_values=["TRUE"],
-        false_values=["FALSE"],
-        usecols=[
-            "Time",
-            "DriverNumber",
-            "LapTime",
-            "LapNumber",
-            "Stint",
-            "PitOutTime",
-            "PitInTime",
-            "IsPersonalBest",
-            "Compound",
-            "TyreLife",
-            "FreshTyre",
-            "Team",
-            "Driver",
-            "TrackStatus",
-            "Position",
-            "IsAccurate",
-            "RoundNumber",
-            "EventName",
-        ],
-    )
-
-
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Fix columns with incorrect data types or missing values.
@@ -294,7 +253,7 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
     for file in DATA_PATH.glob("**/*.csv"):
         season, session, data_type = parse_csv_path(file)
 
-        df = read_csv(file)
+        df = pd.read_csv(file, header=0, true_values=["TRUE"], false_values=["FALSE"])
 
         if data_type == "all":
             df = correct_dtype(df)
