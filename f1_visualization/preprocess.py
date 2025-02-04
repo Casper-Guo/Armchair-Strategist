@@ -436,7 +436,7 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
+    df_laps["DeltaToRep"] = (df_laps["LapTime"] - df_laps["LapTime_Rep"]).round(decimals=3)
     df_laps["PctFromRep"] = (
         (df_laps["LapTime"] - df_laps["LapTime_Rep"]) / df_laps["LapTime_Rep"] * 100
     ).round(decimals=3)
@@ -464,7 +464,9 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToFastest"] = df_laps["LapTime"] - df_laps["LapTime_Fastest"]
+    df_laps["DeltaToFastest"] = (df_laps["LapTime"] - df_laps["LapTime_Fastest"]).round(
+        decimals=3
+    )
     df_laps["PctFromFastest"] = (
         (df_laps["LapTime"] - df_laps["LapTime_Fastest"]) / df_laps["LapTime_Fastest"] * 100
     ).round(decimals=3)
@@ -495,7 +497,9 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_LapRep"]
+    df_laps["DeltaToLapRep"] = (df_laps["LapTime"] - df_laps["LapTime_LapRep"]).round(
+        decimals=3
+    )
     df_laps["PctFromLapRep"] = (
         (df_laps["LapTime"] - df_laps["LapTime_LapRep"]) / df_laps["LapTime_LapRep"] * 100
     ).round(decimals=3)
