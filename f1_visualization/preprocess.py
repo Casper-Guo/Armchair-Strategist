@@ -256,6 +256,28 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
         df = pd.read_csv(file, header=0, true_values=["TRUE"], false_values=["FALSE"])
 
         if data_type == "all":
+            df = df[
+                [
+                    "Time",
+                    "Driver",
+                    "DriverNumber",
+                    "LapTime",
+                    "LapNumber",
+                    "Stint",
+                    "PitOutTime",
+                    "PitInTime",
+                    "IsPersonalBest",
+                    "Compound",
+                    "TyreLife",
+                    "FreshTyre",
+                    "Team",
+                    "TrackStatus",
+                    "Position",
+                    "IsAccurate",
+                    "RoundNumber",
+                    "EventName",
+                ]
+            ]
             df = correct_dtype(df)
             df = fill_compound(df)
 
