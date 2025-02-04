@@ -28,16 +28,11 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Fix incorrectly parsed data types.
 
-    All timing data are cast to timedelta from string.
-    `TrackStatus` is cast to string from int.
-    `FreshTyre` has its missing values filled with UNKNOWN and then cast to string.
-
     Requires:
         df_laps has the following columns: [`Time`,
                                             `PitInTime`,
                                             `PitOutTime`,
-                                            "TrackStatus`,
-                                            `FreshTyre`]
+                                            "TrackStatus`]
     """
     # convert from object (string) to timedelta
     df_laps[["Time", "PitInTime", "PitOutTime"]] = df_laps[
@@ -46,12 +41,6 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
 
     # TrackStatus column makes more sense as strings
     df_laps["TrackStatus"] = df_laps["TrackStatus"].astype(str)
-
-    # Fill FreshTyre column NAs with "Unknown"
-    # Then cast to string
-    # This ensures rows with missing FreshTyre entry will still be plotted
-    df_laps["FreshTyre"] = df_laps["FreshTyre"].fillna("Unknown")
-    df_laps["FreshTyre"] = df_laps["FreshTyre"].astype(str)
 
     return df_laps
 

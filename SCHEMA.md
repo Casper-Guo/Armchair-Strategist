@@ -2,15 +2,15 @@
 
 - All columns provided by [Fastf1.laps](https://docs.fastf1.dev/core.html#laps)
 - **RoundNumber** (`int`): Championship round number.
-- **EventName** (`str`): Name of the Grand Prix, as provided by Fastf1 [Event Schedule](https://docs.fastf1.dev/events.html#event-schedule-data)'s `EventName` column.
+- **EventName** (`string`): Name of the Grand Prix, as provided by Fastf1 [Event Schedule](https://docs.fastf1.dev/events.html#event-schedule-data)'s `EventName` column.
 
 # `transformed_laps_*.csv`
 
-The following columns from `all_laps_*.csv`:
+The following columns from `all_laps_*.csv`, note when reading from CSVs `pd.Timedelta` is interpreted as `string` and thus require explicit casting:
 
 - **Time** (`pd.Timedelta`)
 - **Driver** (`string`)
-- **DriverNumber** (`str`)
+- **DriverNumber** (`int`)
 - **LapTime** (`float`): Cast from `pd.Timedelta`
 - **LapNumber** (`float`)
 - **Stint** (`float`)
@@ -19,13 +19,13 @@ The following columns from `all_laps_*.csv`:
 - **IsPersonalBest** (`bool`)
 - **Compound** (`string`)
 - **TyreLife** (`float`)
-- **FreshTyre** (`bool`)
+- **FreshTyre** (`string`)
 - **Team** (`string`)
 - **TrackStatus** (`int`)
 - **Position** (`float`)
 - **IsAccurate** (`bool`)
 - **RoundNumber** (`int`)
-- **EventName** (`str`)
+- **EventName** (`string`)
 
 The following columns are added. All numerical columns are accurate to three places.
 
