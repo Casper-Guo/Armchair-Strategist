@@ -32,7 +32,9 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
         df_laps has the following columns: [`Time`,
                                             `PitInTime`,
                                             `PitOutTime`,
-                                            "TrackStatus`]
+                                            "TrackStatus`,
+                                            "FreshTyre",
+                                            ]
     """
     # convert from object (string) to timedelta
     df_laps[["Time", "PitInTime", "PitOutTime"]] = df_laps[
@@ -41,6 +43,11 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
 
     # TrackStatus column makes more sense as strings
     df_laps["TrackStatus"] = df_laps["TrackStatus"].astype(str)
+
+    # When there is no missing FreshTyre value, it will be parsed
+    # as a boolean column. We need it as a string to be compatible
+    # with the visualization_config
+    df_laps["FreshTyre"] = df_laps["FreshTyre"].astype(str)
 
     return df_laps
 
