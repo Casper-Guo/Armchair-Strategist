@@ -168,47 +168,6 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     return
 
 
-def read_csv(path: Path) -> pd.DataFrame:
-    """
-    Read csv file at path location and filter for relevant columns.
-
-    Requires:
-        csv file located at path location is derived from a fastf1 laps object.
-
-    Args:
-        path: The path to the csv file containing partial season data.
-
-    Returns:
-        A pandas dataframe object.
-    """
-    return pd.read_csv(
-        path,
-        header=0,
-        true_values=["TRUE"],
-        false_values=["FALSE"],
-        usecols=[
-            "Time",
-            "DriverNumber",
-            "LapTime",
-            "LapNumber",
-            "Stint",
-            "PitOutTime",
-            "PitInTime",
-            "IsPersonalBest",
-            "Compound",
-            "TyreLife",
-            "FreshTyre",
-            "Team",
-            "Driver",
-            "TrackStatus",
-            "Position",
-            "IsAccurate",
-            "RoundNumber",
-            "EventName",
-        ],
-    )
-
-
 def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Fix columns with incorrect data types or missing values.
@@ -219,12 +178,9 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
                                             `PitInTime`,
                                             `PitOutTime`,
                                             `IsPersonalBest`
+                                            `TrackStatus`,
+                                            `FreshTyre`
                                             ]
-
-    Effects:
-        - Cast all timing columns to timedelta type
-        - Convert the `LapTime` column to integer type
-        - Infer missing `IsPersonalBest` values as False
 
     Returns:
         The transformed dataframe.
@@ -235,13 +191,12 @@ def correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
     ].apply(pd.to_timedelta)
     df_laps["LapTime"] = df_laps["LapTime"].dt.total_seconds()
 
-    # convert from object (string) to bool
-    # treat missing entries as False
-    df_laps["IsPersonalBest"] = df_laps["IsPersonalBest"].fillna(value="False")
-    df_laps["IsPersonalBest"] = df_laps["IsPersonalBest"].astype(bool)
+    df_laps["IsPersonalBest"] = df_laps["IsPersonalBest"].fillna(value="False").astype(bool)
 
-    # make sure TrackStatus is stored as ints so it can be converted to strings later
+    # make sure TrackStatus is stored as ints so it can be easily converted to strings later
     df_laps["TrackStatus"] = df_laps["TrackStatus"].fillna(0.0).astype(int)
+
+    df_laps["FreshTyre"] = df_laps["FreshTyre"].fillna("Unknown").astype(str)
 
     return df_laps
 
@@ -294,9 +249,31 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
     for file in DATA_PATH.glob("**/*.csv"):
         season, session, data_type = parse_csv_path(file)
 
-        df = read_csv(file)
+        df = pd.read_csv(file, header=0, true_values=["TRUE"], false_values=["FALSE"])
 
         if data_type == "all":
+            df = df[
+                [
+                    "Time",
+                    "Driver",
+                    "DriverNumber",
+                    "LapTime",
+                    "LapNumber",
+                    "Stint",
+                    "PitOutTime",
+                    "PitInTime",
+                    "IsPersonalBest",
+                    "Compound",
+                    "TyreLife",
+                    "FreshTyre",
+                    "Team",
+                    "TrackStatus",
+                    "Position",
+                    "IsAccurate",
+                    "RoundNumber",
+                    "EventName",
+                ]
+            ]
             df = correct_dtype(df)
             df = fill_compound(df)
 
@@ -438,11 +415,6 @@ def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Add a `IsValid` column in place to identify fast laps.
 
-    A valid lap is defined as one that is:
-        - ran on slick tyres
-        - fits FastF1's definition for accurate laps
-        - ran under green flag conditions
-
     Requires:
         df_laps has the following columns: [`IsSlick`, `IsAccurate`, `TrackStatus`]
     """
@@ -456,11 +428,6 @@ def add_is_valid(df_laps: pd.DataFrame) -> pd.DataFrame:
 def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Add two columns that calculate the difference to the representative lap time.
-
-    `DeltaToRep` contains the difference to therepresentative lap time in second.
-
-    `PctFromRep` contains the difference to the representative lap time
-    as a percentage of the representative lap time.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
@@ -476,7 +443,7 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToRep"] = df_laps["LapTime"] - df_laps["LapTime_Rep"]
+    df_laps["DeltaToRep"] = (df_laps["LapTime"] - df_laps["LapTime_Rep"]).round(decimals=3)
     df_laps["PctFromRep"] = (
         (df_laps["LapTime"] - df_laps["LapTime_Rep"]) / df_laps["LapTime_Rep"] * 100
     ).round(decimals=3)
@@ -487,11 +454,6 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Add two columns that calculate the difference to the fastest lap time.
-
-    `DeltaToFastest` contains the difference to the fastest lap time in second.
-
-    `PctFromFastest` contains the difference to the fastest lap time as a
-    percentage of the fastest lap time.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
@@ -504,7 +466,9 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToFastest"] = df_laps["LapTime"] - df_laps["LapTime_Fastest"]
+    df_laps["DeltaToFastest"] = (df_laps["LapTime"] - df_laps["LapTime_Fastest"]).round(
+        decimals=3
+    )
     df_laps["PctFromFastest"] = (
         (df_laps["LapTime"] - df_laps["LapTime_Fastest"]) / df_laps["LapTime_Fastest"] * 100
     ).round(decimals=3)
@@ -515,11 +479,6 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     Add two columns that calculate the difference to the lap representative time.
-
-    `DeltaToLapRep` contains the difference to the lap rep time in second.
-
-    `PctFromLapRep` contains the difference to the lap rep time as a
-    percentage of the lap rep time.
 
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
@@ -535,7 +494,9 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         validate="many_to_one",
     )
 
-    df_laps["DeltaToLapRep"] = df_laps["LapTime"] - df_laps["LapTime_LapRep"]
+    df_laps["DeltaToLapRep"] = (df_laps["LapTime"] - df_laps["LapTime_LapRep"]).round(
+        decimals=3
+    )
     df_laps["PctFromLapRep"] = (
         (df_laps["LapTime"] - df_laps["LapTime_LapRep"]) / df_laps["LapTime_LapRep"] * 100
     ).round(decimals=3)

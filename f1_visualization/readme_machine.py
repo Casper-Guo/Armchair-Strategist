@@ -39,8 +39,7 @@ warnings.filterwarnings("ignore")
 @click.argument("round_number", nargs=1, default=-1, type=int)
 @click.option(
     "--grand-prix/--sprint-race",
-    "-g",
-    " /-S",
+    "-g/-s",
     default=True,
     help="Toggle between plotting the sprint race or the grand prix",
 )
