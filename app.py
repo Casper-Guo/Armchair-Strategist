@@ -15,7 +15,7 @@ from plotly import graph_objects as go
 import f1_visualization.plotly_dash.graphs as pg
 from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
 from f1_visualization.plotly_dash.layout import app_layout, line_y_options, scatter_y_options
-from f1_visualization.visualization import get_session_info, load_laps
+from f1_visualization.visualization import get_session_info, load_laps, teammate_comp_order
 
 # Silent SettingWithCopyWarning
 pd.options.mode.chained_assignment = None
@@ -378,11 +378,10 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     Input("drivers", "value"),
     State("laps", "data"),
     State("session-info", "data"),
+    State("teammate-comp", "value"),
 )
 def render_strategy_plot(
-    drivers: list[str],
-    included_laps: dict,
-    session_info: Session_info,
+    drivers: list[str], included_laps: dict, session_info: Session_info, teammate_comp: bool
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup
@@ -391,6 +390,9 @@ def render_strategy_plot(
 
     included_laps = pd.DataFrame.from_dict(included_laps)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
+
+    if teammate_comp:
+        drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
 
     event_name = session_info[1]
     fig = pg.strategy_barplot(included_laps, drivers)
@@ -406,6 +408,7 @@ def render_strategy_plot(
     Input("lap-numbers-scatter", "value"),
     State("laps", "data"),
     State("session-info", "data"),
+    State("teammate-comp", "value"),
 )
 def render_scatterplot(
     drivers: list[str],
@@ -414,6 +417,7 @@ def render_scatterplot(
     lap_numbers: list[int],
     included_laps: dict,
     session_info: Session_info,
+    teammate_comp: bool,
 ) -> go.Figure:
     """Filter laps and configure scatterplot title."""
     if not included_laps or not drivers:
@@ -427,6 +431,9 @@ def render_scatterplot(
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
+
+    if teammate_comp:
+        drivers = teammate_comp_order(included_laps, drivers, y)
 
     fig = pg.stats_scatterplot(included_laps, drivers, y)
     event_name = session_info[1]
@@ -481,6 +488,7 @@ def render_lineplot(
     Input("boxplot", "value"),
     State("laps", "data"),
     State("session-info", "data"),
+    State("teammate-comp", "value"),
 )
 def render_distplot(
     drivers: list[str],
@@ -488,6 +496,7 @@ def render_distplot(
     boxplot: bool,
     included_laps: dict,
     session_info: Session_info,
+    teammate_comp: bool,
 ) -> go.Figure:
     """Filter laps and render distribution plot."""
     if not included_laps or not drivers:
@@ -498,6 +507,9 @@ def render_distplot(
         (included_laps["Driver"].isin(drivers))
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
     ]
+
+    if teammate_comp:
+        drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
 
     fig = pg.stats_distplot(included_laps, drivers, boxplot)
     event_name = session_info[1]
