@@ -329,7 +329,7 @@ def add_gap(
     return df_laps
 
 
-def _teammate_comp_order(
+def teammate_comp_order(
     included_laps: pd.DataFrame, drivers: tuple[str], by: str
 ) -> tuple[str]:
     """
@@ -338,14 +338,25 @@ def _teammate_comp_order(
     For example, if by is LapTime, then the teammates with the biggest median laptime
     difference will appear first.
 
+    This function is not integrated with get_session_info because get_session_info operates
+    at the session level, while teammate_comp_order considers a subset of laps.
+
+    For example, in a mixed condition race with DNFs. We can use get_session_info to
+    acquire the full list of drivers who participated in the session, while using
+    teammate_comp_order to compare driver performance during the wet period.
+
     Assumes:
-        by is a column in included_laps.
+        - teammates are next to each other in the drivers tuple
+          (This assumption is enforced if drivers is returned from get_session_info
+          with teammate_comp=True argument)
+        - by is a column in included_laps.
     """
     metric_median = included_laps.groupby("Driver").median(numeric_only=True)[by]
     laps_recorded = included_laps.groupby("Driver").size()
     drivers_to_plot = laps_recorded.loc[lambda x: x > 5].index
     team_median_gaps = []
 
+    # TODO: Python 3.12 added itertools.batched to simplify the following logic
     for i in range(0, len(drivers) - 1, 2):
         teammates = drivers[i], drivers[i + 1]
 
@@ -612,7 +623,7 @@ def driver_stats_scatterplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See _teammate_comp_order
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
         for explanation. If False, the drivers are plotted by finishing order
         (higher finishing to the left).
 
@@ -641,7 +652,7 @@ def driver_stats_scatterplot(
     ]
 
     if teammate_comp:
-        drivers = _teammate_comp_order(included_laps, drivers, y)
+        drivers = teammate_comp_order(included_laps, drivers, y)
 
     if lap_numbers is not None:
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
@@ -875,7 +886,7 @@ def driver_stats_distplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
 
-        teammate_comp: Toggles teammate comparison mode. See _teammate_comp_order
+        teammate_comp: Toggles teammate comparison mode. See teammate_comp_order
         for explanation. If False, the drivers are plotted by finishing order
         (higher finishing to the left).
     """
@@ -893,7 +904,7 @@ def driver_stats_distplot(
     ]
 
     if teammate_comp:
-        drivers = _teammate_comp_order(included_laps, drivers, y)
+        drivers = teammate_comp_order(included_laps, drivers, y)
 
     # Adjust plot size based on number of drivers plotted
     fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 10))
