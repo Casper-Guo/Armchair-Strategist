@@ -154,22 +154,7 @@ scatterplot_tab = dbc.Tab(
     label="scatterplot",
 )
 
-line_y_options = [
-    {"label": "Position", "value": "Position"},
-    {"label": "Lap Time", "value": "LapTime"},
-    {"label": "Seconds to Median", "value": "DeltaToRep"},
-    {"label": "Percent from Median", "value": "PctFromRep"},
-    {"label": "Seconds to Fastest", "value": "DeltaToFastest"},
-    {"label": "Percent from Fastest", "value": "PctFromFastest"},
-    {
-        "label": "Seconds to Adjusted Representative Time",
-        "value": "DeltaToLapRep",
-    },
-    {
-        "label": "Percent from Adjusted Representative Time",
-        "value": "PctFromLapRep",
-    },
-]
+line_y_options = [{"label": "Position", "value": "Position"}] + scatter_y_options
 
 lineplot_tab = dbc.Tab(
     dbc.Card(
