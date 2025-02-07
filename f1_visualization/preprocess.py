@@ -19,7 +19,7 @@ from f1_visualization._consts import (
     NUM_ROUNDS,
     SESSION_IDS,
     SESSION_NAMES,
-    SPRINT_FORMATS,
+    SPRINT_ROUNDS,
     VISUAL_CONFIG,
 )
 from f1_visualization._types import Session
@@ -28,25 +28,20 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(m
 logger = logging.getLogger(__name__)
 
 
-def get_sprint_rounds(season: int) -> set[int]:
-    """Return the sprint weekend round numbers in a season."""
-    schedule = f.get_event_schedule(season)
-    return set(schedule[schedule["EventFormat"].isin(SPRINT_FORMATS)]["RoundNumber"])
-
-
 class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""
 
 
-def get_session(
-    season: int, round_number: int, session_type: str, sprint_rounds: dict[int, set[int]]
-) -> Session:
+SPRINT_RACE_ORDINAL = 3
+
+
+def get_session(season: int, round_number: int, session_type: str) -> Session:
     """Get fastf1 session only when it exists."""
     match session_type:
         case "R":
             return f.get_session(season, round_number, session_type)
         case "S":
-            if season in sprint_rounds and round_number in sprint_rounds[season]:
+            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season]:
                 return f.get_session(season, round_number, session_type)
         case _:
             raise ValueError(f"{session_type} is not a supported session identifier")
@@ -54,9 +49,7 @@ def get_session(
     return None
 
 
-def load_all_data(
-    season: int, path: Path, session_type: str, sprint_rounds: dict[int, set[int]]
-):
+def load_all_data(season: int, path: Path, session_type: str):
     """
     Load all available data in a season.
 
@@ -72,9 +65,13 @@ def load_all_data(
     """
     dfs = []
     schedule = f.get_event_schedule(season)
+    last_completed_round = NUM_ROUNDS[season]
 
-    for i in range(1, NUM_ROUNDS[season] + 1):
-        session = get_session(season, i, session_type, sprint_rounds)
+    if session_type == "S" and season == CURRENT_SEASON:
+        last_completed_round = get_last_round(session_cutoff=SPRINT_RACE_ORDINAL)
+
+    for i in range(1, last_completed_round + 1):
+        session = get_session(season, i, session_type)
         if session is None:
             continue
 
@@ -99,7 +96,7 @@ def load_all_data(
         )
 
 
-def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[int, set[int]]):
+def update_data(season: int, path: Path, session_type: str):
     """
     Update the data for a season.
 
@@ -118,11 +115,12 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     existing_data = pd.read_csv(path, index_col=0, header=0)
 
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
-    newest_round = NUM_ROUNDS[season]
 
-    all_rounds = set(range(1, newest_round + 1))
+    all_rounds = set(range(1, NUM_ROUNDS[season] + 1))
     if session_type == "S":
-        all_rounds = sprint_rounds[season].intersection(all_rounds)
+        if season == CURRENT_SEASON:
+            all_rounds = set(range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1))
+        all_rounds = SPRINT_ROUNDS[season].intersection(all_rounds)
 
     missing_rounds = sorted(all_rounds.difference(loaded_rounds))
 
@@ -145,7 +143,7 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     dfs = []
 
     for i in missing_rounds:
-        session = get_session(season, i, session_type, sprint_rounds)
+        session = get_session(season, i, session_type)
         if session is None:
             continue
 
@@ -570,8 +568,21 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
     raise ValueError("Unexpected input length")
 
 
-def get_last_round_number() -> int:
-    """Return the last finished round number in the current season."""
+def get_last_round(session_cutoff: int = 5) -> int:
+    """
+    Return the last finished round number in the current season.
+
+    Args:
+        session_cutoff: The round is considered completed when a set amount of time
+                        (five hours currently) has past after this session.
+
+                        For example, if it is set to 3 on a sprint weekend, then the
+                        round would be considered completed after the sprint race, even
+                        if the grand prix has not taken place.
+
+    Assumes:
+        - session_cutoff is between 1 and 5 inclusive.
+    """
     current_schedule = f.get_event_schedule(CURRENT_SEASON)
 
     # only load a session that is at most five hours old
@@ -588,9 +599,10 @@ def get_last_round_number() -> int:
     #
     # This is our use case and the warning can be ignored
     five_hours_past = np.datetime64(five_hours_past)
-    rounds_completed = current_schedule[current_schedule["Session5DateUtc"] < five_hours_past][
-        "RoundNumber"
-    ].max()
+
+    rounds_completed = current_schedule[
+        current_schedule[f"Session{session_cutoff}DateUtc"] < five_hours_past
+    ]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):
         rounds_completed = 0
@@ -644,12 +656,8 @@ def main() -> int:
     Path.mkdir(DATA_PATH / "sprint", parents=True, exist_ok=True)
     Path.mkdir(DATA_PATH / "grand_prix", parents=True, exist_ok=True)
 
-    sprint_rounds = {
-        season: get_sprint_rounds(season) for season in range(2021, CURRENT_SEASON + 1)
-    }
-
     load_seasons = list(range(2018, CURRENT_SEASON + 1))
-    rounds_completed = get_last_round_number()
+    rounds_completed = get_last_round()
 
     logger.info(
         "Correctness Check: %d rounds of the %d season have been fully completed",
@@ -664,9 +672,9 @@ def main() -> int:
 
             try:
                 if Path.is_file(path):
-                    update_data(season, path, session_type, sprint_rounds)
+                    update_data(season, path, session_type)
                 else:
-                    load_all_data(season, path, session_type, sprint_rounds)
+                    load_all_data(season, path, session_type)
             except OutdatedTOMLError as exc:
                 # exc carries info about the first round number with missing compound info
                 logger.warning("%s. All later rounds of the same season are not loaded", exc)

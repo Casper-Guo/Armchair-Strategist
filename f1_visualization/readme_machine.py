@@ -14,8 +14,8 @@ import pandas as pd
 import seaborn as sns
 
 import f1_visualization.visualization as viz
-from f1_visualization._consts import CURRENT_SEASON, ROOT_PATH
-from f1_visualization.preprocess import get_last_round_number
+from f1_visualization._consts import CURRENT_SEASON, NUM_ROUNDS, ROOT_PATH, SPRINT_ROUNDS
+from f1_visualization.preprocess import get_last_round
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -32,6 +32,54 @@ pd.options.mode.chained_assignment = None
 # Suppress Seaborn false positive warnings
 # TODO: This is dangerous
 warnings.filterwarnings("ignore")
+
+
+def process_round_number(season: int, round_number: int, grand_prix: bool) -> int:
+    """Get the last available round number of the requested session type in a season."""
+    if season > CURRENT_SEASON:
+        raise ValueError(f"The latest season is {CURRENT_SEASON}.")
+    if season < 2018:
+        raise ValueError("Only 2018 and later seasons are available.")
+    if round_number < 1 and round_number != -1:
+        raise ValueError("Round number must be positive.")
+
+    if season == CURRENT_SEASON:
+        last_round_number = get_last_round(session_cutoff=5 if grand_prix else 3)
+
+        if last_round_number == 0:
+            # this means there is no completed round in the current season yet
+            # default to the last season's final round
+            raise ValueError(f"No session of the requested type in the {season} season yet.")
+        if grand_prix:
+            return min(round_number, last_round_number)
+        if last_round_number <= round_number:
+            return last_round_number
+            # if round_number < latest_round_number, extra logic needed to find the last sprint
+            # round before the requested value
+
+    if round_number > NUM_ROUNDS[season]:
+        raise ValueError(f"{season} season only has {NUM_ROUNDS[season]} rounds.")
+
+    if round_number == -1:
+        round_number = NUM_ROUNDS[season]
+    if grand_prix:
+        return round_number
+
+    try:
+        round_number = max(
+            sprint_round
+            for sprint_round in SPRINT_ROUNDS[season]
+            if sprint_round <= round_number
+        )
+    except KeyError as exc:
+        raise ValueError(f"{season} season doesn't have any sprint race.") from exc
+    except ValueError as exc:
+        # no sprint rounds before the requested round
+        raise ValueError(
+            f"{season} season only has these sprint races: {sorted(SPRINT_ROUNDS[season])}."
+        ) from exc
+
+    return round_number
 
 
 @click.command()

@@ -38,6 +38,28 @@ with open(
     COMPOUND_PALETTE = tomli.load(toml)["relative"]["high_contrast_palette"]
 
 
+def get_last_available_round(season: int) -> tuple[int, int]:
+    """
+    Get the last available sprint and race round number in a given season.
+
+    These keys should not be accessed directly without error handling.
+
+    For example, DF_DICT[season]["S"] can raise before the first sprint weekend of the season.
+
+    Alternatively, if the first race weekend is a sprint weekend. Then DF_DICT[season]["R"]
+    will raise even if there is sprint data available.
+    """
+    last_race_round, last_sprint_round = 0, 0
+
+    with suppress(KeyError):
+        last_race_round = DF_DICT[season]["R"]["RoundNumber"].max()
+
+    with suppress(KeyError):
+        last_sprint_round = DF_DICT[season]["S"]["RoundNumber"].max()
+
+    return last_race_round, last_sprint_round
+
+
 def df_convert_timedelta(df: pd.DataFrame) -> pd.DataFrame:
     """
     Assumes df follows transformed_laps schema.
@@ -152,9 +174,13 @@ def set_event_options(
     schedule = f.get_event_schedule(season, include_testing=False)
 
     if season == CURRENT_SEASON:
+<<<<<<< HEAD
         # Do not have to worry about a keyerror here because a season
         # can only be chosen from the dropdown if it is a key in DF_DICT
         last_round = DF_DICT[CURRENT_SEASON]["R"]["RoundNumber"].max()
+=======
+        last_round = max(get_last_available_round(season))
+>>>>>>> a0c3c57 (Rename function)
         schedule = schedule[schedule["RoundNumber"] <= last_round]
 
     return (
@@ -181,6 +207,11 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
     if event is None:
         return [], None
 
+<<<<<<< HEAD
+=======
+    round_number = schedule[event]["RoundNumber"]
+    last_race_round, last_sprint_round = get_last_available_round(season)
+>>>>>>> a0c3c57 (Rename function)
     return [
         {"label": "Race", "value": "R"},
         {
