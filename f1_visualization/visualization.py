@@ -353,7 +353,7 @@ def teammate_comp_order(
           with teammate_comp=True argument)
         - by is a column in included_laps.
     """
-    metric_median = included_laps.groupby("Driver").median(numeric_only=True)[by]
+    metric_median = included_laps.groupby("Driver")[by].median(numeric_only=True)
     laps_recorded = included_laps.groupby("Driver").size()
     drivers_to_plot = laps_recorded.loc[lambda x: x > 5].index
     team_median_gaps = []
