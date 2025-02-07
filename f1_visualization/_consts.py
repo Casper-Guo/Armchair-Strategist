@@ -8,9 +8,17 @@ DATA_PATH = ROOT_PATH / "Data"
 
 CURRENT_SEASON = datetime.now().year  # noqa: DTZ005
 
-# Number of completed rounds in the current season is computed dynamically
+# Number of fully completed rounds in the current season is computed dynamically
 # Calculating this from fastf1 event schedule is non-trivial due to cancelled races
 NUM_ROUNDS = {2018: 21, 2019: 21, 2020: 17, 2021: 22, 2022: 22, 2023: 22, 2024: 24}
+
+SPRINT_ROUNDS = {
+    2021: {10, 14, 19},
+    2022: {4, 11, 21},
+    2023: {4, 9, 12, 17, 18, 20},
+    2024: {5, 6, 11, 19, 21, 23},
+    2025: {2, 6, 13, 19, 21, 23},
+}
 
 # Map session ids to full session names, and reverse
 SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
