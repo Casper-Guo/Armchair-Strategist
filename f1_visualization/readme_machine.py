@@ -161,8 +161,8 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     laps["LapTime (s)"] = laps["LapTime"].dt.total_seconds()
     team_order = (
         laps[["Team", "LapTime (s)"]]
-        .groupby("Team")
-        .median(numeric_only=True)["LapTime (s)"]
+        .groupby("Team")["LapTime (s)"]
+        .median()
         .sort_values()
         .index
     )

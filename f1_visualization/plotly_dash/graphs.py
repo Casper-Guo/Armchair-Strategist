@@ -309,7 +309,7 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
         # use the max instead of the length because tyre life range is
         # not guaranteed to start at 0
         max_stint_length = max(max_stint_length, tyre_life_range.max())
-        median_LRT = compound_laps.groupby("TyreLife")[y].median(numeric_only=True)  # noqa: N806
+        median_LRT = compound_laps.groupby("TyreLife")[y].median()  # noqa: N806
         median_LRT = median_LRT.loc[tyre_life_range]  # noqa: N806
 
         fig.add_trace(
