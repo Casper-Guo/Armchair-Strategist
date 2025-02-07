@@ -92,7 +92,7 @@ def load_all_data(
     if dfs:
         all_laps = pd.concat(dfs, ignore_index=True)
         all_laps.to_csv(path, index=False)
-        logger.info("Finished loading %d season data.", season)
+        logger.info("Finished loading %d season %s data.", season, SESSION_IDS[session_type])
     else:
         logger.info(
             "No data available for %d season %s yet.", season, SESSION_IDS[session_type]
@@ -127,11 +127,18 @@ def update_data(season: int, path: Path, session_type: str, sprint_rounds: dict[
     missing_rounds = sorted(all_rounds.difference(loaded_rounds))
 
     if not missing_rounds:
-        logger.info("%d season is already up to date.", season)
+        logger.info(
+            "%d season %s data is already up to date.", season, SESSION_IDS[session_type]
+        )
         return
 
     # correctness check
-    logger.info("Existing coverage: %s", loaded_rounds)
+    logger.info(
+        "Existing %d season %s data coverage: %s",
+        season,
+        SESSION_IDS[session_type],
+        loaded_rounds,
+    )
     logger.info("Coverage to be added: %s", missing_rounds)
 
     schedule = f.get_event_schedule(season)
@@ -643,7 +650,7 @@ def main() -> int:
     rounds_completed = get_last_round_number()
 
     logger.info(
-        "Correctness Check: %d rounds of the %d season have been completed",
+        "Correctness Check: %d rounds of the %d season have been fully completed",
         rounds_completed,
         CURRENT_SEASON,
     )
