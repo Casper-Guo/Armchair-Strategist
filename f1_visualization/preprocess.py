@@ -468,6 +468,7 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     fastest_times = df_laps[df_laps["IsPersonalBest"]].groupby("RoundNumber")["LapTime"].min()
     df_laps = df_laps.merge(
         fastest_times,
+        how="left",
         on="RoundNumber",
         suffixes=(None, "_Fastest"),
         validate="many_to_one",
@@ -496,6 +497,7 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
 
     df_laps = df_laps.merge(
         lap_reps,
+        how="left",
         on=["RoundNumber", "LapNumber"],
         suffixes=(None, "_LapRep"),
         validate="many_to_one",

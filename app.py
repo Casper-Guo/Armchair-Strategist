@@ -69,7 +69,7 @@ def add_gap(driver: str, df_laps: pd.DataFrame) -> pd.DataFrame:
     timing_column_name = f"{driver}Time"
     df_driver = df_driver.rename(columns={"Time": timing_column_name})
 
-    df_laps = df_laps.merge(df_driver, on="LapNumber", validate="many_to_one")
+    df_laps = df_laps.merge(df_driver, how="left", on="LapNumber", validate="many_to_one")
     df_laps[f"GapTo{driver}"] = df_laps["Time"] - df_laps[timing_column_name]
 
     return df_laps.drop(columns=timing_column_name)

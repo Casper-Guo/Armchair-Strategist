@@ -317,7 +317,9 @@ def add_gap(
     # for consistency these are filled
     df_driver[timing_column_name] = df_driver[timing_column_name].ffill()
 
-    df_laps = df_laps.merge(df_driver, on=["RoundNumber", "LapNumber"], validate="many_to_one")
+    df_laps = df_laps.merge(
+        df_driver, how="left", on=["RoundNumber", "LapNumber"], validate="many_to_one"
+    )
     df_laps[f"GapTo{driver}"] = (
         df_laps["Time"] - df_laps[timing_column_name]
     ).dt.total_seconds()
