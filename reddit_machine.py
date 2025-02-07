@@ -1,13 +1,12 @@
 """Automatically post to Reddit when new README graphics are made."""
 
 import logging
+import shutil
 import time
 
-import fastf1 as f
 import praw
 
-from f1_visualization._consts import CURRENT_SEASON, ROOT_PATH
-from f1_visualization.preprocess import get_last_round_number
+from f1_visualization._consts import ROOT_PATH
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -30,9 +29,8 @@ def main():
         flair for flair in f1technical_flairs if "Strategy" in flair["flair_text"]
     )["flair_template_id"]
 
-    session = f.get_session(CURRENT_SEASON, get_last_round_number(), "R")
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
-    event_name = f"{session.event['EventName']} - {session.name}"
+    with open(ROOT_PATH / "tmp" / "event_name.txt", "r") as fin:
+        event_name = fin.read().strip()
 
     dashboard_link = "Check out more at armchair-strategist.dev!"
     images = [
@@ -108,6 +106,9 @@ def main():
         )
     )
     logger.info("Finished posting to r/f1technical")
+
+    # clean up temp directory
+    shutil.rmtree(ROOT_PATH / "tmp")
 
 
 if __name__ == "__main__":
