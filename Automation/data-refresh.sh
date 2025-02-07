@@ -39,7 +39,7 @@ trap handle_failure SIGTERM
 source ./env/bin/activate 2>/dev/null
 UTC=$(date)
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
-pkill -cef gunicorn || :
+pkill -cef gunicorn || true
 
 python3 f1_visualization/preprocess.py
 python3 f1_visualization/readme_machine.py --update-readme >/dev/null
