@@ -86,18 +86,26 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
 @click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
 @click.argument("round_number", nargs=1, default=-1, type=int)
 @click.option(
-    "--grand-prix/--sprint-race",
-    "-g/-s",
-    default=True,
-    help="Toggle between plotting the sprint race or the grand prix",
+    "--grand-prix/--sprint-race", "-g/-s", default=True, help="Default to grand prix."
 )
 @click.option("--update-readme", is_flag=True)
-def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
-    """Make the README suite of visualizations."""
+@click.option(
+    "-r", "--reddit-machine", is_flag=True, help="Write plotted session name to text file."
+)
+def main(
+    season: int, round_number: int, grand_prix: bool, update_readme: bool, reddit_machine: bool
+):
+    """
+    Make the README suite of visualizations for the latest event.
+
+    \b
+    Args:
+        SEASON (int): Default to the current season (equivalent to current calendar year).
+        ROUND_NUMBER (int): Default to the last completed round of the matching session_type.
+    """  # noqa: D301 click requires the \b sequence to not line wrap this paragraph
     global DOC_VISUALS_PATH
 
-    if round_number == -1:
-        round_number = get_last_round_number()
+    round_number = process_round_number(season, round_number, grand_prix)
 
     session_type = "R" if grand_prix else "S"
     session = f.get_session(season, round_number, session_type)
@@ -238,6 +246,12 @@ def main(season: int, round_number: int, grand_prix: bool, update_readme: bool):
     # Copy the visualizations
     if update_readme:
         shutil.copytree(dest, DOC_VISUALS_PATH, dirs_exist_ok=True)
+
+    if reddit_machine:
+        # write to temp text file
+        Path(ROOT_PATH / "tmp").mkdir(exist_ok=True)
+        with open(ROOT_PATH / "tmp" / "event_name.txt", "w") as fout:
+            fout.write(event_name)
 
 
 if __name__ == "__main__":

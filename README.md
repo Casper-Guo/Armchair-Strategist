@@ -104,7 +104,7 @@ The dashboard and visualizations in this README are updated every Monday at midn
         <summary>
             <b>Function call:</b>
         </summary>
-        See <code>f1_visualization/readme_machine.py</code>
+        See <code>readme_machine.py</code>
     </details>
 </details>
 
