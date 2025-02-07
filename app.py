@@ -2,6 +2,7 @@
 
 import warnings
 from collections import Counter
+from contextlib import suppress
 from pathlib import Path
 from typing import Iterable, TypeAlias
 
@@ -13,7 +14,7 @@ from dash import Dash, Input, Output, State, callback, html
 from plotly import graph_objects as go
 
 import f1_visualization.plotly_dash.graphs as pg
-from f1_visualization._consts import CURRENT_SEASON, SPRINT_FORMATS
+from f1_visualization._consts import SPRINT_FORMATS
 from f1_visualization.plotly_dash.layout import app_layout, line_y_options, scatter_y_options
 from f1_visualization.visualization import get_session_info, load_laps, teammate_comp_order
 
@@ -161,32 +162,27 @@ def set_season_options(_: str) -> list[int]:
     Output("event", "options"),
     Output("event", "value"),
     Output("event-schedule", "data"),
+    Output("last-race-round", "data"),
+    Output("last-sprint-round", "data"),
     Input("season", "value"),
     prevent_initial_call=True,
 )
 def set_event_options(
     season: int | None,
-) -> tuple[list[str], None, dict]:
+) -> tuple[list[str], None, dict, int, int]:
     """Get the names of all events in the selected season."""
     if season is None:
         return [], None, None
 
     schedule = f.get_event_schedule(season, include_testing=False)
-
-    if season == CURRENT_SEASON:
-<<<<<<< HEAD
-        # Do not have to worry about a keyerror here because a season
-        # can only be chosen from the dropdown if it is a key in DF_DICT
-        last_round = DF_DICT[CURRENT_SEASON]["R"]["RoundNumber"].max()
-=======
-        last_round = max(get_last_available_round(season))
->>>>>>> a0c3c57 (Rename function)
-        schedule = schedule[schedule["RoundNumber"] <= last_round]
+    last_round_numbers = get_last_available_round(season)
+    schedule = schedule[schedule["RoundNumber"] <= max(last_round_numbers)]
 
     return (
         list(schedule["EventName"]),
         None,
         schedule.set_index("EventName").to_dict(orient="index"),
+        *last_round_numbers,
     )
 
 
@@ -195,9 +191,13 @@ def set_event_options(
     Output("session", "value"),
     Input("event", "value"),
     State("event-schedule", "data"),
+    State("last-race-round", "data"),
+    State("last-sprint-round", "data"),
     prevent_initial_call=True,
 )
-def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], None]:
+def set_session_options(
+    event: str | None, schedule: dict, last_race_round: int, last_sprint_round: int
+) -> tuple[list[dict], None]:
     """
     Return the sessions contained in an event.
 
@@ -207,17 +207,18 @@ def set_session_options(event: str | None, schedule: dict) -> tuple[list[dict], 
     if event is None:
         return [], None
 
-<<<<<<< HEAD
-=======
     round_number = schedule[event]["RoundNumber"]
-    last_race_round, last_sprint_round = get_last_available_round(season)
->>>>>>> a0c3c57 (Rename function)
     return [
-        {"label": "Race", "value": "R"},
+        {
+            "label": "Race",
+            "value": "R",
+            "disabled": round_number > last_race_round,
+        },
         {
             "label": "Sprint",
             "value": "S",
-            "disabled": schedule[event]["EventFormat"] not in SPRINT_FORMATS,
+            "disabled": (schedule[event]["EventFormat"] not in SPRINT_FORMATS)
+            or (round_number > last_sprint_round),
         },
     ], None
 

@@ -327,6 +327,8 @@ app_layout = dbc.Container(
         session_picker_row,
         dcc.Store(id="event-schedule"),
         dcc.Store(id="session-info"),
+        dcc.Store(id="last-race-round"),
+        dcc.Store(id="last-sprint-round"),
         dcc.Store(id="laps"),
         html.Br(),
         dbc.Row(
