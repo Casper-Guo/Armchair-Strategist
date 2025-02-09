@@ -1,17 +1,5 @@
 # Visualization palettes, markers, and labels configuration
 
-[slick_names]
-19_ = ["SOFT", "MEDIUM", "HARD"]
-18 = [
-    "HYPERSOFT",
-    "ULTRASOFT",
-    "SUPERSOFT",
-    "SOFT",
-    "MEDIUM",
-    "HARD",
-    "SUPERHARD",
-]
-
 [fresh.markers]
 True = "circle"
 False = "x"
@@ -48,91 +36,6 @@ UNKNOWN = "#004aaa"
 SOFT = "circle"
 MEDIUM = "triangle-up"
 HARD = "square"
-INTERMEDIATE = "cross"
-WET = "x"
-UNKNOWN = "star"
-
-[absolute.labels]
-23_ = ["C0", "C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
-19_22 = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
-18 = [
-    "HYPERSOFT",
-    "ULTRASOFT",
-    "SUPERSOFT",
-    "SOFT",
-    "MEDIUM",
-    "HARD",
-    "SUPERHARD",
-    "INTERMEDIATE",
-    "WET",
-    "UNKNOWN",
-]
-
-[absolute.palette.23_]
-# C1 to C5 palette is the same as 19_22 to maintain compatibility
-C0 = "#fe813f"
-C1 = "#00a2f3"
-C2 = "#f0f0ec"
-C3 = "#ffd12e"
-C4 = "#da291c"
-C5 = "#b14ca8"
-INTERMEDIATE = "#43b02a"
-WET = "#0067ad"
-UNKNOWN = "#00ffff"
-
-[absolute.palette.19_22]
-# same as 2018 palette in the range of ultrasoft to hard 
-C1 = "#00a2f3"
-C2 = "#f0f0ec"
-C3 = "#ffd12e"
-C4 = "#da291c"
-C5 = "#b14ca8"
-INTERMEDIATE = "#43b02a"
-WET = "#0067ad"
-UNKNOWN = "#00ffff"
-
-[absolute.palette.18]
-HYPERSOFT = "#feb4c3"
-ULTRASOFT = "#b14ca8"
-SUPERSOFT = "#da291c"
-SOFT = "#ffd12e"
-MEDIUM = "#f0f0ec"
-HARD = "#00a2f3"
-SUPERHARD = "#fe813f"
-INTERMEDIATE = "#43b02a"
-WET = "#0067ad"
-UNKNOWN = "#00ffff"
-
-[absolute.markers.23_]
-# C1 to C5 markers are the same as 19_22 to maintain compatibility
-C0 = "octagon"
-C1 = "hexagon"
-C2 = "pentagon"
-C3 = "square"
-C4 = "triangle-up"
-C5 = "circle"
-INTERMEDIATE = "cross"
-WET = "x"
-UNKNOWN = "star"
-
-[absolute.markers.19_22]
-C1 = "hexagon"
-C2 = "pentagon"
-C3 = "square"
-C4 = "triangle-up"
-C5 = "circle"
-INTERMEDIATE = "cross"
-WET = "x"
-UNKNOWN = "star"
-
-[absolute.markers.18]
-HYPERSOFT = "circle"
-ULTRASOFT = "triangle-up"
-SUPERSOFT = "square"
-SOFT = "diamond"
-MEDIUM = "pentagon"
-HARD = "hexagon"
-SUPERHARD = "octagon"
 INTERMEDIATE = "cross"
 WET = "x"
 UNKNOWN = "star"

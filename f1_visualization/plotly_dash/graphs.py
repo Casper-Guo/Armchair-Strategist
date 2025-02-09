@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 from f1_visualization.visualization import _find_sc_laps, pick_driver_color
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:
-    VISUAL_CONFIG = tomli.load(toml)
+    DASH_VISUAL_CONFIG = tomli.load(toml)
 
 
 def _plot_args() -> tuple:
@@ -24,9 +24,9 @@ def _plot_args() -> tuple:
     """
     return (
         "Compound",
-        VISUAL_CONFIG["relative"]["palette"],
-        VISUAL_CONFIG["relative"]["markers"],
-        VISUAL_CONFIG["relative"]["labels"],
+        DASH_VISUAL_CONFIG["relative"]["palette"],
+        DASH_VISUAL_CONFIG["relative"]["markers"],
+        DASH_VISUAL_CONFIG["relative"]["labels"],
     )
 
 
@@ -104,7 +104,9 @@ def strategy_barplot(
                     x=[stint["StintLength"]],
                     orientation="h",
                     marker={"color": args[1][stint[args[0]]]},
-                    marker_pattern_shape=VISUAL_CONFIG["fresh"]["hatch"][stint["FreshTyre"]],
+                    marker_pattern_shape=DASH_VISUAL_CONFIG["fresh"]["hatch"][
+                        stint["FreshTyre"]
+                    ],
                     name=f"{driver} stint {stint_num}",
                 )
             )
@@ -172,7 +174,9 @@ def stats_scatterplot(
                 mode="markers",
                 marker={
                     "color": driver_laps[args[0]].map(args[1]),
-                    "symbol": driver_laps["FreshTyre"].map(VISUAL_CONFIG["fresh"]["markers"]),
+                    "symbol": driver_laps["FreshTyre"].map(
+                        DASH_VISUAL_CONFIG["fresh"]["markers"]
+                    ),
                 },
                 name=driver,
             ),
