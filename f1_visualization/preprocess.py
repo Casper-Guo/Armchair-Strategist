@@ -22,7 +22,6 @@ from f1_visualization._consts import (
     SPRINT_ROUNDS,
     VISUAL_CONFIG,
 )
-from f1_visualization._types import Session
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -33,20 +32,6 @@ class OutdatedTOMLError(Exception):  # noqa: N801
 
 
 SPRINT_RACE_ORDINAL = 3
-
-
-def get_session(season: int, round_number: int, session_type: str) -> Session:
-    """Get fastf1 session only when it exists."""
-    match session_type:
-        case "R":
-            return f.get_session(season, round_number, session_type)
-        case "S":
-            if season in SPRINT_ROUNDS and round_number in SPRINT_ROUNDS[season]:
-                return f.get_session(season, round_number, session_type)
-        case _:
-            raise ValueError(f"{session_type} is not a supported session identifier")
-
-    return None
 
 
 def load_all_data(season: int, path: Path, session_type: str):
@@ -65,13 +50,18 @@ def load_all_data(season: int, path: Path, session_type: str):
     """
     dfs = []
     schedule = f.get_event_schedule(season)
-    last_completed_round = NUM_ROUNDS[season]
+    all_rounds = set(range(1, NUM_ROUNDS[season] + 1))
 
-    if session_type == "S" and season == CURRENT_SEASON:
-        last_completed_round = get_last_round(session_cutoff=SPRINT_RACE_ORDINAL)
+    if session_type == "S":
+        if season == CURRENT_SEASON:
+            all_rounds = SPRINT_ROUNDS[CURRENT_SEASON].intersection(
+                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1)
+            )
+        else:
+            all_rounds = SPRINT_ROUNDS.get(season, set())
 
-    for i in range(1, last_completed_round + 1):
-        session = get_session(season, i, session_type)
+    for i in sorted(all_rounds):
+        session = f.get_session(season, i, session_type)
         if session is None:
             continue
 
@@ -113,14 +103,16 @@ def update_data(season: int, path: Path, session_type: str):
         session_type: Follow FastF1 session identifier convention
     """
     existing_data = pd.read_csv(path, index_col=0, header=0)
-
     loaded_rounds = set(pd.unique(existing_data["RoundNumber"]))
-
     all_rounds = set(range(1, NUM_ROUNDS[season] + 1))
+
     if session_type == "S":
         if season == CURRENT_SEASON:
-            all_rounds = set(range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1))
-        all_rounds = SPRINT_ROUNDS[season].intersection(all_rounds)
+            all_rounds = SPRINT_ROUNDS[CURRENT_SEASON].intersection(
+                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1)
+            )
+        else:
+            all_rounds = SPRINT_ROUNDS.get(season, set())
 
     missing_rounds = sorted(all_rounds.difference(loaded_rounds))
 
@@ -130,7 +122,6 @@ def update_data(season: int, path: Path, session_type: str):
         )
         return
 
-    # correctness check
     logger.info(
         "Existing %d season %s data coverage: %s",
         season,
@@ -143,7 +134,7 @@ def update_data(season: int, path: Path, session_type: str):
     dfs = []
 
     for i in missing_rounds:
-        session = get_session(season, i, session_type)
+        session = f.get_session(season, i, session_type)
         if session is None:
             continue
 
@@ -657,14 +648,21 @@ def main() -> int:
     Path.mkdir(DATA_PATH / "grand_prix", parents=True, exist_ok=True)
 
     load_seasons = list(range(2018, CURRENT_SEASON + 1))
-    rounds_completed = get_last_round()
+    num_race_completed = get_last_round()
+    num_sprint_completed = get_last_round(session_cutoff=SPRINT_RACE_ORDINAL)
 
     logger.info(
-        "Correctness Check: %d rounds of the %d season have been fully completed",
-        rounds_completed,
+        "Correctness Check: %d races of the %d season have been completed",
+        num_race_completed,
         CURRENT_SEASON,
     )
-    NUM_ROUNDS[CURRENT_SEASON] = rounds_completed
+    NUM_ROUNDS[CURRENT_SEASON] = num_race_completed
+
+    logger.info(
+        "Correctness Check: %d sprint races of the %d season have been completed",
+        num_sprint_completed,
+        CURRENT_SEASON,
+    )
 
     for season in load_seasons:
         for session_type, session_name in SESSION_IDS.items():
