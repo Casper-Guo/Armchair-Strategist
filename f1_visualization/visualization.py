@@ -645,8 +645,11 @@ def driver_stats_scatterplot(
         "horizontalalignment": "center",
     }
 
+    if not isinstance(drivers, (int, str)) and drivers is not None:
+        drivers = tuple(drivers)
+
     round_number, event_name, drivers = get_session_info(
-        season, event, session_type, tuple(drivers), teammate_comp
+        season, event, session_type, drivers, teammate_comp
     )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
@@ -774,9 +777,10 @@ def driver_stats_lineplot(
     """
     plt.style.use("dark_background")
 
-    round_number, event_name, drivers = get_session_info(
-        season, event, session_type, tuple(drivers)
-    )
+    if not isinstance(drivers, (int, str)) and drivers is not None:
+        drivers = tuple(drivers)
+
+    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
@@ -894,8 +898,11 @@ def driver_stats_distplot(
     """
     plt.style.use("dark_background")
 
+    if not isinstance(drivers, (int, str)) and drivers is not None:
+        drivers = tuple(drivers)
+
     round_number, event_name, drivers = get_session_info(
-        season, event, session_type, tuple(drivers), teammate_comp
+        season, event, session_type, drivers, teammate_comp
     )
 
     included_laps = DF_DICT[season][session_type]
@@ -993,9 +1000,10 @@ def strategy_barplot(
         absolute_compound: If true, group tyres by absolute compound names (C1, C2 etc.).
         Else, group tyres by relative compound names (SOFT, MEDIUM, HARD).
     """
-    round_number, event_name, drivers = get_session_info(
-        season, event, session_type, tuple(drivers)
-    )
+    if not isinstance(drivers, int) and drivers is not None:
+        drivers = tuple(drivers)
+
+    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
