@@ -183,10 +183,21 @@ lineplot_tab = dbc.Tab(
     label="lineplot",
 )
 
+distplot_caveat = dbc.Alert(
+    [
+        html.H4("Caveats", className="alert-heading"),
+        html.P("Only drivers who have completed more than 5 laps are shown."),
+    ],
+    color="info",
+    dismissable=True,
+)
+
 distplot_tab = dbc.Tab(
     dbc.Card(
         dbc.CardBody(
             [
+                distplot_caveat,
+                html.Br(),
                 dbc.Row(
                     dcc.Dropdown(
                         options=[

@@ -331,6 +331,25 @@ def add_gap(
     return df_laps
 
 
+def remove_low_data_drivers(
+    included_laps: pd.DataFrame, drivers: tuple[str], min_laps: int
+) -> tuple[str]:
+    """
+    Return drivers who appear at least min_laps times in included_laps.
+
+    Guarantees the return value is in the same order as the drivers argument.
+    """
+    lap_counts = included_laps["Driver"].value_counts()
+    qualifying_drivers = []
+
+    for driver in drivers:
+        if lap_counts.get(driver, 0) >= min_laps:
+            qualifying_drivers.append(driver)
+        else:
+            logger.info("Dropping %s for having less than %d laps.", driver, min_laps)
+    return tuple(qualifying_drivers)
+
+
 def teammate_comp_order(
     included_laps: pd.DataFrame, drivers: tuple[str], by: str
 ) -> tuple[str]:
@@ -349,43 +368,33 @@ def teammate_comp_order(
 
     Assumes:
         - teammates are next to each other in the drivers tuple
-          (This assumption is enforced if drivers is returned from get_session_info
-          with teammate_comp=True argument)
+          This assumption is enforced if drivers is returned from get_session_info
+          with teammate_comp=True argument.
+          This assumption may be invalidated by remove_low_data_drivers
         - by is a column in included_laps.
     """
     metric_median = included_laps.groupby("Driver")[by].median(numeric_only=True)
-    laps_recorded = included_laps.groupby("Driver").size()
-    drivers_to_plot = laps_recorded.loc[lambda x: x > 5].index
     team_median_gaps = []
+
+    # deal with odd number of drivers case
+    odd_driver_out = [] if len(drivers) % 2 == 0 else [drivers[-1]]
 
     # TODO: Python 3.12 added itertools.batched to simplify the following logic
     for i in range(0, len(drivers) - 1, 2):
         teammates = drivers[i], drivers[i + 1]
-
-        # Some drivers not have any valid data!
-        # and thus will not be in the team_median_gaps dictionary
-        # in that case, do not plot the teammate with no valid data
-        if teammates[0] in drivers_to_plot and teammates[1] in drivers_to_plot:
-            median_gap = abs(metric_median[teammates[0]] - metric_median[teammates[1]])
-            team_median_gaps.append([teammates, median_gap])
+        if all(driver in metric_median for driver in teammates):
+            median_gap = metric_median[teammates[0]] - metric_median[teammates[1]]
+            if median_gap < 0:
+                # faster driver on the left
+                team_median_gaps.append([teammates, -median_gap])
+            else:
+                team_median_gaps.append([teammates[::-1], median_gap])
         else:
-            for driver in teammates:
-                if driver in drivers_to_plot:
-                    team_median_gaps.append([tuple(driver), 0])
-                else:
-                    logger.warning(
-                        "%s has less than 5 laps of data and will not be plotted",
-                        driver,
-                    )
+            team_median_gaps.append([teammates, 0])
 
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
-
-    # handles odd number of drivers case
-    standout = drivers[-1:] if len(drivers) % 2 == 1 else []
-
     drivers = [driver for team in team_median_gaps for driver in team[0]]
-    drivers.extend(standout)
-
+    drivers.extend(odd_driver_out)
     return tuple(drivers)
 
 
@@ -869,6 +878,8 @@ def driver_stats_distplot(
     """
     Visualize race data distribution as a violinplot or boxplot + optional swarmplot.
 
+    Only drivers who have completed more than 5 laps are shown.
+
     Args:
         season: Championship season
 
@@ -914,6 +925,7 @@ def driver_stats_distplot(
 
     if teammate_comp:
         drivers = teammate_comp_order(included_laps, drivers, y)
+    drivers = remove_low_data_drivers(included_laps, drivers, 6)
 
     # Adjust plot size based on number of drivers plotted
     fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 10))
