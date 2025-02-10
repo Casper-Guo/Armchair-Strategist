@@ -21,7 +21,7 @@ from f1_visualization._consts import (
 )
 from f1_visualization._types import Figure, Session
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
+logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
 
 
