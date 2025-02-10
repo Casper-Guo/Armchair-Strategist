@@ -17,7 +17,7 @@ import f1_visualization.visualization as viz
 from f1_visualization._consts import CURRENT_SEASON, NUM_ROUNDS, ROOT_PATH, SPRINT_ROUNDS
 from f1_visualization.preprocess import get_last_round
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s\t%(filename)s\t%(message)s")
+logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
 
 # plotting setup
