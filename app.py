@@ -13,9 +13,9 @@ import tomli
 from dash import Dash, Input, Output, State, callback, html
 from plotly import graph_objects as go
 
-import f1_visualization.plotly_dash.graphs as pg
+import dashboard.graphs as pg
+from dashboard.layout import app_layout, line_y_options, scatter_y_options
 from f1_visualization._consts import SPRINT_FORMATS
-from f1_visualization.plotly_dash.layout import app_layout, line_y_options, scatter_y_options
 from f1_visualization.visualization import (
     get_session_info,
     load_laps,
@@ -35,10 +35,7 @@ Session_info: TypeAlias = tuple[int, str, tuple[str]]
 DF_DICT = load_laps()
 
 with open(
-    Path(__file__).absolute().parent
-    / "f1_visualization"
-    / "plotly_dash"
-    / "visualization_config.toml",
+    Path(__file__).absolute().parent / "dashboard" / "visualization_config.toml",
     "rb",
 ) as toml:
     COMPOUND_PALETTE = tomli.load(toml)["relative"]["high_contrast_palette"]

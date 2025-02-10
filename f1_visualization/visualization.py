@@ -424,7 +424,7 @@ def _lap_filter_vsc(row: pd.Series) -> bool:
     )
 
 
-def _find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
     """
     Find the unique lap numbers that is ran under SC or VSC.
 
@@ -799,7 +799,7 @@ def driver_stats_lineplot(
         assert sorted(lap_numbers) == list(range(lap_numbers[0], lap_numbers[-1] + 1))
         included_laps = included_laps[included_laps["LapNumber"].isin(lap_numbers)]
 
-    sc_laps, vsc_laps = _find_sc_laps(included_laps)
+    sc_laps, vsc_laps = find_sc_laps(included_laps)
 
     if upper_bound is None:
         upper_bound = 100 if y == "Position" or y.startswith("GapTo") else 10
@@ -1052,7 +1052,7 @@ def strategy_barplot(
 
             previous_stint_end += stint["StintLength"]
 
-    _shade_sc_periods(*_find_sc_laps(included_laps))
+    _shade_sc_periods(*find_sc_laps(included_laps))
 
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
