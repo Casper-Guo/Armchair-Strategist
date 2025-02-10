@@ -14,7 +14,14 @@ import pandas as pd
 import seaborn as sns
 
 import f1_visualization.visualization as viz
-from f1_visualization._consts import CURRENT_SEASON, NUM_ROUNDS, ROOT_PATH, SPRINT_ROUNDS
+from f1_visualization._consts import (
+    CURRENT_SEASON,
+    GRAND_PRIX_ORDINAL,
+    NUM_ROUNDS,
+    ROOT_PATH,
+    SPRINT_RACE_ORDINAL,
+    SPRINT_ROUNDS,
+)
 from f1_visualization.preprocess import get_last_round
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
@@ -36,50 +43,49 @@ warnings.filterwarnings("ignore")
 
 def process_round_number(season: int, round_number: int, grand_prix: bool) -> int:
     """Get the last available round number of the requested session type in a season."""
-    if season > CURRENT_SEASON:
-        raise ValueError(f"The latest season is {CURRENT_SEASON}.")
-    if season < 2018:
-        raise ValueError("Only 2018 and later seasons are available.")
+    if season > CURRENT_SEASON or season < 2018:
+        raise ValueError(f"Only seasons between 2018 and {CURRENT_SEASON} are available.")
     if round_number < 1 and round_number != -1:
         raise ValueError("Round number must be positive.")
 
-    if season == CURRENT_SEASON:
-        last_round_number = get_last_round(session_cutoff=5 if grand_prix else 3)
+    last_round_number = (
+        NUM_ROUNDS[season]
+        if season != CURRENT_SEASON
+        else get_last_round(
+            session_cutoff=GRAND_PRIX_ORDINAL if grand_prix else SPRINT_RACE_ORDINAL
+        )
+    )
 
-        if last_round_number == 0:
-            # this means there is no completed round in the current season yet
-            # default to the last season's final round
-            raise ValueError(f"No session of the requested type in the {season} season yet.")
-        if grand_prix:
-            return min(round_number, last_round_number)
-        if last_round_number <= round_number:
-            return last_round_number
-            # if round_number < latest_round_number, extra logic needed to find the last sprint
-            # round before the requested value
-
-    if round_number > NUM_ROUNDS[season]:
-        raise ValueError(f"{season} season only has {NUM_ROUNDS[season]} rounds.")
+    if season == CURRENT_SEASON and last_round_number == 0:
+        raise ValueError("The current season has not started yet.")
 
     if round_number == -1:
-        round_number = NUM_ROUNDS[season]
-    if grand_prix:
+        if grand_prix:
+            return last_round_number
+        try:
+            return max(
+                sprint for sprint in SPRINT_ROUNDS[season] if sprint <= last_round_number
+            )
+        except KeyError as exc:
+            raise ValueError(f"No sprint rounds in the {season} season.") from exc
+        except ValueError as exc:
+            raise ValueError(
+                f"No sprint rounds has been completed in the {season} season yet."
+            ) from exc
+    else:
+        if round_number > last_round_number:
+            raise ValueError(
+                f"Only {last_round_number} rounds of the {season} season have been completed."
+            )
+        if grand_prix:
+            return round_number
+        if season not in SPRINT_ROUNDS:
+            raise ValueError(f"No sprint rounds in the {season} season.")
+        if round_number not in SPRINT_ROUNDS[season]:
+            raise ValueError(
+                f"Round {round_number} of the {season} season is not a sprint round."
+            )
         return round_number
-
-    try:
-        round_number = max(
-            sprint_round
-            for sprint_round in SPRINT_ROUNDS[season]
-            if sprint_round <= round_number
-        )
-    except KeyError as exc:
-        raise ValueError(f"{season} season doesn't have any sprint race.") from exc
-    except ValueError as exc:
-        # no sprint rounds before the requested round
-        raise ValueError(
-            f"{season} season only has these sprint races: {sorted(SPRINT_ROUNDS[season])}."
-        ) from exc
-
-    return round_number
 
 
 @click.command()
@@ -90,19 +96,17 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
 )
 @click.option("--update-readme", is_flag=True)
 @click.option(
-    "-r", "--reddit-machine", is_flag=True, help="Write plotted session name to text file."
+    "-r", "--reddit-machine", is_flag=True, help="Write plotted session name to a text file."
 )
 def main(
     season: int, round_number: int, grand_prix: bool, update_readme: bool, reddit_machine: bool
 ):
     """
-    Make the README suite of visualizations for the latest event.
+    Make the suite of README visualizations for the requested event.
 
-    \b
-    Args:
-        SEASON (int): Default to the current season (equivalent to current calendar year).
-        ROUND_NUMBER (int): Default to the last completed round of the matching session_type.
-    """  # noqa: D301 click requires the \b sequence to not line wrap this paragraph
+    Unless both season and round_number are specified, default to the
+    latest session of the requested type in the same season.
+    """
     global DOC_VISUALS_PATH
 
     round_number = process_round_number(season, round_number, grand_prix)
