@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import tomli
 from plotly.subplots import make_subplots
 
-from f1_visualization.visualization import _find_sc_laps, pick_driver_color
+from f1_visualization.visualization import find_sc_laps, pick_driver_color
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:
     DASH_VISUAL_CONFIG = tomli.load(toml)
@@ -113,7 +113,7 @@ def strategy_barplot(
             stint_num += 1
 
     num_laps = included_laps["LapNumber"].max()
-    fig = shade_sc_periods(fig, *_find_sc_laps(included_laps))
+    fig = shade_sc_periods(fig, *find_sc_laps(included_laps))
     fig.update_layout(
         barmode="stack",
         template="plotly_dark",
@@ -199,7 +199,7 @@ def stats_lineplot(
 ) -> go.Figure:
     """Make lineplots showing a statistic."""
     # Identify SC and VSC laps before filtering for upper bound
-    sc_laps, vsc_laps = _find_sc_laps(included_laps)
+    sc_laps, vsc_laps = find_sc_laps(included_laps)
 
     # keep all laps if y is position to eliminate any implicit gaps
     if y != "Position":
