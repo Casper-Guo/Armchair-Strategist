@@ -2246,25 +2246,25 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:45.841000,ALO,14,85.164,17.0,1.0,,,True,MEDIUM,23.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.691,-0.805,1.241,1.479,0.083,0.098
 0 days 01:10:11.451000,ALO,14,85.61,18.0,1.0,,,False,MEDIUM,24.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.245,-0.285,1.687,2.01,0.55,0.647
 0 days 01:11:35.732000,ALO,14,84.281,19.0,1.0,,,True,MEDIUM,25.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-1.574,-1.833,0.358,0.427,-0.742,-0.873
-0 days 00:45:48.579000,BOT,77,,1.0,,,,False,UNKNOWN,,True,Kick Sauber,1,12.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
-0 days 00:47:17.063000,BOT,77,88.484,2.0,,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,2.629,3.062,4.561,5.435,0.86,0.981
-0 days 00:48:44.648000,BOT,77,87.585,3.0,,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.73,2.015,3.662,4.364,0.961,1.109
-0 days 00:50:11.770000,BOT,77,87.122,4.0,,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.267,1.476,3.199,3.812,0.52,0.6
-0 days 00:51:38.597000,BOT,77,86.827,5.0,1.0,,,True,MEDIUM,9.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.972,1.132,2.904,3.46,0.395,0.457
-0 days 00:53:04.979000,BOT,77,86.382,6.0,1.0,,,True,MEDIUM,10.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.527,0.614,2.459,2.93,0.14,0.162
-0 days 00:54:31.168000,BOT,77,86.189,7.0,1.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.334,0.389,2.266,2.7,0.129,0.15
-0 days 00:55:57.314000,BOT,77,86.146,8.0,1.0,,,True,MEDIUM,12.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.291,0.339,2.223,2.649,0.128,0.149
-0 days 00:57:23.382000,BOT,77,86.068,9.0,1.0,,,True,MEDIUM,13.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.213,0.248,2.145,2.556,0.056,0.065
-0 days 00:58:48.956000,BOT,77,85.574,10.0,1.0,,,True,MEDIUM,14.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.281,-0.327,1.651,1.967,-0.04,-0.047
-0 days 01:00:14.932000,BOT,77,85.976,11.0,1.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.121,0.141,2.053,2.446,0.357,0.417
-0 days 01:01:40.379000,BOT,77,85.447,12.0,1.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.408,-0.475,1.524,1.816,-0.091,-0.106
-0 days 01:03:06.116000,BOT,77,85.737,13.0,1.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.118,-0.137,1.814,2.162,0.127,0.148
-0 days 01:04:31.779000,BOT,77,85.663,14.0,1.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.192,-0.224,1.74,2.073,0.228,0.267
-0 days 01:05:57.364000,BOT,77,85.585,15.0,1.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.27,-0.314,1.662,1.98,0.234,0.274
-0 days 01:07:23.151000,BOT,77,85.787,16.0,1.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.068,-0.079,1.864,2.221,0.318,0.372
-0 days 01:08:48.815000,BOT,77,85.664,17.0,1.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.191,-0.222,1.741,2.075,0.583,0.685
-0 days 01:10:14.350000,BOT,77,85.535,18.0,1.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.32,-0.373,1.612,1.921,0.475,0.558
-0 days 01:11:39.879000,BOT,77,85.529,19.0,1.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.326,-0.38,1.606,1.914,0.506,0.595
+0 days 00:45:48.579000,BOT,77,,1.0,1.0,,,False,UNKNOWN,,True,Kick Sauber,1,12.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
+0 days 00:47:17.063000,BOT,77,88.484,2.0,1.0,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,2.629,3.062,4.561,5.435,0.86,0.981
+0 days 00:48:44.648000,BOT,77,87.585,3.0,1.0,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.73,2.015,3.662,4.364,0.961,1.109
+0 days 00:50:11.770000,BOT,77,87.122,4.0,1.0,,,True,UNKNOWN,,True,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.267,1.476,3.199,3.812,0.52,0.6
+0 days 00:51:38.597000,BOT,77,86.827,5.0,2.0,,,True,MEDIUM,9.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.972,1.132,2.904,3.46,0.395,0.457
+0 days 00:53:04.979000,BOT,77,86.382,6.0,2.0,,,True,MEDIUM,10.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.527,0.614,2.459,2.93,0.14,0.162
+0 days 00:54:31.168000,BOT,77,86.189,7.0,2.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.334,0.389,2.266,2.7,0.129,0.15
+0 days 00:55:57.314000,BOT,77,86.146,8.0,2.0,,,True,MEDIUM,12.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.291,0.339,2.223,2.649,0.128,0.149
+0 days 00:57:23.382000,BOT,77,86.068,9.0,2.0,,,True,MEDIUM,13.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.213,0.248,2.145,2.556,0.056,0.065
+0 days 00:58:48.956000,BOT,77,85.574,10.0,2.0,,,True,MEDIUM,14.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.281,-0.327,1.651,1.967,-0.04,-0.047
+0 days 01:00:14.932000,BOT,77,85.976,11.0,2.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.121,0.141,2.053,2.446,0.357,0.417
+0 days 01:01:40.379000,BOT,77,85.447,12.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.408,-0.475,1.524,1.816,-0.091,-0.106
+0 days 01:03:06.116000,BOT,77,85.737,13.0,2.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.118,-0.137,1.814,2.162,0.127,0.148
+0 days 01:04:31.779000,BOT,77,85.663,14.0,2.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.192,-0.224,1.74,2.073,0.228,0.267
+0 days 01:05:57.364000,BOT,77,85.585,15.0,2.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.27,-0.314,1.662,1.98,0.234,0.274
+0 days 01:07:23.151000,BOT,77,85.787,16.0,2.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.068,-0.079,1.864,2.221,0.318,0.372
+0 days 01:08:48.815000,BOT,77,85.664,17.0,2.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.191,-0.222,1.741,2.075,0.583,0.685
+0 days 01:10:14.350000,BOT,77,85.535,18.0,2.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.32,-0.373,1.612,1.921,0.475,0.558
+0 days 01:11:39.879000,BOT,77,85.529,19.0,2.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.326,-0.38,1.606,1.914,0.506,0.595
 0 days 00:45:48.876000,STR,18,,1.0,1.0,,,False,MEDIUM,7.0,False,Aston Martin,1,13.0,False,23,Qatar Grand Prix,True,C2,False,,,,,,
 0 days 00:47:17.542000,STR,18,88.666,2.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,2.811,3.274,4.743,5.652,1.042,1.189
 0 days 00:48:45.326000,STR,18,87.784,3.0,1.0,,,True,MEDIUM,9.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,1.929,2.247,3.861,4.601,1.16,1.339
@@ -2360,25 +2360,25 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:59.582000,TSU,22,85.838,17.0,1.0,,,True,MEDIUM,24.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,-0.017,-0.02,1.915,2.282,0.757,0.89
 0 days 01:10:25.515000,TSU,22,85.933,18.0,1.0,,,False,MEDIUM,25.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.078,0.091,2.01,2.395,0.873,1.026
 0 days 01:11:51.630000,TSU,22,86.115,19.0,1.0,,,False,MEDIUM,26.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.26,0.303,2.192,2.612,1.092,1.284
-0 days 00:45:56.758000,COL,43,,1.0,,0 days 00:44:26.425000,,False,UNKNOWN,,True,Williams,1,19.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
-0 days 00:47:24.580000,COL,43,87.822,2.0,,,,True,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.967,2.291,3.899,4.646,0.198,0.226
-0 days 00:48:51.181000,COL,43,86.601,3.0,,,,True,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.746,0.869,2.678,3.191,-0.023,-0.027
-0 days 00:50:17.871000,COL,43,86.69,4.0,,,,False,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.835,0.973,2.767,3.297,0.088,0.102
-0 days 00:51:44.224000,COL,43,86.353,5.0,1.0,,,True,MEDIUM,1.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.498,0.58,2.43,2.896,-0.079,-0.091
-0 days 00:53:11.066000,COL,43,86.842,6.0,1.0,,,False,MEDIUM,2.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.987,1.15,2.919,3.478,0.6,0.696
-0 days 00:54:39.818000,COL,43,88.752,7.0,1.0,,,False,MEDIUM,3.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,2.897,3.374,4.829,5.754,2.692,3.128
-0 days 00:56:06.210000,COL,43,86.392,8.0,1.0,,,False,MEDIUM,4.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.537,0.625,2.469,2.942,0.374,0.435
-0 days 00:57:32.383000,COL,43,86.173,9.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.318,0.37,2.25,2.681,0.161,0.187
-0 days 00:58:58.040000,COL,43,85.657,10.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.198,-0.231,1.734,2.066,0.043,0.05
-0 days 01:00:24.271000,COL,43,86.231,11.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.376,0.438,2.308,2.75,0.612,0.715
-0 days 01:01:50.177000,COL,43,85.906,12.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.051,0.059,1.983,2.363,0.368,0.43
-0 days 01:03:16.330000,COL,43,86.153,13.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.298,0.347,2.23,2.657,0.543,0.634
-0 days 01:04:42.465000,COL,43,86.135,14.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.28,0.326,2.212,2.636,0.7,0.819
-0 days 01:06:08.314000,COL,43,85.849,15.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.006,-0.007,1.926,2.295,0.498,0.583
-0 days 01:07:34.569000,COL,43,86.255,16.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.4,0.466,2.332,2.779,0.786,0.92
-0 days 01:09:00.609000,COL,43,86.04,17.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.185,0.215,2.117,2.523,0.959,1.127
-0 days 01:10:26.208000,COL,43,85.599,18.0,1.0,,,True,MEDIUM,14.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.256,-0.298,1.676,1.997,0.539,0.634
-0 days 01:11:52.167000,COL,43,85.959,19.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.104,0.121,2.036,2.426,0.936,1.101
+0 days 00:45:56.758000,COL,43,,1.0,1.0,0 days 00:44:26.425000,,False,UNKNOWN,,True,Williams,1,19.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
+0 days 00:47:24.580000,COL,43,87.822,2.0,1.0,,,True,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,1.967,2.291,3.899,4.646,0.198,0.226
+0 days 00:48:51.181000,COL,43,86.601,3.0,1.0,,,True,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.746,0.869,2.678,3.191,-0.023,-0.027
+0 days 00:50:17.871000,COL,43,86.69,4.0,1.0,,,False,UNKNOWN,,True,Williams,1,19.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.835,0.973,2.767,3.297,0.088,0.102
+0 days 00:51:44.224000,COL,43,86.353,5.0,2.0,,,True,MEDIUM,1.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.498,0.58,2.43,2.896,-0.079,-0.091
+0 days 00:53:11.066000,COL,43,86.842,6.0,2.0,,,False,MEDIUM,2.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.987,1.15,2.919,3.478,0.6,0.696
+0 days 00:54:39.818000,COL,43,88.752,7.0,2.0,,,False,MEDIUM,3.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,2.897,3.374,4.829,5.754,2.692,3.128
+0 days 00:56:06.210000,COL,43,86.392,8.0,2.0,,,False,MEDIUM,4.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.537,0.625,2.469,2.942,0.374,0.435
+0 days 00:57:32.383000,COL,43,86.173,9.0,2.0,,,True,MEDIUM,5.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.318,0.37,2.25,2.681,0.161,0.187
+0 days 00:58:58.040000,COL,43,85.657,10.0,2.0,,,True,MEDIUM,6.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.198,-0.231,1.734,2.066,0.043,0.05
+0 days 01:00:24.271000,COL,43,86.231,11.0,2.0,,,False,MEDIUM,7.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.376,0.438,2.308,2.75,0.612,0.715
+0 days 01:01:50.177000,COL,43,85.906,12.0,2.0,,,False,MEDIUM,8.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.051,0.059,1.983,2.363,0.368,0.43
+0 days 01:03:16.330000,COL,43,86.153,13.0,2.0,,,False,MEDIUM,9.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.298,0.347,2.23,2.657,0.543,0.634
+0 days 01:04:42.465000,COL,43,86.135,14.0,2.0,,,False,MEDIUM,10.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.28,0.326,2.212,2.636,0.7,0.819
+0 days 01:06:08.314000,COL,43,85.849,15.0,2.0,,,False,MEDIUM,11.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.006,-0.007,1.926,2.295,0.498,0.583
+0 days 01:07:34.569000,COL,43,86.255,16.0,2.0,,,False,MEDIUM,12.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.4,0.466,2.332,2.779,0.786,0.92
+0 days 01:09:00.609000,COL,43,86.04,17.0,2.0,,,False,MEDIUM,13.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.185,0.215,2.117,2.523,0.959,1.127
+0 days 01:10:26.208000,COL,43,85.599,18.0,2.0,,,True,MEDIUM,14.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.256,-0.298,1.676,1.997,0.539,0.634
+0 days 01:11:52.167000,COL,43,85.959,19.0,2.0,,,False,MEDIUM,15.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.104,0.121,2.036,2.426,0.936,1.101
 0 days 00:45:51.086000,ZHO,24,,1.0,1.0,,,False,SOFT,1.0,True,Kick Sauber,1,17.0,False,23,Qatar Grand Prix,True,C3,False,,,,,,
 0 days 00:47:19.030000,ZHO,24,87.944,2.0,1.0,,,True,SOFT,2.0,True,Kick Sauber,1,16.0,True,23,Qatar Grand Prix,True,C3,True,2.089,2.433,4.021,4.791,0.32,0.365
 0 days 00:48:46.878000,ZHO,24,87.848,3.0,1.0,,,True,SOFT,3.0,True,Kick Sauber,1,16.0,True,23,Qatar Grand Prix,True,C3,True,1.993,2.321,3.925,4.677,1.224,1.413
@@ -2398,22 +2398,22 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:37.565000,ZHO,24,85.605,17.0,2.0,,,True,MEDIUM,15.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,-0.25,-0.291,1.682,2.004,0.524,0.616
 0 days 01:11:02.913000,ZHO,24,85.348,18.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,-0.507,-0.591,1.425,1.698,0.288,0.339
 0 days 01:12:27.964000,ZHO,24,85.051,19.0,2.0,,,True,MEDIUM,17.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,-0.804,-0.936,1.128,1.344,0.028,0.033
-0 days 00:45:59.545000,PER,11,,1.0,,0 days 00:44:25.612000,,False,UNKNOWN,,True,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
-0 days 00:47:26.194000,PER,11,86.649,2.0,,,,True,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.794,0.925,2.726,3.248,-0.975,-1.113
-0 days 00:48:52.379000,PER,11,86.185,3.0,,,,True,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.33,0.384,2.262,2.695,-0.439,-0.507
-0 days 00:50:18.652000,PER,11,86.273,4.0,,,,False,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.418,0.487,2.35,2.8,-0.329,-0.38
-0 days 00:51:45.378000,PER,11,86.726,5.0,1.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,0.871,1.015,2.803,3.34,0.294,0.34
-0 days 00:53:12.037000,PER,11,86.659,6.0,1.0,,,False,MEDIUM,9.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,0.804,0.936,2.736,3.26,0.417,0.484
-0 days 00:54:40.254000,PER,11,88.217,7.0,1.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,2.362,2.751,4.294,5.117,2.157,2.506
-0 days 00:56:06.898000,PER,11,86.644,8.0,1.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.789,0.919,2.721,3.242,0.626,0.728
-0 days 00:57:33.503000,PER,11,86.605,9.0,1.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.75,0.874,2.682,3.196,0.593,0.689
-0 days 00:58:59.551000,PER,11,86.048,10.0,1.0,,,True,MEDIUM,13.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.193,0.225,2.125,2.532,0.434,0.507
-0 days 01:00:25.432000,PER,11,85.881,11.0,1.0,,,True,MEDIUM,14.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.026,0.03,1.958,2.333,0.262,0.306
-0 days 01:01:51.365000,PER,11,85.933,12.0,1.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.078,0.091,2.01,2.395,0.395,0.462
-0 days 01:03:17.582000,PER,11,86.217,13.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.362,0.422,2.294,2.733,0.607,0.709
-0 days 01:04:48.936000,PER,11,91.354,14.0,1.0,,0 days 01:04:44.911000,False,MEDIUM,17.0,False,Red Bull Racing,1,19.0,False,23,Qatar Grand Prix,True,C2,False,5.499,6.405,7.431,8.855,5.919,6.928
-0 days 01:06:46.858000,PER,11,117.922,15.0,2.0,0 days 01:05:23.114000,,False,MEDIUM,22.0,False,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,True,C2,False,32.067,37.35,33.999,40.512,32.571,38.161
-0 days 01:08:15.988000,PER,11,89.13,16.0,2.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,3.275,3.815,5.207,6.204,3.661,4.283
-0 days 01:09:41.078000,PER,11,85.09,17.0,2.0,,,True,MEDIUM,24.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.765,-0.891,1.167,1.391,0.009,0.011
-0 days 01:11:05.970000,PER,11,84.892,18.0,2.0,,,True,MEDIUM,25.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.963,-1.122,0.969,1.155,-0.168,-0.198
-0 days 01:12:30.899000,PER,11,84.929,19.0,2.0,,,False,MEDIUM,26.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.926,-1.079,1.006,1.199,-0.094,-0.111
+0 days 00:45:59.545000,PER,11,,1.0,1.0,0 days 00:44:25.612000,,False,UNKNOWN,,True,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,False,UNKNOWN,False,,,,,,
+0 days 00:47:26.194000,PER,11,86.649,2.0,1.0,,,True,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.794,0.925,2.726,3.248,-0.975,-1.113
+0 days 00:48:52.379000,PER,11,86.185,3.0,1.0,,,True,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.33,0.384,2.262,2.695,-0.439,-0.507
+0 days 00:50:18.652000,PER,11,86.273,4.0,1.0,,,False,UNKNOWN,,True,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,False,UNKNOWN,False,0.418,0.487,2.35,2.8,-0.329,-0.38
+0 days 00:51:45.378000,PER,11,86.726,5.0,2.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,0.871,1.015,2.803,3.34,0.294,0.34
+0 days 00:53:12.037000,PER,11,86.659,6.0,2.0,,,False,MEDIUM,9.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,0.804,0.936,2.736,3.26,0.417,0.484
+0 days 00:54:40.254000,PER,11,88.217,7.0,2.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,2.362,2.751,4.294,5.117,2.157,2.506
+0 days 00:56:06.898000,PER,11,86.644,8.0,2.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.789,0.919,2.721,3.242,0.626,0.728
+0 days 00:57:33.503000,PER,11,86.605,9.0,2.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.75,0.874,2.682,3.196,0.593,0.689
+0 days 00:58:59.551000,PER,11,86.048,10.0,2.0,,,True,MEDIUM,13.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.193,0.225,2.125,2.532,0.434,0.507
+0 days 01:00:25.432000,PER,11,85.881,11.0,2.0,,,True,MEDIUM,14.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.026,0.03,1.958,2.333,0.262,0.306
+0 days 01:01:51.365000,PER,11,85.933,12.0,2.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.078,0.091,2.01,2.395,0.395,0.462
+0 days 01:03:17.582000,PER,11,86.217,13.0,2.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.362,0.422,2.294,2.733,0.607,0.709
+0 days 01:04:48.936000,PER,11,91.354,14.0,2.0,,0 days 01:04:44.911000,False,MEDIUM,17.0,False,Red Bull Racing,1,19.0,False,23,Qatar Grand Prix,True,C2,False,5.499,6.405,7.431,8.855,5.919,6.928
+0 days 01:06:46.858000,PER,11,117.922,15.0,3.0,0 days 01:05:23.114000,,False,MEDIUM,22.0,False,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,True,C2,False,32.067,37.35,33.999,40.512,32.571,38.161
+0 days 01:08:15.988000,PER,11,89.13,16.0,3.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,3.275,3.815,5.207,6.204,3.661,4.283
+0 days 01:09:41.078000,PER,11,85.09,17.0,3.0,,,True,MEDIUM,24.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.765,-0.891,1.167,1.391,0.009,0.011
+0 days 01:11:05.970000,PER,11,84.892,18.0,3.0,,,True,MEDIUM,25.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.963,-1.122,0.969,1.155,-0.168,-0.198
+0 days 01:12:30.899000,PER,11,84.929,19.0,3.0,,,False,MEDIUM,26.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.926,-1.079,1.006,1.199,-0.094,-0.111
