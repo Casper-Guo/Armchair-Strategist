@@ -16,7 +16,12 @@ from plotly import graph_objects as go
 import f1_visualization.plotly_dash.graphs as pg
 from f1_visualization._consts import SPRINT_FORMATS
 from f1_visualization.plotly_dash.layout import app_layout, line_y_options, scatter_y_options
-from f1_visualization.visualization import get_session_info, load_laps, teammate_comp_order
+from f1_visualization.visualization import (
+    get_session_info,
+    load_laps,
+    remove_low_data_drivers,
+    teammate_comp_order,
+)
 
 # Silent SettingWithCopyWarning
 pd.options.mode.chained_assignment = None
@@ -410,10 +415,9 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     Input("drivers", "value"),
     State("laps", "data"),
     State("session-info", "data"),
-    State("teammate-comp", "value"),
 )
 def render_strategy_plot(
-    drivers: list[str], included_laps: dict, session_info: Session_info, teammate_comp: bool
+    drivers: list[str], included_laps: dict, session_info: Session_info
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup
@@ -422,9 +426,6 @@ def render_strategy_plot(
 
     included_laps = pd.DataFrame.from_dict(included_laps)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
-
-    if teammate_comp:
-        drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
 
     event_name = session_info[1]
     fig = pg.strategy_barplot(included_laps, drivers)
@@ -542,6 +543,7 @@ def render_distplot(
 
     if teammate_comp:
         drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
+    drivers = remove_low_data_drivers(included_laps, drivers, 6)
 
     fig = pg.stats_distplot(included_laps, drivers, boxplot)
     event_name = session_info[1]
