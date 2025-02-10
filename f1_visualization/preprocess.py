@@ -16,9 +16,11 @@ from f1_visualization._consts import (
     COMPOUND_SELECTION,
     CURRENT_SEASON,
     DATA_PATH,
+    GRAND_PRIX_ORDINAL,
     NUM_ROUNDS,
     SESSION_IDS,
     SESSION_NAMES,
+    SPRINT_RACE_ORDINAL,
     SPRINT_ROUNDS,
     VISUAL_CONFIG,
 )
@@ -29,9 +31,6 @@ logger = logging.getLogger(__name__)
 
 class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""
-
-
-SPRINT_RACE_ORDINAL = 3
 
 
 def load_all_data(season: int, path: Path, session_type: str):
@@ -559,7 +558,7 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
     raise ValueError("Unexpected input length")
 
 
-def get_last_round(session_cutoff: int = 5) -> int:
+def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
     """
     Return the last finished round number in the current season.
 
