@@ -14,8 +14,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:35.731000,VER,1,100.98,13.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.607,-1.566,0.649,0.647,-1.84,-1.79
 0 days 01:09:16.960000,VER,1,101.229,14.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.358,-1.324,0.898,0.895,-1.877,-1.82
 0 days 01:10:58.629000,VER,1,101.669,15.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-0.918,-0.895,1.338,1.334,-1.169,-1.137
-0 days 01:12:39.666000,VER,1,101.037,16.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.55,-1.511,0.706,0.704,-2.214,-2.144
-0 days 01:14:21.066000,VER,1,101.4,17.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.187,-1.157,1.069,1.065,-1.485,-1.443
+0 days 01:12:39.666000,VER,1,101.037,16.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.55,-1.511,0.706,0.704,-2.151,-2.085
+0 days 01:14:21.066000,VER,1,101.4,17.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.187,-1.157,1.069,1.065,-1.449,-1.409
 0 days 01:16:02.456000,VER,1,101.39,18.0,1.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.197,-1.167,1.059,1.056,-1.738,-1.685
 0 days 01:17:43.901000,VER,1,101.445,19.0,1.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,1.0,True,5,Chinese Grand Prix,True,C3,True,-1.142,-1.113,1.114,1.11,-2.005,-1.938
 0 days 00:47:21.506000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,1,1.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -33,8 +33,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:41.581000,HAM,44,102.449,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.138,-0.135,2.118,2.111,-0.371,-0.361
 0 days 01:09:23.928000,HAM,44,102.347,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.24,-0.234,2.016,2.009,-0.759,-0.736
 0 days 01:11:06.524000,HAM,44,102.596,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,0.009,0.009,2.265,2.258,-0.242,-0.235
-0 days 01:12:48.962000,HAM,44,102.438,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.149,-0.145,2.107,2.1,-0.813,-0.787
-0 days 01:14:31.402000,HAM,44,102.44,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.147,-0.143,2.109,2.102,-0.445,-0.433
+0 days 01:12:48.962000,HAM,44,102.438,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.149,-0.145,2.107,2.1,-0.75,-0.727
+0 days 01:14:31.402000,HAM,44,102.44,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,-0.147,-0.143,2.109,2.102,-0.409,-0.398
 0 days 01:16:14.038000,HAM,44,102.636,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,0.049,0.048,2.305,2.297,-0.492,-0.477
 0 days 01:17:56.944000,HAM,44,102.906,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,2.0,True,5,Chinese Grand Prix,True,C3,True,0.319,0.311,2.575,2.567,-0.544,-0.526
 0 days 00:47:24.326000,PER,11,,1.0,1.0,,,False,MEDIUM,4.0,False,Red Bull Racing,1,5.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -52,8 +52,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:45.220000,PER,11,102.472,13.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,5.0,True,5,Chinese Grand Prix,True,C3,True,-0.115,-0.112,2.141,2.134,-0.348,-0.338
 0 days 01:09:27.873000,PER,11,102.653,14.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,5.0,True,5,Chinese Grand Prix,True,C3,True,0.066,0.064,2.322,2.314,-0.453,-0.439
 0 days 01:11:10.648000,PER,11,102.775,15.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,5.0,True,5,Chinese Grand Prix,True,C3,True,0.188,0.183,2.444,2.436,-0.063,-0.061
-0 days 01:12:53.498000,PER,11,102.85,16.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,0.263,0.256,2.519,2.511,-0.401,-0.388
-0 days 01:14:35.376000,PER,11,101.878,17.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,-0.709,-0.691,1.547,1.542,-1.007,-0.979
+0 days 01:12:53.498000,PER,11,102.85,16.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,0.263,0.256,2.519,2.511,-0.338,-0.328
+0 days 01:14:35.376000,PER,11,101.878,17.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,-0.709,-0.691,1.547,1.542,-0.971,-0.944
 0 days 01:16:17.143000,PER,11,101.767,18.0,1.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,-0.82,-0.799,1.436,1.431,-1.361,-1.32
 0 days 01:17:59.159000,PER,11,102.016,19.0,1.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,3.0,True,5,Chinese Grand Prix,True,C3,True,-0.571,-0.557,1.685,1.679,-1.434,-1.386
 0 days 00:47:24.852000,LEC,16,,1.0,1.0,,,False,MEDIUM,5.0,False,Ferrari,1,6.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -71,8 +71,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:45.813000,LEC,16,102.365,13.0,1.0,,,False,MEDIUM,17.0,False,Ferrari,1,6.0,True,5,Chinese Grand Prix,True,C3,True,-0.222,-0.216,2.034,2.027,-0.455,-0.443
 0 days 01:09:28.297000,LEC,16,102.484,14.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,1,6.0,True,5,Chinese Grand Prix,True,C3,True,-0.103,-0.1,2.153,2.146,-0.622,-0.603
 0 days 01:11:11.037000,LEC,16,102.74,15.0,1.0,,,False,MEDIUM,19.0,False,Ferrari,1,6.0,True,5,Chinese Grand Prix,True,C3,True,0.153,0.149,2.409,2.401,-0.098,-0.095
-0 days 01:12:55.485000,LEC,16,104.448,16.0,1.0,,,False,MEDIUM,20.0,False,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,1.861,1.814,4.117,4.103,1.197,1.159
-0 days 01:14:36.998000,LEC,16,101.513,17.0,1.0,,,False,MEDIUM,21.0,False,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,-1.074,-1.047,1.182,1.178,-1.372,-1.334
+0 days 01:12:55.485000,LEC,16,104.448,16.0,1.0,,,False,MEDIUM,20.0,False,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,1.861,1.814,4.117,4.103,1.26,1.221
+0 days 01:14:36.998000,LEC,16,101.513,17.0,1.0,,,False,MEDIUM,21.0,False,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,-1.074,-1.047,1.182,1.178,-1.336,-1.299
 0 days 01:16:18.941000,LEC,16,101.943,18.0,1.0,,,False,MEDIUM,22.0,False,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,-0.644,-0.628,1.612,1.607,-1.185,-1.149
 0 days 01:18:01.387000,LEC,16,102.446,19.0,1.0,,,False,MEDIUM,23.0,False,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,-0.141,-0.137,2.115,2.108,-1.004,-0.971
 0 days 00:47:23.637000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,4.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -90,8 +90,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:44.634000,SAI,55,102.392,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,-0.195,-0.19,2.061,2.054,-0.428,-0.416
 0 days 01:09:27.284000,SAI,55,102.65,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,0.063,0.061,2.319,2.311,-0.456,-0.442
 0 days 01:11:10.088000,SAI,55,102.804,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,0.217,0.212,2.473,2.465,-0.034,-0.033
-0 days 01:12:55.066000,SAI,55,104.978,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,2.391,2.331,4.647,4.632,1.727,1.673
-0 days 01:14:38.770000,SAI,55,103.704,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,1.117,1.089,3.373,3.362,0.819,0.796
+0 days 01:12:55.066000,SAI,55,104.978,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,4.0,True,5,Chinese Grand Prix,True,C3,True,2.391,2.331,4.647,4.632,1.79,1.735
+0 days 01:14:38.770000,SAI,55,103.704,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,1.117,1.089,3.373,3.362,0.855,0.831
 0 days 01:16:21.548000,SAI,55,102.778,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,0.191,0.186,2.447,2.439,-0.35,-0.339
 0 days 01:18:04.597000,SAI,55,103.049,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,5.0,True,5,Chinese Grand Prix,True,C3,True,0.462,0.45,2.718,2.709,-0.401,-0.388
 0 days 00:47:25.851000,NOR,4,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,7.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -109,8 +109,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:46.934000,NOR,4,102.674,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.087,0.085,2.343,2.335,-0.146,-0.142
 0 days 01:09:29.290000,NOR,4,102.356,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,-0.231,-0.225,2.025,2.018,-0.75,-0.727
 0 days 01:11:12.147000,NOR,4,102.857,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.27,0.263,2.526,2.518,0.019,0.018
-0 days 01:12:56.288000,NOR,4,104.141,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,1.554,1.515,3.81,3.797,0.89,0.862
-0 days 01:14:39.271000,NOR,4,102.983,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,0.396,0.386,2.652,2.643,0.098,0.095
+0 days 01:12:56.288000,NOR,4,104.141,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,1.554,1.515,3.81,3.797,0.953,0.924
+0 days 01:14:39.271000,NOR,4,102.983,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,0.396,0.386,2.652,2.643,0.134,0.13
 0 days 01:16:22.162000,NOR,4,102.891,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,0.304,0.296,2.56,2.552,-0.237,-0.23
 0 days 01:18:05.989000,NOR,4,103.827,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,6.0,True,5,Chinese Grand Prix,True,C3,True,1.24,1.209,3.496,3.484,0.377,0.364
 0 days 00:47:26.745000,PIA,81,,1.0,1.0,,,False,MEDIUM,4.0,False,McLaren,1,8.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -128,8 +128,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:52.476000,PIA,81,102.515,13.0,1.0,,,False,MEDIUM,16.0,False,McLaren,1,8.0,True,5,Chinese Grand Prix,True,C3,True,-0.072,-0.07,2.184,2.177,-0.305,-0.297
 0 days 01:09:35.134000,PIA,81,102.658,14.0,1.0,,,False,MEDIUM,17.0,False,McLaren,1,8.0,True,5,Chinese Grand Prix,True,C3,True,0.071,0.069,2.327,2.319,-0.448,-0.435
 0 days 01:11:17.592000,PIA,81,102.458,15.0,1.0,,,False,MEDIUM,18.0,False,McLaren,1,8.0,True,5,Chinese Grand Prix,True,C3,True,-0.129,-0.126,2.127,2.12,-0.38,-0.37
-0 days 01:13:00.235000,PIA,81,102.643,16.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.056,0.055,2.312,2.304,-0.608,-0.589
-0 days 01:14:42.802000,PIA,81,102.567,17.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,-0.02,-0.019,2.236,2.229,-0.318,-0.309
+0 days 01:13:00.235000,PIA,81,102.643,16.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.056,0.055,2.312,2.304,-0.545,-0.528
+0 days 01:14:42.802000,PIA,81,102.567,17.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,-0.02,-0.019,2.236,2.229,-0.282,-0.274
 0 days 01:16:25.800000,PIA,81,102.998,18.0,1.0,,,False,MEDIUM,21.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.411,0.401,2.667,2.658,-0.13,-0.126
 0 days 01:18:08.614000,PIA,81,102.814,19.0,1.0,,,False,MEDIUM,22.0,False,McLaren,1,7.0,True,5,Chinese Grand Prix,True,C3,True,0.227,0.221,2.483,2.475,-0.636,-0.615
 0 days 00:47:28.668000,RUS,63,,1.0,1.0,,,False,SOFT,1.0,True,Mercedes,1,12.0,False,5,Chinese Grand Prix,True,C4,False,,,,,,
@@ -147,8 +147,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:54.659000,RUS,63,102.524,13.0,1.0,,,False,SOFT,13.0,True,Mercedes,1,9.0,True,5,Chinese Grand Prix,True,C4,True,-0.063,-0.061,2.193,2.186,-0.296,-0.288
 0 days 01:09:36.917000,RUS,63,102.258,14.0,1.0,,,False,SOFT,14.0,True,Mercedes,1,9.0,True,5,Chinese Grand Prix,True,C4,True,-0.329,-0.321,1.927,1.921,-0.848,-0.822
 0 days 01:11:19.395000,RUS,63,102.478,15.0,1.0,,,False,SOFT,15.0,True,Mercedes,1,9.0,True,5,Chinese Grand Prix,True,C4,True,-0.109,-0.106,2.147,2.14,-0.36,-0.35
-0 days 01:13:02.102000,RUS,63,102.707,16.0,1.0,,,False,SOFT,16.0,True,Mercedes,1,9.0,True,5,Chinese Grand Prix,True,C4,True,0.12,0.117,2.376,2.368,-0.544,-0.527
-0 days 01:14:44.266000,RUS,63,102.164,17.0,1.0,,,False,SOFT,17.0,True,Mercedes,1,8.0,True,5,Chinese Grand Prix,True,C4,True,-0.423,-0.412,1.833,1.827,-0.721,-0.701
+0 days 01:13:02.102000,RUS,63,102.707,16.0,1.0,,,False,SOFT,16.0,True,Mercedes,1,9.0,True,5,Chinese Grand Prix,True,C4,True,0.12,0.117,2.376,2.368,-0.481,-0.466
+0 days 01:14:44.266000,RUS,63,102.164,17.0,1.0,,,False,SOFT,17.0,True,Mercedes,1,8.0,True,5,Chinese Grand Prix,True,C4,True,-0.423,-0.412,1.833,1.827,-0.685,-0.666
 0 days 01:16:26.892000,RUS,63,102.626,18.0,1.0,,,False,SOFT,18.0,True,Mercedes,1,8.0,True,5,Chinese Grand Prix,True,C4,True,0.039,0.038,2.295,2.287,-0.502,-0.487
 0 days 01:18:09.597000,RUS,63,102.705,19.0,1.0,,,False,SOFT,19.0,True,Mercedes,1,8.0,True,5,Chinese Grand Prix,True,C4,True,0.118,0.115,2.374,2.366,-0.745,-0.72
 0 days 00:47:27.364000,ZHO,24,,1.0,1.0,,,False,MEDIUM,5.0,False,Kick Sauber,1,9.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -166,8 +166,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:57.729000,ZHO,24,103.052,13.0,1.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,10.0,True,5,Chinese Grand Prix,True,C3,True,0.465,0.453,2.721,2.712,0.232,0.226
 0 days 01:09:40.856000,ZHO,24,103.127,14.0,1.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,10.0,True,5,Chinese Grand Prix,True,C3,True,0.54,0.526,2.796,2.787,0.021,0.02
 0 days 01:11:23.653000,ZHO,24,102.797,15.0,1.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,10.0,True,5,Chinese Grand Prix,True,C3,True,0.21,0.205,2.466,2.458,-0.041,-0.04
-0 days 01:13:06.378000,ZHO,24,102.725,16.0,1.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,10.0,True,5,Chinese Grand Prix,True,C3,True,0.138,0.135,2.394,2.386,-0.526,-0.509
-0 days 01:14:49.223000,ZHO,24,102.845,17.0,1.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,9.0,True,5,Chinese Grand Prix,True,C3,True,0.258,0.251,2.514,2.506,-0.04,-0.039
+0 days 01:13:06.378000,ZHO,24,102.725,16.0,1.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,10.0,True,5,Chinese Grand Prix,True,C3,True,0.138,0.135,2.394,2.386,-0.463,-0.449
+0 days 01:14:49.223000,ZHO,24,102.845,17.0,1.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,9.0,True,5,Chinese Grand Prix,True,C3,True,0.258,0.251,2.514,2.506,-0.004,-0.004
 0 days 01:16:32.402000,ZHO,24,103.179,18.0,1.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,9.0,True,5,Chinese Grand Prix,True,C3,True,0.592,0.577,2.848,2.839,0.051,0.049
 0 days 01:18:15.852000,ZHO,24,103.45,19.0,1.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,9.0,True,5,Chinese Grand Prix,True,C3,True,0.863,0.841,3.119,3.109,0.0,0.0
 0 days 00:47:27.948000,MAG,20,,1.0,1.0,,,False,MEDIUM,5.0,False,Haas F1 Team,1,10.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -185,8 +185,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:00.239000,MAG,20,103.449,13.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,11.0,True,5,Chinese Grand Prix,True,C3,True,0.862,0.84,3.118,3.108,0.629,0.612
 0 days 01:09:43.325000,MAG,20,103.086,14.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,11.0,True,5,Chinese Grand Prix,True,C3,True,0.499,0.486,2.755,2.746,-0.02,-0.019
 0 days 01:11:26.476000,MAG,20,103.151,15.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,11.0,True,5,Chinese Grand Prix,True,C3,True,0.564,0.55,2.82,2.811,0.313,0.304
-0 days 01:13:09.437000,MAG,20,102.961,16.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,11.0,True,5,Chinese Grand Prix,True,C3,True,0.374,0.365,2.63,2.621,-0.29,-0.281
-0 days 01:14:51.982000,MAG,20,102.545,17.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,10.0,True,5,Chinese Grand Prix,True,C3,True,-0.042,-0.041,2.214,2.207,-0.34,-0.33
+0 days 01:13:09.437000,MAG,20,102.961,16.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,11.0,True,5,Chinese Grand Prix,True,C3,True,0.374,0.365,2.63,2.621,-0.227,-0.22
+0 days 01:14:51.982000,MAG,20,102.545,17.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,10.0,True,5,Chinese Grand Prix,True,C3,True,-0.042,-0.041,2.214,2.207,-0.304,-0.296
 0 days 01:16:37.133000,MAG,20,105.151,18.0,1.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,10.0,True,5,Chinese Grand Prix,True,C3,True,2.564,2.499,4.82,4.804,2.023,1.962
 0 days 01:18:21.299000,MAG,20,104.166,19.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,10.0,True,5,Chinese Grand Prix,True,C3,True,1.579,1.539,3.835,3.822,0.716,0.692
 0 days 00:47:29.002000,RIC,3,,1.0,1.0,,,False,MEDIUM,4.0,False,RB,1,13.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -204,8 +204,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:01.379000,RIC,3,103.352,13.0,1.0,,,False,MEDIUM,16.0,False,RB,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.765,0.746,3.021,3.011,0.532,0.517
 0 days 01:09:44.695000,RIC,3,103.316,14.0,1.0,,,False,MEDIUM,17.0,False,RB,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.729,0.711,2.985,2.975,0.21,0.204
 0 days 01:11:28.212000,RIC,3,103.517,15.0,1.0,,,False,MEDIUM,18.0,False,RB,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.93,0.907,3.186,3.175,0.679,0.66
-0 days 01:13:10.592000,RIC,3,102.38,16.0,1.0,,,False,MEDIUM,19.0,False,RB,1,12.0,True,5,Chinese Grand Prix,True,C3,True,-0.207,-0.202,2.049,2.042,-0.871,-0.844
-0 days 01:14:52.973000,RIC,3,102.381,17.0,1.0,,,False,MEDIUM,20.0,False,RB,1,11.0,True,5,Chinese Grand Prix,True,C3,True,-0.206,-0.201,2.05,2.043,-0.504,-0.49
+0 days 01:13:10.592000,RIC,3,102.38,16.0,1.0,,,False,MEDIUM,19.0,False,RB,1,12.0,True,5,Chinese Grand Prix,True,C3,True,-0.207,-0.202,2.049,2.042,-0.808,-0.783
+0 days 01:14:52.973000,RIC,3,102.381,17.0,1.0,,,False,MEDIUM,20.0,False,RB,1,11.0,True,5,Chinese Grand Prix,True,C3,True,-0.206,-0.201,2.05,2.043,-0.468,-0.455
 0 days 01:16:37.572000,RIC,3,104.599,18.0,1.0,,,False,MEDIUM,21.0,False,RB,1,11.0,True,5,Chinese Grand Prix,True,C3,True,2.012,1.961,4.268,4.254,1.471,1.426
 0 days 01:18:21.741000,RIC,3,104.169,19.0,1.0,,,False,MEDIUM,22.0,False,RB,1,11.0,True,5,Chinese Grand Prix,True,C3,True,1.582,1.542,3.838,3.825,0.719,0.695
 0 days 00:47:28.219000,BOT,77,,1.0,1.0,,,False,MEDIUM,5.0,False,Kick Sauber,1,11.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -223,8 +223,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:00.797000,BOT,77,103.411,13.0,1.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.824,0.803,3.08,3.07,0.591,0.575
 0 days 01:09:44.836000,BOT,77,104.039,14.0,1.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,13.0,True,5,Chinese Grand Prix,True,C3,True,1.452,1.415,3.708,3.696,0.933,0.905
 0 days 01:11:28.633000,BOT,77,103.797,15.0,1.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,13.0,True,5,Chinese Grand Prix,True,C3,True,1.21,1.179,3.466,3.455,0.959,0.933
-0 days 01:13:11.951000,BOT,77,103.318,16.0,1.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.731,0.713,2.987,2.977,0.067,0.065
-0 days 01:14:54.872000,BOT,77,102.921,17.0,1.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.334,0.326,2.59,2.581,0.036,0.035
+0 days 01:13:11.951000,BOT,77,103.318,16.0,1.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.731,0.713,2.987,2.977,0.13,0.126
+0 days 01:14:54.872000,BOT,77,102.921,17.0,1.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.334,0.326,2.59,2.581,0.072,0.07
 0 days 01:16:38.295000,BOT,77,103.423,18.0,1.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,12.0,True,5,Chinese Grand Prix,True,C3,True,0.836,0.815,3.092,3.082,0.295,0.286
 0 days 01:18:22.196000,BOT,77,103.901,19.0,1.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,12.0,True,5,Chinese Grand Prix,True,C3,True,1.314,1.281,3.57,3.558,0.451,0.436
 0 days 00:47:30.468000,OCO,31,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,16.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -242,8 +242,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:03.261000,OCO,31,103.438,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.851,0.83,3.107,3.097,0.618,0.601
 0 days 01:09:46.925000,OCO,31,103.664,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,1.077,1.05,3.333,3.322,0.558,0.541
 0 days 01:11:30.604000,OCO,31,103.679,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,1.092,1.064,3.348,3.337,0.841,0.818
-0 days 01:13:13.931000,OCO,31,103.327,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.74,0.721,2.996,2.986,0.076,0.074
-0 days 01:14:57.188000,OCO,31,103.257,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.67,0.653,2.926,2.916,0.372,0.362
+0 days 01:13:13.931000,OCO,31,103.327,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.74,0.721,2.996,2.986,0.139,0.135
+0 days 01:14:57.188000,OCO,31,103.257,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.67,0.653,2.926,2.916,0.408,0.397
 0 days 01:16:40.401000,OCO,31,103.213,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.626,0.61,2.882,2.872,0.085,0.082
 0 days 01:18:23.742000,OCO,31,103.341,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.754,0.735,3.01,3.0,-0.109,-0.105
 0 days 00:47:29.990000,STR,18,,1.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,1,15.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -261,8 +261,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:02.746000,STR,18,103.394,13.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.807,0.787,3.063,3.053,0.574,0.558
 0 days 01:09:46.626000,STR,18,103.88,14.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,1.293,1.26,3.549,3.537,0.774,0.751
 0 days 01:11:30.075000,STR,18,103.449,15.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.862,0.84,3.118,3.108,0.611,0.594
-0 days 01:13:13.407000,STR,18,103.332,16.0,1.0,,,False,MEDIUM,19.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.745,0.726,3.001,2.991,0.081,0.078
-0 days 01:14:56.638000,STR,18,103.231,17.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.644,0.628,2.9,2.89,0.346,0.336
+0 days 01:13:13.407000,STR,18,103.332,16.0,1.0,,,False,MEDIUM,19.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,0.745,0.726,3.001,2.991,0.144,0.14
+0 days 01:14:56.638000,STR,18,103.231,17.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.644,0.628,2.9,2.89,0.382,0.371
 0 days 01:16:39.835000,STR,18,103.197,18.0,1.0,,,False,MEDIUM,21.0,False,Aston Martin,1,13.0,True,5,Chinese Grand Prix,True,C3,True,0.61,0.595,2.866,2.857,0.069,0.067
 0 days 01:18:24.200000,STR,18,104.365,19.0,1.0,,,False,MEDIUM,22.0,False,Aston Martin,1,14.0,True,5,Chinese Grand Prix,True,C3,True,1.778,1.733,4.034,4.021,0.915,0.884
 0 days 00:47:30.982000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,17.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -280,8 +280,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:03.909000,GAS,10,102.921,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.334,0.326,2.59,2.581,0.101,0.098
 0 days 01:09:47.360000,GAS,10,103.451,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.864,0.842,3.12,3.11,0.345,0.335
 0 days 01:11:31.150000,GAS,10,103.79,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,16.0,True,5,Chinese Grand Prix,True,C3,True,1.203,1.173,3.459,3.448,0.952,0.926
-0 days 01:13:14.464000,GAS,10,103.314,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.727,0.709,2.983,2.973,0.063,0.061
-0 days 01:14:57.773000,GAS,10,103.309,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.722,0.704,2.978,2.968,0.424,0.412
+0 days 01:13:14.464000,GAS,10,103.314,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.727,0.709,2.983,2.973,0.126,0.122
+0 days 01:14:57.773000,GAS,10,103.309,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.722,0.704,2.978,2.968,0.46,0.447
 0 days 01:16:40.901000,GAS,10,103.128,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,0.541,0.527,2.797,2.788,0.0,0.0
 0 days 01:18:24.739000,GAS,10,103.838,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,15.0,True,5,Chinese Grand Prix,True,C3,True,1.251,1.219,3.507,3.495,0.388,0.375
 0 days 00:47:31.414000,TSU,22,,1.0,1.0,,,False,MEDIUM,1.0,True,RB,1,18.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -299,8 +299,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:05.366000,TSU,22,102.719,13.0,1.0,,,False,MEDIUM,13.0,True,RB,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.132,0.129,2.388,2.38,-0.101,-0.098
 0 days 01:09:48.494000,TSU,22,103.128,14.0,1.0,,,False,MEDIUM,14.0,True,RB,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.541,0.527,2.797,2.788,0.022,0.021
 0 days 01:11:31.793000,TSU,22,103.299,15.0,1.0,,,False,MEDIUM,15.0,True,RB,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.712,0.694,2.968,2.958,0.461,0.448
-0 days 01:13:14.981000,TSU,22,103.188,16.0,1.0,,,False,MEDIUM,16.0,True,RB,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.601,0.586,2.857,2.848,-0.063,-0.061
-0 days 01:14:58.351000,TSU,22,103.37,17.0,1.0,,,False,MEDIUM,17.0,True,RB,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.783,0.763,3.039,3.029,0.485,0.471
+0 days 01:13:14.981000,TSU,22,103.188,16.0,1.0,,,False,MEDIUM,16.0,True,RB,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.601,0.586,2.857,2.848,0.0,0.0
+0 days 01:14:58.351000,TSU,22,103.37,17.0,1.0,,,False,MEDIUM,17.0,True,RB,1,16.0,True,5,Chinese Grand Prix,True,C3,True,0.783,0.763,3.039,3.029,0.521,0.507
 0 days 01:16:42.075000,TSU,22,103.724,18.0,1.0,,,False,MEDIUM,18.0,True,RB,1,16.0,True,5,Chinese Grand Prix,True,C3,True,1.137,1.108,3.393,3.382,0.596,0.578
 0 days 01:18:25.771000,TSU,22,103.696,19.0,1.0,,,False,MEDIUM,19.0,True,RB,1,16.0,True,5,Chinese Grand Prix,True,C3,True,1.109,1.081,3.365,3.354,0.246,0.238
 0 days 00:47:31.652000,ALB,23,,1.0,1.0,,,False,MEDIUM,7.0,False,Williams,1,19.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -318,8 +318,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:07.966000,ALB,23,103.414,13.0,1.0,,,False,MEDIUM,19.0,False,Williams,1,19.0,True,5,Chinese Grand Prix,True,C3,True,0.827,0.806,3.083,3.073,0.594,0.578
 0 days 01:09:51.223000,ALB,23,103.257,14.0,1.0,,,False,MEDIUM,20.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.67,0.653,2.926,2.916,0.151,0.146
 0 days 01:11:34.042000,ALB,23,102.819,15.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.232,0.226,2.488,2.48,-0.019,-0.018
-0 days 01:13:17.149000,ALB,23,103.107,16.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.52,0.507,2.776,2.767,-0.144,-0.139
-0 days 01:14:59.998000,ALB,23,102.849,17.0,1.0,,,False,MEDIUM,23.0,False,Williams,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.262,0.255,2.518,2.51,-0.036,-0.035
+0 days 01:13:17.149000,ALB,23,103.107,16.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.52,0.507,2.776,2.767,-0.081,-0.078
+0 days 01:14:59.998000,ALB,23,102.849,17.0,1.0,,,False,MEDIUM,23.0,False,Williams,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.262,0.255,2.518,2.51,0.0,0.0
 0 days 01:16:42.992000,ALB,23,102.994,18.0,1.0,,,False,MEDIUM,24.0,False,Williams,1,17.0,True,5,Chinese Grand Prix,True,C3,True,0.407,0.397,2.663,2.654,-0.134,-0.13
 0 days 01:18:26.899000,ALB,23,103.907,19.0,1.0,,,False,MEDIUM,25.0,False,Williams,1,17.0,True,5,Chinese Grand Prix,True,C3,True,1.32,1.287,3.576,3.564,0.457,0.442
 0 days 00:47:32.338000,SAR,2,,1.0,1.0,,,False,MEDIUM,7.0,False,Williams,1,20.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -337,8 +337,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:09.393000,SAR,2,103.089,13.0,1.0,,,False,MEDIUM,19.0,False,Williams,1,20.0,True,5,Chinese Grand Prix,True,C3,True,0.502,0.489,2.758,2.749,0.269,0.262
 0 days 01:09:52.624000,SAR,2,103.231,14.0,1.0,,,False,MEDIUM,20.0,False,Williams,1,20.0,True,5,Chinese Grand Prix,True,C3,True,0.644,0.628,2.9,2.89,0.125,0.121
 0 days 01:11:36.289000,SAR,2,103.665,15.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,20.0,True,5,Chinese Grand Prix,True,C3,True,1.078,1.051,3.334,3.323,0.827,0.804
-0 days 01:13:19.797000,SAR,2,103.508,16.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,19.0,True,5,Chinese Grand Prix,True,C3,True,0.921,0.898,3.177,3.167,0.257,0.249
-0 days 01:15:03.716000,SAR,2,103.919,17.0,1.0,,,False,MEDIUM,23.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,1.332,1.298,3.588,3.576,1.034,1.005
+0 days 01:13:19.797000,SAR,2,103.508,16.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,19.0,True,5,Chinese Grand Prix,True,C3,True,0.921,0.898,3.177,3.167,0.32,0.31
+0 days 01:15:03.716000,SAR,2,103.919,17.0,1.0,,,False,MEDIUM,23.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,1.332,1.298,3.588,3.576,1.07,1.04
 0 days 01:16:47.152000,SAR,2,103.436,18.0,1.0,,,False,MEDIUM,24.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.849,0.828,3.105,3.095,0.308,0.299
 0 days 01:18:30.253000,SAR,2,103.101,19.0,1.0,,,False,MEDIUM,25.0,False,Williams,1,18.0,True,5,Chinese Grand Prix,True,C3,True,0.514,0.501,2.77,2.761,-0.349,-0.337
 0 days 00:47:29.503000,HUL,27,,1.0,1.0,,,False,MEDIUM,5.0,False,Haas F1 Team,1,14.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -356,8 +356,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:08:07.856000,HUL,27,104.052,13.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,18.0,True,5,Chinese Grand Prix,True,C3,True,1.465,1.428,3.721,3.709,1.232,1.198
 0 days 01:09:51.966000,HUL,27,104.11,14.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.523,1.485,3.779,3.767,1.004,0.974
 0 days 01:11:35.970000,HUL,27,104.004,15.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.417,1.381,3.673,3.661,1.166,1.134
-0 days 01:13:20.974000,HUL,27,105.004,16.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,20.0,True,5,Chinese Grand Prix,True,C3,True,2.417,2.356,4.673,4.658,1.753,1.698
-0 days 01:15:05.199000,HUL,27,104.225,17.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.638,1.597,3.894,3.881,1.34,1.302
+0 days 01:13:20.974000,HUL,27,105.004,16.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,20.0,True,5,Chinese Grand Prix,True,C3,True,2.417,2.356,4.673,4.658,1.816,1.76
+0 days 01:15:05.199000,HUL,27,104.225,17.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.638,1.597,3.894,3.881,1.376,1.338
 0 days 01:16:49.320000,HUL,27,104.121,18.0,1.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.534,1.495,3.79,3.777,0.993,0.963
 0 days 01:18:33.531000,HUL,27,104.211,19.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,19.0,True,5,Chinese Grand Prix,True,C3,True,1.624,1.583,3.88,3.867,0.761,0.736
 0 days 00:47:22.272000,ALO,14,,1.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,1,2.0,False,5,Chinese Grand Prix,True,C3,False,,,,,,
@@ -375,8 +375,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:07:43.955000,ALO,14,102.428,13.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,3.0,True,5,Chinese Grand Prix,True,C3,True,-0.159,-0.155,2.097,2.09,-0.392,-0.381
 0 days 01:09:26.819000,ALO,14,102.864,14.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,3.0,True,5,Chinese Grand Prix,True,C3,True,0.277,0.27,2.533,2.525,-0.242,-0.235
 0 days 01:11:09.534000,ALO,14,102.715,15.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,3.0,True,5,Chinese Grand Prix,True,C3,True,0.128,0.125,2.384,2.376,-0.123,-0.12
-0 days 01:13:01.359000,ALO,14,111.825,16.0,1.0,,0 days 01:12:59.571000,False,MEDIUM,19.0,False,Aston Martin,1,8.0,False,5,Chinese Grand Prix,True,C3,False,9.238,9.005,11.494,11.456,8.574,8.304
-0 days 01:15:08.754000,ALO,14,127.395,17.0,2.0,0 days 01:13:22.973000,0 days 01:15:07.047000,False,MEDIUM,7.0,False,Aston Martin,1,20.0,False,5,Chinese Grand Prix,True,C3,False,24.808,24.182,27.064,26.975,24.51,23.823
+0 days 01:13:01.359000,ALO,14,111.825,16.0,1.0,,0 days 01:12:59.571000,False,MEDIUM,19.0,False,Aston Martin,1,8.0,False,5,Chinese Grand Prix,True,C3,False,9.238,9.005,11.494,11.456,8.637,8.37
+0 days 01:15:08.754000,ALO,14,127.395,17.0,2.0,0 days 01:13:22.973000,0 days 01:15:07.047000,False,MEDIUM,7.0,False,Aston Martin,1,20.0,False,5,Chinese Grand Prix,True,C3,False,24.808,24.182,27.064,26.975,24.546,23.866
 0 days 00:45:46.952000,VER,1,,1.0,1.0,,0 days 00:45:39.966000,False,MEDIUM,4.0,False,Red Bull Racing,124,1.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:19.333000,VER,1,,2.0,2.0,0 days 00:45:59.491000,0 days 00:48:13.160000,False,MEDIUM,5.0,False,Red Bull Racing,4,1.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:01.699000,VER,1,,3.0,3.0,0 days 00:48:30.775000,,False,MEDIUM,6.0,False,Red Bull Racing,41,1.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -394,8 +394,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:16.056000,VER,1,91.221,15.0,3.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.241,-1.342,0.806,0.891,-1.943,-2.086
 0 days 01:10:47.018000,VER,1,90.962,16.0,3.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.5,-1.622,0.547,0.605,-1.13,-1.227
 0 days 01:12:18.089000,VER,1,91.071,17.0,3.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.391,-1.504,0.656,0.726,-1.215,-1.317
-0 days 01:13:48.938000,VER,1,90.849,18.0,3.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.613,-1.745,0.434,0.48,-1.44,-1.56
-0 days 01:15:19.623000,VER,1,90.685,19.0,3.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.777,-1.922,0.27,0.299,-1.565,-1.696
+0 days 01:13:48.938000,VER,1,90.849,18.0,3.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.613,-1.745,0.434,0.48,-1.344,-1.458
+0 days 01:15:19.623000,VER,1,90.685,19.0,3.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,1.0,True,6,Miami Grand Prix,True,C3,True,-1.777,-1.922,0.27,0.299,-1.533,-1.662
 0 days 00:45:49.686000,LEC,16,,1.0,1.0,,0 days 00:45:42.436000,False,MEDIUM,1.0,True,Ferrari,124,3.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:21.084000,LEC,16,,2.0,2.0,0 days 00:46:01.424000,0 days 00:48:14.899000,False,MEDIUM,2.0,False,Ferrari,4,2.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:02.412000,LEC,16,,3.0,3.0,0 days 00:48:32.999000,,False,MEDIUM,3.0,False,Ferrari,41,2.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -413,8 +413,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:18.163000,LEC,16,91.136,15.0,3.0,,,False,MEDIUM,15.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.326,-1.434,0.721,0.797,-2.028,-2.177
 0 days 01:10:49.468000,LEC,16,91.305,16.0,3.0,,,False,MEDIUM,16.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.157,-1.251,0.89,0.984,-0.787,-0.855
 0 days 01:12:20.686000,LEC,16,91.218,17.0,3.0,,,False,MEDIUM,17.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.244,-1.345,0.803,0.888,-1.068,-1.157
-0 days 01:13:51.708000,LEC,16,91.022,18.0,3.0,,,False,MEDIUM,18.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.44,-1.557,0.607,0.671,-1.267,-1.373
-0 days 01:15:23.002000,LEC,16,91.294,19.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.168,-1.263,0.879,0.972,-0.956,-1.036
+0 days 01:13:51.708000,LEC,16,91.022,18.0,3.0,,,False,MEDIUM,18.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.44,-1.557,0.607,0.671,-1.171,-1.27
+0 days 01:15:23.002000,LEC,16,91.294,19.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,1,2.0,True,6,Miami Grand Prix,True,C3,True,-1.168,-1.263,0.879,0.972,-0.924,-1.002
 0 days 00:45:54.171000,PER,11,,1.0,1.0,,0 days 00:45:46.437000,False,MEDIUM,4.0,False,Red Bull Racing,124,5.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:25.133000,PER,11,,2.0,2.0,0 days 00:46:07.604000,0 days 00:48:18.629000,False,MEDIUM,5.0,False,Red Bull Racing,4,4.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:03.343000,PER,11,,3.0,3.0,0 days 00:48:38.354000,,False,MEDIUM,6.0,False,Red Bull Racing,41,4.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -432,8 +432,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:20.072000,PER,11,90.93,15.0,3.0,,,True,MEDIUM,18.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.532,-1.657,0.515,0.57,-2.234,-2.398
 0 days 01:10:51.212000,PER,11,91.14,16.0,3.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.322,-1.43,0.725,0.802,-0.952,-1.034
 0 days 01:12:22.405000,PER,11,91.193,17.0,3.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.269,-1.372,0.778,0.86,-1.093,-1.184
-0 days 01:13:53.800000,PER,11,91.395,18.0,3.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.067,-1.154,0.98,1.084,-0.894,-0.969
-0 days 01:15:24.721000,PER,11,90.921,19.0,3.0,,,True,MEDIUM,22.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.541,-1.667,0.506,0.56,-1.329,-1.441
+0 days 01:13:53.800000,PER,11,91.395,18.0,3.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.067,-1.154,0.98,1.084,-0.798,-0.866
+0 days 01:15:24.721000,PER,11,90.921,19.0,3.0,,,True,MEDIUM,22.0,False,Red Bull Racing,1,3.0,True,6,Miami Grand Prix,True,C3,True,-1.541,-1.667,0.506,0.56,-1.297,-1.406
 0 days 00:45:52.177000,RIC,3,,1.0,1.0,,0 days 00:45:44.650000,False,MEDIUM,1.0,True,RB,124,4.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:22.868000,RIC,3,,2.0,2.0,0 days 00:46:05.756000,0 days 00:48:16.602000,False,MEDIUM,2.0,False,RB,4,3.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:02.975000,RIC,3,,3.0,3.0,0 days 00:48:36.005000,,False,MEDIUM,3.0,False,RB,41,3.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -451,8 +451,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:27.654000,RIC,3,91.868,15.0,3.0,,,False,MEDIUM,15.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.594,-0.642,1.453,1.607,-1.296,-1.391
 0 days 01:10:59.300000,RIC,3,91.646,16.0,3.0,,,False,MEDIUM,16.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.816,-0.883,1.231,1.361,-0.446,-0.484
 0 days 01:12:30.997000,RIC,3,91.697,17.0,3.0,,,False,MEDIUM,17.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.765,-0.827,1.282,1.418,-0.589,-0.638
-0 days 01:14:02.628000,RIC,3,91.631,18.0,3.0,,,False,MEDIUM,18.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.831,-0.899,1.216,1.345,-0.658,-0.713
-0 days 01:15:34.629000,RIC,3,92.001,19.0,3.0,,,False,MEDIUM,19.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.461,-0.499,1.586,1.754,-0.249,-0.27
+0 days 01:14:02.628000,RIC,3,91.631,18.0,3.0,,,False,MEDIUM,18.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.831,-0.899,1.216,1.345,-0.562,-0.61
+0 days 01:15:34.629000,RIC,3,92.001,19.0,3.0,,,False,MEDIUM,19.0,False,RB,1,4.0,True,6,Miami Grand Prix,True,C3,True,-0.461,-0.499,1.586,1.754,-0.217,-0.235
 0 days 00:45:55.642000,SAI,55,,1.0,1.0,,0 days 00:45:47.704000,False,MEDIUM,1.0,True,Ferrari,124,6.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:26.106000,SAI,55,,2.0,2.0,0 days 00:46:08.930000,0 days 00:48:19.645000,False,MEDIUM,2.0,False,Ferrari,4,5.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:03.867000,SAI,55,,3.0,3.0,0 days 00:48:39.384000,,False,MEDIUM,3.0,False,Ferrari,41,5.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -470,8 +470,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:28.164000,SAI,55,91.843,15.0,3.0,,,False,MEDIUM,15.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.619,-0.669,1.428,1.579,-1.321,-1.418
 0 days 01:10:59.893000,SAI,55,91.729,16.0,3.0,,,False,MEDIUM,16.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.733,-0.793,1.314,1.453,-0.363,-0.394
 0 days 01:12:31.461000,SAI,55,91.568,17.0,3.0,,,True,MEDIUM,17.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.894,-0.967,1.153,1.275,-0.718,-0.778
-0 days 01:14:03.052000,SAI,55,91.591,18.0,3.0,,,False,MEDIUM,18.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.871,-0.942,1.176,1.301,-0.698,-0.756
-0 days 01:15:34.866000,SAI,55,91.814,19.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.648,-0.701,1.399,1.547,-0.436,-0.473
+0 days 01:14:03.052000,SAI,55,91.591,18.0,3.0,,,False,MEDIUM,18.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.871,-0.942,1.176,1.301,-0.602,-0.653
+0 days 01:15:34.866000,SAI,55,91.814,19.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,1,5.0,True,6,Miami Grand Prix,True,C3,True,-0.648,-0.701,1.399,1.547,-0.404,-0.438
 0 days 00:45:57.328000,PIA,81,,1.0,1.0,,0 days 00:45:49.793000,False,MEDIUM,1.0,True,McLaren,124,7.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:28.494000,PIA,81,,2.0,2.0,0 days 00:46:11.485000,0 days 00:48:21.890000,False,MEDIUM,2.0,False,McLaren,4,6.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:04.346000,PIA,81,,3.0,3.0,0 days 00:48:41.023000,,False,MEDIUM,3.0,False,McLaren,41,6.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -489,8 +489,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:28.693000,PIA,81,91.677,15.0,3.0,,,False,MEDIUM,15.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-0.785,-0.849,1.262,1.396,-1.487,-1.596
 0 days 01:11:00.532000,PIA,81,91.839,16.0,3.0,,,False,MEDIUM,16.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-0.623,-0.674,1.424,1.575,-0.253,-0.275
 0 days 01:12:32.242000,PIA,81,91.71,17.0,3.0,,,False,MEDIUM,17.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-0.752,-0.813,1.295,1.432,-0.576,-0.624
-0 days 01:14:03.987000,PIA,81,91.745,18.0,3.0,,,False,MEDIUM,18.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-0.717,-0.775,1.33,1.471,-0.544,-0.589
-0 days 01:15:35.380000,PIA,81,91.393,19.0,3.0,,,True,MEDIUM,19.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-1.069,-1.156,0.978,1.082,-0.857,-0.929
+0 days 01:14:03.987000,PIA,81,91.745,18.0,3.0,,,False,MEDIUM,18.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-0.717,-0.775,1.33,1.471,-0.448,-0.486
+0 days 01:15:35.380000,PIA,81,91.393,19.0,3.0,,,True,MEDIUM,19.0,False,McLaren,1,6.0,True,6,Miami Grand Prix,True,C3,True,-1.069,-1.156,0.978,1.082,-0.825,-0.895
 0 days 00:45:59.745000,HUL,27,,1.0,1.0,,0 days 00:45:51.363000,False,MEDIUM,7.0,False,Haas F1 Team,124,8.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:30.590000,HUL,27,,2.0,2.0,0 days 00:46:13.368000,0 days 00:48:24.008000,False,MEDIUM,8.0,False,Haas F1 Team,4,7.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:04.790000,HUL,27,,3.0,3.0,0 days 00:48:43.507000,,False,MEDIUM,9.0,False,Haas F1 Team,41,7.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -508,11 +508,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:33.230000,HUL,27,92.547,15.0,3.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,0.085,0.092,2.132,2.358,-0.617,-0.662
 0 days 01:11:05.250000,HUL,27,92.02,16.0,3.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.442,-0.478,1.605,1.775,-0.072,-0.078
 0 days 01:12:37.346000,HUL,27,92.096,17.0,3.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.366,-0.396,1.681,1.859,-0.19,-0.206
-0 days 01:14:09.537000,HUL,27,92.191,18.0,3.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.271,-0.293,1.776,1.964,-0.098,-0.106
-0 days 01:15:41.648000,HUL,27,92.111,19.0,3.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.351,-0.38,1.696,1.876,-0.139,-0.151
+0 days 01:14:09.537000,HUL,27,92.191,18.0,3.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.271,-0.293,1.776,1.964,-0.002,-0.002
+0 days 01:15:41.648000,HUL,27,92.111,19.0,3.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,7.0,True,6,Miami Grand Prix,True,C3,True,-0.351,-0.38,1.696,1.876,-0.107,-0.116
 0 days 00:46:06.004000,TSU,22,,1.0,1.0,,0 days 00:45:58.214000,False,SOFT,1.0,True,RB,124,11.0,False,6,Miami Grand Prix,True,C4,False,,,,,,
 0 days 00:48:38.145000,TSU,22,,2.0,2.0,0 days 00:46:19.302000,0 days 00:48:30.377000,False,SOFT,2.0,False,RB,4,10.0,False,6,Miami Grand Prix,True,C4,False,,,,,,
-0 days 00:51:06.176000,TSU,22,148.031,3.0,3.0,0 days 00:48:53.674000,,False,SOFT,3.0,False,RB,41,10.0,False,6,Miami Grand Prix,True,C4,False,55.569,60.099,57.616,63.724,4.046,2.81
+0 days 00:51:06.176000,TSU,22,148.031,3.0,3.0,0 days 00:48:53.674000,,False,SOFT,3.0,False,RB,41,10.0,False,6,Miami Grand Prix,True,C4,False,55.569,60.099,57.616,63.724,,
 0 days 00:52:39.566000,TSU,22,93.39,4.0,3.0,,,True,SOFT,4.0,False,RB,1,10.0,True,6,Miami Grand Prix,True,C4,True,0.928,1.004,2.975,3.29,0.336,0.361
 0 days 00:54:11.764000,TSU,22,92.198,5.0,3.0,,,True,SOFT,5.0,False,RB,1,10.0,True,6,Miami Grand Prix,True,C4,True,-0.264,-0.286,1.783,1.972,-0.102,-0.111
 0 days 00:55:43.944000,TSU,22,92.18,6.0,3.0,,,True,SOFT,6.0,False,RB,1,10.0,True,6,Miami Grand Prix,True,C4,True,-0.282,-0.305,1.765,1.952,0.016,0.017
@@ -527,11 +527,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:39.940000,TSU,22,92.973,15.0,3.0,,,False,SOFT,15.0,False,RB,1,8.0,True,6,Miami Grand Prix,True,C4,True,0.511,0.553,2.558,2.829,-0.191,-0.205
 0 days 01:11:11.784000,TSU,22,91.844,16.0,3.0,,,True,SOFT,16.0,False,RB,1,8.0,True,6,Miami Grand Prix,True,C4,True,-0.618,-0.668,1.429,1.58,-0.248,-0.269
 0 days 01:12:44.005000,TSU,22,92.221,17.0,3.0,,,False,SOFT,17.0,False,RB,1,8.0,True,6,Miami Grand Prix,True,C4,True,-0.241,-0.261,1.806,1.997,-0.065,-0.07
-0 days 01:14:16.138000,TSU,22,92.133,18.0,3.0,,,False,SOFT,18.0,False,RB,1,8.0,True,6,Miami Grand Prix,True,C4,True,-0.329,-0.356,1.718,1.9,-0.156,-0.169
-0 days 01:15:49.442000,TSU,22,93.304,19.0,3.0,,,False,SOFT,19.0,False,RB,1,9.0,True,6,Miami Grand Prix,True,C4,True,0.842,0.911,2.889,3.195,1.054,1.143
+0 days 01:14:16.138000,TSU,22,92.133,18.0,3.0,,,False,SOFT,18.0,False,RB,1,8.0,True,6,Miami Grand Prix,True,C4,True,-0.329,-0.356,1.718,1.9,-0.06,-0.065
+0 days 01:15:49.442000,TSU,22,93.304,19.0,3.0,,,False,SOFT,19.0,False,RB,1,9.0,True,6,Miami Grand Prix,True,C4,True,0.842,0.911,2.889,3.195,1.086,1.178
 0 days 00:46:09.662000,GAS,10,,1.0,1.0,,0 days 00:46:02.178000,False,MEDIUM,1.0,True,Alpine,124,13.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:40.582000,GAS,10,,2.0,2.0,0 days 00:46:23.189000,0 days 00:48:32.247000,False,MEDIUM,2.0,False,Alpine,4,11.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:51:06.714000,GAS,10,146.132,3.0,3.0,0 days 00:48:55.846000,,False,MEDIUM,3.0,False,Alpine,41,11.0,False,6,Miami Grand Prix,True,C3,False,53.67,58.045,55.717,61.624,2.147,1.491
+0 days 00:51:06.714000,GAS,10,146.132,3.0,3.0,0 days 00:48:55.846000,,False,MEDIUM,3.0,False,Alpine,41,11.0,False,6,Miami Grand Prix,True,C3,False,53.67,58.045,55.717,61.624,,
 0 days 00:52:39.965000,GAS,10,93.251,4.0,3.0,,,True,MEDIUM,4.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,0.789,0.853,2.836,3.137,0.197,0.212
 0 days 00:54:12.446000,GAS,10,92.481,5.0,3.0,,,True,MEDIUM,5.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,0.019,0.021,2.066,2.285,0.181,0.196
 0 days 00:55:44.594000,GAS,10,92.148,6.0,3.0,,,True,MEDIUM,6.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.314,-0.34,1.733,1.917,-0.016,-0.017
@@ -546,11 +546,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:42.228000,GAS,10,94.249,15.0,3.0,,,False,MEDIUM,15.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,1.787,1.933,3.834,4.24,1.085,1.165
 0 days 01:11:14.493000,GAS,10,92.265,16.0,3.0,,,False,MEDIUM,16.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.197,-0.213,1.85,2.046,0.173,0.188
 0 days 01:12:46.844000,GAS,10,92.351,17.0,3.0,,,False,MEDIUM,17.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.111,-0.12,1.936,2.141,0.065,0.07
-0 days 01:14:19.229000,GAS,10,92.385,18.0,3.0,,,False,MEDIUM,18.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.077,-0.083,1.97,2.179,0.096,0.104
-0 days 01:15:51.511000,GAS,10,92.282,19.0,3.0,,,False,MEDIUM,19.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.18,-0.195,1.867,2.065,0.032,0.035
+0 days 01:14:19.229000,GAS,10,92.385,18.0,3.0,,,False,MEDIUM,18.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.077,-0.083,1.97,2.179,0.192,0.208
+0 days 01:15:51.511000,GAS,10,92.282,19.0,3.0,,,False,MEDIUM,19.0,False,Alpine,1,11.0,True,6,Miami Grand Prix,True,C3,True,-0.18,-0.195,1.867,2.065,0.064,0.069
 0 days 00:46:10.691000,SAR,2,,1.0,1.0,,0 days 00:46:03.184000,False,SOFT,1.0,True,Williams,124,14.0,False,6,Miami Grand Prix,True,C4,False,,,,,,
 0 days 00:48:41.685000,SAR,2,,2.0,2.0,0 days 00:46:24.705000,0 days 00:48:33.572000,False,SOFT,2.0,False,Williams,4,12.0,False,6,Miami Grand Prix,True,C4,False,,,,,,
-0 days 00:51:07.169000,SAR,2,145.484,3.0,3.0,0 days 00:48:57.356000,,False,SOFT,3.0,False,Williams,41,12.0,False,6,Miami Grand Prix,True,C4,False,53.022,57.345,55.069,60.907,1.499,1.041
+0 days 00:51:07.169000,SAR,2,145.484,3.0,3.0,0 days 00:48:57.356000,,False,SOFT,3.0,False,Williams,41,12.0,False,6,Miami Grand Prix,True,C4,False,53.022,57.345,55.069,60.907,,
 0 days 00:52:40.599000,SAR,2,93.43,4.0,3.0,,,True,SOFT,4.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.968,1.047,3.015,3.335,0.376,0.404
 0 days 00:54:13,SAR,2,92.401,5.0,3.0,,,True,SOFT,5.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,-0.061,-0.066,1.986,2.197,0.101,0.109
 0 days 00:55:45.192000,SAR,2,92.192,6.0,3.0,,,True,SOFT,6.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,-0.27,-0.292,1.777,1.965,0.028,0.03
@@ -565,11 +565,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:42.739000,SAR,2,94.41,15.0,3.0,,,False,SOFT,15.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,1.948,2.107,3.995,4.419,1.246,1.337
 0 days 01:11:15.294000,SAR,2,92.555,16.0,3.0,,,False,SOFT,16.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.093,0.101,2.14,2.367,0.463,0.503
 0 days 01:12:48.090000,SAR,2,92.796,17.0,3.0,,,False,SOFT,17.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.334,0.361,2.381,2.633,0.51,0.553
-0 days 01:14:21.377000,SAR,2,93.287,18.0,3.0,,,False,SOFT,18.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.825,0.892,2.872,3.176,0.998,1.081
-0 days 01:15:53.932000,SAR,2,92.555,19.0,3.0,,,False,SOFT,19.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.093,0.101,2.14,2.367,0.305,0.331
+0 days 01:14:21.377000,SAR,2,93.287,18.0,3.0,,,False,SOFT,18.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.825,0.892,2.872,3.176,1.094,1.187
+0 days 01:15:53.932000,SAR,2,92.555,19.0,3.0,,,False,SOFT,19.0,False,Williams,1,12.0,True,6,Miami Grand Prix,True,C4,True,0.093,0.101,2.14,2.367,0.337,0.365
 0 days 00:46:14.504000,ZHO,24,,1.0,1.0,,0 days 00:46:05.936000,False,MEDIUM,1.0,True,Kick Sauber,124,15.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:48:42.810000,ZHO,24,148.306,2.0,2.0,0 days 00:46:26.844000,0 days 00:48:34.775000,False,MEDIUM,2.0,False,Kick Sauber,4,13.0,False,6,Miami Grand Prix,True,C3,False,55.844,60.397,57.891,64.028,-0.124,-0.084
-0 days 00:51:07.693000,ZHO,24,144.883,3.0,3.0,0 days 00:48:58.551000,,False,MEDIUM,3.0,False,Kick Sauber,41,13.0,False,6,Miami Grand Prix,True,C3,False,52.421,56.695,54.468,60.242,0.898,0.624
+0 days 00:48:42.810000,ZHO,24,148.306,2.0,2.0,0 days 00:46:26.844000,0 days 00:48:34.775000,False,MEDIUM,2.0,False,Kick Sauber,4,13.0,False,6,Miami Grand Prix,True,C3,False,55.844,60.397,57.891,64.028,,
+0 days 00:51:07.693000,ZHO,24,144.883,3.0,3.0,0 days 00:48:58.551000,,False,MEDIUM,3.0,False,Kick Sauber,41,13.0,False,6,Miami Grand Prix,True,C3,False,52.421,56.695,54.468,60.242,,
 0 days 00:52:41.039000,ZHO,24,93.346,4.0,3.0,,,True,MEDIUM,4.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.884,0.956,2.931,3.242,0.292,0.314
 0 days 00:54:13.708000,ZHO,24,92.669,5.0,3.0,,,True,MEDIUM,5.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.207,0.224,2.254,2.493,0.369,0.4
 0 days 00:55:46.136000,ZHO,24,92.428,6.0,3.0,,,True,MEDIUM,6.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,-0.034,-0.037,2.013,2.226,0.264,0.286
@@ -584,11 +584,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:43.369000,ZHO,24,94.499,15.0,3.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,2.037,2.203,4.084,4.517,1.335,1.433
 0 days 01:11:15.987000,ZHO,24,92.618,16.0,3.0,,,False,MEDIUM,16.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.156,0.169,2.203,2.437,0.526,0.571
 0 days 01:12:48.813000,ZHO,24,92.826,17.0,3.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.364,0.394,2.411,2.667,0.54,0.585
-0 days 01:14:21.983000,ZHO,24,93.17,18.0,3.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.708,0.766,2.755,3.047,0.881,0.955
-0 days 01:15:54.699000,ZHO,24,92.716,19.0,3.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.254,0.275,2.301,2.545,0.466,0.505
+0 days 01:14:21.983000,ZHO,24,93.17,18.0,3.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.708,0.766,2.755,3.047,0.977,1.06
+0 days 01:15:54.699000,ZHO,24,92.716,19.0,3.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,13.0,True,6,Miami Grand Prix,True,C3,True,0.254,0.275,2.301,2.545,0.498,0.54
 0 days 00:46:16.063000,RUS,63,,1.0,1.0,,0 days 00:46:07.359000,False,MEDIUM,7.0,False,Mercedes,124,16.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:48:44.132000,RUS,63,148.069,2.0,2.0,0 days 00:46:30.300000,0 days 00:48:35.507000,False,MEDIUM,8.0,False,Mercedes,4,14.0,False,6,Miami Grand Prix,True,C3,False,55.607,60.14,57.654,63.766,-0.361,-0.243
-0 days 00:51:08.117000,RUS,63,143.985,3.0,3.0,0 days 00:49:00.354000,,False,MEDIUM,9.0,False,Mercedes,41,14.0,False,6,Miami Grand Prix,True,C3,False,51.523,55.723,53.57,59.249,0.0,0.0
+0 days 00:48:44.132000,RUS,63,148.069,2.0,2.0,0 days 00:46:30.300000,0 days 00:48:35.507000,False,MEDIUM,8.0,False,Mercedes,4,14.0,False,6,Miami Grand Prix,True,C3,False,55.607,60.14,57.654,63.766,,
+0 days 00:51:08.117000,RUS,63,143.985,3.0,3.0,0 days 00:49:00.354000,,False,MEDIUM,9.0,False,Mercedes,41,14.0,False,6,Miami Grand Prix,True,C3,False,51.523,55.723,53.57,59.249,,
 0 days 00:52:41.484000,RUS,63,93.367,4.0,3.0,,,True,MEDIUM,10.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.905,0.979,2.952,3.265,0.313,0.336
 0 days 00:54:14.150000,RUS,63,92.666,5.0,3.0,,,True,MEDIUM,11.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.204,0.221,2.251,2.49,0.366,0.397
 0 days 00:55:46.734000,RUS,63,92.584,6.0,3.0,,,True,MEDIUM,12.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.122,0.132,2.169,2.399,0.42,0.456
@@ -603,11 +603,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:43.985000,RUS,63,94.655,15.0,3.0,,,False,MEDIUM,21.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,2.193,2.372,4.24,4.689,1.491,1.6
 0 days 01:11:16.659000,RUS,63,92.674,16.0,3.0,,,False,MEDIUM,22.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.212,0.229,2.259,2.498,0.582,0.632
 0 days 01:12:49.413000,RUS,63,92.754,17.0,3.0,,,False,MEDIUM,23.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.292,0.316,2.339,2.587,0.468,0.507
-0 days 01:14:22.222000,RUS,63,92.809,18.0,3.0,,,False,MEDIUM,24.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.347,0.375,2.394,2.648,0.52,0.563
-0 days 01:15:55.372000,RUS,63,93.15,19.0,3.0,,,False,MEDIUM,25.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.688,0.744,2.735,3.025,0.9,0.976
+0 days 01:14:22.222000,RUS,63,92.809,18.0,3.0,,,False,MEDIUM,24.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.347,0.375,2.394,2.648,0.616,0.668
+0 days 01:15:55.372000,RUS,63,93.15,19.0,3.0,,,False,MEDIUM,25.0,False,Mercedes,1,14.0,True,6,Miami Grand Prix,True,C3,True,0.688,0.744,2.735,3.025,0.932,1.011
 0 days 00:46:18.467000,ALB,23,,1.0,1.0,0 days 00:43:58.799000,0 days 00:46:11.355000,False,MEDIUM,1.0,True,Williams,124,18.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:48:47.020000,ALB,23,148.553,2.0,2.0,0 days 00:46:33.641000,0 days 00:48:38.850000,False,MEDIUM,2.0,False,Williams,4,16.0,False,6,Miami Grand Prix,True,C3,False,56.091,60.664,58.138,64.301,0.123,0.083
-0 days 00:51:09.151000,ALB,23,142.131,3.0,3.0,0 days 00:49:02.967000,,False,MEDIUM,3.0,False,Williams,41,16.0,False,6,Miami Grand Prix,True,C3,False,49.669,53.718,51.716,57.198,-1.854,-1.288
+0 days 00:48:47.020000,ALB,23,148.553,2.0,2.0,0 days 00:46:33.641000,0 days 00:48:38.850000,False,MEDIUM,2.0,False,Williams,4,16.0,False,6,Miami Grand Prix,True,C3,False,56.091,60.664,58.138,64.301,,
+0 days 00:51:09.151000,ALB,23,142.131,3.0,3.0,0 days 00:49:02.967000,,False,MEDIUM,3.0,False,Williams,41,16.0,False,6,Miami Grand Prix,True,C3,False,49.669,53.718,51.716,57.198,,
 0 days 00:52:42.492000,ALB,23,93.341,4.0,3.0,,,True,MEDIUM,4.0,False,Williams,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.879,0.951,2.926,3.236,0.287,0.308
 0 days 00:54:15.560000,ALB,23,93.068,5.0,3.0,,,True,MEDIUM,5.0,False,Williams,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.606,0.655,2.653,2.934,0.768,0.832
 0 days 00:55:47.783000,ALB,23,92.223,6.0,3.0,,,True,MEDIUM,6.0,False,Williams,1,16.0,True,6,Miami Grand Prix,True,C3,True,-0.239,-0.258,1.808,2.0,0.059,0.064
@@ -622,11 +622,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:44.157000,ALB,23,94.557,15.0,3.0,,,False,MEDIUM,15.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,2.095,2.266,4.142,4.581,1.393,1.495
 0 days 01:11:17.376000,ALB,23,93.219,16.0,3.0,,,False,MEDIUM,16.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.757,0.819,2.804,3.101,1.127,1.224
 0 days 01:12:50.016000,ALB,23,92.64,17.0,3.0,,,False,MEDIUM,17.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.178,0.193,2.225,2.461,0.354,0.384
-0 days 01:14:22.945000,ALB,23,92.929,18.0,3.0,,,False,MEDIUM,18.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.467,0.505,2.514,2.781,0.64,0.693
-0 days 01:15:55.681000,ALB,23,92.736,19.0,3.0,,,False,MEDIUM,19.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.274,0.296,2.321,2.567,0.486,0.527
+0 days 01:14:22.945000,ALB,23,92.929,18.0,3.0,,,False,MEDIUM,18.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.467,0.505,2.514,2.781,0.736,0.798
+0 days 01:15:55.681000,ALB,23,92.736,19.0,3.0,,,False,MEDIUM,19.0,False,Williams,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.274,0.296,2.321,2.567,0.518,0.562
 0 days 00:46:17.655000,BOT,77,,1.0,1.0,,0 days 00:46:08.825000,False,MEDIUM,1.0,True,Kick Sauber,124,17.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:48:46.258000,BOT,77,148.603,2.0,2.0,0 days 00:46:31.985000,0 days 00:48:37.393000,False,MEDIUM,2.0,False,Kick Sauber,4,15.0,False,6,Miami Grand Prix,True,C3,False,56.141,60.718,58.188,64.357,0.173,0.117
-0 days 00:51:08.796000,BOT,77,142.538,3.0,3.0,0 days 00:49:01.361000,,False,MEDIUM,3.0,False,Kick Sauber,41,15.0,False,6,Miami Grand Prix,True,C3,False,50.076,54.158,52.123,57.649,-1.447,-1.005
+0 days 00:48:46.258000,BOT,77,148.603,2.0,2.0,0 days 00:46:31.985000,0 days 00:48:37.393000,False,MEDIUM,2.0,False,Kick Sauber,4,15.0,False,6,Miami Grand Prix,True,C3,False,56.141,60.718,58.188,64.357,,
+0 days 00:51:08.796000,BOT,77,142.538,3.0,3.0,0 days 00:49:01.361000,,False,MEDIUM,3.0,False,Kick Sauber,41,15.0,False,6,Miami Grand Prix,True,C3,False,50.076,54.158,52.123,57.649,,
 0 days 00:52:42.196000,BOT,77,93.4,4.0,3.0,,,True,MEDIUM,4.0,False,Kick Sauber,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.938,1.014,2.985,3.301,0.346,0.372
 0 days 00:54:14.938000,BOT,77,92.742,5.0,3.0,,,True,MEDIUM,5.0,False,Kick Sauber,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.28,0.303,2.327,2.574,0.442,0.479
 0 days 00:55:47.449000,BOT,77,92.511,6.0,3.0,,,True,MEDIUM,6.0,False,Kick Sauber,1,15.0,True,6,Miami Grand Prix,True,C3,True,0.049,0.053,2.096,2.318,0.347,0.377
@@ -641,11 +641,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:44.811000,BOT,77,93.375,15.0,3.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.913,0.987,2.96,3.274,0.211,0.226
 0 days 01:11:18.180000,BOT,77,93.369,16.0,3.0,,,False,MEDIUM,16.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.907,0.981,2.954,3.267,1.277,1.387
 0 days 01:12:50.886000,BOT,77,92.706,17.0,3.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.244,0.264,2.291,2.534,0.42,0.455
-0 days 01:14:23.773000,BOT,77,92.887,18.0,3.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.425,0.46,2.472,2.734,0.598,0.648
-0 days 01:15:56.520000,BOT,77,92.747,19.0,3.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.285,0.308,2.332,2.579,0.497,0.539
+0 days 01:14:23.773000,BOT,77,92.887,18.0,3.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.425,0.46,2.472,2.734,0.694,0.753
+0 days 01:15:56.520000,BOT,77,92.747,19.0,3.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,16.0,True,6,Miami Grand Prix,True,C3,True,0.285,0.308,2.332,2.579,0.529,0.574
 0 days 00:46:06.949000,OCO,31,,1.0,1.0,,0 days 00:45:59.130000,False,MEDIUM,1.0,True,Alpine,124,12.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:48.739000,OCO,31,,2.0,2.0,0 days 00:46:39.557000,0 days 00:48:40.294000,False,MEDIUM,2.0,False,Alpine,4,17.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:51:09.749000,OCO,31,141.01,3.0,3.0,0 days 00:49:04.323000,,False,MEDIUM,3.0,False,Alpine,41,17.0,False,6,Miami Grand Prix,True,C3,False,48.548,52.506,50.595,55.959,-2.975,-2.066
+0 days 00:51:09.749000,OCO,31,141.01,3.0,3.0,0 days 00:49:04.323000,,False,MEDIUM,3.0,False,Alpine,41,17.0,False,6,Miami Grand Prix,True,C3,False,48.548,52.506,50.595,55.959,,
 0 days 00:52:43.368000,OCO,31,93.619,4.0,3.0,,,True,MEDIUM,4.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,1.157,1.251,3.204,3.544,0.565,0.607
 0 days 00:54:16.316000,OCO,31,92.948,5.0,3.0,,,True,MEDIUM,5.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.486,0.526,2.533,2.802,0.648,0.702
 0 days 00:55:48.809000,OCO,31,92.493,6.0,3.0,,,True,MEDIUM,6.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.031,0.034,2.078,2.298,0.329,0.357
@@ -660,8 +660,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:45.688000,OCO,31,93.239,15.0,3.0,,,False,MEDIUM,15.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.777,0.84,2.824,3.123,0.075,0.081
 0 days 01:11:19.524000,OCO,31,93.836,16.0,3.0,,,False,MEDIUM,16.0,False,Alpine,1,18.0,True,6,Miami Grand Prix,True,C3,True,1.374,1.486,3.421,3.784,1.744,1.894
 0 days 01:12:52.493000,OCO,31,92.969,17.0,3.0,,,False,MEDIUM,17.0,False,Alpine,1,18.0,True,6,Miami Grand Prix,True,C3,True,0.507,0.548,2.554,2.825,0.683,0.74
-0 days 01:14:25.102000,OCO,31,92.609,18.0,3.0,,,False,MEDIUM,18.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.147,0.159,2.194,2.427,0.32,0.347
-0 days 01:15:57.320000,OCO,31,92.218,19.0,3.0,,,True,MEDIUM,19.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,-0.244,-0.264,1.803,1.994,-0.032,-0.035
+0 days 01:14:25.102000,OCO,31,92.609,18.0,3.0,,,False,MEDIUM,18.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.147,0.159,2.194,2.427,0.416,0.451
+0 days 01:15:57.320000,OCO,31,92.218,19.0,3.0,,,True,MEDIUM,19.0,False,Alpine,1,17.0,True,6,Miami Grand Prix,True,C3,True,-0.244,-0.264,1.803,1.994,0.0,0.0
 0 days 00:46:03.011000,HAM,44,,1.0,1.0,,0 days 00:45:54.069000,False,MEDIUM,7.0,False,Mercedes,124,10.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:35.466000,HAM,44,,2.0,2.0,0 days 00:46:17.287000,0 days 00:48:27.785000,False,MEDIUM,8.0,False,Mercedes,4,9.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:05.783000,HAM,44,,3.0,3.0,0 days 00:48:51.488000,,False,MEDIUM,9.0,False,Mercedes,41,9.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -679,11 +679,11 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:40.630000,HAM,44,93.089,15.0,3.0,,,False,MEDIUM,21.0,False,Mercedes,1,9.0,True,6,Miami Grand Prix,True,C3,True,0.627,0.678,2.674,2.957,-0.075,-0.081
 0 days 01:11:12.460000,HAM,44,91.83,16.0,3.0,,,True,MEDIUM,22.0,False,Mercedes,1,9.0,True,6,Miami Grand Prix,True,C3,True,-0.632,-0.684,1.415,1.565,-0.262,-0.284
 0 days 01:12:44.670000,HAM,44,92.21,17.0,3.0,,,False,MEDIUM,23.0,False,Mercedes,1,9.0,True,6,Miami Grand Prix,True,C3,True,-0.252,-0.273,1.795,1.985,-0.076,-0.082
-0 days 01:14:16.863000,HAM,44,92.193,18.0,3.0,,,False,MEDIUM,24.0,False,Mercedes,1,9.0,True,6,Miami Grand Prix,True,C3,True,-0.269,-0.291,1.778,1.966,-0.096,-0.104
-0 days 01:15:48.973000,HAM,44,92.11,19.0,3.0,,,False,MEDIUM,25.0,False,Mercedes,1,8.0,True,6,Miami Grand Prix,True,C3,True,-0.352,-0.381,1.695,1.875,-0.14,-0.152
+0 days 01:14:16.863000,HAM,44,92.193,18.0,3.0,,,False,MEDIUM,24.0,False,Mercedes,1,9.0,True,6,Miami Grand Prix,True,C3,True,-0.269,-0.291,1.778,1.966,0.0,0.0
+0 days 01:15:48.973000,HAM,44,92.11,19.0,3.0,,,False,MEDIUM,25.0,False,Mercedes,1,8.0,True,6,Miami Grand Prix,True,C3,True,-0.352,-0.381,1.695,1.875,-0.108,-0.117
 0 days 00:46:20.176000,ALO,14,,1.0,1.0,,0 days 00:46:13.502000,False,MEDIUM,6.0,False,Aston Martin,124,19.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:52.872000,ALO,14,,2.0,2.0,0 days 00:46:48.823000,0 days 00:48:45.698000,False,MEDIUM,7.0,False,Aston Martin,4,18.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
-0 days 00:51:10.190000,ALO,14,137.318,3.0,3.0,0 days 00:49:08.473000,,False,MEDIUM,1.0,True,Aston Martin,41,18.0,False,6,Miami Grand Prix,True,C3,False,44.856,48.513,46.903,51.875,-6.667,-4.63
+0 days 00:51:10.190000,ALO,14,137.318,3.0,3.0,0 days 00:49:08.473000,,False,MEDIUM,1.0,True,Aston Martin,41,18.0,False,6,Miami Grand Prix,True,C3,False,44.856,48.513,46.903,51.875,,
 0 days 00:52:43.974000,ALO,14,93.784,4.0,3.0,,,True,MEDIUM,2.0,True,Aston Martin,1,18.0,True,6,Miami Grand Prix,True,C3,True,1.322,1.43,3.369,3.726,0.73,0.784
 0 days 00:54:17.111000,ALO,14,93.137,5.0,3.0,,,True,MEDIUM,3.0,True,Aston Martin,1,18.0,True,6,Miami Grand Prix,True,C3,True,0.675,0.73,2.722,3.011,0.837,0.907
 0 days 00:55:49.821000,ALO,14,92.71,6.0,3.0,,,True,MEDIUM,4.0,True,Aston Martin,1,18.0,True,6,Miami Grand Prix,True,C3,True,0.248,0.268,2.295,2.538,0.546,0.592
@@ -698,8 +698,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:46.308000,ALO,14,93.265,15.0,3.0,,,False,MEDIUM,13.0,True,Aston Martin,1,18.0,True,6,Miami Grand Prix,True,C3,True,0.803,0.868,2.85,3.152,0.101,0.108
 0 days 01:11:19.202000,ALO,14,92.894,16.0,3.0,,,False,MEDIUM,14.0,True,Aston Martin,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.432,0.467,2.479,2.742,0.802,0.871
 0 days 01:12:51.876000,ALO,14,92.674,17.0,3.0,,,False,MEDIUM,15.0,True,Aston Martin,1,17.0,True,6,Miami Grand Prix,True,C3,True,0.212,0.229,2.259,2.498,0.388,0.42
-0 days 01:14:33.647000,ALO,14,101.771,18.0,3.0,,0 days 01:14:28.147000,False,MEDIUM,16.0,True,Aston Martin,1,18.0,False,6,Miami Grand Prix,True,C3,False,9.309,10.068,11.356,12.56,9.482,10.274
-0 days 01:16:18.997000,ALO,14,105.35,19.0,4.0,0 days 01:14:49.018000,,False,MEDIUM,24.0,False,Aston Martin,1,18.0,False,6,Miami Grand Prix,True,C3,False,12.888,13.939,14.935,16.518,13.1,14.201
+0 days 01:14:33.647000,ALO,14,101.771,18.0,3.0,,0 days 01:14:28.147000,False,MEDIUM,16.0,True,Aston Martin,1,18.0,False,6,Miami Grand Prix,True,C3,False,9.309,10.068,11.356,12.56,9.578,10.389
+0 days 01:16:18.997000,ALO,14,105.35,19.0,4.0,0 days 01:14:49.018000,,False,MEDIUM,24.0,False,Aston Martin,1,18.0,False,6,Miami Grand Prix,True,C3,False,12.888,13.939,14.935,16.518,13.132,14.24
 0 days 00:46:01.278000,MAG,20,,1.0,1.0,,0 days 00:45:52.607000,False,MEDIUM,7.0,False,Haas F1 Team,124,9.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:48:32.931000,MAG,20,,2.0,2.0,0 days 00:46:14.302000,0 days 00:48:26.482000,False,MEDIUM,8.0,False,Haas F1 Team,4,8.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:51:05.347000,MAG,20,,3.0,3.0,0 days 00:48:45.848000,,False,MEDIUM,9.0,False,Haas F1 Team,41,8.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
@@ -717,8 +717,8 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:09:41.580000,MAG,20,95.029,15.0,3.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,2.567,2.776,4.614,5.103,1.865,2.002
 0 days 01:11:13.743000,MAG,20,92.163,16.0,3.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,-0.299,-0.323,1.748,1.933,0.071,0.077
 0 days 01:12:46.153000,MAG,20,92.41,17.0,3.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,-0.052,-0.056,1.995,2.206,0.124,0.134
-0 days 01:14:18.615000,MAG,20,92.462,18.0,3.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,0.0,0.0,2.047,2.264,0.173,0.187
-0 days 01:15:50.938000,MAG,20,92.323,19.0,3.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,-0.139,-0.15,1.908,2.11,0.073,0.079
+0 days 01:14:18.615000,MAG,20,92.462,18.0,3.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,0.0,0.0,2.047,2.264,0.269,0.292
+0 days 01:15:50.938000,MAG,20,92.323,19.0,3.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,10.0,True,6,Miami Grand Prix,True,C3,True,-0.139,-0.15,1.908,2.11,0.105,0.114
 0 days 00:46:45.505000,STR,18,,1.0,1.0,,0 days 00:46:35.928000,False,MEDIUM,7.0,False,Aston Martin,124,20.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:45:46.952000,NOR,4,,1.0,1.0,,,False,MEDIUM,4.0,False,McLaren,124,2.0,False,6,Miami Grand Prix,True,C3,False,,,,,,
 0 days 00:49:41.977000,VER,1,,1.0,1.0,,,False,MEDIUM,6.0,False,Red Bull Racing,1,1.0,False,11,Austrian Grand Prix,True,C4,False,,,,,,
@@ -2046,12 +2046,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:17.945000,PIA,81,85.814,7.0,1.0,,,False,MEDIUM,12.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.041,-0.048,1.891,2.253,-0.246,-0.286
 0 days 00:55:43.540000,PIA,81,85.595,8.0,1.0,,,True,MEDIUM,13.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.26,-0.303,1.672,1.992,-0.423,-0.492
 0 days 00:57:08.958000,PIA,81,85.418,9.0,1.0,,,True,MEDIUM,14.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.437,-0.509,1.495,1.781,-0.594,-0.691
-0 days 00:58:34.112000,PIA,81,85.154,10.0,1.0,,,True,MEDIUM,15.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.701,-0.816,1.231,1.467,-0.46,-0.537
-0 days 00:59:59.093000,PIA,81,84.981,11.0,1.0,,,True,MEDIUM,16.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.874,-1.018,1.058,1.261,-0.638,-0.745
+0 days 00:58:34.112000,PIA,81,85.154,10.0,1.0,,,True,MEDIUM,15.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.701,-0.816,1.231,1.467,-0.42,-0.491
+0 days 00:59:59.093000,PIA,81,84.981,11.0,1.0,,,True,MEDIUM,16.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-0.874,-1.018,1.058,1.261,-0.563,-0.658
 0 days 01:01:23.892000,PIA,81,84.799,12.0,1.0,,,True,MEDIUM,17.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.056,-1.23,0.876,1.044,-0.739,-0.864
 0 days 01:02:48.511000,PIA,81,84.619,13.0,1.0,,,True,MEDIUM,18.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.236,-1.44,0.696,0.829,-0.991,-1.158
-0 days 01:04:13.338000,PIA,81,84.827,14.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.028,-1.197,0.904,1.077,-0.608,-0.712
-0 days 01:05:38.016000,PIA,81,84.678,15.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.177,-1.371,0.755,0.9,-0.673,-0.789
+0 days 01:04:13.338000,PIA,81,84.827,14.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.028,-1.197,0.904,1.077,-0.481,-0.564
+0 days 01:05:38.016000,PIA,81,84.678,15.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.177,-1.371,0.755,0.9,-0.59,-0.692
 0 days 01:07:02.586000,PIA,81,84.57,16.0,1.0,,,True,MEDIUM,21.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.285,-1.497,0.647,0.771,-0.899,-1.052
 0 days 01:08:27.080000,PIA,81,84.494,17.0,1.0,,,True,MEDIUM,22.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.361,-1.585,0.571,0.68,-0.587,-0.69
 0 days 01:09:51.534000,PIA,81,84.454,18.0,1.0,,,False,MEDIUM,23.0,False,McLaren,1,2.0,True,23,Qatar Grand Prix,True,C2,True,-1.401,-1.632,0.531,0.633,-0.606,-0.712
@@ -2065,12 +2065,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:17.185000,NOR,4,85.793,7.0,1.0,,,False,MEDIUM,12.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.062,-0.072,1.87,2.228,-0.267,-0.31
 0 days 00:55:42.713000,NOR,4,85.528,8.0,1.0,,,True,MEDIUM,13.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.327,-0.381,1.605,1.912,-0.49,-0.57
 0 days 00:57:08.211000,NOR,4,85.498,9.0,1.0,,,True,MEDIUM,14.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.357,-0.416,1.575,1.877,-0.514,-0.598
-0 days 00:58:33.278000,NOR,4,85.067,10.0,1.0,,,True,MEDIUM,15.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.788,-0.918,1.144,1.363,-0.547,-0.639
-0 days 00:59:58.194000,NOR,4,84.916,11.0,1.0,,,True,MEDIUM,16.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.939,-1.094,0.993,1.183,-0.703,-0.821
+0 days 00:58:33.278000,NOR,4,85.067,10.0,1.0,,,True,MEDIUM,15.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.788,-0.918,1.144,1.363,-0.507,-0.592
+0 days 00:59:58.194000,NOR,4,84.916,11.0,1.0,,,True,MEDIUM,16.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.939,-1.094,0.993,1.183,-0.628,-0.734
 0 days 01:01:22.938000,NOR,4,84.744,12.0,1.0,,,True,MEDIUM,17.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.111,-1.294,0.821,0.978,-0.794,-0.928
 0 days 01:02:47.267000,NOR,4,84.329,13.0,1.0,,,True,MEDIUM,18.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.526,-1.777,0.406,0.484,-1.281,-1.496
-0 days 01:04:12.575000,NOR,4,85.308,14.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.547,-0.637,1.385,1.65,-0.127,-0.149
-0 days 01:05:37.014000,NOR,4,84.439,15.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.416,-1.649,0.516,0.615,-0.912,-1.069
+0 days 01:04:12.575000,NOR,4,85.308,14.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-0.547,-0.637,1.385,1.65,0.0,0.0
+0 days 01:05:37.014000,NOR,4,84.439,15.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.416,-1.649,0.516,0.615,-0.829,-0.972
 0 days 01:07:01.514000,NOR,4,84.5,16.0,1.0,,,False,MEDIUM,21.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.355,-1.578,0.577,0.688,-0.969,-1.134
 0 days 01:08:25.890000,NOR,4,84.376,17.0,1.0,,,False,MEDIUM,22.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.479,-1.723,0.453,0.54,-0.705,-0.829
 0 days 01:09:50.616000,NOR,4,84.726,18.0,1.0,,,False,MEDIUM,23.0,False,McLaren,1,1.0,True,23,Qatar Grand Prix,True,C2,True,-1.129,-1.315,0.803,0.957,-0.334,-0.393
@@ -2084,12 +2084,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:18.493000,RUS,63,85.796,7.0,1.0,,,True,MEDIUM,11.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.059,-0.069,1.873,2.232,-0.264,-0.307
 0 days 00:55:43.961000,RUS,63,85.468,8.0,1.0,,,True,MEDIUM,12.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.387,-0.451,1.545,1.841,-0.55,-0.639
 0 days 00:57:09.597000,RUS,63,85.636,9.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.219,-0.255,1.713,2.041,-0.376,-0.437
-0 days 00:58:34.954000,RUS,63,85.357,10.0,1.0,,,True,MEDIUM,14.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.498,-0.58,1.434,1.709,-0.257,-0.3
-0 days 00:59:59.959000,RUS,63,85.005,11.0,1.0,,,True,MEDIUM,15.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.85,-0.99,1.082,1.289,-0.614,-0.717
+0 days 00:58:34.954000,RUS,63,85.357,10.0,1.0,,,True,MEDIUM,14.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.498,-0.58,1.434,1.709,-0.217,-0.254
+0 days 00:59:59.959000,RUS,63,85.005,11.0,1.0,,,True,MEDIUM,15.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.85,-0.99,1.082,1.289,-0.539,-0.63
 0 days 01:01:24.514000,RUS,63,84.555,12.0,1.0,,,True,MEDIUM,16.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.3,-1.514,0.632,0.753,-0.983,-1.149
 0 days 01:02:49.066000,RUS,63,84.552,13.0,1.0,,,True,MEDIUM,17.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.303,-1.518,0.629,0.749,-1.058,-1.236
-0 days 01:04:14.269000,RUS,63,85.203,14.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.652,-0.759,1.28,1.525,-0.232,-0.272
-0 days 01:05:38.779000,RUS,63,84.51,15.0,1.0,,,True,MEDIUM,19.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.345,-1.567,0.587,0.699,-0.841,-0.985
+0 days 01:04:14.269000,RUS,63,85.203,14.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-0.652,-0.759,1.28,1.525,-0.105,-0.123
+0 days 01:05:38.779000,RUS,63,84.51,15.0,1.0,,,True,MEDIUM,19.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.345,-1.567,0.587,0.699,-0.758,-0.889
 0 days 01:07:03.177000,RUS,63,84.398,16.0,1.0,,,True,MEDIUM,20.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.457,-1.697,0.475,0.566,-1.071,-1.253
 0 days 01:08:27.759000,RUS,63,84.582,17.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.273,-1.483,0.659,0.785,-0.499,-0.586
 0 days 01:09:52.139000,RUS,63,84.38,18.0,1.0,,,True,MEDIUM,22.0,False,Mercedes,1,3.0,True,23,Qatar Grand Prix,True,C2,True,-1.475,-1.718,0.457,0.545,-0.68,-0.799
@@ -2103,12 +2103,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:19.346000,SAI,55,85.794,7.0,1.0,,,False,MEDIUM,8.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.061,-0.071,1.871,2.229,-0.266,-0.309
 0 days 00:55:44.902000,SAI,55,85.556,8.0,1.0,,,True,MEDIUM,9.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.299,-0.348,1.633,1.946,-0.462,-0.537
 0 days 00:57:10.356000,SAI,55,85.454,9.0,1.0,,,True,MEDIUM,10.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.401,-0.467,1.531,1.824,-0.558,-0.649
-0 days 00:58:35.838000,SAI,55,85.482,10.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.373,-0.434,1.559,1.858,-0.132,-0.154
-0 days 01:00:00.742000,SAI,55,84.904,11.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.951,-1.108,0.981,1.169,-0.715,-0.835
+0 days 00:58:35.838000,SAI,55,85.482,10.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.373,-0.434,1.559,1.858,-0.092,-0.108
+0 days 01:00:00.742000,SAI,55,84.904,11.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.951,-1.108,0.981,1.169,-0.64,-0.748
 0 days 01:01:25.391000,SAI,55,84.649,12.0,1.0,,,True,MEDIUM,13.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.206,-1.405,0.726,0.865,-0.889,-1.039
 0 days 01:02:49.925000,SAI,55,84.534,13.0,1.0,,,True,MEDIUM,14.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.321,-1.539,0.611,0.728,-1.076,-1.257
-0 days 01:04:15.059000,SAI,55,85.134,14.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.721,-0.84,1.211,1.443,-0.301,-0.352
-0 days 01:05:39.665000,SAI,55,84.606,15.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.249,-1.455,0.683,0.814,-0.745,-0.873
+0 days 01:04:15.059000,SAI,55,85.134,14.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-0.721,-0.84,1.211,1.443,-0.174,-0.204
+0 days 01:05:39.665000,SAI,55,84.606,15.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.249,-1.455,0.683,0.814,-0.662,-0.776
 0 days 01:07:04.070000,SAI,55,84.405,16.0,1.0,,,True,MEDIUM,17.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.45,-1.689,0.482,0.574,-1.064,-1.245
 0 days 01:08:28.685000,SAI,55,84.615,17.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.24,-1.444,0.692,0.825,-0.466,-0.548
 0 days 01:09:53.113000,SAI,55,84.428,18.0,1.0,,,False,MEDIUM,19.0,False,Ferrari,1,4.0,True,23,Qatar Grand Prix,True,C2,True,-1.427,-1.662,0.505,0.602,-0.632,-0.743
@@ -2122,12 +2122,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:21.671000,LEC,16,85.608,7.0,1.0,,,False,MEDIUM,8.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.247,-0.288,1.685,2.008,-0.452,-0.525
 0 days 00:55:47.198000,LEC,16,85.527,8.0,1.0,,,False,MEDIUM,9.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.328,-0.382,1.604,1.911,-0.491,-0.571
 0 days 00:57:12.308000,LEC,16,85.11,9.0,1.0,,,True,MEDIUM,10.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.745,-0.868,1.187,1.414,-0.902,-1.049
-0 days 00:58:37.609000,LEC,16,85.301,10.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.554,-0.645,1.378,1.642,-0.313,-0.366
-0 days 01:00:02.706000,LEC,16,85.097,11.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.758,-0.883,1.174,1.399,-0.522,-0.61
+0 days 00:58:37.609000,LEC,16,85.301,10.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.554,-0.645,1.378,1.642,-0.273,-0.319
+0 days 01:00:02.706000,LEC,16,85.097,11.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.758,-0.883,1.174,1.399,-0.447,-0.523
 0 days 01:01:27.677000,LEC,16,84.971,12.0,1.0,,,True,MEDIUM,13.0,False,Ferrari,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.884,-1.03,1.048,1.249,-0.567,-0.663
 0 days 01:02:52.781000,LEC,16,85.104,13.0,1.0,,,False,MEDIUM,14.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.751,-0.875,1.181,1.407,-0.506,-0.591
-0 days 01:04:17.967000,LEC,16,85.186,14.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.669,-0.779,1.263,1.505,-0.249,-0.291
-0 days 01:05:42.838000,LEC,16,84.871,15.0,1.0,,,True,MEDIUM,16.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.984,-1.146,0.948,1.13,-0.48,-0.562
+0 days 01:04:17.967000,LEC,16,85.186,14.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.669,-0.779,1.263,1.505,-0.122,-0.143
+0 days 01:05:42.838000,LEC,16,84.871,15.0,1.0,,,True,MEDIUM,16.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.984,-1.146,0.948,1.13,-0.397,-0.466
 0 days 01:07:07.275000,LEC,16,84.437,16.0,1.0,,,True,MEDIUM,17.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-1.418,-1.652,0.514,0.612,-1.032,-1.207
 0 days 01:08:31.478000,LEC,16,84.203,17.0,1.0,,,True,MEDIUM,18.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-1.652,-1.924,0.28,0.334,-0.878,-1.032
 0 days 01:09:55.401000,LEC,16,83.923,18.0,1.0,,,True,MEDIUM,19.0,False,Ferrari,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-1.932,-2.25,0.0,0.0,-1.137,-1.337
@@ -2141,12 +2141,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:20.129000,HAM,44,85.791,7.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.064,-0.075,1.868,2.226,-0.269,-0.313
 0 days 00:55:46.018000,HAM,44,85.889,8.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,0.034,0.04,1.966,2.343,-0.129,-0.15
 0 days 00:57:11.548000,HAM,44,85.53,9.0,1.0,,,True,MEDIUM,15.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.325,-0.379,1.607,1.915,-0.482,-0.56
-0 days 00:58:36.914000,HAM,44,85.366,10.0,1.0,,,True,MEDIUM,16.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.489,-0.57,1.443,1.719,-0.248,-0.29
-0 days 01:00:02.130000,HAM,44,85.216,11.0,1.0,,,True,MEDIUM,17.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.639,-0.744,1.293,1.541,-0.403,-0.471
+0 days 00:58:36.914000,HAM,44,85.366,10.0,1.0,,,True,MEDIUM,16.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.489,-0.57,1.443,1.719,-0.208,-0.243
+0 days 01:00:02.130000,HAM,44,85.216,11.0,1.0,,,True,MEDIUM,17.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.639,-0.744,1.293,1.541,-0.328,-0.383
 0 days 01:01:27.219000,HAM,44,85.089,12.0,1.0,,,True,MEDIUM,18.0,False,Mercedes,1,5.0,True,23,Qatar Grand Prix,True,C2,True,-0.766,-0.892,1.166,1.389,-0.449,-0.525
 0 days 01:02:53.907000,HAM,44,86.688,13.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,0.833,0.97,2.765,3.295,1.078,1.259
-0 days 01:04:18.906000,HAM,44,84.999,14.0,1.0,,,True,MEDIUM,20.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.856,-0.997,1.076,1.282,-0.436,-0.51
-0 days 01:05:43.655000,HAM,44,84.749,15.0,1.0,,,True,MEDIUM,21.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-1.106,-1.288,0.826,0.984,-0.602,-0.705
+0 days 01:04:18.906000,HAM,44,84.999,14.0,1.0,,,True,MEDIUM,20.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.856,-0.997,1.076,1.282,-0.309,-0.362
+0 days 01:05:43.655000,HAM,44,84.749,15.0,1.0,,,True,MEDIUM,21.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-1.106,-1.288,0.826,0.984,-0.519,-0.609
 0 days 01:07:08.424000,HAM,44,84.769,16.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-1.086,-1.265,0.846,1.008,-0.7,-0.819
 0 days 01:08:33.485000,HAM,44,85.061,17.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-0.794,-0.925,1.138,1.356,-0.02,-0.024
 0 days 01:09:57.822000,HAM,44,84.337,18.0,1.0,,,True,MEDIUM,24.0,False,Mercedes,1,6.0,True,23,Qatar Grand Prix,True,C2,True,-1.518,-1.768,0.414,0.493,-0.723,-0.85
@@ -2160,12 +2160,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:23.897000,HUL,27,86.027,7.0,1.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,0.172,0.2,2.104,2.507,-0.033,-0.038
 0 days 00:55:49.618000,HUL,27,85.721,8.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.134,-0.156,1.798,2.142,-0.297,-0.345
 0 days 00:57:15.556000,HUL,27,85.938,9.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,0.083,0.097,2.015,2.401,-0.074,-0.086
-0 days 00:58:40.966000,HUL,27,85.41,10.0,1.0,,,True,MEDIUM,16.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.445,-0.518,1.487,1.772,-0.204,-0.238
-0 days 01:00:06.510000,HUL,27,85.544,11.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.311,-0.362,1.621,1.932,-0.075,-0.088
+0 days 00:58:40.966000,HUL,27,85.41,10.0,1.0,,,True,MEDIUM,16.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.445,-0.518,1.487,1.772,-0.164,-0.192
+0 days 01:00:06.510000,HUL,27,85.544,11.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.311,-0.362,1.621,1.932,0.0,0.0
 0 days 01:01:31.697000,HUL,27,85.187,12.0,1.0,,,True,MEDIUM,18.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.668,-0.778,1.264,1.506,-0.351,-0.41
 0 days 01:02:57.066000,HUL,27,85.369,13.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.486,-0.566,1.446,1.723,-0.241,-0.282
-0 days 01:04:21.752000,HUL,27,84.686,14.0,1.0,,,True,MEDIUM,20.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.169,-1.362,0.763,0.909,-0.749,-0.877
-0 days 01:05:46.600000,HUL,27,84.848,15.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.007,-1.173,0.925,1.102,-0.503,-0.589
+0 days 01:04:21.752000,HUL,27,84.686,14.0,1.0,,,True,MEDIUM,20.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.169,-1.362,0.763,0.909,-0.622,-0.729
+0 days 01:05:46.600000,HUL,27,84.848,15.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.007,-1.173,0.925,1.102,-0.42,-0.493
 0 days 01:07:11.124000,HUL,27,84.524,16.0,1.0,,,True,MEDIUM,22.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.331,-1.55,0.601,0.716,-0.945,-1.106
 0 days 01:08:36.039000,HUL,27,84.915,17.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-0.94,-1.095,0.992,1.182,-0.166,-0.195
 0 days 01:10:00.323000,HUL,27,84.284,18.0,1.0,,,True,MEDIUM,24.0,False,Haas F1 Team,1,7.0,True,23,Qatar Grand Prix,True,C2,True,-1.571,-1.83,0.361,0.43,-0.776,-0.912
@@ -2179,12 +2179,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:25.870000,VER,1,85.814,7.0,1.0,,,True,MEDIUM,15.0,False,Red Bull Racing,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.041,-0.048,1.891,2.253,-0.246,-0.286
 0 days 00:55:51.094000,VER,1,85.224,8.0,1.0,,,True,MEDIUM,16.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.631,-0.735,1.301,1.55,-0.794,-0.923
 0 days 00:57:17.123000,VER,1,86.029,9.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,0.174,0.203,2.106,2.509,0.017,0.02
-0 days 00:58:42.536000,VER,1,85.413,10.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.442,-0.515,1.49,1.775,-0.201,-0.235
-0 days 01:00:07.883000,VER,1,85.347,11.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.508,-0.592,1.424,1.697,-0.272,-0.318
+0 days 00:58:42.536000,VER,1,85.413,10.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.442,-0.515,1.49,1.775,-0.161,-0.188
+0 days 01:00:07.883000,VER,1,85.347,11.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.508,-0.592,1.424,1.697,-0.197,-0.23
 0 days 01:01:33.363000,VER,1,85.48,12.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.375,-0.437,1.557,1.855,-0.058,-0.068
 0 days 01:02:58.527000,VER,1,85.164,13.0,1.0,,,True,MEDIUM,21.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.691,-0.805,1.241,1.479,-0.446,-0.521
-0 days 01:04:23.438000,VER,1,84.911,14.0,1.0,,,True,MEDIUM,22.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.944,-1.1,0.988,1.177,-0.524,-0.613
-0 days 01:05:48.101000,VER,1,84.663,15.0,1.0,,,True,MEDIUM,23.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-1.192,-1.388,0.74,0.882,-0.688,-0.806
+0 days 01:04:23.438000,VER,1,84.911,14.0,1.0,,,True,MEDIUM,22.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-0.944,-1.1,0.988,1.177,-0.397,-0.465
+0 days 01:05:48.101000,VER,1,84.663,15.0,1.0,,,True,MEDIUM,23.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-1.192,-1.388,0.74,0.882,-0.605,-0.71
 0 days 01:07:12.819000,VER,1,84.718,16.0,1.0,,,False,MEDIUM,24.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-1.137,-1.324,0.795,0.947,-0.751,-0.879
 0 days 01:08:37.406000,VER,1,84.587,17.0,1.0,,,True,MEDIUM,25.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-1.268,-1.477,0.664,0.791,-0.494,-0.581
 0 days 01:10:01.983000,VER,1,84.577,18.0,1.0,,,True,MEDIUM,26.0,False,Red Bull Racing,1,8.0,True,23,Qatar Grand Prix,True,C2,True,-1.278,-1.489,0.654,0.779,-0.483,-0.568
@@ -2198,12 +2198,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:25.318000,GAS,10,86.105,7.0,1.0,,,False,MEDIUM,14.0,False,Alpine,1,8.0,True,23,Qatar Grand Prix,True,C2,True,0.25,0.291,2.182,2.6,0.045,0.052
 0 days 00:55:52.415000,GAS,10,87.097,8.0,1.0,,,False,MEDIUM,15.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,1.242,1.447,3.174,3.782,1.079,1.254
 0 days 00:57:18.936000,GAS,10,86.521,9.0,1.0,,,False,MEDIUM,16.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,0.666,0.776,2.598,3.096,0.509,0.592
-0 days 00:58:44.406000,GAS,10,85.47,10.0,1.0,,,True,MEDIUM,17.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.385,-0.448,1.547,1.843,-0.144,-0.168
-0 days 01:00:09.871000,GAS,10,85.465,11.0,1.0,,,True,MEDIUM,18.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.39,-0.454,1.542,1.837,-0.154,-0.18
+0 days 00:58:44.406000,GAS,10,85.47,10.0,1.0,,,True,MEDIUM,17.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.385,-0.448,1.547,1.843,-0.104,-0.122
+0 days 01:00:09.871000,GAS,10,85.465,11.0,1.0,,,True,MEDIUM,18.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.39,-0.454,1.542,1.837,-0.079,-0.092
 0 days 01:01:35.093000,GAS,10,85.222,12.0,1.0,,,True,MEDIUM,19.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.633,-0.737,1.299,1.548,-0.316,-0.369
 0 days 01:03:00.393000,GAS,10,85.3,13.0,1.0,,,False,MEDIUM,20.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.555,-0.646,1.377,1.641,-0.31,-0.362
-0 days 01:04:25.595000,GAS,10,85.202,14.0,1.0,,,True,MEDIUM,21.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.653,-0.761,1.279,1.524,-0.233,-0.273
-0 days 01:05:50.604000,GAS,10,85.009,15.0,1.0,,,True,MEDIUM,22.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.846,-0.985,1.086,1.294,-0.342,-0.401
+0 days 01:04:25.595000,GAS,10,85.202,14.0,1.0,,,True,MEDIUM,21.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.653,-0.761,1.279,1.524,-0.106,-0.124
+0 days 01:05:50.604000,GAS,10,85.009,15.0,1.0,,,True,MEDIUM,22.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.846,-0.985,1.086,1.294,-0.259,-0.304
 0 days 01:07:15.948000,GAS,10,85.344,16.0,1.0,,,False,MEDIUM,23.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.511,-0.595,1.421,1.693,-0.125,-0.146
 0 days 01:08:40.882000,GAS,10,84.934,17.0,1.0,,,True,MEDIUM,24.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.921,-1.073,1.011,1.205,-0.147,-0.173
 0 days 01:10:06.111000,GAS,10,85.229,18.0,1.0,,,False,MEDIUM,25.0,False,Alpine,1,9.0,True,23,Qatar Grand Prix,True,C2,True,-0.626,-0.729,1.306,1.556,0.169,0.199
@@ -2217,12 +2217,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:28.891000,MAG,20,85.959,7.0,1.0,,,True,MEDIUM,13.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,0.104,0.121,2.036,2.426,-0.101,-0.117
 0 days 00:55:54.307000,MAG,20,85.416,8.0,1.0,,,True,MEDIUM,14.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.439,-0.511,1.493,1.779,-0.602,-0.7
 0 days 00:57:20.166000,MAG,20,85.859,9.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,0.004,0.005,1.936,2.307,-0.153,-0.178
-0 days 00:58:45.820000,MAG,20,85.654,10.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.201,-0.234,1.731,2.063,0.04,0.047
-0 days 01:00:11.182000,MAG,20,85.362,11.0,1.0,,,True,MEDIUM,17.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.493,-0.574,1.439,1.715,-0.257,-0.3
+0 days 00:58:45.820000,MAG,20,85.654,10.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.201,-0.234,1.731,2.063,0.08,0.093
+0 days 01:00:11.182000,MAG,20,85.362,11.0,1.0,,,True,MEDIUM,17.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.493,-0.574,1.439,1.715,-0.182,-0.213
 0 days 01:01:36.777000,MAG,20,85.595,12.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.26,-0.303,1.672,1.992,0.057,0.067
 0 days 01:03:02.254000,MAG,20,85.477,13.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.378,-0.44,1.554,1.852,-0.133,-0.155
-0 days 01:04:27.227000,MAG,20,84.973,14.0,1.0,,,True,MEDIUM,20.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.882,-1.027,1.05,1.251,-0.462,-0.541
-0 days 01:05:52.495000,MAG,20,85.268,15.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.587,-0.684,1.345,1.603,-0.083,-0.097
+0 days 01:04:27.227000,MAG,20,84.973,14.0,1.0,,,True,MEDIUM,20.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.882,-1.027,1.05,1.251,-0.335,-0.393
+0 days 01:05:52.495000,MAG,20,85.268,15.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.587,-0.684,1.345,1.603,0.0,0.0
 0 days 01:07:17.540000,MAG,20,85.045,16.0,1.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.81,-0.943,1.122,1.337,-0.424,-0.496
 0 days 01:08:42.612000,MAG,20,85.072,17.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-0.783,-0.912,1.149,1.369,-0.009,-0.011
 0 days 01:10:07.180000,MAG,20,84.568,18.0,1.0,,,True,MEDIUM,24.0,False,Haas F1 Team,1,10.0,True,23,Qatar Grand Prix,True,C2,True,-1.287,-1.499,0.645,0.769,-0.492,-0.578
@@ -2236,12 +2236,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:29.764000,ALO,14,86.003,7.0,1.0,,,True,MEDIUM,13.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,0.148,0.172,2.08,2.478,-0.057,-0.066
 0 days 00:55:55.275000,ALO,14,85.511,8.0,1.0,,,True,MEDIUM,14.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.344,-0.401,1.588,1.892,-0.507,-0.589
 0 days 00:57:21.078000,ALO,14,85.803,9.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.052,-0.061,1.88,2.24,-0.209,-0.243
-0 days 00:58:46.817000,ALO,14,85.739,10.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.116,-0.135,1.816,2.164,0.125,0.146
-0 days 01:00:12.511000,ALO,14,85.694,11.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.161,-0.188,1.771,2.11,0.075,0.088
+0 days 00:58:46.817000,ALO,14,85.739,10.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.116,-0.135,1.816,2.164,0.165,0.193
+0 days 01:00:12.511000,ALO,14,85.694,11.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.161,-0.188,1.771,2.11,0.15,0.175
 0 days 01:01:38.427000,ALO,14,85.916,12.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,0.061,0.071,1.993,2.375,0.378,0.442
 0 days 01:03:04.087000,ALO,14,85.66,13.0,1.0,,,False,MEDIUM,19.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.195,-0.227,1.737,2.07,0.05,0.058
-0 days 01:04:29.649000,ALO,14,85.562,14.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.293,-0.341,1.639,1.953,0.127,0.149
-0 days 01:05:55.083000,ALO,14,85.434,15.0,1.0,,,True,MEDIUM,21.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.421,-0.49,1.511,1.8,0.083,0.097
+0 days 01:04:29.649000,ALO,14,85.562,14.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.293,-0.341,1.639,1.953,0.254,0.298
+0 days 01:05:55.083000,ALO,14,85.434,15.0,1.0,,,True,MEDIUM,21.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.421,-0.49,1.511,1.8,0.166,0.195
 0 days 01:07:20.677000,ALO,14,85.594,16.0,1.0,,,False,MEDIUM,22.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.261,-0.304,1.671,1.991,0.125,0.146
 0 days 01:08:45.841000,ALO,14,85.164,17.0,1.0,,,True,MEDIUM,23.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.691,-0.805,1.241,1.479,0.083,0.098
 0 days 01:10:11.451000,ALO,14,85.61,18.0,1.0,,,False,MEDIUM,24.0,False,Aston Martin,1,11.0,True,23,Qatar Grand Prix,True,C2,True,-0.245,-0.285,1.687,2.01,0.55,0.647
@@ -2255,12 +2255,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:31.168000,BOT,77,86.189,7.0,2.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.334,0.389,2.266,2.7,0.129,0.15
 0 days 00:55:57.314000,BOT,77,86.146,8.0,2.0,,,True,MEDIUM,12.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.291,0.339,2.223,2.649,0.128,0.149
 0 days 00:57:23.382000,BOT,77,86.068,9.0,2.0,,,True,MEDIUM,13.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.213,0.248,2.145,2.556,0.056,0.065
-0 days 00:58:48.956000,BOT,77,85.574,10.0,2.0,,,True,MEDIUM,14.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.281,-0.327,1.651,1.967,-0.04,-0.047
-0 days 01:00:14.932000,BOT,77,85.976,11.0,2.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.121,0.141,2.053,2.446,0.357,0.417
+0 days 00:58:48.956000,BOT,77,85.574,10.0,2.0,,,True,MEDIUM,14.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.281,-0.327,1.651,1.967,0.0,0.0
+0 days 01:00:14.932000,BOT,77,85.976,11.0,2.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,0.121,0.141,2.053,2.446,0.432,0.505
 0 days 01:01:40.379000,BOT,77,85.447,12.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.408,-0.475,1.524,1.816,-0.091,-0.106
 0 days 01:03:06.116000,BOT,77,85.737,13.0,2.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.118,-0.137,1.814,2.162,0.127,0.148
-0 days 01:04:31.779000,BOT,77,85.663,14.0,2.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.192,-0.224,1.74,2.073,0.228,0.267
-0 days 01:05:57.364000,BOT,77,85.585,15.0,2.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.27,-0.314,1.662,1.98,0.234,0.274
+0 days 01:04:31.779000,BOT,77,85.663,14.0,2.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.192,-0.224,1.74,2.073,0.355,0.416
+0 days 01:05:57.364000,BOT,77,85.585,15.0,2.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.27,-0.314,1.662,1.98,0.317,0.372
 0 days 01:07:23.151000,BOT,77,85.787,16.0,2.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.068,-0.079,1.864,2.221,0.318,0.372
 0 days 01:08:48.815000,BOT,77,85.664,17.0,2.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.191,-0.222,1.741,2.075,0.583,0.685
 0 days 01:10:14.350000,BOT,77,85.535,18.0,2.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,12.0,True,23,Qatar Grand Prix,True,C2,True,-0.32,-0.373,1.612,1.921,0.475,0.558
@@ -2274,12 +2274,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:32.032000,STR,18,86.093,7.0,1.0,,,True,MEDIUM,13.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.238,0.277,2.17,2.586,0.033,0.038
 0 days 00:55:58.279000,STR,18,86.247,8.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.392,0.457,2.324,2.769,0.229,0.266
 0 days 00:57:24.273000,STR,18,85.994,9.0,1.0,,,True,MEDIUM,15.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.139,0.162,2.071,2.468,-0.018,-0.021
-0 days 00:58:50.200000,STR,18,85.927,10.0,1.0,,,True,MEDIUM,16.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.072,0.084,2.004,2.388,0.313,0.366
-0 days 01:00:16.090000,STR,18,85.89,11.0,1.0,,,True,MEDIUM,17.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.035,0.041,1.967,2.344,0.271,0.317
+0 days 00:58:50.200000,STR,18,85.927,10.0,1.0,,,True,MEDIUM,16.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.072,0.084,2.004,2.388,0.353,0.413
+0 days 01:00:16.090000,STR,18,85.89,11.0,1.0,,,True,MEDIUM,17.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.035,0.041,1.967,2.344,0.346,0.404
 0 days 01:01:41.752000,STR,18,85.662,12.0,1.0,,,True,MEDIUM,18.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.193,-0.225,1.739,2.072,0.124,0.145
 0 days 01:03:07.312000,STR,18,85.56,13.0,1.0,,,True,MEDIUM,19.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.295,-0.344,1.637,1.951,-0.05,-0.058
-0 days 01:04:32.985000,STR,18,85.673,14.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.182,-0.212,1.75,2.085,0.238,0.279
-0 days 01:05:58.645000,STR,18,85.66,15.0,1.0,,,False,MEDIUM,21.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.195,-0.227,1.737,2.07,0.309,0.362
+0 days 01:04:32.985000,STR,18,85.673,14.0,1.0,,,False,MEDIUM,20.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.182,-0.212,1.75,2.085,0.365,0.428
+0 days 01:05:58.645000,STR,18,85.66,15.0,1.0,,,False,MEDIUM,21.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.195,-0.227,1.737,2.07,0.392,0.46
 0 days 01:07:24.500000,STR,18,85.855,16.0,1.0,,,False,MEDIUM,22.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,0.0,0.0,1.932,2.302,0.386,0.452
 0 days 01:08:49.997000,STR,18,85.497,17.0,1.0,,,True,MEDIUM,23.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.358,-0.417,1.574,1.876,0.416,0.489
 0 days 01:10:15.366000,STR,18,85.369,18.0,1.0,,,True,MEDIUM,24.0,False,Aston Martin,1,13.0,True,23,Qatar Grand Prix,True,C2,True,-0.486,-0.566,1.446,1.723,0.309,0.363
@@ -2293,12 +2293,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:33.386000,OCO,31,86.38,7.0,1.0,,,True,MEDIUM,14.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.525,0.611,2.457,2.928,0.32,0.372
 0 days 00:55:59.936000,OCO,31,86.55,8.0,1.0,,,False,MEDIUM,15.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.695,0.81,2.627,3.13,0.532,0.618
 0 days 00:57:26.446000,OCO,31,86.51,9.0,1.0,,,False,MEDIUM,16.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.655,0.763,2.587,3.083,0.498,0.579
-0 days 00:58:52.902000,OCO,31,86.456,10.0,1.0,,,False,MEDIUM,17.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.601,0.7,2.533,3.018,0.842,0.983
-0 days 01:00:19.260000,OCO,31,86.358,11.0,1.0,,,True,MEDIUM,18.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.503,0.586,2.435,2.901,0.739,0.863
+0 days 00:58:52.902000,OCO,31,86.456,10.0,1.0,,,False,MEDIUM,17.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.601,0.7,2.533,3.018,0.882,1.031
+0 days 01:00:19.260000,OCO,31,86.358,11.0,1.0,,,True,MEDIUM,18.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.503,0.586,2.435,2.901,0.814,0.952
 0 days 01:01:45.508000,OCO,31,86.248,12.0,1.0,,,True,MEDIUM,19.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.393,0.458,2.325,2.77,0.71,0.83
 0 days 01:03:11.587000,OCO,31,86.079,13.0,1.0,,,True,MEDIUM,20.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.224,0.261,2.156,2.569,0.469,0.548
-0 days 01:04:37.556000,OCO,31,85.969,14.0,1.0,,,True,MEDIUM,21.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.114,0.133,2.046,2.438,0.534,0.625
-0 days 01:06:03.592000,OCO,31,86.036,15.0,1.0,,,False,MEDIUM,22.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.181,0.211,2.113,2.518,0.685,0.803
+0 days 01:04:37.556000,OCO,31,85.969,14.0,1.0,,,True,MEDIUM,21.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.114,0.133,2.046,2.438,0.661,0.775
+0 days 01:06:03.592000,OCO,31,86.036,15.0,1.0,,,False,MEDIUM,22.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.181,0.211,2.113,2.518,0.768,0.901
 0 days 01:07:29.728000,OCO,31,86.136,16.0,1.0,,,False,MEDIUM,23.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,0.281,0.327,2.213,2.637,0.667,0.78
 0 days 01:08:55.462000,OCO,31,85.734,17.0,1.0,,,True,MEDIUM,24.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,-0.121,-0.141,1.811,2.158,0.653,0.768
 0 days 01:10:21.309000,OCO,31,85.847,18.0,1.0,,,False,MEDIUM,25.0,False,Alpine,1,14.0,True,23,Qatar Grand Prix,True,C2,True,-0.008,-0.009,1.924,2.293,0.787,0.925
@@ -2312,12 +2312,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:34.457000,ALB,23,86.521,7.0,1.0,,,True,MEDIUM,13.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.666,0.776,2.598,3.096,0.461,0.536
 0 days 00:56:01.088000,ALB,23,86.631,8.0,1.0,,,False,MEDIUM,14.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.776,0.904,2.708,3.227,0.613,0.713
 0 days 00:57:28.059000,ALB,23,86.971,9.0,1.0,,,False,MEDIUM,15.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,1.116,1.3,3.048,3.632,0.959,1.115
-0 days 00:58:54.329000,ALB,23,86.27,10.0,1.0,,,True,MEDIUM,16.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.415,0.483,2.347,2.797,0.656,0.766
-0 days 01:00:20.511000,ALB,23,86.182,11.0,1.0,,,True,MEDIUM,17.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.327,0.381,2.259,2.692,0.563,0.658
+0 days 00:58:54.329000,ALB,23,86.27,10.0,1.0,,,True,MEDIUM,16.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.415,0.483,2.347,2.797,0.696,0.813
+0 days 01:00:20.511000,ALB,23,86.182,11.0,1.0,,,True,MEDIUM,17.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.327,0.381,2.259,2.692,0.638,0.746
 0 days 01:01:46.835000,ALB,23,86.324,12.0,1.0,,,False,MEDIUM,18.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.469,0.546,2.401,2.861,0.786,0.919
 0 days 01:03:13.082000,ALB,23,86.247,13.0,1.0,,,False,MEDIUM,19.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.392,0.457,2.324,2.769,0.637,0.744
-0 days 01:04:39.209000,ALB,23,86.127,14.0,1.0,,,True,MEDIUM,20.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.272,0.317,2.204,2.626,0.692,0.81
-0 days 01:06:05.418000,ALB,23,86.209,15.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.354,0.412,2.286,2.724,0.858,1.005
+0 days 01:04:39.209000,ALB,23,86.127,14.0,1.0,,,True,MEDIUM,20.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.272,0.317,2.204,2.626,0.819,0.96
+0 days 01:06:05.418000,ALB,23,86.209,15.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.354,0.412,2.286,2.724,0.941,1.104
 0 days 01:07:31.653000,ALB,23,86.235,16.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,0.38,0.443,2.312,2.755,0.766,0.896
 0 days 01:08:57.340000,ALB,23,85.687,17.0,1.0,,,True,MEDIUM,23.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,-0.168,-0.196,1.764,2.102,0.606,0.712
 0 days 01:10:22.783000,ALB,23,85.443,18.0,1.0,,,True,MEDIUM,24.0,False,Williams,1,15.0,True,23,Qatar Grand Prix,True,C2,True,-0.412,-0.48,1.52,1.811,0.383,0.45
@@ -2331,12 +2331,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:36.140000,LAW,30,86.345,7.0,1.0,,,True,MEDIUM,14.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.49,0.571,2.422,2.886,0.285,0.331
 0 days 00:56:02.717000,LAW,30,86.577,8.0,1.0,,,False,MEDIUM,15.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.722,0.841,2.654,3.162,0.559,0.65
 0 days 00:57:29.256000,LAW,30,86.539,9.0,1.0,,,False,MEDIUM,16.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.684,0.797,2.616,3.117,0.527,0.613
-0 days 00:58:55.870000,LAW,30,86.614,10.0,1.0,,,False,MEDIUM,17.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.759,0.884,2.691,3.207,1.0,1.168
-0 days 01:00:22.234000,LAW,30,86.364,11.0,1.0,,,False,MEDIUM,18.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.509,0.593,2.441,2.909,0.745,0.87
+0 days 00:58:55.870000,LAW,30,86.614,10.0,1.0,,,False,MEDIUM,17.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.759,0.884,2.691,3.207,1.04,1.215
+0 days 01:00:22.234000,LAW,30,86.364,11.0,1.0,,,False,MEDIUM,18.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.509,0.593,2.441,2.909,0.82,0.959
 0 days 01:01:48.334000,LAW,30,86.1,12.0,1.0,,,True,MEDIUM,19.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.245,0.285,2.177,2.594,0.562,0.657
 0 days 01:03:14.671000,LAW,30,86.337,13.0,1.0,,,False,MEDIUM,20.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.482,0.561,2.414,2.876,0.727,0.849
-0 days 01:04:40.684000,LAW,30,86.013,14.0,1.0,,,True,MEDIUM,21.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.158,0.184,2.09,2.49,0.578,0.677
-0 days 01:06:06.725000,LAW,30,86.041,15.0,1.0,,,False,MEDIUM,22.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.186,0.217,2.118,2.524,0.69,0.808
+0 days 01:04:40.684000,LAW,30,86.013,14.0,1.0,,,True,MEDIUM,21.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.158,0.184,2.09,2.49,0.705,0.826
+0 days 01:06:06.725000,LAW,30,86.041,15.0,1.0,,,False,MEDIUM,22.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.186,0.217,2.118,2.524,0.773,0.907
 0 days 01:07:32.747000,LAW,30,86.022,16.0,1.0,,,False,MEDIUM,23.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.167,0.195,2.099,2.501,0.553,0.647
 0 days 01:08:58.664000,LAW,30,85.917,17.0,1.0,,,True,MEDIUM,24.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,0.062,0.072,1.994,2.376,0.836,0.983
 0 days 01:10:24.426000,LAW,30,85.762,18.0,1.0,,,True,MEDIUM,25.0,False,RB,1,16.0,True,23,Qatar Grand Prix,True,C2,True,-0.093,-0.108,1.839,2.191,0.702,0.825
@@ -2350,12 +2350,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:37.622000,TSU,22,87.304,7.0,1.0,,,True,MEDIUM,14.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,1.449,1.688,3.381,4.029,1.244,1.446
 0 days 00:56:04.040000,TSU,22,86.418,8.0,1.0,,,True,MEDIUM,15.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.563,0.656,2.495,2.973,0.4,0.465
 0 days 00:57:30.449000,TSU,22,86.409,9.0,1.0,,,True,MEDIUM,16.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.554,0.645,2.486,2.962,0.397,0.462
-0 days 00:58:56.565000,TSU,22,86.116,10.0,1.0,,,True,MEDIUM,17.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.261,0.304,2.193,2.613,0.502,0.586
-0 days 01:00:23.085000,TSU,22,86.52,11.0,1.0,,,False,MEDIUM,18.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.665,0.775,2.597,3.095,0.901,1.052
+0 days 00:58:56.565000,TSU,22,86.116,10.0,1.0,,,True,MEDIUM,17.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.261,0.304,2.193,2.613,0.542,0.633
+0 days 01:00:23.085000,TSU,22,86.52,11.0,1.0,,,False,MEDIUM,18.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.665,0.775,2.597,3.095,0.976,1.141
 0 days 01:01:49.334000,TSU,22,86.249,12.0,1.0,,,False,MEDIUM,19.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.394,0.459,2.326,2.772,0.711,0.831
 0 days 01:03:15.348000,TSU,22,86.014,13.0,1.0,,,True,MEDIUM,20.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.159,0.185,2.091,2.492,0.404,0.472
-0 days 01:04:41.718000,TSU,22,86.37,14.0,1.0,,,False,MEDIUM,21.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.515,0.6,2.447,2.916,0.935,1.094
-0 days 01:06:07.748000,TSU,22,86.03,15.0,1.0,,,False,MEDIUM,22.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.175,0.204,2.107,2.511,0.679,0.796
+0 days 01:04:41.718000,TSU,22,86.37,14.0,1.0,,,False,MEDIUM,21.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.515,0.6,2.447,2.916,1.062,1.245
+0 days 01:06:07.748000,TSU,22,86.03,15.0,1.0,,,False,MEDIUM,22.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.175,0.204,2.107,2.511,0.762,0.894
 0 days 01:07:33.744000,TSU,22,85.996,16.0,1.0,,,True,MEDIUM,23.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.141,0.164,2.073,2.47,0.527,0.617
 0 days 01:08:59.582000,TSU,22,85.838,17.0,1.0,,,True,MEDIUM,24.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,-0.017,-0.02,1.915,2.282,0.757,0.89
 0 days 01:10:25.515000,TSU,22,85.933,18.0,1.0,,,False,MEDIUM,25.0,False,RB,1,17.0,True,23,Qatar Grand Prix,True,C2,True,0.078,0.091,2.01,2.395,0.873,1.026
@@ -2369,12 +2369,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:39.818000,COL,43,88.752,7.0,2.0,,,False,MEDIUM,3.0,True,Williams,1,19.0,True,23,Qatar Grand Prix,True,C2,True,2.897,3.374,4.829,5.754,2.692,3.128
 0 days 00:56:06.210000,COL,43,86.392,8.0,2.0,,,False,MEDIUM,4.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.537,0.625,2.469,2.942,0.374,0.435
 0 days 00:57:32.383000,COL,43,86.173,9.0,2.0,,,True,MEDIUM,5.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.318,0.37,2.25,2.681,0.161,0.187
-0 days 00:58:58.040000,COL,43,85.657,10.0,2.0,,,True,MEDIUM,6.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.198,-0.231,1.734,2.066,0.043,0.05
-0 days 01:00:24.271000,COL,43,86.231,11.0,2.0,,,False,MEDIUM,7.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.376,0.438,2.308,2.75,0.612,0.715
+0 days 00:58:58.040000,COL,43,85.657,10.0,2.0,,,True,MEDIUM,6.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.198,-0.231,1.734,2.066,0.083,0.097
+0 days 01:00:24.271000,COL,43,86.231,11.0,2.0,,,False,MEDIUM,7.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.376,0.438,2.308,2.75,0.687,0.803
 0 days 01:01:50.177000,COL,43,85.906,12.0,2.0,,,False,MEDIUM,8.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.051,0.059,1.983,2.363,0.368,0.43
 0 days 01:03:16.330000,COL,43,86.153,13.0,2.0,,,False,MEDIUM,9.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.298,0.347,2.23,2.657,0.543,0.634
-0 days 01:04:42.465000,COL,43,86.135,14.0,2.0,,,False,MEDIUM,10.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.28,0.326,2.212,2.636,0.7,0.819
-0 days 01:06:08.314000,COL,43,85.849,15.0,2.0,,,False,MEDIUM,11.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.006,-0.007,1.926,2.295,0.498,0.583
+0 days 01:04:42.465000,COL,43,86.135,14.0,2.0,,,False,MEDIUM,10.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.28,0.326,2.212,2.636,0.827,0.969
+0 days 01:06:08.314000,COL,43,85.849,15.0,2.0,,,False,MEDIUM,11.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.006,-0.007,1.926,2.295,0.581,0.681
 0 days 01:07:34.569000,COL,43,86.255,16.0,2.0,,,False,MEDIUM,12.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.4,0.466,2.332,2.779,0.786,0.92
 0 days 01:09:00.609000,COL,43,86.04,17.0,2.0,,,False,MEDIUM,13.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,0.185,0.215,2.117,2.523,0.959,1.127
 0 days 01:10:26.208000,COL,43,85.599,18.0,2.0,,,True,MEDIUM,14.0,True,Williams,1,18.0,True,23,Qatar Grand Prix,True,C2,True,-0.256,-0.298,1.676,1.997,0.539,0.634
@@ -2388,12 +2388,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:39.648000,ZHO,24,90.115,7.0,1.0,,,False,SOFT,7.0,True,Kick Sauber,1,18.0,True,23,Qatar Grand Prix,True,C3,True,4.26,4.962,6.192,7.378,4.055,4.712
 0 days 00:56:09.579000,ZHO,24,89.931,8.0,1.0,,,False,SOFT,8.0,True,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C3,True,4.076,4.748,6.008,7.159,3.913,4.549
 0 days 00:57:38.789000,ZHO,24,89.21,9.0,1.0,,,False,SOFT,9.0,True,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C3,True,3.355,3.908,5.287,6.3,3.198,3.718
-0 days 00:59:12.176000,ZHO,24,93.387,10.0,1.0,,0 days 00:59:08.056000,False,SOFT,10.0,True,Kick Sauber,1,20.0,False,23,Qatar Grand Prix,True,C3,False,7.532,8.773,9.464,11.277,7.773,9.079
-0 days 01:01:02.245000,ZHO,24,110.069,11.0,2.0,0 days 00:59:36.412000,,False,MEDIUM,9.0,False,Kick Sauber,1,20.0,False,23,Qatar Grand Prix,True,C2,False,24.214,28.203,26.146,31.155,24.45,28.557
+0 days 00:59:12.176000,ZHO,24,93.387,10.0,1.0,,0 days 00:59:08.056000,False,SOFT,10.0,True,Kick Sauber,1,20.0,False,23,Qatar Grand Prix,True,C3,False,7.532,8.773,9.464,11.277,7.813,9.13
+0 days 01:01:02.245000,ZHO,24,110.069,11.0,2.0,0 days 00:59:36.412000,,False,MEDIUM,9.0,False,Kick Sauber,1,20.0,False,23,Qatar Grand Prix,True,C2,False,24.214,28.203,26.146,31.155,24.525,28.669
 0 days 01:02:27.911000,ZHO,24,85.666,12.0,2.0,,,True,MEDIUM,10.0,False,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.189,-0.22,1.743,2.077,0.128,0.15
 0 days 01:03:54.152000,ZHO,24,86.241,13.0,2.0,,,False,MEDIUM,11.0,False,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C2,True,0.386,0.45,2.318,2.762,0.631,0.737
-0 days 01:05:19.897000,ZHO,24,85.745,14.0,2.0,,,False,MEDIUM,12.0,False,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.11,-0.128,1.822,2.171,0.31,0.363
-0 days 01:06:45.831000,ZHO,24,85.934,15.0,2.0,,,False,MEDIUM,13.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.079,0.092,2.011,2.396,0.583,0.683
+0 days 01:05:19.897000,ZHO,24,85.745,14.0,2.0,,,False,MEDIUM,12.0,False,Kick Sauber,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.11,-0.128,1.822,2.171,0.437,0.512
+0 days 01:06:45.831000,ZHO,24,85.934,15.0,2.0,,,False,MEDIUM,13.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.079,0.092,2.011,2.396,0.666,0.781
 0 days 01:08:11.960000,ZHO,24,86.129,16.0,2.0,,,False,MEDIUM,14.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.274,0.319,2.206,2.629,0.66,0.772
 0 days 01:09:37.565000,ZHO,24,85.605,17.0,2.0,,,True,MEDIUM,15.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,-0.25,-0.291,1.682,2.004,0.524,0.616
 0 days 01:11:02.913000,ZHO,24,85.348,18.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,19.0,True,23,Qatar Grand Prix,True,C2,True,-0.507,-0.591,1.425,1.698,0.288,0.339
@@ -2407,12 +2407,12 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:54:40.254000,PER,11,88.217,7.0,2.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,2.362,2.751,4.294,5.117,2.157,2.506
 0 days 00:56:06.898000,PER,11,86.644,8.0,2.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.789,0.919,2.721,3.242,0.626,0.728
 0 days 00:57:33.503000,PER,11,86.605,9.0,2.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.75,0.874,2.682,3.196,0.593,0.689
-0 days 00:58:59.551000,PER,11,86.048,10.0,2.0,,,True,MEDIUM,13.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.193,0.225,2.125,2.532,0.434,0.507
-0 days 01:00:25.432000,PER,11,85.881,11.0,2.0,,,True,MEDIUM,14.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.026,0.03,1.958,2.333,0.262,0.306
+0 days 00:58:59.551000,PER,11,86.048,10.0,2.0,,,True,MEDIUM,13.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.193,0.225,2.125,2.532,0.474,0.554
+0 days 01:00:25.432000,PER,11,85.881,11.0,2.0,,,True,MEDIUM,14.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.026,0.03,1.958,2.333,0.337,0.394
 0 days 01:01:51.365000,PER,11,85.933,12.0,2.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.078,0.091,2.01,2.395,0.395,0.462
 0 days 01:03:17.582000,PER,11,86.217,13.0,2.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,19.0,True,23,Qatar Grand Prix,True,C2,True,0.362,0.422,2.294,2.733,0.607,0.709
-0 days 01:04:48.936000,PER,11,91.354,14.0,2.0,,0 days 01:04:44.911000,False,MEDIUM,17.0,False,Red Bull Racing,1,19.0,False,23,Qatar Grand Prix,True,C2,False,5.499,6.405,7.431,8.855,5.919,6.928
-0 days 01:06:46.858000,PER,11,117.922,15.0,3.0,0 days 01:05:23.114000,,False,MEDIUM,22.0,False,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,True,C2,False,32.067,37.35,33.999,40.512,32.571,38.161
+0 days 01:04:48.936000,PER,11,91.354,14.0,2.0,,0 days 01:04:44.911000,False,MEDIUM,17.0,False,Red Bull Racing,1,19.0,False,23,Qatar Grand Prix,True,C2,False,5.499,6.405,7.431,8.855,6.046,7.087
+0 days 01:06:46.858000,PER,11,117.922,15.0,3.0,0 days 01:05:23.114000,,False,MEDIUM,22.0,False,Red Bull Racing,1,20.0,False,23,Qatar Grand Prix,True,C2,False,32.067,37.35,33.999,40.512,32.654,38.296
 0 days 01:08:15.988000,PER,11,89.13,16.0,3.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,3.275,3.815,5.207,6.204,3.661,4.283
 0 days 01:09:41.078000,PER,11,85.09,17.0,3.0,,,True,MEDIUM,24.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.765,-0.891,1.167,1.391,0.009,0.011
 0 days 01:11:05.970000,PER,11,84.892,18.0,3.0,,,True,MEDIUM,25.0,False,Red Bull Racing,1,20.0,True,23,Qatar Grand Prix,True,C2,True,-0.963,-1.122,0.969,1.155,-0.168,-0.198
