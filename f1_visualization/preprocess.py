@@ -60,11 +60,8 @@ def load_all_data(season: int, path: Path, session_type: str):
             all_rounds = SPRINT_ROUNDS.get(season, set())
 
     for i in sorted(all_rounds):
-        session = f.get_session(season, i, session_type)
-        if session is None:
-            continue
-
         try:
+            session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
         except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
             logger.error("Cannot load %s", session)
@@ -133,11 +130,8 @@ def update_data(season: int, path: Path, session_type: str):
     dfs = []
 
     for i in missing_rounds:
-        session = f.get_session(season, i, session_type)
-        if session is None:
-            continue
-
         try:
+            session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
         except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
             logger.error("Cannot load %s", session)
@@ -591,7 +585,7 @@ def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
     five_hours_past = np.datetime64(five_hours_past)
 
     rounds_completed = current_schedule[
-        current_schedule[f"Session{session_cutoff}DateUtc"] < five_hours_past
+        current_schedule[f"Session{session_cutoff}DateUtc"] <= five_hours_past
     ]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):

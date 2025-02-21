@@ -107,10 +107,7 @@ def main(
     Unless both season and round_number are specified, default to the
     latest session of the requested type in the same season.
     """
-    global DOC_VISUALS_PATH
-
     round_number = process_round_number(season, round_number, grand_prix)
-
     session_type = "R" if grand_prix else "S"
     session = f.get_session(season, round_number, session_type)
     session.load(telemetry=False, weather=False, messages=False)
