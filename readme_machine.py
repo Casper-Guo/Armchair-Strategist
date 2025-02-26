@@ -211,7 +211,7 @@ def main(
 
     # use basic fastf1 to make team pace comparison plot
     logger.info("Making team pace comparison graph...")
-    p.setup_mpl(misc_mpl_mods=False)
+    p.setup_mpl()
 
     laps = session.laps.pick_wo_box().pick_track_status("467", how="none")
 
@@ -223,7 +223,7 @@ def main(
         .sort_values()
         .index
     )
-    team_palette = {team: p.team_color(team) for team in team_order}
+    team_palette = {team: p.get_team_color(team, session=session) for team in team_order}
 
     _, ax = plt.subplots(figsize=(15, 10))
     sns.boxplot(
