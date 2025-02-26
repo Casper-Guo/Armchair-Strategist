@@ -211,7 +211,7 @@ def main(
 
     # use basic fastf1 to make team pace comparison plot
     logger.info("Making team pace comparison graph...")
-    p.setup_mpl(misc_mpl_mods=False)
+    p.setup_mpl()
 
     laps = session.laps.pick_wo_box().pick_track_status("467", how="none")
 
