@@ -148,12 +148,18 @@ def _plot_args(season: int, absolute_compound: bool) -> tuple:
                 VISUAL_CONFIG["absolute"]["markers"]["19_22"],
                 VISUAL_CONFIG["absolute"]["labels"]["19_22"],
             )
-
+        if season < 2025:
+            return (
+                "CompoundName",
+                VISUAL_CONFIG["absolute"]["palette"]["23_24"],
+                VISUAL_CONFIG["absolute"]["markers"]["23_24"],
+                VISUAL_CONFIG["absolute"]["labels"]["23_24"],
+            )
         return (
             "CompoundName",
-            VISUAL_CONFIG["absolute"]["palette"]["23_"],
-            VISUAL_CONFIG["absolute"]["markers"]["23_"],
-            VISUAL_CONFIG["absolute"]["labels"]["23_"],
+            VISUAL_CONFIG["absolute"]["palette"]["25_"],
+            VISUAL_CONFIG["absolute"]["markers"]["25_"],
+            VISUAL_CONFIG["absolute"]["labels"]["25_"],
         )
 
     return (
