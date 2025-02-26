@@ -34,12 +34,25 @@ WET          = "X"
 UNKNOWN      = "*"
 
 [absolute.labels]
-23_   = ["C0", "C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
+25_  = ["C1", "C2", "C3", "C4", "C5", "C6", "INTERMEDIATE", "WET", "UNKNOWN"]
+23_24  = ["C0", "C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
 19_22 = ["C1", "C2", "C3", "C4", "C5", "INTERMEDIATE", "WET", "UNKNOWN"]
 18    = ["HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SOFT", "MEDIUM", "HARD", "SUPERHARD", "INTERMEDIATE", "WET", "UNKNOWN"]
 
-[absolute.palette.23_]
-# C1 to C5 palette is the same as 19_22 to maintain compatibility
+[absolute.palette.25_]
+# same as 2018 palette in the range of hypersoft to hard
+C1           = "#00a2f3"
+C2           = "#f0f0ec"
+C3           = "#ffd12e"
+C4           = "#da291c"
+C5           = "#b14ca8"
+C6           = "#feb4c3"
+INTERMEDIATE = "#43b02a"
+WET          = "#0067ad"
+UNKNOWN      = "#00ffff"
+
+[absolute.palette.23_24]
+# same as 2018 palette in the range of ultrasoft to superhard
 C0           = "#fe813f"
 C1           = "#00a2f3"
 C2           = "#f0f0ec"
@@ -73,8 +86,19 @@ INTERMEDIATE = "#43b02a"
 WET          = "#0067ad"
 UNKNOWN      = "#00ffff"
 
-[absolute.markers.23_]
 # C1 to C5 markers are the same as 19_22 to maintain compatibility
+[absolute.markers.25_]
+C1           = "H"
+C2           = "p"
+C3           = "s"
+C4           = "^"
+C5           = "o"
+C6           = "8"
+INTERMEDIATE = "P"
+WET          = "X"
+UNKNOWN      = "*"
+
+[absolute.markers.23_24]
 C0           = "h"
 C1           = "H"
 C2           = "p"
