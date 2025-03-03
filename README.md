@@ -2,9 +2,9 @@
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-This repository contains all the code for the armchair strategist [dashboard](www.armchair-strategist.dev) as well as engineered data for F1 races from the 2018 season onwards.
+This repository contains all the code for the [armchair strategist dashboard](www.armchair-strategist.dev) as well as engineered data for F1 races from the 2018 season onwards.
 
-The dashboard and visualizations in this README are updated every Monday at midnight to reflect the latest race.
+The visualizations in this README are automatically updated to reflect the latest race.
 
 ## Visualizations of the Most Recent Race
 
