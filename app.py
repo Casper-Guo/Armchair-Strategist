@@ -266,11 +266,13 @@ def get_session_metadata(
 
     Can assume that season, event, and session are all set (not None).
     """
-    round_number, event_name, drivers = get_session_info(
+    round_number, event_name, drivers, _session = get_session_info(
         season, event, session, teammate_comp=teammate_comp
     )
     event_name = f"{season} {event_name}"
-    return round_number, event_name, drivers
+
+    # this order enables calling f.get_session by unpacking the first three items
+    return season, round_number, session, event_name, drivers
 
 
 @callback(
@@ -311,7 +313,7 @@ def get_session_laps(
 )
 def set_driver_dropdowns(session_info: Session_info):
     """Configure driver dropdowns."""
-    drivers = session_info[2]
+    drivers = session_info[4]
     return drivers, drivers, False, drivers, [], False
 
 
@@ -424,7 +426,7 @@ def render_strategy_plot(
     included_laps = pd.DataFrame.from_dict(included_laps)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
-    event_name = session_info[1]
+    event_name = session_info[3]
     fig = pg.strategy_barplot(included_laps, drivers)
     fig.update_layout(title=event_name)
     return fig
@@ -466,7 +468,7 @@ def render_scatterplot(
         drivers = teammate_comp_order(included_laps, drivers, y)
 
     fig = pg.stats_scatterplot(included_laps, drivers, y)
-    event_name = session_info[1]
+    event_name = session_info[3]
     fig.update_layout(title=event_name)
 
     return fig
@@ -504,8 +506,10 @@ def render_lineplot(
         & (included_laps["LapNumber"].isin(lap_interval))
     ]
 
-    fig = pg.stats_lineplot(included_laps, drivers, y, upper_bound)
-    event_name = session_info[1]
+    fig = pg.stats_lineplot(
+        included_laps, drivers, y, upper_bound, f.get_session(*session_info[:3])
+    )
+    event_name = session_info[3]
     fig.update_layout(title=event_name)
 
     return fig
@@ -542,8 +546,8 @@ def render_distplot(
         drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
     drivers = remove_low_data_drivers(included_laps, drivers, 6)
 
-    fig = pg.stats_distplot(included_laps, drivers, boxplot)
-    event_name = session_info[1]
+    fig = pg.stats_distplot(included_laps, drivers, boxplot, f.get_session(*session_info[:3]))
+    event_name = session_info[3]
     fig.update_layout(title=event_name)
 
     return fig
@@ -577,7 +581,7 @@ def render_compound_plot(
 
     y = "DeltaToLapRep" if show_seconds else "PctFromLapRep"
     fig = pg.compounds_lineplot(included_laps, y, compounds)
-    event_name = session_info[1]
+    event_name = session_info[3]
     fig.update_layout(title=event_name)
     return fig
 

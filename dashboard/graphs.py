@@ -7,9 +7,11 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import tomli
+from fastf1.plotting import get_driver_color, get_driver_style
 from plotly.subplots import make_subplots
 
-from f1_visualization.visualization import find_sc_laps, pick_driver_color
+from f1_visualization._types import Session
+from f1_visualization.visualization import find_sc_laps
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:
     DASH_VISUAL_CONFIG = tomli.load(toml)
@@ -195,7 +197,7 @@ def stats_scatterplot(
 
 
 def stats_lineplot(
-    included_laps: pd.DataFrame, drivers: list[str], y: str, upper_bound: int
+    included_laps: pd.DataFrame, drivers: list[str], y: str, upper_bound: int, session: Session
 ) -> go.Figure:
     """Make lineplots showing a statistic."""
     # Identify SC and VSC laps before filtering for upper bound
@@ -215,13 +217,20 @@ def stats_lineplot(
 
     for _, driver in enumerate(reversed(drivers)):
         driver_laps = included_laps[(included_laps["Driver"] == driver)]
-
+        driver_line_style = get_driver_style(
+            identifier=driver,
+            session=session,
+            style=[
+                {"color": "auto", "dash": "solid"},
+                {"color": "auto", "dash": "longdash"},
+            ],
+        )
         fig.add_trace(
             go.Scatter(
                 x=driver_laps["LapNumber"],
                 y=driver_laps[y],
                 mode="lines",
-                line={"color": pick_driver_color(driver)},
+                line=driver_line_style,
                 name=driver,
             )
         )
@@ -248,15 +257,14 @@ def stats_lineplot(
 
 
 def stats_distplot(
-    included_laps: pd.DataFrame,
-    drivers: list[str],
-    boxplot: bool,
+    included_laps: pd.DataFrame, drivers: list[str], boxplot: bool, session: Session
 ) -> go.Figure:
     """Make distribution plot of lap times, either as boxplot or as violin plot."""
     fig = go.Figure()
 
     for driver in drivers:
         driver_laps = included_laps[included_laps["Driver"] == driver]
+
         if boxplot:
             fig.add_trace(
                 go.Box(
@@ -264,7 +272,7 @@ def stats_distplot(
                     boxmean=True,
                     boxpoints="outliers",
                     pointpos=0,
-                    fillcolor=pick_driver_color(driver),
+                    fillcolor=get_driver_color(driver, session),
                     line={"color": "lightslategray"},
                     name=driver,
                     showwhiskers=True,
@@ -274,7 +282,7 @@ def stats_distplot(
             fig.add_trace(
                 go.Violin(
                     y=driver_laps["LapTime"],
-                    fillcolor=pick_driver_color(driver),
+                    fillcolor=get_driver_color(driver, session),
                     line={"color": "lightslategray"},
                     meanline_visible=True,
                     name=driver,
