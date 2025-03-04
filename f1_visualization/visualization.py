@@ -231,7 +231,7 @@ def get_session_info(
     session_type: str,
     drivers: Optional[tuple[str | int] | str | int] = None,
     teammate_comp: bool = False,
-) -> tuple[int, str, tuple[str]]:
+) -> tuple[int, str, tuple[str], Session]:
     """
     Retrieve session information based on season, event number/name, and session identifier.
 
@@ -261,20 +261,7 @@ def get_session_info(
     else:
         drivers = get_drivers(session, drivers)
 
-    return round_number, event_name, tuple(drivers)
-
-
-def pick_driver_color(driver: str) -> str:
-    """
-    Find the driver's color.
-
-    If the driver is currently active, use his FastF1 color.
-    Else, default to CSS dark slate gray.
-    """
-    if p.DRIVER_TRANSLATE.get(driver, "NA") in p.DRIVER_COLORS:
-        return p.DRIVER_COLORS[p.DRIVER_TRANSLATE[driver]]
-
-    return "#2F4F4F"
+    return round_number, event_name, tuple(drivers), session
 
 
 def add_gap(
@@ -657,7 +644,7 @@ def driver_stats_scatterplot(
     if not isinstance(drivers, (int, str)) and drivers is not None:
         drivers = tuple(drivers)
 
-    round_number, event_name, drivers = get_session_info(
+    round_number, event_name, drivers, session = get_session_info(
         season, event, session_type, drivers, teammate_comp
     )
     included_laps = DF_DICT[season][session_type]
@@ -731,7 +718,7 @@ def driver_stats_scatterplot(
             linestyle="dashed",
         )
 
-        driver_color = pick_driver_color(driver)
+        driver_color = p.get_driver_color(driver, session)
         fontdict["color"] = driver_color
         ax.set_title(label=driver, fontdict=fontdict, fontsize=12)
 
@@ -789,7 +776,9 @@ def driver_stats_lineplot(
     if not isinstance(drivers, (int, str)) and drivers is not None:
         drivers = tuple(drivers)
 
-    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
+    round_number, event_name, drivers, session = get_session_info(
+        season, event, session_type, drivers
+    )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
@@ -834,16 +823,23 @@ def driver_stats_lineplot(
             logger.warning("%s has no data entry for %s", driver, y)
             continue
 
-        driver_color = pick_driver_color(driver)
+        driver_style = p.get_driver_style(
+            identifier=driver,
+            session=session,
+            style=[
+                {"color": "auto", "linestyle": "solid"},
+                {"color": "auto", "linestyle": (0, (5, 5))},
+            ],
+        )
 
-        sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax, color=driver_color, errorbar=None)
+        sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax, errorbar=None, **driver_style)
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
         ax.annotate(
             xy=(last_lap + 1, last_pos + 0.25),
             text=driver,
-            color=driver_color,
+            color=p.get_driver_color(driver, session),
             fontsize=12,
         )
         sns.despine(left=True, bottom=True)
@@ -912,7 +908,7 @@ def driver_stats_distplot(
     if not isinstance(drivers, (int, str)) and drivers is not None:
         drivers = tuple(drivers)
 
-    round_number, event_name, drivers = get_session_info(
+    round_number, event_name, drivers, session = get_session_info(
         season, event, session_type, drivers, teammate_comp
     )
 
@@ -931,7 +927,7 @@ def driver_stats_distplot(
     fig, ax = plt.subplots(figsize=(len(drivers) * 1.5, 10))
     args = _plot_args(season, absolute_compound)
 
-    driver_colors = [pick_driver_color(driver) for driver in drivers]
+    driver_colors = [p.get_driver_color(driver, session) for driver in drivers]
 
     if violin:
         sns.violinplot(
@@ -1015,7 +1011,9 @@ def strategy_barplot(
     if not isinstance(drivers, int) and drivers is not None:
         drivers = tuple(drivers)
 
-    round_number, event_name, drivers = get_session_info(season, event, session_type, drivers)
+    round_number, event_name, drivers, _session = get_session_info(
+        season, event, session_type, drivers
+    )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
