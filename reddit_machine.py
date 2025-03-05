@@ -84,7 +84,7 @@ def main():
     formula1_post.reply(
         (
             "What other graphics do you want to see and "
-            "how can these existing graphics be improved, quesion."
+            "how can these existing graphics be improved, question."
         )
     )
     logger.info("Finished posting to r/formula1")
