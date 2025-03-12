@@ -3825,7 +3825,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:52:22.932000,KVY,26,93.461,10.0,1.0,,,False,MEDIUM,10.0,True,AlphaTauri,1,13.0,True,4,British Grand Prix,True,C2,True,2.06,2.254,6.364,7.307,0.289,0.31
 0 days 00:53:55.375000,KVY,26,92.443,11.0,1.0,,,True,MEDIUM,11.0,True,AlphaTauri,1,12.0,True,4,British Grand Prix,True,C2,True,1.042,1.14,5.346,6.138,-0.351,-0.378
 0 days 00:56:25.375000,KVY,26,,12.0,1.0,,,True,MEDIUM,12.0,True,AlphaTauri,0,,False,4,British Grand Prix,True,C2,False,,,,,,
-0 days 00:34:56.925000,HUL,27,,0.0,1.0,,,False,HARD,1.0,True,Racing Point,1,1.0,False,4,British Grand Prix,True,C1,False,,,,,,
 0 days 00:35:02.179000,RIC,3,99.264,1.0,1.0,0 days 00:00:07.305000,,False,SOFT,4.0,False,Renault,1,6.0,False,4,British Grand Prix,True,C3,False,7.863,8.603,12.167,13.969,-2.111,-2.082
 0 days 00:37:11.066000,RIC,3,128.887,2.0,1.0,,,True,SOFT,5.0,False,Renault,24,6.0,False,4,British Grand Prix,True,C3,False,37.486,41.013,41.79,47.981,-2.751,-2.09
 0 days 00:39:40.048000,RIC,3,148.982,3.0,1.0,,,False,SOFT,6.0,False,Renault,4,6.0,False,4,British Grand Prix,True,C3,False,57.581,62.998,61.885,71.053,-0.265,-0.178
@@ -7372,7 +7371,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:55:21.397000,VET,5,111.509,42.0,2.0,,,False,HARD,31.0,True,Ferrari,1,13.0,True,7,Belgian Grand Prix,True,C2,True,1.18,1.07,4.026,3.746,1.28,1.161
 0 days 01:57:12.182000,VET,5,110.785,43.0,2.0,,,False,HARD,32.0,True,Ferrari,1,13.0,True,7,Belgian Grand Prix,True,C2,True,0.456,0.413,3.302,3.072,0.611,0.555
 0 days 01:59:03.567000,VET,5,111.385,44.0,2.0,,,False,HARD,33.0,True,Ferrari,2,13.0,True,7,Belgian Grand Prix,True,C2,False,1.056,0.957,3.902,3.63,0.655,0.592
-0 days 00:35:34.242000,SAI,55,,0.0,1.0,,,False,SOFT,4.0,False,McLaren,1,1.0,False,7,Belgian Grand Prix,True,C4,False,,,,,,
 0 days 00:35:46.579000,LAT,6,124.659,1.0,1.0,0 days 00:00:06.179000,,False,MEDIUM,1.0,True,Williams,1,19.0,False,7,Belgian Grand Prix,True,C3,False,14.33,12.988,17.176,15.98,5.358,4.491
 0 days 00:37:41.427000,LAT,6,114.848,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,19.0,True,7,Belgian Grand Prix,True,C3,True,4.519,4.096,7.365,6.852,1.231,1.083
 0 days 00:39:34.892000,LAT,6,113.465,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,19.0,True,7,Belgian Grand Prix,True,C3,True,3.136,2.842,5.982,5.566,1.209,1.077
@@ -8495,7 +8493,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:39:28.010000,VET,5,87.107,4.0,1.0,,,True,HARD,4.0,True,Ferrari,1,17.0,True,8,Italian Grand Prix,True,C2,True,1.427,1.665,4.361,5.27,0.959,1.113
 0 days 00:40:56.330000,VET,5,88.32,5.0,1.0,,,False,HARD,5.0,True,Ferrari,1,18.0,True,8,Italian Grand Prix,True,C2,True,2.64,3.081,5.574,6.736,2.114,2.452
 0 days 00:43:17.087000,VET,5,140.757,6.0,1.0,,0 days 00:43:09.512000,False,HARD,6.0,True,Ferrari,1,20.0,False,8,Italian Grand Prix,True,C2,False,55.077,64.282,58.011,70.107,54.303,62.811
-0 days 00:35:12.350000,GAS,10,,0.0,1.0,,,False,SOFT,1.0,True,AlphaTauri,24,2.0,False,9,Tuscan Grand Prix,True,C3,False,,,,,,
 0 days 00:35:22.614000,PER,11,117.098,1.0,1.0,0 days 00:00:03.736000,,False,SOFT,4.0,False,Racing Point,24,7.0,False,9,Tuscan Grand Prix,True,C3,False,33.56,40.173,38.265,48.539,-5.818,-4.733
 0 days 00:37:48.003000,PER,11,145.389,2.0,1.0,,,True,SOFT,5.0,False,Racing Point,4,9.0,False,9,Tuscan Grand Prix,True,C3,False,61.851,74.039,66.556,84.427,1.139,0.79
 0 days 00:40:05.196000,PER,11,137.193,3.0,1.0,,,True,SOFT,6.0,False,Racing Point,4,9.0,False,9,Tuscan Grand Prix,True,C3,False,53.655,64.228,58.36,74.03,0.03,0.022
@@ -8848,7 +8845,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:46:50.774000,OCO,31,131.793,6.0,1.0,,,True,SOFT,9.0,False,Renault,4,12.0,False,9,Tuscan Grand Prix,True,C3,False,48.255,57.764,52.96,67.18,-4.016,-2.957
 0 days 00:49:04.597000,OCO,31,133.823,7.0,1.0,,0 days 00:48:49.778000,False,SOFT,10.0,False,Renault,24,12.0,False,9,Tuscan Grand Prix,True,C3,False,50.285,60.194,54.99,69.755,3.916,3.014
 0 days 00:51:25.895000,OCO,31,,8.0,2.0,0 days 00:49:07.227000,0 days 00:51:25.902000,False,SOFT,11.0,False,Renault,45,1.0,False,9,Tuscan Grand Prix,True,C3,False,,,,,,
-0 days 00:35:12.350000,VER,33,,0.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,24,1.0,False,9,Tuscan Grand Prix,True,C3,False,,,,,,
 0 days 00:35:25.452000,NOR,4,119.936,1.0,1.0,0 days 00:00:03.736000,,False,SOFT,1.0,True,McLaren,24,8.0,False,9,Tuscan Grand Prix,True,C3,False,36.398,43.571,41.103,52.139,-2.98,-2.424
 0 days 00:37:49.823000,NOR,4,144.371,2.0,1.0,,,True,SOFT,2.0,True,McLaren,4,10.0,False,9,Tuscan Grand Prix,True,C3,False,60.833,72.821,65.538,83.135,0.121,0.084
 0 days 00:40:07.154000,NOR,4,137.331,3.0,1.0,,,True,SOFT,3.0,True,McLaren,4,10.0,False,9,Tuscan Grand Prix,True,C3,False,53.793,64.393,58.498,74.205,0.168,0.122
@@ -10227,8 +10223,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:05:16.463000,RUS,63,107.257,50.0,3.0,,0 days 02:05:10.094000,False,MEDIUM,38.0,False,Williams,1,18.0,False,10,Russian Grand Prix,True,C4,False,6.157,6.09,10.227,10.54,7.278,7.28
 0 days 02:07:16.903000,RUS,63,120.44,51.0,4.0,0 days 02:05:39.752000,,False,SOFT,1.0,True,Williams,1,18.0,False,10,Russian Grand Prix,True,C5,False,19.34,19.13,23.41,24.127,20.859,20.947
 0 days 02:08:54.255000,RUS,63,97.352,52.0,4.0,,,True,SOFT,2.0,True,Williams,1,18.0,True,10,Russian Grand Prix,True,C5,True,-3.748,-3.707,0.322,0.332,-2.213,-2.223
-0 days 00:35:40.827000,SAI,55,,0.0,1.0,,,False,SOFT,4.0,False,McLaren,24,1.0,False,10,Russian Grand Prix,True,C5,False,,,,,,
-0 days 00:35:40.827000,STR,18,,0.0,1.0,,,False,MEDIUM,1.0,True,Racing Point,24,2.0,False,10,Russian Grand Prix,True,C4,False,,,,,,
 0 days 00:01:44.049000,GAS,10,103.776,1.0,1.0,0 days 00:00:04.888000,,False,MEDIUM,1.0,True,AlphaTauri,1,13.0,False,11,Eifel Grand Prix,True,C3,False,10.957,11.805,15.637,17.741,1.432,1.399
 0 days 00:03:21.960000,GAS,10,97.911,2.0,1.0,,,True,MEDIUM,2.0,True,AlphaTauri,1,14.0,True,11,Eifel Grand Prix,True,C3,True,5.092,5.486,9.772,11.087,1.978,2.062
 0 days 00:04:57.450000,GAS,10,95.49,3.0,1.0,,,True,MEDIUM,3.0,True,AlphaTauri,1,14.0,True,11,Eifel Grand Prix,True,C3,True,2.671,2.878,7.351,8.34,0.595,0.627
@@ -15710,7 +15704,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 03:30:04.685000,BOT,77,131.174,55.0,5.0,,,False,MEDIUM,32.0,False,Mercedes,4,8.0,False,15,Bahrain Grand Prix,True,C3,False,35.54,37.163,39.16,42.559,1.712,1.322
 0 days 03:31:55.892000,BOT,77,111.207,56.0,5.0,,,False,MEDIUM,33.0,False,Mercedes,4,7.0,False,15,Bahrain Grand Prix,True,C3,False,15.573,16.284,19.193,20.859,-11.289,-9.216
 0 days 03:33:43.681000,BOT,77,107.789,57.0,5.0,,,False,MEDIUM,34.0,False,Mercedes,4,7.0,False,15,Bahrain Grand Prix,True,C3,False,12.155,12.71,15.775,17.144,-7.571,-6.563
-0 days 00:35:45.146000,GRO,8,,0.0,1.0,,,False,HARD,1.0,True,Haas F1 Team,5,1.0,False,15,Bahrain Grand Prix,True,C2,False,,,,,,
 0 days 00:36:19.889000,GIO,99,163.748,1.0,1.0,0 days 00:00:03.554000,0 days 00:36:18.739000,False,MEDIUM,1.0,True,Alfa Romeo Racing,5,11.0,False,15,Bahrain Grand Prix,True,C3,False,68.114,71.224,71.734,77.96,3.635,2.27
 0 days 01:58:49.916000,GIO,99,,2.0,2.0,0 days 01:55:33.646000,,False,MEDIUM,1.0,True,Alfa Romeo Racing,1,15.0,False,15,Bahrain Grand Prix,True,C3,False,,,,,,
 0 days 02:01:44.504000,GIO,99,,3.0,2.0,,,False,MEDIUM,2.0,True,Alfa Romeo Racing,24,17.0,False,15,Bahrain Grand Prix,True,C3,False,,,,,,
@@ -15941,7 +15934,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:02:01.611000,PER,11,57.208,85.0,3.0,,,False,HARD,38.0,True,Racing Point,1,1.0,True,16,Sakhir Grand Prix,True,C2,True,-1.258,-2.152,1.804,3.256,-0.305,-0.53
 0 days 02:02:59.015000,PER,11,57.404,86.0,3.0,,,False,HARD,39.0,True,Racing Point,1,1.0,True,16,Sakhir Grand Prix,True,C2,True,-1.062,-1.816,2.0,3.61,-0.117,-0.203
 0 days 02:03:56.258000,PER,11,57.243,87.0,3.0,,,False,HARD,40.0,True,Racing Point,1,1.0,True,16,Sakhir Grand Prix,True,C2,True,-1.223,-2.092,1.839,3.319,-0.561,-0.971
-0 days 00:33:52.706000,LEC,16,,0.0,1.0,,,False,SOFT,4.0,False,Ferrari,24,2.0,False,16,Sakhir Grand Prix,True,C4,False,,,,,,
 0 days 00:34:04.302000,STR,18,80.518,1.0,1.0,0 days 00:00:03.563000,,False,SOFT,4.0,False,Racing Point,24,6.0,False,16,Sakhir Grand Prix,True,C4,False,22.052,37.718,25.114,45.329,-7.429,-8.447
 0 days 00:35:38.921000,STR,18,94.619,2.0,1.0,,,True,SOFT,5.0,False,Racing Point,4,6.0,False,16,Sakhir Grand Prix,True,C4,False,36.153,61.836,39.215,70.78,0.764,0.814
 0 days 00:37:09.310000,STR,18,90.389,3.0,1.0,,,True,SOFT,6.0,False,Racing Point,4,6.0,False,16,Sakhir Grand Prix,True,C4,False,31.923,54.601,34.985,63.145,-0.378,-0.416
@@ -16464,7 +16456,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:02:14.375000,OCO,31,57.546,85.0,2.0,,,False,HARD,44.0,True,Renault,1,2.0,True,16,Sakhir Grand Prix,True,C2,True,-0.92,-1.574,2.142,3.866,0.033,0.057
 0 days 02:03:11.896000,OCO,31,57.521,86.0,2.0,,,False,HARD,45.0,True,Renault,1,2.0,True,16,Sakhir Grand Prix,True,C2,True,-0.945,-1.616,2.117,3.821,0.0,0.0
 0 days 02:04:09.416000,OCO,31,57.52,87.0,2.0,,,False,HARD,46.0,True,Renault,1,2.0,True,16,Sakhir Grand Prix,True,C2,True,-0.946,-1.618,2.116,3.819,-0.284,-0.491
-0 days 00:33:52.706000,VER,33,,0.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,24,1.0,False,16,Sakhir Grand Prix,True,C4,False,,,,,,
 0 days 00:34:12.888000,NOR,4,89.104,1.0,1.0,0 days 00:00:03.563000,,False,SOFT,1.0,True,McLaren,24,10.0,False,16,Sakhir Grand Prix,True,C4,False,30.638,52.403,33.7,60.826,1.157,1.316
 0 days 00:35:46.086000,NOR,4,93.198,2.0,1.0,,,True,SOFT,2.0,True,McLaren,4,10.0,False,16,Sakhir Grand Prix,True,C4,False,34.732,59.405,37.794,68.215,-0.657,-0.7
 0 days 00:37:17.253000,NOR,4,91.167,3.0,1.0,,,True,SOFT,3.0,True,McLaren,4,10.0,False,16,Sakhir Grand Prix,True,C4,False,32.701,55.932,35.763,64.549,0.4,0.441

@@ -14359,7 +14359,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:53:35.771000,RIC,3,115.168,41.0,2.0,,,False,MEDIUM,40.0,True,Renault,1,13.0,True,13,Belgian Grand Prix,True,C2,True,4.847,4.394,8.759,8.231,5.864,5.365
 0 days 01:55:33.335000,RIC,3,117.564,42.0,2.0,,,False,MEDIUM,41.0,True,Renault,1,15.0,True,13,Belgian Grand Prix,True,C2,True,7.243,6.565,11.155,10.483,8.337,7.633
 0 days 01:57:31.897000,RIC,3,118.562,43.0,2.0,,,False,MEDIUM,42.0,True,Renault,1,14.0,True,13,Belgian Grand Prix,True,C2,True,8.241,7.47,12.153,11.421,8.804,8.021
-0 days 00:35:44.615000,VER,33,,0.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,24,1.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,
 0 days 00:35:52.564000,NOR,4,145.499,1.0,1.0,0 days 00:00:07.751000,,False,SOFT,1.0,True,McLaren,24,5.0,False,13,Belgian Grand Prix,True,C3,False,35.178,31.887,39.09,36.736,-8.017,-5.222
 0 days 00:38:50.327000,NOR,4,,2.0,1.0,,,False,SOFT,2.0,True,McLaren,4,5.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,
 0 days 00:41:50.084000,NOR,4,,3.0,1.0,,,False,SOFT,3.0,True,McLaren,4,5.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,
@@ -17808,7 +17807,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:13:32.941000,RIC,3,101.284,22.0,2.0,,,True,MEDIUM,21.0,False,Renault,1,14.0,True,16,Russian Grand Prix,True,C3,True,1.306,1.306,5.523,5.767,0.495,0.491
 0 days 01:15:14.598000,RIC,3,101.657,23.0,2.0,,,False,MEDIUM,22.0,False,Renault,1,14.0,True,16,Russian Grand Prix,True,C3,True,1.679,1.679,5.896,6.157,0.695,0.688
 0 days 01:17:02.803000,RIC,3,108.205,24.0,2.0,,0 days 01:17:01.203000,False,MEDIUM,23.0,False,Renault,1,16.0,False,16,Russian Grand Prix,True,C3,False,8.227,8.229,12.444,12.995,7.397,7.338
-0 days 00:35:33.022000,GRO,8,,0.0,1.0,,,False,SOFT,4.0,False,Haas F1 Team,24,1.0,False,16,Russian Grand Prix,True,C4,False,,,,,,
 0 days 00:35:14.981000,GAS,10,101.359,1.0,1.0,0 days 00:00:05.041000,,False,SOFT,4.0,False,Toro Rosso,1,8.0,False,17,Japanese Grand Prix,True,C3,False,5.381,5.606,10.376,11.404,-1.121,-1.094
 0 days 00:36:52.055000,GAS,10,97.074,2.0,1.0,,,True,SOFT,5.0,False,Toro Rosso,1,8.0,True,17,Japanese Grand Prix,True,C3,True,1.096,1.142,6.091,6.695,-0.376,-0.386
 0 days 00:38:28.736000,GAS,10,96.681,3.0,1.0,,,True,SOFT,6.0,False,Toro Rosso,1,8.0,True,17,Japanese Grand Prix,True,C3,True,0.703,0.732,5.698,6.263,-0.36,-0.371

@@ -4120,7 +4120,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:11:08.488000,ALO,14,136.968,4.0,1.0,,,True,INTERMEDIATE,4.0,True,Alpine,4,8.0,False,4,Emilia Romagna Grand Prix,False,INTERMEDIATE,False,55.069,67.24,58.522,74.602,3.241,2.424
 0 days 01:12:48.173000,ALO,14,99.685,5.0,1.0,,,True,INTERMEDIATE,5.0,True,Alpine,1,11.0,False,4,Emilia Romagna Grand Prix,False,INTERMEDIATE,False,17.786,21.717,21.239,27.075,2.605,2.683
 0 days 01:14:28.418000,ALO,14,100.245,6.0,1.0,,0 days 01:14:23.967000,False,INTERMEDIATE,6.0,True,Alpine,1,19.0,False,4,Emilia Romagna Grand Prix,False,INTERMEDIATE,False,18.346,22.401,21.799,27.789,6.484,6.915
-0 days 01:03:54.806000,SAI,55,,0.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,24,1.0,False,4,Emilia Romagna Grand Prix,False,INTERMEDIATE,False,,,,,,
 0 days 01:03:53.422000,VER,1,97.528,1.0,1.0,0 days 00:23:51.168000,,False,MEDIUM,1.0,True,Red Bull Racing,1,2.0,False,5,Miami Grand Prix,True,C3,False,2.692,2.839,6.167,6.75,-6.224,-5.999
 0 days 01:05:27.964000,VER,1,94.542,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,2.0,True,5,Miami Grand Prix,True,C3,True,-0.294,-0.31,3.181,3.482,-2.58,-2.656
 0 days 01:07:02.514000,VER,1,94.55,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,2.0,True,5,Miami Grand Prix,True,C3,True,-0.286,-0.302,3.189,3.491,-1.765,-1.833
@@ -10132,8 +10131,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 03:17:29.957000,TSU,22,94.191,50.0,4.0,,,False,SOFT,12.0,True,AlphaTauri,1,14.0,True,10,British Grand Prix,True,C3,True,0.007,0.007,3.681,4.067,1.283,1.381
 0 days 03:19:03.789000,TSU,22,93.832,51.0,4.0,,,True,SOFT,13.0,True,AlphaTauri,1,14.0,True,10,British Grand Prix,True,C3,True,-0.352,-0.374,3.322,3.67,1.17,1.263
 0 days 03:20:37.878000,TSU,22,94.089,52.0,4.0,,,False,SOFT,14.0,True,AlphaTauri,1,14.0,True,10,British Grand Prix,True,C3,True,-0.095,-0.101,3.579,3.954,1.664,1.8
-0 days 01:04:38.967000,ALB,23,,0.0,1.0,,,False,SOFT,1.0,True,Williams,25,3.0,False,10,British Grand Prix,True,C3,False,,,,,,
-0 days 01:04:38.967000,ZHO,24,,0.0,1.0,,,False,MEDIUM,1.0,True,Alfa Romeo,25,2.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 01:04:57.706000,RIC,3,166.878,1.0,1.0,0 days 00:22:26.215000,0 days 01:04:52.979000,False,MEDIUM,1.0,True,McLaren,25,10.0,False,10,British Grand Prix,True,C2,False,72.694,77.183,76.368,84.375,4.481,2.759
 0 days 01:58:15.588000,RIC,3,,2.0,2.0,0 days 01:55:56.273000,,False,MEDIUM,2.0,False,McLaren,1,11.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 02:00:24.434000,RIC,3,128.846,3.0,2.0,,,True,MEDIUM,3.0,False,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,34.662,36.802,38.336,42.356,-2.201,-1.68
@@ -10536,7 +10533,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 03:17:27.755000,LAT,6,93.937,50.0,4.0,,,False,SOFT,12.0,False,Williams,1,13.0,True,10,British Grand Prix,True,C3,True,-0.247,-0.262,3.427,3.786,1.029,1.108
 0 days 03:19:02.622000,LAT,6,94.867,51.0,4.0,,,False,SOFT,13.0,False,Williams,1,13.0,True,10,British Grand Prix,True,C3,True,0.683,0.725,4.357,4.814,2.205,2.38
 0 days 03:20:37.285000,LAT,6,94.663,52.0,4.0,,,False,SOFT,14.0,False,Williams,1,13.0,True,10,British Grand Prix,True,C3,True,0.479,0.509,4.153,4.588,2.238,2.421
-0 days 01:04:38.967000,RUS,63,,0.0,1.0,,,False,HARD,1.0,True,Mercedes,25,1.0,False,10,British Grand Prix,True,C1,False,,,,,,
 0 days 01:04:56.037000,BOT,77,162.397,1.0,1.0,0 days 00:23:41.762000,0 days 01:04:51.154000,False,MEDIUM,1.0,True,Alfa Romeo,25,9.0,False,10,British Grand Prix,True,C2,False,68.213,72.425,71.887,79.424,0.0,0.0
 0 days 01:58:16.284000,BOT,77,,2.0,2.0,0 days 01:55:46.990000,,False,MEDIUM,1.0,True,Alfa Romeo,1,12.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 02:00:27.718000,BOT,77,131.434,3.0,2.0,,,True,MEDIUM,2.0,True,Alfa Romeo,1,16.0,True,10,British Grand Prix,True,C2,True,37.25,39.55,40.924,45.215,0.387,0.295
@@ -14793,7 +14789,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:26:32.640000,NOR,4,114.749,42.0,3.0,,,False,MEDIUM,13.0,True,McLaren,1,12.0,True,14,Belgian Grand Prix,True,C3,True,0.428,0.374,5.395,4.934,0.369,0.323
 0 days 02:28:27.655000,NOR,4,115.015,43.0,3.0,,,False,MEDIUM,14.0,True,McLaren,1,12.0,True,14,Belgian Grand Prix,True,C3,True,0.694,0.607,5.661,5.177,0.907,0.795
 0 days 02:30:22.412000,NOR,4,114.757,44.0,3.0,,,False,MEDIUM,15.0,True,McLaren,2,12.0,True,14,Belgian Grand Prix,True,C3,False,0.436,0.381,5.403,4.941,0.997,0.876
-0 days 01:04:38.725000,HAM,44,,0.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,2,1.0,False,14,Belgian Grand Prix,True,C3,False,,,,,,
 0 days 01:04:51.113000,MSC,47,126.331,1.0,1.0,0 days 00:24:52.310000,,False,MEDIUM,1.0,True,Haas F1 Team,2,17.0,False,14,Belgian Grand Prix,True,C3,False,12.01,10.506,16.977,15.525,2.291,1.847
 0 days 01:07:18.282000,MSC,47,147.169,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,24,15.0,False,14,Belgian Grand Prix,True,C3,False,32.848,28.733,37.815,34.58,7.171,5.122
 0 days 01:10:20.884000,MSC,47,,3.0,1.0,,,False,MEDIUM,3.0,True,Haas F1 Team,4,15.0,False,14,Belgian Grand Prix,True,C3,False,,,,,,
@@ -18547,7 +18542,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 04:02:00.757000,TSU,22,107.094,26.0,4.0,,,False,INTERMEDIATE,6.0,True,AlphaTauri,1,13.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,2.683,2.57,-2.398,-2.19
 0 days 04:03:47.938000,TSU,22,107.181,27.0,4.0,,,False,INTERMEDIATE,7.0,True,AlphaTauri,1,13.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,2.77,2.653,-2.551,-2.325
 0 days 04:05:35.577000,TSU,22,107.639,28.0,4.0,,,False,INTERMEDIATE,8.0,True,AlphaTauri,1,13.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,3.228,3.092,-2.202,-2.005
-0 days 01:04:37.974000,ALB,23,,0.0,1.0,,,False,INTERMEDIATE,1.0,True,Williams,24,2.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,,,,
 0 days 01:05:23.274000,ZHO,24,167.346,1.0,1.0,0 days 00:24:28.458000,,False,INTERMEDIATE,1.0,True,Alfa Romeo,24,17.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,62.935,60.276,19.476,13.171
 0 days 01:08:23.605000,ZHO,24,,2.0,1.0,,0 days 01:08:20.257000,False,INTERMEDIATE,2.0,True,Alfa Romeo,45,17.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,,,,
 0 days 03:17:26.677000,ZHO,24,,3.0,2.0,0 days 03:15:10.307000,,False,WET,1.0,True,Alfa Romeo,1,17.0,False,18,Japanese Grand Prix,False,WET,False,,,,,,
@@ -18744,7 +18738,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 04:01:26.099000,VET,5,109.358,26.0,3.0,,,False,INTERMEDIATE,21.0,True,Aston Martin,1,6.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,4.947,4.738,-0.134,-0.122
 0 days 04:03:15.921000,VET,5,109.822,27.0,3.0,,,False,INTERMEDIATE,22.0,True,Aston Martin,1,6.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,5.411,5.182,0.09,0.082
 0 days 04:05:06.289000,VET,5,110.368,28.0,3.0,,,False,INTERMEDIATE,23.0,True,Aston Martin,1,6.0,True,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,5.957,5.705,0.527,0.48
-0 days 01:04:37.974000,SAI,55,,0.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,24,1.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,,,,
 0 days 01:05:14.872000,LAT,6,158.944,1.0,1.0,0 days 00:22:41.853000,,False,INTERMEDIATE,1.0,True,Williams,24,15.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,54.533,52.229,11.074,7.489
 0 days 01:08:18.623000,LAT,6,,2.0,1.0,,0 days 01:08:15.262000,False,INTERMEDIATE,2.0,True,Williams,45,15.0,False,18,Japanese Grand Prix,False,INTERMEDIATE,False,,,,,,
 0 days 03:17:20.240000,LAT,6,,3.0,2.0,0 days 03:15:02.611000,,False,WET,1.0,True,Williams,1,15.0,False,18,Japanese Grand Prix,False,WET,False,,,,,,
@@ -21626,7 +21619,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:38:12.694000,STR,18,75.607,69.0,3.0,,,False,SOFT,21.0,False,Aston Martin,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-1.086,-1.416,1.822,2.469,0.0,0.0
 0 days 02:39:28.407000,STR,18,75.713,70.0,3.0,,,False,SOFT,22.0,False,Aston Martin,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-0.98,-1.278,1.928,2.613,0.0,0.0
 0 days 02:40:44.126000,STR,18,75.719,71.0,3.0,,,False,SOFT,23.0,False,Aston Martin,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-0.974,-1.27,1.934,2.621,-0.04,-0.053
-0 days 01:03:15.105000,MAG,20,,0.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,24,1.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,
 0 days 01:03:41.451000,TSU,22,,1.0,1.0,0 days 01:02:06.807000,,False,MEDIUM,1.0,True,AlphaTauri,24,18.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,
 0 days 01:05:32.775000,TSU,22,111.324,2.0,1.0,,,True,MEDIUM,2.0,True,AlphaTauri,4,18.0,False,21,São Paulo Grand Prix,True,C3,False,34.631,45.155,37.539,50.876,-1.14,-1.014
 0 days 01:07:30.391000,TSU,22,117.616,3.0,1.0,,,False,MEDIUM,3.0,True,AlphaTauri,4,18.0,False,21,São Paulo Grand Prix,True,C3,False,40.923,53.359,43.831,59.404,-1.66,-1.392
@@ -21839,7 +21831,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:38:17.180000,ZHO,24,76.086,69.0,3.0,,,False,SOFT,32.0,True,Alfa Romeo,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,-0.607,-0.791,2.301,3.119,0.479,0.634
 0 days 02:39:33.478000,ZHO,24,76.298,70.0,3.0,,,False,SOFT,33.0,True,Alfa Romeo,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,-0.395,-0.515,2.513,3.406,0.585,0.773
 0 days 02:40:49.899000,ZHO,24,76.421,71.0,3.0,,,False,SOFT,34.0,True,Alfa Romeo,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,-0.272,-0.355,2.636,3.573,0.662,0.874
-0 days 01:03:15.105000,RIC,3,,0.0,1.0,,,False,SOFT,1.0,True,McLaren,24,2.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,
 0 days 01:03:34.900000,OCO,31,,1.0,1.0,0 days 00:24:52.338000,,False,SOFT,1.0,True,Alpine,24,14.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,
 0 days 01:05:26.620000,OCO,31,111.72,2.0,1.0,,,True,SOFT,2.0,True,Alpine,4,14.0,False,21,São Paulo Grand Prix,True,C4,False,35.027,45.672,37.935,51.413,-0.744,-0.662
 0 days 01:07:25.467000,OCO,31,118.847,3.0,1.0,,,False,SOFT,3.0,True,Alpine,4,14.0,False,21,São Paulo Grand Prix,True,C4,False,42.154,54.965,45.062,61.072,-0.429,-0.36

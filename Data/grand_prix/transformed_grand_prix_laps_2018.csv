@@ -3510,7 +3510,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:21:14.003000,RIC,3,122.845,38.0,2.0,0 days 01:19:29.863000,,False,SOFT,1.0,True,Red Bull Racing,1,5.0,False,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,14.601,13.489,17.696,16.829,15.312,14.239
 0 days 01:22:59.605000,RIC,3,105.602,39.0,2.0,,,False,SOFT,2.0,True,Red Bull Racing,1,5.0,True,4,Azerbaijan Grand Prix,True,ULTRASOFT,True,-2.642,-2.441,0.453,0.431,-1.95,-1.813
 0 days 01:25:29.605000,RIC,3,,40.0,2.0,,,True,SOFT,3.0,True,Red Bull Racing,0,,False,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,,,,,,
-0 days 00:10:10.534000,OCO,31,,0.0,1.0,,,False,SOFT,4.0,False,Force India,24,1.0,False,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,,,,,,
 0 days 00:10:15.808000,VER,33,153.345,1.0,,0 days 00:00:04.180000,,False,UNKNOWN,,True,Red Bull Racing,24,6.0,False,4,Azerbaijan Grand Prix,False,UNKNOWN,False,45.101,41.666,48.196,45.836,-3.992,-2.537
 0 days 00:13:24.477000,VER,33,,2.0,1.0,,,False,MEDIUM,5.0,False,Red Bull Racing,4,5.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:15:58.622000,VER,33,,3.0,1.0,,,False,MEDIUM,6.0,False,Red Bull Racing,4,5.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,,,,,,
@@ -3551,7 +3550,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:20:57.680000,VER,33,109.815,38.0,1.0,,0 days 01:20:56.542000,False,MEDIUM,41.0,False,Red Bull Racing,1,4.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,1.571,1.451,4.666,4.438,2.282,2.122
 0 days 01:22:59.326000,VER,33,121.646,39.0,2.0,0 days 01:21:16.247000,,False,SOFT,1.0,True,Red Bull Racing,1,4.0,False,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,13.402,12.381,16.497,15.689,14.094,13.104
 0 days 01:25:29.326000,VER,33,,40.0,2.0,,,True,SOFT,2.0,True,Red Bull Racing,0,,False,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,,,,,,
-0 days 00:10:10.534000,SIR,35,,0.0,1.0,,,False,MEDIUM,1.0,True,Williams,24,2.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:10:12.386000,HAM,44,149.923,1.0,,0 days 00:00:04.180000,,False,UNKNOWN,,True,Mercedes,24,2.0,False,4,Azerbaijan Grand Prix,False,UNKNOWN,False,41.679,38.505,44.774,42.581,-7.414,-4.712
 0 days 00:13:21.034000,HAM,44,,2.0,1.0,,,False,MEDIUM,6.0,False,Mercedes,4,2.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:15:54.463000,HAM,44,,3.0,1.0,,,False,MEDIUM,7.0,False,Mercedes,4,2.0,False,4,Azerbaijan Grand Prix,True,SUPERSOFT,False,,,,,,
@@ -3899,7 +3897,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:47:57.529000,ERI,9,110.531,49.0,5.0,,,False,SOFT,13.0,False,Sauber,2,4.0,True,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,2.287,2.113,5.382,5.118,1.444,1.324
 0 days 01:49:46.808000,ERI,9,109.279,50.0,5.0,,,False,SOFT,14.0,False,Sauber,2,6.0,True,4,Azerbaijan Grand Prix,True,ULTRASOFT,False,1.035,0.956,4.13,3.928,1.613,1.498
 0 days 01:51:34.733000,ERI,9,107.925,51.0,5.0,,,True,SOFT,15.0,False,Sauber,1,7.0,True,4,Azerbaijan Grand Prix,True,ULTRASOFT,True,-0.319,-0.295,2.776,2.64,0.0,0.0
-0 days 00:08:52.647000,GAS,10,,0.0,1.0,,,False,MEDIUM,1.0,True,Toro Rosso,24,2.0,False,5,Spanish Grand Prix,True,SOFT,False,,,,,,
 0 days 00:09:09.598000,PER,11,125.103,1.0,,0 days 00:00:04.447000,,False,UNKNOWN,,True,Force India,24,13.0,False,5,Spanish Grand Prix,False,UNKNOWN,False,42.53,51.506,46.662,59.487,6.424,5.413
 0 days 00:11:44.041000,PER,11,,2.0,1.0,,,False,MEDIUM,1.0,True,Force India,4,14.0,False,5,Spanish Grand Prix,True,SOFT,False,,,,,,
 0 days 00:13:56.757000,PER,11,132.716,3.0,1.0,,,True,MEDIUM,2.0,True,Force India,4,13.0,False,5,Spanish Grand Prix,True,SOFT,False,50.143,60.726,54.275,69.192,-0.378,-0.284
@@ -4268,7 +4265,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:40:10.071000,MAG,20,81.993,63.0,2.0,,,False,HARD,31.0,True,Haas F1 Team,1,6.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-0.58,-0.702,3.552,4.528,0.277,0.339
 0 days 01:41:30.317000,MAG,20,80.246,64.0,2.0,,,True,HARD,32.0,True,Haas F1 Team,1,6.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-2.327,-2.818,1.805,2.301,-0.481,-0.596
 0 days 01:42:52.683000,MAG,20,82.366,65.0,2.0,,,False,HARD,33.0,True,Haas F1 Team,1,6.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-0.207,-0.251,3.925,5.004,1.544,1.91
-0 days 00:08:52.647000,HUL,27,,0.0,1.0,,,False,MEDIUM,1.0,True,Renault,24,3.0,False,5,Spanish Grand Prix,True,SOFT,False,,,,,,
 0 days 00:09:12.052000,HAR,28,131.078,1.0,,0 days 00:00:04.447000,0 days 00:09:12.755000,False,UNKNOWN,,True,Toro Rosso,24,15.0,False,5,Spanish Grand Prix,False,UNKNOWN,False,48.505,58.742,52.637,67.104,12.399,10.448
 0 days 00:11:43.917000,HAR,28,,2.0,1.0,0 days 00:09:35.367000,,False,MEDIUM,1.0,True,Toro Rosso,4,13.0,False,5,Spanish Grand Prix,True,SOFT,False,,,,,,
 0 days 00:13:59.021000,HAR,28,135.104,3.0,1.0,,,True,MEDIUM,2.0,True,Toro Rosso,4,14.0,False,5,Spanish Grand Prix,True,SOFT,False,52.531,63.618,56.663,72.236,2.01,1.51
@@ -4855,7 +4851,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:40:13.444000,BOT,77,80.421,64.0,2.0,,,False,HARD,45.0,True,Mercedes,1,2.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-2.152,-2.606,1.98,2.524,-0.306,-0.379
 0 days 01:41:34.574000,BOT,77,81.13,65.0,2.0,,,False,HARD,46.0,True,Mercedes,1,2.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-1.443,-1.748,2.689,3.428,0.308,0.381
 0 days 01:42:55.052000,BOT,77,80.478,66.0,2.0,,,False,HARD,47.0,True,Mercedes,1,2.0,True,5,Spanish Grand Prix,True,MEDIUM,True,-2.095,-2.537,2.037,2.597,0.0,0.0
-0 days 00:08:52.647000,GRO,8,,0.0,1.0,,,False,MEDIUM,5.0,False,Haas F1 Team,24,1.0,False,5,Spanish Grand Prix,True,SOFT,False,,,,,,
 0 days 00:09:16.344000,ERI,9,131.849,1.0,,0 days 00:00:04.447000,,False,UNKNOWN,,True,Sauber,24,16.0,False,5,Spanish Grand Prix,False,UNKNOWN,False,49.276,59.676,53.408,68.087,13.17,11.097
 0 days 00:11:46.732000,ERI,9,,2.0,1.0,,,False,HARD,1.0,True,Sauber,4,17.0,False,5,Spanish Grand Prix,True,MEDIUM,False,,,,,,
 0 days 00:14:00.886000,ERI,9,134.154,3.0,1.0,,,True,HARD,2.0,True,Sauber,4,16.0,False,5,Spanish Grand Prix,True,MEDIUM,False,51.581,62.467,55.713,71.025,1.06,0.796
@@ -6684,7 +6679,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:36:07.942000,LEC,16,75.938,67.0,2.0,,,False,HARD,48.0,True,Sauber,1,10.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,-0.468,-0.613,2.103,2.848,0.069,0.091
 0 days 01:37:23.293000,LEC,16,75.351,68.0,2.0,,,True,HARD,49.0,True,Sauber,1,10.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,-1.055,-1.381,1.516,2.053,-0.137,-0.181
 0 days 01:38:39.375000,LEC,16,76.082,69.0,2.0,,,False,HARD,50.0,True,Sauber,1,10.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,-0.324,-0.424,2.247,3.043,0.636,0.843
-0 days 00:08:37.853000,STR,18,,0.0,1.0,,,False,MEDIUM,1.0,True,Williams,24,2.0,False,7,Canadian Grand Prix,True,ULTRASOFT,False,,,,,,
 0 days 00:09:35.301000,VAN,2,159.229,1.0,,0 days 00:00:02.456000,0 days 00:08:56.719000,False,UNKNOWN,,True,McLaren,24,18.0,False,7,Canadian Grand Prix,False,UNKNOWN,False,82.823,108.399,85.394,115.655,44.631,38.946
 0 days 00:11:21.749000,VAN,2,106.448,2.0,2.0,0 days 00:09:37.739000,,False,HARD,1.0,True,McLaren,4,18.0,False,7,Canadian Grand Prix,True,SUPERSOFT,False,30.042,39.319,32.613,44.17,-22.346,-17.35
 0 days 00:13:15.564000,VAN,2,113.815,3.0,2.0,,,True,HARD,2.0,True,McLaren,4,18.0,False,7,Canadian Grand Prix,True,SUPERSOFT,False,37.409,48.961,39.98,54.148,-10.601,-8.521
@@ -6891,7 +6885,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:35:52.397000,HUL,27,76.441,67.0,2.0,,,False,HARD,54.0,True,Renault,1,7.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,0.035,0.046,2.606,3.529,0.572,0.754
 0 days 01:37:07.885000,HUL,27,75.488,68.0,2.0,,,True,HARD,55.0,True,Renault,1,7.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,-0.918,-1.201,1.653,2.239,0.0,0.0
 0 days 01:38:24.199000,HUL,27,76.314,69.0,2.0,,,False,HARD,56.0,True,Renault,1,7.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,-0.092,-0.12,2.479,3.357,0.868,1.15
-0 days 00:08:37.853000,HAR,28,,0.0,1.0,,,False,SOFT,1.0,True,Toro Rosso,24,1.0,False,7,Canadian Grand Prix,True,HYPERSOFT,False,,,,,,
 0 days 00:08:45.372000,RIC,3,108.328,1.0,,0 days 00:00:02.456000,,False,UNKNOWN,,True,Red Bull Racing,24,5.0,False,7,Canadian Grand Prix,False,UNKNOWN,False,31.922,41.779,34.493,46.716,-6.27,-5.471
 0 days 00:10:54.216000,RIC,3,128.844,2.0,1.0,,,True,SOFT,4.0,False,Red Bull Racing,4,5.0,False,7,Canadian Grand Prix,True,HYPERSOFT,False,52.438,68.631,55.009,74.503,0.05,0.039
 0 days 00:12:58.693000,RIC,3,124.477,3.0,1.0,,,True,SOFT,5.0,False,Red Bull Racing,4,5.0,False,7,Canadian Grand Prix,True,HYPERSOFT,False,48.071,62.915,50.642,68.588,0.061,0.049
@@ -7656,7 +7649,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:36:40.200000,ERI,9,76.772,67.0,2.0,,,False,HARD,66.0,True,Sauber,1,15.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,0.366,0.479,2.937,3.978,0.903,1.19
 0 days 01:37:56.779000,ERI,9,76.579,68.0,2.0,,,False,HARD,67.0,True,Sauber,1,15.0,True,7,Canadian Grand Prix,True,SUPERSOFT,True,0.173,0.226,2.744,3.716,1.091,1.445
 0 days 01:40:26.779000,ERI,9,,69.0,2.0,,,True,HARD,68.0,True,Sauber,0,,False,7,Canadian Grand Prix,True,SUPERSOFT,False,,,,,,
-0 days 00:09:36.099000,GAS,10,,0.0,1.0,,,False,MEDIUM,1.0,True,Toro Rosso,24,2.0,False,8,French Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:09:45.557000,PER,11,138.853,1.0,,0 days 00:00:08.014000,,False,UNKNOWN,,True,Force India,24,9.0,False,8,French Grand Prix,False,UNKNOWN,False,40.589,41.306,44.628,47.363,-0.965,-0.69
 0 days 00:12:26.368000,PER,11,,2.0,1.0,,,False,HARD,1.0,True,Force India,4,11.0,False,8,French Grand Prix,True,SOFT,False,,,,,,
 0 days 00:14:53.945000,PER,11,147.577,3.0,1.0,,,True,HARD,2.0,True,Force India,4,11.0,False,8,French Grand Prix,True,SOFT,False,49.313,50.184,53.352,56.622,-1.095,-0.737
@@ -8101,7 +8093,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:34:27.295000,RIC,3,111.395,51.0,2.0,,,False,HARD,23.0,True,Red Bull Racing,26,4.0,False,8,French Grand Prix,True,SOFT,False,13.131,13.363,17.17,18.222,-11.839,-9.607
 0 days 01:36:32.899000,RIC,3,125.604,52.0,2.0,,,False,HARD,24.0,True,Red Bull Racing,672,4.0,False,8,French Grand Prix,True,SOFT,False,27.34,27.823,31.379,33.302,13.612,12.154
 0 days 01:38:12.839000,RIC,3,99.94,53.0,2.0,,,False,HARD,25.0,True,Red Bull Racing,2,4.0,True,8,French Grand Prix,True,SOFT,False,1.676,1.706,5.715,6.065,2.426,2.488
-0 days 00:09:36.099000,OCO,31,,0.0,1.0,,,False,SOFT,1.0,True,Force India,24,1.0,False,8,French Grand Prix,True,ULTRASOFT,False,,,,,,
 0 days 00:09:37.656000,VER,33,130.952,1.0,,0 days 00:00:08.014000,,False,UNKNOWN,,True,Red Bull Racing,24,2.0,False,8,French Grand Prix,False,UNKNOWN,False,32.688,33.265,36.727,38.978,-8.866,-6.341
 0 days 00:12:16.382000,VER,33,,2.0,1.0,,,False,MEDIUM,4.0,False,Red Bull Racing,4,3.0,False,8,French Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:14:45.288000,VER,33,148.906,3.0,1.0,,,True,MEDIUM,5.0,False,Red Bull Racing,4,3.0,False,8,French Grand Prix,True,SUPERSOFT,False,50.642,51.537,54.681,58.032,0.234,0.157
@@ -12182,7 +12173,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:42:10.112000,ALO,14,85.342,67.0,2.0,,,False,HARD,28.0,True,McLaren,1,8.0,True,12,Hungarian Grand Prix,True,MEDIUM,True,1.413,1.684,5.33,6.662,1.534,1.83
 0 days 01:43:32.202000,ALO,14,82.09,68.0,2.0,,,True,HARD,29.0,True,McLaren,1,8.0,True,12,Hungarian Grand Prix,True,MEDIUM,True,-1.839,-2.191,2.078,2.597,-1.304,-1.564
 0 days 01:44:55.483000,ALO,14,83.281,69.0,2.0,,,False,HARD,30.0,True,McLaren,1,8.0,True,12,Hungarian Grand Prix,True,MEDIUM,True,-0.648,-0.772,3.269,4.086,-0.146,-0.175
-0 days 00:08:24.027000,LEC,16,,0.0,1.0,,,False,MEDIUM,1.0,True,Sauber,1,1.0,False,12,Hungarian Grand Prix,True,SOFT,False,,,,,,
 0 days 00:08:37.570000,STR,18,100.248,1.0,,0 days 00:07:09.557000,0 days 00:06:08.909000,False,UNKNOWN,,True,Williams,1,19.0,False,12,Hungarian Grand Prix,False,UNKNOWN,False,16.319,19.444,20.236,25.291,5.635,5.956
 0 days 00:10:05.619000,STR,18,88.049,2.0,1.0,,,True,HARD,1.0,True,Williams,1,19.0,True,12,Hungarian Grand Prix,True,MEDIUM,True,4.12,4.909,8.037,10.045,1.322,1.524
 0 days 00:11:33.568000,STR,18,87.949,3.0,1.0,,,True,HARD,2.0,True,Williams,1,19.0,True,12,Hungarian Grand Prix,True,MEDIUM,True,4.02,4.79,7.937,9.92,1.337,1.544
@@ -13897,9 +13887,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:33:53.226000,RAI,7,114.32,6.0,2.0,,,True,HARD,5.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,MEDIUM,True,4.503,4.1,8.034,7.559,1.178,1.041
 0 days 00:35:55.553000,RAI,7,122.327,7.0,2.0,,0 days 00:35:51.921000,False,HARD,6.0,True,Ferrari,1,16.0,False,13,Belgian Grand Prix,True,MEDIUM,False,12.51,11.392,16.041,15.092,9.824,8.732
 0 days 00:38:28.498000,RAI,7,,8.0,3.0,0 days 00:36:26.391000,0 days 00:38:23.994000,False,HARD,7.0,False,Ferrari,1,16.0,False,13,Belgian Grand Prix,True,MEDIUM,False,,,,,,
-0 days 00:21:03.948000,LEC,16,,0.0,1.0,,,False,MEDIUM,1.0,True,Sauber,24,1.0,False,13,Belgian Grand Prix,True,SOFT,False,,,,,,
-0 days 00:21:03.948000,ALO,14,,0.0,1.0,,,False,MEDIUM,1.0,True,McLaren,24,2.0,False,13,Belgian Grand Prix,True,SOFT,False,,,,,,
-0 days 00:21:03.948000,HUL,27,,0.0,1.0,,,False,MEDIUM,1.0,True,Renault,24,3.0,False,13,Belgian Grand Prix,True,SOFT,False,,,,,,
 0 days 00:20:31.013000,GAS,10,120.688,1.0,,0 days 00:00:04.950000,,False,UNKNOWN,,True,Toro Rosso,26,11.0,False,14,Italian Grand Prix,False,UNKNOWN,False,35.15,41.093,38.191,46.294,1.22,1.021
 0 days 00:22:48.384000,GAS,10,137.371,2.0,1.0,,,True,SOFT,4.0,False,Toro Rosso,674,11.0,False,14,Italian Grand Prix,True,SUPERSOFT,False,51.833,60.596,54.874,66.516,-0.136,-0.099
 0 days 00:24:49.395000,GAS,10,121.011,3.0,1.0,,,True,SOFT,5.0,False,Toro Rosso,4,11.0,False,14,Italian Grand Prix,True,SUPERSOFT,False,35.473,41.47,38.514,46.685,-0.72,-0.591
@@ -14274,7 +14261,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:32:56.025000,HUL,27,84.315,50.0,3.0,,,False,SOFT,9.0,True,Renault,1,13.0,True,14,Italian Grand Prix,True,SUPERSOFT,True,-1.223,-1.43,1.818,2.204,-0.191,-0.226
 0 days 01:34:20.558000,HUL,27,84.533,51.0,3.0,,,False,SOFT,10.0,True,Renault,1,13.0,True,14,Italian Grand Prix,True,SUPERSOFT,True,-1.005,-1.175,2.036,2.468,-0.232,-0.274
 0 days 01:35:45.545000,HUL,27,84.987,52.0,3.0,,,False,SOFT,11.0,True,Renault,1,13.0,True,14,Italian Grand Prix,True,SUPERSOFT,True,-0.551,-0.644,2.49,3.018,0.483,0.572
-0 days 00:20:17.350000,HAR,28,,0.0,1.0,,,False,SOFT,1.0,True,Toro Rosso,26,1.0,False,14,Italian Grand Prix,True,SUPERSOFT,False,,,,,,
 0 days 00:20:35.878000,RIC,3,128.859,1.0,,0 days 00:00:04.950000,0 days 00:20:35.353000,False,UNKNOWN,,True,Red Bull Racing,26,16.0,False,14,Italian Grand Prix,False,UNKNOWN,False,43.321,50.645,46.362,56.198,9.391,7.861
 0 days 00:22:54.326000,RIC,3,138.448,2.0,4.0,0 days 00:21:00.201000,,False,SOFT,1.0,True,Red Bull Racing,674,16.0,False,14,Italian Grand Prix,True,SUPERSOFT,False,52.91,61.856,55.951,67.822,0.941,0.684
 0 days 00:24:52.561000,RIC,3,118.235,3.0,4.0,,,True,SOFT,2.0,True,Red Bull Racing,4,15.0,False,14,Italian Grand Prix,True,SUPERSOFT,False,32.697,38.225,35.738,43.32,-3.496,-2.872
@@ -15972,7 +15958,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:07:14.212000,SIR,35,108.406,57.0,2.0,,,False,HARD,54.0,True,Williams,1,19.0,True,15,Singapore Grand Prix,True,SOFT,True,1.216,1.134,6.501,6.379,1.665,1.56
 0 days 02:09:09.621000,SIR,35,115.409,58.0,2.0,,,False,HARD,55.0,True,Williams,1,19.0,True,15,Singapore Grand Prix,True,SOFT,True,8.219,7.668,13.504,13.252,8.696,8.149
 0 days 02:11:06.319000,SIR,35,116.698,59.0,3.0,,,False,SOFT,1.0,True,Williams,1,19.0,True,15,Singapore Grand Prix,True,HYPERSOFT,True,9.508,8.87,14.793,14.516,9.926,9.296
-0 days 00:20:58.910000,OCO,31,,0.0,1.0,,,False,SOFT,4.0,False,Racing Point,24,1.0,False,15,Singapore Grand Prix,True,HYPERSOFT,False,,,,,,
 0 days 00:20:15.567000,HAM,44,101.711,1.0,,0 days 00:00:05.591000,,False,UNKNOWN,,True,Mercedes,2,2.0,False,16,Russian Grand Prix,False,UNKNOWN,False,1.449,1.445,5.85,6.103,-7.819,-7.139
 0 days 00:21:55.699000,HAM,44,100.132,2.0,1.0,,,True,MEDIUM,4.0,False,Mercedes,1,2.0,True,16,Russian Grand Prix,True,ULTRASOFT,True,-0.13,-0.13,4.271,4.455,-4.156,-3.985
 0 days 00:23:35.615000,HAM,44,99.916,3.0,1.0,,,True,MEDIUM,5.0,False,Mercedes,1,2.0,True,16,Russian Grand Prix,True,ULTRASOFT,True,-0.346,-0.345,4.055,4.23,-3.026,-2.94
@@ -21766,7 +21751,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:10:13.958000,MAG,20,103.4,52.0,2.0,,,True,MEDIUM,11.0,True,Haas F1 Team,1,10.0,True,21,Abu Dhabi Grand Prix,True,ULTRASOFT,True,-1.711,-1.628,2.533,2.511,0.093,0.09
 0 days 02:11:56.780000,MAG,20,102.822,53.0,2.0,,,True,MEDIUM,12.0,True,Haas F1 Team,1,10.0,True,21,Abu Dhabi Grand Prix,True,ULTRASOFT,True,-2.289,-2.178,1.955,1.938,0.0,0.0
 0 days 02:13:40.248000,MAG,20,103.468,54.0,2.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,10.0,True,21,Abu Dhabi Grand Prix,True,ULTRASOFT,True,-1.643,-1.563,2.601,2.579,0.273,0.265
-0 days 00:35:49.356000,HUL,27,,0.0,1.0,,,False,SOFT,4.0,False,Renault,24,1.0,False,21,Abu Dhabi Grand Prix,True,HYPERSOFT,False,,,,,,
 0 days 00:36:19.904000,HAR,28,167.566,1.0,1.0,0 days 00:00:03.172000,0 days 00:36:21.169000,False,MEDIUM,1.0,False,Toro Rosso,24,17.0,False,21,Abu Dhabi Grand Prix,True,ULTRASOFT,False,62.455,59.418,66.699,66.126,13.63,8.854
 0 days 00:38:59.209000,HAR,28,,2.0,1.0,0 days 00:37:02.174000,,False,MEDIUM,2.0,False,Toro Rosso,4,17.0,False,21,Abu Dhabi Grand Prix,True,ULTRASOFT,False,,,,,,
 0 days 00:41:36.741000,HAR,28,,3.0,2.0,,,False,HARD,1.0,True,Toro Rosso,4,19.0,False,21,Abu Dhabi Grand Prix,True,SUPERSOFT,False,,,,,,
