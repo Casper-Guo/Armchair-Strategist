@@ -266,6 +266,7 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
             df = correct_dtype(df)
             df = fill_compound(df)
 
+        df = df[df["LapNumber"] != 0]
         df_dict[season][session][data_type] = df
 
     return df_dict
