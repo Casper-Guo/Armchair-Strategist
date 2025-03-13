@@ -14,7 +14,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:03:38.874000,VER,33,90.049,13.0,2.0,,,True,MEDIUM,13.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-2.6,-2.806,0.112,0.125,-2.428,-2.626
 0 days 01:05:08.887000,VER,33,90.013,14.0,2.0,,,True,MEDIUM,14.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-2.636,-2.845,0.076,0.085,-2.395,-2.592
 0 days 01:06:39.363000,VER,33,90.476,15.0,2.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-2.173,-2.345,0.539,0.599,-2.003,-2.166
-0 days 01:08:10.196000,VER,33,90.833,16.0,2.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-1.816,-1.96,0.896,0.996,-1.397,-1.515
+0 days 01:08:10.196000,VER,33,90.833,16.0,2.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-1.816,-1.96,0.896,0.996,-1.381,-1.498
 0 days 01:09:40.991000,VER,33,90.795,17.0,2.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,1.0,True,10,British Grand Prix,True,C2,True,-1.854,-2.001,0.858,0.954,-1.348,-1.463
 0 days 00:45:36.207000,HAM,44,,1.0,2.0,,,False,MEDIUM,1.0,True,Mercedes,2,2.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:06.816000,HAM,44,90.609,2.0,2.0,,,True,MEDIUM,2.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.04,-2.202,0.672,0.747,-3.07,-3.277
@@ -31,7 +31,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:03:41.201000,HAM,44,90.224,13.0,2.0,,,False,MEDIUM,13.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.425,-2.617,0.287,0.319,-2.253,-2.436
 0 days 01:05:11.775000,HAM,44,90.574,14.0,2.0,,,False,MEDIUM,14.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.075,-2.24,0.637,0.708,-1.834,-1.985
 0 days 01:06:42.358000,HAM,44,90.583,15.0,2.0,,,False,MEDIUM,15.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.066,-2.23,0.646,0.718,-1.896,-2.05
-0 days 01:08:12.484000,HAM,44,90.126,16.0,2.0,,,False,MEDIUM,16.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.523,-2.723,0.189,0.21,-2.104,-2.281
+0 days 01:08:12.484000,HAM,44,90.126,16.0,2.0,,,False,MEDIUM,16.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.523,-2.723,0.189,0.21,-2.088,-2.264
 0 days 01:09:42.421000,HAM,44,89.937,17.0,2.0,,,True,MEDIUM,17.0,True,Mercedes,1,2.0,True,10,British Grand Prix,True,C2,True,-2.712,-2.927,0.0,0.0,-2.206,-2.394
 0 days 00:45:37.012000,BOT,77,,1.0,2.0,,,False,SOFT,4.0,False,Mercedes,2,3.0,False,10,British Grand Prix,True,C3,False,,,,,,
 0 days 00:47:08.404000,BOT,77,91.392,2.0,2.0,,,True,SOFT,5.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-1.257,-1.357,1.455,1.618,-2.287,-2.441
@@ -48,7 +48,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:03:47.540000,BOT,77,90.488,13.0,2.0,,,True,SOFT,16.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.161,-2.332,0.551,0.613,-1.989,-2.151
 0 days 01:05:17.799000,BOT,77,90.259,14.0,2.0,,,True,SOFT,17.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.39,-2.58,0.322,0.358,-2.149,-2.326
 0 days 01:06:48.304000,BOT,77,90.505,15.0,2.0,,,False,SOFT,18.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.144,-2.314,0.568,0.632,-1.974,-2.135
-0 days 01:08:18.535000,BOT,77,90.231,16.0,2.0,,,True,SOFT,19.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.418,-2.61,0.294,0.327,-1.999,-2.167
+0 days 01:08:18.535000,BOT,77,90.231,16.0,2.0,,,True,SOFT,19.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.418,-2.61,0.294,0.327,-1.983,-2.15
 0 days 01:09:48.493000,BOT,77,89.958,17.0,2.0,,,True,SOFT,20.0,False,Mercedes,1,3.0,True,10,British Grand Prix,True,C3,True,-2.691,-2.905,0.021,0.023,-2.185,-2.371
 0 days 00:45:38.002000,LEC,16,,1.0,2.0,,,False,MEDIUM,1.0,True,Ferrari,2,4.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:09.052000,LEC,16,91.05,2.0,2.0,,,True,MEDIUM,2.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-1.599,-1.726,1.113,1.238,-2.629,-2.806
@@ -65,7 +65,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:03:50.321000,LEC,16,90.814,13.0,2.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-1.835,-1.981,0.877,0.975,-1.663,-1.798
 0 days 01:05:20.865000,LEC,16,90.544,14.0,2.0,,,True,MEDIUM,14.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-2.105,-2.272,0.607,0.675,-1.864,-2.017
 0 days 01:06:51.420000,LEC,16,90.555,15.0,2.0,,,False,MEDIUM,15.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-2.094,-2.26,0.618,0.687,-1.924,-2.08
-0 days 01:08:21.583000,LEC,16,90.163,16.0,2.0,,,True,MEDIUM,16.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-2.486,-2.683,0.226,0.251,-2.067,-2.241
+0 days 01:08:21.583000,LEC,16,90.163,16.0,2.0,,,True,MEDIUM,16.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-2.486,-2.683,0.226,0.251,-2.051,-2.224
 0 days 01:09:52.269000,LEC,16,90.686,17.0,2.0,,,False,MEDIUM,17.0,True,Ferrari,1,4.0,True,10,British Grand Prix,True,C2,True,-1.963,-2.119,0.749,0.833,-1.457,-1.581
 0 days 00:45:40.119000,NOR,4,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,2,6.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:13.558000,NOR,4,93.439,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,0.79,0.853,3.502,3.894,-0.24,-0.256
@@ -82,7 +82,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:01.721000,NOR,4,91.004,13.0,1.0,,,True,MEDIUM,13.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-1.645,-1.776,1.067,1.186,-1.473,-1.593
 0 days 01:05:32.716000,NOR,4,90.995,14.0,1.0,,,True,MEDIUM,14.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-1.654,-1.785,1.058,1.176,-1.413,-1.529
 0 days 01:07:03.642000,NOR,4,90.926,15.0,1.0,,,True,MEDIUM,15.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-1.723,-1.86,0.989,1.1,-1.553,-1.679
-0 days 01:08:34.208000,NOR,4,90.566,16.0,1.0,,,True,MEDIUM,16.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-2.083,-2.248,0.629,0.699,-1.664,-1.804
+0 days 01:08:34.208000,NOR,4,90.566,16.0,1.0,,,True,MEDIUM,16.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-2.083,-2.248,0.629,0.699,-1.648,-1.787
 0 days 01:10:05.102000,NOR,4,90.894,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,5.0,True,10,British Grand Prix,True,C2,True,-1.755,-1.894,0.957,1.064,-1.249,-1.356
 0 days 00:45:41.308000,RIC,3,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,2,8.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:14.834000,RIC,3,93.526,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,8.0,True,10,British Grand Prix,True,C2,True,0.877,0.947,3.589,3.991,-0.153,-0.163
@@ -99,7 +99,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:07.918000,RIC,3,90.886,13.0,1.0,,,True,MEDIUM,13.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-1.763,-1.903,0.949,1.055,-1.591,-1.72
 0 days 01:05:38.790000,RIC,3,90.872,14.0,1.0,,,True,MEDIUM,14.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-1.777,-1.918,0.935,1.04,-1.536,-1.662
 0 days 01:07:10.421000,RIC,3,91.631,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-1.018,-1.099,1.694,1.884,-0.848,-0.917
-0 days 01:08:41.310000,RIC,3,90.889,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-1.76,-1.9,0.952,1.059,-1.341,-1.454
+0 days 01:08:41.310000,RIC,3,90.889,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-1.76,-1.9,0.952,1.059,-1.325,-1.437
 0 days 01:10:11.950000,RIC,3,90.64,17.0,1.0,,,True,MEDIUM,17.0,True,McLaren,1,6.0,True,10,British Grand Prix,True,C2,True,-2.009,-2.168,0.703,0.782,-1.503,-1.631
 0 days 00:45:39.314000,ALO,14,,1.0,1.0,,,False,SOFT,1.0,True,Alpine,2,5.0,False,10,British Grand Prix,True,C3,False,,,,,,
 0 days 00:47:12.767000,ALO,14,93.453,2.0,1.0,,,True,SOFT,2.0,True,Alpine,1,5.0,True,10,British Grand Prix,True,C3,True,0.804,0.868,3.516,3.909,-0.226,-0.241
@@ -116,7 +116,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:15.824000,ALO,14,92.36,13.0,1.0,,,True,SOFT,13.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.289,-0.312,2.423,2.694,-0.117,-0.127
 0 days 01:05:48.232000,ALO,14,92.408,14.0,1.0,,,False,SOFT,14.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.241,-0.26,2.471,2.747,0.0,0.0
 0 days 01:07:20.617000,ALO,14,92.385,15.0,1.0,,,False,SOFT,15.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.264,-0.285,2.448,2.722,-0.094,-0.102
-0 days 01:08:52.745000,ALO,14,92.128,16.0,1.0,,,True,SOFT,16.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.521,-0.562,2.191,2.436,-0.102,-0.111
+0 days 01:08:52.745000,ALO,14,92.128,16.0,1.0,,,True,SOFT,16.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.521,-0.562,2.191,2.436,-0.086,-0.093
 0 days 01:10:24.518000,ALO,14,91.773,17.0,1.0,,,True,SOFT,17.0,True,Alpine,1,7.0,True,10,British Grand Prix,True,C3,True,-0.876,-0.946,1.836,2.041,-0.37,-0.402
 0 days 00:45:41.965000,VET,5,,1.0,2.0,,,False,MEDIUM,4.0,False,Aston Martin,2,9.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:15.532000,VET,5,93.567,2.0,2.0,,,True,MEDIUM,5.0,False,Aston Martin,1,9.0,True,10,British Grand Prix,True,C2,True,0.918,0.991,3.63,4.036,-0.112,-0.12
@@ -133,7 +133,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:16.913000,VET,5,92.708,13.0,2.0,,,False,MEDIUM,16.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,0.059,0.064,2.771,3.081,0.231,0.25
 0 days 01:05:49.193000,VET,5,92.28,14.0,2.0,,,True,MEDIUM,17.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,-0.369,-0.398,2.343,2.605,-0.128,-0.139
 0 days 01:07:21.599000,VET,5,92.406,15.0,2.0,,,False,MEDIUM,18.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,-0.243,-0.262,2.469,2.745,-0.073,-0.079
-0 days 01:08:53.743000,VET,5,92.144,16.0,2.0,,,True,MEDIUM,19.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,-0.505,-0.545,2.207,2.454,-0.086,-0.093
+0 days 01:08:53.743000,VET,5,92.144,16.0,2.0,,,True,MEDIUM,19.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,-0.505,-0.545,2.207,2.454,-0.07,-0.076
 0 days 01:10:25.430000,VET,5,91.687,17.0,2.0,,,True,MEDIUM,20.0,False,Aston Martin,1,8.0,True,10,British Grand Prix,True,C2,True,-0.962,-1.038,1.75,1.946,-0.456,-0.495
 0 days 00:45:42.715000,RUS,63,,1.0,2.0,,,False,MEDIUM,1.0,True,Williams,2,10.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:16.506000,RUS,63,93.791,2.0,2.0,,,True,MEDIUM,2.0,True,Williams,1,10.0,True,10,British Grand Prix,True,C2,True,1.142,1.233,3.854,4.285,0.112,0.12
@@ -150,7 +150,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:18.019000,RUS,63,92.82,13.0,2.0,,,False,MEDIUM,13.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,0.171,0.185,2.883,3.206,0.343,0.371
 0 days 01:05:50.427000,RUS,63,92.408,14.0,2.0,,,True,MEDIUM,14.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,-0.241,-0.26,2.471,2.747,0.0,0.0
 0 days 01:07:22.934000,RUS,63,92.507,15.0,2.0,,,False,MEDIUM,15.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,-0.142,-0.153,2.57,2.858,0.028,0.03
-0 days 01:08:55.435000,RUS,63,92.501,16.0,2.0,,,False,MEDIUM,16.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,-0.148,-0.16,2.564,2.851,0.271,0.294
+0 days 01:08:55.435000,RUS,63,92.501,16.0,2.0,,,False,MEDIUM,16.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,-0.148,-0.16,2.564,2.851,0.287,0.311
 0 days 01:10:27.643000,RUS,63,92.208,17.0,2.0,,,True,MEDIUM,17.0,True,Williams,1,9.0,True,10,British Grand Prix,True,C2,True,-0.441,-0.476,2.271,2.525,0.065,0.071
 0 days 00:45:42.946000,OCO,31,,1.0,1.0,,,False,SOFT,1.0,True,Alpine,2,11.0,False,10,British Grand Prix,True,C3,False,,,,,,
 0 days 00:47:17.030000,OCO,31,94.084,2.0,1.0,,,True,SOFT,2.0,True,Alpine,1,11.0,True,10,British Grand Prix,True,C3,True,1.435,1.549,4.147,4.611,0.405,0.432
@@ -167,7 +167,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:18.713000,OCO,31,92.799,13.0,1.0,,,False,SOFT,13.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,0.15,0.162,2.862,3.182,0.322,0.348
 0 days 01:05:51.384000,OCO,31,92.671,14.0,1.0,,,False,SOFT,14.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,0.022,0.024,2.734,3.04,0.263,0.285
 0 days 01:07:23.863000,OCO,31,92.479,15.0,1.0,,,True,SOFT,15.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,-0.17,-0.183,2.542,2.826,0.0,0.0
-0 days 01:08:56.046000,OCO,31,92.183,16.0,1.0,,,True,SOFT,16.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,-0.466,-0.503,2.246,2.497,-0.047,-0.051
+0 days 01:08:56.046000,OCO,31,92.183,16.0,1.0,,,True,SOFT,16.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,-0.466,-0.503,2.246,2.497,-0.031,-0.034
 0 days 01:10:28.386000,OCO,31,92.34,17.0,1.0,,,False,SOFT,17.0,True,Alpine,1,10.0,True,10,British Grand Prix,True,C3,True,-0.309,-0.334,2.403,2.672,0.197,0.214
 0 days 00:45:46.663000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,2,18.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:20.163000,SAI,55,93.5,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,16.0,True,10,British Grand Prix,True,C2,True,0.851,0.919,3.563,3.962,-0.179,-0.191
@@ -184,7 +184,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:20.044000,SAI,55,92.913,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,0.264,0.285,2.976,3.309,0.436,0.471
 0 days 01:05:52.162000,SAI,55,92.118,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,-0.531,-0.573,2.181,2.425,-0.29,-0.314
 0 days 01:07:24.316000,SAI,55,92.154,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,-0.495,-0.534,2.217,2.465,-0.325,-0.351
-0 days 01:08:56.563000,SAI,55,92.247,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,-0.402,-0.434,2.31,2.568,0.017,0.018
+0 days 01:08:56.563000,SAI,55,92.247,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,-0.402,-0.434,2.31,2.568,0.033,0.036
 0 days 01:10:28.789000,SAI,55,92.226,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,11.0,True,10,British Grand Prix,True,C2,True,-0.423,-0.457,2.289,2.545,0.083,0.09
 0 days 00:45:43.538000,GAS,10,,1.0,2.0,,,False,MEDIUM,1.0,True,AlphaTauri,2,12.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:17.583000,GAS,10,94.045,2.0,2.0,,,True,MEDIUM,2.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,1.396,1.507,4.108,4.568,0.366,0.391
@@ -201,7 +201,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:20.326000,GAS,10,93.639,13.0,2.0,,,False,MEDIUM,13.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,0.99,1.069,3.702,4.116,1.162,1.257
 0 days 01:05:52.964000,GAS,10,92.638,14.0,2.0,,,False,MEDIUM,14.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,-0.011,-0.012,2.701,3.003,0.23,0.249
 0 days 01:07:25.468000,GAS,10,92.504,15.0,2.0,,,True,MEDIUM,15.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,-0.145,-0.157,2.567,2.854,0.025,0.027
-0 days 01:08:57.682000,GAS,10,92.214,16.0,2.0,,,True,MEDIUM,16.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,-0.435,-0.47,2.277,2.532,-0.016,-0.017
+0 days 01:08:57.682000,GAS,10,92.214,16.0,2.0,,,True,MEDIUM,16.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,-0.435,-0.47,2.277,2.532,0.0,0.0
 0 days 01:10:29.754000,GAS,10,92.072,17.0,2.0,,,True,MEDIUM,17.0,True,AlphaTauri,1,12.0,True,10,British Grand Prix,True,C2,True,-0.577,-0.623,2.135,2.374,-0.071,-0.077
 0 days 00:45:44.382000,RAI,7,,1.0,2.0,,,False,SOFT,1.0,True,Alfa Romeo Racing,2,13.0,False,10,British Grand Prix,True,C3,False,,,,,,
 0 days 00:47:18.452000,RAI,7,94.07,2.0,2.0,,,True,SOFT,2.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,1.421,1.534,4.133,4.595,0.391,0.417
@@ -218,7 +218,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:21.291000,RAI,7,92.352,13.0,2.0,,,False,SOFT,13.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,-0.297,-0.321,2.415,2.685,-0.125,-0.135
 0 days 01:05:53.975000,RAI,7,92.684,14.0,2.0,,,False,SOFT,14.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,0.035,0.038,2.747,3.054,0.276,0.299
 0 days 01:07:26.457000,RAI,7,92.482,15.0,2.0,,,False,SOFT,15.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,-0.167,-0.18,2.545,2.83,0.003,0.003
-0 days 01:08:59.044000,RAI,7,92.587,16.0,2.0,,,False,SOFT,16.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,-0.062,-0.067,2.65,2.947,0.357,0.387
+0 days 01:08:59.044000,RAI,7,92.587,16.0,2.0,,,False,SOFT,16.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,-0.062,-0.067,2.65,2.947,0.373,0.404
 0 days 01:10:31.668000,RAI,7,92.624,17.0,2.0,,,False,SOFT,17.0,True,Alfa Romeo Racing,1,13.0,True,10,British Grand Prix,True,C3,True,-0.025,-0.027,2.687,2.988,0.481,0.522
 0 days 00:45:45.014000,STR,18,,1.0,1.0,,,False,MEDIUM,2.0,False,Aston Martin,2,14.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:19.194000,STR,18,94.18,2.0,1.0,,,True,MEDIUM,3.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,1.531,1.652,4.243,4.718,0.501,0.535
@@ -235,7 +235,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:22.545000,STR,18,92.474,13.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,-0.175,-0.189,2.537,2.821,-0.003,-0.003
 0 days 01:05:55.194000,STR,18,92.649,14.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,0.0,0.0,2.712,3.015,0.241,0.261
 0 days 01:07:27.843000,STR,18,92.649,15.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,0.0,0.0,2.712,3.015,0.17,0.184
-0 days 01:09:00.548000,STR,18,92.705,16.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,0.056,0.06,2.768,3.078,0.475,0.515
+0 days 01:09:00.548000,STR,18,92.705,16.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,0.056,0.06,2.768,3.078,0.491,0.532
 0 days 01:10:33.170000,STR,18,92.622,17.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,14.0,True,10,British Grand Prix,True,C2,True,-0.027,-0.029,2.685,2.985,0.479,0.52
 0 days 00:45:45.475000,GIO,99,,1.0,2.0,,,False,MEDIUM,1.0,True,Alfa Romeo Racing,2,15.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:19.856000,GIO,99,94.381,2.0,2.0,,,True,MEDIUM,2.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,1.732,1.869,4.444,4.941,0.702,0.749
@@ -252,7 +252,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:24.006000,GIO,99,92.481,13.0,2.0,,,False,MEDIUM,13.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,-0.168,-0.181,2.544,2.829,0.004,0.004
 0 days 01:05:56.463000,GIO,99,92.457,14.0,2.0,,,True,MEDIUM,14.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,-0.192,-0.207,2.52,2.802,0.049,0.053
 0 days 01:07:29.130000,GIO,99,92.667,15.0,2.0,,,False,MEDIUM,15.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,0.018,0.019,2.73,3.035,0.188,0.203
-0 days 01:09:01.748000,GIO,99,92.618,16.0,2.0,,,False,MEDIUM,16.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,-0.031,-0.033,2.681,2.981,0.388,0.421
+0 days 01:09:01.748000,GIO,99,92.618,16.0,2.0,,,False,MEDIUM,16.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,-0.031,-0.033,2.681,2.981,0.404,0.438
 0 days 01:10:34.216000,GIO,99,92.468,17.0,2.0,,,False,MEDIUM,17.0,True,Alfa Romeo Racing,1,15.0,True,10,British Grand Prix,True,C2,True,-0.181,-0.195,2.531,2.814,0.325,0.353
 0 days 00:45:46.191000,TSU,22,,1.0,2.0,,,False,MEDIUM,1.0,True,AlphaTauri,2,17.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:21.512000,TSU,22,95.321,2.0,2.0,,,True,MEDIUM,2.0,True,AlphaTauri,1,18.0,True,10,British Grand Prix,True,C2,True,2.672,2.884,5.384,5.986,1.642,1.753
@@ -269,7 +269,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:24.816000,TSU,22,92.752,13.0,2.0,,,False,MEDIUM,13.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,0.103,0.111,2.815,3.13,0.275,0.297
 0 days 01:05:57.086000,TSU,22,92.27,14.0,2.0,,,True,MEDIUM,14.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,-0.379,-0.409,2.333,2.594,-0.138,-0.149
 0 days 01:07:29.577000,TSU,22,92.491,15.0,2.0,,,False,MEDIUM,15.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,-0.158,-0.171,2.554,2.84,0.012,0.013
-0 days 01:09:02.253000,TSU,22,92.676,16.0,2.0,,,False,MEDIUM,16.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,0.027,0.029,2.739,3.045,0.446,0.484
+0 days 01:09:02.253000,TSU,22,92.676,16.0,2.0,,,False,MEDIUM,16.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,0.027,0.029,2.739,3.045,0.462,0.501
 0 days 01:10:34.558000,TSU,22,92.305,17.0,2.0,,,False,MEDIUM,17.0,True,AlphaTauri,1,16.0,True,10,British Grand Prix,True,C2,True,-0.344,-0.371,2.368,2.633,0.162,0.176
 0 days 00:45:45.802000,LAT,6,,1.0,2.0,,,False,MEDIUM,1.0,True,Williams,2,16.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:21.047000,LAT,6,95.245,2.0,2.0,,,True,MEDIUM,2.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,2.596,2.802,5.308,5.902,1.566,1.672
@@ -286,7 +286,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:26.259000,LAT,6,92.431,13.0,2.0,,,True,MEDIUM,13.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,-0.218,-0.235,2.494,2.773,-0.046,-0.05
 0 days 01:05:59.275000,LAT,6,93.016,14.0,2.0,,,False,MEDIUM,14.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,0.367,0.396,3.079,3.424,0.608,0.658
 0 days 01:07:31.754000,LAT,6,92.479,15.0,2.0,,,False,MEDIUM,15.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,-0.17,-0.183,2.542,2.826,0.0,0.0
-0 days 01:09:04.010000,LAT,6,92.256,16.0,2.0,,,True,MEDIUM,16.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,-0.393,-0.424,2.319,2.578,0.026,0.028
+0 days 01:09:04.010000,LAT,6,92.256,16.0,2.0,,,True,MEDIUM,16.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,-0.393,-0.424,2.319,2.578,0.042,0.046
 0 days 01:10:36.153000,LAT,6,92.143,17.0,2.0,,,True,MEDIUM,17.0,True,Williams,1,17.0,True,10,British Grand Prix,True,C2,True,-0.506,-0.546,2.206,2.453,0.0,0.0
 0 days 00:45:47.453000,MSC,47,,1.0,2.0,,,False,MEDIUM,1.0,True,Haas F1 Team,2,19.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:22.672000,MSC,47,95.219,2.0,2.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,2.57,2.774,5.282,5.873,1.54,1.644
@@ -303,7 +303,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:37.417000,MSC,47,93.169,13.0,2.0,,,True,MEDIUM,13.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,0.52,0.561,3.232,3.594,0.692,0.748
 0 days 01:06:10.690000,MSC,47,93.273,14.0,2.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,0.624,0.674,3.336,3.709,0.865,0.936
 0 days 01:07:43.257000,MSC,47,92.567,15.0,2.0,,,True,MEDIUM,15.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,-0.082,-0.089,2.63,2.924,0.088,0.095
-0 days 01:09:16.373000,MSC,47,93.116,16.0,2.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,0.467,0.504,3.179,3.535,0.886,0.961
+0 days 01:09:16.373000,MSC,47,93.116,16.0,2.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,0.467,0.504,3.179,3.535,0.902,0.978
 0 days 01:10:49.204000,MSC,47,92.831,17.0,2.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,18.0,True,10,British Grand Prix,True,C2,True,0.182,0.196,2.894,3.218,0.688,0.747
 0 days 00:45:54.425000,MAZ,9,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,2,20.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:28.349000,MAZ,9,93.924,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.275,1.376,3.987,4.433,0.245,0.262
@@ -320,7 +320,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:42.156000,MAZ,9,94.031,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.382,1.492,4.094,4.552,1.554,1.68
 0 days 01:06:16.230000,MAZ,9,94.074,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.425,1.538,4.137,4.6,1.666,1.803
 0 days 01:07:50.438000,MAZ,9,94.208,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.559,1.683,4.271,4.749,1.729,1.87
-0 days 01:09:24.748000,MAZ,9,94.31,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.661,1.793,4.373,4.862,2.08,2.255
+0 days 01:09:24.748000,MAZ,9,94.31,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,20.0,True,10,British Grand Prix,True,C2,True,1.661,1.793,4.373,4.862,2.096,2.273
 0 days 01:10:58.639000,MAZ,9,93.891,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,19.0,True,10,British Grand Prix,True,C2,True,1.242,1.341,3.954,4.396,1.748,1.897
 0 days 00:45:40.797000,PER,11,,1.0,2.0,,,False,MEDIUM,1.0,True,Red Bull Racing,2,7.0,False,10,British Grand Prix,True,C2,False,,,,,,
 0 days 00:47:14.150000,PER,11,93.353,2.0,2.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,7.0,True,10,British Grand Prix,True,C2,True,0.704,0.76,3.416,3.798,-0.326,-0.348
@@ -337,7 +337,7 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:04:27.026000,PER,11,92.541,13.0,2.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,18.0,True,10,British Grand Prix,True,C2,True,-0.108,-0.117,2.604,2.895,0.064,0.069
 0 days 01:06:00.043000,PER,11,93.017,14.0,2.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,18.0,True,10,British Grand Prix,True,C2,True,0.368,0.397,3.08,3.425,0.609,0.659
 0 days 01:07:32.723000,PER,11,92.68,15.0,2.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,18.0,True,10,British Grand Prix,True,C2,True,0.031,0.033,2.743,3.05,0.201,0.217
-0 days 01:09:11.872000,PER,11,99.149,16.0,2.0,,0 days 01:09:05.582000,False,MEDIUM,16.0,True,Red Bull Racing,1,18.0,False,10,British Grand Prix,True,C2,False,6.5,7.016,9.212,10.243,6.919,7.502
+0 days 01:09:11.872000,PER,11,99.149,16.0,2.0,,0 days 01:09:05.582000,False,MEDIUM,16.0,True,Red Bull Racing,1,18.0,False,10,British Grand Prix,True,C2,False,6.5,7.016,9.212,10.243,6.935,7.521
 0 days 00:46:27.467000,BOT,77,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,24,1.0,False,14,Italian Grand Prix,True,C3,False,,,,,,
 0 days 00:49:02.284000,BOT,77,,2.0,1.0,,,False,MEDIUM,2.0,True,Mercedes,4,1.0,False,14,Italian Grand Prix,True,C3,False,,,,,,
 0 days 00:51:33.003000,BOT,77,,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,4,1.0,False,14,Italian Grand Prix,True,C3,False,,,,,,

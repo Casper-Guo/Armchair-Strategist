@@ -477,8 +477,24 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     Requires:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
     """
+    final_laps = df_laps.groupby("RoundNumber")["LapNumber"].max()
+    df_laps = df_laps.merge(
+        final_laps,
+        how="left",
+        on="RoundNumber",
+        suffixes=(None, "_final"),
+        validate="many_to_one",
+    )
+
+    # in GPs, all first laps have a PitOutTime and all last laps have a PitInTime
+    # but their lap times are representative
+    non_pit_laps = df_laps[
+        ((df_laps["PitOutTime"].isna()) | (df_laps["LapNumber"] == 1))
+        & ((df_laps["PitInTime"].isna()) | (df_laps["LapNumber"] == df_laps["LapNumber_final"]))
+    ]
+
     lap_reps = (
-        df_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"].median().round(decimals=3)
+        non_pit_laps.groupby(["RoundNumber", "LapNumber"])["LapTime"].median().round(decimals=3)
     )
 
     df_laps = df_laps.merge(
@@ -496,7 +512,7 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         (df_laps["LapTime"] - df_laps["LapTime_LapRep"]) / df_laps["LapTime_LapRep"] * 100
     ).round(decimals=3)
 
-    return df_laps.drop(columns=["LapTime_LapRep"])
+    return df_laps.drop(columns=["LapNumber_final", "LapTime_LapRep"])
 
 
 def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> pd.DataFrame:
