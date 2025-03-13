@@ -125,7 +125,7 @@ def style_compound_options(compounds: Iterable[str]) -> list[dict]:
 
     # sort the compounds
     compound_index = [compound_order.index(compound) for compound in compounds]
-    sorted_compounds = sorted(zip(compounds, compound_index), key=lambda x: x[1])
+    sorted_compounds = sorted(zip(compounds, compound_index, strict=True), key=lambda x: x[1])
     compounds = [compound for compound, _ in sorted_compounds]
 
     return [

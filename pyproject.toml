@@ -103,6 +103,5 @@ ignore = [
     "D203",   # conflict with preferred D211 (No blank lines allowed before class docstring)
     "D212",   # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
     "PD901",  # df is a perfectly fine variable name
-    "B905",   # more investigation needed
     "PTH123", # all open calls already uses Pathlib for file handling
 ]
