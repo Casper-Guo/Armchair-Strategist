@@ -515,6 +515,44 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     return df_laps.drop(columns=["LapNumber_final", "LapTime_LapRep"])
 
 
+def add_fuel_adjusted_time(
+    df_laps: pd.DataFrame,
+    race_initial_fuel: float = 110.0,
+    sprint_initial_fuel: float = 110 / 3,
+    gain_to_weight_ratio: float = 0.03,
+) -> pd.DataFrame:
+    """
+    Calculate the fuel-adjusted lap times.
+
+    Default assumption is all cars start with 110kg of fuel for races,
+    and 110/3 kg of fuel for sprint races. And 1kg weight saving
+    equals 0.03 seconds per lap performance gain.
+    """
+    final_laps = df_laps.groupby("RoundNumber")["LapNumber"].max()
+    df_laps = df_laps.merge(
+        final_laps,
+        how="left",
+        on="RoundNumber",
+        suffixes=(None, "_final"),
+        validate="many_to_one",
+    )
+
+    median_lap_count = df_laps["LapNumber_final"].median()
+    # The shortest GP is at Spa and has 44 laps
+    is_sprint = median_lap_count < 30
+
+    df_laps["FuelAdjLapTime"] = df_laps["LapTime"] + (
+        gain_to_weight_ratio
+        * (
+            (sprint_initial_fuel if is_sprint else race_initial_fuel)
+            / df_laps["LapNumber_final"]
+            * (df_laps["LapNumber"] - 1)
+        )
+    ).round(decimals=3)
+
+    return df_laps.drop(columns=["LapNumber_final"])
+
+
 def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> pd.DataFrame:
     """
     Find the rows present in all_laps but missing in transformed_laps.
@@ -641,6 +679,7 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
         df_transform = add_rep_deltas(df_transform)
         df_transform = add_fastest_deltas(df_transform)
         df_transform = add_lap_rep_deltas(df_transform)
+        df_transform = add_fuel_adjusted_time(df_transform)
 
         path = (
             DATA_PATH

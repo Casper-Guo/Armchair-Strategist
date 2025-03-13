@@ -46,3 +46,4 @@ The representative time is calculated separately for slick and non-slick compoun
 - **PctFromFastest** (`float`): Percentage difference from the fastest, non-deleted lap in the same race.
 - **DeltaToLapRep** (`float`): Difference in seconds to the median of all lap times from the same lap and is neither an in lap or an out lap.
 - **PctFromLapRep** (`float`): Percentage difference from the median of all lap times from the same lap and is neither an in lap or an out lap.
+- **FuelAdjLapTime** (`float`): Lap time adjusted for fuel consumption. Assumes an initial fuel load of 110kg and a performance gain of 0.03s per lap per kilogram of fuel consumed
