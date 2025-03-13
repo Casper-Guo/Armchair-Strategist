@@ -423,12 +423,15 @@ def add_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
         df_laps has the following columns: [`RoundNumber`, `LapTime`]
     """
     rep_times = (
-        df_laps[df_laps["IsValid"]].groupby("RoundNumber")["LapTime"].median().round(decimals=3)
+        df_laps[(df_laps["IsAccurate"]) & (df_laps["TrackStatus"] == 1)]
+        .groupby(["RoundNumber", "IsSlick"])["LapTime"]
+        .median()
+        .round(decimals=3)
     )
     df_laps = df_laps.merge(
         rep_times,
         how="left",
-        on="RoundNumber",
+        on=["RoundNumber", "IsSlick"],
         suffixes=(None, "_Rep"),
         validate="many_to_one",
     )

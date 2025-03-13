@@ -113,8 +113,8 @@ strategy_tab = dbc.Tab(
 
 scatter_y_options = [
     {"label": "Lap Time", "value": "LapTime"},
-    {"label": "Seconds to Median", "value": "DeltaToRep"},
-    {"label": "Percent from Median", "value": "PctFromRep"},
+    {"label": "Seconds to Same Condition (Dry/Wet) Median", "value": "DeltaToRep"},
+    {"label": "Percent from Same Condition (Dry/Wet) Median", "value": "PctFromRep"},
     {"label": "Seconds to Fastest", "value": "DeltaToFastest"},
     {"label": "Percent from Fastest", "value": "PctFromFastest"},
     {
