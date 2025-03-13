@@ -43,6 +43,6 @@ The representative time is calculated separately for slick and non-slick compoun
 - **DeltaToRep** (`float`): Difference in seconds to the representative time.
 - **PctFromRep** (`float`): Percentage difference from the representative time
 - **DeltaToFastest** (`float`): Difference in seconds to the fastest, non-deleted lap in the race.
-- **PctFromFastest** (`float`): Difference from the fastest, non-deleted lap in the race as a percentage of the fastest lap time.
-- **DeltaToLapRep** (`float`): Difference in seconds to the median lap time of all valid laps in the race with the same lap number.
-- **PctFromLapRep** (`float`): Difference from the median lap time of all valid laps in the race with the same lap number as a percentage of the lap representative time.
+- **PctFromFastest** (`float`): Percentage difference from the fastest, non-deleted lap in the same race.
+- **DeltaToLapRep** (`float`): Difference in seconds to the median lap time of the same lap.
+- **PctFromLapRep** (`float`): Percentage difference from the median lap time of the same lap.

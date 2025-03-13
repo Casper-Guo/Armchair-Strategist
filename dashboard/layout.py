@@ -108,7 +108,7 @@ add_gap_row = dbc.Row(
 )
 
 strategy_tab = dbc.Tab(
-    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="strategy"
+    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="Strategy"
 )
 
 scatter_y_options = [
@@ -118,11 +118,11 @@ scatter_y_options = [
     {"label": "Seconds to Fastest", "value": "DeltaToFastest"},
     {"label": "Percent from Fastest", "value": "PctFromFastest"},
     {
-        "label": "Seconds to Adjusted Representative Time",
+        "label": "Seconds to Same Lap Median",
         "value": "DeltaToLapRep",
     },
     {
-        "label": "Percent from Adjusted Representative Time",
+        "label": "Percent from Same Lap Median",
         "value": "PctFromLapRep",
     },
 ]
@@ -151,7 +151,7 @@ scatterplot_tab = dbc.Tab(
             ]
         )
     ),
-    label="scatterplot",
+    label="Stats Scatterplot",
 )
 
 line_y_options = [{"label": "Position", "value": "Position"}] + scatter_y_options
@@ -180,7 +180,7 @@ lineplot_tab = dbc.Tab(
             ]
         )
     ),
-    label="lineplot",
+    label="Stats Lineplot",
 )
 
 distplot_caveat = dbc.Alert(
@@ -217,7 +217,7 @@ distplot_tab = dbc.Tab(
             ]
         )
     ),
-    label="Distribution Plot",
+    label="Lap Time Distribution Plot",
 )
 
 compound_plot_explanation = dbc.Alert(
