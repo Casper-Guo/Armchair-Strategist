@@ -32,8 +32,16 @@ The following columns are added. All numerical columns are accurate to three pla
 - **IsSlick** (`bool`): A flag for whether the lap is completed on any of the slick compounds.
 - **CompoundName** (`string`): The name of the underlying compound.
 - **IsValid** (`bool`): A lap is valid if it is completed on a slick compound, the timing is accurate, and the entire lap is under green flags.
-- **DeltaToRep** (`float`): Difference in seconds to the median lap time of all valid laps in the race.
-- **PctFromRep** (`float`): Difference from the median lap time of all valid laps in the race as a percentage of the median lap time.
+
+For the next two features, a representative time is defined as the median of all lap times in the same race, given that:
+
+- The lap is accurate (as determined by `IsAccurate`)
+- The lap is completed under green flags
+
+The representative time is calculated separately for slick and non-slick compounds.
+
+- **DeltaToRep** (`float`): Difference in seconds to the representative time.
+- **PctFromRep** (`float`): Percentage difference from the representative time
 - **DeltaToFastest** (`float`): Difference in seconds to the fastest, non-deleted lap in the race.
 - **PctFromFastest** (`float`): Difference from the fastest, non-deleted lap in the race as a percentage of the fastest lap time.
 - **DeltaToLapRep** (`float`): Difference in seconds to the median lap time of all valid laps in the race with the same lap number.
