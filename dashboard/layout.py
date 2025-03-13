@@ -125,6 +125,7 @@ scatter_y_options = [
         "label": "Percent from Same Lap Median",
         "value": "PctFromLapRep",
     },
+    {"label": "Fuel-Adjusted Lap Time", "value": "FuelAdjLapTime"},
 ]
 
 scatterplot_tab = dbc.Tab(
