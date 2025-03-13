@@ -115,7 +115,7 @@ def _find_legend_order(labels: Iterable[str]) -> list[int]:
 
     pos = [sorted_labels.index(label) for label in labels]
 
-    return [old_index for _, old_index in sorted(zip(pos, old_indices))]
+    return [old_index for _, old_index in sorted(zip(pos, old_indices, strict=True))]
 
 
 def _plot_args(season: int, absolute_compound: bool) -> tuple:
@@ -574,7 +574,7 @@ def _process_input(
 
     included_laps_list = []
 
-    for season, event, session_type in zip(seasons, event_objects, session_types):
+    for season, event, session_type in zip(seasons, event_objects, session_types, strict=True):
         df_all = DF_DICT[season][session_type]
         df_laps = df_all[
             (df_all["RoundNumber"] == event["RoundNumber"])
@@ -1064,7 +1064,7 @@ def strategy_barplot(
 
     handles, labels = ax.get_legend_handles_labels()
     if labels:
-        deduplicate_labels_handles = dict(zip(labels, handles))
+        deduplicate_labels_handles = dict(zip(labels, handles, strict=True))
         plt.legend(
             handles=deduplicate_labels_handles.values(),
             labels=deduplicate_labels_handles.keys(),
