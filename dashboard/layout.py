@@ -187,7 +187,12 @@ lineplot_tab = dbc.Tab(
 distplot_caveat = dbc.Alert(
     [
         html.H4("Caveats", className="alert-heading"),
-        html.P("Only drivers who have completed more than 5 laps are shown."),
+        html.P(
+            (
+                "Only drivers who have completed more than 5 laps are shown. "
+                "Try adjusting the slow lap filter if no plot is shown."
+            )
+        ),
     ],
     color="info",
     dismissable=True,
