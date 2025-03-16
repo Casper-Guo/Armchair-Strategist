@@ -1,0 +1,929 @@
+Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonalBest,Compound,TyreLife,FreshTyre,Team,TrackStatus,Position,IsAccurate,RoundNumber,EventName,IsSlick,CompoundName,IsValid,DeltaToRep,PctFromRep,DeltaToFastest,PctFromFastest,DeltaToLapRep,PctFromLapRep,FuelAdjLapTime
+0 days 01:13:00.002000,VER,1,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Red Bull Racing,124,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:49.358000,VER,1,,2.0,1.0,,0 days 01:15:38.205000,False,INTERMEDIATE,2.0,True,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:31.526000,VER,1,,3.0,2.0,0 days 01:15:51.658000,0 days 01:18:20.223000,False,INTERMEDIATE,3.0,False,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:07.226000,VER,1,,4.0,3.0,0 days 01:18:34.029000,0 days 01:20:56.543000,False,INTERMEDIATE,4.0,False,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:30.835000,VER,1,143.609,5.0,4.0,0 days 01:21:09.534000,,False,INTERMEDIATE,5.0,False,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,51.751,56.338,61.442,74.777,,,143.83700000000002
+0 days 01:25:50.489000,VER,1,139.654,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.796,52.032,57.487,69.964,-0.764,-0.544,139.938
+0 days 01:28:06.936000,VER,1,136.447,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Red Bull Racing,41,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,44.589,48.541,54.28,66.061,9.714,7.665,136.788
+0 days 01:29:43.766000,VER,1,96.83,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.972,5.413,14.663,17.845,-1.611,-1.637,97.228
+0 days 01:31:18.081000,VER,1,94.315,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.457,2.675,12.148,14.785,-1.938,-2.013,94.77
+0 days 01:32:50.731000,VER,1,92.65,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.792,0.862,10.483,12.758,-2.457,-2.583,93.162
+0 days 01:34:23.184000,VER,1,92.453,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.595,0.648,10.286,12.518,-2.202,-2.326,93.022
+0 days 01:35:54.775000,VER,1,91.591,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.267,-0.291,9.424,11.469,-2.473,-2.629,92.217
+0 days 01:37:26.046000,VER,1,91.271,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.587,-0.639,9.104,11.08,-2.004,-2.148,91.95400000000001
+0 days 01:38:56.685000,VER,1,90.639,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.219,-1.327,8.472,10.311,-2.22,-2.391,91.37899999999999
+0 days 01:40:27.013000,VER,1,90.328,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.53,-1.666,8.161,9.932,-2.217,-2.396,91.125
+0 days 01:41:57.605000,VER,1,90.592,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.266,-1.378,8.425,10.254,-1.929,-2.085,91.445
+0 days 01:43:30.997000,VER,1,93.392,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.534,1.67,11.225,13.661,0.426,0.458,94.30199999999999
+0 days 01:45:03.166000,VER,1,92.169,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.311,0.339,10.002,12.173,-0.812,-0.873,93.136
+0 days 01:46:35.105000,VER,1,91.939,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.081,0.088,9.772,11.893,-0.745,-0.804,92.963
+0 days 01:48:06.703000,VER,1,91.598,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.26,-0.283,9.431,11.478,-0.758,-0.821,92.679
+0 days 01:49:37.880000,VER,1,91.177,21.0,4.0,,,False,INTERMEDIATE,21.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.681,-0.741,9.01,10.965,-0.902,-0.98,92.31500000000001
+0 days 01:51:08.920000,VER,1,91.04,22.0,4.0,,,False,INTERMEDIATE,22.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.818,-0.891,8.873,10.799,-1.013,-1.1,92.235
+0 days 01:52:39.606000,VER,1,90.686,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.172,-1.276,8.519,10.368,-1.107,-1.206,91.938
+0 days 01:54:10.584000,VER,1,90.978,24.0,4.0,,,False,INTERMEDIATE,24.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.88,-0.958,8.811,10.723,-0.874,-0.952,92.28699999999999
+0 days 01:55:41.429000,VER,1,90.845,25.0,4.0,,,False,INTERMEDIATE,25.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.013,-1.103,8.678,10.561,-0.535,-0.585,92.211
+0 days 01:57:11.722000,VER,1,90.293,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.565,-1.704,8.126,9.89,-1.006,-1.102,91.715
+0 days 01:58:41.453000,VER,1,89.731,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.127,-2.316,7.564,9.206,-1.024,-1.128,91.21
+0 days 02:00:10.864000,VER,1,89.411,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.447,-2.664,7.244,8.816,-1.241,-1.369,90.947
+0 days 02:01:39.907000,VER,1,89.043,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.815,-3.065,6.876,8.368,-0.988,-1.097,90.63600000000001
+0 days 02:03:08.144000,VER,1,88.237,30.0,4.0,,,True,INTERMEDIATE,30.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.621,-3.942,6.07,7.387,-1.557,-1.734,89.887
+0 days 02:04:36.271000,VER,1,88.127,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.731,-4.062,5.96,7.254,-1.926,-2.139,89.83399999999999
+0 days 02:06:04.479000,VER,1,88.208,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.65,-3.974,6.041,7.352,-1.622,-1.806,89.972
+0 days 02:07:32.525000,VER,1,88.046,33.0,4.0,,,True,INTERMEDIATE,33.0,False,Red Bull Racing,12,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.812,-4.15,5.879,7.155,-2.507,-2.769,89.867
+0 days 02:09:41.123000,VER,1,128.598,34.0,4.0,,0 days 02:09:24.559000,False,INTERMEDIATE,34.0,False,Red Bull Racing,24,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,36.74,39.997,46.431,56.508,8.0,6.634,130.476
+0 days 02:11:45.631000,VER,1,124.508,35.0,5.0,0 days 02:09:43.218000,,False,MEDIUM,1.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,32.273,34.99,42.341,51.53,19.046,18.06,126.442
+0 days 02:13:41.965000,VER,1,116.334,36.0,5.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,24.099,26.128,34.167,41.582,13.916,13.587,118.325
+0 days 02:16:24.799000,VER,1,,37.0,5.0,,,False,MEDIUM,3.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 02:18:42.709000,VER,1,137.91,38.0,5.0,,,False,MEDIUM,4.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,45.675,49.52,55.743,67.841,-1.104,-0.794,140.015
+0 days 02:20:55.423000,VER,1,132.714,39.0,5.0,,,False,MEDIUM,5.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,40.479,43.887,50.547,61.517,0.774,0.587,134.876
+0 days 02:23:06.921000,VER,1,131.498,40.0,5.0,,,False,MEDIUM,6.0,True,Red Bull Racing,4,3.0,False,1,Australian Grand Prix,True,C4,False,39.263,42.568,49.331,60.037,0.11,0.084,133.71699999999998
+0 days 02:25:18.925000,VER,1,132.004,41.0,5.0,,,False,MEDIUM,7.0,True,Red Bull Racing,41,3.0,False,1,Australian Grand Prix,True,C4,False,39.769,43.117,49.837,60.653,5.516,4.361,134.28
+0 days 02:26:44.242000,VER,1,85.317,42.0,5.0,,,True,MEDIUM,8.0,True,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,True,C4,True,-6.918,-7.5,3.15,3.834,-1.662,-1.911,87.64999999999999
+0 days 02:28:07.323000,VER,1,83.081,43.0,5.0,,,True,MEDIUM,9.0,True,Red Bull Racing,1,3.0,True,1,Australian Grand Prix,True,C4,True,-9.154,-9.925,0.914,1.112,-1.668,-1.968,85.471
+0 days 02:29:34.112000,VER,1,86.789,44.0,5.0,,,False,MEDIUM,10.0,True,Red Bull Racing,12,1.0,True,1,Australian Grand Prix,True,C4,False,-5.446,-5.904,4.622,5.625,-1.543,-1.747,89.236
+0 days 02:31:06.986000,VER,1,92.874,45.0,5.0,,,False,MEDIUM,11.0,True,Red Bull Racing,21,1.0,True,1,Australian Grand Prix,True,C4,False,0.639,0.693,10.707,13.031,-0.171,-0.184,95.377
+0 days 02:32:59.592000,VER,1,112.606,46.0,5.0,,0 days 02:32:42.968000,False,MEDIUM,12.0,True,Red Bull Racing,1,5.0,False,1,Australian Grand Prix,True,C4,False,20.371,22.086,30.439,37.045,17.994,19.019,115.166
+0 days 02:35:06.805000,VER,1,127.213,47.0,6.0,0 days 02:33:01.788000,,False,INTERMEDIATE,1.0,True,Red Bull Racing,124,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.355,38.489,45.046,54.822,3.404,2.749,129.82999999999998
+0 days 02:37:09.211000,VER,1,122.406,48.0,6.0,,,False,INTERMEDIATE,2.0,True,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.548,33.256,40.239,48.972,2.331,1.941,125.08000000000001
+0 days 02:39:34.103000,VER,1,144.892,49.0,6.0,,,False,INTERMEDIATE,3.0,True,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,53.034,57.735,62.725,76.338,0.274,0.189,147.623
+0 days 02:41:56.188000,VER,1,142.085,50.0,6.0,,,False,INTERMEDIATE,4.0,True,Red Bull Racing,4,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.227,54.679,59.918,72.922,2.409,1.725,144.87300000000002
+0 days 02:44:10.067000,VER,1,133.879,51.0,6.0,,,False,INTERMEDIATE,5.0,True,Red Bull Racing,41,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,42.021,45.746,51.712,62.935,1.648,1.246,136.724
+0 days 02:45:43.931000,VER,1,93.864,52.0,6.0,,,False,INTERMEDIATE,6.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.006,2.184,11.697,14.236,-1.801,-1.883,96.766
+0 days 02:47:14.790000,VER,1,90.859,53.0,6.0,,,False,INTERMEDIATE,7.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.999,-1.088,8.692,10.578,-0.953,-1.038,93.818
+0 days 02:48:43.890000,VER,1,89.1,54.0,6.0,,,False,INTERMEDIATE,8.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.758,-3.002,6.933,8.438,-1.794,-1.974,92.116
+0 days 02:50:12.428000,VER,1,88.538,55.0,6.0,,,False,INTERMEDIATE,9.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.32,-3.614,6.371,7.754,-1.806,-1.999,91.61
+0 days 02:51:40.349000,VER,1,87.921,56.0,6.0,,,False,INTERMEDIATE,10.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.937,-4.286,5.754,7.003,-2.239,-2.483,91.05000000000001
+0 days 02:53:07.749000,VER,1,87.4,57.0,6.0,,,False,INTERMEDIATE,11.0,True,Red Bull Racing,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-4.458,-4.853,5.233,6.369,-3.306,-3.645,90.58600000000001
+0 days 01:13:14.728000,GAS,10,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Alpine,124,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:06.103000,GAS,10,,2.0,1.0,,0 days 01:15:53.611000,False,INTERMEDIATE,2.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:49.068000,GAS,10,,3.0,2.0,0 days 01:16:08.591000,0 days 01:18:36.076000,False,INTERMEDIATE,3.0,False,Alpine,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:23.515000,GAS,10,,4.0,3.0,0 days 01:18:51.914000,0 days 01:21:12.398000,False,INTERMEDIATE,4.0,False,Alpine,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:44.875000,GAS,10,141.36,5.0,4.0,0 days 01:21:27.130000,,False,INTERMEDIATE,5.0,False,Alpine,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.502,53.89,59.193,72.04,,,141.58800000000002
+0 days 01:26:04.827000,GAS,10,139.952,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Alpine,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.094,52.357,57.785,70.326,-0.466,-0.332,140.236
+0 days 01:28:11.560000,GAS,10,126.733,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Alpine,41,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,34.875,37.966,44.566,54.238,0.0,0.0,127.074
+0 days 01:29:50.001000,GAS,10,98.441,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.583,7.166,16.274,19.806,0.0,0.0,98.839
+0 days 01:31:26.063000,GAS,10,96.062,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.204,4.577,13.895,16.911,-0.191,-0.198,96.517
+0 days 01:33:01.590000,GAS,10,95.527,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.669,3.994,13.36,16.26,0.42,0.442,96.039
+0 days 01:34:36.292000,GAS,10,94.702,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.844,3.096,12.535,15.256,0.047,0.05,95.271
+0 days 01:36:10.519000,GAS,10,94.227,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.369,2.579,12.06,14.677,0.163,0.173,94.85300000000001
+0 days 01:37:43.794000,GAS,10,93.275,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.417,1.543,11.108,13.519,0.0,0.0,93.95800000000001
+0 days 01:39:16.653000,GAS,10,92.859,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.001,1.09,10.692,13.013,0.0,0.0,93.59899999999999
+0 days 01:40:49.397000,GAS,10,92.744,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.886,0.965,10.577,12.873,0.199,0.215,93.541
+0 days 01:42:21.842000,GAS,10,92.445,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.587,0.639,10.278,12.509,-0.076,-0.082,93.29799999999999
+0 days 01:43:54.637000,GAS,10,92.795,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.937,1.02,10.628,12.935,-0.171,-0.184,93.705
+0 days 01:45:27.761000,GAS,10,93.124,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.266,1.378,10.957,13.335,0.143,0.154,94.091
+0 days 01:47:00.223000,GAS,10,92.462,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.604,0.658,10.295,12.529,-0.222,-0.24,93.486
+0 days 01:48:32.550000,GAS,10,92.327,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.469,0.511,10.16,12.365,-0.029,-0.031,93.408
+0 days 01:50:04.873000,GAS,10,92.323,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.465,0.506,10.156,12.36,0.244,0.265,93.461
+0 days 01:51:37.228000,GAS,10,92.355,22.0,4.0,,,False,INTERMEDIATE,22.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.497,0.541,10.188,12.399,0.302,0.328,93.55
+0 days 01:53:09.666000,GAS,10,92.438,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.58,0.631,10.271,12.5,0.645,0.703,93.69
+0 days 01:54:41.701000,GAS,10,92.035,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.177,0.193,9.868,12.01,0.183,0.199,93.344
+0 days 01:56:13.323000,GAS,10,91.622,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.236,-0.257,9.455,11.507,0.242,0.265,92.988
+0 days 01:57:44.251000,GAS,10,90.928,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.93,-1.012,8.761,10.662,-0.371,-0.406,92.35
+0 days 01:59:14.886000,GAS,10,90.635,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.223,-1.331,8.468,10.306,-0.12,-0.132,92.114
+0 days 02:00:45.268000,GAS,10,90.382,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.476,-1.607,8.215,9.998,-0.27,-0.298,91.918
+0 days 02:02:15.319000,GAS,10,90.051,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.807,-1.967,7.884,9.595,0.02,0.022,91.644
+0 days 02:03:45.443000,GAS,10,90.124,30.0,4.0,,,False,INTERMEDIATE,30.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.734,-1.888,7.957,9.684,0.33,0.368,91.774
+0 days 02:05:14.742000,GAS,10,89.299,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.559,-2.786,7.132,8.68,-0.754,-0.837,91.006
+0 days 02:06:44.125000,GAS,10,89.383,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Alpine,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.475,-2.694,7.216,8.782,-0.447,-0.498,91.14699999999999
+0 days 02:08:35.425000,GAS,10,111.3,33.0,4.0,,0 days 02:08:17.990000,False,INTERMEDIATE,33.0,False,Alpine,124,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,19.442,21.165,29.133,35.456,20.747,22.911,113.121
+0 days 02:11:00.474000,GAS,10,145.049,34.0,5.0,0 days 02:08:37.599000,,False,HARD,1.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,52.814,57.26,62.882,76.53,24.451,20.275,146.927
+0 days 02:12:46.005000,GAS,10,105.531,35.0,5.0,,,False,HARD,2.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,13.296,14.415,23.364,28.435,0.069,0.065,107.465
+0 days 02:14:27.625000,GAS,10,101.62,36.0,5.0,,,False,HARD,3.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,9.385,10.175,19.453,23.675,-0.798,-0.779,103.611
+0 days 02:16:34.843000,GAS,10,127.218,37.0,5.0,,,False,HARD,4.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,34.983,37.928,45.051,54.829,-2.692,-2.072,129.266
+0 days 02:18:54.219000,GAS,10,139.376,38.0,5.0,,,False,HARD,5.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,47.141,51.11,57.209,69.625,0.362,0.26,141.481
+0 days 02:21:05.445000,GAS,10,131.226,39.0,5.0,,,False,HARD,6.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,38.991,42.274,49.059,59.706,-0.714,-0.541,133.388
+0 days 02:23:15.921000,GAS,10,130.476,40.0,5.0,,,False,HARD,7.0,True,Alpine,4,9.0,False,1,Australian Grand Prix,True,C3,False,38.241,41.46,48.309,58.794,-0.912,-0.694,132.695
+0 days 02:25:22.289000,GAS,10,126.368,41.0,5.0,,,False,HARD,8.0,True,Alpine,41,9.0,False,1,Australian Grand Prix,True,C3,False,34.133,37.007,44.201,53.794,-0.12,-0.095,128.644
+0 days 02:26:50.231000,GAS,10,87.942,42.0,5.0,,,True,HARD,9.0,True,Alpine,1,9.0,True,1,Australian Grand Prix,True,C3,True,-4.293,-4.654,5.775,7.028,0.963,1.107,90.27499999999999
+0 days 02:28:15.251000,GAS,10,85.02,43.0,5.0,,,True,HARD,10.0,True,Alpine,1,9.0,True,1,Australian Grand Prix,True,C3,True,-7.215,-7.822,2.853,3.472,0.271,0.32,87.41
+0 days 02:29:43.583000,GAS,10,88.332,44.0,5.0,,,False,HARD,11.0,True,Alpine,12,4.0,True,1,Australian Grand Prix,True,C3,False,-3.903,-4.232,6.165,7.503,0.0,0.0,90.779
+0 days 02:31:16.552000,GAS,10,92.969,45.0,5.0,,,False,HARD,12.0,True,Alpine,21,4.0,True,1,Australian Grand Prix,True,C3,False,0.734,0.796,10.802,13.146,-0.076,-0.082,95.472
+0 days 02:33:12.621000,GAS,10,116.069,46.0,5.0,,0 days 02:32:55.194000,False,HARD,13.0,True,Alpine,1,11.0,False,1,Australian Grand Prix,True,C3,False,23.834,25.841,33.902,41.26,21.457,22.679,118.629
+0 days 02:35:19.361000,GAS,10,126.74,47.0,6.0,0 days 02:33:14.929000,,False,INTERMEDIATE,1.0,True,Alpine,124,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,34.882,37.974,44.573,54.247,2.931,2.367,129.357
+0 days 02:37:21.146000,GAS,10,121.785,48.0,6.0,,,False,INTERMEDIATE,2.0,True,Alpine,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,29.927,32.58,39.618,48.216,1.71,1.424,124.459
+0 days 02:39:45.815000,GAS,10,144.669,49.0,6.0,,,False,INTERMEDIATE,3.0,True,Alpine,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.811,57.492,62.502,76.067,0.051,0.035,147.4
+0 days 02:42:03.569000,GAS,10,137.754,50.0,6.0,,,False,INTERMEDIATE,4.0,True,Alpine,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,45.896,49.964,55.587,67.651,-1.922,-1.376,140.542
+0 days 02:44:15.314000,GAS,10,131.745,51.0,6.0,,,False,INTERMEDIATE,5.0,True,Alpine,41,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,39.887,43.422,49.578,60.338,-0.486,-0.368,134.59
+0 days 02:45:51.640000,GAS,10,96.326,52.0,6.0,,,False,INTERMEDIATE,6.0,True,Alpine,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.468,4.864,14.159,17.232,0.661,0.691,99.228
+0 days 02:47:23.937000,GAS,10,92.297,53.0,6.0,,,False,INTERMEDIATE,7.0,True,Alpine,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.439,0.478,10.13,12.329,0.485,0.528,95.256
+0 days 02:48:58.904000,GAS,10,94.967,54.0,6.0,,,False,INTERMEDIATE,8.0,True,Alpine,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.109,3.385,12.8,15.578,4.073,4.481,97.983
+0 days 02:50:31.220000,GAS,10,92.316,55.0,6.0,,,False,INTERMEDIATE,9.0,True,Alpine,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.458,0.499,10.149,12.352,1.972,2.183,95.388
+0 days 02:52:02.086000,GAS,10,90.866,56.0,6.0,,,False,INTERMEDIATE,10.0,True,Alpine,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.992,-1.08,8.699,10.587,0.706,0.783,93.995
+0 days 02:53:33.398000,GAS,10,91.312,57.0,6.0,,,False,INTERMEDIATE,11.0,True,Alpine,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.546,-0.594,9.145,11.13,0.606,0.668,94.49799999999999
+0 days 01:13:22.976000,ANT,12,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Mercedes,124,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:12.898000,ANT,12,,2.0,1.0,,0 days 01:16:01.429000,False,INTERMEDIATE,2.0,True,Mercedes,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:57.575000,ANT,12,,3.0,2.0,0 days 01:16:16.265000,0 days 01:18:43.529000,False,INTERMEDIATE,3.0,False,Mercedes,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:32.097000,ANT,12,,4.0,3.0,0 days 01:18:59.964000,0 days 01:21:21.148000,False,INTERMEDIATE,4.0,False,Mercedes,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:51.260000,ANT,12,139.163,5.0,4.0,0 days 01:21:35.283000,,False,INTERMEDIATE,5.0,False,Mercedes,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.305,51.498,56.996,69.366,,,139.39100000000002
+0 days 01:26:12.371000,ANT,12,141.111,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Mercedes,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.253,53.619,58.944,71.737,0.693,0.494,141.39499999999998
+0 days 01:28:15.783000,ANT,12,123.412,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Mercedes,41,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,31.554,34.351,41.245,50.197,-3.321,-2.62,123.753
+0 days 01:29:54.512000,ANT,12,98.729,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.871,7.48,16.562,20.157,0.288,0.293,99.127
+0 days 01:31:30.824000,ANT,12,96.312,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.454,4.849,14.145,17.215,0.059,0.061,96.767
+0 days 01:33:06.094000,ANT,12,95.27,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.412,3.714,13.103,15.947,0.163,0.171,95.782
+0 days 01:34:40.772000,ANT,12,94.678,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.82,3.07,12.511,15.226,0.023,0.024,95.247
+0 days 01:36:16.157000,ANT,12,95.385,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.527,3.84,13.218,16.087,1.321,1.404,96.01100000000001
+0 days 01:37:49.854000,ANT,12,93.697,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.839,2.002,11.53,14.032,0.422,0.452,94.38000000000001
+0 days 01:39:23.656000,ANT,12,93.802,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.944,2.116,11.635,14.16,0.943,1.016,94.542
+0 days 01:40:55.868000,ANT,12,92.212,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.354,0.385,10.045,12.225,-0.333,-0.36,93.009
+0 days 01:42:33.194000,ANT,12,97.326,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Mercedes,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.468,5.953,15.159,18.449,4.805,5.193,98.17899999999999
+0 days 01:44:05.506000,ANT,12,92.312,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.454,0.494,10.145,12.347,-0.654,-0.703,93.222
+0 days 01:45:37.687000,ANT,12,92.181,18.0,4.0,,,True,INTERMEDIATE,18.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.323,0.352,10.014,12.187,-0.8,-0.86,93.148
+0 days 01:47:09.629000,ANT,12,91.942,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.084,0.091,9.775,11.897,-0.742,-0.801,92.966
+0 days 01:48:40.948000,ANT,12,91.319,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.539,-0.587,9.152,11.138,-1.037,-1.123,92.4
+0 days 01:50:11.990000,ANT,12,91.042,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Mercedes,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.816,-0.888,8.875,10.801,-1.037,-1.126,92.18
+0 days 01:51:43.877000,ANT,12,91.887,22.0,4.0,,,False,INTERMEDIATE,22.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.029,0.032,9.72,11.83,-0.166,-0.18,93.082
+0 days 01:53:15.201000,ANT,12,91.324,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.534,-0.581,9.157,11.144,-0.469,-0.511,92.576
+0 days 01:54:46.023000,ANT,12,90.822,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.036,-1.128,8.655,10.533,-1.03,-1.121,92.131
+0 days 01:56:16.729000,ANT,12,90.706,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.152,-1.254,8.539,10.392,-0.674,-0.738,92.072
+0 days 01:57:48.028000,ANT,12,91.299,26.0,4.0,,,False,INTERMEDIATE,26.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.559,-0.609,9.132,11.114,0.0,0.0,92.721
+0 days 01:59:18.491000,ANT,12,90.463,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.395,-1.519,8.296,10.097,-0.292,-0.322,91.942
+0 days 02:00:49.207000,ANT,12,90.716,28.0,4.0,,,False,INTERMEDIATE,28.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.142,-1.243,8.549,10.404,0.064,0.071,92.252
+0 days 02:02:19.126000,ANT,12,89.919,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.939,-2.111,7.752,9.434,-0.112,-0.124,91.512
+0 days 02:03:48.920000,ANT,12,89.794,30.0,4.0,,,True,INTERMEDIATE,30.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.064,-2.247,7.627,9.282,0.0,0.0,91.444
+0 days 02:05:18.165000,ANT,12,89.245,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.613,-2.845,7.078,8.614,-0.808,-0.897,90.952
+0 days 02:06:47.197000,ANT,12,89.032,32.0,4.0,,,True,INTERMEDIATE,32.0,False,Mercedes,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.826,-3.076,6.865,8.355,-0.798,-0.888,90.79599999999999
+0 days 02:08:39.832000,ANT,12,112.635,33.0,4.0,,0 days 02:08:23.095000,False,INTERMEDIATE,33.0,False,Mercedes,124,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,20.777,22.619,30.468,37.081,22.082,24.386,114.456
+0 days 02:11:02.428000,ANT,12,142.596,34.0,5.0,0 days 02:08:42.155000,,False,HARD,1.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,50.361,54.601,60.429,73.544,21.998,18.241,144.474
+0 days 02:12:47.098000,ANT,12,104.67,35.0,5.0,,,False,HARD,2.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,12.435,13.482,22.503,27.387,-0.792,-0.751,106.604
+0 days 02:14:28.753000,ANT,12,101.655,36.0,5.0,,,False,HARD,3.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,9.42,10.213,19.488,23.718,-0.763,-0.745,103.646
+0 days 02:16:36.051000,ANT,12,127.298,37.0,5.0,,,False,HARD,4.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,35.063,38.015,45.131,54.926,-2.612,-2.011,129.346
+0 days 02:18:55.732000,ANT,12,139.681,38.0,5.0,,,False,HARD,5.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,47.446,51.44,57.514,69.996,0.667,0.48,141.786
+0 days 02:21:07.374000,ANT,12,131.642,39.0,5.0,,,False,HARD,6.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,39.407,42.725,49.475,60.213,-0.298,-0.226,133.804
+0 days 02:23:16.989000,ANT,12,129.615,40.0,5.0,,,False,HARD,7.0,True,Mercedes,4,10.0,False,1,Australian Grand Prix,True,C3,False,37.38,40.527,47.448,57.746,-1.773,-1.349,131.834
+0 days 02:25:23.209000,ANT,12,126.22,41.0,5.0,,,False,HARD,8.0,True,Mercedes,41,10.0,False,1,Australian Grand Prix,True,C3,False,33.985,36.846,44.053,53.614,-0.268,-0.212,128.496
+0 days 02:26:50.714000,ANT,12,87.505,42.0,5.0,,,True,HARD,9.0,True,Mercedes,1,10.0,True,1,Australian Grand Prix,True,C3,True,-4.73,-5.128,5.338,6.497,0.526,0.605,89.838
+0 days 02:28:15.615000,ANT,12,84.901,43.0,5.0,,,True,HARD,10.0,True,Mercedes,1,10.0,True,1,Australian Grand Prix,True,C3,True,-7.334,-7.951,2.734,3.327,0.152,0.179,87.291
+0 days 02:30:03.891000,ANT,12,108.276,44.0,5.0,,0 days 02:29:44.044000,False,HARD,11.0,True,Mercedes,12,11.0,False,1,Australian Grand Prix,True,C3,False,16.041,17.391,26.109,31.776,19.944,22.578,110.723
+0 days 02:31:39.484000,ANT,12,95.593,45.0,6.0,0 days 02:30:06.012000,,False,INTERMEDIATE,1.0,True,Mercedes,21,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,3.735,4.066,13.426,16.34,2.548,2.738,98.096
+0 days 02:33:10.264000,ANT,12,90.78,46.0,6.0,,,False,INTERMEDIATE,2.0,True,Mercedes,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.078,-1.174,8.613,10.482,-3.832,-4.05,93.34
+0 days 02:35:16.014000,ANT,12,125.75,47.0,6.0,,,False,INTERMEDIATE,3.0,True,Mercedes,124,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.892,36.896,43.583,53.042,1.941,1.568,128.367
+0 days 02:37:14.443000,ANT,12,118.429,48.0,6.0,,,False,INTERMEDIATE,4.0,True,Mercedes,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,26.571,28.926,36.262,44.132,-1.646,-1.371,121.10300000000001
+0 days 02:39:39.407000,ANT,12,144.964,49.0,6.0,,,False,INTERMEDIATE,5.0,True,Mercedes,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,53.106,57.813,62.797,76.426,0.346,0.239,147.695
+0 days 02:41:59.691000,ANT,12,140.284,50.0,6.0,,,False,INTERMEDIATE,6.0,True,Mercedes,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.426,52.718,58.117,70.73,0.608,0.435,143.072
+0 days 02:44:12.662000,ANT,12,132.971,51.0,6.0,,,False,INTERMEDIATE,7.0,True,Mercedes,41,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.113,44.757,50.804,61.83,0.74,0.56,135.816
+0 days 02:45:47.670000,ANT,12,95.008,52.0,6.0,,,False,INTERMEDIATE,8.0,True,Mercedes,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.15,3.429,12.841,15.628,-0.657,-0.687,97.91
+0 days 02:47:19.068000,ANT,12,91.398,53.0,6.0,,,False,INTERMEDIATE,9.0,True,Mercedes,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.46,-0.501,9.231,11.234,-0.414,-0.451,94.357
+0 days 02:48:49.630000,ANT,12,90.562,54.0,6.0,,,False,INTERMEDIATE,10.0,True,Mercedes,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.296,-1.411,8.395,10.217,-0.332,-0.365,93.578
+0 days 02:50:20.232000,ANT,12,90.602,55.0,6.0,,,False,INTERMEDIATE,11.0,True,Mercedes,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.256,-1.367,8.435,10.266,0.258,0.286,93.674
+0 days 02:51:48.381000,ANT,12,88.149,56.0,6.0,,,False,INTERMEDIATE,12.0,True,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.709,-4.038,5.982,7.28,-2.011,-2.23,91.278
+0 days 02:53:17.031000,ANT,12,88.65,57.0,6.0,,,False,INTERMEDIATE,13.0,True,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.208,-3.492,6.483,7.89,-2.056,-2.267,91.83600000000001
+0 days 01:13:17.788000,ALO,14,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Aston Martin,124,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:07.295000,ALO,14,,2.0,1.0,,0 days 01:15:54.830000,False,INTERMEDIATE,2.0,True,Aston Martin,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:50.610000,ALO,14,,3.0,2.0,0 days 01:16:10.400000,0 days 01:18:37.191000,False,INTERMEDIATE,3.0,False,Aston Martin,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:25.229000,ALO,14,,4.0,3.0,0 days 01:18:53.529000,0 days 01:21:13.968000,False,INTERMEDIATE,4.0,False,Aston Martin,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:47.410000,ALO,14,142.181,5.0,4.0,0 days 01:21:29.030000,,False,INTERMEDIATE,5.0,False,Aston Martin,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.323,54.783,60.014,73.039,,,142.40900000000002
+0 days 01:26:06.903000,ALO,14,139.493,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Aston Martin,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.635,51.857,57.326,69.768,-0.925,-0.659,139.777
+0 days 01:28:12.497000,ALO,14,125.594,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Aston Martin,41,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.736,36.726,43.427,52.852,-1.139,-0.899,125.93499999999999
+0 days 01:29:50.851000,ALO,14,98.354,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.496,7.072,16.187,19.7,-0.087,-0.088,98.752
+0 days 01:31:27.118000,ALO,14,96.267,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.409,4.8,14.1,17.16,0.014,0.015,96.722
+0 days 01:33:02.687000,ALO,14,95.569,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.711,4.04,13.402,16.311,0.462,0.486,96.081
+0 days 01:34:37.987000,ALO,14,95.3,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.442,3.747,13.133,15.983,0.645,0.681,95.869
+0 days 01:36:12.063000,ALO,14,94.076,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.218,2.415,11.909,14.494,0.012,0.013,94.702
+0 days 01:37:45.578000,ALO,14,93.515,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.657,1.804,11.348,13.811,0.24,0.257,94.19800000000001
+0 days 01:39:18.242000,ALO,14,92.664,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.806,0.877,10.497,12.775,-0.195,-0.21,93.404
+0 days 01:40:50.566000,ALO,14,92.324,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.466,0.507,10.157,12.361,-0.221,-0.239,93.121
+0 days 01:42:23.087000,ALO,14,92.521,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.663,0.722,10.354,12.601,0.0,0.0,93.374
+0 days 01:43:56.053000,ALO,14,92.966,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.108,1.206,10.799,13.143,0.0,0.0,93.87599999999999
+0 days 01:45:28.751000,ALO,14,92.698,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.84,0.914,10.531,12.817,-0.283,-0.304,93.66499999999999
+0 days 01:47:01.031000,ALO,14,92.28,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.422,0.459,10.113,12.308,-0.404,-0.436,93.304
+0 days 01:48:33.641000,ALO,14,92.61,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.752,0.819,10.443,12.709,0.254,0.275,93.691
+0 days 01:50:06.186000,ALO,14,92.545,21.0,4.0,,,False,INTERMEDIATE,21.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.687,0.748,10.378,12.63,0.466,0.506,93.683
+0 days 01:51:39.468000,ALO,14,93.282,22.0,4.0,,,False,INTERMEDIATE,22.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.424,1.55,11.115,13.527,1.229,1.335,94.47699999999999
+0 days 01:53:11.978000,ALO,14,92.51,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.652,0.71,10.343,12.588,0.717,0.781,93.762
+0 days 01:54:43.643000,ALO,14,91.665,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.193,-0.21,9.498,11.559,-0.187,-0.204,92.974
+0 days 01:56:15.404000,ALO,14,91.761,25.0,4.0,,,False,INTERMEDIATE,25.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.097,-0.106,9.594,11.676,0.381,0.417,93.127
+0 days 01:57:46.747000,ALO,14,91.343,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.515,-0.561,9.176,11.168,0.044,0.048,92.765
+0 days 01:59:17.642000,ALO,14,90.895,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.963,-1.048,8.728,10.622,0.14,0.154,92.374
+0 days 02:00:48.294000,ALO,14,90.652,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.206,-1.313,8.485,10.327,0.0,0.0,92.188
+0 days 02:02:18.012000,ALO,14,89.718,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.14,-2.33,7.551,9.19,-0.313,-0.348,91.311
+0 days 02:03:47.386000,ALO,14,89.374,30.0,4.0,,,True,INTERMEDIATE,30.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.484,-2.704,7.207,8.771,-0.42,-0.468,91.024
+0 days 02:05:16.236000,ALO,14,88.85,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.008,-3.275,6.683,8.133,-1.203,-1.336,90.55699999999999
+0 days 02:06:45.055000,ALO,14,88.819,32.0,4.0,,,True,INTERMEDIATE,32.0,False,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.039,-3.308,6.652,8.096,-1.011,-1.125,90.583
+0 days 02:09:15.055000,ALO,14,,33.0,4.0,,,True,INTERMEDIATE,33.0,False,Aston Martin,124,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:13:09.163000,LEC,16,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,124,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:56.324000,LEC,16,,2.0,1.0,,0 days 01:15:44.366000,False,INTERMEDIATE,2.0,True,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:38.523000,LEC,16,,3.0,2.0,0 days 01:15:58.544000,0 days 01:18:26.003000,False,INTERMEDIATE,3.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:14.268000,LEC,16,,4.0,3.0,0 days 01:18:40.624000,0 days 01:21:02.246000,False,INTERMEDIATE,4.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:36.865000,LEC,16,142.597,5.0,4.0,0 days 01:21:16.471000,,False,INTERMEDIATE,5.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.739,55.236,60.43,73.545,,,142.82500000000002
+0 days 01:25:55.715000,LEC,16,138.85,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,46.992,51.157,56.683,68.985,-1.568,-1.117,139.134
+0 days 01:28:08.924000,LEC,16,133.209,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Ferrari,41,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.351,45.016,51.042,62.12,6.476,5.11,133.55
+0 days 01:29:47.114000,LEC,16,98.19,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.332,6.893,16.023,19.501,-0.251,-0.255,98.588
+0 days 01:31:22.047000,LEC,16,94.933,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.075,3.348,12.766,15.537,-1.32,-1.371,95.388
+0 days 01:32:55.586000,LEC,16,93.539,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.681,1.83,11.372,13.84,-1.568,-1.649,94.051
+0 days 01:34:29.837000,LEC,16,94.251,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.393,2.605,12.084,14.707,-0.404,-0.427,94.82000000000001
+0 days 01:36:03.373000,LEC,16,93.536,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.678,1.827,11.369,13.836,-0.528,-0.561,94.162
+0 days 01:37:35.571000,LEC,16,92.198,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.34,0.37,10.031,12.208,-1.077,-1.155,92.881
+0 days 01:39:08.019000,LEC,16,92.448,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.59,0.642,10.281,12.512,-0.411,-0.443,93.18799999999999
+0 days 01:40:39.865000,LEC,16,91.846,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.012,-0.013,9.679,11.78,-0.699,-0.755,92.643
+0 days 01:42:11.697000,LEC,16,91.832,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.026,-0.028,9.665,11.763,-0.689,-0.745,92.68499999999999
+0 days 01:43:44.199000,LEC,16,92.502,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.644,0.701,10.335,12.578,-0.464,-0.499,93.41199999999999
+0 days 01:45:16.813000,LEC,16,92.614,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.756,0.823,10.447,12.714,-0.367,-0.395,93.581
+0 days 01:46:48.674000,LEC,16,91.861,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.003,0.003,9.694,11.798,-0.823,-0.888,92.885
+0 days 01:48:20.430000,LEC,16,91.756,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.102,-0.111,9.589,11.67,-0.6,-0.65,92.837
+0 days 01:49:51.589000,LEC,16,91.159,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.699,-0.761,8.992,10.944,-0.92,-0.999,92.29700000000001
+0 days 01:51:22.284000,LEC,16,90.695,22.0,4.0,,,True,INTERMEDIATE,22.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.163,-1.266,8.528,10.379,-1.358,-1.475,91.88999999999999
+0 days 01:52:53.835000,LEC,16,91.551,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.307,-0.334,9.384,11.421,-0.242,-0.264,92.803
+0 days 01:54:24.567000,LEC,16,90.732,24.0,4.0,,,False,INTERMEDIATE,24.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.126,-1.226,8.565,10.424,-1.12,-1.219,92.041
+0 days 01:55:54.818000,LEC,16,90.251,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.607,-1.749,8.084,9.838,-1.129,-1.236,91.617
+0 days 01:57:25.158000,LEC,16,90.34,26.0,4.0,,,False,INTERMEDIATE,26.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.518,-1.653,8.173,9.947,-0.959,-1.05,91.762
+0 days 01:58:55.721000,LEC,16,90.563,27.0,4.0,,,False,INTERMEDIATE,27.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.295,-1.41,8.396,10.218,-0.192,-0.212,92.042
+0 days 02:00:25.444000,LEC,16,89.723,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.135,-2.324,7.556,9.196,-0.929,-1.025,91.259
+0 days 02:01:54.936000,LEC,16,89.492,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.366,-2.576,7.325,8.915,-0.539,-0.599,91.08500000000001
+0 days 02:03:24.303000,LEC,16,89.367,30.0,4.0,,,True,INTERMEDIATE,30.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.491,-2.712,7.2,8.763,-0.427,-0.476,91.01700000000001
+0 days 02:04:53.849000,LEC,16,89.546,31.0,4.0,,,False,INTERMEDIATE,31.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.312,-2.517,7.379,8.98,-0.507,-0.563,91.253
+0 days 02:06:23.186000,LEC,16,89.337,32.0,4.0,,,True,INTERMEDIATE,32.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.521,-2.744,7.17,8.726,-0.493,-0.549,91.101
+0 days 02:07:57.152000,LEC,16,93.966,33.0,4.0,,,False,INTERMEDIATE,33.0,False,Ferrari,124,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,2.108,2.295,11.799,14.36,3.413,3.769,95.78699999999999
+0 days 02:10:11.057000,LEC,16,133.905,34.0,4.0,,0 days 02:09:55.018000,False,INTERMEDIATE,34.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,42.047,45.774,51.738,62.967,13.307,11.034,135.783
+0 days 02:12:17.929000,LEC,16,126.872,35.0,5.0,0 days 02:10:13.161000,,False,HARD,2.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,34.637,37.553,44.705,54.407,21.41,20.301,128.806
+0 days 02:14:00.335000,LEC,16,102.406,36.0,5.0,,,False,HARD,3.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,10.171,11.027,20.239,24.632,-0.012,-0.012,104.397
+0 days 02:16:28.558000,LEC,16,148.223,37.0,5.0,,,False,HARD,4.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,55.988,60.701,66.056,80.392,18.313,14.097,150.27100000000002
+0 days 02:18:48.033000,LEC,16,139.475,38.0,5.0,,,False,HARD,5.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,47.24,51.217,57.308,69.746,0.461,0.332,141.57999999999998
+0 days 02:20:59.756000,LEC,16,131.723,39.0,5.0,,,False,HARD,6.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,39.488,42.812,49.556,60.311,-0.217,-0.164,133.88500000000002
+0 days 02:23:11.741000,LEC,16,131.985,40.0,5.0,,,False,HARD,7.0,False,Ferrari,4,5.0,False,1,Australian Grand Prix,True,C3,False,39.75,43.096,49.818,60.63,0.597,0.454,134.204
+0 days 02:25:20.570000,LEC,16,128.829,41.0,5.0,,,False,HARD,8.0,False,Ferrari,41,5.0,False,1,Australian Grand Prix,True,C3,False,36.594,39.675,46.662,56.789,2.341,1.851,131.10500000000002
+0 days 02:26:47.401000,LEC,16,86.831,42.0,5.0,,,True,HARD,9.0,False,Ferrari,1,5.0,True,1,Australian Grand Prix,True,C3,True,-5.404,-5.859,4.664,5.676,-0.148,-0.17,89.164
+0 days 02:28:12.672000,LEC,16,85.271,43.0,5.0,,,True,HARD,10.0,False,Ferrari,1,6.0,True,1,Australian Grand Prix,True,C3,True,-6.964,-7.55,3.104,3.778,0.522,0.616,87.661
+0 days 02:29:49.035000,LEC,16,96.363,44.0,5.0,,,False,HARD,11.0,False,Ferrari,12,5.0,True,1,Australian Grand Prix,True,C3,False,4.128,4.476,14.196,17.277,8.031,9.092,98.81
+0 days 02:31:20.304000,LEC,16,91.269,45.0,5.0,,,False,HARD,12.0,False,Ferrari,21,5.0,True,1,Australian Grand Prix,True,C3,False,-0.966,-1.047,9.102,11.077,-1.776,-1.909,93.772
+0 days 02:32:56.733000,LEC,16,96.429,46.0,5.0,,,False,HARD,13.0,False,Ferrari,1,2.0,True,1,Australian Grand Prix,True,C3,True,4.194,4.547,14.262,17.357,1.817,1.92,98.989
+0 days 02:35:29.215000,LEC,16,,47.0,5.0,,0 days 02:35:06.901000,False,HARD,14.0,False,Ferrari,124,10.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:37:25.259000,LEC,16,116.044,48.0,6.0,0 days 02:35:31.368000,,False,INTERMEDIATE,1.0,True,Ferrari,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,24.186,26.33,33.877,41.229,-4.031,-3.357,118.718
+0 days 02:39:48.036000,LEC,16,142.777,49.0,6.0,,,False,INTERMEDIATE,2.0,True,Ferrari,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.919,55.432,60.61,73.764,-1.841,-1.273,145.50799999999998
+0 days 02:42:07.818000,LEC,16,139.782,50.0,6.0,,,False,INTERMEDIATE,3.0,True,Ferrari,4,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.924,52.172,57.615,70.119,0.106,0.076,142.57000000000002
+0 days 02:44:15.814000,LEC,16,127.996,51.0,6.0,,,False,INTERMEDIATE,4.0,True,Ferrari,41,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,36.138,39.341,45.829,55.775,-4.235,-3.203,130.841
+0 days 02:45:52.194000,LEC,16,96.38,52.0,6.0,,,False,INTERMEDIATE,5.0,True,Ferrari,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.522,4.923,14.213,17.298,0.715,0.747,99.282
+0 days 02:47:24.925000,LEC,16,92.731,53.0,6.0,,,False,INTERMEDIATE,6.0,True,Ferrari,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.873,0.95,10.564,12.857,0.919,1.001,95.69
+0 days 02:48:56.007000,LEC,16,91.082,54.0,6.0,,,False,INTERMEDIATE,7.0,True,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.776,-0.845,8.915,10.85,0.188,0.207,94.098
+0 days 02:50:25.982000,LEC,16,89.975,55.0,6.0,,,False,INTERMEDIATE,8.0,True,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.883,-2.05,7.808,9.503,-0.369,-0.408,93.047
+0 days 02:51:55.783000,LEC,16,89.801,56.0,6.0,,,False,INTERMEDIATE,9.0,True,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.057,-2.239,7.634,9.291,-0.359,-0.398,92.93
+0 days 02:53:26.747000,LEC,16,90.964,57.0,6.0,,,False,INTERMEDIATE,10.0,True,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.894,-0.973,8.797,10.706,0.258,0.284,94.15
+0 days 01:13:20.053000,STR,18,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Aston Martin,124,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:09.657000,STR,18,,2.0,1.0,,0 days 01:15:57.307000,False,INTERMEDIATE,2.0,True,Aston Martin,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:53.621000,STR,18,,3.0,2.0,0 days 01:16:13.028000,0 days 01:18:40.020000,False,INTERMEDIATE,1.0,True,Aston Martin,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:28.367000,STR,18,,4.0,3.0,0 days 01:18:56.155000,0 days 01:21:17.105000,False,INTERMEDIATE,1.0,True,Aston Martin,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:48.776000,STR,18,140.409,5.0,4.0,0 days 01:21:31.574000,,False,INTERMEDIATE,1.0,True,Aston Martin,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.551,52.854,58.242,70.882,,,140.637
+0 days 01:26:09.749000,STR,18,140.973,6.0,4.0,,,True,INTERMEDIATE,2.0,True,Aston Martin,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.115,53.468,58.806,71.569,0.555,0.395,141.257
+0 days 01:28:14.436000,STR,18,124.687,7.0,4.0,,,True,INTERMEDIATE,3.0,True,Aston Martin,41,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,32.829,35.739,42.52,51.748,-2.046,-1.614,125.02799999999999
+0 days 01:29:53.100000,STR,18,98.664,8.0,4.0,,,True,INTERMEDIATE,4.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.806,7.409,16.497,20.077,0.223,0.227,99.062
+0 days 01:31:29.353000,STR,18,96.253,9.0,4.0,,,True,INTERMEDIATE,5.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.395,4.785,14.086,17.143,0.0,0.0,96.708
+0 days 01:33:04.493000,STR,18,95.14,10.0,4.0,,,True,INTERMEDIATE,6.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.282,3.573,12.973,15.789,0.033,0.035,95.652
+0 days 01:34:39.465000,STR,18,94.972,11.0,4.0,,,True,INTERMEDIATE,7.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.114,3.39,12.805,15.584,0.317,0.335,95.541
+0 days 01:36:13.891000,STR,18,94.426,12.0,4.0,,,True,INTERMEDIATE,8.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.568,2.796,12.259,14.92,0.362,0.385,95.052
+0 days 01:37:47.790000,STR,18,93.899,13.0,4.0,,,True,INTERMEDIATE,9.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.041,2.222,11.732,14.278,0.624,0.669,94.58200000000001
+0 days 01:39:20.887000,STR,18,93.097,14.0,4.0,,,True,INTERMEDIATE,10.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.239,1.349,10.93,13.302,0.238,0.256,93.83699999999999
+0 days 01:40:53.269000,STR,18,92.382,15.0,4.0,,,True,INTERMEDIATE,11.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.524,0.57,10.215,12.432,-0.163,-0.176,93.179
+0 days 01:42:25.823000,STR,18,92.554,16.0,4.0,,,False,INTERMEDIATE,12.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.696,0.758,10.387,12.641,0.033,0.036,93.407
+0 days 01:43:59.211000,STR,18,93.388,17.0,4.0,,,False,INTERMEDIATE,13.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.53,1.666,11.221,13.656,0.422,0.454,94.298
+0 days 01:45:32.842000,STR,18,93.631,18.0,4.0,,,False,INTERMEDIATE,14.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.773,1.93,11.464,13.952,0.65,0.699,94.598
+0 days 01:47:05.526000,STR,18,92.684,19.0,4.0,,,False,INTERMEDIATE,15.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.826,0.899,10.517,12.8,0.0,0.0,93.708
+0 days 01:48:38.106000,STR,18,92.58,20.0,4.0,,,False,INTERMEDIATE,16.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.722,0.786,10.413,12.673,0.224,0.243,93.661
+0 days 01:50:10.535000,STR,18,92.429,21.0,4.0,,,False,INTERMEDIATE,17.0,True,Aston Martin,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.571,0.622,10.262,12.489,0.35,0.38,93.56700000000001
+0 days 01:51:44.804000,STR,18,94.269,22.0,4.0,,,False,INTERMEDIATE,18.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.411,2.625,12.102,14.729,2.216,2.407,95.464
+0 days 01:53:17.447000,STR,18,92.643,23.0,4.0,,,False,INTERMEDIATE,19.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.785,0.855,10.476,12.75,0.85,0.926,93.895
+0 days 01:54:49.549000,STR,18,92.102,24.0,4.0,,,True,INTERMEDIATE,20.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.244,0.266,9.935,12.091,0.25,0.272,93.411
+0 days 01:56:21.641000,STR,18,92.092,25.0,4.0,,,True,INTERMEDIATE,21.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.234,0.255,9.925,12.079,0.712,0.779,93.458
+0 days 01:57:53.188000,STR,18,91.547,26.0,4.0,,,True,INTERMEDIATE,22.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.311,-0.339,9.38,11.416,0.248,0.272,92.969
+0 days 01:59:24.596000,STR,18,91.408,27.0,4.0,,,True,INTERMEDIATE,23.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.45,-0.49,9.241,11.247,0.653,0.72,92.887
+0 days 02:00:55.321000,STR,18,90.725,28.0,4.0,,,True,INTERMEDIATE,24.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.133,-1.233,8.558,10.415,0.073,0.081,92.261
+0 days 02:02:26.256000,STR,18,90.935,29.0,4.0,,,False,INTERMEDIATE,25.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.923,-1.005,8.768,10.671,0.904,1.004,92.528
+0 days 02:03:57.109000,STR,18,90.853,30.0,4.0,,,False,INTERMEDIATE,26.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.005,-1.094,8.686,10.571,1.059,1.179,92.503
+0 days 02:05:28.186000,STR,18,91.077,31.0,4.0,,,False,INTERMEDIATE,27.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.781,-0.85,8.91,10.844,1.024,1.137,92.78399999999999
+0 days 02:06:58.843000,STR,18,90.657,32.0,4.0,,,True,INTERMEDIATE,28.0,True,Aston Martin,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.201,-1.307,8.49,10.333,0.827,0.921,92.42099999999999
+0 days 02:09:01.609000,STR,18,122.766,33.0,4.0,,0 days 02:08:44.912000,False,INTERMEDIATE,29.0,True,Aston Martin,124,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.908,33.648,40.599,49.41,32.213,35.574,124.587
+0 days 02:11:06.602000,STR,18,124.993,34.0,5.0,0 days 02:09:03.663000,,False,HARD,2.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,32.758,35.516,42.826,52.121,4.395,3.644,126.871
+0 days 02:12:52.064000,STR,18,105.462,35.0,5.0,,,False,HARD,3.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,13.227,14.341,23.295,28.351,0.0,0.0,107.396
+0 days 02:14:31.914000,STR,18,99.85,36.0,5.0,,,False,HARD,4.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,7.615,8.256,17.683,21.521,-2.568,-2.507,101.841
+0 days 02:16:38.215000,STR,18,126.301,37.0,5.0,,,False,HARD,5.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,34.066,36.934,44.134,53.713,-3.609,-2.778,128.349
+0 days 02:18:58.285000,STR,18,140.07,38.0,5.0,,,False,HARD,6.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,47.835,51.862,57.903,70.47,1.056,0.76,142.17499999999998
+0 days 02:21:10.185000,STR,18,131.9,39.0,5.0,,,False,HARD,7.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,39.665,43.004,49.733,60.527,-0.04,-0.03,134.062
+0 days 02:23:20.085000,STR,18,129.9,40.0,5.0,,,False,HARD,8.0,False,Aston Martin,4,11.0,False,1,Australian Grand Prix,True,C3,False,37.665,40.836,47.733,58.093,-1.488,-1.133,132.119
+0 days 02:25:24.186000,STR,18,124.101,41.0,5.0,,,False,HARD,9.0,False,Aston Martin,41,11.0,False,1,Australian Grand Prix,True,C3,False,31.866,34.549,41.934,51.035,-2.387,-1.887,126.377
+0 days 02:26:51.487000,STR,18,87.301,42.0,5.0,,,True,HARD,10.0,False,Aston Martin,1,11.0,True,1,Australian Grand Prix,True,C3,True,-4.934,-5.349,5.134,6.248,0.322,0.37,89.634
+0 days 02:28:17.025000,STR,18,85.538,43.0,5.0,,,True,HARD,11.0,False,Aston Martin,1,11.0,True,1,Australian Grand Prix,True,C3,True,-6.697,-7.261,3.371,4.103,0.789,0.931,87.928
+0 days 02:30:01.763000,STR,18,104.738,44.0,5.0,,0 days 02:29:44.983000,False,HARD,12.0,False,Aston Martin,12,10.0,False,1,Australian Grand Prix,True,C3,False,12.503,13.556,22.571,27.47,16.406,18.573,107.185
+0 days 02:31:39.019000,STR,18,97.256,45.0,6.0,0 days 02:30:03.907000,,False,INTERMEDIATE,1.0,True,Aston Martin,21,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,5.398,5.876,15.089,18.364,4.211,4.526,99.759
+0 days 02:33:11.380000,STR,18,92.361,46.0,6.0,,,False,INTERMEDIATE,2.0,True,Aston Martin,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.503,0.548,10.194,12.406,-2.251,-2.379,94.921
+0 days 02:35:17.058000,STR,18,125.678,47.0,6.0,,,False,INTERMEDIATE,3.0,True,Aston Martin,124,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.82,36.818,43.511,52.954,1.869,1.51,128.295
+0 days 02:37:16.355000,STR,18,119.297,48.0,6.0,,,False,INTERMEDIATE,4.0,True,Aston Martin,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,27.439,29.871,37.13,45.188,-0.778,-0.648,121.971
+0 days 02:39:41.478000,STR,18,145.123,49.0,6.0,,,False,INTERMEDIATE,5.0,True,Aston Martin,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,53.265,57.986,62.956,76.62,0.505,0.349,147.85399999999998
+0 days 02:42:01.048000,STR,18,139.57,50.0,6.0,,,False,INTERMEDIATE,6.0,True,Aston Martin,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.712,51.941,57.403,69.861,-0.106,-0.076,142.358
+0 days 02:44:14.895000,STR,18,133.847,51.0,6.0,,,False,INTERMEDIATE,7.0,True,Aston Martin,41,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.989,45.711,51.68,62.896,1.616,1.222,136.692
+0 days 02:45:50.290000,STR,18,95.395,52.0,6.0,,,False,INTERMEDIATE,8.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.537,3.851,13.228,16.099,-0.27,-0.282,98.297
+0 days 02:47:21.848000,STR,18,91.558,53.0,6.0,,,False,INTERMEDIATE,9.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.3,-0.327,9.391,11.429,-0.254,-0.277,94.51700000000001
+0 days 02:48:52.642000,STR,18,90.794,54.0,6.0,,,False,INTERMEDIATE,10.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.064,-1.158,8.627,10.499,-0.1,-0.11,93.81
+0 days 02:50:23.029000,STR,18,90.387,55.0,6.0,,,False,INTERMEDIATE,11.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.471,-1.601,8.22,10.004,0.043,0.048,93.459
+0 days 02:51:53.352000,STR,18,90.323,56.0,6.0,,,False,INTERMEDIATE,12.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.535,-1.671,8.156,9.926,0.163,0.181,93.452
+0 days 02:53:24.309000,STR,18,90.957,57.0,6.0,,,False,INTERMEDIATE,13.0,True,Aston Martin,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.901,-0.981,8.79,10.698,0.251,0.277,94.143
+0 days 01:13:11.264000,TSU,22,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Racing Bulls,124,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:59.588000,TSU,22,,2.0,1.0,,0 days 01:15:46.618000,False,INTERMEDIATE,2.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:42.370000,TSU,22,,3.0,2.0,0 days 01:16:01.530000,0 days 01:18:29.345000,False,INTERMEDIATE,3.0,False,Racing Bulls,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:17.581000,TSU,22,,4.0,3.0,0 days 01:18:44.490000,0 days 01:21:06.137000,False,INTERMEDIATE,4.0,False,Racing Bulls,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:39.022000,TSU,22,141.441,5.0,4.0,0 days 01:21:19.691000,,False,INTERMEDIATE,5.0,False,Racing Bulls,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.583,53.978,59.274,72.138,,,141.669
+0 days 01:25:58.403000,TSU,22,139.381,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Racing Bulls,4,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.523,51.735,57.214,69.631,-1.037,-0.739,139.665
+0 days 01:28:09.854000,TSU,22,131.451,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Racing Bulls,41,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,39.593,43.102,49.284,59.98,4.718,3.723,131.792
+0 days 01:29:48.318000,TSU,22,98.464,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.606,7.192,16.297,19.834,0.023,0.023,98.862
+0 days 01:31:23.727000,TSU,22,95.409,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.551,3.866,13.242,16.116,-0.844,-0.877,95.864
+0 days 01:32:58.160000,TSU,22,94.433,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.575,2.803,12.266,14.928,-0.674,-0.709,94.94500000000001
+0 days 01:34:32.296000,TSU,22,94.136,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.278,2.48,11.969,14.567,-0.519,-0.548,94.705
+0 days 01:36:05.569000,TSU,22,93.273,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.415,1.54,11.106,13.516,-0.791,-0.841,93.899
+0 days 01:37:38.331000,TSU,22,92.762,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.904,0.984,10.595,12.894,-0.513,-0.55,93.44500000000001
+0 days 01:39:10.765000,TSU,22,92.434,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.576,0.627,10.267,12.495,-0.425,-0.458,93.17399999999999
+0 days 01:40:43.310000,TSU,22,92.545,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.687,0.748,10.378,12.63,0.0,0.0,93.342
+0 days 01:42:15.443000,TSU,22,92.133,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.275,0.299,9.966,12.129,-0.388,-0.419,92.98599999999999
+0 days 01:43:48.088000,TSU,22,92.645,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.787,0.857,10.478,12.752,-0.321,-0.345,93.55499999999999
+0 days 01:45:21.532000,TSU,22,93.444,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.586,1.727,11.277,13.724,0.463,0.498,94.411
+0 days 01:46:55.028000,TSU,22,93.496,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.638,1.783,11.329,13.788,0.812,0.876,94.52
+0 days 01:48:27.577000,TSU,22,92.549,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.691,0.752,10.382,12.635,0.193,0.209,93.63000000000001
+0 days 01:49:59.589000,TSU,22,92.012,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.154,0.168,9.845,11.982,-0.067,-0.073,93.15
+0 days 01:51:31.156000,TSU,22,91.567,22.0,4.0,,,True,INTERMEDIATE,22.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.291,-0.317,9.4,11.44,-0.486,-0.528,92.76199999999999
+0 days 01:53:02.949000,TSU,22,91.793,23.0,4.0,,,False,INTERMEDIATE,23.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.065,-0.071,9.626,11.715,0.0,0.0,93.045
+0 days 01:54:34.329000,TSU,22,91.38,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.478,-0.52,9.213,11.213,-0.472,-0.514,92.689
+0 days 01:56:05.709000,TSU,22,91.38,25.0,4.0,,,False,INTERMEDIATE,25.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.478,-0.52,9.213,11.213,0.0,0.0,92.746
+0 days 01:57:36.914000,TSU,22,91.205,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.653,-0.711,9.038,11.0,-0.094,-0.103,92.627
+0 days 01:59:07.980000,TSU,22,91.066,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.792,-0.862,8.899,10.83,0.311,0.343,92.545
+0 days 02:00:38.689000,TSU,22,90.709,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.149,-1.251,8.542,10.396,0.057,0.063,92.245
+0 days 02:02:08.720000,TSU,22,90.031,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.827,-1.989,7.864,9.571,0.0,0.0,91.62400000000001
+0 days 02:03:38.904000,TSU,22,90.184,30.0,4.0,,,False,INTERMEDIATE,30.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.674,-1.822,8.017,9.757,0.39,0.434,91.834
+0 days 02:05:08.986000,TSU,22,90.082,31.0,4.0,,,False,INTERMEDIATE,31.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.776,-1.933,7.915,9.633,0.029,0.032,91.78899999999999
+0 days 02:06:39.478000,TSU,22,90.492,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Racing Bulls,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.366,-1.487,8.325,10.132,0.662,0.737,92.256
+0 days 02:08:30.129000,TSU,22,110.651,33.0,4.0,,0 days 02:08:13.310000,False,INTERMEDIATE,33.0,False,Racing Bulls,124,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,18.793,20.459,28.484,34.666,20.098,22.195,112.472
+0 days 02:10:56.940000,TSU,22,146.811,34.0,5.0,0 days 02:08:32.258000,,False,MEDIUM,1.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,54.576,59.171,64.644,78.674,26.213,21.736,148.689
+0 days 02:12:39.302000,TSU,22,102.362,35.0,5.0,,,False,MEDIUM,2.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,10.127,10.98,20.195,24.578,-3.1,-2.939,104.29599999999999
+0 days 02:14:18.668000,TSU,22,99.366,36.0,5.0,,,False,MEDIUM,3.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,7.131,7.731,17.199,20.932,-3.052,-2.98,101.357
+0 days 02:16:30.409000,TSU,22,131.741,37.0,5.0,,,False,MEDIUM,4.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,39.506,42.832,49.574,60.333,1.831,1.409,133.78900000000002
+0 days 02:18:49.640000,TSU,22,139.231,38.0,5.0,,,False,MEDIUM,5.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,46.996,50.952,57.064,69.449,0.217,0.156,141.33599999999998
+0 days 02:21:01.620000,TSU,22,131.98,39.0,5.0,,,False,MEDIUM,6.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,39.745,43.091,49.813,60.624,0.04,0.03,134.142
+0 days 02:23:13.449000,TSU,22,131.829,40.0,5.0,,,False,MEDIUM,7.0,True,Racing Bulls,4,6.0,False,1,Australian Grand Prix,True,C4,False,39.594,42.927,49.662,60.44,0.441,0.336,134.048
+0 days 02:25:20.975000,TSU,22,127.526,41.0,5.0,,,False,MEDIUM,8.0,True,Racing Bulls,41,6.0,False,1,Australian Grand Prix,True,C4,False,35.291,38.262,45.359,55.203,1.038,0.821,129.802
+0 days 02:26:48.121000,TSU,22,87.146,42.0,5.0,,,True,MEDIUM,9.0,True,Racing Bulls,1,6.0,True,1,Australian Grand Prix,True,C4,True,-5.089,-5.517,4.979,6.06,0.167,0.192,89.479
+0 days 02:28:12.315000,TSU,22,84.194,43.0,5.0,,,True,MEDIUM,10.0,True,Racing Bulls,1,5.0,True,1,Australian Grand Prix,True,C4,True,-8.041,-8.718,2.027,2.467,-0.555,-0.655,86.584
+0 days 02:29:40.567000,TSU,22,88.252,44.0,5.0,,,False,MEDIUM,11.0,True,Racing Bulls,12,2.0,True,1,Australian Grand Prix,True,C4,False,-3.983,-4.318,6.085,7.406,-0.08,-0.091,90.699
+0 days 02:31:16.550000,TSU,22,95.983,45.0,5.0,,,False,MEDIUM,12.0,True,Racing Bulls,21,3.0,True,1,Australian Grand Prix,True,C4,False,3.748,4.064,13.816,16.815,2.938,3.158,98.486
+0 days 02:32:57.528000,TSU,22,100.978,46.0,5.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,4.0,True,1,Australian Grand Prix,True,C4,True,8.743,9.479,18.811,22.894,6.366,6.729,103.538
+0 days 02:35:30.876000,TSU,22,,47.0,5.0,,0 days 02:35:13.664000,False,MEDIUM,14.0,True,Racing Bulls,124,11.0,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 02:37:27.162000,TSU,22,116.286,48.0,6.0,0 days 02:35:32.932000,,False,INTERMEDIATE,1.0,True,Racing Bulls,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,24.428,26.593,34.119,41.524,-3.789,-3.156,118.96000000000001
+0 days 02:39:49.726000,TSU,22,142.564,49.0,6.0,,,False,INTERMEDIATE,2.0,True,Racing Bulls,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.706,55.2,60.397,73.505,-2.054,-1.42,145.295
+0 days 02:42:09.827000,TSU,22,140.101,50.0,6.0,,,False,INTERMEDIATE,3.0,True,Racing Bulls,4,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.243,52.519,57.934,70.508,0.425,0.304,142.889
+0 days 02:44:16.882000,TSU,22,127.055,51.0,6.0,,,False,INTERMEDIATE,4.0,True,Racing Bulls,41,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.197,38.317,44.888,54.63,-5.176,-3.914,129.9
+0 days 02:45:54.691000,TSU,22,97.809,52.0,6.0,,,False,INTERMEDIATE,5.0,True,Racing Bulls,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.951,6.478,15.642,19.037,2.144,2.241,100.711
+0 days 02:47:29.527000,TSU,22,94.836,53.0,6.0,,,False,INTERMEDIATE,6.0,True,Racing Bulls,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.978,3.242,12.669,15.419,3.024,3.294,97.795
+0 days 02:49:01.890000,TSU,22,92.363,54.0,6.0,,,False,INTERMEDIATE,7.0,True,Racing Bulls,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.505,0.55,10.196,12.409,1.469,1.616,95.379
+0 days 02:50:33.781000,TSU,22,91.891,55.0,6.0,,,False,INTERMEDIATE,8.0,True,Racing Bulls,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.033,0.036,9.724,11.834,1.547,1.712,94.96300000000001
+0 days 02:52:05.305000,TSU,22,91.524,56.0,6.0,,,False,INTERMEDIATE,9.0,True,Racing Bulls,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.334,-0.364,9.357,11.388,1.364,1.513,94.653
+0 days 02:53:36.816000,TSU,22,91.511,57.0,6.0,,,False,INTERMEDIATE,10.0,True,Racing Bulls,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.347,-0.378,9.344,11.372,0.805,0.887,94.697
+0 days 01:13:12.809000,ALB,23,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Williams,124,10.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:01.755000,ALB,23,,2.0,1.0,,0 days 01:15:48.835000,False,INTERMEDIATE,2.0,True,Williams,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:45.336000,ALB,23,,3.0,2.0,0 days 01:16:03.745000,0 days 01:18:31.238000,False,INTERMEDIATE,1.0,True,Williams,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:19.555000,ALB,23,,4.0,3.0,0 days 01:18:48.304000,0 days 01:21:07.775000,False,INTERMEDIATE,2.0,False,Williams,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:41.639000,ALB,23,142.084,5.0,4.0,0 days 01:21:22.068000,,False,INTERMEDIATE,3.0,False,Williams,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.226,54.678,59.917,72.921,,,142.312
+0 days 01:26:01.251000,ALB,23,139.612,6.0,4.0,,,True,INTERMEDIATE,4.0,False,Williams,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.754,51.987,57.445,69.912,-0.806,-0.574,139.896
+0 days 01:28:10.316000,ALB,23,129.065,7.0,4.0,,,True,INTERMEDIATE,5.0,False,Williams,41,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,37.207,40.505,46.898,57.076,2.332,1.84,129.406
+0 days 01:29:48.597000,ALB,23,98.281,8.0,4.0,,,True,INTERMEDIATE,6.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.423,6.992,16.114,19.611,-0.16,-0.163,98.679
+0 days 01:31:24.897000,ALB,23,96.3,9.0,4.0,,,True,INTERMEDIATE,7.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.442,4.836,14.133,17.2,0.047,0.049,96.755
+0 days 01:32:59.391000,ALB,23,94.494,10.0,4.0,,,True,INTERMEDIATE,8.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.636,2.87,12.327,15.002,-0.613,-0.645,95.006
+0 days 01:34:33.597000,ALB,23,94.206,11.0,4.0,,,True,INTERMEDIATE,9.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.348,2.556,12.039,14.652,-0.449,-0.474,94.775
+0 days 01:36:07.310000,ALB,23,93.713,12.0,4.0,,,True,INTERMEDIATE,10.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.855,2.019,11.546,14.052,-0.351,-0.373,94.339
+0 days 01:37:40.463000,ALB,23,93.153,13.0,4.0,,,True,INTERMEDIATE,11.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.295,1.41,10.986,13.37,-0.122,-0.131,93.83600000000001
+0 days 01:39:13.180000,ALB,23,92.717,14.0,4.0,,,True,INTERMEDIATE,12.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.859,0.935,10.55,12.84,-0.142,-0.153,93.457
+0 days 01:40:45.913000,ALB,23,92.733,15.0,4.0,,,False,INTERMEDIATE,13.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.875,0.953,10.566,12.859,0.188,0.203,93.53
+0 days 01:42:18.377000,ALB,23,92.464,16.0,4.0,,,True,INTERMEDIATE,14.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.606,0.66,10.297,12.532,-0.057,-0.062,93.317
+0 days 01:43:51.465000,ALB,23,93.088,17.0,4.0,,,False,INTERMEDIATE,15.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.23,1.339,10.921,13.291,0.122,0.131,93.99799999999999
+0 days 01:45:24.446000,ALB,23,92.981,18.0,4.0,,,False,INTERMEDIATE,16.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.123,1.223,10.814,13.161,0.0,0.0,93.948
+0 days 01:46:57.497000,ALB,23,93.051,19.0,4.0,,,False,INTERMEDIATE,17.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.193,1.299,10.884,13.246,0.367,0.396,94.075
+0 days 01:48:29.853000,ALB,23,92.356,20.0,4.0,,,True,INTERMEDIATE,18.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.498,0.542,10.189,12.4,0.0,0.0,93.437
+0 days 01:50:01.889000,ALB,23,92.036,21.0,4.0,,,True,INTERMEDIATE,19.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.178,0.194,9.869,12.011,-0.043,-0.047,93.174
+0 days 01:51:33.942000,ALB,23,92.053,22.0,4.0,,,False,INTERMEDIATE,20.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.195,0.212,9.886,12.032,0.0,0.0,93.24799999999999
+0 days 01:53:05.692000,ALB,23,91.75,23.0,4.0,,,True,INTERMEDIATE,21.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.108,-0.118,9.583,11.663,-0.043,-0.047,93.002
+0 days 01:54:37.560000,ALB,23,91.868,24.0,4.0,,,False,INTERMEDIATE,22.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.01,0.011,9.701,11.806,0.016,0.017,93.17699999999999
+0 days 01:56:08.574000,ALB,23,91.014,25.0,4.0,,,True,INTERMEDIATE,23.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.844,-0.919,8.847,10.767,-0.366,-0.401,92.38
+0 days 01:57:39.883000,ALB,23,91.309,26.0,4.0,,,False,INTERMEDIATE,24.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.549,-0.598,9.142,11.126,0.01,0.011,92.731
+0 days 01:59:10.335000,ALB,23,90.452,27.0,4.0,,,True,INTERMEDIATE,25.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.406,-1.531,8.285,10.083,-0.303,-0.334,91.931
+0 days 02:00:40.667000,ALB,23,90.332,28.0,4.0,,,True,INTERMEDIATE,26.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.526,-1.661,8.165,9.937,-0.32,-0.353,91.868
+0 days 02:02:10.690000,ALB,23,90.023,29.0,4.0,,,True,INTERMEDIATE,27.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.835,-1.998,7.856,9.561,-0.008,-0.009,91.616
+0 days 02:03:40.318000,ALB,23,89.628,30.0,4.0,,,True,INTERMEDIATE,28.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.23,-2.428,7.461,9.08,-0.166,-0.185,91.278
+0 days 02:05:10.371000,ALB,23,90.053,31.0,4.0,,,False,INTERMEDIATE,29.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.805,-1.965,7.886,9.598,0.0,0.0,91.75999999999999
+0 days 02:06:40.557000,ALB,23,90.186,32.0,4.0,,,False,INTERMEDIATE,30.0,False,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.672,-1.82,8.019,9.759,0.356,0.396,91.95
+0 days 02:08:30.736000,ALB,23,110.179,33.0,4.0,,0 days 02:08:14.228000,False,INTERMEDIATE,31.0,False,Williams,124,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,18.321,19.945,28.012,34.092,19.626,21.673,112.0
+0 days 02:10:58.208000,ALB,23,147.472,34.0,5.0,0 days 02:08:32.903000,,False,MEDIUM,1.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,55.237,59.887,65.305,79.478,26.874,22.284,149.35
+0 days 02:12:41.187000,ALB,23,102.979,35.0,5.0,,,False,MEDIUM,2.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,10.744,11.649,20.812,25.329,-2.483,-2.354,104.913
+0 days 02:14:23.932000,ALB,23,102.745,36.0,5.0,,,False,MEDIUM,3.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,10.51,11.395,20.578,25.044,0.327,0.319,104.736
+0 days 02:16:31.218000,ALB,23,127.286,37.0,5.0,,,False,MEDIUM,4.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,35.051,38.002,45.119,54.911,-2.624,-2.02,129.334
+0 days 02:18:50.355000,ALB,23,139.137,38.0,5.0,,,False,MEDIUM,5.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,46.902,50.851,56.97,69.334,0.123,0.088,141.242
+0 days 02:21:02.398000,ALB,23,132.043,39.0,5.0,,,False,MEDIUM,6.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,39.808,43.159,49.876,60.701,0.103,0.078,134.205
+0 days 02:23:14.237000,ALB,23,131.839,40.0,5.0,,,False,MEDIUM,7.0,True,Williams,4,7.0,False,1,Australian Grand Prix,True,C4,False,39.604,42.938,49.672,60.452,0.451,0.343,134.058
+0 days 02:25:21.380000,ALB,23,127.143,41.0,5.0,,,False,MEDIUM,8.0,True,Williams,41,7.0,False,1,Australian Grand Prix,True,C4,False,34.908,37.847,44.976,54.737,0.655,0.518,129.419
+0 days 02:26:48.507000,ALB,23,87.127,42.0,5.0,,,True,MEDIUM,9.0,True,Williams,1,7.0,True,1,Australian Grand Prix,True,C4,True,-5.108,-5.538,4.96,6.036,0.148,0.17,89.46
+0 days 02:28:13.104000,ALB,23,84.597,43.0,5.0,,,True,MEDIUM,10.0,True,Williams,1,7.0,True,1,Australian Grand Prix,True,C4,True,-7.638,-8.281,2.43,2.957,-0.152,-0.179,86.987
+0 days 02:29:58.439000,ALB,23,105.335,44.0,5.0,,0 days 02:29:41.637000,False,MEDIUM,11.0,True,Williams,12,9.0,False,1,Australian Grand Prix,True,C4,False,13.1,14.203,23.168,28.196,17.003,19.249,107.782
+0 days 02:31:35.012000,ALB,23,96.573,45.0,6.0,0 days 02:30:00.469000,,False,INTERMEDIATE,1.0,True,Williams,21,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,4.715,5.133,14.406,17.533,3.528,3.792,99.076
+0 days 02:33:07.807000,ALB,23,92.795,46.0,6.0,,,False,INTERMEDIATE,2.0,True,Williams,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.937,1.02,10.628,12.935,-1.817,-1.92,95.355
+0 days 02:35:13.297000,ALB,23,125.49,47.0,6.0,,,False,INTERMEDIATE,3.0,True,Williams,124,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.632,36.613,43.323,52.726,1.681,1.358,128.107
+0 days 02:37:12.305000,ALB,23,119.008,48.0,6.0,,,False,INTERMEDIATE,4.0,True,Williams,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,27.15,29.556,36.841,44.837,-1.067,-0.889,121.682
+0 days 02:39:36.967000,ALB,23,144.662,49.0,6.0,,,False,INTERMEDIATE,5.0,True,Williams,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.804,57.484,62.495,76.059,0.044,0.03,147.393
+0 days 02:41:58.449000,ALB,23,141.482,50.0,6.0,,,False,INTERMEDIATE,6.0,True,Williams,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.624,54.023,59.315,72.188,1.806,1.293,144.27
+0 days 02:44:11.626000,ALB,23,133.177,51.0,6.0,,,False,INTERMEDIATE,7.0,True,Williams,41,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.319,44.981,51.01,62.081,0.946,0.715,136.022
+0 days 02:45:46.622000,ALB,23,94.996,52.0,6.0,,,False,INTERMEDIATE,8.0,True,Williams,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.138,3.416,12.829,15.613,-0.669,-0.699,97.898
+0 days 02:47:18.539000,ALB,23,91.917,53.0,6.0,,,False,INTERMEDIATE,9.0,True,Williams,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.059,0.064,9.75,11.866,0.105,0.114,94.876
+0 days 02:48:49.126000,ALB,23,90.587,54.0,6.0,,,False,INTERMEDIATE,10.0,True,Williams,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.271,-1.384,8.42,10.247,-0.307,-0.338,93.60300000000001
+0 days 02:50:19.427000,ALB,23,90.301,55.0,6.0,,,False,INTERMEDIATE,11.0,True,Williams,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.557,-1.695,8.134,9.899,-0.043,-0.048,93.373
+0 days 02:51:49.725000,ALB,23,90.298,56.0,6.0,,,False,INTERMEDIATE,12.0,True,Williams,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.56,-1.698,8.131,9.896,0.138,0.153,93.427
+0 days 02:53:19.669000,ALB,23,89.944,57.0,6.0,,,False,INTERMEDIATE,13.0,True,Williams,1,5.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.914,-2.084,7.777,9.465,-0.762,-0.84,93.13
+0 days 01:13:21.891000,HUL,27,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Kick Sauber,124,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:11.323000,HUL,27,,2.0,1.0,,0 days 01:15:59.421000,False,INTERMEDIATE,2.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:55.515000,HUL,27,,3.0,2.0,0 days 01:16:14.730000,0 days 01:18:41.760000,False,INTERMEDIATE,3.0,False,Kick Sauber,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:30.571000,HUL,27,,4.0,3.0,0 days 01:18:57.772000,0 days 01:21:19.330000,False,INTERMEDIATE,4.0,False,Kick Sauber,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:49.629000,HUL,27,139.058,5.0,4.0,0 days 01:21:33.532000,,False,INTERMEDIATE,5.0,False,Kick Sauber,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.2,51.384,56.891,69.238,,,139.286
+0 days 01:26:10.740000,HUL,27,141.111,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Kick Sauber,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.253,53.619,58.944,71.737,0.693,0.494,141.39499999999998
+0 days 01:28:14.856000,HUL,27,124.116,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Kick Sauber,41,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,32.258,35.117,41.949,51.053,-2.617,-2.065,124.457
+0 days 01:29:53.815000,HUL,27,98.959,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,7.101,7.73,16.792,20.436,0.518,0.526,99.357
+0 days 01:31:30.325000,HUL,27,96.51,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.652,5.064,14.343,17.456,0.257,0.267,96.965
+0 days 01:33:05.369000,HUL,27,95.044,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.186,3.468,12.877,15.672,-0.063,-0.066,95.556
+0 days 01:34:40.359000,HUL,27,94.99,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.132,3.41,12.823,15.606,0.335,0.354,95.559
+0 days 01:36:15.348000,HUL,27,94.989,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.131,3.409,12.822,15.605,0.925,0.983,95.61500000000001
+0 days 01:37:49.412000,HUL,27,94.064,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.206,2.402,11.897,14.479,0.789,0.846,94.747
+0 days 01:39:24.430000,HUL,27,95.018,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.16,3.44,12.851,15.64,2.159,2.325,95.758
+0 days 01:40:58.041000,HUL,27,93.611,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.753,1.908,11.444,13.928,1.066,1.152,94.408
+0 days 01:42:31.897000,HUL,27,93.856,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.998,2.175,11.689,14.226,1.335,1.443,94.70899999999999
+0 days 01:44:06.714000,HUL,27,94.817,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.959,3.221,12.65,15.395,1.851,1.991,95.72699999999999
+0 days 01:45:40.510000,HUL,27,93.796,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.938,2.11,11.629,14.153,0.815,0.877,94.763
+0 days 01:47:14.030000,HUL,27,93.52,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.662,1.809,11.353,13.817,0.836,0.902,94.544
+0 days 01:48:47.897000,HUL,27,93.867,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.009,2.187,11.7,14.239,1.511,1.636,94.94800000000001
+0 days 01:50:21.117000,HUL,27,93.22,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.362,1.483,11.053,13.452,1.141,1.239,94.358
+0 days 01:51:54.302000,HUL,27,93.185,22.0,4.0,,,True,INTERMEDIATE,22.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.327,1.445,11.018,13.409,1.132,1.23,94.38
+0 days 01:53:27.067000,HUL,27,92.765,23.0,4.0,,,True,INTERMEDIATE,23.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.907,0.987,10.598,12.898,0.972,1.059,94.017
+0 days 01:54:59.536000,HUL,27,92.469,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.611,0.665,10.302,12.538,0.617,0.672,93.77799999999999
+0 days 01:56:31.511000,HUL,27,91.975,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.117,0.127,9.808,11.937,0.595,0.651,93.341
+0 days 01:58:03.321000,HUL,27,91.81,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.048,-0.052,9.643,11.736,0.511,0.56,93.232
+0 days 01:59:34.439000,HUL,27,91.118,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.74,-0.806,8.951,10.894,0.363,0.4,92.597
+0 days 02:01:05.240000,HUL,27,90.801,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.057,-1.151,8.634,10.508,0.149,0.164,92.337
+0 days 02:02:35.618000,HUL,27,90.378,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.48,-1.611,8.211,9.993,0.347,0.385,91.971
+0 days 02:04:06.309000,HUL,27,90.691,30.0,4.0,,,False,INTERMEDIATE,30.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.167,-1.27,8.524,10.374,0.897,0.999,92.34100000000001
+0 days 02:05:36.380000,HUL,27,90.071,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.787,-1.945,7.904,9.619,0.018,0.02,91.77799999999999
+0 days 02:07:06.489000,HUL,27,90.109,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Kick Sauber,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.749,-1.904,7.942,9.666,0.279,0.311,91.87299999999999
+0 days 02:09:12.132000,HUL,27,125.643,33.0,4.0,,0 days 02:08:53.146000,False,INTERMEDIATE,33.0,False,Kick Sauber,124,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.785,36.78,43.476,52.912,35.09,38.751,127.464
+0 days 02:11:16.679000,HUL,27,124.547,34.0,5.0,0 days 02:09:14.269000,,False,MEDIUM,1.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,32.312,35.032,42.38,51.578,3.949,3.275,126.425
+0 days 02:13:00.417000,HUL,27,103.738,35.0,5.0,,,False,MEDIUM,2.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,11.503,12.471,21.571,26.253,-1.724,-1.635,105.672
+0 days 02:14:39.685000,HUL,27,99.268,36.0,5.0,,,False,MEDIUM,3.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,7.033,7.625,17.101,20.812,-3.15,-3.076,101.259
+0 days 02:16:39.704000,HUL,27,120.019,37.0,5.0,,,False,MEDIUM,4.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,27.784,30.123,37.852,46.067,-9.891,-7.614,122.06700000000001
+0 days 02:18:59.675000,HUL,27,139.971,38.0,5.0,,,False,MEDIUM,5.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,47.736,51.755,57.804,70.349,0.957,0.688,142.076
+0 days 02:21:11.389000,HUL,27,131.714,39.0,5.0,,,False,MEDIUM,6.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,39.479,42.803,49.547,60.3,-0.226,-0.171,133.876
+0 days 02:23:21.413000,HUL,27,130.024,40.0,5.0,,,False,MEDIUM,7.0,True,Kick Sauber,4,12.0,False,1,Australian Grand Prix,True,C4,False,37.789,40.97,47.857,58.244,-1.364,-1.038,132.243
+0 days 02:25:24.941000,HUL,27,123.528,41.0,5.0,,,False,MEDIUM,8.0,True,Kick Sauber,41,12.0,False,1,Australian Grand Prix,True,C4,False,31.293,33.927,41.361,50.338,-2.96,-2.34,125.804
+0 days 02:26:52.413000,HUL,27,87.472,42.0,5.0,,,True,MEDIUM,9.0,True,Kick Sauber,1,12.0,True,1,Australian Grand Prix,True,C4,True,-4.763,-5.164,5.305,6.456,0.493,0.567,89.80499999999999
+0 days 02:28:17.656000,HUL,27,85.243,43.0,5.0,,,True,MEDIUM,10.0,True,Kick Sauber,1,12.0,True,1,Australian Grand Prix,True,C4,True,-6.992,-7.581,3.076,3.744,0.494,0.583,87.633
+0 days 02:30:04.352000,HUL,27,106.696,44.0,5.0,,0 days 02:29:46.305000,False,MEDIUM,11.0,True,Kick Sauber,12,12.0,False,1,Australian Grand Prix,True,C4,False,14.461,15.678,24.529,29.853,18.364,20.79,109.143
+0 days 02:31:41.489000,HUL,27,97.137,45.0,6.0,0 days 02:30:06.468000,,False,INTERMEDIATE,1.0,True,Kick Sauber,21,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,5.279,5.747,14.97,18.219,4.092,4.398,99.64
+0 days 02:33:12.699000,HUL,27,91.21,46.0,6.0,,,False,INTERMEDIATE,2.0,True,Kick Sauber,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.648,-0.705,9.043,11.006,-3.402,-3.596,93.77
+0 days 02:35:17.878000,HUL,27,125.179,47.0,6.0,,,False,INTERMEDIATE,3.0,True,Kick Sauber,124,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.321,36.274,43.012,52.347,1.37,1.107,127.796
+0 days 02:37:17.953000,HUL,27,120.075,48.0,6.0,,,False,INTERMEDIATE,4.0,True,Kick Sauber,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,28.217,30.718,37.908,46.135,0.0,0.0,122.74900000000001
+0 days 02:39:42.757000,HUL,27,144.804,49.0,6.0,,,False,INTERMEDIATE,5.0,True,Kick Sauber,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.946,57.639,62.637,76.231,0.186,0.129,147.535
+0 days 02:42:02.201000,HUL,27,139.444,50.0,6.0,,,False,INTERMEDIATE,6.0,True,Kick Sauber,4,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.586,51.804,57.277,69.708,-0.232,-0.166,142.232
+0 days 02:44:14.918000,HUL,27,132.717,51.0,6.0,,,False,INTERMEDIATE,7.0,True,Kick Sauber,41,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,40.859,44.481,50.55,61.521,0.486,0.368,135.562
+0 days 02:45:50.853000,HUL,27,95.935,52.0,6.0,,,False,INTERMEDIATE,8.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.077,4.438,13.768,16.756,0.27,0.282,98.837
+0 days 02:47:22.668000,HUL,27,91.815,53.0,6.0,,,False,INTERMEDIATE,9.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.043,-0.047,9.648,11.742,0.003,0.003,94.774
+0 days 02:48:53.662000,HUL,27,90.994,54.0,6.0,,,False,INTERMEDIATE,10.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.864,-0.941,8.827,10.743,0.1,0.11,94.01
+0 days 02:50:24.099000,HUL,27,90.437,55.0,6.0,,,False,INTERMEDIATE,11.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.421,-1.547,8.27,10.065,0.093,0.103,93.509
+0 days 02:51:54.459000,HUL,27,90.36,56.0,6.0,,,False,INTERMEDIATE,12.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.498,-1.631,8.193,9.971,0.2,0.222,93.489
+0 days 02:53:25.319000,HUL,27,90.86,57.0,6.0,,,False,INTERMEDIATE,13.0,True,Kick Sauber,1,7.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.998,-1.086,8.693,10.58,0.154,0.17,94.04599999999999
+0 days 01:13:29.452000,LAW,30,,1.0,3.0,0 days 01:11:10.858000,,False,INTERMEDIATE,1.0,False,Red Bull Racing,124,19.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:18.867000,LAW,30,,2.0,3.0,,0 days 01:16:07.402000,False,INTERMEDIATE,2.0,False,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:19:04.190000,LAW,30,,3.0,4.0,0 days 01:16:22.171000,0 days 01:18:50.242000,False,INTERMEDIATE,3.0,False,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:44.420000,LAW,30,,4.0,5.0,0 days 01:19:06.403000,0 days 01:21:27.905000,False,INTERMEDIATE,4.0,False,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:55.713000,LAW,30,131.293,5.0,6.0,0 days 01:21:46.674000,,False,INTERMEDIATE,1.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,39.435,42.93,49.126,59.788,,,131.52100000000002
+0 days 01:26:17.322000,LAW,30,141.609,6.0,6.0,,,True,INTERMEDIATE,2.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.751,54.161,59.442,72.343,1.191,0.848,141.893
+0 days 01:28:19.538000,LAW,30,122.216,7.0,6.0,,,True,INTERMEDIATE,3.0,True,Red Bull Racing,41,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.358,33.049,40.049,48.741,-4.517,-3.564,122.55699999999999
+0 days 01:30:00.120000,LAW,30,100.582,8.0,6.0,,,True,INTERMEDIATE,4.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,8.724,9.497,18.415,22.412,2.141,2.175,100.97999999999999
+0 days 01:31:38.559000,LAW,30,98.439,9.0,6.0,,,True,INTERMEDIATE,5.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.581,7.164,16.272,19.804,2.186,2.271,98.89399999999999
+0 days 01:33:15.173000,LAW,30,96.614,10.0,6.0,,,True,INTERMEDIATE,6.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.756,5.178,14.447,17.582,1.507,1.585,97.126
+0 days 01:34:50.347000,LAW,30,95.174,11.0,6.0,,,True,INTERMEDIATE,7.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.316,3.61,13.007,15.83,0.519,0.548,95.74300000000001
+0 days 01:36:24.411000,LAW,30,94.064,12.0,6.0,,,True,INTERMEDIATE,8.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.206,2.402,11.897,14.479,0.0,0.0,94.69
+0 days 01:37:58.727000,LAW,30,94.316,13.0,6.0,,,False,INTERMEDIATE,9.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.458,2.676,12.149,14.786,1.041,1.116,94.99900000000001
+0 days 01:39:32.344000,LAW,30,93.617,14.0,6.0,,,True,INTERMEDIATE,10.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.759,1.915,11.45,13.935,0.758,0.816,94.357
+0 days 01:41:05.846000,LAW,30,93.502,15.0,6.0,,,True,INTERMEDIATE,11.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.644,1.79,11.335,13.795,0.957,1.034,94.29899999999999
+0 days 01:42:39.761000,LAW,30,93.915,16.0,6.0,,,False,INTERMEDIATE,12.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.057,2.239,11.748,14.298,1.394,1.507,94.768
+0 days 01:44:14.336000,LAW,30,94.575,17.0,6.0,,,False,INTERMEDIATE,13.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.717,2.958,12.408,15.101,1.609,1.731,95.485
+0 days 01:45:49.338000,LAW,30,95.002,18.0,6.0,,,False,INTERMEDIATE,14.0,True,Red Bull Racing,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.144,3.423,12.835,15.621,2.021,2.174,95.969
+0 days 01:47:24.033000,LAW,30,94.695,19.0,6.0,,,False,INTERMEDIATE,15.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.837,3.088,12.528,15.247,2.011,2.17,95.719
+0 days 01:48:57.530000,LAW,30,93.497,20.0,6.0,,,True,INTERMEDIATE,16.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.639,1.784,11.33,13.789,1.141,1.235,94.578
+0 days 01:50:30.413000,LAW,30,92.883,21.0,6.0,,,True,INTERMEDIATE,17.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.025,1.116,10.716,13.042,0.804,0.873,94.021
+0 days 01:52:02.493000,LAW,30,92.08,22.0,6.0,,,True,INTERMEDIATE,18.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.222,0.242,9.913,12.064,0.027,0.029,93.27499999999999
+0 days 01:53:35.115000,LAW,30,92.622,23.0,6.0,,,False,INTERMEDIATE,19.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.764,0.832,10.455,12.724,0.829,0.903,93.874
+0 days 01:55:07.270000,LAW,30,92.155,24.0,6.0,,,False,INTERMEDIATE,20.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.297,0.323,9.988,12.156,0.303,0.33,93.464
+0 days 01:56:39.229000,LAW,30,91.959,25.0,6.0,,,True,INTERMEDIATE,21.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.101,0.11,9.792,11.917,0.579,0.634,93.325
+0 days 01:58:10.358000,LAW,30,91.129,26.0,6.0,,,True,INTERMEDIATE,22.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.729,-0.794,8.962,10.907,-0.17,-0.186,92.551
+0 days 01:59:41.452000,LAW,30,91.094,27.0,6.0,,,True,INTERMEDIATE,23.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.764,-0.832,8.927,10.864,0.339,0.374,92.573
+0 days 02:01:12.536000,LAW,30,91.084,28.0,6.0,,,False,INTERMEDIATE,24.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.774,-0.843,8.917,10.852,0.432,0.477,92.62
+0 days 02:02:43.339000,LAW,30,90.803,29.0,6.0,,,True,INTERMEDIATE,25.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.055,-1.149,8.636,10.51,0.772,0.857,92.396
+0 days 02:04:14.651000,LAW,30,91.312,30.0,6.0,,,False,INTERMEDIATE,26.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.546,-0.594,9.145,11.13,1.518,1.691,92.962
+0 days 02:05:46.300000,LAW,30,91.649,31.0,6.0,,,False,INTERMEDIATE,27.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.209,-0.228,9.482,11.54,1.596,1.772,93.356
+0 days 02:07:20.060000,LAW,30,93.76,32.0,6.0,,,False,INTERMEDIATE,28.0,True,Red Bull Racing,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.902,2.071,11.593,14.109,3.93,4.375,95.524
+0 days 02:09:28.402000,LAW,30,128.342,33.0,6.0,,0 days 02:09:10.507000,False,INTERMEDIATE,29.0,True,Red Bull Racing,124,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,36.484,39.718,46.175,56.197,37.789,41.731,130.163
+0 days 02:11:32.677000,LAW,30,124.275,34.0,7.0,0 days 02:09:30.536000,,False,MEDIUM,1.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,True,C4,False,32.04,34.737,42.108,51.247,3.677,3.049,126.153
+0 days 02:13:41.387000,LAW,30,128.71,35.0,7.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,True,C4,False,36.475,39.546,46.543,56.644,23.248,22.044,130.644
+0 days 02:16:23.219000,LAW,30,,36.0,7.0,,,False,MEDIUM,3.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 02:18:40.979000,LAW,30,137.76,37.0,7.0,,,False,MEDIUM,4.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,True,C4,False,45.525,49.358,55.593,67.659,7.85,6.043,139.808
+0 days 02:20:54.332000,LAW,30,133.353,38.0,7.0,,,False,MEDIUM,5.0,True,Red Bull Racing,4,16.0,False,1,Australian Grand Prix,True,C4,False,41.118,44.58,51.186,62.295,-5.661,-4.072,135.458
+0 days 02:22:42.866000,LAW,30,108.534,39.0,7.0,,,False,MEDIUM,6.0,True,Red Bull Racing,4,14.0,False,1,Australian Grand Prix,True,C4,False,16.299,17.671,26.367,32.09,-23.406,-17.74,110.69600000000001
+0 days 02:24:13.916000,LAW,30,91.05,40.0,7.0,,,False,MEDIUM,7.0,True,Red Bull Racing,4,14.0,False,1,Australian Grand Prix,True,C4,False,-1.185,-1.285,8.883,10.811,-40.338,-30.701,93.26899999999999
+0 days 02:25:40.362000,LAW,30,86.446,41.0,7.0,,,True,MEDIUM,8.0,True,Red Bull Racing,41,14.0,False,1,Australian Grand Prix,True,C4,False,-5.789,-6.276,4.279,5.208,-40.042,-31.657,88.722
+0 days 02:27:04.460000,LAW,30,84.098,42.0,7.0,,,True,MEDIUM,9.0,True,Red Bull Racing,1,14.0,True,1,Australian Grand Prix,True,C4,True,-8.137,-8.822,1.931,2.35,-2.881,-3.312,86.431
+0 days 02:28:27.430000,LAW,30,82.97,43.0,7.0,,,True,MEDIUM,10.0,True,Red Bull Racing,1,14.0,True,1,Australian Grand Prix,True,C4,True,-9.265,-10.045,0.803,0.977,-1.779,-2.099,85.36
+0 days 02:29:53.762000,LAW,30,86.332,44.0,7.0,,,False,MEDIUM,11.0,True,Red Bull Racing,12,7.0,True,1,Australian Grand Prix,True,C4,False,-5.903,-6.4,4.165,5.069,-2.0,-2.264,88.779
+0 days 02:31:31.606000,LAW,30,97.844,45.0,7.0,,,False,MEDIUM,12.0,True,Red Bull Racing,21,7.0,True,1,Australian Grand Prix,True,C4,False,5.609,6.081,15.677,19.079,4.799,5.158,100.347
+0 days 02:33:11.063000,LAW,30,99.457,46.0,7.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,9.0,True,1,Australian Grand Prix,True,C4,True,7.222,7.83,17.29,21.043,4.845,5.121,102.017
+0 days 02:35:41.063000,LAW,30,,47.0,7.0,,,True,MEDIUM,14.0,True,Red Bull Racing,124,,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 01:13:26.359000,OCO,31,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Haas F1 Team,124,18.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:16.308000,OCO,31,,2.0,1.0,,0 days 01:16:05.054000,False,INTERMEDIATE,2.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:19:01.413000,OCO,31,,3.0,2.0,0 days 01:16:19.513000,0 days 01:18:47.469000,False,INTERMEDIATE,3.0,False,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:43.543000,OCO,31,,4.0,3.0,0 days 01:19:04.029000,0 days 01:21:25.943000,False,INTERMEDIATE,4.0,False,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:54.071000,OCO,31,130.528,5.0,4.0,0 days 01:21:45.607000,,False,INTERMEDIATE,1.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,38.67,42.098,48.361,58.857,,,130.756
+0 days 01:26:15.057000,OCO,31,140.986,6.0,4.0,,,True,INTERMEDIATE,2.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.128,53.483,58.819,71.585,0.568,0.405,141.26999999999998
+0 days 01:28:18.075000,OCO,31,123.018,7.0,4.0,,,True,INTERMEDIATE,3.0,True,Haas F1 Team,41,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,31.16,33.922,40.851,49.717,-3.715,-2.931,123.359
+0 days 01:29:58.597000,OCO,31,100.522,8.0,4.0,,,True,INTERMEDIATE,4.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,8.664,9.432,18.355,22.339,2.081,2.114,100.92
+0 days 01:31:36.646000,OCO,31,98.049,9.0,4.0,,,True,INTERMEDIATE,5.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.191,6.74,15.882,19.329,1.796,1.866,98.504
+0 days 01:33:13.120000,OCO,31,96.474,10.0,4.0,,,True,INTERMEDIATE,6.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.616,5.025,14.307,17.412,1.367,1.437,96.986
+0 days 01:34:48.816000,OCO,31,95.696,11.0,4.0,,,True,INTERMEDIATE,7.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.838,4.178,13.529,16.465,1.041,1.1,96.265
+0 days 01:36:23.393000,OCO,31,94.577,12.0,4.0,,,True,INTERMEDIATE,8.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.719,2.96,12.41,15.103,0.513,0.545,95.203
+0 days 01:37:57.329000,OCO,31,93.936,13.0,4.0,,,True,INTERMEDIATE,9.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.078,2.262,11.769,14.323,0.661,0.709,94.61900000000001
+0 days 01:39:30.855000,OCO,31,93.526,14.0,4.0,,,True,INTERMEDIATE,10.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.668,1.816,11.359,13.824,0.667,0.718,94.26599999999999
+0 days 01:41:04.558000,OCO,31,93.703,15.0,4.0,,,False,INTERMEDIATE,11.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.845,2.009,11.536,14.04,1.158,1.251,94.5
+0 days 01:42:38.509000,OCO,31,93.951,16.0,4.0,,,False,INTERMEDIATE,12.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.093,2.279,11.784,14.342,1.43,1.546,94.80399999999999
+0 days 01:44:13.246000,OCO,31,94.737,17.0,4.0,,,False,INTERMEDIATE,13.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.879,3.134,12.57,15.298,1.771,1.905,95.64699999999999
+0 days 01:45:48.555000,OCO,31,95.309,18.0,4.0,,,False,INTERMEDIATE,14.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.451,3.757,13.142,15.994,2.328,2.504,96.276
+0 days 01:47:24.821000,OCO,31,96.266,19.0,4.0,,,False,INTERMEDIATE,15.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.408,4.799,14.099,17.159,3.582,3.865,97.29
+0 days 01:48:59.213000,OCO,31,94.392,20.0,4.0,,,False,INTERMEDIATE,16.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.534,2.759,12.225,14.878,2.036,2.205,95.473
+0 days 01:50:32.604000,OCO,31,93.391,21.0,4.0,,,True,INTERMEDIATE,17.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.533,1.669,11.224,13.66,1.312,1.425,94.52900000000001
+0 days 01:52:06.137000,OCO,31,93.533,22.0,4.0,,,False,INTERMEDIATE,18.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.675,1.823,11.366,13.833,1.48,1.608,94.728
+0 days 01:53:39.475000,OCO,31,93.338,23.0,4.0,,,True,INTERMEDIATE,19.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.48,1.611,11.171,13.595,1.545,1.683,94.58999999999999
+0 days 01:55:12.523000,OCO,31,93.048,24.0,4.0,,,True,INTERMEDIATE,20.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.19,1.295,10.881,13.243,1.196,1.302,94.357
+0 days 01:56:45.061000,OCO,31,92.538,25.0,4.0,,,True,INTERMEDIATE,21.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.68,0.74,10.371,12.622,1.158,1.267,93.904
+0 days 01:58:17.601000,OCO,31,92.54,26.0,4.0,,,False,INTERMEDIATE,22.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.682,0.742,10.373,12.624,1.241,1.359,93.962
+0 days 01:59:49.903000,OCO,31,92.302,27.0,4.0,,,True,INTERMEDIATE,23.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.444,0.483,10.135,12.335,1.547,1.705,93.781
+0 days 02:01:22.113000,OCO,31,92.21,28.0,4.0,,,True,INTERMEDIATE,24.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.352,0.383,10.043,12.223,1.558,1.719,93.746
+0 days 02:02:55.856000,OCO,31,93.743,29.0,4.0,,,False,INTERMEDIATE,25.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.885,2.052,11.576,14.088,3.712,4.123,95.336
+0 days 02:04:27.357000,OCO,31,91.501,30.0,4.0,,,True,INTERMEDIATE,26.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.357,-0.389,9.334,11.36,1.707,1.901,93.15100000000001
+0 days 02:05:58.981000,OCO,31,91.624,31.0,4.0,,,False,INTERMEDIATE,27.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.234,-0.255,9.457,11.509,1.571,1.745,93.33099999999999
+0 days 02:07:30.136000,OCO,31,91.155,32.0,4.0,,,True,INTERMEDIATE,28.0,True,Haas F1 Team,12,16.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.703,-0.765,8.988,10.939,1.325,1.475,92.919
+0 days 02:09:26.068000,OCO,31,115.932,33.0,4.0,,,False,INTERMEDIATE,29.0,True,Haas F1 Team,24,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,24.074,26.208,33.765,41.093,25.379,28.027,117.753
+0 days 02:11:26.619000,OCO,31,120.551,34.0,4.0,,,False,INTERMEDIATE,30.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,28.693,31.236,38.384,46.715,-0.047,-0.039,122.429
+0 days 02:13:38.784000,OCO,31,132.165,35.0,4.0,,,False,INTERMEDIATE,31.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,40.307,43.88,49.998,60.849,26.703,25.32,134.099
+0 days 02:16:17.088000,OCO,31,,36.0,4.0,,,False,INTERMEDIATE,32.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 02:18:37.225000,OCO,31,140.137,37.0,4.0,,,False,INTERMEDIATE,33.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.279,52.558,57.97,70.551,10.227,7.872,142.185
+0 days 02:20:50.158000,OCO,31,132.933,38.0,4.0,,,False,INTERMEDIATE,34.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.075,44.716,50.766,61.784,-6.081,-4.374,135.03799999999998
+0 days 02:22:54.359000,OCO,31,124.201,39.0,4.0,,0 days 02:22:37.662000,False,INTERMEDIATE,35.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,32.343,35.21,42.034,51.157,-7.739,-5.866,126.363
+0 days 02:24:36.394000,OCO,31,102.035,40.0,5.0,0 days 02:22:56.609000,,False,MEDIUM,1.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,9.8,10.625,19.868,24.18,-29.353,-22.341,104.25399999999999
+0 days 02:26:05.733000,OCO,31,89.339,41.0,5.0,,,True,MEDIUM,2.0,True,Haas F1 Team,41,15.0,False,1,Australian Grand Prix,True,C4,False,-2.896,-3.14,7.172,8.729,-37.149,-29.37,91.615
+0 days 02:27:32.497000,OCO,31,86.764,42.0,5.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,True,C4,True,-5.471,-5.932,4.597,5.595,-0.215,-0.247,89.097
+0 days 02:29:01.002000,OCO,31,88.505,43.0,5.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,15.0,True,1,Australian Grand Prix,True,C4,True,-3.73,-4.044,6.338,7.714,3.756,4.432,90.895
+0 days 02:30:34.576000,OCO,31,93.574,44.0,5.0,,,False,MEDIUM,5.0,True,Haas F1 Team,12,14.0,True,1,Australian Grand Prix,True,C4,False,1.339,1.452,11.407,13.883,5.242,5.934,96.021
+0 days 02:32:10.835000,OCO,31,96.259,45.0,5.0,,,False,MEDIUM,6.0,True,Haas F1 Team,21,14.0,True,1,Australian Grand Prix,True,C4,False,4.024,4.363,14.092,17.15,3.214,3.454,98.762
+0 days 02:34:32.580000,OCO,31,141.745,46.0,5.0,,0 days 02:34:14.801000,False,MEDIUM,7.0,True,Haas F1 Team,124,13.0,False,1,Australian Grand Prix,True,C4,False,49.51,53.678,59.578,72.508,47.133,49.817,144.305
+0 days 02:36:39.806000,OCO,31,127.226,47.0,6.0,0 days 02:34:34.762000,,False,INTERMEDIATE,1.0,True,Haas F1 Team,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.368,38.503,45.059,54.838,3.417,2.76,129.843
+0 days 02:38:26.222000,OCO,31,106.416,48.0,6.0,,,False,INTERMEDIATE,2.0,True,Haas F1 Team,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,14.558,15.848,24.249,29.512,-13.659,-11.375,109.09
+0 days 02:40:07.965000,OCO,31,101.743,49.0,6.0,,,False,INTERMEDIATE,3.0,True,Haas F1 Team,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,9.885,10.761,19.576,23.825,-42.875,-29.647,104.47399999999999
+0 days 02:42:10.818000,OCO,31,122.853,50.0,6.0,,,False,INTERMEDIATE,4.0,True,Haas F1 Team,4,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.995,33.742,40.686,49.516,-16.823,-12.044,125.64099999999999
+0 days 02:44:18.481000,OCO,31,127.663,51.0,6.0,,,False,INTERMEDIATE,5.0,True,Haas F1 Team,41,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.805,38.979,45.496,55.37,-4.568,-3.455,130.508
+0 days 02:45:57.228000,OCO,31,98.747,52.0,6.0,,,False,INTERMEDIATE,6.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.889,7.5,16.58,20.178,3.082,3.222,101.649
+0 days 02:47:31.810000,OCO,31,94.582,53.0,6.0,,,False,INTERMEDIATE,7.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.724,2.965,12.415,15.109,2.77,3.017,97.541
+0 days 02:49:04.962000,OCO,31,93.152,54.0,6.0,,,False,INTERMEDIATE,8.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.294,1.409,10.985,13.369,2.258,2.484,96.168
+0 days 02:50:37.222000,OCO,31,92.26,55.0,6.0,,,False,INTERMEDIATE,9.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.402,0.438,10.093,12.284,1.916,2.121,95.33200000000001
+0 days 02:52:09.135000,OCO,31,91.913,56.0,6.0,,,False,INTERMEDIATE,10.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.055,0.06,9.746,11.861,1.753,1.944,95.042
+0 days 02:53:40.059000,OCO,31,90.924,57.0,6.0,,,False,INTERMEDIATE,11.0,True,Haas F1 Team,1,13.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.934,-1.017,8.757,10.658,0.218,0.24,94.11000000000001
+0 days 01:12:57.726000,NOR,4,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,McLaren,124,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:47.663000,NOR,4,,2.0,1.0,,0 days 01:15:36.644000,False,INTERMEDIATE,2.0,True,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:29.359000,NOR,4,,3.0,2.0,0 days 01:15:50.143000,0 days 01:18:18.691000,False,INTERMEDIATE,3.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:05.355000,NOR,4,,4.0,3.0,0 days 01:18:31.544000,0 days 01:20:54.690000,False,INTERMEDIATE,4.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:29.003000,NOR,4,143.648,5.0,4.0,0 days 01:21:07.473000,,False,INTERMEDIATE,5.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,51.79,56.381,61.481,74.824,,,143.876
+0 days 01:25:49.426000,NOR,4,140.423,6.0,4.0,,,True,INTERMEDIATE,6.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.565,52.87,58.256,70.9,0.005,0.004,140.707
+0 days 01:28:06.534000,NOR,4,137.108,7.0,4.0,,,True,INTERMEDIATE,7.0,False,McLaren,41,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,45.25,49.261,54.941,66.865,10.375,8.187,137.449
+0 days 01:29:42.812000,NOR,4,96.278,8.0,4.0,,,True,INTERMEDIATE,8.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.42,4.812,14.111,17.174,-2.163,-2.197,96.676
+0 days 01:31:17.450000,NOR,4,94.638,9.0,4.0,,,True,INTERMEDIATE,9.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.78,3.026,12.471,15.178,-1.615,-1.678,95.093
+0 days 01:32:49.580000,NOR,4,92.13,10.0,4.0,,,True,INTERMEDIATE,10.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.272,0.296,9.963,12.125,-2.977,-3.13,92.642
+0 days 01:34:21.769000,NOR,4,92.189,11.0,4.0,,,False,INTERMEDIATE,11.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.331,0.36,10.022,12.197,-2.466,-2.605,92.758
+0 days 01:35:53.547000,NOR,4,91.778,12.0,4.0,,,True,INTERMEDIATE,12.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.08,-0.087,9.611,11.697,-2.286,-2.43,92.40400000000001
+0 days 01:37:24.865000,NOR,4,91.318,13.0,4.0,,,True,INTERMEDIATE,13.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.54,-0.588,9.151,11.137,-1.957,-2.098,92.001
+0 days 01:38:55.660000,NOR,4,90.795,14.0,4.0,,,True,INTERMEDIATE,14.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.063,-1.157,8.628,10.501,-2.064,-2.223,91.535
+0 days 01:40:25.886000,NOR,4,90.226,15.0,4.0,,,True,INTERMEDIATE,15.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.632,-1.777,8.059,9.808,-2.319,-2.506,91.023
+0 days 01:41:55.838000,NOR,4,89.952,16.0,4.0,,,True,INTERMEDIATE,16.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.906,-2.075,7.785,9.475,-2.569,-2.777,90.80499999999999
+0 days 01:43:26.102000,NOR,4,90.264,17.0,4.0,,,False,INTERMEDIATE,17.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.594,-1.735,8.097,9.854,-2.702,-2.906,91.17399999999999
+0 days 01:44:56.248000,NOR,4,90.146,18.0,4.0,,,False,INTERMEDIATE,18.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.712,-1.864,7.979,9.711,-2.835,-3.049,91.113
+0 days 01:46:26.799000,NOR,4,90.551,19.0,4.0,,,False,INTERMEDIATE,19.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.307,-1.423,8.384,10.204,-2.133,-2.301,91.575
+0 days 01:47:57.509000,NOR,4,90.71,20.0,4.0,,,False,INTERMEDIATE,20.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.148,-1.25,8.543,10.397,-1.646,-1.782,91.791
+0 days 01:49:27.743000,NOR,4,90.234,21.0,4.0,,,False,INTERMEDIATE,21.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.624,-1.768,8.067,9.818,-1.845,-2.004,91.372
+0 days 01:50:58.043000,NOR,4,90.3,22.0,4.0,,,False,INTERMEDIATE,22.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.558,-1.696,8.133,9.898,-1.753,-1.904,91.49499999999999
+0 days 01:52:27.965000,NOR,4,89.922,23.0,4.0,,,True,INTERMEDIATE,23.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.936,-2.108,7.755,9.438,-1.871,-2.038,91.17399999999999
+0 days 01:53:57.652000,NOR,4,89.687,24.0,4.0,,,True,INTERMEDIATE,24.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.171,-2.363,7.52,9.152,-2.165,-2.357,90.996
+0 days 01:55:27.253000,NOR,4,89.601,25.0,4.0,,,True,INTERMEDIATE,25.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.257,-2.457,7.434,9.047,-1.779,-1.947,90.967
+0 days 01:56:56.413000,NOR,4,89.16,26.0,4.0,,,True,INTERMEDIATE,26.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.698,-2.937,6.993,8.511,-2.139,-2.343,90.582
+0 days 01:58:25.663000,NOR,4,89.25,27.0,4.0,,,False,INTERMEDIATE,27.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.608,-2.839,7.083,8.62,-1.505,-1.658,90.729
+0 days 01:59:54.760000,NOR,4,89.097,28.0,4.0,,,True,INTERMEDIATE,28.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.761,-3.006,6.93,8.434,-1.555,-1.715,90.633
+0 days 02:01:23.117000,NOR,4,88.357,29.0,4.0,,,True,INTERMEDIATE,29.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.501,-3.811,6.19,7.533,-1.674,-1.859,89.95
+0 days 02:02:51.149000,NOR,4,88.032,30.0,4.0,,,True,INTERMEDIATE,30.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.826,-4.165,5.865,7.138,-1.762,-1.962,89.682
+0 days 02:04:18.844000,NOR,4,87.695,31.0,4.0,,,True,INTERMEDIATE,31.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-4.163,-4.532,5.528,6.728,-2.358,-2.618,89.40199999999999
+0 days 02:05:46.644000,NOR,4,87.8,32.0,4.0,,,False,INTERMEDIATE,32.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-4.058,-4.418,5.633,6.856,-2.03,-2.26,89.564
+0 days 02:07:14.139000,NOR,4,87.495,33.0,4.0,,,True,INTERMEDIATE,33.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-4.363,-4.75,5.328,6.484,-3.058,-3.377,89.316
+0 days 02:09:16.412000,NOR,4,122.273,34.0,4.0,,0 days 02:09:00.096000,False,INTERMEDIATE,34.0,False,McLaren,124,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.415,33.111,40.106,48.81,1.675,1.389,124.151
+0 days 02:11:19.860000,NOR,4,123.448,35.0,5.0,0 days 02:09:18.613000,,False,HARD,2.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,31.213,33.841,41.281,50.24,17.986,17.054,125.38199999999999
+0 days 02:13:36.743000,NOR,4,136.883,36.0,5.0,,,False,HARD,3.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,44.648,48.407,54.716,66.591,34.465,33.651,138.87400000000002
+0 days 02:16:13.634000,NOR,4,,37.0,5.0,,,False,HARD,4.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:18:34.654000,NOR,4,141.02,38.0,5.0,,,False,HARD,5.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,48.785,52.892,58.853,71.626,2.006,1.443,143.125
+0 days 02:20:48.348000,NOR,4,133.694,39.0,5.0,,,False,HARD,6.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,41.459,44.949,51.527,62.71,1.754,1.329,135.856
+0 days 02:23:03.685000,NOR,4,135.337,40.0,5.0,,,False,HARD,7.0,False,McLaren,4,1.0,False,1,Australian Grand Prix,True,C3,False,43.102,46.731,53.17,64.71,3.949,3.006,137.55599999999998
+0 days 02:25:17.622000,NOR,4,133.937,41.0,5.0,,,False,HARD,8.0,False,McLaren,41,1.0,False,1,Australian Grand Prix,True,C3,False,41.702,45.213,51.77,63.006,7.449,5.889,136.21300000000002
+0 days 02:26:41.419000,NOR,4,83.797,42.0,5.0,,,True,HARD,9.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,True,C3,True,-8.438,-9.148,1.63,1.984,-3.182,-3.658,86.13
+0 days 02:28:03.586000,NOR,4,82.167,43.0,5.0,,,True,HARD,10.0,False,McLaren,1,1.0,True,1,Australian Grand Prix,True,C3,True,-10.068,-10.916,0.0,0.0,-2.582,-3.047,84.557
+0 days 02:29:49.173000,NOR,4,105.587,44.0,5.0,,0 days 02:29:33.442000,False,HARD,11.0,False,McLaren,12,6.0,False,1,Australian Grand Prix,True,C3,False,13.352,14.476,23.42,28.503,17.255,19.534,108.034
+0 days 02:31:25.580000,NOR,4,96.407,45.0,6.0,0 days 02:29:51.347000,,False,INTERMEDIATE,1.0,True,McLaren,21,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,4.549,4.952,14.24,17.331,3.362,3.613,98.91
+0 days 02:32:57.147000,NOR,4,91.567,46.0,6.0,,,False,INTERMEDIATE,2.0,True,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.291,-0.317,9.4,11.44,-3.045,-3.218,94.127
+0 days 02:34:50.875000,NOR,4,113.728,47.0,6.0,,,False,INTERMEDIATE,3.0,True,McLaren,124,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,21.87,23.808,31.561,38.411,-10.081,-8.142,116.345
+0 days 02:37:07.870000,NOR,4,136.995,48.0,6.0,,,False,INTERMEDIATE,4.0,True,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,45.137,49.138,54.828,66.728,16.92,14.091,139.669
+0 days 02:39:32.849000,NOR,4,144.979,49.0,6.0,,,False,INTERMEDIATE,5.0,True,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,53.121,57.829,62.812,76.444,0.361,0.25,147.71
+0 days 02:41:55.244000,NOR,4,142.395,50.0,6.0,,,False,INTERMEDIATE,6.0,True,McLaren,4,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.537,55.016,60.228,73.299,2.719,1.947,145.18300000000002
+0 days 02:44:09.422000,NOR,4,134.178,51.0,6.0,,,False,INTERMEDIATE,7.0,True,McLaren,41,1.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,42.32,46.071,52.011,63.299,1.947,1.472,137.023
+0 days 02:45:42.620000,NOR,4,93.198,52.0,6.0,,,False,INTERMEDIATE,8.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.34,1.459,11.031,13.425,-2.467,-2.579,96.1
+0 days 02:47:13.102000,NOR,4,90.482,53.0,6.0,,,False,INTERMEDIATE,9.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.376,-1.498,8.315,10.12,-1.33,-1.449,93.441
+0 days 02:48:42.530000,NOR,4,89.428,54.0,6.0,,,False,INTERMEDIATE,10.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.43,-2.645,7.261,8.837,-1.466,-1.613,92.444
+0 days 02:50:11.725000,NOR,4,89.195,55.0,6.0,,,False,INTERMEDIATE,11.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.663,-2.899,7.028,8.553,-1.149,-1.272,92.267
+0 days 02:51:39.721000,NOR,4,87.996,56.0,6.0,,,False,INTERMEDIATE,12.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.862,-4.204,5.829,7.094,-2.164,-2.4,91.125
+0 days 02:53:06.847000,NOR,4,87.126,57.0,6.0,,,False,INTERMEDIATE,13.0,True,McLaren,1,1.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-4.732,-5.151,4.959,6.035,-3.58,-3.947,90.31200000000001
+0 days 02:55:36.847000,NOR,4,,58.0,6.0,,,True,INTERMEDIATE,14.0,True,McLaren,1,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:13:13.605000,HAM,44,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,124,11.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:03.467000,HAM,44,,2.0,1.0,,0 days 01:15:51.246000,False,INTERMEDIATE,2.0,True,Ferrari,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:47.223000,HAM,44,,3.0,2.0,0 days 01:16:05.978000,0 days 01:18:33.930000,False,INTERMEDIATE,3.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:21.296000,HAM,44,,4.0,3.0,0 days 01:18:50.272000,0 days 01:21:09.633000,False,INTERMEDIATE,4.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:43.068000,HAM,44,141.772,5.0,4.0,0 days 01:21:24.483000,,False,INTERMEDIATE,5.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.914,54.338,59.605,72.541,,,142.0
+0 days 01:26:03.486000,HAM,44,140.418,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.56,52.864,58.251,70.893,0.0,0.0,140.702
+0 days 01:28:10.984000,HAM,44,127.498,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Ferrari,41,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.64,38.799,45.331,55.169,0.765,0.604,127.839
+0 days 01:29:49.295000,HAM,44,98.311,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,6.453,7.025,16.144,19.648,-0.13,-0.132,98.709
+0 days 01:31:25.537000,HAM,44,96.242,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,4.384,4.773,14.075,17.13,-0.011,-0.011,96.697
+0 days 01:33:00.644000,HAM,44,95.107,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.249,3.537,12.94,15.748,0.0,0.0,95.619
+0 days 01:34:34.943000,HAM,44,94.299,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.441,2.657,12.132,14.765,-0.356,-0.376,94.86800000000001
+0 days 01:36:08.198000,HAM,44,93.255,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.397,1.521,11.088,13.494,-0.809,-0.86,93.881
+0 days 01:37:41.215000,HAM,44,93.017,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.159,1.262,10.85,13.205,-0.258,-0.277,93.7
+0 days 01:39:14.207000,HAM,44,92.992,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.134,1.235,10.825,13.174,0.133,0.143,93.732
+0 days 01:40:46.970000,HAM,44,92.763,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.905,0.985,10.596,12.896,0.218,0.236,93.56
+0 days 01:42:19.719000,HAM,44,92.749,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.891,0.97,10.582,12.879,0.228,0.246,93.60199999999999
+0 days 01:43:52.549000,HAM,44,92.83,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.972,1.058,10.663,12.977,-0.136,-0.146,93.74
+0 days 01:45:25.426000,HAM,44,92.877,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.019,1.109,10.71,13.034,-0.104,-0.112,93.844
+0 days 01:46:58.340000,HAM,44,92.914,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.056,1.15,10.747,13.079,0.23,0.248,93.938
+0 days 01:48:30.681000,HAM,44,92.341,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.483,0.526,10.174,12.382,-0.015,-0.016,93.422
+0 days 01:50:02.760000,HAM,44,92.079,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.221,0.241,9.912,12.063,0.0,0.0,93.217
+0 days 01:51:34.801000,HAM,44,92.041,22.0,4.0,,,True,INTERMEDIATE,22.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.183,0.199,9.874,12.017,-0.012,-0.013,93.23599999999999
+0 days 01:53:06.572000,HAM,44,91.771,23.0,4.0,,,True,INTERMEDIATE,23.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.087,-0.095,9.604,11.688,-0.022,-0.024,93.023
+0 days 01:54:38.424000,HAM,44,91.852,24.0,4.0,,,False,INTERMEDIATE,24.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.006,-0.007,9.685,11.787,0.0,0.0,93.161
+0 days 01:56:09.284000,HAM,44,90.86,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.998,-1.086,8.693,10.58,-0.52,-0.569,92.226
+0 days 01:57:40.586000,HAM,44,91.302,26.0,4.0,,,False,INTERMEDIATE,26.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.556,-0.605,9.135,11.118,0.003,0.003,92.724
+0 days 01:59:11.341000,HAM,44,90.755,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.103,-1.201,8.588,10.452,0.0,0.0,92.234
+0 days 02:00:41.484000,HAM,44,90.143,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.715,-1.867,7.976,9.707,-0.509,-0.561,91.679
+0 days 02:02:11.611000,HAM,44,90.127,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.731,-1.884,7.96,9.688,0.096,0.107,91.72
+0 days 02:03:41.348000,HAM,44,89.737,30.0,4.0,,,True,INTERMEDIATE,30.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.121,-2.309,7.57,9.213,-0.057,-0.063,91.387
+0 days 02:05:11.770000,HAM,44,90.422,31.0,4.0,,,False,INTERMEDIATE,31.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.436,-1.563,8.255,10.047,0.369,0.41,92.12899999999999
+0 days 02:06:42.004000,HAM,44,90.234,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.624,-1.768,8.067,9.818,0.404,0.45,91.99799999999999
+0 days 02:08:32.483000,HAM,44,110.479,33.0,4.0,,0 days 02:08:16.061000,False,INTERMEDIATE,33.0,False,Ferrari,124,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,18.621,20.272,28.312,34.457,19.926,22.005,112.3
+0 days 02:10:59.368000,HAM,44,146.885,34.0,5.0,0 days 02:08:34.670000,,False,HARD,2.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,54.65,59.251,64.718,78.764,26.287,21.797,148.76299999999998
+0 days 02:12:42.769000,HAM,44,103.401,35.0,5.0,,,False,HARD,3.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,11.166,12.106,21.234,25.842,-2.061,-1.954,105.335
+0 days 02:14:25.200000,HAM,44,102.431,36.0,5.0,,,False,HARD,4.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,10.196,11.054,20.264,24.662,0.013,0.013,104.422
+0 days 02:16:33.279000,HAM,44,128.079,37.0,5.0,,,False,HARD,5.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,35.844,38.862,45.912,55.876,-1.831,-1.409,130.127
+0 days 02:18:51.694000,HAM,44,138.415,38.0,5.0,,,False,HARD,6.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,46.18,50.068,56.248,68.456,-0.599,-0.431,140.51999999999998
+0 days 02:21:03.779000,HAM,44,132.085,39.0,5.0,,,False,HARD,7.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,39.85,43.205,49.918,60.752,0.145,0.11,134.247
+0 days 02:23:15.186000,HAM,44,131.407,40.0,5.0,,,False,HARD,8.0,False,Ferrari,4,8.0,False,1,Australian Grand Prix,True,C3,False,39.172,42.47,49.24,59.927,0.019,0.014,133.626
+0 days 02:25:21.793000,HAM,44,126.607,41.0,5.0,,,False,HARD,9.0,False,Ferrari,41,8.0,False,1,Australian Grand Prix,True,C3,False,34.372,37.266,44.44,54.085,0.119,0.094,128.883
+0 days 02:26:49.301000,HAM,44,87.508,42.0,5.0,,,True,HARD,10.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,True,C3,True,-4.727,-5.125,5.341,6.5,0.529,0.608,89.841
+0 days 02:28:13.519000,HAM,44,84.218,43.0,5.0,,,True,HARD,11.0,False,Ferrari,1,8.0,True,1,Australian Grand Prix,True,C3,True,-8.017,-8.692,2.051,2.496,-0.531,-0.627,86.608
+0 days 02:29:42.973000,HAM,44,89.454,44.0,5.0,,,False,HARD,12.0,False,Ferrari,12,3.0,True,1,Australian Grand Prix,True,C3,False,-2.781,-3.015,7.287,8.869,1.122,1.27,91.901
+0 days 02:31:16.018000,HAM,44,93.045,45.0,5.0,,,False,HARD,13.0,False,Ferrari,21,2.0,True,1,Australian Grand Prix,True,C3,False,0.81,0.878,10.878,13.239,0.0,0.0,95.548
+0 days 02:32:52.732000,HAM,44,96.714,46.0,5.0,,,False,HARD,14.0,False,Ferrari,1,1.0,True,1,Australian Grand Prix,True,C3,True,4.479,4.856,14.547,17.704,2.102,2.222,99.274
+0 days 02:35:23.425000,HAM,44,,47.0,5.0,,0 days 02:35:04.708000,False,HARD,15.0,False,Ferrari,124,9.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:37:22.644000,HAM,44,119.219,48.0,6.0,0 days 02:35:25.627000,,False,INTERMEDIATE,1.0,True,Ferrari,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,27.361,29.786,37.052,45.094,-0.856,-0.713,121.893
+0 days 02:39:47.219000,HAM,44,144.575,49.0,6.0,,,False,INTERMEDIATE,2.0,True,Ferrari,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.717,57.39,62.408,75.953,-0.043,-0.03,147.30599999999998
+0 days 02:42:04.314000,HAM,44,137.095,50.0,6.0,,,False,INTERMEDIATE,3.0,True,Ferrari,4,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,45.237,49.247,54.928,66.849,-2.581,-1.848,139.883
+0 days 02:44:15.625000,HAM,44,131.311,51.0,6.0,,,False,INTERMEDIATE,4.0,True,Ferrari,41,9.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,39.453,42.95,49.144,59.81,-0.92,-0.696,134.156
+0 days 02:45:52.676000,HAM,44,97.051,52.0,6.0,,,False,INTERMEDIATE,5.0,True,Ferrari,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.193,5.653,14.884,18.114,1.386,1.449,99.953
+0 days 02:47:25.715000,HAM,44,93.039,53.0,6.0,,,False,INTERMEDIATE,6.0,True,Ferrari,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.181,1.286,10.872,13.232,1.227,1.336,95.998
+0 days 02:48:56.980000,HAM,44,91.265,54.0,6.0,,,False,INTERMEDIATE,7.0,True,Ferrari,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.593,-0.646,9.098,11.073,0.371,0.408,94.281
+0 days 02:50:26.854000,HAM,44,89.874,55.0,6.0,,,False,INTERMEDIATE,8.0,True,Ferrari,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.984,-2.16,7.707,9.38,-0.47,-0.52,92.946
+0 days 02:51:56.949000,HAM,44,90.095,56.0,6.0,,,False,INTERMEDIATE,9.0,True,Ferrari,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.763,-1.919,7.928,9.649,-0.065,-0.072,93.224
+0 days 02:53:29.367000,HAM,44,92.418,57.0,6.0,,,False,INTERMEDIATE,10.0,True,Ferrari,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.56,0.61,10.251,12.476,1.712,1.887,95.60400000000001
+0 days 01:13:24.739000,BOR,5,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Kick Sauber,124,17.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:14.333000,BOR,5,,2.0,1.0,,0 days 01:16:03.063000,False,INTERMEDIATE,2.0,True,Kick Sauber,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:59.555000,BOR,5,,3.0,3.0,0 days 01:16:17.705000,0 days 01:18:45.520000,False,INTERMEDIATE,3.0,False,Kick Sauber,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:34.266000,BOR,5,,4.0,5.0,0 days 01:19:01.883000,0 days 01:21:23.257000,False,INTERMEDIATE,4.0,False,Kick Sauber,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:52.582000,BOR,5,138.316,5.0,6.0,0 days 01:21:37.664000,,False,MEDIUM,1.0,True,Kick Sauber,4,14.0,False,1,Australian Grand Prix,True,C4,False,46.081,49.96,56.149,68.335,,,138.544
+0 days 01:26:13.558000,BOR,5,140.976,6.0,6.0,,,True,MEDIUM,2.0,True,Kick Sauber,4,14.0,False,1,Australian Grand Prix,True,C4,False,48.741,52.844,58.809,71.573,0.558,0.397,141.26
+0 days 01:28:17.025000,BOR,5,123.467,7.0,6.0,,,True,MEDIUM,3.0,True,Kick Sauber,41,14.0,False,1,Australian Grand Prix,True,C4,False,31.232,33.861,41.3,50.263,-3.266,-2.577,123.80799999999999
+0 days 01:29:57.290000,BOR,5,100.265,8.0,6.0,,,True,MEDIUM,4.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,8.03,8.706,18.098,22.026,1.824,1.853,100.663
+0 days 01:31:33.953000,BOR,5,96.663,9.0,6.0,,,True,MEDIUM,5.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,4.428,4.801,14.496,17.642,0.41,0.426,97.118
+0 days 01:33:09.578000,BOR,5,95.625,10.0,6.0,,,True,MEDIUM,6.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,3.39,3.675,13.458,16.379,0.518,0.545,96.137
+0 days 01:34:44.233000,BOR,5,94.655,11.0,6.0,,,True,MEDIUM,7.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,2.42,2.624,12.488,15.198,0.0,0.0,95.224
+0 days 01:36:18.615000,BOR,5,94.382,12.0,6.0,,,True,MEDIUM,8.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,2.147,2.328,12.215,14.866,0.318,0.338,95.00800000000001
+0 days 01:37:52.998000,BOR,5,94.383,13.0,6.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,2.148,2.329,12.216,14.867,1.108,1.188,95.066
+0 days 01:39:27.100000,BOR,5,94.102,14.0,6.0,,,True,MEDIUM,10.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.867,2.024,11.935,14.525,1.243,1.339,94.842
+0 days 01:41:00.792000,BOR,5,93.692,15.0,6.0,,,True,MEDIUM,11.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.457,1.58,11.525,14.026,1.147,1.239,94.48899999999999
+0 days 01:42:34.903000,BOR,5,94.111,16.0,6.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.876,2.034,11.944,14.536,1.59,1.719,94.964
+0 days 01:44:09.659000,BOR,5,94.756,17.0,6.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,2.521,2.733,12.589,15.321,1.79,1.925,95.666
+0 days 01:45:43.551000,BOR,5,93.892,18.0,6.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.657,1.796,11.725,14.27,0.911,0.98,94.859
+0 days 01:47:17.457000,BOR,5,93.906,19.0,6.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.671,1.812,11.739,14.287,1.222,1.318,94.93
+0 days 01:48:50.785000,BOR,5,93.328,20.0,6.0,,,True,MEDIUM,16.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.093,1.185,11.161,13.583,0.972,1.052,94.409
+0 days 01:50:24.135000,BOR,5,93.35,21.0,6.0,,,False,MEDIUM,17.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,1.115,1.209,11.183,13.61,1.271,1.38,94.488
+0 days 01:51:56.869000,BOR,5,92.734,22.0,6.0,,,True,MEDIUM,18.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,0.499,0.541,10.567,12.86,0.681,0.74,93.92899999999999
+0 days 01:53:29.835000,BOR,5,92.966,23.0,6.0,,,False,MEDIUM,19.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,0.731,0.793,10.799,13.143,1.173,1.278,94.21799999999999
+0 days 01:55:02.204000,BOR,5,92.369,24.0,6.0,,,True,MEDIUM,20.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,0.134,0.145,10.202,12.416,0.517,0.563,93.678
+0 days 01:56:34.439000,BOR,5,92.235,25.0,6.0,,,True,MEDIUM,21.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,0.0,0.0,10.068,12.253,0.855,0.936,93.601
+0 days 01:58:05.864000,BOR,5,91.425,26.0,6.0,,,True,MEDIUM,22.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-0.81,-0.878,9.258,11.267,0.126,0.138,92.847
+0 days 01:59:37.270000,BOR,5,91.406,27.0,6.0,,,True,MEDIUM,23.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-0.829,-0.899,9.239,11.244,0.651,0.717,92.885
+0 days 02:01:08.025000,BOR,5,90.755,28.0,6.0,,,True,MEDIUM,24.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-1.48,-1.605,8.588,10.452,0.103,0.114,92.291
+0 days 02:02:39.354000,BOR,5,91.329,29.0,6.0,,,False,MEDIUM,25.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-0.906,-0.982,9.162,11.15,1.298,1.442,92.922
+0 days 02:04:10.500000,BOR,5,91.146,30.0,6.0,,,False,MEDIUM,26.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-1.089,-1.181,8.979,10.928,1.352,1.506,92.796
+0 days 02:05:40.946000,BOR,5,90.446,31.0,6.0,,,True,MEDIUM,27.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-1.789,-1.94,8.279,10.076,0.393,0.436,92.15299999999999
+0 days 02:07:10.776000,BOR,5,89.83,32.0,6.0,,,True,MEDIUM,28.0,True,Kick Sauber,1,14.0,True,1,Australian Grand Prix,True,C4,True,-2.405,-2.607,7.663,9.326,0.0,0.0,91.594
+0 days 02:09:21.102000,BOR,5,130.326,33.0,6.0,,0 days 02:08:59.204000,False,MEDIUM,29.0,True,Kick Sauber,124,13.0,False,1,Australian Grand Prix,True,C4,False,38.091,41.298,48.159,58.611,39.773,43.922,132.147
+0 days 02:11:25.658000,BOR,5,124.556,34.0,6.0,0 days 02:09:23.220000,,False,MEDIUM,30.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,32.321,35.042,42.389,51.589,3.958,3.282,126.434
+0 days 02:13:37.804000,BOR,5,132.146,35.0,6.0,,,False,MEDIUM,31.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,39.911,43.271,49.979,60.826,26.684,25.302,134.07999999999998
+0 days 02:16:14.969000,BOR,5,,36.0,6.0,,,False,MEDIUM,32.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 02:18:35.890000,BOR,5,140.921,37.0,6.0,,,False,MEDIUM,33.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,48.686,52.785,58.754,71.506,11.011,8.476,142.969
+0 days 02:20:49.264000,BOR,5,133.374,38.0,6.0,,,False,MEDIUM,34.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,41.139,44.602,51.207,62.321,-5.64,-4.057,135.47899999999998
+0 days 02:22:37.887000,BOR,5,108.623,39.0,6.0,,,False,MEDIUM,35.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,16.388,17.768,26.456,32.198,-23.317,-17.672,110.78500000000001
+0 days 02:24:10.325000,BOR,5,92.438,40.0,6.0,,,False,MEDIUM,36.0,True,Kick Sauber,4,13.0,False,1,Australian Grand Prix,True,C4,False,0.203,0.22,10.271,12.5,-38.95,-29.645,94.657
+0 days 02:25:38.450000,BOR,5,88.125,41.0,6.0,,,True,MEDIUM,37.0,True,Kick Sauber,41,13.0,False,1,Australian Grand Prix,True,C4,False,-4.11,-4.456,5.958,7.251,-38.363,-30.329,90.401
+0 days 02:27:03.220000,BOR,5,84.77,42.0,6.0,,,True,MEDIUM,38.0,True,Kick Sauber,1,13.0,True,1,Australian Grand Prix,True,C4,True,-7.465,-8.093,2.603,3.168,-2.209,-2.54,87.103
+0 days 02:28:27.412000,BOR,5,84.192,43.0,6.0,,,True,MEDIUM,39.0,True,Kick Sauber,1,13.0,True,1,Australian Grand Prix,True,C4,True,-8.043,-8.72,2.025,2.464,-0.557,-0.657,86.582
+0 days 02:30:19.994000,BOR,5,112.582,44.0,6.0,,0 days 02:29:55.899000,False,MEDIUM,40.0,True,Kick Sauber,12,13.0,False,1,Australian Grand Prix,True,C4,False,20.347,22.06,30.415,37.016,24.25,27.453,115.029
+0 days 02:31:56.249000,BOR,5,96.255,45.0,7.0,0 days 02:30:21.968000,,False,INTERMEDIATE,1.0,True,Kick Sauber,21,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,4.397,4.787,14.088,17.146,3.21,3.45,98.758
+0 days 02:34:26.249000,BOR,5,,46.0,7.0,,,True,INTERMEDIATE,2.0,True,Kick Sauber,124,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:12:57.726000,SAI,55,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Williams,124,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:12:57.726000,HAD,6,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Racing Bulls,124,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:13:05.317000,RUS,63,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Mercedes,124,7.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:53.439000,RUS,63,,2.0,1.0,,0 days 01:15:41.818000,False,INTERMEDIATE,2.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:35.888000,RUS,63,,3.0,2.0,0 days 01:15:55.644000,0 days 01:18:23.749000,False,INTERMEDIATE,3.0,False,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:12.306000,RUS,63,,4.0,3.0,0 days 01:18:37.950000,0 days 01:21:00.668000,False,INTERMEDIATE,4.0,False,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:34.018000,RUS,63,141.712,5.0,4.0,0 days 01:21:14.431000,,False,INTERMEDIATE,5.0,False,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,49.854,54.273,59.545,72.468,,,141.94
+0 days 01:25:53.503000,RUS,63,139.485,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,47.627,51.849,57.318,69.758,-0.933,-0.664,139.769
+0 days 01:28:08.187000,RUS,63,134.684,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Mercedes,41,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,42.826,46.622,52.517,63.915,7.951,6.274,135.025
+0 days 01:29:46.011000,RUS,63,97.824,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.966,6.495,15.657,19.055,-0.617,-0.627,98.222
+0 days 01:31:20.884000,RUS,63,94.873,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,3.015,3.282,12.706,15.464,-1.38,-1.434,95.328
+0 days 01:32:54.471000,RUS,63,93.587,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.729,1.882,11.42,13.899,-1.52,-1.598,94.099
+0 days 01:34:27.818000,RUS,63,93.347,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.489,1.621,11.18,13.606,-1.308,-1.382,93.916
+0 days 01:36:00.621000,RUS,63,92.803,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.945,1.029,10.636,12.944,-1.261,-1.341,93.429
+0 days 01:37:32.985000,RUS,63,92.364,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.506,0.551,10.197,12.41,-0.911,-0.977,93.04700000000001
+0 days 01:39:04.841000,RUS,63,91.856,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.002,-0.002,9.689,11.792,-1.003,-1.08,92.59599999999999
+0 days 01:40:36.726000,RUS,63,91.885,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.027,0.029,9.718,11.827,-0.66,-0.713,92.682
+0 days 01:42:08.465000,RUS,63,91.739,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.119,-0.13,9.572,11.649,-0.782,-0.845,92.592
+0 days 01:43:40.062000,RUS,63,91.597,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.261,-0.284,9.43,11.477,-1.369,-1.473,92.50699999999999
+0 days 01:45:11.802000,RUS,63,91.74,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.118,-0.128,9.573,11.651,-1.241,-1.335,92.707
+0 days 01:46:43.991000,RUS,63,92.189,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.331,0.36,10.022,12.197,-0.495,-0.534,93.213
+0 days 01:48:15.306000,RUS,63,91.315,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.543,-0.591,9.148,11.133,-1.041,-1.127,92.396
+0 days 01:49:46.433000,RUS,63,91.127,21.0,4.0,,,True,INTERMEDIATE,21.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.731,-0.796,8.96,10.905,-0.952,-1.034,92.265
+0 days 01:51:17.462000,RUS,63,91.029,22.0,4.0,,,True,INTERMEDIATE,22.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.829,-0.902,8.862,10.785,-1.024,-1.112,92.22399999999999
+0 days 01:52:48.437000,RUS,63,90.975,23.0,4.0,,,True,INTERMEDIATE,23.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.883,-0.961,8.808,10.72,-0.818,-0.891,92.22699999999999
+0 days 01:54:19.110000,RUS,63,90.673,24.0,4.0,,,True,INTERMEDIATE,24.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.185,-1.29,8.506,10.352,-1.179,-1.284,91.982
+0 days 01:55:49.598000,RUS,63,90.488,25.0,4.0,,,True,INTERMEDIATE,25.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.37,-1.491,8.321,10.127,-0.892,-0.976,91.854
+0 days 01:57:19.709000,RUS,63,90.111,26.0,4.0,,,True,INTERMEDIATE,26.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.747,-1.902,7.944,9.668,-1.188,-1.301,91.533
+0 days 01:58:49.572000,RUS,63,89.863,27.0,4.0,,,True,INTERMEDIATE,27.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.995,-2.172,7.696,9.366,-0.892,-0.983,91.342
+0 days 02:00:19.268000,RUS,63,89.696,28.0,4.0,,,True,INTERMEDIATE,28.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.162,-2.354,7.529,9.163,-0.956,-1.055,91.232
+0 days 02:01:48.756000,RUS,63,89.488,29.0,4.0,,,True,INTERMEDIATE,29.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.37,-2.58,7.321,8.91,-0.543,-0.603,91.081
+0 days 02:03:18.545000,RUS,63,89.789,30.0,4.0,,,False,INTERMEDIATE,30.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.069,-2.252,7.622,9.276,-0.005,-0.006,91.43900000000001
+0 days 02:04:47.586000,RUS,63,89.041,31.0,4.0,,,True,INTERMEDIATE,31.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.817,-3.067,6.874,8.366,-1.012,-1.124,90.74799999999999
+0 days 02:06:16.947000,RUS,63,89.361,32.0,4.0,,,False,INTERMEDIATE,32.0,False,Mercedes,1,4.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.497,-2.718,7.194,8.755,-0.469,-0.522,91.125
+0 days 02:07:47.500000,RUS,63,90.553,33.0,4.0,,,False,INTERMEDIATE,33.0,False,Mercedes,124,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.305,-1.421,8.386,10.206,0.0,0.0,92.374
+0 days 02:10:03.018000,RUS,63,135.518,34.0,4.0,,0 days 02:09:45.950000,False,INTERMEDIATE,34.0,False,Mercedes,4,4.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,43.66,47.53,53.351,64.93,14.92,12.372,137.396
+0 days 02:12:08.999000,RUS,63,125.981,35.0,5.0,0 days 02:10:05.197000,,False,HARD,1.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,33.746,36.587,43.814,53.323,20.519,19.456,127.91499999999999
+0 days 02:13:53.905000,RUS,63,104.906,36.0,5.0,,,False,HARD,2.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,12.671,13.738,22.739,27.674,2.488,2.429,106.897
+0 days 02:16:26.211000,RUS,63,,37.0,5.0,,,False,HARD,3.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:18:44.483000,RUS,63,138.272,38.0,5.0,,,False,HARD,4.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,46.037,49.913,56.105,68.282,-0.742,-0.534,140.37699999999998
+0 days 02:20:57.267000,RUS,63,132.784,39.0,5.0,,,False,HARD,5.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,40.549,43.963,50.617,61.603,0.844,0.64,134.946
+0 days 02:23:08.635000,RUS,63,131.368,40.0,5.0,,,False,HARD,6.0,True,Mercedes,4,4.0,False,1,Australian Grand Prix,True,C3,False,39.133,42.427,49.201,59.879,-0.02,-0.015,133.587
+0 days 02:25:19.849000,RUS,63,131.214,41.0,5.0,,,False,HARD,7.0,True,Mercedes,41,4.0,False,1,Australian Grand Prix,True,C3,False,38.979,42.261,49.047,59.692,4.726,3.736,133.49
+0 days 02:26:46.088000,RUS,63,86.239,42.0,5.0,,,True,HARD,8.0,True,Mercedes,1,4.0,True,1,Australian Grand Prix,True,C3,True,-5.996,-6.501,4.072,4.956,-0.74,-0.851,88.572
+0 days 02:28:11.153000,RUS,63,85.065,43.0,5.0,,,True,HARD,9.0,True,Mercedes,1,4.0,True,1,Australian Grand Prix,True,C3,True,-7.17,-7.774,2.898,3.527,0.316,0.373,87.455
+0 days 02:29:57.391000,RUS,63,106.238,44.0,5.0,,0 days 02:29:40.154000,False,HARD,10.0,True,Mercedes,12,8.0,False,1,Australian Grand Prix,True,C3,False,14.003,15.182,24.071,29.295,17.906,20.271,108.685
+0 days 02:31:33.721000,RUS,63,96.33,45.0,6.0,0 days 02:29:59.594000,,False,INTERMEDIATE,1.0,True,Mercedes,21,8.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,4.472,4.868,14.163,17.237,3.285,3.531,98.833
+0 days 02:33:05.591000,RUS,63,91.87,46.0,6.0,,,False,INTERMEDIATE,2.0,True,Mercedes,1,6.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.012,0.013,9.703,11.809,-2.742,-2.898,94.43
+0 days 02:35:08.030000,RUS,63,122.439,47.0,6.0,,,False,INTERMEDIATE,3.0,True,Mercedes,124,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,30.581,33.292,40.272,49.012,-1.37,-1.107,125.056
+0 days 02:37:11.159000,RUS,63,123.129,48.0,6.0,,,False,INTERMEDIATE,4.0,True,Mercedes,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,31.271,34.043,40.962,49.852,3.054,2.543,125.80300000000001
+0 days 02:39:35.322000,RUS,63,144.163,49.0,6.0,,,False,INTERMEDIATE,5.0,True,Mercedes,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.305,56.941,61.996,75.451,-0.455,-0.315,146.894
+0 days 02:41:57.627000,RUS,63,142.305,50.0,6.0,,,False,INTERMEDIATE,6.0,True,Mercedes,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,50.447,54.918,60.138,73.19,2.629,1.882,145.09300000000002
+0 days 02:44:10.776000,RUS,63,133.149,51.0,6.0,,,False,INTERMEDIATE,7.0,True,Mercedes,41,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,41.291,44.951,50.982,62.047,0.918,0.694,135.994
+0 days 02:45:45.110000,RUS,63,94.334,52.0,6.0,,,False,INTERMEDIATE,8.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.476,2.695,12.167,14.808,-1.331,-1.391,97.236
+0 days 02:47:16.287000,RUS,63,91.177,53.0,6.0,,,False,INTERMEDIATE,9.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.681,-0.741,9.01,10.965,-0.635,-0.692,94.13600000000001
+0 days 02:48:46.697000,RUS,63,90.41,54.0,6.0,,,False,INTERMEDIATE,10.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.448,-1.576,8.243,10.032,-0.484,-0.532,93.426
+0 days 02:50:16.773000,RUS,63,90.076,55.0,6.0,,,False,INTERMEDIATE,11.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.782,-1.94,7.909,9.626,-0.268,-0.297,93.148
+0 days 02:51:46.227000,RUS,63,89.454,56.0,6.0,,,False,INTERMEDIATE,12.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.404,-2.617,7.287,8.869,-0.706,-0.783,92.583
+0 days 02:53:15.344000,RUS,63,89.117,57.0,6.0,,,False,INTERMEDIATE,13.0,True,Mercedes,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.741,-2.984,6.95,8.458,-1.589,-1.752,92.303
+0 days 01:12:57.726000,DOO,7,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Alpine,124,,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:13:01.467000,PIA,81,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,McLaren,124,6.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:15:50.986000,PIA,81,,2.0,1.0,,0 days 01:15:40.060000,False,INTERMEDIATE,2.0,True,McLaren,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:18:33.336000,PIA,81,,3.0,2.0,0 days 01:15:53.106000,0 days 01:18:21.675000,False,INTERMEDIATE,3.0,False,McLaren,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:08.974000,PIA,81,,4.0,3.0,0 days 01:18:35.632000,0 days 01:20:58.263000,False,INTERMEDIATE,4.0,False,McLaren,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:32.129000,PIA,81,143.155,5.0,4.0,0 days 01:21:11.064000,,False,INTERMEDIATE,5.0,False,McLaren,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,51.297,55.844,60.988,74.224,,,143.383
+0 days 01:25:52.002000,PIA,81,139.873,6.0,4.0,,,True,INTERMEDIATE,6.0,False,McLaren,4,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,48.015,52.271,57.706,70.23,-0.545,-0.388,140.15699999999998
+0 days 01:28:07.571000,PIA,81,135.569,7.0,4.0,,,True,INTERMEDIATE,7.0,False,McLaren,41,3.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,43.711,47.585,53.402,64.992,8.836,6.972,135.91
+0 days 01:29:44.822000,PIA,81,97.251,8.0,4.0,,,True,INTERMEDIATE,8.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.393,5.871,15.084,18.358,-1.19,-1.209,97.649
+0 days 01:31:19.400000,PIA,81,94.578,9.0,4.0,,,True,INTERMEDIATE,9.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,2.72,2.961,12.411,15.105,-1.675,-1.74,95.033
+0 days 01:32:52.072000,PIA,81,92.672,10.0,4.0,,,True,INTERMEDIATE,10.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.814,0.886,10.505,12.785,-2.435,-2.56,93.184
+0 days 01:34:24.031000,PIA,81,91.959,11.0,4.0,,,True,INTERMEDIATE,11.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.101,0.11,9.792,11.917,-2.696,-2.848,92.528
+0 days 01:35:55.321000,PIA,81,91.29,12.0,4.0,,,True,INTERMEDIATE,12.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.568,-0.618,9.123,11.103,-2.774,-2.949,91.91600000000001
+0 days 01:37:26.698000,PIA,81,91.377,13.0,4.0,,,False,INTERMEDIATE,13.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.481,-0.524,9.21,11.209,-1.898,-2.035,92.06
+0 days 01:38:57.253000,PIA,81,90.555,14.0,4.0,,,True,INTERMEDIATE,14.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.303,-1.418,8.388,10.208,-2.304,-2.481,91.295
+0 days 01:40:27.596000,PIA,81,90.343,15.0,4.0,,,True,INTERMEDIATE,15.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.515,-1.649,8.176,9.95,-2.202,-2.379,91.14
+0 days 01:41:58.318000,PIA,81,90.722,16.0,4.0,,,False,INTERMEDIATE,16.0,False,McLaren,1,3.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.136,-1.237,8.555,10.412,-1.799,-1.944,91.57499999999999
+0 days 01:43:29.014000,PIA,81,90.696,17.0,4.0,,,False,INTERMEDIATE,17.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.162,-1.265,8.529,10.38,-2.27,-2.442,91.606
+0 days 01:44:59.157000,PIA,81,90.143,18.0,4.0,,,True,INTERMEDIATE,18.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.715,-1.867,7.976,9.707,-2.838,-3.052,91.11
+0 days 01:46:29.973000,PIA,81,90.816,19.0,4.0,,,False,INTERMEDIATE,19.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.042,-1.134,8.649,10.526,-1.868,-2.015,91.84
+0 days 01:48:00.132000,PIA,81,90.159,20.0,4.0,,,False,INTERMEDIATE,20.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.699,-1.85,7.992,9.727,-2.197,-2.379,91.24000000000001
+0 days 01:49:29.859000,PIA,81,89.727,21.0,4.0,,,True,INTERMEDIATE,21.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.131,-2.32,7.56,9.201,-2.352,-2.554,90.86500000000001
+0 days 01:51:00.073000,PIA,81,90.214,22.0,4.0,,,False,INTERMEDIATE,22.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.644,-1.79,8.047,9.793,-1.839,-1.998,91.40899999999999
+0 days 01:52:29.812000,PIA,81,89.739,23.0,4.0,,,False,INTERMEDIATE,23.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.119,-2.307,7.572,9.215,-2.054,-2.238,90.991
+0 days 01:53:59.438000,PIA,81,89.626,24.0,4.0,,,True,INTERMEDIATE,24.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.232,-2.43,7.459,9.078,-2.226,-2.423,90.935
+0 days 01:55:28.733000,PIA,81,89.295,25.0,4.0,,,True,INTERMEDIATE,25.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.563,-2.79,7.128,8.675,-2.085,-2.282,90.661
+0 days 01:56:57.866000,PIA,81,89.133,26.0,4.0,,,True,INTERMEDIATE,26.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.725,-2.967,6.966,8.478,-2.166,-2.372,90.55499999999999
+0 days 01:58:26.903000,PIA,81,89.037,27.0,4.0,,,True,INTERMEDIATE,27.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.821,-3.071,6.87,8.361,-1.718,-1.893,90.516
+0 days 01:59:55.532000,PIA,81,88.629,28.0,4.0,,,True,INTERMEDIATE,28.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.229,-3.515,6.462,7.864,-2.023,-2.232,90.165
+0 days 02:01:23.720000,PIA,81,88.188,29.0,4.0,,,True,INTERMEDIATE,29.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.67,-3.995,6.021,7.328,-1.843,-2.047,89.781
+0 days 02:02:52.051000,PIA,81,88.331,30.0,4.0,,,False,INTERMEDIATE,30.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.527,-3.84,6.164,7.502,-1.463,-1.629,89.98100000000001
+0 days 02:04:19.967000,PIA,81,87.916,31.0,4.0,,,True,INTERMEDIATE,31.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.942,-4.291,5.749,6.997,-2.137,-2.373,89.62299999999999
+0 days 02:05:49.346000,PIA,81,89.379,32.0,4.0,,,False,INTERMEDIATE,32.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.479,-2.699,7.212,8.777,-0.451,-0.502,91.143
+0 days 02:07:17.572000,PIA,81,88.226,33.0,4.0,,,False,INTERMEDIATE,33.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.632,-3.954,6.059,7.374,-2.327,-2.57,90.047
+0 days 02:09:24.597000,PIA,81,127.025,34.0,4.0,,0 days 02:09:07.101000,False,INTERMEDIATE,34.0,False,McLaren,124,2.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,35.167,38.284,44.858,54.594,6.427,5.329,128.903
+0 days 02:11:28.378000,PIA,81,123.781,35.0,5.0,0 days 02:09:26.718000,,False,HARD,2.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,31.546,34.202,41.614,50.646,18.319,17.37,125.715
+0 days 02:13:39.590000,PIA,81,131.212,36.0,5.0,,,False,HARD,3.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,38.977,42.258,49.045,59.689,28.794,28.114,133.203
+0 days 02:16:19.292000,PIA,81,,37.0,5.0,,,False,HARD,4.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:18:38.184000,PIA,81,138.892,38.0,5.0,,,False,HARD,5.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,46.657,50.585,56.725,69.036,-0.122,-0.088,140.99699999999999
+0 days 02:20:51.964000,PIA,81,133.78,39.0,5.0,,,False,HARD,6.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,41.545,45.043,51.613,62.815,1.84,1.395,135.942
+0 days 02:23:04.980000,PIA,81,133.016,40.0,5.0,,,False,HARD,7.0,False,McLaren,4,2.0,False,1,Australian Grand Prix,True,C3,False,40.781,44.214,50.849,61.885,1.628,1.239,135.23499999999999
+0 days 02:25:18.533000,PIA,81,133.553,41.0,5.0,,,False,HARD,8.0,False,McLaren,41,2.0,False,1,Australian Grand Prix,True,C3,False,41.318,44.796,51.386,62.538,7.065,5.586,135.829
+0 days 02:26:43.116000,PIA,81,84.583,42.0,5.0,,,True,HARD,9.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,True,C3,True,-7.652,-8.296,2.416,2.94,-2.396,-2.755,86.916
+0 days 02:28:06.358000,PIA,81,83.242,43.0,5.0,,,True,HARD,10.0,False,McLaren,1,2.0,True,1,Australian Grand Prix,True,C3,True,-8.993,-9.75,1.075,1.308,-1.507,-1.778,85.632
+0 days 02:31:17.415000,PIA,81,,44.0,5.0,,0 days 02:30:59.848000,False,HARD,11.0,False,McLaren,12,15.0,False,1,Australian Grand Prix,True,C3,False,,,,,,,
+0 days 02:32:55.599000,PIA,81,98.184,45.0,6.0,0 days 02:31:19.599000,,False,INTERMEDIATE,1.0,True,McLaren,1,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,6.326,6.887,16.017,19.493,5.139,5.523,100.687
+0 days 02:34:46.621000,PIA,81,111.022,46.0,6.0,,,False,INTERMEDIATE,2.0,True,McLaren,124,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,19.164,20.863,28.855,35.118,16.41,17.345,113.58200000000001
+0 days 02:36:46.791000,PIA,81,120.17,47.0,6.0,,,False,INTERMEDIATE,3.0,True,McLaren,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,28.312,30.821,38.003,46.251,-3.639,-2.939,122.787
+0 days 02:38:29.204000,PIA,81,102.413,48.0,6.0,,,False,INTERMEDIATE,4.0,True,McLaren,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,10.555,11.491,20.246,24.64,-17.662,-14.709,105.087
+0 days 02:40:09.644000,PIA,81,100.44,49.0,6.0,,,False,INTERMEDIATE,5.0,True,McLaren,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,8.582,9.343,18.273,22.239,-44.178,-30.548,103.17099999999999
+0 days 02:42:13.376000,PIA,81,123.732,50.0,6.0,,,False,INTERMEDIATE,6.0,True,McLaren,4,13.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,31.874,34.699,41.565,50.586,-15.944,-11.415,126.52
+0 days 02:44:17.651000,PIA,81,124.275,51.0,6.0,,,False,INTERMEDIATE,7.0,True,McLaren,41,12.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,32.417,35.29,42.108,51.247,-7.956,-6.017,127.12
+0 days 02:45:54.875000,PIA,81,97.224,52.0,6.0,,,False,INTERMEDIATE,8.0,True,McLaren,1,12.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,5.366,5.842,15.057,18.325,1.559,1.63,100.126
+0 days 02:47:26.684000,PIA,81,91.809,53.0,6.0,,,False,INTERMEDIATE,9.0,True,McLaren,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.049,-0.053,9.642,11.735,-0.003,-0.003,94.768
+0 days 02:48:59.191000,PIA,81,92.507,54.0,6.0,,,False,INTERMEDIATE,10.0,True,McLaren,1,11.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,0.649,0.707,10.34,12.584,1.613,1.775,95.52300000000001
+0 days 02:50:29.242000,PIA,81,90.051,55.0,6.0,,,False,INTERMEDIATE,11.0,True,McLaren,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.807,-1.967,7.884,9.595,-0.293,-0.324,93.123
+0 days 02:51:57.801000,PIA,81,88.559,56.0,6.0,,,False,INTERMEDIATE,12.0,True,McLaren,1,10.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-3.299,-3.591,6.392,7.779,-1.601,-1.776,91.688
+0 days 02:53:27.318000,PIA,81,89.517,57.0,6.0,,,False,INTERMEDIATE,13.0,True,McLaren,1,9.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-2.341,-2.548,7.35,8.945,-1.189,-1.311,92.703
+0 days 01:13:29.913000,BEA,87,,1.0,1.0,0 days 01:11:12.042000,,False,INTERMEDIATE,1.0,False,Haas F1 Team,124,20.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:16:19.855000,BEA,87,,2.0,1.0,,0 days 01:16:08.478000,False,INTERMEDIATE,2.0,False,Haas F1 Team,4,17.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:19:05.266000,BEA,87,,3.0,3.0,0 days 01:16:23.180000,0 days 01:18:51.042000,False,INTERMEDIATE,3.0,False,Haas F1 Team,4,17.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:50.926000,BEA,87,,4.0,5.0,0 days 01:19:07.407000,0 days 01:21:30.664000,False,INTERMEDIATE,4.0,False,Haas F1 Team,4,17.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:56.338000,BEA,87,125.412,5.0,6.0,0 days 01:21:52.962000,,False,MEDIUM,1.0,True,Haas F1 Team,4,17.0,False,1,Australian Grand Prix,True,C4,False,33.177,35.97,43.245,52.631,,,125.64
+0 days 01:26:18.413000,BEA,87,142.075,6.0,6.0,,,True,MEDIUM,2.0,True,Haas F1 Team,4,17.0,False,1,Australian Grand Prix,True,C4,False,49.84,54.036,59.908,72.91,1.657,1.18,142.35899999999998
+0 days 01:28:20.605000,BEA,87,122.192,7.0,6.0,,,True,MEDIUM,3.0,True,Haas F1 Team,41,17.0,False,1,Australian Grand Prix,True,C4,False,29.957,32.479,40.025,48.712,-4.541,-3.583,122.53299999999999
+0 days 01:30:02.659000,BEA,87,102.054,8.0,6.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,9.819,10.646,19.887,24.203,3.613,3.67,102.452
+0 days 01:31:41.223000,BEA,87,98.564,9.0,6.0,,,True,MEDIUM,5.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,6.329,6.862,16.397,19.956,2.311,2.401,99.01899999999999
+0 days 01:33:17.634000,BEA,87,96.411,10.0,6.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,4.176,4.528,14.244,17.335,1.304,1.371,96.923
+0 days 01:34:53.050000,BEA,87,95.416,11.0,6.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,3.181,3.449,13.249,16.124,0.761,0.804,95.985
+0 days 01:36:28.052000,BEA,87,95.002,12.0,6.0,,,True,MEDIUM,8.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,2.767,3.0,12.835,15.621,0.938,0.997,95.628
+0 days 01:38:02.302000,BEA,87,94.25,13.0,6.0,,,True,MEDIUM,9.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,2.015,2.185,12.083,14.705,0.975,1.045,94.933
+0 days 01:39:36.034000,BEA,87,93.732,14.0,6.0,,,True,MEDIUM,10.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.497,1.623,11.565,14.075,0.873,0.94,94.472
+0 days 01:41:09.919000,BEA,87,93.885,15.0,6.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.65,1.789,11.718,14.261,1.34,1.448,94.682
+0 days 01:42:43.314000,BEA,87,93.395,16.0,6.0,,,True,MEDIUM,12.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.16,1.258,11.228,13.665,0.874,0.945,94.24799999999999
+0 days 01:44:17.841000,BEA,87,94.527,17.0,6.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,2.292,2.485,12.36,15.043,1.561,1.679,95.437
+0 days 01:45:52.368000,BEA,87,94.527,18.0,6.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,2.292,2.485,12.36,15.043,1.546,1.663,95.494
+0 days 01:47:26.433000,BEA,87,94.065,19.0,6.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.83,1.984,11.898,14.48,1.381,1.49,95.089
+0 days 01:49:00.527000,BEA,87,94.094,20.0,6.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.859,2.016,11.927,14.516,1.738,1.882,95.175
+0 days 01:50:34.345000,BEA,87,93.818,21.0,6.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.583,1.716,11.651,14.18,1.739,1.889,94.956
+0 days 01:52:07.935000,BEA,87,93.59,22.0,6.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.355,1.469,11.423,13.902,1.537,1.67,94.785
+0 days 01:53:41.277000,BEA,87,93.342,23.0,6.0,,,True,MEDIUM,19.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,1.107,1.2,11.175,13.6,1.549,1.687,94.594
+0 days 01:55:14.319000,BEA,87,93.042,24.0,6.0,,,True,MEDIUM,20.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,0.807,0.875,10.875,13.235,1.19,1.296,94.351
+0 days 01:56:46.932000,BEA,87,92.613,25.0,6.0,,,True,MEDIUM,21.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,0.378,0.41,10.446,12.713,1.233,1.349,93.979
+0 days 01:58:19.509000,BEA,87,92.577,26.0,6.0,,,True,MEDIUM,22.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,0.342,0.371,10.41,12.669,1.278,1.4,93.999
+0 days 01:59:52.016000,BEA,87,92.507,27.0,6.0,,,True,MEDIUM,23.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,0.272,0.295,10.34,12.584,1.752,1.93,93.986
+0 days 02:01:26.521000,BEA,87,94.505,28.0,6.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,2.27,2.461,12.338,15.016,3.853,4.25,96.041
+0 days 02:02:57.788000,BEA,87,91.267,29.0,6.0,,,True,MEDIUM,25.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,-0.968,-1.049,9.1,11.075,1.236,1.373,92.86
+0 days 02:04:29.165000,BEA,87,91.377,30.0,6.0,,,False,MEDIUM,26.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,-0.858,-0.93,9.21,11.209,1.583,1.763,93.027
+0 days 02:06:00.422000,BEA,87,91.257,31.0,6.0,,,True,MEDIUM,27.0,True,Haas F1 Team,1,17.0,True,1,Australian Grand Prix,True,C4,True,-0.978,-1.06,9.09,11.063,1.204,1.337,92.964
+0 days 02:07:31.722000,BEA,87,91.3,32.0,6.0,,,False,MEDIUM,28.0,True,Haas F1 Team,12,17.0,True,1,Australian Grand Prix,True,C4,False,-0.935,-1.014,9.133,11.115,1.47,1.636,93.064
+0 days 02:09:28.870000,BEA,87,117.148,33.0,6.0,,,False,MEDIUM,29.0,True,Haas F1 Team,24,16.0,False,1,Australian Grand Prix,True,C4,False,24.913,27.01,34.981,42.573,26.595,29.37,118.969
+0 days 02:11:29.516000,BEA,87,120.646,34.0,6.0,,,False,MEDIUM,30.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,28.411,30.803,38.479,46.83,0.048,0.04,122.524
+0 days 02:13:40.583000,BEA,87,131.067,35.0,6.0,,,False,MEDIUM,31.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,38.832,42.101,48.9,59.513,25.605,24.279,133.001
+0 days 02:16:21.206000,BEA,87,,36.0,6.0,,,False,MEDIUM,32.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,,,,,,,
+0 days 02:18:39.878000,BEA,87,138.672,37.0,6.0,,,False,MEDIUM,33.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,46.437,50.346,56.505,68.768,8.762,6.745,140.72
+0 days 02:20:52.736000,BEA,87,132.858,38.0,6.0,,,False,MEDIUM,34.0,True,Haas F1 Team,4,15.0,False,1,Australian Grand Prix,True,C4,False,40.623,44.043,50.691,61.693,-6.156,-4.428,134.963
+0 days 02:23:03.212000,BEA,87,130.476,39.0,6.0,,0 days 02:22:42.794000,False,MEDIUM,35.0,True,Haas F1 Team,4,16.0,False,1,Australian Grand Prix,True,C4,False,38.241,41.46,48.309,58.794,-1.464,-1.11,132.638
+0 days 02:24:57.034000,BEA,87,113.822,40.0,6.0,0 days 02:23:05.453000,,False,MEDIUM,36.0,True,Haas F1 Team,4,16.0,False,1,Australian Grand Prix,True,C4,False,21.587,23.404,31.655,38.525,-17.566,-13.37,116.041
+0 days 02:26:26.183000,BEA,87,89.149,41.0,6.0,,,True,MEDIUM,37.0,True,Haas F1 Team,41,16.0,False,1,Australian Grand Prix,True,C4,False,-3.086,-3.346,6.982,8.497,-37.339,-29.52,91.425
+0 days 02:27:53.786000,BEA,87,87.603,42.0,6.0,,,True,MEDIUM,38.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,True,C4,True,-4.632,-5.022,5.436,6.616,0.624,0.717,89.93599999999999
+0 days 02:29:24.843000,BEA,87,91.057,43.0,6.0,,,False,MEDIUM,39.0,True,Haas F1 Team,1,16.0,True,1,Australian Grand Prix,True,C4,True,-1.178,-1.277,8.89,10.819,6.308,7.443,93.447
+0 days 02:31:27.804000,BEA,87,122.961,44.0,6.0,,0 days 02:31:10.506000,False,MEDIUM,40.0,True,Haas F1 Team,12,16.0,False,1,Australian Grand Prix,True,C4,False,30.726,33.313,40.794,49.648,34.629,39.203,125.408
+0 days 02:33:09.581000,BEA,87,101.777,45.0,7.0,0 days 02:31:29.994000,,False,INTERMEDIATE,1.0,True,Haas F1 Team,1,16.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,9.919,10.798,19.61,23.866,8.732,9.385,104.28
+0 days 02:35:15.079000,BEA,87,125.498,46.0,7.0,,,False,INTERMEDIATE,2.0,True,Haas F1 Team,124,15.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,33.64,36.622,43.331,52.735,30.886,32.645,128.058
+0 days 02:37:13.673000,BEA,87,118.594,47.0,7.0,,,False,INTERMEDIATE,3.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,26.736,29.106,36.427,44.333,-5.215,-4.212,121.211
+0 days 02:39:38.461000,BEA,87,144.788,48.0,7.0,,,False,INTERMEDIATE,4.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,52.93,57.622,62.621,76.212,24.713,20.581,147.46200000000002
+0 days 02:41:28.949000,BEA,87,110.488,49.0,7.0,,,False,INTERMEDIATE,5.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,18.63,20.281,28.321,34.468,-34.13,-23.6,113.219
+0 days 02:43:05.136000,BEA,87,96.187,50.0,7.0,,,False,INTERMEDIATE,6.0,True,Haas F1 Team,4,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,4.329,4.713,14.02,17.063,-43.489,-31.136,98.975
+0 days 02:44:40.073000,BEA,87,94.937,51.0,7.0,,,False,INTERMEDIATE,7.0,True,Haas F1 Team,41,14.0,False,1,Australian Grand Prix,False,INTERMEDIATE,False,3.079,3.352,12.77,15.542,-37.294,-28.204,97.782
+0 days 02:46:13.331000,BEA,87,93.258,52.0,7.0,,,False,INTERMEDIATE,8.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,1.4,1.524,11.091,13.498,-2.407,-2.516,96.16
+0 days 02:47:44.697000,BEA,87,91.366,53.0,7.0,,,False,INTERMEDIATE,9.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.492,-0.536,9.199,11.195,-0.446,-0.486,94.325
+0 days 02:49:15.187000,BEA,87,90.49,54.0,7.0,,,False,INTERMEDIATE,10.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.368,-1.489,8.323,10.129,-0.404,-0.444,93.506
+0 days 02:50:46.471000,BEA,87,91.284,55.0,7.0,,,False,INTERMEDIATE,11.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.574,-0.625,9.117,11.096,0.94,1.04,94.35600000000001
+0 days 02:52:16.697000,BEA,87,90.226,56.0,7.0,,,False,INTERMEDIATE,12.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.632,-1.777,8.059,9.808,0.066,0.073,93.355
+0 days 02:53:47.250000,BEA,87,90.553,57.0,7.0,,,False,INTERMEDIATE,13.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.305,-1.421,8.386,10.206,-0.153,-0.169,93.739
