@@ -2,7 +2,7 @@
 
 import logging
 from collections import defaultdict
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 import fastf1 as f
@@ -626,12 +626,6 @@ def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
         - session_cutoff is between 1 and 5 inclusive.
     """
     current_schedule = f.get_event_schedule(CURRENT_SEASON)
-
-    # only load a session that is at most five hours old
-    # this allows for a max session length of three hours
-    # and a two-hour window for Fastf1 to make the session available
-    five_hours_past = datetime.now(timezone.utc) - timedelta(hours=5)
-
     # Numpy might issue a deprecation warning or user warning for this conversion
     # From numpy documentation:
     #
@@ -640,10 +634,10 @@ def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
     # Datetime64 objects should be considered to be UTC and therefore have an offset of +0000
     #
     # This is our use case and the warning can be ignored
-    five_hours_past = np.datetime64(five_hours_past)
+    api_available = np.datetime64(datetime.now(timezone.utc))
 
     rounds_completed = current_schedule[
-        current_schedule[f"Session{session_cutoff}DateUtc"] <= five_hours_past
+        current_schedule[f"Session{session_cutoff}DateUtc"] <= api_available
     ]["RoundNumber"].max()
 
     if pd.isna(rounds_completed):
