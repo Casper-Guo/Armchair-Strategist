@@ -706,7 +706,7 @@ def main() -> int:
 
     logger.info(
         "Correctness Check: %d sprint races of the %d season have been completed",
-        num_sprint_completed,
+        len(SPRINT_ROUNDS[CURRENT_SEASON].intersection(range(1, num_sprint_completed + 1))),
         CURRENT_SEASON,
     )
 
