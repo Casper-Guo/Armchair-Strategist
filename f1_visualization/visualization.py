@@ -259,6 +259,27 @@ def get_session_info(
     """
     session = f.get_session(season, event, session_type)
     session.load(laps=False, telemetry=False, weather=False, messages=False)
+
+    if session.results["Position"].isna().all():
+        logger.warning("Session results not available. The finishing positions are inferred.")
+        session.load(laps=True, telemetry=False, weather=False, messages=False)
+
+        # The laps dataframe is returned in ascending LapNumber order per driver
+        # This keeps the final lap of each driver
+        final_laps = session.laps.drop_duplicates(subset="DriverNumber", keep="last")
+
+        # Drivers who have completed more laps always finishes higher
+        # For drivers who finished the same number of laps, the tie is broken by who finished
+        # the lap earlier
+        # The ignore_index=True option has the same effect as calling reset_index
+        final_order = final_laps.sort_values(
+            by=["LapNumber", "Time"], ascending=[False, True], ignore_index=True
+        )
+        session.results["Position"] = [
+            final_order[final_order["DriverNumber"] == driver].index[0]
+            for driver in session.results.index
+        ]
+
     round_number = session.event["RoundNumber"]
     event_name = f"{session.event['EventName']} - {session.name}"
 
