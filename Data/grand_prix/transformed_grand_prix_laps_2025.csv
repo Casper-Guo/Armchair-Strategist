@@ -926,3 +926,1068 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:50:46.471000,BEA,87,91.284,55.0,7.0,,,False,INTERMEDIATE,11.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-0.751,-0.816,9.117,11.096,0.94,1.04,94.41000000000001
 0 days 02:52:16.697000,BEA,87,90.226,56.0,7.0,,,False,INTERMEDIATE,12.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.809,-1.966,8.059,9.808,0.066,0.073,93.41
 0 days 02:53:47.250000,BEA,87,90.553,57.0,7.0,,,False,INTERMEDIATE,13.0,True,Haas F1 Team,1,14.0,True,1,Australian Grand Prix,False,INTERMEDIATE,False,-1.482,-1.61,8.386,10.206,-0.153,-0.169,93.795
+0 days 01:00:41.446000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,1.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:18.997000,PIA,81,97.551,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,-0.057,-0.058,2.482,2.611,-1.71,-1.723,97.61
+0 days 01:03:56.686000,PIA,81,97.689,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,12,1.0,True,2,Chinese Grand Prix,True,C3,False,0.081,0.083,2.62,2.756,-1.36,-1.373,97.80699999999999
+0 days 01:05:34.490000,PIA,81,97.804,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.196,0.201,2.735,2.877,-0.958,-0.97,97.98100000000001
+0 days 01:07:12.572000,PIA,81,98.082,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.474,0.486,3.013,3.169,-0.715,-0.724,98.318
+0 days 01:08:50.111000,PIA,81,97.539,6.0,1.0,,,True,MEDIUM,6.0,True,McLaren,12,1.0,True,2,Chinese Grand Prix,True,C3,False,-0.069,-0.071,2.47,2.598,-1.516,-1.53,97.834
+0 days 01:10:28.009000,PIA,81,97.898,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.29,0.297,2.829,2.976,-1.177,-1.188,98.252
+0 days 01:12:06.202000,PIA,81,98.193,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.585,0.599,3.124,3.286,-1.129,-1.137,98.605
+0 days 01:13:44.401000,PIA,81,98.199,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.591,0.605,3.13,3.292,-1.05,-1.058,98.67
+0 days 01:15:22.395000,PIA,81,97.994,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.386,0.395,2.925,3.077,-1.114,-1.124,98.524
+0 days 01:17:00.519000,PIA,81,98.124,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.516,0.529,3.055,3.213,-0.933,-0.942,98.713
+0 days 01:18:38.632000,PIA,81,98.113,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.505,0.517,3.044,3.202,-0.687,-0.695,98.761
+0 days 01:20:16.587000,PIA,81,97.955,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.347,0.356,2.886,3.036,-0.394,-0.401,98.66199999999999
+0 days 01:21:59.213000,PIA,81,102.626,14.0,1.0,,0 days 01:21:57.540000,False,MEDIUM,14.0,True,McLaren,1,2.0,False,2,Chinese Grand Prix,True,C3,False,5.018,5.141,7.557,7.949,3.825,3.871,103.39200000000001
+0 days 01:23:56.743000,PIA,81,117.53,15.0,2.0,0 days 01:22:21.395000,,False,HARD,1.0,True,McLaren,1,4.0,False,2,Chinese Grand Prix,True,C2,False,19.922,20.41,22.461,23.626,18.56,18.753,118.355
+0 days 01:25:34.150000,PIA,81,97.407,16.0,2.0,,,True,HARD,2.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.201,-0.206,2.338,2.459,-1.687,-1.702,98.291
+0 days 01:27:11.041000,PIA,81,96.891,17.0,2.0,,,True,HARD,3.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.717,-0.735,1.822,1.917,-2.137,-2.158,97.834
+0 days 01:28:48.212000,PIA,81,97.171,18.0,2.0,,,False,HARD,4.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.437,-0.448,2.102,2.211,-1.77,-1.789,98.173
+0 days 01:30:25.423000,PIA,81,97.211,19.0,2.0,,,False,HARD,5.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.397,-0.407,2.142,2.253,-0.825,-0.842,98.27199999999999
+0 days 01:32:02.831000,PIA,81,97.408,20.0,2.0,,,False,HARD,6.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.2,-0.205,2.339,2.46,-0.714,-0.728,98.528
+0 days 01:33:40.816000,PIA,81,97.985,21.0,2.0,,,False,HARD,7.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,0.377,0.386,2.916,3.067,0.006,0.006,99.164
+0 days 01:35:18.554000,PIA,81,97.738,22.0,2.0,,,False,HARD,8.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,0.13,0.133,2.669,2.807,-0.144,-0.147,98.976
+0 days 01:36:55.786000,PIA,81,97.232,23.0,2.0,,,False,HARD,9.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.376,-0.385,2.163,2.275,-0.498,-0.51,98.528
+0 days 01:38:32.756000,PIA,81,96.97,24.0,2.0,,,False,HARD,10.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.638,-0.654,1.901,2.0,-1.063,-1.084,98.325
+0 days 01:40:09.941000,PIA,81,97.185,25.0,2.0,,,False,HARD,11.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.423,-0.433,2.116,2.226,-0.978,-0.996,98.599
+0 days 01:41:47.127000,PIA,81,97.186,26.0,2.0,,,False,HARD,12.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.422,-0.432,2.117,2.227,-0.808,-0.825,98.659
+0 days 01:43:24.239000,PIA,81,97.112,27.0,2.0,,,False,HARD,13.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.496,-0.508,2.043,2.149,-0.852,-0.87,98.64399999999999
+0 days 01:45:01.240000,PIA,81,97.001,28.0,2.0,,,False,HARD,14.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.607,-0.622,1.932,2.032,-0.674,-0.69,98.592
+0 days 01:46:37.773000,PIA,81,96.533,29.0,2.0,,,True,HARD,15.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.075,-1.101,1.464,1.54,-1.165,-1.192,98.183
+0 days 01:48:14.583000,PIA,81,96.81,30.0,2.0,,,False,HARD,16.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.798,-0.818,1.741,1.831,-0.951,-0.973,98.519
+0 days 01:49:51.245000,PIA,81,96.662,31.0,2.0,,,False,HARD,17.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.946,-0.969,1.593,1.676,-1.16,-1.186,98.43
+0 days 01:51:27.943000,PIA,81,96.698,32.0,2.0,,,False,HARD,18.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.91,-0.932,1.629,1.713,-0.921,-0.943,98.52499999999999
+0 days 01:53:04.392000,PIA,81,96.449,33.0,2.0,,,True,HARD,19.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.159,-1.187,1.38,1.452,-1.132,-1.16,98.335
+0 days 01:54:41.196000,PIA,81,96.804,34.0,2.0,,,False,HARD,20.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.804,-0.824,1.735,1.825,-0.577,-0.593,98.749
+0 days 01:56:17.836000,PIA,81,96.64,35.0,2.0,,,False,HARD,21.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.968,-0.992,1.571,1.652,-0.582,-0.599,98.644
+0 days 01:57:54.631000,PIA,81,96.795,36.0,2.0,,,False,HARD,22.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.813,-0.833,1.726,1.816,-0.372,-0.383,98.857
+0 days 01:59:31.321000,PIA,81,96.69,37.0,2.0,,,False,HARD,23.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.918,-0.94,1.621,1.705,-0.418,-0.43,98.81099999999999
+0 days 02:01:07.848000,PIA,81,96.527,38.0,2.0,,,False,HARD,24.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.081,-1.107,1.458,1.534,-0.327,-0.338,98.70700000000001
+0 days 02:02:44.048000,PIA,81,96.2,39.0,2.0,,,True,HARD,25.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.408,-1.443,1.131,1.19,-0.653,-0.674,98.43900000000001
+0 days 02:04:20.057000,PIA,81,96.009,40.0,2.0,,,True,HARD,26.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.599,-1.638,0.94,0.989,-0.721,-0.745,98.307
+0 days 02:05:56.085000,PIA,81,96.028,41.0,2.0,,,False,HARD,27.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.58,-1.619,0.959,1.009,-0.669,-0.692,98.385
+0 days 02:07:32.404000,PIA,81,96.319,42.0,2.0,,,False,HARD,28.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.289,-1.321,1.25,1.315,-0.549,-0.567,98.735
+0 days 02:09:08.770000,PIA,81,96.366,43.0,2.0,,,False,HARD,29.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.242,-1.272,1.297,1.364,-0.567,-0.585,98.841
+0 days 02:10:45.303000,PIA,81,96.533,44.0,2.0,,,False,HARD,30.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.075,-1.101,1.464,1.54,-0.33,-0.341,99.06700000000001
+0 days 02:12:21.977000,PIA,81,96.674,45.0,2.0,,,False,HARD,31.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.934,-0.957,1.605,1.688,-0.207,-0.214,99.26700000000001
+0 days 02:13:58.437000,PIA,81,96.46,46.0,2.0,,,False,HARD,32.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.148,-1.176,1.391,1.463,-0.224,-0.232,99.112
+0 days 02:15:34.576000,PIA,81,96.139,47.0,2.0,,,False,HARD,33.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.469,-1.505,1.07,1.125,-0.503,-0.52,98.85
+0 days 02:17:10.578000,PIA,81,96.002,48.0,2.0,,,True,HARD,34.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.606,-1.645,0.933,0.981,-0.499,-0.517,98.77199999999999
+0 days 02:18:46.546000,PIA,81,95.968,49.0,2.0,,,True,HARD,35.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.64,-1.68,0.899,0.946,-0.513,-0.532,98.797
+0 days 02:20:22.170000,PIA,81,95.624,50.0,2.0,,,True,HARD,36.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.984,-2.033,0.555,0.584,-0.693,-0.719,98.511
+0 days 02:21:58.277000,PIA,81,96.107,51.0,2.0,,,False,HARD,37.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.501,-1.538,1.038,1.092,-0.396,-0.41,99.053
+0 days 02:23:34.057000,PIA,81,95.78,52.0,2.0,,,False,HARD,38.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.828,-1.873,0.711,0.748,-0.644,-0.668,98.785
+0 days 02:25:09.577000,PIA,81,95.52,53.0,2.0,,,True,HARD,39.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-2.088,-2.139,0.451,0.474,-1.209,-1.25,98.584
+0 days 02:26:45.218000,PIA,81,95.641,54.0,2.0,,,False,HARD,40.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.967,-2.015,0.572,0.602,-1.343,-1.385,98.76400000000001
+0 days 02:28:21.194000,PIA,81,95.976,55.0,2.0,,,False,HARD,41.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-1.632,-1.672,0.907,0.954,-0.652,-0.675,99.158
+0 days 02:29:58.128000,PIA,81,96.934,56.0,2.0,,,False,HARD,42.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C2,True,-0.674,-0.691,1.865,1.962,0.078,0.081,100.175
+0 days 01:00:43.384000,RUS,63,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,12,3.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:20.847000,RUS,63,97.463,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,-0.145,-0.149,2.394,2.518,-1.798,-1.811,97.52199999999999
+0 days 01:03:58.621000,RUS,63,97.774,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,12,3.0,True,2,Chinese Grand Prix,True,C3,False,0.166,0.17,2.705,2.845,-1.275,-1.287,97.892
+0 days 01:05:36.264000,RUS,63,97.643,4.0,1.0,,,False,MEDIUM,4.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.035,0.036,2.574,2.708,-1.119,-1.133,97.82000000000001
+0 days 01:07:14.085000,RUS,63,97.821,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.213,0.218,2.752,2.895,-0.976,-0.988,98.057
+0 days 01:08:52.548000,RUS,63,98.463,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,12,3.0,True,2,Chinese Grand Prix,True,C3,False,0.855,0.876,3.394,3.57,-0.592,-0.598,98.758
+0 days 01:10:31.012000,RUS,63,98.464,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.856,0.877,3.395,3.571,-0.611,-0.617,98.818
+0 days 01:12:09.727000,RUS,63,98.715,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,1.107,1.134,3.646,3.835,-0.607,-0.611,99.12700000000001
+0 days 01:13:48.284000,RUS,63,98.557,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.949,0.972,3.488,3.669,-0.692,-0.697,99.028
+0 days 01:15:26.722000,RUS,63,98.438,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.83,0.85,3.369,3.544,-0.67,-0.676,98.968
+0 days 01:17:05.097000,RUS,63,98.375,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.767,0.786,3.306,3.477,-0.682,-0.688,98.964
+0 days 01:18:43.488000,RUS,63,98.391,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.783,0.802,3.322,3.494,-0.409,-0.414,99.039
+0 days 01:20:21.699000,RUS,63,98.211,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.603,0.618,3.142,3.305,-0.138,-0.14,98.91799999999999
+0 days 01:22:04.745000,RUS,63,103.046,14.0,1.0,,0 days 01:22:03.037000,False,MEDIUM,14.0,True,Mercedes,1,4.0,False,2,Chinese Grand Prix,True,C3,False,5.438,5.571,7.977,8.391,4.245,4.297,103.81200000000001
+0 days 01:23:58.981000,RUS,63,114.236,15.0,2.0,0 days 01:22:25.322000,,False,HARD,1.0,True,Mercedes,1,6.0,False,2,Chinese Grand Prix,True,C2,False,16.628,17.035,19.167,20.161,15.266,15.425,115.061
+0 days 01:25:35.793000,RUS,63,96.812,16.0,2.0,,,True,HARD,2.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.796,-0.816,1.743,1.833,-2.282,-2.303,97.696
+0 days 01:27:13.643000,RUS,63,97.85,17.0,2.0,,,False,HARD,3.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,0.242,0.248,2.781,2.925,-1.178,-1.19,98.79299999999999
+0 days 01:28:52.508000,RUS,63,98.865,18.0,2.0,,,False,HARD,4.0,True,Mercedes,1,4.0,True,2,Chinese Grand Prix,True,C2,True,1.257,1.288,3.796,3.993,-0.076,-0.077,99.86699999999999
+0 days 01:30:30.437000,RUS,63,97.929,19.0,2.0,,,False,HARD,5.0,True,Mercedes,1,4.0,True,2,Chinese Grand Prix,True,C2,True,0.321,0.329,2.86,3.008,-0.107,-0.109,98.99000000000001
+0 days 01:32:08.909000,RUS,63,98.472,20.0,2.0,,,False,HARD,6.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,0.864,0.885,3.403,3.58,0.35,0.357,99.592
+0 days 01:33:46.873000,RUS,63,97.964,21.0,2.0,,,False,HARD,7.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,0.356,0.365,2.895,3.045,-0.015,-0.015,99.143
+0 days 01:35:24.208000,RUS,63,97.335,22.0,2.0,,,False,HARD,8.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.273,-0.28,2.266,2.384,-0.547,-0.559,98.573
+0 days 01:37:01.363000,RUS,63,97.155,23.0,2.0,,,False,HARD,9.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.453,-0.464,2.086,2.194,-0.575,-0.588,98.45100000000001
+0 days 01:38:38.697000,RUS,63,97.334,24.0,2.0,,,False,HARD,10.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.274,-0.281,2.265,2.382,-0.699,-0.713,98.68900000000001
+0 days 01:40:16.096000,RUS,63,97.399,25.0,2.0,,,False,HARD,11.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.209,-0.214,2.33,2.451,-0.764,-0.778,98.813
+0 days 01:41:53.380000,RUS,63,97.284,26.0,2.0,,,False,HARD,12.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.324,-0.332,2.215,2.33,-0.71,-0.725,98.757
+0 days 01:43:30.437000,RUS,63,97.057,27.0,2.0,,,False,HARD,13.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.551,-0.565,1.988,2.091,-0.907,-0.926,98.589
+0 days 01:45:07.345000,RUS,63,96.908,28.0,2.0,,,False,HARD,14.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.7,-0.717,1.839,1.934,-0.767,-0.785,98.499
+0 days 01:46:44.006000,RUS,63,96.661,29.0,2.0,,,True,HARD,15.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.947,-0.97,1.592,1.675,-1.037,-1.061,98.311
+0 days 01:48:21.196000,RUS,63,97.19,30.0,2.0,,,False,HARD,16.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.418,-0.428,2.121,2.231,-0.571,-0.584,98.899
+0 days 01:49:58.179000,RUS,63,96.983,31.0,2.0,,,False,HARD,17.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.625,-0.64,1.914,2.013,-0.839,-0.858,98.751
+0 days 01:51:35.379000,RUS,63,97.2,32.0,2.0,,,False,HARD,18.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.408,-0.418,2.131,2.242,-0.419,-0.429,99.027
+0 days 01:53:12.479000,RUS,63,97.1,33.0,2.0,,,False,HARD,19.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.508,-0.52,2.031,2.136,-0.481,-0.493,98.98599999999999
+0 days 01:54:49.332000,RUS,63,96.853,34.0,2.0,,,False,HARD,20.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.755,-0.774,1.784,1.877,-0.528,-0.542,98.79799999999999
+0 days 01:56:25.996000,RUS,63,96.664,35.0,2.0,,,False,HARD,21.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.944,-0.967,1.595,1.678,-0.558,-0.574,98.668
+0 days 01:58:02.684000,RUS,63,96.688,36.0,2.0,,,False,HARD,22.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.92,-0.943,1.619,1.703,-0.479,-0.493,98.75
+0 days 01:59:39.423000,RUS,63,96.739,37.0,2.0,,,False,HARD,23.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.869,-0.89,1.67,1.757,-0.369,-0.38,98.86
+0 days 02:01:16.004000,RUS,63,96.581,38.0,2.0,,,True,HARD,24.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.027,-1.052,1.512,1.59,-0.273,-0.282,98.76100000000001
+0 days 02:02:52.552000,RUS,63,96.548,39.0,2.0,,,True,HARD,25.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.06,-1.086,1.479,1.556,-0.305,-0.315,98.787
+0 days 02:04:29.040000,RUS,63,96.488,40.0,2.0,,,True,HARD,26.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.12,-1.147,1.419,1.493,-0.242,-0.25,98.786
+0 days 02:06:05.511000,RUS,63,96.471,41.0,2.0,,,True,HARD,27.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.137,-1.165,1.402,1.475,-0.226,-0.234,98.828
+0 days 02:07:41.848000,RUS,63,96.337,42.0,2.0,,,True,HARD,28.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.271,-1.302,1.268,1.334,-0.531,-0.548,98.753
+0 days 02:09:18.307000,RUS,63,96.459,43.0,2.0,,,False,HARD,29.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.149,-1.177,1.39,1.462,-0.474,-0.489,98.934
+0 days 02:10:54.883000,RUS,63,96.576,44.0,2.0,,,False,HARD,30.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.032,-1.057,1.507,1.585,-0.287,-0.296,99.11
+0 days 02:12:31.457000,RUS,63,96.574,45.0,2.0,,,False,HARD,31.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.034,-1.059,1.505,1.583,-0.307,-0.317,99.167
+0 days 02:14:07.757000,RUS,63,96.3,46.0,2.0,,,True,HARD,32.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.308,-1.34,1.231,1.295,-0.384,-0.397,98.952
+0 days 02:15:44.040000,RUS,63,96.283,47.0,2.0,,,True,HARD,33.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.325,-1.357,1.214,1.277,-0.359,-0.371,98.994
+0 days 02:17:20.232000,RUS,63,96.192,48.0,2.0,,,True,HARD,34.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.416,-1.451,1.123,1.181,-0.309,-0.32,98.96199999999999
+0 days 02:18:56.338000,RUS,63,96.106,49.0,2.0,,,True,HARD,35.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.502,-1.539,1.037,1.091,-0.375,-0.389,98.93499999999999
+0 days 02:20:32.504000,RUS,63,96.166,50.0,2.0,,,False,HARD,36.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.442,-1.477,1.097,1.154,-0.151,-0.157,99.053
+0 days 02:22:08.712000,RUS,63,96.208,51.0,2.0,,,False,HARD,37.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.4,-1.434,1.139,1.198,-0.295,-0.306,99.154
+0 days 02:23:45.097000,RUS,63,96.385,52.0,2.0,,,False,HARD,38.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.223,-1.253,1.316,1.384,-0.039,-0.04,99.39
+0 days 02:25:21.601000,RUS,63,96.504,53.0,2.0,,,False,HARD,39.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.104,-1.131,1.435,1.509,-0.225,-0.233,99.56800000000001
+0 days 02:26:57.501000,RUS,63,95.9,54.0,2.0,,,True,HARD,40.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.708,-1.75,0.831,0.874,-1.084,-1.118,99.02300000000001
+0 days 02:28:33.317000,RUS,63,95.816,55.0,2.0,,,True,HARD,41.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.792,-1.836,0.747,0.786,-0.812,-0.84,98.998
+0 days 02:30:09.225000,RUS,63,95.908,56.0,2.0,,,False,HARD,42.0,True,Mercedes,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.7,-1.742,0.839,0.883,-0.948,-0.979,99.149
+0 days 01:00:42.370000,NOR,4,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,2.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:20.083000,NOR,4,97.713,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.105,0.108,2.644,2.781,-1.548,-1.56,97.77199999999999
+0 days 01:03:57.680000,NOR,4,97.597,3.0,1.0,,,True,MEDIUM,3.0,True,McLaren,12,2.0,True,2,Chinese Grand Prix,True,C3,False,-0.011,-0.011,2.528,2.659,-1.452,-1.466,97.71499999999999
+0 days 01:05:35.399000,NOR,4,97.719,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.111,0.114,2.65,2.787,-1.043,-1.056,97.896
+0 days 01:07:13.316000,NOR,4,97.917,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.309,0.317,2.848,2.996,-0.88,-0.891,98.153
+0 days 01:08:51.172000,NOR,4,97.856,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,12,2.0,True,2,Chinese Grand Prix,True,C3,False,0.248,0.254,2.787,2.932,-1.199,-1.21,98.151
+0 days 01:10:29.346000,NOR,4,98.174,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.566,0.58,3.105,3.266,-0.901,-0.909,98.528
+0 days 01:12:07.633000,NOR,4,98.287,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.679,0.696,3.218,3.385,-1.035,-1.042,98.69900000000001
+0 days 01:13:46.147000,NOR,4,98.514,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.906,0.928,3.445,3.624,-0.735,-0.741,98.985
+0 days 01:15:24.463000,NOR,4,98.316,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.708,0.725,3.247,3.415,-0.792,-0.799,98.846
+0 days 01:17:02.581000,NOR,4,98.118,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.51,0.522,3.049,3.207,-0.939,-0.948,98.707
+0 days 01:18:40.778000,NOR,4,98.197,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.589,0.603,3.128,3.29,-0.603,-0.61,98.845
+0 days 01:20:19.127000,NOR,4,98.349,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C3,True,0.741,0.759,3.28,3.45,0.0,0.0,99.056
+0 days 01:21:57.516000,NOR,4,98.389,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.781,0.8,3.32,3.492,-0.412,-0.417,99.155
+0 days 01:23:40.785000,NOR,4,103.269,15.0,1.0,,0 days 01:23:39.074000,False,MEDIUM,15.0,True,McLaren,1,1.0,False,2,Chinese Grand Prix,True,C3,False,5.661,5.8,8.2,8.625,4.299,4.344,104.09400000000001
+0 days 01:25:36.442000,NOR,4,115.657,16.0,2.0,0 days 01:24:01.276000,,False,HARD,1.0,True,McLaren,1,4.0,False,2,Chinese Grand Prix,True,C2,False,18.049,18.491,20.588,21.656,16.563,16.714,116.541
+0 days 01:27:13.874000,NOR,4,97.432,17.0,2.0,,,True,HARD,2.0,True,McLaren,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.176,-0.18,2.363,2.486,-1.596,-1.612,98.375
+0 days 01:28:51.351000,NOR,4,97.477,18.0,2.0,,,False,HARD,3.0,True,McLaren,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-0.131,-0.134,2.408,2.533,-1.464,-1.48,98.479
+0 days 01:30:29.030000,NOR,4,97.679,19.0,2.0,,,False,HARD,4.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,0.071,0.073,2.61,2.745,-0.357,-0.364,98.74000000000001
+0 days 01:32:07.152000,NOR,4,98.122,20.0,2.0,,,False,HARD,5.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,0.514,0.527,3.053,3.211,0.0,0.0,99.242
+0 days 01:33:45.131000,NOR,4,97.979,21.0,2.0,,,False,HARD,6.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,0.371,0.38,2.91,3.061,0.0,0.0,99.158
+0 days 01:35:22.467000,NOR,4,97.336,22.0,2.0,,,True,HARD,7.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.272,-0.279,2.267,2.385,-0.546,-0.558,98.574
+0 days 01:36:59.788000,NOR,4,97.321,23.0,2.0,,,True,HARD,8.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.287,-0.294,2.252,2.369,-0.409,-0.418,98.617
+0 days 01:38:36.740000,NOR,4,96.952,24.0,2.0,,,True,HARD,9.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.656,-0.672,1.883,1.981,-1.081,-1.103,98.307
+0 days 01:40:14.097000,NOR,4,97.357,25.0,2.0,,,False,HARD,10.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.251,-0.257,2.288,2.407,-0.806,-0.821,98.771
+0 days 01:41:51.229000,NOR,4,97.132,26.0,2.0,,,False,HARD,11.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.476,-0.488,2.063,2.17,-0.862,-0.88,98.605
+0 days 01:43:27.983000,NOR,4,96.754,27.0,2.0,,,True,HARD,12.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.854,-0.875,1.685,1.772,-1.21,-1.235,98.286
+0 days 01:45:04.492000,NOR,4,96.509,28.0,2.0,,,True,HARD,13.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.099,-1.126,1.44,1.515,-1.166,-1.194,98.1
+0 days 01:46:41.023000,NOR,4,96.531,29.0,2.0,,,False,HARD,14.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.077,-1.103,1.462,1.538,-1.167,-1.194,98.18100000000001
+0 days 01:48:17.358000,NOR,4,96.335,30.0,2.0,,,True,HARD,15.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.273,-1.304,1.266,1.332,-1.426,-1.459,98.044
+0 days 01:49:53.725000,NOR,4,96.367,31.0,2.0,,,False,HARD,16.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.241,-1.271,1.298,1.365,-1.455,-1.487,98.135
+0 days 01:51:30.587000,NOR,4,96.862,32.0,2.0,,,False,HARD,17.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.746,-0.764,1.793,1.886,-0.757,-0.775,98.689
+0 days 01:53:07.361000,NOR,4,96.774,33.0,2.0,,,False,HARD,18.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.834,-0.854,1.705,1.793,-0.807,-0.827,98.66
+0 days 01:54:44.556000,NOR,4,97.195,34.0,2.0,,,False,HARD,19.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.413,-0.423,2.126,2.236,-0.186,-0.191,99.13999999999999
+0 days 01:56:21.410000,NOR,4,96.854,35.0,2.0,,,False,HARD,20.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.754,-0.772,1.785,1.878,-0.368,-0.379,98.858
+0 days 01:57:57.726000,NOR,4,96.316,36.0,2.0,,,True,HARD,21.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.292,-1.324,1.247,1.312,-0.851,-0.876,98.378
+0 days 01:59:34,NOR,4,96.274,37.0,2.0,,,True,HARD,22.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.334,-1.367,1.205,1.268,-0.834,-0.859,98.395
+0 days 02:01:10.192000,NOR,4,96.192,38.0,2.0,,,True,HARD,23.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.416,-1.451,1.123,1.181,-0.662,-0.684,98.372
+0 days 02:02:46.409000,NOR,4,96.217,39.0,2.0,,,False,HARD,24.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.391,-1.425,1.148,1.208,-0.636,-0.657,98.456
+0 days 02:04:22.806000,NOR,4,96.397,40.0,2.0,,,False,HARD,25.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.211,-1.241,1.328,1.397,-0.333,-0.344,98.69500000000001
+0 days 02:05:59.467000,NOR,4,96.661,41.0,2.0,,,False,HARD,26.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.947,-0.97,1.592,1.675,-0.036,-0.037,99.018
+0 days 02:07:36.335000,NOR,4,96.868,42.0,2.0,,,False,HARD,27.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.74,-0.758,1.799,1.892,0.0,0.0,99.28399999999999
+0 days 02:09:13.306000,NOR,4,96.971,43.0,2.0,,,False,HARD,28.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.637,-0.653,1.902,2.001,0.038,0.039,99.446
+0 days 02:10:50.049000,NOR,4,96.743,44.0,2.0,,,False,HARD,29.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.865,-0.886,1.674,1.761,-0.12,-0.124,99.277
+0 days 02:12:26.445000,NOR,4,96.396,45.0,2.0,,,False,HARD,30.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.212,-1.242,1.327,1.396,-0.485,-0.501,98.989
+0 days 02:14:02.515000,NOR,4,96.07,46.0,2.0,,,True,HARD,31.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.538,-1.576,1.001,1.053,-0.614,-0.635,98.722
+0 days 02:15:38.372000,NOR,4,95.857,47.0,2.0,,,True,HARD,32.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.751,-1.794,0.788,0.829,-0.785,-0.812,98.568
+0 days 02:17:14.080000,NOR,4,95.708,48.0,2.0,,,True,HARD,33.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.9,-1.947,0.639,0.672,-0.793,-0.822,98.478
+0 days 02:18:49.746000,NOR,4,95.666,49.0,2.0,,,True,HARD,34.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.942,-1.99,0.597,0.628,-0.815,-0.845,98.49499999999999
+0 days 02:20:25.421000,NOR,4,95.675,50.0,2.0,,,False,HARD,35.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.933,-1.98,0.606,0.637,-0.642,-0.667,98.562
+0 days 02:22:01.321000,NOR,4,95.9,51.0,2.0,,,False,HARD,36.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.708,-1.75,0.831,0.874,-0.603,-0.625,98.846
+0 days 02:23:37.172000,NOR,4,95.851,52.0,2.0,,,False,HARD,37.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-1.757,-1.8,0.782,0.823,-0.573,-0.594,98.856
+0 days 02:25:12.626000,NOR,4,95.454,53.0,2.0,,,True,HARD,38.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-2.154,-2.207,0.385,0.405,-1.275,-1.318,98.518
+0 days 02:26:49.498000,NOR,4,96.872,54.0,2.0,,,False,HARD,39.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,-0.736,-0.754,1.803,1.897,-0.112,-0.115,99.995
+0 days 02:28:28.458000,NOR,4,98.96,55.0,2.0,,,False,HARD,40.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,1.352,1.385,3.891,4.093,2.332,2.413,102.142
+0 days 02:30:07.876000,NOR,4,99.418,56.0,2.0,,,False,HARD,41.0,True,McLaren,1,2.0,True,2,Chinese Grand Prix,True,C2,True,1.81,1.854,4.349,4.575,2.562,2.645,102.659
+0 days 01:00:45.351000,VER,1,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,12,6.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:23.655000,VER,1,98.304,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,0.696,0.713,3.235,3.403,-0.957,-0.964,98.363
+0 days 01:04:01.957000,VER,1,98.302,3.0,1.0,,,True,MEDIUM,3.0,True,Red Bull Racing,12,6.0,True,2,Chinese Grand Prix,True,C3,False,0.694,0.711,3.233,3.401,-0.747,-0.754,98.42
+0 days 01:05:40.571000,VER,1,98.614,4.0,1.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.006,1.031,3.545,3.729,-0.148,-0.15,98.79100000000001
+0 days 01:07:19.466000,VER,1,98.895,5.0,1.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.287,1.319,3.826,4.024,0.098,0.099,99.131
+0 days 01:08:58.245000,VER,1,98.779,6.0,1.0,,,False,MEDIUM,6.0,True,Red Bull Racing,12,6.0,True,2,Chinese Grand Prix,True,C3,False,1.171,1.2,3.71,3.902,-0.276,-0.279,99.074
+0 days 01:10:36.937000,VER,1,98.692,7.0,1.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.084,1.111,3.623,3.811,-0.383,-0.387,99.04599999999999
+0 days 01:12:16.021000,VER,1,99.084,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.476,1.512,4.015,4.223,-0.238,-0.24,99.49600000000001
+0 days 01:13:55.250000,VER,1,99.229,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.621,1.661,4.16,4.376,-0.02,-0.02,99.7
+0 days 01:15:34.314000,VER,1,99.064,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.456,1.492,3.995,4.202,-0.044,-0.044,99.594
+0 days 01:17:13.468000,VER,1,99.154,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.546,1.584,4.085,4.297,0.097,0.098,99.743
+0 days 01:18:52.095000,VER,1,98.627,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.019,1.044,3.558,3.743,-0.173,-0.175,99.27499999999999
+0 days 01:20:34.705000,VER,1,102.61,13.0,1.0,,0 days 01:20:33.047000,False,MEDIUM,13.0,True,Red Bull Racing,1,6.0,False,2,Chinese Grand Prix,True,C3,False,5.002,5.125,7.541,7.932,4.261,4.333,103.317
+0 days 01:22:29.957000,VER,1,115.252,14.0,2.0,0 days 01:20:55.521000,,False,HARD,1.0,True,Red Bull Racing,1,11.0,False,2,Chinese Grand Prix,True,C2,False,17.644,18.076,20.183,21.23,16.451,16.651,116.018
+0 days 01:24:07.279000,VER,1,97.322,15.0,2.0,,,True,HARD,2.0,True,Red Bull Racing,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.286,-0.293,2.253,2.37,-1.648,-1.665,98.147
+0 days 01:25:44.303000,VER,1,97.024,16.0,2.0,,,True,HARD,3.0,True,Red Bull Racing,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.584,-0.598,1.955,2.056,-2.07,-2.089,97.908
+0 days 01:27:21.672000,VER,1,97.369,17.0,2.0,,,False,HARD,4.0,True,Red Bull Racing,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.239,-0.245,2.3,2.419,-1.659,-1.675,98.312
+0 days 01:28:59.519000,VER,1,97.847,18.0,2.0,,,False,HARD,5.0,True,Red Bull Racing,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.239,0.245,2.778,2.922,-1.094,-1.106,98.84899999999999
+0 days 01:30:37.369000,VER,1,97.85,19.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.242,0.248,2.781,2.925,-0.186,-0.19,98.911
+0 days 01:32:15.102000,VER,1,97.733,20.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.125,0.128,2.664,2.802,-0.389,-0.396,98.85300000000001
+0 days 01:33:53.010000,VER,1,97.908,21.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,0.3,0.307,2.839,2.986,-0.071,-0.072,99.087
+0 days 01:35:30.553000,VER,1,97.543,22.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.065,-0.067,2.474,2.602,-0.339,-0.346,98.781
+0 days 01:37:07.995000,VER,1,97.442,23.0,2.0,,,False,HARD,10.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.166,-0.17,2.373,2.496,-0.288,-0.295,98.738
+0 days 01:38:45.245000,VER,1,97.25,24.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.358,-0.367,2.181,2.294,-0.783,-0.799,98.605
+0 days 01:40:22.967000,VER,1,97.722,25.0,2.0,,,False,HARD,12.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,0.114,0.117,2.653,2.791,-0.441,-0.449,99.136
+0 days 01:42:00.612000,VER,1,97.645,26.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,0.037,0.038,2.576,2.71,-0.349,-0.356,99.118
+0 days 01:43:38.576000,VER,1,97.964,27.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,0.356,0.365,2.895,3.045,0.0,0.0,99.496
+0 days 01:45:15.894000,VER,1,97.318,28.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.29,-0.297,2.249,2.366,-0.357,-0.365,98.90899999999999
+0 days 01:46:52.978000,VER,1,97.084,29.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.524,-0.537,2.015,2.12,-0.614,-0.628,98.73400000000001
+0 days 01:48:30.328000,VER,1,97.35,30.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.258,-0.264,2.281,2.399,-0.411,-0.42,99.059
+0 days 01:50:07.412000,VER,1,97.084,31.0,2.0,,,False,HARD,18.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.524,-0.537,2.015,2.12,-0.738,-0.754,98.852
+0 days 01:51:44.614000,VER,1,97.202,32.0,2.0,,,False,HARD,19.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.406,-0.416,2.133,2.244,-0.417,-0.427,99.029
+0 days 01:53:21.714000,VER,1,97.1,33.0,2.0,,,False,HARD,20.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.508,-0.52,2.031,2.136,-0.481,-0.493,98.98599999999999
+0 days 01:54:58.636000,VER,1,96.922,34.0,2.0,,,True,HARD,21.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.686,-0.703,1.853,1.949,-0.459,-0.471,98.86699999999999
+0 days 01:56:35.336000,VER,1,96.7,35.0,2.0,,,True,HARD,22.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.908,-0.93,1.631,1.716,-0.522,-0.537,98.70400000000001
+0 days 01:58:11.982000,VER,1,96.646,36.0,2.0,,,True,HARD,23.0,True,Red Bull Racing,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.962,-0.986,1.577,1.659,-0.521,-0.536,98.708
+0 days 01:59:48.817000,VER,1,96.835,37.0,2.0,,,False,HARD,24.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.773,-0.792,1.766,1.858,-0.273,-0.281,98.95599999999999
+0 days 02:01:25.433000,VER,1,96.616,38.0,2.0,,,True,HARD,25.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.992,-1.016,1.547,1.627,-0.238,-0.246,98.796
+0 days 02:03:01.890000,VER,1,96.457,39.0,2.0,,,True,HARD,26.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.151,-1.179,1.388,1.46,-0.396,-0.409,98.696
+0 days 02:04:38.330000,VER,1,96.44,40.0,2.0,,,True,HARD,27.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.168,-1.197,1.371,1.442,-0.29,-0.3,98.738
+0 days 02:06:14.467000,VER,1,96.137,41.0,2.0,,,True,HARD,28.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.471,-1.507,1.068,1.123,-0.56,-0.579,98.494
+0 days 02:07:50.683000,VER,1,96.216,42.0,2.0,,,False,HARD,29.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.392,-1.426,1.147,1.206,-0.652,-0.673,98.63199999999999
+0 days 02:09:26.925000,VER,1,96.242,43.0,2.0,,,False,HARD,30.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.366,-1.399,1.173,1.234,-0.691,-0.713,98.717
+0 days 02:11:03.146000,VER,1,96.221,44.0,2.0,,,False,HARD,31.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.387,-1.421,1.152,1.212,-0.642,-0.663,98.75500000000001
+0 days 02:12:39.328000,VER,1,96.182,45.0,2.0,,,False,HARD,32.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.426,-1.461,1.113,1.171,-0.699,-0.722,98.775
+0 days 02:14:15.516000,VER,1,96.188,46.0,2.0,,,False,HARD,33.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.42,-1.455,1.119,1.177,-0.496,-0.513,98.84
+0 days 02:15:51.651000,VER,1,96.135,47.0,2.0,,,True,HARD,34.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.473,-1.509,1.066,1.121,-0.507,-0.525,98.846
+0 days 02:17:27.674000,VER,1,96.023,48.0,2.0,,,True,HARD,35.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.585,-1.624,0.954,1.003,-0.478,-0.495,98.79299999999999
+0 days 02:19:03.572000,VER,1,95.898,49.0,2.0,,,True,HARD,36.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.71,-1.752,0.829,0.872,-0.583,-0.604,98.72699999999999
+0 days 02:20:39.271000,VER,1,95.699,50.0,2.0,,,True,HARD,37.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.909,-1.956,0.63,0.663,-0.618,-0.642,98.586
+0 days 02:22:14.981000,VER,1,95.71,51.0,2.0,,,False,HARD,38.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.898,-1.945,0.641,0.674,-0.793,-0.822,98.65599999999999
+0 days 02:23:51.544000,VER,1,96.563,52.0,2.0,,,False,HARD,39.0,True,Red Bull Racing,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-1.045,-1.071,1.494,1.571,0.139,0.144,99.568
+0 days 02:25:27.719000,VER,1,96.175,53.0,2.0,,,False,HARD,40.0,True,Red Bull Racing,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.433,-1.468,1.106,1.163,-0.554,-0.573,99.239
+0 days 02:27:03.499000,VER,1,95.78,54.0,2.0,,,False,HARD,41.0,True,Red Bull Racing,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.828,-1.873,0.711,0.748,-1.204,-1.241,98.903
+0 days 02:28:39.296000,VER,1,95.797,55.0,2.0,,,False,HARD,42.0,True,Red Bull Racing,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.811,-1.855,0.728,0.766,-0.831,-0.86,98.979
+0 days 02:30:14.784000,VER,1,95.488,56.0,2.0,,,True,HARD,43.0,True,Red Bull Racing,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-2.12,-2.172,0.419,0.441,-1.368,-1.412,98.729
+0 days 01:00:43.894000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,12,4.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:22.066000,HAM,44,98.172,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.564,0.578,3.103,3.264,-1.089,-1.097,98.231
+0 days 01:03:59.919000,HAM,44,97.853,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,12,4.0,True,2,Chinese Grand Prix,True,C3,False,0.245,0.251,2.784,2.928,-1.196,-1.207,97.97099999999999
+0 days 01:05:38.006000,HAM,44,98.087,4.0,1.0,,,False,MEDIUM,4.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.479,0.491,3.018,3.175,-0.675,-0.683,98.26400000000001
+0 days 01:07:15.808000,HAM,44,97.802,5.0,1.0,,,True,MEDIUM,5.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.194,0.199,2.733,2.875,-0.995,-1.007,98.03800000000001
+0 days 01:08:54.029000,HAM,44,98.221,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,12,4.0,True,2,Chinese Grand Prix,True,C3,False,0.613,0.628,3.152,3.315,-0.834,-0.842,98.516
+0 days 01:10:32.895000,HAM,44,98.866,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,1.258,1.289,3.797,3.994,-0.209,-0.211,99.22
+0 days 01:12:11.547000,HAM,44,98.652,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,1.044,1.07,3.583,3.769,-0.67,-0.675,99.06400000000001
+0 days 01:13:50.107000,HAM,44,98.56,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.952,0.975,3.491,3.672,-0.689,-0.694,99.031
+0 days 01:15:28.673000,HAM,44,98.566,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.958,0.981,3.497,3.678,-0.542,-0.547,99.096
+0 days 01:17:07.178000,HAM,44,98.505,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.897,0.919,3.436,3.614,-0.552,-0.557,99.094
+0 days 01:18:45.908000,HAM,44,98.73,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,1.122,1.149,3.661,3.851,-0.07,-0.071,99.378
+0 days 01:20:29.287000,HAM,44,103.379,13.0,1.0,,0 days 01:20:27.674000,False,MEDIUM,13.0,True,Ferrari,1,5.0,False,2,Chinese Grand Prix,True,C3,False,5.771,5.912,8.31,8.741,5.03,5.114,104.086
+0 days 01:22:25.024000,HAM,44,115.737,14.0,2.0,0 days 01:20:50.029000,,False,HARD,1.0,True,Ferrari,1,10.0,False,2,Chinese Grand Prix,True,C2,False,18.129,18.573,20.668,21.74,16.936,17.142,116.503
+0 days 01:24:02.719000,HAM,44,97.695,15.0,2.0,,,True,HARD,2.0,True,Ferrari,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.087,0.089,2.626,2.762,-1.275,-1.288,98.52
+0 days 01:25:40.661000,HAM,44,97.942,16.0,2.0,,,False,HARD,3.0,True,Ferrari,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.334,0.342,2.873,3.022,-1.152,-1.163,98.826
+0 days 01:27:18.192000,HAM,44,97.531,17.0,2.0,,,True,HARD,4.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.077,-0.079,2.462,2.59,-1.497,-1.512,98.474
+0 days 01:28:56.026000,HAM,44,97.834,18.0,2.0,,,False,HARD,5.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,0.226,0.232,2.765,2.908,-1.107,-1.119,98.836
+0 days 01:30:33.101000,HAM,44,97.075,19.0,2.0,,,True,HARD,6.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.533,-0.546,2.006,2.11,-0.961,-0.98,98.136
+0 days 01:32:10.570000,HAM,44,97.469,20.0,2.0,,,False,HARD,7.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.139,-0.142,2.4,2.524,-0.653,-0.665,98.589
+0 days 01:33:49.889000,HAM,44,99.319,21.0,2.0,,,False,HARD,8.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,1.711,1.753,4.25,4.47,1.34,1.368,100.498
+0 days 01:35:27.346000,HAM,44,97.457,22.0,2.0,,,False,HARD,9.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.151,-0.155,2.388,2.512,-0.425,-0.434,98.695
+0 days 01:37:04.646000,HAM,44,97.3,23.0,2.0,,,False,HARD,10.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.308,-0.316,2.231,2.347,-0.43,-0.44,98.596
+0 days 01:38:41.843000,HAM,44,97.197,24.0,2.0,,,False,HARD,11.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.411,-0.421,2.128,2.238,-0.836,-0.853,98.552
+0 days 01:40:19.347000,HAM,44,97.504,25.0,2.0,,,False,HARD,12.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.104,-0.107,2.435,2.561,-0.659,-0.671,98.918
+0 days 01:41:56.902000,HAM,44,97.555,26.0,2.0,,,False,HARD,13.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.053,-0.054,2.486,2.615,-0.439,-0.448,99.028
+0 days 01:43:34.312000,HAM,44,97.41,27.0,2.0,,,False,HARD,14.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.198,-0.203,2.341,2.462,-0.554,-0.566,98.942
+0 days 01:45:11.301000,HAM,44,96.989,28.0,2.0,,,True,HARD,15.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.619,-0.634,1.92,2.02,-0.686,-0.702,98.58
+0 days 01:46:48.531000,HAM,44,97.23,29.0,2.0,,,False,HARD,16.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.378,-0.387,2.161,2.273,-0.468,-0.479,98.88000000000001
+0 days 01:48:25.978000,HAM,44,97.447,30.0,2.0,,,False,HARD,17.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.161,-0.165,2.378,2.501,-0.314,-0.321,99.156
+0 days 01:50:03.460000,HAM,44,97.482,31.0,2.0,,,False,HARD,18.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.126,-0.129,2.413,2.538,-0.34,-0.348,99.25
+0 days 01:51:40.498000,HAM,44,97.038,32.0,2.0,,,False,HARD,19.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.57,-0.584,1.969,2.071,-0.581,-0.595,98.865
+0 days 01:53:18.070000,HAM,44,97.572,33.0,2.0,,,False,HARD,20.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.036,-0.037,2.503,2.633,-0.009,-0.009,99.458
+0 days 01:54:55.360000,HAM,44,97.29,34.0,2.0,,,False,HARD,21.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.318,-0.326,2.221,2.336,-0.091,-0.093,99.235
+0 days 01:56:32.317000,HAM,44,96.957,35.0,2.0,,,True,HARD,22.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.651,-0.667,1.888,1.986,-0.265,-0.273,98.961
+0 days 01:58:09.663000,HAM,44,97.346,36.0,2.0,,,False,HARD,23.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.262,-0.268,2.277,2.395,0.179,0.184,99.408
+0 days 01:59:52.114000,HAM,44,102.451,37.0,2.0,,0 days 01:59:50.459000,False,HARD,24.0,True,Ferrari,1,6.0,False,2,Chinese Grand Prix,True,C2,False,4.843,4.962,7.382,7.765,5.343,5.502,104.57199999999999
+0 days 02:01:45.616000,HAM,44,113.502,38.0,3.0,0 days 02:00:12.853000,,False,HARD,1.0,True,Ferrari,1,6.0,False,2,Chinese Grand Prix,True,C2,False,15.894,16.284,18.433,19.389,16.648,17.189,115.682
+0 days 02:03:21.455000,HAM,44,95.839,39.0,3.0,,,True,HARD,2.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-1.769,-1.812,0.77,0.81,-1.014,-1.047,98.078
+0 days 02:04:56.942000,HAM,44,95.487,40.0,3.0,,,True,HARD,3.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.121,-2.173,0.418,0.44,-1.243,-1.285,97.785
+0 days 02:06:32.011000,HAM,44,95.069,41.0,3.0,,,True,HARD,4.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.539,-2.601,0.0,0.0,-1.628,-1.684,97.426
+0 days 02:08:07.580000,HAM,44,95.569,42.0,3.0,,,False,HARD,5.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.039,-2.089,0.5,0.526,-1.299,-1.341,97.985
+0 days 02:09:43.106000,HAM,44,95.526,43.0,3.0,,,False,HARD,6.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.082,-2.133,0.457,0.481,-1.407,-1.452,98.00099999999999
+0 days 02:11:18.968000,HAM,44,95.862,44.0,3.0,,,False,HARD,7.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-1.746,-1.789,0.793,0.834,-1.001,-1.033,98.396
+0 days 02:12:54.317000,HAM,44,95.349,45.0,3.0,,,False,HARD,8.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.259,-2.314,0.28,0.295,-1.532,-1.581,97.94200000000001
+0 days 02:14:29.850000,HAM,44,95.533,46.0,3.0,,,False,HARD,9.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.075,-2.126,0.464,0.488,-1.151,-1.19,98.185
+0 days 02:16:05.620000,HAM,44,95.77,47.0,3.0,,,False,HARD,10.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-1.838,-1.883,0.701,0.737,-0.872,-0.902,98.481
+0 days 02:17:40.880000,HAM,44,95.26,48.0,3.0,,,False,HARD,11.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.348,-2.406,0.191,0.201,-1.241,-1.286,98.03
+0 days 02:19:15.957000,HAM,44,95.077,49.0,3.0,,,False,HARD,12.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.531,-2.593,0.008,0.008,-1.404,-1.455,97.90599999999999
+0 days 02:20:51.201000,HAM,44,95.244,50.0,3.0,,,False,HARD,13.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.364,-2.422,0.175,0.184,-1.073,-1.114,98.131
+0 days 02:22:26.666000,HAM,44,95.465,51.0,3.0,,,False,HARD,14.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.143,-2.196,0.396,0.417,-1.038,-1.076,98.411
+0 days 02:24:01.877000,HAM,44,95.211,52.0,3.0,,,False,HARD,15.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.397,-2.456,0.142,0.149,-1.213,-1.258,98.216
+0 days 02:25:37.339000,HAM,44,95.462,53.0,3.0,,,False,HARD,16.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.146,-2.199,0.393,0.413,-1.267,-1.31,98.52600000000001
+0 days 02:27:12.596000,HAM,44,95.257,54.0,3.0,,,False,HARD,17.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.351,-2.409,0.188,0.198,-1.727,-1.781,98.38000000000001
+0 days 02:28:47.828000,HAM,44,95.232,55.0,3.0,,,False,HARD,18.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-2.376,-2.434,0.163,0.171,-1.396,-1.445,98.414
+0 days 02:30:23.509000,HAM,44,95.681,56.0,3.0,,,False,HARD,19.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-1.927,-1.974,0.612,0.644,-1.175,-1.213,98.922
+0 days 01:00:44.865000,LEC,16,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,12,5.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:23.049000,LEC,16,98.184,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.576,0.59,3.115,3.277,-1.077,-1.085,98.243
+0 days 01:04:01.136000,LEC,16,98.087,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,12,5.0,True,2,Chinese Grand Prix,True,C3,False,0.479,0.491,3.018,3.175,-0.962,-0.971,98.205
+0 days 01:05:38.784000,LEC,16,97.648,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.04,0.041,2.579,2.713,-1.114,-1.128,97.825
+0 days 01:07:17.037000,LEC,16,98.253,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.645,0.661,3.184,3.349,-0.544,-0.551,98.489
+0 days 01:08:55.323000,LEC,16,98.286,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,12,5.0,True,2,Chinese Grand Prix,True,C3,False,0.678,0.695,3.217,3.384,-0.769,-0.776,98.581
+0 days 01:10:33.781000,LEC,16,98.458,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.85,0.871,3.389,3.565,-0.617,-0.623,98.812
+0 days 01:12:12.259000,LEC,16,98.478,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.87,0.891,3.409,3.586,-0.844,-0.85,98.89
+0 days 01:13:50.851000,LEC,16,98.592,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.984,1.008,3.523,3.706,-0.657,-0.662,99.063
+0 days 01:15:29.412000,LEC,16,98.561,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.953,0.976,3.492,3.673,-0.547,-0.552,99.09100000000001
+0 days 01:17:07.834000,LEC,16,98.422,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.814,0.834,3.353,3.527,-0.635,-0.641,99.011
+0 days 01:18:46.516000,LEC,16,98.682,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C3,True,1.074,1.1,3.613,3.8,-0.118,-0.119,99.33
+0 days 01:20:25.030000,LEC,16,98.514,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C3,True,0.906,0.928,3.445,3.624,0.165,0.168,99.22099999999999
+0 days 01:22:03.142000,LEC,16,98.112,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,3.0,True,2,Chinese Grand Prix,True,C3,True,0.504,0.516,3.043,3.201,-0.689,-0.697,98.878
+0 days 01:23:46.005000,LEC,16,102.863,15.0,1.0,,0 days 01:23:44.244000,False,MEDIUM,15.0,True,Ferrari,1,2.0,False,2,Chinese Grand Prix,True,C3,False,5.255,5.384,7.794,8.198,3.893,3.934,103.688
+0 days 01:25:41.139000,LEC,16,115.134,16.0,2.0,0 days 01:24:06.526000,,False,HARD,1.0,True,Ferrari,1,8.0,False,2,Chinese Grand Prix,True,C2,False,17.526,17.955,20.065,21.106,16.04,16.187,116.018
+0 days 01:27:18.565000,LEC,16,97.426,17.0,2.0,,,True,HARD,2.0,True,Ferrari,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.182,-0.186,2.357,2.479,-1.602,-1.618,98.369
+0 days 01:28:56.945000,LEC,16,98.38,18.0,2.0,,,False,HARD,3.0,True,Ferrari,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.772,0.791,3.311,3.483,-0.561,-0.567,99.38199999999999
+0 days 01:30:33.852000,LEC,16,96.907,19.0,2.0,,,True,HARD,4.0,True,Ferrari,1,6.0,True,2,Chinese Grand Prix,True,C2,True,-0.701,-0.718,1.838,1.933,-1.129,-1.152,97.96799999999999
+0 days 01:32:11.151000,LEC,16,97.299,20.0,2.0,,,False,HARD,5.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.309,-0.317,2.23,2.346,-0.823,-0.839,98.41900000000001
+0 days 01:33:48.311000,LEC,16,97.16,21.0,2.0,,,False,HARD,6.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.448,-0.459,2.091,2.199,-0.819,-0.836,98.339
+0 days 01:35:25.286000,LEC,16,96.975,22.0,2.0,,,False,HARD,7.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.633,-0.649,1.906,2.005,-0.907,-0.927,98.213
+0 days 01:37:02.498000,LEC,16,97.212,23.0,2.0,,,False,HARD,8.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.396,-0.406,2.143,2.254,-0.518,-0.53,98.50800000000001
+0 days 01:38:39.858000,LEC,16,97.36,24.0,2.0,,,False,HARD,9.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.248,-0.254,2.291,2.41,-0.673,-0.687,98.715
+0 days 01:40:16.759000,LEC,16,96.901,25.0,2.0,,,True,HARD,10.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.707,-0.724,1.832,1.927,-1.262,-1.286,98.315
+0 days 01:41:54.123000,LEC,16,97.364,26.0,2.0,,,False,HARD,11.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.244,-0.25,2.295,2.414,-0.63,-0.643,98.837
+0 days 01:43:31.210000,LEC,16,97.087,27.0,2.0,,,False,HARD,12.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.521,-0.534,2.018,2.123,-0.877,-0.895,98.619
+0 days 01:45:08.202000,LEC,16,96.992,28.0,2.0,,,False,HARD,13.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.616,-0.631,1.923,2.023,-0.683,-0.699,98.583
+0 days 01:46:45.663000,LEC,16,97.461,29.0,2.0,,,False,HARD,14.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.147,-0.151,2.392,2.516,-0.237,-0.243,99.111
+0 days 01:48:23.137000,LEC,16,97.474,30.0,2.0,,,False,HARD,15.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.134,-0.137,2.405,2.53,-0.287,-0.294,99.183
+0 days 01:50:00.317000,LEC,16,97.18,31.0,2.0,,,False,HARD,16.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.428,-0.438,2.111,2.22,-0.642,-0.656,98.94800000000001
+0 days 01:51:37.501000,LEC,16,97.184,32.0,2.0,,,False,HARD,17.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.424,-0.434,2.115,2.225,-0.435,-0.446,99.011
+0 days 01:53:14.784000,LEC,16,97.283,33.0,2.0,,,False,HARD,18.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.325,-0.333,2.214,2.329,-0.298,-0.305,99.169
+0 days 01:54:51.878000,LEC,16,97.094,34.0,2.0,,,False,HARD,19.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.514,-0.527,2.025,2.13,-0.287,-0.295,99.03899999999999
+0 days 01:56:29.047000,LEC,16,97.169,35.0,2.0,,,False,HARD,20.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.439,-0.45,2.1,2.209,-0.053,-0.055,99.173
+0 days 01:58:06.214000,LEC,16,97.167,36.0,2.0,,,False,HARD,21.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.441,-0.452,2.098,2.207,0.0,0.0,99.229
+0 days 01:59:43.322000,LEC,16,97.108,37.0,2.0,,,False,HARD,22.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.5,-0.512,2.039,2.145,0.0,0.0,99.229
+0 days 02:01:20.199000,LEC,16,96.877,38.0,2.0,,,True,HARD,23.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.731,-0.749,1.808,1.902,0.023,0.024,99.057
+0 days 02:02:57.121000,LEC,16,96.922,39.0,2.0,,,False,HARD,24.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.686,-0.703,1.853,1.949,0.069,0.071,99.161
+0 days 02:04:33.799000,LEC,16,96.678,40.0,2.0,,,True,HARD,25.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.93,-0.953,1.609,1.692,-0.052,-0.054,98.976
+0 days 02:06:10.316000,LEC,16,96.517,41.0,2.0,,,True,HARD,26.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.091,-1.118,1.448,1.523,-0.18,-0.186,98.874
+0 days 02:07:46.817000,LEC,16,96.501,42.0,2.0,,,True,HARD,27.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.107,-1.134,1.432,1.506,-0.367,-0.379,98.917
+0 days 02:09:23.313000,LEC,16,96.496,43.0,2.0,,,True,HARD,28.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.112,-1.139,1.427,1.501,-0.437,-0.451,98.97099999999999
+0 days 02:10:59.775000,LEC,16,96.462,44.0,2.0,,,True,HARD,29.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.146,-1.174,1.393,1.465,-0.401,-0.414,98.99600000000001
+0 days 02:12:36.210000,LEC,16,96.435,45.0,2.0,,,True,HARD,30.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.173,-1.202,1.366,1.437,-0.446,-0.46,99.028
+0 days 02:14:12.528000,LEC,16,96.318,46.0,2.0,,,True,HARD,31.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.29,-1.322,1.249,1.314,-0.366,-0.379,98.97
+0 days 02:15:48.839000,LEC,16,96.311,47.0,2.0,,,True,HARD,32.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.297,-1.329,1.242,1.306,-0.331,-0.343,99.022
+0 days 02:17:25.380000,LEC,16,96.541,48.0,2.0,,,False,HARD,33.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.067,-1.093,1.472,1.548,0.04,0.041,99.31099999999999
+0 days 02:19:01.537000,LEC,16,96.157,49.0,2.0,,,True,HARD,34.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.451,-1.487,1.088,1.144,-0.324,-0.336,98.98599999999999
+0 days 02:20:37.800000,LEC,16,96.263,50.0,2.0,,,False,HARD,35.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.345,-1.378,1.194,1.256,-0.054,-0.056,99.15
+0 days 02:22:14.556000,LEC,16,96.756,51.0,2.0,,,False,HARD,36.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-0.852,-0.873,1.687,1.775,0.253,0.262,99.702
+0 days 02:23:51.139000,LEC,16,96.583,52.0,2.0,,,False,HARD,37.0,True,Ferrari,1,4.0,True,2,Chinese Grand Prix,True,C2,True,-1.025,-1.05,1.514,1.593,0.159,0.165,99.588
+0 days 02:25:29.230000,LEC,16,98.091,53.0,2.0,,,False,HARD,38.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,0.483,0.495,3.022,3.179,1.362,1.408,101.155
+0 days 02:27:06.908000,LEC,16,97.678,54.0,2.0,,,False,HARD,39.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,0.07,0.072,2.609,2.744,0.694,0.716,100.801
+0 days 02:28:44.024000,LEC,16,97.116,55.0,2.0,,,False,HARD,40.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.492,-0.504,2.047,2.153,0.488,0.505,100.298
+0 days 02:30:21.339000,LEC,16,97.315,56.0,2.0,,,False,HARD,41.0,True,Ferrari,1,5.0,True,2,Chinese Grand Prix,True,C2,True,-0.293,-0.3,2.246,2.362,0.459,0.474,100.556
+0 days 01:00:47.298000,HAD,6,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,12,9.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:26.559000,HAD,6,99.261,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,12,9.0,True,2,Chinese Grand Prix,True,C3,False,1.653,1.694,4.192,4.409,0.0,0.0,99.32
+0 days 01:04:05.609000,HAD,6,99.05,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,21,9.0,True,2,Chinese Grand Prix,True,C3,False,1.442,1.477,3.981,4.187,0.001,0.001,99.16799999999999
+0 days 01:05:44.504000,HAD,6,98.895,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.287,1.319,3.826,4.024,0.133,0.135,99.072
+0 days 01:07:23.250000,HAD,6,98.746,5.0,1.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.138,1.166,3.677,3.868,-0.051,-0.052,98.982
+0 days 01:09:02.064000,HAD,6,98.814,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,12,9.0,True,2,Chinese Grand Prix,True,C3,False,1.206,1.236,3.745,3.939,-0.241,-0.243,99.109
+0 days 01:10:41.316000,HAD,6,99.252,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.644,1.684,4.183,4.4,0.177,0.179,99.606
+0 days 01:12:20.677000,HAD,6,99.361,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.753,1.796,4.292,4.515,0.039,0.039,99.77300000000001
+0 days 01:13:59.926000,HAD,6,99.249,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.641,1.681,4.18,4.397,0.0,0.0,99.72
+0 days 01:15:38.863000,HAD,6,98.937,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.329,1.362,3.868,4.069,-0.171,-0.173,99.467
+0 days 01:17:18.098000,HAD,6,99.235,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.627,1.667,4.166,4.382,0.178,0.18,99.824
+0 days 01:19:01.745000,HAD,6,103.647,12.0,1.0,,0 days 01:19:00.039000,False,MEDIUM,12.0,True,Racing Bulls,1,10.0,False,2,Chinese Grand Prix,True,C3,False,6.039,6.187,8.578,9.023,4.847,4.906,104.295
+0 days 01:20:58.688000,HAD,6,116.943,13.0,2.0,0 days 01:19:22.914000,,False,HARD,1.0,True,Racing Bulls,1,17.0,False,2,Chinese Grand Prix,True,C2,False,19.335,19.809,21.874,23.009,18.594,18.906,117.64999999999999
+0 days 01:22:36.559000,HAD,6,97.871,14.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.263,0.269,2.802,2.947,-0.93,-0.941,98.637
+0 days 01:24:15.529000,HAD,6,98.97,15.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,1.362,1.395,3.901,4.103,0.0,0.0,99.795
+0 days 01:25:54.148000,HAD,6,98.619,16.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,1.011,1.036,3.55,3.734,-0.475,-0.479,99.503
+0 days 01:27:34.251000,HAD,6,100.103,17.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,2.495,2.556,5.034,5.295,1.075,1.086,101.04599999999999
+0 days 01:29:14.642000,HAD,6,100.391,18.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,14.0,True,2,Chinese Grand Prix,True,C2,True,2.783,2.851,5.322,5.598,1.45,1.466,101.393
+0 days 01:30:52.860000,HAD,6,98.218,19.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.61,0.625,3.149,3.312,0.182,0.186,99.279
+0 days 01:32:30.812000,HAD,6,97.952,20.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.344,0.352,2.883,3.033,-0.17,-0.173,99.072
+0 days 01:34:08.687000,HAD,6,97.875,21.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.267,0.274,2.806,2.952,-0.104,-0.106,99.054
+0 days 01:35:46.760000,HAD,6,98.073,22.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.465,0.476,3.004,3.16,0.191,0.195,99.31099999999999
+0 days 01:37:24.650000,HAD,6,97.89,23.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.282,0.289,2.821,2.967,0.16,0.164,99.186
+0 days 01:39:02.706000,HAD,6,98.056,24.0,2.0,,,False,HARD,12.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.448,0.459,2.987,3.142,0.023,0.023,99.411
+0 days 01:40:40.969000,HAD,6,98.263,25.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.655,0.671,3.194,3.36,0.1,0.102,99.677
+0 days 01:42:19.237000,HAD,6,98.268,26.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.66,0.676,3.199,3.365,0.274,0.28,99.741
+0 days 01:43:57.271000,HAD,6,98.034,27.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.426,0.436,2.965,3.119,0.07,0.071,99.566
+0 days 01:45:34.946000,HAD,6,97.675,28.0,2.0,,,True,HARD,16.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.067,0.069,2.606,2.741,0.0,0.0,99.26599999999999
+0 days 01:47:12.644000,HAD,6,97.698,29.0,2.0,,,False,HARD,17.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.09,0.092,2.629,2.765,0.0,0.0,99.348
+0 days 01:48:50.693000,HAD,6,98.049,30.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.441,0.452,2.98,3.135,0.288,0.295,99.75800000000001
+0 days 01:50:28.695000,HAD,6,98.002,31.0,2.0,,,False,HARD,19.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.394,0.404,2.933,3.085,0.18,0.184,99.77
+0 days 01:52:06.773000,HAD,6,98.078,32.0,2.0,,,False,HARD,20.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.47,0.482,3.009,3.165,0.459,0.47,99.905
+0 days 01:53:49.517000,HAD,6,102.744,33.0,2.0,,0 days 01:53:47.902000,False,HARD,21.0,True,Racing Bulls,1,12.0,False,2,Chinese Grand Prix,True,C2,False,5.136,5.262,7.675,8.073,5.163,5.291,104.63
+0 days 01:55:43.302000,HAD,6,113.785,34.0,3.0,0 days 01:54:10.161000,,False,HARD,1.0,True,Racing Bulls,1,16.0,False,2,Chinese Grand Prix,True,C2,False,16.177,16.573,18.716,19.687,16.404,16.845,115.72999999999999
+0 days 01:57:19.170000,HAD,6,95.868,35.0,3.0,,,True,HARD,2.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-1.74,-1.783,0.799,0.84,-1.354,-1.393,97.872
+0 days 01:58:56.281000,HAD,6,97.111,36.0,3.0,,,False,HARD,3.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.497,-0.509,2.042,2.148,-0.056,-0.058,99.173
+0 days 02:00:33.787000,HAD,6,97.506,37.0,3.0,,,False,HARD,4.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.102,-0.104,2.437,2.563,0.398,0.41,99.627
+0 days 02:02:10.619000,HAD,6,96.832,38.0,3.0,,,False,HARD,5.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.776,-0.795,1.763,1.854,-0.022,-0.023,99.012
+0 days 02:03:47.327000,HAD,6,96.708,39.0,3.0,,,False,HARD,6.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.9,-0.922,1.639,1.724,-0.145,-0.15,98.947
+0 days 02:05:24.057000,HAD,6,96.73,40.0,3.0,,,False,HARD,7.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.878,-0.9,1.661,1.747,0.0,0.0,99.028
+0 days 02:07:00.559000,HAD,6,96.502,41.0,3.0,,,False,HARD,8.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-1.106,-1.133,1.433,1.507,-0.195,-0.202,98.859
+0 days 02:08:37.131000,HAD,6,96.572,42.0,3.0,,,False,HARD,9.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-1.036,-1.061,1.503,1.581,-0.296,-0.306,98.988
+0 days 02:10:14.413000,HAD,6,97.282,43.0,3.0,,,False,HARD,10.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.326,-0.334,2.213,2.328,0.349,0.36,99.75699999999999
+0 days 02:11:51.522000,HAD,6,97.109,44.0,3.0,,,False,HARD,11.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.499,-0.511,2.04,2.146,0.246,0.254,99.643
+0 days 02:13:30.122000,HAD,6,98.6,45.0,3.0,,,False,HARD,12.0,True,Racing Bulls,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.992,1.016,3.531,3.714,1.719,1.774,101.193
+0 days 02:15:07.218000,HAD,6,97.096,46.0,3.0,,,False,HARD,13.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.512,-0.525,2.027,2.132,0.412,0.426,99.748
+0 days 02:16:43.890000,HAD,6,96.672,47.0,3.0,,,False,HARD,14.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.936,-0.959,1.603,1.686,0.03,0.031,99.383
+0 days 02:18:21.084000,HAD,6,97.194,48.0,3.0,,,False,HARD,15.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.414,-0.424,2.125,2.235,0.693,0.718,99.964
+0 days 02:19:58.837000,HAD,6,97.753,49.0,3.0,,,False,HARD,16.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.145,0.149,2.684,2.823,1.272,1.318,100.582
+0 days 02:21:36.130000,HAD,6,97.293,50.0,3.0,,,False,HARD,17.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.315,-0.323,2.224,2.339,0.976,1.013,100.18
+0 days 02:23:12.633000,HAD,6,96.503,51.0,3.0,,,False,HARD,18.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-1.105,-1.132,1.434,1.508,0.0,0.0,99.449
+0 days 02:24:48.968000,HAD,6,96.335,52.0,3.0,,,False,HARD,19.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-1.273,-1.304,1.266,1.332,-0.089,-0.092,99.33999999999999
+0 days 02:26:25.650000,HAD,6,96.682,53.0,3.0,,,False,HARD,20.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.926,-0.949,1.613,1.697,-0.047,-0.049,99.74600000000001
+0 days 02:28:02.880000,HAD,6,97.23,54.0,3.0,,,False,HARD,21.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.378,-0.387,2.161,2.273,0.246,0.254,100.35300000000001
+0 days 02:29:39.308000,HAD,6,96.428,55.0,3.0,,,False,HARD,22.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-1.18,-1.209,1.359,1.429,-0.2,-0.207,99.61
+0 days 02:31:17.003000,HAD,6,97.695,56.0,3.0,,,False,HARD,23.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.087,0.089,2.626,2.762,0.839,0.866,100.93599999999999
+0 days 01:00:46.110000,ANT,12,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,12,7.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:24.457000,ANT,12,98.347,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,0.739,0.757,3.278,3.448,-0.914,-0.921,98.40599999999999
+0 days 01:04:02.960000,ANT,12,98.503,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,12,7.0,True,2,Chinese Grand Prix,True,C3,False,0.895,0.917,3.434,3.612,-0.546,-0.551,98.621
+0 days 01:05:41.784000,ANT,12,98.824,4.0,1.0,,,False,MEDIUM,4.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.216,1.246,3.755,3.95,0.062,0.063,99.001
+0 days 01:07:20.581000,ANT,12,98.797,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.189,1.218,3.728,3.921,0.0,0.0,99.033
+0 days 01:08:59.492000,ANT,12,98.911,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,12,7.0,True,2,Chinese Grand Prix,True,C3,False,1.303,1.335,3.842,4.041,-0.144,-0.145,99.206
+0 days 01:10:38.457000,ANT,12,98.965,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.357,1.39,3.896,4.098,-0.11,-0.111,99.319
+0 days 01:12:17.575000,ANT,12,99.118,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.51,1.547,4.049,4.259,-0.204,-0.205,99.53
+0 days 01:13:56.859000,ANT,12,99.284,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.676,1.717,4.215,4.434,0.035,0.035,99.75500000000001
+0 days 01:15:36.057000,ANT,12,99.198,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.59,1.629,4.129,4.343,0.09,0.091,99.728
+0 days 01:17:15.270000,ANT,12,99.213,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.605,1.644,4.144,4.359,0.156,0.157,99.80199999999999
+0 days 01:18:59.540000,ANT,12,104.27,12.0,1.0,,0 days 01:18:57.833000,False,MEDIUM,12.0,True,Mercedes,1,8.0,False,2,Chinese Grand Prix,True,C3,False,6.662,6.825,9.201,9.678,5.47,5.536,104.91799999999999
+0 days 01:20:56.548000,ANT,12,117.008,13.0,2.0,0 days 01:19:20.620000,,False,HARD,1.0,True,Mercedes,1,14.0,False,2,Chinese Grand Prix,True,C2,False,19.4,19.875,21.939,23.077,18.659,18.972,117.71499999999999
+0 days 01:22:35.774000,ANT,12,99.226,14.0,2.0,,,False,HARD,2.0,True,Mercedes,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.618,1.658,4.157,4.373,0.425,0.43,99.992
+0 days 01:24:14.555000,ANT,12,98.781,15.0,2.0,,,False,HARD,3.0,True,Mercedes,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.173,1.202,3.712,3.905,-0.189,-0.191,99.60600000000001
+0 days 01:25:53.732000,ANT,12,99.177,16.0,2.0,,,False,HARD,4.0,True,Mercedes,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.569,1.607,4.108,4.321,0.083,0.084,100.061
+0 days 01:27:33.961000,ANT,12,100.229,17.0,2.0,,,False,HARD,5.0,True,Mercedes,1,15.0,True,2,Chinese Grand Prix,True,C2,True,2.621,2.685,5.16,5.428,1.201,1.213,101.172
+0 days 01:29:14.191000,ANT,12,100.23,18.0,2.0,,,False,HARD,6.0,True,Mercedes,1,13.0,True,2,Chinese Grand Prix,True,C2,True,2.622,2.686,5.161,5.429,1.289,1.303,101.232
+0 days 01:30:52.223000,ANT,12,98.032,19.0,2.0,,,True,HARD,7.0,True,Mercedes,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.424,0.434,2.963,3.117,-0.004,-0.004,99.09299999999999
+0 days 01:32:30.360000,ANT,12,98.137,20.0,2.0,,,False,HARD,8.0,True,Mercedes,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.529,0.542,3.068,3.227,0.015,0.015,99.257
+0 days 01:34:08.017000,ANT,12,97.657,21.0,2.0,,,True,HARD,9.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.049,0.05,2.588,2.722,-0.322,-0.329,98.836
+0 days 01:35:45.892000,ANT,12,97.875,22.0,2.0,,,False,HARD,10.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.267,0.274,2.806,2.952,-0.007,-0.007,99.113
+0 days 01:37:23.674000,ANT,12,97.782,23.0,2.0,,,False,HARD,11.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.174,0.178,2.713,2.854,0.052,0.053,99.078
+0 days 01:39:01.808000,ANT,12,98.134,24.0,2.0,,,False,HARD,12.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.526,0.539,3.065,3.224,0.101,0.103,99.489
+0 days 01:40:39.971000,ANT,12,98.163,25.0,2.0,,,False,HARD,13.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.555,0.569,3.094,3.254,0.0,0.0,99.577
+0 days 01:42:18.197000,ANT,12,98.226,26.0,2.0,,,False,HARD,14.0,True,Mercedes,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.618,0.633,3.157,3.321,0.232,0.237,99.699
+0 days 01:43:56.162000,ANT,12,97.965,27.0,2.0,,,False,HARD,15.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.357,0.366,2.896,3.046,0.001,0.001,99.497
+0 days 01:45:34.056000,ANT,12,97.894,28.0,2.0,,,False,HARD,16.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.286,0.293,2.825,2.972,0.219,0.224,99.485
+0 days 01:47:11.923000,ANT,12,97.867,29.0,2.0,,,False,HARD,17.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.259,0.265,2.798,2.943,0.169,0.173,99.51700000000001
+0 days 01:48:49.682000,ANT,12,97.759,30.0,2.0,,,False,HARD,18.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.151,0.155,2.69,2.83,-0.002,-0.002,99.468
+0 days 01:50:27.537000,ANT,12,97.855,31.0,2.0,,,False,HARD,19.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.247,0.253,2.786,2.931,0.033,0.034,99.623
+0 days 01:52:05.156000,ANT,12,97.619,32.0,2.0,,,True,HARD,20.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.011,0.011,2.55,2.682,0.0,0.0,99.446
+0 days 01:53:42.975000,ANT,12,97.819,33.0,2.0,,,False,HARD,21.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.211,0.216,2.75,2.893,0.238,0.244,99.705
+0 days 01:55:20.838000,ANT,12,97.863,34.0,2.0,,,False,HARD,22.0,True,Mercedes,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.255,0.261,2.794,2.939,0.482,0.495,99.80799999999999
+0 days 01:56:58.546000,ANT,12,97.708,35.0,2.0,,,False,HARD,23.0,True,Mercedes,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.1,0.102,2.639,2.776,0.486,0.5,99.712
+0 days 01:58:36.092000,ANT,12,97.546,36.0,2.0,,,True,HARD,24.0,True,Mercedes,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.062,-0.064,2.477,2.605,0.379,0.39,99.608
+0 days 02:00:13.506000,ANT,12,97.414,37.0,2.0,,,True,HARD,25.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.194,-0.199,2.345,2.467,0.306,0.315,99.535
+0 days 02:01:51.224000,ANT,12,97.718,38.0,2.0,,,False,HARD,26.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.11,0.113,2.649,2.786,0.864,0.892,99.89800000000001
+0 days 02:03:28.308000,ANT,12,97.084,39.0,2.0,,,True,HARD,27.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.524,-0.537,2.015,2.12,0.231,0.239,99.32300000000001
+0 days 02:05:05.453000,ANT,12,97.145,40.0,2.0,,,False,HARD,28.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.463,-0.474,2.076,2.184,0.415,0.429,99.443
+0 days 02:06:42.671000,ANT,12,97.218,41.0,2.0,,,False,HARD,29.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.39,-0.4,2.149,2.26,0.521,0.539,99.575
+0 days 02:08:19.906000,ANT,12,97.235,42.0,2.0,,,False,HARD,30.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.373,-0.382,2.166,2.278,0.367,0.379,99.651
+0 days 02:09:57.020000,ANT,12,97.114,43.0,2.0,,,False,HARD,31.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.494,-0.506,2.045,2.151,0.181,0.187,99.589
+0 days 02:11:33.902000,ANT,12,96.882,44.0,2.0,,,True,HARD,32.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.726,-0.744,1.813,1.907,0.019,0.02,99.41600000000001
+0 days 02:13:10.862000,ANT,12,96.96,45.0,2.0,,,False,HARD,33.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.648,-0.664,1.891,1.989,0.079,0.082,99.553
+0 days 02:14:47.587000,ANT,12,96.725,46.0,2.0,,,True,HARD,34.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.883,-0.905,1.656,1.742,0.041,0.042,99.377
+0 days 02:16:24.438000,ANT,12,96.851,47.0,2.0,,,False,HARD,35.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.757,-0.776,1.782,1.874,0.209,0.216,99.562
+0 days 02:18:00.869000,ANT,12,96.431,48.0,2.0,,,True,HARD,36.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.177,-1.206,1.362,1.433,-0.07,-0.073,99.201
+0 days 02:19:37.211000,ANT,12,96.342,49.0,2.0,,,True,HARD,37.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.266,-1.297,1.273,1.339,-0.139,-0.144,99.17099999999999
+0 days 02:21:13.451000,ANT,12,96.24,50.0,2.0,,,True,HARD,38.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.368,-1.402,1.171,1.232,-0.077,-0.08,99.127
+0 days 02:22:49.887000,ANT,12,96.436,51.0,2.0,,,False,HARD,39.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.172,-1.201,1.367,1.438,-0.067,-0.069,99.382
+0 days 02:24:26.257000,ANT,12,96.37,52.0,2.0,,,False,HARD,40.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.238,-1.268,1.301,1.368,-0.054,-0.056,99.375
+0 days 02:26:02.839000,ANT,12,96.582,53.0,2.0,,,False,HARD,41.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.026,-1.051,1.513,1.591,-0.147,-0.152,99.64599999999999
+0 days 02:27:39.477000,ANT,12,96.638,54.0,2.0,,,False,HARD,42.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-0.97,-0.994,1.569,1.65,-0.346,-0.357,99.76100000000001
+0 days 02:29:15.830000,ANT,12,96.353,55.0,2.0,,,False,HARD,43.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.255,-1.286,1.284,1.351,-0.275,-0.285,99.535
+0 days 02:30:51.876000,ANT,12,96.046,56.0,2.0,,,True,HARD,44.0,True,Mercedes,1,8.0,True,2,Chinese Grand Prix,True,C2,True,-1.562,-1.6,0.977,1.028,-0.81,-0.836,99.287
+0 days 01:00:46.758000,TSU,22,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,12,8.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:25.506000,TSU,22,98.748,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,12,8.0,True,2,Chinese Grand Prix,True,C3,False,1.14,1.168,3.679,3.87,-0.513,-0.517,98.807
+0 days 01:04:04.449000,TSU,22,98.943,3.0,1.0,,,False,MEDIUM,3.0,True,Racing Bulls,21,8.0,True,2,Chinese Grand Prix,True,C3,False,1.335,1.368,3.874,4.075,-0.106,-0.107,99.06099999999999
+0 days 01:05:43.211000,TSU,22,98.762,4.0,1.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.154,1.182,3.693,3.885,0.0,0.0,98.93900000000001
+0 days 01:07:22.066000,TSU,22,98.855,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.247,1.278,3.786,3.982,0.058,0.059,99.09100000000001
+0 days 01:09:01.121000,TSU,22,99.055,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,12,8.0,True,2,Chinese Grand Prix,True,C3,False,1.447,1.482,3.986,4.193,0.0,0.0,99.35000000000001
+0 days 01:10:40.014000,TSU,22,98.893,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.285,1.316,3.824,4.022,-0.182,-0.184,99.247
+0 days 01:12:19.413000,TSU,22,99.399,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.791,1.835,4.33,4.555,0.077,0.078,99.811
+0 days 01:13:58.706000,TSU,22,99.293,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.685,1.726,4.224,4.443,0.044,0.044,99.76400000000001
+0 days 01:15:37.813000,TSU,22,99.107,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C3,True,1.499,1.536,4.038,4.247,-0.001,-0.001,99.637
+0 days 01:17:21.658000,TSU,22,103.845,11.0,1.0,,0 days 01:17:20.041000,False,MEDIUM,11.0,True,Racing Bulls,1,11.0,False,2,Chinese Grand Prix,True,C3,False,6.237,6.39,8.776,9.231,4.788,4.834,104.434
+0 days 01:19:18.004000,TSU,22,116.346,12.0,2.0,0 days 01:17:42.512000,,False,HARD,1.0,True,Racing Bulls,1,15.0,False,2,Chinese Grand Prix,True,C2,False,18.738,19.197,21.277,22.381,17.546,17.759,116.994
+0 days 01:20:56.126000,TSU,22,98.122,13.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.514,0.527,3.053,3.211,-0.227,-0.231,98.829
+0 days 01:22:34.910000,TSU,22,98.784,14.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.176,1.205,3.715,3.908,-0.017,-0.017,99.55000000000001
+0 days 01:24:13.349000,TSU,22,98.439,15.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.831,0.851,3.37,3.545,-0.531,-0.537,99.264
+0 days 01:25:53.281000,TSU,22,99.932,16.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,13.0,True,2,Chinese Grand Prix,True,C2,True,2.324,2.381,4.863,5.115,0.838,0.846,100.816
+0 days 01:27:32.511000,TSU,22,99.23,17.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,12.0,True,2,Chinese Grand Prix,True,C2,True,1.622,1.662,4.161,4.377,0.202,0.204,100.173
+0 days 01:29:10.747000,TSU,22,98.236,18.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.628,0.643,3.167,3.331,-0.705,-0.713,99.238
+0 days 01:30:48.426000,TSU,22,97.679,19.0,2.0,,,True,HARD,8.0,True,Racing Bulls,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.071,0.073,2.61,2.745,-0.357,-0.364,98.74000000000001
+0 days 01:32:26.072000,TSU,22,97.646,20.0,2.0,,,True,HARD,9.0,True,Racing Bulls,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.038,0.039,2.577,2.711,-0.476,-0.485,98.766
+0 days 01:34:03.788000,TSU,22,97.716,21.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.108,0.111,2.647,2.784,-0.263,-0.268,98.895
+0 days 01:35:41.691000,TSU,22,97.903,22.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.295,0.302,2.834,2.981,0.021,0.021,99.141
+0 days 01:37:19.364000,TSU,22,97.673,23.0,2.0,,,False,HARD,12.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.065,0.067,2.604,2.739,-0.057,-0.058,98.96900000000001
+0 days 01:38:57.286000,TSU,22,97.922,24.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.314,0.322,2.853,3.001,-0.111,-0.113,99.277
+0 days 01:40:35.328000,TSU,22,98.042,25.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.434,0.445,2.973,3.127,-0.121,-0.123,99.456
+0 days 01:42:13.172000,TSU,22,97.844,26.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.236,0.242,2.775,2.919,-0.15,-0.153,99.317
+0 days 01:43:50.974000,TSU,22,97.802,27.0,2.0,,,False,HARD,16.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.194,0.199,2.733,2.875,-0.162,-0.165,99.334
+0 days 01:45:28.729000,TSU,22,97.755,28.0,2.0,,,False,HARD,17.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.147,0.151,2.686,2.825,0.08,0.082,99.34599999999999
+0 days 01:47:06.634000,TSU,22,97.905,29.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.297,0.304,2.836,2.983,0.207,0.212,99.555
+0 days 01:48:44.629000,TSU,22,97.995,30.0,2.0,,,False,HARD,19.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.387,0.396,2.926,3.078,0.234,0.239,99.70400000000001
+0 days 01:50:22.960000,TSU,22,98.331,31.0,2.0,,,False,HARD,20.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.723,0.741,3.262,3.431,0.509,0.52,100.099
+0 days 01:52:01.153000,TSU,22,98.193,32.0,2.0,,,False,HARD,21.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.585,0.599,3.124,3.286,0.574,0.588,100.02
+0 days 01:53:38.960000,TSU,22,97.807,33.0,2.0,,,False,HARD,22.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.199,0.204,2.738,2.88,0.226,0.232,99.693
+0 days 01:55:17.055000,TSU,22,98.095,34.0,2.0,,,False,HARD,23.0,True,Racing Bulls,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.487,0.499,3.026,3.183,0.714,0.733,100.03999999999999
+0 days 01:56:59.577000,TSU,22,102.522,35.0,2.0,,0 days 01:56:58.016000,False,HARD,24.0,True,Racing Bulls,1,10.0,False,2,Chinese Grand Prix,True,C2,False,4.914,5.034,7.453,7.84,5.3,5.451,104.52600000000001
+0 days 01:58:54.583000,TSU,22,115.006,36.0,3.0,0 days 01:57:20.508000,,False,HARD,1.0,True,Racing Bulls,1,15.0,False,2,Chinese Grand Prix,True,C2,False,17.398,17.824,19.937,20.971,17.839,18.359,117.068
+0 days 02:00:31.588000,TSU,22,97.005,37.0,3.0,,,True,HARD,2.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.603,-0.618,1.936,2.036,-0.103,-0.106,99.12599999999999
+0 days 02:02:08.313000,TSU,22,96.725,38.0,3.0,,,True,HARD,3.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.883,-0.905,1.656,1.742,-0.129,-0.133,98.905
+0 days 02:03:44.812000,TSU,22,96.499,39.0,3.0,,,True,HARD,4.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-1.109,-1.136,1.43,1.504,-0.354,-0.366,98.738
+0 days 02:05:21.788000,TSU,22,96.976,40.0,3.0,,,False,HARD,5.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.632,-0.647,1.907,2.006,0.246,0.254,99.274
+0 days 02:06:58.522000,TSU,22,96.734,41.0,3.0,,,False,HARD,6.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.874,-0.895,1.665,1.751,0.037,0.038,99.091
+0 days 02:08:35.555000,TSU,22,97.033,42.0,3.0,,,False,HARD,7.0,True,Racing Bulls,1,15.0,True,2,Chinese Grand Prix,True,C2,True,-0.575,-0.589,1.964,2.066,0.165,0.17,99.449
+0 days 02:10:12.488000,TSU,22,96.933,43.0,3.0,,,False,HARD,8.0,True,Racing Bulls,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.675,-0.692,1.864,1.961,0.0,0.0,99.408
+0 days 02:11:49.377000,TSU,22,96.889,44.0,3.0,,,False,HARD,9.0,True,Racing Bulls,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.719,-0.737,1.82,1.914,0.026,0.027,99.423
+0 days 02:13:26.160000,TSU,22,96.783,45.0,3.0,,,False,HARD,10.0,True,Racing Bulls,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.825,-0.845,1.714,1.803,-0.098,-0.101,99.376
+0 days 02:15:12.914000,TSU,22,106.754,46.0,3.0,,0 days 02:15:11.330000,False,HARD,11.0,True,Racing Bulls,1,17.0,False,2,Chinese Grand Prix,True,C2,False,9.146,9.37,11.685,12.291,10.07,10.415,109.406
+0 days 02:17:28.781000,TSU,22,135.867,47.0,4.0,0 days 02:15:49.270000,,False,MEDIUM,7.0,False,Racing Bulls,1,19.0,False,2,Chinese Grand Prix,True,C3,False,38.259,39.197,40.798,42.914,39.225,40.588,138.578
+0 days 02:19:04.943000,TSU,22,96.162,48.0,4.0,,,True,MEDIUM,8.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-1.446,-1.481,1.093,1.15,-0.339,-0.351,98.932
+0 days 02:20:40.814000,TSU,22,95.871,49.0,4.0,,,True,MEDIUM,9.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-1.737,-1.78,0.802,0.844,-0.61,-0.632,98.69999999999999
+0 days 02:22:16.822000,TSU,22,96.008,50.0,4.0,,,False,MEDIUM,10.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-1.6,-1.639,0.939,0.988,-0.309,-0.321,98.895
+0 days 02:23:53.042000,TSU,22,96.22,51.0,4.0,,,False,MEDIUM,11.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-1.388,-1.422,1.151,1.211,-0.283,-0.293,99.166
+0 days 02:25:29.819000,TSU,22,96.777,52.0,4.0,,,False,MEDIUM,12.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-0.831,-0.851,1.708,1.797,0.353,0.366,99.782
+0 days 02:27:07.265000,TSU,22,97.446,53.0,4.0,,,False,MEDIUM,13.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-0.162,-0.166,2.377,2.5,0.717,0.741,100.50999999999999
+0 days 02:28:44.339000,TSU,22,97.074,54.0,4.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-0.534,-0.547,2.005,2.109,0.09,0.093,100.197
+0 days 02:30:21.639000,TSU,22,97.3,55.0,4.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,19.0,True,2,Chinese Grand Prix,True,C3,True,-0.308,-0.316,2.231,2.347,0.672,0.695,100.482
+0 days 01:00:48.375000,ALB,23,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,12,11.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:27.818000,ALB,23,99.443,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,12,11.0,True,2,Chinese Grand Prix,True,C3,False,1.835,1.88,4.374,4.601,0.182,0.183,99.502
+0 days 01:04:06.913000,ALB,23,99.095,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,21,11.0,True,2,Chinese Grand Prix,True,C3,False,1.487,1.523,4.026,4.235,0.046,0.046,99.213
+0 days 01:05:45.959000,ALB,23,99.046,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.438,1.473,3.977,4.183,0.284,0.288,99.22300000000001
+0 days 01:07:24.505000,ALB,23,98.546,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,0.938,0.961,3.477,3.657,-0.251,-0.254,98.78200000000001
+0 days 01:09:03.628000,ALB,23,99.123,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,12,11.0,True,2,Chinese Grand Prix,True,C3,False,1.515,1.552,4.054,4.264,0.068,0.069,99.418
+0 days 01:10:42.719000,ALB,23,99.091,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.483,1.519,4.022,4.231,0.016,0.016,99.445
+0 days 01:12:22.059000,ALB,23,99.34,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.732,1.774,4.271,4.493,0.018,0.018,99.75200000000001
+0 days 01:14:01.582000,ALB,23,99.523,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.915,1.962,4.454,4.685,0.274,0.276,99.994
+0 days 01:15:40.692000,ALB,23,99.11,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.502,1.539,4.041,4.251,0.002,0.002,99.64
+0 days 01:17:19.692000,ALB,23,99.0,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.392,1.426,3.931,4.135,-0.057,-0.058,99.589
+0 days 01:18:58.568000,ALB,23,98.876,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.268,1.299,3.807,4.004,0.076,0.077,99.524
+0 days 01:20:36.879000,ALB,23,98.311,13.0,1.0,,,True,MEDIUM,13.0,True,Williams,1,7.0,True,2,Chinese Grand Prix,True,C3,True,0.703,0.72,3.242,3.41,-0.038,-0.039,99.018
+0 days 01:22:15.339000,ALB,23,98.46,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.852,0.873,3.391,3.567,-0.341,-0.345,99.226
+0 days 01:23:54.028000,ALB,23,98.689,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,3.0,True,2,Chinese Grand Prix,True,C3,True,1.081,1.107,3.62,3.808,-0.281,-0.284,99.514
+0 days 01:25:32.532000,ALB,23,98.504,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,1.0,True,2,Chinese Grand Prix,True,C3,True,0.896,0.918,3.435,3.613,-0.59,-0.595,99.388
+0 days 01:27:11.731000,ALB,23,99.199,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,2.0,True,2,Chinese Grand Prix,True,C3,True,1.591,1.63,4.13,4.344,0.171,0.173,100.142
+0 days 01:28:50.672000,ALB,23,98.941,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,2.0,True,2,Chinese Grand Prix,True,C3,True,1.333,1.366,3.872,4.073,0.0,0.0,99.943
+0 days 01:30:29.649000,ALB,23,98.977,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,3.0,True,2,Chinese Grand Prix,True,C3,True,1.369,1.403,3.908,4.111,0.941,0.96,100.03800000000001
+0 days 01:32:14.357000,ALB,23,104.708,20.0,1.0,,0 days 01:32:12.597000,False,MEDIUM,20.0,True,Williams,1,6.0,False,2,Chinese Grand Prix,True,C3,False,7.1,7.274,9.639,10.139,6.586,6.712,105.828
+0 days 01:34:12.506000,ALB,23,118.149,21.0,2.0,0 days 01:32:36.100000,,False,HARD,1.0,True,Williams,1,14.0,False,2,Chinese Grand Prix,True,C2,False,20.541,21.044,23.08,24.277,20.17,20.586,119.328
+0 days 01:35:49.791000,ALB,23,97.285,22.0,2.0,,,True,HARD,2.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.323,-0.331,2.216,2.331,-0.597,-0.61,98.523
+0 days 01:37:27.438000,ALB,23,97.647,23.0,2.0,,,False,HARD,3.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.039,0.04,2.578,2.712,-0.083,-0.085,98.94300000000001
+0 days 01:39:05.210000,ALB,23,97.772,24.0,2.0,,,False,HARD,4.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.164,0.168,2.703,2.843,-0.261,-0.266,99.12700000000001
+0 days 01:40:42.984000,ALB,23,97.774,25.0,2.0,,,False,HARD,5.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.166,0.17,2.705,2.845,-0.389,-0.396,99.188
+0 days 01:42:21.184000,ALB,23,98.2,26.0,2.0,,,False,HARD,6.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.592,0.607,3.131,3.293,0.206,0.21,99.673
+0 days 01:43:59.320000,ALB,23,98.136,27.0,2.0,,,False,HARD,7.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.528,0.541,3.067,3.226,0.172,0.176,99.66799999999999
+0 days 01:45:37.910000,ALB,23,98.59,28.0,2.0,,,False,HARD,8.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.982,1.006,3.521,3.704,0.915,0.937,100.181
+0 days 01:47:15.981000,ALB,23,98.071,29.0,2.0,,,False,HARD,9.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.463,0.474,3.002,3.158,0.373,0.382,99.721
+0 days 01:48:53.835000,ALB,23,97.854,30.0,2.0,,,False,HARD,10.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.246,0.252,2.785,2.929,0.093,0.095,99.563
+0 days 01:50:31.658000,ALB,23,97.823,31.0,2.0,,,False,HARD,11.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.215,0.22,2.754,2.897,0.001,0.001,99.591
+0 days 01:52:09.574000,ALB,23,97.916,32.0,2.0,,,False,HARD,12.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.308,0.316,2.847,2.995,0.297,0.304,99.743
+0 days 01:53:47.164000,ALB,23,97.59,33.0,2.0,,,False,HARD,13.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.018,-0.018,2.521,2.652,0.009,0.009,99.476
+0 days 01:55:24.635000,ALB,23,97.471,34.0,2.0,,,False,HARD,14.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.137,-0.14,2.402,2.527,0.09,0.092,99.416
+0 days 01:57:02.088000,ALB,23,97.453,35.0,2.0,,,False,HARD,15.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.155,-0.159,2.384,2.508,0.231,0.238,99.45700000000001
+0 days 01:58:39.458000,ALB,23,97.37,36.0,2.0,,,False,HARD,16.0,True,Williams,1,10.0,True,2,Chinese Grand Prix,True,C2,True,-0.238,-0.244,2.301,2.42,0.203,0.209,99.432
+0 days 02:00:16.997000,ALB,23,97.539,37.0,2.0,,,False,HARD,17.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.069,-0.071,2.47,2.598,0.431,0.444,99.66
+0 days 02:01:54.246000,ALB,23,97.249,38.0,2.0,,,True,HARD,18.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.359,-0.368,2.18,2.293,0.395,0.408,99.429
+0 days 02:03:31.445000,ALB,23,97.199,39.0,2.0,,,True,HARD,19.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.409,-0.419,2.13,2.24,0.346,0.357,99.438
+0 days 02:05:08.656000,ALB,23,97.211,40.0,2.0,,,False,HARD,20.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.397,-0.407,2.142,2.253,0.481,0.497,99.509
+0 days 02:06:45.916000,ALB,23,97.26,41.0,2.0,,,False,HARD,21.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.348,-0.357,2.191,2.305,0.563,0.582,99.617
+0 days 02:08:22.884000,ALB,23,96.968,42.0,2.0,,,True,HARD,22.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.64,-0.656,1.899,1.997,0.1,0.103,99.384
+0 days 02:09:59.759000,ALB,23,96.875,43.0,2.0,,,True,HARD,23.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.733,-0.751,1.806,1.9,-0.058,-0.06,99.35
+0 days 02:11:36.622000,ALB,23,96.863,44.0,2.0,,,True,HARD,24.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.745,-0.763,1.794,1.887,0.0,0.0,99.397
+0 days 02:13:13.498000,ALB,23,96.876,45.0,2.0,,,False,HARD,25.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.732,-0.75,1.807,1.901,-0.005,-0.005,99.46900000000001
+0 days 02:14:50.068000,ALB,23,96.57,46.0,2.0,,,True,HARD,26.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.038,-1.063,1.501,1.579,-0.114,-0.118,99.222
+0 days 02:16:26.602000,ALB,23,96.534,47.0,2.0,,,True,HARD,27.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.074,-1.1,1.465,1.541,-0.108,-0.112,99.245
+0 days 02:18:02.975000,ALB,23,96.373,48.0,2.0,,,True,HARD,28.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.235,-1.265,1.304,1.372,-0.128,-0.133,99.143
+0 days 02:19:39.456000,ALB,23,96.481,49.0,2.0,,,False,HARD,29.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.127,-1.155,1.412,1.485,0.0,0.0,99.30999999999999
+0 days 02:21:15.741000,ALB,23,96.285,50.0,2.0,,,True,HARD,30.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.323,-1.355,1.216,1.279,-0.032,-0.033,99.172
+0 days 02:22:52.035000,ALB,23,96.294,51.0,2.0,,,False,HARD,31.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.314,-1.346,1.225,1.289,-0.209,-0.217,99.24
+0 days 02:24:28.289000,ALB,23,96.254,52.0,2.0,,,True,HARD,32.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.354,-1.387,1.185,1.246,-0.17,-0.176,99.259
+0 days 02:26:04.906000,ALB,23,96.617,53.0,2.0,,,False,HARD,33.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.991,-1.015,1.548,1.628,-0.112,-0.116,99.68100000000001
+0 days 02:27:41.534000,ALB,23,96.628,54.0,2.0,,,False,HARD,34.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.98,-1.004,1.559,1.64,-0.356,-0.367,99.751
+0 days 02:29:18.097000,ALB,23,96.563,55.0,2.0,,,False,HARD,35.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.045,-1.071,1.494,1.571,-0.065,-0.067,99.745
+0 days 02:30:54.449000,ALB,23,96.352,56.0,2.0,,,False,HARD,36.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-1.256,-1.287,1.283,1.35,-0.504,-0.52,99.593
+0 days 01:00:47.933000,OCO,31,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,12,10.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:27.039000,OCO,31,99.106,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,12,10.0,True,2,Chinese Grand Prix,True,C3,False,1.498,1.535,4.037,4.246,-0.155,-0.156,99.16499999999999
+0 days 01:04:06.087000,OCO,31,99.048,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,21,10.0,True,2,Chinese Grand Prix,True,C3,False,1.44,1.475,3.979,4.185,-0.001,-0.001,99.166
+0 days 01:05:45.008000,OCO,31,98.921,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.313,1.345,3.852,4.052,0.159,0.161,99.09800000000001
+0 days 01:07:23.914000,OCO,31,98.906,5.0,1.0,,,True,MEDIUM,5.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.298,1.33,3.837,4.036,0.109,0.11,99.14200000000001
+0 days 01:09:02.878000,OCO,31,98.964,6.0,1.0,,,False,MEDIUM,6.0,True,Haas F1 Team,12,10.0,True,2,Chinese Grand Prix,True,C3,False,1.356,1.389,3.895,4.097,-0.091,-0.092,99.259
+0 days 01:10:42.059000,OCO,31,99.181,7.0,1.0,,,False,MEDIUM,7.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.573,1.612,4.112,4.325,0.106,0.107,99.535
+0 days 01:12:21.405000,OCO,31,99.346,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.738,1.781,4.277,4.499,0.024,0.024,99.75800000000001
+0 days 01:14:00.741000,OCO,31,99.336,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.728,1.77,4.267,4.488,0.087,0.088,99.807
+0 days 01:15:39.964000,OCO,31,99.223,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,1.615,1.655,4.154,4.369,0.115,0.116,99.753
+0 days 01:17:24.087000,OCO,31,104.123,11.0,1.0,,0 days 01:17:22.490000,False,MEDIUM,11.0,True,Haas F1 Team,1,13.0,False,2,Chinese Grand Prix,True,C3,False,6.515,6.675,9.054,9.524,5.066,5.114,104.712
+0 days 01:19:19.144000,OCO,31,115.057,12.0,2.0,0 days 01:17:45.530000,,False,HARD,1.0,True,Haas F1 Team,1,16.0,False,2,Chinese Grand Prix,True,C2,False,17.449,17.877,19.988,21.025,16.257,16.454,115.705
+0 days 01:20:56.981000,OCO,31,97.837,13.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.229,0.235,2.768,2.912,-0.512,-0.521,98.544
+0 days 01:22:35.493000,OCO,31,98.512,14.0,2.0,,,False,HARD,3.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.904,0.926,3.443,3.622,-0.289,-0.293,99.278
+0 days 01:24:14.061000,OCO,31,98.568,15.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.96,0.984,3.499,3.68,-0.402,-0.406,99.393
+0 days 01:25:53.471000,OCO,31,99.41,16.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.802,1.846,4.341,4.566,0.316,0.319,100.294
+0 days 01:27:32.985000,OCO,31,99.514,17.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.906,1.953,4.445,4.676,0.486,0.491,100.457
+0 days 01:29:11.390000,OCO,31,98.405,18.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.797,0.817,3.336,3.509,-0.536,-0.542,99.407
+0 days 01:30:49.431000,OCO,31,98.041,19.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.433,0.444,2.972,3.126,0.005,0.005,99.102
+0 days 01:32:27.517000,OCO,31,98.086,20.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,11.0,True,2,Chinese Grand Prix,True,C2,True,0.478,0.49,3.017,3.173,-0.036,-0.037,99.206
+0 days 01:34:05.435000,OCO,31,97.918,21.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.31,0.318,2.849,2.997,-0.061,-0.062,99.09700000000001
+0 days 01:35:43.595000,OCO,31,98.16,22.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.552,0.566,3.091,3.251,0.278,0.284,99.398
+0 days 01:37:21.325000,OCO,31,97.73,23.0,2.0,,,True,HARD,12.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.122,0.125,2.661,2.799,0.0,0.0,99.02600000000001
+0 days 01:38:59.190000,OCO,31,97.865,24.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.257,0.263,2.796,2.941,-0.168,-0.171,99.22
+0 days 01:40:37.289000,OCO,31,98.099,25.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.491,0.503,3.03,3.187,-0.064,-0.065,99.513
+0 days 01:42:15.670000,OCO,31,98.381,26.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.773,0.792,3.312,3.484,0.387,0.395,99.854
+0 days 01:43:53.476000,OCO,31,97.806,27.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.198,0.203,2.737,2.879,-0.158,-0.161,99.338
+0 days 01:45:31.392000,OCO,31,97.916,28.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.308,0.316,2.847,2.995,0.241,0.247,99.50699999999999
+0 days 01:47:08.962000,OCO,31,97.57,29.0,2.0,,,True,HARD,18.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,-0.038,-0.039,2.501,2.631,-0.128,-0.131,99.22
+0 days 01:48:46.979000,OCO,31,98.017,30.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.409,0.419,2.948,3.101,0.256,0.262,99.726
+0 days 01:50:24.984000,OCO,31,98.005,31.0,2.0,,,False,HARD,20.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.397,0.407,2.936,3.088,0.183,0.187,99.773
+0 days 01:52:02.854000,OCO,31,97.87,32.0,2.0,,,False,HARD,21.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.262,0.268,2.801,2.946,0.251,0.257,99.697
+0 days 01:53:40.609000,OCO,31,97.755,33.0,2.0,,,False,HARD,22.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.147,0.151,2.686,2.825,0.174,0.178,99.64099999999999
+0 days 01:55:18.373000,OCO,31,97.764,34.0,2.0,,,False,HARD,23.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.156,0.16,2.695,2.835,0.383,0.393,99.70899999999999
+0 days 01:56:56.101000,OCO,31,97.728,35.0,2.0,,,False,HARD,24.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.12,0.123,2.659,2.797,0.506,0.52,99.732
+0 days 01:58:33.628000,OCO,31,97.527,36.0,2.0,,,True,HARD,25.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.081,-0.083,2.458,2.585,0.36,0.37,99.589
+0 days 02:00:10.961000,OCO,31,97.333,37.0,2.0,,,True,HARD,26.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.275,-0.282,2.264,2.381,0.225,0.232,99.454
+0 days 02:01:48.809000,OCO,31,97.848,38.0,2.0,,,False,HARD,27.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.24,0.246,2.779,2.923,0.994,1.026,100.028
+0 days 02:03:25.789000,OCO,31,96.98,39.0,2.0,,,True,HARD,28.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.628,-0.643,1.911,2.01,0.127,0.131,99.21900000000001
+0 days 02:05:03.058000,OCO,31,97.269,40.0,2.0,,,False,HARD,29.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.339,-0.347,2.2,2.314,0.539,0.557,99.56700000000001
+0 days 02:06:40.199000,OCO,31,97.141,41.0,2.0,,,False,HARD,30.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.467,-0.478,2.072,2.179,0.444,0.459,99.498
+0 days 02:08:17.332000,OCO,31,97.133,42.0,2.0,,,False,HARD,31.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.475,-0.487,2.064,2.171,0.265,0.274,99.54899999999999
+0 days 02:09:54.419000,OCO,31,97.087,43.0,2.0,,,False,HARD,32.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.521,-0.534,2.018,2.123,0.154,0.159,99.562
+0 days 02:11:31.587000,OCO,31,97.168,44.0,2.0,,,False,HARD,33.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.44,-0.451,2.099,2.208,0.305,0.315,99.70200000000001
+0 days 02:13:08.516000,OCO,31,96.929,45.0,2.0,,,True,HARD,34.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.679,-0.696,1.86,1.956,0.048,0.05,99.522
+0 days 02:14:45.509000,OCO,31,96.993,46.0,2.0,,,False,HARD,35.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.615,-0.63,1.924,2.024,0.309,0.32,99.645
+0 days 02:16:22.350000,OCO,31,96.841,47.0,2.0,,,True,HARD,36.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-0.767,-0.786,1.772,1.864,0.199,0.206,99.55199999999999
+0 days 02:17:58.782000,OCO,31,96.432,48.0,2.0,,,True,HARD,37.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.176,-1.205,1.363,1.434,-0.069,-0.072,99.202
+0 days 02:19:35.291000,OCO,31,96.509,49.0,2.0,,,False,HARD,38.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.099,-1.126,1.44,1.515,0.028,0.029,99.338
+0 days 02:21:11.608000,OCO,31,96.317,50.0,2.0,,,True,HARD,39.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.291,-1.323,1.248,1.313,0.0,0.0,99.204
+0 days 02:22:47.829000,OCO,31,96.221,51.0,2.0,,,True,HARD,40.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.387,-1.421,1.152,1.212,-0.282,-0.292,99.167
+0 days 02:24:23.996000,OCO,31,96.167,52.0,2.0,,,True,HARD,41.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.441,-1.476,1.098,1.155,-0.257,-0.267,99.172
+0 days 02:26:00.377000,OCO,31,96.381,53.0,2.0,,,False,HARD,42.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.227,-1.257,1.312,1.38,-0.348,-0.36,99.445
+0 days 02:27:36.379000,OCO,31,96.002,54.0,2.0,,,True,HARD,43.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.606,-1.645,0.933,0.981,-0.982,-1.013,99.125
+0 days 02:29:12.357000,OCO,31,95.978,55.0,2.0,,,True,HARD,44.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.63,-1.67,0.909,0.956,-0.65,-0.673,99.16
+0 days 02:30:48.097000,OCO,31,95.74,56.0,2.0,,,True,HARD,45.0,True,Haas F1 Team,1,7.0,True,2,Chinese Grand Prix,True,C2,True,-1.868,-1.914,0.671,0.706,-1.116,-1.152,98.981
+0 days 01:00:52.997000,HUL,27,,1.0,1.0,,,False,MEDIUM,1.0,True,Kick Sauber,12,19.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:32.962000,HUL,27,99.965,2.0,1.0,,,True,MEDIUM,2.0,True,Kick Sauber,12,19.0,True,2,Chinese Grand Prix,True,C3,False,2.357,2.415,4.896,5.15,0.704,0.709,100.024
+0 days 01:04:13.550000,HUL,27,100.588,3.0,1.0,,,False,MEDIUM,3.0,True,Kick Sauber,21,19.0,True,2,Chinese Grand Prix,True,C3,False,2.98,3.053,5.519,5.805,1.539,1.554,100.70599999999999
+0 days 01:05:53.537000,HUL,27,99.987,4.0,1.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.379,2.437,4.918,5.173,1.225,1.24,100.164
+0 days 01:07:33.343000,HUL,27,99.806,5.0,1.0,,,True,MEDIUM,5.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.198,2.252,4.737,4.983,1.009,1.021,100.042
+0 days 01:09:13.024000,HUL,27,99.681,6.0,1.0,,,True,MEDIUM,6.0,True,Kick Sauber,12,18.0,True,2,Chinese Grand Prix,True,C3,False,2.073,2.124,4.612,4.851,0.626,0.632,99.976
+0 days 01:10:52.946000,HUL,27,99.922,7.0,1.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.314,2.371,4.853,5.105,0.847,0.855,100.276
+0 days 01:12:32.989000,HUL,27,100.043,8.0,1.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.435,2.495,4.974,5.232,0.721,0.726,100.45500000000001
+0 days 01:14:13.031000,HUL,27,100.042,9.0,1.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.434,2.494,4.973,5.231,0.793,0.799,100.513
+0 days 01:15:52.746000,HUL,27,99.715,10.0,1.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C3,True,2.107,2.159,4.646,4.887,0.607,0.612,100.245
+0 days 01:17:32.244000,HUL,27,99.498,11.0,1.0,,,True,MEDIUM,11.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C3,True,1.89,1.936,4.429,4.659,0.441,0.445,100.087
+0 days 01:19:11.703000,HUL,27,99.459,12.0,1.0,,,True,MEDIUM,12.0,True,Kick Sauber,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.851,1.896,4.39,4.618,0.659,0.667,100.107
+0 days 01:20:51.475000,HUL,27,99.772,13.0,1.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,12.0,True,2,Chinese Grand Prix,True,C3,True,2.164,2.217,4.703,4.947,1.423,1.447,100.479
+0 days 01:22:32.473000,HUL,27,100.998,14.0,1.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,12.0,True,2,Chinese Grand Prix,True,C3,True,3.39,3.473,5.929,6.237,2.197,2.224,101.76400000000001
+0 days 01:24:12.296000,HUL,27,99.823,15.0,1.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,12.0,True,2,Chinese Grand Prix,True,C3,True,2.215,2.269,4.754,5.001,0.853,0.862,100.648
+0 days 01:25:52.819000,HUL,27,100.523,16.0,1.0,,,False,MEDIUM,16.0,True,Kick Sauber,1,12.0,True,2,Chinese Grand Prix,True,C3,True,2.915,2.986,5.454,5.737,1.429,1.442,101.407
+0 days 01:27:33.651000,HUL,27,100.832,17.0,1.0,,,False,MEDIUM,17.0,True,Kick Sauber,1,14.0,True,2,Chinese Grand Prix,True,C3,True,3.224,3.303,5.763,6.062,1.804,1.822,101.77499999999999
+0 days 01:29:15.193000,HUL,27,101.542,18.0,1.0,,,False,MEDIUM,18.0,True,Kick Sauber,1,15.0,True,2,Chinese Grand Prix,True,C3,True,3.934,4.03,6.473,6.809,2.601,2.629,102.544
+0 days 01:30:57.272000,HUL,27,102.079,19.0,1.0,,,False,MEDIUM,19.0,True,Kick Sauber,1,16.0,True,2,Chinese Grand Prix,True,C3,True,4.471,4.581,7.01,7.374,4.043,4.124,103.13999999999999
+0 days 01:32:42.577000,HUL,27,105.305,20.0,1.0,,0 days 01:32:40.897000,False,MEDIUM,20.0,True,Kick Sauber,1,18.0,False,2,Chinese Grand Prix,True,C3,False,7.697,7.886,10.236,10.767,7.183,7.32,106.42500000000001
+0 days 01:34:40.372000,HUL,27,117.795,21.0,2.0,0 days 01:33:03.878000,,False,HARD,1.0,True,Kick Sauber,1,19.0,False,2,Chinese Grand Prix,True,C2,False,20.187,20.682,22.726,23.905,19.816,20.225,118.974
+0 days 01:36:18.075000,HUL,27,97.703,22.0,2.0,,,True,HARD,2.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.095,0.097,2.634,2.771,-0.179,-0.183,98.941
+0 days 01:37:56.267000,HUL,27,98.192,23.0,2.0,,,False,HARD,3.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.584,0.598,3.123,3.285,0.462,0.473,99.488
+0 days 01:39:34.724000,HUL,27,98.457,24.0,2.0,,,False,HARD,4.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.849,0.87,3.388,3.564,0.424,0.433,99.812
+0 days 01:41:13.344000,HUL,27,98.62,25.0,2.0,,,False,HARD,5.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.012,1.037,3.551,3.735,0.457,0.466,100.034
+0 days 01:42:51.017000,HUL,27,97.673,26.0,2.0,,,True,HARD,6.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.065,0.067,2.604,2.739,-0.321,-0.328,99.146
+0 days 01:44:28.730000,HUL,27,97.713,27.0,2.0,,,False,HARD,7.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.105,0.108,2.644,2.781,-0.251,-0.256,99.24499999999999
+0 days 01:46:06.527000,HUL,27,97.797,28.0,2.0,,,False,HARD,8.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.189,0.194,2.728,2.869,0.122,0.125,99.38799999999999
+0 days 01:47:44.304000,HUL,27,97.777,29.0,2.0,,,False,HARD,9.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.169,0.173,2.708,2.848,0.079,0.081,99.427
+0 days 01:49:22.512000,HUL,27,98.208,30.0,2.0,,,False,HARD,10.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.6,0.615,3.139,3.302,0.447,0.457,99.917
+0 days 01:51:00.333000,HUL,27,97.821,31.0,2.0,,,False,HARD,11.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,0.213,0.218,2.752,2.895,-0.001,-0.001,99.589
+0 days 01:52:39.069000,HUL,27,98.736,32.0,2.0,,,False,HARD,12.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,1.128,1.156,3.667,3.857,1.117,1.144,100.563
+0 days 01:54:16.963000,HUL,27,97.894,33.0,2.0,,,False,HARD,13.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.286,0.293,2.825,2.972,0.313,0.321,99.78
+0 days 01:55:54.862000,HUL,27,97.899,34.0,2.0,,,False,HARD,14.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.291,0.298,2.83,2.977,0.518,0.532,99.844
+0 days 01:57:32.137000,HUL,27,97.275,35.0,2.0,,,True,HARD,15.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.333,-0.341,2.206,2.32,0.053,0.055,99.27900000000001
+0 days 01:59:09.944000,HUL,27,97.807,36.0,2.0,,,False,HARD,16.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.199,0.204,2.738,2.88,0.64,0.659,99.869
+0 days 02:00:47.367000,HUL,27,97.423,37.0,2.0,,,False,HARD,17.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.185,-0.19,2.354,2.476,0.315,0.324,99.544
+0 days 02:02:24.950000,HUL,27,97.583,38.0,2.0,,,False,HARD,18.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.025,-0.026,2.514,2.644,0.729,0.753,99.763
+0 days 02:04:02.565000,HUL,27,97.615,39.0,2.0,,,False,HARD,19.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.007,0.007,2.546,2.678,0.762,0.787,99.854
+0 days 02:05:40.106000,HUL,27,97.541,40.0,2.0,,,False,HARD,20.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.067,-0.069,2.472,2.6,0.811,0.838,99.839
+0 days 02:07:18.127000,HUL,27,98.021,41.0,2.0,,,False,HARD,21.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.413,0.423,2.952,3.105,1.324,1.369,100.378
+0 days 02:08:55.892000,HUL,27,97.765,42.0,2.0,,,False,HARD,22.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.157,0.161,2.696,2.836,0.897,0.926,100.181
+0 days 02:10:34.154000,HUL,27,98.262,43.0,2.0,,,False,HARD,23.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.654,0.67,3.193,3.359,1.329,1.371,100.737
+0 days 02:12:11.997000,HUL,27,97.843,44.0,2.0,,,False,HARD,24.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.235,0.241,2.774,2.918,0.98,1.012,100.37700000000001
+0 days 02:13:50.794000,HUL,27,98.797,45.0,2.0,,,False,HARD,25.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.189,1.218,3.728,3.921,1.916,1.978,101.39
+0 days 02:15:29.956000,HUL,27,99.162,46.0,2.0,,,False,HARD,26.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.554,1.592,4.093,4.305,2.478,2.563,101.81400000000001
+0 days 02:17:08.532000,HUL,27,98.576,47.0,2.0,,,False,HARD,27.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.968,0.992,3.507,3.689,1.934,2.001,101.28699999999999
+0 days 02:18:47.653000,HUL,27,99.121,48.0,2.0,,,False,HARD,28.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,1.513,1.55,4.052,4.262,2.62,2.715,101.89099999999999
+0 days 02:20:26.792000,HUL,27,99.139,49.0,2.0,,,False,HARD,29.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,1.531,1.569,4.07,4.281,2.658,2.755,101.96799999999999
+0 days 02:22:04.985000,HUL,27,98.193,50.0,2.0,,,False,HARD,30.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.585,0.599,3.124,3.286,1.876,1.948,101.08
+0 days 02:23:42.977000,HUL,27,97.992,51.0,2.0,,,False,HARD,31.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.384,0.393,2.923,3.075,1.489,1.543,100.938
+0 days 02:25:20.460000,HUL,27,97.483,52.0,2.0,,,False,HARD,32.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.125,-0.128,2.414,2.539,1.059,1.098,100.488
+0 days 02:27:00.773000,HUL,27,100.313,53.0,2.0,,,False,HARD,33.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.705,2.771,5.244,5.516,3.584,3.705,103.37700000000001
+0 days 02:28:38.611000,HUL,27,97.838,54.0,2.0,,,False,HARD,34.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.23,0.236,2.769,2.913,0.854,0.881,100.961
+0 days 02:30:18.354000,HUL,27,99.743,55.0,2.0,,,False,HARD,35.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.135,2.187,4.674,4.916,3.115,3.224,102.925
+0 days 01:00:48.863000,ALO,14,,1.0,1.0,,,False,MEDIUM,6.0,False,Aston Martin,12,12.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:28.454000,ALO,14,99.591,2.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,12,12.0,True,2,Chinese Grand Prix,True,C3,False,1.983,2.032,4.522,4.757,0.33,0.332,99.64999999999999
+0 days 01:04:07.710000,ALO,14,99.256,3.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,21,12.0,True,2,Chinese Grand Prix,True,C3,False,1.648,1.688,4.187,4.404,0.207,0.209,99.374
+0 days 01:06:28.676000,ALO,14,140.966,4.0,1.0,,0 days 01:06:26.536000,False,MEDIUM,9.0,False,Aston Martin,1,20.0,False,2,Chinese Grand Prix,True,C3,False,43.358,44.421,45.897,48.278,42.204,42.733,141.143
+0 days 01:00:49.748000,STR,18,,1.0,1.0,,,False,HARD,1.0,True,Aston Martin,12,14.0,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
+0 days 01:02:29.489000,STR,18,99.741,2.0,1.0,,,True,HARD,2.0,True,Aston Martin,12,14.0,True,2,Chinese Grand Prix,True,C2,False,2.133,2.185,4.672,4.914,0.48,0.484,99.8
+0 days 01:04:08.731000,STR,18,99.242,3.0,1.0,,,True,HARD,3.0,True,Aston Martin,21,14.0,True,2,Chinese Grand Prix,True,C2,False,1.634,1.674,4.173,4.389,0.193,0.195,99.36
+0 days 01:05:47.386000,STR,18,98.655,4.0,1.0,,,True,HARD,4.0,True,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.047,1.073,3.586,3.772,-0.107,-0.108,98.83200000000001
+0 days 01:07:26.187000,STR,18,98.801,5.0,1.0,,,False,HARD,5.0,True,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.193,1.222,3.732,3.926,0.004,0.004,99.037
+0 days 01:09:05.347000,STR,18,99.16,6.0,1.0,,,False,HARD,6.0,True,Aston Martin,12,13.0,True,2,Chinese Grand Prix,True,C2,False,1.552,1.59,4.091,4.303,0.105,0.106,99.455
+0 days 01:10:44.386000,STR,18,99.039,7.0,1.0,,,False,HARD,7.0,True,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.431,1.466,3.97,4.176,-0.036,-0.036,99.393
+0 days 01:12:23.918000,STR,18,99.532,8.0,1.0,,,False,HARD,8.0,True,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.924,1.971,4.463,4.694,0.21,0.211,99.944
+0 days 01:14:03.090000,STR,18,99.172,9.0,1.0,,,False,HARD,9.0,True,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.564,1.602,4.103,4.316,-0.077,-0.078,99.643
+0 days 01:15:42.434000,STR,18,99.344,10.0,1.0,,,False,HARD,10.0,True,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C2,True,1.736,1.779,4.275,4.497,0.236,0.238,99.874
+0 days 01:17:21.535000,STR,18,99.101,11.0,1.0,,,False,HARD,11.0,True,Aston Martin,1,10.0,True,2,Chinese Grand Prix,True,C2,True,1.493,1.53,4.032,4.241,0.044,0.044,99.69
+0 days 01:19:00.794000,STR,18,99.259,12.0,1.0,,,False,HARD,12.0,True,Aston Martin,1,9.0,True,2,Chinese Grand Prix,True,C2,True,1.651,1.691,4.19,4.407,0.459,0.465,99.907
+0 days 01:20:39.757000,STR,18,98.963,13.0,1.0,,,False,HARD,13.0,True,Aston Martin,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.355,1.388,3.894,4.096,0.614,0.624,99.66999999999999
+0 days 01:22:18.865000,STR,18,99.108,14.0,1.0,,,False,HARD,14.0,True,Aston Martin,1,6.0,True,2,Chinese Grand Prix,True,C2,True,1.5,1.537,4.039,4.248,0.307,0.311,99.87400000000001
+0 days 01:23:58.448000,STR,18,99.583,15.0,1.0,,,False,HARD,15.0,True,Aston Martin,1,5.0,True,2,Chinese Grand Prix,True,C2,True,1.975,2.023,4.514,4.748,0.613,0.619,100.408
+0 days 01:25:38.060000,STR,18,99.612,16.0,1.0,,,False,HARD,16.0,True,Aston Martin,1,5.0,True,2,Chinese Grand Prix,True,C2,True,2.004,2.053,4.543,4.779,0.518,0.523,100.496
+0 days 01:27:16.965000,STR,18,98.905,17.0,1.0,,,False,HARD,17.0,True,Aston Martin,1,5.0,True,2,Chinese Grand Prix,True,C2,True,1.297,1.329,3.836,4.035,-0.123,-0.124,99.848
+0 days 01:28:56.859000,STR,18,99.894,18.0,1.0,,,False,HARD,18.0,True,Aston Martin,1,6.0,True,2,Chinese Grand Prix,True,C2,True,2.286,2.342,4.825,5.075,0.953,0.963,100.896
+0 days 01:30:36.417000,STR,18,99.558,19.0,1.0,,,False,HARD,19.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.95,1.998,4.489,4.722,1.522,1.552,100.619
+0 days 01:32:15.747000,STR,18,99.33,20.0,1.0,,,False,HARD,20.0,True,Aston Martin,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.722,1.764,4.261,4.482,1.208,1.231,100.45
+0 days 01:33:55.130000,STR,18,99.383,21.0,1.0,,,False,HARD,21.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.775,1.818,4.314,4.538,1.404,1.433,100.562
+0 days 01:35:33.816000,STR,18,98.686,22.0,1.0,,,False,HARD,22.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.078,1.104,3.617,3.805,0.804,0.821,99.924
+0 days 01:37:12.589000,STR,18,98.773,23.0,1.0,,,False,HARD,23.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.165,1.194,3.704,3.896,1.043,1.067,100.069
+0 days 01:38:51.336000,STR,18,98.747,24.0,1.0,,,False,HARD,24.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.139,1.167,3.678,3.869,0.714,0.728,100.102
+0 days 01:40:30.220000,STR,18,98.884,25.0,1.0,,,False,HARD,25.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.276,1.307,3.815,4.013,0.721,0.734,100.298
+0 days 01:42:09.065000,STR,18,98.845,26.0,1.0,,,False,HARD,26.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,1.237,1.267,3.776,3.972,0.851,0.868,100.318
+0 days 01:43:47.602000,STR,18,98.537,27.0,1.0,,,True,HARD,27.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.929,0.952,3.468,3.648,0.573,0.585,100.069
+0 days 01:45:25.816000,STR,18,98.214,28.0,1.0,,,True,HARD,28.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.606,0.621,3.145,3.308,0.539,0.552,99.80499999999999
+0 days 01:47:03.918000,STR,18,98.102,29.0,1.0,,,True,HARD,29.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.494,0.506,3.033,3.19,0.404,0.414,99.75200000000001
+0 days 01:48:42.096000,STR,18,98.178,30.0,1.0,,,False,HARD,30.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.57,0.584,3.109,3.27,0.417,0.427,99.887
+0 days 01:50:20.255000,STR,18,98.159,31.0,1.0,,,False,HARD,31.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.551,0.565,3.09,3.25,0.337,0.345,99.927
+0 days 01:51:58.404000,STR,18,98.149,32.0,1.0,,,False,HARD,32.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.541,0.554,3.08,3.24,0.53,0.543,99.976
+0 days 01:53:36.624000,STR,18,98.22,33.0,1.0,,,False,HARD,33.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.612,0.627,3.151,3.314,0.639,0.655,100.106
+0 days 01:55:14.552000,STR,18,97.928,34.0,1.0,,,True,HARD,34.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.32,0.328,2.859,3.007,0.547,0.562,99.87299999999999
+0 days 01:56:52.419000,STR,18,97.867,35.0,1.0,,,True,HARD,35.0,True,Aston Martin,1,7.0,True,2,Chinese Grand Prix,True,C2,True,0.259,0.265,2.798,2.943,0.645,0.663,99.87100000000001
+0 days 01:58:35.106000,STR,18,102.687,36.0,1.0,,0 days 01:58:33.495000,False,HARD,36.0,True,Aston Martin,1,8.0,False,2,Chinese Grand Prix,True,C2,False,5.079,5.203,7.618,8.013,5.52,5.681,104.749
+0 days 02:00:29.348000,STR,18,114.242,37.0,2.0,0 days 01:58:56.390000,,False,MEDIUM,1.0,False,Aston Martin,1,14.0,False,2,Chinese Grand Prix,True,C3,False,16.634,17.042,19.173,20.167,17.134,17.644,116.363
+0 days 02:02:05.915000,STR,18,96.567,38.0,2.0,,,True,MEDIUM,2.0,False,Aston Martin,1,14.0,True,2,Chinese Grand Prix,True,C3,True,-1.041,-1.067,1.498,1.576,-0.287,-0.296,98.747
+0 days 02:03:41.959000,STR,18,96.044,39.0,2.0,,,True,MEDIUM,3.0,False,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C3,True,-1.564,-1.602,0.975,1.026,-0.809,-0.835,98.283
+0 days 02:05:18.977000,STR,18,97.018,40.0,2.0,,,False,MEDIUM,4.0,False,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C3,True,-0.59,-0.604,1.949,2.05,0.288,0.298,99.316
+0 days 02:06:55.941000,STR,18,96.964,41.0,2.0,,,False,MEDIUM,5.0,False,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C3,True,-0.644,-0.66,1.895,1.993,0.267,0.276,99.321
+0 days 02:08:32.386000,STR,18,96.445,42.0,2.0,,,False,MEDIUM,6.0,False,Aston Martin,1,13.0,True,2,Chinese Grand Prix,True,C3,True,-1.163,-1.192,1.376,1.447,-0.423,-0.437,98.86099999999999
+0 days 02:10:08.879000,STR,18,96.493,43.0,2.0,,,False,MEDIUM,7.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-1.115,-1.142,1.424,1.498,-0.44,-0.454,98.96799999999999
+0 days 02:11:45.448000,STR,18,96.569,44.0,2.0,,,False,MEDIUM,8.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-1.039,-1.064,1.5,1.578,-0.294,-0.304,99.10300000000001
+0 days 02:13:22.534000,STR,18,97.086,45.0,2.0,,,False,MEDIUM,9.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.522,-0.535,2.017,2.122,0.205,0.212,99.679
+0 days 02:14:59.178000,STR,18,96.644,46.0,2.0,,,False,MEDIUM,10.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.964,-0.988,1.575,1.657,-0.04,-0.041,99.296
+0 days 02:16:36.091000,STR,18,96.913,47.0,2.0,,,False,MEDIUM,11.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.695,-0.712,1.844,1.94,0.271,0.28,99.624
+0 days 02:18:12.736000,STR,18,96.645,48.0,2.0,,,False,MEDIUM,12.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.963,-0.987,1.576,1.658,0.144,0.149,99.41499999999999
+0 days 02:19:49.398000,STR,18,96.662,49.0,2.0,,,False,MEDIUM,13.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.946,-0.969,1.593,1.676,0.181,0.188,99.491
+0 days 02:21:26.281000,STR,18,96.883,50.0,2.0,,,False,MEDIUM,14.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.725,-0.743,1.814,1.908,0.566,0.588,99.77
+0 days 02:23:03.238000,STR,18,96.957,51.0,2.0,,,False,MEDIUM,15.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.651,-0.667,1.888,1.986,0.454,0.47,99.90299999999999
+0 days 02:24:40.250000,STR,18,97.012,52.0,2.0,,,False,MEDIUM,16.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.596,-0.611,1.943,2.044,0.588,0.61,100.017
+0 days 02:26:17.469000,STR,18,97.219,53.0,2.0,,,False,MEDIUM,17.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.389,-0.399,2.15,2.262,0.49,0.507,100.28299999999999
+0 days 02:27:54.453000,STR,18,96.984,54.0,2.0,,,False,MEDIUM,18.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.624,-0.639,1.915,2.014,0.0,0.0,100.107
+0 days 02:29:31.471000,STR,18,97.018,55.0,2.0,,,False,MEDIUM,19.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.59,-0.604,1.949,2.05,0.39,0.404,100.2
+0 days 02:31:08.332000,STR,18,96.861,56.0,2.0,,,False,MEDIUM,20.0,False,Aston Martin,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.747,-0.765,1.792,1.885,0.005,0.005,100.102
+0 days 01:00:50.414000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,12,15.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:30.132000,SAI,55,99.718,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,12,15.0,True,2,Chinese Grand Prix,True,C3,False,2.11,2.162,4.649,4.89,0.457,0.46,99.777
+0 days 01:04:09.402000,SAI,55,99.27,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,21,15.0,True,2,Chinese Grand Prix,True,C3,False,1.662,1.703,4.201,4.419,0.221,0.223,99.38799999999999
+0 days 01:05:48.191000,SAI,55,98.789,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.181,1.21,3.72,3.913,0.027,0.027,98.96600000000001
+0 days 01:07:26.978000,SAI,55,98.787,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.179,1.208,3.718,3.911,-0.01,-0.01,99.02300000000001
+0 days 01:09:06.157000,SAI,55,99.179,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,12,14.0,True,2,Chinese Grand Prix,True,C3,False,1.571,1.609,4.11,4.323,0.124,0.125,99.474
+0 days 01:10:45.232000,SAI,55,99.075,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.467,1.503,4.006,4.214,0.0,0.0,99.429
+0 days 01:12:24.780000,SAI,55,99.548,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.94,1.988,4.479,4.711,0.226,0.228,99.96000000000001
+0 days 01:14:04.017000,SAI,55,99.237,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C3,True,1.629,1.669,4.168,4.384,-0.012,-0.012,99.708
+0 days 01:15:43.242000,SAI,55,99.225,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C3,True,1.617,1.657,4.156,4.372,0.117,0.118,99.755
+0 days 01:17:22.299000,SAI,55,99.057,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.449,1.485,3.988,4.195,0.0,0.0,99.646
+0 days 01:19:01.942000,SAI,55,99.643,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,2.035,2.085,4.574,4.811,0.843,0.853,100.291
+0 days 01:20:41.218000,SAI,55,99.276,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,9.0,True,2,Chinese Grand Prix,True,C3,True,1.668,1.709,4.207,4.425,0.927,0.943,99.98299999999999
+0 days 01:22:20.241000,SAI,55,99.023,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.415,1.45,3.954,4.159,0.222,0.225,99.789
+0 days 01:23:59.692000,SAI,55,99.451,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,7.0,True,2,Chinese Grand Prix,True,C3,True,1.843,1.888,4.382,4.609,0.481,0.486,100.276
+0 days 01:25:38.786000,SAI,55,99.094,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,6.0,True,2,Chinese Grand Prix,True,C3,True,1.486,1.522,4.025,4.234,0.0,0.0,99.978
+0 days 01:27:23.907000,SAI,55,105.121,17.0,1.0,,0 days 01:27:22.188000,False,MEDIUM,17.0,True,Williams,1,10.0,False,2,Chinese Grand Prix,True,C3,False,7.513,7.697,10.052,10.573,6.093,6.153,106.064
+0 days 01:29:20.282000,SAI,55,116.375,18.0,2.0,0 days 01:27:45.024000,,False,HARD,1.0,True,Williams,1,18.0,False,2,Chinese Grand Prix,True,C2,False,18.767,19.227,21.306,22.411,17.434,17.621,117.377
+0 days 01:30:58.206000,SAI,55,97.924,19.0,2.0,,,True,HARD,2.0,True,Williams,1,17.0,True,2,Chinese Grand Prix,True,C2,True,0.316,0.324,2.855,3.003,-0.112,-0.114,98.98500000000001
+0 days 01:32:36.945000,SAI,55,98.739,20.0,2.0,,,False,HARD,3.0,True,Williams,1,16.0,True,2,Chinese Grand Prix,True,C2,True,1.131,1.159,3.67,3.86,0.617,0.629,99.85900000000001
+0 days 01:34:15.096000,SAI,55,98.151,21.0,2.0,,,False,HARD,4.0,True,Williams,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.543,0.556,3.082,3.242,0.172,0.176,99.33
+0 days 01:35:53.239000,SAI,55,98.143,22.0,2.0,,,False,HARD,5.0,True,Williams,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.535,0.548,3.074,3.233,0.261,0.267,99.381
+0 days 01:37:30.997000,SAI,55,97.758,23.0,2.0,,,True,HARD,6.0,True,Williams,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.15,0.154,2.689,2.828,0.028,0.029,99.054
+0 days 01:39:09.044000,SAI,55,98.047,24.0,2.0,,,False,HARD,7.0,True,Williams,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.439,0.45,2.978,3.132,0.014,0.014,99.402
+0 days 01:40:47.231000,SAI,55,98.187,25.0,2.0,,,False,HARD,8.0,True,Williams,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.579,0.593,3.118,3.28,0.024,0.024,99.601
+0 days 01:42:25.577000,SAI,55,98.346,26.0,2.0,,,False,HARD,9.0,True,Williams,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.738,0.756,3.277,3.447,0.352,0.359,99.819
+0 days 01:44:03.660000,SAI,55,98.083,27.0,2.0,,,False,HARD,10.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.475,0.487,3.014,3.17,0.119,0.121,99.615
+0 days 01:45:41.856000,SAI,55,98.196,28.0,2.0,,,False,HARD,11.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.588,0.602,3.127,3.289,0.521,0.533,99.78699999999999
+0 days 01:47:19.807000,SAI,55,97.951,29.0,2.0,,,False,HARD,12.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.343,0.351,2.882,3.031,0.253,0.259,99.601
+0 days 01:48:57.569000,SAI,55,97.762,30.0,2.0,,,False,HARD,13.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.154,0.158,2.693,2.833,0.001,0.001,99.471
+0 days 01:50:35.821000,SAI,55,98.252,31.0,2.0,,,False,HARD,14.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.644,0.66,3.183,3.348,0.43,0.44,100.02
+0 days 01:52:13.725000,SAI,55,97.904,32.0,2.0,,,False,HARD,15.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.296,0.303,2.835,2.982,0.285,0.292,99.731
+0 days 01:53:51.508000,SAI,55,97.783,33.0,2.0,,,False,HARD,16.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.175,0.179,2.714,2.855,0.202,0.207,99.669
+0 days 01:55:29.569000,SAI,55,98.061,34.0,2.0,,,False,HARD,17.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.453,0.464,2.992,3.147,0.68,0.698,100.006
+0 days 01:57:08.321000,SAI,55,98.752,35.0,2.0,,,False,HARD,18.0,True,Williams,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.144,1.172,3.683,3.874,1.53,1.574,100.756
+0 days 01:58:47.305000,SAI,55,98.984,36.0,2.0,,,False,HARD,19.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.376,1.41,3.915,4.118,1.817,1.87,101.04599999999999
+0 days 02:00:25.108000,SAI,55,97.803,37.0,2.0,,,False,HARD,20.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.195,0.2,2.734,2.876,0.695,0.716,99.92399999999999
+0 days 02:02:02.472000,SAI,55,97.364,38.0,2.0,,,True,HARD,21.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.244,-0.25,2.295,2.414,0.51,0.527,99.54400000000001
+0 days 02:03:39.652000,SAI,55,97.18,39.0,2.0,,,True,HARD,22.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.428,-0.438,2.111,2.22,0.327,0.338,99.41900000000001
+0 days 02:05:17.202000,SAI,55,97.55,40.0,2.0,,,False,HARD,23.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.058,-0.059,2.481,2.61,0.82,0.848,99.848
+0 days 02:06:54.664000,SAI,55,97.462,41.0,2.0,,,False,HARD,24.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.146,-0.15,2.393,2.517,0.765,0.791,99.819
+0 days 02:08:32.043000,SAI,55,97.379,42.0,2.0,,,False,HARD,25.0,True,Williams,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.229,-0.235,2.31,2.43,0.511,0.528,99.795
+0 days 02:10:10.922000,SAI,55,98.879,43.0,2.0,,,False,HARD,26.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.271,1.302,3.81,4.008,1.946,2.008,101.354
+0 days 02:11:48.472000,SAI,55,97.55,44.0,2.0,,,False,HARD,27.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.058,-0.059,2.481,2.61,0.687,0.709,100.084
+0 days 02:13:25.665000,SAI,55,97.193,45.0,2.0,,,False,HARD,28.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.415,-0.425,2.124,2.234,0.312,0.322,99.786
+0 days 02:15:03.020000,SAI,55,97.355,46.0,2.0,,,False,HARD,29.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.253,-0.259,2.286,2.405,0.671,0.694,100.007
+0 days 02:16:40.164000,SAI,55,97.144,47.0,2.0,,,True,HARD,30.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.464,-0.475,2.075,2.183,0.502,0.519,99.855
+0 days 02:18:17.513000,SAI,55,97.349,48.0,2.0,,,False,HARD,31.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.259,-0.265,2.28,2.398,0.848,0.879,100.119
+0 days 02:19:54.404000,SAI,55,96.891,49.0,2.0,,,True,HARD,32.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.717,-0.735,1.822,1.917,0.41,0.425,99.72
+0 days 02:21:31.183000,SAI,55,96.779,50.0,2.0,,,True,HARD,33.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.829,-0.849,1.71,1.799,0.462,0.48,99.666
+0 days 02:23:08.037000,SAI,55,96.854,51.0,2.0,,,False,HARD,34.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.754,-0.772,1.785,1.878,0.351,0.364,99.8
+0 days 02:24:45.002000,SAI,55,96.965,52.0,2.0,,,False,HARD,35.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.643,-0.659,1.896,1.994,0.541,0.561,99.97
+0 days 02:26:22.583000,SAI,55,97.581,53.0,2.0,,,False,HARD,36.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.027,-0.028,2.512,2.642,0.852,0.881,100.64500000000001
+0 days 02:27:59.675000,SAI,55,97.092,54.0,2.0,,,False,HARD,37.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.516,-0.529,2.023,2.128,0.108,0.111,100.215
+0 days 02:29:37.104000,SAI,55,97.429,55.0,2.0,,,False,HARD,38.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.179,-0.183,2.36,2.482,0.801,0.829,100.611
+0 days 02:31:14.515000,SAI,55,97.411,56.0,2.0,,,False,HARD,39.0,True,Williams,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.197,-0.202,2.342,2.463,0.555,0.573,100.652
+0 days 01:00:49.142000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,False,Alpine,12,13.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:28.947000,GAS,10,99.805,2.0,1.0,,,True,MEDIUM,2.0,False,Alpine,12,13.0,True,2,Chinese Grand Prix,True,C3,False,2.197,2.251,4.736,4.982,0.544,0.548,99.864
+0 days 01:04:08.072000,GAS,10,99.125,3.0,1.0,,,True,MEDIUM,3.0,False,Alpine,21,13.0,True,2,Chinese Grand Prix,True,C3,False,1.517,1.554,4.056,4.266,0.076,0.077,99.243
+0 days 01:05:46.773000,GAS,10,98.701,4.0,1.0,,,True,MEDIUM,4.0,False,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.093,1.12,3.632,3.82,-0.061,-0.062,98.878
+0 days 01:07:25.301000,GAS,10,98.528,5.0,1.0,,,True,MEDIUM,5.0,False,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C3,True,0.92,0.943,3.459,3.638,-0.269,-0.272,98.76400000000001
+0 days 01:09:04.463000,GAS,10,99.162,6.0,1.0,,,False,MEDIUM,6.0,False,Alpine,12,12.0,True,2,Chinese Grand Prix,True,C3,False,1.554,1.592,4.093,4.305,0.107,0.108,99.45700000000001
+0 days 01:10:43.553000,GAS,10,99.09,7.0,1.0,,,False,MEDIUM,7.0,False,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.482,1.518,4.021,4.23,0.015,0.015,99.444
+0 days 01:12:22.927000,GAS,10,99.374,8.0,1.0,,,False,MEDIUM,8.0,False,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.766,1.809,4.305,4.528,0.052,0.052,99.786
+0 days 01:14:02.307000,GAS,10,99.38,9.0,1.0,,,False,MEDIUM,9.0,False,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.772,1.815,4.311,4.535,0.131,0.132,99.851
+0 days 01:15:46.464000,GAS,10,104.157,10.0,1.0,,0 days 01:15:44.821000,False,MEDIUM,10.0,False,Alpine,1,16.0,False,2,Chinese Grand Prix,True,C3,False,6.549,6.709,9.088,9.559,5.049,5.094,104.687
+0 days 01:17:41.874000,GAS,10,115.41,11.0,2.0,0 days 01:16:07.887000,,False,HARD,1.0,True,Alpine,1,18.0,False,2,Chinese Grand Prix,True,C2,False,17.802,18.238,20.341,21.396,16.353,16.509,115.999
+0 days 01:19:19.714000,GAS,10,97.84,12.0,2.0,,,True,HARD,2.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,0.232,0.238,2.771,2.915,-0.96,-0.972,98.488
+0 days 01:20:57.945000,GAS,10,98.231,13.0,2.0,,,False,HARD,3.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.623,0.638,3.162,3.326,-0.118,-0.12,98.93799999999999
+0 days 01:22:37.090000,GAS,10,99.145,14.0,2.0,,,False,HARD,4.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.537,1.575,4.076,4.287,0.344,0.348,99.911
+0 days 01:24:16.169000,GAS,10,99.079,15.0,2.0,,,False,HARD,5.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.471,1.507,4.01,4.218,0.109,0.11,99.904
+0 days 01:25:54.798000,GAS,10,98.629,16.0,2.0,,,False,HARD,6.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.021,1.046,3.56,3.745,-0.465,-0.469,99.513
+0 days 01:27:34.852000,GAS,10,100.054,17.0,2.0,,,False,HARD,7.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,2.446,2.506,4.985,5.244,1.026,1.036,100.997
+0 days 01:29:15.524000,GAS,10,100.672,18.0,2.0,,,False,HARD,8.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,3.064,3.139,5.603,5.894,1.731,1.75,101.67399999999999
+0 days 01:30:53.875000,GAS,10,98.351,19.0,2.0,,,False,HARD,9.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.743,0.761,3.282,3.452,0.315,0.321,99.412
+0 days 01:32:32.494000,GAS,10,98.619,20.0,2.0,,,False,HARD,10.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.011,1.036,3.55,3.734,0.497,0.507,99.739
+0 days 01:34:11.392000,GAS,10,98.898,21.0,2.0,,,False,HARD,11.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.29,1.322,3.829,4.028,0.919,0.938,100.077
+0 days 01:35:50.406000,GAS,10,99.014,22.0,2.0,,,False,HARD,12.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.406,1.44,3.945,4.15,1.132,1.156,100.252
+0 days 01:37:29.181000,GAS,10,98.775,23.0,2.0,,,False,HARD,13.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.167,1.196,3.706,3.898,1.045,1.069,100.07100000000001
+0 days 01:39:07.742000,GAS,10,98.561,24.0,2.0,,,False,HARD,14.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.953,0.976,3.492,3.673,0.528,0.539,99.91600000000001
+0 days 01:40:46.115000,GAS,10,98.373,25.0,2.0,,,False,HARD,15.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.765,0.784,3.304,3.475,0.21,0.214,99.787
+0 days 01:42:24.284000,GAS,10,98.169,26.0,2.0,,,False,HARD,16.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.561,0.575,3.1,3.261,0.175,0.179,99.642
+0 days 01:44:02.293000,GAS,10,98.009,27.0,2.0,,,False,HARD,17.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.401,0.411,2.94,3.092,0.045,0.046,99.541
+0 days 01:45:40.366000,GAS,10,98.073,28.0,2.0,,,False,HARD,18.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.465,0.476,3.004,3.16,0.398,0.407,99.66399999999999
+0 days 01:47:18.324000,GAS,10,97.958,29.0,2.0,,,False,HARD,19.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.35,0.359,2.889,3.039,0.26,0.266,99.608
+0 days 01:48:56.298000,GAS,10,97.974,30.0,2.0,,,False,HARD,20.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.366,0.375,2.905,3.056,0.213,0.218,99.683
+0 days 01:50:34.204000,GAS,10,97.906,31.0,2.0,,,False,HARD,21.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.298,0.305,2.837,2.984,0.084,0.086,99.674
+0 days 01:52:12.040000,GAS,10,97.836,32.0,2.0,,,True,HARD,22.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.228,0.234,2.767,2.911,0.217,0.222,99.663
+0 days 01:53:49.945000,GAS,10,97.905,33.0,2.0,,,False,HARD,23.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.297,0.304,2.836,2.983,0.324,0.332,99.791
+0 days 01:55:27.813000,GAS,10,97.868,34.0,2.0,,,False,HARD,24.0,True,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C2,True,0.26,0.266,2.799,2.944,0.487,0.5,99.81299999999999
+0 days 01:57:05.254000,GAS,10,97.441,35.0,2.0,,,True,HARD,25.0,True,Alpine,1,12.0,True,2,Chinese Grand Prix,True,C2,True,-0.167,-0.171,2.372,2.495,0.219,0.225,99.44500000000001
+0 days 01:58:42.620000,GAS,10,97.366,36.0,2.0,,,True,HARD,26.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.242,-0.248,2.297,2.416,0.199,0.205,99.428
+0 days 02:00:20.032000,GAS,10,97.412,37.0,2.0,,,False,HARD,27.0,True,Alpine,1,10.0,True,2,Chinese Grand Prix,True,C2,True,-0.196,-0.201,2.343,2.465,0.304,0.313,99.533
+0 days 02:01:58.279000,GAS,10,98.247,38.0,2.0,,,False,HARD,28.0,True,Alpine,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.639,0.655,3.178,3.343,1.393,1.438,100.427
+0 days 02:03:36.527000,GAS,10,98.248,39.0,2.0,,,False,HARD,29.0,True,Alpine,1,10.0,True,2,Chinese Grand Prix,True,C2,True,0.64,0.656,3.179,3.344,1.395,1.44,100.48700000000001
+0 days 02:05:15.548000,GAS,10,99.021,40.0,2.0,,,False,HARD,30.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,1.413,1.448,3.952,4.157,2.291,2.368,101.319
+0 days 02:06:52.789000,GAS,10,97.241,41.0,2.0,,,True,HARD,31.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.367,-0.376,2.172,2.285,0.544,0.563,99.598
+0 days 02:08:29.964000,GAS,10,97.175,42.0,2.0,,,True,HARD,32.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.433,-0.444,2.106,2.215,0.307,0.317,99.591
+0 days 02:10:06.979000,GAS,10,97.015,43.0,2.0,,,True,HARD,33.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.593,-0.608,1.946,2.047,0.082,0.085,99.49
+0 days 02:11:43.972000,GAS,10,96.993,44.0,2.0,,,True,HARD,34.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.615,-0.63,1.924,2.024,0.13,0.134,99.527
+0 days 02:13:20.853000,GAS,10,96.881,45.0,2.0,,,True,HARD,35.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.727,-0.745,1.812,1.906,0.0,0.0,99.474
+0 days 02:14:57.741000,GAS,10,96.888,46.0,2.0,,,False,HARD,36.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.72,-0.738,1.819,1.913,0.204,0.211,99.54
+0 days 02:16:34.337000,GAS,10,96.596,47.0,2.0,,,True,HARD,37.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-1.012,-1.037,1.527,1.606,-0.046,-0.048,99.307
+0 days 02:18:10.888000,GAS,10,96.551,48.0,2.0,,,True,HARD,38.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-1.057,-1.083,1.482,1.559,0.05,0.052,99.321
+0 days 02:19:47.313000,GAS,10,96.425,49.0,2.0,,,True,HARD,39.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-1.183,-1.212,1.356,1.426,-0.056,-0.058,99.25399999999999
+0 days 02:21:24.097000,GAS,10,96.784,50.0,2.0,,,False,HARD,40.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.824,-0.844,1.715,1.804,0.467,0.485,99.671
+0 days 02:23:00.617000,GAS,10,96.52,51.0,2.0,,,False,HARD,41.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-1.088,-1.115,1.451,1.526,0.017,0.018,99.466
+0 days 02:24:37.173000,GAS,10,96.556,52.0,2.0,,,False,HARD,42.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-1.052,-1.078,1.487,1.564,0.132,0.137,99.56099999999999
+0 days 02:26:14.393000,GAS,10,97.22,53.0,2.0,,,False,HARD,43.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.388,-0.398,2.151,2.263,0.491,0.508,100.28399999999999
+0 days 02:27:51.668000,GAS,10,97.275,54.0,2.0,,,False,HARD,44.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.333,-0.341,2.206,2.32,0.291,0.3,100.39800000000001
+0 days 02:29:28.473000,GAS,10,96.805,55.0,2.0,,,False,HARD,45.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.803,-0.823,1.736,1.826,0.177,0.183,99.98700000000001
+0 days 02:31:05.323000,GAS,10,96.85,56.0,2.0,,,False,HARD,46.0,True,Alpine,1,11.0,True,2,Chinese Grand Prix,True,C2,True,-0.758,-0.777,1.781,1.873,-0.006,-0.006,100.091
+0 days 01:00:50.789000,BEA,87,,1.0,1.0,,,False,HARD,1.0,True,Haas F1 Team,12,16.0,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
+0 days 01:02:30.766000,BEA,87,99.977,2.0,1.0,,,True,HARD,2.0,True,Haas F1 Team,12,16.0,True,2,Chinese Grand Prix,True,C2,False,2.369,2.427,4.908,5.163,0.716,0.721,100.036
+0 days 01:04:09.853000,BEA,87,99.087,3.0,1.0,,,True,HARD,3.0,True,Haas F1 Team,21,16.0,True,2,Chinese Grand Prix,True,C2,False,1.479,1.515,4.018,4.226,0.038,0.038,99.205
+0 days 01:05:49.603000,BEA,87,99.75,4.0,1.0,,,False,HARD,4.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,2.142,2.194,4.681,4.924,0.988,1.0,99.927
+0 days 01:07:28.661000,BEA,87,99.058,5.0,1.0,,,True,HARD,5.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.45,1.486,3.989,4.196,0.261,0.264,99.29400000000001
+0 days 01:09:07.890000,BEA,87,99.229,6.0,1.0,,,False,HARD,6.0,True,Haas F1 Team,12,15.0,True,2,Chinese Grand Prix,True,C2,False,1.621,1.661,4.16,4.376,0.174,0.176,99.524
+0 days 01:10:47.383000,BEA,87,99.493,7.0,1.0,,,False,HARD,7.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.885,1.931,4.424,4.653,0.418,0.422,99.847
+0 days 01:12:26.774000,BEA,87,99.391,8.0,1.0,,,False,HARD,8.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.783,1.827,4.322,4.546,0.069,0.069,99.80300000000001
+0 days 01:14:06.128000,BEA,87,99.354,9.0,1.0,,,False,HARD,9.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.746,1.789,4.285,4.507,0.105,0.106,99.825
+0 days 01:15:45.529000,BEA,87,99.401,10.0,1.0,,,False,HARD,10.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.793,1.837,4.332,4.557,0.293,0.296,99.931
+0 days 01:17:24.673000,BEA,87,99.144,11.0,1.0,,,False,HARD,11.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C2,True,1.536,1.574,4.075,4.286,0.087,0.088,99.733
+0 days 01:19:03.912000,BEA,87,99.239,12.0,1.0,,,False,HARD,12.0,True,Haas F1 Team,1,12.0,True,2,Chinese Grand Prix,True,C2,True,1.631,1.671,4.17,4.386,0.439,0.444,99.887
+0 days 01:20:43.070000,BEA,87,99.158,13.0,1.0,,,False,HARD,13.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C2,True,1.55,1.588,4.089,4.301,0.809,0.823,99.865
+0 days 01:22:22.082000,BEA,87,99.012,14.0,1.0,,,True,HARD,14.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.404,1.438,3.943,4.148,0.211,0.214,99.778
+0 days 01:24:02.023000,BEA,87,99.941,15.0,1.0,,,False,HARD,15.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,2.333,2.39,4.872,5.125,0.971,0.981,100.766
+0 days 01:25:41.618000,BEA,87,99.595,16.0,1.0,,,False,HARD,16.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,1.987,2.036,4.526,4.761,0.501,0.506,100.479
+0 days 01:27:20.533000,BEA,87,98.915,17.0,1.0,,,True,HARD,17.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.307,1.339,3.846,4.045,-0.113,-0.114,99.858
+0 days 01:28:59.829000,BEA,87,99.296,18.0,1.0,,,False,HARD,18.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,1.688,1.729,4.227,4.446,0.355,0.359,100.298
+0 days 01:30:38.754000,BEA,87,98.925,19.0,1.0,,,False,HARD,19.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,1.317,1.349,3.856,4.056,0.889,0.907,99.98599999999999
+0 days 01:32:17.145000,BEA,87,98.391,20.0,1.0,,,True,HARD,20.0,True,Haas F1 Team,1,9.0,True,2,Chinese Grand Prix,True,C2,True,0.783,0.802,3.322,3.494,0.269,0.274,99.51100000000001
+0 days 01:33:55.932000,BEA,87,98.787,21.0,1.0,,,False,HARD,21.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.179,1.208,3.718,3.911,0.808,0.825,99.96600000000001
+0 days 01:35:34.303000,BEA,87,98.371,22.0,1.0,,,True,HARD,22.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,0.763,0.782,3.302,3.473,0.489,0.5,99.609
+0 days 01:37:13.176000,BEA,87,98.873,23.0,1.0,,,False,HARD,23.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.265,1.296,3.804,4.001,1.143,1.17,100.16900000000001
+0 days 01:38:51.938000,BEA,87,98.762,24.0,1.0,,,False,HARD,24.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.154,1.182,3.693,3.885,0.729,0.744,100.117
+0 days 01:40:30.871000,BEA,87,98.933,25.0,1.0,,,False,HARD,25.0,True,Haas F1 Team,1,8.0,True,2,Chinese Grand Prix,True,C2,True,1.325,1.357,3.864,4.064,0.77,0.784,100.34700000000001
+0 days 01:42:14.671000,BEA,87,103.8,26.0,1.0,,0 days 01:42:12.972000,False,HARD,26.0,True,Haas F1 Team,1,9.0,False,2,Chinese Grand Prix,True,C2,False,6.192,6.344,8.731,9.184,5.806,5.925,105.273
+0 days 01:44:09.550000,BEA,87,114.879,27.0,2.0,0 days 01:42:35.857000,,False,MEDIUM,1.0,True,Haas F1 Team,1,17.0,False,2,Chinese Grand Prix,True,C3,False,17.271,17.694,19.81,20.837,16.915,17.267,116.411
+0 days 01:45:46.440000,BEA,87,96.89,28.0,2.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,17.0,True,2,Chinese Grand Prix,True,C3,True,-0.718,-0.736,1.821,1.915,-0.785,-0.804,98.481
+0 days 01:47:23.416000,BEA,87,96.976,29.0,2.0,,,False,MEDIUM,3.0,True,Haas F1 Team,1,17.0,True,2,Chinese Grand Prix,True,C3,True,-0.632,-0.647,1.907,2.006,-0.722,-0.739,98.626
+0 days 01:49:00.755000,BEA,87,97.339,30.0,2.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,16.0,True,2,Chinese Grand Prix,True,C3,True,-0.269,-0.276,2.27,2.388,-0.422,-0.432,99.048
+0 days 01:50:38.181000,BEA,87,97.426,31.0,2.0,,,False,MEDIUM,5.0,True,Haas F1 Team,1,16.0,True,2,Chinese Grand Prix,True,C3,True,-0.182,-0.186,2.357,2.479,-0.396,-0.405,99.194
+0 days 01:52:15.568000,BEA,87,97.387,32.0,2.0,,,False,MEDIUM,6.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C3,True,-0.221,-0.226,2.318,2.438,-0.232,-0.238,99.214
+0 days 01:53:53.064000,BEA,87,97.496,33.0,2.0,,,False,MEDIUM,7.0,True,Haas F1 Team,1,15.0,True,2,Chinese Grand Prix,True,C3,True,-0.112,-0.115,2.427,2.553,-0.085,-0.087,99.38199999999999
+0 days 01:55:30.072000,BEA,87,97.008,34.0,2.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,14.0,True,2,Chinese Grand Prix,True,C3,True,-0.6,-0.615,1.939,2.04,-0.373,-0.383,98.95299999999999
+0 days 01:57:07.869000,BEA,87,97.797,35.0,2.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,13.0,True,2,Chinese Grand Prix,True,C3,True,0.189,0.194,2.728,2.869,0.575,0.591,99.801
+0 days 01:58:44.661000,BEA,87,96.792,36.0,2.0,,,True,MEDIUM,10.0,True,Haas F1 Team,1,12.0,True,2,Chinese Grand Prix,True,C3,True,-0.816,-0.836,1.723,1.812,-0.375,-0.386,98.854
+0 days 02:00:21.301000,BEA,87,96.64,37.0,2.0,,,True,MEDIUM,11.0,True,Haas F1 Team,1,11.0,True,2,Chinese Grand Prix,True,C3,True,-0.968,-0.992,1.571,1.652,-0.468,-0.482,98.761
+0 days 02:01:58.582000,BEA,87,97.281,38.0,2.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,11.0,True,2,Chinese Grand Prix,True,C3,True,-0.327,-0.335,2.212,2.327,0.427,0.441,99.46100000000001
+0 days 02:03:36.715000,BEA,87,98.133,39.0,2.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,11.0,True,2,Chinese Grand Prix,True,C3,True,0.525,0.538,3.064,3.223,1.28,1.322,100.372
+0 days 02:05:13.406000,BEA,87,96.691,40.0,2.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.917,-0.939,1.622,1.706,-0.039,-0.04,98.989
+0 days 02:06:49.988000,BEA,87,96.582,41.0,2.0,,,True,MEDIUM,15.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.026,-1.051,1.513,1.591,-0.115,-0.119,98.939
+0 days 02:08:26.374000,BEA,87,96.386,42.0,2.0,,,True,MEDIUM,16.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.222,-1.252,1.317,1.385,-0.482,-0.498,98.80199999999999
+0 days 02:10:02.917000,BEA,87,96.543,43.0,2.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.065,-1.091,1.474,1.55,-0.39,-0.402,99.018
+0 days 02:11:39.538000,BEA,87,96.621,44.0,2.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.987,-1.011,1.552,1.632,-0.242,-0.25,99.155
+0 days 02:13:16.264000,BEA,87,96.726,45.0,2.0,,,False,MEDIUM,19.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.882,-0.904,1.657,1.743,-0.155,-0.16,99.319
+0 days 02:14:52.817000,BEA,87,96.553,46.0,2.0,,,False,MEDIUM,20.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.055,-1.081,1.484,1.561,-0.131,-0.135,99.205
+0 days 02:16:29.459000,BEA,87,96.642,47.0,2.0,,,False,MEDIUM,21.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.966,-0.99,1.573,1.655,0.0,0.0,99.353
+0 days 02:18:06.295000,BEA,87,96.836,48.0,2.0,,,False,MEDIUM,22.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.772,-0.791,1.767,1.859,0.335,0.347,99.606
+0 days 02:19:43.108000,BEA,87,96.813,49.0,2.0,,,False,MEDIUM,23.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.795,-0.814,1.744,1.834,0.332,0.344,99.642
+0 days 02:21:19.847000,BEA,87,96.739,50.0,2.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.869,-0.89,1.67,1.757,0.422,0.438,99.626
+0 days 02:22:56.351000,BEA,87,96.504,51.0,2.0,,,False,MEDIUM,25.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.104,-1.131,1.435,1.509,0.001,0.001,99.45
+0 days 02:24:32.714000,BEA,87,96.363,52.0,2.0,,,True,MEDIUM,26.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.245,-1.276,1.294,1.361,-0.061,-0.063,99.368
+0 days 02:26:09.573000,BEA,87,96.859,53.0,2.0,,,False,MEDIUM,27.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.749,-0.767,1.79,1.883,0.13,0.134,99.923
+0 days 02:27:46.007000,BEA,87,96.434,54.0,2.0,,,False,MEDIUM,28.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.174,-1.203,1.365,1.436,-0.55,-0.567,99.557
+0 days 02:29:22.583000,BEA,87,96.576,55.0,2.0,,,False,MEDIUM,29.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-1.032,-1.057,1.507,1.585,-0.052,-0.054,99.758
+0 days 02:30:59.431000,BEA,87,96.848,56.0,2.0,,,False,MEDIUM,30.0,True,Haas F1 Team,1,10.0,True,2,Chinese Grand Prix,True,C3,True,-0.76,-0.779,1.779,1.871,-0.008,-0.008,100.089
+0 days 01:00:51.006000,DOO,7,,1.0,1.0,,,False,MEDIUM,1.0,False,Alpine,12,17.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:02:31.085000,DOO,7,100.079,2.0,1.0,,,True,MEDIUM,2.0,False,Alpine,12,17.0,True,2,Chinese Grand Prix,True,C3,False,2.471,2.532,5.01,5.27,0.818,0.824,100.13799999999999
+0 days 01:04:10.568000,DOO,7,99.483,3.0,1.0,,,True,MEDIUM,3.0,False,Alpine,21,17.0,True,2,Chinese Grand Prix,True,C3,False,1.875,1.921,4.414,4.643,0.434,0.438,99.601
+0 days 01:05:50.090000,DOO,7,99.522,4.0,1.0,,,False,MEDIUM,4.0,False,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C3,True,1.914,1.961,4.453,4.684,0.76,0.77,99.69900000000001
+0 days 01:07:29.269000,DOO,7,99.179,5.0,1.0,,,True,MEDIUM,5.0,False,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C3,True,1.571,1.609,4.11,4.323,0.382,0.387,99.415
+0 days 01:09:08.802000,DOO,7,99.533,6.0,1.0,,,False,MEDIUM,6.0,False,Alpine,12,16.0,True,2,Chinese Grand Prix,True,C3,False,1.925,1.972,4.464,4.696,0.478,0.483,99.828
+0 days 01:10:48.198000,DOO,7,99.396,7.0,1.0,,,False,MEDIUM,7.0,False,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C3,True,1.788,1.832,4.327,4.551,0.321,0.324,99.75
+0 days 01:12:27.520000,DOO,7,99.322,8.0,1.0,,,False,MEDIUM,8.0,False,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C3,True,1.714,1.756,4.253,4.474,0.0,0.0,99.73400000000001
+0 days 01:14:07.051000,DOO,7,99.531,9.0,1.0,,,False,MEDIUM,9.0,False,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C3,True,1.923,1.97,4.462,4.693,0.282,0.284,100.00200000000001
+0 days 01:15:46.435000,DOO,7,99.384,10.0,1.0,,,False,MEDIUM,10.0,False,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C3,True,1.776,1.82,4.315,4.539,0.276,0.278,99.914
+0 days 01:17:30.085000,DOO,7,103.65,11.0,1.0,,0 days 01:17:28.472000,False,MEDIUM,11.0,False,Alpine,1,16.0,False,2,Chinese Grand Prix,True,C3,False,6.042,6.19,8.581,9.026,4.593,4.637,104.239
+0 days 01:19:25.704000,DOO,7,115.619,12.0,2.0,0 days 01:17:51.221000,,False,HARD,1.0,True,Alpine,1,18.0,False,2,Chinese Grand Prix,True,C2,False,18.011,18.452,20.55,21.616,16.819,17.023,116.267
+0 days 01:21:03.466000,DOO,7,97.762,13.0,2.0,,,True,HARD,2.0,True,Alpine,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.154,0.158,2.693,2.833,-0.587,-0.597,98.469
+0 days 01:22:41.781000,DOO,7,98.315,14.0,2.0,,,False,HARD,3.0,True,Alpine,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.707,0.724,3.246,3.414,-0.486,-0.492,99.081
+0 days 01:24:19.988000,DOO,7,98.207,15.0,2.0,,,False,HARD,4.0,True,Alpine,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.599,0.614,3.138,3.301,-0.763,-0.771,99.032
+0 days 01:25:58.349000,DOO,7,98.361,16.0,2.0,,,False,HARD,5.0,True,Alpine,1,18.0,True,2,Chinese Grand Prix,True,C2,True,0.753,0.771,3.292,3.463,-0.733,-0.74,99.245
+0 days 01:27:36.977000,DOO,7,98.628,17.0,2.0,,,False,HARD,6.0,True,Alpine,1,18.0,True,2,Chinese Grand Prix,True,C2,True,1.02,1.045,3.559,3.744,-0.4,-0.404,99.571
+0 days 01:29:16.841000,DOO,7,99.864,18.0,2.0,,,False,HARD,7.0,True,Alpine,1,17.0,True,2,Chinese Grand Prix,True,C2,True,2.256,2.311,4.795,5.044,0.923,0.933,100.866
+0 days 01:30:56.413000,DOO,7,99.572,19.0,2.0,,,False,HARD,8.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.964,2.012,4.503,4.737,1.536,1.567,100.63300000000001
+0 days 01:32:34.737000,DOO,7,98.324,20.0,2.0,,,False,HARD,9.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.716,0.734,3.255,3.424,0.202,0.206,99.444
+0 days 01:34:13.406000,DOO,7,98.669,21.0,2.0,,,False,HARD,10.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.061,1.087,3.6,3.787,0.69,0.704,99.848
+0 days 01:35:51.931000,DOO,7,98.525,22.0,2.0,,,False,HARD,11.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.917,0.939,3.456,3.635,0.643,0.657,99.763
+0 days 01:37:30.287000,DOO,7,98.356,23.0,2.0,,,False,HARD,12.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.748,0.766,3.287,3.457,0.626,0.641,99.652
+0 days 01:39:09.710000,DOO,7,99.423,24.0,2.0,,,False,HARD,13.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,1.815,1.859,4.354,4.58,1.39,1.418,100.778
+0 days 01:40:48.117000,DOO,7,98.407,25.0,2.0,,,False,HARD,14.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.799,0.819,3.338,3.511,0.244,0.249,99.821
+0 days 01:42:26.261000,DOO,7,98.144,26.0,2.0,,,False,HARD,15.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.536,0.549,3.075,3.234,0.15,0.153,99.617
+0 days 01:44:04.285000,DOO,7,98.024,27.0,2.0,,,False,HARD,16.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.416,0.426,2.955,3.108,0.06,0.061,99.556
+0 days 01:45:42.616000,DOO,7,98.331,28.0,2.0,,,False,HARD,17.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.723,0.741,3.262,3.431,0.656,0.672,99.922
+0 days 01:47:21.170000,DOO,7,98.554,29.0,2.0,,,False,HARD,18.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.946,0.969,3.485,3.666,0.856,0.876,100.20400000000001
+0 days 01:48:59.261000,DOO,7,98.091,30.0,2.0,,,False,HARD,19.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.483,0.495,3.022,3.179,0.33,0.338,99.8
+0 days 01:50:37.683000,DOO,7,98.422,31.0,2.0,,,False,HARD,20.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.814,0.834,3.353,3.527,0.6,0.613,100.19
+0 days 01:52:16.138000,DOO,7,98.455,32.0,2.0,,,False,HARD,21.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.847,0.868,3.386,3.562,0.836,0.856,100.282
+0 days 01:53:54.589000,DOO,7,98.451,33.0,2.0,,,False,HARD,22.0,True,Alpine,1,16.0,True,2,Chinese Grand Prix,True,C2,True,0.843,0.864,3.382,3.557,0.87,0.892,100.33699999999999
+0 days 01:55:32.716000,DOO,7,98.127,34.0,2.0,,,False,HARD,23.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.519,0.532,3.058,3.217,0.746,0.766,100.07199999999999
+0 days 01:57:11.343000,DOO,7,98.627,35.0,2.0,,,False,HARD,24.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.019,1.044,3.558,3.743,1.405,1.445,100.631
+0 days 01:58:49.180000,DOO,7,97.837,36.0,2.0,,,False,HARD,25.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.229,0.235,2.768,2.912,0.67,0.69,99.899
+0 days 02:00:27.076000,DOO,7,97.896,37.0,2.0,,,False,HARD,26.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.288,0.295,2.827,2.974,0.788,0.811,100.017
+0 days 02:02:04.578000,DOO,7,97.502,38.0,2.0,,,True,HARD,27.0,True,Alpine,1,13.0,True,2,Chinese Grand Prix,True,C2,True,-0.106,-0.109,2.433,2.559,0.648,0.669,99.682
+0 days 02:03:42.439000,DOO,7,97.861,39.0,2.0,,,False,HARD,28.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.253,0.259,2.792,2.937,1.008,1.041,100.10000000000001
+0 days 02:05:20.329000,DOO,7,97.89,40.0,2.0,,,False,HARD,29.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.282,0.289,2.821,2.967,1.16,1.199,100.188
+0 days 02:06:57.694000,DOO,7,97.365,41.0,2.0,,,True,HARD,30.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.243,-0.249,2.296,2.415,0.668,0.691,99.722
+0 days 02:08:34.857000,DOO,7,97.163,42.0,2.0,,,True,HARD,31.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.445,-0.456,2.094,2.203,0.295,0.305,99.579
+0 days 02:10:13.145000,DOO,7,98.288,43.0,2.0,,,False,HARD,32.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.68,0.697,3.219,3.386,1.355,1.398,100.76299999999999
+0 days 02:11:51,DOO,7,97.855,44.0,2.0,,,False,HARD,33.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.247,0.253,2.786,2.931,0.992,1.024,100.38900000000001
+0 days 02:13:29.345000,DOO,7,98.345,45.0,2.0,,,False,HARD,34.0,True,Alpine,1,15.0,True,2,Chinese Grand Prix,True,C2,True,0.737,0.755,3.276,3.446,1.464,1.511,100.938
+0 days 02:15:06.633000,DOO,7,97.288,46.0,2.0,,,False,HARD,35.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.32,-0.328,2.219,2.334,0.604,0.625,99.94
+0 days 02:16:43.275000,DOO,7,96.642,47.0,2.0,,,True,HARD,36.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.966,-0.99,1.573,1.655,0.0,0.0,99.353
+0 days 02:18:20.592000,DOO,7,97.317,48.0,2.0,,,False,HARD,37.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.291,-0.298,2.248,2.365,0.816,0.846,100.08699999999999
+0 days 02:19:58.340000,DOO,7,97.748,49.0,2.0,,,False,HARD,38.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,0.14,0.143,2.679,2.818,1.267,1.313,100.577
+0 days 02:21:35.330000,DOO,7,96.99,50.0,2.0,,,False,HARD,39.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.618,-0.633,1.921,2.021,0.673,0.699,99.877
+0 days 02:23:12.034000,DOO,7,96.704,51.0,2.0,,,False,HARD,40.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.904,-0.926,1.635,1.72,0.201,0.208,99.64999999999999
+0 days 02:24:48.458000,DOO,7,96.424,52.0,2.0,,,True,HARD,41.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-1.184,-1.213,1.355,1.425,0.0,0.0,99.429
+0 days 02:26:25.187000,DOO,7,96.729,53.0,2.0,,,False,HARD,42.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.879,-0.901,1.66,1.746,0.0,0.0,99.793
+0 days 02:28:02.379000,DOO,7,97.192,54.0,2.0,,,False,HARD,43.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.416,-0.426,2.123,2.233,0.208,0.214,100.315
+0 days 02:29:39.007000,DOO,7,96.628,55.0,2.0,,,False,HARD,44.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.98,-1.004,1.559,1.64,0.0,0.0,99.81
+0 days 02:31:16.529000,DOO,7,97.522,56.0,2.0,,,False,HARD,45.0,True,Alpine,1,14.0,True,2,Chinese Grand Prix,True,C2,True,-0.086,-0.088,2.453,2.58,0.666,0.688,100.763
+0 days 01:01:06.759000,BOR,5,,1.0,1.0,,0 days 01:01:05.064000,False,MEDIUM,1.0,True,Kick Sauber,12,20.0,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
+0 days 01:03:03.874000,BOR,5,117.115,2.0,2.0,0 days 01:01:28.427000,,False,HARD,1.0,True,Kick Sauber,12,20.0,False,2,Chinese Grand Prix,True,C2,False,19.507,19.985,22.046,23.189,17.854,17.987,117.17399999999999
+0 days 01:04:41.839000,BOR,5,97.965,3.0,2.0,,,True,HARD,2.0,True,Kick Sauber,1,20.0,True,2,Chinese Grand Prix,True,C2,True,0.357,0.366,2.896,3.046,-1.084,-1.094,98.083
+0 days 01:06:20.264000,BOR,5,98.425,4.0,2.0,,,False,HARD,3.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.817,0.837,3.356,3.53,-0.337,-0.341,98.602
+0 days 01:07:59.156000,BOR,5,98.892,5.0,2.0,,,False,HARD,4.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.284,1.315,3.823,4.021,0.095,0.096,99.128
+0 days 01:09:38.292000,BOR,5,99.136,6.0,2.0,,,False,HARD,5.0,True,Kick Sauber,12,19.0,True,2,Chinese Grand Prix,True,C2,False,1.528,1.565,4.067,4.278,0.081,0.082,99.431
+0 days 01:11:17.392000,BOR,5,99.1,7.0,2.0,,,False,HARD,6.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.492,1.529,4.031,4.24,0.025,0.025,99.454
+0 days 01:12:56.444000,BOR,5,99.052,8.0,2.0,,,False,HARD,7.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.444,1.479,3.983,4.19,-0.27,-0.272,99.46400000000001
+0 days 01:14:35.341000,BOR,5,98.897,9.0,2.0,,,False,HARD,8.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.289,1.321,3.828,4.027,-0.352,-0.355,99.36800000000001
+0 days 01:16:14.439000,BOR,5,99.098,10.0,2.0,,,False,HARD,9.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.49,1.527,4.029,4.238,-0.01,-0.01,99.628
+0 days 01:17:53.046000,BOR,5,98.607,11.0,2.0,,,False,HARD,10.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.999,1.023,3.538,3.722,-0.45,-0.454,99.196
+0 days 01:19:31.916000,BOR,5,98.87,12.0,2.0,,,False,HARD,11.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.262,1.293,3.801,3.998,0.07,0.071,99.518
+0 days 01:21:10.622000,BOR,5,98.706,13.0,2.0,,,False,HARD,12.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.098,1.125,3.637,3.826,0.357,0.363,99.413
+0 days 01:22:49.766000,BOR,5,99.144,14.0,2.0,,,False,HARD,13.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.536,1.574,4.075,4.286,0.343,0.347,99.91000000000001
+0 days 01:24:28.831000,BOR,5,99.065,15.0,2.0,,,False,HARD,14.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.457,1.493,3.996,4.203,0.095,0.096,99.89
+0 days 01:26:08.014000,BOR,5,99.183,16.0,2.0,,,False,HARD,15.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.575,1.614,4.114,4.327,0.089,0.09,100.06700000000001
+0 days 01:27:47.155000,BOR,5,99.141,17.0,2.0,,,False,HARD,16.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.533,1.571,4.072,4.283,0.113,0.114,100.084
+0 days 01:29:26.570000,BOR,5,99.415,18.0,2.0,,,False,HARD,17.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,1.807,1.851,4.346,4.571,0.474,0.479,100.417
+0 days 01:31:06.838000,BOR,5,100.268,19.0,2.0,,,False,HARD,18.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,2.66,2.725,5.199,5.469,2.232,2.277,101.32900000000001
+0 days 01:32:46.513000,BOR,5,99.675,20.0,2.0,,,False,HARD,19.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,2.067,2.118,4.606,4.845,1.553,1.583,100.795
+0 days 01:34:26.251000,BOR,5,99.738,21.0,2.0,,,False,HARD,20.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.13,2.182,4.669,4.911,1.759,1.795,100.917
+0 days 01:36:05.905000,BOR,5,99.654,22.0,2.0,,,False,HARD,21.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.046,2.096,4.585,4.823,1.772,1.81,100.892
+0 days 01:37:45.693000,BOR,5,99.788,23.0,2.0,,,False,HARD,22.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.18,2.233,4.719,4.964,2.058,2.106,101.084
+0 days 01:39:25.583000,BOR,5,99.89,24.0,2.0,,,False,HARD,23.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.282,2.338,4.821,5.071,1.857,1.894,101.245
+0 days 01:41:05.398000,BOR,5,99.815,25.0,2.0,,,False,HARD,24.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,2.207,2.261,4.746,4.992,1.652,1.683,101.229
+0 days 01:42:49.372000,BOR,5,103.974,26.0,2.0,,0 days 01:42:47.676000,False,HARD,25.0,True,Kick Sauber,1,18.0,False,2,Chinese Grand Prix,True,C2,False,6.366,6.522,8.905,9.367,5.98,6.102,105.447
+0 days 01:44:45.613000,BOR,5,116.241,27.0,3.0,0 days 01:43:10.530000,,False,HARD,1.0,True,Kick Sauber,1,19.0,False,2,Chinese Grand Prix,True,C2,False,18.633,19.09,21.172,22.27,18.277,18.657,117.773
+0 days 01:46:21.487000,BOR,5,95.874,28.0,3.0,,,True,HARD,2.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-1.734,-1.776,0.805,0.847,-1.801,-1.844,97.46499999999999
+0 days 01:47:58.436000,BOR,5,96.949,29.0,3.0,,,False,HARD,3.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.659,-0.675,1.88,1.978,-0.749,-0.767,98.599
+0 days 01:49:35.714000,BOR,5,97.278,30.0,3.0,,,False,HARD,4.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.33,-0.338,2.209,2.324,-0.483,-0.494,98.98700000000001
+0 days 01:51:12.920000,BOR,5,97.206,31.0,3.0,,,False,HARD,5.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.402,-0.412,2.137,2.248,-0.616,-0.63,98.974
+0 days 01:52:49.770000,BOR,5,96.85,32.0,3.0,,,False,HARD,6.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.758,-0.777,1.781,1.873,-0.769,-0.788,98.67699999999999
+0 days 01:54:26.876000,BOR,5,97.106,33.0,3.0,,,False,HARD,7.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.502,-0.514,2.037,2.143,-0.475,-0.487,98.99199999999999
+0 days 01:56:03.842000,BOR,5,96.966,34.0,3.0,,,False,HARD,8.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.642,-0.658,1.897,1.995,-0.415,-0.426,98.91099999999999
+0 days 01:57:40.710000,BOR,5,96.868,35.0,3.0,,,False,HARD,9.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.74,-0.758,1.799,1.892,-0.354,-0.364,98.872
+0 days 01:59:17.420000,BOR,5,96.71,36.0,3.0,,,False,HARD,10.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.898,-0.92,1.641,1.726,-0.457,-0.47,98.77199999999999
+0 days 02:00:53.876000,BOR,5,96.456,37.0,3.0,,,False,HARD,11.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-1.152,-1.18,1.387,1.459,-0.652,-0.671,98.577
+0 days 02:02:30.315000,BOR,5,96.439,38.0,3.0,,,False,HARD,12.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-1.169,-1.198,1.37,1.441,-0.415,-0.428,98.619
+0 days 02:04:07.168000,BOR,5,96.853,39.0,3.0,,,False,HARD,13.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.755,-0.774,1.784,1.877,0.0,0.0,99.092
+0 days 02:05:43.797000,BOR,5,96.629,40.0,3.0,,,False,HARD,14.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.979,-1.003,1.56,1.641,-0.101,-0.104,98.927
+0 days 02:07:20.487000,BOR,5,96.69,41.0,3.0,,,False,HARD,15.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.918,-0.94,1.621,1.705,-0.007,-0.007,99.047
+0 days 02:08:57.547000,BOR,5,97.06,42.0,3.0,,,False,HARD,16.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.548,-0.561,1.991,2.094,0.192,0.198,99.476
+0 days 02:10:35.155000,BOR,5,97.608,43.0,3.0,,,False,HARD,17.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,0.0,0.0,2.539,2.671,0.675,0.696,100.083
+0 days 02:12:12.624000,BOR,5,97.469,44.0,3.0,,,False,HARD,18.0,True,Kick Sauber,1,19.0,True,2,Chinese Grand Prix,True,C2,True,-0.139,-0.142,2.4,2.524,0.606,0.626,100.003
+0 days 02:13:50.204000,BOR,5,97.58,45.0,3.0,,,False,HARD,19.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.028,-0.029,2.511,2.641,0.699,0.722,100.173
+0 days 02:15:27.653000,BOR,5,97.449,46.0,3.0,,,False,HARD,20.0,True,Kick Sauber,1,18.0,True,2,Chinese Grand Prix,True,C2,True,-0.159,-0.163,2.38,2.503,0.765,0.791,100.101
+0 days 02:17:05.193000,BOR,5,97.54,47.0,3.0,,,False,HARD,21.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.068,-0.07,2.471,2.599,0.898,0.929,100.251
+0 days 02:18:42.685000,BOR,5,97.492,48.0,3.0,,,False,HARD,22.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.116,-0.119,2.423,2.549,0.991,1.027,100.262
+0 days 02:20:20.240000,BOR,5,97.555,49.0,3.0,,,False,HARD,23.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.053,-0.054,2.486,2.615,1.074,1.113,100.384
+0 days 02:21:59.227000,BOR,5,98.987,50.0,3.0,,,False,HARD,24.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.379,1.413,3.918,4.121,2.67,2.772,101.874
+0 days 02:23:38.235000,BOR,5,99.008,51.0,3.0,,,False,HARD,25.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.4,1.434,3.939,4.143,2.505,2.596,101.954
+0 days 02:25:15.619000,BOR,5,97.384,52.0,3.0,,,False,HARD,26.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.224,-0.229,2.315,2.435,0.96,0.996,100.389
+0 days 02:26:52.753000,BOR,5,97.134,53.0,3.0,,,False,HARD,27.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.474,-0.486,2.065,2.172,0.405,0.419,100.19800000000001
+0 days 02:28:30.294000,BOR,5,97.541,54.0,3.0,,,False,HARD,28.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.067,-0.069,2.472,2.6,0.557,0.574,100.664
+0 days 02:30:08.884000,BOR,5,98.59,55.0,3.0,,,False,HARD,29.0,True,Kick Sauber,1,17.0,True,2,Chinese Grand Prix,True,C2,True,0.982,1.006,3.521,3.704,1.962,2.03,101.772
+0 days 01:00:52.030000,LAW,30,,1.0,1.0,0 days 00:59:12.755000,,False,HARD,1.0,True,Red Bull Racing,12,18.0,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
+0 days 01:02:31.670000,LAW,30,99.64,2.0,1.0,,,True,HARD,2.0,True,Red Bull Racing,12,18.0,True,2,Chinese Grand Prix,True,C2,False,2.032,2.082,4.571,4.808,0.379,0.382,99.699
+0 days 01:04:11.408000,LAW,30,99.738,3.0,1.0,,,False,HARD,3.0,True,Red Bull Racing,21,18.0,True,2,Chinese Grand Prix,True,C2,False,2.13,2.182,4.669,4.911,0.689,0.696,99.856
+0 days 01:05:51.022000,LAW,30,99.614,4.0,1.0,,,True,HARD,4.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,2.006,2.055,4.545,4.781,0.852,0.863,99.79100000000001
+0 days 01:07:30.250000,LAW,30,99.228,5.0,1.0,,,True,HARD,5.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.62,1.66,4.159,4.375,0.431,0.436,99.464
+0 days 01:09:09.592000,LAW,30,99.342,6.0,1.0,,,False,HARD,6.0,True,Red Bull Racing,12,17.0,True,2,Chinese Grand Prix,True,C2,False,1.734,1.776,4.273,4.495,0.287,0.29,99.637
+0 days 01:10:49.117000,LAW,30,99.525,7.0,1.0,,,False,HARD,7.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.917,1.964,4.456,4.687,0.45,0.454,99.879
+0 days 01:12:28.294000,LAW,30,99.177,8.0,1.0,,,True,HARD,8.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.569,1.607,4.108,4.321,-0.145,-0.146,99.58900000000001
+0 days 01:14:08.037000,LAW,30,99.743,9.0,1.0,,,False,HARD,9.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,2.135,2.187,4.674,4.916,0.494,0.498,100.214
+0 days 01:15:47.624000,LAW,30,99.587,10.0,1.0,,,False,HARD,10.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,1.979,2.027,4.518,4.752,0.479,0.483,100.117
+0 days 01:17:26.776000,LAW,30,99.152,11.0,1.0,,,True,HARD,11.0,True,Red Bull Racing,1,15.0,True,2,Chinese Grand Prix,True,C2,True,1.544,1.582,4.083,4.295,0.095,0.096,99.741
+0 days 01:19:05.703000,LAW,30,98.927,12.0,1.0,,,True,HARD,12.0,True,Red Bull Racing,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.319,1.351,3.858,4.058,0.127,0.129,99.575
+0 days 01:20:44.838000,LAW,30,99.135,13.0,1.0,,,False,HARD,13.0,True,Red Bull Racing,1,11.0,True,2,Chinese Grand Prix,True,C2,True,1.527,1.564,4.066,4.277,0.786,0.799,99.842
+0 days 01:22:23.639000,LAW,30,98.801,14.0,1.0,,,True,HARD,14.0,True,Red Bull Racing,1,9.0,True,2,Chinese Grand Prix,True,C2,True,1.193,1.222,3.732,3.926,0.0,0.0,99.56700000000001
+0 days 01:24:03.344000,LAW,30,99.705,15.0,1.0,,,False,HARD,15.0,True,Red Bull Racing,1,10.0,True,2,Chinese Grand Prix,True,C2,True,2.097,2.148,4.636,4.876,0.735,0.743,100.53
+0 days 01:25:43.563000,LAW,30,100.219,16.0,1.0,,,False,HARD,16.0,True,Red Bull Racing,1,10.0,True,2,Chinese Grand Prix,True,C2,True,2.611,2.675,5.15,5.417,1.125,1.135,101.103
+0 days 01:27:23.968000,LAW,30,100.405,17.0,1.0,,,False,HARD,17.0,True,Red Bull Racing,1,11.0,True,2,Chinese Grand Prix,True,C2,True,2.797,2.866,5.336,5.613,1.377,1.391,101.348
+0 days 01:29:07.738000,LAW,30,103.77,18.0,1.0,,0 days 01:29:06.016000,False,HARD,18.0,True,Red Bull Racing,1,10.0,False,2,Chinese Grand Prix,True,C2,False,6.162,6.313,8.701,9.152,4.829,4.881,104.77199999999999
+0 days 01:31:03.906000,LAW,30,116.168,19.0,2.0,0 days 01:29:28.538000,,False,MEDIUM,1.0,True,Red Bull Racing,1,18.0,False,2,Chinese Grand Prix,True,C3,False,18.56,19.015,21.099,22.193,18.132,18.495,117.22900000000001
+0 days 01:32:41.605000,LAW,30,97.699,20.0,2.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.091,0.093,2.63,2.766,-0.423,-0.431,98.819
+0 days 01:34:19.430000,LAW,30,97.825,21.0,2.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.217,0.222,2.756,2.899,-0.154,-0.157,99.004
+0 days 01:35:57.312000,LAW,30,97.882,22.0,2.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.274,0.281,2.813,2.959,0.0,0.0,99.12
+0 days 01:37:34.954000,LAW,30,97.642,23.0,2.0,,,True,MEDIUM,5.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.034,0.035,2.573,2.706,-0.088,-0.09,98.938
+0 days 01:39:12.987000,LAW,30,98.033,24.0,2.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.425,0.435,2.964,3.118,0.0,0.0,99.388
+0 days 01:40:51.324000,LAW,30,98.337,25.0,2.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.729,0.747,3.268,3.438,0.174,0.177,99.751
+0 days 01:42:29.318000,LAW,30,97.994,26.0,2.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C3,True,0.386,0.395,2.925,3.077,0.0,0.0,99.467
+0 days 01:44:07.435000,LAW,30,98.117,27.0,2.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C3,True,0.509,0.521,3.048,3.206,0.153,0.156,99.649
+0 days 01:45:45.061000,LAW,30,97.626,28.0,2.0,,,True,MEDIUM,10.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C3,True,0.018,0.018,2.557,2.69,-0.049,-0.05,99.217
+0 days 01:47:22.848000,LAW,30,97.787,29.0,2.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C3,True,0.179,0.183,2.718,2.859,0.089,0.091,99.43700000000001
+0 days 01:49:05.810000,LAW,30,102.962,30.0,2.0,,0 days 01:49:04.139000,False,MEDIUM,12.0,True,Red Bull Racing,1,17.0,False,2,Chinese Grand Prix,True,C3,False,5.354,5.485,7.893,8.302,5.201,5.32,104.671
+0 days 01:51:01.148000,LAW,30,115.338,31.0,3.0,0 days 01:49:26.455000,,False,HARD,1.0,True,Red Bull Racing,1,18.0,False,2,Chinese Grand Prix,True,C2,False,17.73,18.164,20.269,21.32,17.516,17.906,117.106
+0 days 01:52:37.133000,LAW,30,95.985,32.0,3.0,,,True,HARD,2.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.623,-1.663,0.916,0.964,-1.634,-1.674,97.812
+0 days 01:54:13.441000,LAW,30,96.308,33.0,3.0,,,False,HARD,3.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.3,-1.332,1.239,1.303,-1.273,-1.305,98.194
+0 days 01:55:50.068000,LAW,30,96.627,34.0,3.0,,,False,HARD,4.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.981,-1.005,1.558,1.639,-0.754,-0.774,98.57199999999999
+0 days 01:57:26.335000,LAW,30,96.267,35.0,3.0,,,False,HARD,5.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.341,-1.374,1.198,1.26,-0.955,-0.982,98.271
+0 days 01:59:02.809000,LAW,30,96.474,36.0,3.0,,,False,HARD,6.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.134,-1.162,1.405,1.478,-0.693,-0.713,98.536
+0 days 02:00:39.305000,LAW,30,96.496,37.0,3.0,,,False,HARD,7.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.112,-1.139,1.427,1.501,-0.612,-0.63,98.61699999999999
+0 days 02:02:15.961000,LAW,30,96.656,38.0,3.0,,,False,HARD,8.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.952,-0.975,1.587,1.669,-0.198,-0.204,98.83600000000001
+0 days 02:03:52.513000,LAW,30,96.552,39.0,3.0,,,False,HARD,9.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-1.056,-1.082,1.483,1.56,-0.301,-0.311,98.79100000000001
+0 days 02:05:29.167000,LAW,30,96.654,40.0,3.0,,,False,HARD,10.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.954,-0.977,1.585,1.667,-0.076,-0.079,98.952
+0 days 02:07:05.864000,LAW,30,96.697,41.0,3.0,,,False,HARD,11.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.911,-0.933,1.628,1.712,0.0,0.0,99.054
+0 days 02:08:42.491000,LAW,30,96.627,42.0,3.0,,,False,HARD,12.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.981,-1.005,1.558,1.639,-0.241,-0.249,99.04299999999999
+0 days 02:10:19.144000,LAW,30,96.653,43.0,3.0,,,False,HARD,13.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.955,-0.978,1.584,1.666,-0.28,-0.289,99.128
+0 days 02:11:55.799000,LAW,30,96.655,44.0,3.0,,,False,HARD,14.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.953,-0.976,1.586,1.668,-0.208,-0.215,99.18900000000001
+0 days 02:13:32.731000,LAW,30,96.932,45.0,3.0,,,False,HARD,15.0,True,Red Bull Racing,1,17.0,True,2,Chinese Grand Prix,True,C2,True,-0.676,-0.693,1.863,1.96,0.051,0.053,99.525
+0 days 02:15:10.091000,LAW,30,97.36,46.0,3.0,,,False,HARD,16.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.248,-0.254,2.291,2.41,0.676,0.699,100.012
+0 days 02:16:46.895000,LAW,30,96.804,47.0,3.0,,,False,HARD,17.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.804,-0.824,1.735,1.825,0.162,0.168,99.515
+0 days 02:18:23.396000,LAW,30,96.501,48.0,3.0,,,False,HARD,18.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-1.107,-1.134,1.432,1.506,0.0,0.0,99.271
+0 days 02:20:00.280000,LAW,30,96.884,49.0,3.0,,,False,HARD,19.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.724,-0.742,1.815,1.909,0.403,0.418,99.713
+0 days 02:21:37.721000,LAW,30,97.441,50.0,3.0,,,False,HARD,20.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.167,-0.171,2.372,2.495,1.124,1.167,100.328
+0 days 02:23:14.468000,LAW,30,96.747,51.0,3.0,,,False,HARD,21.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.861,-0.882,1.678,1.765,0.244,0.253,99.693
+0 days 02:24:50.905000,LAW,30,96.437,52.0,3.0,,,False,HARD,22.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-1.171,-1.2,1.368,1.439,0.013,0.013,99.442
+0 days 02:26:28.045000,LAW,30,97.14,53.0,3.0,,,False,HARD,23.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.468,-0.479,2.071,2.178,0.411,0.425,100.20400000000001
+0 days 02:28:05.291000,LAW,30,97.246,54.0,3.0,,,False,HARD,24.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.362,-0.371,2.177,2.29,0.262,0.27,100.369
+0 days 02:29:42.079000,LAW,30,96.788,55.0,3.0,,,False,HARD,25.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.82,-0.84,1.719,1.808,0.16,0.166,99.97
+0 days 02:31:19.275000,LAW,30,97.196,56.0,3.0,,,False,HARD,26.0,True,Red Bull Racing,1,16.0,True,2,Chinese Grand Prix,True,C2,True,-0.412,-0.422,2.127,2.237,0.34,0.351,100.437
