@@ -36,10 +36,7 @@ def main():
     images = [
         {
             "image_path": VISUALS_PATH / "strategy.png",
-            "caption": (
-                "Tyre strategy recap. Stripped bar sections represent used tyre stints. "
-                f"{dashboard_link}"
-            ),
+            "caption": f"Tyre strategy recap. {dashboard_link}",
         },
         {
             "image_path": VISUALS_PATH / "podium_gap.png",

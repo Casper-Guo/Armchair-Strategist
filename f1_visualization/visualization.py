@@ -501,14 +501,11 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     plot_periods(vsc_laps, "VSC", "-")
 
 
-def _deduplicate_sc_legend(ax: Axes, **kwargs):
+def _deduplicate_legend_labels(ax: Axes, **kwargs):
     """
-    Deduplicate SC legend labels and add legend to the current plot.
+    Add legend to the current plot after deduplicating labels.
 
-    Since the SC and VSC intervals are added to the plots one-by-one, if we call
-    plt.legend() directly there will be duplicate labels in the legend.
-
-    Additional keyword arguments are passed to plt.legend.
+    Useful when labelled elements are added one-by-one, such as when showing SC periods.
     """
     handles, labels = ax.get_legend_handles_labels()
     if labels:
@@ -888,7 +885,7 @@ def driver_stats_lineplot(
 
     # shade SC periods
     _shade_sc_periods(sc_laps, vsc_laps)
-    _deduplicate_sc_legend(ax, loc="lower right", fontsize=10)
+    _deduplicate_legend_labels(ax, loc="lower right", fontsize=10)
 
     if grid in {"both", "x", "y"}:
         plt.grid(which="major", axis=grid)
@@ -1086,17 +1083,17 @@ def strategy_barplot(
                 edgecolor="black",
                 fill=True,
                 hatch=VISUAL_CONFIG["fresh"]["hatch"][stint["FreshTyre"]],
+                label="Fresh" if stint["FreshTyre"] == "True" else "Used",
             )
 
             previous_stint_end += stint["StintLength"]
 
     _shade_sc_periods(*find_sc_laps(included_laps))
+    _deduplicate_legend_labels(ax, loc="lower right", fontsize=10)
 
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
     plt.grid(False)
-
-    _deduplicate_sc_legend(ax, loc="lower right", fontsize=10)
 
     # Invert y-axis
     ax.invert_yaxis()
