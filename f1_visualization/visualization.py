@@ -310,14 +310,14 @@ def add_gap(
     Returns:
         Modified dataframe with the gap column under the name GapTo{driver}
     """
-    assert not (
-        not modify_global and df_laps is None
-    ), "df_laps must be provided if not editing in-place."
+    assert not (not modify_global and df_laps is None), (
+        "df_laps must be provided if not editing in-place."  # noqa: ISC001
+    )
 
     if modify_global:
-        assert (
-            "season" in kwargs and "session_type" in kwargs
-        ), "Setting modify_global=True requires specifying season and session_type."
+        assert "season" in kwargs and "session_type" in kwargs, (
+            "Setting modify_global=True requires specifying season and session_type."  # noqa: ISC001
+        )
         season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
 
@@ -605,9 +605,9 @@ def _process_input(
     if isinstance(session_types, str):
         session_types = [session_types]
 
-    assert (
-        len(seasons) == len(events) == len(session_types)
-    ), f"Arguments {seasons}, {events}, {session_types} have different lengths."
+    assert len(seasons) == len(events) == len(session_types), (
+        f"Arguments {seasons}, {events}, {session_types} have different lengths."  # noqa: ISC001
+    )
 
     # Combine seasons and events and get FastF1 event objects
     event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
