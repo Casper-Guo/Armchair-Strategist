@@ -837,11 +837,6 @@ def driver_stats_lineplot(
     if y == "Position" or y.startswith("GapTo"):
         ax.invert_yaxis()
 
-    if len(drivers) > 10:
-        ax.grid(which="major", axis="x")
-    else:
-        ax.grid(which="major", axis="both")
-
     for driver in drivers:
         driver_laps = included_laps[included_laps["Driver"] == driver]
 
@@ -863,8 +858,9 @@ def driver_stats_lineplot(
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
+        annotation_x_margin = driver_laps.shape[0] / 100
         ax.annotate(
-            xy=(last_lap + 1, last_pos + 0.25),
+            xy=(last_lap + annotation_x_margin, last_pos + 0.25),
             text=driver,
             color=p.get_driver_color(driver, session),
             fontsize=12,
@@ -875,14 +871,13 @@ def driver_stats_lineplot(
     _shade_sc_periods(sc_laps, vsc_laps)
 
     if grid in {"both", "x", "y"}:
-        plt.grid(axis=grid)
+        plt.grid(which="major", axis=grid)
     else:
         plt.grid(visible=False)
 
     plt.legend(loc="lower right", fontsize=10)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
-
     return fig
 
 
