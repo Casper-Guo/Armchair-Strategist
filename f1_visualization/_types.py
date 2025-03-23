@@ -1,7 +1,8 @@
 from typing import TypeAlias
 
 import fastf1
-from matplotlib.figure import Figure
+import matplotlib as mpl
 
 Session: TypeAlias = fastf1.core.Session
-Figure: TypeAlias = Figure
+Figure: TypeAlias = mpl.figure.Figure
+Axes: TypeAlias = mpl.axes.Axes
