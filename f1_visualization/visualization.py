@@ -689,7 +689,7 @@ def driver_stats_scatterplot(
     max_width = 4 if teammate_comp else 5
     num_row = ceil(len(drivers) / max_width)
     num_col = len(drivers) if len(drivers) < max_width else max_width
-    fig, axes = plt.subplots(
+    fig, axs = plt.subplots(
         nrows=num_row,
         ncols=num_col,
         sharey=True,
@@ -701,7 +701,7 @@ def driver_stats_scatterplot(
 
     # Prevent TypeError when only one driver is plotted
     if len(drivers) == 1:
-        axes = np.array([axes])
+        axs = np.array([axs])
 
     # LapRep columns have outliers that can skew the graph y-axis
     # The high outlier values are filtered by upper_bound
@@ -712,7 +712,7 @@ def driver_stats_scatterplot(
     for index, driver in enumerate(drivers):
         row, col = divmod(index, max_width)
 
-        ax = axes[row][col] if num_row > 1 else axes[col]
+        ax = axs[row][col] if num_row > 1 else axs[col]
 
         driver_laps = included_laps[included_laps["Driver"] == driver]
         pit_in_laps = driver_laps[driver_laps["PitInTime"].notna()]["LapNumber"].to_numpy()
@@ -753,7 +753,7 @@ def driver_stats_scatterplot(
         sns.despine(left=True, bottom=True)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
-    axes.flatten()[num_col - 1].legend(loc="best", fontsize=8, framealpha=0.5)
+    axs.flatten()[num_col - 1].legend(loc="best", fontsize=8, framealpha=0.5)
 
     return fig
 
@@ -1147,7 +1147,7 @@ def compounds_lineplot(
         seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
     )
 
-    fig, axes = plt.subplots(
+    fig, axs = plt.subplots(
         nrows=len(event_objects),
         sharex=True,
         ncols=1,
@@ -1156,14 +1156,14 @@ def compounds_lineplot(
 
     # Prevent TypeError when only one event is plotted
     if len(event_objects) == 1:
-        axes = [axes]
+        axs = [axs]
 
     # Copy compounds values
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
     for idx, event in enumerate(event_objects):
-        ax = axes[idx]
+        ax = axs[idx]
         args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
         medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
@@ -1274,7 +1274,7 @@ def compounds_distplot(
 
     # adjust plot size based on the chosen x-axis
     x_ticks = max(laps[x].nunique() for laps in included_laps_list)
-    fig, axes = plt.subplots(
+    fig, axs = plt.subplots(
         nrows=len(event_objects),
         sharex=True,
         ncols=1,
@@ -1283,14 +1283,14 @@ def compounds_distplot(
 
     # Prevent TypeError when only one event is plotted
     if len(event_objects) == 1:
-        axes = [axes]
+        axs = [axs]
 
     # Copy compounds values
     # May need to convert from relative to absolute names when plotting
     compounds_copy = compounds.copy()
 
     for idx, event in enumerate(event_objects):
-        ax = axes[idx]
+        ax = axs[idx]
         args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
 
