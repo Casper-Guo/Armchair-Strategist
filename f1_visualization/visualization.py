@@ -893,8 +893,8 @@ def driver_stats_lineplot(
     _shade_sc_periods(sc_laps, vsc_laps)
     _deduplicate_legend_labels(ax, loc="lower right", fontsize=10)
 
-    if grid in {"both", "x", "y"}:
-        plt.grid(which="major", axis=grid)
+    if grid in ("both", "x", "y"):
+        plt.grid(visible=True, which="major", axis=grid)
     else:
         plt.grid(visible=False)
 
