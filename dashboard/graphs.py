@@ -253,6 +253,9 @@ def stats_lineplot(
         height=max(50 * len(drivers), 500),
         legend_traceorder="reversed",
     )
+
+    if y == "Position":
+        fig.update_yaxes(tickmode="array", tickvals=[1] + list(range(5, 21, 5)))
     return fig
 
 
