@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 
 VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
+COMMENTS_PATH = ROOT_PATH / "Comments"
 
 
 def main():
@@ -78,12 +79,9 @@ def main():
         images=images,
         flair_id=formula1_flair_id,
     )
-    formula1_post.reply(
-        (
-            "What other graphics do you want to see and "
-            "how can these existing graphics be improved, question."
-        )
-    )
+    with open(COMMENTS_PATH / "formula1_comment.md", "r") as fin:
+        formula1_post.reply(fin.read())
+
     logger.info("Finished posting to r/formula1")
 
     time.sleep(5)
@@ -93,15 +91,8 @@ def main():
         images=images,
         flair_id=f1technical_flair_id,
     )
-    f1technical_post.reply(
-        (
-            "Check out the interactive version of these graphics and more "
-            "at my [strategy dashboard](https://armchair-strategist.dev/)"
-            "\n\n"
-            "Please let me know if you have suggestions for improving these graphics "
-            "or ideas for other graphics!"
-        )
-    )
+    with open(COMMENTS_PATH / "f1technical_comment.md", "r") as fin:
+        f1technical_post.reply(fin.read())
     logger.info("Finished posting to r/f1technical")
 
     # clean up temp directory
