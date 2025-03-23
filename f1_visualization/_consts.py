@@ -24,7 +24,9 @@ SPRINT_ROUNDS = {
 SESSION_IDS = {"R": "grand_prix", "S": "sprint"}
 SESSION_NAMES = {name: session_id for session_id, name in SESSION_IDS.items()}
 SPRINT_FORMATS = {"sprint", "sprint_shootout", "sprint_qualifying"}
+SPRINT_QUALI_ORDINAL = 2
 SPRINT_RACE_ORDINAL = 3
+RACE_QUALI_ORDINAL = 4
 GRAND_PRIX_ORDINAL = 5
 
 with open(DATA_PATH / "compound_selection.toml", "rb") as toml:

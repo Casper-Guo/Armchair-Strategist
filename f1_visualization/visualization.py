@@ -222,14 +222,34 @@ def get_drivers(
     return ret
 
 
+def infer_ergast_data(session: Session) -> Session:
+    """When Ergast API is not updated yet, some session results data need to be inferred."""
+    session.load(laps=True, telemetry=False, weather=False, messages=False)
+
+    # The laps dataframe is returned in ascending LapNumber order per driver
+    # This keeps the final lap of each driver
+    final_laps = session.laps.drop_duplicates(subset="DriverNumber", keep="last")
+
+    # Drivers who have completed more laps always finishes higher
+    # For drivers who finished the same number of laps, the tie is broken by who finished
+    # the lap earlier
+    # The ignore_index=True option has the same effect as calling reset_index
+    final_order = final_laps.sort_values(
+        by=["LapNumber", "Time"], ascending=[False, True], ignore_index=True
+    )
+    session.results["Position"] = [
+        # switch from Pandas series 0-index to finishing position 1-index
+        final_order[final_order["DriverNumber"] == driver].index[0] + 1
+        for driver in session.results.index
+    ]
+
+    # TODO: find a way to infer GridPosition as well
+    return session
+
+
 # From 2018 to the end of 2025, there will be roughly 256 total race-like sessions.
 # This is equivalent to the number of possible combinations of (season, event, session_type)
 # inputs as the dashboard sanitizes and blocks requests for non-existent sessions.
-
-
-# The function returns one small integer, one string of about 20 characters, and 20 strings
-# of 3 characters each for a total of around 168 bytes. The size of the input is roughly
-# equivalent. So the total size of the cache is well less than 1 MB.
 @lru_cache(maxsize=256)
 def get_session_info(
     season: int,
@@ -261,24 +281,10 @@ def get_session_info(
     session.load(laps=False, telemetry=False, weather=False, messages=False)
 
     if session.results["Position"].isna().all():
-        logger.warning("Session results not available. The finishing positions are inferred.")
-        session.load(laps=True, telemetry=False, weather=False, messages=False)
-
-        # The laps dataframe is returned in ascending LapNumber order per driver
-        # This keeps the final lap of each driver
-        final_laps = session.laps.drop_duplicates(subset="DriverNumber", keep="last")
-
-        # Drivers who have completed more laps always finishes higher
-        # For drivers who finished the same number of laps, the tie is broken by who finished
-        # the lap earlier
-        # The ignore_index=True option has the same effect as calling reset_index
-        final_order = final_laps.sort_values(
-            by=["LapNumber", "Time"], ascending=[False, True], ignore_index=True
+        logger.warning(
+            "Session results not available. Starting and finishing positions are inferred."
         )
-        session.results["Position"] = [
-            final_order[final_order["DriverNumber"] == driver].index[0]
-            for driver in session.results.index
-        ]
+        session = infer_ergast_data(season, session)
 
     round_number = session.event["RoundNumber"]
     event_name = f"{session.event['EventName']} - {session.name}"
