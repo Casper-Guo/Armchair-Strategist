@@ -19,7 +19,7 @@ from f1_visualization._consts import (
     SESSION_NAMES,
     VISUAL_CONFIG,
 )
-from f1_visualization._types import Figure, Session
+from f1_visualization._types import Axes, Figure, Session
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -501,6 +501,25 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     plot_periods(vsc_laps, "VSC", "-")
 
 
+def _deduplicate_sc_legend(ax: Axes, **kwargs):
+    """
+    Deduplicate SC legend labels and add legend to the current plot.
+
+    Since the SC and VSC intervals are added to the plots one-by-one, if we call
+    plt.legend() directly there will be duplicate labels in the legend.
+
+    Additional keyword arguments are passed to plt.legend.
+    """
+    handles, labels = ax.get_legend_handles_labels()
+    if labels:
+        deduplicate_labels_handles = dict(zip(labels, handles, strict=True))
+        plt.legend(
+            handles=deduplicate_labels_handles.values(),
+            labels=deduplicate_labels_handles.keys(),
+            **kwargs,
+        )
+
+
 def _convert_compound_name(
     season: int, round_number: int, compounds: Iterable[str]
 ) -> tuple[str]:
@@ -869,13 +888,12 @@ def driver_stats_lineplot(
 
     # shade SC periods
     _shade_sc_periods(sc_laps, vsc_laps)
+    _deduplicate_sc_legend(ax, loc="lower right", fontsize=10)
 
     if grid in {"both", "x", "y"}:
         plt.grid(which="major", axis=grid)
     else:
         plt.grid(visible=False)
-
-    plt.legend(loc="lower right", fontsize=10)
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     return fig
@@ -1078,15 +1096,7 @@ def strategy_barplot(
     plt.xlabel("Lap Number")
     plt.grid(False)
 
-    handles, labels = ax.get_legend_handles_labels()
-    if labels:
-        deduplicate_labels_handles = dict(zip(labels, handles, strict=True))
-        plt.legend(
-            handles=deduplicate_labels_handles.values(),
-            labels=deduplicate_labels_handles.keys(),
-            loc="lower right",
-            fontsize=10,
-        )
+    _deduplicate_sc_legend(ax, loc="lower right", fontsize=10)
 
     # Invert y-axis
     ax.invert_yaxis()
