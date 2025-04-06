@@ -40,19 +40,20 @@ def main():
             "caption": f"Tyre strategy recap. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "podium_gap.png",
-            "caption": f"Podium finishers' gaps to winners. {dashboard_link}",
-        },
-        {
             "image_path": VISUALS_PATH / "position.png",
             "caption": f"Race position history. {dashboard_link}",
         },
         {
             "image_path": VISUALS_PATH / "laptime.png",
-            "caption": (
-                "Point finishers' lap times. White vertical bars represent pitstops. "
-                f"{dashboard_link}"
-            ),
+            "caption": f"Point finishers' lap times. {dashboard_link}",
+        },
+        {
+            "image_path": VISUALS_PATH / "fuel_adjusted.png",
+            "caption": f"Point finishers' fuel-adjusted lap times. {dashboard_link}",
+        },
+        {
+            "image_path": VISUALS_PATH / "podium_gap.png",
+            "caption": f"Podium finishers' gaps to winners. {dashboard_link}",
         },
         {
             "image_path": VISUALS_PATH / "team_pace.png",
