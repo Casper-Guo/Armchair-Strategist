@@ -158,6 +158,17 @@ def main(
     plt.tight_layout()
     plt.savefig(dest / "laptime.png")
 
+    logger.info("Making fuel-adjusted lap time graph...")
+    viz.driver_stats_scatterplot(
+        season=season,
+        event=round_number,
+        session_type=session_type,
+        drivers=10,
+        y="FuelAdjLapTime",
+    )
+    plt.tight_layout()
+    plt.savefig(dest / "fuel_adjusted.png")
+
     logger.info("Making strategy graph...")
     viz.strategy_barplot(
         season=season,
@@ -199,7 +210,7 @@ def main(
     plt.tight_layout()
     plt.savefig(dest / "teammate_violin.png")
 
-    logger.info("Making driver pace plot...")
+    logger.info("Making driver pace graph...")
     viz.driver_stats_distplot(
         season=season,
         event=round_number,
@@ -209,7 +220,7 @@ def main(
     plt.tight_layout()
     plt.savefig(dest / "driver_pace.png")
 
-    # use basic fastf1 to make team pace comparison plot
+    # use basic fastf1 to make team pace comparison graph
     logger.info("Making team pace comparison graph...")
     p.setup_mpl()
 
