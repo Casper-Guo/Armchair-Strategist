@@ -17,7 +17,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>strategy_barplot(season, event)</code>
+        <code>strategy_barplot(season, event, session_type)</code>
     </details>
 </details>
 
@@ -30,7 +30,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_scatterplot(season, event, drivers=10)</code>
+        <code>driver_stats_scatterplot(season, event, session_type)</code>
     </details>
 </details>
 
@@ -43,7 +43,20 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>strategy_barplot(season, event)</code>
+        <code>strategy_barplot(season, event, session_type, drivers=10)</code>
+    </details>
+</details>
+
+<details>
+    <summary>
+        <b>Fuel-adjusted lap times</b>
+    </summary>
+    <img src="Docs/visuals/fuel_adjusted.png" alt="fuel_adjusted">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>driver_stats_scatterplot(season, event, session_type, drivers=10, y="FuelAdjLapTime")</code>
     </details>
 </details>
 
@@ -56,7 +69,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_lineplot(season, event, drivers=3)</code>
+        <code>driver_stats_lineplot(season, event, session_type, drivers=3, y="GapTo{winner}")</code>
     </details>
 </details>
 
@@ -70,7 +83,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event, violin=False, swarm=False, teammate_comp=True)</code>
+        <code>driver_stats_distplot(season, event, session_type, violin=False, swarm=False, teammate_comp=True)</code>
     </details>
     Violinplot with all laptimes:
     <img src="Docs/visuals/teammate_violin.png" alt="teammate pace violinplot">
@@ -78,7 +91,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event, teammate_comp=True)</code>
+        <code>driver_stats_distplot(season, event, session_type, teammate_comp=True)</code>
     </details>
 </details>
 
@@ -91,7 +104,7 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_distplot(season, event)</code>
+        <code>driver_stats_distplot(season, event, session_type)</code>
     </details>
 </details>
 
