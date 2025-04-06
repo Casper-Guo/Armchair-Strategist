@@ -109,7 +109,10 @@ def strategy_barplot(
                     marker_pattern_shape=DASH_VISUAL_CONFIG["fresh"]["hatch"][
                         stint["FreshTyre"]
                     ],
-                    name=f"{driver} stint {stint_num}",
+                    name=(
+                        f"Stint {stint_num}, "
+                        f"{'Fresh' if stint['FreshTyre'] == 'True' else 'Used'}"
+                    ),
                 )
             )
             stint_num += 1
