@@ -284,7 +284,7 @@ def get_session_info(
         logger.warning(
             "Session results not available. Starting and finishing positions are inferred."
         )
-        session = infer_ergast_data(season, session)
+        session = infer_ergast_data(session)
 
     round_number = session.event["RoundNumber"]
     event_name = f"{session.event['EventName']} - {session.name}"
