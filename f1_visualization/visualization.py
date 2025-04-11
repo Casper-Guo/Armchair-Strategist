@@ -237,11 +237,11 @@ def infer_ergast_data(session: Session) -> Session:
     final_order = final_laps.sort_values(
         by=["LapNumber", "Time"], ascending=[False, True], ignore_index=True
     )
-    session.results["Position"] = [
-        # switch from Pandas series 0-index to finishing position 1-index
-        final_order[final_order["DriverNumber"] == driver].index[0] + 1
-        for driver in session.results.index
-    ]
+
+    # Convert from Pandas index 0-index to finishing order 1-index
+    final_order["Position"] = final_order.index + 1
+    final_order = final_order.set_index("DriverNumber")
+    session.results.loc[:, ["Position"]] = final_order["Position"]
 
     # TODO: find a way to infer GridPosition as well
     return session
