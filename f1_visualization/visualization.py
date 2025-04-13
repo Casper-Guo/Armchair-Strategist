@@ -224,7 +224,7 @@ def get_drivers(
 
 def infer_ergast_data(session: Session) -> Session:
     """When Ergast API is not updated yet, some session results data need to be inferred."""
-    session.load(laps=True, telemetry=False, weather=False, messages=False)
+    session.load(laps=True, telemetry=False, weather=False)
 
     # The laps dataframe is returned in ascending LapNumber order per driver
     # This keeps the final lap of each driver
@@ -278,7 +278,7 @@ def get_session_info(
         A tuple containing the round number, event name, and the drivers in the specified order.
     """
     session = f.get_session(season, event, session_type)
-    session.load(laps=False, telemetry=False, weather=False, messages=False)
+    session.load(laps=False, telemetry=False, weather=False)
 
     if session.results["Position"].isna().all():
         logger.warning(

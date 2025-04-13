@@ -110,7 +110,8 @@ def main(
     round_number = process_round_number(season, round_number, grand_prix)
     session_type = "R" if grand_prix else "S"
     session = f.get_session(season, round_number, session_type)
-    session.load(telemetry=False, weather=False, messages=False)
+    session.load(telemetry=False, weather=False)
+    session = viz.infer_ergast_data(session)
     event_name = f"{session.event['EventName']} - {session.name}"
 
     dest = ROOT_PATH / "Visualizations" / f"{season}" / f"{event_name}"
