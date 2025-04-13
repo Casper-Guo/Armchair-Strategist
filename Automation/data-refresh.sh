@@ -56,7 +56,7 @@ python3 f1_visualization/preprocess.py
 
 # update README and commit if there are unstaged changes
 if [[ -n "$(git status -s)" ]]; then
-  python3 readme_machine.py --update-readme --reddit-machine "$flag" >/dev/null
+  python3 readme_machine.py --update-readme --reddit-machine '$flag' >/dev/null
   git add .
   git commit -m "Automatic data refresh"
 
