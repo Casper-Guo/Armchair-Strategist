@@ -3050,3 +3050,1131 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:15:22.621000,STR,18,92.217,50.0,3.0,,,True,MEDIUM,21.0,False,Aston Martin,1,20.0,True,3,Japanese Grand Prix,True,C2,True,-0.979,-1.05,1.252,1.376,0.312,0.339,95.268
 0 days 02:16:54.767000,STR,18,92.146,51.0,3.0,,,True,MEDIUM,22.0,False,Aston Martin,1,20.0,True,3,Japanese Grand Prix,True,C2,True,-1.05,-1.127,1.181,1.298,0.326,0.355,95.259
 0 days 02:18:26.819000,STR,18,92.052,52.0,3.0,,,True,MEDIUM,23.0,False,Aston Martin,1,20.0,True,3,Japanese Grand Prix,True,C2,True,-1.144,-1.228,1.087,1.195,0.221,0.241,95.227
+0 days 00:57:13.827000,PIA,81,,1.0,1.0,,,False,SOFT,4.0,False,McLaren,1,1.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:51.319000,PIA,81,97.492,2.0,1.0,,,True,SOFT,5.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,-0.962,-0.977,2.352,2.472,-1.429,-1.445,97.55000000000001
+0 days 01:00:29.402000,PIA,81,98.083,3.0,1.0,,,False,SOFT,6.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,-0.371,-0.377,2.943,3.093,-0.549,-0.557,98.199
+0 days 01:02:07.535000,PIA,81,98.133,4.0,1.0,,,False,SOFT,7.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,-0.321,-0.326,2.993,3.146,-0.555,-0.562,98.307
+0 days 01:03:45.578000,PIA,81,98.043,5.0,1.0,,,False,SOFT,8.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,-0.411,-0.417,2.903,3.051,-1.214,-1.223,98.275
+0 days 01:05:23.941000,PIA,81,98.363,6.0,1.0,,,False,SOFT,9.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,-0.091,-0.092,3.223,3.388,-0.811,-0.818,98.652
+0 days 01:07:02.439000,PIA,81,98.498,7.0,1.0,,,False,SOFT,10.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.044,0.045,3.358,3.53,-0.832,-0.838,98.845
+0 days 01:08:41.006000,PIA,81,98.567,8.0,1.0,,,False,SOFT,11.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.113,0.115,3.427,3.602,-1.119,-1.123,98.972
+0 days 01:10:19.806000,PIA,81,98.8,9.0,1.0,,,False,SOFT,12.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.346,0.351,3.66,3.847,-1.102,-1.103,99.26299999999999
+0 days 01:11:58.355000,PIA,81,98.549,10.0,1.0,,,False,SOFT,13.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.095,0.096,3.409,3.583,-1.028,-1.032,99.07000000000001
+0 days 01:13:37.036000,PIA,81,98.681,11.0,1.0,,,False,SOFT,14.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.227,0.231,3.541,3.722,-0.781,-0.785,99.25999999999999
+0 days 01:15:16.064000,PIA,81,99.028,12.0,1.0,,,False,SOFT,15.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.574,0.583,3.888,4.087,0.0,0.0,99.665
+0 days 01:16:54.827000,PIA,81,98.763,13.0,1.0,,,False,SOFT,16.0,False,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C3,True,0.309,0.314,3.623,3.808,-0.043,-0.044,99.458
+0 days 01:18:36.124000,PIA,81,101.297,14.0,1.0,,0 days 01:18:34.427000,False,SOFT,17.0,False,McLaren,1,1.0,False,4,Bahrain Grand Prix,True,C3,False,2.843,2.888,6.157,6.472,2.35,2.375,102.05
+0 days 01:20:34.980000,PIA,81,118.856,15.0,2.0,0 days 01:18:58.980000,,False,MEDIUM,1.0,True,McLaren,1,3.0,False,4,Bahrain Grand Prix,True,C2,False,20.402,20.722,23.716,24.927,20.23,20.512,119.667
+0 days 01:22:13.043000,PIA,81,98.063,16.0,2.0,,,False,MEDIUM,2.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.391,-0.397,2.923,3.072,-0.533,-0.541,98.931
+0 days 01:23:50.776000,PIA,81,97.733,17.0,2.0,,,False,MEDIUM,3.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.721,-0.732,2.593,2.725,-0.609,-0.619,98.659
+0 days 01:25:28.464000,PIA,81,97.688,18.0,2.0,,,False,MEDIUM,4.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.766,-0.778,2.548,2.678,-0.812,-0.824,98.672
+0 days 01:27:06.355000,PIA,81,97.891,19.0,2.0,,,False,MEDIUM,5.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.563,-0.572,2.751,2.892,-0.424,-0.431,98.933
+0 days 01:28:43.859000,PIA,81,97.504,20.0,2.0,,,False,MEDIUM,6.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.95,-0.965,2.364,2.485,-1.043,-1.058,98.604
+0 days 01:30:21.571000,PIA,81,97.712,21.0,2.0,,,False,MEDIUM,7.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.742,-0.754,2.572,2.703,-0.987,-1.0,98.87
+0 days 01:31:58.713000,PIA,81,97.142,22.0,2.0,,,True,MEDIUM,8.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-1.312,-1.333,2.002,2.104,-1.457,-1.478,98.35799999999999
+0 days 01:33:36.646000,PIA,81,97.933,23.0,2.0,,,False,MEDIUM,9.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.521,-0.529,2.793,2.936,-0.691,-0.701,99.20700000000001
+0 days 01:35:14.280000,PIA,81,97.634,24.0,2.0,,,False,MEDIUM,10.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.82,-0.833,2.494,2.621,-1.136,-1.15,98.966
+0 days 01:36:52.091000,PIA,81,97.811,25.0,2.0,,,False,MEDIUM,11.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.643,-0.653,2.671,2.807,-1.361,-1.372,99.2
+0 days 01:38:29.481000,PIA,81,97.39,26.0,2.0,,,False,MEDIUM,12.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-1.064,-1.081,2.25,2.365,-1.803,-1.818,98.837
+0 days 01:40:07.060000,PIA,81,97.579,27.0,2.0,,,False,MEDIUM,13.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.875,-0.889,2.439,2.564,-1.376,-1.391,99.08399999999999
+0 days 01:41:44.753000,PIA,81,97.693,28.0,2.0,,,False,MEDIUM,14.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.761,-0.773,2.553,2.683,-1.171,-1.184,99.256
+0 days 01:43:22.430000,PIA,81,97.677,29.0,2.0,,,False,MEDIUM,15.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.777,-0.789,2.537,2.667,-0.453,-0.462,99.298
+0 days 01:45:00.241000,PIA,81,97.811,30.0,2.0,,,False,MEDIUM,16.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.643,-0.653,2.671,2.807,0.117,0.12,99.49000000000001
+0 days 01:46:37.797000,PIA,81,97.556,31.0,2.0,,,False,MEDIUM,17.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-0.898,-0.912,2.416,2.539,-0.488,-0.498,99.29299999999999
+0 days 01:48:26.499000,PIA,81,108.702,32.0,2.0,,0 days 01:48:24.783000,False,MEDIUM,18.0,True,McLaren,14,1.0,False,4,Bahrain Grand Prix,True,C2,False,10.248,10.409,13.562,14.255,-16.706,-13.321,110.497
+0 days 01:51:12.577000,PIA,81,,33.0,3.0,0 days 01:48:49.751000,,False,MEDIUM,1.0,True,McLaren,4,1.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 01:53:33.140000,PIA,81,140.563,34.0,3.0,,,False,MEDIUM,2.0,True,McLaren,4,1.0,False,4,Bahrain Grand Prix,True,C2,False,42.109,42.77,45.423,47.743,25.161,21.803,142.474
+0 days 01:55:59.373000,PIA,81,146.233,35.0,3.0,,,False,MEDIUM,3.0,True,McLaren,41,1.0,False,4,Bahrain Grand Prix,True,C2,False,47.779,48.529,51.093,53.703,10.247,7.535,148.201
+0 days 01:57:34.513000,PIA,81,95.14,36.0,3.0,,,True,MEDIUM,4.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-3.314,-3.366,0.0,0.0,-3.42,-3.47,97.166
+0 days 01:59:09.888000,PIA,81,95.375,37.0,3.0,,,False,MEDIUM,5.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-3.079,-3.127,0.235,0.247,-2.342,-2.397,97.459
+0 days 02:00:45.885000,PIA,81,95.997,38.0,3.0,,,False,MEDIUM,6.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.457,-2.496,0.857,0.901,-1.854,-1.895,98.139
+0 days 02:02:22.059000,PIA,81,96.174,39.0,3.0,,,False,MEDIUM,7.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.28,-2.316,1.034,1.087,-1.522,-1.558,98.37400000000001
+0 days 02:03:58.419000,PIA,81,96.36,40.0,3.0,,,False,MEDIUM,8.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.094,-2.127,1.22,1.282,-1.032,-1.06,98.618
+0 days 02:05:34.745000,PIA,81,96.326,41.0,3.0,,,False,MEDIUM,9.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.128,-2.161,1.186,1.247,-1.194,-1.224,98.642
+0 days 02:07:10.994000,PIA,81,96.249,42.0,3.0,,,False,MEDIUM,10.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.205,-2.24,1.109,1.166,-1.339,-1.372,98.62299999999999
+0 days 02:08:47.112000,PIA,81,96.118,43.0,3.0,,,False,MEDIUM,11.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.336,-2.373,0.978,1.028,-1.524,-1.561,98.55
+0 days 02:10:23.401000,PIA,81,96.289,44.0,3.0,,,False,MEDIUM,12.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.165,-2.199,1.149,1.208,-1.435,-1.468,98.778
+0 days 02:11:59.436000,PIA,81,96.035,45.0,3.0,,,False,MEDIUM,13.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.419,-2.457,0.895,0.941,-1.604,-1.643,98.582
+0 days 02:13:35.334000,PIA,81,95.898,46.0,3.0,,,False,MEDIUM,14.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.556,-2.596,0.758,0.797,-1.762,-1.804,98.503
+0 days 02:15:11.424000,PIA,81,96.09,47.0,3.0,,,False,MEDIUM,15.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.364,-2.401,0.95,0.999,-1.556,-1.594,98.753
+0 days 02:16:47.781000,PIA,81,96.357,48.0,3.0,,,False,MEDIUM,16.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.097,-2.13,1.217,1.279,-1.31,-1.341,99.078
+0 days 02:18:24.596000,PIA,81,96.815,49.0,3.0,,,False,MEDIUM,17.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-1.639,-1.665,1.675,1.761,-0.982,-1.004,99.594
+0 days 02:20:00.859000,PIA,81,96.263,50.0,3.0,,,False,MEDIUM,18.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.191,-2.225,1.123,1.18,-1.571,-1.606,99.10000000000001
+0 days 02:21:36.964000,PIA,81,96.105,51.0,3.0,,,False,MEDIUM,19.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.349,-2.386,0.965,1.014,-1.97,-2.009,99.0
+0 days 02:23:12.925000,PIA,81,95.961,52.0,3.0,,,False,MEDIUM,20.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.493,-2.532,0.821,0.863,-2.434,-2.474,98.914
+0 days 02:24:49.258000,PIA,81,96.333,53.0,3.0,,,False,MEDIUM,21.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.121,-2.154,1.193,1.254,-2.083,-2.117,99.344
+0 days 02:26:25.487000,PIA,81,96.229,54.0,3.0,,,False,MEDIUM,22.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.225,-2.26,1.089,1.145,-2.267,-2.302,99.297
+0 days 02:28:01.746000,PIA,81,96.259,55.0,3.0,,,False,MEDIUM,23.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.195,-2.229,1.119,1.176,-2.298,-2.332,99.385
+0 days 02:29:37.989000,PIA,81,96.243,56.0,3.0,,,False,MEDIUM,24.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-2.211,-2.246,1.103,1.159,-2.346,-2.38,99.42699999999999
+0 days 02:31:14.577000,PIA,81,96.588,57.0,3.0,,,False,MEDIUM,25.0,True,McLaren,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,-1.866,-1.895,1.448,1.522,-2.273,-2.299,99.83
+0 days 00:57:16.466000,LEC,16,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,4.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 00:58:54.514000,LEC,16,98.048,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.406,-0.412,2.908,3.057,-0.873,-0.883,98.10600000000001
+0 days 01:00:32.977000,LEC,16,98.463,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.009,0.009,3.323,3.493,-0.169,-0.171,98.579
+0 days 01:02:11.250000,LEC,16,98.273,4.0,1.0,,,False,MEDIUM,4.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.181,-0.184,3.133,3.293,-0.415,-0.421,98.447
+0 days 01:03:49.677000,LEC,16,98.427,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.027,-0.027,3.287,3.455,-0.83,-0.836,98.659
+0 days 01:05:28.461000,LEC,16,98.784,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.33,0.335,3.644,3.83,-0.39,-0.393,99.07300000000001
+0 days 01:07:07.141000,LEC,16,98.68,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.226,0.23,3.54,3.721,-0.65,-0.654,99.027
+0 days 01:08:46.274000,LEC,16,99.133,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.679,0.69,3.993,4.197,-0.553,-0.555,99.538
+0 days 01:10:25.438000,LEC,16,99.164,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.71,0.721,4.024,4.23,-0.738,-0.739,99.627
+0 days 01:12:04.319000,LEC,16,98.881,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,0.427,0.434,3.741,3.932,-0.696,-0.699,99.402
+0 days 01:13:43.504000,LEC,16,99.185,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,0.731,0.742,4.045,4.252,-0.277,-0.278,99.764
+0 days 01:15:22.477000,LEC,16,98.973,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,0.519,0.527,3.833,4.029,-0.055,-0.056,99.61
+0 days 01:17:01.198000,LEC,16,98.721,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,0.267,0.271,3.581,3.764,-0.085,-0.086,99.416
+0 days 01:18:40.068000,LEC,16,98.87,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,0.416,0.423,3.73,3.921,-0.077,-0.078,99.623
+0 days 01:20:18.924000,LEC,16,98.856,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,0.402,0.408,3.716,3.906,0.23,0.233,99.667
+0 days 01:21:57.985000,LEC,16,99.061,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,1.0,True,4,Bahrain Grand Prix,True,C2,True,0.607,0.617,3.921,4.121,0.465,0.472,99.929
+0 days 01:23:39.545000,LEC,16,101.56,17.0,1.0,,0 days 01:23:38.022000,False,MEDIUM,17.0,True,Ferrari,1,1.0,False,4,Bahrain Grand Prix,True,C2,False,3.106,3.155,6.42,6.748,3.218,3.272,102.486
+0 days 01:25:37.362000,LEC,16,117.817,18.0,2.0,0 days 01:24:02.723000,,False,MEDIUM,1.0,True,Ferrari,1,4.0,False,4,Bahrain Grand Prix,True,C2,False,19.363,19.667,22.677,23.835,19.317,19.611,118.80099999999999
+0 days 01:27:14.238000,LEC,16,96.876,19.0,2.0,,,True,MEDIUM,2.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.578,-1.603,1.736,1.825,-1.439,-1.464,97.918
+0 days 01:28:51.444000,LEC,16,97.206,20.0,2.0,,,False,MEDIUM,3.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.248,-1.268,2.066,2.172,-1.341,-1.361,98.306
+0 days 01:30:28.837000,LEC,16,97.393,21.0,2.0,,,False,MEDIUM,4.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.061,-1.078,2.253,2.368,-1.306,-1.323,98.551
+0 days 01:32:06.200000,LEC,16,97.363,22.0,2.0,,,False,MEDIUM,5.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.091,-1.108,2.223,2.337,-1.236,-1.254,98.579
+0 days 01:33:43.866000,LEC,16,97.666,23.0,2.0,,,False,MEDIUM,6.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.788,-0.8,2.526,2.655,-0.958,-0.971,98.94
+0 days 01:35:21.879000,LEC,16,98.013,24.0,2.0,,,False,MEDIUM,7.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.441,-0.448,2.873,3.02,-0.757,-0.766,99.345
+0 days 01:36:59.331000,LEC,16,97.452,25.0,2.0,,,False,MEDIUM,8.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-1.002,-1.018,2.312,2.43,-1.72,-1.734,98.841
+0 days 01:38:36.807000,LEC,16,97.476,26.0,2.0,,,False,MEDIUM,9.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.978,-0.993,2.336,2.455,-1.717,-1.731,98.923
+0 days 01:40:14.754000,LEC,16,97.947,27.0,2.0,,,False,MEDIUM,10.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.507,-0.515,2.807,2.95,-1.008,-1.019,99.452
+0 days 01:41:52.859000,LEC,16,98.105,28.0,2.0,,,False,MEDIUM,11.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.349,-0.354,2.965,3.116,-0.759,-0.768,99.668
+0 days 01:43:30.640000,LEC,16,97.781,29.0,2.0,,,False,MEDIUM,12.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.673,-0.684,2.641,2.776,-0.349,-0.356,99.402
+0 days 01:45:08.259000,LEC,16,97.619,30.0,2.0,,,False,MEDIUM,13.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.835,-0.848,2.479,2.606,-0.075,-0.077,99.298
+0 days 01:46:46.307000,LEC,16,98.048,31.0,2.0,,,False,MEDIUM,14.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.406,-0.412,2.908,3.057,0.004,0.004,99.785
+0 days 01:48:37.423000,LEC,16,111.116,32.0,2.0,,0 days 01:48:35.804000,False,MEDIUM,15.0,True,Ferrari,14,3.0,False,4,Bahrain Grand Prix,True,C2,False,12.662,12.861,15.976,16.792,-14.292,-11.396,112.911
+0 days 01:51:15.498000,LEC,16,,33.0,3.0,0 days 01:49:00.041000,,False,HARD,1.0,True,Ferrari,4,3.0,False,4,Bahrain Grand Prix,True,C1,False,,,,,,,
+0 days 01:53:35.209000,LEC,16,139.711,34.0,3.0,,,False,HARD,2.0,True,Ferrari,4,3.0,False,4,Bahrain Grand Prix,True,C1,False,41.257,41.905,44.571,46.848,24.309,21.065,141.622
+0 days 01:56:00.787000,LEC,16,145.578,35.0,3.0,,,False,HARD,3.0,True,Ferrari,41,3.0,False,4,Bahrain Grand Prix,True,C1,False,47.124,47.864,50.438,53.015,9.592,7.054,147.546
+0 days 01:57:36.919000,LEC,16,96.132,36.0,3.0,,,True,HARD,4.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.322,-2.358,0.992,1.043,-2.428,-2.463,98.158
+0 days 01:59:13.243000,LEC,16,96.324,37.0,3.0,,,False,HARD,5.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.13,-2.163,1.184,1.244,-1.393,-1.426,98.408
+0 days 02:00:49.385000,LEC,16,96.142,38.0,3.0,,,False,HARD,6.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.312,-2.348,1.002,1.053,-1.709,-1.747,98.28399999999999
+0 days 02:02:25.583000,LEC,16,96.198,39.0,3.0,,,False,HARD,7.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.256,-2.291,1.058,1.112,-1.498,-1.533,98.398
+0 days 02:04:01.863000,LEC,16,96.28,40.0,3.0,,,False,HARD,8.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.174,-2.208,1.14,1.198,-1.112,-1.142,98.538
+0 days 02:05:38.356000,LEC,16,96.493,41.0,3.0,,,False,HARD,9.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.961,-1.992,1.353,1.422,-1.027,-1.053,98.809
+0 days 02:07:14.660000,LEC,16,96.304,42.0,3.0,,,False,HARD,10.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-2.15,-2.184,1.164,1.223,-1.284,-1.316,98.678
+0 days 02:08:51.166000,LEC,16,96.506,43.0,3.0,,,False,HARD,11.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.948,-1.979,1.366,1.436,-1.136,-1.163,98.938
+0 days 02:10:27.713000,LEC,16,96.547,44.0,3.0,,,False,HARD,12.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.907,-1.937,1.407,1.479,-1.177,-1.204,99.036
+0 days 02:12:04.413000,LEC,16,96.7,45.0,3.0,,,False,HARD,13.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.754,-1.782,1.56,1.64,-0.939,-0.962,99.247
+0 days 02:13:41.307000,LEC,16,96.894,46.0,3.0,,,False,HARD,14.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.56,-1.584,1.754,1.844,-0.766,-0.784,99.49900000000001
+0 days 02:15:18.081000,LEC,16,96.774,47.0,3.0,,,False,HARD,15.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.68,-1.706,1.634,1.717,-0.872,-0.893,99.437
+0 days 02:16:55.035000,LEC,16,96.954,48.0,3.0,,,False,HARD,16.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.5,-1.524,1.814,1.907,-0.713,-0.73,99.675
+0 days 02:18:32.693000,LEC,16,97.658,49.0,3.0,,,False,HARD,17.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-0.796,-0.808,2.518,2.647,-0.139,-0.142,100.437
+0 days 02:20:09.649000,LEC,16,96.956,50.0,3.0,,,False,HARD,18.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.498,-1.522,1.816,1.909,-0.878,-0.897,99.793
+0 days 02:21:46.928000,LEC,16,97.279,51.0,3.0,,,False,HARD,19.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C1,True,-1.175,-1.193,2.139,2.248,-0.796,-0.812,100.17399999999999
+0 days 02:23:25.351000,LEC,16,98.423,52.0,3.0,,,False,HARD,20.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.031,-0.031,3.283,3.451,0.028,0.028,101.376
+0 days 02:25:02.934000,LEC,16,97.583,53.0,3.0,,,False,HARD,21.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.871,-0.885,2.443,2.568,-0.833,-0.846,100.594
+0 days 02:26:40.728000,LEC,16,97.794,54.0,3.0,,,False,HARD,22.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.66,-0.67,2.654,2.79,-0.702,-0.713,100.862
+0 days 02:28:18.314000,LEC,16,97.586,55.0,3.0,,,False,HARD,23.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.868,-0.882,2.446,2.571,-0.971,-0.985,100.712
+0 days 02:29:55.980000,LEC,16,97.666,56.0,3.0,,,False,HARD,24.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.788,-0.8,2.526,2.655,-0.923,-0.936,100.85
+0 days 02:31:34.253000,LEC,16,98.273,57.0,3.0,,,False,HARD,25.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-0.181,-0.184,3.133,3.293,-0.588,-0.595,101.515
+0 days 00:57:14.716000,RUS,63,,1.0,1.0,,,False,SOFT,4.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:52.533000,RUS,63,97.817,2.0,1.0,,,True,SOFT,5.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,-0.637,-0.647,2.677,2.814,-1.104,-1.116,97.875
+0 days 01:00:30.819000,RUS,63,98.286,3.0,1.0,,,False,SOFT,6.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,-0.168,-0.171,3.146,3.307,-0.346,-0.351,98.402
+0 days 01:02:09.197000,RUS,63,98.378,4.0,1.0,,,False,SOFT,7.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,-0.076,-0.077,3.238,3.403,-0.31,-0.314,98.552
+0 days 01:03:47.801000,RUS,63,98.604,5.0,1.0,,,False,SOFT,8.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.15,0.152,3.464,3.641,-0.653,-0.658,98.836
+0 days 01:05:26.268000,RUS,63,98.467,6.0,1.0,,,False,SOFT,9.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.013,0.013,3.327,3.497,-0.707,-0.713,98.756
+0 days 01:07:04.954000,RUS,63,98.686,7.0,1.0,,,False,SOFT,10.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.232,0.236,3.546,3.727,-0.644,-0.648,99.033
+0 days 01:08:43.961000,RUS,63,99.007,8.0,1.0,,,False,SOFT,11.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.553,0.562,3.867,4.065,-0.679,-0.681,99.412
+0 days 01:10:22.861000,RUS,63,98.9,9.0,1.0,,,False,SOFT,12.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.446,0.453,3.76,3.952,-1.002,-1.003,99.363
+0 days 01:12:01.750000,RUS,63,98.889,10.0,1.0,,,False,SOFT,13.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.435,0.442,3.749,3.941,-0.688,-0.691,99.41
+0 days 01:13:40.902000,RUS,63,99.152,11.0,1.0,,,False,SOFT,14.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.698,0.709,4.012,4.217,-0.31,-0.312,99.731
+0 days 01:15:20,RUS,63,99.098,12.0,1.0,,,False,SOFT,15.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,0.644,0.654,3.958,4.16,0.07,0.071,99.735
+0 days 01:17:01.867000,RUS,63,101.867,13.0,1.0,,0 days 01:17:00.288000,False,SOFT,16.0,False,Mercedes,1,3.0,False,4,Bahrain Grand Prix,True,C3,False,3.413,3.467,6.727,7.071,3.061,3.098,102.562
+0 days 01:18:59.182000,RUS,63,117.315,14.0,2.0,0 days 01:17:24.227000,,False,MEDIUM,1.0,True,Mercedes,1,6.0,False,4,Bahrain Grand Prix,True,C2,False,18.861,19.157,22.175,23.308,18.368,18.563,118.068
+0 days 01:20:37.010000,RUS,63,97.828,15.0,2.0,,,False,MEDIUM,2.0,True,Mercedes,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.626,-0.636,2.688,2.825,-0.798,-0.809,98.63900000000001
+0 days 01:22:15.077000,RUS,63,98.067,16.0,2.0,,,False,MEDIUM,3.0,True,Mercedes,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.387,-0.393,2.927,3.077,-0.529,-0.537,98.93499999999999
+0 days 01:23:53.270000,RUS,63,98.193,17.0,2.0,,,False,MEDIUM,4.0,True,Mercedes,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.261,-0.265,3.053,3.209,-0.149,-0.152,99.119
+0 days 01:25:31.653000,RUS,63,98.383,18.0,2.0,,,False,MEDIUM,5.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.071,-0.072,3.243,3.409,-0.117,-0.119,99.36699999999999
+0 days 01:27:09.815000,RUS,63,98.162,19.0,2.0,,,False,MEDIUM,6.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.292,-0.297,3.022,3.176,-0.153,-0.156,99.20400000000001
+0 days 01:28:47.963000,RUS,63,98.148,20.0,2.0,,,False,MEDIUM,7.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.306,-0.311,3.008,3.162,-0.399,-0.405,99.24799999999999
+0 days 01:30:25.804000,RUS,63,97.841,21.0,2.0,,,False,MEDIUM,8.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.613,-0.623,2.701,2.839,-0.858,-0.869,98.999
+0 days 01:32:03.610000,RUS,63,97.806,22.0,2.0,,,True,MEDIUM,9.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.648,-0.658,2.666,2.802,-0.793,-0.804,99.02199999999999
+0 days 01:33:41.628000,RUS,63,98.018,23.0,2.0,,,False,MEDIUM,10.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.436,-0.443,2.878,3.025,-0.606,-0.614,99.292
+0 days 01:35:19.412000,RUS,63,97.784,24.0,2.0,,,True,MEDIUM,11.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.67,-0.681,2.644,2.779,-0.986,-0.998,99.116
+0 days 01:36:57.488000,RUS,63,98.076,25.0,2.0,,,False,MEDIUM,12.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.378,-0.384,2.936,3.086,-1.096,-1.105,99.46499999999999
+0 days 01:38:35.533000,RUS,63,98.045,26.0,2.0,,,False,MEDIUM,13.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.409,-0.415,2.905,3.053,-1.148,-1.157,99.492
+0 days 01:40:13.462000,RUS,63,97.929,27.0,2.0,,,False,MEDIUM,14.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.525,-0.533,2.789,2.931,-1.026,-1.037,99.434
+0 days 01:41:51.458000,RUS,63,97.996,28.0,2.0,,,False,MEDIUM,15.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.458,-0.465,2.856,3.002,-0.868,-0.878,99.559
+0 days 01:43:29.235000,RUS,63,97.777,29.0,2.0,,,True,MEDIUM,16.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.677,-0.688,2.637,2.772,-0.353,-0.36,99.398
+0 days 01:45:06.888000,RUS,63,97.653,30.0,2.0,,,True,MEDIUM,17.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.801,-0.814,2.513,2.641,-0.041,-0.042,99.33200000000001
+0 days 01:46:44.972000,RUS,63,98.084,31.0,2.0,,,False,MEDIUM,18.0,True,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.37,-0.376,2.944,3.094,0.04,0.041,99.821
+0 days 01:48:35.988000,RUS,63,111.016,32.0,2.0,,0 days 01:48:34.368000,False,MEDIUM,19.0,True,Mercedes,14,2.0,False,4,Bahrain Grand Prix,True,C2,False,12.562,12.759,15.876,16.687,-14.392,-11.476,112.811
+0 days 01:51:13.839000,RUS,63,,33.0,3.0,0 days 01:48:58.415000,,False,SOFT,4.0,False,Mercedes,4,2.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 01:53:34.359000,RUS,63,140.52,34.0,3.0,,,False,SOFT,5.0,False,Mercedes,4,2.0,False,4,Bahrain Grand Prix,True,C3,False,42.066,42.727,45.38,47.698,25.118,21.766,142.431
+0 days 01:55:59.888000,RUS,63,145.529,35.0,3.0,,,False,SOFT,6.0,False,Mercedes,41,2.0,False,4,Bahrain Grand Prix,True,C3,False,47.075,47.814,50.389,52.963,9.543,7.018,147.49699999999999
+0 days 01:57:35.406000,RUS,63,95.518,36.0,3.0,,,True,SOFT,7.0,False,Mercedes,1,2.0,True,4,Bahrain Grand Prix,True,C3,True,-2.936,-2.982,0.378,0.397,-3.042,-3.086,97.544
+0 days 01:59:11.312000,RUS,63,,37.0,3.0,,,False,SOFT,8.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 02:00:47.874000,RUS,63,96.207,38.0,3.0,,,False,SOFT,9.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-2.247,-2.282,1.067,1.122,-1.644,-1.68,98.34899999999999
+0 days 02:02:24.272000,RUS,63,96.398,39.0,3.0,,,False,SOFT,10.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-2.056,-2.088,1.258,1.322,-1.298,-1.329,98.598
+0 days 02:04:00.743000,RUS,63,96.471,40.0,3.0,,,False,SOFT,11.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.983,-2.014,1.331,1.399,-0.921,-0.946,98.729
+0 days 02:05:37.134000,RUS,63,96.391,41.0,3.0,,,False,SOFT,12.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-2.063,-2.095,1.251,1.315,-1.129,-1.158,98.70700000000001
+0 days 02:07:13.414000,RUS,63,96.28,42.0,3.0,,,False,SOFT,13.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-2.174,-2.208,1.14,1.198,-1.308,-1.34,98.654
+0 days 02:08:50.079000,RUS,63,96.665,43.0,3.0,,,False,SOFT,14.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.789,-1.817,1.525,1.603,-0.977,-1.001,99.09700000000001
+0 days 02:10:26.964000,RUS,63,96.885,44.0,3.0,,,False,SOFT,15.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.569,-1.594,1.745,1.834,-0.839,-0.859,99.37400000000001
+0 days 02:12:03.710000,RUS,63,96.746,45.0,3.0,,,False,SOFT,16.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.708,-1.735,1.606,1.688,-0.893,-0.915,99.29299999999999
+0 days 02:13:40.166000,RUS,63,96.456,46.0,3.0,,,False,SOFT,17.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.998,-2.029,1.316,1.383,-1.204,-1.233,99.061
+0 days 02:15:16.874000,RUS,63,96.708,47.0,3.0,,,False,SOFT,18.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.746,-1.773,1.568,1.648,-0.938,-0.961,99.371
+0 days 02:16:53.620000,RUS,63,96.746,48.0,3.0,,,False,SOFT,19.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.708,-1.735,1.606,1.688,-0.921,-0.943,99.467
+0 days 02:18:30.935000,RUS,63,97.315,49.0,3.0,,,False,SOFT,20.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.139,-1.157,2.175,2.286,-0.482,-0.493,100.094
+0 days 02:20:07.908000,RUS,63,96.973,50.0,3.0,,,False,SOFT,21.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.481,-1.504,1.833,1.927,-0.861,-0.88,99.81
+0 days 02:21:45.285000,RUS,63,97.377,51.0,3.0,,,False,SOFT,22.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.077,-1.094,2.237,2.351,-0.698,-0.712,100.27199999999999
+0 days 02:23:22.626000,RUS,63,97.281,52.0,3.0,,,False,SOFT,23.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.173,-1.191,2.141,2.25,-1.114,-1.132,100.23400000000001
+0 days 02:25:00.038000,RUS,63,97.412,53.0,3.0,,,False,SOFT,24.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.042,-1.058,2.272,2.388,-1.004,-1.02,100.423
+0 days 02:26:37.407000,RUS,63,97.369,54.0,3.0,,,False,SOFT,25.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.085,-1.102,2.229,2.343,-1.127,-1.144,100.437
+0 days 02:28:14.794000,RUS,63,97.387,55.0,3.0,,,False,SOFT,26.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-1.067,-1.084,2.247,2.362,-1.17,-1.187,100.513
+0 days 02:29:52.638000,RUS,63,97.844,56.0,3.0,,,False,SOFT,27.0,False,Mercedes,1,2.0,False,4,Bahrain Grand Prix,True,C3,False,-0.61,-0.62,2.704,2.842,-0.745,-0.756,101.02799999999999
+0 days 02:31:30.842000,RUS,63,97.956,57.0,3.0,,,False,SOFT,28.0,False,Mercedes,1,3.0,False,4,Bahrain Grand Prix,True,C3,False,-0.498,-0.506,2.816,2.96,-0.905,-0.915,101.19800000000001
+0 days 00:57:17.184000,GAS,10,,1.0,1.0,,,False,SOFT,4.0,False,Alpine,1,5.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:55.248000,GAS,10,98.064,2.0,1.0,,,True,SOFT,5.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,-0.39,-0.396,2.924,3.073,-0.857,-0.866,98.122
+0 days 01:00:33.666000,GAS,10,98.418,3.0,1.0,,,False,SOFT,6.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,-0.036,-0.037,3.278,3.445,-0.214,-0.217,98.534
+0 days 01:02:11.978000,GAS,10,98.312,4.0,1.0,,,False,SOFT,7.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,-0.142,-0.144,3.172,3.334,-0.376,-0.381,98.486
+0 days 01:03:50.594000,GAS,10,98.616,5.0,1.0,,,False,SOFT,8.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,0.162,0.165,3.476,3.654,-0.641,-0.646,98.848
+0 days 01:05:29.461000,GAS,10,98.867,6.0,1.0,,,False,SOFT,9.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,0.413,0.419,3.727,3.917,-0.307,-0.31,99.156
+0 days 01:07:08.464000,GAS,10,99.003,7.0,1.0,,,False,SOFT,10.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,0.549,0.558,3.863,4.06,-0.327,-0.329,99.35
+0 days 01:08:47.895000,GAS,10,99.431,8.0,1.0,,,False,SOFT,11.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,0.977,0.992,4.291,4.51,-0.255,-0.256,99.836
+0 days 01:10:27.991000,GAS,10,100.096,9.0,1.0,,,False,SOFT,12.0,False,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,1.642,1.668,4.956,5.209,0.194,0.194,100.559
+0 days 01:12:12.206000,GAS,10,104.215,10.0,1.0,,0 days 01:12:10.485000,False,SOFT,13.0,False,Alpine,1,6.0,False,4,Bahrain Grand Prix,True,C3,False,5.761,5.851,9.075,9.539,4.638,4.658,104.736
+0 days 01:14:10.066000,GAS,10,117.86,11.0,2.0,0 days 01:12:35.507000,,False,MEDIUM,1.0,True,Alpine,1,15.0,False,4,Bahrain Grand Prix,True,C2,False,19.406,19.711,22.72,23.881,18.398,18.498,118.439
+0 days 01:15:47.454000,GAS,10,97.388,12.0,2.0,,,True,MEDIUM,2.0,True,Alpine,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-1.066,-1.083,2.248,2.363,-1.64,-1.656,98.025
+0 days 01:17:25.122000,GAS,10,97.668,13.0,2.0,,,False,MEDIUM,3.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,-0.786,-0.798,2.528,2.657,-1.138,-1.152,98.363
+0 days 01:19:04.812000,GAS,10,99.69,14.0,2.0,,,False,MEDIUM,4.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,1.236,1.255,4.55,4.782,0.743,0.751,100.443
+0 days 01:20:42.857000,GAS,10,98.045,15.0,2.0,,,False,MEDIUM,5.0,True,Alpine,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-0.409,-0.415,2.905,3.053,-0.581,-0.589,98.85600000000001
+0 days 01:22:21.038000,GAS,10,98.181,16.0,2.0,,,False,MEDIUM,6.0,True,Alpine,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.273,-0.277,3.041,3.196,-0.415,-0.421,99.04899999999999
+0 days 01:23:59.236000,GAS,10,98.198,17.0,2.0,,,False,MEDIUM,7.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-0.256,-0.26,3.058,3.214,-0.144,-0.146,99.124
+0 days 01:25:38.387000,GAS,10,99.151,18.0,2.0,,,False,MEDIUM,8.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.697,0.708,4.011,4.216,0.651,0.661,100.13499999999999
+0 days 01:27:16.499000,GAS,10,98.112,19.0,2.0,,,False,MEDIUM,9.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.342,-0.347,2.972,3.124,-0.203,-0.206,99.154
+0 days 01:28:54.940000,GAS,10,98.441,20.0,2.0,,,False,MEDIUM,10.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.013,-0.013,3.301,3.47,-0.106,-0.108,99.541
+0 days 01:30:33.133000,GAS,10,98.193,21.0,2.0,,,False,MEDIUM,11.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.261,-0.265,3.053,3.209,-0.506,-0.513,99.351
+0 days 01:32:11.479000,GAS,10,98.346,22.0,2.0,,,False,MEDIUM,12.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.108,-0.11,3.206,3.37,-0.253,-0.257,99.562
+0 days 01:33:50.095000,GAS,10,98.616,23.0,2.0,,,False,MEDIUM,13.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.162,0.165,3.476,3.654,-0.008,-0.008,99.89
+0 days 01:35:28.535000,GAS,10,98.44,24.0,2.0,,,False,MEDIUM,14.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.014,-0.014,3.3,3.469,-0.33,-0.334,99.77199999999999
+0 days 01:37:07.230000,GAS,10,98.695,25.0,2.0,,,False,MEDIUM,15.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.241,0.245,3.555,3.737,-0.477,-0.481,100.08399999999999
+0 days 01:38:46.128000,GAS,10,98.898,26.0,2.0,,,False,MEDIUM,16.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.444,0.451,3.758,3.95,-0.295,-0.297,100.345
+0 days 01:40:24.880000,GAS,10,98.752,27.0,2.0,,,False,MEDIUM,17.0,True,Alpine,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.298,0.303,3.612,3.797,-0.203,-0.205,100.25699999999999
+0 days 01:42:06.046000,GAS,10,101.166,28.0,2.0,,0 days 01:42:04.406000,False,MEDIUM,18.0,True,Alpine,1,6.0,False,4,Bahrain Grand Prix,True,C2,False,2.712,2.755,6.026,6.334,2.302,2.328,102.729
+0 days 01:44:04.229000,GAS,10,118.183,29.0,3.0,0 days 01:42:29.311000,,False,HARD,1.0,True,Alpine,1,10.0,False,4,Bahrain Grand Prix,True,C1,False,19.729,20.039,23.043,24.22,20.053,20.435,119.804
+0 days 01:45:41.497000,GAS,10,97.268,30.0,3.0,,,True,HARD,2.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C1,True,-1.186,-1.205,2.128,2.237,-0.426,-0.436,98.947
+0 days 01:47:19.188000,GAS,10,97.691,31.0,3.0,,,False,HARD,3.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C1,True,-0.763,-0.775,2.551,2.681,-0.353,-0.36,99.428
+0 days 01:49:22.972000,GAS,10,123.784,32.0,3.0,,,False,HARD,4.0,True,Alpine,14,8.0,False,4,Bahrain Grand Prix,True,C1,False,25.33,25.728,28.644,30.107,-1.624,-1.295,125.57900000000001
+0 days 01:51:34.008000,GAS,10,131.036,33.0,3.0,,,False,HARD,5.0,True,Alpine,4,6.0,False,4,Bahrain Grand Prix,True,C1,False,32.582,33.094,35.896,37.73,-2.201,-1.652,132.889
+0 days 01:53:40.188000,GAS,10,126.18,34.0,3.0,,,False,HARD,6.0,True,Alpine,4,6.0,False,4,Bahrain Grand Prix,True,C1,False,27.726,28.161,31.04,32.626,10.778,9.34,128.091
+0 days 01:56:02.021000,GAS,10,141.833,35.0,3.0,,,False,HARD,7.0,True,Alpine,41,6.0,False,4,Bahrain Grand Prix,True,C1,False,43.379,44.06,46.693,49.078,5.847,4.3,143.801
+0 days 01:57:39.452000,GAS,10,97.431,36.0,3.0,,,False,HARD,8.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.023,-1.039,2.291,2.408,-1.129,-1.145,99.457
+0 days 01:59:16.641000,GAS,10,97.189,37.0,3.0,,,True,HARD,9.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.265,-1.285,2.049,2.154,-0.528,-0.54,99.273
+0 days 02:00:53.323000,GAS,10,96.682,38.0,3.0,,,True,HARD,10.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.772,-1.8,1.542,1.621,-1.169,-1.195,98.824
+0 days 02:02:29.854000,GAS,10,96.531,39.0,3.0,,,True,HARD,11.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.923,-1.953,1.391,1.462,-1.165,-1.192,98.73100000000001
+0 days 02:04:06.835000,GAS,10,96.981,40.0,3.0,,,False,HARD,12.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.473,-1.496,1.841,1.935,-0.411,-0.422,99.23899999999999
+0 days 02:05:43.704000,GAS,10,96.869,41.0,3.0,,,False,HARD,13.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.585,-1.61,1.729,1.817,-0.651,-0.668,99.185
+0 days 02:07:20.961000,GAS,10,97.257,42.0,3.0,,,False,HARD,14.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.197,-1.216,2.117,2.225,-0.331,-0.339,99.631
+0 days 02:08:58.146000,GAS,10,97.185,43.0,3.0,,,False,HARD,15.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.269,-1.289,2.045,2.149,-0.457,-0.468,99.617
+0 days 02:10:35.378000,GAS,10,97.232,44.0,3.0,,,False,HARD,16.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.222,-1.241,2.092,2.199,-0.492,-0.503,99.721
+0 days 02:12:12.736000,GAS,10,97.358,45.0,3.0,,,False,HARD,17.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.096,-1.113,2.218,2.331,-0.281,-0.288,99.905
+0 days 02:13:49.963000,GAS,10,97.227,46.0,3.0,,,False,HARD,18.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-1.227,-1.246,2.087,2.194,-0.433,-0.443,99.83200000000001
+0 days 02:15:27.462000,GAS,10,97.499,47.0,3.0,,,False,HARD,19.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.955,-0.97,2.359,2.48,-0.147,-0.151,100.16199999999999
+0 days 02:17:05.129000,GAS,10,97.667,48.0,3.0,,,False,HARD,20.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.787,-0.799,2.527,2.656,0.0,0.0,100.388
+0 days 02:18:42.891000,GAS,10,97.762,49.0,3.0,,,False,HARD,21.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.692,-0.703,2.622,2.756,-0.035,-0.036,100.541
+0 days 02:20:20.789000,GAS,10,97.898,50.0,3.0,,,False,HARD,22.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.556,-0.565,2.758,2.899,0.064,0.065,100.735
+0 days 02:21:58.696000,GAS,10,97.907,51.0,3.0,,,False,HARD,23.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.547,-0.556,2.767,2.908,-0.168,-0.171,100.80199999999999
+0 days 02:23:36.923000,GAS,10,98.227,52.0,3.0,,,False,HARD,24.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.227,-0.231,3.087,3.245,-0.168,-0.171,101.18
+0 days 02:25:15.312000,GAS,10,98.389,53.0,3.0,,,False,HARD,25.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.065,-0.066,3.249,3.415,-0.027,-0.027,101.39999999999999
+0 days 02:26:53.808000,GAS,10,98.496,54.0,3.0,,,False,HARD,26.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,0.042,0.043,3.356,3.527,0.0,0.0,101.564
+0 days 02:28:32.421000,GAS,10,98.613,55.0,3.0,,,False,HARD,27.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,0.159,0.161,3.473,3.65,0.056,0.057,101.739
+0 days 02:30:10.625000,GAS,10,98.204,56.0,3.0,,,False,HARD,28.0,True,Alpine,1,6.0,True,4,Bahrain Grand Prix,True,C1,True,-0.25,-0.254,3.064,3.221,-0.385,-0.391,101.38799999999999
+0 days 02:31:50.571000,GAS,10,99.946,57.0,3.0,,,False,HARD,29.0,True,Alpine,1,7.0,True,4,Bahrain Grand Prix,True,C1,True,1.492,1.515,4.806,5.052,1.085,1.098,103.188
+0 days 00:57:18.497000,ANT,12,,1.0,1.0,,,False,SOFT,4.0,False,Mercedes,1,7.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:56.684000,ANT,12,98.187,2.0,1.0,,,True,SOFT,5.0,False,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,-0.267,-0.271,3.047,3.203,-0.734,-0.742,98.245
+0 days 01:00:35.111000,ANT,12,98.427,3.0,1.0,,,False,SOFT,6.0,False,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,-0.027,-0.027,3.287,3.455,-0.205,-0.208,98.543
+0 days 01:02:13.675000,ANT,12,98.564,4.0,1.0,,,False,SOFT,7.0,False,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,0.11,0.112,3.424,3.599,-0.124,-0.126,98.738
+0 days 01:03:52.195000,ANT,12,98.52,5.0,1.0,,,False,SOFT,8.0,False,Mercedes,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,0.066,0.067,3.38,3.553,-0.737,-0.743,98.752
+0 days 01:05:30.829000,ANT,12,98.634,6.0,1.0,,,False,SOFT,9.0,False,Mercedes,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,0.18,0.183,3.494,3.672,-0.54,-0.544,98.923
+0 days 01:07:09.734000,ANT,12,98.905,7.0,1.0,,,False,SOFT,10.0,False,Mercedes,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,0.451,0.458,3.765,3.957,-0.425,-0.428,99.252
+0 days 01:08:48.931000,ANT,12,99.197,8.0,1.0,,,False,SOFT,11.0,False,Mercedes,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,0.743,0.755,4.057,4.264,-0.489,-0.491,99.602
+0 days 01:10:28.577000,ANT,12,99.646,9.0,1.0,,,False,SOFT,12.0,False,Mercedes,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,1.192,1.211,4.506,4.736,-0.256,-0.256,100.109
+0 days 01:12:08.044000,ANT,12,99.467,10.0,1.0,,,False,SOFT,13.0,False,Mercedes,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,1.013,1.029,4.327,4.548,-0.11,-0.11,99.988
+0 days 01:13:47.711000,ANT,12,99.667,11.0,1.0,,,False,SOFT,14.0,False,Mercedes,1,4.0,True,4,Bahrain Grand Prix,True,C3,True,1.213,1.232,4.527,4.758,0.205,0.206,100.246
+0 days 01:15:29.597000,ANT,12,101.886,12.0,1.0,,0 days 01:15:27.861000,False,SOFT,15.0,False,Mercedes,1,4.0,False,4,Bahrain Grand Prix,True,C3,False,3.432,3.486,6.746,7.091,2.858,2.886,102.523
+0 days 01:17:29.310000,ANT,12,119.713,13.0,2.0,0 days 01:15:52.720000,,False,MEDIUM,1.0,True,Mercedes,1,14.0,False,4,Bahrain Grand Prix,True,C2,False,21.259,21.593,24.573,25.828,20.907,21.16,120.40799999999999
+0 days 01:19:07.042000,ANT,12,97.732,14.0,2.0,,,True,MEDIUM,2.0,True,Mercedes,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.722,-0.733,2.592,2.724,-1.215,-1.228,98.485
+0 days 01:20:45.439000,ANT,12,98.397,15.0,2.0,,,False,MEDIUM,3.0,True,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,-0.057,-0.058,3.257,3.423,-0.229,-0.232,99.20800000000001
+0 days 01:22:24.508000,ANT,12,99.069,16.0,2.0,,,False,MEDIUM,4.0,True,Mercedes,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.615,0.625,3.929,4.13,0.473,0.48,99.937
+0 days 01:24:03.450000,ANT,12,98.942,17.0,2.0,,,False,MEDIUM,5.0,True,Mercedes,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.488,0.496,3.802,3.996,0.6,0.61,99.868
+0 days 01:25:41.815000,ANT,12,98.365,18.0,2.0,,,False,MEDIUM,6.0,True,Mercedes,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-0.089,-0.09,3.225,3.39,-0.135,-0.137,99.34899999999999
+0 days 01:27:20.146000,ANT,12,98.331,19.0,2.0,,,False,MEDIUM,7.0,True,Mercedes,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-0.123,-0.125,3.191,3.354,0.016,0.016,99.373
+0 days 01:28:59.041000,ANT,12,98.895,20.0,2.0,,,False,MEDIUM,8.0,True,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.441,0.448,3.755,3.947,0.348,0.353,99.99499999999999
+0 days 01:30:37.721000,ANT,12,98.68,21.0,2.0,,,False,MEDIUM,9.0,True,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.226,0.23,3.54,3.721,-0.019,-0.019,99.83800000000001
+0 days 01:32:16.618000,ANT,12,98.897,22.0,2.0,,,False,MEDIUM,10.0,True,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.443,0.45,3.757,3.949,0.298,0.302,100.113
+0 days 01:33:55.362000,ANT,12,98.744,23.0,2.0,,,False,MEDIUM,11.0,True,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.29,0.295,3.604,3.788,0.12,0.122,100.018
+0 days 01:35:34.004000,ANT,12,98.642,24.0,2.0,,,False,MEDIUM,12.0,True,Mercedes,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.188,0.191,3.502,3.681,-0.128,-0.13,99.97399999999999
+0 days 01:37:13.733000,ANT,12,99.729,25.0,2.0,,,False,MEDIUM,13.0,True,Mercedes,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,1.275,1.295,4.589,4.823,0.557,0.562,101.118
+0 days 01:38:52.926000,ANT,12,99.193,26.0,2.0,,,False,MEDIUM,14.0,True,Mercedes,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.739,0.751,4.053,4.26,0.0,0.0,100.64
+0 days 01:40:34.694000,ANT,12,101.768,27.0,2.0,,0 days 01:40:33.109000,False,MEDIUM,15.0,True,Mercedes,1,8.0,False,4,Bahrain Grand Prix,True,C2,False,3.314,3.366,6.628,6.967,2.813,2.843,103.273
+0 days 01:42:33.631000,ANT,12,118.937,28.0,3.0,0 days 01:40:57.526000,,False,SOFT,4.0,False,Mercedes,1,15.0,False,4,Bahrain Grand Prix,True,C3,False,20.483,20.805,23.797,25.013,20.073,20.304,120.5
+0 days 01:44:10.321000,ANT,12,96.69,29.0,3.0,,,True,SOFT,5.0,False,Mercedes,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-1.764,-1.792,1.55,1.629,-1.44,-1.467,98.31099999999999
+0 days 01:45:47.011000,ANT,12,96.69,30.0,3.0,,,False,SOFT,6.0,False,Mercedes,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-1.764,-1.792,1.55,1.629,-1.004,-1.028,98.369
+0 days 01:47:24.542000,ANT,12,97.531,31.0,3.0,,,False,SOFT,7.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.923,-0.937,2.391,2.513,-0.513,-0.523,99.268
+0 days 01:49:29.494000,ANT,12,124.952,32.0,3.0,,0 days 01:49:27.885000,False,SOFT,8.0,False,Mercedes,14,12.0,False,4,Bahrain Grand Prix,True,C3,False,26.498,26.914,29.812,31.335,-0.456,-0.364,126.747
+0 days 01:52:00.687000,ANT,12,,33.0,4.0,0 days 01:49:52.527000,,False,SOFT,4.0,False,Mercedes,4,14.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 01:53:51.693000,ANT,12,111.006,34.0,4.0,,,False,SOFT,5.0,False,Mercedes,4,14.0,False,4,Bahrain Grand Prix,True,C3,False,12.552,12.749,15.866,16.676,-4.396,-3.809,112.917
+0 days 01:56:04.918000,ANT,12,133.225,35.0,4.0,,,False,SOFT,6.0,False,Mercedes,41,14.0,False,4,Bahrain Grand Prix,True,C3,False,34.771,35.317,38.085,40.03,-2.761,-2.03,135.19299999999998
+0 days 01:57:44.835000,ANT,12,99.917,36.0,4.0,,,False,SOFT,7.0,False,Mercedes,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,1.463,1.486,4.777,5.021,1.357,1.377,101.943
+0 days 01:59:22.552000,ANT,12,97.717,37.0,4.0,,,False,SOFT,8.0,False,Mercedes,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.737,-0.749,2.577,2.709,0.0,0.0,99.801
+0 days 02:00:59.537000,ANT,12,96.985,38.0,4.0,,,False,SOFT,9.0,False,Mercedes,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-1.469,-1.492,1.845,1.939,-0.866,-0.885,99.127
+0 days 02:02:37.114000,ANT,12,97.577,39.0,4.0,,,False,SOFT,10.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.877,-0.891,2.437,2.561,-0.119,-0.122,99.777
+0 days 02:04:14.387000,ANT,12,97.273,40.0,4.0,,,False,SOFT,11.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-1.181,-1.2,2.133,2.242,-0.119,-0.122,99.53099999999999
+0 days 02:05:51.971000,ANT,12,97.584,41.0,4.0,,,False,SOFT,12.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.87,-0.884,2.444,2.569,0.064,0.066,99.9
+0 days 02:07:29.668000,ANT,12,97.697,42.0,4.0,,,False,SOFT,13.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.757,-0.769,2.557,2.688,0.109,0.112,100.071
+0 days 02:09:07.284000,ANT,12,97.616,43.0,4.0,,,False,SOFT,14.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.838,-0.851,2.476,2.602,-0.026,-0.027,100.048
+0 days 02:10:45.200000,ANT,12,97.916,44.0,4.0,,,False,SOFT,15.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.538,-0.546,2.776,2.918,0.192,0.196,100.405
+0 days 02:12:23.027000,ANT,12,97.827,45.0,4.0,,,False,SOFT,16.0,False,Mercedes,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,-0.627,-0.637,2.687,2.824,0.188,0.193,100.374
+0 days 02:14:00.765000,ANT,12,97.738,46.0,4.0,,,False,SOFT,17.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.716,-0.727,2.598,2.731,0.078,0.08,100.343
+0 days 02:15:38.452000,ANT,12,97.687,47.0,4.0,,,False,SOFT,18.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.767,-0.779,2.547,2.677,0.041,0.042,100.35
+0 days 02:17:15.940000,ANT,12,97.488,48.0,4.0,,,False,SOFT,19.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.966,-0.981,2.348,2.468,-0.179,-0.183,100.209
+0 days 02:18:53.555000,ANT,12,97.615,49.0,4.0,,,False,SOFT,20.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.839,-0.852,2.475,2.601,-0.182,-0.186,100.39399999999999
+0 days 02:20:31.295000,ANT,12,97.74,50.0,4.0,,,False,SOFT,21.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.714,-0.725,2.6,2.733,-0.094,-0.096,100.577
+0 days 02:22:09.316000,ANT,12,98.021,51.0,4.0,,,False,SOFT,22.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.433,-0.44,2.881,3.028,-0.054,-0.055,100.916
+0 days 02:23:47.976000,ANT,12,98.66,52.0,4.0,,,False,SOFT,23.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.206,0.209,3.52,3.7,0.265,0.269,101.613
+0 days 02:25:26.392000,ANT,12,98.416,53.0,4.0,,,False,SOFT,24.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.038,-0.039,3.276,3.443,0.0,0.0,101.42699999999999
+0 days 02:27:05.104000,ANT,12,98.712,54.0,4.0,,,False,SOFT,25.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.258,0.262,3.572,3.754,0.216,0.219,101.78
+0 days 02:28:43.973000,ANT,12,98.869,55.0,4.0,,,False,SOFT,26.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.415,0.422,3.729,3.919,0.312,0.317,101.995
+0 days 02:30:23.038000,ANT,12,99.065,56.0,4.0,,,False,SOFT,27.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.611,0.621,3.925,4.125,0.476,0.483,102.249
+0 days 02:32:02.584000,ANT,12,99.546,57.0,4.0,,,False,SOFT,28.0,False,Mercedes,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,1.092,1.109,4.406,4.631,0.685,0.693,102.78800000000001
+0 days 00:57:15.558000,NOR,4,,1.0,1.0,,,False,SOFT,4.0,False,McLaren,1,3.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:53.468000,NOR,4,97.91,2.0,1.0,,,True,SOFT,5.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,-0.544,-0.553,2.77,2.911,-1.011,-1.022,97.968
+0 days 01:00:31.885000,NOR,4,98.417,3.0,1.0,,,False,SOFT,6.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,-0.037,-0.038,3.277,3.444,-0.215,-0.218,98.533
+0 days 01:02:10.120000,NOR,4,98.235,4.0,1.0,,,False,SOFT,7.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,-0.219,-0.222,3.095,3.253,-0.453,-0.459,98.409
+0 days 01:03:48.724000,NOR,4,98.604,5.0,1.0,,,False,SOFT,8.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,0.15,0.152,3.464,3.641,-0.653,-0.658,98.836
+0 days 01:05:27.294000,NOR,4,98.57,6.0,1.0,,,False,SOFT,9.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,0.116,0.118,3.43,3.605,-0.604,-0.609,98.859
+0 days 01:07:05.762000,NOR,4,98.468,7.0,1.0,,,False,SOFT,10.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,0.014,0.014,3.328,3.498,-0.862,-0.868,98.815
+0 days 01:08:44.732000,NOR,4,98.97,8.0,1.0,,,False,SOFT,11.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,0.516,0.524,3.83,4.026,-0.716,-0.718,99.375
+0 days 01:10:23.836000,NOR,4,99.104,9.0,1.0,,,False,SOFT,12.0,False,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C3,True,0.65,0.66,3.964,4.166,-0.798,-0.799,99.567
+0 days 01:12:05.370000,NOR,4,101.534,10.0,1.0,,0 days 01:12:03.834000,False,SOFT,13.0,False,McLaren,1,4.0,False,4,Bahrain Grand Prix,True,C3,False,3.08,3.128,6.394,6.721,1.957,1.965,102.055
+0 days 01:14:08.221000,NOR,4,122.851,11.0,2.0,0 days 01:12:33.449000,,False,MEDIUM,1.0,True,McLaren,1,14.0,False,4,Bahrain Grand Prix,True,C2,False,24.397,24.78,27.711,29.127,23.389,23.516,123.42999999999999
+0 days 01:15:46.088000,NOR,4,97.867,12.0,2.0,,,True,MEDIUM,2.0,True,McLaren,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,-0.587,-0.596,2.727,2.866,-1.161,-1.172,98.504
+0 days 01:17:23.541000,NOR,4,97.453,13.0,2.0,,,True,MEDIUM,3.0,True,McLaren,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,-1.001,-1.017,2.313,2.431,-1.353,-1.369,98.148
+0 days 01:19:02.314000,NOR,4,98.773,14.0,2.0,,,False,MEDIUM,4.0,True,McLaren,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.319,0.324,3.633,3.819,-0.174,-0.176,99.526
+0 days 01:20:40.061000,NOR,4,97.747,15.0,2.0,,,False,MEDIUM,5.0,True,McLaren,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-0.707,-0.718,2.607,2.74,-0.879,-0.891,98.558
+0 days 01:22:18.455000,NOR,4,98.394,16.0,2.0,,,False,MEDIUM,6.0,True,McLaren,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.06,-0.061,3.254,3.42,-0.202,-0.205,99.262
+0 days 01:23:56.022000,NOR,4,97.567,17.0,2.0,,,False,MEDIUM,7.0,True,McLaren,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.887,-0.901,2.427,2.551,-0.775,-0.788,98.493
+0 days 01:25:33.692000,NOR,4,97.67,18.0,2.0,,,False,MEDIUM,8.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.784,-0.796,2.53,2.659,-0.83,-0.843,98.654
+0 days 01:27:11.347000,NOR,4,97.655,19.0,2.0,,,False,MEDIUM,9.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.799,-0.812,2.515,2.643,-0.66,-0.671,98.697
+0 days 01:28:49.273000,NOR,4,97.926,20.0,2.0,,,False,MEDIUM,10.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.528,-0.536,2.786,2.928,-0.621,-0.63,99.026
+0 days 01:30:27.256000,NOR,4,97.983,21.0,2.0,,,False,MEDIUM,11.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.471,-0.478,2.843,2.988,-0.716,-0.725,99.141
+0 days 01:32:05.043000,NOR,4,97.787,22.0,2.0,,,False,MEDIUM,12.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.667,-0.677,2.647,2.782,-0.812,-0.824,99.003
+0 days 01:33:43.177000,NOR,4,98.134,23.0,2.0,,,False,MEDIUM,13.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.32,-0.325,2.994,3.147,-0.49,-0.497,99.408
+0 days 01:35:21.160000,NOR,4,97.983,24.0,2.0,,,False,MEDIUM,14.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.471,-0.478,2.843,2.988,-0.787,-0.797,99.315
+0 days 01:37:00.450000,NOR,4,99.29,25.0,2.0,,,False,MEDIUM,15.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.836,0.849,4.15,4.362,0.118,0.119,100.679
+0 days 01:38:38.665000,NOR,4,98.215,26.0,2.0,,,False,MEDIUM,16.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.239,-0.243,3.075,3.232,-0.978,-0.986,99.662
+0 days 01:40:16.635000,NOR,4,97.97,27.0,2.0,,,False,MEDIUM,17.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.484,-0.492,2.83,2.975,-0.985,-0.995,99.475
+0 days 01:41:54.584000,NOR,4,97.949,28.0,2.0,,,False,MEDIUM,18.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.505,-0.513,2.809,2.952,-0.915,-0.926,99.512
+0 days 01:43:32.714000,NOR,4,98.13,29.0,2.0,,,False,MEDIUM,19.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.324,-0.329,2.99,3.143,0.0,0.0,99.75099999999999
+0 days 01:45:10.450000,NOR,4,97.736,30.0,2.0,,,False,MEDIUM,20.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.718,-0.729,2.596,2.729,0.042,0.043,99.415
+0 days 01:46:48.377000,NOR,4,97.927,31.0,2.0,,,False,MEDIUM,21.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.527,-0.535,2.787,2.929,-0.117,-0.119,99.664
+0 days 01:48:40.081000,NOR,4,111.704,32.0,2.0,,0 days 01:48:38.428000,False,MEDIUM,22.0,True,McLaren,14,4.0,False,4,Bahrain Grand Prix,True,C2,False,13.25,13.458,16.564,17.41,-13.704,-10.928,113.499
+0 days 01:51:16.679000,NOR,4,,33.0,3.0,0 days 01:49:02.487000,,False,MEDIUM,1.0,True,McLaren,4,4.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 01:53:36.358000,NOR,4,139.679,34.0,3.0,,,False,MEDIUM,2.0,True,McLaren,4,4.0,False,4,Bahrain Grand Prix,True,C2,False,41.225,41.872,44.539,46.814,24.277,21.037,141.59
+0 days 01:56:00.856000,NOR,4,144.498,35.0,3.0,,,False,MEDIUM,3.0,True,McLaren,41,4.0,False,4,Bahrain Grand Prix,True,C2,False,46.044,46.767,49.358,51.879,8.512,6.259,146.46599999999998
+0 days 01:57:37.361000,NOR,4,96.505,36.0,3.0,,,False,MEDIUM,4.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.949,-1.98,1.365,1.435,-2.055,-2.085,98.53099999999999
+0 days 01:59:15.328000,NOR,4,97.967,37.0,3.0,,,False,MEDIUM,5.0,True,McLaren,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.487,-0.495,2.827,2.971,0.25,0.256,100.051
+0 days 02:00:51.056000,NOR,4,95.728,38.0,3.0,,,True,MEDIUM,6.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.726,-2.769,0.588,0.618,-2.123,-2.17,97.86999999999999
+0 days 02:02:27.315000,NOR,4,96.259,39.0,3.0,,,False,MEDIUM,7.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.195,-2.229,1.119,1.176,-1.437,-1.471,98.459
+0 days 02:04:03.436000,NOR,4,96.121,40.0,3.0,,,False,MEDIUM,8.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.333,-2.37,0.981,1.031,-1.271,-1.305,98.37899999999999
+0 days 02:05:39.695000,NOR,4,96.259,41.0,3.0,,,False,MEDIUM,9.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.195,-2.229,1.119,1.176,-1.261,-1.293,98.575
+0 days 02:07:15.838000,NOR,4,96.143,42.0,3.0,,,False,MEDIUM,10.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.311,-2.347,1.003,1.054,-1.445,-1.481,98.517
+0 days 02:08:51.880000,NOR,4,96.042,43.0,3.0,,,False,MEDIUM,11.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.412,-2.45,0.902,0.948,-1.6,-1.639,98.474
+0 days 02:10:28.332000,NOR,4,96.452,44.0,3.0,,,False,MEDIUM,12.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.002,-2.033,1.312,1.379,-1.272,-1.302,98.941
+0 days 02:12:04.926000,NOR,4,96.594,45.0,3.0,,,False,MEDIUM,13.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.86,-1.889,1.454,1.528,-1.045,-1.07,99.14099999999999
+0 days 02:13:42.577000,NOR,4,97.651,46.0,3.0,,,False,MEDIUM,14.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.803,-0.816,2.511,2.639,-0.009,-0.009,100.256
+0 days 02:15:18.892000,NOR,4,96.315,47.0,3.0,,,False,MEDIUM,15.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-2.139,-2.173,1.175,1.235,-1.331,-1.363,98.978
+0 days 02:16:55.471000,NOR,4,96.579,48.0,3.0,,,False,MEDIUM,16.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.875,-1.904,1.439,1.513,-1.088,-1.114,99.3
+0 days 02:18:33.332000,NOR,4,97.861,49.0,3.0,,,False,MEDIUM,17.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-0.593,-0.602,2.721,2.86,0.064,0.065,100.64
+0 days 02:20:10.368000,NOR,4,97.036,50.0,3.0,,,False,MEDIUM,18.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.418,-1.44,1.896,1.993,-0.798,-0.816,99.873
+0 days 02:21:47.451000,NOR,4,97.083,51.0,3.0,,,False,MEDIUM,19.0,True,McLaren,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,-1.371,-1.393,1.943,2.042,-0.992,-1.011,99.978
+0 days 02:23:23.776000,NOR,4,96.325,52.0,3.0,,,False,MEDIUM,20.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-2.129,-2.162,1.185,1.246,-2.07,-2.104,99.278
+0 days 02:25:00.513000,NOR,4,96.737,53.0,3.0,,,False,MEDIUM,21.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-1.717,-1.744,1.597,1.679,-1.679,-1.706,99.74799999999999
+0 days 02:26:37.640000,NOR,4,97.127,54.0,3.0,,,False,MEDIUM,22.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-1.327,-1.348,1.987,2.089,-1.369,-1.39,100.195
+0 days 02:28:14.980000,NOR,4,97.34,55.0,3.0,,,False,MEDIUM,23.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-1.114,-1.131,2.2,2.312,-1.217,-1.235,100.46600000000001
+0 days 02:29:52.707000,NOR,4,97.727,56.0,3.0,,,False,MEDIUM,24.0,True,McLaren,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,-0.727,-0.738,2.587,2.719,-0.862,-0.874,100.911
+0 days 02:31:30.836000,NOR,4,98.129,57.0,3.0,,,False,MEDIUM,25.0,True,McLaren,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,-0.325,-0.33,2.989,3.142,-0.732,-0.74,101.37100000000001
+0 days 00:57:19.011000,VER,1,,1.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,1,8.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:57.414000,VER,1,98.403,2.0,1.0,,,True,SOFT,5.0,False,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,-0.051,-0.052,3.263,3.43,-0.518,-0.524,98.46100000000001
+0 days 01:00:35.889000,VER,1,98.475,3.0,1.0,,,False,SOFT,6.0,False,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,0.021,0.021,3.335,3.505,-0.157,-0.159,98.591
+0 days 01:02:14.438000,VER,1,98.549,4.0,1.0,,,False,SOFT,7.0,False,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,0.095,0.096,3.409,3.583,-0.139,-0.141,98.72300000000001
+0 days 01:03:53.198000,VER,1,98.76,5.0,1.0,,,False,SOFT,8.0,False,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,0.306,0.311,3.62,3.805,-0.497,-0.501,98.992
+0 days 01:05:31.791000,VER,1,98.593,6.0,1.0,,,False,SOFT,9.0,False,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,0.139,0.141,3.453,3.629,-0.581,-0.586,98.882
+0 days 01:07:10.720000,VER,1,98.929,7.0,1.0,,,False,SOFT,10.0,False,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,0.475,0.482,3.789,3.983,-0.401,-0.404,99.276
+0 days 01:08:50.105000,VER,1,99.385,8.0,1.0,,,False,SOFT,11.0,False,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,0.931,0.946,4.245,4.462,-0.301,-0.302,99.79
+0 days 01:10:29.775000,VER,1,99.67,9.0,1.0,,,False,SOFT,12.0,False,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,1.216,1.235,4.53,4.761,-0.232,-0.232,100.133
+0 days 01:12:13.068000,VER,1,103.293,10.0,1.0,,0 days 01:12:11.433000,False,SOFT,13.0,False,Red Bull Racing,1,7.0,False,4,Bahrain Grand Prix,True,C3,False,4.839,4.915,8.153,8.569,3.716,3.732,103.81400000000001
+0 days 01:14:12.986000,VER,1,119.918,11.0,2.0,0 days 01:12:37.959000,,False,HARD,1.0,True,Red Bull Racing,1,17.0,False,4,Bahrain Grand Prix,True,C1,False,21.464,21.801,24.778,26.044,20.456,20.567,120.497
+0 days 01:15:50.190000,VER,1,97.204,12.0,2.0,,,True,HARD,2.0,True,Red Bull Racing,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-1.25,-1.27,2.064,2.169,-1.824,-1.842,97.841
+0 days 01:17:28.517000,VER,1,98.327,13.0,2.0,,,False,HARD,3.0,True,Red Bull Racing,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,-0.127,-0.129,3.187,3.35,-0.479,-0.485,99.02199999999999
+0 days 01:19:06.604000,VER,1,98.087,14.0,2.0,,,False,HARD,4.0,True,Red Bull Racing,1,12.0,True,4,Bahrain Grand Prix,True,C1,True,-0.367,-0.373,2.947,3.098,-0.86,-0.869,98.84
+0 days 01:20:44.891000,VER,1,98.287,15.0,2.0,,,False,HARD,5.0,True,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C1,True,-0.167,-0.17,3.147,3.308,-0.339,-0.344,99.09800000000001
+0 days 01:22:24.194000,VER,1,99.303,16.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,0.849,0.862,4.163,4.376,0.707,0.717,100.17099999999999
+0 days 01:24:02.602000,VER,1,98.408,17.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.046,-0.047,3.268,3.435,0.066,0.067,99.334
+0 days 01:25:41.155000,VER,1,98.553,18.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C1,True,0.099,0.101,3.413,3.587,0.053,0.054,99.53699999999999
+0 days 01:27:19.670000,VER,1,98.515,19.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C1,True,0.061,0.062,3.375,3.547,0.2,0.203,99.557
+0 days 01:29:00.097000,VER,1,100.427,20.0,2.0,,,False,HARD,10.0,True,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,1.973,2.004,5.287,5.557,1.88,1.908,101.527
+0 days 01:30:39.045000,VER,1,98.948,21.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,0.494,0.502,3.808,4.003,0.249,0.252,100.106
+0 days 01:32:19.121000,VER,1,100.076,22.0,2.0,,,False,HARD,12.0,True,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,1.622,1.647,4.936,5.188,1.477,1.498,101.29199999999999
+0 days 01:33:57.554000,VER,1,98.433,23.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.021,-0.021,3.293,3.461,-0.191,-0.194,99.70700000000001
+0 days 01:35:36.425000,VER,1,98.871,24.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,0.417,0.424,3.731,3.922,0.101,0.102,100.20299999999999
+0 days 01:37:15.917000,VER,1,99.492,25.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,1.038,1.054,4.352,4.574,0.32,0.323,100.881
+0 days 01:38:58.405000,VER,1,102.488,26.0,2.0,,0 days 01:38:56.736000,False,HARD,16.0,True,Red Bull Racing,1,11.0,False,4,Bahrain Grand Prix,True,C1,False,4.034,4.097,7.348,7.723,3.295,3.322,103.935
+0 days 01:40:58.450000,VER,1,120.045,27.0,3.0,0 days 01:39:24.978000,,False,MEDIUM,1.0,True,Red Bull Racing,1,19.0,False,4,Bahrain Grand Prix,True,C2,False,21.591,21.93,24.905,26.177,21.09,21.313,121.55
+0 days 01:42:35.540000,VER,1,97.09,28.0,3.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,-1.364,-1.385,1.95,2.05,-1.774,-1.794,98.653
+0 days 01:44:11.707000,VER,1,96.167,29.0,3.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,-2.287,-2.323,1.027,1.079,-1.963,-2.0,97.788
+0 days 01:45:48.401000,VER,1,96.694,30.0,3.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,-1.76,-1.788,1.554,1.633,-1.0,-1.024,98.373
+0 days 01:47:26.441000,VER,1,98.04,31.0,3.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,-0.414,-0.421,2.9,3.048,-0.004,-0.004,99.777
+0 days 01:49:30.678000,VER,1,124.237,32.0,3.0,,,False,MEDIUM,6.0,True,Red Bull Racing,14,13.0,False,4,Bahrain Grand Prix,True,C2,False,25.783,26.188,29.097,30.583,-1.171,-0.934,126.032
+0 days 01:51:43.129000,VER,1,132.451,33.0,3.0,,,False,MEDIUM,7.0,True,Red Bull Racing,4,8.0,False,4,Bahrain Grand Prix,True,C2,False,33.997,34.531,37.311,39.217,-0.786,-0.59,134.304
+0 days 01:53:43.498000,VER,1,120.369,34.0,3.0,,,False,MEDIUM,8.0,True,Red Bull Racing,4,8.0,False,4,Bahrain Grand Prix,True,C2,False,21.915,22.259,25.229,26.518,4.967,4.304,122.28
+0 days 01:56:02.648000,VER,1,139.15,35.0,3.0,,,False,MEDIUM,9.0,True,Red Bull Racing,41,8.0,False,4,Bahrain Grand Prix,True,C2,False,40.696,41.335,44.01,46.258,3.164,2.327,141.118
+0 days 01:57:41.270000,VER,1,98.622,36.0,3.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.168,0.171,3.482,3.66,0.062,0.063,100.648
+0 days 01:59:18.615000,VER,1,97.345,37.0,3.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-1.109,-1.126,2.205,2.318,-0.372,-0.381,99.429
+0 days 02:00:54.786000,VER,1,96.171,38.0,3.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-2.283,-2.319,1.031,1.084,-1.68,-1.717,98.313
+0 days 02:02:31.456000,VER,1,96.67,39.0,3.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.784,-1.812,1.53,1.608,-1.026,-1.05,98.87
+0 days 02:04:08.515000,VER,1,97.059,40.0,3.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.395,-1.417,1.919,2.017,-0.333,-0.342,99.317
+0 days 02:05:45.437000,VER,1,96.922,41.0,3.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.532,-1.556,1.782,1.873,-0.598,-0.613,99.238
+0 days 02:07:22.600000,VER,1,97.163,42.0,3.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.291,-1.311,2.023,2.126,-0.425,-0.436,99.53699999999999
+0 days 02:08:59.695000,VER,1,97.095,43.0,3.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.359,-1.38,1.955,2.055,-0.547,-0.56,99.527
+0 days 02:10:36.733000,VER,1,97.038,44.0,3.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.416,-1.438,1.898,1.995,-0.686,-0.702,99.527
+0 days 02:12:14.118000,VER,1,97.385,45.0,3.0,,,False,MEDIUM,19.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.069,-1.086,2.245,2.36,-0.254,-0.26,99.932
+0 days 02:13:51.469000,VER,1,97.351,46.0,3.0,,,False,MEDIUM,20.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.103,-1.12,2.211,2.324,-0.309,-0.316,99.956
+0 days 02:15:28.838000,VER,1,97.369,47.0,3.0,,,False,MEDIUM,21.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-1.085,-1.102,2.229,2.343,-0.277,-0.284,100.032
+0 days 02:17:06.322000,VER,1,97.484,48.0,3.0,,,False,MEDIUM,22.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.97,-0.985,2.344,2.464,-0.183,-0.187,100.205
+0 days 02:18:43.942000,VER,1,97.62,49.0,3.0,,,False,MEDIUM,23.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.834,-0.847,2.48,2.607,-0.177,-0.181,100.399
+0 days 02:20:21.626000,VER,1,97.684,50.0,3.0,,,False,MEDIUM,24.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.77,-0.782,2.544,2.674,-0.15,-0.153,100.521
+0 days 02:21:59.701000,VER,1,98.075,51.0,3.0,,,False,MEDIUM,25.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.379,-0.385,2.935,3.085,0.0,0.0,100.97
+0 days 02:23:37.766000,VER,1,98.065,52.0,3.0,,,False,MEDIUM,26.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.389,-0.395,2.925,3.074,-0.33,-0.335,101.018
+0 days 02:25:16.201000,VER,1,98.435,53.0,3.0,,,False,MEDIUM,27.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.019,-0.019,3.295,3.463,0.019,0.019,101.446
+0 days 02:26:54.599000,VER,1,98.398,54.0,3.0,,,False,MEDIUM,28.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.056,-0.057,3.258,3.424,-0.098,-0.099,101.466
+0 days 02:28:33.286000,VER,1,98.687,55.0,3.0,,,False,MEDIUM,29.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.233,0.237,3.547,3.728,0.13,0.132,101.813
+0 days 02:30:11.302000,VER,1,98.016,56.0,3.0,,,False,MEDIUM,30.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.438,-0.445,2.876,3.023,-0.573,-0.581,101.2
+0 days 02:31:48.964000,VER,1,97.662,57.0,3.0,,,False,MEDIUM,31.0,True,Red Bull Racing,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-0.792,-0.804,2.522,2.651,-1.199,-1.213,100.90400000000001
+0 days 00:57:17.904000,SAI,55,,1.0,1.0,,,False,SOFT,4.0,False,Williams,1,6.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:56.089000,SAI,55,98.185,2.0,1.0,,,True,SOFT,5.0,False,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,-0.269,-0.273,3.045,3.201,-0.736,-0.744,98.24300000000001
+0 days 01:00:34.478000,SAI,55,98.389,3.0,1.0,,,False,SOFT,6.0,False,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,-0.065,-0.066,3.249,3.415,-0.243,-0.246,98.505
+0 days 01:02:13.098000,SAI,55,98.62,4.0,1.0,,,False,SOFT,7.0,False,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,0.166,0.169,3.48,3.658,-0.068,-0.069,98.79400000000001
+0 days 01:03:54.119000,SAI,55,101.021,5.0,1.0,,,False,SOFT,8.0,False,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,2.567,2.607,5.881,6.181,1.764,1.777,101.253
+0 days 01:05:33.142000,SAI,55,99.023,6.0,1.0,,,False,SOFT,9.0,False,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,0.569,0.578,3.883,4.081,-0.151,-0.152,99.312
+0 days 01:07:12.472000,SAI,55,99.33,7.0,1.0,,,False,SOFT,10.0,False,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,0.876,0.89,4.19,4.404,0.0,0.0,99.67699999999999
+0 days 01:08:52.378000,SAI,55,99.906,8.0,1.0,,,False,SOFT,11.0,False,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,1.452,1.475,4.766,5.009,0.22,0.221,100.311
+0 days 01:10:35.273000,SAI,55,102.895,9.0,1.0,,,False,SOFT,12.0,False,Williams,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,4.441,4.511,7.755,8.151,2.993,2.996,103.35799999999999
+0 days 01:12:15.437000,SAI,55,100.164,10.0,1.0,,,False,SOFT,13.0,False,Williams,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,1.71,1.737,5.024,5.281,0.587,0.589,100.685
+0 days 01:13:55.452000,SAI,55,100.015,11.0,1.0,,,False,SOFT,14.0,False,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,1.561,1.586,4.875,5.124,0.553,0.556,100.594
+0 days 01:15:35.702000,SAI,55,100.25,12.0,1.0,,,False,SOFT,15.0,False,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,1.796,1.824,5.11,5.371,1.222,1.234,100.887
+0 days 01:17:15.979000,SAI,55,100.277,13.0,1.0,,,False,SOFT,16.0,False,Williams,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,1.823,1.852,5.137,5.399,1.471,1.489,100.972
+0 days 01:18:58.887000,SAI,55,102.908,14.0,1.0,,0 days 01:18:57.126000,False,SOFT,17.0,False,Williams,1,5.0,False,4,Bahrain Grand Prix,True,C3,False,4.454,4.524,7.768,8.165,3.961,4.003,103.661
+0 days 01:20:57.190000,SAI,55,118.303,15.0,2.0,0 days 01:19:21.703000,,False,MEDIUM,1.0,True,Williams,1,16.0,False,4,Bahrain Grand Prix,True,C2,False,19.849,20.161,23.163,24.346,19.677,19.951,119.114
+0 days 01:22:34.144000,SAI,55,96.954,16.0,2.0,,,True,MEDIUM,2.0,True,Williams,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-1.5,-1.524,1.814,1.907,-1.642,-1.665,97.82199999999999
+0 days 01:24:12.011000,SAI,55,97.867,17.0,2.0,,,False,MEDIUM,3.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.587,-0.596,2.727,2.866,-0.475,-0.483,98.793
+0 days 01:25:49.820000,SAI,55,97.809,18.0,2.0,,,False,MEDIUM,4.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.645,-0.655,2.669,2.805,-0.691,-0.702,98.79299999999999
+0 days 01:27:28.079000,SAI,55,98.259,19.0,2.0,,,False,MEDIUM,5.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.195,-0.198,3.119,3.278,-0.056,-0.057,99.301
+0 days 01:29:06.506000,SAI,55,98.427,20.0,2.0,,,False,MEDIUM,6.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.027,-0.027,3.287,3.455,-0.12,-0.122,99.527
+0 days 01:30:45.224000,SAI,55,98.718,21.0,2.0,,,False,MEDIUM,7.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.264,0.268,3.578,3.761,0.019,0.019,99.876
+0 days 01:32:23.779000,SAI,55,98.555,22.0,2.0,,,False,MEDIUM,8.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.101,0.103,3.415,3.589,-0.044,-0.045,99.771
+0 days 01:34:02.410000,SAI,55,98.631,23.0,2.0,,,False,MEDIUM,9.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.177,0.18,3.491,3.669,0.007,0.007,99.905
+0 days 01:35:41.192000,SAI,55,98.782,24.0,2.0,,,False,MEDIUM,10.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.328,0.333,3.642,3.828,0.012,0.012,100.11399999999999
+0 days 01:37:20.260000,SAI,55,99.068,25.0,2.0,,,False,MEDIUM,11.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.614,0.624,3.928,4.129,-0.104,-0.105,100.457
+0 days 01:38:59.472000,SAI,55,99.212,26.0,2.0,,,False,MEDIUM,12.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.758,0.77,4.072,4.28,0.019,0.019,100.659
+0 days 01:40:38.774000,SAI,55,99.302,27.0,2.0,,,False,MEDIUM,13.0,True,Williams,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.848,0.861,4.162,4.375,0.347,0.351,100.807
+0 days 01:42:18.010000,SAI,55,99.236,28.0,2.0,,,False,MEDIUM,14.0,True,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.782,0.794,4.096,4.305,0.372,0.376,100.799
+0 days 01:43:56.808000,SAI,55,98.798,29.0,2.0,,,False,MEDIUM,15.0,True,Williams,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.344,0.349,3.658,3.845,0.668,0.681,100.419
+0 days 01:45:36.088000,SAI,55,99.28,30.0,2.0,,,False,MEDIUM,16.0,True,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.826,0.839,4.14,4.351,1.586,1.623,100.959
+0 days 01:47:16.573000,SAI,55,100.485,31.0,2.0,,,False,MEDIUM,17.0,True,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,2.031,2.063,5.345,5.618,2.441,2.49,102.222
+0 days 01:49:19.644000,SAI,55,123.071,32.0,2.0,,0 days 01:49:17.919000,False,MEDIUM,18.0,True,Williams,14,6.0,False,4,Bahrain Grand Prix,True,C2,False,24.617,25.004,27.931,29.358,-2.337,-1.864,124.866
+0 days 01:51:51.427000,SAI,55,,33.0,3.0,0 days 01:49:42.374000,,False,HARD,1.0,True,Williams,4,10.0,False,4,Bahrain Grand Prix,True,C1,False,,,,,,,
+0 days 01:53:47.290000,SAI,55,115.863,34.0,3.0,,,False,HARD,2.0,True,Williams,4,10.0,False,4,Bahrain Grand Prix,True,C1,False,17.409,17.682,20.723,21.782,0.461,0.399,117.774
+0 days 01:56:03.753000,SAI,55,136.463,35.0,3.0,,,False,HARD,3.0,True,Williams,41,10.0,False,4,Bahrain Grand Prix,True,C1,False,38.009,38.606,41.323,43.434,0.477,0.351,138.43099999999998
+0 days 01:57:44.586000,SAI,55,100.833,36.0,3.0,,,False,HARD,4.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,2.379,2.416,5.693,5.984,2.273,2.306,102.859
+0 days 01:59:22.418000,SAI,55,97.832,37.0,3.0,,,False,HARD,5.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,-0.622,-0.632,2.692,2.83,0.115,0.118,99.916
+0 days 02:01:01.042000,SAI,55,98.624,38.0,3.0,,,False,HARD,6.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.17,0.173,3.484,3.662,0.773,0.79,100.76599999999999
+0 days 02:02:39.334000,SAI,55,98.292,39.0,3.0,,,False,HARD,7.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.162,-0.165,3.152,3.313,0.596,0.61,100.492
+0 days 02:04:17.788000,SAI,55,98.454,40.0,3.0,,,False,HARD,8.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.0,0.0,3.314,3.483,1.062,1.09,100.71199999999999
+0 days 02:05:56.203000,SAI,55,98.415,41.0,3.0,,,False,HARD,9.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.039,-0.04,3.275,3.442,0.895,0.918,100.73100000000001
+0 days 02:07:35.939000,SAI,55,99.736,42.0,3.0,,,False,HARD,10.0,True,Williams,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,1.282,1.302,4.596,4.831,2.148,2.201,102.11
+0 days 02:09:15.546000,SAI,55,99.607,43.0,3.0,,,False,HARD,11.0,True,Williams,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,1.153,1.171,4.467,4.695,1.965,2.012,102.039
+0 days 02:10:59.417000,SAI,55,103.871,44.0,3.0,,0 days 02:10:57.722000,False,HARD,12.0,True,Williams,1,20.0,False,4,Bahrain Grand Prix,True,C1,False,5.417,5.502,8.731,9.177,6.147,6.29,106.36
+0 days 02:13:11.767000,SAI,55,132.35,45.0,4.0,0 days 02:11:34.683000,0 days 02:13:09.914000,False,SOFT,4.0,False,Williams,1,20.0,False,4,Bahrain Grand Prix,True,C3,False,33.896,34.428,37.21,39.111,34.711,35.55,134.897
+0 days 00:57:19.702000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,9.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 00:58:58.268000,HAM,44,98.566,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.112,0.114,3.426,3.601,-0.355,-0.359,98.62400000000001
+0 days 01:00:36.687000,HAM,44,98.419,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,-0.035,-0.036,3.279,3.446,-0.213,-0.216,98.535
+0 days 01:02:15.341000,HAM,44,98.654,4.0,1.0,,,False,MEDIUM,4.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.2,0.203,3.514,3.694,-0.034,-0.034,98.828
+0 days 01:03:54.806000,HAM,44,99.465,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.011,1.027,4.325,4.546,0.208,0.21,99.697
+0 days 01:05:33.910000,HAM,44,99.104,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.65,0.66,3.964,4.166,-0.07,-0.071,99.393
+0 days 01:07:13.189000,HAM,44,99.279,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.825,0.838,4.139,4.35,-0.051,-0.051,99.62599999999999
+0 days 01:08:52.932000,HAM,44,99.743,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.289,1.309,4.603,4.838,0.057,0.057,100.148
+0 days 01:10:33.877000,HAM,44,100.945,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,2.491,2.53,5.805,6.102,1.043,1.044,101.40799999999999
+0 days 01:12:13.174000,HAM,44,99.297,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.843,0.856,4.157,4.369,-0.28,-0.281,99.818
+0 days 01:13:52.320000,HAM,44,99.146,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.692,0.703,4.006,4.211,-0.316,-0.318,99.725
+0 days 01:15:31.205000,HAM,44,98.885,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,0.431,0.438,3.745,3.936,-0.143,-0.144,99.522
+0 days 01:17:10.108000,HAM,44,98.903,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C2,True,0.449,0.456,3.763,3.955,0.097,0.098,99.598
+0 days 01:18:49.235000,HAM,44,99.127,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,3.0,True,4,Bahrain Grand Prix,True,C2,True,0.673,0.684,3.987,4.191,0.18,0.182,99.88
+0 days 01:20:28.511000,HAM,44,99.276,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,0.822,0.835,4.136,4.347,0.65,0.659,100.087
+0 days 01:22:07.997000,HAM,44,99.486,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,2.0,True,4,Bahrain Grand Prix,True,C2,True,1.032,1.048,4.346,4.568,0.89,0.903,100.354
+0 days 01:23:49.681000,HAM,44,101.684,17.0,1.0,,0 days 01:23:48.039000,False,MEDIUM,17.0,True,Ferrari,1,2.0,False,4,Bahrain Grand Prix,True,C2,False,3.23,3.281,6.544,6.878,3.342,3.398,102.61
+0 days 01:25:47.568000,HAM,44,117.887,18.0,2.0,0 days 01:24:12.399000,,False,MEDIUM,1.0,True,Ferrari,1,11.0,False,4,Bahrain Grand Prix,True,C2,False,19.433,19.738,22.747,23.909,19.387,19.682,118.871
+0 days 01:27:24.366000,HAM,44,96.798,19.0,2.0,,,True,MEDIUM,2.0,True,Ferrari,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,-1.656,-1.682,1.658,1.743,-1.517,-1.543,97.84
+0 days 01:29:01.692000,HAM,44,97.326,20.0,2.0,,,False,MEDIUM,3.0,True,Ferrari,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,-1.128,-1.146,2.186,2.298,-1.221,-1.239,98.42599999999999
+0 days 01:30:40.122000,HAM,44,98.43,21.0,2.0,,,False,MEDIUM,4.0,True,Ferrari,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,-0.024,-0.024,3.29,3.458,-0.269,-0.273,99.58800000000001
+0 days 01:32:18.132000,HAM,44,98.01,22.0,2.0,,,False,MEDIUM,5.0,True,Ferrari,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-0.444,-0.451,2.87,3.017,-0.589,-0.597,99.226
+0 days 01:33:56.056000,HAM,44,97.924,23.0,2.0,,,False,MEDIUM,6.0,True,Ferrari,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,-0.53,-0.538,2.784,2.926,-0.7,-0.71,99.19800000000001
+0 days 01:35:34.582000,HAM,44,98.526,24.0,2.0,,,False,MEDIUM,7.0,True,Ferrari,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.072,0.073,3.386,3.559,-0.244,-0.247,99.85799999999999
+0 days 01:37:12.245000,HAM,44,97.663,25.0,2.0,,,False,MEDIUM,8.0,True,Ferrari,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.791,-0.803,2.523,2.652,-1.509,-1.522,99.05199999999999
+0 days 01:38:49.630000,HAM,44,97.385,26.0,2.0,,,False,MEDIUM,9.0,True,Ferrari,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-1.069,-1.086,2.245,2.36,-1.808,-1.823,98.83200000000001
+0 days 01:40:27.325000,HAM,44,97.695,27.0,2.0,,,False,MEDIUM,10.0,True,Ferrari,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-0.759,-0.771,2.555,2.686,-1.26,-1.273,99.19999999999999
+0 days 01:42:04.999000,HAM,44,97.674,28.0,2.0,,,False,MEDIUM,11.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.78,-0.792,2.534,2.663,-1.19,-1.204,99.23700000000001
+0 days 01:43:42.287000,HAM,44,97.288,29.0,2.0,,,False,MEDIUM,12.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-1.166,-1.184,2.148,2.258,-0.842,-0.858,98.90899999999999
+0 days 01:45:19.804000,HAM,44,97.517,30.0,2.0,,,False,MEDIUM,13.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.937,-0.952,2.377,2.498,-0.177,-0.181,99.196
+0 days 01:46:57.402000,HAM,44,97.598,31.0,2.0,,,False,MEDIUM,14.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C2,True,-0.856,-0.869,2.458,2.584,-0.446,-0.455,99.335
+0 days 01:48:53.065000,HAM,44,115.663,32.0,2.0,,0 days 01:48:51.358000,False,MEDIUM,15.0,True,Ferrari,14,5.0,False,4,Bahrain Grand Prix,True,C2,False,17.209,17.479,20.523,21.571,-9.745,-7.771,117.458
+0 days 01:51:25.268000,HAM,44,,33.0,3.0,0 days 01:49:15.781000,,False,HARD,1.0,True,Ferrari,4,5.0,False,4,Bahrain Grand Prix,True,C1,False,,,,,,,
+0 days 01:53:38.119000,HAM,44,132.851,34.0,3.0,,,False,HARD,2.0,True,Ferrari,4,5.0,False,4,Bahrain Grand Prix,True,C1,False,34.397,34.937,37.711,39.637,17.449,15.12,134.762
+0 days 01:56:01.183000,HAM,44,143.064,35.0,3.0,,,False,HARD,3.0,True,Ferrari,41,5.0,False,4,Bahrain Grand Prix,True,C1,False,44.61,45.311,47.924,50.372,7.078,5.205,145.03199999999998
+0 days 01:57:38.697000,HAM,44,97.514,36.0,3.0,,,False,HARD,4.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.94,-0.955,2.374,2.495,-1.046,-1.061,99.53999999999999
+0 days 01:59:14.932000,HAM,44,96.235,37.0,3.0,,,True,HARD,5.0,True,Ferrari,1,4.0,True,4,Bahrain Grand Prix,True,C1,True,-2.219,-2.254,1.095,1.151,-1.482,-1.517,98.319
+0 days 02:00:52.130000,HAM,44,97.198,38.0,3.0,,,False,HARD,6.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.256,-1.276,2.058,2.163,-0.653,-0.667,99.33999999999999
+0 days 02:02:28.450000,HAM,44,96.32,39.0,3.0,,,False,HARD,7.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-2.134,-2.168,1.18,1.24,-1.376,-1.408,98.52
+0 days 02:04:05.109000,HAM,44,96.659,40.0,3.0,,,False,HARD,8.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.795,-1.823,1.519,1.597,-0.733,-0.753,98.917
+0 days 02:05:41.957000,HAM,44,96.848,41.0,3.0,,,False,HARD,9.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.606,-1.631,1.708,1.795,-0.672,-0.689,99.164
+0 days 02:07:19.072000,HAM,44,97.115,42.0,3.0,,,False,HARD,10.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.339,-1.36,1.975,2.076,-0.473,-0.485,99.48899999999999
+0 days 02:08:55.828000,HAM,44,96.756,43.0,3.0,,,False,HARD,11.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.698,-1.725,1.616,1.699,-0.886,-0.907,99.188
+0 days 02:10:32.829000,HAM,44,97.001,44.0,3.0,,,False,HARD,12.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.453,-1.476,1.861,1.956,-0.723,-0.74,99.49000000000001
+0 days 02:12:09.863000,HAM,44,97.034,45.0,3.0,,,False,HARD,13.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.42,-1.442,1.894,1.991,-0.605,-0.62,99.581
+0 days 02:13:46.888000,HAM,44,97.025,46.0,3.0,,,False,HARD,14.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.429,-1.451,1.885,1.981,-0.635,-0.65,99.63000000000001
+0 days 02:15:23.770000,HAM,44,96.882,47.0,3.0,,,False,HARD,15.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.572,-1.597,1.742,1.831,-0.764,-0.782,99.545
+0 days 02:17:00.787000,HAM,44,97.017,48.0,3.0,,,False,HARD,16.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-1.437,-1.46,1.877,1.973,-0.65,-0.666,99.738
+0 days 02:18:38.420000,HAM,44,97.633,49.0,3.0,,,False,HARD,17.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.821,-0.834,2.493,2.62,-0.164,-0.168,100.41199999999999
+0 days 02:20:15.996000,HAM,44,97.576,50.0,3.0,,,False,HARD,18.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.878,-0.892,2.436,2.56,-0.258,-0.264,100.413
+0 days 02:21:54.108000,HAM,44,98.112,51.0,3.0,,,False,HARD,19.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.342,-0.347,2.972,3.124,0.037,0.038,101.00699999999999
+0 days 02:23:31.855000,HAM,44,97.747,52.0,3.0,,,False,HARD,20.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.707,-0.718,2.607,2.74,-0.648,-0.659,100.7
+0 days 02:25:10.017000,HAM,44,98.162,53.0,3.0,,,False,HARD,21.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.292,-0.297,3.022,3.176,-0.254,-0.258,101.173
+0 days 02:26:48.045000,HAM,44,98.028,54.0,3.0,,,False,HARD,22.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.426,-0.433,2.888,3.036,-0.468,-0.475,101.096
+0 days 02:28:26.071000,HAM,44,98.026,55.0,3.0,,,False,HARD,23.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.428,-0.435,2.886,3.033,-0.531,-0.539,101.152
+0 days 02:30:04.133000,HAM,44,98.062,56.0,3.0,,,False,HARD,24.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.392,-0.398,2.922,3.071,-0.527,-0.535,101.246
+0 days 02:31:42.571000,HAM,44,98.438,57.0,3.0,,,False,HARD,25.0,True,Ferrari,1,5.0,True,4,Bahrain Grand Prix,True,C1,True,-0.016,-0.016,3.298,3.466,-0.423,-0.428,101.68
+0 days 00:57:20.069000,TSU,22,,1.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,1,10.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:59.028000,TSU,22,98.959,2.0,1.0,,,True,SOFT,5.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.505,0.513,3.819,4.014,0.038,0.038,99.01700000000001
+0 days 01:00:37.593000,TSU,22,98.565,3.0,1.0,,,True,SOFT,6.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.111,0.113,3.425,3.6,-0.067,-0.068,98.681
+0 days 01:02:16.205000,TSU,22,98.612,4.0,1.0,,,False,SOFT,7.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.158,0.16,3.472,3.649,-0.076,-0.077,98.786
+0 days 01:03:55.575000,TSU,22,99.37,5.0,1.0,,,False,SOFT,8.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.916,0.93,4.23,4.446,0.113,0.114,99.602
+0 days 01:05:34.820000,TSU,22,99.245,6.0,1.0,,,False,SOFT,9.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.791,0.803,4.105,4.315,0.071,0.072,99.534
+0 days 01:07:14.186000,TSU,22,99.366,7.0,1.0,,,False,SOFT,10.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.912,0.926,4.226,4.442,0.036,0.036,99.713
+0 days 01:08:53.872000,TSU,22,99.686,8.0,1.0,,,False,SOFT,11.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,1.232,1.251,4.546,4.778,0.0,0.0,100.09100000000001
+0 days 01:10:34.599000,TSU,22,100.727,9.0,1.0,,,False,SOFT,12.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,2.273,2.309,5.587,5.872,0.825,0.826,101.19
+0 days 01:12:14.286000,TSU,22,99.687,10.0,1.0,,,False,SOFT,13.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,1.233,1.252,4.547,4.779,0.11,0.11,100.208
+0 days 01:13:56.309000,TSU,22,102.023,11.0,1.0,,0 days 01:13:54.666000,False,SOFT,14.0,False,Red Bull Racing,1,7.0,False,4,Bahrain Grand Prix,True,C3,False,3.569,3.625,6.883,7.235,2.561,2.575,102.60199999999999
+0 days 01:15:57.213000,TSU,22,120.904,12.0,2.0,0 days 01:14:21.132000,,False,MEDIUM,1.0,True,Red Bull Racing,1,19.0,False,4,Bahrain Grand Prix,True,C2,False,22.45,22.803,25.764,27.08,21.876,22.091,121.541
+0 days 01:17:35.222000,TSU,22,98.009,13.0,2.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,-0.445,-0.452,2.869,3.016,-0.797,-0.807,98.704
+0 days 01:19:13.303000,TSU,22,98.081,14.0,2.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,-0.373,-0.379,2.941,3.091,-0.866,-0.875,98.834
+0 days 01:20:51.626000,TSU,22,98.323,15.0,2.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.131,-0.133,3.183,3.346,-0.303,-0.307,99.134
+0 days 01:22:30.117000,TSU,22,98.491,16.0,2.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,0.037,0.038,3.351,3.522,-0.105,-0.106,99.359
+0 days 01:24:08.775000,TSU,22,98.658,17.0,2.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.204,0.207,3.518,3.698,0.316,0.321,99.584
+0 days 01:25:47.310000,TSU,22,98.535,18.0,2.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.081,0.082,3.395,3.568,0.035,0.036,99.51899999999999
+0 days 01:27:26.224000,TSU,22,98.914,19.0,2.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.46,0.467,3.774,3.967,0.599,0.609,99.956
+0 days 01:29:04.575000,TSU,22,98.351,20.0,2.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,-0.103,-0.105,3.211,3.375,-0.196,-0.199,99.451
+0 days 01:30:43.255000,TSU,22,98.68,21.0,2.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.226,0.23,3.54,3.721,-0.019,-0.019,99.83800000000001
+0 days 01:32:21.968000,TSU,22,98.713,22.0,2.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.259,0.263,3.573,3.756,0.114,0.116,99.92899999999999
+0 days 01:34:00.856000,TSU,22,98.888,23.0,2.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.434,0.441,3.748,3.939,0.264,0.268,100.162
+0 days 01:35:39.887000,TSU,22,99.031,24.0,2.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.577,0.586,3.891,4.09,0.261,0.264,100.363
+0 days 01:37:18.954000,TSU,22,99.067,25.0,2.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.613,0.623,3.927,4.128,-0.105,-0.106,100.45599999999999
+0 days 01:38:58.321000,TSU,22,99.367,26.0,2.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.913,0.927,4.227,4.443,0.174,0.175,100.81400000000001
+0 days 01:40:37.849000,TSU,22,99.528,27.0,2.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,1.074,1.091,4.388,4.612,0.573,0.579,101.033
+0 days 01:42:17.236000,TSU,22,99.387,28.0,2.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,0.933,0.948,4.247,4.464,0.523,0.529,100.95
+0 days 01:43:55.946000,TSU,22,98.71,29.0,2.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.256,0.26,3.57,3.752,0.58,0.591,100.33099999999999
+0 days 01:45:36.700000,TSU,22,100.754,30.0,2.0,,,False,MEDIUM,19.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,2.3,2.336,5.614,5.901,3.06,3.132,102.433
+0 days 01:47:17.177000,TSU,22,100.477,31.0,2.0,,,False,MEDIUM,20.0,True,Red Bull Racing,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,2.023,2.055,5.337,5.61,2.433,2.482,102.214
+0 days 01:49:20.898000,TSU,22,123.721,32.0,2.0,,0 days 01:49:19.162000,False,MEDIUM,21.0,True,Red Bull Racing,14,7.0,False,4,Bahrain Grand Prix,True,C2,False,25.267,25.664,28.581,30.041,-1.687,-1.345,125.516
+0 days 01:51:52.435000,TSU,22,,33.0,3.0,0 days 01:49:43.957000,,False,SOFT,4.0,False,Red Bull Racing,4,11.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 01:53:48.482000,TSU,22,116.047,34.0,3.0,,,False,SOFT,5.0,False,Red Bull Racing,4,11.0,False,4,Bahrain Grand Prix,True,C3,False,17.593,17.869,20.907,21.975,0.645,0.559,117.958
+0 days 01:56:03.992000,TSU,22,135.51,35.0,3.0,,,False,SOFT,6.0,False,Red Bull Racing,41,11.0,False,4,Bahrain Grand Prix,True,C3,False,37.056,37.638,40.37,42.432,-0.476,-0.35,137.47799999999998
+0 days 01:57:42.234000,TSU,22,98.242,36.0,3.0,,,False,SOFT,7.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.212,-0.215,3.102,3.26,-0.318,-0.323,100.268
+0 days 01:59:19.874000,TSU,22,97.64,37.0,3.0,,,True,SOFT,8.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.814,-0.827,2.5,2.628,-0.077,-0.079,99.724
+0 days 02:00:58.203000,TSU,22,98.329,38.0,3.0,,,False,SOFT,9.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.125,-0.127,3.189,3.352,0.478,0.488,100.47099999999999
+0 days 02:02:36.017000,TSU,22,97.814,39.0,3.0,,,False,SOFT,10.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.64,-0.65,2.674,2.811,0.118,0.121,100.014
+0 days 02:04:13.320000,TSU,22,97.303,40.0,3.0,,,True,SOFT,11.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-1.151,-1.169,2.163,2.273,-0.089,-0.091,99.56099999999999
+0 days 02:05:50.815000,TSU,22,97.495,41.0,3.0,,,False,SOFT,12.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.959,-0.974,2.355,2.475,-0.025,-0.026,99.811
+0 days 02:07:28.422000,TSU,22,97.607,42.0,3.0,,,False,SOFT,13.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.847,-0.86,2.467,2.593,0.019,0.019,99.981
+0 days 02:09:06.149000,TSU,22,97.727,43.0,3.0,,,False,SOFT,14.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.727,-0.738,2.587,2.719,0.085,0.087,100.159
+0 days 02:10:43.987000,TSU,22,97.838,44.0,3.0,,,False,SOFT,15.0,False,Red Bull Racing,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.616,-0.626,2.698,2.836,0.114,0.117,100.327
+0 days 02:12:21.212000,TSU,22,97.225,45.0,3.0,,,True,SOFT,16.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-1.229,-1.248,2.085,2.192,-0.414,-0.424,99.77199999999999
+0 days 02:13:58.948000,TSU,22,97.736,46.0,3.0,,,False,SOFT,17.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.718,-0.729,2.596,2.729,0.076,0.078,100.34100000000001
+0 days 02:15:36.594000,TSU,22,97.646,47.0,3.0,,,False,SOFT,18.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.808,-0.821,2.506,2.634,0.0,0.0,100.309
+0 days 02:17:14.308000,TSU,22,97.714,48.0,3.0,,,False,SOFT,19.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.74,-0.752,2.574,2.705,0.047,0.048,100.435
+0 days 02:18:52.139000,TSU,22,97.831,49.0,3.0,,,False,SOFT,20.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.623,-0.633,2.691,2.828,0.034,0.035,100.61
+0 days 02:20:29.973000,TSU,22,97.834,50.0,3.0,,,False,SOFT,21.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.62,-0.63,2.694,2.832,0.0,0.0,100.671
+0 days 02:22:08.246000,TSU,22,98.273,51.0,3.0,,,False,SOFT,22.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.181,-0.184,3.133,3.293,0.198,0.202,101.16799999999999
+0 days 02:23:46.743000,TSU,22,98.497,52.0,3.0,,,False,SOFT,23.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,0.043,0.044,3.357,3.528,0.102,0.104,101.45
+0 days 02:25:25.142000,TSU,22,98.399,53.0,3.0,,,False,SOFT,24.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,-0.055,-0.056,3.259,3.425,-0.017,-0.017,101.41
+0 days 02:27:03.668000,TSU,22,98.526,54.0,3.0,,,False,SOFT,25.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,0.072,0.073,3.386,3.559,0.03,0.03,101.594
+0 days 02:28:42.207000,TSU,22,98.539,55.0,3.0,,,False,SOFT,26.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,0.085,0.086,3.399,3.573,-0.018,-0.018,101.665
+0 days 02:30:20.796000,TSU,22,98.589,56.0,3.0,,,False,SOFT,27.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,0.135,0.137,3.449,3.625,0.0,0.0,101.773
+0 days 02:31:59.657000,TSU,22,98.861,57.0,3.0,,,False,SOFT,28.0,False,Red Bull Racing,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,0.407,0.413,3.721,3.911,0.0,0.0,102.10300000000001
+0 days 00:57:20.306000,DOO,7,,1.0,1.0,,,False,SOFT,1.0,True,Alpine,1,11.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:58:59.478000,DOO,7,99.172,2.0,1.0,,,True,SOFT,2.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.718,0.729,4.032,4.238,0.251,0.254,99.23
+0 days 01:00:38.192000,DOO,7,98.714,3.0,1.0,,,True,SOFT,3.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.26,0.264,3.574,3.757,0.082,0.083,98.83
+0 days 01:02:16.914000,DOO,7,98.722,4.0,1.0,,,False,SOFT,4.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.268,0.272,3.582,3.765,0.034,0.034,98.896
+0 days 01:03:56.209000,DOO,7,99.295,5.0,1.0,,,False,SOFT,5.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.841,0.854,4.155,4.367,0.038,0.038,99.527
+0 days 01:05:35.495000,DOO,7,99.286,6.0,1.0,,,False,SOFT,6.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,0.832,0.845,4.146,4.358,0.112,0.113,99.575
+0 days 01:07:14.952000,DOO,7,99.457,7.0,1.0,,,False,SOFT,7.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,1.003,1.019,4.317,4.538,0.127,0.128,99.80399999999999
+0 days 01:08:54.765000,DOO,7,99.813,8.0,1.0,,,False,SOFT,8.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,1.359,1.38,4.673,4.912,0.127,0.127,100.218
+0 days 01:10:38.296000,DOO,7,103.531,9.0,1.0,,0 days 01:10:36.604000,False,SOFT,9.0,True,Alpine,1,12.0,False,4,Bahrain Grand Prix,True,C3,False,5.077,5.157,8.391,8.82,3.629,3.633,103.994
+0 days 01:12:36.378000,DOO,7,118.082,10.0,2.0,0 days 01:11:01.409000,,False,MEDIUM,1.0,True,Alpine,1,18.0,False,4,Bahrain Grand Prix,True,C2,False,19.628,19.936,22.942,24.114,18.505,18.584,118.603
+0 days 01:14:14.123000,DOO,7,97.745,11.0,2.0,,,False,MEDIUM,2.0,True,Alpine,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,-0.709,-0.72,2.605,2.738,-1.717,-1.726,98.324
+0 days 01:15:52.136000,DOO,7,98.013,12.0,2.0,,,True,MEDIUM,3.0,True,Alpine,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,-0.441,-0.448,2.873,3.02,-1.015,-1.025,98.65
+0 days 01:17:30.561000,DOO,7,98.425,13.0,2.0,,,False,MEDIUM,4.0,True,Alpine,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,-0.029,-0.029,3.285,3.453,-0.381,-0.386,99.11999999999999
+0 days 01:19:08.734000,DOO,7,98.173,14.0,2.0,,,False,MEDIUM,5.0,True,Alpine,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.281,-0.285,3.033,3.188,-0.774,-0.782,98.926
+0 days 01:20:47.046000,DOO,7,98.312,15.0,2.0,,,False,MEDIUM,6.0,True,Alpine,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.142,-0.144,3.172,3.334,-0.314,-0.318,99.123
+0 days 01:22:25.748000,DOO,7,98.702,16.0,2.0,,,False,MEDIUM,7.0,True,Alpine,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.248,0.252,3.562,3.744,0.106,0.108,99.57
+0 days 01:24:04.716000,DOO,7,98.968,17.0,2.0,,,False,MEDIUM,8.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.514,0.522,3.828,4.024,0.626,0.637,99.894
+0 days 01:25:43.265000,DOO,7,98.549,18.0,2.0,,,False,MEDIUM,9.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.095,0.096,3.409,3.583,0.049,0.05,99.533
+0 days 01:27:21.563000,DOO,7,98.298,19.0,2.0,,,False,MEDIUM,10.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,-0.156,-0.158,3.158,3.319,-0.017,-0.017,99.34
+0 days 01:29:00.829000,DOO,7,99.266,20.0,2.0,,,False,MEDIUM,11.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.812,0.825,4.126,4.337,0.719,0.73,100.366
+0 days 01:30:39.802000,DOO,7,98.973,21.0,2.0,,,False,MEDIUM,12.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,0.519,0.527,3.833,4.029,0.274,0.278,100.131
+0 days 01:32:19.699000,DOO,7,99.897,22.0,2.0,,,False,MEDIUM,13.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,1.443,1.466,4.757,5.0,1.298,1.316,101.113
+0 days 01:33:58.541000,DOO,7,98.842,23.0,2.0,,,False,MEDIUM,14.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.388,0.394,3.702,3.891,0.218,0.221,100.116
+0 days 01:35:37.963000,DOO,7,99.422,24.0,2.0,,,False,MEDIUM,15.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.968,0.983,4.282,4.501,0.652,0.66,100.75399999999999
+0 days 01:37:17.286000,DOO,7,99.323,25.0,2.0,,,False,MEDIUM,16.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,0.869,0.883,4.183,4.397,0.151,0.152,100.71199999999999
+0 days 01:38:57.038000,DOO,7,99.752,26.0,2.0,,,False,MEDIUM,17.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.298,1.318,4.612,4.848,0.559,0.564,101.199
+0 days 01:40:36.559000,DOO,7,99.521,27.0,2.0,,,False,MEDIUM,18.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.067,1.084,4.381,4.605,0.566,0.572,101.026
+0 days 01:42:18.467000,DOO,7,101.908,28.0,2.0,,0 days 01:42:16.778000,False,MEDIUM,19.0,True,Alpine,1,9.0,False,4,Bahrain Grand Prix,True,C2,False,3.454,3.508,6.768,7.114,3.044,3.079,103.471
+0 days 01:44:16.481000,DOO,7,118.014,29.0,3.0,0 days 01:42:41.917000,,False,HARD,1.0,True,Alpine,1,17.0,False,4,Bahrain Grand Prix,True,C1,False,19.56,19.867,22.874,24.042,19.884,20.263,119.63499999999999
+0 days 01:45:54.068000,DOO,7,97.587,30.0,3.0,,,True,HARD,2.0,True,Alpine,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,-0.867,-0.881,2.447,2.572,-0.107,-0.11,99.266
+0 days 01:47:30.750000,DOO,7,96.682,31.0,3.0,,,True,HARD,3.0,True,Alpine,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,-1.772,-1.8,1.542,1.621,-1.362,-1.389,98.419
+0 days 01:49:37.208000,DOO,7,126.458,32.0,3.0,,,False,HARD,4.0,True,Alpine,14,15.0,False,4,Bahrain Grand Prix,True,C1,False,28.004,28.444,31.318,32.918,1.05,0.837,128.253
+0 days 01:51:50.643000,DOO,7,133.435,33.0,3.0,,,False,HARD,5.0,True,Alpine,4,9.0,False,4,Bahrain Grand Prix,True,C1,False,34.981,35.53,38.295,40.251,0.198,0.149,135.288
+0 days 01:53:45.585000,DOO,7,114.942,34.0,3.0,,,False,HARD,6.0,True,Alpine,4,9.0,False,4,Bahrain Grand Prix,True,C1,False,16.488,16.747,19.802,20.814,-0.46,-0.399,116.853
+0 days 01:56:03.230000,DOO,7,137.645,35.0,3.0,,,False,HARD,7.0,True,Alpine,41,9.0,False,4,Bahrain Grand Prix,True,C1,False,39.191,39.806,42.505,44.676,1.659,1.22,139.613
+0 days 01:57:41.727000,DOO,7,98.497,36.0,3.0,,,False,HARD,8.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,0.043,0.044,3.357,3.528,-0.063,-0.064,100.523
+0 days 01:59:19.305000,DOO,7,97.578,37.0,3.0,,,False,HARD,9.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.876,-0.89,2.438,2.563,-0.139,-0.142,99.662
+0 days 02:00:57.449000,DOO,7,98.144,38.0,3.0,,,False,HARD,10.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.31,-0.315,3.004,3.157,0.293,0.299,100.286
+0 days 02:02:34.978000,DOO,7,97.529,39.0,3.0,,,False,HARD,11.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.925,-0.94,2.389,2.511,-0.167,-0.171,99.729
+0 days 02:04:12.471000,DOO,7,97.493,40.0,3.0,,,False,HARD,12.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.961,-0.976,2.353,2.473,0.101,0.104,99.75099999999999
+0 days 02:05:50.006000,DOO,7,97.535,41.0,3.0,,,False,HARD,13.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.919,-0.933,2.395,2.517,0.015,0.015,99.851
+0 days 02:07:27.539000,DOO,7,97.533,42.0,3.0,,,False,HARD,14.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.921,-0.935,2.393,2.515,-0.055,-0.056,99.907
+0 days 02:09:05.315000,DOO,7,97.776,43.0,3.0,,,False,HARD,15.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.678,-0.689,2.636,2.771,0.134,0.137,100.208
+0 days 02:10:43.197000,DOO,7,97.882,44.0,3.0,,,False,HARD,16.0,True,Alpine,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,-0.572,-0.581,2.742,2.882,0.158,0.162,100.37100000000001
+0 days 02:12:22.198000,DOO,7,99.001,45.0,3.0,,,False,HARD,17.0,True,Alpine,1,10.0,True,4,Bahrain Grand Prix,True,C1,True,0.547,0.556,3.861,4.058,1.362,1.395,101.548
+0 days 02:14:01.742000,DOO,7,99.544,46.0,3.0,,,False,HARD,18.0,True,Alpine,1,12.0,True,4,Bahrain Grand Prix,True,C1,True,1.09,1.107,4.404,4.629,1.884,1.929,102.149
+0 days 02:15:40.658000,DOO,7,98.916,47.0,3.0,,,False,HARD,19.0,True,Alpine,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.462,0.469,3.776,3.969,1.27,1.301,101.579
+0 days 02:17:19.008000,DOO,7,98.35,48.0,3.0,,,False,HARD,20.0,True,Alpine,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,-0.104,-0.106,3.21,3.374,0.683,0.699,101.071
+0 days 02:18:57.201000,DOO,7,98.193,49.0,3.0,,,False,HARD,21.0,True,Alpine,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,-0.261,-0.265,3.053,3.209,0.396,0.405,100.972
+0 days 02:20:36.674000,DOO,7,99.473,50.0,3.0,,,False,HARD,22.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,1.019,1.035,4.333,4.554,1.639,1.675,102.31
+0 days 02:22:15.254000,DOO,7,98.58,51.0,3.0,,,False,HARD,23.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.126,0.128,3.44,3.616,0.505,0.515,101.475
+0 days 02:23:53.649000,DOO,7,98.395,52.0,3.0,,,False,HARD,24.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.059,-0.06,3.255,3.421,0.0,0.0,101.348
+0 days 02:25:32.083000,DOO,7,98.434,53.0,3.0,,,False,HARD,25.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.02,-0.02,3.294,3.462,0.018,0.018,101.445
+0 days 02:27:10.640000,DOO,7,98.557,54.0,3.0,,,False,HARD,26.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.103,0.105,3.417,3.592,0.061,0.062,101.625
+0 days 02:28:49.197000,DOO,7,98.557,55.0,3.0,,,False,HARD,27.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.103,0.105,3.417,3.592,0.0,0.0,101.683
+0 days 02:30:28.008000,DOO,7,98.811,56.0,3.0,,,False,HARD,28.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.357,0.363,3.671,3.859,0.222,0.225,101.995
+0 days 02:32:07.375000,DOO,7,99.367,57.0,3.0,,,False,HARD,29.0,True,Alpine,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.913,0.927,4.227,4.443,0.506,0.512,102.60900000000001
+0 days 00:57:23.247000,HAD,6,,1.0,1.0,,,False,SOFT,1.0,True,Racing Bulls,1,16.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:02.850000,HAD,6,99.603,2.0,1.0,,,False,SOFT,2.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,1.149,1.167,4.463,4.691,0.682,0.689,99.661
+0 days 01:00:42.617000,HAD,6,99.767,3.0,1.0,,,False,SOFT,3.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,1.313,1.334,4.627,4.863,1.135,1.151,99.883
+0 days 01:02:22.248000,HAD,6,99.631,4.0,1.0,,,True,SOFT,4.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,1.177,1.195,4.491,4.72,0.943,0.956,99.805
+0 days 01:04:01.917000,HAD,6,99.669,5.0,1.0,,,False,SOFT,5.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,1.215,1.234,4.529,4.76,0.412,0.415,99.901
+0 days 01:05:44.283000,HAD,6,102.366,6.0,1.0,,0 days 01:05:42.618000,False,SOFT,6.0,True,Racing Bulls,1,18.0,False,4,Bahrain Grand Prix,True,C3,False,3.912,3.973,7.226,7.595,3.192,3.219,102.655
+0 days 01:07:43.075000,HAD,6,118.792,7.0,2.0,0 days 01:06:07.903000,,False,MEDIUM,1.0,True,Racing Bulls,1,20.0,False,4,Bahrain Grand Prix,True,C2,False,20.338,20.657,23.652,24.86,19.462,19.593,119.139
+0 days 01:09:20.467000,HAD,6,97.392,8.0,2.0,,,False,MEDIUM,2.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,-1.062,-1.079,2.252,2.367,-2.294,-2.301,97.797
+0 days 01:10:59.009000,HAD,6,98.542,9.0,2.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.088,0.089,3.402,3.576,-1.36,-1.361,99.005
+0 days 01:12:38.438000,HAD,6,99.429,10.0,2.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.975,0.99,4.289,4.508,-0.148,-0.149,99.95
+0 days 01:14:17.061000,HAD,6,98.623,11.0,2.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.169,0.172,3.483,3.661,-0.839,-0.844,99.202
+0 days 01:15:55.761000,HAD,6,98.7,12.0,2.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.246,0.25,3.56,3.742,-0.328,-0.331,99.337
+0 days 01:17:34.610000,HAD,6,98.849,13.0,2.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.395,0.401,3.709,3.898,0.043,0.044,99.544
+0 days 01:19:14.640000,HAD,6,100.03,14.0,2.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.576,1.601,4.89,5.14,1.083,1.095,100.783
+0 days 01:20:53.533000,HAD,6,98.893,15.0,2.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,0.439,0.446,3.753,3.945,0.267,0.271,99.70400000000001
+0 days 01:22:32.701000,HAD,6,99.168,16.0,2.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,0.714,0.725,4.028,4.234,0.572,0.58,100.036
+0 days 01:24:11.450000,HAD,6,98.749,17.0,2.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.295,0.3,3.609,3.793,0.407,0.414,99.675
+0 days 01:25:51.468000,HAD,6,100.018,18.0,2.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,1.564,1.589,4.878,5.127,1.518,1.541,101.002
+0 days 01:27:30.362000,HAD,6,98.894,19.0,2.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,0.44,0.447,3.754,3.946,0.579,0.589,99.936
+0 days 01:29:09.235000,HAD,6,98.873,20.0,2.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,0.419,0.426,3.733,3.924,0.326,0.331,99.973
+0 days 01:30:49.999000,HAD,6,100.764,21.0,2.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,2.31,2.346,5.624,5.911,2.065,2.092,101.922
+0 days 01:32:29.441000,HAD,6,99.442,22.0,2.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,0.988,1.004,4.302,4.522,0.843,0.855,100.65799999999999
+0 days 01:34:09.806000,HAD,6,100.365,23.0,2.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.911,1.941,5.225,5.492,1.741,1.765,101.639
+0 days 01:35:49.328000,HAD,6,99.522,24.0,2.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.068,1.085,4.382,4.606,0.752,0.761,100.854
+0 days 01:37:29.123000,HAD,6,99.795,25.0,2.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.341,1.362,4.655,4.893,0.623,0.628,101.184
+0 days 01:39:08.711000,HAD,6,99.588,26.0,2.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.134,1.152,4.448,4.675,0.395,0.398,101.035
+0 days 01:40:48.176000,HAD,6,99.465,27.0,2.0,,,False,MEDIUM,21.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,1.011,1.027,4.325,4.546,0.51,0.515,100.97
+0 days 01:42:30.252000,HAD,6,102.076,28.0,2.0,,0 days 01:42:28.733000,False,MEDIUM,22.0,True,Racing Bulls,1,13.0,False,4,Bahrain Grand Prix,True,C2,False,3.622,3.679,6.936,7.29,3.212,3.249,103.639
+0 days 01:44:28.438000,HAD,6,118.186,29.0,3.0,0 days 01:42:53.155000,,False,HARD,1.0,True,Racing Bulls,1,19.0,False,4,Bahrain Grand Prix,True,C1,False,19.732,20.042,23.046,24.223,20.056,20.438,119.807
+0 days 01:46:05.390000,HAD,6,96.952,30.0,3.0,,,True,HARD,2.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-1.502,-1.526,1.812,1.905,-0.742,-0.76,98.631
+0 days 01:47:42.548000,HAD,6,97.158,31.0,3.0,,,False,HARD,3.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-1.296,-1.316,2.018,2.121,-0.886,-0.904,98.895
+0 days 01:49:52.528000,HAD,6,129.98,32.0,3.0,,,False,HARD,4.0,True,Racing Bulls,14,19.0,False,4,Bahrain Grand Prix,True,C1,False,31.526,32.021,34.84,36.62,4.572,3.646,131.77499999999998
+0 days 01:52:07.811000,HAD,6,135.283,33.0,3.0,,,False,HARD,5.0,True,Racing Bulls,4,16.0,False,4,Bahrain Grand Prix,True,C1,False,36.829,37.407,40.143,42.194,2.046,1.536,137.136
+0 days 01:54:00.776000,HAD,6,112.965,34.0,3.0,,,False,HARD,6.0,True,Racing Bulls,4,16.0,False,4,Bahrain Grand Prix,True,C1,False,14.511,14.739,17.825,18.736,-2.437,-2.112,114.876
+0 days 01:56:06.284000,HAD,6,125.508,35.0,3.0,,,False,HARD,7.0,True,Racing Bulls,41,16.0,False,4,Bahrain Grand Prix,True,C1,False,27.054,27.479,30.368,31.919,-10.478,-7.705,127.476
+0 days 01:57:46.602000,HAD,6,100.318,36.0,3.0,,,False,HARD,8.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,1.864,1.893,5.178,5.443,1.758,1.784,102.344
+0 days 01:59:25.069000,HAD,6,98.467,37.0,3.0,,,False,HARD,9.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.013,0.013,3.327,3.497,0.75,0.768,100.551
+0 days 02:01:02.900000,HAD,6,97.831,38.0,3.0,,,False,HARD,10.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.623,-0.633,2.691,2.828,-0.02,-0.02,99.973
+0 days 02:02:41.229000,HAD,6,98.329,39.0,3.0,,,False,HARD,11.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.125,-0.127,3.189,3.352,0.633,0.648,100.529
+0 days 02:04:19.571000,HAD,6,98.342,40.0,3.0,,,False,HARD,12.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.112,-0.114,3.202,3.366,0.95,0.975,100.6
+0 days 02:05:58.257000,HAD,6,98.686,41.0,3.0,,,False,HARD,13.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.232,0.236,3.546,3.727,1.166,1.196,101.00200000000001
+0 days 02:07:36.818000,HAD,6,98.561,42.0,3.0,,,False,HARD,14.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.107,0.109,3.421,3.596,0.973,0.997,100.935
+0 days 02:09:15.891000,HAD,6,99.073,43.0,3.0,,,False,HARD,15.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.619,0.629,3.933,4.134,1.431,1.466,101.505
+0 days 02:10:53.615000,HAD,6,97.724,44.0,3.0,,,False,HARD,16.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.73,-0.741,2.584,2.716,0.0,0.0,100.21300000000001
+0 days 02:12:31.634000,HAD,6,98.019,45.0,3.0,,,False,HARD,17.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.435,-0.442,2.879,3.026,0.38,0.389,100.566
+0 days 02:14:09.427000,HAD,6,97.793,46.0,3.0,,,False,HARD,18.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.661,-0.671,2.653,2.789,0.133,0.136,100.39800000000001
+0 days 02:15:47.189000,HAD,6,97.762,47.0,3.0,,,False,HARD,19.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.692,-0.703,2.622,2.756,0.116,0.119,100.425
+0 days 02:17:25.210000,HAD,6,98.021,48.0,3.0,,,False,HARD,20.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.433,-0.44,2.881,3.028,0.354,0.362,100.742
+0 days 02:19:03.195000,HAD,6,97.985,49.0,3.0,,,False,HARD,21.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.469,-0.476,2.845,2.99,0.188,0.192,100.764
+0 days 02:20:41.337000,HAD,6,98.142,50.0,3.0,,,False,HARD,22.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.312,-0.317,3.002,3.155,0.308,0.315,100.979
+0 days 02:22:19.603000,HAD,6,98.266,51.0,3.0,,,False,HARD,23.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.188,-0.191,3.126,3.286,0.191,0.195,101.161
+0 days 02:23:57.808000,HAD,6,98.205,52.0,3.0,,,False,HARD,24.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.249,-0.253,3.065,3.222,-0.19,-0.193,101.158
+0 days 02:25:36.303000,HAD,6,98.495,53.0,3.0,,,False,HARD,25.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,0.041,0.042,3.355,3.526,0.079,0.08,101.506
+0 days 02:27:15.306000,HAD,6,99.003,54.0,3.0,,,False,HARD,26.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,0.549,0.558,3.863,4.06,0.507,0.515,102.071
+0 days 02:28:53.603000,HAD,6,98.297,55.0,3.0,,,False,HARD,27.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.157,-0.159,3.157,3.318,-0.26,-0.264,101.423
+0 days 02:30:32.387000,HAD,6,98.784,56.0,3.0,,,False,HARD,28.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,0.33,0.335,3.644,3.83,0.195,0.198,101.968
+0 days 02:32:10.883000,HAD,6,98.496,57.0,3.0,,,False,HARD,29.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,0.042,0.043,3.356,3.527,-0.365,-0.369,101.738
+0 days 00:57:20.920000,ALO,14,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,1,12.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 00:59:01.434000,ALO,14,100.514,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,2.06,2.092,5.374,5.649,1.593,1.61,100.572
+0 days 01:00:41.451000,ALO,14,100.017,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,1.563,1.588,4.877,5.126,1.385,1.404,100.133
+0 days 01:02:20.769000,ALO,14,99.318,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,0.864,0.878,4.178,4.391,0.63,0.638,99.492
+0 days 01:04:01.324000,ALO,14,100.555,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,2.101,2.134,5.415,5.692,1.298,1.308,100.787
+0 days 01:05:40.913000,ALO,14,99.589,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.135,1.153,4.449,4.676,0.415,0.418,99.878
+0 days 01:07:20.832000,ALO,14,99.919,7.0,1.0,,,False,MEDIUM,7.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.465,1.488,4.779,5.023,0.589,0.593,100.26599999999999
+0 days 01:09:01.027000,ALO,14,100.195,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.741,1.768,5.055,5.313,0.509,0.511,100.6
+0 days 01:10:41.261000,ALO,14,100.234,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,1.78,1.808,5.094,5.354,0.332,0.332,100.69699999999999
+0 days 01:12:21.630000,ALO,14,100.369,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,1.915,1.945,5.229,5.496,0.792,0.795,100.89
+0 days 01:14:01.641000,ALO,14,100.011,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,1.557,1.581,4.871,5.12,0.549,0.552,100.58999999999999
+0 days 01:15:41.615000,ALO,14,99.974,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.52,1.544,4.834,5.081,0.946,0.955,100.611
+0 days 01:17:21.366000,ALO,14,99.751,13.0,1.0,,,False,MEDIUM,13.0,True,Aston Martin,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,1.297,1.317,4.611,4.847,0.945,0.956,100.446
+0 days 01:19:01.997000,ALO,14,100.631,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,2.177,2.211,5.491,5.771,1.684,1.702,101.384
+0 days 01:20:42.458000,ALO,14,100.461,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,2.007,2.039,5.321,5.593,1.835,1.861,101.272
+0 days 01:22:26.025000,ALO,14,103.567,16.0,1.0,,0 days 01:22:24.299000,False,MEDIUM,16.0,True,Aston Martin,1,12.0,False,4,Bahrain Grand Prix,True,C2,False,5.113,5.193,8.427,8.857,4.971,5.042,104.43499999999999
+0 days 01:24:24.314000,ALO,14,118.289,17.0,2.0,0 days 01:22:49.257000,,False,MEDIUM,1.0,True,Aston Martin,1,19.0,False,4,Bahrain Grand Prix,True,C2,False,19.835,20.146,23.149,24.332,19.947,20.283,119.215
+0 days 01:26:02.453000,ALO,14,98.139,18.0,2.0,,,True,MEDIUM,2.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,-0.315,-0.32,2.999,3.152,-0.361,-0.366,99.12299999999999
+0 days 01:27:40.408000,ALO,14,97.955,19.0,2.0,,,True,MEDIUM,3.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,-0.499,-0.507,2.815,2.959,-0.36,-0.366,98.997
+0 days 01:29:18.882000,ALO,14,98.474,20.0,2.0,,,False,MEDIUM,4.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.02,0.02,3.334,3.504,-0.073,-0.074,99.574
+0 days 01:30:57.883000,ALO,14,99.001,21.0,2.0,,,False,MEDIUM,5.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.547,0.556,3.861,4.058,0.302,0.306,100.159
+0 days 01:32:36.432000,ALO,14,98.549,22.0,2.0,,,False,MEDIUM,6.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.095,0.096,3.409,3.583,-0.05,-0.051,99.765
+0 days 01:34:14.940000,ALO,14,98.508,23.0,2.0,,,False,MEDIUM,7.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.054,0.055,3.368,3.54,-0.116,-0.118,99.782
+0 days 01:35:53.699000,ALO,14,98.759,24.0,2.0,,,False,MEDIUM,8.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.305,0.31,3.619,3.804,-0.011,-0.011,100.091
+0 days 01:37:32.898000,ALO,14,99.199,25.0,2.0,,,False,MEDIUM,9.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.745,0.757,4.059,4.266,0.027,0.027,100.588
+0 days 01:39:11.209000,ALO,14,98.311,26.0,2.0,,,False,MEDIUM,10.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,-0.143,-0.145,3.171,3.333,-0.882,-0.889,99.75800000000001
+0 days 01:40:49.888000,ALO,14,98.679,27.0,2.0,,,False,MEDIUM,11.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.225,0.229,3.539,3.72,-0.276,-0.279,100.184
+0 days 01:42:28.785000,ALO,14,98.897,28.0,2.0,,,False,MEDIUM,12.0,True,Aston Martin,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.443,0.45,3.757,3.949,0.033,0.033,100.46000000000001
+0 days 01:44:07.487000,ALO,14,98.702,29.0,2.0,,,False,MEDIUM,13.0,True,Aston Martin,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.248,0.252,3.562,3.744,0.572,0.583,100.323
+0 days 01:45:45.964000,ALO,14,98.477,30.0,2.0,,,False,MEDIUM,14.0,True,Aston Martin,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,0.023,0.023,3.337,3.507,0.783,0.801,100.156
+0 days 01:47:26.145000,ALO,14,100.181,31.0,2.0,,,False,MEDIUM,15.0,True,Aston Martin,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,1.727,1.754,5.041,5.299,2.137,2.18,101.91799999999999
+0 days 01:49:32.506000,ALO,14,126.361,32.0,2.0,,0 days 01:49:30.793000,False,MEDIUM,16.0,True,Aston Martin,14,14.0,False,4,Bahrain Grand Prix,True,C2,False,27.907,28.345,31.221,32.816,0.953,0.76,128.156
+0 days 01:52:04.249000,ALO,14,,33.0,3.0,0 days 01:49:55.576000,,False,HARD,1.0,True,Aston Martin,4,15.0,False,4,Bahrain Grand Prix,True,C1,False,,,,,,,
+0 days 01:53:55.919000,ALO,14,111.67,34.0,3.0,,,False,HARD,2.0,True,Aston Martin,4,15.0,False,4,Bahrain Grand Prix,True,C1,False,13.216,13.424,16.53,17.374,-3.732,-3.234,113.581
+0 days 01:56:06.280000,ALO,14,130.361,35.0,3.0,,,False,HARD,3.0,True,Aston Martin,41,15.0,False,4,Bahrain Grand Prix,True,C1,False,31.907,32.408,35.221,37.02,-5.625,-4.136,132.32899999999998
+0 days 01:57:47.011000,ALO,14,100.731,36.0,3.0,,,False,HARD,4.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,2.277,2.313,5.591,5.877,2.171,2.203,102.75699999999999
+0 days 01:59:25.657000,ALO,14,98.646,37.0,3.0,,,False,HARD,5.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.192,0.195,3.506,3.685,0.929,0.951,100.73
+0 days 02:01:03.563000,ALO,14,97.906,38.0,3.0,,,True,HARD,6.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.548,-0.557,2.766,2.907,0.055,0.056,100.048
+0 days 02:02:41.954000,ALO,14,98.391,39.0,3.0,,,False,HARD,7.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.063,-0.064,3.251,3.417,0.695,0.711,100.59100000000001
+0 days 02:04:20.342000,ALO,14,98.388,40.0,3.0,,,False,HARD,8.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.066,-0.067,3.248,3.414,0.996,1.023,100.646
+0 days 02:05:58.872000,ALO,14,98.53,41.0,3.0,,,False,HARD,9.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.076,0.077,3.39,3.563,1.01,1.036,100.846
+0 days 02:07:37.555000,ALO,14,98.683,42.0,3.0,,,False,HARD,10.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.229,0.233,3.543,3.724,1.095,1.122,101.057
+0 days 02:09:16.529000,ALO,14,98.974,43.0,3.0,,,False,HARD,11.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.52,0.528,3.834,4.03,1.332,1.364,101.406
+0 days 02:10:54.797000,ALO,14,98.268,44.0,3.0,,,False,HARD,12.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.186,-0.189,3.128,3.288,0.544,0.557,100.757
+0 days 02:12:33.218000,ALO,14,98.421,45.0,3.0,,,False,HARD,13.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.033,-0.034,3.281,3.449,0.782,0.801,100.968
+0 days 02:14:11.238000,ALO,14,98.02,46.0,3.0,,,False,HARD,14.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.434,-0.441,2.88,3.027,0.36,0.369,100.625
+0 days 02:15:49.356000,ALO,14,98.118,47.0,3.0,,,False,HARD,15.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.336,-0.341,2.978,3.13,0.472,0.483,100.78099999999999
+0 days 02:17:27.685000,ALO,14,98.329,48.0,3.0,,,False,HARD,16.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.125,-0.127,3.189,3.352,0.662,0.678,101.05
+0 days 02:19:06.227000,ALO,14,98.542,49.0,3.0,,,False,HARD,17.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.088,0.089,3.402,3.576,0.745,0.762,101.321
+0 days 02:20:44.343000,ALO,14,98.116,50.0,3.0,,,False,HARD,18.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.338,-0.343,2.976,3.128,0.282,0.288,100.953
+0 days 02:22:22.580000,ALO,14,98.237,51.0,3.0,,,False,HARD,19.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.217,-0.22,3.097,3.255,0.162,0.165,101.13199999999999
+0 days 02:24:01.190000,ALO,14,98.61,52.0,3.0,,,False,HARD,20.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.156,0.158,3.47,3.647,0.215,0.219,101.563
+0 days 02:25:39.791000,ALO,14,98.601,53.0,3.0,,,False,HARD,21.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.147,0.149,3.461,3.638,0.185,0.188,101.612
+0 days 02:27:18.233000,ALO,14,98.442,54.0,3.0,,,False,HARD,22.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.012,-0.012,3.302,3.471,-0.054,-0.055,101.50999999999999
+0 days 02:28:56.877000,ALO,14,98.644,55.0,3.0,,,False,HARD,23.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.19,0.193,3.504,3.683,0.087,0.088,101.77000000000001
+0 days 02:30:36.195000,ALO,14,99.318,56.0,3.0,,,False,HARD,24.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.864,0.878,4.178,4.391,0.729,0.739,102.502
+0 days 02:32:14.945000,ALO,14,98.75,57.0,3.0,,,False,HARD,25.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.296,0.301,3.61,3.794,-0.111,-0.112,101.992
+0 days 00:57:21.290000,OCO,31,,1.0,1.0,,,False,SOFT,1.0,True,Haas F1 Team,1,13.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:00.173000,OCO,31,98.883,2.0,1.0,,,True,SOFT,2.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.429,0.436,3.743,3.934,-0.038,-0.038,98.941
+0 days 01:00:38.899000,OCO,31,98.726,3.0,1.0,,,True,SOFT,3.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.272,0.276,3.586,3.769,0.094,0.095,98.842
+0 days 01:02:17.665000,OCO,31,98.766,4.0,1.0,,,False,SOFT,4.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.312,0.317,3.626,3.811,0.078,0.079,98.94000000000001
+0 days 01:03:56.905000,OCO,31,99.24,5.0,1.0,,,False,SOFT,5.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.786,0.798,4.1,4.309,-0.017,-0.017,99.472
+0 days 01:05:36.352000,OCO,31,99.447,6.0,1.0,,,False,SOFT,6.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.993,1.009,4.307,4.527,0.273,0.275,99.736
+0 days 01:07:15.760000,OCO,31,99.408,7.0,1.0,,,False,SOFT,7.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,0.954,0.969,4.268,4.486,0.078,0.079,99.755
+0 days 01:08:58.270000,OCO,31,102.51,8.0,1.0,,0 days 01:08:56.531000,False,SOFT,8.0,True,Haas F1 Team,1,13.0,False,4,Bahrain Grand Prix,True,C3,False,4.056,4.12,7.37,7.746,2.824,2.833,102.915
+0 days 01:10:55.986000,OCO,31,117.716,9.0,2.0,0 days 01:09:21.478000,,False,MEDIUM,1.0,True,Haas F1 Team,1,18.0,False,4,Bahrain Grand Prix,True,C2,False,19.262,19.564,22.576,23.729,17.814,17.831,118.17899999999999
+0 days 01:12:33.539000,OCO,31,97.553,10.0,2.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,-0.901,-0.915,2.413,2.536,-2.024,-2.033,98.074
+0 days 01:14:11.711000,OCO,31,98.172,11.0,2.0,,,False,MEDIUM,3.0,True,Haas F1 Team,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,-0.282,-0.286,3.032,3.187,-1.29,-1.297,98.75099999999999
+0 days 01:15:49.528000,OCO,31,97.817,12.0,2.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.637,-0.647,2.677,2.814,-1.211,-1.223,98.454
+0 days 01:17:27.953000,OCO,31,98.425,13.0,2.0,,,False,MEDIUM,5.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.029,-0.029,3.285,3.453,-0.381,-0.386,99.11999999999999
+0 days 01:19:05.943000,OCO,31,97.99,14.0,2.0,,,False,MEDIUM,6.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,-0.464,-0.471,2.85,2.996,-0.957,-0.967,98.743
+0 days 01:20:44.182000,OCO,31,98.239,15.0,2.0,,,False,MEDIUM,7.0,True,Haas F1 Team,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,-0.215,-0.218,3.099,3.257,-0.387,-0.392,99.05000000000001
+0 days 01:22:23.470000,OCO,31,99.288,16.0,2.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C2,True,0.834,0.847,4.148,4.36,0.692,0.702,100.15599999999999
+0 days 01:24:01.745000,OCO,31,98.275,17.0,2.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,-0.179,-0.182,3.135,3.295,-0.067,-0.068,99.20100000000001
+0 days 01:25:40.210000,OCO,31,98.465,18.0,2.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.011,0.011,3.325,3.495,-0.035,-0.036,99.449
+0 days 01:27:18.610000,OCO,31,98.4,19.0,2.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,-0.054,-0.055,3.26,3.427,0.085,0.086,99.44200000000001
+0 days 01:28:57.229000,OCO,31,98.619,20.0,2.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.165,0.168,3.479,3.657,0.072,0.073,99.719
+0 days 01:30:36.016000,OCO,31,98.787,21.0,2.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.333,0.338,3.647,3.833,0.088,0.089,99.94500000000001
+0 days 01:32:14.648000,OCO,31,98.632,22.0,2.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.178,0.181,3.492,3.67,0.033,0.033,99.848
+0 days 01:33:53.566000,OCO,31,98.918,23.0,2.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.464,0.471,3.778,3.971,0.294,0.298,100.19200000000001
+0 days 01:35:32.406000,OCO,31,98.84,24.0,2.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.386,0.392,3.7,3.889,0.07,0.071,100.172
+0 days 01:37:11.811000,OCO,31,99.405,25.0,2.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,6.0,True,4,Bahrain Grand Prix,True,C2,True,0.951,0.966,4.265,4.483,0.233,0.235,100.794
+0 days 01:38:51.693000,OCO,31,99.882,26.0,2.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,7.0,True,4,Bahrain Grand Prix,True,C2,True,1.428,1.45,4.742,4.984,0.689,0.695,101.32900000000001
+0 days 01:40:33.654000,OCO,31,101.961,27.0,2.0,,0 days 01:40:31.923000,False,MEDIUM,19.0,True,Haas F1 Team,1,7.0,False,4,Bahrain Grand Prix,True,C2,False,3.507,3.562,6.821,7.169,3.006,3.038,103.466
+0 days 01:42:32.126000,OCO,31,118.472,28.0,3.0,0 days 01:40:57.088000,,False,HARD,1.0,True,Haas F1 Team,1,14.0,False,4,Bahrain Grand Prix,True,C1,False,20.018,20.332,23.332,24.524,19.608,19.833,120.035
+0 days 01:44:09.287000,OCO,31,97.161,29.0,3.0,,,True,HARD,2.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C1,True,-1.293,-1.313,2.021,2.124,-0.969,-0.987,98.782
+0 days 01:45:46.385000,OCO,31,97.098,30.0,3.0,,,True,HARD,3.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C1,True,-1.356,-1.377,1.958,2.058,-0.596,-0.61,98.777
+0 days 01:47:23.915000,OCO,31,97.53,31.0,3.0,,,False,HARD,4.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C1,True,-0.924,-0.939,2.39,2.512,-0.514,-0.524,99.267
+0 days 01:49:28.274000,OCO,31,124.359,32.0,3.0,,,False,HARD,5.0,True,Haas F1 Team,14,11.0,False,4,Bahrain Grand Prix,True,C1,False,25.905,26.312,29.219,30.712,-1.049,-0.836,126.154
+0 days 01:51:41.313000,OCO,31,133.039,33.0,3.0,,,False,HARD,6.0,True,Haas F1 Team,4,7.0,False,4,Bahrain Grand Prix,True,C1,False,34.585,35.128,37.899,39.835,-0.198,-0.149,134.892
+0 days 01:53:42.195000,OCO,31,120.882,34.0,3.0,,,False,HARD,7.0,True,Haas F1 Team,4,7.0,False,4,Bahrain Grand Prix,True,C1,False,22.428,22.78,25.742,27.057,5.48,4.749,122.793
+0 days 01:56:02.466000,OCO,31,140.271,35.0,3.0,,,False,HARD,8.0,True,Haas F1 Team,41,7.0,False,4,Bahrain Grand Prix,True,C1,False,41.817,42.474,45.131,47.436,4.285,3.151,142.23899999999998
+0 days 01:57:40.678000,OCO,31,98.212,36.0,3.0,,,False,HARD,9.0,True,Haas F1 Team,1,7.0,True,4,Bahrain Grand Prix,True,C1,True,-0.242,-0.246,3.072,3.229,-0.348,-0.353,100.238
+0 days 01:59:18.079000,OCO,31,97.401,37.0,3.0,,,False,HARD,10.0,True,Haas F1 Team,1,7.0,True,4,Bahrain Grand Prix,True,C1,True,-1.053,-1.07,2.261,2.376,-0.316,-0.323,99.485
+0 days 02:00:56.160000,OCO,31,98.081,38.0,3.0,,,False,HARD,11.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.373,-0.379,2.941,3.091,0.23,0.235,100.223
+0 days 02:02:33.701000,OCO,31,97.541,39.0,3.0,,,False,HARD,12.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.913,-0.927,2.401,2.524,-0.155,-0.159,99.741
+0 days 02:04:11.181000,OCO,31,97.48,40.0,3.0,,,False,HARD,13.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.974,-0.989,2.34,2.46,0.088,0.09,99.738
+0 days 02:05:48.628000,OCO,31,97.447,41.0,3.0,,,False,HARD,14.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-1.007,-1.023,2.307,2.425,-0.073,-0.075,99.763
+0 days 02:07:26.344000,OCO,31,97.716,42.0,3.0,,,False,HARD,15.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.738,-0.75,2.576,2.708,0.128,0.131,100.08999999999999
+0 days 02:09:04.047000,OCO,31,97.703,43.0,3.0,,,False,HARD,16.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.751,-0.763,2.563,2.694,0.061,0.062,100.135
+0 days 02:10:42.002000,OCO,31,97.955,44.0,3.0,,,False,HARD,17.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.499,-0.507,2.815,2.959,0.231,0.236,100.444
+0 days 02:12:19.641000,OCO,31,97.639,45.0,3.0,,,False,HARD,18.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.815,-0.828,2.499,2.627,0.0,0.0,100.18599999999999
+0 days 02:13:57.301000,OCO,31,97.66,46.0,3.0,,,False,HARD,19.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.794,-0.806,2.52,2.649,0.0,0.0,100.265
+0 days 02:15:35.143000,OCO,31,97.842,47.0,3.0,,,False,HARD,20.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.612,-0.622,2.702,2.84,0.196,0.201,100.505
+0 days 02:17:13.017000,OCO,31,97.874,48.0,3.0,,,False,HARD,21.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.58,-0.589,2.734,2.874,0.207,0.212,100.595
+0 days 02:18:50.823000,OCO,31,97.806,49.0,3.0,,,False,HARD,22.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.648,-0.658,2.666,2.802,0.009,0.009,100.585
+0 days 02:20:29.014000,OCO,31,98.191,50.0,3.0,,,False,HARD,23.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.263,-0.267,3.051,3.207,0.357,0.365,101.028
+0 days 02:22:07.346000,OCO,31,98.332,51.0,3.0,,,False,HARD,24.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.122,-0.124,3.192,3.355,0.257,0.262,101.22699999999999
+0 days 02:23:45.741000,OCO,31,98.395,52.0,3.0,,,False,HARD,25.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.059,-0.06,3.255,3.421,0.0,0.0,101.348
+0 days 02:25:24.173000,OCO,31,98.432,53.0,3.0,,,False,HARD,26.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.022,-0.022,3.292,3.46,0.016,0.016,101.443
+0 days 02:27:02.586000,OCO,31,98.413,54.0,3.0,,,False,HARD,27.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.041,-0.042,3.273,3.44,-0.083,-0.084,101.481
+0 days 02:28:41.159000,OCO,31,98.573,55.0,3.0,,,False,HARD,28.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,0.119,0.121,3.433,3.608,0.016,0.016,101.699
+0 days 02:30:19.714000,OCO,31,98.555,56.0,3.0,,,False,HARD,29.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,0.101,0.103,3.415,3.589,-0.034,-0.034,101.739
+0 days 02:31:58.813000,OCO,31,99.099,57.0,3.0,,,False,HARD,30.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,0.645,0.655,3.959,4.161,0.238,0.241,102.34100000000001
+0 days 00:57:21.763000,ALB,23,,1.0,1.0,,,False,SOFT,1.0,True,Williams,1,14.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:01.584000,ALB,23,99.821,2.0,1.0,,,True,SOFT,2.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,1.367,1.388,4.681,4.92,0.9,0.91,99.879
+0 days 01:00:40.283000,ALB,23,98.699,3.0,1.0,,,True,SOFT,3.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,0.245,0.249,3.559,3.741,0.067,0.068,98.815
+0 days 01:02:19.339000,ALB,23,99.056,4.0,1.0,,,False,SOFT,4.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,0.602,0.611,3.916,4.116,0.368,0.373,99.23
+0 days 01:03:58.596000,ALB,23,99.257,5.0,1.0,,,False,SOFT,5.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,0.803,0.816,4.117,4.327,0.0,0.0,99.489
+0 days 01:05:37.859000,ALB,23,99.263,6.0,1.0,,,False,SOFT,6.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,0.809,0.822,4.123,4.334,0.089,0.09,99.552
+0 days 01:07:17.424000,ALB,23,99.565,7.0,1.0,,,False,SOFT,7.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,1.111,1.128,4.425,4.651,0.235,0.237,99.91199999999999
+0 days 01:08:57.342000,ALB,23,99.918,8.0,1.0,,,False,SOFT,8.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,1.464,1.487,4.778,5.022,0.232,0.233,100.32300000000001
+0 days 01:10:37.077000,ALB,23,99.735,9.0,1.0,,,False,SOFT,9.0,True,Williams,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,1.281,1.301,4.595,4.83,-0.167,-0.167,100.198
+0 days 01:12:17.166000,ALB,23,100.089,10.0,1.0,,,False,SOFT,10.0,True,Williams,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,1.635,1.661,4.949,5.202,0.512,0.514,100.61
+0 days 01:13:57.009000,ALB,23,99.843,11.0,1.0,,,False,SOFT,11.0,True,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,1.389,1.411,4.703,4.943,0.381,0.383,100.422
+0 days 01:15:36.949000,ALB,23,99.94,12.0,1.0,,,False,SOFT,12.0,True,Williams,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,1.486,1.509,4.8,5.045,0.912,0.921,100.577
+0 days 01:17:17.093000,ALB,23,100.144,13.0,1.0,,,False,SOFT,13.0,True,Williams,1,6.0,True,4,Bahrain Grand Prix,True,C3,True,1.69,1.717,5.004,5.26,1.338,1.354,100.839
+0 days 01:18:57.419000,ALB,23,100.326,14.0,1.0,,,False,SOFT,14.0,True,Williams,1,4.0,True,4,Bahrain Grand Prix,True,C3,True,1.872,1.901,5.186,5.451,1.379,1.394,101.079
+0 days 01:20:38.240000,ALB,23,100.821,15.0,1.0,,,False,SOFT,15.0,True,Williams,1,5.0,True,4,Bahrain Grand Prix,True,C3,True,2.367,2.404,5.681,5.971,2.195,2.226,101.632
+0 days 01:22:20.622000,ALB,23,102.382,16.0,1.0,,0 days 01:22:19.013000,False,SOFT,16.0,True,Williams,1,6.0,False,4,Bahrain Grand Prix,True,C3,False,3.928,3.99,7.242,7.612,3.786,3.84,103.25
+0 days 01:24:20.214000,ALB,23,119.592,17.0,2.0,0 days 01:22:44.437000,,False,HARD,1.0,True,Williams,1,16.0,False,4,Bahrain Grand Prix,True,C1,False,21.138,21.47,24.452,25.701,21.25,21.608,120.518
+0 days 01:25:57.423000,ALB,23,97.209,18.0,2.0,,,True,HARD,2.0,True,Williams,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-1.245,-1.265,2.069,2.175,-1.291,-1.311,98.193
+0 days 01:27:35.632000,ALB,23,98.209,19.0,2.0,,,False,HARD,3.0,True,Williams,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,-0.245,-0.249,3.069,3.226,-0.106,-0.108,99.251
+0 days 01:29:13.305000,ALB,23,97.673,20.0,2.0,,,False,HARD,4.0,True,Williams,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,-0.781,-0.793,2.533,2.662,-0.874,-0.887,98.773
+0 days 01:30:51.352000,ALB,23,98.047,21.0,2.0,,,False,HARD,5.0,True,Williams,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,-0.407,-0.413,2.907,3.055,-0.652,-0.661,99.205
+0 days 01:32:29.826000,ALB,23,98.474,22.0,2.0,,,False,HARD,6.0,True,Williams,1,15.0,True,4,Bahrain Grand Prix,True,C1,True,0.02,0.02,3.334,3.504,-0.125,-0.127,99.69
+0 days 01:34:07.710000,ALB,23,97.884,23.0,2.0,,,False,HARD,7.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.57,-0.579,2.744,2.884,-0.74,-0.75,99.158
+0 days 01:35:45.733000,ALB,23,98.023,24.0,2.0,,,False,HARD,8.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.431,-0.438,2.883,3.03,-0.747,-0.756,99.35499999999999
+0 days 01:37:24.324000,ALB,23,98.591,25.0,2.0,,,False,HARD,9.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.137,0.139,3.451,3.627,-0.581,-0.586,99.97999999999999
+0 days 01:39:03.022000,ALB,23,98.698,26.0,2.0,,,False,HARD,10.0,True,Williams,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.244,0.248,3.558,3.74,-0.495,-0.499,100.145
+0 days 01:40:41.729000,ALB,23,98.707,27.0,2.0,,,False,HARD,11.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.253,0.257,3.567,3.749,-0.248,-0.251,100.21199999999999
+0 days 01:42:20.559000,ALB,23,98.83,28.0,2.0,,,False,HARD,12.0,True,Williams,1,11.0,True,4,Bahrain Grand Prix,True,C1,True,0.376,0.382,3.69,3.878,-0.034,-0.034,100.393
+0 days 01:43:58.707000,ALB,23,98.148,29.0,2.0,,,False,HARD,13.0,True,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,-0.306,-0.311,3.008,3.162,0.018,0.018,99.76899999999999
+0 days 01:45:37.871000,ALB,23,99.164,30.0,2.0,,,False,HARD,14.0,True,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,0.71,0.721,4.024,4.23,1.47,1.505,100.843
+0 days 01:47:17.652000,ALB,23,99.781,31.0,2.0,,,False,HARD,15.0,True,Williams,1,8.0,True,4,Bahrain Grand Prix,True,C1,True,1.327,1.348,4.641,4.878,1.737,1.772,101.518
+0 days 01:49:25.246000,ALB,23,127.594,32.0,2.0,,0 days 01:49:23.329000,False,HARD,16.0,True,Williams,14,9.0,False,4,Bahrain Grand Prix,True,C1,False,29.14,29.598,32.454,34.112,2.186,1.743,129.38899999999998
+0 days 01:51:56.376000,ALB,23,,33.0,3.0,0 days 01:49:49.420000,,False,MEDIUM,1.0,True,Williams,4,13.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 01:53:50.872000,ALB,23,114.496,34.0,3.0,,,False,MEDIUM,2.0,True,Williams,4,13.0,False,4,Bahrain Grand Prix,True,C2,False,16.042,16.294,19.356,20.345,-0.906,-0.785,116.407
+0 days 01:56:04.501000,ALB,23,133.629,35.0,3.0,,,False,MEDIUM,3.0,True,Williams,41,13.0,False,4,Bahrain Grand Prix,True,C2,False,35.175,35.727,38.489,40.455,-2.357,-1.733,135.59699999999998
+0 days 01:57:43.569000,ALB,23,99.068,36.0,3.0,,,False,MEDIUM,4.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.614,0.624,3.928,4.129,0.508,0.515,101.094
+0 days 01:59:21.184000,ALB,23,97.615,37.0,3.0,,,False,MEDIUM,5.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.839,-0.852,2.475,2.601,-0.102,-0.104,99.699
+0 days 02:00:59.055000,ALB,23,97.871,38.0,3.0,,,False,MEDIUM,6.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.583,-0.592,2.731,2.871,0.02,0.02,100.01299999999999
+0 days 02:02:37.925000,ALB,23,98.87,39.0,3.0,,,False,MEDIUM,7.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,0.416,0.423,3.73,3.921,1.174,1.202,101.07000000000001
+0 days 02:04:15.556000,ALB,23,97.631,40.0,3.0,,,False,MEDIUM,8.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.823,-0.836,2.491,2.618,0.239,0.245,99.889
+0 days 02:05:53.060000,ALB,23,97.504,41.0,3.0,,,False,MEDIUM,9.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.95,-0.965,2.364,2.485,-0.016,-0.016,99.82000000000001
+0 days 02:07:30.762000,ALB,23,97.702,42.0,3.0,,,False,MEDIUM,10.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.752,-0.764,2.562,2.693,0.114,0.117,100.076
+0 days 02:09:08.429000,ALB,23,97.667,43.0,3.0,,,False,MEDIUM,11.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.787,-0.799,2.527,2.656,0.025,0.026,100.099
+0 days 02:10:46.076000,ALB,23,97.647,44.0,3.0,,,False,MEDIUM,12.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.807,-0.82,2.507,2.635,-0.077,-0.079,100.13600000000001
+0 days 02:12:23.772000,ALB,23,97.696,45.0,3.0,,,False,MEDIUM,13.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.758,-0.77,2.556,2.687,0.057,0.058,100.243
+0 days 02:14:02.105000,ALB,23,98.333,46.0,3.0,,,False,MEDIUM,14.0,True,Williams,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,-0.121,-0.123,3.193,3.356,0.673,0.689,100.938
+0 days 02:15:39.246000,ALB,23,97.141,47.0,3.0,,,True,MEDIUM,15.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-1.313,-1.334,2.001,2.103,-0.505,-0.517,99.804
+0 days 02:17:16.790000,ALB,23,97.544,48.0,3.0,,,False,MEDIUM,16.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.91,-0.924,2.404,2.527,-0.123,-0.126,100.265
+0 days 02:18:54.417000,ALB,23,97.627,49.0,3.0,,,False,MEDIUM,17.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.827,-0.84,2.487,2.614,-0.17,-0.174,100.40599999999999
+0 days 02:20:32.280000,ALB,23,97.863,50.0,3.0,,,False,MEDIUM,18.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.591,-0.6,2.723,2.862,0.029,0.03,100.7
+0 days 02:22:10.090000,ALB,23,97.81,51.0,3.0,,,False,MEDIUM,19.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.644,-0.654,2.67,2.806,-0.265,-0.27,100.705
+0 days 02:23:48.671000,ALB,23,98.581,52.0,3.0,,,False,MEDIUM,20.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.127,0.129,3.441,3.617,0.186,0.189,101.534
+0 days 02:25:27.098000,ALB,23,98.427,53.0,3.0,,,False,MEDIUM,21.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,-0.027,-0.027,3.287,3.455,0.011,0.011,101.438
+0 days 02:27:05.712000,ALB,23,98.614,54.0,3.0,,,False,MEDIUM,22.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.16,0.163,3.474,3.651,0.118,0.12,101.682
+0 days 02:28:44.528000,ALB,23,98.816,55.0,3.0,,,False,MEDIUM,23.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.362,0.368,3.676,3.864,0.259,0.263,101.94200000000001
+0 days 02:30:23.748000,ALB,23,99.22,56.0,3.0,,,False,MEDIUM,24.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,0.766,0.778,4.08,4.288,0.631,0.64,102.404
+0 days 02:32:03.412000,ALB,23,99.664,57.0,3.0,,,False,MEDIUM,25.0,True,Williams,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,1.21,1.229,4.524,4.755,0.803,0.812,102.906
+0 days 00:57:24.616000,HUL,27,,1.0,1.0,,,False,SOFT,1.0,True,Kick Sauber,1,20.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:05.250000,HUL,27,100.634,2.0,1.0,,,True,SOFT,2.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C3,True,2.18,2.214,5.494,5.775,1.713,1.732,100.69200000000001
+0 days 01:00:45.269000,HUL,27,100.019,3.0,1.0,,,True,SOFT,3.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C3,True,1.565,1.59,4.879,5.128,1.387,1.406,100.135
+0 days 01:02:25.098000,HUL,27,99.829,4.0,1.0,,,True,SOFT,4.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C3,True,1.375,1.397,4.689,4.929,1.141,1.156,100.003
+0 days 01:04:07.056000,HUL,27,101.958,5.0,1.0,,0 days 01:04:05.488000,False,SOFT,5.0,True,Kick Sauber,1,20.0,False,4,Bahrain Grand Prix,True,C3,False,3.504,3.559,6.818,7.166,2.701,2.721,102.19
+0 days 01:06:04.680000,HUL,27,117.624,6.0,2.0,0 days 01:04:29.591000,,False,MEDIUM,1.0,True,Kick Sauber,1,20.0,False,4,Bahrain Grand Prix,True,C2,False,19.17,19.471,22.484,23.633,18.45,18.604,117.913
+0 days 01:07:42.630000,HUL,27,97.95,7.0,2.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,-0.504,-0.512,2.81,2.954,-1.38,-1.389,98.297
+0 days 01:09:22.041000,HUL,27,99.411,8.0,2.0,,,False,MEDIUM,3.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.957,0.972,4.271,4.489,-0.275,-0.276,99.816
+0 days 01:11:01.288000,HUL,27,99.247,9.0,2.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.793,0.805,4.107,4.317,-0.655,-0.656,99.71
+0 days 01:12:40.547000,HUL,27,99.259,10.0,2.0,,,False,MEDIUM,5.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.805,0.818,4.119,4.329,-0.318,-0.319,99.78
+0 days 01:14:19.803000,HUL,27,99.256,11.0,2.0,,,False,MEDIUM,6.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.802,0.815,4.116,4.326,-0.206,-0.207,99.835
+0 days 01:15:58.953000,HUL,27,99.15,12.0,2.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.696,0.707,4.01,4.215,0.122,0.123,99.787
+0 days 01:17:37.990000,HUL,27,99.037,13.0,2.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.583,0.592,3.897,4.096,0.231,0.234,99.732
+0 days 01:19:17.462000,HUL,27,99.472,14.0,2.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,1.018,1.034,4.332,4.553,0.525,0.531,100.225
+0 days 01:20:56.851000,HUL,27,99.389,15.0,2.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.935,0.95,4.249,4.466,0.763,0.774,100.2
+0 days 01:22:36.796000,HUL,27,99.945,16.0,2.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.491,1.514,4.805,5.05,1.349,1.368,100.81299999999999
+0 days 01:24:16.679000,HUL,27,99.883,17.0,2.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.429,1.451,4.743,4.985,1.541,1.567,100.809
+0 days 01:25:55.951000,HUL,27,99.272,18.0,2.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.818,0.831,4.132,4.343,0.772,0.784,100.256
+0 days 01:27:35.353000,HUL,27,99.402,19.0,2.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.948,0.963,4.262,4.48,1.087,1.106,100.444
+0 days 01:29:15.125000,HUL,27,99.772,20.0,2.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.318,1.339,4.632,4.869,1.225,1.243,100.872
+0 days 01:30:54.650000,HUL,27,99.525,21.0,2.0,,,False,MEDIUM,16.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.071,1.088,4.385,4.609,0.826,0.837,100.683
+0 days 01:32:34.040000,HUL,27,99.39,22.0,2.0,,,False,MEDIUM,17.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,0.936,0.951,4.25,4.467,0.791,0.802,100.606
+0 days 01:34:13.502000,HUL,27,99.462,23.0,2.0,,,False,MEDIUM,18.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.008,1.024,4.322,4.543,0.838,0.85,100.736
+0 days 01:35:53.023000,HUL,27,99.521,24.0,2.0,,,False,MEDIUM,19.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.067,1.084,4.381,4.605,0.751,0.76,100.853
+0 days 01:37:32.623000,HUL,27,99.6,25.0,2.0,,,False,MEDIUM,20.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.146,1.164,4.46,4.688,0.428,0.432,100.98899999999999
+0 days 01:39:13.144000,HUL,27,100.521,26.0,2.0,,,False,MEDIUM,21.0,True,Kick Sauber,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,2.067,2.099,5.381,5.656,1.328,1.339,101.968
+0 days 01:40:55.605000,HUL,27,102.461,27.0,2.0,,0 days 01:40:53.992000,False,MEDIUM,22.0,True,Kick Sauber,1,17.0,False,4,Bahrain Grand Prix,True,C2,False,4.007,4.07,7.321,7.695,3.506,3.543,103.966
+0 days 01:42:54.417000,HUL,27,118.812,28.0,3.0,0 days 01:41:18.179000,,False,MEDIUM,1.0,True,Kick Sauber,1,20.0,False,4,Bahrain Grand Prix,True,C2,False,20.358,20.678,23.672,24.881,19.948,20.177,120.375
+0 days 01:44:32.170000,HUL,27,97.753,29.0,3.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-0.701,-0.712,2.613,2.746,-0.377,-0.384,99.374
+0 days 01:46:09.508000,HUL,27,97.338,30.0,3.0,,,True,MEDIUM,3.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-1.116,-1.134,2.198,2.31,-0.356,-0.364,99.017
+0 days 01:47:47.266000,HUL,27,97.758,31.0,3.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-0.696,-0.707,2.618,2.752,-0.286,-0.292,99.49499999999999
+0 days 01:49:58.573000,HUL,27,131.307,32.0,3.0,,,False,MEDIUM,5.0,True,Kick Sauber,14,20.0,False,4,Bahrain Grand Prix,True,C2,False,32.853,33.369,36.167,38.015,5.899,4.704,133.10199999999998
+0 days 01:52:12.603000,HUL,27,134.03,33.0,3.0,,,False,MEDIUM,6.0,True,Kick Sauber,4,17.0,False,4,Bahrain Grand Prix,True,C2,False,35.576,36.135,38.89,40.877,0.793,0.595,135.883
+0 days 01:54:04.721000,HUL,27,112.118,34.0,3.0,,,False,MEDIUM,7.0,True,Kick Sauber,4,17.0,False,4,Bahrain Grand Prix,True,C2,False,13.664,13.879,16.978,17.845,-3.284,-2.846,114.029
+0 days 01:56:06.476000,HUL,27,121.755,35.0,3.0,,,False,MEDIUM,8.0,True,Kick Sauber,41,17.0,False,4,Bahrain Grand Prix,True,C2,False,23.301,23.667,26.615,27.975,-14.231,-10.465,123.723
+0 days 01:57:45.419000,HUL,27,98.943,36.0,3.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.489,0.497,3.803,3.997,0.383,0.389,100.969
+0 days 01:59:23.569000,HUL,27,98.15,37.0,3.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.304,-0.309,3.01,3.164,0.433,0.443,100.23400000000001
+0 days 02:01:01.479000,HUL,27,97.91,38.0,3.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.544,-0.553,2.77,2.911,0.059,0.06,100.05199999999999
+0 days 02:02:39.755000,HUL,27,98.276,39.0,3.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.178,-0.181,3.136,3.296,0.58,0.594,100.476
+0 days 02:04:18.417000,HUL,27,98.662,40.0,3.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.208,0.211,3.522,3.702,1.27,1.304,100.92
+0 days 02:05:57.536000,HUL,27,99.119,41.0,3.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,0.665,0.675,3.979,4.182,1.599,1.64,101.435
+0 days 02:07:36.214000,HUL,27,98.678,42.0,3.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,0.224,0.228,3.538,3.719,1.09,1.117,101.05199999999999
+0 days 02:09:13.673000,HUL,27,97.459,43.0,3.0,,,False,MEDIUM,16.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.995,-1.011,2.319,2.437,-0.183,-0.187,99.891
+0 days 02:10:51.512000,HUL,27,97.839,44.0,3.0,,,False,MEDIUM,17.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.615,-0.625,2.699,2.837,0.115,0.118,100.328
+0 days 02:12:29.436000,HUL,27,97.924,45.0,3.0,,,False,MEDIUM,18.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.53,-0.538,2.784,2.926,0.285,0.292,100.471
+0 days 02:14:07.046000,HUL,27,97.61,46.0,3.0,,,False,MEDIUM,19.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.844,-0.857,2.47,2.596,-0.05,-0.051,100.215
+0 days 02:15:44.971000,HUL,27,97.925,47.0,3.0,,,False,MEDIUM,20.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.529,-0.537,2.785,2.927,0.279,0.286,100.588
+0 days 02:17:23.121000,HUL,27,98.15,48.0,3.0,,,False,MEDIUM,21.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.304,-0.309,3.01,3.164,0.483,0.495,100.87100000000001
+0 days 02:19:01.135000,HUL,27,98.014,49.0,3.0,,,False,MEDIUM,22.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.44,-0.447,2.874,3.021,0.217,0.222,100.79299999999999
+0 days 02:20:39.021000,HUL,27,97.886,50.0,3.0,,,False,MEDIUM,23.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.568,-0.577,2.746,2.886,0.052,0.053,100.723
+0 days 02:22:17.013000,HUL,27,97.992,51.0,3.0,,,False,MEDIUM,24.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.462,-0.469,2.852,2.998,-0.083,-0.085,100.887
+0 days 02:23:55.038000,HUL,27,98.025,52.0,3.0,,,False,MEDIUM,25.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.429,-0.436,2.885,3.032,-0.37,-0.376,100.97800000000001
+0 days 02:25:33.298000,HUL,27,98.26,53.0,3.0,,,False,MEDIUM,26.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.194,-0.197,3.12,3.279,-0.156,-0.159,101.271
+0 days 02:27:11.796000,HUL,27,98.498,54.0,3.0,,,False,MEDIUM,27.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.044,0.045,3.358,3.53,0.002,0.002,101.566
+0 days 02:28:50.220000,HUL,27,98.424,55.0,3.0,,,False,MEDIUM,28.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,-0.03,-0.03,3.284,3.452,-0.133,-0.135,101.55000000000001
+0 days 02:30:29.218000,HUL,27,98.998,56.0,3.0,,,False,MEDIUM,29.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.544,0.553,3.858,4.055,0.409,0.415,102.182
+0 days 02:32:08.041000,HUL,27,98.823,57.0,3.0,,,False,MEDIUM,30.0,True,Kick Sauber,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,0.369,0.375,3.683,3.871,-0.038,-0.038,102.065
+0 days 00:57:23.601000,LAW,30,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,17.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 00:59:03.731000,LAW,30,100.13,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.676,1.702,4.99,5.245,1.209,1.222,100.188
+0 days 01:00:43.420000,LAW,30,99.689,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.235,1.254,4.549,4.781,1.057,1.072,99.80499999999999
+0 days 01:02:23.061000,LAW,30,99.641,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.187,1.206,4.501,4.731,0.953,0.966,99.81500000000001
+0 days 01:04:03.019000,LAW,30,99.958,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.504,1.528,4.818,5.064,0.701,0.706,100.19
+0 days 01:05:42.725000,LAW,30,99.706,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.252,1.272,4.566,4.799,0.532,0.536,99.995
+0 days 01:07:22.334000,LAW,30,99.609,7.0,1.0,,,True,MEDIUM,7.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.155,1.173,4.469,4.697,0.279,0.281,99.95599999999999
+0 days 01:09:02.321000,LAW,30,99.987,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.533,1.557,4.847,5.095,0.301,0.302,100.392
+0 days 01:10:42.389000,LAW,30,100.068,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.614,1.639,4.928,5.18,0.166,0.166,100.53099999999999
+0 days 01:12:22.688000,LAW,30,100.299,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C2,True,1.845,1.874,5.159,5.423,0.722,0.725,100.82000000000001
+0 days 01:14:02.952000,LAW,30,100.264,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,11.0,True,4,Bahrain Grand Prix,True,C2,True,1.81,1.838,5.124,5.386,0.802,0.806,100.84299999999999
+0 days 01:15:43.100000,LAW,30,100.148,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,10.0,True,4,Bahrain Grand Prix,True,C2,True,1.694,1.721,5.008,5.264,1.12,1.131,100.785
+0 days 01:17:23.068000,LAW,30,99.968,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,9.0,True,4,Bahrain Grand Prix,True,C2,True,1.514,1.538,4.828,5.075,1.162,1.176,100.663
+0 days 01:19:07.052000,LAW,30,103.984,14.0,1.0,,0 days 01:19:05.384000,False,MEDIUM,14.0,True,Racing Bulls,1,14.0,False,4,Bahrain Grand Prix,True,C2,False,5.53,5.617,8.844,9.296,5.037,5.091,104.737
+0 days 01:21:07.860000,LAW,30,120.808,15.0,2.0,0 days 01:19:30.576000,,False,HARD,1.0,True,Racing Bulls,1,19.0,False,4,Bahrain Grand Prix,True,C1,False,22.354,22.705,25.668,26.979,22.182,22.491,121.61900000000001
+0 days 01:22:45.720000,LAW,30,97.86,16.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-0.594,-0.603,2.72,2.859,-0.736,-0.746,98.728
+0 days 01:24:23.914000,LAW,30,98.194,17.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.26,-0.264,3.054,3.21,-0.148,-0.15,99.12
+0 days 01:26:03.750000,LAW,30,99.836,18.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,1.382,1.404,4.696,4.936,1.336,1.356,100.82
+0 days 01:27:42.692000,LAW,30,98.942,19.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.488,0.496,3.802,3.996,0.627,0.638,99.984
+0 days 01:29:21.537000,LAW,30,98.845,20.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.391,0.397,3.705,3.894,0.298,0.302,99.945
+0 days 01:31:00.540000,LAW,30,99.003,21.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.549,0.558,3.863,4.06,0.304,0.308,100.161
+0 days 01:32:39.603000,LAW,30,99.063,22.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.609,0.619,3.923,4.123,0.464,0.471,100.279
+0 days 01:34:18.792000,LAW,30,99.189,23.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.735,0.747,4.049,4.256,0.565,0.573,100.463
+0 days 01:35:57.827000,LAW,30,99.035,24.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.581,0.59,3.895,4.094,0.265,0.268,100.36699999999999
+0 days 01:37:36.973000,LAW,30,99.146,25.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.692,0.703,4.006,4.211,-0.026,-0.026,100.535
+0 days 01:39:16.294000,LAW,30,99.321,26.0,2.0,,,False,HARD,12.0,True,Racing Bulls,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.867,0.881,4.181,4.395,0.128,0.129,100.768
+0 days 01:40:55.610000,LAW,30,99.316,27.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.862,0.876,4.176,4.389,0.361,0.365,100.821
+0 days 01:42:36.378000,LAW,30,100.768,28.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,2.314,2.35,5.628,5.915,1.904,1.926,102.331
+0 days 01:44:15.775000,LAW,30,99.397,29.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C1,True,0.943,0.958,4.257,4.474,1.267,1.291,101.018
+0 days 01:45:55.717000,LAW,30,99.942,30.0,2.0,,,False,HARD,16.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,1.488,1.511,4.802,5.047,2.248,2.301,101.621
+0 days 01:47:34.830000,LAW,30,99.113,31.0,2.0,,,False,HARD,17.0,True,Racing Bulls,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,0.659,0.669,3.973,4.176,1.069,1.09,100.85
+0 days 01:49:44.132000,LAW,30,129.302,32.0,2.0,,0 days 01:49:42.611000,False,HARD,18.0,True,Racing Bulls,14,16.0,False,4,Bahrain Grand Prix,True,C1,False,30.848,31.332,34.162,35.907,3.894,3.105,131.09699999999998
+0 days 01:52:16.235000,LAW,30,,33.0,3.0,0 days 01:50:06.553000,,False,SOFT,1.0,True,Racing Bulls,4,18.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 01:54:06.352000,LAW,30,110.117,34.0,3.0,,,False,SOFT,2.0,True,Racing Bulls,4,18.0,False,4,Bahrain Grand Prix,True,C3,False,11.663,11.846,14.977,15.742,-5.285,-4.58,112.028
+0 days 01:56:06.812000,LAW,30,120.46,35.0,3.0,,,False,SOFT,3.0,True,Racing Bulls,41,18.0,False,4,Bahrain Grand Prix,True,C3,False,22.006,22.352,25.32,26.613,-15.526,-11.417,122.428
+0 days 01:57:45.824000,LAW,30,99.012,36.0,3.0,,,False,SOFT,4.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,0.558,0.567,3.872,4.07,0.452,0.459,101.038
+0 days 01:59:24.182000,LAW,30,98.358,37.0,3.0,,,False,SOFT,5.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,-0.096,-0.098,3.218,3.382,0.641,0.656,100.44200000000001
+0 days 02:01:02.009000,LAW,30,97.827,38.0,3.0,,,True,SOFT,6.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,-0.627,-0.637,2.687,2.824,-0.024,-0.025,99.969
+0 days 02:02:40.419000,LAW,30,98.41,39.0,3.0,,,False,SOFT,7.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,-0.044,-0.045,3.27,3.437,0.714,0.731,100.61
+0 days 02:04:18.777000,LAW,30,98.358,40.0,3.0,,,False,SOFT,8.0,True,Racing Bulls,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,-0.096,-0.098,3.218,3.382,0.966,0.992,100.616
+0 days 02:05:56.467000,LAW,30,97.69,41.0,3.0,,,True,SOFT,9.0,True,Racing Bulls,1,15.0,True,4,Bahrain Grand Prix,True,C3,True,-0.764,-0.776,2.55,2.68,0.17,0.174,100.006
+0 days 02:07:34.036000,LAW,30,97.569,42.0,3.0,,,True,SOFT,10.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.885,-0.899,2.429,2.553,-0.019,-0.019,99.943
+0 days 02:09:11.516000,LAW,30,97.48,43.0,3.0,,,True,SOFT,11.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.974,-0.989,2.34,2.46,-0.162,-0.166,99.912
+0 days 02:10:48.896000,LAW,30,97.38,44.0,3.0,,,True,SOFT,12.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-1.074,-1.091,2.24,2.354,-0.344,-0.352,99.869
+0 days 02:12:26.432000,LAW,30,97.536,45.0,3.0,,,False,SOFT,13.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.918,-0.932,2.396,2.518,-0.103,-0.105,100.083
+0 days 02:14:04.159000,LAW,30,97.727,46.0,3.0,,,False,SOFT,14.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.727,-0.738,2.587,2.719,0.067,0.069,100.33200000000001
+0 days 02:15:42.093000,LAW,30,97.934,47.0,3.0,,,False,SOFT,15.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.52,-0.528,2.794,2.937,0.288,0.295,100.597
+0 days 02:17:19.988000,LAW,30,97.895,48.0,3.0,,,False,SOFT,16.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.559,-0.568,2.755,2.896,0.228,0.233,100.616
+0 days 02:18:57.785000,LAW,30,97.797,49.0,3.0,,,False,SOFT,17.0,True,Racing Bulls,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,-0.657,-0.667,2.657,2.793,0.0,0.0,100.576
+0 days 02:20:35.517000,LAW,30,97.732,50.0,3.0,,,False,SOFT,18.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.722,-0.733,2.592,2.724,-0.102,-0.104,100.569
+0 days 02:22:13.494000,LAW,30,97.977,51.0,3.0,,,False,SOFT,19.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.477,-0.484,2.837,2.982,-0.098,-0.1,100.872
+0 days 02:23:51.228000,LAW,30,97.734,52.0,3.0,,,False,SOFT,20.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.72,-0.731,2.594,2.727,-0.661,-0.672,100.687
+0 days 02:25:29.377000,LAW,30,98.149,53.0,3.0,,,False,SOFT,21.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.305,-0.31,3.009,3.163,-0.267,-0.271,101.16
+0 days 02:27:07.783000,LAW,30,98.406,54.0,3.0,,,False,SOFT,22.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.048,-0.049,3.266,3.433,-0.09,-0.091,101.474
+0 days 02:28:45.926000,LAW,30,98.143,55.0,3.0,,,False,SOFT,23.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.311,-0.316,3.003,3.156,-0.414,-0.42,101.269
+0 days 02:30:24.321000,LAW,30,98.395,56.0,3.0,,,False,SOFT,24.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,-0.059,-0.06,3.255,3.421,-0.194,-0.197,101.579
+0 days 02:32:03.993000,LAW,30,99.672,57.0,3.0,,,False,SOFT,25.0,True,Racing Bulls,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,1.218,1.237,4.532,4.764,0.811,0.82,102.914
+0 days 00:57:24.441000,BOR,5,,1.0,1.0,,,False,MEDIUM,1.0,True,Kick Sauber,1,19.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 00:59:04.891000,BOR,5,100.45,2.0,1.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,1.996,2.027,5.31,5.581,1.529,1.546,100.50800000000001
+0 days 01:00:44.791000,BOR,5,99.9,3.0,1.0,,,True,MEDIUM,3.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,1.446,1.469,4.76,5.003,1.268,1.286,100.016
+0 days 01:02:24.870000,BOR,5,100.079,4.0,1.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,1.625,1.651,4.939,5.191,1.391,1.409,100.253
+0 days 01:04:05.596000,BOR,5,100.726,5.0,1.0,,,False,MEDIUM,5.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,2.272,2.308,5.586,5.871,1.469,1.48,100.958
+0 days 01:05:45.549000,BOR,5,99.953,6.0,1.0,,,False,MEDIUM,6.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,1.499,1.523,4.813,5.059,0.779,0.785,100.242
+0 days 01:07:25.321000,BOR,5,99.772,7.0,1.0,,,True,MEDIUM,7.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,1.318,1.339,4.632,4.869,0.442,0.445,100.119
+0 days 01:09:05.452000,BOR,5,100.131,8.0,1.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,1.677,1.703,4.991,5.246,0.445,0.446,100.536
+0 days 01:10:45.777000,BOR,5,100.325,9.0,1.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.871,1.9,5.185,5.45,0.423,0.423,100.788
+0 days 01:12:26.089000,BOR,5,100.312,10.0,1.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.858,1.887,5.172,5.436,0.735,0.738,100.833
+0 days 01:14:06.337000,BOR,5,100.248,11.0,1.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,13.0,True,4,Bahrain Grand Prix,True,C2,True,1.794,1.822,5.108,5.369,0.786,0.79,100.827
+0 days 01:15:47.240000,BOR,5,100.903,12.0,1.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,12.0,True,4,Bahrain Grand Prix,True,C2,True,2.449,2.487,5.763,6.057,1.875,1.893,101.54
+0 days 01:17:30.233000,BOR,5,102.993,13.0,1.0,,0 days 01:17:28.545000,False,MEDIUM,13.0,True,Kick Sauber,1,15.0,False,4,Bahrain Grand Prix,True,C2,False,4.539,4.61,7.853,8.254,4.187,4.238,103.68799999999999
+0 days 01:19:29.307000,BOR,5,119.074,14.0,2.0,0 days 01:17:52.614000,,False,HARD,1.0,True,Kick Sauber,1,20.0,False,4,Bahrain Grand Prix,True,C1,False,20.62,20.944,23.934,25.157,20.127,20.341,119.827
+0 days 01:21:08.562000,BOR,5,99.255,15.0,2.0,,,True,HARD,2.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.801,0.814,4.115,4.325,0.629,0.638,100.066
+0 days 01:22:47.018000,BOR,5,98.456,16.0,2.0,,,True,HARD,3.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.002,0.002,3.316,3.485,-0.14,-0.142,99.324
+0 days 01:24:26.280000,BOR,5,99.262,17.0,2.0,,,False,HARD,4.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.808,0.821,4.122,4.333,0.92,0.936,100.188
+0 days 01:26:05.545000,BOR,5,99.265,18.0,2.0,,,False,HARD,5.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.811,0.824,4.125,4.336,0.765,0.777,100.249
+0 days 01:27:44.498000,BOR,5,98.953,19.0,2.0,,,False,HARD,6.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.499,0.507,3.813,4.008,0.638,0.649,99.995
+0 days 01:29:23.262000,BOR,5,98.764,20.0,2.0,,,False,HARD,7.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.31,0.315,3.624,3.809,0.217,0.22,99.86399999999999
+0 days 01:31:02.582000,BOR,5,99.32,21.0,2.0,,,False,HARD,8.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.866,0.88,4.18,4.394,0.621,0.629,100.478
+0 days 01:32:41.749000,BOR,5,99.167,22.0,2.0,,,False,HARD,9.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.713,0.724,4.027,4.233,0.568,0.576,100.383
+0 days 01:34:21.001000,BOR,5,99.252,23.0,2.0,,,False,HARD,10.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.798,0.811,4.112,4.322,0.628,0.637,100.526
+0 days 01:36:00.788000,BOR,5,99.787,24.0,2.0,,,False,HARD,11.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,1.333,1.354,4.647,4.884,1.017,1.03,101.119
+0 days 01:37:40.146000,BOR,5,99.358,25.0,2.0,,,False,HARD,12.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,0.904,0.918,4.218,4.433,0.186,0.188,100.747
+0 days 01:39:19.911000,BOR,5,99.765,26.0,2.0,,,False,HARD,13.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,1.311,1.332,4.625,4.861,0.572,0.577,101.212
+0 days 01:41:00.230000,BOR,5,100.319,27.0,2.0,,,False,HARD,14.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C1,True,1.865,1.894,5.179,5.444,1.364,1.378,101.824
+0 days 01:42:40.100000,BOR,5,99.87,28.0,2.0,,,False,HARD,15.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,1.416,1.438,4.73,4.972,1.006,1.018,101.433
+0 days 01:44:19.953000,BOR,5,99.853,29.0,2.0,,,False,HARD,16.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,1.399,1.421,4.713,4.954,1.723,1.756,101.47399999999999
+0 days 01:45:59.833000,BOR,5,99.88,30.0,2.0,,,False,HARD,17.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,1.426,1.448,4.74,4.982,2.186,2.238,101.559
+0 days 01:47:39.762000,BOR,5,99.929,31.0,2.0,,,False,HARD,18.0,True,Kick Sauber,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,1.475,1.498,4.789,5.034,1.885,1.923,101.666
+0 days 01:49:52.419000,BOR,5,132.657,32.0,2.0,,0 days 01:49:50.777000,False,HARD,19.0,True,Kick Sauber,14,18.0,False,4,Bahrain Grand Prix,True,C1,False,34.203,34.74,37.517,39.433,7.249,5.78,134.452
+0 days 01:52:24.362000,BOR,5,,33.0,3.0,0 days 01:50:16.083000,,False,MEDIUM,1.0,True,Kick Sauber,4,20.0,False,4,Bahrain Grand Prix,True,C2,False,,,,,,,
+0 days 01:54:10.838000,BOR,5,106.476,34.0,3.0,,,False,MEDIUM,2.0,True,Kick Sauber,4,20.0,False,4,Bahrain Grand Prix,True,C2,False,8.022,8.148,11.336,11.915,-8.926,-7.735,108.387
+0 days 01:56:07.669000,BOR,5,116.831,35.0,3.0,,,False,MEDIUM,3.0,True,Kick Sauber,41,20.0,False,4,Bahrain Grand Prix,True,C2,False,18.377,18.666,21.691,22.799,-19.155,-14.086,118.799
+0 days 01:57:48.117000,BOR,5,100.448,36.0,3.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,1.994,2.025,5.308,5.579,1.888,1.916,102.47399999999999
+0 days 01:59:26.818000,BOR,5,98.701,37.0,3.0,,,False,MEDIUM,5.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.247,0.251,3.561,3.743,0.984,1.007,100.785
+0 days 02:01:04.824000,BOR,5,98.006,38.0,3.0,,,True,MEDIUM,6.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-0.448,-0.455,2.866,3.012,0.155,0.158,100.148
+0 days 02:02:43.257000,BOR,5,98.433,39.0,3.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-0.021,-0.021,3.293,3.461,0.737,0.754,100.63300000000001
+0 days 02:04:21.568000,BOR,5,98.311,40.0,3.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,-0.143,-0.145,3.171,3.333,0.919,0.944,100.569
+0 days 02:06:00.326000,BOR,5,98.758,41.0,3.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.304,0.309,3.618,3.803,1.238,1.269,101.074
+0 days 02:07:38.816000,BOR,5,98.49,42.0,3.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.036,0.037,3.35,3.521,0.902,0.924,100.86399999999999
+0 days 02:09:17.735000,BOR,5,98.919,43.0,3.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,20.0,True,4,Bahrain Grand Prix,True,C2,True,0.465,0.472,3.779,3.972,1.277,1.308,101.351
+0 days 02:10:57.944000,BOR,5,100.209,44.0,3.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,1.755,1.783,5.069,5.328,2.485,2.543,102.69800000000001
+0 days 02:12:36.498000,BOR,5,98.554,45.0,3.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.1,0.102,3.414,3.588,0.915,0.937,101.101
+0 days 02:14:14.649000,BOR,5,98.151,46.0,3.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,-0.303,-0.308,3.011,3.165,0.491,0.503,100.756
+0 days 02:15:53.119000,BOR,5,98.47,47.0,3.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.016,0.016,3.33,3.5,0.824,0.844,101.133
+0 days 02:17:31.702000,BOR,5,98.583,48.0,3.0,,,False,MEDIUM,16.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.129,0.131,3.443,3.619,0.916,0.938,101.304
+0 days 02:19:10.282000,BOR,5,98.58,49.0,3.0,,,False,MEDIUM,17.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.126,0.128,3.44,3.616,0.783,0.801,101.359
+0 days 02:20:48.874000,BOR,5,98.592,50.0,3.0,,,False,MEDIUM,18.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.138,0.14,3.452,3.628,0.758,0.775,101.429
+0 days 02:22:27.580000,BOR,5,98.706,51.0,3.0,,,False,MEDIUM,19.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.252,0.256,3.566,3.748,0.631,0.643,101.601
+0 days 02:24:06.131000,BOR,5,98.551,52.0,3.0,,,False,MEDIUM,20.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.097,0.099,3.411,3.585,0.156,0.159,101.504
+0 days 02:25:45.104000,BOR,5,98.973,53.0,3.0,,,False,MEDIUM,21.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.519,0.527,3.833,4.029,0.557,0.566,101.984
+0 days 02:27:24.040000,BOR,5,98.936,54.0,3.0,,,False,MEDIUM,22.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.482,0.49,3.796,3.99,0.44,0.447,102.004
+0 days 02:29:03.041000,BOR,5,99.001,55.0,3.0,,,False,MEDIUM,23.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.547,0.556,3.861,4.058,0.444,0.451,102.12700000000001
+0 days 02:30:42.422000,BOR,5,99.381,56.0,3.0,,,False,MEDIUM,24.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.927,0.942,4.241,4.458,0.792,0.803,102.565
+0 days 02:32:21.485000,BOR,5,99.063,57.0,3.0,,,False,MEDIUM,25.0,True,Kick Sauber,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.609,0.619,3.923,4.123,0.202,0.204,102.305
+0 days 00:57:23.972000,STR,18,,1.0,1.0,,,False,SOFT,1.0,True,Aston Martin,1,18.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:04.222000,STR,18,100.25,2.0,1.0,,,True,SOFT,2.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C3,True,1.796,1.824,5.11,5.371,1.329,1.343,100.308
+0 days 01:00:43.930000,STR,18,99.708,3.0,1.0,,,True,SOFT,3.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C3,True,1.254,1.274,4.568,4.801,1.076,1.091,99.824
+0 days 01:02:23.774000,STR,18,99.844,4.0,1.0,,,False,SOFT,4.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C3,True,1.39,1.412,4.704,4.944,1.156,1.171,100.018
+0 days 01:04:03.748000,STR,18,99.974,5.0,1.0,,,False,SOFT,5.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C3,True,1.52,1.544,4.834,5.081,0.717,0.722,100.206
+0 days 01:05:43.553000,STR,18,99.805,6.0,1.0,,,False,SOFT,6.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C3,True,1.351,1.372,4.665,4.903,0.631,0.636,100.09400000000001
+0 days 01:07:23.408000,STR,18,99.855,7.0,1.0,,,False,SOFT,7.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C3,True,1.401,1.423,4.715,4.956,0.525,0.529,100.202
+0 days 01:09:03.807000,STR,18,100.399,8.0,1.0,,,False,SOFT,8.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C3,True,1.945,1.976,5.259,5.528,0.713,0.715,100.804
+0 days 01:10:43.955000,STR,18,100.148,9.0,1.0,,,False,SOFT,9.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C3,True,1.694,1.721,5.008,5.264,0.246,0.246,100.61099999999999
+0 days 01:12:24.474000,STR,18,100.519,10.0,1.0,,,False,SOFT,10.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C3,True,2.065,2.097,5.379,5.654,0.942,0.946,101.04
+0 days 01:14:04.944000,STR,18,100.47,11.0,1.0,,,False,SOFT,11.0,True,Aston Martin,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,2.016,2.048,5.33,5.602,1.008,1.013,101.04899999999999
+0 days 01:15:47.778000,STR,18,102.834,12.0,1.0,,0 days 01:15:46.098000,False,SOFT,12.0,True,Aston Martin,1,14.0,False,4,Bahrain Grand Prix,True,C3,False,4.38,4.449,7.694,8.087,3.806,3.843,103.471
+0 days 01:17:45.535000,STR,18,117.757,13.0,2.0,0 days 01:16:10.701000,,False,MEDIUM,1.0,True,Aston Martin,1,20.0,False,4,Bahrain Grand Prix,True,C2,False,19.303,19.606,22.617,23.772,18.951,19.18,118.452
+0 days 01:19:24.559000,STR,18,99.024,14.0,2.0,,,True,MEDIUM,2.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C2,True,0.57,0.579,3.884,4.082,0.077,0.078,99.777
+0 days 01:21:03.934000,STR,18,99.375,15.0,2.0,,,False,MEDIUM,3.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.921,0.935,4.235,4.451,0.749,0.759,100.186
+0 days 01:22:43.027000,STR,18,99.093,16.0,2.0,,,False,MEDIUM,4.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.639,0.649,3.953,4.155,0.497,0.504,99.961
+0 days 01:24:22.726000,STR,18,99.699,17.0,2.0,,,False,MEDIUM,5.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,1.245,1.265,4.559,4.792,1.357,1.38,100.625
+0 days 01:26:01.985000,STR,18,99.259,18.0,2.0,,,False,MEDIUM,6.0,True,Aston Martin,1,17.0,True,4,Bahrain Grand Prix,True,C2,True,0.805,0.818,4.119,4.329,0.759,0.771,100.243
+0 days 01:27:41.500000,STR,18,99.515,19.0,2.0,,,False,MEDIUM,7.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,1.061,1.078,4.375,4.598,1.2,1.221,100.557
+0 days 01:29:20.167000,STR,18,98.667,20.0,2.0,,,True,MEDIUM,8.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.213,0.216,3.527,3.707,0.12,0.122,99.767
+0 days 01:30:59.393000,STR,18,99.226,21.0,2.0,,,False,MEDIUM,9.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.772,0.784,4.086,4.295,0.527,0.534,100.384
+0 days 01:32:38.484000,STR,18,99.091,22.0,2.0,,,False,MEDIUM,10.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.637,0.647,3.951,4.153,0.492,0.499,100.30699999999999
+0 days 01:34:17.627000,STR,18,99.143,23.0,2.0,,,False,MEDIUM,11.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.689,0.7,4.003,4.207,0.519,0.526,100.417
+0 days 01:35:56.554000,STR,18,98.927,24.0,2.0,,,False,MEDIUM,12.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.473,0.48,3.787,3.98,0.157,0.159,100.259
+0 days 01:37:36.012000,STR,18,99.458,25.0,2.0,,,False,MEDIUM,13.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,1.004,1.02,4.318,4.539,0.286,0.288,100.847
+0 days 01:39:15.277000,STR,18,99.265,26.0,2.0,,,False,MEDIUM,14.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C2,True,0.811,0.824,4.125,4.336,0.072,0.073,100.712
+0 days 01:40:54.734000,STR,18,99.457,27.0,2.0,,,False,MEDIUM,15.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.003,1.019,4.317,4.538,0.502,0.507,100.96199999999999
+0 days 01:42:35.017000,STR,18,100.283,28.0,2.0,,,False,MEDIUM,16.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.829,1.858,5.143,5.406,1.419,1.435,101.846
+0 days 01:44:14.753000,STR,18,99.736,29.0,2.0,,,False,MEDIUM,17.0,True,Aston Martin,1,15.0,True,4,Bahrain Grand Prix,True,C2,True,1.282,1.302,4.596,4.831,1.606,1.637,101.357
+0 days 01:45:54.788000,STR,18,100.035,30.0,2.0,,,False,MEDIUM,18.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,1.581,1.606,4.895,5.145,2.341,2.396,101.714
+0 days 01:47:34.175000,STR,18,99.387,31.0,2.0,,,False,MEDIUM,19.0,True,Aston Martin,1,16.0,True,4,Bahrain Grand Prix,True,C2,True,0.933,0.948,4.247,4.464,1.343,1.37,101.124
+0 days 01:49:44.918000,STR,18,130.743,32.0,2.0,,0 days 01:49:43.251000,False,MEDIUM,20.0,True,Aston Martin,14,17.0,False,4,Bahrain Grand Prix,True,C2,False,32.289,32.796,35.603,37.422,5.335,4.254,132.53799999999998
+0 days 01:52:17.571000,STR,18,,33.0,3.0,0 days 01:50:07.742000,,False,HARD,1.0,True,Aston Martin,4,19.0,False,4,Bahrain Grand Prix,True,C1,False,,,,,,,
+0 days 01:54:08.693000,STR,18,111.122,34.0,3.0,,,False,HARD,2.0,True,Aston Martin,4,19.0,False,4,Bahrain Grand Prix,True,C1,False,12.668,12.867,15.982,16.798,-4.28,-3.709,113.033
+0 days 01:56:07.623000,STR,18,118.93,35.0,3.0,,,False,HARD,3.0,True,Aston Martin,41,19.0,False,4,Bahrain Grand Prix,True,C1,False,20.476,20.798,23.79,25.005,-17.056,-12.542,120.89800000000001
+0 days 01:57:47.641000,STR,18,100.018,36.0,3.0,,,False,HARD,4.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,1.564,1.589,4.878,5.127,1.458,1.479,102.044
+0 days 01:59:26.247000,STR,18,98.606,37.0,3.0,,,True,HARD,5.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.152,0.154,3.466,3.643,0.889,0.91,100.69
+0 days 02:01:04.311000,STR,18,98.064,38.0,3.0,,,True,HARD,6.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-0.39,-0.396,2.924,3.073,0.213,0.218,100.20599999999999
+0 days 02:02:42.640000,STR,18,98.329,39.0,3.0,,,False,HARD,7.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-0.125,-0.127,3.189,3.352,0.633,0.648,100.529
+0 days 02:04:21.015000,STR,18,98.375,40.0,3.0,,,False,HARD,8.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,-0.079,-0.08,3.235,3.4,0.983,1.009,100.633
+0 days 02:05:59.670000,STR,18,98.655,41.0,3.0,,,False,HARD,9.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.201,0.204,3.515,3.695,1.135,1.164,100.971
+0 days 02:07:38.207000,STR,18,98.537,42.0,3.0,,,False,HARD,10.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.083,0.084,3.397,3.571,0.949,0.972,100.911
+0 days 02:09:17.103000,STR,18,98.896,43.0,3.0,,,False,HARD,11.0,True,Aston Martin,1,19.0,True,4,Bahrain Grand Prix,True,C1,True,0.442,0.449,3.756,3.948,1.254,1.284,101.328
+0 days 02:10:57.358000,STR,18,100.255,44.0,3.0,,,False,HARD,12.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,1.801,1.829,5.115,5.376,2.531,2.59,102.744
+0 days 02:12:35.638000,STR,18,98.28,45.0,3.0,,,False,HARD,13.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.174,-0.177,3.14,3.3,0.641,0.656,100.827
+0 days 02:14:13.933000,STR,18,98.295,46.0,3.0,,,False,HARD,14.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.159,-0.161,3.155,3.316,0.635,0.65,100.9
+0 days 02:15:52.285000,STR,18,98.352,47.0,3.0,,,False,HARD,15.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.102,-0.104,3.212,3.376,0.706,0.723,101.015
+0 days 02:17:30.698000,STR,18,98.413,48.0,3.0,,,False,HARD,16.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,-0.041,-0.042,3.273,3.44,0.746,0.764,101.134
+0 days 02:19:09.346000,STR,18,98.648,49.0,3.0,,,False,HARD,17.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.194,0.197,3.508,3.687,0.851,0.87,101.42699999999999
+0 days 02:20:48.071000,STR,18,98.725,50.0,3.0,,,False,HARD,18.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.271,0.275,3.585,3.768,0.891,0.911,101.562
+0 days 02:22:26.698000,STR,18,98.627,51.0,3.0,,,False,HARD,19.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.173,0.176,3.487,3.665,0.552,0.563,101.52199999999999
+0 days 02:24:05.392000,STR,18,98.694,52.0,3.0,,,False,HARD,20.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.24,0.244,3.554,3.736,0.299,0.304,101.647
+0 days 02:25:44.188000,STR,18,98.796,53.0,3.0,,,False,HARD,21.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.342,0.347,3.656,3.843,0.38,0.386,101.807
+0 days 02:27:23.022000,STR,18,98.834,54.0,3.0,,,False,HARD,22.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.38,0.386,3.694,3.883,0.338,0.343,101.902
+0 days 02:29:02.086000,STR,18,99.064,55.0,3.0,,,False,HARD,23.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.61,0.62,3.924,4.124,0.507,0.514,102.19
+0 days 02:30:41.111000,STR,18,99.025,56.0,3.0,,,False,HARD,24.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.571,0.58,3.885,4.083,0.436,0.442,102.209
+0 days 02:32:20.091000,STR,18,98.98,57.0,3.0,,,False,HARD,25.0,True,Aston Martin,1,18.0,True,4,Bahrain Grand Prix,True,C1,True,0.526,0.534,3.84,4.036,0.119,0.12,102.22200000000001
+0 days 00:57:22.008000,BEA,87,,1.0,1.0,,,False,SOFT,1.0,True,Haas F1 Team,1,15.0,False,4,Bahrain Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:02.273000,BEA,87,100.265,2.0,1.0,,,True,SOFT,2.0,True,Haas F1 Team,1,15.0,True,4,Bahrain Grand Prix,True,C3,True,1.811,1.839,5.125,5.387,1.344,1.359,100.32300000000001
+0 days 01:00:41.859000,BEA,87,99.586,3.0,1.0,,,True,SOFT,3.0,True,Haas F1 Team,1,15.0,True,4,Bahrain Grand Prix,True,C3,True,1.132,1.15,4.446,4.673,0.954,0.967,99.702
+0 days 01:02:21.121000,BEA,87,99.262,4.0,1.0,,,True,SOFT,4.0,True,Haas F1 Team,1,15.0,True,4,Bahrain Grand Prix,True,C3,True,0.808,0.821,4.122,4.333,0.574,0.582,99.436
+0 days 01:04:00.367000,BEA,87,99.246,5.0,1.0,,,True,SOFT,5.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,0.792,0.804,4.106,4.316,-0.011,-0.011,99.478
+0 days 01:05:39.670000,BEA,87,99.303,6.0,1.0,,,False,SOFT,6.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,0.849,0.862,4.163,4.376,0.129,0.13,99.592
+0 days 01:07:19.177000,BEA,87,99.507,7.0,1.0,,,False,SOFT,7.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,1.053,1.07,4.367,4.59,0.177,0.178,99.854
+0 days 01:08:58.876000,BEA,87,99.699,8.0,1.0,,,False,SOFT,8.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C3,True,1.245,1.265,4.559,4.792,0.013,0.013,100.104
+0 days 01:10:39.160000,BEA,87,100.284,9.0,1.0,,,False,SOFT,9.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C3,True,1.83,1.859,5.144,5.407,0.382,0.382,100.747
+0 days 01:12:18.999000,BEA,87,99.839,10.0,1.0,,,False,SOFT,10.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C3,True,1.385,1.407,4.699,4.939,0.262,0.263,100.36
+0 days 01:13:58.790000,BEA,87,99.791,11.0,1.0,,,False,SOFT,11.0,True,Haas F1 Team,1,9.0,True,4,Bahrain Grand Prix,True,C3,True,1.337,1.358,4.651,4.889,0.329,0.331,100.36999999999999
+0 days 01:15:38.640000,BEA,87,99.85,12.0,1.0,,,False,SOFT,12.0,True,Haas F1 Team,1,8.0,True,4,Bahrain Grand Prix,True,C3,True,1.396,1.418,4.71,4.951,0.822,0.83,100.487
+0 days 01:17:18.741000,BEA,87,100.101,13.0,1.0,,,False,SOFT,13.0,True,Haas F1 Team,1,7.0,True,4,Bahrain Grand Prix,True,C3,True,1.647,1.673,4.961,5.214,1.295,1.311,100.79599999999999
+0 days 01:19:01.337000,BEA,87,102.596,14.0,1.0,,0 days 01:18:59.634000,False,SOFT,14.0,True,Haas F1 Team,1,7.0,False,4,Bahrain Grand Prix,True,C3,False,4.142,4.207,7.456,7.837,3.649,3.688,103.349
+0 days 01:20:58.626000,BEA,87,117.289,15.0,2.0,0 days 01:19:24.277000,,False,HARD,1.0,True,Haas F1 Team,1,17.0,False,4,Bahrain Grand Prix,True,C1,False,18.835,19.131,22.149,23.28,18.663,18.923,118.10000000000001
+0 days 01:22:37.028000,BEA,87,98.402,16.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,17.0,True,4,Bahrain Grand Prix,True,C1,True,-0.052,-0.053,3.262,3.429,-0.194,-0.197,99.27
+0 days 01:24:14.508000,BEA,87,97.48,17.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.974,-0.989,2.34,2.46,-0.862,-0.877,98.406
+0 days 01:25:52.541000,BEA,87,98.033,18.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,-0.421,-0.428,2.893,3.041,-0.467,-0.474,99.017
+0 days 01:27:31.057000,BEA,87,98.516,19.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.062,0.063,3.376,3.548,0.201,0.204,99.558
+0 days 01:29:09.683000,BEA,87,98.626,20.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,14.0,True,4,Bahrain Grand Prix,True,C1,True,0.172,0.175,3.486,3.664,0.079,0.08,99.726
+0 days 01:30:48.319000,BEA,87,98.636,21.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.182,0.185,3.496,3.675,-0.063,-0.064,99.794
+0 days 01:32:26.885000,BEA,87,98.566,22.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.112,0.114,3.426,3.601,-0.033,-0.033,99.782
+0 days 01:34:05.390000,BEA,87,98.505,23.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.051,0.052,3.365,3.537,-0.119,-0.121,99.779
+0 days 01:35:44.080000,BEA,87,98.69,24.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.236,0.24,3.55,3.731,-0.08,-0.081,100.02199999999999
+0 days 01:37:23.047000,BEA,87,98.967,25.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.513,0.521,3.827,4.022,-0.205,-0.207,100.356
+0 days 01:39:01.817000,BEA,87,98.77,26.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,13.0,True,4,Bahrain Grand Prix,True,C1,True,0.316,0.321,3.63,3.815,-0.423,-0.426,100.217
+0 days 01:40:40.975000,BEA,87,99.158,27.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,12.0,True,4,Bahrain Grand Prix,True,C1,True,0.704,0.715,4.018,4.223,0.203,0.205,100.663
+0 days 01:42:19.994000,BEA,87,99.019,28.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C1,True,0.565,0.574,3.879,4.077,0.155,0.157,100.58200000000001
+0 days 01:44:00.228000,BEA,87,100.234,29.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,1.78,1.808,5.094,5.354,2.104,2.144,101.85499999999999
+0 days 01:45:39.467000,BEA,87,99.239,30.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,0.785,0.797,4.099,4.308,1.545,1.581,100.918
+0 days 01:47:18.805000,BEA,87,99.338,31.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,9.0,True,4,Bahrain Grand Prix,True,C1,True,0.884,0.898,4.198,4.412,1.294,1.32,101.07499999999999
+0 days 01:49:25.763000,BEA,87,126.958,32.0,2.0,,0 days 01:49:23.999000,False,HARD,18.0,True,Haas F1 Team,14,10.0,False,4,Bahrain Grand Prix,True,C1,False,28.504,28.952,31.818,33.443,1.55,1.236,128.753
+0 days 01:51:55.498000,BEA,87,149.735,33.0,3.0,0 days 01:49:49.031000,,False,SOFT,1.0,True,Haas F1 Team,4,12.0,False,4,Bahrain Grand Prix,True,C3,False,51.281,52.086,54.595,57.384,16.498,12.382,151.58800000000002
+0 days 01:53:49.411000,BEA,87,113.913,34.0,3.0,,,False,SOFT,2.0,True,Haas F1 Team,4,12.0,False,4,Bahrain Grand Prix,True,C3,False,15.459,15.702,18.773,19.732,-1.489,-1.29,115.824
+0 days 01:56:04.309000,BEA,87,134.898,35.0,3.0,,,False,SOFT,3.0,True,Haas F1 Team,41,12.0,False,4,Bahrain Grand Prix,True,C3,False,36.444,37.016,39.758,41.789,-1.088,-0.8,136.86599999999999
+0 days 01:57:42.603000,BEA,87,98.294,36.0,3.0,,,False,SOFT,4.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.16,-0.163,3.154,3.315,-0.266,-0.27,100.32
+0 days 01:59:20.342000,BEA,87,97.739,37.0,3.0,,,False,SOFT,5.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.715,-0.726,2.599,2.732,0.022,0.023,99.82300000000001
+0 days 02:00:58.650000,BEA,87,98.308,38.0,3.0,,,False,SOFT,6.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.146,-0.148,3.168,3.33,0.457,0.467,100.45
+0 days 02:02:36.558000,BEA,87,97.908,39.0,3.0,,,False,SOFT,7.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.546,-0.555,2.768,2.909,0.212,0.217,100.108
+0 days 02:04:13.861000,BEA,87,97.303,40.0,3.0,,,True,SOFT,8.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-1.151,-1.169,2.163,2.273,-0.089,-0.091,99.56099999999999
+0 days 02:05:51.569000,BEA,87,97.708,41.0,3.0,,,False,SOFT,9.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.746,-0.758,2.568,2.699,0.188,0.193,100.024
+0 days 02:07:29.078000,BEA,87,97.509,42.0,3.0,,,False,SOFT,10.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.945,-0.96,2.369,2.49,-0.079,-0.081,99.883
+0 days 02:09:06.863000,BEA,87,97.785,43.0,3.0,,,False,SOFT,11.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.669,-0.68,2.645,2.78,0.143,0.146,100.217
+0 days 02:10:44.716000,BEA,87,97.853,44.0,3.0,,,False,SOFT,12.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.601,-0.61,2.713,2.852,0.129,0.132,100.342
+0 days 02:12:22.583000,BEA,87,97.867,45.0,3.0,,,False,SOFT,13.0,True,Haas F1 Team,1,11.0,True,4,Bahrain Grand Prix,True,C3,True,-0.587,-0.596,2.727,2.866,0.228,0.234,100.414
+0 days 02:14:00.062000,BEA,87,97.479,46.0,3.0,,,False,SOFT,14.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.975,-0.99,2.339,2.458,-0.181,-0.185,100.084
+0 days 02:15:37.634000,BEA,87,97.572,47.0,3.0,,,False,SOFT,15.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.882,-0.896,2.432,2.556,-0.074,-0.076,100.235
+0 days 02:17:15.290000,BEA,87,97.656,48.0,3.0,,,False,SOFT,16.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.798,-0.811,2.516,2.645,-0.011,-0.011,100.37700000000001
+0 days 02:18:52.981000,BEA,87,97.691,49.0,3.0,,,False,SOFT,17.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.763,-0.775,2.551,2.681,-0.106,-0.108,100.47
+0 days 02:20:30.656000,BEA,87,97.675,50.0,3.0,,,False,SOFT,18.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.779,-0.791,2.535,2.664,-0.159,-0.163,100.512
+0 days 02:22:08.995000,BEA,87,98.339,51.0,3.0,,,False,SOFT,19.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.115,-0.117,3.199,3.362,0.264,0.269,101.234
+0 days 02:23:47.543000,BEA,87,98.548,52.0,3.0,,,False,SOFT,20.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.094,0.095,3.408,3.582,0.153,0.155,101.501
+0 days 02:25:25.965000,BEA,87,98.422,53.0,3.0,,,False,SOFT,21.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,-0.032,-0.033,3.282,3.45,0.006,0.006,101.43299999999999
+0 days 02:27:04.608000,BEA,87,98.643,54.0,3.0,,,False,SOFT,22.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.189,0.192,3.503,3.682,0.147,0.149,101.711
+0 days 02:28:43.450000,BEA,87,98.842,55.0,3.0,,,False,SOFT,23.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.388,0.394,3.702,3.891,0.285,0.289,101.968
+0 days 02:30:22.459000,BEA,87,99.009,56.0,3.0,,,False,SOFT,24.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.555,0.564,3.869,4.067,0.42,0.426,102.193
+0 days 02:32:02.163000,BEA,87,99.704,57.0,3.0,,,False,SOFT,25.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,1.25,1.27,4.564,4.797,0.843,0.853,102.946
