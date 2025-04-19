@@ -189,9 +189,11 @@
 
 [2025]
 # Source
-# https://press.pirelli.com/2025-compounds-something-new-for-jeddah/
+# https://press.pirelli.com/pirelli-on-the-soft-side-for-miami-and-imola//
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
 3  = ["C1","C2","C3"]
 4  = ["C1","C2","C3"]
 5  = ["C3","C4","C5"]
+6  = ["C3","C4","C5"]
+7  = ["C4","C5","C6"]
