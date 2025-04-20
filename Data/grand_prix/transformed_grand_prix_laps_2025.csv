@@ -4178,3 +4178,901 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:28:43.450000,BEA,87,98.842,55.0,3.0,,,False,SOFT,23.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.388,0.394,3.702,3.891,0.285,0.289,101.968
 0 days 02:30:22.459000,BEA,87,99.009,56.0,3.0,,,False,SOFT,24.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,0.555,0.564,3.869,4.067,0.42,0.426,102.193
 0 days 02:32:02.163000,BEA,87,99.704,57.0,3.0,,,False,SOFT,25.0,True,Haas F1 Team,1,10.0,True,4,Bahrain Grand Prix,True,C3,True,1.25,1.27,4.564,4.797,0.843,0.853,102.946
+0 days 00:59:02.420000,PIA,81,124.986,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,124,3.0,False,5,Saudi Arabian Grand Prix,True,C4,False,30.59,32.406,33.208,36.183,-11.038,-8.115,124.986
+0 days 01:01:46.365000,PIA,81,,2.0,1.0,,,False,MEDIUM,2.0,True,McLaren,4,2.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:41.597000,PIA,81,,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,41,3.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:15.844000,PIA,81,94.247,4.0,1.0,,,True,MEDIUM,4.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.149,-0.158,2.469,2.69,-3.259,-3.342,94.445
+0 days 01:07:49.262000,PIA,81,93.418,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.978,-1.036,1.64,1.787,-2.252,-2.354,93.682
+0 days 01:09:23.179000,PIA,81,93.917,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.479,-0.507,2.139,2.331,-1.214,-1.276,94.247
+0 days 01:10:56.702000,PIA,81,93.523,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.873,-0.925,1.745,1.901,-1.617,-1.7,93.919
+0 days 01:12:30.595000,PIA,81,93.893,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.503,-0.533,2.115,2.304,-1.219,-1.282,94.355
+0 days 01:14:04.095000,PIA,81,93.5,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.896,-0.949,1.722,1.876,-1.442,-1.519,94.028
+0 days 01:15:38.140000,PIA,81,94.045,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.351,-0.372,2.267,2.47,-0.95,-1.0,94.639
+0 days 01:17:11.948000,PIA,81,93.808,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.588,-0.623,2.03,2.212,-1.269,-1.335,94.468
+0 days 01:18:45.718000,PIA,81,93.77,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.626,-0.663,1.992,2.17,-1.55,-1.626,94.496
+0 days 01:20:19.998000,PIA,81,94.28,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.116,-0.123,2.502,2.726,-1.402,-1.465,95.072
+0 days 01:21:54.070000,PIA,81,94.072,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.324,-0.343,2.294,2.5,-1.219,-1.279,94.93
+0 days 01:23:28.219000,PIA,81,94.149,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.247,-0.262,2.371,2.583,-1.184,-1.242,95.07300000000001
+0 days 01:25:02.343000,PIA,81,94.124,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.272,-0.288,2.346,2.556,-1.076,-1.13,95.11399999999999
+0 days 01:26:36.622000,PIA,81,94.279,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.117,-0.124,2.501,2.725,-1.008,-1.058,95.335
+0 days 01:28:10.782000,PIA,81,94.16,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.236,-0.25,2.382,2.595,-1.002,-1.053,95.282
+0 days 01:29:47.232000,PIA,81,96.45,19.0,1.0,,0 days 01:29:46.222000,False,MEDIUM,19.0,True,McLaren,1,2.0,False,5,Saudi Arabian Grand Prix,True,C4,False,2.054,2.176,4.672,5.091,1.08,1.132,97.638
+0 days 01:31:37.838000,PIA,81,110.606,20.0,2.0,0 days 01:30:07.523000,,False,HARD,1.0,True,McLaren,1,6.0,False,5,Saudi Arabian Grand Prix,True,C3,False,16.21,17.172,18.828,20.515,15.045,15.744,111.86
+0 days 01:33:11.633000,PIA,81,93.795,21.0,2.0,,,False,HARD,2.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.601,-0.637,2.017,2.198,-1.601,-1.678,95.115
+0 days 01:34:45.657000,PIA,81,94.024,22.0,2.0,,,False,HARD,3.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.372,-0.394,2.246,2.447,-0.669,-0.706,95.41
+0 days 01:36:18.776000,PIA,81,93.119,23.0,2.0,,,True,HARD,4.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.277,-1.353,1.341,1.461,-1.681,-1.773,94.571
+0 days 01:37:51.536000,PIA,81,92.76,24.0,2.0,,,True,HARD,5.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.636,-1.733,0.982,1.07,-1.888,-1.995,94.278
+0 days 01:39:24.628000,PIA,81,93.092,25.0,2.0,,,False,HARD,6.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.304,-1.381,1.314,1.432,-1.266,-1.342,94.676
+0 days 01:40:57.550000,PIA,81,92.922,26.0,2.0,,,False,HARD,7.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.474,-1.562,1.144,1.246,-1.572,-1.664,94.572
+0 days 01:42:30.425000,PIA,81,92.875,27.0,2.0,,,False,HARD,8.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.521,-1.611,1.097,1.195,-1.581,-1.674,94.591
+0 days 01:44:03.256000,PIA,81,92.831,28.0,2.0,,,False,HARD,9.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.565,-1.658,1.053,1.147,-1.764,-1.865,94.613
+0 days 01:45:36.064000,PIA,81,92.808,29.0,2.0,,,False,HARD,10.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.588,-1.682,1.03,1.122,-1.582,-1.676,94.656
+0 days 01:47:09.002000,PIA,81,92.938,30.0,2.0,,,False,HARD,11.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.458,-1.545,1.16,1.264,-1.787,-1.887,94.852
+0 days 01:48:41.776000,PIA,81,92.774,31.0,2.0,,,False,HARD,12.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.622,-1.718,0.996,1.085,-1.726,-1.826,94.754
+0 days 01:50:14.563000,PIA,81,92.787,32.0,2.0,,,False,HARD,13.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.609,-1.705,1.009,1.099,-1.097,-1.168,94.83300000000001
+0 days 01:51:47.220000,PIA,81,92.657,33.0,2.0,,,True,HARD,14.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.739,-1.842,0.879,0.958,-1.163,-1.24,94.76899999999999
+0 days 01:53:20.421000,PIA,81,93.201,34.0,2.0,,,False,HARD,15.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.195,-1.266,1.423,1.55,-0.596,-0.635,95.37899999999999
+0 days 01:54:52.976000,PIA,81,92.555,35.0,2.0,,,True,HARD,16.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.841,-1.95,0.777,0.847,-1.261,-1.344,94.799
+0 days 01:56:25.600000,PIA,81,92.624,36.0,2.0,,,False,HARD,17.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.772,-1.877,0.846,0.922,-1.124,-1.199,94.934
+0 days 01:57:58.300000,PIA,81,92.7,37.0,2.0,,,False,HARD,18.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.696,-1.797,0.922,1.005,-1.096,-1.168,95.07600000000001
+0 days 01:59:30.963000,PIA,81,92.663,38.0,2.0,,,False,HARD,19.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.733,-1.836,0.885,0.964,-1.054,-1.125,95.10499999999999
+0 days 02:01:03.664000,PIA,81,92.701,39.0,2.0,,,False,HARD,20.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.695,-1.796,0.923,1.006,-0.745,-0.797,95.20899999999999
+0 days 02:02:36.442000,PIA,81,92.778,40.0,2.0,,,False,HARD,21.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.618,-1.714,1.0,1.09,-0.755,-0.807,95.352
+0 days 02:04:09.429000,PIA,81,92.987,41.0,2.0,,,False,HARD,22.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.409,-1.493,1.209,1.317,-0.852,-0.908,95.627
+0 days 02:05:42.115000,PIA,81,92.686,42.0,2.0,,,False,HARD,23.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.71,-1.812,0.908,0.989,-1.118,-1.192,95.39200000000001
+0 days 02:07:14.986000,PIA,81,92.871,43.0,2.0,,,False,HARD,24.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.525,-1.616,1.093,1.191,-0.681,-0.728,95.643
+0 days 02:08:47.801000,PIA,81,92.815,44.0,2.0,,,False,HARD,25.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.581,-1.675,1.037,1.13,-0.737,-0.788,95.65299999999999
+0 days 02:10:20.194000,PIA,81,92.393,45.0,2.0,,,True,HARD,26.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.003,-2.122,0.615,0.67,-1.107,-1.184,95.297
+0 days 02:11:53.546000,PIA,81,93.352,46.0,2.0,,,False,HARD,27.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.044,-1.106,1.574,1.715,-0.196,-0.21,96.322
+0 days 02:13:26.215000,PIA,81,92.669,47.0,2.0,,,False,HARD,28.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.727,-1.83,0.891,0.971,-0.685,-0.734,95.705
+0 days 02:14:58.943000,PIA,81,92.728,48.0,2.0,,,False,HARD,29.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.668,-1.767,0.95,1.035,-0.612,-0.656,95.83
+0 days 02:16:31.870000,PIA,81,92.927,49.0,2.0,,,False,HARD,30.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.469,-1.556,1.149,1.252,-0.364,-0.39,96.09500000000001
+0 days 02:18:04.098000,PIA,81,92.228,50.0,2.0,,,True,HARD,31.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.168,-2.297,0.45,0.49,-0.902,-0.969,95.46199999999999
+0 days 00:59:00.497000,VER,1,123.217,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,124,2.0,False,5,Saudi Arabian Grand Prix,True,C4,False,28.821,30.532,31.439,34.255,-12.807,-9.415,123.217
+0 days 01:01:45.428000,VER,1,,2.0,1.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,1.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:40.861000,VER,1,,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,41,1.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:14.692000,VER,1,93.831,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.565,-0.599,2.053,2.237,-3.675,-3.769,94.029
+0 days 01:07:48.408000,VER,1,93.716,5.0,1.0,,,True,MEDIUM,5.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.68,-0.72,1.938,2.112,-1.954,-2.042,93.97999999999999
+0 days 01:09:21.972000,VER,1,93.564,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.832,-0.881,1.786,1.946,-1.567,-1.647,93.89399999999999
+0 days 01:10:55.483000,VER,1,93.511,7.0,1.0,,,True,MEDIUM,7.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.885,-0.938,1.733,1.888,-1.629,-1.712,93.907
+0 days 01:12:29.374000,VER,1,93.891,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.505,-0.535,2.113,2.302,-1.221,-1.284,94.35300000000001
+0 days 01:14:03.172000,VER,1,93.798,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.598,-0.634,2.02,2.201,-1.144,-1.205,94.32600000000001
+0 days 01:15:36.985000,VER,1,93.813,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.583,-0.618,2.035,2.217,-1.182,-1.244,94.407
+0 days 01:17:10.986000,VER,1,94.001,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.395,-0.418,2.223,2.422,-1.076,-1.132,94.661
+0 days 01:18:44.946000,VER,1,93.96,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.436,-0.462,2.182,2.377,-1.36,-1.427,94.68599999999999
+0 days 01:20:18.802000,VER,1,93.856,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.54,-0.572,2.078,2.264,-1.826,-1.908,94.648
+0 days 01:21:52.703000,VER,1,93.901,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.495,-0.524,2.123,2.313,-1.39,-1.459,94.759
+0 days 01:23:26.603000,VER,1,93.9,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.496,-0.525,2.122,2.312,-1.433,-1.503,94.82400000000001
+0 days 01:25:00.361000,VER,1,93.758,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.638,-0.676,1.98,2.157,-1.442,-1.515,94.74799999999999
+0 days 01:26:34.158000,VER,1,93.797,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.599,-0.635,2.019,2.2,-1.49,-1.564,94.853
+0 days 01:28:07.968000,VER,1,93.81,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.586,-0.621,2.032,2.214,-1.352,-1.421,94.932
+0 days 01:29:41.882000,VER,1,93.914,19.0,1.0,,,False,MEDIUM,19.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.482,-0.511,2.136,2.327,-1.456,-1.527,95.102
+0 days 01:31:15.920000,VER,1,94.038,20.0,1.0,,,False,MEDIUM,20.0,True,Red Bull Racing,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.358,-0.379,2.26,2.462,-1.523,-1.594,95.292
+0 days 01:32:52.420000,VER,1,96.5,21.0,1.0,,0 days 01:32:51.477000,False,MEDIUM,21.0,True,Red Bull Racing,1,1.0,False,5,Saudi Arabian Grand Prix,True,C4,False,2.104,2.229,4.722,5.145,1.104,1.157,97.82
+0 days 01:34:48.252000,VER,1,115.832,22.0,2.0,0 days 01:33:17.527000,,False,HARD,1.0,True,Red Bull Racing,1,5.0,False,5,Saudi Arabian Grand Prix,True,C3,False,21.436,22.709,24.054,26.209,21.139,22.324,117.21799999999999
+0 days 01:36:22.364000,VER,1,94.112,23.0,2.0,,,False,HARD,2.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.284,-0.301,2.334,2.543,-0.688,-0.726,95.564
+0 days 01:37:55.783000,VER,1,93.419,24.0,2.0,,,True,HARD,3.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.977,-1.035,1.641,1.788,-1.229,-1.298,94.937
+0 days 01:39:28.850000,VER,1,93.067,25.0,2.0,,,True,HARD,4.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.329,-1.408,1.289,1.404,-1.291,-1.368,94.651
+0 days 01:41:01.870000,VER,1,93.02,26.0,2.0,,,True,HARD,5.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.376,-1.458,1.242,1.353,-1.474,-1.56,94.67
+0 days 01:42:34.806000,VER,1,92.936,27.0,2.0,,,True,HARD,6.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.46,-1.547,1.158,1.262,-1.52,-1.609,94.652
+0 days 01:44:07.764000,VER,1,92.958,28.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.438,-1.523,1.18,1.286,-1.637,-1.731,94.74
+0 days 01:45:40.843000,VER,1,93.079,29.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.317,-1.395,1.301,1.418,-1.311,-1.389,94.92699999999999
+0 days 01:47:13.654000,VER,1,92.811,30.0,2.0,,,True,HARD,9.0,True,Red Bull Racing,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.585,-1.679,1.033,1.126,-1.914,-2.021,94.72500000000001
+0 days 01:48:46.436000,VER,1,92.782,31.0,2.0,,,True,HARD,10.0,True,Red Bull Racing,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.614,-1.71,1.004,1.094,-1.718,-1.818,94.762
+0 days 01:50:19.209000,VER,1,92.773,32.0,2.0,,,True,HARD,11.0,True,Red Bull Racing,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.623,-1.719,0.995,1.084,-1.111,-1.183,94.819
+0 days 01:51:51.945000,VER,1,92.736,33.0,2.0,,,True,HARD,12.0,True,Red Bull Racing,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.66,-1.759,0.958,1.044,-1.084,-1.155,94.848
+0 days 01:53:24.641000,VER,1,92.696,34.0,2.0,,,True,HARD,13.0,True,Red Bull Racing,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.7,-1.801,0.918,1.0,-1.101,-1.174,94.874
+0 days 01:54:57.384000,VER,1,92.743,35.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.653,-1.751,0.965,1.051,-1.073,-1.144,94.987
+0 days 01:56:30.075000,VER,1,92.691,36.0,2.0,,,True,HARD,15.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.705,-1.806,0.913,0.995,-1.057,-1.127,95.001
+0 days 01:58:02.985000,VER,1,92.91,37.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.486,-1.574,1.132,1.233,-0.886,-0.945,95.286
+0 days 01:59:35.695000,VER,1,92.71,38.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.686,-1.786,0.932,1.015,-1.007,-1.075,95.15199999999999
+0 days 02:01:08.376000,VER,1,92.681,39.0,2.0,,,True,HARD,18.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.715,-1.817,0.903,0.984,-0.765,-0.819,95.189
+0 days 02:02:40.936000,VER,1,92.56,40.0,2.0,,,True,HARD,19.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.836,-1.945,0.782,0.852,-0.973,-1.04,95.134
+0 days 02:04:13.504000,VER,1,92.568,41.0,2.0,,,False,HARD,20.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.828,-1.937,0.79,0.861,-1.271,-1.354,95.208
+0 days 02:05:46.004000,VER,1,92.5,42.0,2.0,,,True,HARD,21.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.896,-2.009,0.722,0.787,-1.304,-1.39,95.206
+0 days 02:07:19.186000,VER,1,93.182,43.0,2.0,,,False,HARD,22.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.214,-1.286,1.404,1.53,-0.37,-0.396,95.95400000000001
+0 days 02:08:51.698000,VER,1,92.512,44.0,2.0,,,False,HARD,23.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.884,-1.996,0.734,0.8,-1.04,-1.112,95.35
+0 days 02:10:24.164000,VER,1,92.466,45.0,2.0,,,True,HARD,24.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.93,-2.045,0.688,0.75,-1.034,-1.106,95.36999999999999
+0 days 02:11:56.488000,VER,1,92.324,46.0,2.0,,,True,HARD,25.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.072,-2.195,0.546,0.595,-1.224,-1.308,95.294
+0 days 02:13:29.361000,VER,1,92.873,47.0,2.0,,,False,HARD,26.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.523,-1.613,1.095,1.193,-0.481,-0.515,95.909
+0 days 02:15:02.058000,VER,1,92.697,48.0,2.0,,,False,HARD,27.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.699,-1.8,0.919,1.001,-0.643,-0.689,95.799
+0 days 02:16:34.338000,VER,1,92.28,49.0,2.0,,,True,HARD,28.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.116,-2.242,0.502,0.547,-1.011,-1.084,95.44800000000001
+0 days 02:18:06.791000,VER,1,92.453,50.0,2.0,,,False,HARD,29.0,True,Red Bull Racing,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.943,-2.058,0.675,0.735,-0.677,-0.727,95.687
+0 days 00:59:05.071000,LEC,16,127.865,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,124,5.0,False,5,Saudi Arabian Grand Prix,True,C4,False,33.469,35.456,36.087,39.32,-8.159,-5.998,127.865
+0 days 01:01:49.902000,LEC,16,,2.0,1.0,,,False,MEDIUM,2.0,True,Ferrari,4,4.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:41.643000,LEC,16,,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,41,4.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:17.488000,LEC,16,95.845,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.449,1.535,4.067,4.431,-1.661,-1.703,96.04299999999999
+0 days 01:07:51.916000,LEC,16,94.428,5.0,1.0,,,True,MEDIUM,5.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.032,0.034,2.65,2.887,-1.242,-1.298,94.692
+0 days 01:09:26.436000,LEC,16,94.52,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.124,0.131,2.742,2.988,-0.611,-0.642,94.85
+0 days 01:11:00.711000,LEC,16,94.275,7.0,1.0,,,True,MEDIUM,7.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.121,-0.128,2.497,2.721,-0.865,-0.909,94.671
+0 days 01:12:34.796000,LEC,16,94.085,8.0,1.0,,,True,MEDIUM,8.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.311,-0.329,2.307,2.514,-1.027,-1.08,94.547
+0 days 01:14:08.895000,LEC,16,94.099,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.297,-0.315,2.321,2.529,-0.843,-0.888,94.62700000000001
+0 days 01:15:43.314000,LEC,16,94.419,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.023,0.024,2.641,2.878,-0.576,-0.606,95.01299999999999
+0 days 01:17:17.607000,LEC,16,94.293,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.103,-0.109,2.515,2.74,-0.784,-0.825,94.953
+0 days 01:18:52.032000,LEC,16,94.425,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.029,0.031,2.647,2.884,-0.895,-0.939,95.151
+0 days 01:20:26.249000,LEC,16,94.217,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.179,-0.19,2.439,2.657,-1.465,-1.531,95.009
+0 days 01:22:00.890000,LEC,16,94.641,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.245,0.26,2.863,3.119,-0.65,-0.682,95.49900000000001
+0 days 01:23:35.166000,LEC,16,94.276,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.12,-0.127,2.498,2.722,-1.057,-1.109,95.2
+0 days 01:25:09.459000,LEC,16,94.293,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.103,-0.109,2.515,2.74,-0.907,-0.953,95.283
+0 days 01:26:43.935000,LEC,16,94.476,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.08,0.085,2.698,2.94,-0.811,-0.851,95.532
+0 days 01:28:18.374000,LEC,16,94.439,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.043,0.046,2.661,2.899,-0.723,-0.76,95.56099999999999
+0 days 01:29:52.771000,LEC,16,94.397,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.001,0.001,2.619,2.854,-0.973,-1.02,95.58500000000001
+0 days 01:31:27.191000,LEC,16,94.42,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.024,0.025,2.642,2.879,-1.141,-1.194,95.674
+0 days 01:33:01.158000,LEC,16,93.967,21.0,1.0,,,True,MEDIUM,21.0,True,Ferrari,1,2.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.429,-0.454,2.189,2.385,-1.429,-1.498,95.28699999999999
+0 days 01:34:34.794000,LEC,16,93.636,22.0,1.0,,,True,MEDIUM,22.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.76,-0.805,1.858,2.024,-1.057,-1.116,95.02199999999999
+0 days 01:36:08.669000,LEC,16,93.875,23.0,1.0,,,False,MEDIUM,23.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.521,-0.552,2.097,2.285,-0.925,-0.976,95.327
+0 days 01:37:42.277000,LEC,16,93.608,24.0,1.0,,,True,MEDIUM,24.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.788,-0.835,1.83,1.994,-1.04,-1.099,95.126
+0 days 01:39:15.790000,LEC,16,93.513,25.0,1.0,,,True,MEDIUM,25.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.883,-0.935,1.735,1.89,-0.845,-0.896,95.09700000000001
+0 days 01:40:49.183000,LEC,16,93.393,26.0,1.0,,,True,MEDIUM,26.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.003,-1.063,1.615,1.76,-1.101,-1.165,95.043
+0 days 01:42:22.668000,LEC,16,93.485,27.0,1.0,,,False,MEDIUM,27.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.911,-0.965,1.707,1.86,-0.971,-1.028,95.201
+0 days 01:43:56.036000,LEC,16,93.368,28.0,1.0,,,True,MEDIUM,28.0,True,Ferrari,1,1.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.028,-1.089,1.59,1.732,-1.227,-1.297,95.14999999999999
+0 days 01:45:32.098000,LEC,16,96.062,29.0,1.0,,0 days 01:45:31.143000,False,MEDIUM,29.0,True,Ferrari,1,1.0,False,5,Saudi Arabian Grand Prix,True,C4,False,1.666,1.765,4.284,4.668,1.672,1.771,97.91
+0 days 01:47:22.592000,LEC,16,110.494,30.0,2.0,0 days 01:45:51.296000,,False,HARD,1.0,True,Ferrari,1,5.0,False,5,Saudi Arabian Grand Prix,True,C3,False,16.098,17.054,18.716,20.393,15.769,16.647,112.408
+0 days 01:48:55.033000,LEC,16,92.441,31.0,2.0,,,True,HARD,2.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.955,-2.071,0.663,0.722,-2.059,-2.179,94.421
+0 days 01:50:27.464000,LEC,16,92.431,32.0,2.0,,,True,HARD,3.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.965,-2.082,0.653,0.711,-1.453,-1.548,94.477
+0 days 01:51:59.950000,LEC,16,92.486,33.0,2.0,,,False,HARD,4.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.91,-2.023,0.708,0.771,-1.334,-1.422,94.598
+0 days 01:53:32.643000,LEC,16,92.693,34.0,2.0,,,False,HARD,5.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.703,-1.804,0.915,0.997,-1.104,-1.177,94.871
+0 days 01:55:05.033000,LEC,16,92.39,35.0,2.0,,,True,HARD,6.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.006,-2.125,0.612,0.667,-1.426,-1.52,94.634
+0 days 01:56:37.771000,LEC,16,92.738,36.0,2.0,,,False,HARD,7.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.658,-1.756,0.96,1.046,-1.01,-1.077,95.048
+0 days 01:58:10.044000,LEC,16,92.273,37.0,2.0,,,True,HARD,8.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.123,-2.249,0.495,0.539,-1.523,-1.624,94.649
+0 days 01:59:43.001000,LEC,16,92.957,38.0,2.0,,,False,HARD,9.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.439,-1.524,1.179,1.285,-0.76,-0.811,95.399
+0 days 02:01:15.325000,LEC,16,92.324,39.0,2.0,,,False,HARD,10.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.072,-2.195,0.546,0.595,-1.122,-1.201,94.832
+0 days 02:02:47.674000,LEC,16,92.349,40.0,2.0,,,False,HARD,11.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.047,-2.169,0.571,0.622,-1.184,-1.266,94.923
+0 days 02:04:19.928000,LEC,16,92.254,41.0,2.0,,,True,HARD,12.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.142,-2.269,0.476,0.519,-1.585,-1.689,94.894
+0 days 02:05:52.186000,LEC,16,92.258,42.0,2.0,,,False,HARD,13.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.138,-2.265,0.48,0.523,-1.546,-1.648,94.964
+0 days 02:07:24.444000,LEC,16,92.258,43.0,2.0,,,False,HARD,14.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.138,-2.265,0.48,0.523,-1.294,-1.383,95.03
+0 days 02:08:56.917000,LEC,16,92.473,44.0,2.0,,,False,HARD,15.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.923,-2.037,0.695,0.757,-1.079,-1.153,95.31099999999999
+0 days 02:10:30.005000,LEC,16,93.088,45.0,2.0,,,False,HARD,16.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.308,-1.386,1.31,1.427,-0.412,-0.441,95.99199999999999
+0 days 02:12:02.430000,LEC,16,92.425,46.0,2.0,,,False,HARD,17.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.971,-2.088,0.647,0.705,-1.123,-1.2,95.395
+0 days 02:13:34.662000,LEC,16,92.232,47.0,2.0,,,True,HARD,18.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.164,-2.292,0.454,0.495,-1.122,-1.202,95.268
+0 days 02:15:07.269000,LEC,16,92.607,48.0,2.0,,,False,HARD,19.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.789,-1.895,0.829,0.903,-0.733,-0.785,95.709
+0 days 02:16:39.461000,LEC,16,92.192,49.0,2.0,,,True,HARD,20.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.204,-2.335,0.414,0.451,-1.099,-1.178,95.36
+0 days 02:18:12.039000,LEC,16,92.578,50.0,2.0,,,False,HARD,21.0,True,Ferrari,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.818,-1.926,0.8,0.872,-0.552,-0.593,95.812
+0 days 00:59:13.410000,NOR,4,136.024,1.0,1.0,,,False,HARD,1.0,True,McLaren,124,9.0,False,5,Saudi Arabian Grand Prix,True,C3,False,41.628,44.099,44.246,48.21,0.0,0.0,136.024
+0 days 01:01:55.929000,NOR,4,,2.0,1.0,,,False,HARD,2.0,True,McLaren,4,8.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:43.018000,NOR,4,,3.0,1.0,,,False,HARD,3.0,True,McLaren,41,8.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:20.091000,NOR,4,97.073,4.0,1.0,,,True,HARD,4.0,True,McLaren,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.677,2.836,5.295,5.769,-0.433,-0.444,97.27099999999999
+0 days 01:07:55.616000,NOR,4,95.525,5.0,1.0,,,True,HARD,5.0,True,McLaren,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.129,1.196,3.747,4.083,-0.145,-0.152,95.789
+0 days 01:09:30.658000,NOR,4,95.042,6.0,1.0,,,True,HARD,6.0,True,McLaren,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.646,0.684,3.264,3.556,-0.089,-0.094,95.372
+0 days 01:11:05.039000,NOR,4,94.381,7.0,1.0,,,True,HARD,7.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.015,-0.016,2.603,2.836,-0.759,-0.798,94.777
+0 days 01:12:39.500000,NOR,4,94.461,8.0,1.0,,,False,HARD,8.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.065,0.069,2.683,2.923,-0.651,-0.684,94.923
+0 days 01:14:13.847000,NOR,4,94.347,9.0,1.0,,,True,HARD,9.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.049,-0.052,2.569,2.799,-0.595,-0.627,94.875
+0 days 01:15:48.178000,NOR,4,94.331,10.0,1.0,,,True,HARD,10.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.065,-0.069,2.553,2.782,-0.664,-0.699,94.925
+0 days 01:17:22.266000,NOR,4,94.088,11.0,1.0,,,True,HARD,11.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.308,-0.326,2.31,2.517,-0.989,-1.04,94.74799999999999
+0 days 01:18:56.577000,NOR,4,94.311,12.0,1.0,,,False,HARD,12.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.085,-0.09,2.533,2.76,-1.009,-1.059,95.037
+0 days 01:20:32.331000,NOR,4,95.754,13.0,1.0,,,False,HARD,13.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.358,1.439,3.976,4.332,0.072,0.075,96.546
+0 days 01:22:07.421000,NOR,4,95.09,14.0,1.0,,,False,HARD,14.0,True,McLaren,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.694,0.735,3.312,3.609,-0.201,-0.211,95.94800000000001
+0 days 01:23:41.609000,NOR,4,94.188,15.0,1.0,,,False,HARD,15.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.208,-0.22,2.41,2.626,-1.145,-1.201,95.11200000000001
+0 days 01:25:15.779000,NOR,4,94.17,16.0,1.0,,,False,HARD,16.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.226,-0.239,2.392,2.606,-1.03,-1.082,95.16
+0 days 01:26:49.698000,NOR,4,93.919,17.0,1.0,,,True,HARD,17.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.477,-0.505,2.141,2.333,-1.368,-1.436,94.975
+0 days 01:28:23.715000,NOR,4,94.017,18.0,1.0,,,False,HARD,18.0,True,McLaren,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.379,-0.402,2.239,2.44,-1.145,-1.203,95.139
+0 days 01:29:57.584000,NOR,4,93.869,19.0,1.0,,,True,HARD,19.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.527,-0.558,2.091,2.278,-1.501,-1.574,95.057
+0 days 01:31:31.259000,NOR,4,93.675,20.0,1.0,,,True,HARD,20.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.721,-0.764,1.897,2.067,-1.886,-1.974,94.929
+0 days 01:33:05.133000,NOR,4,93.874,21.0,1.0,,,False,HARD,21.0,True,McLaren,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.522,-0.553,2.096,2.284,-1.522,-1.595,95.19399999999999
+0 days 01:34:38.765000,NOR,4,93.632,22.0,1.0,,,True,HARD,22.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.764,-0.809,1.854,2.02,-1.061,-1.12,95.018
+0 days 01:36:12.363000,NOR,4,93.598,23.0,1.0,,,True,HARD,23.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.798,-0.845,1.82,1.983,-1.202,-1.268,95.05
+0 days 01:37:45.664000,NOR,4,93.301,24.0,1.0,,,True,HARD,24.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.095,-1.16,1.523,1.659,-1.347,-1.423,94.819
+0 days 01:39:19.301000,NOR,4,93.637,25.0,1.0,,,False,HARD,25.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.759,-0.804,1.859,2.026,-0.721,-0.764,95.221
+0 days 01:40:52.744000,NOR,4,93.443,26.0,1.0,,,False,HARD,26.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.953,-1.01,1.665,1.814,-1.051,-1.112,95.093
+0 days 01:42:26.086000,NOR,4,93.342,27.0,1.0,,,False,HARD,27.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.054,-1.117,1.564,1.704,-1.114,-1.179,95.05799999999999
+0 days 01:43:59.421000,NOR,4,93.335,28.0,1.0,,,False,HARD,28.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.061,-1.124,1.557,1.696,-1.26,-1.332,95.11699999999999
+0 days 01:45:32.680000,NOR,4,93.259,29.0,1.0,,,True,HARD,29.0,True,McLaren,1,2.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.137,-1.205,1.481,1.614,-1.131,-1.198,95.107
+0 days 01:47:05.836000,NOR,4,93.156,30.0,1.0,,,True,HARD,30.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.24,-1.314,1.378,1.501,-1.569,-1.656,95.07000000000001
+0 days 01:48:38.788000,NOR,4,92.952,31.0,1.0,,,True,HARD,31.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.444,-1.53,1.174,1.279,-1.548,-1.638,94.932
+0 days 01:50:11.805000,NOR,4,93.017,32.0,1.0,,,False,HARD,32.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.379,-1.461,1.239,1.35,-0.867,-0.923,95.063
+0 days 01:51:44.900000,NOR,4,93.095,33.0,1.0,,,False,HARD,33.0,True,McLaren,1,1.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.301,-1.378,1.317,1.435,-0.725,-0.773,95.207
+0 days 01:53:21.005000,NOR,4,96.105,34.0,1.0,,0 days 01:53:19.918000,False,HARD,34.0,True,McLaren,1,2.0,False,5,Saudi Arabian Grand Prix,True,C3,False,1.709,1.81,4.327,4.715,2.308,2.461,98.283
+0 days 01:55:10.872000,NOR,4,109.867,35.0,2.0,0 days 01:53:40.312000,,False,MEDIUM,1.0,True,McLaren,1,5.0,False,5,Saudi Arabian Grand Prix,True,C4,False,15.471,16.389,18.089,19.71,16.051,17.109,112.111
+0 days 01:56:43.304000,NOR,4,92.432,36.0,2.0,,,True,MEDIUM,2.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.964,-2.081,0.654,0.713,-1.316,-1.404,94.742
+0 days 01:58:15.434000,NOR,4,92.13,37.0,2.0,,,True,MEDIUM,3.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.266,-2.401,0.352,0.384,-1.666,-1.776,94.506
+0 days 01:59:47.577000,NOR,4,92.143,38.0,2.0,,,False,MEDIUM,4.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.253,-2.387,0.365,0.398,-1.574,-1.68,94.58500000000001
+0 days 02:01:19.769000,NOR,4,92.192,39.0,2.0,,,False,MEDIUM,5.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.204,-2.335,0.414,0.451,-1.254,-1.342,94.69999999999999
+0 days 02:02:52.201000,NOR,4,92.432,40.0,2.0,,,False,MEDIUM,6.0,True,McLaren,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.964,-2.081,0.654,0.713,-1.101,-1.177,95.006
+0 days 02:04:23.979000,NOR,4,91.778,41.0,2.0,,,True,MEDIUM,7.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.618,-2.773,0.0,0.0,-2.061,-2.196,94.418
+0 days 02:05:55.971000,NOR,4,91.992,42.0,2.0,,,False,MEDIUM,8.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.404,-2.547,0.214,0.233,-1.812,-1.932,94.69800000000001
+0 days 02:07:27.828000,NOR,4,91.857,43.0,2.0,,,False,MEDIUM,9.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.539,-2.69,0.079,0.086,-1.695,-1.812,94.629
+0 days 02:08:59.885000,NOR,4,92.057,44.0,2.0,,,False,MEDIUM,10.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.339,-2.478,0.279,0.304,-1.495,-1.598,94.895
+0 days 02:10:31.998000,NOR,4,92.113,45.0,2.0,,,False,MEDIUM,11.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.283,-2.419,0.335,0.365,-1.387,-1.483,95.017
+0 days 02:12:04.377000,NOR,4,92.379,46.0,2.0,,,False,MEDIUM,12.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.017,-2.137,0.601,0.655,-1.169,-1.25,95.349
+0 days 02:13:36.618000,NOR,4,92.241,47.0,2.0,,,False,MEDIUM,13.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.155,-2.283,0.463,0.504,-1.113,-1.192,95.277
+0 days 02:15:08.749000,NOR,4,92.131,48.0,2.0,,,False,MEDIUM,14.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.265,-2.399,0.353,0.385,-1.209,-1.295,95.233
+0 days 02:16:40.927000,NOR,4,92.178,49.0,2.0,,,False,MEDIUM,15.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.218,-2.35,0.4,0.436,-1.113,-1.193,95.346
+0 days 02:18:13.277000,NOR,4,92.35,50.0,2.0,,,False,MEDIUM,16.0,True,McLaren,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-2.046,-2.167,0.572,0.623,-0.78,-0.838,95.58399999999999
+0 days 00:59:04.525000,RUS,63,127.151,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,124,4.0,False,5,Saudi Arabian Grand Prix,True,C4,False,32.755,34.7,35.373,38.542,-8.873,-6.523,127.151
+0 days 01:01:48.212000,RUS,63,,2.0,1.0,,,False,MEDIUM,2.0,True,Mercedes,4,3.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:41.584000,RUS,63,,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,41,2.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:16.754000,RUS,63,95.17,4.0,1.0,,,True,MEDIUM,4.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.774,0.82,3.392,3.696,-2.336,-2.396,95.368
+0 days 01:07:50.750000,RUS,63,93.996,5.0,1.0,,,True,MEDIUM,5.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.4,-0.424,2.218,2.417,-1.674,-1.75,94.25999999999999
+0 days 01:09:24.823000,RUS,63,94.073,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.323,-0.342,2.295,2.501,-1.058,-1.112,94.40299999999999
+0 days 01:10:58.861000,RUS,63,94.038,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.358,-0.379,2.26,2.462,-1.102,-1.158,94.434
+0 days 01:12:32.718000,RUS,63,93.857,8.0,1.0,,,True,MEDIUM,8.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.539,-0.571,2.079,2.265,-1.255,-1.319,94.319
+0 days 01:14:06.625000,RUS,63,93.907,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.489,-0.518,2.129,2.32,-1.035,-1.09,94.435
+0 days 01:15:40.751000,RUS,63,94.126,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.27,-0.286,2.348,2.558,-0.869,-0.915,94.72
+0 days 01:17:15.020000,RUS,63,94.269,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.127,-0.135,2.491,2.714,-0.808,-0.85,94.929
+0 days 01:18:49.294000,RUS,63,94.274,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.122,-0.129,2.496,2.72,-1.046,-1.097,95.0
+0 days 01:20:23.647000,RUS,63,94.353,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.043,-0.046,2.575,2.806,-1.329,-1.389,95.145
+0 days 01:21:58.010000,RUS,63,94.363,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.033,-0.035,2.585,2.817,-0.928,-0.974,95.221
+0 days 01:23:32.362000,RUS,63,94.352,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.044,-0.047,2.574,2.805,-0.981,-1.029,95.27600000000001
+0 days 01:25:06.750000,RUS,63,94.388,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.008,-0.008,2.61,2.844,-0.812,-0.853,95.378
+0 days 01:26:41.330000,RUS,63,94.58,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.184,0.195,2.802,3.053,-0.707,-0.742,95.636
+0 days 01:28:15.820000,RUS,63,94.49,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.094,0.1,2.712,2.955,-0.672,-0.706,95.612
+0 days 01:29:50.676000,RUS,63,94.856,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.46,0.487,3.078,3.354,-0.514,-0.539,96.044
+0 days 01:31:27.383000,RUS,63,96.707,20.0,1.0,,0 days 01:31:26.484000,False,MEDIUM,20.0,True,Mercedes,1,3.0,False,5,Saudi Arabian Grand Prix,True,C4,False,2.311,2.448,4.929,5.371,1.146,1.199,97.961
+0 days 01:33:17.799000,RUS,63,110.416,21.0,2.0,0 days 01:31:46.719000,,False,HARD,1.0,True,Mercedes,1,6.0,False,5,Saudi Arabian Grand Prix,True,C3,False,16.02,16.971,18.638,20.308,15.02,15.745,111.73599999999999
+0 days 01:34:51.419000,RUS,63,93.62,22.0,2.0,,,True,HARD,2.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.776,-0.822,1.842,2.007,-1.073,-1.133,95.006
+0 days 01:36:25.091000,RUS,63,93.672,23.0,2.0,,,False,HARD,3.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.724,-0.767,1.894,2.064,-1.128,-1.19,95.124
+0 days 01:37:58.944000,RUS,63,93.853,24.0,2.0,,,False,HARD,4.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.543,-0.575,2.075,2.261,-0.795,-0.84,95.371
+0 days 01:39:32.594000,RUS,63,93.65,25.0,2.0,,,False,HARD,5.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.746,-0.79,1.872,2.04,-0.708,-0.75,95.23400000000001
+0 days 01:41:05.795000,RUS,63,93.201,26.0,2.0,,,True,HARD,6.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.195,-1.266,1.423,1.55,-1.293,-1.368,94.851
+0 days 01:42:39.064000,RUS,63,93.269,27.0,2.0,,,False,HARD,7.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.127,-1.194,1.491,1.625,-1.187,-1.257,94.985
+0 days 01:44:12.363000,RUS,63,93.299,28.0,2.0,,,False,HARD,8.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.097,-1.162,1.521,1.657,-1.296,-1.37,95.081
+0 days 01:45:45.738000,RUS,63,93.375,29.0,2.0,,,False,HARD,9.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.021,-1.082,1.597,1.74,-1.015,-1.075,95.223
+0 days 01:47:19.044000,RUS,63,93.306,30.0,2.0,,,False,HARD,10.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.09,-1.155,1.528,1.665,-1.419,-1.498,95.22
+0 days 01:48:52.119000,RUS,63,93.075,31.0,2.0,,,True,HARD,11.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.321,-1.399,1.297,1.413,-1.425,-1.508,95.055
+0 days 01:50:25.012000,RUS,63,92.893,32.0,2.0,,,True,HARD,12.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.503,-1.592,1.115,1.215,-0.991,-1.056,94.93900000000001
+0 days 01:51:57.956000,RUS,63,92.944,33.0,2.0,,,False,HARD,13.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.452,-1.538,1.166,1.27,-0.876,-0.934,95.056
+0 days 01:53:30.864000,RUS,63,92.908,34.0,2.0,,,False,HARD,14.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.488,-1.576,1.13,1.231,-0.889,-0.948,95.086
+0 days 01:55:03.830000,RUS,63,92.966,35.0,2.0,,,False,HARD,15.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.43,-1.515,1.188,1.294,-0.85,-0.906,95.21
+0 days 01:56:36.748000,RUS,63,92.918,36.0,2.0,,,False,HARD,16.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.478,-1.566,1.14,1.242,-0.83,-0.885,95.22800000000001
+0 days 01:58:09.817000,RUS,63,93.069,37.0,2.0,,,False,HARD,17.0,True,Mercedes,1,3.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.327,-1.406,1.291,1.407,-0.727,-0.775,95.44500000000001
+0 days 01:59:45.061000,RUS,63,95.244,38.0,2.0,,,False,HARD,18.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.848,0.898,3.466,3.777,1.527,1.629,97.686
+0 days 02:01:18.378000,RUS,63,93.317,39.0,2.0,,,False,HARD,19.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.079,-1.143,1.539,1.677,-0.129,-0.138,95.82499999999999
+0 days 02:02:52.076000,RUS,63,93.698,40.0,2.0,,,False,HARD,20.0,True,Mercedes,1,4.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.698,-0.739,1.92,2.092,0.165,0.176,96.27199999999999
+0 days 02:04:26.777000,RUS,63,94.701,41.0,2.0,,,False,HARD,21.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.305,0.323,2.923,3.185,0.862,0.919,97.341
+0 days 02:06:00.927000,RUS,63,94.15,42.0,2.0,,,False,HARD,22.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.246,-0.261,2.372,2.584,0.346,0.369,96.85600000000001
+0 days 02:07:34.424000,RUS,63,93.497,43.0,2.0,,,False,HARD,23.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.899,-0.952,1.719,1.873,-0.055,-0.059,96.269
+0 days 02:09:08.069000,RUS,63,93.645,44.0,2.0,,,False,HARD,24.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.751,-0.796,1.867,2.034,0.093,0.099,96.48299999999999
+0 days 02:10:41.776000,RUS,63,93.707,45.0,2.0,,,False,HARD,25.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.689,-0.73,1.929,2.102,0.207,0.221,96.61099999999999
+0 days 02:12:15.681000,RUS,63,93.905,46.0,2.0,,,False,HARD,26.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.491,-0.52,2.127,2.318,0.357,0.382,96.875
+0 days 02:13:49.632000,RUS,63,93.951,47.0,2.0,,,False,HARD,27.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.445,-0.471,2.173,2.368,0.597,0.64,96.987
+0 days 02:15:23.593000,RUS,63,93.961,48.0,2.0,,,False,HARD,28.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.435,-0.461,2.183,2.379,0.621,0.665,97.063
+0 days 02:16:57.319000,RUS,63,93.726,49.0,2.0,,,False,HARD,29.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.67,-0.71,1.948,2.123,0.435,0.466,96.894
+0 days 02:18:31.209000,RUS,63,93.89,50.0,2.0,,,False,HARD,30.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.506,-0.536,2.112,2.301,0.76,0.816,97.124
+0 days 00:59:06.568000,ANT,12,129.232,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,124,6.0,False,5,Saudi Arabian Grand Prix,True,C4,False,34.836,36.904,37.454,40.809,-6.792,-4.993,129.232
+0 days 01:01:51.096000,ANT,12,,2.0,1.0,,,False,MEDIUM,2.0,True,Mercedes,4,5.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:41.921000,ANT,12,,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,41,5.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:18.205000,ANT,12,96.284,4.0,1.0,,,True,MEDIUM,4.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.888,2.0,4.506,4.91,-1.222,-1.253,96.482
+0 days 01:07:52.687000,ANT,12,94.482,5.0,1.0,,,True,MEDIUM,5.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.086,0.091,2.704,2.946,-1.188,-1.242,94.746
+0 days 01:09:27.073000,ANT,12,94.386,6.0,1.0,,,True,MEDIUM,6.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.01,-0.011,2.608,2.842,-0.745,-0.783,94.716
+0 days 01:11:01.475000,ANT,12,94.402,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.006,0.006,2.624,2.859,-0.738,-0.776,94.798
+0 days 01:12:36.073000,ANT,12,94.598,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.202,0.214,2.82,3.073,-0.514,-0.54,95.06
+0 days 01:14:10.640000,ANT,12,94.567,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.171,0.181,2.789,3.039,-0.375,-0.395,95.095
+0 days 01:15:45.174000,ANT,12,94.534,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.138,0.146,2.756,3.003,-0.461,-0.485,95.128
+0 days 01:17:19.767000,ANT,12,94.593,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.197,0.209,2.815,3.067,-0.484,-0.509,95.253
+0 days 01:18:54.200000,ANT,12,94.433,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.037,0.039,2.655,2.893,-0.887,-0.931,95.159
+0 days 01:20:28.957000,ANT,12,94.757,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.361,0.382,2.979,3.246,-0.925,-0.967,95.549
+0 days 01:22:03.708000,ANT,12,94.751,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.355,0.376,2.973,3.239,-0.54,-0.567,95.60900000000001
+0 days 01:23:38.566000,ANT,12,94.858,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.462,0.489,3.08,3.356,-0.475,-0.498,95.78200000000001
+0 days 01:25:13.254000,ANT,12,94.688,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.292,0.309,2.91,3.171,-0.512,-0.538,95.678
+0 days 01:26:48.226000,ANT,12,94.972,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.576,0.61,3.194,3.48,-0.315,-0.331,96.02799999999999
+0 days 01:28:23.377000,ANT,12,95.151,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.755,0.8,3.373,3.675,-0.011,-0.012,96.273
+0 days 01:30:02.309000,ANT,12,98.932,19.0,1.0,,0 days 01:30:01.263000,False,MEDIUM,19.0,True,Mercedes,1,7.0,False,5,Saudi Arabian Grand Prix,True,C4,False,4.536,4.805,7.154,7.795,3.562,3.735,100.12
+0 days 01:31:54.185000,ANT,12,111.876,20.0,2.0,0 days 01:30:21.732000,,False,HARD,1.0,True,Mercedes,1,11.0,False,5,Saudi Arabian Grand Prix,True,C3,False,17.48,18.518,20.098,21.898,16.315,17.073,113.13000000000001
+0 days 01:33:27.768000,ANT,12,93.583,21.0,2.0,,,True,HARD,2.0,True,Mercedes,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.813,-0.861,1.805,1.967,-1.813,-1.9,94.90299999999999
+0 days 01:35:01.506000,ANT,12,93.738,22.0,2.0,,,False,HARD,3.0,True,Mercedes,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.658,-0.697,1.96,2.136,-0.955,-1.009,95.124
+0 days 01:36:35.275000,ANT,12,93.769,23.0,2.0,,,False,HARD,4.0,True,Mercedes,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.627,-0.664,1.991,2.169,-1.031,-1.088,95.221
+0 days 01:38:09.003000,ANT,12,93.728,24.0,2.0,,,False,HARD,5.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.668,-0.708,1.95,2.125,-0.92,-0.972,95.246
+0 days 01:39:42.783000,ANT,12,93.78,25.0,2.0,,,False,HARD,6.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.616,-0.653,2.002,2.181,-0.578,-0.613,95.364
+0 days 01:41:16.804000,ANT,12,94.021,26.0,2.0,,,False,HARD,7.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.375,-0.397,2.243,2.444,-0.473,-0.501,95.671
+0 days 01:42:50.596000,ANT,12,93.792,27.0,2.0,,,False,HARD,8.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.604,-0.64,2.014,2.194,-0.664,-0.703,95.508
+0 days 01:44:24.429000,ANT,12,93.833,28.0,2.0,,,False,HARD,9.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.563,-0.596,2.055,2.239,-0.762,-0.806,95.615
+0 days 01:45:58.204000,ANT,12,93.775,29.0,2.0,,,False,HARD,10.0,True,Mercedes,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.621,-0.658,1.997,2.176,-0.615,-0.652,95.623
+0 days 01:47:32.554000,ANT,12,94.35,30.0,2.0,,,False,HARD,11.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.046,-0.049,2.572,2.802,-0.375,-0.396,96.264
+0 days 01:49:06.550000,ANT,12,93.996,31.0,2.0,,,False,HARD,12.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.4,-0.424,2.218,2.417,-0.504,-0.533,95.976
+0 days 01:50:40.434000,ANT,12,93.884,32.0,2.0,,,False,HARD,13.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.512,-0.542,2.106,2.295,0.0,0.0,95.93
+0 days 01:52:14.143000,ANT,12,93.709,33.0,2.0,,,False,HARD,14.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.687,-0.728,1.931,2.104,-0.111,-0.118,95.821
+0 days 01:53:47.940000,ANT,12,93.797,34.0,2.0,,,False,HARD,15.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.599,-0.635,2.019,2.2,0.0,0.0,95.975
+0 days 01:55:21.752000,ANT,12,93.812,35.0,2.0,,,False,HARD,16.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.584,-0.619,2.034,2.216,-0.004,-0.004,96.056
+0 days 01:56:55.332000,ANT,12,93.58,36.0,2.0,,,True,HARD,17.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.816,-0.864,1.802,1.963,-0.168,-0.179,95.89
+0 days 01:58:28.996000,ANT,12,93.664,37.0,2.0,,,False,HARD,18.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.732,-0.775,1.886,2.055,-0.132,-0.141,96.04
+0 days 02:00:02.668000,ANT,12,93.672,38.0,2.0,,,False,HARD,19.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.724,-0.767,1.894,2.064,-0.045,-0.048,96.114
+0 days 02:01:36.108000,ANT,12,93.44,39.0,2.0,,,True,HARD,20.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.956,-1.013,1.662,1.811,-0.006,-0.006,95.948
+0 days 02:03:09.593000,ANT,12,93.485,40.0,2.0,,,False,HARD,21.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.911,-0.965,1.707,1.86,-0.048,-0.051,96.059
+0 days 02:04:42.908000,ANT,12,93.315,41.0,2.0,,,True,HARD,22.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.081,-1.145,1.537,1.675,-0.524,-0.558,95.955
+0 days 02:06:16.224000,ANT,12,93.316,42.0,2.0,,,False,HARD,23.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.08,-1.144,1.538,1.676,-0.488,-0.52,96.022
+0 days 02:07:49.639000,ANT,12,93.415,43.0,2.0,,,False,HARD,24.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.981,-1.039,1.637,1.784,-0.137,-0.146,96.18700000000001
+0 days 02:09:22.514000,ANT,12,92.875,44.0,2.0,,,True,HARD,25.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.521,-1.611,1.097,1.195,-0.677,-0.724,95.713
+0 days 02:10:55.458000,ANT,12,92.944,45.0,2.0,,,False,HARD,26.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.452,-1.538,1.166,1.27,-0.556,-0.595,95.848
+0 days 02:12:28.267000,ANT,12,92.809,46.0,2.0,,,True,HARD,27.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.587,-1.681,1.031,1.123,-0.739,-0.79,95.779
+0 days 02:14:01.014000,ANT,12,92.747,47.0,2.0,,,True,HARD,28.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.649,-1.747,0.969,1.056,-0.607,-0.65,95.783
+0 days 02:15:33.772000,ANT,12,92.758,48.0,2.0,,,False,HARD,29.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.638,-1.735,0.98,1.068,-0.582,-0.624,95.86
+0 days 02:17:06.276000,ANT,12,92.504,49.0,2.0,,,True,HARD,30.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.892,-2.004,0.726,0.791,-0.787,-0.844,95.67200000000001
+0 days 02:18:38.672000,ANT,12,92.396,50.0,2.0,,,True,HARD,31.0,True,Mercedes,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-2.0,-2.119,0.618,0.673,-0.734,-0.788,95.63
+0 days 00:59:09.762000,HAM,44,132.474,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,124,7.0,False,5,Saudi Arabian Grand Prix,True,C4,False,38.078,40.339,40.696,44.342,-3.55,-2.61,132.474
+0 days 01:01:53.327000,HAM,44,,2.0,1.0,,,False,MEDIUM,2.0,True,Ferrari,4,6.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:42.540000,HAM,44,,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,41,6.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:18.965000,HAM,44,96.425,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,2.029,2.149,4.647,5.063,-1.081,-1.109,96.62299999999999
+0 days 01:07:54.064000,HAM,44,95.099,5.0,1.0,,,True,MEDIUM,5.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.703,0.745,3.321,3.619,-0.571,-0.597,95.363
+0 days 01:09:28.523000,HAM,44,94.459,6.0,1.0,,,True,MEDIUM,6.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.063,0.067,2.681,2.921,-0.672,-0.706,94.789
+0 days 01:11:03.517000,HAM,44,94.994,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.598,0.634,3.216,3.504,-0.146,-0.153,95.39
+0 days 01:12:37.961000,HAM,44,94.444,8.0,1.0,,,True,MEDIUM,8.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.048,0.051,2.666,2.905,-0.668,-0.702,94.906
+0 days 01:14:12.421000,HAM,44,94.46,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.064,0.068,2.682,2.922,-0.482,-0.508,94.988
+0 days 01:15:47.001000,HAM,44,94.58,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.184,0.195,2.802,3.053,-0.415,-0.437,95.17399999999999
+0 days 01:17:21.457000,HAM,44,94.456,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.06,0.064,2.678,2.918,-0.621,-0.653,95.116
+0 days 01:18:56.767000,HAM,44,95.31,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.914,0.968,3.532,3.848,-0.01,-0.01,96.036
+0 days 01:20:32.446000,HAM,44,95.679,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.283,1.359,3.901,4.25,-0.003,-0.003,96.471
+0 days 01:22:07.264000,HAM,44,94.818,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.422,0.447,3.04,3.312,-0.473,-0.496,95.676
+0 days 01:23:43.096000,HAM,44,95.832,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.436,1.521,4.054,4.417,0.499,0.523,96.756
+0 days 01:25:18.051000,HAM,44,94.955,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.559,0.592,3.177,3.462,-0.245,-0.257,95.945
+0 days 01:26:52.737000,HAM,44,94.686,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.29,0.307,2.908,3.169,-0.601,-0.631,95.742
+0 days 01:28:27.329000,HAM,44,94.592,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.196,0.208,2.814,3.066,-0.57,-0.599,95.714
+0 days 01:30:02.221000,HAM,44,94.892,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,6.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.496,0.525,3.114,3.393,-0.478,-0.501,96.08
+0 days 01:31:36.941000,HAM,44,94.72,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.324,0.343,2.942,3.206,-0.841,-0.88,95.974
+0 days 01:33:12.069000,HAM,44,95.128,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,5.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.732,0.775,3.35,3.65,-0.268,-0.281,96.448
+0 days 01:34:47.638000,HAM,44,95.569,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,1,4.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.173,1.243,3.791,4.131,0.876,0.925,96.955
+0 days 01:36:25.504000,HAM,44,97.866,23.0,1.0,,0 days 01:36:24.747000,False,MEDIUM,23.0,True,Ferrari,1,6.0,False,5,Saudi Arabian Grand Prix,True,C4,False,3.47,3.676,6.088,6.633,3.066,3.234,99.318
+0 days 01:38:17.305000,HAM,44,111.801,24.0,2.0,0 days 01:36:45.028000,,False,HARD,1.0,True,Ferrari,1,8.0,False,5,Saudi Arabian Grand Prix,True,C3,False,17.405,18.438,20.023,21.817,17.153,18.123,113.319
+0 days 01:39:51.342000,HAM,44,94.037,25.0,2.0,,,True,HARD,2.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.359,-0.38,2.259,2.461,-0.321,-0.34,95.62100000000001
+0 days 01:41:24.884000,HAM,44,93.542,26.0,2.0,,,True,HARD,3.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.854,-0.905,1.764,1.922,-0.952,-1.007,95.19200000000001
+0 days 01:42:58.604000,HAM,44,93.72,27.0,2.0,,,False,HARD,4.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.676,-0.716,1.942,2.116,-0.736,-0.779,95.43599999999999
+0 days 01:44:31.969000,HAM,44,93.365,28.0,2.0,,,True,HARD,5.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.031,-1.092,1.587,1.729,-1.23,-1.3,95.14699999999999
+0 days 01:46:05.779000,HAM,44,93.81,29.0,2.0,,,False,HARD,6.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.586,-0.621,2.032,2.214,-0.58,-0.614,95.658
+0 days 01:47:39.343000,HAM,44,93.564,30.0,2.0,,,False,HARD,7.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.832,-0.881,1.786,1.946,-1.161,-1.226,95.478
+0 days 01:49:13.735000,HAM,44,94.392,31.0,2.0,,,False,HARD,8.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.004,-0.004,2.614,2.848,-0.108,-0.114,96.372
+0 days 01:50:47.330000,HAM,44,93.595,32.0,2.0,,,False,HARD,9.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.801,-0.849,1.817,1.98,-0.289,-0.308,95.641
+0 days 01:52:20.933000,HAM,44,93.603,33.0,2.0,,,False,HARD,10.0,True,Ferrari,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.793,-0.84,1.825,1.988,-0.217,-0.231,95.71499999999999
+0 days 01:53:54.809000,HAM,44,93.876,34.0,2.0,,,False,HARD,11.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.52,-0.551,2.098,2.286,0.079,0.084,96.054
+0 days 01:55:28.373000,HAM,44,93.564,35.0,2.0,,,False,HARD,12.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.832,-0.881,1.786,1.946,-0.252,-0.269,95.80799999999999
+0 days 01:57:01.664000,HAM,44,93.291,36.0,2.0,,,True,HARD,13.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.105,-1.171,1.513,1.649,-0.457,-0.487,95.601
+0 days 01:58:34.708000,HAM,44,93.044,37.0,2.0,,,True,HARD,14.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.352,-1.432,1.266,1.379,-0.752,-0.802,95.42
+0 days 02:00:07.633000,HAM,44,92.925,38.0,2.0,,,True,HARD,15.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.471,-1.558,1.147,1.25,-0.792,-0.845,95.36699999999999
+0 days 02:01:40.918000,HAM,44,93.285,39.0,2.0,,,False,HARD,16.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.111,-1.177,1.507,1.642,-0.161,-0.172,95.79299999999999
+0 days 02:03:13.751000,HAM,44,92.833,40.0,2.0,,,True,HARD,17.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.563,-1.656,1.055,1.15,-0.7,-0.748,95.407
+0 days 02:04:46.773000,HAM,44,93.022,41.0,2.0,,,False,HARD,18.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.374,-1.456,1.244,1.355,-0.817,-0.871,95.662
+0 days 02:06:19.413000,HAM,44,92.64,42.0,2.0,,,True,HARD,19.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.756,-1.86,0.862,0.939,-1.164,-1.241,95.346
+0 days 02:07:52.013000,HAM,44,92.6,43.0,2.0,,,True,HARD,20.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.796,-1.903,0.822,0.896,-0.952,-1.018,95.372
+0 days 02:09:24.802000,HAM,44,92.789,44.0,2.0,,,False,HARD,21.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.607,-1.702,1.011,1.102,-0.763,-0.816,95.627
+0 days 02:10:57.623000,HAM,44,92.821,45.0,2.0,,,False,HARD,22.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.575,-1.669,1.043,1.136,-0.679,-0.726,95.725
+0 days 02:12:30.730000,HAM,44,93.107,46.0,2.0,,,False,HARD,23.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.289,-1.366,1.329,1.448,-0.441,-0.471,96.077
+0 days 02:14:03.790000,HAM,44,93.06,47.0,2.0,,,False,HARD,24.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.336,-1.415,1.282,1.397,-0.294,-0.315,96.096
+0 days 02:15:36.688000,HAM,44,92.898,48.0,2.0,,,False,HARD,25.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.498,-1.587,1.12,1.22,-0.442,-0.474,96.0
+0 days 02:17:09.700000,HAM,44,93.012,49.0,2.0,,,False,HARD,26.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.384,-1.466,1.234,1.345,-0.279,-0.299,96.18
+0 days 02:18:43.135000,HAM,44,93.435,50.0,2.0,,,False,HARD,27.0,True,Ferrari,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.961,-1.018,1.657,1.805,0.305,0.327,96.669
+0 days 00:59:10.835000,SAI,55,133.455,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,124,8.0,False,5,Saudi Arabian Grand Prix,True,C4,False,39.059,41.378,41.677,45.411,-2.569,-1.889,133.455
+0 days 01:01:54.150000,SAI,55,,2.0,1.0,,,False,MEDIUM,2.0,True,Williams,4,7.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:42.717000,SAI,55,,3.0,1.0,,,False,MEDIUM,3.0,True,Williams,41,7.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:19.531000,SAI,55,96.814,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,2.418,2.562,5.036,5.487,-0.692,-0.71,97.01199999999999
+0 days 01:07:55.248000,SAI,55,95.717,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.321,1.399,3.939,4.292,0.047,0.049,95.981
+0 days 01:09:30.363000,SAI,55,95.115,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.719,0.762,3.337,3.636,-0.016,-0.017,95.445
+0 days 01:11:05.769000,SAI,55,95.406,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.01,1.07,3.628,3.953,0.266,0.28,95.802
+0 days 01:12:40.908000,SAI,55,95.139,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.743,0.787,3.361,3.662,0.027,0.028,95.601
+0 days 01:14:15.598000,SAI,55,94.69,9.0,1.0,,,True,MEDIUM,9.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.294,0.311,2.912,3.173,-0.252,-0.265,95.218
+0 days 01:15:50.467000,SAI,55,94.869,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.473,0.501,3.091,3.368,-0.126,-0.133,95.463
+0 days 01:17:25.238000,SAI,55,94.771,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.375,0.397,2.993,3.261,-0.306,-0.322,95.431
+0 days 01:19:00.202000,SAI,55,94.964,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.568,0.602,3.186,3.471,-0.356,-0.373,95.69
+0 days 01:20:35.192000,SAI,55,94.99,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.594,0.629,3.212,3.5,-0.692,-0.723,95.782
+0 days 01:22:10.196000,SAI,55,95.004,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.608,0.644,3.226,3.515,-0.287,-0.301,95.86200000000001
+0 days 01:23:45.522000,SAI,55,95.326,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.93,0.985,3.548,3.866,-0.007,-0.007,96.25
+0 days 01:25:20.748000,SAI,55,95.226,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.83,0.879,3.448,3.757,0.026,0.027,96.216
+0 days 01:26:56.357000,SAI,55,95.609,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.213,1.285,3.831,4.174,0.322,0.338,96.66499999999999
+0 days 01:28:31.549000,SAI,55,95.192,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.796,0.843,3.414,3.72,0.03,0.032,96.314
+0 days 01:30:06.879000,SAI,55,95.33,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.934,0.989,3.552,3.87,-0.04,-0.042,96.518
+0 days 01:31:42.412000,SAI,55,95.533,20.0,1.0,,,False,MEDIUM,20.0,True,Williams,1,7.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.137,1.205,3.755,4.091,-0.028,-0.029,96.787
+0 days 01:33:20.200000,SAI,55,97.788,21.0,1.0,,0 days 01:33:19.262000,False,MEDIUM,21.0,True,Williams,1,7.0,False,5,Saudi Arabian Grand Prix,True,C4,False,3.392,3.593,6.01,6.548,2.392,2.507,99.10799999999999
+0 days 01:35:16.024000,SAI,55,115.824,22.0,2.0,0 days 01:33:43.258000,,False,HARD,1.0,True,Williams,1,14.0,False,5,Saudi Arabian Grand Prix,True,C3,False,21.428,22.7,24.046,26.2,21.131,22.315,117.21
+0 days 01:36:50.479000,SAI,55,94.455,23.0,2.0,,,True,HARD,2.0,True,Williams,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.059,0.063,2.677,2.917,-0.345,-0.364,95.907
+0 days 01:38:25.120000,SAI,55,94.641,24.0,2.0,,,False,HARD,3.0,True,Williams,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.245,0.26,2.863,3.119,-0.007,-0.007,96.159
+0 days 01:39:59.043000,SAI,55,93.923,25.0,2.0,,,True,HARD,4.0,True,Williams,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.473,-0.501,2.145,2.337,-0.435,-0.461,95.507
+0 days 01:41:33.675000,SAI,55,94.632,26.0,2.0,,,False,HARD,5.0,True,Williams,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.236,0.25,2.854,3.11,0.138,0.146,96.28200000000001
+0 days 01:43:08.628000,SAI,55,94.953,27.0,2.0,,,False,HARD,6.0,True,Williams,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.557,0.59,3.175,3.459,0.497,0.526,96.669
+0 days 01:44:43.286000,SAI,55,94.658,28.0,2.0,,,False,HARD,7.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.262,0.278,2.88,3.138,0.063,0.067,96.44
+0 days 01:46:17.465000,SAI,55,94.179,29.0,2.0,,,False,HARD,8.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.217,-0.23,2.401,2.616,-0.211,-0.224,96.027
+0 days 01:47:51.778000,SAI,55,94.313,30.0,2.0,,,False,HARD,9.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.083,-0.088,2.535,2.762,-0.412,-0.435,96.227
+0 days 01:49:26.116000,SAI,55,94.338,31.0,2.0,,,False,HARD,10.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.058,-0.061,2.56,2.789,-0.162,-0.171,96.318
+0 days 01:50:59.844000,SAI,55,93.728,32.0,2.0,,,True,HARD,11.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.668,-0.708,1.95,2.125,-0.156,-0.166,95.774
+0 days 01:52:33.457000,SAI,55,93.613,33.0,2.0,,,True,HARD,12.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.783,-0.829,1.835,1.999,-0.207,-0.221,95.725
+0 days 01:54:07.426000,SAI,55,93.969,34.0,2.0,,,False,HARD,13.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.427,-0.452,2.191,2.387,0.172,0.183,96.14699999999999
+0 days 01:55:41.334000,SAI,55,93.908,35.0,2.0,,,False,HARD,14.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.488,-0.517,2.13,2.321,0.092,0.098,96.152
+0 days 01:57:15.294000,SAI,55,93.96,36.0,2.0,,,False,HARD,15.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.436,-0.462,2.182,2.377,0.212,0.226,96.27
+0 days 01:58:49.563000,SAI,55,94.269,37.0,2.0,,,False,HARD,16.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.127,-0.135,2.491,2.714,0.473,0.504,96.64500000000001
+0 days 02:00:23.694000,SAI,55,94.131,38.0,2.0,,,False,HARD,17.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.265,-0.281,2.353,2.564,0.414,0.442,96.57300000000001
+0 days 02:01:58.487000,SAI,55,94.793,39.0,2.0,,,False,HARD,18.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.397,0.421,3.015,3.285,1.347,1.441,97.301
+0 days 02:03:32.351000,SAI,55,93.864,40.0,2.0,,,False,HARD,19.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.532,-0.564,2.086,2.273,0.331,0.354,96.438
+0 days 02:05:06.369000,SAI,55,94.018,41.0,2.0,,,False,HARD,20.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.378,-0.4,2.24,2.441,0.179,0.191,96.658
+0 days 02:06:40.274000,SAI,55,93.905,42.0,2.0,,,False,HARD,21.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.491,-0.52,2.127,2.318,0.101,0.108,96.611
+0 days 02:08:14.207000,SAI,55,93.933,43.0,2.0,,,False,HARD,22.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.463,-0.49,2.155,2.348,0.381,0.407,96.70500000000001
+0 days 02:09:47.875000,SAI,55,93.668,44.0,2.0,,,False,HARD,23.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.728,-0.771,1.89,2.059,0.116,0.124,96.506
+0 days 02:11:21.679000,SAI,55,93.804,45.0,2.0,,,False,HARD,24.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.592,-0.627,2.026,2.208,0.304,0.325,96.708
+0 days 02:12:55.215000,SAI,55,93.536,46.0,2.0,,,True,HARD,25.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.86,-0.911,1.758,1.915,-0.012,-0.013,96.506
+0 days 02:14:28.855000,SAI,55,93.64,47.0,2.0,,,False,HARD,26.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.756,-0.801,1.862,2.029,0.286,0.306,96.676
+0 days 02:16:02.446000,SAI,55,93.591,48.0,2.0,,,False,HARD,27.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.805,-0.853,1.813,1.975,0.251,0.269,96.693
+0 days 02:17:36.248000,SAI,55,93.802,49.0,2.0,,,False,HARD,28.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.594,-0.629,2.024,2.205,0.511,0.548,96.97000000000001
+0 days 02:19:08.714000,SAI,55,92.466,50.0,2.0,,,True,HARD,29.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.93,-2.045,0.688,0.75,-0.664,-0.713,95.69999999999999
+0 days 00:59:14.752000,ALB,23,137.291,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,124,10.0,False,5,Saudi Arabian Grand Prix,True,C4,False,42.895,45.442,45.513,49.59,1.267,0.931,137.291
+0 days 01:01:56.943000,ALB,23,,2.0,1.0,,,False,MEDIUM,2.0,True,Williams,4,9.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:43.412000,ALB,23,,3.0,1.0,,,False,MEDIUM,3.0,True,Williams,41,9.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:20.798000,ALB,23,97.386,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,2.99,3.168,5.608,6.11,-0.12,-0.123,97.58399999999999
+0 days 01:07:56.404000,ALB,23,95.606,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.21,1.282,3.828,4.171,-0.064,-0.067,95.86999999999999
+0 days 01:09:31.552000,ALB,23,95.148,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.752,0.797,3.37,3.672,0.017,0.018,95.478
+0 days 01:11:06.925000,ALB,23,95.373,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.977,1.035,3.595,3.917,0.233,0.245,95.769
+0 days 01:12:42.142000,ALB,23,95.217,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.821,0.87,3.439,3.747,0.105,0.11,95.679
+0 days 01:14:17.063000,ALB,23,94.921,9.0,1.0,,,True,MEDIUM,9.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.525,0.556,3.143,3.425,-0.021,-0.022,95.44900000000001
+0 days 01:15:51.955000,ALB,23,94.892,10.0,1.0,,,True,MEDIUM,10.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.496,0.525,3.114,3.393,-0.103,-0.108,95.48599999999999
+0 days 01:17:26.959000,ALB,23,95.004,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.608,0.644,3.226,3.515,-0.073,-0.077,95.664
+0 days 01:19:01.863000,ALB,23,94.904,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.508,0.538,3.126,3.406,-0.416,-0.436,95.63
+0 days 01:20:36.780000,ALB,23,94.917,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.521,0.552,3.139,3.42,-0.765,-0.8,95.709
+0 days 01:22:12.187000,ALB,23,95.407,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.011,1.071,3.629,3.954,0.116,0.122,96.265
+0 days 01:23:47.428000,ALB,23,95.241,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.845,0.895,3.463,3.773,-0.092,-0.097,96.165
+0 days 01:25:22.470000,ALB,23,95.042,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.646,0.684,3.264,3.556,-0.158,-0.166,96.032
+0 days 01:26:57.765000,ALB,23,95.295,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.899,0.952,3.517,3.832,0.008,0.008,96.351
+0 days 01:28:33.209000,ALB,23,95.444,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.048,1.11,3.666,3.994,0.282,0.296,96.566
+0 days 01:30:09.105000,ALB,23,95.896,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.5,1.589,4.118,4.487,0.526,0.552,97.084
+0 days 01:31:44.959000,ALB,23,95.854,20.0,1.0,,,False,MEDIUM,20.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.458,1.545,4.076,4.441,0.293,0.307,97.108
+0 days 01:33:21.402000,ALB,23,96.443,21.0,1.0,,,False,MEDIUM,21.0,True,Williams,1,8.0,True,5,Saudi Arabian Grand Prix,True,C4,True,2.047,2.169,4.665,5.083,1.047,1.098,97.76299999999999
+0 days 01:34:59.490000,ALB,23,98.088,22.0,1.0,,0 days 01:34:58.462000,False,MEDIUM,22.0,True,Williams,1,8.0,False,5,Saudi Arabian Grand Prix,True,C4,False,3.692,3.911,6.31,6.875,3.395,3.585,99.47399999999999
+0 days 01:36:53.094000,ALB,23,113.604,23.0,2.0,0 days 01:35:20.580000,,False,HARD,1.0,True,Williams,1,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,19.208,20.348,21.826,23.781,18.804,19.835,115.056
+0 days 01:38:27.780000,ALB,23,94.686,24.0,2.0,,,True,HARD,2.0,True,Williams,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.29,0.307,2.908,3.169,0.038,0.04,96.20400000000001
+0 days 01:40:02.403000,ALB,23,94.623,25.0,2.0,,,True,HARD,3.0,True,Williams,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.227,0.24,2.845,3.1,0.265,0.281,96.20700000000001
+0 days 01:41:36.863000,ALB,23,94.46,26.0,2.0,,,True,HARD,4.0,True,Williams,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.064,0.068,2.682,2.922,-0.034,-0.036,96.11
+0 days 01:43:10.930000,ALB,23,94.067,27.0,2.0,,,True,HARD,5.0,True,Williams,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.329,-0.349,2.289,2.494,-0.389,-0.412,95.78299999999999
+0 days 01:44:45.462000,ALB,23,94.532,28.0,2.0,,,False,HARD,6.0,True,Williams,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.136,0.144,2.754,3.001,-0.063,-0.067,96.314
+0 days 01:46:19.693000,ALB,23,94.231,29.0,2.0,,,False,HARD,7.0,True,Williams,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.165,-0.175,2.453,2.673,-0.159,-0.168,96.079
+0 days 01:47:53.878000,ALB,23,94.185,30.0,2.0,,,False,HARD,8.0,True,Williams,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.211,-0.224,2.407,2.623,-0.54,-0.57,96.099
+0 days 01:49:27.801000,ALB,23,93.923,31.0,2.0,,,True,HARD,9.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.473,-0.501,2.145,2.337,-0.577,-0.611,95.903
+0 days 01:51:01.582000,ALB,23,93.781,32.0,2.0,,,True,HARD,10.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.615,-0.652,2.003,2.182,-0.103,-0.11,95.82700000000001
+0 days 01:52:35.512000,ALB,23,93.93,33.0,2.0,,,False,HARD,11.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.466,-0.494,2.152,2.345,0.11,0.117,96.042
+0 days 01:54:09.302000,ALB,23,93.79,34.0,2.0,,,False,HARD,12.0,True,Williams,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.606,-0.642,2.012,2.192,-0.007,-0.007,95.968
+0 days 01:55:43.121000,ALB,23,93.819,35.0,2.0,,,False,HARD,13.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.577,-0.611,2.041,2.224,0.003,0.003,96.063
+0 days 01:57:16.859000,ALB,23,93.738,36.0,2.0,,,True,HARD,14.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.658,-0.697,1.96,2.136,-0.01,-0.011,96.048
+0 days 01:58:51.037000,ALB,23,94.178,37.0,2.0,,,False,HARD,15.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.218,-0.231,2.4,2.615,0.382,0.407,96.554
+0 days 02:00:24.955000,ALB,23,93.918,38.0,2.0,,,False,HARD,16.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.478,-0.506,2.14,2.332,0.201,0.214,96.36000000000001
+0 days 02:01:59.073000,ALB,23,94.118,39.0,2.0,,,False,HARD,17.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.278,-0.295,2.34,2.55,0.672,0.719,96.62599999999999
+0 days 02:03:33.162000,ALB,23,94.089,40.0,2.0,,,False,HARD,18.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.307,-0.325,2.311,2.518,0.556,0.594,96.663
+0 days 02:05:07.063000,ALB,23,93.901,41.0,2.0,,,False,HARD,19.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.495,-0.524,2.123,2.313,0.062,0.066,96.541
+0 days 02:06:40.917000,ALB,23,93.854,42.0,2.0,,,False,HARD,20.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.542,-0.574,2.076,2.262,0.05,0.053,96.56
+0 days 02:08:14.869000,ALB,23,93.952,43.0,2.0,,,False,HARD,21.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.444,-0.47,2.174,2.369,0.4,0.428,96.724
+0 days 02:09:48.734000,ALB,23,93.865,44.0,2.0,,,False,HARD,22.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.531,-0.563,2.087,2.274,0.313,0.335,96.70299999999999
+0 days 02:11:22.388000,ALB,23,93.654,45.0,2.0,,,True,HARD,23.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.742,-0.786,1.876,2.044,0.154,0.165,96.55799999999999
+0 days 02:12:55.980000,ALB,23,93.592,46.0,2.0,,,True,HARD,24.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.804,-0.852,1.814,1.977,0.044,0.047,96.562
+0 days 02:14:29.457000,ALB,23,93.477,47.0,2.0,,,True,HARD,25.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.919,-0.974,1.699,1.851,0.123,0.132,96.513
+0 days 02:16:03.185000,ALB,23,93.728,48.0,2.0,,,False,HARD,26.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.668,-0.708,1.95,2.125,0.388,0.416,96.83
+0 days 02:17:36.948000,ALB,23,93.763,49.0,2.0,,,False,HARD,27.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.633,-0.671,1.985,2.163,0.472,0.506,96.93100000000001
+0 days 02:19:10.601000,ALB,23,93.653,50.0,2.0,,,False,HARD,28.0,True,Williams,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.743,-0.787,1.875,2.043,0.523,0.562,96.887
+0 days 00:59:18.265000,HAD,6,141.02,1.0,1.0,,,False,HARD,1.0,True,Racing Bulls,124,12.0,False,5,Saudi Arabian Grand Prix,True,C3,False,46.624,49.392,49.242,53.653,4.996,3.673,141.02
+0 days 01:02:00.142000,HAD,6,,2.0,1.0,,,False,HARD,2.0,True,Racing Bulls,4,11.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:44.052000,HAD,6,,3.0,1.0,,,False,HARD,3.0,True,Racing Bulls,41,11.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:21.679000,HAD,6,97.627,4.0,1.0,,,True,HARD,4.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.231,3.423,5.849,6.373,0.121,0.124,97.82499999999999
+0 days 01:07:57.303000,HAD,6,95.624,5.0,1.0,,,True,HARD,5.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.228,1.301,3.846,4.191,-0.046,-0.048,95.88799999999999
+0 days 01:09:32.306000,HAD,6,95.003,6.0,1.0,,,True,HARD,6.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.607,0.643,3.225,3.514,-0.128,-0.135,95.333
+0 days 01:11:07.659000,HAD,6,95.353,7.0,1.0,,,False,HARD,7.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.957,1.014,3.575,3.895,0.213,0.224,95.749
+0 days 01:12:42.902000,HAD,6,95.243,8.0,1.0,,,False,HARD,8.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.847,0.897,3.465,3.775,0.131,0.138,95.705
+0 days 01:14:17.864000,HAD,6,94.962,9.0,1.0,,,True,HARD,9.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.566,0.6,3.184,3.469,0.02,0.021,95.49000000000001
+0 days 01:15:53.250000,HAD,6,95.386,10.0,1.0,,,False,HARD,10.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.99,1.049,3.608,3.931,0.391,0.412,95.97999999999999
+0 days 01:17:28.399000,HAD,6,95.149,11.0,1.0,,,False,HARD,11.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.753,0.798,3.371,3.673,0.072,0.076,95.809
+0 days 01:19:03.729000,HAD,6,95.33,12.0,1.0,,,False,HARD,12.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.934,0.989,3.552,3.87,0.01,0.01,96.056
+0 days 01:20:38.801000,HAD,6,95.072,13.0,1.0,,,False,HARD,13.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.676,0.716,3.294,3.589,-0.61,-0.638,95.864
+0 days 01:22:13.976000,HAD,6,95.175,14.0,1.0,,,False,HARD,14.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.779,0.825,3.397,3.701,-0.116,-0.122,96.033
+0 days 01:23:49.002000,HAD,6,95.026,15.0,1.0,,,False,HARD,15.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.63,0.667,3.248,3.539,-0.307,-0.322,95.95
+0 days 01:25:24.175000,HAD,6,95.173,16.0,1.0,,,False,HARD,16.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.777,0.823,3.395,3.699,-0.027,-0.028,96.163
+0 days 01:26:59.197000,HAD,6,95.022,17.0,1.0,,,False,HARD,17.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.626,0.663,3.244,3.535,-0.265,-0.278,96.078
+0 days 01:28:34.249000,HAD,6,95.052,18.0,1.0,,,False,HARD,18.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.656,0.695,3.274,3.567,-0.11,-0.116,96.174
+0 days 01:30:09.658000,HAD,6,95.409,19.0,1.0,,,False,HARD,19.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.013,1.073,3.631,3.956,0.039,0.041,96.59700000000001
+0 days 01:31:45.219000,HAD,6,95.561,20.0,1.0,,,False,HARD,20.0,True,Racing Bulls,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.165,1.234,3.783,4.122,0.0,0.0,96.81500000000001
+0 days 01:33:21.664000,HAD,6,96.445,21.0,1.0,,,False,HARD,21.0,True,Racing Bulls,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.049,2.171,4.667,5.085,1.049,1.1,97.76499999999999
+0 days 01:34:57.801000,HAD,6,96.137,22.0,1.0,,,False,HARD,22.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.741,1.844,4.359,4.75,1.444,1.525,97.523
+0 days 01:36:32.674000,HAD,6,94.873,23.0,1.0,,,True,HARD,23.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.477,0.505,3.095,3.372,0.073,0.077,96.325
+0 days 01:38:07.070000,HAD,6,94.396,24.0,1.0,,,True,HARD,24.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.0,0.0,2.618,2.853,-0.252,-0.266,95.914
+0 days 01:39:41.162000,HAD,6,94.092,25.0,1.0,,,True,HARD,25.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.304,-0.322,2.314,2.521,-0.266,-0.282,95.676
+0 days 01:41:15.259000,HAD,6,94.097,26.0,1.0,,,False,HARD,26.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.299,-0.317,2.319,2.527,-0.397,-0.42,95.747
+0 days 01:42:49.393000,HAD,6,94.134,27.0,1.0,,,False,HARD,27.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.262,-0.278,2.356,2.567,-0.322,-0.341,95.85
+0 days 01:44:23.624000,HAD,6,94.231,28.0,1.0,,,False,HARD,28.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.165,-0.175,2.453,2.673,-0.364,-0.385,96.01299999999999
+0 days 01:45:58.022000,HAD,6,94.398,29.0,1.0,,,False,HARD,29.0,True,Racing Bulls,1,6.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.002,0.002,2.62,2.855,0.008,0.008,96.246
+0 days 01:47:34.020000,HAD,6,95.998,30.0,1.0,,,False,HARD,30.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.602,1.697,4.22,4.598,1.273,1.344,97.912
+0 days 01:49:09.441000,HAD,6,95.421,31.0,1.0,,,False,HARD,31.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.025,1.086,3.643,3.969,0.921,0.975,97.40100000000001
+0 days 01:50:44.062000,HAD,6,94.621,32.0,1.0,,,False,HARD,32.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.225,0.238,2.843,3.098,0.737,0.785,96.667
+0 days 01:52:18.657000,HAD,6,94.595,33.0,1.0,,,False,HARD,33.0,True,Racing Bulls,1,7.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.199,0.211,2.817,3.069,0.775,0.826,96.707
+0 days 01:53:55.656000,HAD,6,96.999,34.0,1.0,,0 days 01:53:54.834000,False,HARD,34.0,True,Racing Bulls,1,8.0,False,5,Saudi Arabian Grand Prix,True,C3,False,2.603,2.758,5.221,5.689,3.202,3.414,99.17699999999999
+0 days 01:55:46.146000,HAD,6,110.49,35.0,2.0,0 days 01:54:15.533000,,False,MEDIUM,1.0,True,Racing Bulls,1,10.0,False,5,Saudi Arabian Grand Prix,True,C4,False,16.094,17.049,18.712,20.388,16.674,17.773,112.734
+0 days 01:57:19.658000,HAD,6,93.512,36.0,2.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.884,-0.936,1.734,1.889,-0.236,-0.252,95.822
+0 days 01:58:52.999000,HAD,6,93.341,37.0,2.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.055,-1.118,1.563,1.703,-0.455,-0.485,95.717
+0 days 02:00:26.761000,HAD,6,93.762,38.0,2.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.634,-0.672,1.984,2.162,0.045,0.048,96.20400000000001
+0 days 02:02:00.018000,HAD,6,93.257,39.0,2.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.139,-1.207,1.479,1.611,-0.189,-0.202,95.765
+0 days 02:03:33.540000,HAD,6,93.522,40.0,2.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.874,-0.926,1.744,1.9,-0.011,-0.012,96.096
+0 days 02:05:07.473000,HAD,6,93.933,41.0,2.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.463,-0.49,2.155,2.348,0.094,0.1,96.57300000000001
+0 days 02:06:41.365000,HAD,6,93.892,42.0,2.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.504,-0.534,2.114,2.303,0.088,0.094,96.598
+0 days 02:08:15.538000,HAD,6,94.173,43.0,2.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.223,-0.236,2.395,2.61,0.621,0.664,96.94500000000001
+0 days 02:09:49.397000,HAD,6,93.859,44.0,2.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.537,-0.569,2.081,2.267,0.307,0.328,96.69699999999999
+0 days 02:11:22.804000,HAD,6,93.407,45.0,2.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.989,-1.048,1.629,1.775,-0.093,-0.099,96.31099999999999
+0 days 02:12:56.475000,HAD,6,93.671,46.0,2.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.725,-0.768,1.893,2.063,0.123,0.131,96.641
+0 days 02:14:30.072000,HAD,6,93.597,47.0,2.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.799,-0.846,1.819,1.982,0.243,0.26,96.633
+0 days 02:16:03.706000,HAD,6,93.634,48.0,2.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.762,-0.807,1.856,2.022,0.294,0.315,96.736
+0 days 02:17:37.457000,HAD,6,93.751,49.0,2.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.645,-0.683,1.973,2.15,0.46,0.493,96.91900000000001
+0 days 02:19:11.081000,HAD,6,93.624,50.0,2.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,10.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.772,-0.818,1.846,2.011,0.494,0.53,96.85799999999999
+0 days 00:59:15.524000,ALO,14,138.128,1.0,1.0,,,False,MEDIUM,2.0,False,Aston Martin,124,11.0,False,5,Saudi Arabian Grand Prix,True,C4,False,43.732,46.328,46.35,50.502,2.104,1.547,138.128
+0 days 01:01:58.735000,ALO,14,,2.0,1.0,,,False,MEDIUM,3.0,False,Aston Martin,4,10.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:43.584000,ALO,14,,3.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,41,10.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:21.799000,ALO,14,98.215,4.0,1.0,,,True,MEDIUM,5.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,3.819,4.046,6.437,7.014,0.709,0.727,98.413
+0 days 01:07:57.975000,ALO,14,96.176,5.0,1.0,,,True,MEDIUM,6.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.78,1.886,4.398,4.792,0.506,0.529,96.44
+0 days 01:09:33.345000,ALO,14,95.37,6.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.974,1.032,3.592,3.914,0.239,0.251,95.7
+0 days 01:11:08.497000,ALO,14,95.152,7.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.756,0.801,3.374,3.676,0.012,0.013,95.548
+0 days 01:12:43.679000,ALO,14,95.182,8.0,1.0,,,False,MEDIUM,9.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.786,0.833,3.404,3.709,0.07,0.074,95.644
+0 days 01:14:18.987000,ALO,14,95.308,9.0,1.0,,,False,MEDIUM,10.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.912,0.966,3.53,3.846,0.366,0.385,95.83600000000001
+0 days 01:15:54.085000,ALO,14,95.098,10.0,1.0,,,True,MEDIUM,11.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.702,0.744,3.32,3.617,0.103,0.108,95.692
+0 days 01:17:29.824000,ALO,14,95.739,11.0,1.0,,,False,MEDIUM,12.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.343,1.423,3.961,4.316,0.662,0.696,96.399
+0 days 01:19:05.616000,ALO,14,95.792,12.0,1.0,,,False,MEDIUM,13.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.396,1.479,4.014,4.374,0.472,0.495,96.518
+0 days 01:20:41.512000,ALO,14,95.896,13.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.5,1.589,4.118,4.487,0.214,0.224,96.688
+0 days 01:22:17.744000,ALO,14,96.232,14.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.836,1.945,4.454,4.853,0.941,0.988,97.09
+0 days 01:23:54.016000,ALO,14,96.272,15.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.876,1.987,4.494,4.897,0.939,0.985,97.19600000000001
+0 days 01:25:29.513000,ALO,14,95.497,16.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.101,1.166,3.719,4.052,0.297,0.312,96.487
+0 days 01:27:04.797000,ALO,14,95.284,17.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.888,0.941,3.506,3.82,-0.003,-0.003,96.34
+0 days 01:28:40.597000,ALO,14,95.8,18.0,1.0,,,False,MEDIUM,19.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.404,1.487,4.022,4.382,0.638,0.67,96.922
+0 days 01:30:19.184000,ALO,14,98.587,19.0,1.0,,0 days 01:30:18.138000,False,MEDIUM,20.0,False,Aston Martin,1,12.0,False,5,Saudi Arabian Grand Prix,True,C4,False,4.191,4.44,6.809,7.419,3.217,3.373,99.775
+0 days 01:32:11.664000,ALO,14,112.48,20.0,2.0,0 days 01:30:40.125000,,False,HARD,2.0,False,Aston Martin,1,17.0,False,5,Saudi Arabian Grand Prix,True,C3,False,18.084,19.158,20.702,22.557,16.919,17.705,113.73400000000001
+0 days 01:33:46.112000,ALO,14,94.448,21.0,2.0,,,True,HARD,3.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.052,0.055,2.67,2.909,-0.948,-0.994,95.76799999999999
+0 days 01:35:20.788000,ALO,14,94.676,22.0,2.0,,,False,HARD,4.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.28,0.297,2.898,3.158,-0.017,-0.018,96.062
+0 days 01:36:55.697000,ALO,14,94.909,23.0,2.0,,,False,HARD,5.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.513,0.543,3.131,3.411,0.109,0.115,96.361
+0 days 01:38:30.528000,ALO,14,94.831,24.0,2.0,,,False,HARD,6.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.435,0.461,3.053,3.327,0.183,0.193,96.349
+0 days 01:40:07.559000,ALO,14,97.031,25.0,2.0,,,False,HARD,7.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.635,2.791,5.253,5.724,2.673,2.833,98.61500000000001
+0 days 01:41:42.087000,ALO,14,94.528,26.0,2.0,,,False,HARD,8.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.132,0.14,2.75,2.996,0.034,0.036,96.17800000000001
+0 days 01:43:16.865000,ALO,14,94.778,27.0,2.0,,,False,HARD,9.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.382,0.405,3.0,3.269,0.322,0.341,96.494
+0 days 01:44:51.979000,ALO,14,95.114,28.0,2.0,,,False,HARD,10.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.718,0.761,3.336,3.635,0.519,0.549,96.896
+0 days 01:46:26.369000,ALO,14,94.39,29.0,2.0,,,True,HARD,11.0,False,Aston Martin,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.006,-0.006,2.612,2.846,0.0,0.0,96.238
+0 days 01:48:01.110000,ALO,14,94.741,30.0,2.0,,,False,HARD,12.0,False,Aston Martin,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.345,0.365,2.963,3.228,0.016,0.017,96.655
+0 days 01:49:36.008000,ALO,14,94.898,31.0,2.0,,,False,HARD,13.0,False,Aston Martin,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.502,0.532,3.12,3.4,0.398,0.421,96.878
+0 days 01:51:10.622000,ALO,14,94.614,32.0,2.0,,,False,HARD,14.0,False,Aston Martin,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.218,0.231,2.836,3.09,0.73,0.778,96.66000000000001
+0 days 01:52:44.878000,ALO,14,94.256,33.0,2.0,,,True,HARD,15.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.14,-0.148,2.478,2.7,0.436,0.465,96.368
+0 days 01:54:19.339000,ALO,14,94.461,34.0,2.0,,,False,HARD,16.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.065,0.069,2.683,2.923,0.664,0.708,96.639
+0 days 01:55:53.777000,ALO,14,94.438,35.0,2.0,,,False,HARD,17.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.042,0.044,2.66,2.898,0.622,0.663,96.682
+0 days 01:57:27.954000,ALO,14,94.177,36.0,2.0,,,True,HARD,18.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.219,-0.232,2.399,2.614,0.429,0.458,96.48700000000001
+0 days 01:59:02.462000,ALO,14,94.508,37.0,2.0,,,False,HARD,19.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.112,0.119,2.73,2.975,0.712,0.759,96.884
+0 days 02:00:36.556000,ALO,14,94.094,38.0,2.0,,,True,HARD,20.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.302,-0.32,2.316,2.523,0.377,0.402,96.536
+0 days 02:02:10.452000,ALO,14,93.896,39.0,2.0,,,True,HARD,21.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.5,-0.53,2.118,2.308,0.45,0.482,96.404
+0 days 02:03:44.888000,ALO,14,94.436,40.0,2.0,,,False,HARD,22.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.04,0.042,2.658,2.896,0.903,0.965,97.01
+0 days 02:05:19.132000,ALO,14,94.244,41.0,2.0,,,False,HARD,23.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.152,-0.161,2.466,2.687,0.405,0.432,96.884
+0 days 02:06:53.384000,ALO,14,94.252,42.0,2.0,,,False,HARD,24.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.144,-0.153,2.474,2.696,0.448,0.478,96.958
+0 days 02:08:27.217000,ALO,14,93.833,43.0,2.0,,,True,HARD,25.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.563,-0.596,2.055,2.239,0.281,0.3,96.605
+0 days 02:10:00.713000,ALO,14,93.496,44.0,2.0,,,True,HARD,26.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.9,-0.953,1.718,1.872,-0.056,-0.06,96.33399999999999
+0 days 02:11:34.307000,ALO,14,93.594,45.0,2.0,,,False,HARD,27.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.802,-0.85,1.816,1.979,0.094,0.101,96.49799999999999
+0 days 02:13:07.670000,ALO,14,93.363,46.0,2.0,,,True,HARD,28.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.033,-1.094,1.585,1.727,-0.185,-0.198,96.333
+0 days 02:14:40.738000,ALO,14,93.068,47.0,2.0,,,True,HARD,29.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.328,-1.407,1.29,1.406,-0.286,-0.306,96.104
+0 days 02:16:13.916000,ALO,14,93.178,48.0,2.0,,,False,HARD,30.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.218,-1.29,1.4,1.525,-0.162,-0.174,96.28
+0 days 02:17:46.925000,ALO,14,93.009,49.0,2.0,,,True,HARD,31.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.387,-1.469,1.231,1.341,-0.282,-0.302,96.177
+0 days 02:19:19.946000,ALO,14,93.021,50.0,2.0,,,False,HARD,32.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.375,-1.457,1.243,1.354,-0.109,-0.117,96.255
+0 days 00:59:20.269000,LAW,30,143.086,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,124,13.0,False,5,Saudi Arabian Grand Prix,True,C4,False,48.69,51.581,51.308,55.904,7.062,5.192,143.086
+0 days 01:02:01.727000,LAW,30,,2.0,1.0,,,False,MEDIUM,2.0,True,Racing Bulls,4,12.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:44.412000,LAW,30,,3.0,1.0,,,False,MEDIUM,3.0,True,Racing Bulls,41,12.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:22.125000,LAW,30,97.713,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,3.317,3.514,5.935,6.467,0.207,0.212,97.91099999999999
+0 days 01:07:58.487000,LAW,30,96.362,5.0,1.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.966,2.083,4.584,4.995,0.692,0.723,96.62599999999999
+0 days 01:09:34.032000,LAW,30,95.545,6.0,1.0,,,True,MEDIUM,6.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.149,1.217,3.767,4.104,0.414,0.435,95.875
+0 days 01:11:09.159000,LAW,30,95.127,7.0,1.0,,,True,MEDIUM,7.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.731,0.774,3.349,3.649,-0.013,-0.014,95.523
+0 days 01:12:44.244000,LAW,30,95.085,8.0,1.0,,,True,MEDIUM,8.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.689,0.73,3.307,3.603,-0.027,-0.028,95.547
+0 days 01:14:19.563000,LAW,30,95.319,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.923,0.978,3.541,3.858,0.377,0.397,95.84700000000001
+0 days 01:15:55.099000,LAW,30,95.536,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.14,1.208,3.758,4.095,0.541,0.57,96.13
+0 days 01:17:30.835000,LAW,30,95.736,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.34,1.42,3.958,4.313,0.659,0.693,96.396
+0 days 01:19:06.377000,LAW,30,95.542,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.146,1.214,3.764,4.101,0.222,0.233,96.268
+0 days 01:20:42.063000,LAW,30,95.686,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.29,1.367,3.908,4.258,0.004,0.004,96.47800000000001
+0 days 01:22:17.835000,LAW,30,95.772,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.376,1.458,3.994,4.352,0.481,0.505,96.63000000000001
+0 days 01:23:53.175000,LAW,30,95.34,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.944,1.0,3.562,3.881,0.007,0.007,96.26400000000001
+0 days 01:25:28.704000,LAW,30,95.529,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.133,1.2,3.751,4.087,0.329,0.346,96.51899999999999
+0 days 01:27:03.994000,LAW,30,95.29,17.0,1.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.894,0.947,3.512,3.827,0.003,0.003,96.346
+0 days 01:28:39.156000,LAW,30,95.162,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.766,0.811,3.384,3.687,0.0,0.0,96.284
+0 days 01:30:14.315000,LAW,30,95.159,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.763,0.808,3.381,3.684,-0.211,-0.221,96.34700000000001
+0 days 01:31:52.170000,LAW,30,97.855,20.0,1.0,,0 days 01:31:51.235000,False,MEDIUM,20.0,True,Racing Bulls,1,10.0,False,5,Saudi Arabian Grand Prix,True,C4,False,3.459,3.664,6.077,6.621,2.294,2.401,99.10900000000001
+0 days 01:33:43.968000,LAW,30,111.798,21.0,2.0,0 days 01:32:11.783000,,False,HARD,2.0,False,Racing Bulls,1,16.0,False,5,Saudi Arabian Grand Prix,True,C3,False,17.402,18.435,20.02,21.814,16.402,17.194,113.118
+0 days 01:35:18.349000,LAW,30,94.381,22.0,2.0,,,True,HARD,3.0,False,Racing Bulls,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.015,-0.016,2.603,2.836,-0.312,-0.329,95.767
+0 days 01:36:53.818000,LAW,30,95.469,23.0,2.0,,,False,HARD,4.0,False,Racing Bulls,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.073,1.137,3.691,4.022,0.669,0.706,96.92099999999999
+0 days 01:38:30.199000,LAW,30,96.381,24.0,2.0,,,False,HARD,5.0,False,Racing Bulls,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.985,2.103,4.603,5.015,1.733,1.831,97.899
+0 days 01:40:05.041000,LAW,30,94.842,25.0,2.0,,,False,HARD,6.0,False,Racing Bulls,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.446,0.472,3.064,3.338,0.484,0.513,96.426
+0 days 01:41:39.766000,LAW,30,94.725,26.0,2.0,,,False,HARD,7.0,False,Racing Bulls,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.329,0.349,2.947,3.211,0.231,0.244,96.375
+0 days 01:43:14.982000,LAW,30,95.216,27.0,2.0,,,False,HARD,8.0,False,Racing Bulls,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.82,0.869,3.438,3.746,0.76,0.805,96.93199999999999
+0 days 01:44:50.172000,LAW,30,95.19,28.0,2.0,,,False,HARD,9.0,False,Racing Bulls,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.794,0.841,3.412,3.718,0.595,0.629,96.972
+0 days 01:46:24.763000,LAW,30,94.591,29.0,2.0,,,False,HARD,10.0,False,Racing Bulls,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.195,0.207,2.813,3.065,0.201,0.213,96.439
+0 days 01:47:59.488000,LAW,30,94.725,30.0,2.0,,,False,HARD,11.0,False,Racing Bulls,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.329,0.349,2.947,3.211,0.0,0.0,96.639
+0 days 01:49:34.095000,LAW,30,94.607,31.0,2.0,,,False,HARD,12.0,False,Racing Bulls,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.211,0.224,2.829,3.082,0.107,0.113,96.587
+0 days 01:51:08.850000,LAW,30,94.755,32.0,2.0,,,False,HARD,13.0,False,Racing Bulls,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.359,0.38,2.977,3.244,0.871,0.928,96.801
+0 days 01:52:43.048000,LAW,30,94.198,33.0,2.0,,,True,HARD,14.0,False,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.198,-0.21,2.42,2.637,0.378,0.403,96.30999999999999
+0 days 01:54:16.772000,LAW,30,93.724,34.0,2.0,,,True,HARD,15.0,False,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.672,-0.712,1.946,2.12,-0.073,-0.078,95.902
+0 days 01:55:51.173000,LAW,30,94.401,35.0,2.0,,,False,HARD,16.0,False,Racing Bulls,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.005,0.005,2.623,2.858,0.585,0.624,96.645
+0 days 01:57:25.042000,LAW,30,93.869,36.0,2.0,,,False,HARD,17.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.527,-0.558,2.091,2.278,0.121,0.129,96.179
+0 days 01:58:58.969000,LAW,30,93.927,37.0,2.0,,,False,HARD,18.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.469,-0.497,2.149,2.342,0.131,0.14,96.30300000000001
+0 days 02:00:32.431000,LAW,30,93.462,38.0,2.0,,,True,HARD,19.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.934,-0.989,1.684,1.835,-0.255,-0.272,95.904
+0 days 02:02:06.047000,LAW,30,93.616,39.0,2.0,,,False,HARD,20.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.78,-0.826,1.838,2.003,0.17,0.182,96.124
+0 days 02:03:39.265000,LAW,30,93.218,40.0,2.0,,,True,HARD,21.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.178,-1.248,1.44,1.569,-0.315,-0.337,95.792
+0 days 02:05:12.811000,LAW,30,93.546,41.0,2.0,,,False,HARD,22.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.85,-0.9,1.768,1.926,-0.293,-0.312,96.186
+0 days 02:06:46.123000,LAW,30,93.312,42.0,2.0,,,False,HARD,23.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.084,-1.148,1.534,1.671,-0.492,-0.524,96.018
+0 days 02:08:19.121000,LAW,30,92.998,43.0,2.0,,,True,HARD,24.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.398,-1.481,1.22,1.329,-0.554,-0.592,95.77000000000001
+0 days 02:09:52.376000,LAW,30,93.255,44.0,2.0,,,False,HARD,25.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.141,-1.209,1.477,1.609,-0.297,-0.317,96.09299999999999
+0 days 02:11:25.689000,LAW,30,93.313,45.0,2.0,,,False,HARD,26.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.083,-1.147,1.535,1.673,-0.187,-0.2,96.217
+0 days 02:12:58.784000,LAW,30,93.095,46.0,2.0,,,False,HARD,27.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.301,-1.378,1.317,1.435,-0.453,-0.484,96.065
+0 days 02:14:32.068000,LAW,30,93.284,47.0,2.0,,,False,HARD,28.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.112,-1.178,1.506,1.641,-0.07,-0.075,96.32000000000001
+0 days 02:16:05.337000,LAW,30,93.269,48.0,2.0,,,False,HARD,29.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.127,-1.194,1.491,1.625,-0.071,-0.076,96.37100000000001
+0 days 02:17:38.484000,LAW,30,93.147,49.0,2.0,,,False,HARD,30.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.249,-1.323,1.369,1.492,-0.144,-0.154,96.31500000000001
+0 days 02:19:12.448000,LAW,30,93.964,50.0,2.0,,,False,HARD,31.0,False,Racing Bulls,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.432,-0.458,2.186,2.382,0.834,0.896,97.198
+0 days 00:59:21.423000,BEA,87,144.14,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,124,14.0,False,5,Saudi Arabian Grand Prix,True,C4,False,49.744,52.697,52.362,57.053,8.116,5.967,144.14
+0 days 01:02:02.251000,BEA,87,,2.0,1.0,,,False,MEDIUM,2.0,True,Haas F1 Team,4,13.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:04:44.678000,BEA,87,,3.0,1.0,,,False,MEDIUM,3.0,True,Haas F1 Team,41,13.0,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
+0 days 01:06:22.601000,BEA,87,97.923,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,3.527,3.736,6.145,6.696,0.417,0.428,98.121
+0 days 01:07:59.024000,BEA,87,96.423,5.0,1.0,,,True,MEDIUM,5.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,2.027,2.147,4.645,5.061,0.753,0.787,96.687
+0 days 01:09:34.868000,BEA,87,95.844,6.0,1.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.448,1.534,4.066,4.43,0.713,0.749,96.17399999999999
+0 days 01:11:09.925000,BEA,87,95.057,7.0,1.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.661,0.7,3.279,3.573,-0.083,-0.087,95.453
+0 days 01:12:45.010000,BEA,87,95.085,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.689,0.73,3.307,3.603,-0.027,-0.028,95.547
+0 days 01:14:20.339000,BEA,87,95.329,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.933,0.988,3.551,3.869,0.387,0.408,95.857
+0 days 01:15:55.844000,BEA,87,95.505,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.109,1.175,3.727,4.061,0.51,0.537,96.09899999999999
+0 days 01:17:31.267000,BEA,87,95.423,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.027,1.088,3.645,3.972,0.346,0.364,96.083
+0 days 01:19:07.055000,BEA,87,95.788,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.392,1.475,4.01,4.369,0.468,0.491,96.514
+0 days 01:20:42.921000,BEA,87,95.866,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.47,1.557,4.088,4.454,0.184,0.192,96.658
+0 days 01:22:19.274000,BEA,87,96.353,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.957,2.073,4.575,4.985,1.062,1.114,97.211
+0 days 01:23:55.637000,BEA,87,96.363,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.967,2.084,4.585,4.996,1.03,1.08,97.287
+0 days 01:25:31.832000,BEA,87,96.195,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.799,1.906,4.417,4.813,0.995,1.045,97.18499999999999
+0 days 01:27:07.966000,BEA,87,96.134,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C4,True,1.738,1.841,4.356,4.746,0.847,0.889,97.19
+0 days 01:28:46.375000,BEA,87,98.409,18.0,1.0,,0 days 01:28:45.478000,False,MEDIUM,18.0,True,Haas F1 Team,1,14.0,False,5,Saudi Arabian Grand Prix,True,C4,False,4.013,4.251,6.631,7.225,3.247,3.412,99.531
+0 days 01:30:39.679000,BEA,87,113.304,19.0,2.0,0 days 01:29:07.420000,,False,HARD,1.0,True,Haas F1 Team,1,18.0,False,5,Saudi Arabian Grand Prix,True,C3,False,18.908,20.031,21.526,23.454,17.934,18.805,114.492
+0 days 01:32:14.438000,BEA,87,94.759,20.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.363,0.385,2.981,3.248,-0.802,-0.839,96.013
+0 days 01:33:48.835000,BEA,87,94.397,21.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.001,0.001,2.619,2.854,-0.999,-1.047,95.717
+0 days 01:35:23.528000,BEA,87,94.693,22.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.297,0.315,2.915,3.176,0.0,0.0,96.079
+0 days 01:36:58.256000,BEA,87,94.728,23.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.332,0.352,2.95,3.214,-0.072,-0.076,96.17999999999999
+0 days 01:38:32.904000,BEA,87,94.648,24.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.252,0.267,2.87,3.127,0.0,0.0,96.166
+0 days 01:40:08.393000,BEA,87,95.489,25.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.093,1.158,3.711,4.043,1.131,1.199,97.07300000000001
+0 days 01:41:44.435000,BEA,87,96.042,26.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.646,1.744,4.264,4.646,1.548,1.638,97.69200000000001
+0 days 01:43:19.224000,BEA,87,94.789,27.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.393,0.416,3.011,3.281,0.333,0.353,96.505
+0 days 01:44:53.959000,BEA,87,94.735,28.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.339,0.359,2.957,3.222,0.14,0.148,96.517
+0 days 01:46:28.867000,BEA,87,94.908,29.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.512,0.542,3.13,3.41,0.518,0.549,96.756
+0 days 01:48:04.074000,BEA,87,95.207,30.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.811,0.859,3.429,3.736,0.482,0.509,97.121
+0 days 01:49:39.194000,BEA,87,95.12,31.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.724,0.767,3.342,3.641,0.62,0.656,97.10000000000001
+0 days 01:51:13.937000,BEA,87,94.743,32.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.347,0.368,2.965,3.231,0.859,0.915,96.789
+0 days 01:52:48.578000,BEA,87,94.641,33.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.245,0.26,2.863,3.119,0.821,0.875,96.753
+0 days 01:54:23.184000,BEA,87,94.606,34.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.21,0.222,2.828,3.081,0.809,0.863,96.78399999999999
+0 days 01:55:57.316000,BEA,87,94.132,35.0,2.0,,,True,HARD,17.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.264,-0.28,2.354,2.565,0.316,0.337,96.376
+0 days 01:57:31.606000,BEA,87,94.29,36.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.106,-0.112,2.512,2.737,0.542,0.578,96.60000000000001
+0 days 01:59:05.938000,BEA,87,94.332,37.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.064,-0.068,2.554,2.783,0.536,0.571,96.708
+0 days 02:00:40.165000,BEA,87,94.227,38.0,2.0,,,False,HARD,20.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.169,-0.179,2.449,2.668,0.51,0.544,96.66900000000001
+0 days 02:02:14.147000,BEA,87,93.982,39.0,2.0,,,True,HARD,21.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.414,-0.439,2.204,2.401,0.536,0.574,96.49
+0 days 02:03:48.107000,BEA,87,93.96,40.0,2.0,,,True,HARD,22.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.436,-0.462,2.182,2.377,0.427,0.457,96.53399999999999
+0 days 02:05:21.884000,BEA,87,93.777,41.0,2.0,,,True,HARD,23.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.619,-0.656,1.999,2.178,-0.062,-0.066,96.417
+0 days 02:06:55.639000,BEA,87,93.755,42.0,2.0,,,True,HARD,24.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.641,-0.679,1.977,2.154,-0.049,-0.052,96.461
+0 days 02:08:29.285000,BEA,87,93.646,43.0,2.0,,,True,HARD,25.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.75,-0.795,1.868,2.035,0.094,0.1,96.418
+0 days 02:10:02.893000,BEA,87,93.608,44.0,2.0,,,True,HARD,26.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.788,-0.835,1.83,1.994,0.056,0.06,96.446
+0 days 02:11:36.267000,BEA,87,93.374,45.0,2.0,,,True,HARD,27.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.022,-1.083,1.596,1.739,-0.126,-0.135,96.27799999999999
+0 days 02:13:09.826000,BEA,87,93.559,46.0,2.0,,,False,HARD,28.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.837,-0.887,1.781,1.941,0.011,0.012,96.529
+0 days 02:14:43.171000,BEA,87,93.345,47.0,2.0,,,True,HARD,29.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.051,-1.113,1.567,1.707,-0.009,-0.01,96.381
+0 days 02:16:16.583000,BEA,87,93.412,48.0,2.0,,,False,HARD,30.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.984,-1.042,1.634,1.78,0.072,0.077,96.51400000000001
+0 days 02:17:49.958000,BEA,87,93.375,49.0,2.0,,,False,HARD,31.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.021,-1.082,1.597,1.74,0.084,0.09,96.543
+0 days 02:19:23.196000,BEA,87,93.238,50.0,2.0,,,True,HARD,32.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.158,-1.227,1.46,1.591,0.108,0.116,96.472
+0 days 00:59:26.753000,OCO,31,149.408,1.0,1.0,,0 days 00:59:25.637000,False,MEDIUM,1.0,True,Haas F1 Team,124,18.0,False,5,Saudi Arabian Grand Prix,True,C4,False,55.012,58.278,57.63,62.793,13.384,9.839,149.408
+0 days 01:02:08.292000,OCO,31,,2.0,2.0,0 days 00:59:47.200000,,False,HARD,1.0,True,Haas F1 Team,4,17.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:46.611000,OCO,31,,3.0,2.0,,,False,HARD,2.0,True,Haas F1 Team,41,17.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:24.852000,OCO,31,98.241,4.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.845,4.073,6.463,7.042,0.735,0.754,98.439
+0 days 01:08:01.711000,OCO,31,96.859,5.0,2.0,,,True,HARD,4.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.463,2.609,5.081,5.536,1.189,1.243,97.12299999999999
+0 days 01:09:37.668000,OCO,31,95.957,6.0,2.0,,,True,HARD,5.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.561,1.654,4.179,4.553,0.826,0.868,96.28699999999999
+0 days 01:11:13.270000,OCO,31,95.602,7.0,2.0,,,True,HARD,6.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.206,1.278,3.824,4.167,0.462,0.486,95.998
+0 days 01:12:48.722000,OCO,31,95.452,8.0,2.0,,,True,HARD,7.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.056,1.119,3.674,4.003,0.34,0.357,95.914
+0 days 01:14:24.281000,OCO,31,95.559,9.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.163,1.232,3.781,4.12,0.617,0.65,96.087
+0 days 01:16:00.366000,OCO,31,96.085,10.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.689,1.789,4.307,4.693,1.09,1.147,96.67899999999999
+0 days 01:17:36.513000,OCO,31,96.147,11.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.751,1.855,4.369,4.76,1.07,1.125,96.807
+0 days 01:19:12.201000,OCO,31,95.688,12.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.292,1.369,3.91,4.26,0.368,0.386,96.414
+0 days 01:20:48.319000,OCO,31,96.118,13.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.722,1.824,4.34,4.729,0.436,0.456,96.91
+0 days 01:22:24.152000,OCO,31,95.833,14.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.437,1.522,4.055,4.418,0.542,0.569,96.691
+0 days 01:24:00.605000,OCO,31,96.453,15.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.057,2.179,4.675,5.094,1.12,1.175,97.37700000000001
+0 days 01:25:36.688000,OCO,31,96.083,16.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.687,1.787,4.305,4.691,0.883,0.928,97.073
+0 days 01:27:12.600000,OCO,31,95.912,17.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.516,1.606,4.134,4.504,0.625,0.656,96.968
+0 days 01:28:49.027000,OCO,31,96.427,18.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.031,2.152,4.649,5.065,1.265,1.329,97.549
+0 days 01:30:24.649000,OCO,31,95.622,19.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.226,1.299,3.844,4.188,0.252,0.264,96.81
+0 days 01:32:00.938000,OCO,31,96.289,20.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.893,2.005,4.511,4.915,0.728,0.762,97.543
+0 days 01:33:36.795000,OCO,31,95.857,21.0,2.0,,,False,HARD,20.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.461,1.548,4.079,4.444,0.461,0.483,97.17699999999999
+0 days 01:35:12.545000,OCO,31,95.75,22.0,2.0,,,False,HARD,21.0,True,Haas F1 Team,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.354,1.434,3.972,4.328,1.057,1.116,97.136
+0 days 01:36:48.077000,OCO,31,95.532,23.0,2.0,,,False,HARD,22.0,True,Haas F1 Team,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.136,1.203,3.754,4.09,0.732,0.772,96.984
+0 days 01:38:23.358000,OCO,31,95.281,24.0,2.0,,,True,HARD,23.0,True,Haas F1 Team,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.885,0.938,3.503,3.817,0.633,0.669,96.799
+0 days 01:39:58.729000,OCO,31,95.371,25.0,2.0,,,False,HARD,24.0,True,Haas F1 Team,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.975,1.033,3.593,3.915,1.013,1.074,96.955
+0 days 01:41:35.246000,OCO,31,96.517,26.0,2.0,,,False,HARD,25.0,True,Haas F1 Team,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.121,2.247,4.739,5.164,2.023,2.141,98.167
+0 days 01:43:10.739000,OCO,31,95.493,27.0,2.0,,,False,HARD,26.0,True,Haas F1 Team,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.097,1.162,3.715,4.048,1.037,1.098,97.20899999999999
+0 days 01:44:47.248000,OCO,31,96.509,28.0,2.0,,,False,HARD,27.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.113,2.238,4.731,5.155,1.914,2.023,98.291
+0 days 01:46:23.061000,OCO,31,95.813,29.0,2.0,,,False,HARD,28.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.417,1.501,4.035,4.396,1.423,1.508,97.661
+0 days 01:47:58.176000,OCO,31,95.115,30.0,2.0,,,True,HARD,29.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.719,0.762,3.337,3.636,0.39,0.412,97.029
+0 days 01:49:33.488000,OCO,31,95.312,31.0,2.0,,,False,HARD,30.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.916,0.97,3.534,3.851,0.812,0.859,97.292
+0 days 01:51:08.634000,OCO,31,95.146,32.0,2.0,,,False,HARD,31.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.75,0.795,3.368,3.67,1.262,1.344,97.19200000000001
+0 days 01:52:44.508000,OCO,31,95.874,33.0,2.0,,,False,HARD,32.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.478,1.566,4.096,4.463,2.054,2.189,97.98599999999999
+0 days 01:54:20.496000,OCO,31,95.988,34.0,2.0,,,False,HARD,33.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.592,1.687,4.21,4.587,2.191,2.336,98.166
+0 days 01:55:55.153000,OCO,31,94.657,35.0,2.0,,,True,HARD,34.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.261,0.276,2.879,3.137,0.841,0.896,96.901
+0 days 01:57:29.748000,OCO,31,94.595,36.0,2.0,,,True,HARD,35.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.199,0.211,2.817,3.069,0.847,0.903,96.905
+0 days 01:59:04.207000,OCO,31,94.459,37.0,2.0,,,True,HARD,36.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.063,0.067,2.681,2.921,0.663,0.707,96.83500000000001
+0 days 02:00:38.914000,OCO,31,94.707,38.0,2.0,,,False,HARD,37.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.311,0.329,2.929,3.191,0.99,1.056,97.149
+0 days 02:02:13.671000,OCO,31,94.757,39.0,2.0,,,False,HARD,38.0,True,Haas F1 Team,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.361,0.382,2.979,3.246,1.311,1.403,97.265
+0 days 02:03:49.311000,OCO,31,95.64,40.0,2.0,,,False,HARD,39.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.244,1.318,3.862,4.208,2.107,2.253,98.214
+0 days 02:05:24.044000,OCO,31,94.733,41.0,2.0,,,False,HARD,40.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.337,0.357,2.955,3.22,0.894,0.953,97.373
+0 days 02:06:58.775000,OCO,31,94.731,42.0,2.0,,,False,HARD,41.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.335,0.355,2.953,3.218,0.927,0.988,97.437
+0 days 02:08:33.743000,OCO,31,94.968,43.0,2.0,,,False,HARD,42.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.572,0.606,3.19,3.476,1.416,1.514,97.74000000000001
+0 days 02:10:08.473000,OCO,31,94.73,44.0,2.0,,,False,HARD,43.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.334,0.354,2.952,3.216,1.178,1.259,97.568
+0 days 02:11:43.093000,OCO,31,94.62,45.0,2.0,,,False,HARD,44.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.224,0.237,2.842,3.097,1.12,1.198,97.524
+0 days 02:13:17.669000,OCO,31,94.576,46.0,2.0,,,False,HARD,45.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.18,0.191,2.798,3.049,1.028,1.099,97.54599999999999
+0 days 02:14:51.978000,OCO,31,94.309,47.0,2.0,,,True,HARD,46.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.087,-0.092,2.531,2.758,0.955,1.023,97.345
+0 days 02:16:27.006000,OCO,31,95.028,48.0,2.0,,,False,HARD,47.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.632,0.67,3.25,3.541,1.688,1.808,98.13000000000001
+0 days 02:18:02.270000,OCO,31,95.264,49.0,2.0,,,False,HARD,48.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.868,0.92,3.486,3.798,1.973,2.115,98.432
+0 days 02:19:43.671000,OCO,31,101.401,50.0,2.0,,,False,HARD,49.0,True,Haas F1 Team,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,7.005,7.421,9.623,10.485,8.271,8.881,104.63499999999999
+0 days 00:59:24.417000,HUL,27,147.149,1.0,1.0,,,False,HARD,1.0,True,Kick Sauber,124,16.0,False,5,Saudi Arabian Grand Prix,True,C3,False,52.753,55.885,55.371,60.331,11.125,8.179,147.149
+0 days 01:02:05.846000,HUL,27,,2.0,1.0,,,False,HARD,2.0,True,Kick Sauber,4,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:45.648000,HUL,27,,3.0,1.0,,,False,HARD,3.0,True,Kick Sauber,41,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:23.673000,HUL,27,98.025,4.0,1.0,,,True,HARD,4.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.629,3.844,6.247,6.807,0.519,0.532,98.223
+0 days 01:08:00.229000,HUL,27,96.556,5.0,1.0,,,True,HARD,5.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.16,2.288,4.778,5.206,0.886,0.926,96.82
+0 days 01:09:36.204000,HUL,27,95.975,6.0,1.0,,,True,HARD,6.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.579,1.673,4.197,4.573,0.844,0.887,96.30499999999999
+0 days 01:11:11.728000,HUL,27,95.524,7.0,1.0,,,True,HARD,7.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.128,1.195,3.746,4.082,0.384,0.404,95.92
+0 days 01:12:47.252000,HUL,27,95.524,8.0,1.0,,,False,HARD,8.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.128,1.195,3.746,4.082,0.412,0.433,95.986
+0 days 01:14:22.893000,HUL,27,95.641,9.0,1.0,,,False,HARD,9.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.245,1.319,3.863,4.209,0.699,0.736,96.16900000000001
+0 days 01:15:59.183000,HUL,27,96.29,10.0,1.0,,,False,HARD,10.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.894,2.006,4.512,4.916,1.295,1.363,96.884
+0 days 01:17:35.051000,HUL,27,95.868,11.0,1.0,,,False,HARD,11.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.472,1.559,4.09,4.456,0.791,0.832,96.52799999999999
+0 days 01:19:10.894000,HUL,27,95.843,12.0,1.0,,,False,HARD,12.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.447,1.533,4.065,4.429,0.523,0.549,96.569
+0 days 01:20:46.874000,HUL,27,95.98,13.0,1.0,,,False,HARD,13.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.584,1.678,4.202,4.578,0.298,0.311,96.772
+0 days 01:22:22.797000,HUL,27,95.923,14.0,1.0,,,False,HARD,14.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.527,1.618,4.145,4.516,0.632,0.663,96.781
+0 days 01:23:59.133000,HUL,27,96.336,15.0,1.0,,,False,HARD,15.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.94,2.055,4.558,4.966,1.003,1.052,97.26
+0 days 01:25:35.092000,HUL,27,95.959,16.0,1.0,,,False,HARD,16.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.563,1.656,4.181,4.556,0.759,0.797,96.949
+0 days 01:27:11.187000,HUL,27,96.095,17.0,1.0,,,False,HARD,17.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.699,1.8,4.317,4.704,0.808,0.848,97.151
+0 days 01:28:47.236000,HUL,27,96.049,18.0,1.0,,,False,HARD,18.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.653,1.751,4.271,4.654,0.887,0.932,97.171
+0 days 01:30:23.637000,HUL,27,96.401,19.0,1.0,,,False,HARD,19.0,True,Kick Sauber,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.005,2.124,4.623,5.037,1.031,1.081,97.589
+0 days 01:31:59.832000,HUL,27,96.195,20.0,1.0,,,False,HARD,20.0,True,Kick Sauber,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.799,1.906,4.417,4.813,0.634,0.663,97.449
+0 days 01:33:35.662000,HUL,27,95.83,21.0,1.0,,,False,HARD,21.0,True,Kick Sauber,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.434,1.519,4.052,4.415,0.434,0.455,97.14999999999999
+0 days 01:35:11.122000,HUL,27,95.46,22.0,1.0,,,True,HARD,22.0,True,Kick Sauber,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.064,1.127,3.682,4.012,0.767,0.81,96.84599999999999
+0 days 01:36:46.268000,HUL,27,95.146,23.0,1.0,,,True,HARD,23.0,True,Kick Sauber,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.75,0.795,3.368,3.67,0.346,0.365,96.598
+0 days 01:38:21.697000,HUL,27,95.429,24.0,1.0,,,False,HARD,24.0,True,Kick Sauber,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.033,1.094,3.651,3.978,0.781,0.825,96.947
+0 days 01:39:56.983000,HUL,27,95.286,25.0,1.0,,,False,HARD,25.0,True,Kick Sauber,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.89,0.943,3.508,3.822,0.928,0.983,96.87
+0 days 01:41:32.855000,HUL,27,95.872,26.0,1.0,,,False,HARD,26.0,True,Kick Sauber,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.476,1.564,4.094,4.461,1.378,1.458,97.522
+0 days 01:43:08.199000,HUL,27,95.344,27.0,1.0,,,False,HARD,27.0,True,Kick Sauber,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.948,1.004,3.566,3.885,0.888,0.94,97.05999999999999
+0 days 01:44:45.178000,HUL,27,96.979,28.0,1.0,,,False,HARD,28.0,True,Kick Sauber,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.583,2.736,5.201,5.667,2.384,2.52,98.761
+0 days 01:46:21.398000,HUL,27,96.22,29.0,1.0,,,False,HARD,29.0,True,Kick Sauber,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.824,1.932,4.442,4.84,1.83,1.939,98.068
+0 days 01:47:56.883000,HUL,27,95.485,30.0,1.0,,,False,HARD,30.0,True,Kick Sauber,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.089,1.154,3.707,4.039,0.76,0.802,97.399
+0 days 01:49:31.930000,HUL,27,95.047,31.0,1.0,,,True,HARD,31.0,True,Kick Sauber,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.651,0.69,3.269,3.562,0.547,0.579,97.027
+0 days 01:51:07.298000,HUL,27,95.368,32.0,1.0,,,False,HARD,32.0,True,Kick Sauber,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.972,1.03,3.59,3.912,1.484,1.581,97.414
+0 days 01:52:45.304000,HUL,27,98.006,33.0,1.0,,0 days 01:52:44.409000,False,HARD,33.0,True,Kick Sauber,1,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,3.61,3.824,6.228,6.786,4.186,4.462,100.118
+0 days 01:54:34.973000,HUL,27,109.669,34.0,2.0,0 days 01:53:04.909000,,False,MEDIUM,1.0,True,Kick Sauber,1,17.0,False,5,Saudi Arabian Grand Prix,True,C4,False,15.273,16.18,17.891,19.494,15.872,16.922,111.847
+0 days 01:56:08.631000,HUL,27,93.658,35.0,2.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.738,-0.782,1.88,2.048,-0.158,-0.168,95.902
+0 days 01:57:42.913000,HUL,27,94.282,36.0,2.0,,,False,MEDIUM,3.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.114,-0.121,2.504,2.728,0.534,0.57,96.592
+0 days 01:59:17.070000,HUL,27,94.157,37.0,2.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.239,-0.253,2.379,2.592,0.361,0.385,96.533
+0 days 02:00:50.585000,HUL,27,93.515,38.0,2.0,,,True,MEDIUM,5.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.881,-0.933,1.737,1.893,-0.202,-0.216,95.957
+0 days 02:02:24.031000,HUL,27,93.446,39.0,2.0,,,True,MEDIUM,6.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.95,-1.006,1.668,1.817,0.0,0.0,95.954
+0 days 02:03:57.564000,HUL,27,93.533,40.0,2.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.863,-0.914,1.755,1.912,0.0,0.0,96.107
+0 days 02:05:31.855000,HUL,27,94.291,41.0,2.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.105,-0.111,2.513,2.738,0.452,0.482,96.931
+0 days 02:07:05.983000,HUL,27,94.128,42.0,2.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.268,-0.284,2.35,2.561,0.324,0.345,96.834
+0 days 02:08:39.589000,HUL,27,93.606,43.0,2.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.79,-0.837,1.828,1.992,0.054,0.058,96.378
+0 days 02:10:13.440000,HUL,27,93.851,44.0,2.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.545,-0.577,2.073,2.259,0.299,0.32,96.689
+0 days 02:11:47.469000,HUL,27,94.029,45.0,2.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.367,-0.389,2.251,2.453,0.529,0.566,96.93299999999999
+0 days 02:13:21.713000,HUL,27,94.244,46.0,2.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.152,-0.161,2.466,2.687,0.696,0.744,97.214
+0 days 02:14:55.846000,HUL,27,94.133,47.0,2.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.263,-0.279,2.355,2.566,0.779,0.834,97.169
+0 days 02:16:30.076000,HUL,27,94.23,48.0,2.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.166,-0.176,2.452,2.672,0.89,0.954,97.33200000000001
+0 days 02:18:08.523000,HUL,27,98.447,49.0,2.0,,,False,MEDIUM,16.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C4,True,4.051,4.291,6.669,7.266,5.156,5.527,101.61500000000001
+0 days 00:59:23.238000,STR,18,145.831,1.0,1.0,,,False,HARD,2.0,False,Aston Martin,124,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,51.435,54.489,54.053,58.895,9.807,7.21,145.831
+0 days 01:02:03.415000,STR,18,,2.0,1.0,,,False,HARD,3.0,False,Aston Martin,4,14.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:45.524000,STR,18,,3.0,1.0,,,False,HARD,4.0,False,Aston Martin,41,14.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:23.514000,STR,18,97.99,4.0,1.0,,,True,HARD,5.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.594,3.807,6.212,6.769,0.484,0.496,98.18799999999999
+0 days 01:07:59.869000,STR,18,96.355,5.0,1.0,,,True,HARD,6.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.959,2.075,4.577,4.987,0.685,0.716,96.619
+0 days 01:09:35.861000,STR,18,95.992,6.0,1.0,,,True,HARD,7.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.596,1.691,4.214,4.592,0.861,0.905,96.322
+0 days 01:11:11.286000,STR,18,95.425,7.0,1.0,,,True,HARD,8.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.029,1.09,3.647,3.974,0.285,0.3,95.821
+0 days 01:12:46.872000,STR,18,95.586,8.0,1.0,,,False,HARD,9.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.19,1.261,3.808,4.149,0.474,0.498,96.048
+0 days 01:14:22.655000,STR,18,95.783,9.0,1.0,,,False,HARD,10.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.387,1.469,4.005,4.364,0.841,0.886,96.311
+0 days 01:15:58.219000,STR,18,95.564,10.0,1.0,,,False,HARD,11.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.168,1.237,3.786,4.125,0.569,0.599,96.15799999999999
+0 days 01:17:33.933000,STR,18,95.714,11.0,1.0,,,False,HARD,12.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.318,1.396,3.936,4.289,0.637,0.67,96.374
+0 days 01:19:10.081000,STR,18,96.148,12.0,1.0,,,False,HARD,13.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.752,1.856,4.37,4.761,0.828,0.869,96.874
+0 days 01:20:45.882000,STR,18,95.801,13.0,1.0,,,False,HARD,14.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.405,1.488,4.023,4.383,0.119,0.124,96.593
+0 days 01:22:21.909000,STR,18,96.027,14.0,1.0,,,False,HARD,15.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.631,1.728,4.249,4.63,0.736,0.772,96.885
+0 days 01:23:57.879000,STR,18,95.97,15.0,1.0,,,False,HARD,16.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.574,1.667,4.192,4.568,0.637,0.668,96.894
+0 days 01:25:33.878000,STR,18,95.999,16.0,1.0,,,False,HARD,17.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.603,1.698,4.221,4.599,0.799,0.839,96.98899999999999
+0 days 01:27:09.770000,STR,18,95.892,17.0,1.0,,,False,HARD,18.0,False,Aston Martin,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.496,1.585,4.114,4.483,0.605,0.635,96.948
+0 days 01:28:45.893000,STR,18,96.123,18.0,1.0,,,False,HARD,19.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.727,1.83,4.345,4.734,0.961,1.01,97.245
+0 days 01:30:21.661000,STR,18,95.768,19.0,1.0,,,False,HARD,20.0,False,Aston Martin,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.372,1.453,3.99,4.347,0.398,0.417,96.956
+0 days 01:31:57.378000,STR,18,95.717,20.0,1.0,,,False,HARD,21.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.321,1.399,3.939,4.292,0.156,0.163,96.971
+0 days 01:33:33.043000,STR,18,95.665,21.0,1.0,,,False,HARD,22.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.269,1.344,3.887,4.235,0.269,0.282,96.985
+0 days 01:35:08.790000,STR,18,95.747,22.0,1.0,,,False,HARD,23.0,False,Aston Martin,1,10.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.351,1.431,3.969,4.325,1.054,1.113,97.133
+0 days 01:36:44.432000,STR,18,95.642,23.0,1.0,,,False,HARD,24.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.246,1.32,3.864,4.21,0.842,0.888,97.094
+0 days 01:38:20.123000,STR,18,95.691,24.0,1.0,,,False,HARD,25.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.295,1.372,3.913,4.264,1.043,1.102,97.209
+0 days 01:39:55.390000,STR,18,95.267,25.0,1.0,,,True,HARD,26.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.871,0.923,3.489,3.802,0.909,0.963,96.851
+0 days 01:41:30.680000,STR,18,95.29,26.0,1.0,,,False,HARD,27.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.894,0.947,3.512,3.827,0.796,0.842,96.94000000000001
+0 days 01:43:05.899000,STR,18,95.219,27.0,1.0,,,True,HARD,28.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.823,0.872,3.441,3.749,0.763,0.808,96.93499999999999
+0 days 01:44:41.293000,STR,18,95.394,28.0,1.0,,,False,HARD,29.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.998,1.057,3.616,3.94,0.799,0.845,97.176
+0 days 01:46:16.464000,STR,18,95.171,29.0,1.0,,,True,HARD,30.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.775,0.821,3.393,3.697,0.781,0.827,97.019
+0 days 01:47:51.718000,STR,18,95.254,30.0,1.0,,,False,HARD,31.0,False,Aston Martin,1,9.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.858,0.909,3.476,3.787,0.529,0.558,97.168
+0 days 01:49:28.574000,STR,18,96.856,31.0,1.0,,,False,HARD,32.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.46,2.606,5.078,5.533,2.356,2.493,98.836
+0 days 01:51:04.320000,STR,18,95.746,32.0,1.0,,,False,HARD,33.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.35,1.43,3.968,4.323,1.862,1.983,97.792
+0 days 01:52:39.504000,STR,18,95.184,33.0,1.0,,,False,HARD,34.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.788,0.835,3.406,3.711,1.364,1.454,97.29599999999999
+0 days 01:54:14.684000,STR,18,95.18,34.0,1.0,,,False,HARD,35.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.784,0.831,3.402,3.707,1.383,1.474,97.358
+0 days 01:55:49.874000,STR,18,95.19,35.0,1.0,,,False,HARD,36.0,False,Aston Martin,1,11.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.794,0.841,3.412,3.718,1.374,1.465,97.434
+0 days 01:57:25.047000,STR,18,95.173,36.0,1.0,,,False,HARD,37.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.777,0.823,3.395,3.699,1.425,1.52,97.483
+0 days 01:59:01.013000,STR,18,95.966,37.0,1.0,,,False,HARD,38.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.57,1.663,4.188,4.563,2.17,2.314,98.342
+0 days 02:00:36.340000,STR,18,95.327,38.0,1.0,,,False,HARD,39.0,False,Aston Martin,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.931,0.986,3.549,3.867,1.61,1.718,97.769
+0 days 02:02:15.884000,STR,18,99.544,39.0,1.0,,0 days 02:02:14.864000,False,HARD,40.0,False,Aston Martin,1,15.0,False,5,Saudi Arabian Grand Prix,True,C3,False,5.148,5.454,7.766,8.462,6.098,6.526,102.05199999999999
+0 days 02:04:06.442000,STR,18,110.558,40.0,2.0,0 days 02:02:35.330000,,False,MEDIUM,2.0,False,Aston Martin,1,17.0,False,5,Saudi Arabian Grand Prix,True,C4,False,16.162,17.121,18.78,20.462,17.025,18.202,113.132
+0 days 02:05:39.895000,STR,18,93.453,41.0,2.0,,,True,MEDIUM,3.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.943,-0.999,1.675,1.825,-0.386,-0.411,96.093
+0 days 02:07:13.267000,STR,18,93.372,42.0,2.0,,,True,MEDIUM,4.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.024,-1.085,1.594,1.737,-0.432,-0.461,96.078
+0 days 02:08:46.143000,STR,18,92.876,43.0,2.0,,,True,MEDIUM,5.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.52,-1.61,1.098,1.196,-0.676,-0.723,95.64800000000001
+0 days 02:10:18.888000,STR,18,92.745,44.0,2.0,,,True,MEDIUM,6.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.651,-1.749,0.967,1.054,-0.807,-0.863,95.583
+0 days 02:11:53.779000,STR,18,94.891,45.0,2.0,,,False,MEDIUM,7.0,False,Aston Martin,1,17.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.495,0.524,3.113,3.392,1.391,1.488,97.795
+0 days 02:13:28.033000,STR,18,94.254,46.0,2.0,,,False,MEDIUM,8.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-0.142,-0.15,2.476,2.698,0.706,0.755,97.224
+0 days 02:15:01.396000,STR,18,93.363,47.0,2.0,,,False,MEDIUM,9.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.033,-1.094,1.585,1.727,0.009,0.01,96.399
+0 days 02:16:36.422000,STR,18,95.026,48.0,2.0,,,False,MEDIUM,10.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,0.63,0.667,3.248,3.539,1.686,1.806,98.128
+0 days 02:18:09.629000,STR,18,93.207,49.0,2.0,,,False,MEDIUM,11.0,False,Aston Martin,1,16.0,True,5,Saudi Arabian Grand Prix,True,C4,True,-1.189,-1.26,1.429,1.557,-0.084,-0.09,96.375
+0 days 00:59:25.565000,DOO,7,148.383,1.0,1.0,,0 days 00:59:24.793000,False,MEDIUM,1.0,True,Alpine,124,17.0,False,5,Saudi Arabian Grand Prix,True,C4,False,53.987,57.192,56.605,61.676,12.359,9.086,148.383
+0 days 01:02:06.948000,DOO,7,,2.0,2.0,0 days 00:59:45.200000,,False,HARD,1.0,True,Alpine,4,16.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:46.193000,DOO,7,,3.0,2.0,,,False,HARD,2.0,True,Alpine,41,16.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:24.289000,DOO,7,98.096,4.0,2.0,,,True,HARD,3.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.7,3.92,6.318,6.884,0.59,0.605,98.294
+0 days 01:08:01.009000,DOO,7,96.72,5.0,2.0,,,True,HARD,4.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.324,2.462,4.942,5.385,1.05,1.098,96.984
+0 days 01:09:36.937000,DOO,7,95.928,6.0,2.0,,,True,HARD,5.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.532,1.623,4.15,4.522,0.797,0.838,96.258
+0 days 01:11:12.495000,DOO,7,95.558,7.0,2.0,,,True,HARD,6.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.162,1.231,3.78,4.119,0.418,0.439,95.95400000000001
+0 days 01:12:47.902000,DOO,7,95.407,8.0,2.0,,,True,HARD,7.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.011,1.071,3.629,3.954,0.295,0.31,95.869
+0 days 01:14:23.514000,DOO,7,95.612,9.0,2.0,,,False,HARD,8.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.216,1.288,3.834,4.177,0.67,0.706,96.14
+0 days 01:15:59.716000,DOO,7,96.202,10.0,2.0,,,False,HARD,9.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.806,1.913,4.424,4.82,1.207,1.271,96.79599999999999
+0 days 01:17:35.683000,DOO,7,95.967,11.0,2.0,,,False,HARD,10.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.571,1.664,4.189,4.564,0.89,0.936,96.627
+0 days 01:19:11.488000,DOO,7,95.805,12.0,2.0,,,False,HARD,11.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.409,1.493,4.027,4.388,0.485,0.509,96.531
+0 days 01:20:47.494000,DOO,7,96.006,13.0,2.0,,,False,HARD,12.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.61,1.706,4.228,4.607,0.324,0.339,96.798
+0 days 01:22:23.207000,DOO,7,95.713,14.0,2.0,,,False,HARD,13.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.317,1.395,3.935,4.288,0.422,0.443,96.571
+0 days 01:24:00.136000,DOO,7,96.929,15.0,2.0,,,False,HARD,14.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.533,2.683,5.151,5.612,1.596,1.674,97.85300000000001
+0 days 01:25:36.230000,DOO,7,96.094,16.0,2.0,,,False,HARD,15.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.698,1.799,4.316,4.703,0.894,0.939,97.08399999999999
+0 days 01:27:12.073000,DOO,7,95.843,17.0,2.0,,,False,HARD,16.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.447,1.533,4.065,4.429,0.556,0.584,96.899
+0 days 01:28:47.620000,DOO,7,95.547,18.0,2.0,,,False,HARD,17.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.151,1.219,3.769,4.107,0.385,0.405,96.669
+0 days 01:30:24.086000,DOO,7,96.466,19.0,2.0,,,False,HARD,18.0,True,Alpine,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.07,2.193,4.688,5.108,1.096,1.149,97.654
+0 days 01:32:00.679000,DOO,7,96.593,20.0,2.0,,,False,HARD,19.0,True,Alpine,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.197,2.327,4.815,5.246,1.032,1.08,97.84700000000001
+0 days 01:33:38.225000,DOO,7,97.546,21.0,2.0,,,False,HARD,20.0,True,Alpine,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.15,3.337,5.768,6.285,2.15,2.254,98.866
+0 days 01:35:14.280000,DOO,7,96.055,22.0,2.0,,,False,HARD,21.0,True,Alpine,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.659,1.757,4.277,4.66,1.362,1.438,97.441
+0 days 01:36:50.338000,DOO,7,96.058,23.0,2.0,,,False,HARD,22.0,True,Alpine,1,12.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.662,1.761,4.28,4.663,1.258,1.327,97.51
+0 days 01:38:26.812000,DOO,7,96.474,24.0,2.0,,,False,HARD,23.0,True,Alpine,1,13.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.078,2.201,4.696,5.117,1.826,1.929,97.992
+0 days 01:40:03.037000,DOO,7,96.225,25.0,2.0,,,False,HARD,24.0,True,Alpine,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.829,1.938,4.447,4.845,1.867,1.979,97.809
+0 days 01:41:38.641000,DOO,7,95.604,26.0,2.0,,,False,HARD,25.0,True,Alpine,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.208,1.28,3.826,4.169,1.11,1.175,97.254
+0 days 01:43:14.889000,DOO,7,96.248,27.0,2.0,,,False,HARD,26.0,True,Alpine,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.852,1.962,4.47,4.87,1.792,1.897,97.964
+0 days 01:44:51.809000,DOO,7,96.92,28.0,2.0,,,False,HARD,27.0,True,Alpine,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.524,2.674,5.142,5.603,2.325,2.458,98.702
+0 days 01:46:28.233000,DOO,7,96.424,29.0,2.0,,,False,HARD,28.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.028,2.148,4.646,5.062,2.034,2.155,98.272
+0 days 01:48:03.779000,DOO,7,95.546,30.0,2.0,,,False,HARD,29.0,True,Alpine,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.15,1.218,3.768,4.106,0.821,0.867,97.46000000000001
+0 days 01:49:40.777000,DOO,7,96.998,31.0,2.0,,,False,HARD,30.0,True,Alpine,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.602,2.756,5.22,5.688,2.498,2.643,98.97800000000001
+0 days 01:51:18.970000,DOO,7,98.193,32.0,2.0,,0 days 01:51:18.017000,False,HARD,31.0,True,Alpine,1,18.0,False,5,Saudi Arabian Grand Prix,True,C3,False,3.797,4.022,6.415,6.99,4.309,4.59,100.239
+0 days 01:53:12.555000,DOO,7,113.585,33.0,3.0,0 days 01:51:39.651000,,False,HARD,1.0,True,Alpine,1,18.0,False,5,Saudi Arabian Grand Prix,True,C3,False,19.189,20.328,21.807,23.761,19.765,21.067,115.69699999999999
+0 days 01:54:45.814000,DOO,7,93.259,34.0,3.0,,,True,HARD,2.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.137,-1.205,1.481,1.614,-0.538,-0.574,95.437
+0 days 01:56:19.233000,DOO,7,93.419,35.0,3.0,,,False,HARD,3.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.977,-1.035,1.641,1.788,-0.397,-0.423,95.663
+0 days 01:57:52.990000,DOO,7,93.757,36.0,3.0,,,False,HARD,4.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.639,-0.677,1.979,2.156,0.009,0.01,96.06700000000001
+0 days 01:59:26.576000,DOO,7,93.586,37.0,3.0,,,False,HARD,5.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.81,-0.858,1.808,1.97,-0.21,-0.224,95.962
+0 days 02:01:00.091000,DOO,7,93.515,38.0,3.0,,,False,HARD,6.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.881,-0.933,1.737,1.893,-0.202,-0.216,95.957
+0 days 02:02:33.942000,DOO,7,93.851,39.0,3.0,,,False,HARD,7.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.545,-0.577,2.073,2.259,0.405,0.433,96.359
+0 days 02:04:08.794000,DOO,7,94.852,40.0,3.0,,,False,HARD,8.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.456,0.483,3.074,3.349,1.319,1.41,97.426
+0 days 02:05:44.574000,DOO,7,95.78,41.0,3.0,,,False,HARD,9.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.384,1.466,4.002,4.361,1.941,2.068,98.42
+0 days 02:07:20.251000,DOO,7,95.677,42.0,3.0,,,False,HARD,10.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.281,1.357,3.899,4.248,1.873,1.997,98.38300000000001
+0 days 02:08:54.840000,DOO,7,94.589,43.0,3.0,,,False,HARD,11.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.193,0.204,2.811,3.063,1.037,1.108,97.361
+0 days 02:10:30.960000,DOO,7,96.12,44.0,3.0,,,False,HARD,12.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.724,1.826,4.342,4.731,2.568,2.745,98.958
+0 days 02:12:07.461000,DOO,7,96.501,45.0,3.0,,,False,HARD,13.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.105,2.23,4.723,5.146,3.001,3.21,99.405
+0 days 02:13:41.886000,DOO,7,94.425,46.0,3.0,,,False,HARD,14.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.029,0.031,2.647,2.884,0.877,0.937,97.395
+0 days 02:15:16.156000,DOO,7,94.27,47.0,3.0,,,False,HARD,15.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.126,-0.133,2.492,2.715,0.916,0.981,97.306
+0 days 02:16:49.306000,DOO,7,93.15,48.0,3.0,,,True,HARD,16.0,True,Alpine,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-1.246,-1.32,1.372,1.495,-0.19,-0.204,96.25200000000001
+0 days 02:18:23.212000,DOO,7,93.906,49.0,3.0,,,False,HARD,17.0,True,Alpine,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,-0.49,-0.519,2.128,2.319,0.615,0.659,97.07400000000001
+0 days 00:59:27.159000,BOR,5,149.952,1.0,1.0,,0 days 00:59:26.199000,False,MEDIUM,1.0,True,Kick Sauber,124,19.0,False,5,Saudi Arabian Grand Prix,True,C4,False,55.556,58.854,58.174,63.386,13.928,10.239,149.952
+0 days 01:02:09.016000,BOR,5,,2.0,2.0,0 days 00:59:48.044000,,False,HARD,1.0,True,Kick Sauber,4,18.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:04:47.114000,BOR,5,,3.0,2.0,,,False,HARD,2.0,True,Kick Sauber,41,18.0,False,5,Saudi Arabian Grand Prix,True,C3,False,,,,,,,
+0 days 01:06:25.325000,BOR,5,98.211,4.0,2.0,,,True,HARD,3.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.815,4.041,6.433,7.009,0.705,0.723,98.40899999999999
+0 days 01:08:02.256000,BOR,5,96.931,5.0,2.0,,,True,HARD,4.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.535,2.685,5.153,5.615,1.261,1.318,97.195
+0 days 01:09:38.782000,BOR,5,96.526,6.0,2.0,,,True,HARD,5.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.13,2.256,4.748,5.173,1.395,1.466,96.856
+0 days 01:11:15.082000,BOR,5,96.3,7.0,2.0,,,True,HARD,6.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.904,2.017,4.522,4.927,1.16,1.219,96.696
+0 days 01:12:52.076000,BOR,5,96.994,8.0,2.0,,,False,HARD,7.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.598,2.752,5.216,5.683,1.882,1.979,97.456
+0 days 01:14:27.651000,BOR,5,95.575,9.0,2.0,,,True,HARD,8.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.179,1.249,3.797,4.137,0.633,0.667,96.10300000000001
+0 days 01:16:03.241000,BOR,5,95.59,10.0,2.0,,,False,HARD,9.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.194,1.265,3.812,4.154,0.595,0.626,96.184
+0 days 01:17:38.979000,BOR,5,95.738,11.0,2.0,,,False,HARD,10.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.342,1.422,3.96,4.315,0.661,0.695,96.398
+0 days 01:19:14.789000,BOR,5,95.81,12.0,2.0,,,False,HARD,11.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.414,1.498,4.032,4.393,0.49,0.514,96.536
+0 days 01:20:50.761000,BOR,5,95.972,13.0,2.0,,,False,HARD,12.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.576,1.67,4.194,4.57,0.29,0.303,96.764
+0 days 01:22:26.767000,BOR,5,96.006,14.0,2.0,,,False,HARD,13.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.61,1.706,4.228,4.607,0.715,0.75,96.864
+0 days 01:24:02.963000,BOR,5,96.196,15.0,2.0,,,False,HARD,14.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.8,1.907,4.418,4.814,0.863,0.905,97.12
+0 days 01:25:39.162000,BOR,5,96.199,16.0,2.0,,,False,HARD,15.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.803,1.91,4.421,4.817,0.999,1.049,97.189
+0 days 01:27:15.249000,BOR,5,96.087,17.0,2.0,,,False,HARD,16.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.691,1.791,4.309,4.695,0.8,0.84,97.143
+0 days 01:28:51.294000,BOR,5,96.045,18.0,2.0,,,False,HARD,17.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.649,1.747,4.267,4.649,0.883,0.928,97.167
+0 days 01:30:27.385000,BOR,5,96.091,19.0,2.0,,,False,HARD,18.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.695,1.796,4.313,4.699,0.721,0.756,97.279
+0 days 01:32:03.389000,BOR,5,96.004,20.0,2.0,,,False,HARD,19.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.608,1.703,4.226,4.605,0.443,0.464,97.25800000000001
+0 days 01:33:39.743000,BOR,5,96.354,21.0,2.0,,,False,HARD,20.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.958,2.074,4.576,4.986,0.958,1.004,97.67399999999999
+0 days 01:35:16.348000,BOR,5,96.605,22.0,2.0,,,False,HARD,21.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.209,2.34,4.827,5.259,1.912,2.019,97.991
+0 days 01:36:52.962000,BOR,5,96.614,23.0,2.0,,,False,HARD,22.0,True,Kick Sauber,1,14.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.218,2.35,4.836,5.269,1.814,1.914,98.066
+0 days 01:38:29.994000,BOR,5,97.032,24.0,2.0,,,False,HARD,23.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.636,2.792,5.254,5.725,2.384,2.519,98.55
+0 days 01:40:07.365000,BOR,5,97.371,25.0,2.0,,,False,HARD,24.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.975,3.152,5.593,6.094,3.013,3.193,98.955
+0 days 01:41:44.289000,BOR,5,96.924,26.0,2.0,,,False,HARD,25.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.528,2.678,5.146,5.607,2.43,2.572,98.57400000000001
+0 days 01:43:21.046000,BOR,5,96.757,27.0,2.0,,,False,HARD,26.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.361,2.501,4.979,5.425,2.301,2.436,98.473
+0 days 01:44:56.613000,BOR,5,95.567,28.0,2.0,,,True,HARD,27.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.171,1.241,3.789,4.128,0.972,1.028,97.34899999999999
+0 days 01:46:31.730000,BOR,5,95.117,29.0,2.0,,,True,HARD,28.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.721,0.764,3.339,3.638,0.727,0.77,96.965
+0 days 01:48:06.837000,BOR,5,95.107,30.0,2.0,,,True,HARD,29.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.711,0.753,3.329,3.627,0.382,0.403,97.021
+0 days 01:49:42.391000,BOR,5,95.554,31.0,2.0,,,False,HARD,30.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.158,1.227,3.776,4.114,1.054,1.115,97.534
+0 days 01:51:17.586000,BOR,5,95.195,32.0,2.0,,,False,HARD,31.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.799,0.846,3.417,3.723,1.311,1.396,97.241
+0 days 01:52:52.605000,BOR,5,95.019,33.0,2.0,,,True,HARD,32.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.623,0.66,3.241,3.531,1.199,1.278,97.131
+0 days 01:54:27.599000,BOR,5,94.994,34.0,2.0,,,True,HARD,33.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.598,0.634,3.216,3.504,1.197,1.276,97.172
+0 days 01:56:02.347000,BOR,5,94.748,35.0,2.0,,,True,HARD,34.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.352,0.373,2.97,3.236,0.932,0.993,96.992
+0 days 01:57:37.326000,BOR,5,94.979,36.0,2.0,,,False,HARD,35.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.583,0.618,3.201,3.488,1.231,1.313,97.289
+0 days 01:59:11.929000,BOR,5,94.603,37.0,2.0,,,True,HARD,36.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.207,0.219,2.825,3.078,0.807,0.86,96.979
+0 days 02:00:46.676000,BOR,5,94.747,38.0,2.0,,,False,HARD,37.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.351,0.372,2.969,3.235,1.03,1.099,97.189
+0 days 02:02:21.123000,BOR,5,94.447,39.0,2.0,,,True,HARD,38.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.051,0.054,2.669,2.908,1.001,1.071,96.955
+0 days 02:03:55.589000,BOR,5,94.466,40.0,2.0,,,False,HARD,39.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.07,0.074,2.688,2.929,0.933,0.998,97.03999999999999
+0 days 02:05:30.479000,BOR,5,94.89,41.0,2.0,,,False,HARD,40.0,True,Kick Sauber,1,15.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.494,0.523,3.112,3.391,1.051,1.12,97.53
+0 days 02:07:07.401000,BOR,5,96.922,42.0,2.0,,,False,HARD,41.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.526,2.676,5.144,5.605,3.118,3.324,99.628
+0 days 02:08:42.756000,BOR,5,95.355,43.0,2.0,,,False,HARD,42.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.959,1.016,3.577,3.897,1.803,1.927,98.12700000000001
+0 days 02:10:17.581000,BOR,5,94.825,44.0,2.0,,,False,HARD,43.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,0.429,0.454,3.047,3.32,1.273,1.361,97.663
+0 days 02:11:53.098000,BOR,5,95.517,45.0,2.0,,,False,HARD,44.0,True,Kick Sauber,1,16.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.121,1.188,3.739,4.074,2.017,2.157,98.42099999999999
+0 days 02:13:32.082000,BOR,5,98.984,46.0,2.0,,,False,HARD,45.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,4.588,4.86,7.206,7.852,5.436,5.811,101.954
+0 days 02:15:10.426000,BOR,5,98.344,47.0,2.0,,,False,HARD,46.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,3.948,4.182,6.566,7.154,4.99,5.345,101.38
+0 days 02:16:47.556000,BOR,5,97.13,48.0,2.0,,,False,HARD,47.0,True,Kick Sauber,1,17.0,True,5,Saudi Arabian Grand Prix,True,C3,True,2.734,2.896,5.352,5.831,3.79,4.06,100.232
+0 days 02:18:23.254000,BOR,5,95.698,49.0,2.0,,,False,HARD,48.0,True,Kick Sauber,1,18.0,True,5,Saudi Arabian Grand Prix,True,C3,True,1.302,1.379,3.92,4.271,2.407,2.58,98.866
+0 days 00:59:43.086000,TSU,22,165.662,1.0,1.0,,0 days 00:59:41.846000,False,MEDIUM,1.0,True,Red Bull Racing,124,20.0,False,5,Saudi Arabian Grand Prix,True,C4,False,71.266,75.497,73.884,80.503,29.638,21.789,165.662
+0 days 00:59:00.497000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,124,,False,5,Saudi Arabian Grand Prix,True,C4,False,,,,,,,
