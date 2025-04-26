@@ -200,7 +200,12 @@ def stats_scatterplot(
 
 
 def stats_lineplot(
-    included_laps: pd.DataFrame, drivers: list[str], y: str, upper_bound: int, session: Session
+    included_laps: pd.DataFrame,
+    drivers: list[str],
+    y: str,
+    upper_bound: int,
+    session: Session,
+    starting_grid: dict[str, int],
 ) -> go.Figure:
     """Make lineplots showing a statistic."""
     # Identify SC and VSC laps before filtering for upper bound
@@ -228,15 +233,27 @@ def stats_lineplot(
                 {"color": "auto", "dash": "longdash"},
             ],
         )
-        fig.add_trace(
-            go.Scatter(
-                x=driver_laps["LapNumber"],
-                y=driver_laps[y],
-                mode="lines",
-                line=driver_line_style,
-                name=driver,
+
+        if starting_grid and y == "Position":
+            fig.add_trace(
+                go.Scatter(
+                    x=pd.concat([pd.Series([0]), driver_laps["LapNumber"]]),
+                    y=pd.concat([pd.Series([starting_grid[driver]]), driver_laps[y]]),
+                    mode="lines",
+                    line=driver_line_style,
+                    name=driver,
+                )
             )
-        )
+        else:
+            fig.add_trace(
+                go.Scatter(
+                    x=driver_laps["LapNumber"],
+                    y=driver_laps[y],
+                    mode="lines",
+                    line=driver_line_style,
+                    name=driver,
+                )
+            )
 
     fig = shade_sc_periods(fig, sc_laps, vsc_laps)
     if y == "Position" or y.startswith("Gap"):

@@ -174,13 +174,34 @@ lineplot_tab = dbc.Tab(
         dbc.CardBody(
             [
                 dbc.Row(
-                    dcc.Dropdown(
-                        options=line_y_options,
-                        value="Position",
-                        placeholder="Select the variable to put in y-axis",
-                        clearable=False,
-                        id="line-y",
-                    )
+                    [
+                        dbc.Col(
+                            dcc.Dropdown(
+                                options=line_y_options,
+                                value="Position",
+                                placeholder="Select the variable to put in y-axis",
+                                clearable=False,
+                                id="line-y",
+                            ),
+                            width=9,
+                        ),
+                        dbc.Col(
+                            dbc.Checklist(
+                                options=[
+                                    {
+                                        "label": "Show starting positions",
+                                        "value": 1,
+                                        "disabled": False,
+                                    }
+                                ],
+                                value=[],
+                                id="show-starting-grid",
+                                inline=True,
+                                switch=True,
+                            ),
+                            width=3,
+                        ),
+                    ],
                 ),
                 html.Br(),
                 dbc.Row(dcc.Loading(dcc.Graph(id="lineplot"))),

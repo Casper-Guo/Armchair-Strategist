@@ -29,7 +29,9 @@ pd.options.mode.chained_assignment = None
 # Silent Fastf1 FutureWarning regarding the use of plotting functions
 warnings.filterwarnings(action="ignore", message="Driver", category=FutureWarning)
 
-Session_info: TypeAlias = tuple[int, str, tuple[str]]
+# In order: season, round number, session name, event name, list of drivers
+# and a mapping from driver abbreviations to their starting position (when available)
+Session_info: TypeAlias = tuple[int, int, str, str, list[str], dict[str, int]]
 
 # must not be modified
 DF_DICT = load_laps()
@@ -258,21 +260,27 @@ def get_session_metadata(
     _: int,  # ignores actual value of n_clicks
     season: int,
     event: str,
-    session: str,
+    session_name: str,
     teammate_comp: bool,
 ) -> Session_info:
     """
-    Store round number, event name, and the list of drivers into browser cache.
+    Store session metadata into browser cache.
 
     Can assume that season, event, and session are all set (not None).
     """
-    round_number, event_name, drivers, _session = get_session_info(
-        season, event, session, teammate_comp=teammate_comp
+    round_number, event_name, drivers, session = get_session_info(
+        season, event, session_name, teammate_comp=teammate_comp
     )
     event_name = f"{season} {event_name}"
 
+    starting_grid = {}
+    if pd.notna(session.results["GridPosition"]).all():
+        starting_grid = dict(
+            zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True)
+        )
+
     # this order enables calling f.get_session by unpacking the first three items
-    return season, round_number, session, event_name, drivers
+    return season, round_number, session_name, event_name, drivers, starting_grid
 
 
 @callback(
@@ -410,6 +418,48 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
 
 
 @callback(
+    Output("show-starting-grid", "options"),
+    Output("show-starting-grid", "value"),
+    Input("line-y", "value"),
+    Input("session-info", "data"),
+    State("show-starting-grid", "value"),
+)
+def set_starting_grid_switch(
+    y: str, session_info: Session_info, current_setting: list | None
+) -> tuple[list[dict], list | None]:
+    """
+    Enable show starting grid switch only when y-axis is position.
+
+    Lock the switch to the off position when the data is not available.
+    """
+    if session_info is None:
+        # default configuration
+        return [
+            {
+                "label": "Show starting position",
+                "value": 1,
+                "disabled": False,
+            }
+        ], [1]
+    if not session_info[5]:
+        # The starting position is only known if session_info[5] is populated
+        return [
+            {
+                "label": "Show starting position",
+                "value": 1,
+                "disabled": True,
+            }
+        ], []
+    return [
+        {
+            "label": "Show starting position",
+            "value": 1,
+            "disabled": y != "Position",
+        }
+    ], current_setting
+
+
+@callback(
     Output("strategy-plot", "figure"),
     Input("drivers", "value"),
     State("laps", "data"),
@@ -480,6 +530,7 @@ def render_scatterplot(
     Input("line-y", "value"),
     Input("upper-bound-line", "value"),
     Input("lap-numbers-line", "value"),
+    Input("show-starting-grid", "value"),
     State("laps", "data"),
     State("session-info", "data"),
 )
@@ -488,6 +539,7 @@ def render_lineplot(
     y: str,
     upper_bound: float,
     lap_numbers: list[int],
+    starting_grid: list,
     included_laps: dict,
     session_info: Session_info,
 ) -> go.Figure:
@@ -507,7 +559,14 @@ def render_lineplot(
     ]
 
     fig = pg.stats_lineplot(
-        included_laps, drivers, y, upper_bound, f.get_session(*session_info[:3])
+        included_laps,
+        drivers,
+        y,
+        upper_bound,
+        f.get_session(*session_info[:3]),
+        # starting_grid is only non-empty when the show starting grid switch is toggled on
+        # it also already checks that the data is available and populated into session_info
+        session_info[5] if starting_grid else {},
     )
     event_name = session_info[3]
     fig.update_layout(title=event_name)
