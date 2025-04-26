@@ -828,6 +828,9 @@ def driver_stats_lineplot(
     round_number, event_name, drivers, session = get_session_info(
         season, event, session_type, drivers
     )
+    starting_grid = dict(
+        zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True)
+    )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
         (included_laps["RoundNumber"] == round_number) & (included_laps["Driver"].isin(drivers))
@@ -876,7 +879,17 @@ def driver_stats_lineplot(
             ],
         )
 
-        sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax, errorbar=None, **driver_style)
+        # stitch in driver starting position (lap zero)
+        if y == "Position" and pd.notna(starting_grid[driver]):
+            sns.lineplot(
+                x=pd.concat([pd.Series([0]), driver_laps["LapNumber"]]),
+                y=pd.concat([pd.Series([starting_grid[driver]]), driver_laps[y]]),
+                ax=ax,
+                errorbar=None,
+                **driver_style,
+            )
+        else:
+            sns.lineplot(driver_laps, x="LapNumber", y=y, ax=ax, errorbar=None, **driver_style)
         last_lap = driver_laps["LapNumber"].max()
         last_pos = driver_laps[y][driver_laps["LapNumber"] == last_lap].iloc[0]
 
