@@ -234,9 +234,11 @@ def set_session_options(
     Input("session", "value"),
     prevent_initial_call=True,
 )
-def enable_load_session(season: int | None, event: str | None, session: str | None) -> bool:
+def enable_load_session(
+    season: int | None, event: str | None, session_name: str | None
+) -> bool:
     """Toggles load session button on when the previous three fields are filled."""
-    return not (season is not None and event is not None and session is not None)
+    return not (season is not None and event is not None and session_name is not None)
 
 
 @callback(
@@ -295,14 +297,14 @@ def get_session_laps(
     _: int,  # ignores actual_value of n_clicks
     season: int,
     event: str,
-    session: str,
+    session_name: str,
 ) -> dict:
     """
     Save the laps of the selected session into browser cache.
 
     Can assume that season, event, and session are all set (not None).
     """
-    included_laps = DF_DICT[season][session]
+    included_laps = DF_DICT[season][session_name]
     included_laps = included_laps[included_laps["EventName"] == event]
     included_laps = df_convert_timedelta(included_laps)
 
