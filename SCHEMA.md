@@ -1,5 +1,7 @@
 # `all_laps_*.csv`
 
+**Caution**: Retroactive data accuracy fixes may not always be applied to `all_laps_*.csv`! Always depend on `transformed_laps_*.csv` whenever possible.
+
 - All columns provided by [Fastf1.laps](https://docs.fastf1.dev/core.html#laps)
 - **RoundNumber** (`int`): Championship round number.
 - **EventName** (`string`): Name of the Grand Prix, as provided by Fastf1 [Event Schedule](https://docs.fastf1.dev/events.html#event-schedule-data)'s `EventName` column.
