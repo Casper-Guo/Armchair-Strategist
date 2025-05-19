@@ -427,7 +427,7 @@ def _lap_filter_sc(row: pd.Series) -> bool:
     Caveats:
         Unsure if the lap after "safety car in this lap" will be included.
     """
-    return "4" in row.loc["TrackStatus"]
+    return "4" in row.loc["TrackStatus"] and row.loc["Position"] == 1
 
 
 def _lap_filter_vsc(row: pd.Series) -> bool:
@@ -440,7 +440,7 @@ def _lap_filter_vsc(row: pd.Series) -> bool:
     Track status 7 is VSC ending.
     """
     return (("6" in row.loc["TrackStatus"]) or ("7" in row.loc["TrackStatus"])) and (
-        "4" not in row.loc["TrackStatus"]
+        "4" not in row.loc["TrackStatus"] and row.loc["Position"] == 1
     )
 
 
