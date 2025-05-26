@@ -298,7 +298,10 @@ def get_session_info(
 
 
 def add_gap(
-    driver: str, df_laps: Optional[pd.DataFrame] = None, modify_global: bool = False, **kwargs
+    driver: str,
+    df_laps: Optional[pd.DataFrame] = None,
+    modify_global: bool = False,
+    **kwargs,  # noqa: ANN003
 ) -> pd.DataFrame:
     """
     Calculate the gap to a certain driver.
@@ -456,7 +459,7 @@ def find_sc_laps(df_laps: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
     return sc_laps, vsc_laps
 
 
-def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
+def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray) -> None:
     """
     Shade SC and VSC periods.
 
@@ -468,7 +471,7 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     sc_laps = np.append(sc_laps, [-1])
     vsc_laps = np.append(vsc_laps, [-1])
 
-    def plot_periods(laps, label, hatch=None):
+    def plot_periods(laps: np.ndarray, label: str, hatch: Optional[str] = None) -> None:
         start = 0
         end = 1
 
@@ -507,7 +510,7 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray):
     plot_periods(vsc_laps, "VSC", "-")
 
 
-def _deduplicate_legend_labels(ax: Axes, **kwargs):
+def _deduplicate_legend_labels(ax: Axes, **kwargs) -> None:  # noqa: ANN003
     """
     Add legend to the current plot after deduplicating labels.
 
@@ -547,12 +550,10 @@ def _convert_compound_name(
     if season == 2018:
         compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
 
-    return_vals = []
-
-    for compound in compounds:
-        return_vals.append(
-            COMPOUND_SELECTION[str(season)][str(round_number)][compound_to_index[compound]]
-        )
+    return_vals = [
+        COMPOUND_SELECTION[str(season)][str(round_number)][compound_to_index[compound]]
+        for compound in compounds
+    ]
 
     return tuple(return_vals)
 

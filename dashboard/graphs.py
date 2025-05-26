@@ -32,12 +32,12 @@ def _plot_args() -> tuple:
     )
 
 
-def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray):
+def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray) -> go.Figure:
     """Shade SC and VSC periods."""
     sc_laps = np.append(sc_laps, [-1])
     vsc_laps = np.append(vsc_laps, [-1])
 
-    def plot_periods(laps):
+    def plot_periods(laps: np.ndarray) -> None:
         start = 0
         end = 1
 

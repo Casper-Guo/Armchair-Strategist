@@ -100,7 +100,7 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
 )
 def main(
     season: int, round_number: int, grand_prix: bool, update_readme: bool, reddit_machine: bool
-):
+) -> None:
     """
     Make the suite of README visualizations for the requested event.
 

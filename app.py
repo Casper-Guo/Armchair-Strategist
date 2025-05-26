@@ -321,7 +321,9 @@ def get_session_laps(
     Input("session-info", "data"),
     prevent_initial_call=True,
 )
-def set_driver_dropdowns(session_info: Session_info):
+def set_driver_dropdowns(
+    session_info: Session_info,
+) -> tuple[list[str], list[str], bool, list[str], list[str], bool]:
     """Configure driver dropdowns."""
     drivers = session_info[4]
     return drivers, drivers, False, drivers, [], False

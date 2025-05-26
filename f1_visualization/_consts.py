@@ -30,6 +30,6 @@ RACE_QUALI_ORDINAL = 4
 GRAND_PRIX_ORDINAL = 5
 
 with open(DATA_PATH / "compound_selection.toml", "rb") as toml:
-    COMPOUND_SELECTION = tomli.load(toml)
+    COMPOUND_SELECTION: dict[str, dict[str, list[str]]] = tomli.load(toml)
 with open(DATA_PATH / "visualization_config.toml", "rb") as toml:
     VISUAL_CONFIG = tomli.load(toml)

@@ -16,7 +16,7 @@ VISUALS_PATH = ROOT_PATH / "Docs" / "visuals"
 COMMENTS_PATH = ROOT_PATH / "Comments"
 
 
-def main():
+def main() -> None:
     """Submit posts and make one comment."""
     reddit = praw.Reddit("armchair-strategist")
     r_formula1 = reddit.subreddit("formula1")
