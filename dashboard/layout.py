@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from dash import dcc, html
 
 
-def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:
+def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:  # noqa: ANN003
     """Generate generic slider for setting upper bound."""
     return dcc.Slider(
         min=100,
@@ -17,7 +17,7 @@ def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:
     )
 
 
-def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:
+def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:  # noqa: ANN003
     """Generate generic range slider for setting lap numbers."""
     return dcc.RangeSlider(
         min=1, step=1, allowCross=False, tooltip={"placement": "bottom"}, id=slider_id, **kwargs

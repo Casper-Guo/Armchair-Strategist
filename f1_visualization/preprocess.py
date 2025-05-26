@@ -33,7 +33,7 @@ class OutdatedTOMLError(Exception):  # noqa: N801
     """Raised when Data/compound_selection.toml is not up to date."""
 
 
-def load_all_data(season: int, path: Path, session_type: str):
+def load_all_data(season: int, path: Path, session_type: str) -> None:
     """
     Load all available data in a season.
 
@@ -82,7 +82,7 @@ def load_all_data(season: int, path: Path, session_type: str):
         )
 
 
-def update_data(season: int, path: Path, session_type: str):
+def update_data(season: int, path: Path, session_type: str) -> None:
     """
     Update the data for a season.
 
@@ -298,7 +298,7 @@ def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
 
 def add_compound_name(
     df_laps: pd.DataFrame,
-    season_selection: dict[str, dict[str, list[str]]],
+    season_selection: dict[str, list[str]],
     season: int,
 ) -> pd.DataFrame:
     """
@@ -324,7 +324,7 @@ def add_compound_name(
 
         return df_laps
 
-    def convert_compound_name(row):
+    def convert_compound_name(row: pd.Series) -> str:
         compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
 
         try:
@@ -377,7 +377,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     compounds_2018 = COMPOUND_SELECTION["2018"]
 
-    def convert_helper(row):
+    def convert_helper(row: pd.Series) -> str:
         index_to_compound = {0: "SOFT", 1: "MEDIUM", 2: "HARD"}
 
         try:
@@ -646,7 +646,7 @@ def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
     return rounds_completed
 
 
-def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str):
+def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> None:
     """
     Update transformed_laps if it doesn't match all_laps.
 
