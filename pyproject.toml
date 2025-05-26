@@ -59,6 +59,8 @@ select = [
     "D402",
     "D403",
     "D404",
+    # flake8-annotations
+    "ANN",
     # flake8-blind-except
     "BLE",
     # flake8-bugbear
@@ -77,6 +79,8 @@ select = [
     "LOG",
     # flake8-logging-format
     "G",
+    # flake8-pie
+    "PIE",
     # flake8-print
     "T20",
     # flake8-quotes
@@ -97,6 +101,8 @@ select = [
     "PD",
     # Numpy
     "NPY",
+    # Perflint
+    "PERF",
 ]
 
 ignore = [
