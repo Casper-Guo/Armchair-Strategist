@@ -107,20 +107,8 @@ add_gap_row = dbc.Row(
     )
 )
 
-strategy_hint = dbc.Alert(
-    [
-        html.H4("Hint", className="alert-heading"),
-        html.P("Try reloading the session if no plot is shown."),
-    ],
-    color="info",
-    dismissable=True,
-)
-
 strategy_tab = dbc.Tab(
-    dbc.Card(
-        dbc.CardBody([strategy_hint, html.Br(), dcc.Loading(dcc.Graph(id="strategy-plot"))])
-    ),
-    label="Strategy",
+    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="Strategy"
 )
 
 scatter_y_options = [
