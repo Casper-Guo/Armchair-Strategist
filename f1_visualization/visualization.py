@@ -19,7 +19,7 @@ from f1_visualization._consts import (
     SESSION_NAMES,
     VISUAL_CONFIG,
 )
-from f1_visualization._types import Axes, Figure, Session
+from f1_visualization._types import Axes, Figure, PlotArgs, Session
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -118,7 +118,7 @@ def _find_legend_order(labels: Iterable[str]) -> list[int]:
     return [old_index for _, old_index in sorted(zip(pos, old_indices, strict=True))]
 
 
-def _plot_args(season: int, absolute_compound: bool) -> tuple:
+def _plot_args(season: int, absolute_compound: bool) -> PlotArgs:
     """
     Get plotting arguments based on the season and compound type.
 
@@ -129,40 +129,37 @@ def _plot_args(season: int, absolute_compound: bool) -> tuple:
                            (C1, C2 ...) in legend
                            Else, use relative compound names
                            (SOFT, MEDIUM, HARD) in legend
-
-    Returns:
-        (hue, palette, marker, labels)
     """
     if absolute_compound:
         if season == 2018:
-            return (
+            return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["18"],
                 VISUAL_CONFIG["absolute"]["markers"]["18"],
                 VISUAL_CONFIG["absolute"]["labels"]["18"],
             )
         if season < 2023:
-            return (
+            return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["19_22"],
                 VISUAL_CONFIG["absolute"]["markers"]["19_22"],
                 VISUAL_CONFIG["absolute"]["labels"]["19_22"],
             )
         if season < 2025:
-            return (
+            return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["23_24"],
                 VISUAL_CONFIG["absolute"]["markers"]["23_24"],
                 VISUAL_CONFIG["absolute"]["labels"]["23_24"],
             )
-        return (
+        return PlotArgs(
             "CompoundName",
             VISUAL_CONFIG["absolute"]["palette"]["25_"],
             VISUAL_CONFIG["absolute"]["markers"]["25_"],
             VISUAL_CONFIG["absolute"]["labels"]["25_"],
         )
 
-    return (
+    return PlotArgs(
         "Compound",
         VISUAL_CONFIG["relative"]["palette"],
         VISUAL_CONFIG["relative"]["markers"],
@@ -752,9 +749,9 @@ def driver_stats_scatterplot(
             x="LapNumber",
             y=y,
             ax=ax,
-            hue=args[0],
-            palette=args[1],
-            hue_order=args[3],
+            hue=args.hue,
+            palette=args.palette,
+            hue_order=args.labels,
             style="FreshTyre",
             style_order=["True", "False", "Unknown"],
             markers=VISUAL_CONFIG["fresh"]["markers"],
@@ -1015,8 +1012,8 @@ def driver_stats_distplot(
             data=included_laps,
             x="Driver",
             y=y,
-            hue=args[0],
-            palette=args[1],
+            hue=args.hue,
+            palette=args.palette,
             order=drivers,
             linewidth=0,
             size=5,
@@ -1028,7 +1025,7 @@ def driver_stats_distplot(
             handles=[handles[idx] for idx in order],
             labels=[labels[idx] for idx in order],
             loc="best",
-            title=args[0],
+            title=args.hue,
             frameon=True,
             fontsize=10,
             framealpha=0.5,
@@ -1099,7 +1096,7 @@ def strategy_barplot(
                 [driver],
                 stint["StintLength"],
                 left=previous_stint_end,
-                color=args[1][stint[args[0]]],
+                color=args.palette[stint[args.hue]],
                 edgecolor="black",
                 fill=True,
                 hatch=VISUAL_CONFIG["fresh"]["hatch"][stint["FreshTyre"]],
@@ -1193,7 +1190,7 @@ def compounds_lineplot(
         ax = axs[idx]
         args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
-        medians = included_laps.groupby([args[0], x])[y].median(numeric_only=True)
+        medians = included_laps.groupby([args.hue, x])[y].median(numeric_only=True)
 
         round_number = event["RoundNumber"]
         event_name = event["EventName"]
@@ -1207,8 +1204,8 @@ def compounds_lineplot(
                     x=medians.loc[compound].index,
                     y=medians.loc[compound].values,
                     ax=ax,
-                    color=args[1][compound],
-                    marker=args[2][compound],
+                    color=args.palette[compound],
+                    marker=args.markers[compound],
                     markersize=4,
                     label=compound,
                 )
@@ -1230,7 +1227,7 @@ def compounds_lineplot(
             handles=[handles[i] for i in order],
             labels=[labels[i] for i in order],
             loc="best",
-            title=args[0],
+            title=args.hue,
             frameon=True,
             fontsize=10,
             framealpha=0.5,
@@ -1321,7 +1318,7 @@ def compounds_distplot(
         args = _plot_args(seasons[idx], absolute_compound)
         included_laps = included_laps_list[idx]
 
-        plotted_compounds = included_laps[args[0]].unique()
+        plotted_compounds = included_laps[args.hue].unique()
         event_name = event["EventName"]
         round_number = event["RoundNumber"]
 
@@ -1340,9 +1337,11 @@ def compounds_distplot(
                 )
 
         if violin_plot:
-            sns.violinplot(data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1])
+            sns.violinplot(
+                data=included_laps, x=x, y=y, ax=ax, hue=args.hue, palette=args.palette
+            )
         else:
-            sns.boxplot(data=included_laps, x=x, y=y, ax=ax, hue=args[0], palette=args[1])
+            sns.boxplot(data=included_laps, x=x, y=y, ax=ax, hue=args.hue, palette=args.palette)
 
         ax.set_ylabel(y, fontsize=12)
         xticks = ax.get_xticks()
@@ -1356,7 +1355,7 @@ def compounds_distplot(
             handles=[handles[i] for i in order],
             labels=[labels[i] for i in order],
             loc="best",
-            title=args[0],
+            title=args.hue,
             frameon=True,
             fontsize=12,
             framealpha=0.5,
