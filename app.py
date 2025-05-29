@@ -464,13 +464,27 @@ def set_starting_grid_switch(
 
 
 @callback(
+    Output("laps-data-sequencer", "children"), Input("laps", "data"), prevent_initial_call=True
+)
+def after_laps_data_callback(included_laps: dict) -> str:
+    """
+    Populate an invisible element that serves as input for other callbacks.
+
+    This serves to ensure those other callbacks are only fired after laps data is loaded.
+    """
+    # not that it matters, but this contains the column names of the laps dataframe
+    return str(included_laps.keys())
+
+
+@callback(
     Output("strategy-plot", "figure"),
     Input("drivers", "value"),
+    Input("laps-data-sequencer", "children"),  # ensure laps data has finished loading
     State("laps", "data"),
     State("session-info", "data"),
 )
 def render_strategy_plot(
-    drivers: list[str], included_laps: dict, session_info: Session_info
+    drivers: list[str], _: str, included_laps: dict, session_info: Session_info
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup
@@ -583,6 +597,7 @@ def render_lineplot(
     Input("drivers", "value"),
     Input("upper-bound-dist", "value"),
     Input("boxplot", "value"),
+    Input("laps-data-sequencer", "children"),  # ensure laps data has finished loading
     State("laps", "data"),
     State("session-info", "data"),
     State("teammate-comp", "value"),
@@ -591,6 +606,7 @@ def render_distplot(
     drivers: list[str],
     upper_bound: int,
     boxplot: bool,
+    _: str,
     included_laps: dict,
     session_info: Session_info,
     teammate_comp: bool,

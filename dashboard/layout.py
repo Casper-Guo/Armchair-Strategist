@@ -489,5 +489,7 @@ app_layout = dbc.Container(
         ),
         html.Br(),
         dbc.Row(external_links),
+        # this component exists solely to enforce callback order
+        html.Span(id="laps-data-sequencer", hidden=True),
     ]
 )
