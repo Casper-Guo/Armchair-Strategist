@@ -10,21 +10,16 @@ import tomli
 from fastf1.plotting import get_driver_color, get_driver_style
 from plotly.subplots import make_subplots
 
-from f1_visualization._types import Session
+from f1_visualization._types import PlotArgs, Session
 from f1_visualization.visualization import find_sc_laps
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:
     DASH_VISUAL_CONFIG = tomli.load(toml)
 
 
-def _plot_args() -> tuple:
-    """
-    Get plotting arguments based on the season and compound type.
-
-    Returns:
-        (hue, palette, marker, labels)
-    """
-    return (
+def _plot_args() -> PlotArgs:
+    """Get plotting arguments based on the season and compound type."""
+    return PlotArgs(
         "Compound",
         DASH_VISUAL_CONFIG["relative"]["palette"],
         DASH_VISUAL_CONFIG["relative"]["markers"],
@@ -105,7 +100,7 @@ def strategy_barplot(
                     y=[driver],
                     x=[stint["StintLength"]],
                     orientation="h",
-                    marker={"color": args[1][stint[args[0]]]},
+                    marker={"color": args.palette[stint[args.hue]]},
                     marker_pattern_shape=DASH_VISUAL_CONFIG["fresh"]["hatch"][
                         stint["FreshTyre"]
                     ],
@@ -178,7 +173,7 @@ def stats_scatterplot(
                 y=driver_laps[y],
                 mode="markers",
                 marker={
-                    "color": driver_laps[args[0]].map(args[1]),
+                    "color": driver_laps[args.hue].map(args.palette),
                     "symbol": driver_laps["FreshTyre"].map(
                         DASH_VISUAL_CONFIG["fresh"]["markers"]
                     ),
