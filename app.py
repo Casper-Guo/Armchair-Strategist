@@ -170,22 +170,22 @@ def set_season_options(_: str) -> list[int]:
     Output("last-race-round", "data"),
     Output("last-sprint-round", "data"),
     Input("season", "value"),
+    State("event", "value"),
     prevent_initial_call=True,
 )
 def set_event_options(
-    season: int | None,
+    season: int | None, old_event: str | None
 ) -> tuple[list[str], None, dict, int, int]:
     """Get the names of all events in the selected season."""
     if season is None:
         return [], None, None
-
     schedule = f.get_event_schedule(season, include_testing=False)
     last_round_numbers = get_last_available_round(season)
     schedule = schedule[schedule["RoundNumber"] <= max(last_round_numbers)]
 
     return (
         list(schedule["EventName"]),
-        None,
+        old_event if old_event in set(schedule["EventName"]) else None,
         schedule.set_index("EventName").to_dict(orient="index"),
         *last_round_numbers,
     )
@@ -195,14 +195,19 @@ def set_event_options(
     Output("session", "options"),
     Output("session", "value"),
     Input("event", "value"),
+    State("session", "value"),
     State("event-schedule", "data"),
     State("last-race-round", "data"),
     State("last-sprint-round", "data"),
     prevent_initial_call=True,
 )
 def set_session_options(
-    event: str | None, schedule: dict, last_race_round: int, last_sprint_round: int
-) -> tuple[list[dict], None]:
+    event: str | None,
+    old_session: str | None,
+    schedule: dict,
+    last_race_round: int,
+    last_sprint_round: int,
+) -> tuple[list[dict], str | None]:
     """
     Return the sessions contained in an event.
 
@@ -211,21 +216,30 @@ def set_session_options(
     """
     if event is None:
         return [], None
-
     round_number = schedule[event]["RoundNumber"]
-    return [
+    race_disabled = round_number > last_race_round
+    sprint_disabled = (schedule[event]["EventFormat"] not in SPRINT_FORMATS) or (
+        round_number > last_sprint_round
+    )
+    session_options = [
         {
             "label": "Race",
             "value": "R",
-            "disabled": round_number > last_race_round,
+            "disabled": race_disabled,
         },
         {
             "label": "Sprint",
             "value": "S",
-            "disabled": (schedule[event]["EventFormat"] not in SPRINT_FORMATS)
-            or (round_number > last_sprint_round),
+            "disabled": sprint_disabled,
         },
-    ], None
+    ]
+
+    session_value = old_session
+
+    if (old_session == "R" and race_disabled) or (old_session == "S" and sprint_disabled):
+        session_value = None
+
+    return session_options, session_value
 
 
 @callback(
