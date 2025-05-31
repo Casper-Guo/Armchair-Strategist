@@ -2,9 +2,10 @@
 
 import warnings
 from collections import Counter
+from collections.abc import Iterable
 from contextlib import suppress
 from pathlib import Path
-from typing import Iterable, TypeAlias
+from typing import TypeAlias
 
 import dash_bootstrap_components as dbc
 import fastf1 as f
@@ -105,7 +106,7 @@ def add_gap(driver: str, df_laps: pd.DataFrame) -> pd.DataFrame:
 def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     """Configure range slider based on the number of laps in a session."""
     if not data:
-        return 60, [1, 60], {i: str(i) for i in [1] + list(range(5, 61, 5))}
+        return 60, [1, 60], {i: str(i) for i in [1, *list(range(5, 61, 5))]}
 
     try:
         num_laps = max(data["LapNumber"].values())
@@ -115,7 +116,7 @@ def configure_lap_numbers_slider(data: dict) -> tuple[int, list[int], dict[int, 
         df = pd.DataFrame.from_dict(data)
         num_laps = df["LapNumber"].max()
 
-    marks = {i: str(i) for i in [1] + list(range(5, int(num_laps + 1), 5))}
+    marks = {i: str(i) for i in [1, *list(range(5, int(num_laps + 1), 5))]}
     return num_laps, [1, num_laps], marks
 
 

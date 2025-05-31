@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(m
 logger = logging.getLogger(__name__)
 
 
-class OutdatedTOMLError(Exception):  # noqa: N801
+class OutdatedTOMLError(Exception):
     """Raised when Data/compound_selection.toml is not up to date."""
 
 
@@ -63,9 +63,9 @@ def load_all_data(season: int, path: Path, session_type: str) -> None:
         try:
             session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
-        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
-            logger.error("Cannot load %s", session)
-            raise e
+        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError):
+            logger.exception("Cannot load %s", session)
+            raise
 
         laps = session.laps
         laps["RoundNumber"] = i
@@ -133,9 +133,9 @@ def update_data(season: int, path: Path, session_type: str) -> None:
         try:
             session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
-        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError) as e:
-            logger.error("Cannot load %s", session)
-            raise e
+        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError):
+            logger.exception("Cannot load %s", session)
+            raise
 
         laps = session.laps
         laps["RoundNumber"] = i
@@ -337,10 +337,8 @@ def add_compound_name(
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
             raise OutdatedTOMLError(
-                (
-                    "Compound selection record is missing for "
-                    f"{season} season round {row.loc['RoundNumber']}"
-                )
+                "Compound selection record is missing for "
+                f"{season} season round {row.loc['RoundNumber']}"
             ) from exc
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)
@@ -390,10 +388,8 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
         except KeyError as exc:
             # error handling for when compound_selection.toml is not up-to-date
             raise OutdatedTOMLError(
-                (
-                    "Compound selection record is missing for 2018 season round "
-                    f"{row.loc['RoundNumber']}"
-                )
+                "Compound selection record is missing for 2018 season round "
+                f"{row.loc['RoundNumber']}"
             ) from exc
 
     df_laps["Compound"] = df_laps.apply(convert_helper, axis=1)
@@ -629,7 +625,7 @@ def get_last_round(session_cutoff: int = GRAND_PRIX_ORDINAL) -> int:
     # Numpy might issue a deprecation warning or user warning for this conversion
     # From numpy documentation:
     #
-    # if the string contains a trailing timezone (A ‘Z’ or a timezone offset),
+    # if the string contains a trailing timezone (A 'Z' or a timezone offset),
     # the timezone will be dropped and a User Warning is given
     # Datetime64 objects should be considered to be UTC and therefore have an offset of +0000
     #

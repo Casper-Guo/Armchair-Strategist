@@ -123,11 +123,9 @@ def main(
             return
 
         overwrite_confirmation = input(
-            (
-                "WARNING:\n"
-                f"{dest} may already contain the desired visualizations.\n"
-                "Enter Y if you wish to overwrite them, otherwise, enter N: "
-            )
+            "WARNING:\n"
+            f"{dest} may already contain the desired visualizations.\n"
+            "Enter Y if you wish to overwrite them, otherwise, enter N: "
         )
         if overwrite_confirmation.upper() != "Y":
             logger.info("Overwriting permission not given, aborting.")

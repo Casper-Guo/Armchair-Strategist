@@ -40,25 +40,8 @@ indent-style = "space"
 
 [tool.ruff.lint]
 select = [
-    # Pyflakes
-    "F",
-    # pycodestyle warnings
-    "W",
-    # pycodestyle errors
-    "E",
-    # isort
-    "I",
-    # pep8-naming
-    "N",
-    # pydocstyle
-    "D1",
-    "D2",
-    "D3",
-    "D400",
-    "D401",
-    "D402",
-    "D403",
-    "D404",
+    # eradicate
+    "ERA",
     # flake8-annotations
     "ANN",
     # flake8-blind-except
@@ -67,10 +50,14 @@ select = [
     "B",
     # flake8-builtins
     "A",
+    # flake8-commas
+    "COM",
     # flake8-comprehensions
     "C4",
     # flake8-datetimez
     "DTZ",
+    # flake8-future-annotations
+    "FA",
     # flake8-implicit-str-concat
     "ISC",
     # flake8-import-conventions
@@ -89,25 +76,59 @@ select = [
     "RSE",
     # flake8-return
     "RET",
+    # flake8-self
+    "SLF",
     # flake8-simplify
     "SIM",
     # flake8-unused-arguments
     "ARG",
     # flake8-use-pathlib
     "PTH",
-    # eradicate
-    "ERA",
+    # flynt
+    "FLY",
+    # isort
+    "I",
     # pandas-vet
     "PD",
     # Numpy
     "NPY",
+    # pep8-naming
+    "N",
     # Perflint
     "PERF",
+    # pycodestyle errors
+    "E",
+    # pycodestyle warnings
+    "W",
+    # pydocstyle
+    "D1",
+    "D2",
+    "D3",
+    "D400",
+    "D401",
+    "D402",
+    "D403",
+    "D404",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # refurb
+    "FURB",
+    # ruff
+    "RUF",
+    # tryceratops
+    "TRY",
 ]
 
 ignore = [
+    "COM812", # compliance with previous style
+    "ISC001", # conflict with formatter
+    "PTH123", # all open calls already uses Pathlib for file handling
+    "PD901",  # df is a perfectly fine variable name
     "D203",   # conflict with preferred D211 (No blank lines allowed before class docstring)
     "D212",   # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
-    "PD901",  # df is a perfectly fine variable name
-    "PTH123", # all open calls already uses Pathlib for file handling
+    "UP015",  # explicit is better than implicit
+    "UP038",  # deprecated
+    "TRY003", # too nitpicky
 ]

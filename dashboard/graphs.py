@@ -146,7 +146,7 @@ def stats_scatterplot(
         included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
 
     num_row = ceil(len(drivers) / 4)
-    num_col = len(drivers) if len(drivers) < 4 else 4
+    num_col = min(4, len(drivers))
     fig = make_subplots(
         rows=num_row,
         cols=num_col,
@@ -270,7 +270,7 @@ def stats_lineplot(
     )
 
     if y == "Position":
-        fig.update_yaxes(tickmode="array", tickvals=[1] + list(range(5, 21, 5)))
+        fig.update_yaxes(tickmode="array", tickvals=[1, *list(range(5, 21, 5))])
     return fig
 
 
