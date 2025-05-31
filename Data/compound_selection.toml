@@ -189,7 +189,7 @@
 
 [2025]
 # Source
-# https://press.pirelli.com/from-monaco-to-montreal-all-the-compounds-in-play/
+# https://press.pirelli.com/both-new-and-familiar-for-spielberg-to-budapest/
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
 3  = ["C1","C2","C3"]
@@ -200,3 +200,7 @@
 8  = ["C4","C5","C6"]
 9  = ["C1","C2","C3"]
 10 = ["C4","C5","C6"]
+11 = ["C3","C4","C5"]
+12 = ["C2","C3","C4"]
+13 = ["C1","C3","C4"]
+14 = ["C3","C4","C5"]
