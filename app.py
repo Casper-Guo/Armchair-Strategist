@@ -185,7 +185,7 @@ def set_event_options(
 
     return (
         list(schedule["EventName"]),
-        old_event if old_event in list(schedule["EventName"]) else None,
+        old_event if old_event in set(schedule["EventName"]) else None,
         schedule.set_index("EventName").to_dict(orient="index"),
         *last_round_numbers,
     )
