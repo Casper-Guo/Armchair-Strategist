@@ -74,37 +74,33 @@ session_picker_row = dbc.Row(
 )
 
 add_gap_row = dbc.Row(
-    dbc.Card(
-        [
-            dbc.CardHeader("Calculate gaps between drivers"),
-            dbc.CardBody(
-                [
-                    dbc.Row(
-                        dcc.Dropdown(
-                            options=[],
-                            value=[],
-                            placeholder="Select drivers",
-                            disabled=True,
-                            multi=True,
-                            id="gap-drivers",
-                        )
-                    ),
-                    html.Br(),
-                    dbc.Row(
-                        dbc.Col(
-                            dbc.Button(
-                                "Add Gap",
-                                color="success",
-                                disabled=True,
-                                n_clicks=0,
-                                id="add-gap",
-                            ),
-                        )
-                    ),
-                ]
+    dbc.Card([
+        dbc.CardHeader("Calculate gaps between drivers"),
+        dbc.CardBody([
+            dbc.Row(
+                dcc.Dropdown(
+                    options=[],
+                    value=[],
+                    placeholder="Select drivers",
+                    disabled=True,
+                    multi=True,
+                    id="gap-drivers",
+                )
             ),
-        ]
-    )
+            html.Br(),
+            dbc.Row(
+                dbc.Col(
+                    dbc.Button(
+                        "Add Gap",
+                        color="success",
+                        disabled=True,
+                        n_clicks=0,
+                        id="add-gap",
+                    ),
+                )
+            ),
+        ]),
+    ])
 )
 
 strategy_tab = dbc.Tab(
@@ -130,77 +126,73 @@ scatter_y_options = [
 
 scatterplot_tab = dbc.Tab(
     dbc.Card(
-        dbc.CardBody(
-            [
-                dbc.Row(
-                    dcc.Dropdown(
-                        options=scatter_y_options,
-                        value="LapTime",
-                        placeholder="Select the variable to put in y-axis",
-                        clearable=False,
-                        id="scatter-y",
-                    )
-                ),
-                html.Br(),
-                dbc.Row(dcc.Loading(dcc.Graph(id="scatterplot"))),
-                html.Br(),
-                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
-                dbc.Row(upper_bound_slider(slider_id="upper-bound-scatter")),
-                html.Br(),
-                html.P("Select the range of lap numbers to include:"),
-                dbc.Row(lap_numbers_slider(slider_id="lap-numbers-scatter")),
-            ]
-        )
+        dbc.CardBody([
+            dbc.Row(
+                dcc.Dropdown(
+                    options=scatter_y_options,
+                    value="LapTime",
+                    placeholder="Select the variable to put in y-axis",
+                    clearable=False,
+                    id="scatter-y",
+                )
+            ),
+            html.Br(),
+            dbc.Row(dcc.Loading(dcc.Graph(id="scatterplot"))),
+            html.Br(),
+            html.P("Filter out slow laps (default is 107% of the fastest lap):"),
+            dbc.Row(upper_bound_slider(slider_id="upper-bound-scatter")),
+            html.Br(),
+            html.P("Select the range of lap numbers to include:"),
+            dbc.Row(lap_numbers_slider(slider_id="lap-numbers-scatter")),
+        ])
     ),
     label="Stats Scatterplot",
 )
 
-line_y_options = [{"label": "Position", "value": "Position"}] + scatter_y_options
+line_y_options = [{"label": "Position", "value": "Position"}, *scatter_y_options]
 
 lineplot_tab = dbc.Tab(
     dbc.Card(
-        dbc.CardBody(
-            [
-                dbc.Row(
-                    [
-                        dbc.Col(
-                            dcc.Dropdown(
-                                options=line_y_options,
-                                value="Position",
-                                placeholder="Select the variable to put in y-axis",
-                                clearable=False,
-                                id="line-y",
-                            ),
-                            width=9,
+        dbc.CardBody([
+            dbc.Row(
+                [
+                    dbc.Col(
+                        dcc.Dropdown(
+                            options=line_y_options,
+                            value="Position",
+                            placeholder="Select the variable to put in y-axis",
+                            clearable=False,
+                            id="line-y",
                         ),
-                        dbc.Col(
-                            dbc.Checklist(
-                                options=[
-                                    {
-                                        "label": "Show starting positions",
-                                        "value": 1,
-                                        "disabled": False,
-                                    }
-                                ],
-                                value=[],
-                                id="show-starting-grid",
-                                inline=True,
-                                switch=True,
-                            ),
-                            width=3,
+                        width=9,
+                    ),
+                    dbc.Col(
+                        dbc.Checklist(
+                            options=[
+                                {
+                                    "label": "Show starting positions",
+                                    "value": 1,
+                                    "disabled": False,
+                                }
+                            ],
+                            value=[],
+                            id="show-starting-grid",
+                            inline=True,
+                            switch=True,
                         ),
-                    ],
-                ),
-                html.Br(),
-                dbc.Row(dcc.Loading(dcc.Graph(id="lineplot"))),
-                html.Br(),
-                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
-                dbc.Row(upper_bound_slider(slider_id="upper-bound-line")),
-                html.Br(),
-                html.P("Select the range of lap numbers to include:"),
-                dbc.Row(lap_numbers_slider(slider_id="lap-numbers-line")),
-            ]
-        )
+                        width=3,
+                    ),
+                ],
+            ),
+            html.Br(),
+            dbc.Row(dcc.Loading(dcc.Graph(id="lineplot"))),
+            html.Br(),
+            html.P("Filter out slow laps (default is 107% of the fastest lap):"),
+            dbc.Row(upper_bound_slider(slider_id="upper-bound-line")),
+            html.Br(),
+            html.P("Select the range of lap numbers to include:"),
+            dbc.Row(lap_numbers_slider(slider_id="lap-numbers-line")),
+        ])
     ),
     label="Stats Lineplot",
 )
@@ -209,10 +201,8 @@ distplot_caveat = dbc.Alert(
     [
         html.H4("Caveats", className="alert-heading"),
         html.P(
-            (
-                "Only drivers who have completed more than 5 laps are shown. "
-                "Try adjusting the slow lap filter if no plot is shown."
-            )
+            "Only drivers who have completed more than 5 laps are shown. "
+            "Try adjusting the slow lap filter if no plot is shown."
         ),
     ],
     color="info",
@@ -221,28 +211,26 @@ distplot_caveat = dbc.Alert(
 
 distplot_tab = dbc.Tab(
     dbc.Card(
-        dbc.CardBody(
-            [
-                distplot_caveat,
-                html.Br(),
-                dbc.Row(
-                    dcc.Dropdown(
-                        options=[
-                            {"label": " Show boxplot", "value": True},
-                            {"label": " Show violin plot", "value": False},
-                        ],
-                        value=True,
-                        clearable=False,
-                        id="boxplot",
-                    )
-                ),
-                html.Br(),
-                dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
-                html.Br(),
-                html.P("Filter out slow laps (default is 107% of the fastest lap):"),
-                dbc.Row(upper_bound_slider(slider_id="upper-bound-dist")),
-            ]
-        )
+        dbc.CardBody([
+            distplot_caveat,
+            html.Br(),
+            dbc.Row(
+                dcc.Dropdown(
+                    options=[
+                        {"label": " Show boxplot", "value": True},
+                        {"label": " Show violin plot", "value": False},
+                    ],
+                    value=True,
+                    clearable=False,
+                    id="boxplot",
+                )
+            ),
+            html.Br(),
+            dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
+            html.Br(),
+            html.P("Filter out slow laps (default is 107% of the fastest lap):"),
+            dbc.Row(upper_bound_slider(slider_id="upper-bound-dist")),
+        ])
     ),
     label="Lap Time Distribution Plot",
 )
@@ -296,42 +284,40 @@ compound_plot_caveats = dbc.Alert(
 
 compound_plot_tab = dbc.Tab(
     dbc.Card(
-        dbc.CardBody(
-            [
-                compound_plot_explanation,
-                compound_plot_caveats,
-                html.Br(),
-                dbc.Row(
-                    dbc.Col(
-                        dcc.Dropdown(
-                            options=[
-                                {"label": "Show delta as seconds", "value": True},
-                                {"label": "Show delta as percentages", "value": False},
-                            ],
-                            value=True,
-                            clearable=False,
-                            placeholder="Select a unit",
-                            id="compound-unit",
-                        )
+        dbc.CardBody([
+            compound_plot_explanation,
+            compound_plot_caveats,
+            html.Br(),
+            dbc.Row(
+                dbc.Col(
+                    dcc.Dropdown(
+                        options=[
+                            {"label": "Show delta as seconds", "value": True},
+                            {"label": "Show delta as percentages", "value": False},
+                        ],
+                        value=True,
+                        clearable=False,
+                        placeholder="Select a unit",
+                        id="compound-unit",
                     )
-                ),
-                html.Br(),
-                dbc.Row(
-                    dcc.Loading(
-                        dcc.Dropdown(
-                            options=[],
-                            value=[],
-                            placeholder="Select compounds",
-                            disabled=True,
-                            multi=True,
-                            id="compounds",
-                        )
+                )
+            ),
+            html.Br(),
+            dbc.Row(
+                dcc.Loading(
+                    dcc.Dropdown(
+                        options=[],
+                        value=[],
+                        placeholder="Select compounds",
+                        disabled=True,
+                        multi=True,
+                        id="compounds",
                     )
-                ),
-                html.Br(),
-                dbc.Row(dcc.Loading(dcc.Graph(id="compound-plot"))),
-            ]
-        )
+                )
+            ),
+            html.Br(),
+            dbc.Row(dcc.Loading(dcc.Graph(id="compound-plot"))),
+        ])
     ),
     label="Compound Performance Plot",
 )
@@ -376,41 +362,39 @@ compound_color_scheme_card = dbc.Card(
     ],
 )
 
-fresh_used_scheme_card = dbc.Card(
-    [
-        dbc.Accordion(
-            [
-                dbc.AccordionItem(
-                    dbc.Progress(
-                        value=100,
-                        color="warning",
-                        style={"height": "40px"},
-                    ),
-                    title="Fresh Tyre Bar",
+fresh_used_scheme_card = dbc.Card([
+    dbc.Accordion(
+        [
+            dbc.AccordionItem(
+                dbc.Progress(
+                    value=100,
+                    color="warning",
+                    style={"height": "40px"},
                 ),
-                dbc.AccordionItem(
-                    html.P("⚫", style={"textAlign": "center"}),
-                    title="Fresh Tyre Marker",
+                title="Fresh Tyre Bar",
+            ),
+            dbc.AccordionItem(
+                html.P("⚫", style={"textAlign": "center"}),
+                title="Fresh Tyre Marker",
+            ),
+            dbc.AccordionItem(
+                dbc.Progress(
+                    value=100,
+                    color="warning",
+                    striped=True,
+                    style={"height": "40px"},
                 ),
-                dbc.AccordionItem(
-                    dbc.Progress(
-                        value=100,
-                        color="warning",
-                        striped=True,
-                        style={"height": "40px"},
-                    ),
-                    title="Used Tyre Bar (Striped)",
-                ),
-                dbc.AccordionItem(
-                    html.P(html.B("X"), style={"textAlign": "center"}),
-                    title="Used Tyre Marker",
-                ),
-            ],
-            start_collapsed=True,
-            always_open=True,
-        ),
-    ]
-)
+                title="Used Tyre Bar (Striped)",
+            ),
+            dbc.AccordionItem(
+                html.P(html.B("X"), style={"textAlign": "center"}),
+                title="Used Tyre Marker",
+            ),
+        ],
+        start_collapsed=True,
+        always_open=True,
+    ),
+])
 
 legends_tab = dbc.Tab(
     [compound_color_scheme_card, html.Br(), fresh_used_scheme_card],
@@ -440,44 +424,40 @@ external_links = dbc.Alert(
     color="info",
 )
 
-app_layout = dbc.Container(
-    [
-        html.H1("Armchair Strategist"),
-        session_picker_row,
-        dcc.Store(id="event-schedule"),
-        dcc.Store(id="session-info"),
-        dcc.Store(id="last-race-round"),
-        dcc.Store(id="last-sprint-round"),
-        dcc.Store(id="laps"),
-        html.Br(),
-        dbc.Row(
-            dcc.Loading(
-                dcc.Dropdown(
-                    options=[],
-                    value=[],
-                    placeholder="Select drivers",
-                    disabled=True,
-                    multi=True,
-                    id="drivers",
-                )
+app_layout = dbc.Container([
+    html.H1("Armchair Strategist"),
+    session_picker_row,
+    dcc.Store(id="event-schedule"),
+    dcc.Store(id="session-info"),
+    dcc.Store(id="last-race-round"),
+    dcc.Store(id="last-sprint-round"),
+    dcc.Store(id="laps"),
+    html.Br(),
+    dbc.Row(
+        dcc.Loading(
+            dcc.Dropdown(
+                options=[],
+                value=[],
+                placeholder="Select drivers",
+                disabled=True,
+                multi=True,
+                id="drivers",
             )
-        ),
-        html.Br(),
-        add_gap_row,
-        html.Br(),
-        dbc.Tabs(
-            [
-                strategy_tab,
-                scatterplot_tab,
-                lineplot_tab,
-                distplot_tab,
-                compound_plot_tab,
-                legends_tab,
-            ]
-        ),
-        html.Br(),
-        dbc.Row(external_links),
-        # this component exists solely to enforce callback order
-        html.Span(id="laps-data-sequencer", hidden=True),
-    ]
-)
+        )
+    ),
+    html.Br(),
+    add_gap_row,
+    html.Br(),
+    dbc.Tabs([
+        strategy_tab,
+        scatterplot_tab,
+        lineplot_tab,
+        distplot_tab,
+        compound_plot_tab,
+        legends_tab,
+    ]),
+    html.Br(),
+    dbc.Row(external_links),
+    # this component exists solely to enforce callback order
+    html.Span(id="laps-data-sequencer", hidden=True),
+])

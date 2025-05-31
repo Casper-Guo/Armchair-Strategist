@@ -1,9 +1,10 @@
 """Plotting functions and other visualization helpers."""
 
 import logging
+from collections.abc import Iterable
 from functools import lru_cache
 from math import ceil
-from typing import Iterable, Literal, Optional
+from typing import Literal
 
 import fastf1 as f
 import fastf1.plotting as p
@@ -169,7 +170,7 @@ def _plot_args(season: int, absolute_compound: bool) -> PlotArgs:
 
 def get_drivers(
     session: Session,
-    drivers: Optional[Iterable[str | int] | str | int] = None,
+    drivers: Iterable[str | int] | str | int | None = None,
     by: str = "Position",
 ) -> list[str]:
     """
@@ -252,7 +253,7 @@ def get_session_info(
     season: int,
     event: int | str,
     session_type: str,
-    drivers: Optional[tuple[str | int] | str | int] = None,
+    drivers: tuple[str | int] | str | int | None = None,
     teammate_comp: bool = False,
 ) -> tuple[int, str, tuple[str], Session]:
     """
@@ -296,7 +297,7 @@ def get_session_info(
 
 def add_gap(
     driver: str,
-    df_laps: Optional[pd.DataFrame] = None,
+    df_laps: pd.DataFrame | None = None,
     modify_global: bool = False,
     **kwargs,  # noqa: ANN003
 ) -> pd.DataFrame:
@@ -316,14 +317,14 @@ def add_gap(
     Returns:
         Modified dataframe with the gap column under the name GapTo{driver}
     """
-    assert not (not modify_global and df_laps is None), (
-        "df_laps must be provided if not editing in-place."  # noqa: ISC001
-    )
+    assert not (
+        not modify_global and df_laps is None
+    ), "df_laps must be provided if not editing in-place."
 
     if modify_global:
-        assert "season" in kwargs and "session_type" in kwargs, (
-            "Setting modify_global=True requires specifying season and session_type."  # noqa: ISC001
-        )
+        assert (
+            "season" in kwargs and "session_type" in kwargs
+        ), "Setting modify_global=True requires specifying season and session_type."
         season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
 
@@ -468,7 +469,7 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray) -> None:
     sc_laps = np.append(sc_laps, [-1])
     vsc_laps = np.append(vsc_laps, [-1])
 
-    def plot_periods(laps: np.ndarray, label: str, hatch: Optional[str] = None) -> None:
+    def plot_periods(laps: np.ndarray, label: str, hatch: str | None = None) -> None:
         start = 0
         end = 1
 
@@ -606,9 +607,9 @@ def _process_input(
     if isinstance(session_types, str):
         session_types = [session_types]
 
-    assert len(seasons) == len(events) == len(session_types), (
-        f"Arguments {seasons}, {events}, {session_types} have different lengths."  # noqa: ISC001
-    )
+    assert (
+        len(seasons) == len(events) == len(session_types)
+    ), f"Arguments {seasons}, {events}, {session_types} have different lengths."
 
     # Combine seasons and events and get FastF1 event objects
     event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
@@ -639,12 +640,12 @@ def driver_stats_scatterplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Optional[Iterable[str | int] | str | int] = None,
+    drivers: Iterable[str | int] | str | int | None = None,
     y: str = "LapTime",
     upper_bound: int | float = 10,
     absolute_compound: bool = False,
     teammate_comp: bool = False,
-    lap_numbers: Optional[list[int]] = None,
+    lap_numbers: list[int] | None = None,
 ) -> Figure:
     """
     Visualize driver data during a race as a scatterplot.
@@ -708,7 +709,7 @@ def driver_stats_scatterplot(
 
     max_width = 4 if teammate_comp else 5
     num_row = ceil(len(drivers) / max_width)
-    num_col = len(drivers) if len(drivers) < max_width else max_width
+    num_col = min(max_width, len(drivers))
     fig, axs = plt.subplots(
         nrows=num_row,
         ncols=num_col,
@@ -782,11 +783,11 @@ def driver_stats_lineplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Optional[Iterable[str | int] | str | int] = None,
+    drivers: Iterable[str | int] | str | int | None = None,
     y: str = "Position",
-    upper_bound: Optional[int | float] = None,
-    grid: Optional[Literal["both", "x", "y"]] = None,
-    lap_numbers: Optional[list[int]] = None,
+    upper_bound: int | float | None = None,
+    grid: Literal["both", "x", "y"] | None = None,
+    lap_numbers: list[int] | None = None,
 ) -> Figure:
     """
     Visualize driver data during a race as a lineplot.
@@ -917,7 +918,7 @@ def driver_stats_distplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Optional[Iterable[str | int] | str | int] = None,
+    drivers: Iterable[str | int] | str | int | None = None,
     y: str = "LapTime",
     upper_bound: float | int = 10,
     swarm: bool = True,
@@ -1042,7 +1043,7 @@ def strategy_barplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Optional[Iterable[str] | int] = None,
+    drivers: Iterable[str] | int | None = None,
     absolute_compound: bool = False,
 ) -> Figure:
     """
@@ -1126,7 +1127,7 @@ def strategy_barplot(
 def compounds_lineplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
-    session_types: Optional[str | Iterable[str]] = None,
+    session_types: str | Iterable[str] | None = None,
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     x: str = "TyreLife",
@@ -1210,14 +1211,12 @@ def compounds_lineplot(
                     label=compound,
                 )
             else:
-                logger.warning(
-                    (
-                        "%s is not plotted for %s %s because there is not enough data",
-                        compounds[idx],
-                        seasons[idx],
-                        event_name,
-                    )
-                )
+                logger.warning((
+                    "%s is not plotted for %s %s because there is not enough data",
+                    compounds[idx],
+                    seasons[idx],
+                    event_name,
+                ))
 
         ax.set_ylabel(y, fontsize=12)
 
@@ -1248,7 +1247,7 @@ def compounds_lineplot(
 def compounds_distplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
-    session_types: Optional[str | Iterable[str]] = None,
+    session_types: str | Iterable[str] | None = None,
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     violin_plot: bool = False,
@@ -1327,14 +1326,12 @@ def compounds_distplot(
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
-                logger.warning(
-                    (
-                        "%s is not plotted for %s %s because there is not enough data",
-                        compounds[idx],
-                        seasons[idx],
-                        event_name,
-                    )
-                )
+                logger.warning((
+                    "%s is not plotted for %s %s because there is not enough data",
+                    compounds[idx],
+                    seasons[idx],
+                    event_name,
+                ))
 
         if violin_plot:
             sns.violinplot(

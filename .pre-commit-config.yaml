@@ -10,5 +10,7 @@ repos:
     hooks:
         # Run the linter.
         - id: ruff
+          args: ["--preview"]
         # Run the formatter.
         - id: ruff-format
+          args: ["--preview"]
