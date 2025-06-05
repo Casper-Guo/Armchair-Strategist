@@ -111,6 +111,8 @@ select = [
     "D404",
     # Pyflakes
     "F",
+    # Pylint
+    "PL",
     # pyupgrade
     "UP",
     # refurb
@@ -122,13 +124,15 @@ select = [
 ]
 
 ignore = [
-    "COM812", # compliance with previous style
-    "ISC001", # conflict with formatter
-    "PTH123", # all open calls already uses Pathlib for file handling
-    "PD901",  # df is a perfectly fine variable name
-    "D203",   # conflict with preferred D211 (No blank lines allowed before class docstring)
-    "D212",   # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
-    "UP015",  # explicit is better than implicit
-    "UP038",  # deprecated
-    "TRY003", # too nitpicky
+    "COM812",  # compliance with previous style
+    "ISC001",  # conflict with formatter
+    "PTH123",  # all open calls already uses Pathlib for file handling
+    "PD901",   # df is a perfectly fine variable name
+    "D203",    # conflict with preferred D211 (No blank lines allowed before class docstring)
+    "D212",    # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
+    "PLR0913", # function too many arguments
+    "PLR0915", # function too many statements
+    "UP015",   # explicit is better than implicit
+    "UP038",   # deprecated
+    "TRY003",  # too nitpicky
 ]

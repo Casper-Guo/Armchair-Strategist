@@ -43,7 +43,7 @@ warnings.filterwarnings("ignore")
 
 def process_round_number(season: int, round_number: int, grand_prix: bool) -> int:
     """Get the last available round number of the requested session type in a season."""
-    if season > CURRENT_SEASON or season < 2018:
+    if season > CURRENT_SEASON or season < 2018:  # noqa: PLR2004
         raise ValueError(f"Only seasons between 2018 and {CURRENT_SEASON} are available.")
     if round_number < 1 and round_number != -1:
         raise ValueError("Round number must be positive.")

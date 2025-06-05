@@ -132,21 +132,21 @@ def _plot_args(season: int, absolute_compound: bool) -> PlotArgs:
                            (SOFT, MEDIUM, HARD) in legend
     """
     if absolute_compound:
-        if season == 2018:
+        if season == 2018:  # noqa: PLR2004
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["18"],
                 VISUAL_CONFIG["absolute"]["markers"]["18"],
                 VISUAL_CONFIG["absolute"]["labels"]["18"],
             )
-        if season < 2023:
+        if season < 2023:  # noqa: PLR2004
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["19_22"],
                 VISUAL_CONFIG["absolute"]["markers"]["19_22"],
                 VISUAL_CONFIG["absolute"]["labels"]["19_22"],
             )
-        if season < 2025:
+        if season < 2025:  # noqa: PLR2004
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["23_24"],
@@ -214,8 +214,9 @@ def get_drivers(
     ret = []
     for driver in drivers:
         if isinstance(driver, (int, float)):
-            driver = str(int(driver))
-        ret.append(session.get_driver(driver)["Abbreviation"])
+            ret.append(session.get_driver(str(int(driver)))["Abbreviation"])
+        else:
+            ret.append(session.get_driver(driver)["Abbreviation"])
 
     return ret
 
@@ -545,7 +546,7 @@ def _convert_compound_name(
         ) = ["C1", "C3"]
     """
     compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
-    if season == 2018:
+    if season == 2018:  # noqa: PLR2004
         compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
 
     return_vals = [
@@ -629,7 +630,7 @@ def _process_input(
         # The high outlier values are filtered by upper_bound
         # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
         if y in {"PctFromLapRep", "DeltaToLapRep"}:
-            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]
+            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
 
         included_laps_list.append(df_laps)
 
@@ -728,7 +729,7 @@ def driver_stats_scatterplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
 
     for index, driver in enumerate(drivers):
         row, col = divmod(index, max_width)
@@ -742,7 +743,7 @@ def driver_stats_scatterplot(
         # filter out laps that doesn't meet the upper_bound
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
-        if driver_laps.shape[0] < 5:
+        if driver_laps.shape[0] < 5:  # noqa: PLR2004
             logger.warning("%s HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT", driver)
 
         sns.scatterplot(
