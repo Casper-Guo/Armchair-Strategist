@@ -143,7 +143,7 @@ def stats_scatterplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
 
     num_row = ceil(len(drivers) / 4)
     num_col = min(4, len(drivers))
@@ -216,7 +216,7 @@ def stats_lineplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
 
     for _, driver in enumerate(reversed(drivers)):
         driver_laps = included_laps[(included_laps["Driver"] == driver)]
@@ -334,7 +334,7 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
         # clip tyre life range to where there are at least three records
         # if a driver does a very long stint, not all of it will be plotted
         tyre_life_range = compound_laps.groupby("TyreLife").size()
-        tyre_life_range = tyre_life_range[tyre_life_range >= 3].index
+        tyre_life_range = tyre_life_range[tyre_life_range >= 3].index  # noqa: PLR2004
 
         # use the max instead of the length because tyre life range is
         # not guaranteed to start at 0
