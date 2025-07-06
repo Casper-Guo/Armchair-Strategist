@@ -178,7 +178,7 @@ def set_event_options(
 ) -> tuple[list[str], None, dict, int, int]:
     """Get the names of all events in the selected season."""
     if season is None:
-        return [], None, None
+        return [], None, {}, 0, 0
     schedule = f.get_event_schedule(season, include_testing=False)
     last_round_numbers = get_last_available_round(season)
     schedule = schedule[schedule["RoundNumber"] <= max(last_round_numbers)]
