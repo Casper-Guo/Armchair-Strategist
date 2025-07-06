@@ -130,9 +130,13 @@ ignore = [
     "PD901",   # df is a perfectly fine variable name
     "D203",    # conflict with preferred D211 (No blank lines allowed before class docstring)
     "D212",    # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
+    "PLR0912", # function too many branches
     "PLR0913", # function too many arguments
+    "PLR0914", # function too many local variables
     "PLR0915", # function too many statements
+    "PLR0917", # function too many positional arguments
     "UP015",   # explicit is better than implicit
     "UP038",   # deprecated
+    "FURB101", # Nothing wrong with using open and read
     "TRY003",  # too nitpicky
 ]
