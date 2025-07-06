@@ -204,7 +204,6 @@ def main(
         event=round_number,
         session_type=session_type,
         teammate_comp=True,
-        upper_bound=7,
     )
     plt.tight_layout()
     plt.savefig(dest / "teammate_violin.png")
@@ -214,7 +213,6 @@ def main(
         season=season,
         event=round_number,
         session_type=session_type,
-        upper_bound=7,
     )
     plt.tight_layout()
     plt.savefig(dest / "driver_pace.png")
