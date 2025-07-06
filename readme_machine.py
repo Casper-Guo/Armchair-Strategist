@@ -14,7 +14,7 @@ import pandas as pd
 import seaborn as sns
 
 import f1_visualization.visualization as viz
-from f1_visualization._consts import (
+from f1_visualization.consts import (
     CURRENT_SEASON,
     GRAND_PRIX_ORDINAL,
     NUM_ROUNDS,

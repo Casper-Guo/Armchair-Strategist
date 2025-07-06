@@ -1,3 +1,5 @@
+"""Shared variables for f1_visualization module."""
+
 from datetime import datetime
 from pathlib import Path
 

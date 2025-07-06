@@ -6,7 +6,7 @@ import time
 
 import praw
 
-from f1_visualization._consts import ROOT_PATH
+from f1_visualization.consts import ROOT_PATH
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)

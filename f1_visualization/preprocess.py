@@ -12,7 +12,7 @@ from fastf1.core import InvalidSessionError, NoLapDataError
 from fastf1.ergast.interface import ErgastError
 from fastf1.req import RateLimitExceededError
 
-from f1_visualization._consts import (
+from f1_visualization.consts import (
     COMPOUND_SELECTION,
     CURRENT_SEASON,
     DATA_PATH,
@@ -233,7 +233,7 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
             2022: {R: {"all": df, "transformed": df}}
         }
     """
-    df_dict = defaultdict(lambda: defaultdict(lambda: defaultdict()))
+    df_dict = defaultdict(lambda: defaultdict(defaultdict))
 
     for file in DATA_PATH.glob("**/*.csv"):
         season, session, data_type = parse_csv_path(file)

@@ -16,7 +16,7 @@ from plotly import graph_objects as go
 
 import dashboard.graphs as pg
 from dashboard.layout import app_layout, line_y_options, scatter_y_options
-from f1_visualization._consts import SPRINT_FORMATS
+from f1_visualization.consts import SPRINT_FORMATS
 from f1_visualization.visualization import (
     get_session_info,
     load_laps,

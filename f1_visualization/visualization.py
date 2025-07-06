@@ -14,13 +14,13 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib import rcParams
 
-from f1_visualization._consts import (
+from f1_visualization._types import Axes, Figure, PlotArgs, Session  # noqa: PLC2701
+from f1_visualization.consts import (
     COMPOUND_SELECTION,
     DATA_PATH,
     SESSION_NAMES,
     VISUAL_CONFIG,
 )
-from f1_visualization._types import Axes, Figure, PlotArgs, Session
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -906,7 +906,7 @@ def driver_stats_lineplot(
     _shade_sc_periods(sc_laps, vsc_laps)
     _deduplicate_legend_labels(ax, loc="lower right", fontsize=10)
 
-    if grid in ("both", "x", "y"):
+    if grid in ("both", "x", "y"):  # noqa: PLR6201
         plt.grid(visible=True, which="major", axis=grid)
     else:
         plt.grid(visible=False)
