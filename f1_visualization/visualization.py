@@ -506,7 +506,7 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray) -> None:
                 end += 1
 
     plot_periods(sc_laps, "SC")
-    plot_periods(vsc_laps, "VSC", "-")
+    plot_periods(vsc_laps, "VSC", "xx")
 
 
 def _deduplicate_legend_labels(ax: Axes, **kwargs) -> None:  # noqa: ANN003
