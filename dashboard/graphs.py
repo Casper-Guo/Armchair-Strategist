@@ -10,7 +10,7 @@ import tomli
 from fastf1.plotting import get_driver_color, get_driver_style
 from plotly.subplots import make_subplots
 
-from f1_visualization._types import PlotArgs, Session
+from f1_visualization.annotations import PlotArgs, Session
 from f1_visualization.visualization import find_sc_laps
 
 with open(Path(__file__).absolute().parent / "visualization_config.toml", "rb") as toml:

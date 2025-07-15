@@ -1,3 +1,5 @@
+"""Shared type annotations."""
+
 from typing import NamedTuple, TypeAlias
 
 import fastf1
