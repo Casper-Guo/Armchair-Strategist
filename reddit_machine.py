@@ -30,7 +30,7 @@ def main() -> None:
         flair for flair in f1technical_flairs if "Strategy" in flair["flair_text"]
     )["flair_template_id"]
 
-    with open(ROOT_PATH / "tmp" / "event_name.txt", "r") as fin:
+    with open(ROOT_PATH / "tmp" / "event_name.txt", "r", encoding="utf-8") as fin:
         event_name = fin.read().strip()
 
     dashboard_link = "Check out more at armchair-strategist.dev!"
@@ -80,7 +80,7 @@ def main() -> None:
         images=images,
         flair_id=formula1_flair_id,
     )
-    with open(COMMENTS_PATH / "formula1_comment.md", "r") as fin:
+    with open(COMMENTS_PATH / "formula1_comment.md", "r", encoding="utf-8") as fin:
         formula1_post.reply(fin.read())
 
     logger.info("Finished posting to r/formula1")
@@ -92,7 +92,7 @@ def main() -> None:
         images=images,
         flair_id=f1technical_flair_id,
     )
-    with open(COMMENTS_PATH / "f1technical_comment.md", "r") as fin:
+    with open(COMMENTS_PATH / "f1technical_comment.md", "r", encoding="utf-8") as fin:
         f1technical_post.reply(fin.read())
     logger.info("Finished posting to r/f1technical")
 

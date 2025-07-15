@@ -138,5 +138,6 @@ ignore = [
     "UP015",   # explicit is better than implicit
     "UP038",   # deprecated
     "FURB101", # Nothing wrong with using open and read
+    "FURB118", # this is not better
     "TRY003",  # too nitpicky
 ]

@@ -259,8 +259,7 @@ def main(
     if reddit_machine:
         # write to temp text file
         Path(ROOT_PATH / "tmp").mkdir(exist_ok=True)
-        with open(ROOT_PATH / "tmp" / "event_name.txt", "w") as fout:
-            fout.write(event_name)
+        Path(ROOT_PATH / "tmp" / "event_name.txt").write_text(event_name, encoding="utf-8")
 
 
 if __name__ == "__main__":
