@@ -2,6 +2,7 @@
 
 from math import ceil
 from pathlib import Path
+from typing import Literal
 
 import numpy as np
 import pandas as pd
@@ -32,7 +33,7 @@ def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray) 
     sc_laps = np.append(sc_laps, [-1])
     vsc_laps = np.append(vsc_laps, [-1])
 
-    def plot_periods(laps: np.ndarray) -> None:
+    def plot_periods(laps: np.ndarray, annotation: Literal["SC", "VSC"]) -> None:
         start = 0
         end = 1
 
@@ -41,33 +42,22 @@ def shade_sc_periods(fig: go.Figure, sc_laps: np.ndarray, vsc_laps: np.ndarray) 
             if laps[end] == laps[end - 1] + 1:
                 end += 1
             else:
-                if end - start > 1:
-                    # the latest SC period lasts for more than one lap
-                    fig.add_vrect(
-                        x0=laps[start] - 1,
-                        x1=laps[end - 1] - 1,
-                        opacity=0.5,
-                        fillcolor="yellow",
-                        annotation_text="SC",
-                        annotation_position="top",
-                        annotation={"font_size": 20, "font_color": "black"},
-                    )
-                else:
-                    # end = start + 1, the latest SC period lasts only one lap
-                    fig.add_vrect(
-                        x0=laps[start] - 1,
-                        x1=laps[end - 1] - 1,
-                        opacity=0.5,
-                        fillcolor="yellow",
-                        annotation_text="VSC",
-                        annotation_position="top",
-                        annotation={"font_size": 20, "font_color": "black"},
-                    )
+                # if there is SC on laps 14, 15, 16
+                # the shading should extend from 13 to 16
+                fig.add_vrect(
+                    x0=laps[start] - 1,
+                    x1=laps[end - 1],
+                    opacity=0.5,
+                    fillcolor="yellow",
+                    annotation_text=annotation,
+                    annotation_position="top",
+                    annotation={"font_size": 20, "font_color": "black"},
+                )
                 start = end
                 end += 1
 
-    plot_periods(sc_laps)
-    plot_periods(vsc_laps)
+    plot_periods(sc_laps, "SC")
+    plot_periods(vsc_laps, "VSC")
     return fig
 
 

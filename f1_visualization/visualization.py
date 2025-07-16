@@ -479,29 +479,17 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray) -> None:
             if laps[end] == laps[end - 1] + 1:
                 end += 1
             else:
-                if end - start > 1:
-                    # the latest SC period lasts for more than one lap
-                    plt.axvspan(
-                        # minus one to correct for zero indexing on the plot
-                        # but one indexing in the data
-                        xmin=laps[start] - 1,
-                        xmax=laps[end - 1] - 1,
-                        alpha=0.5,
-                        color="orange",
-                        # only produce one label in legend
-                        label=label if start == 0 else "_",
-                        hatch=hatch,
-                    )
-                else:
-                    # end = start + 1, the latest SC period lasts only one lap
-                    plt.axvspan(
-                        xmin=laps[start] - 1,
-                        xmax=laps[start],
-                        alpha=0.5,
-                        color="orange",
-                        label=label if start == 0 else "_",
-                        hatch=hatch,
-                    )
+                plt.axvspan(
+                    # if there is SC on laps 14, 15, 16
+                    # the shading should extend from 13 to 16
+                    xmin=laps[start] - 1,
+                    xmax=laps[end - 1],
+                    alpha=0.5,
+                    color="orange",
+                    # only produce one label in legend
+                    label=label if start == 0 else "_",
+                    hatch=hatch,
+                )
                 start = end
                 end += 1
 
