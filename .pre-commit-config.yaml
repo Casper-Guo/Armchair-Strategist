@@ -1,12 +1,12 @@
 repos:
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.4
+    rev: v2.4.1
     hooks:
     - id: codespell
       args: ["-f", "-S", "*.csv, *.png"]
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.3.0
+    rev: v0.12.4
     hooks:
         # Run the linter.
         - id: ruff
