@@ -537,12 +537,15 @@ def add_fuel_adjusted_time(
     # The shortest GP is at Spa and has 44 laps
     is_sprint = median_lap_count < 30  # noqa: PLR2004
 
-    df_laps["FuelAdjLapTime"] = df_laps["LapTime"] + (
-        gain_to_weight_ratio
-        * (
-            (sprint_initial_fuel if is_sprint else race_initial_fuel)
-            / df_laps["LapNumber_final"]
-            * (df_laps["LapNumber"] - 1)
+    df_laps["FuelAdjLapTime"] = (
+        df_laps["LapTime"]
+        + (
+            gain_to_weight_ratio
+            * (
+                (sprint_initial_fuel if is_sprint else race_initial_fuel)
+                / df_laps["LapNumber_final"]
+                * (df_laps["LapNumber"] - 1)
+            )
         )
     ).round(decimals=3)
 
