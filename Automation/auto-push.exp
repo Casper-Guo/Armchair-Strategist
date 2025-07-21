@@ -3,7 +3,7 @@ exp_internal 1
 set -Eeuo pipefail
 set timeout 5
 
-spawn git push origin main
+spawn git push --no-progress origin main
 
 expect {
   "*(yes/no)? " {
