@@ -710,3 +710,300 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:42:52.792000,TSU,22,141.772,16.0,2.0,,,False,MEDIUM,21.0,False,Red Bull Racing,4,10.0,False,6,Miami Grand Prix,True,C4,False,44.933,46.4,45.404,47.115,0.411,0.291,142.689
 0 days 01:45:10.264000,TSU,22,137.472,17.0,2.0,,,False,MEDIUM,22.0,False,Red Bull Racing,4,10.0,False,6,Miami Grand Prix,True,C4,False,40.633,41.959,41.104,42.653,-0.974,-0.704,138.45
 0 days 01:47:23.528000,TSU,22,133.264,18.0,2.0,,,False,MEDIUM,23.0,False,Red Bull Racing,41,10.0,False,6,Miami Grand Prix,True,C4,False,36.425,37.614,36.896,38.287,-0.463,-0.346,134.303
+0 days 00:49:08.379000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,2.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:54.563000,PIA,81,106.184,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.398,-1.299,0.27,0.255,-1.358,-1.263,106.257
+0 days 00:52:40.800000,PIA,81,106.237,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.345,-1.25,0.323,0.305,-1.376,-1.279,106.384
+0 days 00:54:27.172000,PIA,81,106.372,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.21,-1.125,0.458,0.432,-0.973,-0.906,106.592
+0 days 00:56:13.466000,PIA,81,106.294,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.288,-1.197,0.38,0.359,-1.092,-1.017,106.587
+0 days 00:57:59.527000,PIA,81,106.061,6.0,1.0,,,True,MEDIUM,6.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.521,-1.414,0.147,0.139,-1.445,-1.344,106.428
+0 days 00:59:46.093000,PIA,81,106.566,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.016,-0.944,0.652,0.616,-0.846,-0.788,107.006
+0 days 01:01:32.384000,PIA,81,106.291,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.291,-1.2,0.377,0.356,-1.259,-1.171,106.804
+0 days 01:03:18.819000,PIA,81,106.435,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.147,-1.066,0.521,0.492,-1.158,-1.076,107.022
+0 days 01:05:05.355000,PIA,81,106.536,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.046,-0.972,0.622,0.587,-1.016,-0.945,107.196
+0 days 01:06:52.018000,PIA,81,106.663,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-0.919,-0.854,0.749,0.707,-1.063,-0.987,107.396
+0 days 01:08:38.549000,PIA,81,106.531,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.051,-0.977,0.617,0.583,-1.134,-1.053,107.338
+0 days 01:10:25.038000,PIA,81,106.489,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.093,-1.016,0.575,0.543,-1.303,-1.209,107.369
+0 days 01:12:11.591000,PIA,81,106.553,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-1.029,-0.956,0.639,0.603,-1.374,-1.273,107.506
+0 days 01:13:58.333000,PIA,81,106.742,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,2.0,True,13,Belgian Grand Prix,True,C3,True,-0.84,-0.781,0.828,0.782,-1.206,-1.117,107.769
+0 days 00:49:07.753000,VER,1,,1.0,1.0,,,False,MEDIUM,4.0,False,Red Bull Racing,1,1.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:54.022000,VER,1,106.269,2.0,1.0,,,True,MEDIUM,5.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.313,-1.22,0.355,0.335,-1.273,-1.184,106.342
+0 days 00:52:40.272000,VER,1,106.25,3.0,1.0,,,True,MEDIUM,6.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.332,-1.238,0.336,0.317,-1.363,-1.267,106.397
+0 days 00:54:26.463000,VER,1,106.191,4.0,1.0,,,True,MEDIUM,7.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.391,-1.293,0.277,0.262,-1.154,-1.075,106.411
+0 days 00:56:12.885000,VER,1,106.422,5.0,1.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.16,-1.078,0.508,0.48,-0.964,-0.898,106.715
+0 days 00:57:58.937000,VER,1,106.052,6.0,1.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.53,-1.422,0.138,0.13,-1.454,-1.352,106.419
+0 days 00:59:45.316000,VER,1,106.379,7.0,1.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.203,-1.118,0.465,0.439,-1.033,-0.962,106.819
+0 days 01:01:31.710000,VER,1,106.394,8.0,1.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.188,-1.104,0.48,0.453,-1.156,-1.075,106.907
+0 days 01:03:18.216000,VER,1,106.506,9.0,1.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.076,-1.0,0.592,0.559,-1.087,-1.01,107.093
+0 days 01:05:04.867000,VER,1,106.651,10.0,1.0,,,False,MEDIUM,13.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-0.931,-0.865,0.737,0.696,-0.901,-0.838,107.311
+0 days 01:06:51.279000,VER,1,106.412,11.0,1.0,,,False,MEDIUM,14.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.17,-1.088,0.498,0.47,-1.314,-1.22,107.145
+0 days 01:08:37.697000,VER,1,106.418,12.0,1.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.164,-1.082,0.504,0.476,-1.247,-1.158,107.225
+0 days 01:10:24.275000,VER,1,106.578,13.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-1.004,-0.933,0.664,0.627,-1.214,-1.126,107.458
+0 days 01:12:10.982000,VER,1,106.707,14.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-0.875,-0.813,0.793,0.749,-1.22,-1.13,107.66
+0 days 01:13:57.580000,VER,1,106.598,15.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,1.0,True,13,Belgian Grand Prix,True,C3,True,-0.984,-0.915,0.684,0.646,-1.35,-1.251,107.625
+0 days 00:49:09.704000,NOR,4,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,4.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:56.228000,NOR,4,106.524,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-1.058,-0.983,0.61,0.576,-1.018,-0.947,106.597
+0 days 00:52:42.649000,NOR,4,106.421,3.0,1.0,,,True,MEDIUM,3.0,True,McLaren,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-1.161,-1.079,0.507,0.479,-1.192,-1.108,106.568
+0 days 00:54:29.073000,NOR,4,106.424,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.158,-1.076,0.51,0.482,-0.921,-0.858,106.644
+0 days 00:56:15.389000,NOR,4,106.316,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.266,-1.177,0.402,0.38,-1.07,-0.996,106.609
+0 days 00:58:01.303000,NOR,4,105.914,6.0,1.0,,,True,MEDIUM,6.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.668,-1.55,0.0,0.0,-1.592,-1.481,106.281
+0 days 00:59:47.278000,NOR,4,105.975,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.607,-1.494,0.061,0.058,-1.437,-1.338,106.415
+0 days 01:01:33.337000,NOR,4,106.059,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.523,-1.416,0.145,0.137,-1.491,-1.386,106.572
+0 days 01:03:19.467000,NOR,4,106.13,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.452,-1.35,0.216,0.204,-1.463,-1.36,106.717
+0 days 01:05:05.976000,NOR,4,106.509,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.073,-0.997,0.595,0.562,-1.043,-0.97,107.169
+0 days 01:06:52.638000,NOR,4,106.662,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-0.92,-0.855,0.748,0.706,-1.064,-0.988,107.395
+0 days 01:08:39.083000,NOR,4,106.445,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.137,-1.057,0.531,0.501,-1.22,-1.133,107.252
+0 days 01:10:25.818000,NOR,4,106.735,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-0.847,-0.787,0.821,0.775,-1.057,-0.981,107.615
+0 days 01:12:12.352000,NOR,4,106.534,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.048,-0.974,0.62,0.585,-1.393,-1.291,107.487
+0 days 01:13:58.994000,NOR,4,106.642,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-0.94,-0.874,0.728,0.687,-1.306,-1.21,107.669
+0 days 00:49:09.237000,LEC,16,,1.0,1.0,,,False,MEDIUM,4.0,False,Ferrari,1,3.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:55.580000,LEC,16,106.343,2.0,1.0,,,True,MEDIUM,5.0,False,Ferrari,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-1.239,-1.152,0.429,0.405,-1.199,-1.115,106.416
+0 days 00:52:42.220000,LEC,16,106.64,3.0,1.0,,,False,MEDIUM,6.0,False,Ferrari,1,3.0,True,13,Belgian Grand Prix,True,C3,True,-0.942,-0.876,0.726,0.685,-0.973,-0.904,106.787
+0 days 00:54:30.287000,LEC,16,108.067,4.0,1.0,,,False,MEDIUM,7.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,0.485,0.451,2.153,2.033,0.722,0.673,108.287
+0 days 00:56:17.269000,LEC,16,106.982,5.0,1.0,,,False,MEDIUM,8.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.6,-0.558,1.068,1.008,-0.404,-0.376,107.275
+0 days 00:58:03.787000,LEC,16,106.518,6.0,1.0,,,False,MEDIUM,9.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-1.064,-0.989,0.604,0.57,-0.988,-0.919,106.885
+0 days 00:59:50.137000,LEC,16,106.35,7.0,1.0,,,False,MEDIUM,10.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-1.232,-1.145,0.436,0.412,-1.062,-0.989,106.79
+0 days 01:01:36.588000,LEC,16,106.451,8.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-1.131,-1.051,0.537,0.507,-1.099,-1.022,106.964
+0 days 01:03:23.306000,LEC,16,106.718,9.0,1.0,,,False,MEDIUM,12.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.864,-0.803,0.804,0.759,-0.875,-0.813,107.305
+0 days 01:05:10.040000,LEC,16,106.734,10.0,1.0,,,False,MEDIUM,13.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.848,-0.788,0.82,0.774,-0.818,-0.761,107.394
+0 days 01:06:56.896000,LEC,16,106.856,11.0,1.0,,,False,MEDIUM,14.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.726,-0.675,0.942,0.889,-0.87,-0.808,107.589
+0 days 01:08:43.590000,LEC,16,106.694,12.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.888,-0.825,0.78,0.736,-0.971,-0.902,107.501
+0 days 01:10:30.671000,LEC,16,107.081,13.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,-0.501,-0.466,1.167,1.102,-0.711,-0.66,107.961
+0 days 01:12:18.372000,LEC,16,107.701,14.0,1.0,,,False,MEDIUM,17.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,0.119,0.111,1.787,1.687,-0.226,-0.209,108.654
+0 days 01:14:07.756000,LEC,16,109.384,15.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,1,4.0,True,13,Belgian Grand Prix,True,C3,True,1.802,1.675,3.47,3.276,1.436,1.33,110.411
+0 days 00:49:10.660000,OCO,31,,1.0,1.0,,,False,MEDIUM,4.0,False,Haas F1 Team,1,5.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:57.432000,OCO,31,106.772,2.0,1.0,,,True,MEDIUM,5.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.81,-0.753,0.858,0.81,-0.77,-0.716,106.845
+0 days 00:52:44.593000,OCO,31,107.161,3.0,1.0,,,False,MEDIUM,6.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.421,-0.391,1.247,1.177,-0.452,-0.42,107.308
+0 days 00:54:31.724000,OCO,31,107.131,4.0,1.0,,,False,MEDIUM,7.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.451,-0.419,1.217,1.149,-0.214,-0.199,107.351
+0 days 00:56:18.918000,OCO,31,107.194,5.0,1.0,,,False,MEDIUM,8.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.388,-0.361,1.28,1.209,-0.192,-0.179,107.487
+0 days 00:58:05.958000,OCO,31,107.04,6.0,1.0,,,False,MEDIUM,9.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.542,-0.504,1.126,1.063,-0.466,-0.433,107.407
+0 days 00:59:52.806000,OCO,31,106.848,7.0,1.0,,,False,MEDIUM,10.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.734,-0.682,0.934,0.882,-0.564,-0.525,107.288
+0 days 01:01:39.856000,OCO,31,107.05,8.0,1.0,,,False,MEDIUM,11.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.532,-0.495,1.136,1.073,-0.5,-0.465,107.563
+0 days 01:03:27.113000,OCO,31,107.257,9.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.325,-0.302,1.343,1.268,-0.336,-0.312,107.844
+0 days 01:05:14.232000,OCO,31,107.119,10.0,1.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.463,-0.43,1.205,1.138,-0.433,-0.403,107.779
+0 days 01:07:01.505000,OCO,31,107.273,11.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.309,-0.287,1.359,1.283,-0.453,-0.421,108.006
+0 days 01:08:48.832000,OCO,31,107.327,12.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.255,-0.237,1.413,1.334,-0.338,-0.314,108.134
+0 days 01:10:36.300000,OCO,31,107.468,13.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.114,-0.106,1.554,1.467,-0.324,-0.301,108.348
+0 days 01:12:23.841000,OCO,31,107.541,14.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.041,-0.038,1.627,1.536,-0.386,-0.358,108.494
+0 days 01:14:11.369000,OCO,31,107.528,15.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,5.0,True,13,Belgian Grand Prix,True,C3,True,-0.054,-0.05,1.614,1.524,-0.42,-0.389,108.555
+0 days 00:49:11.376000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,6.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:58.386000,SAI,55,107.01,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.572,-0.532,1.096,1.035,-0.532,-0.495,107.083
+0 days 00:52:45.731000,SAI,55,107.345,3.0,1.0,,,False,MEDIUM,3.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.237,-0.22,1.431,1.351,-0.268,-0.249,107.492
+0 days 00:54:33.109000,SAI,55,107.378,4.0,1.0,,,False,MEDIUM,4.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.204,-0.19,1.464,1.382,0.033,0.031,107.598
+0 days 00:56:20.123000,SAI,55,107.014,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.568,-0.528,1.1,1.039,-0.372,-0.346,107.307
+0 days 00:58:07.151000,SAI,55,107.028,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.554,-0.515,1.114,1.052,-0.478,-0.445,107.395
+0 days 00:59:53.921000,SAI,55,106.77,7.0,1.0,,,True,MEDIUM,7.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.812,-0.755,0.856,0.808,-0.642,-0.598,107.21
+0 days 01:01:41.050000,SAI,55,107.129,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.453,-0.421,1.215,1.147,-0.421,-0.391,107.642
+0 days 01:03:28.175000,SAI,55,107.125,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.457,-0.425,1.211,1.143,-0.468,-0.435,107.712
+0 days 01:05:15.306000,SAI,55,107.131,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.451,-0.419,1.217,1.149,-0.421,-0.391,107.791
+0 days 01:07:02.624000,SAI,55,107.318,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.264,-0.245,1.404,1.326,-0.408,-0.379,108.051
+0 days 01:08:49.969000,SAI,55,107.345,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.237,-0.22,1.431,1.351,-0.32,-0.297,108.152
+0 days 01:10:37.383000,SAI,55,107.414,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.168,-0.156,1.5,1.416,-0.378,-0.351,108.294
+0 days 01:12:25.038000,SAI,55,107.655,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,0.073,0.068,1.741,1.644,-0.272,-0.252,108.608
+0 days 01:14:12.544000,SAI,55,107.506,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,6.0,True,13,Belgian Grand Prix,True,C3,True,-0.076,-0.071,1.592,1.503,-0.442,-0.409,108.533
+0 days 00:49:12.067000,BEA,87,,1.0,1.0,,,False,MEDIUM,4.0,False,Haas F1 Team,1,7.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:59.105000,BEA,87,107.038,2.0,1.0,,,True,MEDIUM,5.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.544,-0.506,1.124,1.061,-0.504,-0.469,107.111
+0 days 00:52:46.622000,BEA,87,107.517,3.0,1.0,,,False,MEDIUM,6.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.065,-0.06,1.603,1.513,-0.096,-0.089,107.664
+0 days 00:54:33.706000,BEA,87,107.084,4.0,1.0,,,False,MEDIUM,7.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.498,-0.463,1.17,1.105,-0.261,-0.243,107.304
+0 days 00:56:21.389000,BEA,87,107.683,5.0,1.0,,,False,MEDIUM,8.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,0.101,0.094,1.769,1.67,0.297,0.277,107.976
+0 days 00:58:08.918000,BEA,87,107.529,6.0,1.0,,,False,MEDIUM,9.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.053,-0.049,1.615,1.525,0.023,0.021,107.896
+0 days 00:59:55.996000,BEA,87,107.078,7.0,1.0,,,False,MEDIUM,10.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.504,-0.468,1.164,1.099,-0.334,-0.311,107.518
+0 days 01:01:43.340000,BEA,87,107.344,8.0,1.0,,,False,MEDIUM,11.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.238,-0.221,1.43,1.35,-0.206,-0.192,107.857
+0 days 01:03:30.744000,BEA,87,107.404,9.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.178,-0.165,1.49,1.407,-0.189,-0.176,107.991
+0 days 01:05:17.813000,BEA,87,107.069,10.0,1.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.513,-0.477,1.155,1.091,-0.483,-0.449,107.729
+0 days 01:07:05.367000,BEA,87,107.554,11.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.028,-0.026,1.64,1.548,-0.172,-0.16,108.287
+0 days 01:08:52.868000,BEA,87,107.501,12.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,-0.081,-0.075,1.587,1.498,-0.164,-0.152,108.308
+0 days 01:10:40.511000,BEA,87,107.643,13.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,0.061,0.057,1.729,1.632,-0.149,-0.138,108.523
+0 days 01:12:28.438000,BEA,87,107.927,14.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,0.345,0.321,2.013,1.901,0.0,0.0,108.88
+0 days 01:14:16.190000,BEA,87,107.752,15.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,7.0,True,13,Belgian Grand Prix,True,C3,True,0.17,0.158,1.838,1.735,-0.196,-0.182,108.779
+0 days 00:53:45.342000,GAS,10,,1.0,1.0,0 days 00:52:01.426000,,False,MEDIUM,7.0,False,Alpine,1,20.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:33.523000,GAS,10,108.181,2.0,1.0,,,True,MEDIUM,8.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.599,0.557,2.267,2.14,0.639,0.594,108.254
+0 days 00:57:21.467000,GAS,10,107.944,3.0,1.0,,,True,MEDIUM,9.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.362,0.336,2.03,1.917,0.331,0.308,108.091
+0 days 00:59:09.120000,GAS,10,107.653,4.0,1.0,,,True,MEDIUM,10.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.071,0.066,1.739,1.642,0.308,0.287,107.873
+0 days 01:00:56.812000,GAS,10,107.692,5.0,1.0,,,False,MEDIUM,11.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.11,0.102,1.778,1.679,0.306,0.285,107.985
+0 days 01:02:44.463000,GAS,10,107.651,6.0,1.0,,,True,MEDIUM,12.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.069,0.064,1.737,1.64,0.145,0.135,108.018
+0 days 01:04:32.266000,GAS,10,107.803,7.0,1.0,,,False,MEDIUM,13.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.221,0.205,1.889,1.784,0.391,0.364,108.243
+0 days 01:06:20.155000,GAS,10,107.889,8.0,1.0,,,False,MEDIUM,14.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.307,0.285,1.975,1.865,0.339,0.315,108.402
+0 days 01:08:07.899000,GAS,10,107.744,9.0,1.0,,,False,MEDIUM,15.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.162,0.151,1.83,1.728,0.151,0.14,108.331
+0 days 01:09:56.037000,GAS,10,108.138,10.0,1.0,,,False,MEDIUM,16.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.556,0.517,2.224,2.1,0.586,0.545,108.798
+0 days 01:11:44.051000,GAS,10,108.014,11.0,1.0,,,False,MEDIUM,17.0,False,Alpine,1,20.0,True,13,Belgian Grand Prix,True,C3,True,0.432,0.402,2.1,1.983,0.288,0.267,108.747
+0 days 01:13:41.012000,GAS,10,116.961,12.0,1.0,,0 days 01:13:36.494000,False,MEDIUM,18.0,False,Alpine,1,20.0,False,13,Belgian Grand Prix,True,C3,False,9.379,8.718,11.047,10.43,9.296,8.634,117.768
+0 days 00:49:12.728000,HAD,6,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,8.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:59.701000,HAD,6,106.973,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.609,-0.566,1.059,1.0,-0.569,-0.529,107.046
+0 days 00:52:47.217000,HAD,6,107.516,3.0,1.0,,,False,MEDIUM,3.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.066,-0.061,1.602,1.513,-0.097,-0.09,107.663
+0 days 00:54:34.471000,HAD,6,107.254,4.0,1.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.328,-0.305,1.34,1.265,-0.091,-0.085,107.474
+0 days 00:56:22.179000,HAD,6,107.708,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,0.126,0.117,1.794,1.694,0.322,0.3,108.001
+0 days 00:58:09.329000,HAD,6,107.15,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.432,-0.402,1.236,1.167,-0.356,-0.331,107.517
+0 days 00:59:56.708000,HAD,6,107.379,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.203,-0.189,1.465,1.383,-0.033,-0.031,107.819
+0 days 01:01:43.997000,HAD,6,107.289,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.293,-0.272,1.375,1.298,-0.261,-0.243,107.802
+0 days 01:03:31.370000,HAD,6,107.373,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.209,-0.194,1.459,1.378,-0.22,-0.204,107.96
+0 days 01:05:18.666000,HAD,6,107.296,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.286,-0.266,1.382,1.305,-0.256,-0.238,107.956
+0 days 01:07:06.094000,HAD,6,107.428,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.154,-0.143,1.514,1.429,-0.298,-0.277,108.161
+0 days 01:08:53.381000,HAD,6,107.287,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.295,-0.274,1.373,1.296,-0.378,-0.351,108.094
+0 days 01:10:40.960000,HAD,6,107.579,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,-0.003,-0.003,1.665,1.572,-0.213,-0.198,108.459
+0 days 01:12:28.991000,HAD,6,108.031,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,0.449,0.417,2.117,1.999,0.104,0.096,108.984
+0 days 01:14:16.699000,HAD,6,107.708,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,8.0,True,13,Belgian Grand Prix,True,C3,True,0.126,0.117,1.794,1.694,-0.24,-0.222,108.735
+0 days 00:49:13.354000,BOR,5,,1.0,1.0,,,False,MEDIUM,1.0,True,Kick Sauber,1,9.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:00.440000,BOR,5,107.086,2.0,1.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.496,-0.461,1.172,1.107,-0.456,-0.424,107.159
+0 days 00:52:48.159000,BOR,5,107.719,3.0,1.0,,,False,MEDIUM,3.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.137,0.127,1.805,1.704,0.106,0.099,107.866
+0 days 00:54:35.438000,BOR,5,107.279,4.0,1.0,,,False,MEDIUM,4.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.303,-0.282,1.365,1.289,-0.066,-0.061,107.499
+0 days 00:56:22.951000,BOR,5,107.513,5.0,1.0,,,False,MEDIUM,5.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.069,-0.064,1.599,1.51,0.127,0.118,107.806
+0 days 00:58:10.433000,BOR,5,107.482,6.0,1.0,,,False,MEDIUM,6.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.1,-0.093,1.568,1.48,-0.024,-0.022,107.849
+0 days 00:59:57.815000,BOR,5,107.382,7.0,1.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.2,-0.186,1.468,1.386,-0.03,-0.028,107.822
+0 days 01:01:45.340000,BOR,5,107.525,8.0,1.0,,,False,MEDIUM,8.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.057,-0.053,1.611,1.521,-0.025,-0.023,108.038
+0 days 01:03:32.470000,BOR,5,107.13,9.0,1.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.452,-0.42,1.216,1.148,-0.463,-0.43,107.717
+0 days 01:05:20.236000,BOR,5,107.766,10.0,1.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.184,0.171,1.852,1.749,0.214,0.199,108.426
+0 days 01:07:07.746000,BOR,5,107.51,11.0,1.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,-0.072,-0.067,1.596,1.507,-0.216,-0.201,108.243
+0 days 01:08:55.481000,BOR,5,107.735,12.0,1.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.153,0.142,1.821,1.719,0.07,0.065,108.542
+0 days 01:10:43.626000,BOR,5,108.145,13.0,1.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.563,0.523,2.231,2.106,0.353,0.327,109.025
+0 days 01:12:31.528000,BOR,5,107.902,14.0,1.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.32,0.297,1.988,1.877,-0.025,-0.023,108.855
+0 days 01:14:19.763000,BOR,5,108.235,15.0,1.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,9.0,True,13,Belgian Grand Prix,True,C3,True,0.653,0.607,2.321,2.191,0.287,0.266,109.262
+0 days 00:49:13.890000,LAW,30,,1.0,1.0,,,False,MEDIUM,4.0,False,Racing Bulls,1,10.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:01.139000,LAW,30,107.249,2.0,1.0,,,True,MEDIUM,5.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.333,-0.31,1.335,1.26,-0.293,-0.272,107.322
+0 days 00:52:48.817000,LAW,30,107.678,3.0,1.0,,,False,MEDIUM,6.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.096,0.089,1.764,1.666,0.065,0.06,107.825
+0 days 00:54:36.181000,LAW,30,107.364,4.0,1.0,,,False,MEDIUM,7.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.218,-0.203,1.45,1.369,0.019,0.018,107.584
+0 days 00:56:23.700000,LAW,30,107.519,5.0,1.0,,,False,MEDIUM,8.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.063,-0.059,1.605,1.515,0.133,0.124,107.812
+0 days 00:58:11.288000,LAW,30,107.588,6.0,1.0,,,False,MEDIUM,9.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.006,0.006,1.674,1.581,0.082,0.076,107.955
+0 days 00:59:58.568000,LAW,30,107.28,7.0,1.0,,,False,MEDIUM,10.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.302,-0.281,1.366,1.29,-0.132,-0.123,107.72
+0 days 01:01:46.093000,LAW,30,107.525,8.0,1.0,,,False,MEDIUM,11.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.057,-0.053,1.611,1.521,-0.025,-0.023,108.038
+0 days 01:03:33.662000,LAW,30,107.569,9.0,1.0,,,False,MEDIUM,12.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.013,-0.012,1.655,1.563,-0.024,-0.022,108.156
+0 days 01:05:21.133000,LAW,30,107.471,10.0,1.0,,,False,MEDIUM,13.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.111,-0.103,1.557,1.47,-0.081,-0.075,108.131
+0 days 01:07:08.777000,LAW,30,107.644,11.0,1.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.062,0.058,1.73,1.633,-0.082,-0.076,108.377
+0 days 01:08:56.357000,LAW,30,107.58,12.0,1.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,-0.002,-0.002,1.666,1.573,-0.085,-0.079,108.387
+0 days 01:10:44.326000,LAW,30,107.969,13.0,1.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.387,0.36,2.055,1.94,0.177,0.164,108.849
+0 days 01:12:32.256000,LAW,30,107.93,14.0,1.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.348,0.323,2.016,1.903,0.003,0.003,108.883
+0 days 01:14:20.477000,LAW,30,108.221,15.0,1.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,10.0,True,13,Belgian Grand Prix,True,C3,True,0.639,0.594,2.307,2.178,0.273,0.253,109.248
+0 days 00:49:14.455000,TSU,22,,1.0,1.0,,,False,MEDIUM,6.0,False,Red Bull Racing,1,11.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:02.290000,TSU,22,107.835,2.0,1.0,,,True,MEDIUM,7.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.253,0.235,1.921,1.814,0.293,0.272,107.908
+0 days 00:52:49.874000,TSU,22,107.584,3.0,1.0,,,True,MEDIUM,8.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.002,0.002,1.67,1.577,-0.029,-0.027,107.731
+0 days 00:54:37.200000,TSU,22,107.326,4.0,1.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,-0.256,-0.238,1.412,1.333,-0.019,-0.018,107.546
+0 days 00:56:24.609000,TSU,22,107.409,5.0,1.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,-0.173,-0.161,1.495,1.412,0.023,0.021,107.702
+0 days 00:58:12.321000,TSU,22,107.712,6.0,1.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.13,0.121,1.798,1.698,0.206,0.192,108.079
+0 days 01:00:00.004000,TSU,22,107.683,7.0,1.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.101,0.094,1.769,1.67,0.271,0.252,108.123
+0 days 01:01:47.841000,TSU,22,107.837,8.0,1.0,,,False,MEDIUM,13.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.255,0.237,1.923,1.816,0.287,0.267,108.35
+0 days 01:03:35.572000,TSU,22,107.731,9.0,1.0,,,False,MEDIUM,14.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.149,0.138,1.817,1.716,0.138,0.128,108.318
+0 days 01:05:23.171000,TSU,22,107.599,10.0,1.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.017,0.016,1.685,1.591,0.047,0.044,108.259
+0 days 01:07:11.230000,TSU,22,108.059,11.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.477,0.443,2.145,2.025,0.333,0.309,108.792
+0 days 01:08:58.895000,TSU,22,107.665,12.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.083,0.077,1.751,1.653,0.0,0.0,108.472
+0 days 01:10:46.602000,TSU,22,107.707,13.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.125,0.116,1.793,1.693,-0.085,-0.079,108.587
+0 days 01:12:34.332000,TSU,22,107.73,14.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.148,0.138,1.816,1.715,-0.197,-0.183,108.683
+0 days 01:14:22.131000,TSU,22,107.799,15.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,11.0,True,13,Belgian Grand Prix,True,C3,True,0.217,0.202,1.885,1.78,-0.149,-0.138,108.826
+0 days 00:49:14.977000,RUS,63,,1.0,1.0,,,False,MEDIUM,4.0,False,Mercedes,1,12.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:02.946000,RUS,63,107.969,2.0,1.0,,,True,MEDIUM,5.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.387,0.36,2.055,1.94,0.427,0.397,108.042
+0 days 00:52:50.516000,RUS,63,107.57,3.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,-0.012,-0.011,1.656,1.564,-0.043,-0.04,107.717
+0 days 00:54:37.794000,RUS,63,107.278,4.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,-0.304,-0.283,1.364,1.288,-0.067,-0.062,107.498
+0 days 00:56:25.157000,RUS,63,107.363,5.0,1.0,,,False,MEDIUM,8.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,-0.219,-0.204,1.449,1.368,-0.023,-0.021,107.656
+0 days 00:58:12.830000,RUS,63,107.673,6.0,1.0,,,False,MEDIUM,9.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.091,0.085,1.759,1.661,0.167,0.155,108.04
+0 days 01:00:00.682000,RUS,63,107.852,7.0,1.0,,,False,MEDIUM,10.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.27,0.251,1.938,1.83,0.44,0.41,108.292
+0 days 01:01:48.576000,RUS,63,107.894,8.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.312,0.29,1.98,1.869,0.344,0.32,108.407
+0 days 01:03:36.193000,RUS,63,107.617,9.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.035,0.033,1.703,1.608,0.024,0.022,108.204
+0 days 01:05:23.797000,RUS,63,107.604,10.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.022,0.02,1.69,1.596,0.052,0.048,108.264
+0 days 01:07:11.761000,RUS,63,107.964,11.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.382,0.355,2.05,1.936,0.238,0.221,108.697
+0 days 01:08:59.612000,RUS,63,107.851,12.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.269,0.25,1.937,1.829,0.186,0.173,108.658
+0 days 01:10:47.466000,RUS,63,107.854,13.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.272,0.253,1.94,1.832,0.062,0.058,108.734
+0 days 01:12:35.397000,RUS,63,107.931,14.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.349,0.324,2.017,1.904,0.004,0.004,108.884
+0 days 01:14:23.549000,RUS,63,108.152,15.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,12.0,True,13,Belgian Grand Prix,True,C3,True,0.57,0.53,2.238,2.113,0.204,0.189,109.179
+0 days 00:49:15.800000,ALO,14,,1.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,1,14.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:04.270000,ALO,14,108.47,2.0,1.0,,,True,MEDIUM,5.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.888,0.825,2.556,2.413,0.928,0.863,108.543
+0 days 00:52:51.984000,ALO,14,107.714,3.0,1.0,,,True,MEDIUM,6.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.132,0.123,1.8,1.699,0.101,0.094,107.861
+0 days 00:54:39.481000,ALO,14,107.497,4.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,-0.085,-0.079,1.583,1.495,0.152,0.142,107.717
+0 days 00:56:26.925000,ALO,14,107.444,5.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,-0.138,-0.128,1.53,1.445,0.058,0.054,107.737
+0 days 00:58:14.529000,ALO,14,107.604,6.0,1.0,,,False,MEDIUM,9.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.022,0.02,1.69,1.596,0.098,0.091,107.971
+0 days 01:00:02.214000,ALO,14,107.685,7.0,1.0,,,False,MEDIUM,10.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.103,0.096,1.771,1.672,0.273,0.254,108.125
+0 days 01:01:50.180000,ALO,14,107.966,8.0,1.0,,,False,MEDIUM,11.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.384,0.357,2.052,1.937,0.416,0.387,108.479
+0 days 01:03:38.142000,ALO,14,107.962,9.0,1.0,,,False,MEDIUM,12.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.38,0.353,2.048,1.934,0.369,0.343,108.549
+0 days 01:05:25.843000,ALO,14,107.701,10.0,1.0,,,False,MEDIUM,13.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.119,0.111,1.787,1.687,0.149,0.139,108.361
+0 days 01:07:13.651000,ALO,14,107.808,11.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.226,0.21,1.894,1.788,0.082,0.076,108.541
+0 days 01:09:01.758000,ALO,14,108.107,12.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.525,0.488,2.193,2.071,0.442,0.411,108.914
+0 days 01:10:50.263000,ALO,14,108.505,13.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.923,0.858,2.591,2.446,0.713,0.661,109.385
+0 days 01:12:38.448000,ALO,14,108.185,14.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.603,0.561,2.271,2.144,0.258,0.239,109.138
+0 days 01:14:26.626000,ALO,14,108.178,15.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,14.0,True,13,Belgian Grand Prix,True,C3,True,0.596,0.554,2.264,2.138,0.23,0.213,109.205
+0 days 00:49:15.409000,STR,18,,1.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,1,13.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:03.607000,STR,18,108.198,2.0,1.0,,,True,MEDIUM,5.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.616,0.573,2.284,2.156,0.656,0.61,108.271
+0 days 00:52:51.248000,STR,18,107.641,3.0,1.0,,,True,MEDIUM,6.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.059,0.055,1.727,1.631,0.028,0.026,107.788
+0 days 00:54:38.683000,STR,18,107.435,4.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,-0.147,-0.137,1.521,1.436,0.09,0.084,107.655
+0 days 00:56:25.990000,STR,18,107.307,5.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,-0.275,-0.256,1.393,1.315,-0.079,-0.074,107.6
+0 days 00:58:13.805000,STR,18,107.815,6.0,1.0,,,False,MEDIUM,9.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.233,0.217,1.901,1.795,0.309,0.287,108.182
+0 days 01:00:01.424000,STR,18,107.619,7.0,1.0,,,False,MEDIUM,10.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.037,0.034,1.705,1.61,0.207,0.193,108.059
+0 days 01:01:49.531000,STR,18,108.107,8.0,1.0,,,False,MEDIUM,11.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.525,0.488,2.193,2.071,0.557,0.518,108.62
+0 days 01:03:37.186000,STR,18,107.655,9.0,1.0,,,False,MEDIUM,12.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.073,0.068,1.741,1.644,0.062,0.058,108.242
+0 days 01:05:25.033000,STR,18,107.847,10.0,1.0,,,False,MEDIUM,13.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.265,0.246,1.933,1.825,0.295,0.274,108.507
+0 days 01:07:12.886000,STR,18,107.853,11.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.271,0.252,1.939,1.831,0.127,0.118,108.586
+0 days 01:09:00.715000,STR,18,107.829,12.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.247,0.23,1.915,1.808,0.164,0.152,108.636
+0 days 01:10:48.507000,STR,18,107.792,13.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.21,0.195,1.878,1.773,0.0,0.0,108.672
+0 days 01:12:36.227000,STR,18,107.72,14.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.138,0.128,1.806,1.705,-0.207,-0.192,108.673
+0 days 01:14:24.175000,STR,18,107.948,15.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,13.0,True,13,Belgian Grand Prix,True,C3,True,0.366,0.34,2.034,1.92,0.0,0.0,108.975
+0 days 00:49:16.169000,ALB,23,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,15.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:04.814000,ALB,23,108.645,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,1.063,0.988,2.731,2.579,1.103,1.026,108.718
+0 days 00:52:52.734000,ALB,23,107.92,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.338,0.314,2.006,1.894,0.307,0.285,108.067
+0 days 00:54:40.156000,ALB,23,107.422,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,-0.16,-0.149,1.508,1.424,0.077,0.072,107.642
+0 days 00:56:27.609000,ALB,23,107.453,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,-0.129,-0.12,1.539,1.453,0.067,0.062,107.746
+0 days 00:58:15.028000,ALB,23,107.419,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,-0.163,-0.152,1.505,1.421,-0.087,-0.081,107.786
+0 days 01:00:02.870000,ALB,23,107.842,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.26,0.242,1.928,1.82,0.43,0.4,108.282
+0 days 01:01:50.711000,ALB,23,107.841,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.259,0.241,1.927,1.819,0.291,0.271,108.354
+0 days 01:03:38.804000,ALB,23,108.093,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.511,0.475,2.179,2.057,0.5,0.465,108.68
+0 days 01:05:26.382000,ALB,23,107.578,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,-0.004,-0.004,1.664,1.571,0.026,0.024,108.238
+0 days 01:07:14.288000,ALB,23,107.906,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.324,0.301,1.992,1.881,0.18,0.167,108.639
+0 days 01:09:02.310000,ALB,23,108.022,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.44,0.409,2.108,1.99,0.357,0.332,108.829
+0 days 01:10:50.748000,ALB,23,108.438,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.856,0.796,2.524,2.383,0.646,0.599,109.318
+0 days 01:12:39.948000,ALB,23,109.2,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,16.0,True,13,Belgian Grand Prix,True,C3,True,1.618,1.504,3.286,3.103,1.273,1.18,110.153
+0 days 01:14:28.521000,ALB,23,108.573,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.991,0.921,2.659,2.511,0.625,0.579,109.6
+0 days 00:49:16.722000,HUL,27,,1.0,1.0,,,False,MEDIUM,1.0,True,Kick Sauber,1,16.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:05.413000,HUL,27,108.691,2.0,1.0,,,True,MEDIUM,2.0,True,Kick Sauber,1,16.0,True,13,Belgian Grand Prix,True,C3,True,1.109,1.031,2.777,2.622,1.149,1.068,108.764
+0 days 00:52:54.036000,HUL,27,108.623,3.0,1.0,,,True,MEDIUM,3.0,True,Kick Sauber,1,17.0,True,13,Belgian Grand Prix,True,C3,True,1.041,0.968,2.709,2.558,1.01,0.939,108.77
+0 days 00:54:41.895000,HUL,27,107.859,4.0,1.0,,,True,MEDIUM,4.0,True,Kick Sauber,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.277,0.257,1.945,1.836,0.514,0.479,108.079
+0 days 00:56:30.232000,HUL,27,108.337,5.0,1.0,,,False,MEDIUM,5.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.755,0.702,2.423,2.288,0.951,0.886,108.63
+0 days 00:58:17.983000,HUL,27,107.751,6.0,1.0,,,True,MEDIUM,6.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.169,0.157,1.837,1.734,0.245,0.228,108.118
+0 days 01:00:05.694000,HUL,27,107.711,7.0,1.0,,,True,MEDIUM,7.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.129,0.12,1.797,1.697,0.299,0.278,108.151
+0 days 01:01:53.269000,HUL,27,107.575,8.0,1.0,,,True,MEDIUM,8.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,-0.007,-0.007,1.661,1.568,0.025,0.023,108.088
+0 days 01:03:41.063000,HUL,27,107.794,9.0,1.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.212,0.197,1.88,1.775,0.201,0.187,108.381
+0 days 01:05:28.664000,HUL,27,107.601,10.0,1.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.019,0.018,1.687,1.593,0.049,0.046,108.261
+0 days 01:07:16.608000,HUL,27,107.944,11.0,1.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.362,0.336,2.03,1.917,0.218,0.202,108.677
+0 days 01:09:04.892000,HUL,27,108.284,12.0,1.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.702,0.653,2.37,2.238,0.619,0.575,109.091
+0 days 01:10:53.264000,HUL,27,108.372,13.0,1.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.79,0.734,2.458,2.321,0.58,0.538,109.252
+0 days 01:12:41.750000,HUL,27,108.486,14.0,1.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.904,0.84,2.572,2.428,0.559,0.518,109.439
+0 days 01:14:30.447000,HUL,27,108.697,15.0,1.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,18.0,True,13,Belgian Grand Prix,True,C3,True,1.115,1.036,2.783,2.628,0.749,0.694,109.724
+0 days 00:49:17.161000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,17.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:05.828000,HAM,44,108.667,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,17.0,True,13,Belgian Grand Prix,True,C3,True,1.085,1.009,2.753,2.599,1.125,1.046,108.74
+0 days 00:52:53.654000,HAM,44,107.826,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.244,0.227,1.912,1.805,0.213,0.198,107.973
+0 days 00:54:40.855000,HAM,44,107.201,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,-0.381,-0.354,1.287,1.215,-0.144,-0.134,107.421
+0 days 00:56:28.206000,HAM,44,107.351,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,-0.231,-0.215,1.437,1.357,-0.035,-0.033,107.644
+0 days 00:58:15.867000,HAM,44,107.661,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.079,0.073,1.747,1.649,0.155,0.144,108.028
+0 days 01:00:03.309000,HAM,44,107.442,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,-0.14,-0.13,1.528,1.443,0.03,0.028,107.882
+0 days 01:01:51.301000,HAM,44,107.992,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.41,0.381,2.078,1.962,0.442,0.411,108.505
+0 days 01:03:39.433000,HAM,44,108.132,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.55,0.511,2.218,2.094,0.539,0.501,108.719
+0 days 01:05:26.959000,HAM,44,107.526,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,-0.056,-0.052,1.612,1.522,-0.026,-0.024,108.186
+0 days 01:07:14.914000,HAM,44,107.955,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.373,0.347,2.041,1.927,0.229,0.213,108.688
+0 days 01:09:03.097000,HAM,44,108.183,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.601,0.559,2.269,2.142,0.518,0.481,108.99
+0 days 01:10:51.302000,HAM,44,108.205,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,16.0,True,13,Belgian Grand Prix,True,C3,True,0.623,0.579,2.291,2.163,0.413,0.383,109.085
+0 days 01:12:39.791000,HAM,44,108.489,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.907,0.843,2.575,2.431,0.562,0.521,109.442
+0 days 01:14:27.755000,HAM,44,107.964,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,15.0,True,13,Belgian Grand Prix,True,C3,True,0.382,0.355,2.05,1.936,0.016,0.015,108.991
+0 days 00:49:17.514000,ANT,12,,1.0,1.0,,,False,MEDIUM,4.0,False,Mercedes,1,18.0,False,13,Belgian Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:06.190000,ANT,12,108.676,2.0,1.0,,,True,MEDIUM,5.0,False,Mercedes,1,18.0,True,13,Belgian Grand Prix,True,C3,True,1.094,1.017,2.762,2.608,1.134,1.054,108.749
+0 days 00:52:54.379000,ANT,12,108.189,3.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.607,0.564,2.275,2.148,0.576,0.535,108.336
+0 days 00:54:42.281000,ANT,12,107.902,4.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,18.0,True,13,Belgian Grand Prix,True,C3,True,0.32,0.297,1.988,1.877,0.557,0.519,108.122
+0 days 00:56:28.979000,ANT,12,106.698,5.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,-0.884,-0.822,0.784,0.74,-0.688,-0.641,106.991
+0 days 00:58:16.330000,ANT,12,107.351,6.0,1.0,,,False,MEDIUM,9.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,-0.231,-0.215,1.437,1.357,-0.155,-0.144,107.718
+0 days 01:00:03.833000,ANT,12,107.503,7.0,1.0,,,False,MEDIUM,10.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,-0.079,-0.073,1.589,1.5,0.091,0.085,107.943
+0 days 01:01:51.937000,ANT,12,108.104,8.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.522,0.485,2.19,2.068,0.554,0.515,108.617
+0 days 01:03:39.920000,ANT,12,107.983,9.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.401,0.373,2.069,1.953,0.39,0.362,108.57
+0 days 01:05:27.769000,ANT,12,107.849,10.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.267,0.248,1.935,1.827,0.297,0.276,108.509
+0 days 01:07:15.595000,ANT,12,107.826,11.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.244,0.227,1.912,1.805,0.1,0.093,108.559
+0 days 01:09:03.656000,ANT,12,108.061,12.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.479,0.445,2.147,2.027,0.396,0.368,108.868
+0 days 01:10:51.940000,ANT,12,108.284,13.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,0.702,0.653,2.37,2.238,0.492,0.456,109.164
+0 days 01:12:40.619000,ANT,12,108.679,14.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,1.097,1.02,2.765,2.611,0.752,0.697,109.632
+0 days 01:14:29.561000,ANT,12,108.942,15.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,17.0,True,13,Belgian Grand Prix,True,C3,True,1.36,1.264,3.028,2.859,0.994,0.921,109.969
+0 days 00:49:17.934000,COL,43,,1.0,1.0,0 days 00:47:30.688000,,False,SOFT,1.0,True,Alpine,1,19.0,False,13,Belgian Grand Prix,True,C4,False,,,,,,,
+0 days 00:51:06.853000,COL,43,108.919,2.0,1.0,,,True,SOFT,2.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,1.337,1.243,3.005,2.837,1.377,1.28,108.992
+0 days 00:52:55.263000,COL,43,108.41,3.0,1.0,,,True,SOFT,3.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.828,0.77,2.496,2.357,0.797,0.741,108.557
+0 days 00:54:43.409000,COL,43,108.146,4.0,1.0,,,True,SOFT,4.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.564,0.524,2.232,2.107,0.801,0.746,108.366
+0 days 00:56:31.561000,COL,43,108.152,5.0,1.0,,,False,SOFT,5.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.57,0.53,2.238,2.113,0.766,0.713,108.445
+0 days 00:58:19.804000,COL,43,108.243,6.0,1.0,,,False,SOFT,6.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.661,0.614,2.329,2.199,0.737,0.686,108.61
+0 days 01:00:07.829000,COL,43,108.025,7.0,1.0,,,True,SOFT,7.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.443,0.412,2.111,1.993,0.613,0.571,108.465
+0 days 01:01:56.072000,COL,43,108.243,8.0,1.0,,,False,SOFT,8.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.661,0.614,2.329,2.199,0.693,0.644,108.756
+0 days 01:03:44.759000,COL,43,108.687,9.0,1.0,,,False,SOFT,9.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,1.105,1.027,2.773,2.618,1.094,1.017,109.274
+0 days 01:05:33.319000,COL,43,108.56,10.0,1.0,,,False,SOFT,10.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.978,0.909,2.646,2.498,1.008,0.937,109.22
+0 days 01:07:22.005000,COL,43,108.686,11.0,1.0,,,False,SOFT,11.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,1.104,1.026,2.772,2.617,0.96,0.891,109.419
+0 days 01:09:10.654000,COL,43,108.649,12.0,1.0,,,False,SOFT,12.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,1.067,0.992,2.735,2.582,0.984,0.914,109.456
+0 days 01:10:59.197000,COL,43,108.543,13.0,1.0,,,False,SOFT,13.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.961,0.893,2.629,2.482,0.751,0.697,109.423
+0 days 01:12:47.708000,COL,43,108.511,14.0,1.0,,,False,SOFT,14.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.929,0.864,2.597,2.452,0.584,0.541,109.464
+0 days 01:14:35.652000,COL,43,107.944,15.0,1.0,,,True,SOFT,15.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.362,0.336,2.03,1.917,-0.004,-0.004,108.971
