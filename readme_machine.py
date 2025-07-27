@@ -12,6 +12,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from fastf1.core import Laps
 
 import f1_visualization.visualization as viz
 from f1_visualization.consts import (
@@ -88,6 +89,20 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
         return round_number
 
 
+def find_upper_bound(laps: Laps, min_fraction: float = 0.1) -> int:
+    """
+    Raise the upper_bound for plotting functions when the race is mixed-condition.
+
+    A race is considered mixed-condition if more than `min_fraction` of the laps
+    is done on either the wet or intermediate compound.
+    """
+    num_wet_laps = len(laps[laps["Compound"].isin(["INTERMEDIATE", "WET"])])
+    if num_wet_laps / len(laps) > min_fraction:
+        return 20
+    # same as visualization functions default value
+    return 10
+
+
 @click.command()
 @click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
 @click.argument("round_number", nargs=1, default=-1, type=int)
@@ -113,6 +128,7 @@ def main(
     session.load(telemetry=False, weather=False)
     session = viz.infer_ergast_data(session)
     event_name = f"{session.event['EventName']} - {session.name}"
+    upper_bound = find_upper_bound(session.laps)
 
     dest = ROOT_PATH / "Visualizations" / f"{season}" / f"{event_name}"
 
@@ -152,7 +168,11 @@ def main(
 
     logger.info("Making lap time graph...")
     viz.driver_stats_scatterplot(
-        season=season, event=round_number, session_type=session_type, drivers=10
+        season=season,
+        event=round_number,
+        session_type=session_type,
+        drivers=10,
+        upper_bound=upper_bound,
     )
     plt.tight_layout()
     plt.savefig(dest / "laptime.png")
@@ -163,6 +183,7 @@ def main(
         event=round_number,
         session_type=session_type,
         drivers=10,
+        upper_bound=upper_bound,
         y="FuelAdjLapTime",
     )
     plt.tight_layout()
