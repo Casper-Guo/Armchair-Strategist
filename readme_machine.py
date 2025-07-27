@@ -89,7 +89,7 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
         return round_number
 
 
-def find_upper_bound(laps: Laps, min_fraction: float = 0.1) -> int:
+def find_upper_bound(laps: Laps, min_fraction: float = 0.5) -> int:
     """
     Raise the upper_bound for plotting functions when the race is mixed-condition.
 
