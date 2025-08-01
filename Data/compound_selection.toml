@@ -189,7 +189,7 @@
 
 [2025]
 # Source
-# https://press.pirelli.com/both-new-and-familiar-for-spielberg-to-budapest/
+# https://press.pirelli.com/changes-and-status-quo-when-it-comes-to-compound-choices-for-the-rest-of-the-season0/
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
 3  = ["C1","C2","C3"]
@@ -204,3 +204,13 @@
 12 = ["C2","C3","C4"]
 13 = ["C1","C3","C4"]
 14 = ["C3","C4","C5"]
+15 = ["C2","C3","C4"]
+16 = ["C3","C4","C5"]
+17 = ["C4","C5","C6"]
+18 = ["C3","C4","C5"]
+19 = ["C1","C3","C4"]
+20 = ["C2","C4","C5"]
+21 = ["C2","C3","C4"]
+22 = ["C3","C4","C5"]
+23 = ["C1","C2","C3"]
+24 = ["C3","C4","C5"]
