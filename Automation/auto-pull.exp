@@ -22,3 +22,5 @@ expect {
 }
 expect eof
 
+lassign [wait] pid spawn_id os_error_flag exit_status
+exit $exit_status
