@@ -1007,3 +1007,323 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:10:59.197000,COL,43,108.543,13.0,1.0,,,False,SOFT,13.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.961,0.893,2.629,2.482,0.751,0.697,109.423
 0 days 01:12:47.708000,COL,43,108.511,14.0,1.0,,,False,SOFT,14.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.929,0.864,2.597,2.452,0.584,0.541,109.464
 0 days 01:14:35.652000,COL,43,107.944,15.0,1.0,,,True,SOFT,15.0,True,Alpine,1,19.0,True,13,Belgian Grand Prix,True,C4,True,0.362,0.336,2.03,1.917,-0.004,-0.004,108.971
+0 days 00:49:32.806000,VER,1,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,124,1.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:21.488000,VER,1,,2.0,1.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:54:55.984000,VER,1,,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:23.617000,VER,1,147.633,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,48.613,49.094,51.106,52.945,0.73,0.497,147.807
+0 days 00:59:47.420000,VER,1,143.803,5.0,1.0,,,True,MEDIUM,5.0,True,Red Bull Racing,41,1.0,False,19,United States Grand Prix,True,C3,False,44.783,45.226,47.276,48.977,5.852,4.242,144.035
+0 days 01:01:24.123000,VER,1,96.703,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-2.317,-2.34,0.176,0.182,-2.474,-2.495,96.992
+0 days 01:03:00.650000,VER,1,96.527,7.0,1.0,,,True,MEDIUM,7.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-2.493,-2.518,0.0,0.0,-2.174,-2.203,96.874
+0 days 01:04:38.545000,VER,1,97.895,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.125,-1.136,1.368,1.417,-0.563,-0.572,98.3
+0 days 01:06:15.691000,VER,1,97.146,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.874,-1.893,0.619,0.641,-1.959,-1.977,97.609
+0 days 01:07:53.390000,VER,1,97.699,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.321,-1.334,1.172,1.214,-1.227,-1.24,98.22
+0 days 01:09:31.245000,VER,1,97.855,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.165,-1.177,1.328,1.376,-1.313,-1.324,98.434
+0 days 01:11:09.140000,VER,1,97.895,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.125,-1.136,1.368,1.417,-1.174,-1.185,98.532
+0 days 01:12:47.147000,VER,1,98.007,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.013,-1.023,1.48,1.533,-0.935,-0.945,98.702
+0 days 01:14:24.983000,VER,1,97.836,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.184,-1.196,1.309,1.356,-1.259,-1.27,98.589
+0 days 01:16:02.351000,VER,1,97.368,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,1.0,True,19,United States Grand Prix,True,C3,True,-1.652,-1.668,0.841,0.871,-1.609,-1.626,98.179
+0 days 01:17:59.642000,VER,1,117.291,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,124,1.0,False,19,United States Grand Prix,True,C3,False,18.271,18.452,20.764,21.511,-8.579,-6.816,118.159
+0 days 01:20:32.760000,VER,1,,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:01.046000,VER,1,148.286,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,49.266,49.754,51.759,53.621,4.157,2.884,149.27
+0 days 01:25:33.155000,VER,1,,19.0,1.0,,,False,MEDIUM,19.0,True,Red Bull Racing,4,1.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:58.873000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,124,9.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:34.141000,GAS,10,,2.0,1.0,,,False,MEDIUM,2.0,True,Alpine,4,9.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:07.477000,GAS,10,,3.0,1.0,,,False,MEDIUM,3.0,True,Alpine,4,9.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:33.968000,GAS,10,146.491,4.0,1.0,,,True,MEDIUM,4.0,True,Alpine,4,9.0,False,19,United States Grand Prix,True,C3,False,47.471,47.941,49.964,51.762,-0.412,-0.28,146.665
+0 days 00:59:51.919000,GAS,10,137.951,5.0,1.0,,,True,MEDIUM,5.0,True,Alpine,41,9.0,False,19,United States Grand Prix,True,C3,False,38.931,39.316,41.424,42.914,0.0,0.0,138.183
+0 days 01:01:31.096000,GAS,10,99.177,6.0,1.0,,,True,MEDIUM,6.0,True,Alpine,1,9.0,True,19,United States Grand Prix,True,C3,True,0.157,0.159,2.65,2.745,0.0,0.0,99.466
+0 days 01:03:10.028000,GAS,10,98.932,7.0,1.0,,,True,MEDIUM,7.0,True,Alpine,1,9.0,True,19,United States Grand Prix,True,C3,True,-0.088,-0.089,2.405,2.492,0.231,0.234,99.279
+0 days 01:04:49.405000,GAS,10,99.377,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,10.0,True,19,United States Grand Prix,True,C3,True,0.357,0.361,2.85,2.953,0.919,0.933,99.782
+0 days 01:06:29.818000,GAS,10,100.413,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,1.393,1.407,3.886,4.026,1.308,1.32,100.876
+0 days 01:08:08.849000,GAS,10,99.031,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.011,0.011,2.504,2.594,0.105,0.106,99.552
+0 days 01:09:48.586000,GAS,10,99.737,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.717,0.724,3.21,3.325,0.569,0.574,100.316
+0 days 01:11:28.586000,GAS,10,100.0,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.98,0.99,3.473,3.598,0.931,0.94,100.637
+0 days 01:13:07.995000,GAS,10,99.409,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.389,0.393,2.882,2.986,0.467,0.472,100.104
+0 days 01:14:47.493000,GAS,10,99.498,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.478,0.483,2.971,3.078,0.403,0.407,100.251
+0 days 01:16:26.785000,GAS,10,99.292,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,11.0,True,19,United States Grand Prix,True,C3,True,0.272,0.275,2.765,2.864,0.315,0.318,100.103
+0 days 01:18:34.470000,GAS,10,127.685,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,124,11.0,False,19,United States Grand Prix,True,C3,False,28.665,28.949,31.158,32.279,1.815,1.442,128.553
+0 days 01:20:52.171000,GAS,10,137.701,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,4,11.0,False,19,United States Grand Prix,True,C3,False,38.681,39.064,41.174,42.655,0.097,0.07,138.627
+0 days 01:23:09.916000,GAS,10,137.745,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,4,11.0,False,19,United States Grand Prix,True,C3,False,38.725,39.108,41.218,42.701,-6.384,-4.429,138.729
+0 days 01:25:38.214000,GAS,10,148.298,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,4,11.0,False,19,United States Grand Prix,True,C3,False,49.278,49.766,51.771,53.634,0.0,0.0,149.34
+0 days 00:50:00.084000,ANT,12,,1.0,1.0,,,False,MEDIUM,6.0,False,Mercedes,124,10.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:35.136000,ANT,12,,2.0,1.0,,,False,MEDIUM,7.0,False,Mercedes,4,10.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:08.837000,ANT,12,,3.0,1.0,,,False,MEDIUM,8.0,False,Mercedes,4,10.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:35.459000,ANT,12,146.622,4.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,4,10.0,False,19,United States Grand Prix,True,C3,False,47.602,48.073,50.095,51.897,-0.281,-0.191,146.796
+0 days 00:59:52.584000,ANT,12,137.125,5.0,1.0,,,True,MEDIUM,10.0,False,Mercedes,41,10.0,False,19,United States Grand Prix,True,C3,False,38.105,38.482,40.598,42.059,-0.826,-0.599,137.357
+0 days 01:01:31.723000,ANT,12,99.139,6.0,1.0,,,True,MEDIUM,11.0,False,Mercedes,1,10.0,True,19,United States Grand Prix,True,C3,True,0.119,0.12,2.612,2.706,-0.038,-0.038,99.428
+0 days 01:03:10.800000,ANT,12,99.077,7.0,1.0,,,True,MEDIUM,12.0,False,Mercedes,1,10.0,True,19,United States Grand Prix,True,C3,True,0.057,0.058,2.55,2.642,0.376,0.381,99.424
+0 days 01:04:48.558000,ANT,12,97.758,8.0,1.0,,,True,MEDIUM,13.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,-1.262,-1.274,1.231,1.275,-0.7,-0.711,98.163
+0 days 01:06:27.174000,ANT,12,98.616,9.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,-0.404,-0.408,2.089,2.164,-0.489,-0.493,99.079
+0 days 01:08:06.100000,ANT,12,98.926,10.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,-0.094,-0.095,2.399,2.485,0.0,0.0,99.447
+0 days 01:09:45.231000,ANT,12,99.131,11.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,0.111,0.112,2.604,2.698,-0.037,-0.037,99.71
+0 days 01:11:24.211000,ANT,12,98.98,12.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,-0.04,-0.04,2.453,2.541,-0.089,-0.09,99.617
+0 days 01:13:03.030000,ANT,12,98.819,13.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,-0.201,-0.203,2.292,2.374,-0.123,-0.124,99.514
+0 days 01:14:42.056000,ANT,12,99.026,14.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,0.006,0.006,2.499,2.589,-0.069,-0.07,99.779
+0 days 01:16:21.226000,ANT,12,99.17,15.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,9.0,True,19,United States Grand Prix,True,C3,True,0.15,0.151,2.643,2.738,0.193,0.195,99.981
+0 days 01:18:27.131000,ANT,12,125.905,16.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,124,9.0,False,19,United States Grand Prix,True,C3,False,26.885,27.151,29.378,30.435,0.035,0.028,126.773
+0 days 01:20:44.639000,ANT,12,137.508,17.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,4,9.0,False,19,United States Grand Prix,True,C3,False,38.488,38.869,40.981,42.455,-0.096,-0.07,138.434
+0 days 01:23:08.461000,ANT,12,143.822,18.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,4,9.0,False,19,United States Grand Prix,True,C3,False,44.802,45.245,47.295,48.997,-0.307,-0.213,144.806
+0 days 01:25:37.258000,ANT,12,148.797,19.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,4,9.0,False,19,United States Grand Prix,True,C3,False,49.777,50.27,52.27,54.151,0.499,0.336,149.839
+0 days 00:49:32.806000,ALO,14,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,124,,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:41.232000,LEC,16,,1.0,1.0,,,False,MEDIUM,2.0,False,Ferrari,124,4.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:27.452000,LEC,16,,2.0,1.0,,,False,MEDIUM,3.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:00.949000,LEC,16,,3.0,1.0,,,False,MEDIUM,4.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:28.883000,LEC,16,147.934,4.0,1.0,,,True,MEDIUM,5.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,48.914,49.398,51.407,53.257,1.031,0.702,148.108
+0 days 00:59:49.206000,LEC,16,140.323,5.0,1.0,,,True,MEDIUM,6.0,False,Ferrari,41,4.0,False,19,United States Grand Prix,True,C3,False,41.303,41.712,43.796,45.372,2.372,1.719,140.555
+0 days 01:01:27.075000,LEC,16,97.869,6.0,1.0,,,True,MEDIUM,7.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-1.151,-1.162,1.342,1.39,-1.308,-1.319,98.158
+0 days 01:03:04.466000,LEC,16,97.391,7.0,1.0,,,True,MEDIUM,8.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-1.629,-1.645,0.864,0.895,-1.31,-1.327,97.738
+0 days 01:04:42.278000,LEC,16,97.812,8.0,1.0,,,False,MEDIUM,9.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-1.208,-1.22,1.285,1.331,-0.646,-0.656,98.217
+0 days 01:06:22.802000,LEC,16,100.524,9.0,1.0,,,False,MEDIUM,10.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,1.504,1.519,3.997,4.141,1.419,1.432,100.987
+0 days 01:08:00.533000,LEC,16,97.731,10.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-1.289,-1.302,1.204,1.247,-1.195,-1.208,98.252
+0 days 01:09:38.689000,LEC,16,98.156,11.0,1.0,,,False,MEDIUM,12.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-0.864,-0.873,1.629,1.688,-1.012,-1.02,98.735
+0 days 01:11:17.195000,LEC,16,98.506,12.0,1.0,,,False,MEDIUM,13.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-0.514,-0.519,1.979,2.05,-0.563,-0.568,99.143
+0 days 01:12:55.161000,LEC,16,97.966,13.0,1.0,,,False,MEDIUM,14.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-1.054,-1.064,1.439,1.491,-0.976,-0.986,98.661
+0 days 01:14:33.200000,LEC,16,98.039,14.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-0.981,-0.991,1.512,1.566,-1.056,-1.066,98.792
+0 days 01:16:11.247000,LEC,16,98.047,15.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-0.973,-0.983,1.52,1.575,-0.93,-0.94,98.858
+0 days 01:18:13.335000,LEC,16,122.088,16.0,1.0,,,False,MEDIUM,17.0,False,Ferrari,124,5.0,False,19,United States Grand Prix,True,C3,False,23.068,23.296,25.561,26.481,-3.782,-3.005,122.956
+0 days 01:20:38.434000,LEC,16,145.099,17.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,46.079,46.535,48.572,50.32,7.495,5.447,146.025
+0 days 01:23:04.195000,LEC,16,145.761,18.0,1.0,,,False,MEDIUM,19.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,46.741,47.204,49.234,51.005,1.632,1.132,146.745
+0 days 01:25:35.056000,LEC,16,,19.0,1.0,,,False,MEDIUM,20.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:00.797000,STR,18,,1.0,1.0,,0 days 00:49:59.957000,False,MEDIUM,6.0,False,Aston Martin,124,11.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:40.839000,STR,18,,2.0,2.0,0 days 00:50:33.839000,,False,MEDIUM,6.0,False,Aston Martin,4,14.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:13.693000,STR,18,,3.0,2.0,,,False,MEDIUM,7.0,False,Aston Martin,4,14.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:40.997000,STR,18,147.304,4.0,2.0,,,True,MEDIUM,8.0,False,Aston Martin,4,14.0,False,19,United States Grand Prix,True,C3,False,48.284,48.762,50.777,52.604,0.401,0.273,147.478
+0 days 00:59:55.298000,STR,18,134.301,5.0,2.0,,,True,MEDIUM,9.0,False,Aston Martin,41,14.0,False,19,United States Grand Prix,True,C3,False,35.281,35.63,37.774,39.133,-3.65,-2.646,134.533
+0 days 01:01:34.940000,STR,18,99.642,6.0,2.0,,,True,MEDIUM,10.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,0.622,0.628,3.115,3.227,0.465,0.469,99.931
+0 days 01:03:14.149000,STR,18,99.209,7.0,2.0,,,True,MEDIUM,11.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,0.189,0.191,2.682,2.778,0.508,0.515,99.556
+0 days 01:04:52.915000,STR,18,98.766,8.0,2.0,,,True,MEDIUM,12.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,-0.254,-0.257,2.239,2.32,0.308,0.313,99.171
+0 days 01:06:32.235000,STR,18,99.32,9.0,2.0,,,False,MEDIUM,13.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,0.3,0.303,2.793,2.893,0.215,0.217,99.783
+0 days 01:08:11.395000,STR,18,99.16,10.0,2.0,,,False,MEDIUM,14.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,0.14,0.141,2.633,2.728,0.234,0.237,99.681
+0 days 01:09:50.985000,STR,18,99.59,11.0,2.0,,,False,MEDIUM,15.0,False,Aston Martin,1,14.0,True,19,United States Grand Prix,True,C3,True,0.57,0.576,3.063,3.173,0.422,0.426,100.169
+0 days 01:11:30.456000,STR,18,99.471,12.0,2.0,,,False,MEDIUM,16.0,False,Aston Martin,1,13.0,True,19,United States Grand Prix,True,C3,True,0.451,0.455,2.944,3.05,0.402,0.406,100.108
+0 days 01:13:09.923000,STR,18,99.467,13.0,2.0,,,False,MEDIUM,17.0,False,Aston Martin,1,13.0,True,19,United States Grand Prix,True,C3,True,0.447,0.451,2.94,3.046,0.525,0.531,100.162
+0 days 01:14:49.051000,STR,18,99.128,14.0,2.0,,,False,MEDIUM,18.0,False,Aston Martin,1,13.0,True,19,United States Grand Prix,True,C3,True,0.108,0.109,2.601,2.695,0.033,0.033,99.881
+0 days 01:16:28.289000,STR,18,99.238,15.0,2.0,,,False,MEDIUM,19.0,False,Aston Martin,1,13.0,True,19,United States Grand Prix,True,C3,True,0.218,0.22,2.711,2.809,0.261,0.264,100.049
+0 days 01:18:58.289000,STR,18,,16.0,2.0,,,True,MEDIUM,20.0,False,Aston Martin,124,,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:56.309000,TSU,22,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,124,7.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:31.430000,TSU,22,,2.0,1.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:05.299000,TSU,22,,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:32.495000,TSU,22,147.196,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,48.176,48.653,50.669,52.492,0.293,0.199,147.37
+0 days 00:59:50.679000,TSU,22,138.184,5.0,1.0,,,True,MEDIUM,5.0,True,Red Bull Racing,41,7.0,False,19,United States Grand Prix,True,C3,False,39.164,39.552,41.657,43.156,0.233,0.169,138.416
+0 days 01:01:29.814000,TSU,22,99.135,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,0.115,0.116,2.608,2.702,-0.042,-0.042,99.424
+0 days 01:03:08.233000,TSU,22,98.419,7.0,1.0,,,True,MEDIUM,7.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.601,-0.607,1.892,1.96,-0.282,-0.286,98.766
+0 days 01:04:46.691000,TSU,22,98.458,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.562,-0.568,1.931,2.0,0.0,0.0,98.863
+0 days 01:06:25.345000,TSU,22,98.654,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.366,-0.37,2.127,2.204,-0.451,-0.455,99.117
+0 days 01:08:04.393000,TSU,22,99.048,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,0.028,0.028,2.521,2.612,0.122,0.123,99.569
+0 days 01:09:43.323000,TSU,22,98.93,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.09,-0.091,2.403,2.489,-0.238,-0.24,99.509
+0 days 01:11:22.392000,TSU,22,99.069,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,0.049,0.049,2.542,2.633,0.0,0.0,99.706
+0 days 01:13:01.147000,TSU,22,98.755,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.265,-0.268,2.228,2.308,-0.187,-0.189,99.45
+0 days 01:14:40.203000,TSU,22,99.056,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,0.036,0.036,2.529,2.62,-0.039,-0.039,99.809
+0 days 01:16:18.471000,TSU,22,98.268,15.0,1.0,,,True,MEDIUM,15.0,True,Red Bull Racing,1,7.0,True,19,United States Grand Prix,True,C3,True,-0.752,-0.759,1.741,1.804,-0.709,-0.716,99.079
+0 days 01:18:22.818000,TSU,22,124.347,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,124,7.0,False,19,United States Grand Prix,True,C3,False,25.327,25.578,27.82,28.821,-1.523,-1.21,125.215
+0 days 01:20:41.837000,TSU,22,139.019,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,39.999,40.395,42.492,44.021,1.415,1.028,139.945
+0 days 01:23:06.828000,TSU,22,144.991,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,45.971,46.426,48.464,50.208,0.862,0.598,145.975
+0 days 01:25:36.157000,TSU,22,149.329,19.0,1.0,,,False,MEDIUM,19.0,True,Red Bull Racing,4,7.0,False,19,United States Grand Prix,True,C3,False,50.309,50.807,52.802,54.702,1.031,0.695,150.371
+0 days 00:49:53.472000,ALB,23,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,124,6.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:30.263000,ALB,23,,2.0,1.0,,,False,MEDIUM,2.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:03.746000,ALB,23,,3.0,1.0,,,False,MEDIUM,3.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:30.649000,ALB,23,146.903,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,47.883,48.357,50.376,52.189,0.0,0.0,147.077
+0 days 00:59:50.235000,ALB,23,139.586,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,41,6.0,False,19,United States Grand Prix,True,C3,False,40.566,40.967,43.059,44.608,1.635,1.185,139.818
+0 days 01:01:28.756000,ALB,23,98.521,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.499,-0.504,1.994,2.066,-0.656,-0.661,98.81
+0 days 01:03:06.976000,ALB,23,98.22,7.0,1.0,,,True,MEDIUM,7.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.8,-0.808,1.693,1.754,-0.481,-0.487,98.567
+0 days 01:04:45.205000,ALB,23,98.229,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.791,-0.799,1.702,1.763,-0.229,-0.233,98.634
+0 days 01:06:24.335000,ALB,23,99.13,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,0.11,0.111,2.603,2.697,0.025,0.025,99.593
+0 days 01:08:02.857000,ALB,23,98.522,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.498,-0.503,1.995,2.067,-0.404,-0.408,99.043
+0 days 01:09:42,ALB,23,99.143,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,0.123,0.124,2.616,2.71,-0.025,-0.025,99.722
+0 days 01:11:20.901000,ALB,23,98.901,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.119,-0.12,2.374,2.459,-0.168,-0.17,99.538
+0 days 01:12:59.843000,ALB,23,98.942,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.078,-0.079,2.415,2.502,0.0,0.0,99.637
+0 days 01:14:38.985000,ALB,23,99.142,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,0.122,0.123,2.615,2.709,0.047,0.047,99.895
+0 days 01:16:17.456000,ALB,23,98.471,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,6.0,True,19,United States Grand Prix,True,C3,True,-0.549,-0.554,1.944,2.014,-0.506,-0.511,99.282
+0 days 01:18:21.652000,ALB,23,124.196,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,124,6.0,False,19,United States Grand Prix,True,C3,False,25.176,25.425,27.669,28.665,-1.674,-1.33,125.064
+0 days 01:20:39.648000,ALB,23,137.996,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,38.976,39.362,41.469,42.961,0.392,0.285,138.922
+0 days 01:23:04.886000,ALB,23,145.238,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,46.218,46.675,48.711,50.464,1.109,0.769,146.222
+0 days 01:25:35.759000,ALB,23,,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,4,6.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:03.618000,HUL,27,,1.0,1.0,,0 days 00:50:02.614000,False,MEDIUM,1.0,True,Kick Sauber,124,15.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:45.624000,HUL,27,,2.0,2.0,0 days 00:50:33.902000,,False,MEDIUM,4.0,False,Kick Sauber,4,15.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:15.909000,HUL,27,,3.0,2.0,,,False,MEDIUM,5.0,False,Kick Sauber,4,15.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:42.720000,HUL,27,146.811,4.0,2.0,,,True,MEDIUM,6.0,False,Kick Sauber,4,15.0,False,19,United States Grand Prix,True,C3,False,47.791,48.264,50.284,52.093,-0.092,-0.063,146.985
+0 days 00:59:55.967000,HUL,27,133.247,5.0,2.0,,,True,MEDIUM,7.0,False,Kick Sauber,41,15.0,False,19,United States Grand Prix,True,C3,False,34.227,34.566,36.72,38.041,-4.704,-3.41,133.479
+0 days 01:01:35.704000,HUL,27,99.737,6.0,2.0,,,True,MEDIUM,8.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,0.717,0.724,3.21,3.325,0.56,0.565,100.026
+0 days 01:03:14.918000,HUL,27,99.214,7.0,2.0,,,True,MEDIUM,9.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,0.194,0.196,2.687,2.784,0.513,0.52,99.561
+0 days 01:04:53.835000,HUL,27,98.917,8.0,2.0,,,False,MEDIUM,10.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,-0.103,-0.104,2.39,2.476,0.459,0.466,99.322
+0 days 01:06:32.996000,HUL,27,99.161,9.0,2.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,0.141,0.142,2.634,2.729,0.056,0.057,99.624
+0 days 01:08:12.263000,HUL,27,99.267,10.0,2.0,,,False,MEDIUM,12.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,0.247,0.249,2.74,2.839,0.341,0.345,99.788
+0 days 01:09:51.800000,HUL,27,99.537,11.0,2.0,,,False,MEDIUM,13.0,False,Kick Sauber,1,15.0,True,19,United States Grand Prix,True,C3,True,0.517,0.522,3.01,3.118,0.369,0.372,100.116
+0 days 01:11:33.752000,HUL,27,101.952,12.0,2.0,,,False,MEDIUM,14.0,False,Kick Sauber,1,16.0,True,19,United States Grand Prix,True,C3,True,2.932,2.961,5.425,5.62,2.883,2.91,102.589
+0 days 01:13:13.315000,HUL,27,99.563,13.0,2.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,16.0,True,19,United States Grand Prix,True,C3,True,0.543,0.548,3.036,3.145,0.621,0.628,100.258
+0 days 01:14:52.384000,HUL,27,99.069,14.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,16.0,True,19,United States Grand Prix,True,C3,True,0.049,0.049,2.542,2.633,-0.026,-0.026,99.822
+0 days 01:16:31.992000,HUL,27,99.608,15.0,2.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,16.0,True,19,United States Grand Prix,True,C3,True,0.588,0.594,3.081,3.192,0.631,0.638,100.419
+0 days 01:18:42.378000,HUL,27,130.386,16.0,2.0,,,False,MEDIUM,18.0,False,Kick Sauber,124,14.0,False,19,United States Grand Prix,True,C3,False,31.366,31.676,33.859,35.077,4.516,3.588,131.254
+0 days 01:20:59.557000,HUL,27,137.179,17.0,2.0,,,False,MEDIUM,19.0,False,Kick Sauber,4,14.0,False,19,United States Grand Prix,True,C3,False,38.159,38.537,40.652,42.115,-0.425,-0.309,138.105
+0 days 01:23:12.775000,HUL,27,133.218,18.0,2.0,,,False,MEDIUM,20.0,False,Kick Sauber,4,14.0,False,19,United States Grand Prix,True,C3,False,34.198,34.536,36.691,38.011,-10.911,-7.57,134.202
+0 days 01:25:39.761000,HUL,27,146.986,19.0,2.0,,,False,MEDIUM,21.0,False,Kick Sauber,4,14.0,False,19,United States Grand Prix,True,C3,False,47.966,48.441,50.459,52.274,-1.312,-0.885,148.028
+0 days 00:50:01.344000,LAW,30,,1.0,1.0,,,False,MEDIUM,6.0,False,Racing Bulls,124,12.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:36.847000,LAW,30,,2.0,1.0,,,False,MEDIUM,7.0,False,Racing Bulls,4,11.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:10.535000,LAW,30,,3.0,1.0,,,False,MEDIUM,8.0,False,Racing Bulls,4,11.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:36.990000,LAW,30,146.455,4.0,1.0,,,True,MEDIUM,9.0,False,Racing Bulls,4,11.0,False,19,United States Grand Prix,True,C3,False,47.435,47.904,49.928,51.724,-0.448,-0.305,146.629
+0 days 00:59:53.165000,LAW,30,136.175,5.0,1.0,,,True,MEDIUM,10.0,False,Racing Bulls,41,11.0,False,19,United States Grand Prix,True,C3,False,37.155,37.523,39.648,41.075,-1.776,-1.287,136.407
+0 days 01:01:32.363000,LAW,30,99.198,6.0,1.0,,,True,MEDIUM,11.0,False,Racing Bulls,1,11.0,True,19,United States Grand Prix,True,C3,True,0.178,0.18,2.671,2.767,0.021,0.021,99.487
+0 days 01:03:11.313000,LAW,30,98.95,7.0,1.0,,,True,MEDIUM,12.0,False,Racing Bulls,1,11.0,True,19,United States Grand Prix,True,C3,True,-0.07,-0.071,2.423,2.51,0.249,0.252,99.297
+0 days 01:04:50.074000,LAW,30,98.761,8.0,1.0,,,True,MEDIUM,13.0,False,Racing Bulls,1,11.0,True,19,United States Grand Prix,True,C3,True,-0.259,-0.262,2.234,2.314,0.303,0.308,99.166
+0 days 01:06:29.179000,LAW,30,99.105,9.0,1.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,0.085,0.086,2.578,2.671,0.0,0.0,99.568
+0 days 01:08:07.833000,LAW,30,98.654,10.0,1.0,,,True,MEDIUM,15.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,-0.366,-0.37,2.127,2.204,-0.272,-0.275,99.175
+0 days 01:09:47.358000,LAW,30,99.525,11.0,1.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,0.505,0.51,2.998,3.106,0.357,0.36,100.104
+0 days 01:11:26.675000,LAW,30,99.317,12.0,1.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,0.297,0.3,2.79,2.89,0.248,0.25,99.954
+0 days 01:13:05.767000,LAW,30,99.092,13.0,1.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,0.072,0.073,2.565,2.657,0.15,0.152,99.787
+0 days 01:14:44.862000,LAW,30,99.095,14.0,1.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,0.075,0.076,2.568,2.66,0.0,0.0,99.848
+0 days 01:16:23.839000,LAW,30,98.977,15.0,1.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,10.0,True,19,United States Grand Prix,True,C3,True,-0.043,-0.043,2.45,2.538,0.0,0.0,99.788
+0 days 01:18:31.160000,LAW,30,127.321,16.0,1.0,,,False,MEDIUM,21.0,False,Racing Bulls,124,10.0,False,19,United States Grand Prix,True,C3,False,28.301,28.581,30.794,31.902,1.451,1.153,128.189
+0 days 01:20:47.336000,LAW,30,136.176,17.0,1.0,,,False,MEDIUM,22.0,False,Racing Bulls,4,10.0,False,19,United States Grand Prix,True,C3,False,37.156,37.524,39.649,41.076,-1.428,-1.038,137.102
+0 days 01:23:09.204000,LAW,30,141.868,18.0,1.0,,,False,MEDIUM,23.0,False,Racing Bulls,4,10.0,False,19,United States Grand Prix,True,C3,False,42.848,43.272,45.341,46.972,-2.261,-1.569,142.852
+0 days 01:25:37.881000,LAW,30,148.677,19.0,1.0,,,False,MEDIUM,24.0,False,Racing Bulls,4,10.0,False,19,United States Grand Prix,True,C3,False,49.657,50.148,52.15,54.026,0.379,0.256,149.719
+0 days 00:50:02.211000,OCO,31,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,124,13.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:38.258000,OCO,31,,2.0,1.0,,,False,MEDIUM,2.0,True,Haas F1 Team,4,12.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:11.423000,OCO,31,,3.0,1.0,,,False,MEDIUM,3.0,True,Haas F1 Team,4,12.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:38.327000,OCO,31,146.904,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,4,12.0,False,19,United States Grand Prix,True,C3,False,47.884,48.358,50.377,52.19,0.001,0.001,147.078
+0 days 00:59:54.074000,OCO,31,135.747,5.0,1.0,,,True,MEDIUM,5.0,True,Haas F1 Team,41,12.0,False,19,United States Grand Prix,True,C3,False,36.727,37.09,39.22,40.631,-2.204,-1.598,135.979
+0 days 01:01:33.625000,OCO,31,99.551,6.0,1.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.531,0.536,3.024,3.133,0.374,0.377,99.84
+0 days 01:03:12.326000,OCO,31,98.701,7.0,1.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,-0.319,-0.322,2.174,2.252,0.0,0.0,99.048
+0 days 01:04:51.102000,OCO,31,98.776,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,-0.244,-0.246,2.249,2.33,0.318,0.323,99.181
+0 days 01:06:30.474000,OCO,31,99.372,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.352,0.355,2.845,2.947,0.267,0.269,99.835
+0 days 01:08:09.712000,OCO,31,99.238,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.218,0.22,2.711,2.809,0.312,0.315,99.759
+0 days 01:09:49.571000,OCO,31,99.859,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.839,0.847,3.332,3.452,0.691,0.697,100.438
+0 days 01:11:29.502000,OCO,31,99.931,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.911,0.92,3.404,3.526,0.862,0.87,100.568
+0 days 01:13:08.909000,OCO,31,99.407,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.387,0.391,2.88,2.984,0.465,0.47,100.102
+0 days 01:14:48.376000,OCO,31,99.467,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.447,0.451,2.94,3.046,0.372,0.375,100.22
+0 days 01:16:27.774000,OCO,31,99.398,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,12.0,True,19,United States Grand Prix,True,C3,True,0.378,0.382,2.871,2.974,0.421,0.425,100.209
+0 days 01:18:57.774000,OCO,31,,16.0,1.0,,,True,MEDIUM,16.0,True,Haas F1 Team,124,,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:32.806000,NOR,4,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,124,,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:50.058000,COL,43,,1.0,1.0,,0 days 00:50:49.542000,False,MEDIUM,1.0,True,Alpine,124,17.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:53:13.719000,COL,43,143.661,2.0,2.0,0 days 00:51:18.511000,,False,MEDIUM,1.0,True,Alpine,4,17.0,False,19,United States Grand Prix,True,C3,False,44.641,45.083,47.134,48.83,26.522,22.641,143.719
+0 days 00:55:18.598000,COL,43,124.879,3.0,2.0,,,True,MEDIUM,2.0,True,Alpine,4,17.0,False,19,United States Grand Prix,True,C3,False,25.859,26.115,28.352,29.372,0.0,0.0,124.995
+0 days 00:57:44.540000,COL,43,145.942,4.0,2.0,,,False,MEDIUM,3.0,True,Alpine,4,17.0,False,19,United States Grand Prix,True,C3,False,46.922,47.386,49.415,51.193,-0.961,-0.654,146.116
+0 days 00:59:57.552000,COL,43,133.012,5.0,2.0,,,False,MEDIUM,4.0,True,Alpine,41,17.0,False,19,United States Grand Prix,True,C3,False,33.992,34.328,36.485,37.798,-4.939,-3.58,133.244
+0 days 01:01:37.590000,COL,43,100.038,6.0,2.0,,,True,MEDIUM,5.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,1.018,1.028,3.511,3.637,0.861,0.868,100.327
+0 days 01:03:17.416000,COL,43,99.826,7.0,2.0,,,True,MEDIUM,6.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.806,0.814,3.299,3.418,1.125,1.14,100.173
+0 days 01:04:56.724000,COL,43,99.308,8.0,2.0,,,False,MEDIUM,7.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.288,0.291,2.781,2.881,0.85,0.863,99.713
+0 days 01:06:36.262000,COL,43,99.538,9.0,2.0,,,False,MEDIUM,8.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.518,0.523,3.011,3.119,0.433,0.437,100.001
+0 days 01:08:15.497000,COL,43,99.235,10.0,2.0,,,True,MEDIUM,9.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.215,0.217,2.708,2.805,0.309,0.312,99.756
+0 days 01:09:55.717000,COL,43,100.22,11.0,2.0,,,False,MEDIUM,10.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,1.2,1.212,3.693,3.826,1.052,1.061,100.799
+0 days 01:11:36.535000,COL,43,100.818,12.0,2.0,,,False,MEDIUM,11.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,1.798,1.816,4.291,4.445,1.749,1.765,101.455
+0 days 01:13:16.460000,COL,43,99.925,13.0,2.0,,,False,MEDIUM,12.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.905,0.914,3.398,3.52,0.983,0.994,100.62
+0 days 01:14:56.280000,COL,43,99.82,14.0,2.0,,,False,MEDIUM,13.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.8,0.808,3.293,3.411,0.725,0.732,100.573
+0 days 01:16:35.845000,COL,43,99.565,15.0,2.0,,,False,MEDIUM,14.0,True,Alpine,1,17.0,True,19,United States Grand Prix,True,C3,True,0.545,0.55,3.038,3.147,0.588,0.594,100.376
+0 days 01:18:48.625000,COL,43,132.78,16.0,2.0,,,False,MEDIUM,15.0,True,Alpine,124,15.0,False,19,United States Grand Prix,True,C3,False,33.76,34.094,36.253,37.557,6.91,5.49,133.648
+0 days 01:21:05.445000,COL,43,136.82,17.0,2.0,,,False,MEDIUM,16.0,True,Alpine,4,15.0,False,19,United States Grand Prix,True,C3,False,37.8,38.174,40.293,41.743,-0.784,-0.57,137.746
+0 days 01:23:13.405000,COL,43,127.96,18.0,2.0,,,False,MEDIUM,17.0,True,Alpine,4,15.0,False,19,United States Grand Prix,True,C3,False,28.94,29.226,31.433,32.564,-16.169,-11.218,128.944
+0 days 01:25:41.143000,COL,43,147.738,19.0,2.0,,,False,MEDIUM,18.0,True,Alpine,4,15.0,False,19,United States Grand Prix,True,C3,False,48.718,49.2,51.211,53.054,-0.56,-0.378,148.78
+0 days 00:49:50.310000,HAM,44,,1.0,1.0,,,False,MEDIUM,6.0,False,Ferrari,124,5.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:29.007000,HAM,44,,2.0,1.0,,,False,MEDIUM,7.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:02.695000,HAM,44,,3.0,1.0,,,False,MEDIUM,8.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:29.446000,HAM,44,146.751,4.0,1.0,,,True,MEDIUM,9.0,False,Ferrari,4,5.0,False,19,United States Grand Prix,True,C3,False,47.731,48.203,50.224,52.031,-0.152,-0.103,146.925
+0 days 00:59:49.744000,HAM,44,140.298,5.0,1.0,,,True,MEDIUM,10.0,False,Ferrari,41,5.0,False,19,United States Grand Prix,True,C3,False,41.278,41.687,43.771,45.346,2.347,1.701,140.53
+0 days 01:01:27.831000,HAM,44,98.087,6.0,1.0,,,True,MEDIUM,11.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-0.933,-0.942,1.56,1.616,-1.09,-1.099,98.376
+0 days 01:03:05.562000,HAM,44,97.731,7.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-1.289,-1.302,1.204,1.247,-0.97,-0.983,98.078
+0 days 01:04:43.313000,HAM,44,97.751,8.0,1.0,,,False,MEDIUM,13.0,False,Ferrari,1,5.0,True,19,United States Grand Prix,True,C3,True,-1.269,-1.282,1.224,1.268,-0.707,-0.718,98.156
+0 days 01:06:21.931000,HAM,44,98.618,9.0,1.0,,,False,MEDIUM,14.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-0.402,-0.406,2.091,2.166,-0.487,-0.491,99.081
+0 days 01:07:59.027000,HAM,44,97.096,10.0,1.0,,,True,MEDIUM,15.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-1.924,-1.943,0.569,0.589,-1.83,-1.85,97.617
+0 days 01:09:37.151000,HAM,44,98.124,11.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-0.896,-0.905,1.597,1.654,-1.044,-1.053,98.703
+0 days 01:11:15.725000,HAM,44,98.574,12.0,1.0,,,False,MEDIUM,17.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-0.446,-0.45,2.047,2.121,-0.495,-0.5,99.211
+0 days 01:12:53.786000,HAM,44,98.061,13.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-0.959,-0.968,1.534,1.589,-0.881,-0.89,98.756
+0 days 01:14:31.829000,HAM,44,98.043,14.0,1.0,,,False,MEDIUM,19.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-0.977,-0.987,1.516,1.571,-1.052,-1.062,98.796
+0 days 01:16:09.768000,HAM,44,97.939,15.0,1.0,,,False,MEDIUM,20.0,False,Ferrari,1,4.0,True,19,United States Grand Prix,True,C3,True,-1.081,-1.092,1.412,1.463,-1.038,-1.049,98.75
+0 days 01:18:11.979000,HAM,44,122.211,16.0,1.0,,,False,MEDIUM,21.0,False,Ferrari,124,4.0,False,19,United States Grand Prix,True,C3,False,23.191,23.421,25.684,26.608,-3.659,-2.907,123.079
+0 days 01:20:36.015000,HAM,44,144.036,17.0,1.0,,,False,MEDIUM,22.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,45.016,45.462,47.509,49.218,6.432,4.674,144.962
+0 days 01:23:03.454000,HAM,44,147.439,18.0,1.0,,,False,MEDIUM,23.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,48.419,48.898,50.912,52.744,3.31,2.297,148.423
+0 days 01:25:34.441000,HAM,44,,19.0,1.0,,,False,MEDIUM,24.0,False,Ferrari,4,4.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:02.828000,BOR,5,,1.0,1.0,,,False,MEDIUM,1.0,True,Kick Sauber,124,14.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:39.012000,BOR,5,,2.0,1.0,,,False,MEDIUM,2.0,True,Kick Sauber,4,13.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:12.151000,BOR,5,,3.0,1.0,,,False,MEDIUM,3.0,True,Kick Sauber,4,13.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:39.105000,BOR,5,146.954,4.0,1.0,,,True,MEDIUM,4.0,True,Kick Sauber,4,13.0,False,19,United States Grand Prix,True,C3,False,47.934,48.408,50.427,52.241,0.051,0.035,147.128
+0 days 00:59:54.416000,BOR,5,135.311,5.0,1.0,,,True,MEDIUM,5.0,True,Kick Sauber,41,13.0,False,19,United States Grand Prix,True,C3,False,36.291,36.65,38.784,40.179,-2.64,-1.914,135.543
+0 days 01:01:34.062000,BOR,5,99.646,6.0,1.0,,,False,MEDIUM,6.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,0.626,0.632,3.119,3.231,0.469,0.473,99.935
+0 days 01:03:12.808000,BOR,5,98.746,7.0,1.0,,,False,MEDIUM,7.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,-0.274,-0.277,2.219,2.299,0.045,0.046,99.093
+0 days 01:04:51.814000,BOR,5,99.006,8.0,1.0,,,True,MEDIUM,8.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,-0.014,-0.014,2.479,2.568,0.548,0.557,99.411
+0 days 01:06:31.145000,BOR,5,99.331,9.0,1.0,,,False,MEDIUM,9.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,0.311,0.314,2.804,2.905,0.226,0.228,99.794
+0 days 01:08:10.484000,BOR,5,99.339,10.0,1.0,,,False,MEDIUM,10.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,0.319,0.322,2.812,2.913,0.413,0.417,99.86
+0 days 01:09:50.312000,BOR,5,99.828,11.0,1.0,,,False,MEDIUM,11.0,True,Kick Sauber,1,13.0,True,19,United States Grand Prix,True,C3,True,0.808,0.816,3.301,3.42,0.66,0.666,100.407
+0 days 01:11:31.301000,BOR,5,100.989,12.0,1.0,,,False,MEDIUM,12.0,True,Kick Sauber,1,14.0,True,19,United States Grand Prix,True,C3,True,1.969,1.988,4.462,4.623,1.92,1.938,101.626
+0 days 01:13:11.270000,BOR,5,99.969,13.0,1.0,,,False,MEDIUM,13.0,True,Kick Sauber,1,14.0,True,19,United States Grand Prix,True,C3,True,0.949,0.958,3.442,3.566,1.027,1.038,100.664
+0 days 01:14:50.911000,BOR,5,99.641,14.0,1.0,,,False,MEDIUM,14.0,True,Kick Sauber,1,14.0,True,19,United States Grand Prix,True,C3,True,0.621,0.627,3.114,3.226,0.546,0.551,100.394
+0 days 01:16:30.414000,BOR,5,99.503,15.0,1.0,,,False,MEDIUM,15.0,True,Kick Sauber,1,14.0,True,19,United States Grand Prix,True,C3,True,0.483,0.488,2.976,3.083,0.526,0.531,100.314
+0 days 01:18:39.823000,BOR,5,129.409,16.0,1.0,,,False,MEDIUM,16.0,True,Kick Sauber,124,12.0,False,19,United States Grand Prix,True,C3,False,30.389,30.69,32.882,34.065,3.539,2.812,130.277
+0 days 01:20:56.624000,BOR,5,136.801,17.0,1.0,,,False,MEDIUM,17.0,True,Kick Sauber,4,12.0,False,19,United States Grand Prix,True,C3,False,37.781,38.155,40.274,41.723,-0.803,-0.584,137.727
+0 days 01:23:10.827000,BOR,5,134.203,18.0,1.0,,,False,MEDIUM,18.0,True,Kick Sauber,4,12.0,False,19,United States Grand Prix,True,C3,False,35.183,35.531,37.676,39.032,-9.926,-6.887,135.187
+0 days 01:25:38.652000,BOR,5,147.825,19.0,1.0,,,False,MEDIUM,19.0,True,Kick Sauber,4,12.0,False,19,United States Grand Prix,True,C3,False,48.805,49.288,51.298,53.144,-0.473,-0.319,148.867
+0 days 00:49:37.897000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,124,3.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:24.884000,SAI,55,,2.0,1.0,,,False,MEDIUM,2.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:54:59.141000,SAI,55,,3.0,1.0,,,False,MEDIUM,3.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:26.297000,SAI,55,147.156,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,48.136,48.612,50.629,52.451,0.253,0.172,147.33
+0 days 00:59:48.547000,SAI,55,142.25,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,41,3.0,False,19,United States Grand Prix,True,C3,False,43.23,43.658,45.723,47.368,4.299,3.116,142.482
+0 days 01:01:26.057000,SAI,55,97.51,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-1.51,-1.525,0.983,1.018,-1.667,-1.681,97.799
+0 days 01:03:03.686000,SAI,55,97.629,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-1.391,-1.405,1.102,1.142,-1.072,-1.086,97.976
+0 days 01:04:41.592000,SAI,55,97.906,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-1.114,-1.125,1.379,1.429,-0.552,-0.561,98.311
+0 days 01:06:19.660000,SAI,55,98.068,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-0.952,-0.961,1.541,1.596,-1.037,-1.046,98.531
+0 days 01:07:57.706000,SAI,55,98.046,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-0.974,-0.984,1.519,1.574,-0.88,-0.89,98.567
+0 days 01:09:36,SAI,55,98.294,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-0.726,-0.733,1.767,1.831,-0.874,-0.881,98.873
+0 days 01:11:14.285000,SAI,55,98.285,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-0.735,-0.742,1.758,1.821,-0.784,-0.791,98.922
+0 days 01:12:52.301000,SAI,55,98.016,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-1.004,-1.014,1.489,1.543,-0.926,-0.936,98.711
+0 days 01:14:30.476000,SAI,55,98.175,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-0.845,-0.853,1.648,1.707,-0.92,-0.928,98.928
+0 days 01:16:08.462000,SAI,55,97.986,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,3.0,True,19,United States Grand Prix,True,C3,True,-1.034,-1.044,1.459,1.511,-0.991,-1.001,98.797
+0 days 01:18:09.669000,SAI,55,121.207,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,124,3.0,False,19,United States Grand Prix,True,C3,False,22.187,22.407,24.68,25.568,-4.663,-3.705,122.075
+0 days 01:20:35.346000,SAI,55,145.677,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,46.657,47.119,49.15,50.918,8.073,5.867,146.603
+0 days 01:23:02.607000,SAI,55,147.261,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,48.241,48.718,50.734,52.559,3.132,2.173,148.245
+0 days 01:25:34.022000,SAI,55,,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,4,3.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:49.840000,HAD,6,,1.0,1.0,,,False,MEDIUM,7.0,False,Racing Bulls,124,16.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:46.979000,HAD,6,117.139,2.0,1.0,,,True,MEDIUM,8.0,False,Racing Bulls,4,16.0,False,19,United States Grand Prix,True,C3,False,18.119,18.298,20.612,21.354,0.0,0.0,117.197
+0 days 00:55:17.436000,HAD,6,,3.0,1.0,,,False,MEDIUM,9.0,False,Racing Bulls,4,16.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:43.333000,HAD,6,145.897,4.0,1.0,,,False,MEDIUM,10.0,False,Racing Bulls,4,16.0,False,19,United States Grand Prix,True,C3,False,46.877,47.341,49.37,51.146,-1.006,-0.685,146.071
+0 days 00:59:56.544000,HAD,6,133.211,5.0,1.0,,,False,MEDIUM,11.0,False,Racing Bulls,41,16.0,False,19,United States Grand Prix,True,C3,False,34.191,34.529,36.684,38.004,-4.74,-3.436,133.443
+0 days 01:01:36.470000,HAD,6,99.926,6.0,1.0,,,True,MEDIUM,12.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,0.906,0.915,3.399,3.521,0.749,0.755,100.215
+0 days 01:03:15.557000,HAD,6,99.087,7.0,1.0,,,True,MEDIUM,13.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,0.067,0.068,2.56,2.652,0.386,0.391,99.434
+0 days 01:04:54.614000,HAD,6,99.057,8.0,1.0,,,True,MEDIUM,14.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,0.037,0.037,2.53,2.621,0.599,0.608,99.462
+0 days 01:06:33.632000,HAD,6,99.018,9.0,1.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,-0.002,-0.002,2.491,2.581,-0.087,-0.088,99.481
+0 days 01:08:13.083000,HAD,6,99.451,10.0,1.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,0.431,0.435,2.924,3.029,0.525,0.531,99.972
+0 days 01:09:53.042000,HAD,6,99.959,11.0,1.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,16.0,True,19,United States Grand Prix,True,C3,True,0.939,0.948,3.432,3.555,0.791,0.798,100.538
+0 days 01:11:33.077000,HAD,6,100.035,12.0,1.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,15.0,True,19,United States Grand Prix,True,C3,True,1.015,1.025,3.508,3.634,0.966,0.975,100.672
+0 days 01:13:12.280000,HAD,6,99.203,13.0,1.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,15.0,True,19,United States Grand Prix,True,C3,True,0.183,0.185,2.676,2.772,0.261,0.264,99.898
+0 days 01:14:51.658000,HAD,6,99.378,14.0,1.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,15.0,True,19,United States Grand Prix,True,C3,True,0.358,0.362,2.851,2.954,0.283,0.286,100.131
+0 days 01:16:31.099000,HAD,6,99.441,15.0,1.0,,,False,MEDIUM,21.0,False,Racing Bulls,1,15.0,True,19,United States Grand Prix,True,C3,True,0.421,0.425,2.914,3.019,0.464,0.469,100.252
+0 days 01:18:40.950000,HAD,6,129.851,16.0,1.0,,,False,MEDIUM,22.0,False,Racing Bulls,124,13.0,False,19,United States Grand Prix,True,C3,False,30.831,31.136,33.324,34.523,3.981,3.163,130.719
+0 days 01:20:57.858000,HAD,6,136.908,17.0,1.0,,,False,MEDIUM,23.0,False,Racing Bulls,4,13.0,False,19,United States Grand Prix,True,C3,False,37.888,38.263,40.381,41.834,-0.696,-0.506,137.834
+0 days 01:23:11.646000,HAD,6,133.788,18.0,1.0,,,False,MEDIUM,24.0,False,Racing Bulls,4,13.0,False,19,United States Grand Prix,True,C3,False,34.768,35.112,37.261,38.602,-10.341,-7.175,134.772
+0 days 01:25:39.320000,HAD,6,147.674,19.0,1.0,,,False,MEDIUM,25.0,False,Racing Bulls,4,13.0,False,19,United States Grand Prix,True,C3,False,48.654,49.136,51.147,52.987,-0.624,-0.421,148.716
+0 days 00:49:36.967000,RUS,63,,1.0,1.0,,,False,MEDIUM,6.0,False,Mercedes,124,2.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:23.249000,RUS,63,,2.0,1.0,,,False,MEDIUM,7.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:54:57.486000,RUS,63,,3.0,1.0,,,False,MEDIUM,8.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:25.054000,RUS,63,147.568,4.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,48.548,49.028,51.041,52.877,0.665,0.453,147.742
+0 days 00:59:48.191000,RUS,63,143.137,5.0,1.0,,,True,MEDIUM,10.0,False,Mercedes,41,2.0,False,19,United States Grand Prix,True,C3,False,44.117,44.554,46.61,48.287,5.186,3.759,143.369
+0 days 01:01:25.067000,RUS,63,96.876,6.0,1.0,,,True,MEDIUM,11.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-2.144,-2.165,0.349,0.362,-2.301,-2.32,97.165
+0 days 01:03:01.623000,RUS,63,96.556,7.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-2.464,-2.488,0.029,0.03,-2.145,-2.173,96.903
+0 days 01:04:39.480000,RUS,63,97.857,8.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.163,-1.175,1.33,1.378,-0.601,-0.61,98.262
+0 days 01:06:17.412000,RUS,63,97.932,9.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.088,-1.099,1.405,1.456,-1.173,-1.184,98.395
+0 days 01:07:55.126000,RUS,63,97.714,10.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.306,-1.319,1.187,1.23,-1.212,-1.225,98.235
+0 days 01:09:33.314000,RUS,63,98.188,11.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-0.832,-0.84,1.661,1.721,-0.98,-0.988,98.767
+0 days 01:11:11.673000,RUS,63,98.359,12.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-0.661,-0.668,1.832,1.898,-0.71,-0.717,98.996
+0 days 01:12:49.537000,RUS,63,97.864,13.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.156,-1.167,1.337,1.385,-1.078,-1.09,98.559
+0 days 01:14:27.483000,RUS,63,97.946,14.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.074,-1.085,1.419,1.47,-1.149,-1.159,98.699
+0 days 01:16:05.244000,RUS,63,97.761,15.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,2.0,True,19,United States Grand Prix,True,C3,True,-1.259,-1.271,1.234,1.278,-1.216,-1.229,98.572
+0 days 01:18:05.189000,RUS,63,119.945,16.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,124,2.0,False,19,United States Grand Prix,True,C3,False,20.925,21.132,23.418,24.261,-5.925,-4.707,120.813
+0 days 01:20:34.208000,RUS,63,149.019,17.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,49.999,50.494,52.492,54.381,11.415,8.296,149.945
+0 days 01:23:02.011000,RUS,63,147.803,18.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,48.783,49.266,51.276,53.121,3.674,2.549,148.787
+0 days 01:25:33.625000,RUS,63,,19.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,4,2.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:32.806000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,124,,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:57.930000,BEA,87,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,124,8.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:52:32.958000,BEA,87,,2.0,1.0,,,False,MEDIUM,2.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:55:06.732000,BEA,87,,3.0,1.0,,,False,MEDIUM,3.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:33.193000,BEA,87,146.461,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,47.441,47.911,49.934,51.731,-0.442,-0.301,146.635
+0 days 00:59:51.377000,BEA,87,138.184,5.0,1.0,,,True,MEDIUM,5.0,True,Haas F1 Team,41,8.0,False,19,United States Grand Prix,True,C3,False,39.164,39.552,41.657,43.156,0.233,0.169,138.416
+0 days 01:01:30.617000,BEA,87,99.24,6.0,1.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,0.22,0.222,2.713,2.811,0.063,0.064,99.529
+0 days 01:03:09.194000,BEA,87,98.577,7.0,1.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.443,-0.447,2.05,2.124,-0.124,-0.126,98.924
+0 days 01:04:47.629000,BEA,87,98.435,8.0,1.0,,,True,MEDIUM,8.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.585,-0.591,1.908,1.977,-0.023,-0.023,98.84
+0 days 01:06:26.294000,BEA,87,98.665,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.355,-0.359,2.138,2.215,-0.44,-0.444,99.128
+0 days 01:08:05.220000,BEA,87,98.926,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.094,-0.095,2.399,2.485,0.0,0.0,99.447
+0 days 01:09:44.388000,BEA,87,99.168,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,0.148,0.149,2.641,2.736,0.0,0.0,99.747
+0 days 01:11:23.410000,BEA,87,99.022,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,0.002,0.002,2.495,2.585,-0.047,-0.047,99.659
+0 days 01:13:02.119000,BEA,87,98.709,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.311,-0.314,2.182,2.261,-0.233,-0.235,99.404
+0 days 01:14:41.543000,BEA,87,99.424,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,0.404,0.408,2.897,3.001,0.329,0.332,100.177
+0 days 01:16:20.316000,BEA,87,98.773,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,8.0,True,19,United States Grand Prix,True,C3,True,-0.247,-0.249,2.246,2.327,-0.204,-0.206,99.584
+0 days 01:18:26.186000,BEA,87,125.87,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,124,8.0,False,19,United States Grand Prix,True,C3,False,26.85,27.116,29.343,30.399,0.0,0.0,126.738
+0 days 01:20:43.656000,BEA,87,137.47,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,38.45,38.831,40.943,42.416,-0.134,-0.097,138.396
+0 days 01:23:07.785000,BEA,87,144.129,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,45.109,45.555,47.602,49.315,0.0,0.0,145.113
+0 days 01:25:36.748000,BEA,87,148.963,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,49.943,50.437,52.436,54.323,0.665,0.448,150.005
