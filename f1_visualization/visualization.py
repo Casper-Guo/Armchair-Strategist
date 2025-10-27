@@ -318,14 +318,14 @@ def add_gap(
     Returns:
         Modified dataframe with the gap column under the name GapTo{driver}
     """
-    assert not (
-        not modify_global and df_laps is None
-    ), "df_laps must be provided if not editing in-place."
+    assert not (not modify_global and df_laps is None), (
+        "df_laps must be provided if not editing in-place."
+    )
 
     if modify_global:
-        assert (
-            "season" in kwargs and "session_type" in kwargs
-        ), "Setting modify_global=True requires specifying season and session_type."
+        assert "season" in kwargs and "session_type" in kwargs, (
+            "Setting modify_global=True requires specifying season and session_type."
+        )
         season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
 
@@ -596,9 +596,9 @@ def _process_input(
     if isinstance(session_types, str):
         session_types = [session_types]
 
-    assert (
-        len(seasons) == len(events) == len(session_types)
-    ), f"Arguments {seasons}, {events}, {session_types} have different lengths."
+    assert len(seasons) == len(events) == len(session_types), (
+        f"Arguments {seasons}, {events}, {session_types} have different lengths."
+    )
 
     # Combine seasons and events and get FastF1 event objects
     event_objects = [f.get_event(seasons[i], events[i]) for i in range(len(seasons))]
@@ -898,6 +898,14 @@ def driver_stats_lineplot(
         plt.grid(visible=True, which="major", axis=grid)
     else:
         plt.grid(visible=False)
+
+    if y == "Position":
+        # need to manually enforce these axis labels
+        # because when including the starting (lap 0) position
+        # the graph is made with constructed series instead of dataframe columns
+        # causing the axis labels to show up as None
+        ax.set_xlabel("LapNumber")
+        ax.set_ylabel("Position")
 
     fig.suptitle(t=f"{season} {event_name}", fontsize=20)
     return fig
