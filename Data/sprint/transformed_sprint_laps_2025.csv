@@ -1327,3 +1327,447 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:20:43.656000,BEA,87,137.47,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,38.45,38.831,40.943,42.416,-0.134,-0.097,138.396
 0 days 01:23:07.785000,BEA,87,144.129,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,45.109,45.555,47.602,49.315,0.0,0.0,145.113
 0 days 01:25:36.748000,BEA,87,148.963,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,4,8.0,False,19,United States Grand Prix,True,C3,False,49.943,50.437,52.436,54.323,0.665,0.448,150.005
+0 days 00:49:40.075000,VER,1,,1.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,12,5.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:50:54.812000,VER,1,74.737,2.0,1.0,,,True,SOFT,5.0,False,Red Bull Racing,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,0.821,1.111,2.617,3.629,-0.951,-1.256,74.783
+0 days 00:52:08.582000,VER,1,73.77,3.0,1.0,,,True,SOFT,6.0,False,Red Bull Racing,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.146,-0.198,1.65,2.288,-0.863,-1.156,73.862
+0 days 00:53:22.267000,VER,1,73.685,4.0,1.0,,,True,SOFT,7.0,False,Red Bull Racing,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.231,-0.313,1.565,2.17,-0.221,-0.299,73.822
+0 days 00:54:35.919000,VER,1,73.652,5.0,1.0,,,True,SOFT,8.0,False,Red Bull Racing,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.264,-0.357,1.532,2.124,-0.132,-0.179,73.835
+0 days 00:56:12.262000,VER,1,96.343,6.0,1.0,,,False,SOFT,9.0,False,Red Bull Racing,124,4.0,False,21,São Paulo Grand Prix,True,C4,False,22.427,30.341,24.223,33.587,-4.321,-4.292,96.572
+0 days 00:58:10.198000,VER,1,117.936,7.0,1.0,,0 days 00:58:06.332000,False,SOFT,10.0,False,Red Bull Racing,45,4.0,False,21,São Paulo Grand Prix,True,C4,False,44.02,59.554,45.816,63.527,,,118.211
+0 days 01:22:17.576000,VER,1,,8.0,2.0,0 days 01:20:17.699000,,False,MEDIUM,7.0,False,Red Bull Racing,1,4.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:33.379000,VER,1,75.803,9.0,2.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,1.887,2.553,3.683,5.107,-0.637,-0.833,76.17
+0 days 01:24:46.313000,VER,1,72.934,10.0,2.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.982,-1.329,0.814,1.129,-0.934,-1.264,73.346
+0 days 01:25:58.936000,VER,1,72.623,11.0,2.0,,,True,MEDIUM,10.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.293,-1.749,0.503,0.697,-0.951,-1.293,73.081
+0 days 01:27:11.553000,VER,1,72.617,12.0,2.0,,,True,MEDIUM,11.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.299,-1.757,0.497,0.689,-0.963,-1.309,73.121
+0 days 01:28:24.515000,VER,1,72.962,13.0,2.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.954,-1.291,0.842,1.167,-0.423,-0.576,73.512
+0 days 01:29:37.335000,VER,1,72.82,14.0,2.0,,,False,MEDIUM,13.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.096,-1.483,0.7,0.971,-1.016,-1.376,73.416
+0 days 01:30:50.110000,VER,1,72.775,15.0,2.0,,,False,MEDIUM,14.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.141,-1.544,0.655,0.908,-1.004,-1.361,73.417
+0 days 01:32:02.939000,VER,1,72.829,16.0,2.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.087,-1.471,0.709,0.983,-0.999,-1.353,73.516
+0 days 01:33:15.994000,VER,1,73.055,17.0,2.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.861,-1.165,0.935,1.296,-0.963,-1.301,73.788
+0 days 01:34:28.958000,VER,1,72.964,18.0,2.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.952,-1.288,0.844,1.17,-0.873,-1.182,73.743
+0 days 01:35:41.815000,VER,1,72.857,19.0,2.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.059,-1.433,0.737,1.022,-1.22,-1.647,73.682
+0 days 01:36:54.874000,VER,1,73.059,20.0,2.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.857,-1.159,0.939,1.302,-0.783,-1.06,73.93
+0 days 01:38:07.852000,VER,1,72.978,21.0,2.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.938,-1.269,0.858,1.19,-0.885,-1.198,73.895
+0 days 01:39:20.882000,VER,1,73.03,22.0,2.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-0.886,-1.199,0.91,1.262,-0.806,-1.092,73.992
+0 days 01:40:33.792000,VER,1,72.91,23.0,2.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,4.0,True,21,São Paulo Grand Prix,True,C3,True,-1.006,-1.361,0.79,1.095,-1.392,-1.873,73.918
+0 days 01:41:48.861000,VER,1,75.069,24.0,2.0,,,False,MEDIUM,23.0,False,Red Bull Racing,12,4.0,True,21,São Paulo Grand Prix,True,C3,False,1.153,1.56,2.949,4.089,-2.573,-3.314,76.123
+0 days 00:49:44.074000,GAS,10,,1.0,1.0,,,False,MEDIUM,7.0,False,Alpine,12,11.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:59.756000,GAS,10,75.682,2.0,1.0,,,True,MEDIUM,8.0,False,Alpine,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,1.766,2.389,3.562,4.939,-0.006,-0.008,75.728
+0 days 00:52:14.875000,GAS,10,75.119,3.0,1.0,,,True,MEDIUM,9.0,False,Alpine,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,1.203,1.628,2.999,4.158,0.486,0.651,75.211
+0 days 00:53:28.286000,GAS,10,73.411,4.0,1.0,,,True,MEDIUM,10.0,False,Alpine,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.505,-0.683,1.291,1.79,-0.495,-0.67,73.548
+0 days 00:54:41.502000,GAS,10,73.216,5.0,1.0,,,True,MEDIUM,11.0,False,Alpine,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.7,-0.947,1.096,1.52,-0.568,-0.77,73.399
+0 days 00:56:22.789000,GAS,10,101.287,6.0,1.0,,,False,MEDIUM,12.0,False,Alpine,124,9.0,False,21,São Paulo Grand Prix,True,C3,False,27.371,37.03,29.167,40.442,0.623,0.619,101.516
+0 days 00:58:29.555000,GAS,10,126.766,7.0,1.0,,0 days 00:58:25.884000,False,MEDIUM,13.0,False,Alpine,45,9.0,False,21,São Paulo Grand Prix,True,C3,False,52.85,71.5,54.646,75.771,,,127.041
+0 days 01:22:19.072000,GAS,10,,8.0,2.0,0 days 01:20:35.855000,,False,SOFT,1.0,True,Alpine,1,9.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 01:23:35.974000,GAS,10,76.902,9.0,2.0,,,False,SOFT,2.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,2.986,4.04,4.782,6.631,0.462,0.604,77.269
+0 days 01:24:49.790000,GAS,10,73.816,10.0,2.0,,,False,SOFT,3.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.1,-0.135,1.696,2.352,-0.052,-0.07,74.228
+0 days 01:26:03.012000,GAS,10,73.222,11.0,2.0,,,False,SOFT,4.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.694,-0.939,1.102,1.528,-0.352,-0.478,73.68
+0 days 01:27:16.614000,GAS,10,73.602,12.0,2.0,,,False,SOFT,5.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.314,-0.425,1.482,2.055,0.022,0.03,74.106
+0 days 01:28:29.769000,GAS,10,73.155,13.0,2.0,,,True,SOFT,6.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.761,-1.03,1.035,1.435,-0.23,-0.313,73.705
+0 days 01:29:43.304000,GAS,10,73.535,14.0,2.0,,,False,SOFT,7.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.381,-0.515,1.415,1.962,-0.301,-0.408,74.131
+0 days 01:30:57.005000,GAS,10,73.701,15.0,2.0,,,False,SOFT,8.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.215,-0.291,1.581,2.192,-0.078,-0.106,74.343
+0 days 01:32:10.786000,GAS,10,73.781,16.0,2.0,,,False,SOFT,9.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.135,-0.183,1.661,2.303,-0.047,-0.064,74.468
+0 days 01:33:24.724000,GAS,10,73.938,17.0,2.0,,,False,SOFT,10.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,0.022,0.03,1.818,2.521,-0.08,-0.108,74.671
+0 days 01:34:38.581000,GAS,10,73.857,18.0,2.0,,,False,SOFT,11.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.059,-0.08,1.737,2.408,0.02,0.027,74.636
+0 days 01:35:52.594000,GAS,10,74.013,19.0,2.0,,,False,SOFT,12.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,0.097,0.131,1.893,2.625,-0.064,-0.086,74.838
+0 days 01:37:06.267000,GAS,10,73.673,20.0,2.0,,,False,SOFT,13.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,-0.243,-0.329,1.553,2.153,-0.169,-0.229,74.544
+0 days 01:38:20.648000,GAS,10,74.381,21.0,2.0,,,False,SOFT,14.0,True,Alpine,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,0.465,0.629,2.261,3.135,0.518,0.701,75.298
+0 days 01:39:34.064000,GAS,10,73.416,22.0,2.0,,,False,SOFT,15.0,True,Alpine,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.5,-0.676,1.296,1.797,-0.42,-0.569,74.378
+0 days 01:40:47.378000,GAS,10,73.314,23.0,2.0,,,False,SOFT,16.0,True,Alpine,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.602,-0.814,1.194,1.656,-0.988,-1.33,74.322
+0 days 01:42:03.787000,GAS,10,76.409,24.0,2.0,,,False,SOFT,17.0,True,Alpine,12,8.0,True,21,São Paulo Grand Prix,True,C4,False,2.493,3.373,4.289,5.947,-1.233,-1.588,77.463
+0 days 00:49:38.110000,ANT,12,,1.0,1.0,,,False,SOFT,7.0,False,Mercedes,12,2.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:50:52.166000,ANT,12,74.056,2.0,1.0,,,True,SOFT,8.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C4,True,0.14,0.189,1.936,2.684,-1.632,-2.156,74.102
+0 days 00:52:05.636000,ANT,12,73.47,3.0,1.0,,,True,SOFT,9.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C4,True,-0.446,-0.603,1.35,1.872,-1.163,-1.558,73.562
+0 days 00:53:18.607000,ANT,12,72.971,4.0,1.0,,,True,SOFT,10.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C4,True,-0.945,-1.278,0.851,1.18,-0.935,-1.265,73.108
+0 days 00:54:31.574000,ANT,12,72.967,5.0,1.0,,,True,SOFT,11.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C4,True,-0.949,-1.284,0.847,1.174,-0.817,-1.107,73.15
+0 days 00:56:06.470000,ANT,12,94.896,6.0,1.0,,,False,SOFT,12.0,False,Mercedes,124,2.0,False,21,São Paulo Grand Prix,True,C4,False,20.98,28.384,22.776,31.581,-5.768,-5.73,95.125
+0 days 00:58:04.687000,ANT,12,118.217,7.0,1.0,,0 days 00:58:01.806000,False,SOFT,13.0,False,Mercedes,45,2.0,False,21,São Paulo Grand Prix,True,C4,False,44.301,59.934,46.097,63.917,,,118.492
+0 days 01:22:16.932000,ANT,12,,8.0,2.0,0 days 01:20:10.876000,,False,MEDIUM,6.0,False,Mercedes,1,2.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:31.499000,ANT,12,74.567,9.0,2.0,,,False,MEDIUM,7.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,0.651,0.881,2.447,3.393,-1.873,-2.45,74.934
+0 days 01:24:43.637000,ANT,12,72.138,10.0,2.0,,,True,MEDIUM,8.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.778,-2.405,0.018,0.025,-1.73,-2.342,72.55
+0 days 01:25:55.877000,ANT,12,72.24,11.0,2.0,,,False,MEDIUM,9.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.676,-2.267,0.12,0.166,-1.334,-1.813,72.698
+0 days 01:27:08.167000,ANT,12,72.29,12.0,2.0,,,False,MEDIUM,10.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.626,-2.2,0.17,0.236,-1.29,-1.753,72.794
+0 days 01:28:20.535000,ANT,12,72.368,13.0,2.0,,,False,MEDIUM,11.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.548,-2.094,0.248,0.344,-1.017,-1.386,72.918
+0 days 01:29:33.156000,ANT,12,72.621,14.0,2.0,,,False,MEDIUM,12.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.295,-1.752,0.501,0.695,-1.215,-1.646,73.217
+0 days 01:30:45.745000,ANT,12,72.589,15.0,2.0,,,False,MEDIUM,13.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.327,-1.795,0.469,0.65,-1.19,-1.613,73.231
+0 days 01:31:58.450000,ANT,12,72.705,16.0,2.0,,,False,MEDIUM,14.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.211,-1.638,0.585,0.811,-1.123,-1.521,73.392
+0 days 01:33:11.341000,ANT,12,72.891,17.0,2.0,,,False,MEDIUM,15.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.025,-1.387,0.771,1.069,-1.127,-1.523,73.624
+0 days 01:34:24.647000,ANT,12,73.306,18.0,2.0,,,False,MEDIUM,16.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-0.61,-0.825,1.186,1.644,-0.531,-0.719,74.085
+0 days 01:35:37.861000,ANT,12,73.214,19.0,2.0,,,False,MEDIUM,17.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-0.702,-0.95,1.094,1.517,-0.863,-1.165,74.039
+0 days 01:36:50.943000,ANT,12,73.082,20.0,2.0,,,False,MEDIUM,18.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-0.834,-1.128,0.962,1.334,-0.76,-1.029,73.953
+0 days 01:38:04.246000,ANT,12,73.303,21.0,2.0,,,False,MEDIUM,19.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-0.613,-0.829,1.183,1.64,-0.56,-0.758,74.22
+0 days 01:39:17.359000,ANT,12,73.113,22.0,2.0,,,False,MEDIUM,20.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-0.803,-1.086,0.993,1.377,-0.723,-0.979,74.076
+0 days 01:40:30.221000,ANT,12,72.862,23.0,2.0,,,False,MEDIUM,21.0,False,Mercedes,1,2.0,True,21,São Paulo Grand Prix,True,C3,True,-1.054,-1.426,0.742,1.029,-1.44,-1.938,73.87
+0 days 01:41:45.205000,ANT,12,74.984,24.0,2.0,,,False,MEDIUM,22.0,False,Mercedes,12,2.0,True,21,São Paulo Grand Prix,True,C3,False,1.068,1.445,2.864,3.971,-2.658,-3.423,76.038
+0 days 00:49:40.751000,ALO,14,,1.0,1.0,,,False,MEDIUM,4.0,False,Aston Martin,12,6.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:55.780000,ALO,14,75.029,2.0,1.0,,,True,MEDIUM,5.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,1.113,1.506,2.909,4.034,-0.659,-0.871,75.075
+0 days 00:52:10.034000,ALO,14,74.254,3.0,1.0,,,True,MEDIUM,6.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,0.338,0.457,2.134,2.959,-0.379,-0.508,74.346
+0 days 00:53:23.845000,ALO,14,73.811,4.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.105,-0.142,1.691,2.345,-0.095,-0.129,73.949
+0 days 00:54:37.796000,ALO,14,73.951,5.0,1.0,,,False,MEDIUM,8.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,0.035,0.047,1.831,2.539,0.167,0.226,74.134
+0 days 00:56:13.893000,ALO,14,96.097,6.0,1.0,,,False,MEDIUM,9.0,False,Aston Martin,124,5.0,False,21,São Paulo Grand Prix,True,C3,False,22.181,30.008,23.977,33.246,-4.567,-4.537,96.326
+0 days 00:58:18.177000,ALO,14,124.284,7.0,1.0,,0 days 00:58:15.317000,False,MEDIUM,10.0,False,Aston Martin,45,5.0,False,21,São Paulo Grand Prix,True,C3,False,50.368,68.142,52.164,72.329,,,124.559
+0 days 01:22:17.737000,ALO,14,,8.0,2.0,0 days 01:20:22.170000,,False,SOFT,4.0,False,Aston Martin,1,5.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 01:23:34.094000,ALO,14,76.357,9.0,2.0,,,False,SOFT,5.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,2.441,3.302,4.237,5.875,-0.083,-0.109,76.724
+0 days 01:24:47.345000,ALO,14,73.251,10.0,2.0,,,True,SOFT,6.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.665,-0.9,1.131,1.568,-0.617,-0.835,73.664
+0 days 01:26:00.571000,ALO,14,73.226,11.0,2.0,,,True,SOFT,7.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.69,-0.933,1.106,1.534,-0.348,-0.473,73.684
+0 days 01:27:13.949000,ALO,14,73.378,12.0,2.0,,,False,SOFT,8.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.538,-0.728,1.258,1.744,-0.202,-0.275,73.882
+0 days 01:28:27.202000,ALO,14,73.253,13.0,2.0,,,False,SOFT,9.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.663,-0.897,1.133,1.571,-0.132,-0.18,73.803
+0 days 01:29:40.865000,ALO,14,73.663,14.0,2.0,,,False,SOFT,10.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.253,-0.342,1.543,2.139,-0.173,-0.234,74.259
+0 days 01:30:54.498000,ALO,14,73.633,15.0,2.0,,,False,SOFT,11.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.283,-0.383,1.513,2.098,-0.146,-0.198,74.275
+0 days 01:32:08.194000,ALO,14,73.696,16.0,2.0,,,False,SOFT,12.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.22,-0.298,1.576,2.185,-0.132,-0.179,74.384
+0 days 01:33:21.938000,ALO,14,73.744,17.0,2.0,,,False,SOFT,13.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.172,-0.233,1.624,2.252,-0.274,-0.37,74.477
+0 days 01:34:35.484000,ALO,14,73.546,18.0,2.0,,,False,SOFT,14.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.37,-0.501,1.426,1.977,-0.291,-0.394,74.325
+0 days 01:35:49.119000,ALO,14,73.635,19.0,2.0,,,False,SOFT,15.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.281,-0.38,1.515,2.101,-0.442,-0.597,74.46
+0 days 01:37:02.856000,ALO,14,73.737,20.0,2.0,,,False,SOFT,16.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.179,-0.242,1.617,2.242,-0.105,-0.142,74.608
+0 days 01:38:16.543000,ALO,14,73.687,21.0,2.0,,,False,SOFT,17.0,False,Aston Martin,1,5.0,True,21,São Paulo Grand Prix,True,C4,True,-0.229,-0.31,1.567,2.173,-0.176,-0.238,74.604
+0 days 01:39:31.577000,ALO,14,75.034,22.0,2.0,,,False,SOFT,18.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C4,True,1.118,1.513,2.914,4.04,1.198,1.623,75.997
+0 days 01:40:45.744000,ALO,14,74.167,23.0,2.0,,,False,SOFT,19.0,False,Aston Martin,1,6.0,True,21,São Paulo Grand Prix,True,C4,True,0.251,0.34,2.047,2.838,-0.135,-0.182,75.175
+0 days 01:42:02.706000,ALO,14,76.962,24.0,2.0,,,False,SOFT,20.0,False,Aston Martin,12,6.0,True,21,São Paulo Grand Prix,True,C4,False,3.046,4.121,4.842,6.714,-0.68,-0.876,78.016
+0 days 00:49:41.633000,LEC,16,,1.0,1.0,,,False,SOFT,7.0,False,Ferrari,12,7.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:50:56.748000,LEC,16,75.115,2.0,1.0,,,True,SOFT,8.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C4,True,1.199,1.622,2.995,4.153,-0.573,-0.757,75.161
+0 days 00:52:10.612000,LEC,16,73.864,3.0,1.0,,,True,SOFT,9.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C4,True,-0.052,-0.07,1.744,2.418,-0.769,-1.03,73.956
+0 days 00:53:24.597000,LEC,16,73.985,4.0,1.0,,,False,SOFT,10.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C4,True,0.069,0.093,1.865,2.586,0.079,0.107,74.122
+0 days 00:54:38.417000,LEC,16,73.82,5.0,1.0,,,True,SOFT,11.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C4,True,-0.096,-0.13,1.7,2.357,0.036,0.049,74.003
+0 days 00:56:16.710000,LEC,16,98.293,6.0,1.0,,,False,SOFT,12.0,False,Ferrari,124,6.0,False,21,São Paulo Grand Prix,True,C4,False,24.377,32.979,26.173,36.291,-2.371,-2.355,98.522
+0 days 00:58:21.046000,LEC,16,124.336,7.0,1.0,,0 days 00:58:17.620000,False,SOFT,13.0,False,Ferrari,45,6.0,False,21,São Paulo Grand Prix,True,C4,False,50.42,68.213,52.216,72.402,,,124.611
+0 days 01:22:18.206000,LEC,16,,8.0,2.0,0 days 01:20:26.800000,,False,MEDIUM,9.0,False,Ferrari,1,6.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:34.644000,LEC,16,76.438,9.0,2.0,,,False,MEDIUM,10.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,2.522,3.412,4.318,5.987,-0.002,-0.003,76.805
+0 days 01:24:47.827000,LEC,16,73.183,10.0,2.0,,,True,MEDIUM,11.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.733,-0.992,1.063,1.474,-0.685,-0.927,73.596
+0 days 01:26:01.203000,LEC,16,73.376,11.0,2.0,,,False,MEDIUM,12.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.54,-0.731,1.256,1.742,-0.198,-0.269,73.834
+0 days 01:27:14.564000,LEC,16,73.361,12.0,2.0,,,False,MEDIUM,13.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.555,-0.751,1.241,1.721,-0.219,-0.298,73.865
+0 days 01:28:27.731000,LEC,16,73.167,13.0,2.0,,,True,MEDIUM,14.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.749,-1.013,1.047,1.452,-0.218,-0.297,73.717
+0 days 01:29:41.265000,LEC,16,73.534,14.0,2.0,,,False,MEDIUM,15.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.382,-0.517,1.414,1.961,-0.302,-0.409,74.13
+0 days 01:30:54.990000,LEC,16,73.725,15.0,2.0,,,False,MEDIUM,16.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.191,-0.258,1.605,2.225,-0.054,-0.073,74.367
+0 days 01:32:08.563000,LEC,16,73.573,16.0,2.0,,,False,MEDIUM,17.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.343,-0.464,1.453,2.015,-0.255,-0.345,74.26
+0 days 01:33:22.313000,LEC,16,73.75,17.0,2.0,,,False,MEDIUM,18.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.166,-0.225,1.63,2.26,-0.268,-0.362,74.483
+0 days 01:34:36.130000,LEC,16,73.817,18.0,2.0,,,False,MEDIUM,19.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.099,-0.134,1.697,2.353,-0.02,-0.027,74.596
+0 days 01:35:49.762000,LEC,16,73.632,19.0,2.0,,,False,MEDIUM,20.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.284,-0.384,1.512,2.097,-0.445,-0.601,74.457
+0 days 01:37:03.368000,LEC,16,73.606,20.0,2.0,,,False,MEDIUM,21.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.31,-0.419,1.486,2.06,-0.236,-0.32,74.477
+0 days 01:38:16.763000,LEC,16,73.395,21.0,2.0,,,False,MEDIUM,22.0,False,Ferrari,1,6.0,True,21,São Paulo Grand Prix,True,C3,True,-0.521,-0.705,1.275,1.768,-0.468,-0.634,74.312
+0 days 01:39:30.219000,LEC,16,73.456,22.0,2.0,,,False,MEDIUM,23.0,False,Ferrari,1,5.0,True,21,São Paulo Grand Prix,True,C3,True,-0.46,-0.622,1.336,1.852,-0.38,-0.515,74.419
+0 days 01:40:43.330000,LEC,16,73.111,23.0,2.0,,,True,MEDIUM,24.0,False,Ferrari,1,5.0,True,21,São Paulo Grand Prix,True,C3,True,-0.805,-1.089,0.991,1.374,-1.191,-1.603,74.119
+0 days 01:42:00.871000,LEC,16,77.541,24.0,2.0,,,False,MEDIUM,25.0,False,Ferrari,12,5.0,True,21,São Paulo Grand Prix,True,C3,False,3.625,4.904,5.421,7.517,-0.101,-0.13,78.595
+0 days 00:49:43.138000,STR,18,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,12,9.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:58.095000,STR,18,74.957,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C3,True,1.041,1.408,2.837,3.934,-0.731,-0.966,75.003
+0 days 00:52:12.411000,STR,18,74.316,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C3,True,0.4,0.541,2.196,3.045,-0.317,-0.425,74.408
+0 days 00:53:25.916000,STR,18,73.505,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C3,True,-0.411,-0.556,1.385,1.92,-0.401,-0.543,73.642
+0 days 00:54:39.638000,STR,18,73.722,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C3,True,-0.194,-0.262,1.602,2.221,-0.062,-0.084,73.905
+0 days 00:56:19.849000,STR,18,100.211,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,124,8.0,False,21,São Paulo Grand Prix,True,C3,False,26.295,35.574,28.091,38.95,-0.453,-0.45,100.44
+0 days 00:58:26.001000,STR,18,126.152,7.0,1.0,,0 days 00:58:22.669000,False,MEDIUM,7.0,True,Aston Martin,45,8.0,False,21,São Paulo Grand Prix,True,C3,False,52.236,70.669,54.032,74.92,,,126.427
+0 days 01:22:18.729000,STR,18,,8.0,2.0,0 days 01:20:34.262000,,False,SOFT,4.0,False,Aston Martin,1,8.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 01:23:35.547000,STR,18,76.818,9.0,2.0,,,False,SOFT,5.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,2.902,3.926,4.698,6.514,0.378,0.495,77.185
+0 days 01:24:49.028000,STR,18,73.481,10.0,2.0,,,True,SOFT,6.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.435,-0.589,1.361,1.887,-0.387,-0.524,73.893
+0 days 01:26:02.577000,STR,18,73.549,11.0,2.0,,,False,SOFT,7.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.367,-0.497,1.429,1.981,-0.025,-0.034,74.007
+0 days 01:27:16.094000,STR,18,73.517,12.0,2.0,,,False,SOFT,8.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.399,-0.54,1.397,1.937,-0.063,-0.086,74.021
+0 days 01:28:29.291000,STR,18,73.197,13.0,2.0,,,True,SOFT,9.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.719,-0.973,1.077,1.493,-0.188,-0.256,73.747
+0 days 01:29:42.673000,STR,18,73.382,14.0,2.0,,,False,SOFT,10.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.534,-0.722,1.262,1.75,-0.454,-0.615,73.978
+0 days 01:30:56.449000,STR,18,73.776,15.0,2.0,,,False,SOFT,11.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.14,-0.189,1.656,2.296,-0.003,-0.004,74.418
+0 days 01:32:10.323000,STR,18,73.874,16.0,2.0,,,False,SOFT,12.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.042,-0.057,1.754,2.432,0.046,0.062,74.562
+0 days 01:33:24.209000,STR,18,73.886,17.0,2.0,,,False,SOFT,13.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.03,-0.041,1.766,2.449,-0.132,-0.178,74.619
+0 days 01:34:37.970000,STR,18,73.761,18.0,2.0,,,False,SOFT,14.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.155,-0.21,1.641,2.275,-0.076,-0.103,74.54
+0 days 01:35:51.955000,STR,18,73.985,19.0,2.0,,,False,SOFT,15.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,0.069,0.093,1.865,2.586,-0.092,-0.124,74.81
+0 days 01:37:05.847000,STR,18,73.892,20.0,2.0,,,False,SOFT,16.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,-0.024,-0.032,1.772,2.457,0.05,0.068,74.763
+0 days 01:38:20.256000,STR,18,74.409,21.0,2.0,,,False,SOFT,17.0,False,Aston Martin,1,8.0,True,21,São Paulo Grand Prix,True,C4,True,0.493,0.667,2.289,3.174,0.546,0.739,75.326
+0 days 01:39:35.448000,STR,18,75.192,22.0,2.0,,,False,SOFT,18.0,False,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,1.276,1.726,3.072,4.26,1.356,1.837,76.154
+0 days 01:40:49.946000,STR,18,74.498,23.0,2.0,,,False,SOFT,19.0,False,Aston Martin,1,9.0,True,21,São Paulo Grand Prix,True,C4,True,0.582,0.787,2.378,3.297,0.196,0.264,75.506
+0 days 01:42:08.321000,STR,18,78.375,24.0,2.0,,,False,SOFT,20.0,False,Aston Martin,12,9.0,True,21,São Paulo Grand Prix,True,C4,False,4.459,6.033,6.255,8.673,0.733,0.944,79.429
+0 days 00:49:52.958000,TSU,22,,1.0,1.0,0 days 00:48:37.966000,,False,MEDIUM,7.0,False,Red Bull Racing,12,19.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:10.285000,TSU,22,77.327,2.0,1.0,,,True,MEDIUM,8.0,False,Red Bull Racing,1,19.0,True,21,São Paulo Grand Prix,True,C3,True,3.411,4.615,5.207,7.22,1.639,2.165,77.373
+0 days 00:52:25.808000,TSU,22,75.523,3.0,1.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,19.0,True,21,São Paulo Grand Prix,True,C3,True,1.607,2.174,3.403,4.719,0.89,1.193,75.615
+0 days 00:53:40.774000,TSU,22,74.966,4.0,1.0,,,True,MEDIUM,10.0,False,Red Bull Racing,1,19.0,True,21,São Paulo Grand Prix,True,C3,True,1.05,1.421,2.846,3.946,1.06,1.434,75.104
+0 days 00:54:55.057000,TSU,22,74.283,5.0,1.0,,,True,MEDIUM,11.0,False,Red Bull Racing,12,19.0,True,21,São Paulo Grand Prix,True,C3,False,0.367,0.497,2.163,2.999,0.499,0.676,74.466
+0 days 00:56:38.982000,TSU,22,103.925,6.0,1.0,,,False,MEDIUM,12.0,False,Red Bull Racing,24,16.0,False,21,São Paulo Grand Prix,True,C3,False,30.009,40.599,31.805,44.1,3.261,3.239,104.154
+0 days 00:58:48.254000,TSU,22,129.272,7.0,1.0,,0 days 00:58:44.938000,False,MEDIUM,13.0,False,Red Bull Racing,45,16.0,False,21,São Paulo Grand Prix,True,C3,False,55.356,74.89,57.152,79.246,,,129.547
+0 days 01:22:23.327000,TSU,22,,8.0,2.0,0 days 01:21:02.287000,,False,MEDIUM,14.0,False,Red Bull Racing,1,16.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:38.793000,TSU,22,75.466,9.0,2.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.55,2.097,3.346,4.639,-0.974,-1.274,75.833
+0 days 01:24:53.757000,TSU,22,74.964,10.0,2.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.048,1.418,2.844,3.943,1.096,1.484,75.376
+0 days 01:26:07.819000,TSU,22,74.062,11.0,2.0,,,True,MEDIUM,17.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.146,0.198,1.942,2.693,0.488,0.663,74.52
+0 days 01:27:21.740000,TSU,22,73.921,12.0,2.0,,,True,MEDIUM,18.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.005,0.007,1.801,2.497,0.341,0.463,74.425
+0 days 01:28:35.698000,TSU,22,73.958,13.0,2.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.042,0.057,1.838,2.549,0.573,0.781,74.508
+0 days 01:29:49.708000,TSU,22,74.01,14.0,2.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.094,0.127,1.89,2.621,0.174,0.236,74.606
+0 days 01:31:04.123000,TSU,22,74.415,15.0,2.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.499,0.675,2.295,3.182,0.636,0.862,75.057
+0 days 01:32:18.893000,TSU,22,74.77,16.0,2.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.854,1.155,2.65,3.674,0.942,1.276,75.458
+0 days 01:33:34.359000,TSU,22,75.466,17.0,2.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.55,2.097,3.346,4.639,1.448,1.956,76.199
+0 days 01:34:49.744000,TSU,22,75.385,18.0,2.0,,,False,MEDIUM,24.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.469,1.987,3.265,4.527,1.548,2.097,76.164
+0 days 01:36:04.677000,TSU,22,74.933,19.0,2.0,,,False,MEDIUM,25.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.017,1.376,2.813,3.9,0.856,1.156,75.758
+0 days 01:37:19.189000,TSU,22,74.512,20.0,2.0,,,False,MEDIUM,26.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.596,0.806,2.392,3.317,0.67,0.907,75.383
+0 days 01:38:33.864000,TSU,22,74.675,21.0,2.0,,,False,MEDIUM,27.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.759,1.027,2.555,3.543,0.812,1.099,75.592
+0 days 01:39:48.220000,TSU,22,74.356,22.0,2.0,,,False,MEDIUM,28.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.44,0.595,2.236,3.1,0.52,0.704,75.318
+0 days 01:41:02.726000,TSU,22,74.506,23.0,2.0,,,False,MEDIUM,29.0,False,Red Bull Racing,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.59,0.798,2.386,3.308,0.204,0.275,75.514
+0 days 01:42:22.855000,TSU,22,80.129,24.0,2.0,,,False,MEDIUM,30.0,False,Red Bull Racing,12,14.0,True,21,São Paulo Grand Prix,True,C3,False,6.213,8.405,8.009,11.105,2.487,3.203,81.183
+0 days 00:49:44.535000,ALB,23,,1.0,1.0,,,False,SOFT,1.0,True,Williams,12,12.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:51:00.314000,ALB,23,75.779,2.0,1.0,,,True,SOFT,2.0,True,Williams,1,12.0,True,21,São Paulo Grand Prix,True,C4,True,1.863,2.52,3.659,5.073,0.091,0.12,75.825
+0 days 00:52:15.581000,ALB,23,75.267,3.0,1.0,,,True,SOFT,3.0,True,Williams,1,12.0,True,21,São Paulo Grand Prix,True,C4,True,1.351,1.828,3.147,4.364,0.634,0.849,75.359
+0 days 00:53:29.509000,ALB,23,73.928,4.0,1.0,,,True,SOFT,4.0,True,Williams,1,12.0,True,21,São Paulo Grand Prix,True,C4,True,0.012,0.016,1.808,2.507,0.022,0.03,74.066
+0 days 00:54:42.881000,ALB,23,73.372,5.0,1.0,,,True,SOFT,5.0,True,Williams,1,12.0,True,21,São Paulo Grand Prix,True,C4,True,-0.544,-0.736,1.252,1.736,-0.412,-0.558,73.555
+0 days 00:56:23.545000,ALB,23,100.664,6.0,1.0,,,False,SOFT,6.0,True,Williams,124,10.0,False,21,São Paulo Grand Prix,True,C4,False,26.748,36.187,28.544,39.578,0.0,0.0,100.893
+0 days 00:58:30.814000,ALB,23,127.269,7.0,1.0,,0 days 00:58:27.464000,False,SOFT,7.0,True,Williams,45,10.0,False,21,São Paulo Grand Prix,True,C4,False,53.353,72.181,55.149,76.468,,,127.544
+0 days 01:22:19.228000,ALB,23,,8.0,2.0,0 days 01:20:38.496000,,False,SOFT,8.0,False,Williams,1,10.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 01:23:36.210000,ALB,23,76.982,9.0,2.0,,,False,SOFT,9.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,3.066,4.148,4.862,6.742,0.542,0.709,77.349
+0 days 01:24:50.317000,ALB,23,74.107,10.0,2.0,,,False,SOFT,10.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.191,0.258,1.987,2.755,0.239,0.324,74.52
+0 days 01:26:03.917000,ALB,23,73.6,11.0,2.0,,,False,SOFT,11.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-0.316,-0.428,1.48,2.052,0.026,0.035,74.058
+0 days 01:27:17.674000,ALB,23,73.757,12.0,2.0,,,False,SOFT,12.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-0.159,-0.215,1.637,2.27,0.177,0.241,74.261
+0 days 01:28:31.352000,ALB,23,73.678,13.0,2.0,,,False,SOFT,13.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,-0.238,-0.322,1.558,2.16,0.293,0.399,74.228
+0 days 01:29:45.604000,ALB,23,74.252,14.0,2.0,,,False,SOFT,14.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.336,0.455,2.132,2.956,0.416,0.563,74.848
+0 days 01:30:59.621000,ALB,23,74.017,15.0,2.0,,,False,SOFT,15.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.101,0.137,1.897,2.63,0.238,0.323,74.659
+0 days 01:32:14.046000,ALB,23,74.425,16.0,2.0,,,False,SOFT,16.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.509,0.689,2.305,3.196,0.597,0.809,75.112
+0 days 01:33:28.490000,ALB,23,74.444,17.0,2.0,,,False,SOFT,17.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.528,0.714,2.324,3.222,0.426,0.576,75.177
+0 days 01:34:43.053000,ALB,23,74.563,18.0,2.0,,,False,SOFT,18.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.647,0.875,2.443,3.387,0.726,0.983,75.342
+0 days 01:35:57.297000,ALB,23,74.244,19.0,2.0,,,False,SOFT,19.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.328,0.444,2.124,2.945,0.167,0.225,75.069
+0 days 01:37:11.321000,ALB,23,74.024,20.0,2.0,,,False,SOFT,20.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.108,0.146,1.904,2.64,0.182,0.246,74.895
+0 days 01:38:25.700000,ALB,23,74.379,21.0,2.0,,,False,SOFT,21.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.463,0.626,2.259,3.132,0.516,0.699,75.296
+0 days 01:39:39.783000,ALB,23,74.083,22.0,2.0,,,False,SOFT,22.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,0.167,0.226,1.963,2.722,0.247,0.335,75.046
+0 days 01:40:55.679000,ALB,23,75.896,23.0,2.0,,,False,SOFT,23.0,False,Williams,1,10.0,True,21,São Paulo Grand Prix,True,C4,True,1.98,2.679,3.776,5.236,1.594,2.145,76.904
+0 days 01:42:39.849000,ALB,23,104.17,24.0,2.0,,0 days 01:42:35.685000,False,SOFT,24.0,False,Williams,12,17.0,False,21,São Paulo Grand Prix,True,C4,False,30.254,40.93,32.05,44.44,26.528,34.167,105.224
+0 days 00:49:43.714000,HUL,27,,1.0,1.0,,,False,MEDIUM,7.0,False,Kick Sauber,12,10.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:59.407000,HUL,27,75.693,2.0,1.0,,,True,MEDIUM,8.0,False,Kick Sauber,1,10.0,True,21,São Paulo Grand Prix,True,C3,True,1.777,2.404,3.573,4.954,0.005,0.007,75.739
+0 days 00:52:14.094000,HUL,27,74.687,3.0,1.0,,,True,MEDIUM,9.0,False,Kick Sauber,1,10.0,True,21,São Paulo Grand Prix,True,C3,True,0.771,1.043,2.567,3.559,0.054,0.072,74.779
+0 days 00:53:27.536000,HUL,27,73.442,4.0,1.0,,,True,MEDIUM,10.0,False,Kick Sauber,1,10.0,True,21,São Paulo Grand Prix,True,C3,True,-0.474,-0.641,1.322,1.833,-0.464,-0.628,73.58
+0 days 00:54:40.855000,HUL,27,73.319,5.0,1.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,10.0,True,21,São Paulo Grand Prix,True,C3,True,-0.597,-0.808,1.199,1.663,-0.465,-0.63,73.502
+0 days 00:57:20.126000,HUL,27,,6.0,1.0,,0 days 00:57:17.221000,False,MEDIUM,12.0,False,Kick Sauber,1245,18.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:19:32.362000,HUL,27,,7.0,2.0,0 days 01:18:02.687000,0 days 01:19:28.662000,False,MEDIUM,11.0,False,Kick Sauber,51,18.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:22:28.417000,HUL,27,,8.0,3.0,0 days 01:21:11.814000,,False,MEDIUM,12.0,False,Kick Sauber,1,18.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:40.603000,HUL,27,72.186,9.0,3.0,,,True,MEDIUM,13.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-1.73,-2.34,0.066,0.092,-4.254,-5.565,72.553
+0 days 01:24:54.965000,HUL,27,74.362,10.0,3.0,,,False,MEDIUM,14.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.446,0.603,2.242,3.109,0.494,0.669,74.774
+0 days 01:26:09.270000,HUL,27,74.305,11.0,3.0,,,False,MEDIUM,15.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.389,0.526,2.185,3.03,0.731,0.994,74.763
+0 days 01:27:23.299000,HUL,27,74.029,12.0,3.0,,,False,MEDIUM,16.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.113,0.153,1.909,2.647,0.449,0.61,74.533
+0 days 01:28:37.060000,HUL,27,73.761,13.0,3.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.155,-0.21,1.641,2.275,0.376,0.512,74.311
+0 days 01:29:54.050000,HUL,27,76.99,14.0,3.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,3.074,4.159,4.87,6.753,3.154,4.272,77.586
+0 days 01:31:07.384000,HUL,27,73.334,15.0,3.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.582,-0.787,1.214,1.683,-0.445,-0.603,73.976
+0 days 01:32:21.145000,HUL,27,73.761,16.0,3.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.155,-0.21,1.641,2.275,-0.067,-0.091,74.448
+0 days 01:33:35.998000,HUL,27,74.853,17.0,3.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.937,1.268,2.733,3.79,0.835,1.128,75.586
+0 days 01:34:50.492000,HUL,27,74.494,18.0,3.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.578,0.782,2.374,3.292,0.657,0.89,75.273
+0 days 01:36:09.500000,HUL,27,79.008,19.0,3.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,5.092,6.889,6.888,9.551,4.931,6.657,79.833
+0 days 01:37:23.347000,HUL,27,73.847,20.0,3.0,,,False,MEDIUM,24.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.069,-0.093,1.727,2.395,0.005,0.007,74.718
+0 days 01:38:36.717000,HUL,27,73.37,21.0,3.0,,,False,MEDIUM,25.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.546,-0.739,1.25,1.733,-0.493,-0.667,74.287
+0 days 01:39:50.207000,HUL,27,73.49,22.0,3.0,,,False,MEDIUM,26.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,-0.426,-0.576,1.37,1.9,-0.346,-0.469,74.452
+0 days 01:41:04.194000,HUL,27,73.987,23.0,3.0,,,False,MEDIUM,27.0,False,Kick Sauber,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.071,0.096,1.867,2.589,-0.315,-0.424,74.995
+0 days 01:42:26.756000,HUL,27,82.562,24.0,3.0,,,False,MEDIUM,28.0,False,Kick Sauber,12,16.0,True,21,São Paulo Grand Prix,True,C3,False,8.646,11.697,10.442,14.479,4.92,6.337,83.616
+0 days 00:49:47.583000,LAW,30,,1.0,1.0,,,False,MEDIUM,6.0,False,Racing Bulls,12,16.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:05.027000,LAW,30,77.444,2.0,1.0,,,True,MEDIUM,7.0,False,Racing Bulls,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,3.528,4.773,5.324,7.382,1.756,2.32,77.49
+0 days 00:52:20.234000,LAW,30,75.207,3.0,1.0,,,True,MEDIUM,8.0,False,Racing Bulls,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,1.291,1.747,3.087,4.28,0.574,0.769,75.299
+0 days 00:53:35.113000,LAW,30,74.879,4.0,1.0,,,True,MEDIUM,9.0,False,Racing Bulls,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.963,1.303,2.759,3.826,0.973,1.317,75.017
+0 days 00:54:49.547000,LAW,30,74.434,5.0,1.0,,,True,MEDIUM,10.0,False,Racing Bulls,1,16.0,True,21,São Paulo Grand Prix,True,C3,True,0.518,0.701,2.314,3.209,0.65,0.881,74.617
+0 days 00:56:31.489000,LAW,30,101.942,6.0,1.0,,,False,MEDIUM,11.0,False,Racing Bulls,124,13.0,False,21,São Paulo Grand Prix,True,C3,False,28.026,37.916,29.822,41.351,1.278,1.27,102.171
+0 days 00:58:39.994000,LAW,30,128.505,7.0,1.0,,0 days 00:58:36.993000,False,MEDIUM,12.0,False,Racing Bulls,45,13.0,False,21,São Paulo Grand Prix,True,C3,False,54.589,73.853,56.385,78.182,,,128.78
+0 days 01:22:19.884000,LAW,30,,8.0,2.0,0 days 01:20:51.561000,,False,MEDIUM,13.0,False,Racing Bulls,1,13.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:37.662000,LAW,30,77.778,9.0,2.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,3.862,5.225,5.658,7.845,1.338,1.75,78.145
+0 days 01:24:52.028000,LAW,30,74.366,10.0,2.0,,,True,MEDIUM,15.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.45,0.609,2.246,3.114,0.498,0.674,74.778
+0 days 01:26:05.949000,LAW,30,73.921,11.0,2.0,,,True,MEDIUM,16.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.005,0.007,1.801,2.497,0.347,0.472,74.379
+0 days 01:27:19.919000,LAW,30,73.97,12.0,2.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.054,0.073,1.85,2.565,0.39,0.53,74.474
+0 days 01:28:33.815000,LAW,30,73.896,13.0,2.0,,,True,MEDIUM,18.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,-0.02,-0.027,1.776,2.463,0.511,0.696,74.446
+0 days 01:29:48.195000,LAW,30,74.38,14.0,2.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.464,0.628,2.26,3.134,0.544,0.737,74.976
+0 days 01:31:02.712000,LAW,30,74.517,15.0,2.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.601,0.813,2.397,3.324,0.738,1.0,75.159
+0 days 01:32:17.646000,LAW,30,74.934,16.0,2.0,,,False,MEDIUM,21.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,1.018,1.377,2.814,3.902,1.106,1.498,75.622
+0 days 01:33:33.951000,LAW,30,76.305,17.0,2.0,,,False,MEDIUM,22.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,2.389,3.232,4.185,5.803,2.287,3.09,77.038
+0 days 01:34:49.044000,LAW,30,75.093,18.0,2.0,,,False,MEDIUM,23.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,1.177,1.592,2.973,4.122,1.256,1.701,75.872
+0 days 01:36:04.077000,LAW,30,75.033,19.0,2.0,,,False,MEDIUM,24.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,1.117,1.511,2.913,4.039,0.956,1.291,75.858
+0 days 01:37:18.768000,LAW,30,74.691,20.0,2.0,,,False,MEDIUM,25.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.775,1.048,2.571,3.565,0.849,1.15,75.562
+0 days 01:38:33.441000,LAW,30,74.673,21.0,2.0,,,False,MEDIUM,26.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.757,1.024,2.553,3.54,0.81,1.097,75.59
+0 days 01:39:47.910000,LAW,30,74.469,22.0,2.0,,,False,MEDIUM,27.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.553,0.748,2.349,3.257,0.633,0.857,75.432
+0 days 01:41:02.313000,LAW,30,74.403,23.0,2.0,,,False,MEDIUM,28.0,False,Racing Bulls,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.487,0.659,2.283,3.166,0.101,0.136,75.411
+0 days 01:42:22.554000,LAW,30,80.241,24.0,2.0,,,False,MEDIUM,29.0,False,Racing Bulls,12,13.0,True,21,São Paulo Grand Prix,True,C3,False,6.325,8.557,8.121,11.26,2.599,3.347,81.295
+0 days 00:49:48.955000,OCO,31,,1.0,1.0,,,False,MEDIUM,7.0,False,Haas F1 Team,12,17.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:06.186000,OCO,31,77.231,2.0,1.0,,,True,MEDIUM,8.0,False,Haas F1 Team,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,3.315,4.485,5.111,7.087,1.543,2.039,77.277
+0 days 00:52:21.396000,OCO,31,75.21,3.0,1.0,,,True,MEDIUM,9.0,False,Haas F1 Team,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,1.294,1.751,3.09,4.285,0.577,0.773,75.302
+0 days 00:53:35.962000,OCO,31,74.566,4.0,1.0,,,True,MEDIUM,10.0,False,Haas F1 Team,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.65,0.879,2.446,3.392,0.66,0.893,74.704
+0 days 00:54:50.306000,OCO,31,74.344,5.0,1.0,,,True,MEDIUM,11.0,False,Haas F1 Team,12,17.0,True,21,São Paulo Grand Prix,True,C3,False,0.428,0.579,2.224,3.084,0.56,0.759,74.527
+0 days 00:56:33.875000,OCO,31,103.569,6.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,24,14.0,False,21,São Paulo Grand Prix,True,C3,False,29.653,40.117,31.449,43.606,2.905,2.886,103.798
+0 days 00:58:43.218000,OCO,31,129.343,7.0,1.0,,0 days 00:58:40.080000,False,MEDIUM,13.0,False,Haas F1 Team,45,14.0,False,21,São Paulo Grand Prix,True,C3,False,55.427,74.986,57.223,79.344,,,129.618
+0 days 01:22:20.315000,OCO,31,,8.0,2.0,0 days 01:20:55.854000,,False,MEDIUM,11.0,False,Haas F1 Team,1,14.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:37.955000,OCO,31,77.64,9.0,2.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,3.724,5.038,5.52,7.654,1.2,1.57,78.007
+0 days 01:24:52.367000,OCO,31,74.412,10.0,2.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.496,0.671,2.292,3.178,0.544,0.736,74.824
+0 days 01:26:06.374000,OCO,31,74.007,11.0,2.0,,,True,MEDIUM,14.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.091,0.123,1.887,2.616,0.433,0.589,74.465
+0 days 01:27:20.165000,OCO,31,73.791,12.0,2.0,,,True,MEDIUM,15.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,-0.125,-0.169,1.671,2.317,0.211,0.287,74.295
+0 days 01:28:34.085000,OCO,31,73.92,13.0,2.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.004,0.005,1.8,2.496,0.535,0.729,74.47
+0 days 01:29:48.415000,OCO,31,74.33,14.0,2.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.414,0.56,2.21,3.064,0.494,0.669,74.926
+0 days 01:31:02.942000,OCO,31,74.527,15.0,2.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.611,0.827,2.407,3.337,0.748,1.014,75.169
+0 days 01:32:17.868000,OCO,31,74.926,16.0,2.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,1.01,1.366,2.806,3.891,1.098,1.487,75.614
+0 days 01:33:31.966000,OCO,31,74.098,17.0,2.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.182,0.246,1.978,2.743,0.08,0.108,74.831
+0 days 01:34:45.885000,OCO,31,73.919,18.0,2.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.003,0.004,1.799,2.494,0.082,0.111,74.698
+0 days 01:36:00.154000,OCO,31,74.269,19.0,2.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,0.353,0.478,2.149,2.98,0.192,0.259,75.094
+0 days 01:37:14.024000,OCO,31,73.87,20.0,2.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,-0.046,-0.062,1.75,2.427,0.028,0.038,74.741
+0 days 01:38:27.938000,OCO,31,73.914,21.0,2.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,-0.002,-0.003,1.794,2.488,0.051,0.069,74.831
+0 days 01:39:41.785000,OCO,31,73.847,22.0,2.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,-0.069,-0.093,1.727,2.395,0.011,0.015,74.81
+0 days 01:40:56.729000,OCO,31,74.944,23.0,2.0,,,False,MEDIUM,26.0,False,Haas F1 Team,1,13.0,True,21,São Paulo Grand Prix,True,C3,True,1.028,1.391,2.824,3.916,0.642,0.864,75.952
+0 days 01:42:15.325000,OCO,31,78.596,24.0,2.0,,,False,MEDIUM,27.0,False,Haas F1 Team,12,11.0,True,21,São Paulo Grand Prix,True,C3,False,4.68,6.332,6.476,8.979,0.954,1.229,79.65
+0 days 00:49:37.339000,NOR,4,,1.0,1.0,,,False,MEDIUM,6.0,False,McLaren,12,1.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:51.130000,NOR,4,73.791,2.0,1.0,,,True,MEDIUM,7.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C3,True,-0.125,-0.169,1.671,2.317,-1.897,-2.506,73.837
+0 days 00:52:04.123000,NOR,4,72.993,3.0,1.0,,,True,MEDIUM,8.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C3,True,-0.923,-1.249,0.873,1.21,-1.64,-2.197,73.085
+0 days 00:53:16.975000,NOR,4,72.852,4.0,1.0,,,True,MEDIUM,9.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C3,True,-1.064,-1.439,0.732,1.015,-1.054,-1.426,72.99
+0 days 00:54:29.873000,NOR,4,72.898,5.0,1.0,,,False,MEDIUM,10.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C3,True,-1.018,-1.377,0.778,1.079,-0.886,-1.201,73.081
+0 days 00:56:04.501000,NOR,4,94.628,6.0,1.0,,,False,MEDIUM,11.0,False,McLaren,124,1.0,False,21,São Paulo Grand Prix,True,C3,False,20.712,28.021,22.508,31.209,-6.036,-5.996,94.857
+0 days 00:58:02.535000,NOR,4,118.034,7.0,1.0,,0 days 00:57:59.621000,False,MEDIUM,12.0,False,McLaren,45,1.0,False,21,São Paulo Grand Prix,True,C3,False,44.118,59.687,45.914,63.663,,,118.309
+0 days 01:22:16.652000,NOR,4,,8.0,2.0,0 days 01:20:08.950000,,False,SOFT,7.0,False,McLaren,1,1.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 01:23:30.264000,NOR,4,73.612,9.0,2.0,,,False,SOFT,8.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.304,-0.411,1.492,2.069,-2.828,-3.7,73.979
+0 days 01:24:42.421000,NOR,4,72.157,10.0,2.0,,,True,SOFT,9.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.759,-2.38,0.037,0.051,-1.711,-2.316,72.569
+0 days 01:25:54.541000,NOR,4,72.12,11.0,2.0,,,True,SOFT,10.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.796,-2.43,0.0,0.0,-1.454,-1.976,72.578
+0 days 01:27:06.810000,NOR,4,72.269,12.0,2.0,,,False,SOFT,11.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.647,-2.228,0.149,0.207,-1.311,-1.782,72.773
+0 days 01:28:19.269000,NOR,4,72.459,13.0,2.0,,,False,SOFT,12.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.457,-1.971,0.339,0.47,-0.926,-1.262,73.009
+0 days 01:29:31.823000,NOR,4,72.554,14.0,2.0,,,False,SOFT,13.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.362,-1.843,0.434,0.602,-1.282,-1.736,73.15
+0 days 01:30:44.421000,NOR,4,72.598,15.0,2.0,,,False,SOFT,14.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.318,-1.783,0.478,0.663,-1.181,-1.601,73.24
+0 days 01:31:57.115000,NOR,4,72.694,16.0,2.0,,,False,SOFT,15.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.222,-1.653,0.574,0.796,-1.134,-1.536,73.382
+0 days 01:33:10.391000,NOR,4,73.276,17.0,2.0,,,False,SOFT,16.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.64,-0.866,1.156,1.603,-0.742,-1.002,74.009
+0 days 01:34:23.570000,NOR,4,73.179,18.0,2.0,,,False,SOFT,17.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.737,-0.997,1.059,1.468,-0.658,-0.891,73.958
+0 days 01:35:36.792000,NOR,4,73.222,19.0,2.0,,,False,SOFT,18.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.694,-0.939,1.102,1.528,-0.855,-1.154,74.047
+0 days 01:36:50.481000,NOR,4,73.689,20.0,2.0,,,False,SOFT,19.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.227,-0.307,1.569,2.176,-0.153,-0.207,74.56
+0 days 01:38:03.689000,NOR,4,73.208,21.0,2.0,,,False,SOFT,20.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.708,-0.958,1.088,1.509,-0.655,-0.887,74.125
+0 days 01:39:16.602000,NOR,4,72.913,22.0,2.0,,,False,SOFT,21.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-1.003,-1.357,0.793,1.1,-0.923,-1.25,73.876
+0 days 01:40:29.574000,NOR,4,72.972,23.0,2.0,,,False,SOFT,22.0,False,McLaren,1,1.0,True,21,São Paulo Grand Prix,True,C4,True,-0.944,-1.277,0.852,1.181,-1.33,-1.79,73.98
+0 days 01:41:44.384000,NOR,4,74.81,24.0,2.0,,,False,SOFT,23.0,False,McLaren,12,1.0,True,21,São Paulo Grand Prix,True,C4,False,0.894,1.209,2.69,3.73,-2.832,-3.648,75.864
+0 days 00:49:45.879000,COL,43,,1.0,1.0,,,False,MEDIUM,7.0,False,Alpine,12,14.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:03.390000,COL,43,77.511,2.0,1.0,,,True,MEDIUM,8.0,False,Alpine,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,3.595,4.864,5.391,7.475,1.823,2.409,77.557
+0 days 00:52:18.571000,COL,43,75.181,3.0,1.0,,,True,MEDIUM,9.0,False,Alpine,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,1.265,1.711,3.061,4.244,0.548,0.734,75.273
+0 days 00:53:32.627000,COL,43,74.056,4.0,1.0,,,True,MEDIUM,10.0,False,Alpine,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.14,0.189,1.936,2.684,0.15,0.203,74.194
+0 days 00:54:46.774000,COL,43,74.147,5.0,1.0,,,False,MEDIUM,11.0,False,Alpine,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.231,0.313,2.027,2.811,0.363,0.492,74.33
+0 days 00:56:56.663000,COL,43,,6.0,1.0,,,True,MEDIUM,12.0,False,Alpine,124,,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:42.264000,HAM,44,,1.0,1.0,,,False,MEDIUM,7.0,False,Ferrari,12,8.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:57.238000,HAM,44,74.974,2.0,1.0,,,True,MEDIUM,8.0,False,Ferrari,1,8.0,True,21,São Paulo Grand Prix,True,C3,True,1.058,1.431,2.854,3.957,-0.714,-0.943,75.02
+0 days 00:52:11.233000,HAM,44,73.995,3.0,1.0,,,True,MEDIUM,9.0,False,Ferrari,1,8.0,True,21,São Paulo Grand Prix,True,C3,True,0.079,0.107,1.875,2.6,-0.638,-0.855,74.087
+0 days 00:53:25.118000,HAM,44,73.885,4.0,1.0,,,True,MEDIUM,10.0,False,Ferrari,1,8.0,True,21,São Paulo Grand Prix,True,C3,True,-0.031,-0.042,1.765,2.447,-0.021,-0.028,74.023
+0 days 00:54:38.866000,HAM,44,73.748,5.0,1.0,,,True,MEDIUM,11.0,False,Ferrari,1,8.0,True,21,São Paulo Grand Prix,True,C3,True,-0.168,-0.227,1.628,2.257,-0.036,-0.049,73.931
+0 days 00:56:18.265000,HAM,44,99.399,6.0,1.0,,,False,MEDIUM,12.0,False,Ferrari,124,7.0,False,21,São Paulo Grand Prix,True,C3,False,25.483,34.476,27.279,37.824,-1.265,-1.257,99.628
+0 days 00:58:23.646000,HAM,44,125.381,7.0,1.0,,0 days 00:58:20.720000,False,MEDIUM,13.0,False,Ferrari,45,7.0,False,21,São Paulo Grand Prix,True,C3,False,51.465,69.626,53.261,73.851,,,125.656
+0 days 01:22:18.521000,HAM,44,,8.0,2.0,0 days 01:20:30.371000,,False,MEDIUM,9.0,False,Ferrari,1,7.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:35.138000,HAM,44,76.617,9.0,2.0,,,False,MEDIUM,10.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,2.701,3.654,4.497,6.235,0.177,0.232,76.984
+0 days 01:24:48.498000,HAM,44,73.36,10.0,2.0,,,True,MEDIUM,11.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.556,-0.752,1.24,1.719,-0.508,-0.688,73.772
+0 days 01:26:01.946000,HAM,44,73.448,11.0,2.0,,,False,MEDIUM,12.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.468,-0.633,1.328,1.841,-0.126,-0.171,73.906
+0 days 01:27:15.503000,HAM,44,73.557,12.0,2.0,,,False,MEDIUM,13.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.359,-0.486,1.437,1.993,-0.023,-0.031,74.061
+0 days 01:28:28.458000,HAM,44,72.955,13.0,2.0,,,True,MEDIUM,14.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.961,-1.3,0.835,1.158,-0.43,-0.586,73.505
+0 days 01:29:41.958000,HAM,44,73.5,14.0,2.0,,,False,MEDIUM,15.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.416,-0.563,1.38,1.913,-0.336,-0.455,74.096
+0 days 01:30:55.739000,HAM,44,73.781,15.0,2.0,,,False,MEDIUM,16.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.135,-0.183,1.661,2.303,0.002,0.003,74.423
+0 days 01:32:09.442000,HAM,44,73.703,16.0,2.0,,,False,MEDIUM,17.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.213,-0.288,1.583,2.195,-0.125,-0.169,74.39
+0 days 01:33:23.053000,HAM,44,73.611,17.0,2.0,,,False,MEDIUM,18.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.305,-0.413,1.491,2.067,-0.407,-0.55,74.344
+0 days 01:34:36.748000,HAM,44,73.695,18.0,2.0,,,False,MEDIUM,19.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.221,-0.299,1.575,2.184,-0.142,-0.192,74.474
+0 days 01:35:50.435000,HAM,44,73.687,19.0,2.0,,,False,MEDIUM,20.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.229,-0.31,1.567,2.173,-0.39,-0.526,74.512
+0 days 01:37:04.086000,HAM,44,73.651,20.0,2.0,,,False,MEDIUM,21.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.265,-0.359,1.531,2.123,-0.191,-0.259,74.522
+0 days 01:38:17.670000,HAM,44,73.584,21.0,2.0,,,False,MEDIUM,22.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,-0.332,-0.449,1.464,2.03,-0.279,-0.378,74.501
+0 days 01:39:32.014000,HAM,44,74.344,22.0,2.0,,,False,MEDIUM,23.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,0.428,0.579,2.224,3.084,0.508,0.688,75.306
+0 days 01:40:46.420000,HAM,44,74.406,23.0,2.0,,,False,MEDIUM,24.0,False,Ferrari,1,7.0,True,21,São Paulo Grand Prix,True,C3,True,0.49,0.663,2.286,3.17,0.104,0.14,75.414
+0 days 01:42:03.076000,HAM,44,76.656,24.0,2.0,,,False,MEDIUM,25.0,False,Ferrari,12,7.0,True,21,São Paulo Grand Prix,True,C3,False,2.74,3.707,4.536,6.29,-0.986,-1.27,77.71
+0 days 00:49:46.904000,BOR,5,,1.0,1.0,,,False,MEDIUM,7.0,False,Kick Sauber,12,15.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:04.235000,BOR,5,77.331,2.0,1.0,,,True,MEDIUM,8.0,False,Kick Sauber,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,3.415,4.62,5.211,7.225,1.643,2.171,77.377
+0 days 00:52:19.227000,BOR,5,74.992,3.0,1.0,,,True,MEDIUM,9.0,False,Kick Sauber,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,1.076,1.456,2.872,3.982,0.359,0.481,75.084
+0 days 00:53:33.484000,BOR,5,74.257,4.0,1.0,,,True,MEDIUM,10.0,False,Kick Sauber,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.341,0.461,2.137,2.963,0.351,0.475,74.395
+0 days 00:54:47.450000,BOR,5,73.966,5.0,1.0,,,True,MEDIUM,11.0,False,Kick Sauber,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.05,0.068,1.846,2.56,0.182,0.247,74.149
+0 days 00:56:28.584000,BOR,5,101.134,6.0,1.0,,,False,MEDIUM,12.0,False,Kick Sauber,124,12.0,False,21,São Paulo Grand Prix,True,C3,False,27.218,36.823,29.014,40.23,0.47,0.467,101.363
+0 days 00:58:36.130000,BOR,5,127.546,7.0,1.0,,0 days 00:58:33.172000,False,MEDIUM,13.0,False,Kick Sauber,45,12.0,False,21,São Paulo Grand Prix,True,C3,False,53.63,72.555,55.426,76.852,,,127.821
+0 days 01:22:19.676000,BOR,5,,8.0,2.0,0 days 01:20:46.611000,,False,MEDIUM,11.0,False,Kick Sauber,1,12.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:36.811000,BOR,5,77.135,9.0,2.0,,,False,MEDIUM,12.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,3.219,4.355,5.015,6.954,0.695,0.909,77.502
+0 days 01:24:50.730000,BOR,5,73.919,10.0,2.0,,,True,MEDIUM,13.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.003,0.004,1.799,2.494,0.051,0.069,74.331
+0 days 01:26:04.520000,BOR,5,73.79,11.0,2.0,,,True,MEDIUM,14.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.126,-0.17,1.67,2.316,0.216,0.294,74.248
+0 days 01:27:18.281000,BOR,5,73.761,12.0,2.0,,,True,MEDIUM,15.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.155,-0.21,1.641,2.275,0.181,0.246,74.265
+0 days 01:28:31.798000,BOR,5,73.517,13.0,2.0,,,True,MEDIUM,16.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.399,-0.54,1.397,1.937,0.132,0.18,74.067
+0 days 01:29:45.974000,BOR,5,74.176,14.0,2.0,,,False,MEDIUM,17.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.26,0.352,2.056,2.851,0.34,0.46,74.772
+0 days 01:31:00.052000,BOR,5,74.078,15.0,2.0,,,False,MEDIUM,18.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.162,0.219,1.958,2.715,0.299,0.405,74.72
+0 days 01:32:14.583000,BOR,5,74.531,16.0,2.0,,,False,MEDIUM,19.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.615,0.832,2.411,3.343,0.703,0.952,75.218
+0 days 01:33:28.901000,BOR,5,74.318,17.0,2.0,,,False,MEDIUM,20.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.402,0.544,2.198,3.048,0.3,0.405,75.051
+0 days 01:34:43.508000,BOR,5,74.607,18.0,2.0,,,False,MEDIUM,21.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.691,0.935,2.487,3.448,0.77,1.043,75.386
+0 days 01:35:57.867000,BOR,5,74.359,19.0,2.0,,,False,MEDIUM,22.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.443,0.599,2.239,3.105,0.282,0.381,75.184
+0 days 01:37:12.050000,BOR,5,74.183,20.0,2.0,,,False,MEDIUM,23.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.267,0.361,2.063,2.861,0.341,0.462,75.054
+0 days 01:38:26.302000,BOR,5,74.252,21.0,2.0,,,False,MEDIUM,24.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,0.336,0.455,2.132,2.956,0.389,0.527,75.169
+0 days 01:39:40.193000,BOR,5,73.891,22.0,2.0,,,False,MEDIUM,25.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,-0.025,-0.034,1.771,2.456,0.055,0.074,74.854
+0 days 01:40:56.079000,BOR,5,75.886,23.0,2.0,,,False,MEDIUM,26.0,False,Kick Sauber,1,11.0,True,21,São Paulo Grand Prix,True,C3,True,1.97,2.665,3.766,5.222,1.584,2.132,76.894
+0 days 01:43:26.079000,BOR,5,,24.0,2.0,,,True,MEDIUM,27.0,False,Kick Sauber,12,,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:54.678000,SAI,55,,1.0,1.0,0 days 00:48:38.716000,,False,MEDIUM,7.0,False,Williams,12,20.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:11.648000,SAI,55,76.97,2.0,1.0,,,True,MEDIUM,8.0,False,Williams,1,20.0,True,21,São Paulo Grand Prix,True,C3,True,3.054,4.132,4.85,6.725,1.282,1.694,77.016
+0 days 00:52:26.855000,SAI,55,75.207,3.0,1.0,,,True,MEDIUM,9.0,False,Williams,1,20.0,True,21,São Paulo Grand Prix,True,C3,True,1.291,1.747,3.087,4.28,0.574,0.769,75.299
+0 days 00:53:41.802000,SAI,55,74.947,4.0,1.0,,,True,MEDIUM,10.0,False,Williams,1,20.0,True,21,São Paulo Grand Prix,True,C3,True,1.031,1.395,2.827,3.92,1.041,1.409,75.084
+0 days 00:54:56.224000,SAI,55,74.422,5.0,1.0,,,True,MEDIUM,11.0,False,Williams,12,20.0,True,21,São Paulo Grand Prix,True,C3,False,0.506,0.685,2.302,3.192,0.638,0.865,74.605
+0 days 00:56:40.664000,SAI,55,104.44,6.0,1.0,,,False,MEDIUM,12.0,False,Williams,24,17.0,False,21,São Paulo Grand Prix,True,C3,False,30.524,41.296,32.32,44.814,3.776,3.751,104.669
+0 days 00:58:49.685000,SAI,55,129.021,7.0,1.0,,0 days 00:58:46.266000,False,MEDIUM,13.0,False,Williams,45,17.0,False,21,São Paulo Grand Prix,True,C3,False,55.105,74.551,56.901,78.898,,,129.296
+0 days 01:22:25.625000,SAI,55,,8.0,2.0,0 days 01:21:08.377000,,False,MEDIUM,13.0,False,Williams,1,17.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:39.653000,SAI,55,74.028,9.0,2.0,,,True,MEDIUM,14.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.112,0.152,1.908,2.646,-2.412,-3.155,74.395
+0 days 01:24:54.268000,SAI,55,74.615,10.0,2.0,,,False,MEDIUM,15.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.699,0.946,2.495,3.46,0.747,1.011,75.027
+0 days 01:26:08.610000,SAI,55,74.342,11.0,2.0,,,False,MEDIUM,16.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.426,0.576,2.222,3.081,0.768,1.044,74.8
+0 days 01:27:22.481000,SAI,55,73.871,12.0,2.0,,,True,MEDIUM,17.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,-0.045,-0.061,1.751,2.428,0.291,0.395,74.375
+0 days 01:28:36.587000,SAI,55,74.106,13.0,2.0,,,False,MEDIUM,18.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.19,0.257,1.986,2.754,0.721,0.982,74.656
+0 days 01:29:50.941000,SAI,55,74.354,14.0,2.0,,,False,MEDIUM,19.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.438,0.593,2.234,3.098,0.518,0.702,74.95
+0 days 01:31:04.985000,SAI,55,74.044,15.0,2.0,,,False,MEDIUM,20.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.128,0.173,1.924,2.668,0.265,0.359,74.686
+0 days 01:32:19.816000,SAI,55,74.831,16.0,2.0,,,False,MEDIUM,21.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.915,1.238,2.711,3.759,1.003,1.359,75.518
+0 days 01:33:34.743000,SAI,55,74.927,17.0,2.0,,,False,MEDIUM,22.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,1.011,1.368,2.807,3.892,0.909,1.228,75.66
+0 days 01:34:49.886000,SAI,55,75.143,18.0,2.0,,,False,MEDIUM,23.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,1.227,1.66,3.023,4.192,1.306,1.769,75.922
+0 days 01:36:05.445000,SAI,55,75.559,19.0,2.0,,,False,MEDIUM,24.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,1.643,2.223,3.439,4.768,1.482,2.001,76.384
+0 days 01:37:22.128000,SAI,55,76.683,20.0,2.0,,,False,MEDIUM,25.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,2.767,3.743,4.563,6.327,2.841,3.847,77.554
+0 days 01:38:35.940000,SAI,55,73.812,21.0,2.0,,,True,MEDIUM,26.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,-0.104,-0.141,1.692,2.346,-0.051,-0.069,74.729
+0 days 01:39:49.652000,SAI,55,73.712,22.0,2.0,,,True,MEDIUM,27.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,-0.204,-0.276,1.592,2.207,-0.124,-0.168,74.675
+0 days 01:41:03.853000,SAI,55,74.201,23.0,2.0,,,False,MEDIUM,28.0,False,Williams,1,17.0,True,21,São Paulo Grand Prix,True,C3,True,0.285,0.386,2.081,2.885,-0.101,-0.136,75.209
+0 days 01:42:23.338000,SAI,55,79.485,24.0,2.0,,,False,MEDIUM,29.0,False,Williams,12,15.0,True,21,São Paulo Grand Prix,True,C3,False,5.569,7.534,7.365,10.212,1.843,2.374,80.539
+0 days 00:49:45.281000,HAD,6,,1.0,1.0,,,False,SOFT,4.0,False,Racing Bulls,12,13.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:51:01.826000,HAD,6,76.545,2.0,1.0,,,True,SOFT,5.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,2.629,3.557,4.425,6.136,0.857,1.132,76.591
+0 days 00:52:16.405000,HAD,6,74.579,3.0,1.0,,,True,SOFT,6.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,0.663,0.897,2.459,3.41,-0.054,-0.072,74.671
+0 days 00:53:30.745000,HAD,6,74.34,4.0,1.0,,,True,SOFT,7.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,0.424,0.574,2.22,3.078,0.434,0.587,74.478
+0 days 00:54:44.887000,HAD,6,74.142,5.0,1.0,,,True,SOFT,8.0,False,Racing Bulls,1,13.0,True,21,São Paulo Grand Prix,True,C4,True,0.226,0.306,2.022,2.804,0.358,0.485,74.325
+0 days 00:56:26.696000,HAD,6,101.809,6.0,1.0,,,False,SOFT,9.0,False,Racing Bulls,124,11.0,False,21,São Paulo Grand Prix,True,C4,False,27.893,37.736,29.689,41.166,1.145,1.137,102.038
+0 days 00:58:33.584000,HAD,6,126.888,7.0,1.0,,0 days 00:58:30.603000,False,SOFT,10.0,False,Racing Bulls,45,11.0,False,21,São Paulo Grand Prix,True,C4,False,52.972,71.665,54.768,75.94,,,127.163
+0 days 01:22:19.408000,HAD,6,,8.0,2.0,0 days 01:20:43.285000,,False,MEDIUM,7.0,False,Racing Bulls,1,11.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:37.163000,HAD,6,77.755,9.0,2.0,,,False,MEDIUM,8.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,3.839,5.194,5.635,7.813,1.315,1.72,78.122
+0 days 01:24:51.474000,HAD,6,74.311,10.0,2.0,,,False,MEDIUM,9.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.395,0.534,2.191,3.038,0.443,0.6,74.724
+0 days 01:26:05.250000,HAD,6,73.776,11.0,2.0,,,True,MEDIUM,10.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,-0.14,-0.189,1.656,2.296,0.202,0.275,74.234
+0 days 01:27:18.694000,HAD,6,73.444,12.0,2.0,,,True,MEDIUM,11.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,-0.472,-0.639,1.324,1.836,-0.136,-0.185,73.948
+0 days 01:28:32.366000,HAD,6,73.672,13.0,2.0,,,False,MEDIUM,12.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,-0.244,-0.33,1.552,2.152,0.287,0.391,74.222
+0 days 01:29:46.541000,HAD,6,74.175,14.0,2.0,,,False,MEDIUM,13.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.259,0.35,2.055,2.849,0.339,0.459,74.771
+0 days 01:31:00.631000,HAD,6,74.09,15.0,2.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.174,0.235,1.97,2.732,0.311,0.422,74.732
+0 days 01:32:15.058000,HAD,6,74.427,16.0,2.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.511,0.691,2.307,3.199,0.599,0.811,75.114
+0 days 01:33:29.326000,HAD,6,74.268,17.0,2.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.352,0.476,2.148,2.978,0.25,0.338,75.001
+0 days 01:34:43.645000,HAD,6,74.319,18.0,2.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.403,0.545,2.199,3.049,0.482,0.653,75.098
+0 days 01:35:58.291000,HAD,6,74.646,19.0,2.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.73,0.988,2.526,3.502,0.569,0.768,75.471
+0 days 01:37:12.588000,HAD,6,74.297,20.0,2.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.381,0.515,2.177,3.019,0.455,0.616,75.168
+0 days 01:38:26.696000,HAD,6,74.108,21.0,2.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.192,0.26,1.988,2.757,0.245,0.332,75.025
+0 days 01:39:40.704000,HAD,6,74.008,22.0,2.0,,,False,MEDIUM,21.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,0.092,0.124,1.888,2.618,0.172,0.233,74.97
+0 days 01:40:56.372000,HAD,6,75.668,23.0,2.0,,,False,MEDIUM,22.0,False,Racing Bulls,1,12.0,True,21,São Paulo Grand Prix,True,C3,True,1.752,2.37,3.548,4.92,1.366,1.838,76.676
+0 days 01:42:14.014000,HAD,6,77.642,24.0,2.0,,,False,MEDIUM,23.0,False,Racing Bulls,12,10.0,True,21,São Paulo Grand Prix,True,C3,False,3.726,5.041,5.522,7.657,0.0,0.0,78.696
+0 days 00:49:39.269000,RUS,63,,1.0,1.0,,,False,SOFT,7.0,False,Mercedes,12,4.0,False,21,São Paulo Grand Prix,True,C4,False,,,,,,,
+0 days 00:50:53.798000,RUS,63,74.529,2.0,1.0,,,True,SOFT,8.0,False,Mercedes,1,4.0,True,21,São Paulo Grand Prix,True,C4,True,0.613,0.829,2.409,3.34,-1.159,-1.531,74.575
+0 days 00:52:07.541000,RUS,63,73.743,3.0,1.0,,,True,SOFT,9.0,False,Mercedes,1,4.0,True,21,São Paulo Grand Prix,True,C4,True,-0.173,-0.234,1.623,2.25,-0.89,-1.193,73.835
+0 days 00:53:21.061000,RUS,63,73.52,4.0,1.0,,,True,SOFT,10.0,False,Mercedes,1,4.0,True,21,São Paulo Grand Prix,True,C4,True,-0.396,-0.536,1.4,1.941,-0.386,-0.522,73.658
+0 days 00:54:34.603000,RUS,63,73.542,5.0,1.0,,,False,SOFT,11.0,False,Mercedes,1,4.0,True,21,São Paulo Grand Prix,True,C4,True,-0.374,-0.506,1.422,1.972,-0.242,-0.328,73.725
+0 days 00:56:08.555000,RUS,63,93.952,6.0,1.0,,,False,SOFT,12.0,False,Mercedes,124,3.0,False,21,São Paulo Grand Prix,True,C4,False,20.036,27.106,21.832,30.272,-6.712,-6.668,94.181
+0 days 00:58:08.187000,RUS,63,119.632,7.0,1.0,,0 days 00:58:04.307000,False,SOFT,13.0,False,Mercedes,45,3.0,False,21,São Paulo Grand Prix,True,C4,False,45.716,61.849,47.512,65.879,,,119.907
+0 days 01:22:17.029000,RUS,63,,8.0,2.0,0 days 01:20:15.031000,,False,MEDIUM,7.0,False,Mercedes,1,3.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:32.100000,RUS,63,75.071,9.0,2.0,,,False,MEDIUM,8.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,1.155,1.563,2.951,4.092,-1.369,-1.791,75.438
+0 days 01:24:44.363000,RUS,63,72.263,10.0,2.0,,,True,MEDIUM,9.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.653,-2.236,0.143,0.198,-1.605,-2.173,72.676
+0 days 01:25:57.075000,RUS,63,72.712,11.0,2.0,,,False,MEDIUM,10.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.204,-1.629,0.592,0.821,-0.862,-1.172,73.17
+0 days 01:27:09.806000,RUS,63,72.731,12.0,2.0,,,False,MEDIUM,11.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.185,-1.603,0.611,0.847,-0.849,-1.154,73.235
+0 days 01:28:22.434000,RUS,63,72.628,13.0,2.0,,,False,MEDIUM,12.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.288,-1.743,0.508,0.704,-0.757,-1.032,73.178
+0 days 01:29:35.004000,RUS,63,72.57,14.0,2.0,,,False,MEDIUM,13.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.346,-1.821,0.45,0.624,-1.266,-1.715,73.166
+0 days 01:30:47.814000,RUS,63,72.81,15.0,2.0,,,False,MEDIUM,14.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.106,-1.496,0.69,0.957,-0.969,-1.313,73.452
+0 days 01:32:00.511000,RUS,63,72.697,16.0,2.0,,,False,MEDIUM,15.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.219,-1.649,0.577,0.8,-1.131,-1.532,73.384
+0 days 01:33:13.437000,RUS,63,72.926,17.0,2.0,,,False,MEDIUM,16.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.99,-1.339,0.806,1.118,-1.092,-1.475,73.659
+0 days 01:34:26.578000,RUS,63,73.141,18.0,2.0,,,False,MEDIUM,17.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.775,-1.048,1.021,1.416,-0.696,-0.943,73.92
+0 days 01:35:39.609000,RUS,63,73.031,19.0,2.0,,,False,MEDIUM,18.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.885,-1.197,0.911,1.263,-1.046,-1.412,73.856
+0 days 01:36:52.738000,RUS,63,73.129,20.0,2.0,,,False,MEDIUM,19.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.787,-1.065,1.009,1.399,-0.713,-0.966,74.0
+0 days 01:38:05.780000,RUS,63,73.042,21.0,2.0,,,False,MEDIUM,20.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.874,-1.182,0.922,1.278,-0.821,-1.112,73.959
+0 days 01:39:18.834000,RUS,63,73.054,22.0,2.0,,,False,MEDIUM,21.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.862,-1.166,0.934,1.295,-0.782,-1.059,74.017
+0 days 01:40:31.715000,RUS,63,72.881,23.0,2.0,,,False,MEDIUM,22.0,False,Mercedes,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-1.035,-1.4,0.761,1.055,-1.421,-1.912,73.889
+0 days 01:41:46.706000,RUS,63,74.991,24.0,2.0,,,False,MEDIUM,23.0,False,Mercedes,12,3.0,True,21,São Paulo Grand Prix,True,C3,False,1.075,1.454,2.871,3.981,-2.651,-3.414,76.045
+0 days 00:49:38.698000,PIA,81,,1.0,1.0,,,False,MEDIUM,5.0,False,McLaren,12,3.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:50:52.640000,PIA,81,73.942,2.0,1.0,,,True,MEDIUM,6.0,False,McLaren,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,0.026,0.035,1.822,2.526,-1.746,-2.307,73.988
+0 days 00:52:06.194000,PIA,81,73.554,3.0,1.0,,,True,MEDIUM,7.0,False,McLaren,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.362,-0.49,1.434,1.988,-1.079,-1.446,73.646
+0 days 00:53:19.555000,PIA,81,73.361,4.0,1.0,,,True,MEDIUM,8.0,False,McLaren,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.555,-0.751,1.241,1.721,-0.545,-0.737,73.498
+0 days 00:54:32.547000,PIA,81,72.992,5.0,1.0,,,True,MEDIUM,9.0,False,McLaren,1,3.0,True,21,São Paulo Grand Prix,True,C3,True,-0.924,-1.25,0.872,1.209,-0.792,-1.073,73.175
+0 days 00:56:56.663000,PIA,81,,6.0,1.0,,,True,MEDIUM,10.0,False,McLaren,124,,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:49:50.256000,BEA,87,,1.0,1.0,,,False,MEDIUM,7.0,False,Haas F1 Team,12,18.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:07.148000,BEA,87,76.892,2.0,1.0,,,True,MEDIUM,8.0,False,Haas F1 Team,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,2.976,4.026,4.772,6.617,1.204,1.591,76.938
+0 days 00:52:22.616000,BEA,87,75.468,3.0,1.0,,,True,MEDIUM,9.0,False,Haas F1 Team,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,1.552,2.1,3.348,4.642,0.835,1.119,75.56
+0 days 00:53:37.200000,BEA,87,74.584,4.0,1.0,,,True,MEDIUM,10.0,False,Haas F1 Team,1,18.0,True,21,São Paulo Grand Prix,True,C3,True,0.668,0.904,2.464,3.417,0.678,0.917,74.722
+0 days 00:54:51.376000,BEA,87,74.176,5.0,1.0,,,True,MEDIUM,11.0,False,Haas F1 Team,12,18.0,True,21,São Paulo Grand Prix,True,C3,False,0.26,0.352,2.056,2.851,0.392,0.531,74.359
+0 days 00:56:35.873000,BEA,87,104.497,6.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,24,15.0,False,21,São Paulo Grand Prix,True,C3,False,30.581,41.373,32.377,44.893,3.833,3.808,104.726
+0 days 00:58:45.913000,BEA,87,130.04,7.0,1.0,,0 days 00:58:42.172000,False,MEDIUM,13.0,False,Haas F1 Team,45,15.0,False,21,São Paulo Grand Prix,True,C3,False,56.124,75.929,57.92,80.311,,,130.315
+0 days 01:22:21.764000,BEA,87,,8.0,2.0,0 days 01:20:58.087000,,False,MEDIUM,11.0,False,Haas F1 Team,1,15.0,False,21,São Paulo Grand Prix,True,C3,False,,,,,,,
+0 days 01:23:38.207000,BEA,87,76.443,9.0,2.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,2.527,3.419,4.323,5.994,0.003,0.004,76.81
+0 days 01:24:53.047000,BEA,87,74.84,10.0,2.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.924,1.25,2.72,3.771,0.972,1.316,75.252
+0 days 01:26:07.008000,BEA,87,73.961,11.0,2.0,,,True,MEDIUM,14.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.045,0.061,1.841,2.553,0.387,0.526,74.419
+0 days 01:27:20.765000,BEA,87,73.757,12.0,2.0,,,True,MEDIUM,15.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,-0.159,-0.215,1.637,2.27,0.177,0.241,74.261
+0 days 01:28:34.849000,BEA,87,74.084,13.0,2.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.168,0.227,1.964,2.723,0.699,0.953,74.634
+0 days 01:29:48.957000,BEA,87,74.108,14.0,2.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.192,0.26,1.988,2.757,0.272,0.368,74.704
+0 days 01:31:03.406000,BEA,87,74.449,15.0,2.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.533,0.721,2.329,3.229,0.67,0.908,75.091
+0 days 01:32:18.231000,BEA,87,74.825,16.0,2.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,15.0,True,21,São Paulo Grand Prix,True,C3,True,0.909,1.23,2.705,3.751,0.997,1.35,75.512
+0 days 01:33:33.357000,BEA,87,75.126,17.0,2.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,1.21,1.637,3.006,4.168,1.108,1.497,75.859
+0 days 01:34:47.135000,BEA,87,73.778,18.0,2.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,-0.138,-0.187,1.658,2.299,-0.059,-0.08,74.557
+0 days 01:36:01.275000,BEA,87,74.14,19.0,2.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.224,0.303,2.02,2.801,0.063,0.085,74.965
+0 days 01:37:15.111000,BEA,87,73.836,20.0,2.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,-0.08,-0.108,1.716,2.379,-0.006,-0.008,74.707
+0 days 01:38:29.050000,BEA,87,73.939,21.0,2.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.023,0.031,1.819,2.522,0.076,0.103,74.856
+0 days 01:39:42.874000,BEA,87,73.824,22.0,2.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,-0.092,-0.124,1.704,2.363,-0.012,-0.016,74.786
+0 days 01:40:57.294000,BEA,87,74.42,23.0,2.0,,,False,MEDIUM,26.0,False,Haas F1 Team,1,14.0,True,21,São Paulo Grand Prix,True,C3,True,0.504,0.682,2.3,3.189,0.118,0.159,75.428
+0 days 01:42:15.740000,BEA,87,78.446,24.0,2.0,,,False,MEDIUM,27.0,False,Haas F1 Team,12,12.0,True,21,São Paulo Grand Prix,True,C3,False,4.53,6.129,6.326,8.771,0.804,1.036,79.5
