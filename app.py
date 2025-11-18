@@ -236,8 +236,14 @@ def set_session_options(
 
     session_value = old_session
 
-    if (old_session == "R" and race_disabled) or (old_session == "S" and sprint_disabled):
+    # auto fill session value if there is only one available option
+    if race_disabled and not sprint_disabled:
+        session_value = "S"
+    elif sprint_disabled and not race_disabled:
+        session_value = "R"
+    elif race_disabled and sprint_disabled:
         session_value = None
+    # preserve old value otherwise (both enabled)
 
     return session_options, session_value
 
