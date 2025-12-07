@@ -1,3 +1,5 @@
+We have made it to the final post of the season! A sincere thank you to everyone who have interacted with these posts and/or provided feedback. In a few moment I will also be doing an AMA and all around strategy discussion on this sub.
+
 Check out the interactive version of these graphics and more at my [strategy dashboard](https://armchair-strategist.dev/).
 
 All data sourced from [Fastf1](https://docs.fastf1.dev/).
