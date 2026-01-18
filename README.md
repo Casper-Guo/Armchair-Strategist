@@ -69,7 +69,28 @@ The visualizations in this README are automatically updated to reflect the lates
         <summary>
             <b>Function call:</b>
         </summary>
-        <code>driver_stats_lineplot(season, event, session_type, drivers=3, y="GapTo{winner}")</code>
+        <code>
+            add_gap(winner, modify_global=True, season, session_type)
+            <br>
+            driver_stats_lineplot(season, event, session_type, drivers=3, y="GapTo{winner}")
+        </code>
+    </details>
+</details>
+
+<details>
+    <summary>
+        <b>Race Trace to Winner Average Pace</b>
+    </summary>
+    <img src="Docs/visuals/race_trace.png" alt="race trace">
+    <details>
+        <summary>
+            <b>Function call:</b>
+        </summary>
+        <code>
+            add_gap(winner, modify_global=True, distribute_pit_loss=True, season, session_type)
+            <br>
+            driver_stats_lineplot(season, event, session_type, drivers=3, y="GapTo{winner}Pace")
+        </code>
     </details>
 </details>
 
