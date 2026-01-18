@@ -296,10 +296,48 @@ def get_session_info(
     return round_number, event_name, tuple(drivers), session
 
 
+def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
+    """
+    Distribute pit time loss by constructing a timeseries from the average lap time.
+
+    Args:
+        df_laps: Dataframe containing laps from a single driver in a single race.
+
+    Returns:
+        Modified dataframe where the Time column is replaced with the distributed times.
+    """
+    driver_array = df_laps["Driver"].dropna().to_numpy()
+    round_array = df_laps["RoundNumber"].dropna().to_numpy()
+    assert driver_array.size and (driver_array[0] == driver_array).all(), (
+        "df_laps must contain laps from exactly one driver."
+    )
+    assert round_array.size and (round_array[0] == round_array).all(), (
+        "df_laps must contain laps from exactly one race."
+    )
+
+    valid_laps = df_laps["LapNumber"].notna() & df_laps["LapTime"].notna()
+    if not valid_laps.any():
+        logger.warning(
+            "Failed to distribute pit loss. No valid laps for driver %s in round %s.",
+            driver_array[0],
+            round_array[0],
+        )
+        return df_laps
+
+    mean_lap_time = pd.Timedelta(df_laps["LapTime"].mean(), unit="s")
+    first_lap_number = df_laps.loc[valid_laps, "LapNumber"].iloc[0]
+    lap_offset = df_laps.loc[valid_laps, "LapNumber"] - first_lap_number
+    df_laps.loc[valid_laps, "Time"] = (mean_lap_time * lap_offset) + df_laps.loc[
+        valid_laps, "Time"
+    ].iloc[0]
+    return df_laps
+
+
 def add_gap(
     driver: str,
     df_laps: pd.DataFrame | None = None,
     modify_global: bool = False,
+    distribute_pit_loss: bool = False,
     **kwargs,  # noqa: ANN003
 ) -> pd.DataFrame:
     """
@@ -308,15 +346,20 @@ def add_gap(
     Args:
         driver: The driver to whom the gaps will be calculated
 
-        df_laps: The dataframe to modify. Default behaviored explained later
+        df_laps: The dataframe to modify, unless overridden by modify_global.
 
         modify_global: Copies the modified dataframe to the global variable DF_DICT
             - requires season and session_type to be provided as keyword arguments
             - overrides any provided df_laps
             - copies the return value to DF_DICT[season][session_type]
 
+        distribute_pit_loss: If true, calculate the average lap time and construct a
+        time series that distributes it evenly, thus erasing the dramatic delta jumps
+        caused by pitstops
+
     Returns:
-        Modified dataframe with the gap column under the name GapTo{driver}
+        Modified dataframe with the gap column under the name GapTo{driver} or
+        GapTo{driver}Pace, depending on whether the pit loss is distributed.
     """
     assert not (not modify_global and df_laps is None), (
         "df_laps must be provided if not editing in-place."
@@ -329,9 +372,18 @@ def add_gap(
         season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
 
-    assert driver.upper() in df_laps["Driver"].unique(), "Driver not available."
+    driver = driver.upper()
+    assert driver in df_laps["Driver"].unique(), "Driver not available."
 
-    df_driver = df_laps[df_laps["Driver"] == driver][["RoundNumber", "LapNumber", "Time"]]
+    df_driver = df_laps[df_laps["Driver"] == driver]
+
+    if distribute_pit_loss:
+        df_driver = df_driver.groupby("RoundNumber", group_keys=False).apply(
+            _distribute_pit_loss
+        )
+
+    df_driver = df_driver[["RoundNumber", "LapNumber", "Time"]]
+
     timing_column_name = f"{driver}Time"
     df_driver = df_driver.rename(columns={"Time": timing_column_name})
 
@@ -342,7 +394,7 @@ def add_gap(
     df_laps = df_laps.merge(
         df_driver, how="left", on=["RoundNumber", "LapNumber"], validate="many_to_one"
     )
-    df_laps[f"GapTo{driver}"] = (
+    df_laps[f"GapTo{driver}{'Pace' if distribute_pit_loss else ''}"] = (
         df_laps["Time"] - df_laps[timing_column_name]
     ).dt.total_seconds()
     df_laps = df_laps.drop(columns=timing_column_name)
