@@ -56,6 +56,10 @@ def main() -> None:
             "caption": f"Podium finishers' gaps to winners. {dashboard_link}",
         },
         {
+            "image_path": VISUALS_PATH / "race_trace.png",
+            "caption": f"Race trace vs P1 average pace. {dashboard_link}",
+        },
+        {
             "image_path": VISUALS_PATH / "team_pace.png",
             "caption": f"Team pace ranking. {dashboard_link}",
         },

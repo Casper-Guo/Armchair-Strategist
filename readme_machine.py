@@ -155,6 +155,13 @@ def main(
     podium_finishers = viz.get_drivers(session, drivers=3)
     race_winner = podium_finishers[0]
     viz.add_gap(race_winner, modify_global=True, season=season, session_type=session_type)
+    viz.add_gap(
+        race_winner,
+        modify_global=True,
+        distribute_pit_loss=True,
+        season=season,
+        session_type=session_type,
+    )
     viz.driver_stats_lineplot(
         season=season,
         event=round_number,
@@ -165,6 +172,17 @@ def main(
     )
     plt.tight_layout()
     plt.savefig(dest / "podium_gap.png")
+
+    logger.info("Making race trace graph...")
+    viz.driver_stats_lineplot(
+        season=season,
+        event=round_number,
+        session_type=session_type,
+        y=f"GapTo{race_winner}Pace",
+        grid="both",
+    )
+    plt.tight_layout()
+    plt.savefig(dest / "race_trace.png")
 
     logger.info("Making lap time graph...")
     viz.driver_stats_scatterplot(
