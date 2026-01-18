@@ -9,6 +9,7 @@ def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:  # noqa: ANN003
     return dcc.Slider(
         min=100,
         max=150,
+        step=1,
         marks={i: str(i) for i in range(100, 116, 5)} | {150: "Show All"},
         value=107,
         tooltip={"placement": "top"},

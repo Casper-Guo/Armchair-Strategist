@@ -211,7 +211,7 @@ def parse_csv_path(path: Path) -> tuple[int, str, str]:
     return season, SESSION_NAMES[parent_dir], data_type
 
 
-def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
+def load_laps() -> defaultdict[int, defaultdict[str, dict[str, pd.DataFrame]]]:
     """
     Parse the data directory and load all available data csvs.
 
@@ -233,7 +233,9 @@ def load_laps() -> defaultdict[int, defaultdict[str, pd.DataFrame]]:
             2022: {R: {"all": df, "transformed": df}}
         }
     """
-    df_dict = defaultdict(lambda: defaultdict(defaultdict))
+    df_dict: defaultdict[int, defaultdict[str, dict[str, pd.DataFrame]]] = defaultdict(
+        lambda: defaultdict(dict)
+    )
 
     for file in DATA_PATH.glob("**/*.csv"):
         season, session, data_type = parse_csv_path(file)

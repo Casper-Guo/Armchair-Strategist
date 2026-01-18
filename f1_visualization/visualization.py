@@ -56,7 +56,7 @@ def _correct_dtype(df_laps: pd.DataFrame) -> pd.DataFrame:
 
 def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
     """Load transformed data by season."""
-    dfs = {}
+    dfs: dict[int, dict[str, pd.DataFrame]] = {}
 
     for file in DATA_PATH.glob("**/transformed_*.csv"):
         season = int(file.stem.split("_")[-1])
@@ -256,7 +256,7 @@ def get_session_info(
     session_type: str,
     drivers: tuple[str | int] | str | int | None = None,
     teammate_comp: bool = False,
-) -> tuple[int, str, tuple[str], Session]:
+) -> tuple[int, str, tuple[str, ...], Session]:
     """
     Retrieve session information based on season, event number/name, and session identifier.
 
@@ -406,8 +406,8 @@ def add_gap(
 
 
 def remove_low_data_drivers(
-    included_laps: pd.DataFrame, drivers: tuple[str], min_laps: int
-) -> tuple[str]:
+    included_laps: pd.DataFrame, drivers: tuple[str, ...], min_laps: int
+) -> tuple[str, ...]:
     """
     Return drivers who appear at least min_laps times in included_laps.
 
@@ -425,8 +425,8 @@ def remove_low_data_drivers(
 
 
 def teammate_comp_order(
-    included_laps: pd.DataFrame, drivers: tuple[str], by: str
-) -> tuple[str]:
+    included_laps: pd.DataFrame, drivers: tuple[str, ...], by: str
+) -> tuple[str, ...]:
     """
     Reorder teammates by the median gap in some metric in descending order.
 
@@ -567,7 +567,7 @@ def _deduplicate_legend_labels(ax: Axes, **kwargs) -> None:  # noqa: ANN003
 
 def _convert_compound_name(
     season: int, round_number: int, compounds: Iterable[str]
-) -> tuple[str]:
+) -> tuple[str, ...]:
     """
     Convert relative compound names to absolute compound names.
 
@@ -1176,7 +1176,7 @@ def strategy_barplot(
 def compounds_lineplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
-    session_types: str | Iterable[str] | None = None,
+    session_types: str | Iterable[str] = "R",
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     x: str = "TyreLife",
@@ -1296,7 +1296,7 @@ def compounds_lineplot(
 def compounds_distplot(
     seasons: int | Iterable[int],
     events: int | str | Iterable[int | str],
-    session_types: str | Iterable[str] | None = None,
+    session_types: str | Iterable[str] = "R",
     y: str = "LapTime",
     compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
     violin_plot: bool = False,

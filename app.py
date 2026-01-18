@@ -175,7 +175,7 @@ def set_season_options(_: str) -> list[int]:
 )
 def set_event_options(
     season: int | None, old_event: str | None
-) -> tuple[list[str], None, dict, int, int]:
+) -> tuple[list[str], str | None, dict, int, int]:
     """Get the names of all events in the selected season."""
     if season is None:
         return [], None, {}, 0, 0
@@ -303,7 +303,7 @@ def get_session_metadata(
         )
 
     # this order enables calling f.get_session by unpacking the first three items
-    return season, round_number, session_name, event_name, drivers, starting_grid
+    return season, round_number, session_name, event_name, list(drivers), starting_grid
 
 
 @callback(
@@ -534,7 +534,7 @@ def render_strategy_plot(
 def render_scatterplot(
     drivers: list[str],
     y: str,
-    upper_bound: float,
+    upper_bound: int,
     lap_numbers: list[int],
     included_laps: dict,
     session_info: Session_info,
@@ -554,7 +554,7 @@ def render_scatterplot(
     ]
 
     if teammate_comp:
-        drivers = teammate_comp_order(included_laps, drivers, y)
+        drivers = list(teammate_comp_order(included_laps, tuple(drivers), y))
 
     fig = pg.stats_scatterplot(included_laps, drivers, y)
     event_name = session_info[3]
@@ -576,7 +576,7 @@ def render_scatterplot(
 def render_lineplot(
     drivers: list[str],
     y: str,
-    upper_bound: float,
+    upper_bound: int,
     lap_numbers: list[int],
     starting_grid: list,
     included_laps: dict,
@@ -643,9 +643,8 @@ def render_distplot(
     ]
 
     if teammate_comp:
-        drivers = teammate_comp_order(included_laps, drivers, by="LapTime")
-    drivers = remove_low_data_drivers(included_laps, drivers, 6)
-
+        drivers = list(teammate_comp_order(included_laps, tuple(drivers), by="LapTime"))
+    drivers = list(remove_low_data_drivers(included_laps, tuple(drivers), 6))
     fig = pg.stats_distplot(included_laps, drivers, boxplot, f.get_session(*session_info[:3]))
     event_name = session_info[3]
     fig.update_layout(title=event_name)
