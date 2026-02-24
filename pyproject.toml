@@ -125,8 +125,6 @@ select = [
 ]
 
 ignore = [
-    "COM812",  # compliance with previous style
-    "ISC001",  # conflict with formatter
     "PTH123",  # all open calls already uses Pathlib for file handling
     "PD901",   # df is a perfectly fine variable name
     "D203",    # conflict with preferred D211 (No blank lines allowed before class docstring)

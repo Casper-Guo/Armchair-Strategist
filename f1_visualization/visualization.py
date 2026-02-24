@@ -234,7 +234,9 @@ def infer_ergast_data(session: Session) -> Session:
     # the lap earlier
     # The ignore_index=True option has the same effect as calling reset_index
     final_order = final_laps.sort_values(
-        by=["LapNumber", "Time"], ascending=[False, True], ignore_index=True
+        by=["LapNumber", "Time"],
+        ascending=[False, True],
+        ignore_index=True,
     )
 
     # Convert from Pandas index 0-index to finishing order 1-index
@@ -281,7 +283,7 @@ def get_session_info(
 
     if session.results["Position"].isna().all():
         logger.warning(
-            "Session results not available. Starting and finishing positions are inferred."
+            "Session results not available. Starting and finishing positions are inferred.",
         )
         session = infer_ergast_data(session)
 
@@ -328,7 +330,8 @@ def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
     first_lap_number = df_laps.loc[valid_laps, "LapNumber"].iloc[0]
     lap_offset = df_laps.loc[valid_laps, "LapNumber"] - first_lap_number
     df_laps.loc[valid_laps, "Time"] = (mean_lap_time * lap_offset) + df_laps.loc[
-        valid_laps, "Time"
+        valid_laps,
+        "Time",
     ].iloc[0]
     return df_laps
 
@@ -379,7 +382,7 @@ def add_gap(
 
     if distribute_pit_loss:
         df_driver = df_driver.groupby("RoundNumber", group_keys=False).apply(
-            _distribute_pit_loss
+            _distribute_pit_loss,
         )
 
     df_driver = df_driver[["RoundNumber", "LapNumber", "Time"]]
@@ -392,7 +395,10 @@ def add_gap(
     df_driver[timing_column_name] = df_driver[timing_column_name].ffill()
 
     df_laps = df_laps.merge(
-        df_driver, how="left", on=["RoundNumber", "LapNumber"], validate="many_to_one"
+        df_driver,
+        how="left",
+        on=["RoundNumber", "LapNumber"],
+        validate="many_to_one",
     )
     df_laps[f"GapTo{driver}{'Pace' if distribute_pit_loss else ''}"] = (
         df_laps["Time"] - df_laps[timing_column_name]
@@ -406,7 +412,9 @@ def add_gap(
 
 
 def remove_low_data_drivers(
-    included_laps: pd.DataFrame, drivers: tuple[str, ...], min_laps: int
+    included_laps: pd.DataFrame,
+    drivers: tuple[str],
+    min_laps: int,
 ) -> tuple[str, ...]:
     """
     Return drivers who appear at least min_laps times in included_laps.
@@ -425,7 +433,9 @@ def remove_low_data_drivers(
 
 
 def teammate_comp_order(
-    included_laps: pd.DataFrame, drivers: tuple[str, ...], by: str
+    included_laps: pd.DataFrame,
+    drivers: tuple[str],
+    by: str,
 ) -> tuple[str, ...]:
     """
     Reorder teammates by the median gap in some metric in descending order.
@@ -566,7 +576,9 @@ def _deduplicate_legend_labels(ax: Axes, **kwargs) -> None:  # noqa: ANN003
 
 
 def _convert_compound_name(
-    season: int, round_number: int, compounds: Iterable[str]
+    season: int,
+    round_number: int,
+    compounds: Iterable[str],
 ) -> tuple[str, ...]:
     """
     Convert relative compound names to absolute compound names.
@@ -636,7 +648,7 @@ def _process_input(
             """
             Different events may use different compounds under the same name!
             e.g. SOFT may be any of C3 to C5 dependinging on the event
-            """
+            """,
         )
 
     if isinstance(seasons, (int, str)):
@@ -734,7 +746,11 @@ def driver_stats_scatterplot(
         drivers = tuple(drivers)
 
     round_number, event_name, drivers, session = get_session_info(
-        season, event, session_type, drivers, teammate_comp
+        season,
+        event,
+        session_type,
+        drivers,
+        teammate_comp,
     )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
@@ -866,10 +882,13 @@ def driver_stats_lineplot(
         drivers = tuple(drivers)
 
     round_number, event_name, drivers, session = get_session_info(
-        season, event, session_type, drivers
+        season,
+        event,
+        session_type,
+        drivers,
     )
     starting_grid = dict(
-        zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True)
+        zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True),
     )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
@@ -1013,7 +1032,11 @@ def driver_stats_distplot(
         drivers = tuple(drivers)
 
     round_number, event_name, drivers, session = get_session_info(
-        season, event, session_type, drivers, teammate_comp
+        season,
+        event,
+        session_type,
+        drivers,
+        teammate_comp,
     )
 
     included_laps = DF_DICT[season][session_type]
@@ -1116,7 +1139,10 @@ def strategy_barplot(
         drivers = tuple(drivers)
 
     round_number, event_name, drivers, _session = get_session_info(
-        season, event, session_type, drivers
+        season,
+        event,
+        session_type,
+        drivers,
     )
     included_laps = DF_DICT[season][session_type]
     included_laps = included_laps[
@@ -1218,7 +1244,14 @@ def compounds_lineplot(
         seasons = [seasons]
 
     event_objects, included_laps_list = _process_input(
-        seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
+        seasons,
+        events,
+        session_types,
+        y,
+        compounds,
+        x,
+        upper_bound,
+        absolute_compound,
     )
 
     fig, axs = plt.subplots(
@@ -1341,7 +1374,14 @@ def compounds_distplot(
         seasons = [seasons]
 
     event_objects, included_laps_list = _process_input(
-        seasons, events, session_types, y, compounds, x, upper_bound, absolute_compound
+        seasons,
+        events,
+        session_types,
+        y,
+        compounds,
+        x,
+        upper_bound,
+        absolute_compound,
     )
 
     # adjust plot size based on the chosen x-axis
@@ -1384,7 +1424,12 @@ def compounds_distplot(
 
         if violin_plot:
             sns.violinplot(
-                data=included_laps, x=x, y=y, ax=ax, hue=args.hue, palette=args.palette
+                data=included_laps,
+                x=x,
+                y=y,
+                ax=ax,
+                hue=args.hue,
+                palette=args.palette,
             )
         else:
             sns.boxplot(data=included_laps, x=x, y=y, ax=ax, hue=args.hue, palette=args.palette)

@@ -174,7 +174,8 @@ def set_season_options(_: str) -> list[int]:
     prevent_initial_call=True,
 )
 def set_event_options(
-    season: int | None, old_event: str | None
+    season: int | None,
+    old_event: str | None,
 ) -> tuple[list[str], str | None, dict, int, int]:
     """Get the names of all events in the selected season."""
     if season is None:
@@ -256,14 +257,18 @@ def set_session_options(
     prevent_initial_call=True,
 )
 def enable_load_session(
-    season: int | None, event: str | None, session_name: str | None
+    season: int | None,
+    event: str | None,
+    session_name: str | None,
 ) -> bool:
     """Toggles load session button on when the previous three fields are filled."""
     return not (season is not None and event is not None and session_name is not None)
 
 
 @callback(
-    Output("add-gap", "disabled"), Input("load-session", "n_clicks"), prevent_initial_call=True
+    Output("add-gap", "disabled"),
+    Input("load-session", "n_clicks"),
+    prevent_initial_call=True,
 )
 def enable_add_gap(n_clicks: int) -> bool:
     """Enable the add-gap button after a session has been loaded."""
@@ -292,14 +297,17 @@ def get_session_metadata(
     Can assume that season, event, and session are all set (not None).
     """
     round_number, event_name, drivers, session = get_session_info(
-        season, event, session_name, teammate_comp=teammate_comp
+        season,
+        event,
+        session_name,
+        teammate_comp=teammate_comp,
     )
     event_name = f"{season} {event_name}"
 
     starting_grid = {}
     if pd.notna(session.results["GridPosition"]).all():
         starting_grid = dict(
-            zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True)
+            zip(session.results["Abbreviation"], session.results["GridPosition"], strict=True),
         )
 
     # this order enables calling f.get_session by unpacking the first three items
@@ -450,7 +458,9 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
     State("show-starting-grid", "value"),
 )
 def set_starting_grid_switch(
-    y: str, session_info: Session_info, current_setting: list | None
+    y: str,
+    session_info: Session_info,
+    current_setting: list | None,
 ) -> tuple[list[dict], list | None]:
     """
     Enable show starting grid switch only when y-axis is position.
@@ -464,7 +474,7 @@ def set_starting_grid_switch(
                 "label": "Show starting position",
                 "value": 1,
                 "disabled": False,
-            }
+            },
         ], [1]
     if not session_info[5]:
         # The starting position is only known if session_info[5] is populated
@@ -473,19 +483,21 @@ def set_starting_grid_switch(
                 "label": "Show starting position",
                 "value": 1,
                 "disabled": True,
-            }
+            },
         ], []
     return [
         {
             "label": "Show starting position",
             "value": 1,
             "disabled": y != "Position",
-        }
+        },
     ], current_setting
 
 
 @callback(
-    Output("laps-data-sequencer", "children"), Input("laps", "data"), prevent_initial_call=True
+    Output("laps-data-sequencer", "children"),
+    Input("laps", "data"),
+    prevent_initial_call=True,
 )
 def after_laps_data_callback(included_laps: dict) -> str:
     """
@@ -505,7 +517,10 @@ def after_laps_data_callback(included_laps: dict) -> str:
     State("session-info", "data"),
 )
 def render_strategy_plot(
-    drivers: list[str], _: str, included_laps: dict, session_info: Session_info
+    drivers: list[str],
+    _: str,
+    included_laps: dict,
+    session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup

@@ -53,7 +53,7 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
         NUM_ROUNDS[season]
         if season != CURRENT_SEASON
         else get_last_round(
-            session_cutoff=GRAND_PRIX_ORDINAL if grand_prix else SPRINT_RACE_ORDINAL
+            session_cutoff=GRAND_PRIX_ORDINAL if grand_prix else SPRINT_RACE_ORDINAL,
         )
     )
 
@@ -71,12 +71,12 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
             raise ValueError(f"No sprint rounds in the {season} season.") from exc
         except ValueError as exc:
             raise ValueError(
-                f"No sprint rounds has been completed in the {season} season yet."
+                f"No sprint rounds has been completed in the {season} season yet.",
             ) from exc
     else:
         if round_number > last_round_number:
             raise ValueError(
-                f"Only {last_round_number} rounds of the {season} season have been completed."
+                f"Only {last_round_number} rounds of the {season} season have been completed.",
             )
         if grand_prix:
             return round_number
@@ -84,7 +84,7 @@ def process_round_number(season: int, round_number: int, grand_prix: bool) -> in
             raise ValueError(f"No sprint rounds in the {season} season.")
         if round_number not in SPRINT_ROUNDS[season]:
             raise ValueError(
-                f"Round {round_number} of the {season} season is not a sprint round."
+                f"Round {round_number} of the {season} season is not a sprint round.",
             )
         return round_number
 
@@ -107,14 +107,24 @@ def find_upper_bound(laps: Laps, min_fraction: float = 0.5) -> int:
 @click.argument("season", nargs=1, default=CURRENT_SEASON, type=int)
 @click.argument("round_number", nargs=1, default=-1, type=int)
 @click.option(
-    "--grand-prix/--sprint-race", "-g/-s", default=True, help="Default to grand prix."
+    "--grand-prix/--sprint-race",
+    "-g/-s",
+    default=True,
+    help="Default to grand prix.",
 )
 @click.option("--update-readme", is_flag=True)
 @click.option(
-    "-r", "--reddit-machine", is_flag=True, help="Write plotted session name to a text file."
+    "-r",
+    "--reddit-machine",
+    is_flag=True,
+    help="Write plotted session name to a text file.",
 )
 def main(
-    season: int, round_number: int, grand_prix: bool, update_readme: bool, reddit_machine: bool
+    season: int,
+    round_number: int,
+    grand_prix: bool,
+    update_readme: bool,
+    reddit_machine: bool,
 ) -> None:
     """
     Make the suite of README visualizations for the requested event.
@@ -141,7 +151,7 @@ def main(
         overwrite_confirmation = input(
             "WARNING:\n"
             f"{dest} may already contain the desired visualizations.\n"
-            "Enter Y if you wish to overwrite them, otherwise, enter N: "
+            "Enter Y if you wish to overwrite them, otherwise, enter N: ",
         )
         if overwrite_confirmation.upper() != "Y":
             logger.info("Overwriting permission not given, aborting.")
