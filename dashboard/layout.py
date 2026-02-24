@@ -21,7 +21,12 @@ def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:  # noqa: ANN003
 def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:  # noqa: ANN003
     """Generate generic range slider for setting lap numbers."""
     return dcc.RangeSlider(
-        min=1, step=1, allowCross=False, tooltip={"placement": "bottom"}, id=slider_id, **kwargs
+        min=1,
+        step=1,
+        allowCross=False,
+        tooltip={"placement": "bottom"},
+        id=slider_id,
+        **kwargs,
     )
 
 
@@ -33,7 +38,7 @@ session_picker_row = dbc.Row(
                 placeholder="Select a season",
                 value=None,
                 id="season",
-            )
+            ),
         ),
         dbc.Col(
             dcc.Dropdown(
@@ -60,7 +65,7 @@ session_picker_row = dbc.Row(
                 value=False,
                 clearable=False,
                 id="teammate-comp",
-            )
+            ),
         ),
         dbc.Col(
             dbc.Button(
@@ -69,7 +74,7 @@ session_picker_row = dbc.Row(
                 disabled=True,
                 color="success",
                 id="load-session",
-            )
+            ),
         ),
     ],
 )
@@ -86,7 +91,7 @@ add_gap_row = dbc.Row(
                     disabled=True,
                     multi=True,
                     id="gap-drivers",
-                )
+                ),
             ),
             html.Br(),
             dbc.Row(
@@ -98,14 +103,15 @@ add_gap_row = dbc.Row(
                         n_clicks=0,
                         id="add-gap",
                     ),
-                )
+                ),
             ),
         ]),
-    ])
+    ]),
 )
 
 strategy_tab = dbc.Tab(
-    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))), label="Strategy"
+    dbc.Card(dbc.CardBody(dcc.Loading(dcc.Graph(id="strategy-plot")))),
+    label="Strategy",
 )
 
 scatter_y_options = [
@@ -135,7 +141,7 @@ scatterplot_tab = dbc.Tab(
                     placeholder="Select the variable to put in y-axis",
                     clearable=False,
                     id="scatter-y",
-                )
+                ),
             ),
             html.Br(),
             dbc.Row(dcc.Loading(dcc.Graph(id="scatterplot"))),
@@ -145,7 +151,7 @@ scatterplot_tab = dbc.Tab(
             html.Br(),
             html.P("Select the range of lap numbers to include:"),
             dbc.Row(lap_numbers_slider(slider_id="lap-numbers-scatter")),
-        ])
+        ]),
     ),
     label="Stats Scatterplot",
 )
@@ -174,7 +180,7 @@ lineplot_tab = dbc.Tab(
                                     "label": "Show starting positions",
                                     "value": 1,
                                     "disabled": False,
-                                }
+                                },
                             ],
                             value=[],
                             id="show-starting-grid",
@@ -193,7 +199,7 @@ lineplot_tab = dbc.Tab(
             html.Br(),
             html.P("Select the range of lap numbers to include:"),
             dbc.Row(lap_numbers_slider(slider_id="lap-numbers-line")),
-        ])
+        ]),
     ),
     label="Stats Lineplot",
 )
@@ -203,7 +209,7 @@ distplot_caveat = dbc.Alert(
         html.H4("Caveats", className="alert-heading"),
         html.P(
             "Only drivers who have completed more than 5 laps are shown. "
-            "Try adjusting the slow lap filter if no plot is shown."
+            "Try adjusting the slow lap filter if no plot is shown.",
         ),
     ],
     color="info",
@@ -224,14 +230,14 @@ distplot_tab = dbc.Tab(
                     value=True,
                     clearable=False,
                     id="boxplot",
-                )
+                ),
             ),
             html.Br(),
             dbc.Row(dcc.Loading(dcc.Graph(id="distplot"))),
             html.Br(),
             html.P("Filter out slow laps (default is 107% of the fastest lap):"),
             dbc.Row(upper_bound_slider(slider_id="upper-bound-dist")),
-        ])
+        ]),
     ),
     label="Lap Time Distribution Plot",
 )
@@ -242,12 +248,12 @@ compound_plot_explanation = dbc.Alert(
         html.P(
             "The metric behind this graph is delta to lap representative time (DLRT). "
             "It is a measure of how good a lap time is compared to other cars on track "
-            "at the same time, thus accounting for fuel load and track evolution."
+            "at the same time, thus accounting for fuel load and track evolution.",
         ),
         html.Hr(),
         html.P(
             "Since this metric is relative, this plot is best used for understanding "
-            "how different compounds degrade at different rates."
+            "how different compounds degrade at different rates.",
         ),
     ],
     color="info",
@@ -259,24 +265,24 @@ compound_plot_caveats = dbc.Alert(
         html.H4("Caveats", className="alert-heading"),
         html.P(
             "The driver selections does not apply to this plot. "
-            "This plot always considers laps driven by all drivers."
+            "This plot always considers laps driven by all drivers.",
         ),
         html.Hr(),
         html.P(
             "Tyre life does not always correspond to stint length. "
-            "As the same tyre may have been used in qualifying sessions."
+            "As the same tyre may have been used in qualifying sessions.",
         ),
         html.Hr(),
         html.P(
             # 5% is estimated as three drivers each completing one third race length
             "Only compounds that completed at least 5% of all laps can be shown. "
-            "Outlier laps are filtered out."
+            "Outlier laps are filtered out.",
         ),
         html.Hr(),
         html.P(
             "For each compound, the range of shown tyre life is limited by "
             "the number of drivers who completed a stint of that length. This is to avoid "
-            "the plot being stretched by one driver doing a very long stint."
+            "the plot being stretched by one driver doing a very long stint.",
         ),
     ],
     color="info",
@@ -300,8 +306,8 @@ compound_plot_tab = dbc.Tab(
                         clearable=False,
                         placeholder="Select a unit",
                         id="compound-unit",
-                    )
-                )
+                    ),
+                ),
             ),
             html.Br(),
             dbc.Row(
@@ -313,12 +319,12 @@ compound_plot_tab = dbc.Tab(
                         disabled=True,
                         multi=True,
                         id="compounds",
-                    )
-                )
+                    ),
+                ),
             ),
             html.Br(),
             dbc.Row(dcc.Loading(dcc.Graph(id="compound-plot"))),
-        ])
+        ]),
     ),
     label="Compound Performance Plot",
 )
@@ -443,8 +449,8 @@ app_layout = dbc.Container([
                 disabled=True,
                 multi=True,
                 id="drivers",
-            )
-        )
+            ),
+        ),
     ),
     html.Br(),
     add_gap_row,

@@ -98,7 +98,7 @@ def strategy_barplot(
                         f"Stint {stint_num}, "
                         f"{'Fresh' if stint['FreshTyre'] == 'True' else 'Used'}"
                     ),
-                )
+                ),
             )
             stint_num += 1
 
@@ -165,7 +165,7 @@ def stats_scatterplot(
                 marker={
                     "color": driver_laps[args.hue].map(args.palette),
                     "symbol": driver_laps["FreshTyre"].map(
-                        DASH_VISUAL_CONFIG["fresh"]["markers"]
+                        DASH_VISUAL_CONFIG["fresh"]["markers"],
                     ),
                 },
                 name=driver,
@@ -227,7 +227,7 @@ def stats_lineplot(
                     mode="lines",
                     line=driver_line_style,
                     name=driver,
-                )
+                ),
             )
         else:
             fig.add_trace(
@@ -237,7 +237,7 @@ def stats_lineplot(
                     mode="lines",
                     line=driver_line_style,
                     name=driver,
-                )
+                ),
             )
 
     fig = shade_sc_periods(fig, sc_laps, vsc_laps)
@@ -265,7 +265,10 @@ def stats_lineplot(
 
 
 def stats_distplot(
-    included_laps: pd.DataFrame, drivers: list[str], boxplot: bool, session: Session
+    included_laps: pd.DataFrame,
+    drivers: list[str],
+    boxplot: bool,
+    session: Session,
 ) -> go.Figure:
     """Make distribution plot of lap times, either as boxplot or as violin plot."""
     fig = go.Figure()
@@ -284,7 +287,7 @@ def stats_distplot(
                     line={"color": "lightslategray"},
                     name=driver,
                     showwhiskers=True,
-                )
+                ),
             )
         else:
             fig.add_trace(
@@ -295,7 +298,7 @@ def stats_distplot(
                     meanline_visible=True,
                     name=driver,
                     opacity=0.9,
-                )
+                ),
             )
 
     fig.update_layout(
@@ -345,7 +348,7 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
                 },
                 mode="lines+markers",
                 name=compound,
-            )
+            ),
         )
 
     fig.update_layout(

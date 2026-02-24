@@ -54,7 +54,7 @@ def load_all_data(season: int, path: Path, session_type: str) -> None:
     if session_type == "S":
         if season == CURRENT_SEASON:
             all_rounds = SPRINT_ROUNDS[CURRENT_SEASON].intersection(
-                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1)
+                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1),
             )
         else:
             all_rounds = SPRINT_ROUNDS.get(season, set())
@@ -78,7 +78,9 @@ def load_all_data(season: int, path: Path, session_type: str) -> None:
         logger.info("Finished loading %d season %s data.", season, SESSION_IDS[session_type])
     else:
         logger.info(
-            "No data available for %d season %s yet.", season, SESSION_IDS[session_type]
+            "No data available for %d season %s yet.",
+            season,
+            SESSION_IDS[session_type],
         )
 
 
@@ -105,7 +107,7 @@ def update_data(season: int, path: Path, session_type: str) -> None:
     if session_type == "S":
         if season == CURRENT_SEASON:
             all_rounds = SPRINT_ROUNDS[CURRENT_SEASON].intersection(
-                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1)
+                range(1, get_last_round(session_cutoff=SPRINT_RACE_ORDINAL) + 1),
             )
         else:
             all_rounds = SPRINT_ROUNDS.get(season, set())
@@ -114,7 +116,9 @@ def update_data(season: int, path: Path, session_type: str) -> None:
 
     if not missing_rounds:
         logger.info(
-            "%d season %s data is already up to date.", season, SESSION_IDS[session_type]
+            "%d season %s data is already up to date.",
+            season,
+            SESSION_IDS[session_type],
         )
         return
 
@@ -234,7 +238,7 @@ def load_laps() -> defaultdict[int, defaultdict[str, dict[str, pd.DataFrame]]]:
         }
     """
     df_dict: defaultdict[int, defaultdict[str, dict[str, pd.DataFrame]]] = defaultdict(
-        lambda: defaultdict(dict)
+        lambda: defaultdict(dict),
     )
 
     for file in DATA_PATH.glob("**/*.csv"):
@@ -340,7 +344,7 @@ def add_compound_name(
             # error handling for when compound_selection.toml is not up-to-date
             raise OutdatedTOMLError(
                 "Compound selection record is missing for "
-                f"{season} season round {row.loc['RoundNumber']}"
+                f"{season} season round {row.loc['RoundNumber']}",
             ) from exc
 
     df_laps["CompoundName"] = df_laps.apply(convert_compound_name, axis=1)
@@ -391,7 +395,7 @@ def convert_compound(df_laps: pd.DataFrame) -> pd.DataFrame:
             # error handling for when compound_selection.toml is not up-to-date
             raise OutdatedTOMLError(
                 "Compound selection record is missing for 2018 season round "
-                f"{row.loc['RoundNumber']}"
+                f"{row.loc['RoundNumber']}",
             ) from exc
 
     df_laps["Compound"] = df_laps.apply(convert_helper, axis=1)
@@ -459,7 +463,7 @@ def add_fastest_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     )
 
     df_laps["DeltaToFastest"] = (df_laps["LapTime"] - df_laps["LapTime_Fastest"]).round(
-        decimals=3
+        decimals=3,
     )
     df_laps["PctFromFastest"] = (
         (df_laps["LapTime"] - df_laps["LapTime_Fastest"]) / df_laps["LapTime_Fastest"] * 100
@@ -504,7 +508,7 @@ def add_lap_rep_deltas(df_laps: pd.DataFrame) -> pd.DataFrame:
     )
 
     df_laps["DeltaToLapRep"] = (df_laps["LapTime"] - df_laps["LapTime_LapRep"]).round(
-        decimals=3
+        decimals=3,
     )
     df_laps["PctFromLapRep"] = (
         (df_laps["LapTime"] - df_laps["LapTime_LapRep"]) / df_laps["LapTime_LapRep"] * 100
