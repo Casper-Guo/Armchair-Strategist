@@ -20,6 +20,7 @@ SPRINT_ROUNDS = {
     2023: {4, 9, 12, 17, 18, 20},
     2024: {5, 6, 11, 19, 21, 23},
     2025: {2, 6, 13, 19, 21, 23},
+    2026: {2, 6, 7, 11, 14, 18},
 }
 
 # Map session ids to full session names, and reverse
