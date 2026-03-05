@@ -8,9 +8,12 @@ from pathlib import Path
 import fastf1 as f
 import numpy as np
 import pandas as pd
-from fastf1.core import InvalidSessionError, NoLapDataError
-from fastf1.ergast.interface import ErgastError
-from fastf1.req import RateLimitExceededError
+from fastf1.exceptions import (
+    ErgastError,
+    InvalidSessionError,
+    NoLapDataError,
+    RateLimitExceededError,
+)
 
 from f1_visualization.consts import (
     COMPOUND_SELECTION,
