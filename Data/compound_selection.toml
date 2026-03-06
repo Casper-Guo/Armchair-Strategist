@@ -190,6 +190,7 @@
 [2025]
 # Source
 # https://press.pirelli.com/changes-and-status-quo-when-it-comes-to-compound-choices-for-the-rest-of-the-season0/
+
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
 3  = ["C1","C2","C3"]
@@ -214,3 +215,9 @@
 22 = ["C3","C4","C5"]
 23 = ["C1","C2","C3"]
 24 = ["C3","C4","C5"]
+
+[2026]
+# Source
+# https://press.pirelli.com/melbourne-writes-the-first-chapter-of-the-new-f1-season/
+
+1  = ["C3","C4","C5"]

@@ -108,8 +108,7 @@ def _find_legend_order(labels: Iterable[str]) -> list[int]:
         # 2018 absolute compound names
         sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["18"]
     elif any(label.startswith("C") for label in labels):
-        # 19_22 absolute compound names
-        sorted_labels = VISUAL_CONFIG["absolute"]["labels"]["19_22"]
+        sorted_labels = [f"C{i}" for i in range(7)] + ["INTERMEDIATE", "WET", "UNKNOWN"]
     else:
         # default to relative names
         sorted_labels = VISUAL_CONFIG["relative"]["labels"]
@@ -153,11 +152,18 @@ def _plot_args(season: int, absolute_compound: bool) -> PlotArgs:
                 VISUAL_CONFIG["absolute"]["markers"]["23_24"],
                 VISUAL_CONFIG["absolute"]["labels"]["23_24"],
             )
+        if season < 2026:  # noqa: PLR2004
+            return PlotArgs(
+                "CompoundName",
+                VISUAL_CONFIG["absolute"]["palette"]["25"],
+                VISUAL_CONFIG["absolute"]["markers"]["25"],
+                VISUAL_CONFIG["absolute"]["labels"]["25"],
+            )
         return PlotArgs(
             "CompoundName",
-            VISUAL_CONFIG["absolute"]["palette"]["25_"],
-            VISUAL_CONFIG["absolute"]["markers"]["25_"],
-            VISUAL_CONFIG["absolute"]["labels"]["25_"],
+            VISUAL_CONFIG["absolute"]["palette"]["26_"],
+            VISUAL_CONFIG["absolute"]["markers"]["26_"],
+            VISUAL_CONFIG["absolute"]["labels"]["26_"],
         )
 
     return PlotArgs(
