@@ -27,13 +27,10 @@ from f1_visualization.consts import (
     SPRINT_ROUNDS,
     VISUAL_CONFIG,
 )
+from f1_visualization.exceptions import OutdatedTOMLError
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
-
-
-class OutdatedTOMLError(Exception):
-    """Raised when Data/compound_selection.toml is not up to date."""
 
 
 def load_all_data(season: int, path: Path, session_type: str) -> None:
