@@ -21,6 +21,7 @@ from f1_visualization.consts import (
     SESSION_NAMES,
     VISUAL_CONFIG,
 )
+from f1_visualization.exceptions import OutdatedTOMLError
 
 logging.basicConfig(level=logging.INFO, format="%(filename)s\t%(levelname)s\t%(message)s")
 logger = logging.getLogger(__name__)
@@ -607,10 +608,15 @@ def _convert_compound_name(
     if season == 2018:  # noqa: PLR2004
         compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
 
-    return_vals = [
-        COMPOUND_SELECTION[str(season)][str(round_number)][compound_to_index[compound]]
-        for compound in compounds
-    ]
+    try:
+        return_vals = [
+            COMPOUND_SELECTION[str(season)][str(round_number)][compound_to_index[compound]]
+            for compound in compounds
+        ]
+    except KeyError as e:
+        raise OutdatedTOMLError(
+            f"Compound selection TOML is outdated for {season} season",
+        ) from e
 
     return tuple(return_vals)
 
