@@ -219,5 +219,7 @@
 [2026]
 # Source
 # https://press.pirelli.com/melbourne-writes-the-first-chapter-of-the-new-f1-season/
+# https://press.pirelli.com/the-first-sprint-of-the-season-in-shanghai/
 
 1  = ["C3","C4","C5"]
+2  = ["C2","C3","C4"]
