@@ -179,6 +179,7 @@ def get_drivers(
     session: Session,
     drivers: Iterable[str | int] | str | int | None = None,
     by: str = "Position",
+    exclude_dns_drivers: bool = True,
 ) -> list[str]:
     """
     Find driver three-letter abbreviations.
@@ -205,15 +206,21 @@ def get_drivers(
         by: The key by which the drivers are sorted. Default is sorting by finishing position.
             See all available options in FastF1 `Session.results` documentation.
 
+        exclude_dns_drivers: If true, drivers classified as DNS will not be included.
+        Filtering is not applied if driver is explicitly specified via abbreviation or
+        driver number.
+
     Returns:
         The drivers' three-letter abbreviations, in the order requested.
         (Or in the case of int argument, in the finishing order.)
     """
-    result = session.results.sort_values(by=by, kind="stable")
+    results = session.results.sort_values(by=by, kind="stable")
+    if exclude_dns_drivers:
+        results = results[~results["Status"].isin(["DNS", "Did not start"])]
     if drivers is None:
-        return list(result["Abbreviation"].unique())
+        return list(results["Abbreviation"].unique())
     if isinstance(drivers, int):
-        drivers = result["Abbreviation"].unique()[:drivers]
+        drivers = results["Abbreviation"].unique()[:drivers]
         return list(drivers)
     if isinstance(drivers, str):
         drivers = [drivers]
@@ -265,6 +272,7 @@ def get_session_info(
     session_type: str,
     drivers: tuple[str | int] | str | int | None = None,
     teammate_comp: bool = False,
+    exclude_dns_drivers: bool = True,
 ) -> tuple[int, str, tuple[str, ...], Session]:
     """
     Retrieve session information based on season, event number/name, and session identifier.
@@ -282,6 +290,10 @@ def get_session_info(
         teammate_comp: If True, the drivers are returned next to their teammates. Else,
         the drivers are returned in the finishing order.
 
+        exclude_dns_drivers: If true, drivers classified as DNS will not be included.
+        Filtering is not applied if driver is explicitly specified via abbreviation or
+        driver number.
+
     Returns:
         A tuple containing the round number, event name, and the drivers in the specified order.
     """
@@ -298,9 +310,14 @@ def get_session_info(
     event_name = f"{session.event['EventName']} - {session.name}"
 
     if teammate_comp:
-        drivers = get_drivers(session, drivers, by="TeamName")
+        drivers = get_drivers(
+            session,
+            drivers,
+            by="TeamName",
+            exclude_dns_drivers=exclude_dns_drivers,
+        )
     else:
-        drivers = get_drivers(session, drivers)
+        drivers = get_drivers(session, drivers, exclude_dns_drivers=exclude_dns_drivers)
 
     return round_number, event_name, tuple(drivers), session
 
