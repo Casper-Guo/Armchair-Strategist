@@ -1006,7 +1006,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:22:38.351000,BEA,87,84.5,55.0,2.0,,,False,HARD,37.0,True,Haas F1 Team,1,7.0,True,1,Australian Grand Prix,True,C3,True,-0.375,-0.442,2.409,2.935,0.294,0.349,87.572
 0 days 02:24:04.790000,BEA,87,86.439,56.0,2.0,,,False,HARD,38.0,True,Haas F1 Team,1,7.0,True,1,Australian Grand Prix,True,C3,True,1.564,1.843,4.348,5.297,1.953,2.312,89.568
 0 days 02:25:31.439000,BEA,87,86.649,57.0,2.0,,,False,HARD,39.0,True,Haas F1 Team,1,7.0,True,1,Australian Grand Prix,True,C3,True,1.774,2.09,4.558,5.552,2.076,2.455,89.835
-0 days 00:58:03.760000,NOR,1,,1.0,1.0,,,False,HARD,1.0,True,McLaren,12,,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
 0 days 00:58:06.903000,GAS,10,102.591,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,12,5.0,False,2,Chinese Grand Prix,True,C3,False,4.501,4.589,7.316,7.679,-4.102,-3.845,102.591
 0 days 00:59:45.820000,GAS,10,98.917,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.827,0.843,3.642,3.823,-1.378,-1.374,98.976
 0 days 01:01:24.743000,GAS,10,98.923,3.0,1.0,,,False,MEDIUM,3.0,True,Alpine,1,5.0,True,2,Chinese Grand Prix,True,C3,True,0.833,0.849,3.648,3.829,-0.192,-0.194,99.041
@@ -1272,7 +1271,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:10:03.358000,STR,18,101.174,8.0,1.0,,,False,HARD,8.0,True,Aston Martin,1,16.0,True,2,Chinese Grand Prix,True,C2,True,3.084,3.144,5.899,6.192,1.942,1.957,101.586
 0 days 01:11:44.241000,STR,18,100.883,9.0,1.0,,,True,HARD,9.0,True,Aston Martin,1,16.0,True,2,Chinese Grand Prix,True,C2,True,2.793,2.847,5.608,5.886,1.847,1.865,101.354
 0 days 01:14:14.241000,STR,18,,10.0,1.0,,,True,HARD,10.0,True,Aston Martin,124,,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
-0 days 00:58:03.760000,ALB,23,,1.0,1.0,,,False,HARD,1.0,True,Williams,12,,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
 0 days 00:58:13.031000,HUL,27,108.719,1.0,1.0,,,False,HARD,1.0,True,Audi,12,15.0,False,2,Chinese Grand Prix,True,C2,False,10.629,10.836,13.444,14.111,2.026,1.899,108.719
 0 days 00:59:54.665000,HUL,27,101.634,2.0,1.0,,,True,HARD,2.0,True,Audi,1,15.0,True,2,Chinese Grand Prix,True,C2,True,3.544,3.613,6.359,6.674,1.339,1.335,101.693
 0 days 01:01:34.572000,HUL,27,99.907,3.0,1.0,,,True,HARD,3.0,True,Audi,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.817,1.852,4.632,4.862,0.792,0.799,100.025
@@ -1650,7 +1648,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:26:52.976000,HAM,44,96.44,54.0,2.0,,,False,HARD,44.0,True,Ferrari,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.65,-1.682,1.165,1.223,-0.762,-0.784,99.563
 0 days 02:28:29.068000,HAM,44,96.092,55.0,2.0,,,True,HARD,45.0,True,Ferrari,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.998,-2.037,0.817,0.858,-1.074,-1.105,99.274
 0 days 02:30:05.171000,HAM,44,96.103,56.0,2.0,,,False,HARD,46.0,True,Ferrari,1,3.0,True,2,Chinese Grand Prix,True,C2,True,-1.987,-2.026,0.828,0.869,-0.396,-0.41,99.344
-0 days 00:58:03.760000,BOR,5,,1.0,1.0,,,False,HARD,1.0,True,Audi,12,,False,2,Chinese Grand Prix,True,C2,False,,,,,,,
 0 days 00:58:11.819000,SAI,55,107.507,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,12,11.0,False,2,Chinese Grand Prix,True,C3,False,9.417,9.6,12.232,12.839,0.814,0.763,107.507
 0 days 00:59:52.562000,SAI,55,100.743,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,2.653,2.705,5.468,5.739,0.448,0.447,100.802
 0 days 01:01:32.549000,SAI,55,99.987,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,11.0,True,2,Chinese Grand Prix,True,C3,True,1.897,1.934,4.712,4.946,0.872,0.88,100.105
@@ -1873,7 +1870,6 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:27:18.260000,BOT,77,99.353,53.0,2.0,,,False,HARD,43.0,True,Cadillac,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.263,1.288,4.078,4.28,2.003,2.058,102.417
 0 days 02:28:57.683000,BOT,77,99.423,54.0,2.0,,,False,HARD,44.0,True,Cadillac,1,13.0,True,2,Chinese Grand Prix,True,C2,True,1.333,1.359,4.148,4.354,2.221,2.285,102.546
 0 days 02:30:36.076000,BOT,77,98.393,55.0,2.0,,,True,HARD,45.0,True,Cadillac,1,13.0,True,2,Chinese Grand Prix,True,C2,True,0.303,0.309,3.118,3.273,1.227,1.263,101.575
-0 days 00:58:03.760000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,,False,2,Chinese Grand Prix,True,C3,False,,,,,,,
 0 days 00:58:12.163000,BEA,87,107.851,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,12,12.0,False,2,Chinese Grand Prix,True,C3,False,9.761,9.951,12.576,13.2,1.158,1.085,107.851
 0 days 00:59:53.299000,BEA,87,101.136,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,12.0,True,2,Chinese Grand Prix,True,C3,True,3.046,3.105,5.861,6.152,0.841,0.839,101.195
 0 days 01:01:33.014000,BEA,87,99.715,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,12.0,True,2,Chinese Grand Prix,True,C3,True,1.625,1.657,4.44,4.66,0.6,0.605,99.833
