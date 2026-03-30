@@ -13,6 +13,9 @@ expect {
   "*Enter passphrase for key '/home/robery/.ssh/id_ed25519': " {
     send "\n"
   }
+  "*rejected*" {
+    exit 1
+  }
   "*Everything up-to-date*" {
     exit 0
   }
