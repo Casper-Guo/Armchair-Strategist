@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-performance = ["orjson >= 3.9.0"]
+performance = ["orjson >= 3.11.8"]
 
 [build-system]
 requires = ["setuptools >= 61.0"]
