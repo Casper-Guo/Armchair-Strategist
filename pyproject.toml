@@ -14,7 +14,7 @@ dependencies = [
     "tomli >= 2.0.0",
     "tomli-w >= 1.0.0",
     "pre-commit >= 3.6.0",
-    "click >= 8.0.0",
+    "click >= 8.3.2",
     "dash >= 3.0.0",
     "dash-bootstrap-components >= 2.0.0",
 ]
