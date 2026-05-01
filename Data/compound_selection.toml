@@ -221,7 +221,9 @@
 # https://press.pirelli.com/melbourne-writes-the-first-chapter-of-the-new-f1-season/
 # https://press.pirelli.com/the-first-sprint-of-the-season-in-shanghai/
 # https://press.pirelli.com/the-suzuka-challenge-with-the-hardest-trio-in-the-range/
+# https://press.pirelli.com/formula-1-returns-to-the-track-in-miami/
 
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
 3  = ["C1","C2","C3"]
+4  = ["C3","C4","C5"]
