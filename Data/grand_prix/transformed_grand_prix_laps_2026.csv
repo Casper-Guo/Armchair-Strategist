@@ -3033,3 +3033,1043 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:34:53.730000,BEA,87,95.905,19.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,18.0,True,3,Japanese Grand Prix,True,C1,True,0.599,0.629,3.473,3.757,0.0,0.0,97.026
 0 days 01:36:29.334000,BEA,87,95.604,20.0,2.0,,,True,HARD,4.0,True,Haas F1 Team,1,18.0,True,3,Japanese Grand Prix,True,C1,True,0.298,0.313,3.172,3.432,0.0,0.0,96.787
 0 days 01:38:59.334000,BEA,87,,21.0,2.0,,,True,HARD,5.0,True,Haas F1 Team,124,,False,3,Japanese Grand Prix,True,C1,False,,,,,,,
+0 days 00:59:00.108000,NOR,1,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,3.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:32.878000,NOR,1,92.77,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-1.528,-1.62,0.901,0.981,-3.119,-3.253,92.828
+0 days 01:02:06.141000,NOR,1,93.263,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-1.035,-1.098,1.394,1.517,-1.668,-1.757,93.379
+0 days 01:03:39.955000,NOR,1,93.814,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.484,-0.513,1.945,2.117,-1.024,-1.08,93.988
+0 days 01:05:13.797000,NOR,1,93.842,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,12,3.0,True,4,Miami Grand Prix,True,C4,False,-0.456,-0.484,1.973,2.148,-2.0,-2.087,94.074
+0 days 01:07:24.147000,NOR,1,130.35,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,24,2.0,False,4,Miami Grand Prix,True,C4,False,36.052,38.232,38.481,41.887,-4.525,-3.355,130.639
+0 days 01:09:41.989000,NOR,1,137.842,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,4,2.0,False,4,Miami Grand Prix,True,C4,False,43.544,46.177,45.973,50.042,8.186,6.314,138.189
+0 days 01:12:04.388000,NOR,1,142.399,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,4,2.0,False,4,Miami Grand Prix,True,C4,False,48.101,51.01,50.53,55.002,-0.435,-0.305,142.804
+0 days 01:14:32.014000,NOR,1,147.626,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,4,2.0,False,4,Miami Grand Prix,True,C4,False,53.328,56.553,55.757,60.692,4.218,2.941,148.089
+0 days 01:16:51.133000,NOR,1,139.119,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,4,2.0,False,4,Miami Grand Prix,True,C4,False,44.821,47.531,47.25,51.432,-0.362,-0.26,139.64
+0 days 01:19:21.960000,NOR,1,,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,41,2.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:20:54.516000,NOR,1,92.556,12.0,1.0,,,True,MEDIUM,12.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.742,-1.847,0.687,0.748,-2.653,-2.787,93.193
+0 days 01:22:27.410000,NOR,1,92.894,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.404,-1.489,1.025,1.116,-1.824,-1.926,93.589
+0 days 01:24:00.204000,NOR,1,92.794,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.504,-1.595,0.925,1.007,-1.276,-1.356,93.547
+0 days 01:25:33.191000,NOR,1,92.987,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.311,-1.39,1.118,1.217,-1.68,-1.775,93.798
+0 days 01:27:06.061000,NOR,1,92.87,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,12,1.0,True,4,Miami Grand Prix,True,C4,False,-1.428,-1.514,1.001,1.09,-1.952,-2.059,93.738
+0 days 01:28:39.155000,NOR,1,93.094,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.204,-1.277,1.225,1.333,-2.073,-2.178,94.02
+0 days 01:30:12.195000,NOR,1,93.04,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.258,-1.334,1.171,1.275,-2.142,-2.25,94.024
+0 days 01:31:45.203000,NOR,1,93.008,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.29,-1.368,1.139,1.24,-1.861,-1.962,94.05
+0 days 01:33:18.396000,NOR,1,93.193,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.105,-1.172,1.324,1.441,-1.912,-2.01,94.293
+0 days 01:34:51.277000,NOR,1,92.881,21.0,1.0,,,False,MEDIUM,21.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.417,-1.503,1.012,1.102,-2.087,-2.198,94.039
+0 days 01:36:24.325000,NOR,1,93.048,22.0,1.0,,,False,MEDIUM,22.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.25,-1.326,1.179,1.283,-1.553,-1.642,94.264
+0 days 01:37:57.423000,NOR,1,93.098,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.2,-1.273,1.229,1.338,-1.554,-1.642,94.372
+0 days 01:39:30.516000,NOR,1,93.093,24.0,1.0,,,False,MEDIUM,24.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.205,-1.278,1.224,1.332,-1.717,-1.811,94.425
+0 days 01:41:03.900000,NOR,1,93.384,25.0,1.0,,,False,MEDIUM,25.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-0.914,-0.969,1.515,1.649,-1.624,-1.709,94.773
+0 days 01:42:36.959000,NOR,1,93.059,26.0,1.0,,,False,MEDIUM,26.0,True,McLaren,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.239,-1.314,1.19,1.295,-1.915,-2.016,94.506
+0 days 01:44:15.463000,NOR,1,98.504,27.0,1.0,,0 days 01:44:09.959000,False,MEDIUM,27.0,True,McLaren,1,1.0,False,4,Miami Grand Prix,True,C4,False,4.206,4.46,6.635,7.222,3.252,3.414,100.009
+0 days 01:46:02.616000,NOR,1,107.153,28.0,2.0,0 days 01:44:32.511000,,False,HARD,1.0,True,McLaren,1,3.0,False,4,Miami Grand Prix,True,C3,False,12.855,13.632,15.284,16.637,12.471,13.171,108.716
+0 days 01:47:36.067000,NOR,1,93.451,29.0,2.0,,,False,HARD,2.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-0.847,-0.898,1.582,1.722,-0.741,-0.787,95.072
+0 days 01:49:08.314000,NOR,1,92.247,30.0,2.0,,,True,HARD,3.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.051,-2.175,0.378,0.411,-1.565,-1.668,93.926
+0 days 01:50:40.383000,NOR,1,92.069,31.0,2.0,,,True,HARD,4.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.229,-2.364,0.2,0.218,-1.768,-1.884,93.806
+0 days 01:52:12.538000,NOR,1,92.155,32.0,2.0,,,False,HARD,5.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.143,-2.273,0.286,0.311,-1.582,-1.688,93.95
+0 days 01:53:44.529000,NOR,1,91.991,33.0,2.0,,,True,HARD,6.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.307,-2.446,0.122,0.133,-1.556,-1.663,93.844
+0 days 01:55:16.849000,NOR,1,92.32,34.0,2.0,,,False,HARD,7.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.978,-2.098,0.451,0.491,-1.814,-1.927,94.231
+0 days 01:56:48.718000,NOR,1,91.869,35.0,2.0,,,True,HARD,8.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.429,-2.576,0.0,0.0,-2.214,-2.353,93.837
+0 days 01:58:21.044000,NOR,1,92.326,36.0,2.0,,,False,HARD,9.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.972,-2.091,0.457,0.497,-1.444,-1.54,94.352
+0 days 01:59:53.435000,NOR,1,92.391,37.0,2.0,,,False,HARD,10.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.907,-2.022,0.522,0.568,-1.691,-1.797,94.475
+0 days 02:01:25.818000,NOR,1,92.383,38.0,2.0,,,False,HARD,11.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.915,-2.031,0.514,0.559,-1.549,-1.649,94.525
+0 days 02:02:58.475000,NOR,1,92.657,39.0,2.0,,,False,HARD,12.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.641,-1.74,0.788,0.858,-1.437,-1.527,94.857
+0 days 02:04:31.115000,NOR,1,92.64,40.0,2.0,,,False,HARD,13.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.658,-1.758,0.771,0.839,-1.372,-1.459,94.898
+0 days 02:06:03.791000,NOR,1,92.676,41.0,2.0,,,False,HARD,14.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.622,-1.72,0.807,0.878,-1.127,-1.201,94.992
+0 days 02:07:36.453000,NOR,1,92.662,42.0,2.0,,,False,HARD,15.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.636,-1.735,0.793,0.863,-1.38,-1.467,95.036
+0 days 02:09:08.944000,NOR,1,92.491,43.0,2.0,,,False,HARD,16.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.807,-1.916,0.622,0.677,-1.775,-1.883,94.923
+0 days 02:10:41.535000,NOR,1,92.591,44.0,2.0,,,False,HARD,17.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.707,-1.81,0.722,0.786,-1.215,-1.295,95.08
+0 days 02:12:14.004000,NOR,1,92.469,45.0,2.0,,,False,HARD,18.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.829,-1.94,0.6,0.653,-1.709,-1.815,95.016
+0 days 02:13:46.719000,NOR,1,92.715,46.0,2.0,,,False,HARD,19.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.583,-1.679,0.846,0.921,-1.419,-1.507,95.32
+0 days 02:15:18.954000,NOR,1,92.235,47.0,2.0,,,False,HARD,20.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.063,-2.188,0.366,0.398,-2.126,-2.253,94.898
+0 days 02:16:51.352000,NOR,1,92.398,48.0,2.0,,,False,HARD,21.0,True,McLaren,12,2.0,True,4,Miami Grand Prix,True,C3,False,-1.9,-2.015,0.529,0.576,-1.734,-1.842,95.119
+0 days 02:18:23.621000,NOR,1,92.269,49.0,2.0,,,False,HARD,22.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.029,-2.152,0.4,0.435,-1.951,-2.071,95.048
+0 days 02:19:56.049000,NOR,1,92.428,50.0,2.0,,,False,HARD,23.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.87,-1.983,0.559,0.608,-1.804,-1.914,95.265
+0 days 02:21:28.443000,NOR,1,92.394,51.0,2.0,,,False,HARD,24.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.904,-2.019,0.525,0.571,-1.86,-1.973,95.289
+0 days 02:23:00.907000,NOR,1,92.464,52.0,2.0,,,False,HARD,25.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.834,-1.945,0.595,0.648,-1.828,-1.939,95.417
+0 days 02:24:33.645000,NOR,1,92.738,53.0,2.0,,,False,HARD,26.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.56,-1.654,0.869,0.946,-1.408,-1.496,95.749
+0 days 02:26:05.683000,NOR,1,92.038,54.0,2.0,,,False,HARD,27.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-2.26,-2.397,0.169,0.184,-2.146,-2.279,95.106
+0 days 02:27:38.176000,NOR,1,92.493,55.0,2.0,,,False,HARD,28.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.805,-1.914,0.624,0.679,-1.869,-1.981,95.619
+0 days 02:29:11.025000,NOR,1,92.849,56.0,2.0,,,False,HARD,29.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.449,-1.537,0.98,1.067,-1.492,-1.581,96.033
+0 days 02:30:44.499000,NOR,1,93.474,57.0,2.0,,,False,HARD,30.0,True,McLaren,12,2.0,True,4,Miami Grand Prix,True,C3,False,-0.824,-0.874,1.605,1.747,-0.946,-1.002,96.716
+0 days 00:59:07.236000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,12.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:42.812000,GAS,10,95.576,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,11.0,True,4,Miami Grand Prix,True,C4,True,1.278,1.355,3.707,4.035,-0.313,-0.326,95.634
+0 days 01:02:17.858000,GAS,10,95.046,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.748,0.793,3.177,3.458,0.115,0.121,95.162
+0 days 01:03:52.714000,GAS,10,94.856,4.0,1.0,,,True,MEDIUM,4.0,True,Alpine,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.558,0.592,2.987,3.251,0.018,0.019,95.03
+0 days 01:06:22.714000,GAS,10,,5.0,1.0,,,True,MEDIUM,5.0,True,Alpine,124,,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 00:59:09.917000,PER,11,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,1,17.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:46.700000,PER,11,96.783,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.485,2.635,4.914,5.349,0.894,0.932,96.841
+0 days 01:02:23.709000,PER,11,97.009,3.0,1.0,,,False,MEDIUM,3.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.711,2.875,5.14,5.595,2.078,2.189,97.125
+0 days 01:04:00.016000,PER,11,96.307,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.009,2.13,4.438,4.831,1.469,1.549,96.481
+0 days 01:05:36.844000,PER,11,96.828,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,124,14.0,False,4,Miami Grand Prix,True,C4,False,2.53,2.683,4.959,5.398,0.986,1.029,97.06
+0 days 01:07:51.521000,PER,11,134.677,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,4,14.0,False,4,Miami Grand Prix,True,C4,False,40.379,42.821,42.808,46.597,-0.198,-0.147,134.966
+0 days 01:10:00.414000,PER,11,128.893,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,4,13.0,False,4,Miami Grand Prix,True,C4,False,34.595,36.687,37.024,40.301,-0.763,-0.588,129.24
+0 days 01:12:21.863000,PER,11,141.449,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,4,13.0,False,4,Miami Grand Prix,True,C4,False,47.151,50.002,49.58,53.968,-1.385,-0.97,141.854
+0 days 01:14:44.986000,PER,11,143.123,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,4,13.0,False,4,Miami Grand Prix,True,C4,False,48.825,51.777,51.254,55.79,-0.285,-0.199,143.586
+0 days 01:17:05.158000,PER,11,140.172,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,4,13.0,False,4,Miami Grand Prix,True,C4,False,45.874,48.648,48.303,52.578,0.691,0.495,140.693
+0 days 01:19:27.564000,PER,11,142.406,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,41,13.0,False,4,Miami Grand Prix,True,C4,False,48.108,51.017,50.537,55.01,-1.734,-1.203,142.985
+0 days 01:21:04.515000,PER,11,96.951,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,13.0,True,4,Miami Grand Prix,True,C4,True,2.653,2.813,5.082,5.532,1.742,1.83,97.588
+0 days 01:22:41.120000,PER,11,96.605,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.307,2.446,4.736,5.155,1.887,1.992,97.3
+0 days 01:24:17.691000,PER,11,96.571,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.273,2.41,4.702,5.118,2.501,2.659,97.324
+0 days 01:25:53.905000,PER,11,96.214,15.0,1.0,,,True,MEDIUM,15.0,True,Cadillac,12,15.0,True,4,Miami Grand Prix,True,C4,False,1.916,2.032,4.345,4.73,1.547,1.634,97.025
+0 days 01:27:30.309000,PER,11,96.404,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.106,2.233,4.535,4.936,1.582,1.668,97.272
+0 days 01:29:06.745000,PER,11,96.436,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.138,2.267,4.567,4.971,1.269,1.333,97.362
+0 days 01:30:43.303000,PER,11,96.558,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.26,2.397,4.689,5.104,1.376,1.446,97.542
+0 days 01:32:19.708000,PER,11,96.405,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.107,2.234,4.536,4.937,1.536,1.619,97.447
+0 days 01:33:56.206000,PER,11,96.498,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.2,2.333,4.629,5.039,1.393,1.465,97.598
+0 days 01:35:32.726000,PER,11,96.52,21.0,1.0,,,False,MEDIUM,21.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.222,2.356,4.651,5.063,1.552,1.634,97.678
+0 days 01:37:08.981000,PER,11,96.255,22.0,1.0,,,False,MEDIUM,22.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,1.957,2.075,4.386,4.774,1.654,1.748,97.471
+0 days 01:38:45.598000,PER,11,96.617,23.0,1.0,,,False,MEDIUM,23.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.319,2.459,4.748,5.168,1.965,2.076,97.891
+0 days 01:40:21.951000,PER,11,96.353,24.0,1.0,,,False,MEDIUM,24.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.055,2.179,4.484,4.881,1.543,1.627,97.685
+0 days 01:41:58.683000,PER,11,96.732,25.0,1.0,,,False,MEDIUM,25.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.434,2.581,4.863,5.293,1.724,1.815,98.121
+0 days 01:43:34.961000,PER,11,96.278,26.0,1.0,,,False,MEDIUM,26.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,1.98,2.1,4.409,4.799,1.304,1.373,97.725
+0 days 01:45:11.346000,PER,11,96.385,27.0,1.0,,,False,MEDIUM,27.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.087,2.213,4.516,4.916,1.133,1.189,97.89
+0 days 01:46:48.265000,PER,11,96.919,28.0,1.0,,,False,MEDIUM,28.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.621,2.779,5.05,5.497,2.237,2.363,98.482
+0 days 01:48:30.547000,PER,11,102.282,29.0,1.0,,0 days 01:48:25.241000,False,MEDIUM,29.0,True,Cadillac,1,15.0,False,4,Miami Grand Prix,True,C4,False,7.984,8.467,10.413,11.335,8.09,8.589,103.903
+0 days 01:50:20.400000,PER,11,109.853,30.0,2.0,0 days 01:48:48.425000,,False,HARD,1.0,True,Cadillac,1,16.0,False,4,Miami Grand Prix,True,C3,False,15.555,16.496,17.984,19.576,16.041,17.099,111.532
+0 days 01:51:55.295000,PER,11,94.895,31.0,2.0,,,True,HARD,2.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,0.597,0.633,3.026,3.294,1.058,1.127,96.632
+0 days 01:53:30.674000,PER,11,95.379,32.0,2.0,,,False,HARD,3.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.081,1.146,3.51,3.821,1.642,1.752,97.174
+0 days 01:55:05.685000,PER,11,95.011,33.0,2.0,,,False,HARD,4.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,0.713,0.756,3.142,3.42,1.464,1.565,96.864
+0 days 01:56:40.997000,PER,11,95.312,34.0,2.0,,,False,HARD,5.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.014,1.075,3.443,3.748,1.178,1.251,97.223
+0 days 01:58:16.645000,PER,11,95.648,35.0,2.0,,,False,HARD,6.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.35,1.432,3.779,4.113,1.565,1.663,97.616
+0 days 01:59:54.507000,PER,11,97.862,36.0,2.0,,,False,HARD,7.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,3.564,3.78,5.993,6.523,4.092,4.364,99.888
+0 days 02:01:30.240000,PER,11,95.733,37.0,2.0,,,False,HARD,8.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.435,1.522,3.864,4.206,1.651,1.755,97.817
+0 days 02:03:05.779000,PER,11,95.539,38.0,2.0,,,False,HARD,9.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.241,1.316,3.67,3.995,1.607,1.711,97.681
+0 days 02:04:41.608000,PER,11,95.829,39.0,2.0,,,False,HARD,10.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.531,1.624,3.96,4.31,1.735,1.844,98.029
+0 days 02:06:18.778000,PER,11,97.17,40.0,2.0,,,False,HARD,11.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,2.872,3.046,5.301,5.77,3.158,3.359,99.428
+0 days 02:07:56.128000,PER,11,97.35,41.0,2.0,,,False,HARD,12.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,3.052,3.237,5.481,5.966,3.547,3.781,99.666
+0 days 02:09:32.806000,PER,11,96.678,42.0,2.0,,,False,HARD,13.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.38,2.524,4.809,5.235,2.636,2.803,99.052
+0 days 02:11:09.985000,PER,11,97.179,43.0,2.0,,,False,HARD,14.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.881,3.055,5.31,5.78,2.913,3.09,99.611
+0 days 02:12:45.542000,PER,11,95.557,44.0,2.0,,,False,HARD,15.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,1.259,1.335,3.688,4.014,1.751,1.867,98.046
+0 days 02:14:21.918000,PER,11,96.376,45.0,2.0,,,False,HARD,16.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.078,2.204,4.507,4.906,2.198,2.334,98.923
+0 days 02:15:58.327000,PER,11,96.409,46.0,2.0,,,False,HARD,17.0,True,Cadillac,12,15.0,True,4,Miami Grand Prix,True,C3,False,2.111,2.239,4.54,4.942,2.275,2.417,99.014
+0 days 02:17:35.219000,PER,11,96.892,47.0,2.0,,,False,HARD,18.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.594,2.751,5.023,5.468,2.531,2.682,99.555
+0 days 02:19:11.853000,PER,11,96.634,48.0,2.0,,,False,HARD,19.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.336,2.477,4.765,5.187,2.502,2.658,99.355
+0 days 02:20:48.740000,PER,11,96.887,49.0,2.0,,,False,HARD,20.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.589,2.746,5.018,5.462,2.667,2.831,99.666
+0 days 02:22:25.296000,PER,11,96.556,50.0,2.0,,,False,HARD,21.0,True,Cadillac,1,15.0,True,4,Miami Grand Prix,True,C3,True,2.258,2.395,4.687,5.102,2.324,2.466,99.393
+0 days 02:24:01.607000,PER,11,96.311,51.0,2.0,,,False,HARD,22.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,2.013,2.135,4.442,4.835,2.057,2.182,99.206
+0 days 02:25:37.421000,PER,11,95.814,52.0,2.0,,,False,HARD,23.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.516,1.608,3.945,4.294,1.522,1.614,98.767
+0 days 02:27:12.777000,PER,11,95.356,53.0,2.0,,,False,HARD,24.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.058,1.122,3.487,3.796,1.21,1.285,98.367
+0 days 02:28:48.279000,PER,11,95.502,54.0,2.0,,,False,HARD,25.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,1.204,1.277,3.633,3.955,1.318,1.399,98.57
+0 days 02:30:23.529000,PER,11,95.25,55.0,2.0,,,False,HARD,26.0,True,Cadillac,12,16.0,True,4,Miami Grand Prix,True,C3,False,0.952,1.01,3.381,3.68,0.888,0.941,98.376
+0 days 02:31:58.779000,PER,11,95.25,56.0,2.0,,,False,HARD,27.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C3,True,0.952,1.01,3.381,3.68,0.909,0.964,98.434
+0 days 00:58:59.236000,ANT,12,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,1,2.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:32.172000,ANT,12,92.936,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.362,-1.444,1.067,1.161,-2.953,-3.08,92.994
+0 days 01:02:05.396000,ANT,12,93.224,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.074,-1.139,1.355,1.475,-1.707,-1.798,93.34
+0 days 01:03:38.982000,ANT,12,93.586,4.0,1.0,,,False,MEDIUM,4.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C4,True,-0.712,-0.755,1.717,1.869,-1.252,-1.32,93.76
+0 days 01:05:13.584000,ANT,12,94.602,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,12,2.0,True,4,Miami Grand Prix,True,C4,False,0.304,0.322,2.733,2.975,-1.24,-1.294,94.834
+0 days 01:07:25.677000,ANT,12,132.093,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,24,3.0,False,4,Miami Grand Prix,True,C4,False,37.795,40.08,40.224,43.784,-2.782,-2.063,132.382
+0 days 01:09:42.778000,ANT,12,137.101,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,4,3.0,False,4,Miami Grand Prix,True,C4,False,42.803,45.391,45.232,49.235,7.445,5.742,137.448
+0 days 01:12:05.406000,ANT,12,142.628,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,4,3.0,False,4,Miami Grand Prix,True,C4,False,48.33,51.252,50.759,55.251,-0.206,-0.144,143.033
+0 days 01:14:33.426000,ANT,12,148.02,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,4,3.0,False,4,Miami Grand Prix,True,C4,False,53.722,56.97,56.151,61.121,4.612,3.216,148.483
+0 days 01:16:52.197000,ANT,12,138.771,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,4,3.0,False,4,Miami Grand Prix,True,C4,False,44.473,47.162,46.902,51.053,-0.71,-0.509,139.292
+0 days 01:19:22.357000,ANT,12,,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,41,3.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:20:55.400000,ANT,12,93.043,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,3.0,True,4,Miami Grand Prix,True,C4,True,-1.255,-1.331,1.174,1.278,-2.166,-2.275,93.68
+0 days 01:22:28.470000,ANT,12,93.07,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.228,-1.302,1.201,1.307,-1.648,-1.74,93.765
+0 days 01:24:01.784000,ANT,12,93.314,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-0.984,-1.044,1.445,1.573,-0.756,-0.804,94.067
+0 days 01:25:34.964000,ANT,12,93.18,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.118,-1.186,1.311,1.427,-1.487,-1.571,93.991
+0 days 01:27:08.622000,ANT,12,93.658,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,12,2.0,True,4,Miami Grand Prix,True,C4,False,-0.64,-0.679,1.789,1.947,-1.164,-1.228,94.526
+0 days 01:28:41.675000,ANT,12,93.053,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.245,-1.32,1.184,1.289,-2.114,-2.221,93.979
+0 days 01:30:14.919000,ANT,12,93.244,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.054,-1.118,1.375,1.497,-1.938,-2.036,94.228
+0 days 01:31:48.264000,ANT,12,93.345,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-0.953,-1.011,1.476,1.607,-1.524,-1.606,94.387
+0 days 01:33:21.275000,ANT,12,93.011,20.0,1.0,,,False,MEDIUM,20.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.287,-1.365,1.142,1.243,-2.094,-2.202,94.111
+0 days 01:34:54.424000,ANT,12,93.149,21.0,1.0,,,False,MEDIUM,21.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.149,-1.218,1.28,1.393,-1.819,-1.915,94.307
+0 days 01:36:27.203000,ANT,12,92.779,22.0,1.0,,,True,MEDIUM,22.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.519,-1.611,0.91,0.991,-1.822,-1.926,93.995
+0 days 01:38:00.197000,ANT,12,92.994,23.0,1.0,,,False,MEDIUM,23.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.304,-1.383,1.125,1.225,-1.658,-1.752,94.268
+0 days 01:39:32.999000,ANT,12,92.802,24.0,1.0,,,False,MEDIUM,24.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.496,-1.586,0.933,1.016,-2.008,-2.118,94.134
+0 days 01:41:06.067000,ANT,12,93.068,25.0,1.0,,,False,MEDIUM,25.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C4,True,-1.23,-1.304,1.199,1.305,-1.94,-2.042,94.457
+0 days 01:42:43.951000,ANT,12,97.884,26.0,1.0,,0 days 01:42:38.637000,False,MEDIUM,26.0,True,Mercedes,1,2.0,False,4,Miami Grand Prix,True,C4,False,3.586,3.803,6.015,6.547,2.91,3.064,99.331
+0 days 01:44:29.552000,ANT,12,105.601,27.0,2.0,0 days 01:43:00.687000,,False,HARD,1.0,True,Mercedes,1,4.0,False,4,Miami Grand Prix,True,C3,False,11.303,11.986,13.732,14.947,10.349,10.865,107.106
+0 days 01:46:02.466000,ANT,12,92.914,28.0,2.0,,,False,HARD,2.0,True,Mercedes,1,2.0,True,4,Miami Grand Prix,True,C3,True,-1.384,-1.468,1.045,1.137,-1.768,-1.867,94.477
+0 days 01:47:34.797000,ANT,12,92.331,29.0,2.0,,,True,HARD,3.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.967,-2.086,0.462,0.503,-1.861,-1.976,93.952
+0 days 01:49:07.007000,ANT,12,92.21,30.0,2.0,,,True,HARD,4.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.088,-2.214,0.341,0.371,-1.602,-1.708,93.889
+0 days 01:50:39.265000,ANT,12,92.258,31.0,2.0,,,False,HARD,5.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.04,-2.163,0.389,0.423,-1.579,-1.683,93.995
+0 days 01:52:11.311000,ANT,12,92.046,32.0,2.0,,,True,HARD,6.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.252,-2.388,0.177,0.193,-1.691,-1.804,93.841
+0 days 01:53:43.424000,ANT,12,92.113,33.0,2.0,,,False,HARD,7.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.185,-2.317,0.244,0.266,-1.434,-1.533,93.966
+0 days 01:55:15.392000,ANT,12,91.968,34.0,2.0,,,True,HARD,8.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.33,-2.471,0.099,0.108,-2.166,-2.301,93.879
+0 days 01:56:47.879000,ANT,12,92.487,35.0,2.0,,,False,HARD,9.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.811,-1.921,0.618,0.673,-1.596,-1.696,94.455
+0 days 01:58:20.233000,ANT,12,92.354,36.0,2.0,,,False,HARD,10.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.944,-2.062,0.485,0.528,-1.416,-1.51,94.38
+0 days 01:59:52.716000,ANT,12,92.483,37.0,2.0,,,False,HARD,11.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.815,-1.925,0.614,0.668,-1.599,-1.7,94.567
+0 days 02:01:25.139000,ANT,12,92.423,38.0,2.0,,,False,HARD,12.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.875,-1.988,0.554,0.603,-1.509,-1.606,94.565
+0 days 02:02:57.521000,ANT,12,92.382,39.0,2.0,,,False,HARD,13.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.916,-2.032,0.513,0.558,-1.712,-1.819,94.582
+0 days 02:04:30.399000,ANT,12,92.878,40.0,2.0,,,False,HARD,14.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.42,-1.506,1.009,1.098,-1.134,-1.206,95.136
+0 days 02:06:02.730000,ANT,12,92.331,41.0,2.0,,,False,HARD,15.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.967,-2.086,0.462,0.503,-1.472,-1.569,94.647
+0 days 02:07:35.226000,ANT,12,92.496,42.0,2.0,,,False,HARD,16.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.802,-1.911,0.627,0.682,-1.546,-1.644,94.87
+0 days 02:09:07.412000,ANT,12,92.186,43.0,2.0,,,False,HARD,17.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.112,-2.24,0.317,0.345,-2.08,-2.207,94.618
+0 days 02:10:39.623000,ANT,12,92.211,44.0,2.0,,,False,HARD,18.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.087,-2.213,0.342,0.372,-1.595,-1.7,94.7
+0 days 02:12:12.022000,ANT,12,92.399,45.0,2.0,,,False,HARD,19.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.899,-2.014,0.53,0.577,-1.779,-1.889,94.946
+0 days 02:13:44.553000,ANT,12,92.531,46.0,2.0,,,False,HARD,20.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.767,-1.874,0.662,0.721,-1.603,-1.703,95.136
+0 days 02:15:17.335000,ANT,12,92.782,47.0,2.0,,,False,HARD,21.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.516,-1.608,0.913,0.994,-1.579,-1.673,95.445
+0 days 02:16:49.712000,ANT,12,92.377,48.0,2.0,,,False,HARD,22.0,True,Mercedes,12,1.0,True,4,Miami Grand Prix,True,C3,False,-1.921,-2.037,0.508,0.553,-1.755,-1.864,95.098
+0 days 02:18:21.955000,ANT,12,92.243,49.0,2.0,,,False,HARD,23.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.055,-2.179,0.374,0.407,-1.977,-2.098,95.022
+0 days 02:19:54.052000,ANT,12,92.097,50.0,2.0,,,False,HARD,24.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.201,-2.334,0.228,0.248,-2.135,-2.266,94.934
+0 days 02:21:26.470000,ANT,12,92.418,51.0,2.0,,,False,HARD,25.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.88,-1.994,0.549,0.598,-1.836,-1.948,95.313
+0 days 02:22:58.897000,ANT,12,92.427,52.0,2.0,,,False,HARD,26.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.871,-1.984,0.558,0.607,-1.865,-1.978,95.38
+0 days 02:24:31.251000,ANT,12,92.354,53.0,2.0,,,False,HARD,27.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.944,-2.062,0.485,0.528,-1.792,-1.903,95.365
+0 days 02:26:03.237000,ANT,12,91.986,54.0,2.0,,,False,HARD,28.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-2.312,-2.452,0.117,0.127,-2.198,-2.334,95.054
+0 days 02:27:35.584000,ANT,12,92.347,55.0,2.0,,,False,HARD,29.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.951,-2.069,0.478,0.52,-2.015,-2.135,95.473
+0 days 02:29:08.170000,ANT,12,92.586,56.0,2.0,,,False,HARD,30.0,True,Mercedes,1,1.0,True,4,Miami Grand Prix,True,C3,True,-1.712,-1.816,0.717,0.78,-1.755,-1.86,95.77
+0 days 02:30:41.262000,ANT,12,93.092,57.0,2.0,,,False,HARD,31.0,True,Mercedes,12,1.0,True,4,Miami Grand Prix,True,C3,False,-1.206,-1.279,1.223,1.331,-1.328,-1.406,96.334
+0 days 00:59:11.945000,ALO,14,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,1,20.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:48.572000,ALO,14,96.627,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,20.0,True,4,Miami Grand Prix,True,C4,True,2.329,2.47,4.758,5.179,0.738,0.77,96.685
+0 days 01:02:25.077000,ALO,14,96.505,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,20.0,True,4,Miami Grand Prix,True,C4,True,2.207,2.34,4.636,5.046,1.574,1.658,96.621
+0 days 01:04:01.527000,ALO,14,96.45,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,20.0,True,4,Miami Grand Prix,True,C4,True,2.152,2.282,4.581,4.986,1.612,1.7,96.624
+0 days 01:05:41.669000,ALO,14,100.142,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,124,17.0,False,4,Miami Grand Prix,True,C4,False,5.844,6.197,8.273,9.005,4.3,4.487,100.374
+0 days 01:07:56.851000,ALO,14,135.182,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,4,17.0,False,4,Miami Grand Prix,True,C4,False,40.884,43.356,43.313,47.146,0.307,0.228,135.471
+0 days 01:10:06.807000,ALO,14,129.956,7.0,1.0,,,False,MEDIUM,7.0,True,Aston Martin,4,17.0,False,4,Miami Grand Prix,True,C4,False,35.658,37.814,38.087,41.458,0.3,0.231,130.303
+0 days 01:12:29.188000,ALO,14,142.381,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,4,17.0,False,4,Miami Grand Prix,True,C4,False,48.083,50.99,50.512,54.983,-0.453,-0.317,142.786
+0 days 01:14:51.417000,ALO,14,142.229,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,4,17.0,False,4,Miami Grand Prix,True,C4,False,47.931,50.829,50.36,54.817,-1.179,-0.822,142.692
+0 days 01:17:11.612000,ALO,14,140.195,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,4,17.0,False,4,Miami Grand Prix,True,C4,False,45.897,48.672,48.326,52.603,0.714,0.512,140.716
+0 days 01:19:29.427000,ALO,14,137.815,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,41,17.0,False,4,Miami Grand Prix,True,C4,False,43.517,46.148,45.946,50.013,-6.325,-4.388,138.394
+0 days 01:21:06.227000,ALO,14,96.8,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.502,2.653,4.931,5.367,1.591,1.671,97.437
+0 days 01:22:42.576000,ALO,14,96.349,13.0,1.0,,,True,MEDIUM,13.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.051,2.175,4.48,4.877,1.631,1.722,97.044
+0 days 01:24:19.058000,ALO,14,96.482,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.184,2.316,4.613,5.021,2.412,2.564,97.235
+0 days 01:25:56.693000,ALO,14,97.635,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,12,17.0,True,4,Miami Grand Prix,True,C4,False,3.337,3.539,5.766,6.276,2.968,3.135,98.446
+0 days 01:27:32.836000,ALO,14,96.143,16.0,1.0,,,True,MEDIUM,16.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,1.845,1.957,4.274,4.652,1.321,1.393,97.011
+0 days 01:29:09.289000,ALO,14,96.453,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.155,2.285,4.584,4.99,1.286,1.351,97.379
+0 days 01:30:46.228000,ALO,14,96.939,18.0,1.0,,,False,MEDIUM,18.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.641,2.801,5.07,5.519,1.757,1.846,97.923
+0 days 01:32:23.064000,ALO,14,96.836,19.0,1.0,,,False,MEDIUM,19.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.538,2.691,4.967,5.407,1.967,2.073,97.878
+0 days 01:33:59.285000,ALO,14,96.221,20.0,1.0,,,False,MEDIUM,20.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.923,2.039,4.352,4.737,1.116,1.173,97.321
+0 days 01:35:35.846000,ALO,14,96.561,21.0,1.0,,,False,MEDIUM,21.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.263,2.4,4.692,5.107,1.593,1.677,97.719
+0 days 01:37:12.140000,ALO,14,96.294,22.0,1.0,,,False,MEDIUM,22.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.996,2.117,4.425,4.817,1.693,1.79,97.51
+0 days 01:38:48.526000,ALO,14,96.386,23.0,1.0,,,False,MEDIUM,23.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.088,2.214,4.517,4.917,1.734,1.832,97.66
+0 days 01:40:25.192000,ALO,14,96.666,24.0,1.0,,,False,MEDIUM,24.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.368,2.511,4.797,5.222,1.856,1.958,97.998
+0 days 01:42:01.669000,ALO,14,96.477,25.0,1.0,,,False,MEDIUM,25.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.179,2.311,4.608,5.016,1.469,1.546,97.866
+0 days 01:43:37.938000,ALO,14,96.269,26.0,1.0,,,False,MEDIUM,26.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.971,2.09,4.4,4.789,1.295,1.364,97.716
+0 days 01:45:14.009000,ALO,14,96.071,27.0,1.0,,,True,MEDIUM,27.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.773,1.88,4.202,4.574,0.819,0.86,97.576
+0 days 01:46:49.994000,ALO,14,95.985,28.0,1.0,,,True,MEDIUM,28.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.687,1.789,4.116,4.48,1.303,1.376,97.548
+0 days 01:48:26.074000,ALO,14,96.08,29.0,1.0,,,False,MEDIUM,29.0,True,Aston Martin,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.782,1.89,4.211,4.584,1.888,2.004,97.701
+0 days 01:50:02.265000,ALO,14,96.191,30.0,1.0,,,False,MEDIUM,30.0,True,Aston Martin,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.893,2.007,4.322,4.705,2.379,2.536,97.87
+0 days 01:51:38.655000,ALO,14,96.39,31.0,1.0,,,False,MEDIUM,31.0,True,Aston Martin,1,14.0,True,4,Miami Grand Prix,True,C4,True,2.092,2.218,4.521,4.921,2.553,2.721,98.127
+0 days 01:53:14.990000,ALO,14,96.335,32.0,1.0,,,False,MEDIUM,32.0,True,Aston Martin,1,14.0,True,4,Miami Grand Prix,True,C4,True,2.037,2.16,4.466,4.861,2.598,2.772,98.13
+0 days 01:54:51.698000,ALO,14,96.708,33.0,1.0,,,False,MEDIUM,33.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.41,2.556,4.839,5.267,3.161,3.379,98.561
+0 days 01:56:27.342000,ALO,14,95.644,34.0,1.0,,,True,MEDIUM,34.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,1.346,1.427,3.775,4.109,1.51,1.604,97.555
+0 days 01:58:03.885000,ALO,14,96.543,35.0,1.0,,,False,MEDIUM,35.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.245,2.381,4.674,5.088,2.46,2.615,98.511
+0 days 01:59:40.336000,ALO,14,96.451,36.0,1.0,,,False,MEDIUM,36.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.153,2.283,4.582,4.988,2.681,2.859,98.477
+0 days 02:01:16.894000,ALO,14,96.558,37.0,1.0,,,False,MEDIUM,37.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.26,2.397,4.689,5.104,2.476,2.632,98.642
+0 days 02:02:53.764000,ALO,14,96.87,38.0,1.0,,,False,MEDIUM,38.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.572,2.728,5.001,5.444,2.938,3.128,99.012
+0 days 02:04:30.158000,ALO,14,96.394,39.0,1.0,,,False,MEDIUM,39.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.096,2.223,4.525,4.925,2.3,2.444,98.594
+0 days 02:06:07.875000,ALO,14,97.717,40.0,1.0,,,False,MEDIUM,40.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C4,True,3.419,3.626,5.848,6.366,3.705,3.941,99.975
+0 days 02:07:49.664000,ALO,14,101.789,41.0,1.0,,0 days 02:07:44.258000,False,MEDIUM,41.0,True,Aston Martin,1,15.0,False,4,Miami Grand Prix,True,C4,False,7.491,7.944,9.92,10.798,7.986,8.514,104.105
+0 days 02:09:39.011000,ALO,14,109.347,42.0,2.0,0 days 02:08:07.560000,,False,SOFT,1.0,True,Aston Martin,1,16.0,False,4,Miami Grand Prix,True,C5,False,15.049,15.959,17.478,19.025,15.305,16.275,111.721
+0 days 02:11:14.561000,ALO,14,95.55,43.0,2.0,,,True,SOFT,2.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,1.252,1.328,3.681,4.007,1.284,1.362,97.982
+0 days 02:12:48.073000,ALO,14,93.512,44.0,2.0,,,False,SOFT,3.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,-0.786,-0.834,1.643,1.788,-0.294,-0.313,96.001
+0 days 02:14:22.667000,ALO,14,94.594,45.0,2.0,,,True,SOFT,4.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,0.296,0.314,2.725,2.966,0.416,0.442,97.141
+0 days 02:15:59.056000,ALO,14,96.389,46.0,2.0,,,False,SOFT,5.0,True,Aston Martin,12,16.0,True,4,Miami Grand Prix,True,C5,False,2.091,2.217,4.52,4.92,2.255,2.396,98.994
+0 days 02:17:35.247000,ALO,14,96.191,47.0,2.0,,,False,SOFT,6.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,1.893,2.007,4.322,4.705,1.83,1.939,98.854
+0 days 02:19:12.012000,ALO,14,96.765,48.0,2.0,,,False,SOFT,7.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,2.467,2.616,4.896,5.329,2.633,2.797,99.486
+0 days 02:20:49.689000,ALO,14,97.677,49.0,2.0,,,False,SOFT,8.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,3.379,3.583,5.808,6.322,3.457,3.669,100.456
+0 days 02:22:25.805000,ALO,14,96.116,50.0,2.0,,,False,SOFT,9.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C5,True,1.818,1.928,4.247,4.623,1.884,1.999,98.953
+0 days 02:24:00.964000,ALO,14,95.159,51.0,2.0,,,False,SOFT,10.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C5,True,0.861,0.913,3.29,3.581,0.905,0.96,98.054
+0 days 02:25:36.055000,ALO,14,95.091,52.0,2.0,,,False,SOFT,11.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C5,True,0.793,0.841,3.222,3.507,0.799,0.847,98.044
+0 days 02:27:11.070000,ALO,14,95.015,53.0,2.0,,,False,SOFT,12.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C5,True,0.717,0.76,3.146,3.424,0.869,0.923,98.026
+0 days 02:28:46.040000,ALO,14,94.97,54.0,2.0,,,False,SOFT,13.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C5,True,0.672,0.713,3.101,3.375,0.786,0.835,98.038
+0 days 02:30:20.984000,ALO,14,94.944,55.0,2.0,,,False,SOFT,14.0,True,Aston Martin,12,15.0,True,4,Miami Grand Prix,True,C5,False,0.646,0.685,3.075,3.347,0.582,0.617,98.07
+0 days 02:31:56.230000,ALO,14,95.246,56.0,2.0,,,False,SOFT,15.0,True,Aston Martin,1,15.0,True,4,Miami Grand Prix,True,C5,True,0.948,1.005,3.377,3.676,0.905,0.959,98.43
+0 days 00:58:58.087000,LEC,16,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,1.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:31.123000,LEC,16,93.036,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.262,-1.338,1.167,1.27,-2.853,-2.975,93.094
+0 days 01:02:04.480000,LEC,16,93.357,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,1,1.0,True,4,Miami Grand Prix,True,C4,True,-0.941,-0.998,1.488,1.62,-1.574,-1.658,93.473
+0 days 01:03:39.210000,LEC,16,94.73,4.0,1.0,,,False,MEDIUM,4.0,True,Ferrari,1,2.0,True,4,Miami Grand Prix,True,C4,True,0.432,0.458,2.861,3.114,-0.108,-0.114,94.904
+0 days 01:05:12.907000,LEC,16,93.697,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,12,1.0,True,4,Miami Grand Prix,True,C4,False,-0.601,-0.637,1.828,1.99,-2.145,-2.238,93.929
+0 days 01:07:22.370000,LEC,16,129.463,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,24,1.0,False,4,Miami Grand Prix,True,C4,False,35.165,37.291,37.594,40.921,-5.412,-4.013,129.752
+0 days 01:09:40.384000,LEC,16,138.014,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,4,1.0,False,4,Miami Grand Prix,True,C4,False,43.716,46.359,46.145,50.229,8.358,6.446,138.361
+0 days 01:12:03.192000,LEC,16,142.808,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,4,1.0,False,4,Miami Grand Prix,True,C4,False,48.51,51.443,50.939,55.447,-0.026,-0.018,143.213
+0 days 01:14:30.676000,LEC,16,147.484,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,4,1.0,False,4,Miami Grand Prix,True,C4,False,53.186,56.402,55.615,60.537,4.076,2.842,147.947
+0 days 01:16:49.438000,LEC,16,138.762,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,4,1.0,False,4,Miami Grand Prix,True,C4,False,44.464,47.153,46.893,51.043,-0.719,-0.515,139.283
+0 days 01:19:21.300000,LEC,16,,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,41,1.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:20:54.178000,LEC,16,92.878,12.0,1.0,,,True,MEDIUM,12.0,True,Ferrari,1,1.0,True,4,Miami Grand Prix,True,C4,True,-1.42,-1.506,1.009,1.098,-2.331,-2.448,93.515
+0 days 01:22:28.559000,LEC,16,94.381,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,0.083,0.088,2.512,2.734,-0.337,-0.356,95.076
+0 days 01:24:02.303000,LEC,16,93.744,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.554,-0.587,1.875,2.041,-0.326,-0.347,94.497
+0 days 01:25:35.863000,LEC,16,93.56,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.738,-0.783,1.691,1.841,-1.107,-1.169,94.371
+0 days 01:27:09.399000,LEC,16,93.536,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,12,3.0,True,4,Miami Grand Prix,True,C4,False,-0.762,-0.808,1.667,1.815,-1.286,-1.356,94.404
+0 days 01:28:44.856000,LEC,16,95.457,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,1.159,1.229,3.588,3.906,0.29,0.305,96.383
+0 days 01:30:18.548000,LEC,16,93.692,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.606,-0.643,1.823,1.984,-1.49,-1.565,94.676
+0 days 01:31:52.087000,LEC,16,93.539,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.759,-0.805,1.67,1.818,-1.33,-1.402,94.581
+0 days 01:33:25.776000,LEC,16,93.689,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.609,-0.646,1.82,1.981,-1.416,-1.489,94.789
+0 days 01:35:04.280000,LEC,16,98.504,21.0,1.0,,0 days 01:34:58.981000,False,MEDIUM,21.0,True,Ferrari,1,5.0,False,4,Miami Grand Prix,True,C4,False,4.206,4.46,6.635,7.222,3.536,3.723,99.662
+0 days 01:36:53.255000,LEC,16,108.975,22.0,2.0,0 days 01:35:22.343000,,False,HARD,1.0,True,Ferrari,1,11.0,False,4,Miami Grand Prix,True,C3,False,14.677,15.564,17.106,18.62,14.374,15.194,110.191
+0 days 01:38:27.141000,LEC,16,93.886,23.0,2.0,,,False,HARD,2.0,True,Ferrari,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.412,-0.437,2.017,2.196,-0.766,-0.809,95.16
+0 days 01:40:00.729000,LEC,16,93.588,24.0,2.0,,,False,HARD,3.0,True,Ferrari,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.71,-0.753,1.719,1.871,-1.222,-1.289,94.92
+0 days 01:41:33.715000,LEC,16,92.986,25.0,2.0,,,False,HARD,4.0,True,Ferrari,1,9.0,True,4,Miami Grand Prix,True,C3,True,-1.312,-1.391,1.117,1.216,-2.022,-2.128,94.375
+0 days 01:43:07.620000,LEC,16,93.905,26.0,2.0,,,False,HARD,5.0,True,Ferrari,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.393,-0.417,2.036,2.216,-1.069,-1.126,95.352
+0 days 01:44:40.542000,LEC,16,92.922,27.0,2.0,,,False,HARD,6.0,True,Ferrari,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.376,-1.459,1.053,1.146,-2.33,-2.446,94.427
+0 days 01:46:13.194000,LEC,16,92.652,28.0,2.0,,,True,HARD,7.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.646,-1.746,0.783,0.852,-2.03,-2.144,94.215
+0 days 01:47:45.980000,LEC,16,92.786,29.0,2.0,,,False,HARD,8.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.512,-1.603,0.917,0.998,-1.406,-1.493,94.407
+0 days 01:49:19.396000,LEC,16,93.416,30.0,2.0,,,False,HARD,9.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.882,-0.935,1.547,1.684,-0.396,-0.422,95.095
+0 days 01:50:52.341000,LEC,16,92.945,31.0,2.0,,,False,HARD,10.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.353,-1.435,1.076,1.171,-0.892,-0.951,94.682
+0 days 01:52:25.336000,LEC,16,92.995,32.0,2.0,,,False,HARD,11.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.303,-1.382,1.126,1.226,-0.742,-0.792,94.79
+0 days 01:53:58.411000,LEC,16,93.075,33.0,2.0,,,False,HARD,12.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.223,-1.297,1.206,1.313,-0.472,-0.505,94.928
+0 days 01:55:31.382000,LEC,16,92.971,34.0,2.0,,,False,HARD,13.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.327,-1.407,1.102,1.2,-1.163,-1.235,94.882
+0 days 01:57:04.375000,LEC,16,92.993,35.0,2.0,,,False,HARD,14.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.305,-1.384,1.124,1.223,-1.09,-1.159,94.961
+0 days 01:58:37.254000,LEC,16,92.879,36.0,2.0,,,False,HARD,15.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.419,-1.505,1.01,1.099,-0.891,-0.95,94.905
+0 days 02:00:10.409000,LEC,16,93.155,37.0,2.0,,,False,HARD,16.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.143,-1.212,1.286,1.4,-0.927,-0.985,95.239
+0 days 02:01:43.402000,LEC,16,92.993,38.0,2.0,,,False,HARD,17.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.305,-1.384,1.124,1.223,-0.939,-1.0,95.135
+0 days 02:03:16.157000,LEC,16,92.755,39.0,2.0,,,False,HARD,18.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.543,-1.636,0.886,0.964,-1.339,-1.423,94.955
+0 days 02:04:48.924000,LEC,16,92.767,40.0,2.0,,,False,HARD,19.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.531,-1.624,0.898,0.977,-1.245,-1.324,95.025
+0 days 02:06:21.610000,LEC,16,92.686,41.0,2.0,,,False,HARD,20.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.612,-1.709,0.817,0.889,-1.117,-1.191,95.002
+0 days 02:07:54.652000,LEC,16,93.042,42.0,2.0,,,False,HARD,21.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.256,-1.332,1.173,1.277,-1.0,-1.063,95.416
+0 days 02:09:27.264000,LEC,16,92.612,43.0,2.0,,,True,HARD,22.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.686,-1.788,0.743,0.809,-1.654,-1.755,95.044
+0 days 02:10:59.779000,LEC,16,92.515,44.0,2.0,,,True,HARD,23.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.783,-1.891,0.646,0.703,-1.291,-1.376,95.004
+0 days 02:12:32.653000,LEC,16,92.874,45.0,2.0,,,False,HARD,24.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.424,-1.51,1.005,1.094,-1.304,-1.385,95.421
+0 days 02:14:06.121000,LEC,16,93.468,46.0,2.0,,,False,HARD,25.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-0.83,-0.88,1.599,1.741,-0.666,-0.708,96.073
+0 days 02:15:39.799000,LEC,16,93.678,47.0,2.0,,,False,HARD,26.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.62,-0.657,1.809,1.969,-0.683,-0.724,96.341
+0 days 02:17:12.691000,LEC,16,92.892,48.0,2.0,,,False,HARD,27.0,True,Ferrari,12,3.0,True,4,Miami Grand Prix,True,C3,False,-1.406,-1.491,1.023,1.114,-1.24,-1.317,95.613
+0 days 02:18:45.425000,LEC,16,92.734,49.0,2.0,,,False,HARD,28.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.564,-1.659,0.865,0.942,-1.486,-1.577,95.513
+0 days 02:20:17.991000,LEC,16,92.566,50.0,2.0,,,False,HARD,29.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.732,-1.837,0.697,0.759,-1.666,-1.768,95.403
+0 days 02:21:50.569000,LEC,16,92.578,51.0,2.0,,,False,HARD,30.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.72,-1.824,0.709,0.772,-1.676,-1.778,95.473
+0 days 02:23:23.148000,LEC,16,92.579,52.0,2.0,,,False,HARD,31.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.719,-1.823,0.71,0.773,-1.713,-1.817,95.532
+0 days 02:24:55.827000,LEC,16,92.679,53.0,2.0,,,False,HARD,32.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.619,-1.717,0.81,0.882,-1.467,-1.558,95.69
+0 days 02:26:28.494000,LEC,16,92.667,54.0,2.0,,,False,HARD,33.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.631,-1.73,0.798,0.869,-1.517,-1.611,95.735
+0 days 02:28:01.435000,LEC,16,92.941,55.0,2.0,,,False,HARD,34.0,True,Ferrari,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.357,-1.439,1.072,1.167,-1.421,-1.506,96.067
+0 days 02:29:35.646000,LEC,16,94.211,56.0,2.0,,,False,HARD,35.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C3,True,-0.087,-0.092,2.342,2.549,-0.13,-0.138,97.395
+0 days 02:31:25.480000,LEC,16,109.834,57.0,2.0,,,False,HARD,36.0,True,Ferrari,12,6.0,True,4,Miami Grand Prix,True,C3,False,15.536,16.475,17.965,19.555,15.414,16.325,113.076
+0 days 00:59:09.624000,STR,18,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,1,16.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:46.193000,STR,18,96.569,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.271,2.408,4.7,5.116,0.68,0.709,96.627
+0 days 01:02:23.212000,STR,18,97.019,3.0,1.0,,,False,MEDIUM,3.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.721,2.886,5.15,5.606,2.088,2.199,97.135
+0 days 01:03:59.630000,STR,18,96.418,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C4,True,2.12,2.248,4.549,4.952,1.58,1.666,96.592
+0 days 01:05:38.824000,STR,18,99.194,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,124,16.0,False,4,Miami Grand Prix,True,C4,False,4.896,5.192,7.325,7.973,3.352,3.497,99.426
+0 days 01:07:55.546000,STR,18,136.722,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,4,16.0,False,4,Miami Grand Prix,True,C4,False,42.424,44.989,44.853,48.823,1.847,1.369,137.011
+0 days 01:10:04.051000,STR,18,128.505,7.0,1.0,,,False,MEDIUM,7.0,True,Aston Martin,4,15.0,False,4,Miami Grand Prix,True,C4,False,34.207,36.275,36.636,39.879,-1.151,-0.888,128.852
+0 days 01:12:25.509000,STR,18,141.458,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,4,15.0,False,4,Miami Grand Prix,True,C4,False,47.16,50.012,49.589,53.978,-1.376,-0.963,141.863
+0 days 01:14:48.156000,STR,18,142.647,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,4,15.0,False,4,Miami Grand Prix,True,C4,False,48.349,51.273,50.778,55.272,-0.761,-0.531,143.11
+0 days 01:17:07.332000,STR,18,139.176,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,4,15.0,False,4,Miami Grand Prix,True,C4,False,44.878,47.592,47.307,51.494,-0.305,-0.219,139.697
+0 days 01:19:28.502000,STR,18,141.17,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,41,15.0,False,4,Miami Grand Prix,True,C4,False,46.872,49.706,49.301,53.664,-2.97,-2.06,141.749
+0 days 01:21:05.944000,STR,18,97.442,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,3.144,3.334,5.573,6.066,2.233,2.345,98.079
+0 days 01:22:42.029000,STR,18,96.085,13.0,1.0,,,True,MEDIUM,13.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,1.787,1.895,4.216,4.589,1.367,1.443,96.78
+0 days 01:24:18.611000,STR,18,96.582,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,16.0,True,4,Miami Grand Prix,True,C4,True,2.284,2.422,4.713,5.13,2.512,2.67,97.335
+0 days 01:25:59.564000,STR,18,100.953,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,12,18.0,True,4,Miami Grand Prix,True,C4,False,6.655,7.057,9.084,9.888,6.286,6.64,101.764
+0 days 01:27:36.538000,STR,18,96.974,16.0,1.0,,,False,MEDIUM,16.0,True,Aston Martin,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.676,2.838,5.105,5.557,2.152,2.27,97.842
+0 days 01:29:12.909000,STR,18,96.371,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.073,2.198,4.502,4.9,1.204,1.265,97.297
+0 days 01:30:49.448000,STR,18,96.539,18.0,1.0,,,False,MEDIUM,18.0,True,Aston Martin,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.241,2.377,4.67,5.083,1.357,1.426,97.523
+0 days 01:32:26.470000,STR,18,97.022,19.0,1.0,,,False,MEDIUM,19.0,True,Aston Martin,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.724,2.889,5.153,5.609,2.153,2.269,98.064
+0 days 01:34:03.321000,STR,18,96.851,20.0,1.0,,,False,MEDIUM,20.0,True,Aston Martin,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.553,2.707,4.982,5.423,1.746,1.836,97.951
+0 days 01:35:44.764000,STR,18,101.443,21.0,1.0,,0 days 01:35:39.713000,False,MEDIUM,21.0,True,Aston Martin,1,18.0,False,4,Miami Grand Prix,True,C4,False,7.145,7.577,9.574,10.421,6.475,6.818,102.601
+0 days 01:37:35.293000,STR,18,110.529,22.0,2.0,0 days 01:36:02.375000,,False,SOFT,4.0,False,Aston Martin,1,18.0,False,4,Miami Grand Prix,True,C5,False,16.231,17.212,18.66,20.312,15.928,16.837,111.745
+0 days 01:39:10.683000,STR,18,95.39,23.0,2.0,,,True,SOFT,5.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.092,1.158,3.521,3.833,0.738,0.78,96.664
+0 days 01:40:47.824000,STR,18,97.141,24.0,2.0,,,False,SOFT,6.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,2.843,3.015,5.272,5.739,2.331,2.459,98.473
+0 days 01:42:23.745000,STR,18,95.921,25.0,2.0,,,False,SOFT,7.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.623,1.721,4.052,4.411,0.913,0.961,97.31
+0 days 01:43:59.769000,STR,18,96.024,26.0,2.0,,,False,SOFT,8.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.726,1.83,4.155,4.523,1.05,1.106,97.471
+0 days 01:45:35.587000,STR,18,95.818,27.0,2.0,,,False,SOFT,9.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.52,1.612,3.949,4.299,0.566,0.594,97.323
+0 days 01:47:11.529000,STR,18,95.942,28.0,2.0,,,False,SOFT,10.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.644,1.743,4.073,4.433,1.26,1.331,97.505
+0 days 01:48:47.302000,STR,18,95.773,29.0,2.0,,,False,SOFT,11.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.475,1.564,3.904,4.25,1.581,1.678,97.394
+0 days 01:50:22.807000,STR,18,95.505,30.0,2.0,,,False,SOFT,12.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.207,1.28,3.636,3.958,1.693,1.805,97.184
+0 days 01:51:58.239000,STR,18,95.432,31.0,2.0,,,False,SOFT,13.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.134,1.203,3.563,3.878,1.595,1.7,97.169
+0 days 01:53:33.840000,STR,18,95.601,32.0,2.0,,,False,SOFT,14.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.303,1.382,3.732,4.062,1.864,1.989,97.396
+0 days 01:55:09.043000,STR,18,95.203,33.0,2.0,,,True,SOFT,15.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.905,0.96,3.334,3.629,1.656,1.77,97.056
+0 days 01:56:44.892000,STR,18,95.849,34.0,2.0,,,False,SOFT,16.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.551,1.645,3.98,4.332,1.715,1.822,97.76
+0 days 01:58:23.405000,STR,18,98.513,35.0,2.0,,,False,SOFT,17.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,4.215,4.47,6.644,7.232,4.43,4.709,100.481
+0 days 01:59:59.423000,STR,18,96.018,36.0,2.0,,,False,SOFT,18.0,False,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.72,1.824,4.149,4.516,2.248,2.397,98.044
+0 days 02:01:40.447000,STR,18,101.024,37.0,2.0,,0 days 02:01:35.485000,False,SOFT,19.0,False,Aston Martin,1,17.0,False,4,Miami Grand Prix,True,C5,False,6.726,7.133,9.155,9.965,6.942,7.379,103.108
+0 days 02:03:29.994000,STR,18,109.547,38.0,3.0,0 days 02:01:57.542000,,False,SOFT,1.0,True,Aston Martin,1,17.0,False,4,Miami Grand Prix,True,C5,False,15.249,16.171,17.678,19.243,15.615,16.624,111.689
+0 days 02:05:05.106000,STR,18,95.112,39.0,3.0,,,True,SOFT,2.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.814,0.863,3.243,3.53,1.018,1.082,97.312
+0 days 02:06:40.064000,STR,18,94.958,40.0,3.0,,,True,SOFT,3.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.66,0.7,3.089,3.362,0.946,1.006,97.216
+0 days 02:08:15.208000,STR,18,95.144,41.0,3.0,,,False,SOFT,4.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.846,0.897,3.275,3.565,1.341,1.43,97.46
+0 days 02:09:50.532000,STR,18,95.324,42.0,3.0,,,False,SOFT,5.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,1.026,1.088,3.455,3.761,1.282,1.363,97.698
+0 days 02:11:25.757000,STR,18,95.225,43.0,3.0,,,False,SOFT,6.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.927,0.983,3.356,3.653,0.959,1.017,97.657
+0 days 02:13:03.136000,STR,18,97.379,44.0,3.0,,,False,SOFT,7.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,3.081,3.267,5.51,5.998,3.573,3.809,99.868
+0 days 02:14:37.956000,STR,18,94.82,45.0,3.0,,,True,SOFT,8.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.522,0.554,2.951,3.212,0.642,0.682,97.367
+0 days 02:16:13.130000,STR,18,95.174,46.0,3.0,,,False,SOFT,9.0,True,Aston Martin,12,17.0,True,4,Miami Grand Prix,True,C5,False,0.876,0.929,3.305,3.598,1.04,1.105,97.779
+0 days 02:17:48.345000,STR,18,95.215,47.0,3.0,,,False,SOFT,10.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.917,0.972,3.346,3.642,0.854,0.905,97.878
+0 days 02:19:23.480000,STR,18,95.135,48.0,3.0,,,False,SOFT,11.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.837,0.888,3.266,3.555,1.003,1.066,97.856
+0 days 02:20:58.578000,STR,18,95.098,49.0,3.0,,,False,SOFT,12.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.8,0.848,3.229,3.515,0.878,0.932,97.877
+0 days 02:22:33.765000,STR,18,95.187,50.0,3.0,,,False,SOFT,13.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.889,0.943,3.318,3.612,0.955,1.013,98.024
+0 days 02:24:08.656000,STR,18,94.891,51.0,3.0,,,False,SOFT,14.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.593,0.629,3.022,3.289,0.637,0.676,97.786
+0 days 02:25:43.415000,STR,18,94.759,52.0,3.0,,,True,SOFT,15.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.461,0.489,2.89,3.146,0.467,0.495,97.712
+0 days 02:27:18.226000,STR,18,94.811,53.0,3.0,,,False,SOFT,16.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.513,0.544,2.942,3.202,0.665,0.706,97.822
+0 days 02:28:53.032000,STR,18,94.806,54.0,3.0,,,False,SOFT,17.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.508,0.539,2.937,3.197,0.622,0.66,97.874
+0 days 02:30:29.181000,STR,18,96.149,55.0,3.0,,,False,SOFT,18.0,True,Aston Martin,12,17.0,True,4,Miami Grand Prix,True,C5,False,1.851,1.963,4.28,4.659,1.787,1.894,99.275
+0 days 02:32:03.897000,STR,18,94.716,56.0,3.0,,,True,SOFT,19.0,True,Aston Martin,1,17.0,True,4,Miami Grand Prix,True,C5,True,0.418,0.443,2.847,3.099,0.375,0.397,97.9
+0 days 00:59:06.976000,ALB,23,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,10.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:42.380000,ALB,23,95.404,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,1.106,1.173,3.535,3.848,-0.485,-0.506,95.462
+0 days 01:02:17.312000,ALB,23,94.932,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.634,0.672,3.063,3.334,0.001,0.001,95.048
+0 days 01:03:52.082000,ALB,23,94.77,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.472,0.501,2.901,3.158,-0.068,-0.072,94.944
+0 days 01:05:27.970000,ALB,23,95.888,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,12,9.0,True,4,Miami Grand Prix,True,C4,False,1.59,1.686,4.019,4.375,0.046,0.048,96.12
+0 days 01:07:43.297000,ALB,23,135.327,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,24,9.0,False,4,Miami Grand Prix,True,C4,False,41.029,43.51,43.458,47.304,0.452,0.335,135.616
+0 days 01:09:51.267000,ALB,23,127.97,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,4,8.0,False,4,Miami Grand Prix,True,C4,False,33.672,35.708,36.101,39.296,-1.686,-1.3,128.317
+0 days 01:12:15.947000,ALB,23,144.68,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,4,8.0,False,4,Miami Grand Prix,True,C4,False,50.382,53.428,52.811,57.485,1.846,1.292,145.085
+0 days 01:14:39.462000,ALB,23,143.515,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,4,8.0,False,4,Miami Grand Prix,True,C4,False,49.217,52.193,51.646,56.217,0.107,0.075,143.978
+0 days 01:16:59.574000,ALB,23,140.112,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,4,8.0,False,4,Miami Grand Prix,True,C4,False,45.814,48.584,48.243,52.513,0.631,0.452,140.633
+0 days 01:19:24.750000,ALB,23,145.176,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,41,8.0,False,4,Miami Grand Prix,True,C4,False,50.878,53.954,53.307,58.025,1.036,0.719,145.755
+0 days 01:20:59.956000,ALB,23,95.206,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.908,0.963,3.337,3.632,-0.003,-0.003,95.843
+0 days 01:22:34.509000,ALB,23,94.553,13.0,1.0,,,True,MEDIUM,13.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.255,0.27,2.684,2.922,-0.165,-0.174,95.248
+0 days 01:24:08.670000,ALB,23,94.161,14.0,1.0,,,True,MEDIUM,14.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,-0.137,-0.145,2.292,2.495,0.091,0.097,94.914
+0 days 01:25:44.140000,ALB,23,95.47,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,1.172,1.243,3.601,3.92,0.803,0.848,96.281
+0 days 01:27:19.385000,ALB,23,95.245,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,12,9.0,True,4,Miami Grand Prix,True,C4,False,0.947,1.004,3.376,3.675,0.423,0.446,96.113
+0 days 01:28:55.209000,ALB,23,95.824,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,1.526,1.618,3.955,4.305,0.657,0.69,96.75
+0 days 01:30:30.398000,ALB,23,95.189,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.891,0.945,3.32,3.614,0.007,0.007,96.173
+0 days 01:32:05.377000,ALB,23,94.979,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.681,0.722,3.11,3.385,0.11,0.116,96.021
+0 days 01:33:40.589000,ALB,23,95.212,20.0,1.0,,,False,MEDIUM,20.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.914,0.969,3.343,3.639,0.107,0.113,96.312
+0 days 01:35:15.468000,ALB,23,94.879,21.0,1.0,,,False,MEDIUM,21.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.581,0.616,3.01,3.276,-0.089,-0.094,96.037
+0 days 01:36:50.268000,ALB,23,94.8,22.0,1.0,,,False,MEDIUM,22.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.502,0.532,2.931,3.19,0.199,0.21,96.016
+0 days 01:38:25.365000,ALB,23,95.097,23.0,1.0,,,False,MEDIUM,23.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.799,0.847,3.228,3.514,0.445,0.47,96.371
+0 days 01:40:01.266000,ALB,23,95.901,24.0,1.0,,,False,MEDIUM,24.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,1.603,1.7,4.032,4.389,1.091,1.151,97.233
+0 days 01:41:36.385000,ALB,23,95.119,25.0,1.0,,,False,MEDIUM,25.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.821,0.871,3.25,3.538,0.111,0.117,96.508
+0 days 01:43:11.349000,ALB,23,94.964,26.0,1.0,,,False,MEDIUM,26.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.666,0.706,3.095,3.369,-0.01,-0.011,96.411
+0 days 01:44:51.113000,ALB,23,99.764,27.0,1.0,,0 days 01:44:45.912000,False,MEDIUM,27.0,True,Williams,1,11.0,False,4,Miami Grand Prix,True,C4,False,5.466,5.797,7.895,8.594,4.512,4.737,101.269
+0 days 01:46:38.911000,ALB,23,107.798,28.0,2.0,0 days 01:45:08.740000,,False,HARD,1.0,True,Williams,1,12.0,False,4,Miami Grand Prix,True,C3,False,13.5,14.316,15.929,17.339,13.116,13.853,109.361
+0 days 01:48:12.786000,ALB,23,93.875,29.0,2.0,,,True,HARD,2.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.423,-0.449,2.006,2.184,-0.317,-0.337,95.496
+0 days 01:49:46.570000,ALB,23,93.784,30.0,2.0,,,True,HARD,3.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.514,-0.545,1.915,2.084,-0.028,-0.03,95.463
+0 days 01:51:20.407000,ALB,23,93.837,31.0,2.0,,,False,HARD,4.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.461,-0.489,1.968,2.142,0.0,0.0,95.574
+0 days 01:52:54.601000,ALB,23,94.194,32.0,2.0,,,False,HARD,5.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.104,-0.11,2.325,2.531,0.457,0.488,95.989
+0 days 01:54:28.841000,ALB,23,94.24,33.0,2.0,,,False,HARD,6.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.058,-0.062,2.371,2.581,0.693,0.741,96.093
+0 days 01:56:03.274000,ALB,23,94.433,34.0,2.0,,,False,HARD,7.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.135,0.143,2.564,2.791,0.299,0.318,96.344
+0 days 01:57:37.570000,ALB,23,94.296,35.0,2.0,,,False,HARD,8.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.002,-0.002,2.427,2.642,0.213,0.226,96.264
+0 days 01:59:11.771000,ALB,23,94.201,36.0,2.0,,,False,HARD,9.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.097,-0.103,2.332,2.538,0.431,0.46,96.227
+0 days 02:00:46.256000,ALB,23,94.485,37.0,2.0,,,False,HARD,10.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.187,0.198,2.616,2.848,0.403,0.428,96.569
+0 days 02:02:20.696000,ALB,23,94.44,38.0,2.0,,,False,HARD,11.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.142,0.151,2.571,2.799,0.508,0.541,96.582
+0 days 02:03:55.033000,ALB,23,94.337,39.0,2.0,,,False,HARD,12.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.039,0.041,2.468,2.686,0.243,0.258,96.537
+0 days 02:05:29.472000,ALB,23,94.439,40.0,2.0,,,False,HARD,13.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.141,0.15,2.57,2.797,0.427,0.454,96.697
+0 days 02:07:03.644000,ALB,23,94.172,41.0,2.0,,,False,HARD,14.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.126,-0.134,2.303,2.507,0.369,0.393,96.488
+0 days 02:08:38.010000,ALB,23,94.366,42.0,2.0,,,False,HARD,15.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.068,0.072,2.497,2.718,0.324,0.345,96.74
+0 days 02:10:12.300000,ALB,23,94.29,43.0,2.0,,,False,HARD,16.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.008,-0.008,2.421,2.635,0.024,0.025,96.722
+0 days 02:11:46.439000,ALB,23,94.139,44.0,2.0,,,False,HARD,17.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.159,-0.169,2.27,2.471,0.333,0.355,96.628
+0 days 02:13:20.749000,ALB,23,94.31,45.0,2.0,,,False,HARD,18.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.012,0.013,2.441,2.657,0.132,0.14,96.857
+0 days 02:14:54.948000,ALB,23,94.199,46.0,2.0,,,False,HARD,19.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.099,-0.105,2.33,2.536,0.065,0.069,96.804
+0 days 02:16:29.509000,ALB,23,94.561,47.0,2.0,,,False,HARD,20.0,True,Williams,12,10.0,True,4,Miami Grand Prix,True,C3,False,0.263,0.279,2.692,2.93,0.2,0.212,97.224
+0 days 02:18:03.834000,ALB,23,94.325,48.0,2.0,,,False,HARD,21.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.027,0.029,2.456,2.673,0.193,0.205,97.046
+0 days 02:19:38.014000,ALB,23,94.18,49.0,2.0,,,False,HARD,22.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.118,-0.125,2.311,2.516,-0.04,-0.042,96.959
+0 days 02:21:12.370000,ALB,23,94.356,50.0,2.0,,,False,HARD,23.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.058,0.062,2.487,2.707,0.124,0.132,97.193
+0 days 02:22:46.777000,ALB,23,94.407,51.0,2.0,,,False,HARD,24.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.109,0.116,2.538,2.763,0.153,0.162,97.302
+0 days 02:24:21.064000,ALB,23,94.287,52.0,2.0,,,False,HARD,25.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.011,-0.012,2.418,2.632,-0.005,-0.005,97.24
+0 days 02:25:55.415000,ALB,23,94.351,53.0,2.0,,,False,HARD,26.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.053,0.056,2.482,2.702,0.205,0.218,97.362
+0 days 02:27:29.668000,ALB,23,94.253,54.0,2.0,,,False,HARD,27.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.045,-0.048,2.384,2.595,0.069,0.073,97.321
+0 days 02:29:03.777000,ALB,23,94.109,55.0,2.0,,,False,HARD,28.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.189,-0.2,2.24,2.438,-0.253,-0.268,97.235
+0 days 02:30:37.940000,ALB,23,94.163,56.0,2.0,,,False,HARD,29.0,True,Williams,12,10.0,True,4,Miami Grand Prix,True,C3,False,-0.135,-0.143,2.294,2.497,-0.178,-0.189,97.347
+0 days 02:32:12.238000,ALB,23,94.298,57.0,2.0,,,False,HARD,30.0,True,Williams,1,10.0,True,4,Miami Grand Prix,True,C3,True,0.0,0.0,2.429,2.644,-0.122,-0.129,97.54
+0 days 00:59:16.244000,HUL,27,,1.0,1.0,,0 days 00:59:10.357000,False,MEDIUM,1.0,True,Audi,1,22.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:01:16.518000,HUL,27,120.274,2.0,2.0,0 days 00:59:43.967000,,False,MEDIUM,1.0,True,Audi,1,22.0,False,4,Miami Grand Prix,True,C4,False,25.976,27.547,28.405,30.919,24.385,25.43,120.332
+0 days 01:02:51.448000,HUL,27,94.93,3.0,2.0,,,True,MEDIUM,2.0,True,Audi,1,22.0,True,4,Miami Grand Prix,True,C4,True,0.632,0.67,3.061,3.332,-0.001,-0.001,95.046
+0 days 01:04:25.971000,HUL,27,94.523,4.0,2.0,,,True,MEDIUM,3.0,True,Audi,1,22.0,True,4,Miami Grand Prix,True,C4,True,0.225,0.239,2.654,2.889,-0.315,-0.332,94.697
+0 days 01:06:15.458000,HUL,27,109.487,5.0,2.0,,,False,MEDIUM,4.0,True,Audi,124,20.0,False,4,Miami Grand Prix,True,C4,False,15.189,16.107,17.618,19.177,13.645,14.237,109.719
+0 days 01:08:30.608000,HUL,27,135.15,6.0,2.0,,,False,MEDIUM,5.0,True,Audi,4,19.0,False,4,Miami Grand Prix,True,C4,False,40.852,43.322,43.281,47.112,0.275,0.204,135.439
+0 days 01:11:22.019000,HUL,27,,7.0,2.0,,0 days 01:11:15.306000,False,MEDIUM,6.0,True,Audi,4,19.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 00:59:06.904000,VER,3,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,1,9.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:40.368000,VER,3,93.464,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C4,True,-0.834,-0.884,1.595,1.736,-2.425,-2.529,93.522
+0 days 01:02:13.607000,VER,3,93.239,3.0,1.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C4,True,-1.059,-1.123,1.37,1.491,-1.692,-1.782,93.355
+0 days 01:03:47.143000,VER,3,93.536,4.0,1.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C4,True,-0.762,-0.808,1.667,1.815,-1.302,-1.373,93.71
+0 days 01:05:21.233000,VER,3,94.09,5.0,1.0,,,False,MEDIUM,5.0,True,Red Bull Racing,12,8.0,True,4,Miami Grand Prix,True,C4,False,-0.208,-0.221,2.221,2.418,-1.752,-1.828,94.322
+0 days 01:07:42.181000,VER,3,140.948,6.0,1.0,,0 days 01:07:36.745000,False,MEDIUM,6.0,True,Red Bull Racing,24,8.0,False,4,Miami Grand Prix,True,C4,False,46.65,49.471,49.079,53.423,6.073,4.503,141.237
+0 days 01:10:04.835000,VER,3,142.654,7.0,2.0,0 days 01:07:59.396000,,False,HARD,1.0,True,Red Bull Racing,4,16.0,False,4,Miami Grand Prix,True,C3,False,48.356,51.28,50.785,55.28,12.998,10.025,143.001
+0 days 01:12:26.774000,VER,3,141.939,8.0,2.0,,,False,HARD,2.0,True,Red Bull Racing,4,16.0,False,4,Miami Grand Prix,True,C3,False,47.641,50.522,50.07,54.502,-0.895,-0.627,142.344
+0 days 01:14:49.357000,VER,3,142.583,9.0,2.0,,,False,HARD,3.0,True,Red Bull Racing,4,16.0,False,4,Miami Grand Prix,True,C3,False,48.285,51.205,50.714,55.203,-0.825,-0.575,143.046
+0 days 01:17:09.529000,VER,3,140.172,10.0,2.0,,,False,HARD,4.0,True,Red Bull Racing,4,16.0,False,4,Miami Grand Prix,True,C3,False,45.874,48.648,48.303,52.578,0.691,0.495,140.693
+0 days 01:19:28.972000,VER,3,139.443,11.0,2.0,,,False,HARD,5.0,True,Red Bull Racing,41,16.0,False,4,Miami Grand Prix,True,C3,False,45.145,47.875,47.574,51.785,-4.697,-3.259,140.022
+0 days 01:21:04.756000,VER,3,95.784,12.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,14.0,True,4,Miami Grand Prix,True,C3,True,1.486,1.576,3.915,4.262,0.575,0.604,96.421
+0 days 01:22:38.316000,VER,3,93.56,13.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.738,-0.783,1.691,1.841,-1.158,-1.223,94.255
+0 days 01:24:11.946000,VER,3,93.63,14.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.668,-0.708,1.761,1.917,-0.44,-0.468,94.383
+0 days 01:25:45.498000,VER,3,93.552,15.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,10.0,True,4,Miami Grand Prix,True,C3,True,-0.746,-0.791,1.683,1.832,-1.115,-1.178,94.363
+0 days 01:27:19.616000,VER,3,94.118,16.0,2.0,,,False,HARD,10.0,True,Red Bull Racing,12,10.0,True,4,Miami Grand Prix,True,C3,False,-0.18,-0.191,2.249,2.448,-0.704,-0.742,94.986
+0 days 01:28:53.415000,VER,3,93.799,17.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.499,-0.529,1.93,2.101,-1.368,-1.437,94.725
+0 days 01:30:27.085000,VER,3,93.67,18.0,2.0,,,False,HARD,12.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.628,-0.666,1.801,1.96,-1.512,-1.589,94.654
+0 days 01:32:00.466000,VER,3,93.381,19.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.917,-0.972,1.512,1.646,-1.488,-1.568,94.423
+0 days 01:33:34.328000,VER,3,93.862,20.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.436,-0.462,1.993,2.169,-1.243,-1.307,94.962
+0 days 01:35:07.669000,VER,3,93.341,21.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.957,-1.015,1.472,1.602,-1.627,-1.713,94.499
+0 days 01:36:40.993000,VER,3,93.324,22.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.974,-1.033,1.455,1.584,-1.277,-1.35,94.54
+0 days 01:38:14.348000,VER,3,93.355,23.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.943,-1.0,1.486,1.618,-1.297,-1.37,94.629
+0 days 01:39:47.458000,VER,3,93.11,24.0,2.0,,,True,HARD,18.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.188,-1.26,1.241,1.351,-1.7,-1.793,94.442
+0 days 01:41:20.957000,VER,3,93.499,25.0,2.0,,,False,HARD,19.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.799,-0.847,1.63,1.774,-1.509,-1.588,94.888
+0 days 01:42:54.801000,VER,3,93.844,26.0,2.0,,,False,HARD,20.0,True,Red Bull Racing,1,4.0,True,4,Miami Grand Prix,True,C3,True,-0.454,-0.481,1.975,2.15,-1.13,-1.19,95.291
+0 days 01:44:28.273000,VER,3,93.472,27.0,2.0,,,False,HARD,21.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.826,-0.876,1.603,1.745,-1.78,-1.869,94.977
+0 days 01:46:02.051000,VER,3,93.778,28.0,2.0,,,False,HARD,22.0,True,Red Bull Racing,1,1.0,True,4,Miami Grand Prix,True,C3,True,-0.52,-0.551,1.909,2.078,-0.904,-0.955,95.341
+0 days 01:47:36.401000,VER,3,94.35,29.0,2.0,,,False,HARD,23.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,0.052,0.055,2.481,2.701,0.158,0.168,95.971
+0 days 01:49:10.573000,VER,3,94.172,30.0,2.0,,,False,HARD,24.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.126,-0.134,2.303,2.507,0.36,0.384,95.851
+0 days 01:50:43.854000,VER,3,93.281,31.0,2.0,,,False,HARD,25.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.017,-1.078,1.412,1.537,-0.556,-0.593,95.018
+0 days 01:52:17.436000,VER,3,93.582,32.0,2.0,,,False,HARD,26.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.716,-0.759,1.713,1.865,-0.155,-0.165,95.377
+0 days 01:53:50.978000,VER,3,93.542,33.0,2.0,,,False,HARD,27.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.756,-0.802,1.673,1.821,-0.005,-0.005,95.395
+0 days 01:55:24.440000,VER,3,93.462,34.0,2.0,,,False,HARD,28.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.836,-0.887,1.593,1.734,-0.672,-0.714,95.373
+0 days 01:56:57.890000,VER,3,93.45,35.0,2.0,,,False,HARD,29.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.848,-0.899,1.581,1.721,-0.633,-0.673,95.418
+0 days 01:58:31.244000,VER,3,93.354,36.0,2.0,,,False,HARD,30.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.944,-1.001,1.485,1.616,-0.416,-0.444,95.38
+0 days 02:00:04.357000,VER,3,93.113,37.0,2.0,,,False,HARD,31.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.185,-1.257,1.244,1.354,-0.969,-1.03,95.197
+0 days 02:01:37.505000,VER,3,93.148,38.0,2.0,,,False,HARD,32.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.15,-1.22,1.279,1.392,-0.784,-0.835,95.29
+0 days 02:03:10.673000,VER,3,93.168,39.0,2.0,,,False,HARD,33.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.13,-1.198,1.299,1.414,-0.926,-0.984,95.368
+0 days 02:04:44.178000,VER,3,93.505,40.0,2.0,,,False,HARD,34.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.793,-0.841,1.636,1.781,-0.507,-0.539,95.763
+0 days 02:06:17.953000,VER,3,93.775,41.0,2.0,,,False,HARD,35.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.523,-0.555,1.906,2.075,-0.028,-0.03,96.091
+0 days 02:07:51.335000,VER,3,93.382,42.0,2.0,,,False,HARD,36.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.916,-0.971,1.513,1.647,-0.66,-0.702,95.756
+0 days 02:09:25.074000,VER,3,93.739,43.0,2.0,,,False,HARD,37.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.559,-0.593,1.87,2.036,-0.527,-0.559,96.171
+0 days 02:10:58.725000,VER,3,93.651,44.0,2.0,,,False,HARD,38.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.647,-0.686,1.782,1.94,-0.155,-0.165,96.14
+0 days 02:12:32.173000,VER,3,93.448,45.0,2.0,,,False,HARD,39.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.85,-0.901,1.579,1.719,-0.73,-0.775,95.995
+0 days 02:14:05.866000,VER,3,93.693,46.0,2.0,,,False,HARD,40.0,True,Red Bull Racing,1,3.0,True,4,Miami Grand Prix,True,C3,True,-0.605,-0.642,1.824,1.985,-0.441,-0.468,96.298
+0 days 02:15:40.849000,VER,3,94.983,47.0,2.0,,,False,HARD,41.0,True,Red Bull Racing,1,4.0,True,4,Miami Grand Prix,True,C3,True,0.685,0.726,3.114,3.39,0.622,0.659,97.646
+0 days 02:17:15.217000,VER,3,94.368,48.0,2.0,,,False,HARD,42.0,True,Red Bull Racing,12,5.0,True,4,Miami Grand Prix,True,C3,False,0.07,0.074,2.499,2.72,0.236,0.251,97.089
+0 days 02:18:49.617000,VER,3,94.4,49.0,2.0,,,False,HARD,43.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,0.102,0.108,2.531,2.755,0.18,0.191,97.179
+0 days 02:20:23.209000,VER,3,93.592,50.0,2.0,,,False,HARD,44.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.706,-0.749,1.723,1.875,-0.64,-0.679,96.429
+0 days 02:21:57.104000,VER,3,93.895,51.0,2.0,,,False,HARD,45.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.403,-0.427,2.026,2.205,-0.359,-0.381,96.79
+0 days 02:23:31.035000,VER,3,93.931,52.0,2.0,,,False,HARD,46.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.367,-0.389,2.062,2.245,-0.361,-0.383,96.884
+0 days 02:25:04.908000,VER,3,93.873,53.0,2.0,,,False,HARD,47.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.425,-0.451,2.004,2.181,-0.273,-0.29,96.884
+0 days 02:26:39.151000,VER,3,94.243,54.0,2.0,,,False,HARD,48.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.055,-0.058,2.374,2.584,0.059,0.063,97.311
+0 days 02:28:15.024000,VER,3,95.873,55.0,2.0,,,False,HARD,49.0,True,Red Bull Racing,1,5.0,True,4,Miami Grand Prix,True,C3,True,1.575,1.67,4.004,4.358,1.511,1.601,98.999
+0 days 02:29:50.601000,VER,3,95.577,56.0,2.0,,,False,HARD,50.0,True,Red Bull Racing,1,6.0,True,4,Miami Grand Prix,True,C3,True,1.279,1.356,3.708,4.036,1.236,1.31,98.761
+0 days 02:31:25.215000,VER,3,94.614,57.0,2.0,,,False,HARD,51.0,True,Red Bull Racing,12,5.0,True,4,Miami Grand Prix,True,C3,False,0.316,0.335,2.745,2.988,0.194,0.205,97.856
+0 days 00:59:04.834000,LAW,30,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,8.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:41.913000,LAW,30,97.079,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,9.0,True,4,Miami Grand Prix,True,C4,True,2.781,2.949,5.21,5.671,1.19,1.241,97.137
+0 days 01:02:16.727000,LAW,30,94.814,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.516,0.547,2.945,3.206,-0.117,-0.123,94.93
+0 days 01:03:51.911000,LAW,30,95.184,4.0,1.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.886,0.94,3.315,3.608,0.346,0.365,95.358
+0 days 01:05:54.763000,LAW,30,122.852,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,124,19.0,False,4,Miami Grand Prix,True,C4,False,28.554,30.281,30.983,33.725,27.01,28.182,123.084
+0 days 01:08:37.851000,LAW,30,,6.0,1.0,,0 days 01:08:31.785000,False,MEDIUM,6.0,True,Racing Bulls,4,20.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 00:59:07.493000,OCO,31,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,1,13.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:44.961000,OCO,31,97.468,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,14.0,True,4,Miami Grand Prix,True,C4,True,3.17,3.362,5.599,6.095,1.579,1.647,97.526
+0 days 01:02:20.142000,OCO,31,95.181,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,14.0,True,4,Miami Grand Prix,True,C4,True,0.883,0.936,3.312,3.605,0.25,0.263,95.297
+0 days 01:03:55.606000,OCO,31,95.464,4.0,1.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.166,1.237,3.595,3.913,0.626,0.66,95.638
+0 days 01:05:30.912000,OCO,31,95.306,5.0,1.0,,,False,MEDIUM,5.0,True,Haas F1 Team,12,12.0,True,4,Miami Grand Prix,True,C4,False,1.008,1.069,3.437,3.741,-0.536,-0.559,95.538
+0 days 01:07:46.253000,OCO,31,135.341,6.0,1.0,,,False,MEDIUM,6.0,True,Haas F1 Team,24,12.0,False,4,Miami Grand Prix,True,C4,False,41.043,43.525,43.472,47.32,0.466,0.346,135.63
+0 days 01:09:55.159000,OCO,31,128.906,7.0,1.0,,,False,MEDIUM,7.0,True,Haas F1 Team,4,11.0,False,4,Miami Grand Prix,True,C4,False,34.608,36.701,37.037,40.315,-0.75,-0.578,129.253
+0 days 01:12:19.060000,OCO,31,143.901,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,4,11.0,False,4,Miami Grand Prix,True,C4,False,49.603,52.602,52.032,56.637,1.067,0.747,144.306
+0 days 01:14:42.215000,OCO,31,143.155,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,4,11.0,False,4,Miami Grand Prix,True,C4,False,48.857,51.811,51.286,55.825,-0.253,-0.176,143.618
+0 days 01:17:02.195000,OCO,31,139.98,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,4,11.0,False,4,Miami Grand Prix,True,C4,False,45.682,48.444,48.111,52.369,0.499,0.358,140.501
+0 days 01:19:26.335000,OCO,31,144.14,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,41,11.0,False,4,Miami Grand Prix,True,C4,False,49.842,52.856,52.271,56.897,0.0,0.0,144.719
+0 days 01:21:01.548000,OCO,31,95.213,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.915,0.97,3.344,3.64,0.004,0.004,95.85
+0 days 01:22:36.618000,OCO,31,95.07,13.0,1.0,,,True,MEDIUM,13.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.772,0.819,3.201,3.484,0.352,0.372,95.765
+0 days 01:24:11.480000,OCO,31,94.862,14.0,1.0,,,True,MEDIUM,14.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.564,0.598,2.993,3.258,0.792,0.842,95.615
+0 days 01:25:47.145000,OCO,31,95.665,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,1.367,1.45,3.796,4.132,0.998,1.054,96.476
+0 days 01:27:22.341000,OCO,31,95.196,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,12,12.0,True,4,Miami Grand Prix,True,C4,False,0.898,0.952,3.327,3.621,0.374,0.394,96.064
+0 days 01:28:57.468000,OCO,31,95.127,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.829,0.879,3.258,3.546,-0.04,-0.042,96.053
+0 days 01:30:32.694000,OCO,31,95.226,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.928,0.984,3.357,3.654,0.044,0.046,96.21
+0 days 01:32:07.660000,OCO,31,94.966,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.668,0.708,3.097,3.371,0.097,0.102,96.008
+0 days 01:33:42.870000,OCO,31,95.21,20.0,1.0,,,False,MEDIUM,20.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.912,0.967,3.341,3.637,0.105,0.11,96.31
+0 days 01:35:17.987000,OCO,31,95.117,21.0,1.0,,,False,MEDIUM,21.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.819,0.869,3.248,3.535,0.149,0.157,96.275
+0 days 01:36:54.157000,OCO,31,96.17,22.0,1.0,,,False,MEDIUM,22.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,1.872,1.985,4.301,4.682,1.569,1.659,97.386
+0 days 01:38:29.158000,OCO,31,95.001,23.0,1.0,,,False,MEDIUM,23.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.703,0.746,3.132,3.409,0.349,0.369,96.275
+0 days 01:40:04.371000,OCO,31,95.213,24.0,1.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.915,0.97,3.344,3.64,0.403,0.425,96.545
+0 days 01:41:39.774000,OCO,31,95.403,25.0,1.0,,,False,MEDIUM,25.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C4,True,1.105,1.172,3.534,3.847,0.395,0.416,96.792
+0 days 01:43:14.785000,OCO,31,95.011,26.0,1.0,,,False,MEDIUM,26.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.713,0.756,3.142,3.42,0.037,0.039,96.458
+0 days 01:44:50.254000,OCO,31,95.469,27.0,1.0,,,False,MEDIUM,27.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,1.171,1.242,3.6,3.919,0.217,0.228,96.974
+0 days 01:46:25.722000,OCO,31,95.468,28.0,1.0,,,False,MEDIUM,28.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,1.17,1.241,3.599,3.918,0.786,0.83,97.031
+0 days 01:48:01.248000,OCO,31,95.526,29.0,1.0,,,False,MEDIUM,29.0,True,Haas F1 Team,1,9.0,True,4,Miami Grand Prix,True,C4,True,1.228,1.302,3.657,3.981,1.334,1.416,97.147
+0 days 01:49:36.641000,OCO,31,95.393,30.0,1.0,,,False,MEDIUM,30.0,True,Haas F1 Team,1,9.0,True,4,Miami Grand Prix,True,C4,True,1.095,1.161,3.524,3.836,1.581,1.685,97.072
+0 days 01:51:16.977000,OCO,31,100.336,31.0,1.0,,0 days 01:51:11.591000,False,MEDIUM,31.0,True,Haas F1 Team,1,10.0,False,4,Miami Grand Prix,True,C4,False,6.038,6.403,8.467,9.216,6.499,6.926,102.073
+0 days 01:53:06.431000,OCO,31,109.454,32.0,2.0,0 days 01:51:35.658000,,False,HARD,1.0,True,Haas F1 Team,1,13.0,False,4,Miami Grand Prix,True,C3,False,15.156,16.072,17.585,19.141,15.717,16.767,111.249
+0 days 01:54:40.143000,OCO,31,93.712,33.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.586,-0.621,1.843,2.006,0.165,0.176,95.565
+0 days 01:56:14.194000,OCO,31,94.051,34.0,2.0,,,False,HARD,3.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.247,-0.262,2.182,2.375,-0.083,-0.088,95.962
+0 days 01:57:48.064000,OCO,31,93.87,35.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.428,-0.454,2.001,2.178,-0.213,-0.226,95.838
+0 days 01:59:22.314000,OCO,31,94.25,36.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.048,-0.051,2.381,2.592,0.48,0.512,96.276
+0 days 02:00:56.675000,OCO,31,94.361,37.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.063,0.067,2.492,2.713,0.279,0.297,96.445
+0 days 02:02:31.213000,OCO,31,94.538,38.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.24,0.255,2.669,2.905,0.606,0.645,96.68
+0 days 02:04:05.642000,OCO,31,94.429,39.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.131,0.139,2.56,2.787,0.335,0.356,96.629
+0 days 02:05:40.106000,OCO,31,94.464,40.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.166,0.176,2.595,2.825,0.452,0.481,96.722
+0 days 02:07:14.555000,OCO,31,94.449,41.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.151,0.16,2.58,2.808,0.646,0.689,96.765
+0 days 02:08:49.144000,OCO,31,94.589,42.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.291,0.309,2.72,2.961,0.547,0.582,96.963
+0 days 02:10:23.736000,OCO,31,94.592,43.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.294,0.312,2.723,2.964,0.326,0.346,97.024
+0 days 02:11:58.263000,OCO,31,94.527,44.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.229,0.243,2.658,2.893,0.721,0.769,97.016
+0 days 02:13:33.069000,OCO,31,94.806,45.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.508,0.539,2.937,3.197,0.628,0.667,97.353
+0 days 02:15:08.724000,OCO,31,95.655,46.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,1.357,1.439,3.786,4.121,1.521,1.616,98.26
+0 days 02:16:43.275000,OCO,31,94.551,47.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,12,13.0,True,4,Miami Grand Prix,True,C3,False,0.253,0.268,2.682,2.919,0.19,0.201,97.214
+0 days 02:18:17.535000,OCO,31,94.26,48.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.038,-0.04,2.391,2.603,0.128,0.136,96.981
+0 days 02:19:51.794000,OCO,31,94.259,49.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.039,-0.041,2.39,2.602,0.039,0.041,97.038
+0 days 02:21:28.473000,OCO,31,96.679,50.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,2.381,2.525,4.81,5.236,2.447,2.597,99.516
+0 days 02:23:03.326000,OCO,31,94.853,51.0,2.0,,,False,HARD,20.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.555,0.589,2.984,3.248,0.599,0.636,97.748
+0 days 02:24:37.765000,OCO,31,94.439,52.0,2.0,,,False,HARD,21.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.141,0.15,2.57,2.797,0.147,0.156,97.392
+0 days 02:26:12.192000,OCO,31,94.427,53.0,2.0,,,False,HARD,22.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.129,0.137,2.558,2.784,0.281,0.298,97.438
+0 days 02:27:46.316000,OCO,31,94.124,54.0,2.0,,,False,HARD,23.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.174,-0.185,2.255,2.455,-0.06,-0.064,97.192
+0 days 02:29:20.732000,OCO,31,94.416,55.0,2.0,,,False,HARD,24.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.118,0.125,2.547,2.772,0.054,0.057,97.542
+0 days 02:30:55.139000,OCO,31,94.407,56.0,2.0,,,False,HARD,25.0,True,Haas F1 Team,12,13.0,True,4,Miami Grand Prix,True,C3,False,0.109,0.116,2.538,2.763,0.066,0.07,97.591
+0 days 00:59:08.542000,LIN,41,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,15.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:45.282000,LIN,41,96.74,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.442,2.59,4.871,5.302,0.851,0.887,96.798
+0 days 01:02:21.492000,LIN,41,96.21,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C4,True,1.912,2.028,4.341,4.725,1.279,1.347,96.326
+0 days 01:03:57.147000,LIN,41,95.655,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C4,True,1.357,1.439,3.786,4.121,0.817,0.861,95.829
+0 days 01:05:34.270000,LIN,41,97.123,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,124,13.0,False,4,Miami Grand Prix,True,C4,False,2.825,2.996,5.254,5.719,1.281,1.337,97.355
+0 days 01:07:48.478000,LIN,41,134.208,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,4,13.0,False,4,Miami Grand Prix,True,C4,False,39.91,42.323,42.339,46.086,-0.667,-0.495,134.497
+0 days 01:09:57.183000,LIN,41,128.705,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,4,12.0,False,4,Miami Grand Prix,True,C4,False,34.407,36.488,36.836,40.096,-0.951,-0.733,129.052
+0 days 01:12:20.171000,LIN,41,142.988,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,4,12.0,False,4,Miami Grand Prix,True,C4,False,48.69,51.634,51.119,55.643,0.154,0.108,143.393
+0 days 01:14:43.367000,LIN,41,143.196,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,4,12.0,False,4,Miami Grand Prix,True,C4,False,48.898,51.855,51.327,55.87,-0.212,-0.148,143.659
+0 days 01:17:04.311000,LIN,41,140.944,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,4,12.0,False,4,Miami Grand Prix,True,C4,False,46.646,49.467,49.075,53.418,1.463,1.049,141.465
+0 days 01:19:27.004000,LIN,41,142.693,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,41,12.0,False,4,Miami Grand Prix,True,C4,False,48.395,51.321,50.824,55.322,-1.447,-1.004,143.272
+0 days 01:21:03.780000,LIN,41,96.776,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,12.0,True,4,Miami Grand Prix,True,C4,True,2.478,2.628,4.907,5.341,1.567,1.646,97.413
+0 days 01:22:39.486000,LIN,41,95.706,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.408,1.493,3.837,4.177,0.988,1.043,96.401
+0 days 01:24:14.719000,LIN,41,95.233,14.0,1.0,,,True,MEDIUM,14.0,True,Racing Bulls,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.935,0.992,3.364,3.662,1.163,1.236,95.986
+0 days 01:25:50.883000,LIN,41,96.164,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,12,13.0,True,4,Miami Grand Prix,True,C4,False,1.866,1.979,4.295,4.675,1.497,1.581,96.975
+0 days 01:27:26.700000,LIN,41,95.817,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,21,13.0,True,4,Miami Grand Prix,True,C4,False,1.519,1.611,3.948,4.297,0.995,1.049,96.685
+0 days 01:29:02.650000,LIN,41,95.95,17.0,1.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.652,1.752,4.081,4.442,0.783,0.823,96.876
+0 days 01:30:38.590000,LIN,41,95.94,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.642,1.741,4.071,4.431,0.758,0.796,96.924
+0 days 01:32:15.455000,LIN,41,96.865,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,2.567,2.722,4.996,5.438,1.996,2.104,97.907
+0 days 01:33:51.877000,LIN,41,96.422,20.0,1.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,2.124,2.252,4.553,4.956,1.317,1.385,97.522
+0 days 01:35:27.889000,LIN,41,96.012,21.0,1.0,,,False,MEDIUM,21.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.714,1.818,4.143,4.51,1.044,1.099,97.17
+0 days 01:37:03.842000,LIN,41,95.953,22.0,1.0,,,False,MEDIUM,22.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.655,1.755,4.084,4.445,1.352,1.429,97.169
+0 days 01:38:39.540000,LIN,41,95.698,23.0,1.0,,,False,MEDIUM,23.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.4,1.485,3.829,4.168,1.046,1.105,96.972
+0 days 01:40:15.431000,LIN,41,95.891,24.0,1.0,,,False,MEDIUM,24.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.593,1.689,4.022,4.378,1.081,1.14,97.223
+0 days 01:41:51.469000,LIN,41,96.038,25.0,1.0,,,False,MEDIUM,25.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.74,1.845,4.169,4.538,1.03,1.084,97.427
+0 days 01:43:27.304000,LIN,41,95.835,26.0,1.0,,,False,MEDIUM,26.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.537,1.63,3.966,4.317,0.861,0.907,97.282
+0 days 01:45:03.374000,LIN,41,96.07,27.0,1.0,,,False,MEDIUM,27.0,True,Racing Bulls,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.772,1.879,4.201,4.573,0.818,0.859,97.575
+0 days 01:46:44.297000,LIN,41,100.923,28.0,1.0,,0 days 01:46:38.974000,False,MEDIUM,28.0,True,Racing Bulls,1,14.0,False,4,Miami Grand Prix,True,C4,False,6.625,7.026,9.054,9.855,6.241,6.592,102.486
+0 days 01:48:33.324000,LIN,41,109.027,29.0,2.0,0 days 01:47:01.672000,,False,HARD,1.0,True,Racing Bulls,1,16.0,False,4,Miami Grand Prix,True,C3,False,14.729,15.62,17.158,18.677,14.835,15.75,110.648
+0 days 01:50:07.382000,LIN,41,94.058,30.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C3,True,-0.24,-0.255,2.189,2.383,0.246,0.262,95.737
+0 days 01:51:41.557000,LIN,41,94.175,31.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C3,True,-0.123,-0.13,2.306,2.51,0.338,0.36,95.912
+0 days 01:53:15.935000,LIN,41,94.378,32.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,15.0,True,4,Miami Grand Prix,True,C3,True,0.08,0.085,2.509,2.731,0.641,0.684,96.173
+0 days 01:54:51.006000,LIN,41,95.071,33.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.773,0.82,3.202,3.485,1.524,1.629,96.924
+0 days 01:56:26.029000,LIN,41,95.023,34.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.725,0.769,3.154,3.433,0.889,0.944,96.934
+0 days 01:58:00.893000,LIN,41,94.864,35.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.566,0.6,2.995,3.26,0.781,0.83,96.832
+0 days 01:59:35.756000,LIN,41,94.863,36.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.565,0.599,2.994,3.259,1.093,1.166,96.889
+0 days 02:01:10.814000,LIN,41,95.058,37.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.76,0.806,3.189,3.471,0.976,1.037,97.142
+0 days 02:02:45.543000,LIN,41,94.729,38.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.431,0.457,2.86,3.113,0.797,0.848,96.871
+0 days 02:04:20.091000,LIN,41,94.548,39.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.25,0.265,2.679,2.916,0.454,0.482,96.748
+0 days 02:05:54.772000,LIN,41,94.681,40.0,2.0,,,False,HARD,12.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.383,0.406,2.812,3.061,0.669,0.712,96.939
+0 days 02:07:29.448000,LIN,41,94.676,41.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.378,0.401,2.807,3.055,0.873,0.931,96.992
+0 days 02:09:03.958000,LIN,41,94.51,42.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.212,0.225,2.641,2.875,0.468,0.498,96.884
+0 days 02:10:38.644000,LIN,41,94.686,43.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.388,0.411,2.817,3.066,0.42,0.446,97.118
+0 days 02:12:17.061000,LIN,41,98.417,44.0,2.0,,,False,HARD,16.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,4.119,4.368,6.548,7.128,4.611,4.915,100.906
+0 days 02:13:51.659000,LIN,41,94.598,45.0,2.0,,,False,HARD,17.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.3,0.318,2.729,2.971,0.42,0.446,97.145
+0 days 02:15:26.237000,LIN,41,94.578,46.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.28,0.297,2.709,2.949,0.444,0.472,97.183
+0 days 02:17:00.816000,LIN,41,94.579,47.0,2.0,,,False,HARD,19.0,True,Racing Bulls,12,14.0,True,4,Miami Grand Prix,True,C3,False,0.281,0.298,2.71,2.95,0.218,0.231,97.242
+0 days 02:18:36.174000,LIN,41,95.358,48.0,2.0,,,False,HARD,20.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,1.06,1.124,3.489,3.798,1.226,1.302,98.079
+0 days 02:20:10.992000,LIN,41,94.818,49.0,2.0,,,False,HARD,21.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.52,0.551,2.949,3.21,0.598,0.635,97.597
+0 days 02:21:45.597000,LIN,41,94.605,50.0,2.0,,,False,HARD,22.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.307,0.326,2.736,2.978,0.373,0.396,97.442
+0 days 02:23:20.150000,LIN,41,94.553,51.0,2.0,,,False,HARD,23.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.255,0.27,2.684,2.922,0.299,0.317,97.448
+0 days 02:24:54.448000,LIN,41,94.298,52.0,2.0,,,False,HARD,24.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.0,0.0,2.429,2.644,0.006,0.006,97.251
+0 days 02:26:31.791000,LIN,41,97.343,53.0,2.0,,,False,HARD,25.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,3.045,3.229,5.474,5.958,3.197,3.396,100.354
+0 days 02:28:06.623000,LIN,41,94.832,54.0,2.0,,,False,HARD,26.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.534,0.566,2.963,3.225,0.648,0.688,97.9
+0 days 02:29:41.105000,LIN,41,94.482,55.0,2.0,,,False,HARD,27.0,True,Racing Bulls,1,14.0,True,4,Miami Grand Prix,True,C3,True,0.184,0.195,2.613,2.844,0.12,0.127,97.608
+0 days 02:31:26.047000,LIN,41,104.942,56.0,2.0,,,False,HARD,28.0,True,Racing Bulls,12,14.0,True,4,Miami Grand Prix,True,C3,False,10.644,11.288,13.073,14.23,10.601,11.237,108.126
+0 days 00:59:03.549000,COL,43,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,7.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:37.662000,COL,43,94.113,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,-0.185,-0.196,2.244,2.443,-1.776,-1.852,94.171
+0 days 01:02:12.122000,COL,43,94.46,3.0,1.0,,,False,MEDIUM,3.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.162,0.172,2.591,2.82,-0.471,-0.496,94.576
+0 days 01:03:46.461000,COL,43,94.339,4.0,1.0,,,False,MEDIUM,4.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.041,0.043,2.47,2.689,-0.499,-0.526,94.513
+0 days 01:05:21.197000,COL,43,94.736,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,12,7.0,True,4,Miami Grand Prix,True,C4,False,0.438,0.464,2.867,3.121,-1.106,-1.154,94.968
+0 days 01:07:37.370000,COL,43,136.173,6.0,1.0,,,False,MEDIUM,6.0,True,Alpine,24,7.0,False,4,Miami Grand Prix,True,C4,False,41.875,44.407,44.304,48.225,1.298,0.962,136.462
+0 days 01:09:49.366000,COL,43,131.996,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,4,7.0,False,4,Miami Grand Prix,True,C4,False,37.698,39.978,40.127,43.678,2.34,1.805,132.343
+0 days 01:12:12.493000,COL,43,143.127,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,4,7.0,False,4,Miami Grand Prix,True,C4,False,48.829,51.782,51.258,55.795,0.293,0.205,143.532
+0 days 01:14:38.859000,COL,43,146.366,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,4,7.0,False,4,Miami Grand Prix,True,C4,False,52.068,55.216,54.497,59.32,2.958,2.063,146.829
+0 days 01:16:56.992000,COL,43,138.133,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,4,7.0,False,4,Miami Grand Prix,True,C4,False,43.835,46.486,46.264,50.359,-1.348,-0.966,138.654
+0 days 01:19:24.271000,COL,43,147.279,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,41,7.0,False,4,Miami Grand Prix,True,C4,False,52.981,56.185,55.41,60.314,3.139,2.178,147.858
+0 days 01:20:59.405000,COL,43,95.134,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.836,0.887,3.265,3.554,-0.075,-0.079,95.771
+0 days 01:22:33.651000,COL,43,94.246,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,-0.052,-0.055,2.377,2.587,-0.472,-0.498,94.941
+0 days 01:24:07.592000,COL,43,93.941,14.0,1.0,,,True,MEDIUM,14.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,-0.357,-0.379,2.072,2.255,-0.129,-0.137,94.694
+0 days 01:25:41.716000,COL,43,94.124,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,-0.174,-0.185,2.255,2.455,-0.543,-0.574,94.935
+0 days 01:27:15.853000,COL,43,94.137,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,12,7.0,True,4,Miami Grand Prix,True,C4,False,-0.161,-0.171,2.268,2.469,-0.685,-0.722,95.005
+0 days 01:28:50.253000,COL,43,94.4,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.102,0.108,2.531,2.755,-0.767,-0.806,95.326
+0 days 01:30:24.907000,COL,43,94.654,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.356,0.378,2.785,3.031,-0.528,-0.555,95.638
+0 days 01:31:59.412000,COL,43,94.505,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.207,0.22,2.636,2.869,-0.364,-0.384,95.547
+0 days 01:33:34.003000,COL,43,94.591,20.0,1.0,,,False,MEDIUM,20.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.293,0.311,2.722,2.963,-0.514,-0.54,95.691
+0 days 01:35:08.970000,COL,43,94.967,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.669,0.709,3.098,3.372,-0.001,-0.001,96.125
+0 days 01:36:43.245000,COL,43,94.275,22.0,1.0,,,False,MEDIUM,22.0,True,Alpine,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.023,-0.024,2.406,2.619,-0.326,-0.345,95.491
+0 days 01:38:17.254000,COL,43,94.009,23.0,1.0,,,False,MEDIUM,23.0,True,Alpine,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.289,-0.306,2.14,2.329,-0.643,-0.679,95.283
+0 days 01:39:51.457000,COL,43,94.203,24.0,1.0,,,False,MEDIUM,24.0,True,Alpine,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.095,-0.101,2.334,2.541,-0.607,-0.64,95.535
+0 days 01:41:25.694000,COL,43,94.237,25.0,1.0,,,False,MEDIUM,25.0,True,Alpine,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.061,-0.065,2.368,2.578,-0.771,-0.812,95.626
+0 days 01:42:59.685000,COL,43,93.991,26.0,1.0,,,False,MEDIUM,26.0,True,Alpine,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.307,-0.326,2.122,2.31,-0.983,-1.035,95.438
+0 days 01:44:33.960000,COL,43,94.275,27.0,1.0,,,False,MEDIUM,27.0,True,Alpine,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.023,-0.024,2.406,2.619,-0.977,-1.026,95.78
+0 days 01:46:08.351000,COL,43,94.391,28.0,1.0,,,False,MEDIUM,28.0,True,Alpine,1,5.0,True,4,Miami Grand Prix,True,C4,True,0.093,0.099,2.522,2.745,-0.291,-0.307,95.954
+0 days 01:47:42.674000,COL,43,94.323,29.0,1.0,,,False,MEDIUM,29.0,True,Alpine,1,4.0,True,4,Miami Grand Prix,True,C4,True,0.025,0.027,2.454,2.671,0.131,0.139,95.944
+0 days 01:49:16.866000,COL,43,94.192,30.0,1.0,,,False,MEDIUM,30.0,True,Alpine,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.106,-0.112,2.323,2.529,0.38,0.405,95.871
+0 days 01:50:56.298000,COL,43,99.432,31.0,1.0,,0 days 01:50:50.804000,False,MEDIUM,31.0,True,Alpine,1,7.0,False,4,Miami Grand Prix,True,C4,False,5.134,5.444,7.563,8.232,5.595,5.962,101.169
+0 days 01:52:45.024000,COL,43,108.726,32.0,2.0,0 days 01:51:13.924000,,False,HARD,1.0,True,Alpine,1,8.0,False,4,Miami Grand Prix,True,C3,False,14.428,15.3,16.857,18.349,14.989,15.99,110.521
+0 days 01:54:18.059000,COL,43,93.035,33.0,2.0,,,True,HARD,2.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.263,-1.339,1.166,1.269,-0.512,-0.547,94.888
+0 days 01:55:51.129000,COL,43,93.07,34.0,2.0,,,False,HARD,3.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.228,-1.302,1.201,1.307,-1.064,-1.13,94.981
+0 days 01:57:24.291000,COL,43,93.162,35.0,2.0,,,False,HARD,4.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.136,-1.205,1.293,1.407,-0.921,-0.979,95.13
+0 days 01:58:57.632000,COL,43,93.341,36.0,2.0,,,False,HARD,5.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.957,-1.015,1.472,1.602,-0.429,-0.458,95.367
+0 days 02:00:31.388000,COL,43,93.756,37.0,2.0,,,False,HARD,6.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.542,-0.575,1.887,2.054,-0.326,-0.347,95.84
+0 days 02:02:05.112000,COL,43,93.724,38.0,2.0,,,False,HARD,7.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.574,-0.609,1.855,2.019,-0.208,-0.221,95.866
+0 days 02:03:38.829000,COL,43,93.717,39.0,2.0,,,False,HARD,8.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.581,-0.616,1.848,2.012,-0.377,-0.401,95.917
+0 days 02:05:12.563000,COL,43,93.734,40.0,2.0,,,False,HARD,9.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.564,-0.598,1.865,2.03,-0.278,-0.296,95.992
+0 days 02:06:46.366000,COL,43,93.803,41.0,2.0,,,False,HARD,10.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.495,-0.525,1.934,2.105,0.0,0.0,96.119
+0 days 02:08:20.225000,COL,43,93.859,42.0,2.0,,,False,HARD,11.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.439,-0.466,1.99,2.166,-0.183,-0.195,96.233
+0 days 02:09:53.641000,COL,43,93.416,43.0,2.0,,,False,HARD,12.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.882,-0.935,1.547,1.684,-0.85,-0.902,95.848
+0 days 02:11:27.025000,COL,43,93.384,44.0,2.0,,,False,HARD,13.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.914,-0.969,1.515,1.649,-0.422,-0.45,95.873
+0 days 02:13:00.976000,COL,43,93.951,45.0,2.0,,,False,HARD,14.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.347,-0.368,2.082,2.266,-0.227,-0.241,96.498
+0 days 02:14:34.588000,COL,43,93.612,46.0,2.0,,,False,HARD,15.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.686,-0.727,1.743,1.897,-0.522,-0.555,96.217
+0 days 02:16:07.920000,COL,43,93.332,47.0,2.0,,,False,HARD,16.0,True,Alpine,12,8.0,True,4,Miami Grand Prix,True,C3,False,-0.966,-1.024,1.463,1.592,-1.029,-1.09,95.995
+0 days 02:17:41.641000,COL,43,93.721,48.0,2.0,,,False,HARD,17.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.577,-0.612,1.852,2.016,-0.411,-0.437,96.442
+0 days 02:19:15.021000,COL,43,93.38,49.0,2.0,,,False,HARD,18.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.918,-0.974,1.511,1.645,-0.84,-0.892,96.159
+0 days 02:20:49.197000,COL,43,94.176,50.0,2.0,,,False,HARD,19.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.122,-0.129,2.307,2.511,-0.056,-0.059,97.013
+0 days 02:22:22.972000,COL,43,93.775,51.0,2.0,,,False,HARD,20.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.523,-0.555,1.906,2.075,-0.479,-0.508,96.67
+0 days 02:23:56.763000,COL,43,93.791,52.0,2.0,,,False,HARD,21.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.507,-0.538,1.922,2.092,-0.501,-0.531,96.744
+0 days 02:25:30.291000,COL,43,93.528,53.0,2.0,,,False,HARD,22.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.77,-0.817,1.659,1.806,-0.618,-0.656,96.539
+0 days 02:27:03.595000,COL,43,93.304,54.0,2.0,,,False,HARD,23.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.994,-1.054,1.435,1.562,-0.88,-0.934,96.372
+0 days 02:28:36.930000,COL,43,93.335,55.0,2.0,,,False,HARD,24.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-0.963,-1.021,1.466,1.596,-1.027,-1.088,96.461
+0 days 02:30:09.989000,COL,43,93.059,56.0,2.0,,,False,HARD,25.0,True,Alpine,12,8.0,True,4,Miami Grand Prix,True,C3,False,-1.239,-1.314,1.19,1.295,-1.282,-1.359,96.243
+0 days 02:31:43.137000,COL,43,93.148,57.0,2.0,,,False,HARD,26.0,True,Alpine,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.15,-1.22,1.279,1.392,-1.272,-1.347,96.39
+0 days 00:59:02.676000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,6.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:36.221000,HAM,44,93.545,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.753,-0.799,1.676,1.824,-2.344,-2.444,93.603
+0 days 01:02:10.010000,HAM,44,93.789,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.509,-0.54,1.92,2.09,-1.142,-1.203,93.905
+0 days 01:03:43.981000,HAM,44,93.971,4.0,1.0,,,False,MEDIUM,4.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.327,-0.347,2.102,2.288,-0.867,-0.914,94.145
+0 days 01:05:18.165000,HAM,44,94.184,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,12,6.0,True,4,Miami Grand Prix,True,C4,False,-0.114,-0.121,2.315,2.52,-1.658,-1.73,94.416
+0 days 01:07:33.191000,HAM,44,135.026,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,24,6.0,False,4,Miami Grand Prix,True,C4,False,40.728,43.191,43.157,46.977,0.151,0.112,135.315
+0 days 01:09:47.461000,HAM,44,134.27,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,4,6.0,False,4,Miami Grand Prix,True,C4,False,39.972,42.389,42.401,46.154,4.614,3.559,134.617
+0 days 01:12:10.320000,HAM,44,142.859,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,4,6.0,False,4,Miami Grand Prix,True,C4,False,48.561,51.497,50.99,55.503,0.025,0.018,143.264
+0 days 01:14:37.520000,HAM,44,147.2,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,4,6.0,False,4,Miami Grand Prix,True,C4,False,52.902,56.101,55.331,60.228,3.792,2.644,147.663
+0 days 01:16:55.410000,HAM,44,137.89,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,4,6.0,False,4,Miami Grand Prix,True,C4,False,43.592,46.228,46.021,50.094,-1.591,-1.141,138.411
+0 days 01:19:23.678000,HAM,44,148.268,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,41,6.0,False,4,Miami Grand Prix,True,C4,False,53.97,57.233,56.399,61.391,4.128,2.864,148.847
+0 days 01:20:58.404000,HAM,44,94.726,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,0.428,0.454,2.857,3.11,-0.483,-0.507,95.363
+0 days 01:22:32.158000,HAM,44,93.754,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.544,-0.577,1.885,2.052,-0.964,-1.018,94.449
+0 days 01:24:05.712000,HAM,44,93.554,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.744,-0.789,1.685,1.834,-0.516,-0.549,94.307
+0 days 01:25:39.489000,HAM,44,93.777,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.521,-0.553,1.908,2.077,-0.89,-0.94,94.588
+0 days 01:27:13.194000,HAM,44,93.705,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,12,6.0,True,4,Miami Grand Prix,True,C4,False,-0.593,-0.629,1.836,1.998,-1.117,-1.178,94.573
+0 days 01:28:47.199000,HAM,44,94.005,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.293,-0.311,2.136,2.325,-1.162,-1.221,94.931
+0 days 01:30:21.431000,HAM,44,94.232,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.066,-0.07,2.363,2.572,-0.95,-0.998,95.216
+0 days 01:31:55.455000,HAM,44,94.024,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,6.0,True,4,Miami Grand Prix,True,C4,True,-0.274,-0.291,2.155,2.346,-0.845,-0.891,95.066
+0 days 01:33:29.672000,HAM,44,94.217,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.081,-0.086,2.348,2.556,-0.888,-0.934,95.317
+0 days 01:35:03.869000,HAM,44,94.197,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.101,-0.107,2.328,2.534,-0.771,-0.812,95.355
+0 days 01:36:38.036000,HAM,44,94.167,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.131,-0.139,2.298,2.501,-0.434,-0.459,95.383
+0 days 01:38:11.962000,HAM,44,93.926,23.0,1.0,,,False,MEDIUM,23.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.372,-0.394,2.057,2.239,-0.726,-0.767,95.2
+0 days 01:39:46.019000,HAM,44,94.057,24.0,1.0,,,False,MEDIUM,24.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.241,-0.256,2.188,2.382,-0.753,-0.794,95.389
+0 days 01:41:20.209000,HAM,44,94.19,25.0,1.0,,,False,MEDIUM,25.0,True,Ferrari,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.108,-0.115,2.321,2.526,-0.818,-0.861,95.579
+0 days 01:42:55.193000,HAM,44,94.984,26.0,1.0,,,False,MEDIUM,26.0,True,Ferrari,1,5.0,True,4,Miami Grand Prix,True,C4,True,0.686,0.727,3.115,3.391,0.01,0.011,96.431
+0 days 01:44:34.589000,HAM,44,99.396,27.0,1.0,,0 days 01:44:29.200000,False,MEDIUM,27.0,True,Ferrari,1,6.0,False,4,Miami Grand Prix,True,C4,False,5.098,5.406,7.527,8.193,4.144,4.351,100.901
+0 days 01:46:22.458000,HAM,44,107.869,28.0,2.0,0 days 01:44:52.967000,,False,HARD,1.0,True,Ferrari,1,8.0,False,4,Miami Grand Prix,True,C3,False,13.571,14.392,16.0,17.416,13.187,13.928,109.432
+0 days 01:47:55.134000,HAM,44,92.676,29.0,2.0,,,True,HARD,2.0,True,Ferrari,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.622,-1.72,0.807,0.878,-1.516,-1.609,94.297
+0 days 01:49:27.846000,HAM,44,92.712,30.0,2.0,,,False,HARD,3.0,True,Ferrari,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.586,-1.682,0.843,0.918,-1.1,-1.173,94.391
+0 days 01:51:00.710000,HAM,44,92.864,31.0,2.0,,,False,HARD,4.0,True,Ferrari,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.434,-1.521,0.995,1.083,-0.973,-1.037,94.601
+0 days 01:52:33.831000,HAM,44,93.121,32.0,2.0,,,False,HARD,5.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.177,-1.248,1.252,1.363,-0.616,-0.657,94.916
+0 days 01:54:06.811000,HAM,44,92.98,33.0,2.0,,,False,HARD,6.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.318,-1.398,1.111,1.209,-0.567,-0.606,94.833
+0 days 01:55:39.985000,HAM,44,93.174,34.0,2.0,,,False,HARD,7.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.124,-1.192,1.305,1.421,-0.96,-1.02,95.085
+0 days 01:57:12.924000,HAM,44,92.939,35.0,2.0,,,False,HARD,8.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.359,-1.441,1.07,1.165,-1.144,-1.216,94.907
+0 days 01:58:46.593000,HAM,44,93.669,36.0,2.0,,,False,HARD,9.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.629,-0.667,1.8,1.959,-0.101,-0.108,95.695
+0 days 02:00:21.396000,HAM,44,94.803,37.0,2.0,,,False,HARD,10.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.505,0.536,2.934,3.194,0.721,0.766,96.887
+0 days 02:01:54.948000,HAM,44,93.552,38.0,2.0,,,False,HARD,11.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.746,-0.791,1.683,1.832,-0.38,-0.405,95.694
+0 days 02:03:28.046000,HAM,44,93.098,39.0,2.0,,,False,HARD,12.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.2,-1.273,1.229,1.338,-0.996,-1.059,95.298
+0 days 02:05:01.497000,HAM,44,93.451,40.0,2.0,,,False,HARD,13.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.847,-0.898,1.582,1.722,-0.561,-0.597,95.709
+0 days 02:06:34.780000,HAM,44,93.283,41.0,2.0,,,False,HARD,14.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.015,-1.076,1.414,1.539,-0.52,-0.554,95.599
+0 days 02:08:08.017000,HAM,44,93.237,42.0,2.0,,,False,HARD,15.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.061,-1.125,1.368,1.489,-0.805,-0.856,95.611
+0 days 02:09:41.146000,HAM,44,93.129,43.0,2.0,,,False,HARD,16.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.169,-1.24,1.26,1.372,-1.137,-1.206,95.561
+0 days 02:11:14.039000,HAM,44,92.893,44.0,2.0,,,False,HARD,17.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.405,-1.49,1.024,1.115,-0.913,-0.973,95.382
+0 days 02:12:47.168000,HAM,44,93.129,45.0,2.0,,,False,HARD,18.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.169,-1.24,1.26,1.372,-1.049,-1.114,95.676
+0 days 02:14:20.303000,HAM,44,93.135,46.0,2.0,,,False,HARD,19.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.163,-1.233,1.266,1.378,-0.999,-1.061,95.74
+0 days 02:15:53.643000,HAM,44,93.34,47.0,2.0,,,False,HARD,20.0,True,Ferrari,12,7.0,True,4,Miami Grand Prix,True,C3,False,-0.958,-1.016,1.471,1.601,-1.021,-1.082,96.003
+0 days 02:17:27.218000,HAM,44,93.575,48.0,2.0,,,False,HARD,21.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.723,-0.767,1.706,1.857,-0.557,-0.592,96.296
+0 days 02:19:00.853000,HAM,44,93.635,49.0,2.0,,,False,HARD,22.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.663,-0.703,1.766,1.922,-0.585,-0.621,96.414
+0 days 02:20:34.359000,HAM,44,93.506,50.0,2.0,,,False,HARD,23.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.792,-0.84,1.637,1.782,-0.726,-0.77,96.343
+0 days 02:22:07.929000,HAM,44,93.57,51.0,2.0,,,False,HARD,24.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.728,-0.772,1.701,1.852,-0.684,-0.726,96.465
+0 days 02:23:42.563000,HAM,44,94.634,52.0,2.0,,,False,HARD,25.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.336,0.356,2.765,3.01,0.342,0.363,97.587
+0 days 02:25:16.865000,HAM,44,94.302,53.0,2.0,,,False,HARD,26.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.004,0.004,2.433,2.648,0.156,0.166,97.313
+0 days 02:26:51.195000,HAM,44,94.33,54.0,2.0,,,False,HARD,27.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.032,0.034,2.461,2.679,0.146,0.155,97.398
+0 days 02:28:25.502000,HAM,44,94.307,55.0,2.0,,,False,HARD,28.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.009,0.01,2.438,2.654,-0.055,-0.058,97.433
+0 days 02:30:00.069000,HAM,44,94.567,56.0,2.0,,,False,HARD,29.0,True,Ferrari,12,7.0,True,4,Miami Grand Prix,True,C3,False,0.269,0.285,2.698,2.937,0.226,0.24,97.751
+0 days 02:31:35.019000,HAM,44,94.95,57.0,2.0,,,False,HARD,30.0,True,Ferrari,1,7.0,True,4,Miami Grand Prix,True,C3,True,0.652,0.691,3.081,3.354,0.53,0.561,98.192
+0 days 00:59:11.242000,BOR,5,,1.0,1.0,,,False,MEDIUM,1.0,True,Audi,1,18.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:48.041000,BOR,5,96.799,2.0,1.0,,,True,MEDIUM,2.0,True,Audi,1,19.0,True,4,Miami Grand Prix,True,C4,True,2.501,2.652,4.93,5.366,0.91,0.949,96.857
+0 days 01:02:24.425000,BOR,5,96.384,3.0,1.0,,,True,MEDIUM,3.0,True,Audi,1,19.0,True,4,Miami Grand Prix,True,C4,True,2.086,2.212,4.515,4.915,1.453,1.531,96.5
+0 days 01:04:00.958000,BOR,5,96.533,4.0,1.0,,,False,MEDIUM,4.0,True,Audi,1,19.0,True,4,Miami Grand Prix,True,C4,True,2.235,2.37,4.664,5.077,1.695,1.787,96.707
+0 days 01:05:38.237000,BOR,5,97.279,5.0,1.0,,,False,MEDIUM,5.0,True,Audi,124,15.0,False,4,Miami Grand Prix,True,C4,False,2.981,3.161,5.41,5.889,1.437,1.499,97.511
+0 days 01:07:53.732000,BOR,5,135.495,6.0,1.0,,,False,MEDIUM,6.0,True,Audi,4,15.0,False,4,Miami Grand Prix,True,C4,False,41.197,43.688,43.626,47.487,0.62,0.46,135.784
+0 days 01:10:02.502000,BOR,5,128.77,7.0,1.0,,,False,MEDIUM,7.0,True,Audi,4,14.0,False,4,Miami Grand Prix,True,C4,False,34.472,36.556,36.901,40.167,-0.886,-0.683,129.117
+0 days 01:12:23.253000,BOR,5,140.751,8.0,1.0,,,False,MEDIUM,8.0,True,Audi,4,14.0,False,4,Miami Grand Prix,True,C4,False,46.453,49.262,48.882,53.208,-2.083,-1.458,141.156
+0 days 01:14:45.871000,BOR,5,142.618,9.0,1.0,,,False,MEDIUM,9.0,True,Audi,4,14.0,False,4,Miami Grand Prix,True,C4,False,48.32,51.242,50.749,55.241,-0.79,-0.551,143.081
+0 days 01:17:06.645000,BOR,5,140.774,10.0,1.0,,,False,MEDIUM,10.0,True,Audi,4,14.0,False,4,Miami Grand Prix,True,C4,False,46.476,49.286,48.905,53.233,1.293,0.927,141.295
+0 days 01:19:28.149000,BOR,5,141.504,11.0,1.0,,,False,MEDIUM,11.0,True,Audi,41,14.0,False,4,Miami Grand Prix,True,C4,False,47.206,50.06,49.635,54.028,-2.636,-1.829,142.083
+0 days 01:21:05.309000,BOR,5,97.16,12.0,1.0,,,False,MEDIUM,12.0,True,Audi,1,15.0,True,4,Miami Grand Prix,True,C4,True,2.862,3.035,5.291,5.759,1.951,2.049,97.797
+0 days 01:22:40.858000,BOR,5,95.549,13.0,1.0,,,True,MEDIUM,13.0,True,Audi,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.251,1.327,3.68,4.006,0.831,0.877,96.244
+0 days 01:24:16.665000,BOR,5,95.807,14.0,1.0,,,False,MEDIUM,14.0,True,Audi,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.509,1.6,3.938,4.287,1.737,1.846,96.56
+0 days 01:25:52.387000,BOR,5,95.722,15.0,1.0,,,False,MEDIUM,15.0,True,Audi,12,14.0,True,4,Miami Grand Prix,True,C4,False,1.424,1.51,3.853,4.194,1.055,1.114,96.533
+0 days 01:27:27.872000,BOR,5,95.485,16.0,1.0,,,True,MEDIUM,16.0,True,Audi,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.187,1.259,3.616,3.936,0.663,0.699,96.353
+0 days 01:29:03.365000,BOR,5,95.493,17.0,1.0,,,False,MEDIUM,17.0,True,Audi,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.195,1.267,3.624,3.945,0.326,0.343,96.419
+0 days 01:30:39.208000,BOR,5,95.843,18.0,1.0,,,False,MEDIUM,18.0,True,Audi,1,14.0,True,4,Miami Grand Prix,True,C4,True,1.545,1.638,3.974,4.326,0.661,0.694,96.827
+0 days 01:32:15.001000,BOR,5,95.793,19.0,1.0,,,False,MEDIUM,19.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.495,1.585,3.924,4.271,0.924,0.974,96.835
+0 days 01:33:50.790000,BOR,5,95.789,20.0,1.0,,,False,MEDIUM,20.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,1.491,1.581,3.92,4.267,0.684,0.719,96.889
+0 days 01:35:25.940000,BOR,5,95.15,21.0,1.0,,,True,MEDIUM,21.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.852,0.904,3.281,3.571,0.182,0.192,96.308
+0 days 01:37:00.989000,BOR,5,95.049,22.0,1.0,,,True,MEDIUM,22.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.751,0.796,3.18,3.461,0.448,0.474,96.265
+0 days 01:38:35.642000,BOR,5,94.653,23.0,1.0,,,True,MEDIUM,23.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.355,0.376,2.784,3.03,0.001,0.001,95.927
+0 days 01:40:10.638000,BOR,5,94.996,24.0,1.0,,,False,MEDIUM,24.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.698,0.74,3.127,3.404,0.186,0.196,96.328
+0 days 01:41:45.639000,BOR,5,95.001,25.0,1.0,,,False,MEDIUM,25.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.703,0.746,3.132,3.409,-0.007,-0.007,96.39
+0 days 01:43:20.550000,BOR,5,94.911,26.0,1.0,,,False,MEDIUM,26.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.613,0.65,3.042,3.311,-0.063,-0.066,96.358
+0 days 01:44:55.802000,BOR,5,95.252,27.0,1.0,,,False,MEDIUM,27.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.954,1.012,3.383,3.682,0.0,0.0,96.757
+0 days 01:46:30.775000,BOR,5,94.973,28.0,1.0,,,False,MEDIUM,28.0,True,Audi,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.675,0.716,3.104,3.379,0.291,0.307,96.536
+0 days 01:48:05.798000,BOR,5,95.023,29.0,1.0,,,False,MEDIUM,29.0,True,Audi,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.725,0.769,3.154,3.433,0.831,0.882,96.644
+0 days 01:49:40.824000,BOR,5,95.026,30.0,1.0,,,False,MEDIUM,30.0,True,Audi,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.728,0.772,3.157,3.436,1.214,1.294,96.705
+0 days 01:51:16.028000,BOR,5,95.204,31.0,1.0,,,False,MEDIUM,31.0,True,Audi,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.906,0.961,3.335,3.63,1.367,1.457,96.941
+0 days 01:52:56.500000,BOR,5,100.472,32.0,1.0,,0 days 01:52:50.817000,False,MEDIUM,32.0,True,Audi,1,12.0,False,4,Miami Grand Prix,True,C4,False,6.174,6.547,8.603,9.364,6.735,7.185,102.267
+0 days 01:54:45.329000,BOR,5,108.829,33.0,2.0,0 days 01:53:14.743000,,False,HARD,1.0,True,Audi,1,13.0,False,4,Miami Grand Prix,True,C3,False,14.531,15.41,16.96,18.461,15.282,16.336,110.682
+0 days 01:56:18.888000,BOR,5,93.559,34.0,2.0,,,True,HARD,2.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.739,-0.784,1.69,1.84,-0.575,-0.611,95.47
+0 days 01:57:52.790000,BOR,5,93.902,35.0,2.0,,,False,HARD,3.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.396,-0.42,2.033,2.213,-0.181,-0.192,95.87
+0 days 01:59:26.380000,BOR,5,93.59,36.0,2.0,,,False,HARD,4.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.708,-0.751,1.721,1.873,-0.18,-0.192,95.616
+0 days 02:01:00.125000,BOR,5,93.745,37.0,2.0,,,False,HARD,5.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.553,-0.586,1.876,2.042,-0.337,-0.358,95.829
+0 days 02:02:34.057000,BOR,5,93.932,38.0,2.0,,,False,HARD,6.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.366,-0.388,2.063,2.246,0.0,0.0,96.074
+0 days 02:04:08.012000,BOR,5,93.955,39.0,2.0,,,False,HARD,7.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.343,-0.364,2.086,2.271,-0.139,-0.148,96.155
+0 days 02:05:42.047000,BOR,5,94.035,40.0,2.0,,,False,HARD,8.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.263,-0.279,2.166,2.358,0.023,0.024,96.293
+0 days 02:07:15.686000,BOR,5,93.639,41.0,2.0,,,False,HARD,9.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.659,-0.699,1.77,1.927,-0.164,-0.175,95.955
+0 days 02:08:49.728000,BOR,5,94.042,42.0,2.0,,,False,HARD,10.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.256,-0.271,2.173,2.365,0.0,0.0,96.416
+0 days 02:10:24.466000,BOR,5,94.738,43.0,2.0,,,False,HARD,11.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.44,0.467,2.869,3.123,0.472,0.501,97.17
+0 days 02:11:58.976000,BOR,5,94.51,44.0,2.0,,,False,HARD,12.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.212,0.225,2.641,2.875,0.704,0.75,96.999
+0 days 02:13:33.403000,BOR,5,94.427,45.0,2.0,,,False,HARD,13.0,True,Audi,1,13.0,True,4,Miami Grand Prix,True,C3,True,0.129,0.137,2.558,2.784,0.249,0.264,96.974
+0 days 02:15:08.266000,BOR,5,94.863,46.0,2.0,,,False,HARD,14.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.565,0.599,2.994,3.259,0.729,0.774,97.468
+0 days 02:16:42.437000,BOR,5,94.171,47.0,2.0,,,False,HARD,15.0,True,Audi,12,12.0,True,4,Miami Grand Prix,True,C3,False,-0.127,-0.135,2.302,2.506,-0.19,-0.201,96.834
+0 days 02:18:16.278000,BOR,5,93.841,48.0,2.0,,,False,HARD,16.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.457,-0.485,1.972,2.147,-0.291,-0.309,96.562
+0 days 02:19:50.548000,BOR,5,94.27,49.0,2.0,,,False,HARD,17.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.028,-0.03,2.401,2.614,0.05,0.053,97.049
+0 days 02:21:24.957000,BOR,5,94.409,50.0,2.0,,,False,HARD,18.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.111,0.118,2.54,2.765,0.177,0.188,97.246
+0 days 02:23:00.700000,BOR,5,95.743,51.0,2.0,,,False,HARD,19.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,1.445,1.532,3.874,4.217,1.489,1.58,98.638
+0 days 02:24:35.451000,BOR,5,94.751,52.0,2.0,,,False,HARD,20.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,0.453,0.48,2.882,3.137,0.459,0.487,97.704
+0 days 02:26:09.305000,BOR,5,93.854,53.0,2.0,,,False,HARD,21.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.444,-0.471,1.985,2.161,-0.292,-0.31,96.865
+0 days 02:27:43.031000,BOR,5,93.726,54.0,2.0,,,False,HARD,22.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.572,-0.607,1.857,2.021,-0.458,-0.486,96.794
+0 days 02:29:16.531000,BOR,5,93.5,55.0,2.0,,,True,HARD,23.0,True,Audi,1,12.0,True,4,Miami Grand Prix,True,C3,True,-0.798,-0.846,1.631,1.775,-0.862,-0.914,96.626
+0 days 02:30:50.619000,BOR,5,94.088,56.0,2.0,,,False,HARD,24.0,True,Audi,12,12.0,True,4,Miami Grand Prix,True,C3,False,-0.21,-0.223,2.219,2.415,-0.253,-0.268,97.272
+0 days 00:59:07.228000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,11.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:43.117000,SAI,55,95.889,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C4,True,1.591,1.687,4.02,4.376,0.0,0.0,95.947
+0 days 01:02:18.412000,SAI,55,95.295,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.997,1.057,3.426,3.729,0.364,0.383,95.411
+0 days 01:03:53.256000,SAI,55,94.844,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,12.0,True,4,Miami Grand Prix,True,C4,True,0.546,0.579,2.975,3.238,0.006,0.006,95.018
+0 days 01:05:29.937000,SAI,55,96.681,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,12,10.0,True,4,Miami Grand Prix,True,C4,False,2.383,2.527,4.812,5.238,0.839,0.875,96.913
+0 days 01:07:44.238000,SAI,55,134.301,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,24,10.0,False,4,Miami Grand Prix,True,C4,False,40.003,42.422,42.432,46.188,-0.574,-0.426,134.59
+0 days 01:09:52.662000,SAI,55,128.424,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,4,9.0,False,4,Miami Grand Prix,True,C4,False,34.126,36.19,36.555,39.79,-1.232,-0.95,128.771
+0 days 01:12:17.320000,SAI,55,144.658,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,4,9.0,False,4,Miami Grand Prix,True,C4,False,50.36,53.405,52.789,57.461,1.824,1.277,145.063
+0 days 01:14:40.610000,SAI,55,143.29,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,4,9.0,False,4,Miami Grand Prix,True,C4,False,48.992,51.954,51.421,55.972,-0.118,-0.082,143.753
+0 days 01:17:00.849000,SAI,55,140.239,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,4,9.0,False,4,Miami Grand Prix,True,C4,False,45.941,48.719,48.37,52.651,0.758,0.543,140.76
+0 days 01:19:25.212000,SAI,55,144.363,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,41,9.0,False,4,Miami Grand Prix,True,C4,False,50.065,53.092,52.494,57.14,0.223,0.155,144.942
+0 days 01:21:00.373000,SAI,55,95.161,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.863,0.915,3.292,3.583,-0.048,-0.05,95.798
+0 days 01:22:35.257000,SAI,55,94.884,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.586,0.621,3.015,3.282,0.166,0.175,95.579
+0 days 01:24:09.235000,SAI,55,93.978,14.0,1.0,,,True,MEDIUM,14.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,-0.32,-0.339,2.109,2.296,-0.092,-0.098,94.731
+0 days 01:25:43.458000,SAI,55,94.223,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,-0.075,-0.08,2.354,2.562,-0.444,-0.469,95.034
+0 days 01:27:18.225000,SAI,55,94.767,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,12,8.0,True,4,Miami Grand Prix,True,C4,False,0.469,0.497,2.898,3.154,-0.055,-0.058,95.635
+0 days 01:28:53.044000,SAI,55,94.819,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.521,0.553,2.95,3.211,-0.348,-0.366,95.745
+0 days 01:30:28.507000,SAI,55,95.463,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,1.165,1.235,3.594,3.912,0.281,0.295,96.447
+0 days 01:32:03.280000,SAI,55,94.773,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.475,0.504,2.904,3.161,-0.096,-0.101,95.815
+0 days 01:33:38.080000,SAI,55,94.8,20.0,1.0,,,False,MEDIUM,20.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.502,0.532,2.931,3.19,-0.305,-0.321,95.9
+0 days 01:35:13.048000,SAI,55,94.968,21.0,1.0,,,False,MEDIUM,21.0,True,Williams,1,8.0,True,4,Miami Grand Prix,True,C4,True,0.67,0.711,3.099,3.373,0.0,0.0,96.126
+0 days 01:36:47.649000,SAI,55,94.601,22.0,1.0,,,False,MEDIUM,22.0,True,Williams,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.303,0.321,2.732,2.974,0.0,0.0,95.817
+0 days 01:38:22.300000,SAI,55,94.651,23.0,1.0,,,False,MEDIUM,23.0,True,Williams,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.353,0.374,2.782,3.028,-0.001,-0.001,95.925
+0 days 01:39:56.924000,SAI,55,94.624,24.0,1.0,,,False,MEDIUM,24.0,True,Williams,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.326,0.346,2.755,2.999,-0.186,-0.196,95.956
+0 days 01:41:32.221000,SAI,55,95.297,25.0,1.0,,,False,MEDIUM,25.0,True,Williams,1,7.0,True,4,Miami Grand Prix,True,C4,True,0.999,1.059,3.428,3.731,0.289,0.304,96.686
+0 days 01:43:08.357000,SAI,55,96.136,26.0,1.0,,,False,MEDIUM,26.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,1.838,1.949,4.267,4.645,1.162,1.223,97.583
+0 days 01:44:43.199000,SAI,55,94.842,27.0,1.0,,,False,MEDIUM,27.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.544,0.577,2.973,3.236,-0.41,-0.43,96.347
+0 days 01:46:23.059000,SAI,55,99.86,28.0,1.0,,0 days 01:46:17.667000,False,MEDIUM,28.0,True,Williams,1,9.0,False,4,Miami Grand Prix,True,C4,False,5.562,5.898,7.991,8.698,5.178,5.469,101.423
+0 days 01:48:11.593000,SAI,55,108.534,29.0,2.0,0 days 01:46:41.365000,,False,HARD,1.0,True,Williams,1,11.0,False,4,Miami Grand Prix,True,C3,False,14.236,15.097,16.665,18.14,14.342,15.226,110.155
+0 days 01:49:44.619000,SAI,55,93.026,30.0,2.0,,,True,HARD,2.0,True,Williams,1,11.0,True,4,Miami Grand Prix,True,C3,True,-1.272,-1.349,1.157,1.259,-0.786,-0.838,94.705
+0 days 01:51:17.930000,SAI,55,93.311,31.0,2.0,,,False,HARD,3.0,True,Williams,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.987,-1.047,1.442,1.57,-0.526,-0.561,95.048
+0 days 01:52:51.667000,SAI,55,93.737,32.0,2.0,,,False,HARD,4.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.561,-0.595,1.868,2.033,0.0,0.0,95.532
+0 days 01:54:25.214000,SAI,55,93.547,33.0,2.0,,,False,HARD,5.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.751,-0.796,1.678,1.827,0.0,0.0,95.4
+0 days 01:55:59.256000,SAI,55,94.042,34.0,2.0,,,False,HARD,6.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.256,-0.271,2.173,2.365,-0.092,-0.098,95.953
+0 days 01:57:33.224000,SAI,55,93.968,35.0,2.0,,,False,HARD,7.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.33,-0.35,2.099,2.285,-0.115,-0.122,95.936
+0 days 01:59:07.042000,SAI,55,93.818,36.0,2.0,,,False,HARD,8.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.48,-0.509,1.949,2.121,0.048,0.051,95.844
+0 days 02:00:41.124000,SAI,55,94.082,37.0,2.0,,,False,HARD,9.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.216,-0.229,2.213,2.409,0.0,0.0,96.166
+0 days 02:02:15.361000,SAI,55,94.237,38.0,2.0,,,False,HARD,10.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.061,-0.065,2.368,2.578,0.305,0.325,96.379
+0 days 02:03:49.595000,SAI,55,94.234,39.0,2.0,,,False,HARD,11.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.064,-0.068,2.365,2.574,0.14,0.149,96.434
+0 days 02:05:23.583000,SAI,55,93.988,40.0,2.0,,,False,HARD,12.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.31,-0.329,2.119,2.307,-0.024,-0.026,96.246
+0 days 02:06:57.898000,SAI,55,94.315,41.0,2.0,,,False,HARD,13.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,0.017,0.018,2.446,2.662,0.512,0.546,96.631
+0 days 02:08:32.292000,SAI,55,94.394,42.0,2.0,,,False,HARD,14.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,0.096,0.102,2.525,2.748,0.352,0.374,96.768
+0 days 02:10:06.533000,SAI,55,94.241,43.0,2.0,,,False,HARD,15.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.057,-0.06,2.372,2.582,-0.025,-0.027,96.673
+0 days 02:11:40.399000,SAI,55,93.866,44.0,2.0,,,False,HARD,16.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.432,-0.458,1.997,2.174,0.06,0.064,96.355
+0 days 02:13:14.445000,SAI,55,94.046,45.0,2.0,,,False,HARD,17.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.252,-0.267,2.177,2.37,-0.132,-0.14,96.593
+0 days 02:14:48.515000,SAI,55,94.07,46.0,2.0,,,False,HARD,18.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.228,-0.242,2.201,2.396,-0.064,-0.068,96.675
+0 days 02:16:22.493000,SAI,55,93.978,47.0,2.0,,,False,HARD,19.0,True,Williams,12,9.0,True,4,Miami Grand Prix,True,C3,False,-0.32,-0.339,2.109,2.296,-0.383,-0.406,96.641
+0 days 02:17:56.497000,SAI,55,94.004,48.0,2.0,,,False,HARD,20.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.294,-0.312,2.135,2.324,-0.128,-0.136,96.725
+0 days 02:19:30.477000,SAI,55,93.98,49.0,2.0,,,False,HARD,21.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.318,-0.337,2.111,2.298,-0.24,-0.255,96.759
+0 days 02:21:04.370000,SAI,55,93.893,50.0,2.0,,,False,HARD,22.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.405,-0.429,2.024,2.203,-0.339,-0.36,96.73
+0 days 02:22:38.472000,SAI,55,94.102,51.0,2.0,,,False,HARD,23.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.196,-0.208,2.233,2.431,-0.152,-0.161,96.997
+0 days 02:24:12.644000,SAI,55,94.172,52.0,2.0,,,False,HARD,24.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.126,-0.134,2.303,2.507,-0.12,-0.127,97.125
+0 days 02:25:46.633000,SAI,55,93.989,53.0,2.0,,,False,HARD,25.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.309,-0.328,2.12,2.308,-0.157,-0.167,97.0
+0 days 02:27:20.491000,SAI,55,93.858,54.0,2.0,,,False,HARD,26.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.44,-0.467,1.989,2.165,-0.326,-0.346,96.926
+0 days 02:28:54.442000,SAI,55,93.951,55.0,2.0,,,False,HARD,27.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.347,-0.368,2.082,2.266,-0.411,-0.436,97.077
+0 days 02:30:28.783000,SAI,55,94.341,56.0,2.0,,,False,HARD,28.0,True,Williams,12,9.0,True,4,Miami Grand Prix,True,C3,False,0.043,0.046,2.472,2.691,0.0,0.0,97.525
+0 days 02:32:03.338000,SAI,55,94.555,57.0,2.0,,,False,HARD,29.0,True,Williams,1,9.0,True,4,Miami Grand Prix,True,C3,True,0.257,0.273,2.686,2.924,0.135,0.143,97.797
+0 days 00:59:11.620000,HAD,6,,1.0,1.0,0 days 00:57:31.308000,,False,HARD,1.0,True,Red Bull Racing,1,19.0,False,4,Miami Grand Prix,True,C3,False,,,,,,,
+0 days 01:00:47.688000,HAD,6,96.068,2.0,1.0,,,True,HARD,2.0,True,Red Bull Racing,1,18.0,True,4,Miami Grand Prix,True,C3,True,1.77,1.877,4.199,4.571,0.179,0.187,96.126
+0 days 01:02:22.876000,HAD,6,95.188,3.0,1.0,,,True,HARD,3.0,True,Red Bull Racing,1,16.0,True,4,Miami Grand Prix,True,C3,True,0.89,0.944,3.319,3.613,0.257,0.271,95.304
+0 days 01:03:57.709000,HAD,6,94.833,4.0,1.0,,,True,HARD,4.0,True,Red Bull Racing,1,16.0,True,4,Miami Grand Prix,True,C3,True,0.535,0.567,2.964,3.226,-0.005,-0.005,95.007
+0 days 01:06:27.709000,HAD,6,,5.0,1.0,,,True,HARD,5.0,True,Red Bull Racing,124,,False,4,Miami Grand Prix,True,C3,False,,,,,,,
+0 days 00:59:01.251000,RUS,63,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,1,5.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:34.445000,RUS,63,93.194,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-1.104,-1.171,1.325,1.442,-2.695,-2.811,93.252
+0 days 01:02:08.019000,RUS,63,93.574,3.0,1.0,,,False,MEDIUM,3.0,True,Mercedes,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.724,-0.768,1.705,1.856,-1.357,-1.429,93.69
+0 days 01:03:41.892000,RUS,63,93.873,4.0,1.0,,,False,MEDIUM,4.0,True,Mercedes,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.425,-0.451,2.004,2.181,-0.965,-1.018,94.047
+0 days 01:05:15.729000,RUS,63,93.837,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,12,4.0,True,4,Miami Grand Prix,True,C4,False,-0.461,-0.489,1.968,2.142,-2.005,-2.092,94.069
+0 days 01:07:26.657000,RUS,63,130.928,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,24,4.0,False,4,Miami Grand Prix,True,C4,False,36.63,38.845,39.059,42.516,-3.947,-2.926,131.217
+0 days 01:09:44.141000,RUS,63,137.484,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,4,4.0,False,4,Miami Grand Prix,True,C4,False,43.186,45.797,45.615,49.652,7.828,6.038,137.831
+0 days 01:12:07.091000,RUS,63,142.95,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,4,4.0,False,4,Miami Grand Prix,True,C4,False,48.652,51.594,51.081,55.602,0.116,0.081,143.355
+0 days 01:14:34.536000,RUS,63,147.445,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,4,4.0,False,4,Miami Grand Prix,True,C4,False,53.147,56.361,55.576,60.495,4.037,2.815,147.908
+0 days 01:16:52.929000,RUS,63,138.393,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,4,4.0,False,4,Miami Grand Prix,True,C4,False,44.095,46.761,46.524,50.642,-1.088,-0.78,138.914
+0 days 01:19:22.887000,RUS,63,149.958,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,41,4.0,False,4,Miami Grand Prix,True,C4,False,55.66,59.026,58.089,63.23,5.818,4.036,150.537
+0 days 01:20:57.838000,RUS,63,94.951,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,0.653,0.692,3.082,3.355,-0.258,-0.271,95.588
+0 days 01:22:31.421000,RUS,63,93.583,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.715,-0.758,1.714,1.866,-1.135,-1.198,94.278
+0 days 01:24:05.239000,RUS,63,93.818,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.48,-0.509,1.949,2.121,-0.252,-0.268,94.571
+0 days 01:25:38.734000,RUS,63,93.495,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.803,-0.852,1.626,1.77,-1.172,-1.238,94.306
+0 days 01:27:12.299000,RUS,63,93.565,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,12,5.0,True,4,Miami Grand Prix,True,C4,False,-0.733,-0.777,1.696,1.846,-1.257,-1.326,94.433
+0 days 01:28:46.289000,RUS,63,93.99,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.308,-0.327,2.121,2.309,-1.177,-1.237,94.916
+0 days 01:30:20.347000,RUS,63,94.058,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.24,-0.255,2.189,2.383,-1.124,-1.181,95.042
+0 days 01:31:54.220000,RUS,63,93.873,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.425,-0.451,2.004,2.181,-0.996,-1.05,94.915
+0 days 01:33:33.334000,RUS,63,99.114,20.0,1.0,,0 days 01:33:28.001000,False,MEDIUM,20.0,True,Mercedes,1,6.0,False,4,Miami Grand Prix,True,C4,False,4.816,5.107,7.245,7.886,4.009,4.215,100.214
+0 days 01:35:19.307000,RUS,63,105.973,21.0,2.0,0 days 01:33:49.953000,,False,HARD,1.0,True,Mercedes,1,12.0,False,4,Miami Grand Prix,True,C3,False,11.675,12.381,14.104,15.352,11.005,11.588,107.131
+0 days 01:36:51.943000,RUS,63,92.636,22.0,2.0,,,True,HARD,2.0,True,Mercedes,1,10.0,True,4,Miami Grand Prix,True,C3,True,-1.662,-1.762,0.767,0.835,-1.965,-2.077,93.852
+0 days 01:38:25.695000,RUS,63,93.752,23.0,2.0,,,False,HARD,3.0,True,Mercedes,1,9.0,True,4,Miami Grand Prix,True,C3,True,-0.546,-0.579,1.883,2.05,-0.9,-0.951,95.026
+0 days 01:40:00.058000,RUS,63,94.363,24.0,2.0,,,False,HARD,4.0,True,Mercedes,1,8.0,True,4,Miami Grand Prix,True,C3,True,0.065,0.069,2.494,2.715,-0.447,-0.471,95.695
+0 days 01:41:33.127000,RUS,63,93.069,25.0,2.0,,,False,HARD,5.0,True,Mercedes,1,8.0,True,4,Miami Grand Prix,True,C3,True,-1.229,-1.303,1.2,1.306,-1.939,-2.041,94.458
+0 days 01:43:06.550000,RUS,63,93.423,26.0,2.0,,,False,HARD,6.0,True,Mercedes,1,7.0,True,4,Miami Grand Prix,True,C3,True,-0.875,-0.928,1.554,1.692,-1.551,-1.633,94.87
+0 days 01:44:39.755000,RUS,63,93.205,27.0,2.0,,,False,HARD,7.0,True,Mercedes,1,7.0,True,4,Miami Grand Prix,True,C3,True,-1.093,-1.159,1.336,1.454,-2.047,-2.149,94.71
+0 days 01:46:12.712000,RUS,63,92.957,28.0,2.0,,,False,HARD,8.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.341,-1.422,1.088,1.184,-1.725,-1.822,94.52
+0 days 01:47:45.618000,RUS,63,92.906,29.0,2.0,,,False,HARD,9.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.392,-1.476,1.037,1.129,-1.286,-1.365,94.527
+0 days 01:49:19.257000,RUS,63,93.639,30.0,2.0,,,False,HARD,10.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.659,-0.699,1.77,1.927,-0.173,-0.184,95.318
+0 days 01:50:53.491000,RUS,63,94.234,31.0,2.0,,,False,HARD,11.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.064,-0.068,2.365,2.574,0.397,0.423,95.971
+0 days 01:52:26.817000,RUS,63,93.326,32.0,2.0,,,False,HARD,12.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.972,-1.031,1.457,1.586,-0.411,-0.438,95.121
+0 days 01:54:00.364000,RUS,63,93.547,33.0,2.0,,,False,HARD,13.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.751,-0.796,1.678,1.827,0.0,0.0,95.4
+0 days 01:55:34.694000,RUS,63,94.33,34.0,2.0,,,False,HARD,14.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,0.032,0.034,2.461,2.679,0.196,0.208,96.241
+0 days 01:57:09.646000,RUS,63,94.952,35.0,2.0,,,False,HARD,15.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,0.654,0.694,3.083,3.356,0.869,0.924,96.92
+0 days 01:58:43.368000,RUS,63,93.722,36.0,2.0,,,False,HARD,16.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.576,-0.611,1.853,2.017,-0.048,-0.051,95.748
+0 days 02:00:16.571000,RUS,63,93.203,37.0,2.0,,,False,HARD,17.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.095,-1.161,1.334,1.452,-0.879,-0.934,95.287
+0 days 02:01:49.808000,RUS,63,93.237,38.0,2.0,,,False,HARD,18.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.061,-1.125,1.368,1.489,-0.695,-0.74,95.379
+0 days 02:03:22.785000,RUS,63,92.977,39.0,2.0,,,False,HARD,19.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.321,-1.401,1.108,1.206,-1.117,-1.187,95.177
+0 days 02:04:55.962000,RUS,63,93.177,40.0,2.0,,,False,HARD,20.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.121,-1.189,1.308,1.424,-0.835,-0.888,95.435
+0 days 02:06:28.860000,RUS,63,92.898,41.0,2.0,,,False,HARD,21.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.4,-1.485,1.029,1.12,-0.905,-0.965,95.214
+0 days 02:08:02.058000,RUS,63,93.198,42.0,2.0,,,False,HARD,22.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.1,-1.167,1.329,1.447,-0.844,-0.897,95.572
+0 days 02:09:35.351000,RUS,63,93.293,43.0,2.0,,,False,HARD,23.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.005,-1.066,1.424,1.55,-0.973,-1.032,95.725
+0 days 02:11:09.098000,RUS,63,93.747,44.0,2.0,,,False,HARD,24.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.551,-0.584,1.878,2.044,-0.059,-0.063,96.236
+0 days 02:12:42.168000,RUS,63,93.07,45.0,2.0,,,False,HARD,25.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.228,-1.302,1.201,1.307,-1.108,-1.176,95.617
+0 days 02:14:15.470000,RUS,63,93.302,46.0,2.0,,,False,HARD,26.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.996,-1.056,1.433,1.56,-0.832,-0.884,95.907
+0 days 02:15:48.731000,RUS,63,93.261,47.0,2.0,,,False,HARD,27.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.037,-1.1,1.392,1.515,-1.1,-1.166,95.924
+0 days 02:17:22.003000,RUS,63,93.272,48.0,2.0,,,False,HARD,28.0,True,Mercedes,12,6.0,True,4,Miami Grand Prix,True,C3,False,-1.026,-1.088,1.403,1.527,-0.86,-0.914,95.993
+0 days 02:18:54.744000,RUS,63,92.741,49.0,2.0,,,False,HARD,29.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.557,-1.651,0.872,0.949,-1.479,-1.57,95.52
+0 days 02:20:27.445000,RUS,63,92.701,50.0,2.0,,,False,HARD,30.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.597,-1.694,0.832,0.906,-1.531,-1.625,95.538
+0 days 02:22:00.252000,RUS,63,92.807,51.0,2.0,,,False,HARD,31.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.491,-1.581,0.938,1.021,-1.447,-1.535,95.702
+0 days 02:23:33.129000,RUS,63,92.877,52.0,2.0,,,False,HARD,32.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.421,-1.507,1.008,1.097,-1.415,-1.501,95.83
+0 days 02:25:05.575000,RUS,63,92.446,53.0,2.0,,,True,HARD,33.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.852,-1.964,0.577,0.628,-1.7,-1.806,95.457
+0 days 02:26:39.385000,RUS,63,93.81,54.0,2.0,,,False,HARD,34.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.488,-0.518,1.941,2.113,-0.374,-0.397,96.878
+0 days 02:28:15.588000,RUS,63,96.203,55.0,2.0,,,False,HARD,35.0,True,Mercedes,1,6.0,True,4,Miami Grand Prix,True,C3,True,1.905,2.02,4.334,4.718,1.841,1.951,99.329
+0 days 02:29:49.775000,RUS,63,94.187,56.0,2.0,,,False,HARD,36.0,True,Mercedes,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.111,-0.118,2.318,2.523,-0.154,-0.163,97.371
+0 days 02:31:24.317000,RUS,63,94.542,57.0,2.0,,,False,HARD,37.0,True,Mercedes,12,4.0,True,4,Miami Grand Prix,True,C3,False,0.244,0.259,2.673,2.91,0.122,0.129,97.784
+0 days 00:59:12.487000,BOT,77,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,1,21.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:49.275000,BOT,77,96.788,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,21.0,True,4,Miami Grand Prix,True,C4,True,2.49,2.641,4.919,5.354,0.899,0.938,96.846
+0 days 01:02:25.882000,BOT,77,96.607,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,21.0,True,4,Miami Grand Prix,True,C4,True,2.309,2.449,4.738,5.157,1.676,1.765,96.723
+0 days 01:04:02.499000,BOT,77,96.617,4.0,1.0,,,False,MEDIUM,4.0,True,Cadillac,1,21.0,True,4,Miami Grand Prix,True,C4,True,2.319,2.459,4.748,5.168,1.779,1.876,96.791
+0 days 01:05:45.141000,BOT,77,102.642,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,124,18.0,False,4,Miami Grand Prix,True,C4,False,8.344,8.849,10.773,11.726,6.8,7.095,102.874
+0 days 01:08:02.470000,BOT,77,137.329,6.0,1.0,,0 days 01:07:57.173000,False,MEDIUM,6.0,True,Cadillac,4,18.0,False,4,Miami Grand Prix,True,C4,False,43.031,45.633,45.46,49.484,2.454,1.819,137.618
+0 days 01:10:11.170000,BOT,77,128.7,7.0,2.0,0 days 01:08:20.692000,,False,SOFT,1.0,True,Cadillac,4,18.0,False,4,Miami Grand Prix,True,C5,False,34.402,36.482,36.831,40.091,-0.956,-0.737,129.047
+0 days 01:12:31.312000,BOT,77,140.142,8.0,2.0,,,False,SOFT,2.0,True,Cadillac,4,18.0,False,4,Miami Grand Prix,True,C5,False,45.844,48.616,48.273,52.545,-2.692,-1.885,140.547
+0 days 01:14:55.165000,BOT,77,143.853,9.0,2.0,,,False,SOFT,3.0,True,Cadillac,4,18.0,False,4,Miami Grand Prix,True,C5,False,49.555,52.551,51.984,56.585,0.445,0.31,144.316
+0 days 01:17:13.283000,BOT,77,138.118,10.0,2.0,,,False,SOFT,4.0,True,Cadillac,4,18.0,False,4,Miami Grand Prix,True,C5,False,43.82,46.47,46.249,50.342,-1.363,-0.977,138.639
+0 days 01:19:30.103000,BOT,77,136.82,11.0,2.0,,,False,SOFT,5.0,True,Cadillac,41,18.0,False,4,Miami Grand Prix,True,C5,False,42.522,45.093,44.951,48.929,-7.32,-5.078,137.399
+0 days 01:21:06.522000,BOT,77,96.419,12.0,2.0,,,True,SOFT,6.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C5,True,2.121,2.249,4.55,4.953,1.21,1.271,97.056
+0 days 01:22:43.132000,BOT,77,96.61,13.0,2.0,,,False,SOFT,7.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C5,True,2.312,2.452,4.741,5.161,1.892,1.998,97.305
+0 days 01:24:19.458000,BOT,77,96.326,14.0,2.0,,,True,SOFT,8.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C5,True,2.028,2.151,4.457,4.851,2.256,2.398,97.079
+0 days 01:25:55.813000,BOT,77,96.355,15.0,2.0,,,False,SOFT,9.0,True,Cadillac,12,16.0,True,4,Miami Grand Prix,True,C5,False,2.057,2.181,4.486,4.883,1.688,1.783,97.166
+0 days 01:27:31.893000,BOT,77,96.08,16.0,2.0,,,True,SOFT,10.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C5,True,1.782,1.89,4.211,4.584,1.258,1.327,96.948
+0 days 01:29:08.659000,BOT,77,96.766,17.0,2.0,,,False,SOFT,11.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C5,True,2.468,2.617,4.897,5.33,1.599,1.68,97.692
+0 days 01:30:45.378000,BOT,77,96.719,18.0,2.0,,,False,SOFT,12.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C5,True,2.421,2.567,4.85,5.279,1.537,1.615,97.703
+0 days 01:32:22.280000,BOT,77,96.902,19.0,2.0,,,False,SOFT,13.0,True,Cadillac,1,16.0,True,4,Miami Grand Prix,True,C5,True,2.604,2.761,5.033,5.478,2.033,2.143,97.944
+0 days 01:34:00.184000,BOT,77,97.904,20.0,2.0,,,False,SOFT,14.0,True,Cadillac,1,17.0,True,4,Miami Grand Prix,True,C5,True,3.606,3.824,6.035,6.569,2.799,2.943,99.004
+0 days 01:35:42.981000,BOT,77,102.797,21.0,2.0,,0 days 01:35:37.576000,False,SOFT,15.0,True,Cadillac,1,17.0,False,4,Miami Grand Prix,True,C5,False,8.499,9.013,10.928,11.895,7.829,8.244,103.955
+0 days 01:37:34.629000,BOT,77,111.648,22.0,3.0,0 days 01:36:01.376000,,False,MEDIUM,1.0,True,Cadillac,1,17.0,False,4,Miami Grand Prix,True,C4,False,17.35,18.399,19.779,21.53,17.047,18.02,112.864
+0 days 01:39:11.004000,BOT,77,96.375,23.0,3.0,,,False,MEDIUM,2.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.077,2.203,4.506,4.905,1.723,1.82,97.649
+0 days 01:40:48.452000,BOT,77,97.448,24.0,3.0,,,False,MEDIUM,3.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.15,3.34,5.579,6.073,2.638,2.782,98.78
+0 days 01:42:24.901000,BOT,77,96.449,25.0,3.0,,,False,MEDIUM,4.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.151,2.281,4.58,4.985,1.441,1.517,97.838
+0 days 01:44:01.163000,BOT,77,96.262,26.0,3.0,,,False,MEDIUM,5.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,1.964,2.083,4.393,4.782,1.288,1.356,97.709
+0 days 01:45:37.734000,BOT,77,96.571,27.0,3.0,,,False,MEDIUM,6.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.273,2.41,4.702,5.118,1.319,1.385,98.076
+0 days 01:47:14.383000,BOT,77,96.649,28.0,3.0,,,False,MEDIUM,7.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.351,2.493,4.78,5.203,1.967,2.077,98.212
+0 days 01:48:50.864000,BOT,77,96.481,29.0,3.0,,,False,MEDIUM,8.0,True,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.183,2.315,4.612,5.02,2.289,2.43,98.102
+0 days 01:50:33.448000,BOT,77,102.584,30.0,3.0,,0 days 01:50:28.107000,False,MEDIUM,9.0,True,Cadillac,1,18.0,False,4,Miami Grand Prix,True,C4,False,8.286,8.787,10.715,11.663,8.772,9.351,104.263
+0 days 01:52:22.227000,BOT,77,108.779,31.0,4.0,0 days 01:50:45.117000,,False,MEDIUM,10.0,False,Cadillac,1,18.0,False,4,Miami Grand Prix,True,C4,False,14.481,15.357,16.91,18.407,14.942,15.923,110.516
+0 days 01:54:01.970000,BOT,77,99.743,32.0,4.0,,,False,MEDIUM,11.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,5.445,5.774,7.874,8.571,6.006,6.407,101.538
+0 days 01:55:39.657000,BOT,77,97.687,33.0,4.0,,,False,MEDIUM,12.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.389,3.594,5.818,6.333,4.14,4.426,99.54
+0 days 01:57:17.514000,BOT,77,97.857,34.0,4.0,,,False,MEDIUM,13.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.559,3.774,5.988,6.518,3.723,3.955,99.768
+0 days 01:58:54.628000,BOT,77,97.114,35.0,4.0,,,False,MEDIUM,14.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.816,2.986,5.245,5.709,3.031,3.222,99.082
+0 days 02:00:33.290000,BOT,77,98.662,36.0,4.0,,,False,MEDIUM,15.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,4.364,4.628,6.793,7.394,4.892,5.217,100.688
+0 days 02:02:11.370000,BOT,77,98.08,37.0,4.0,,,False,MEDIUM,16.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.782,4.011,6.211,6.761,3.998,4.249,100.164
+0 days 02:03:49.129000,BOT,77,97.759,38.0,4.0,,,False,MEDIUM,17.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.461,3.67,5.89,6.411,3.827,4.074,99.901
+0 days 02:05:28.362000,BOT,77,99.233,39.0,4.0,,,False,MEDIUM,18.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,4.935,5.233,7.364,8.016,5.139,5.462,101.433
+0 days 02:07:08.557000,BOT,77,100.195,40.0,4.0,,,False,MEDIUM,19.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,5.897,6.254,8.326,9.063,6.183,6.577,102.453
+0 days 02:08:46.412000,BOT,77,97.855,41.0,4.0,,,False,MEDIUM,20.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.557,3.772,5.986,6.516,4.052,4.32,100.171
+0 days 02:10:26.535000,BOT,77,100.123,42.0,4.0,,,False,MEDIUM,21.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,5.825,6.177,8.254,8.985,6.081,6.466,102.497
+0 days 02:12:04.176000,BOT,77,97.641,43.0,4.0,,,False,MEDIUM,22.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.343,3.545,5.772,6.283,3.375,3.58,100.073
+0 days 02:13:42.056000,BOT,77,97.88,44.0,4.0,,,False,MEDIUM,23.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.582,3.799,6.011,6.543,4.074,4.343,100.369
+0 days 02:15:22.711000,BOT,77,100.655,45.0,4.0,,,False,MEDIUM,24.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,6.357,6.741,8.786,9.564,6.477,6.877,103.202
+0 days 02:17:01.716000,BOT,77,99.005,46.0,4.0,,,False,MEDIUM,25.0,False,Cadillac,12,18.0,True,4,Miami Grand Prix,True,C4,False,4.707,4.992,7.136,7.768,4.871,5.175,101.61
+0 days 02:18:39.423000,BOT,77,97.707,47.0,4.0,,,False,MEDIUM,26.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.409,3.615,5.838,6.355,3.346,3.546,100.37
+0 days 02:20:17.525000,BOT,77,98.102,48.0,4.0,,,False,MEDIUM,27.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.804,4.034,6.233,6.785,3.97,4.217,100.823
+0 days 02:21:59.789000,BOT,77,102.264,49.0,4.0,,,False,MEDIUM,28.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,7.966,8.448,10.395,11.315,8.044,8.537,105.043
+0 days 02:23:38.159000,BOT,77,98.37,50.0,4.0,,,False,MEDIUM,29.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,4.072,4.318,6.501,7.076,4.138,4.391,101.207
+0 days 02:25:15.442000,BOT,77,97.283,51.0,4.0,,,False,MEDIUM,30.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,2.985,3.165,5.414,5.893,3.029,3.214,100.178
+0 days 02:26:54.620000,BOT,77,99.178,52.0,4.0,,,False,MEDIUM,31.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,4.88,5.175,7.309,7.956,4.886,5.182,102.131
+0 days 02:28:31.942000,BOT,77,97.322,53.0,4.0,,,False,MEDIUM,32.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,3.024,3.207,5.453,5.936,3.176,3.373,100.333
+0 days 02:30:09.537000,BOT,77,97.595,54.0,4.0,,,False,MEDIUM,33.0,False,Cadillac,12,18.0,True,4,Miami Grand Prix,True,C4,False,3.297,3.496,5.726,6.233,3.411,3.622,100.663
+0 days 02:31:49.521000,BOT,77,99.984,55.0,4.0,,,False,MEDIUM,34.0,False,Cadillac,1,18.0,True,4,Miami Grand Prix,True,C4,True,5.686,6.03,8.115,8.833,5.622,5.958,103.11
+0 days 00:59:00.693000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,4.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:34.218000,PIA,81,93.525,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.773,-0.82,1.656,1.803,-2.364,-2.465,93.583
+0 days 01:02:08.582000,PIA,81,94.364,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C4,True,0.066,0.07,2.495,2.716,-0.567,-0.597,94.48
+0 days 01:03:42.671000,PIA,81,94.089,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C4,True,-0.209,-0.222,2.22,2.416,-0.749,-0.79,94.263
+0 days 01:05:16.162000,PIA,81,93.491,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,12,5.0,True,4,Miami Grand Prix,True,C4,False,-0.807,-0.856,1.622,1.766,-2.351,-2.453,93.723
+0 days 01:07:28.069000,PIA,81,131.907,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,24,5.0,False,4,Miami Grand Prix,True,C4,False,37.609,39.883,40.038,43.582,-2.968,-2.201,132.196
+0 days 01:09:45.383000,PIA,81,137.314,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,4,5.0,False,4,Miami Grand Prix,True,C4,False,43.016,45.617,45.445,49.467,7.658,5.906,137.661
+0 days 01:12:09.013000,PIA,81,143.63,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,4,5.0,False,4,Miami Grand Prix,True,C4,False,49.332,52.315,51.761,56.342,0.796,0.557,144.035
+0 days 01:14:36.389000,PIA,81,147.376,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,4,5.0,False,4,Miami Grand Prix,True,C4,False,53.078,56.288,55.507,60.42,3.968,2.767,147.839
+0 days 01:16:54.924000,PIA,81,138.535,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,4,5.0,False,4,Miami Grand Prix,True,C4,False,44.237,46.912,46.666,50.796,-0.946,-0.678,139.056
+0 days 01:19:23.332000,PIA,81,148.408,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,41,5.0,False,4,Miami Grand Prix,True,C4,False,54.11,57.382,56.539,61.543,4.268,2.961,148.987
+0 days 01:20:56.850000,PIA,81,93.518,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.78,-0.827,1.649,1.795,-1.691,-1.776,94.155
+0 days 01:22:30.313000,PIA,81,93.463,13.0,1.0,,,True,MEDIUM,13.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.835,-0.885,1.594,1.735,-1.255,-1.325,94.158
+0 days 01:24:03.533000,PIA,81,93.22,14.0,1.0,,,True,MEDIUM,14.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-1.078,-1.143,1.351,1.471,-0.85,-0.904,93.973
+0 days 01:25:37.030000,PIA,81,93.497,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.801,-0.849,1.628,1.772,-1.17,-1.236,94.308
+0 days 01:27:10.774000,PIA,81,93.744,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,12,4.0,True,4,Miami Grand Prix,True,C4,False,-0.554,-0.587,1.875,2.041,-1.078,-1.137,94.612
+0 days 01:28:45.355000,PIA,81,94.581,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,0.283,0.3,2.712,2.952,-0.586,-0.616,95.507
+0 days 01:30:19.368000,PIA,81,94.013,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.285,-0.302,2.144,2.334,-1.169,-1.228,94.997
+0 days 01:31:53.086000,PIA,81,93.718,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.58,-0.615,1.849,2.013,-1.151,-1.213,94.76
+0 days 01:33:26.563000,PIA,81,93.477,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C4,True,-0.821,-0.871,1.608,1.75,-1.628,-1.712,94.577
+0 days 01:35:00.104000,PIA,81,93.541,21.0,1.0,,,False,MEDIUM,21.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.757,-0.803,1.672,1.82,-1.427,-1.503,94.699
+0 days 01:36:33.978000,PIA,81,93.874,22.0,1.0,,,False,MEDIUM,22.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.424,-0.45,2.005,2.182,-0.727,-0.768,95.09
+0 days 01:38:07.808000,PIA,81,93.83,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.468,-0.496,1.961,2.135,-0.822,-0.868,95.104
+0 days 01:39:41.448000,PIA,81,93.64,24.0,1.0,,,False,MEDIUM,24.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.658,-0.698,1.771,1.928,-1.17,-1.234,94.972
+0 days 01:41:15.999000,PIA,81,94.551,25.0,1.0,,,False,MEDIUM,25.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,0.253,0.268,2.682,2.919,-0.457,-0.481,95.94
+0 days 01:42:50.070000,PIA,81,94.071,26.0,1.0,,,False,MEDIUM,26.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C4,True,-0.227,-0.241,2.202,2.397,-0.903,-0.951,95.518
+0 days 01:44:24.020000,PIA,81,93.95,27.0,1.0,,,False,MEDIUM,27.0,True,McLaren,1,2.0,True,4,Miami Grand Prix,True,C4,True,-0.348,-0.369,2.081,2.265,-1.302,-1.367,95.455
+0 days 01:46:03.011000,PIA,81,98.991,28.0,1.0,,0 days 01:45:57.473000,False,MEDIUM,28.0,True,McLaren,1,4.0,False,4,Miami Grand Prix,True,C4,False,4.693,4.977,7.122,7.752,4.309,4.551,100.554
+0 days 01:47:50.505000,PIA,81,107.494,29.0,2.0,0 days 01:46:20.507000,,False,HARD,1.0,True,McLaren,1,7.0,False,4,Miami Grand Prix,True,C3,False,13.196,13.994,15.625,17.008,13.302,14.122,109.115
+0 days 01:49:22.454000,PIA,81,91.949,30.0,2.0,,,True,HARD,2.0,True,McLaren,1,7.0,True,4,Miami Grand Prix,True,C3,True,-2.349,-2.491,0.08,0.087,-1.863,-1.986,93.628
+0 days 01:50:54.893000,PIA,81,92.439,31.0,2.0,,,False,HARD,3.0,True,McLaren,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.859,-1.971,0.57,0.62,-1.398,-1.49,94.176
+0 days 01:52:27.291000,PIA,81,92.398,32.0,2.0,,,False,HARD,4.0,True,McLaren,1,6.0,True,4,Miami Grand Prix,True,C3,True,-1.9,-2.015,0.529,0.576,-1.339,-1.428,94.193
+0 days 01:54:00.611000,PIA,81,93.32,33.0,2.0,,,False,HARD,5.0,True,McLaren,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.978,-1.037,1.451,1.579,-0.227,-0.243,95.173
+0 days 01:55:34.828000,PIA,81,94.217,34.0,2.0,,,False,HARD,6.0,True,McLaren,1,6.0,True,4,Miami Grand Prix,True,C3,True,-0.081,-0.086,2.348,2.556,0.083,0.088,96.128
+0 days 01:57:09.085000,PIA,81,94.257,35.0,2.0,,,False,HARD,7.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-0.041,-0.043,2.388,2.599,0.174,0.185,96.225
+0 days 01:58:42.353000,PIA,81,93.268,36.0,2.0,,,False,HARD,8.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.03,-1.092,1.399,1.523,-0.502,-0.535,95.294
+0 days 02:00:15.189000,PIA,81,92.836,37.0,2.0,,,False,HARD,9.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.462,-1.55,0.967,1.053,-1.246,-1.324,94.92
+0 days 02:01:47.739000,PIA,81,92.55,38.0,2.0,,,False,HARD,10.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.748,-1.854,0.681,0.741,-1.382,-1.471,94.692
+0 days 02:03:20.332000,PIA,81,92.593,39.0,2.0,,,False,HARD,11.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.705,-1.808,0.724,0.788,-1.501,-1.595,94.793
+0 days 02:04:52.856000,PIA,81,92.524,40.0,2.0,,,False,HARD,12.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.774,-1.881,0.655,0.713,-1.488,-1.583,94.782
+0 days 02:06:25.656000,PIA,81,92.8,41.0,2.0,,,False,HARD,13.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.498,-1.589,0.931,1.013,-1.003,-1.069,95.116
+0 days 02:07:58.320000,PIA,81,92.664,42.0,2.0,,,False,HARD,14.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.634,-1.733,0.795,0.865,-1.378,-1.465,95.038
+0 days 02:09:31.158000,PIA,81,92.838,43.0,2.0,,,False,HARD,15.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.46,-1.548,0.969,1.055,-1.428,-1.515,95.27
+0 days 02:11:03.942000,PIA,81,92.784,44.0,2.0,,,False,HARD,16.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.514,-1.606,0.915,0.996,-1.022,-1.089,95.273
+0 days 02:12:36.240000,PIA,81,92.298,45.0,2.0,,,False,HARD,17.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-2.0,-2.121,0.429,0.467,-1.88,-1.996,94.845
+0 days 02:14:08.736000,PIA,81,92.496,46.0,2.0,,,False,HARD,18.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.802,-1.911,0.627,0.682,-1.638,-1.74,95.101
+0 days 02:15:41.346000,PIA,81,92.61,47.0,2.0,,,False,HARD,19.0,True,McLaren,1,5.0,True,4,Miami Grand Prix,True,C3,True,-1.688,-1.79,0.741,0.807,-1.751,-1.856,95.273
+0 days 02:17:14.924000,PIA,81,93.578,48.0,2.0,,,False,HARD,20.0,True,McLaren,12,4.0,True,4,Miami Grand Prix,True,C3,False,-0.72,-0.764,1.709,1.86,-0.554,-0.589,96.299
+0 days 02:18:47.683000,PIA,81,92.759,49.0,2.0,,,False,HARD,21.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.539,-1.632,0.89,0.969,-1.461,-1.551,95.538
+0 days 02:20:20.108000,PIA,81,92.425,50.0,2.0,,,False,HARD,22.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.873,-1.986,0.556,0.605,-1.807,-1.918,95.262
+0 days 02:21:52.524000,PIA,81,92.416,51.0,2.0,,,False,HARD,23.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.882,-1.996,0.547,0.595,-1.838,-1.95,95.311
+0 days 02:23:24.973000,PIA,81,92.449,52.0,2.0,,,False,HARD,24.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.849,-1.961,0.58,0.631,-1.843,-1.955,95.402
+0 days 02:24:57.193000,PIA,81,92.22,53.0,2.0,,,False,HARD,25.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-2.078,-2.204,0.351,0.382,-1.926,-2.046,95.231
+0 days 02:26:29.179000,PIA,81,91.986,54.0,2.0,,,False,HARD,26.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-2.312,-2.452,0.117,0.127,-2.198,-2.334,95.054
+0 days 02:28:01.875000,PIA,81,92.696,55.0,2.0,,,False,HARD,27.0,True,McLaren,1,4.0,True,4,Miami Grand Prix,True,C3,True,-1.602,-1.699,0.827,0.9,-1.666,-1.766,95.822
+0 days 02:29:35.121000,PIA,81,93.246,56.0,2.0,,,False,HARD,28.0,True,McLaren,1,3.0,True,4,Miami Grand Prix,True,C3,True,-1.052,-1.116,1.377,1.499,-1.095,-1.161,96.43
+0 days 02:31:08.358000,PIA,81,93.237,57.0,2.0,,,False,HARD,29.0,True,McLaren,12,3.0,True,4,Miami Grand Prix,True,C3,False,-1.061,-1.125,1.368,1.489,-1.183,-1.253,96.479
+0 days 00:59:07.751000,BEA,87,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,1,14.0,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:44.697000,BEA,87,96.946,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C4,True,2.648,2.808,5.077,5.526,1.057,1.102,97.004
+0 days 01:02:19.589000,BEA,87,94.892,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.594,0.63,3.023,3.291,-0.039,-0.041,95.008
+0 days 01:03:54.630000,BEA,87,95.041,4.0,1.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C4,True,0.743,0.788,3.172,3.453,0.203,0.214,95.215
+0 days 01:05:30.426000,BEA,87,95.796,5.0,1.0,,,False,MEDIUM,5.0,True,Haas F1 Team,12,11.0,True,4,Miami Grand Prix,True,C4,False,1.498,1.589,3.927,4.275,-0.046,-0.048,96.028
+0 days 01:07:45.301000,BEA,87,134.875,6.0,1.0,,,False,MEDIUM,6.0,True,Haas F1 Team,24,11.0,False,4,Miami Grand Prix,True,C4,False,40.577,43.031,43.006,46.812,0.0,0.0,135.164
+0 days 01:09:54.658000,BEA,87,129.357,7.0,1.0,,,False,MEDIUM,7.0,True,Haas F1 Team,4,10.0,False,4,Miami Grand Prix,True,C4,False,35.059,37.179,37.488,40.806,-0.299,-0.231,129.704
+0 days 01:12:18.051000,BEA,87,143.393,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,4,10.0,False,4,Miami Grand Prix,True,C4,False,49.095,52.064,51.524,56.084,0.559,0.391,143.798
+0 days 01:14:41.352000,BEA,87,143.301,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,4,10.0,False,4,Miami Grand Prix,True,C4,False,49.003,51.966,51.432,55.984,-0.107,-0.075,143.764
+0 days 01:17:01.138000,BEA,87,139.786,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,4,10.0,False,4,Miami Grand Prix,True,C4,False,45.488,48.239,47.917,52.158,0.305,0.219,140.307
+0 days 01:19:25.792000,BEA,87,144.654,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,41,10.0,False,4,Miami Grand Prix,True,C4,False,50.356,53.401,52.785,57.457,0.514,0.357,145.233
+0 days 01:21:01.061000,BEA,87,95.269,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.971,1.03,3.4,3.701,0.06,0.063,95.906
+0 days 01:22:36.093000,BEA,87,95.032,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.734,0.778,3.163,3.443,0.314,0.332,95.727
+0 days 01:24:10.710000,BEA,87,94.617,14.0,1.0,,,True,MEDIUM,14.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.319,0.338,2.748,2.991,0.547,0.581,95.37
+0 days 01:25:45.821000,BEA,87,95.111,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.813,0.862,3.242,3.529,0.444,0.469,95.922
+0 days 01:27:20.697000,BEA,87,94.876,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,12,11.0,True,4,Miami Grand Prix,True,C4,False,0.578,0.613,3.007,3.273,0.054,0.057,95.744
+0 days 01:28:55.904000,BEA,87,95.207,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.909,0.964,3.338,3.633,0.04,0.042,96.133
+0 days 01:30:31.080000,BEA,87,95.176,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.878,0.931,3.307,3.6,-0.006,-0.006,96.16
+0 days 01:32:06.177000,BEA,87,95.097,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.799,0.847,3.228,3.514,0.228,0.24,96.139
+0 days 01:33:41.282000,BEA,87,95.105,20.0,1.0,,,False,MEDIUM,20.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.807,0.856,3.236,3.522,0.0,0.0,96.205
+0 days 01:35:16.553000,BEA,87,95.271,21.0,1.0,,,False,MEDIUM,21.0,True,Haas F1 Team,1,10.0,True,4,Miami Grand Prix,True,C4,True,0.973,1.032,3.402,3.703,0.303,0.319,96.429
+0 days 01:36:51.524000,BEA,87,94.971,22.0,1.0,,,False,MEDIUM,22.0,True,Haas F1 Team,1,9.0,True,4,Miami Grand Prix,True,C4,True,0.673,0.714,3.102,3.377,0.37,0.391,96.187
+0 days 01:38:28.053000,BEA,87,96.529,23.0,1.0,,,False,MEDIUM,23.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,2.231,2.366,4.66,5.072,1.877,1.983,97.803
+0 days 01:40:03.160000,BEA,87,95.107,24.0,1.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.809,0.858,3.238,3.525,0.297,0.313,96.439
+0 days 01:41:38.175000,BEA,87,95.015,25.0,1.0,,,False,MEDIUM,25.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C4,True,0.717,0.76,3.146,3.424,0.007,0.007,96.404
+0 days 01:43:17.863000,BEA,87,99.688,26.0,1.0,,0 days 01:43:12.473000,False,MEDIUM,26.0,True,Haas F1 Team,1,12.0,False,4,Miami Grand Prix,True,C4,False,5.39,5.716,7.819,8.511,4.714,4.963,101.135
+0 days 01:45:06.397000,BEA,87,108.534,27.0,2.0,0 days 01:43:35.883000,,False,HARD,1.0,True,Haas F1 Team,1,14.0,False,4,Miami Grand Prix,True,C3,False,14.236,15.097,16.665,18.14,13.282,13.944,110.039
+0 days 01:46:40.141000,BEA,87,93.744,28.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.554,-0.587,1.875,2.041,-0.938,-0.991,95.307
+0 days 01:48:14.202000,BEA,87,94.061,29.0,2.0,,,False,HARD,3.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.237,-0.251,2.192,2.386,-0.131,-0.139,95.682
+0 days 01:49:48.043000,BEA,87,93.841,30.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.457,-0.485,1.972,2.147,0.029,0.031,95.52
+0 days 01:51:22.128000,BEA,87,94.085,31.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,13.0,True,4,Miami Grand Prix,True,C3,True,-0.213,-0.226,2.216,2.412,0.248,0.264,95.822
+0 days 01:52:56.230000,BEA,87,94.102,32.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.196,-0.208,2.233,2.431,0.365,0.389,95.897
+0 days 01:54:30.097000,BEA,87,93.867,33.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.431,-0.457,1.998,2.175,0.32,0.342,95.72
+0 days 01:56:04.400000,BEA,87,94.303,34.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.005,0.005,2.434,2.649,0.169,0.18,96.214
+0 days 01:57:38.598000,BEA,87,94.198,35.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.1,-0.106,2.329,2.535,0.115,0.122,96.166
+0 days 01:59:12.871000,BEA,87,94.273,36.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.025,-0.027,2.404,2.617,0.503,0.536,96.299
+0 days 02:00:47.116000,BEA,87,94.245,37.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.053,-0.056,2.376,2.586,0.163,0.173,96.329
+0 days 02:02:21.485000,BEA,87,94.369,38.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.071,0.075,2.5,2.721,0.437,0.465,96.511
+0 days 02:03:55.888000,BEA,87,94.403,39.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.105,0.111,2.534,2.758,0.309,0.328,96.603
+0 days 02:05:30.247000,BEA,87,94.359,40.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.061,0.065,2.49,2.71,0.347,0.369,96.617
+0 days 02:07:04.691000,BEA,87,94.444,41.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.146,0.155,2.575,2.803,0.641,0.683,96.76
+0 days 02:08:39.099000,BEA,87,94.408,42.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.11,0.117,2.539,2.764,0.366,0.389,96.782
+0 days 02:10:13.978000,BEA,87,94.879,43.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.581,0.616,3.01,3.276,0.613,0.65,97.311
+0 days 02:11:48.460000,BEA,87,94.482,44.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.184,0.195,2.613,2.844,0.676,0.721,96.971
+0 days 02:13:23.048000,BEA,87,94.588,45.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.29,0.308,2.719,2.96,0.41,0.435,97.135
+0 days 02:14:57.401000,BEA,87,94.353,46.0,2.0,,,False,HARD,20.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.055,0.058,2.484,2.704,0.219,0.233,96.958
+0 days 02:16:34.936000,BEA,87,97.535,47.0,2.0,,,False,HARD,21.0,True,Haas F1 Team,12,11.0,True,4,Miami Grand Prix,True,C3,False,3.237,3.433,5.666,6.167,3.174,3.364,100.198
+0 days 02:18:09.689000,BEA,87,94.753,48.0,2.0,,,False,HARD,22.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.455,0.483,2.884,3.139,0.621,0.66,97.474
+0 days 02:19:44.031000,BEA,87,94.342,49.0,2.0,,,False,HARD,23.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.044,0.047,2.473,2.692,0.122,0.129,97.121
+0 days 02:21:18.318000,BEA,87,94.287,50.0,2.0,,,False,HARD,24.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,-0.011,-0.012,2.418,2.632,0.055,0.058,97.124
+0 days 02:22:52.765000,BEA,87,94.447,51.0,2.0,,,False,HARD,25.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.149,0.158,2.578,2.806,0.193,0.205,97.342
+0 days 02:24:27.485000,BEA,87,94.72,52.0,2.0,,,False,HARD,26.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.422,0.448,2.851,3.103,0.428,0.454,97.673
+0 days 02:26:01.841000,BEA,87,94.356,53.0,2.0,,,False,HARD,27.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,0.058,0.062,2.487,2.707,0.21,0.223,97.367
+0 days 02:27:37.256000,BEA,87,95.415,54.0,2.0,,,False,HARD,28.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,1.117,1.185,3.546,3.86,1.231,1.307,98.483
+0 days 02:29:13.152000,BEA,87,95.896,55.0,2.0,,,False,HARD,29.0,True,Haas F1 Team,1,11.0,True,4,Miami Grand Prix,True,C3,True,1.598,1.695,4.027,4.383,1.534,1.626,99.022
+0 days 02:30:47.666000,BEA,87,94.514,56.0,2.0,,,False,HARD,30.0,True,Haas F1 Team,12,11.0,True,4,Miami Grand Prix,True,C3,False,0.216,0.229,2.645,2.879,0.173,0.183,97.698
