@@ -350,13 +350,13 @@ def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
         )
         return df_laps
 
-    mean_lap_time = pd.Timedelta(df_laps["LapTime"].mean(), unit="s")
-    first_lap_number = df_laps.loc[valid_laps, "LapNumber"].iloc[0]
-    lap_offset = df_laps.loc[valid_laps, "LapNumber"] - first_lap_number
-    df_laps.loc[valid_laps, "Time"] = (mean_lap_time * lap_offset) + df_laps.loc[
-        valid_laps,
-        "Time",
-    ].iloc[0]
+    first_time = df_laps.loc[valid_laps, "Time"].iloc[0]
+    last_time = df_laps.loc[valid_laps, "Time"].iloc[-1]
+    first_lap = df_laps.loc[valid_laps, "LapNumber"].iloc[0]
+    last_lap = df_laps.loc[valid_laps, "LapNumber"].iloc[-1]
+    mean_lap_time = (last_time - first_time) / (last_lap - first_lap)
+    lap_offset = df_laps.loc[valid_laps, "LapNumber"] - first_lap
+    df_laps.loc[valid_laps, "Time"] = (mean_lap_time * lap_offset) + first_time
     return df_laps
 
 
