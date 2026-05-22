@@ -1,7 +1,7 @@
 #!/usr/bin/expect
 exp_internal 1
 set -Eeuo pipefail
-set timeout 5
+set timeout 30
 
 spawn git push --no-progress origin main
 
