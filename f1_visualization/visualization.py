@@ -341,7 +341,7 @@ def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
         "df_laps must contain laps from exactly one race."
     )
 
-    valid_laps = df_laps["LapNumber"].notna() & df_laps["LapTime"].notna()
+    valid_laps = df_laps["LapNumber"].notna() & df_laps["Time"].notna()
     if not valid_laps.any():
         logger.warning(
             "Failed to distribute pit loss. No valid laps for driver %s in round %s.",
@@ -350,15 +350,16 @@ def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
         )
         return df_laps
 
-    first_time = df_laps.loc[valid_laps, "Time"].iloc[0]
-    last_time = df_laps.loc[valid_laps, "Time"].iloc[-1]
-    first_lap = df_laps.loc[valid_laps, "LapNumber"].iloc[0]
-    last_lap = df_laps.loc[valid_laps, "LapNumber"].iloc[-1]
-    mean_lap_time = (last_time - first_time) / (last_lap - first_lap)
+    sorted_laps = df_laps.loc[valid_laps].sort_values("LapNumber")
+    first_time = sorted_laps["Time"].iloc[0]
+    last_time = sorted_laps["Time"].iloc[-1]
+    first_lap = sorted_laps["LapNumber"].iloc[0]
+    last_lap = sorted_laps["LapNumber"].iloc[-1]
+    # Total elapsed race time divided by laps completed, accounts for SC/VSC laps with NaT LapTime
+    avg_time_per_lap = (last_time - first_time) / (last_lap - first_lap)
     lap_offset = df_laps.loc[valid_laps, "LapNumber"] - first_lap
-    df_laps.loc[valid_laps, "Time"] = (mean_lap_time * lap_offset) + first_time
+    df_laps.loc[valid_laps, "Time"] = (avg_time_per_lap * lap_offset) + first_time
     return df_laps
-
 
 def add_gap(
     driver: str,
