@@ -778,3 +778,494 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:14:56.340000,BOT,77,96.861,19.0,1.0,,,False,HARD,19.0,True,Cadillac,1,20.0,True,4,Miami Grand Prix,True,C3,True,2.672,2.837,4.976,5.415,2.836,3.016,97.903
 0 days 00:45:45.655000,HUL,27,,1.0,1.0,,,False,MEDIUM,7.0,False,Audi,1,,False,4,Miami Grand Prix,True,C4,False,,,,,,,
 0 days 00:45:45.655000,LIN,41,,1.0,1.0,,,False,MEDIUM,4.0,False,Racing Bulls,1,,False,4,Miami Grand Prix,True,C4,False,,,,,,,
+0 days 00:45:45.368000,RUS,63,,1.0,1.0,,,False,MEDIUM,7.0,False,Mercedes,1,1.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:00.673000,RUS,63,75.305,2.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.211,-1.583,0.925,1.244,-2.305,-2.97,75.353
+0 days 00:48:15.718000,RUS,63,75.045,3.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.471,-1.922,0.665,0.894,-2.015,-2.615,75.141
+0 days 00:49:30.439000,RUS,63,74.721,4.0,1.0,,,True,MEDIUM,10.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.795,-2.346,0.341,0.458,-1.971,-2.57,74.864
+0 days 00:50:45.595000,RUS,63,75.156,5.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.36,-1.777,0.776,1.043,-1.734,-2.255,75.347
+0 days 00:52:02.794000,RUS,63,77.199,6.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,0.683,0.893,2.819,3.79,0.309,0.402,77.438
+0 days 00:53:17.964000,RUS,63,75.17,7.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.346,-1.759,0.79,1.062,-1.563,-2.037,75.457
+0 days 00:54:32.944000,RUS,63,74.98,8.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.536,-2.007,0.6,0.807,-1.692,-2.207,75.315
+0 days 00:55:47.680000,RUS,63,74.736,9.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.78,-2.326,0.356,0.479,-1.398,-1.836,75.119
+0 days 00:57:02.471000,RUS,63,74.791,10.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.725,-2.254,0.411,0.553,-1.559,-2.042,75.221
+0 days 00:58:17.413000,RUS,63,74.942,11.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.574,-2.057,0.562,0.756,-1.494,-1.955,75.42
+0 days 00:59:32.449000,RUS,63,75.036,12.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.48,-1.934,0.656,0.882,-1.254,-1.644,75.562
+0 days 01:00:47.258000,RUS,63,74.809,13.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.707,-2.231,0.429,0.577,-1.599,-2.093,75.383
+0 days 01:02:02.143000,RUS,63,74.885,14.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.631,-2.132,0.505,0.679,-1.553,-2.032,75.507
+0 days 01:03:16.915000,RUS,63,74.772,15.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.744,-2.279,0.392,0.527,-1.428,-1.874,75.442
+0 days 01:04:31.617000,RUS,63,74.702,16.0,1.0,,,True,MEDIUM,22.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.814,-2.371,0.322,0.433,-1.377,-1.81,75.419
+0 days 01:05:46.664000,RUS,63,75.047,17.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,12,1.0,True,5,Canadian Grand Prix,True,C4,False,-1.469,-1.92,0.667,0.897,-1.126,-1.478,75.812
+0 days 01:07:01.513000,RUS,63,74.849,18.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.667,-2.179,0.469,0.631,-1.211,-1.592,75.662
+0 days 01:08:16.228000,RUS,63,74.715,19.0,1.0,,,False,MEDIUM,25.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.801,-2.354,0.335,0.45,-1.504,-1.973,75.576
+0 days 01:09:31.030000,RUS,63,74.802,20.0,1.0,,,False,MEDIUM,26.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.714,-2.24,0.422,0.567,-1.568,-2.053,75.711
+0 days 01:10:45.771000,RUS,63,74.741,21.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.775,-2.32,0.361,0.485,-1.772,-2.316,75.698
+0 days 01:12:00.668000,RUS,63,74.897,22.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.619,-2.116,0.517,0.695,-2.133,-2.769,75.901
+0 days 01:13:15.821000,RUS,63,75.153,23.0,1.0,,,False,MEDIUM,29.0,False,Mercedes,1,1.0,True,5,Canadian Grand Prix,True,C4,True,-1.363,-1.781,0.773,1.039,-1.078,-1.414,76.205
+0 days 00:45:47.080000,NOR,1,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,3.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:03.048000,NOR,1,75.968,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-0.548,-0.716,1.588,2.135,-1.642,-2.116,76.016
+0 days 00:48:18.573000,NOR,1,75.525,3.0,1.0,,,True,MEDIUM,3.0,True,McLaren,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-0.991,-1.295,1.145,1.539,-1.535,-1.992,75.621
+0 days 00:49:33.601000,NOR,1,75.028,4.0,1.0,,,True,MEDIUM,4.0,True,McLaren,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.488,-1.945,0.648,0.871,-1.664,-2.17,75.171
+0 days 00:50:48.619000,NOR,1,75.018,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.498,-1.958,0.638,0.858,-1.872,-2.435,75.209
+0 days 00:52:03.864000,NOR,1,75.245,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.271,-1.661,0.865,1.163,-1.645,-2.139,75.484
+0 days 00:53:18.747000,NOR,1,74.883,7.0,1.0,,,True,MEDIUM,7.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.633,-2.134,0.503,0.676,-1.85,-2.411,75.17
+0 days 00:54:33.516000,NOR,1,74.769,8.0,1.0,,,True,MEDIUM,8.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.747,-2.283,0.389,0.523,-1.903,-2.482,75.104
+0 days 00:55:48.318000,NOR,1,74.802,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.714,-2.24,0.422,0.567,-1.332,-1.75,75.185
+0 days 00:57:03.226000,NOR,1,74.908,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.608,-2.102,0.528,0.71,-1.442,-1.889,75.338
+0 days 00:58:17.822000,NOR,1,74.596,11.0,1.0,,,True,MEDIUM,11.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.92,-2.509,0.216,0.29,-1.84,-2.407,75.074
+0 days 00:59:32.847000,NOR,1,75.025,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.491,-1.949,0.645,0.867,-1.265,-1.658,75.551
+0 days 01:00:47.697000,NOR,1,74.85,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.666,-2.177,0.47,0.632,-1.558,-2.039,75.424
+0 days 01:02:03.057000,NOR,1,75.36,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.156,-1.511,0.98,1.318,-1.078,-1.41,75.982
+0 days 01:03:17.672000,NOR,1,74.615,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.901,-2.484,0.235,0.316,-1.585,-2.08,75.285
+0 days 01:04:32.311000,NOR,1,74.639,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.877,-2.453,0.259,0.348,-1.44,-1.893,75.356
+0 days 01:05:47.096000,NOR,1,74.785,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,12,2.0,True,5,Canadian Grand Prix,True,C4,False,-1.731,-2.262,0.405,0.545,-1.388,-1.822,75.55
+0 days 01:07:02.108000,NOR,1,75.012,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.504,-1.966,0.632,0.85,-1.048,-1.378,75.825
+0 days 01:08:17.060000,NOR,1,74.952,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.564,-2.044,0.572,0.769,-1.267,-1.662,75.813
+0 days 01:09:31.680000,NOR,1,74.62,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.896,-2.478,0.24,0.323,-1.75,-2.291,75.529
+0 days 01:10:46.437000,NOR,1,74.757,21.0,1.0,,,False,MEDIUM,21.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.759,-2.299,0.377,0.507,-1.756,-2.295,75.714
+0 days 01:12:01.439000,NOR,1,75.002,22.0,1.0,,,False,MEDIUM,22.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.514,-1.979,0.622,0.836,-2.028,-2.633,76.006
+0 days 01:13:17.093000,NOR,1,75.654,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-0.862,-1.127,1.274,1.713,-0.577,-0.757,76.706
+0 days 00:45:45.906000,ANT,12,,1.0,1.0,,,False,MEDIUM,7.0,False,Mercedes,1,2.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:01.127000,ANT,12,75.221,2.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.295,-1.692,0.841,1.131,-2.389,-3.078,75.269
+0 days 00:48:16.268000,ANT,12,75.141,3.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.375,-1.797,0.761,1.023,-1.919,-2.49,75.237
+0 days 00:49:30.874000,ANT,12,74.606,4.0,1.0,,,True,MEDIUM,10.0,False,Mercedes,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.91,-2.496,0.226,0.304,-2.086,-2.72,74.749
+0 days 00:50:45.782000,ANT,12,74.908,5.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,2.0,True,5,Canadian Grand Prix,True,C4,True,-1.608,-2.102,0.528,0.71,-1.982,-2.578,75.099
+0 days 00:52:04.777000,ANT,12,78.995,6.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,2.479,3.24,4.615,6.205,2.105,2.738,79.234
+0 days 00:53:19.727000,ANT,12,74.95,7.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.566,-2.047,0.57,0.766,-1.783,-2.324,75.237
+0 days 00:54:34.592000,ANT,12,74.865,8.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.651,-2.158,0.485,0.652,-1.807,-2.357,75.2
+0 days 00:55:49.985000,ANT,12,75.393,9.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.123,-1.468,1.013,1.362,-0.741,-0.973,75.776
+0 days 00:57:04.962000,ANT,12,74.977,10.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.539,-2.011,0.597,0.803,-1.373,-1.798,75.407
+0 days 00:58:19.342000,ANT,12,74.38,11.0,1.0,,,True,MEDIUM,17.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-2.136,-2.792,0.0,0.0,-2.056,-2.69,74.858
+0 days 00:59:33.875000,ANT,12,74.533,12.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.983,-2.592,0.153,0.206,-1.757,-2.303,75.059
+0 days 01:00:48.783000,ANT,12,74.908,13.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.608,-2.102,0.528,0.71,-1.5,-1.963,75.482
+0 days 01:02:03.388000,ANT,12,74.605,14.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.911,-2.498,0.225,0.303,-1.833,-2.398,75.227
+0 days 01:03:18.407000,ANT,12,75.019,15.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.497,-1.956,0.639,0.859,-1.181,-1.55,75.689
+0 days 01:04:33.153000,ANT,12,74.746,16.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.77,-2.313,0.366,0.492,-1.333,-1.752,75.463
+0 days 01:05:47.580000,ANT,12,74.427,17.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,12,3.0,True,5,Canadian Grand Prix,True,C4,False,-2.089,-2.73,0.047,0.063,-1.746,-2.292,75.192
+0 days 01:07:02.648000,ANT,12,75.068,18.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.448,-1.892,0.688,0.925,-0.992,-1.304,75.881
+0 days 01:08:17.489000,ANT,12,74.841,19.0,1.0,,,False,MEDIUM,25.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.675,-2.189,0.461,0.62,-1.378,-1.808,75.702
+0 days 01:09:32.325000,ANT,12,74.836,20.0,1.0,,,False,MEDIUM,26.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.68,-2.196,0.456,0.613,-1.534,-2.009,75.745
+0 days 01:10:47.225000,ANT,12,74.9,21.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-1.616,-2.112,0.52,0.699,-1.613,-2.108,75.857
+0 days 01:12:01.605000,ANT,12,74.38,22.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-2.136,-2.792,0.0,0.0,-2.65,-3.44,75.384
+0 days 01:13:17.664000,ANT,12,76.059,23.0,1.0,,,False,MEDIUM,29.0,False,Mercedes,1,3.0,True,5,Canadian Grand Prix,True,C4,True,-0.457,-0.597,1.679,2.257,-0.172,-0.226,77.111
+0 days 00:45:48.390000,PIA,81,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,5.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:04.554000,PIA,81,76.164,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-0.352,-0.46,1.784,2.398,-1.446,-1.863,76.212
+0 days 00:48:20.083000,PIA,81,75.529,3.0,1.0,,,True,MEDIUM,3.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-0.987,-1.29,1.149,1.545,-1.531,-1.987,75.625
+0 days 00:49:35.210000,PIA,81,75.127,4.0,1.0,,,True,MEDIUM,4.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.389,-1.815,0.747,1.004,-1.565,-2.041,75.27
+0 days 00:50:50.312000,PIA,81,75.102,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.414,-1.848,0.722,0.971,-1.788,-2.325,75.293
+0 days 00:52:05.907000,PIA,81,75.595,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-0.921,-1.204,1.215,1.634,-1.295,-1.684,75.834
+0 days 00:53:21.106000,PIA,81,75.199,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.317,-1.721,0.819,1.101,-1.534,-1.999,75.486
+0 days 00:54:35.958000,PIA,81,74.852,8.0,1.0,,,True,MEDIUM,8.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.664,-2.175,0.472,0.635,-1.82,-2.374,75.187
+0 days 00:55:51.068000,PIA,81,75.11,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.406,-1.838,0.73,0.981,-1.024,-1.345,75.493
+0 days 00:57:06.403000,PIA,81,75.335,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.181,-1.543,0.955,1.284,-1.015,-1.329,75.765
+0 days 00:58:21.436000,PIA,81,75.033,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.483,-1.938,0.653,0.878,-1.403,-1.836,75.511
+0 days 00:59:36.325000,PIA,81,74.889,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.627,-2.126,0.509,0.684,-1.401,-1.836,75.415
+0 days 01:00:51.404000,PIA,81,75.079,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.437,-1.878,0.699,0.94,-1.329,-1.739,75.653
+0 days 01:02:06.250000,PIA,81,74.846,14.0,1.0,,,True,MEDIUM,14.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.67,-2.183,0.466,0.627,-1.592,-2.083,75.468
+0 days 01:03:21.432000,PIA,81,75.182,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.334,-1.743,0.802,1.078,-1.018,-1.336,75.852
+0 days 01:04:36.544000,PIA,81,75.112,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.404,-1.835,0.732,0.984,-0.967,-1.271,75.829
+0 days 01:05:51.337000,PIA,81,74.793,17.0,1.0,,,True,MEDIUM,17.0,True,McLaren,12,5.0,True,5,Canadian Grand Prix,True,C4,False,-1.723,-2.252,0.413,0.555,-1.38,-1.812,75.558
+0 days 01:07:06.386000,PIA,81,75.049,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.467,-1.917,0.669,0.899,-1.011,-1.329,75.862
+0 days 01:08:21.759000,PIA,81,75.373,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.143,-1.494,0.993,1.335,-0.846,-1.11,76.234
+0 days 01:09:37.104000,PIA,81,75.345,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.171,-1.53,0.965,1.297,-1.025,-1.342,76.254
+0 days 01:10:52.437000,PIA,81,75.333,21.0,1.0,,,False,MEDIUM,21.0,True,McLaren,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-1.183,-1.546,0.953,1.281,-1.18,-1.542,76.29
+0 days 01:12:09.387000,PIA,81,76.95,22.0,1.0,,,False,MEDIUM,22.0,True,McLaren,1,4.0,True,5,Canadian Grand Prix,True,C4,True,0.434,0.567,2.57,3.455,-0.08,-0.104,77.954
+0 days 01:13:25.618000,PIA,81,76.231,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-0.285,-0.372,1.851,2.489,0.0,0.0,77.283
+0 days 00:45:48.900000,LEC,16,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,6.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:05.129000,LEC,16,76.229,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-0.287,-0.375,1.849,2.486,-1.381,-1.779,76.277
+0 days 00:48:20.802000,LEC,16,75.673,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-0.843,-1.102,1.293,1.738,-1.387,-1.8,75.769
+0 days 00:49:36.062000,LEC,16,75.26,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.256,-1.641,0.88,1.183,-1.432,-1.867,75.403
+0 days 00:50:50.913000,LEC,16,74.851,5.0,1.0,,,True,MEDIUM,5.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.665,-2.176,0.471,0.633,-2.039,-2.652,75.042
+0 days 00:52:06.208000,LEC,16,75.295,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.221,-1.596,0.915,1.23,-1.595,-2.074,75.534
+0 days 00:53:22.419000,LEC,16,76.211,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-0.305,-0.399,1.831,2.462,-0.522,-0.68,76.498
+0 days 00:54:37.228000,LEC,16,74.809,8.0,1.0,,,True,MEDIUM,8.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.707,-2.231,0.429,0.577,-1.863,-2.43,75.144
+0 days 00:55:52.668000,LEC,16,75.44,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.076,-1.406,1.06,1.425,-0.694,-0.912,75.823
+0 days 00:57:07.630000,LEC,16,74.962,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.554,-2.031,0.582,0.782,-1.388,-1.818,75.392
+0 days 00:58:22.371000,LEC,16,74.741,11.0,1.0,,,True,MEDIUM,11.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.775,-2.32,0.361,0.485,-1.695,-2.218,75.219
+0 days 00:59:37.247000,LEC,16,74.876,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.64,-2.143,0.496,0.667,-1.414,-1.853,75.402
+0 days 01:00:52.045000,LEC,16,74.798,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.718,-2.245,0.418,0.562,-1.61,-2.107,75.372
+0 days 01:02:06.890000,LEC,16,74.845,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.671,-2.184,0.465,0.625,-1.593,-2.084,75.467
+0 days 01:03:21.793000,LEC,16,74.903,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.613,-2.108,0.523,0.703,-1.297,-1.702,75.573
+0 days 01:04:37.496000,LEC,16,75.703,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-0.813,-1.063,1.323,1.779,-0.376,-0.494,76.42
+0 days 01:05:52.608000,LEC,16,75.112,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,12,6.0,True,5,Canadian Grand Prix,True,C4,False,-1.404,-1.835,0.732,0.984,-1.061,-1.393,75.877
+0 days 01:07:07.626000,LEC,16,75.018,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.498,-1.958,0.638,0.858,-1.042,-1.37,75.831
+0 days 01:08:22.943000,LEC,16,75.317,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.199,-1.567,0.937,1.26,-0.902,-1.183,76.178
+0 days 01:09:38.439000,LEC,16,75.496,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.02,-1.333,1.116,1.5,-0.874,-1.144,76.405
+0 days 01:10:53.923000,LEC,16,75.484,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,-1.032,-1.349,1.104,1.484,-1.029,-1.345,76.441
+0 days 01:12:09.740000,LEC,16,75.817,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-0.699,-0.914,1.437,1.932,-1.213,-1.575,76.821
+0 days 01:13:25.750000,LEC,16,76.01,23.0,1.0,,,False,MEDIUM,23.0,True,Ferrari,1,5.0,True,5,Canadian Grand Prix,True,C4,True,-0.506,-0.661,1.63,2.191,-0.221,-0.29,77.062
+0 days 00:45:47.735000,HAM,44,,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,1,4.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:03.788000,HAM,44,76.053,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-0.463,-0.605,1.673,2.249,-1.557,-2.006,76.101
+0 days 00:48:19.193000,HAM,44,75.405,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.111,-1.452,1.025,1.378,-1.655,-2.148,75.501
+0 days 00:49:34.457000,HAM,44,75.264,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.252,-1.636,0.884,1.188,-1.428,-1.862,75.407
+0 days 00:50:49.832000,HAM,44,75.375,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.141,-1.491,0.995,1.338,-1.515,-1.97,75.566
+0 days 00:52:05.304000,HAM,44,75.472,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.044,-1.364,1.092,1.468,-1.418,-1.844,75.711
+0 days 00:53:20.395000,HAM,44,75.091,7.0,1.0,,,True,MEDIUM,7.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.425,-1.862,0.711,0.956,-1.642,-2.14,75.378
+0 days 00:54:35.376000,HAM,44,74.981,8.0,1.0,,,True,MEDIUM,8.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.535,-2.006,0.601,0.808,-1.691,-2.205,75.316
+0 days 00:55:50.248000,HAM,44,74.872,9.0,1.0,,,True,MEDIUM,9.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.644,-2.149,0.492,0.661,-1.262,-1.658,75.255
+0 days 00:57:05.790000,HAM,44,75.542,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-0.974,-1.273,1.162,1.562,-0.808,-1.058,75.972
+0 days 00:58:20.724000,HAM,44,74.934,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.582,-2.068,0.554,0.745,-1.502,-1.965,75.412
+0 days 00:59:35.419000,HAM,44,74.695,12.0,1.0,,,True,MEDIUM,12.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.821,-2.38,0.315,0.424,-1.595,-2.091,75.221
+0 days 01:00:50.585000,HAM,44,75.166,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.35,-1.764,0.786,1.057,-1.242,-1.625,75.74
+0 days 01:02:05.788000,HAM,44,75.203,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.313,-1.716,0.823,1.106,-1.235,-1.616,75.825
+0 days 01:03:20.818000,HAM,44,75.03,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.486,-1.942,0.65,0.874,-1.17,-1.535,75.7
+0 days 01:04:35.702000,HAM,44,74.884,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.632,-2.133,0.504,0.678,-1.195,-1.571,75.601
+0 days 01:05:50.784000,HAM,44,75.082,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,12,4.0,True,5,Canadian Grand Prix,True,C4,False,-1.434,-1.874,0.702,0.944,-1.091,-1.432,75.847
+0 days 01:07:05.878000,HAM,44,75.094,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.422,-1.858,0.714,0.96,-0.966,-1.27,75.907
+0 days 01:08:21.186000,HAM,44,75.308,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.208,-1.579,0.928,1.248,-0.911,-1.195,76.169
+0 days 01:09:36.575000,HAM,44,75.389,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-1.127,-1.473,1.009,1.357,-0.981,-1.285,76.298
+0 days 01:10:52.176000,HAM,44,75.601,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,4.0,True,5,Canadian Grand Prix,True,C4,True,-0.915,-1.196,1.221,1.642,-0.912,-1.192,76.558
+0 days 01:12:09.838000,HAM,44,77.662,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,1.146,1.498,3.282,4.412,0.632,0.82,78.666
+0 days 01:13:26.366000,HAM,44,76.528,23.0,1.0,,,False,MEDIUM,23.0,True,Ferrari,1,6.0,True,5,Canadian Grand Prix,True,C4,True,0.012,0.016,2.148,2.888,0.297,0.39,77.58
+0 days 00:45:49.490000,VER,3,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,1,7.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:05.863000,VER,3,76.373,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.143,-0.187,1.993,2.679,-1.237,-1.594,76.421
+0 days 00:48:21.700000,VER,3,75.837,3.0,1.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.679,-0.887,1.457,1.959,-1.223,-1.587,75.933
+0 days 00:49:37.268000,VER,3,75.568,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.948,-1.239,1.188,1.597,-1.124,-1.466,75.711
+0 days 00:50:52.568000,VER,3,75.3,5.0,1.0,,,True,MEDIUM,5.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.216,-1.589,0.92,1.237,-1.59,-2.068,75.491
+0 days 00:52:08.004000,VER,3,75.436,6.0,1.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.08,-1.411,1.056,1.42,-1.454,-1.891,75.675
+0 days 00:53:23.299000,VER,3,75.295,7.0,1.0,,,True,MEDIUM,7.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.221,-1.596,0.915,1.23,-1.438,-1.874,75.582
+0 days 00:54:38.467000,VER,3,75.168,8.0,1.0,,,True,MEDIUM,8.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.348,-1.762,0.788,1.059,-1.504,-1.962,75.503
+0 days 00:55:53.787000,VER,3,75.32,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.196,-1.563,0.94,1.264,-0.814,-1.069,75.703
+0 days 00:57:08.969000,VER,3,75.182,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.334,-1.743,0.802,1.078,-1.168,-1.53,75.612
+0 days 00:58:23.943000,VER,3,74.974,11.0,1.0,,,True,MEDIUM,11.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.542,-2.015,0.594,0.799,-1.462,-1.913,75.452
+0 days 00:59:39.216000,VER,3,75.273,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.243,-1.624,0.893,1.201,-1.017,-1.333,75.799
+0 days 01:00:54.347000,VER,3,75.131,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.385,-1.81,0.751,1.01,-1.277,-1.671,75.705
+0 days 01:02:09.686000,VER,3,75.339,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.177,-1.538,0.959,1.289,-1.099,-1.438,75.961
+0 days 01:03:24.840000,VER,3,75.154,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.362,-1.78,0.774,1.041,-1.046,-1.373,75.824
+0 days 01:04:39.956000,VER,3,75.116,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.4,-1.83,0.736,0.99,-0.963,-1.266,75.833
+0 days 01:05:55.124000,VER,3,75.168,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,12,7.0,True,5,Canadian Grand Prix,True,C4,False,-1.348,-1.762,0.788,1.059,-1.005,-1.319,75.933
+0 days 01:07:10.654000,VER,3,75.53,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.986,-1.289,1.15,1.546,-0.53,-0.697,76.343
+0 days 01:08:26.466000,VER,3,75.812,19.0,1.0,,,False,MEDIUM,19.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.704,-0.92,1.432,1.925,-0.407,-0.534,76.673
+0 days 01:09:41.895000,VER,3,75.429,20.0,1.0,,,False,MEDIUM,20.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.087,-1.421,1.049,1.41,-0.941,-1.232,76.338
+0 days 01:10:57.165000,VER,3,75.27,21.0,1.0,,,False,MEDIUM,21.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-1.246,-1.628,0.89,1.197,-1.243,-1.625,76.227
+0 days 01:12:15.810000,VER,3,78.645,22.0,1.0,,,False,MEDIUM,22.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,2.129,2.782,4.265,5.734,1.615,2.097,79.649
+0 days 01:13:31.756000,VER,3,75.946,23.0,1.0,,,False,MEDIUM,23.0,True,Red Bull Racing,1,7.0,True,5,Canadian Grand Prix,True,C4,True,-0.57,-0.745,1.566,2.105,-0.285,-0.374,76.998
+0 days 00:45:50.466000,LIN,41,,1.0,1.0,,,False,HARD,1.0,True,Racing Bulls,1,9.0,False,5,Canadian Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:07.871000,LIN,41,77.405,2.0,1.0,,,True,HARD,2.0,True,Racing Bulls,1,9.0,True,5,Canadian Grand Prix,True,C3,True,0.889,1.162,3.025,4.067,-0.205,-0.264,77.453
+0 days 00:48:24.386000,LIN,41,76.515,3.0,1.0,,,True,HARD,3.0,True,Racing Bulls,1,9.0,True,5,Canadian Grand Prix,True,C3,True,-0.001,-0.001,2.135,2.87,-0.545,-0.707,76.611
+0 days 00:49:40.243000,LIN,41,75.857,4.0,1.0,,,True,HARD,4.0,True,Racing Bulls,1,9.0,True,5,Canadian Grand Prix,True,C3,True,-0.659,-0.861,1.477,1.986,-0.835,-1.089,76.0
+0 days 00:50:56.178000,LIN,41,75.935,5.0,1.0,,,False,HARD,5.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.581,-0.759,1.555,2.091,-0.955,-1.242,76.126
+0 days 00:52:12.164000,LIN,41,75.986,6.0,1.0,,,False,HARD,6.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.53,-0.693,1.606,2.159,-0.904,-1.176,76.225
+0 days 00:53:27.885000,LIN,41,75.721,7.0,1.0,,,True,HARD,7.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.795,-1.039,1.341,1.803,-1.012,-1.319,76.008
+0 days 00:54:43.810000,LIN,41,75.925,8.0,1.0,,,False,HARD,8.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.591,-0.772,1.545,2.077,-0.747,-0.974,76.26
+0 days 00:55:59.666000,LIN,41,75.856,9.0,1.0,,,False,HARD,9.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.66,-0.863,1.476,1.984,-0.278,-0.365,76.239
+0 days 00:57:15.676000,LIN,41,76.01,10.0,1.0,,,False,HARD,10.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.506,-0.661,1.63,2.191,-0.34,-0.445,76.44
+0 days 00:58:31.649000,LIN,41,75.973,11.0,1.0,,,False,HARD,11.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.543,-0.71,1.593,2.142,-0.463,-0.606,76.451
+0 days 00:59:47.732000,LIN,41,76.083,12.0,1.0,,,False,HARD,12.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.433,-0.566,1.703,2.29,-0.207,-0.271,76.609
+0 days 01:01:03.684000,LIN,41,75.952,13.0,1.0,,,False,HARD,13.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.564,-0.737,1.572,2.113,-0.456,-0.597,76.526
+0 days 01:02:19.337000,LIN,41,75.653,14.0,1.0,,,True,HARD,14.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.863,-1.128,1.273,1.711,-0.785,-1.027,76.275
+0 days 01:03:35.086000,LIN,41,75.749,15.0,1.0,,,False,HARD,15.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.767,-1.002,1.369,1.841,-0.451,-0.592,76.419
+0 days 01:04:51.051000,LIN,41,75.965,16.0,1.0,,,False,HARD,16.0,True,Racing Bulls,12,8.0,True,5,Canadian Grand Prix,True,C3,False,-0.551,-0.72,1.585,2.131,-0.114,-0.15,76.682
+0 days 01:06:07.224000,LIN,41,76.173,17.0,1.0,,,False,HARD,17.0,True,Racing Bulls,21,8.0,True,5,Canadian Grand Prix,True,C3,False,-0.343,-0.448,1.793,2.411,0.0,0.0,76.938
+0 days 01:07:23.364000,LIN,41,76.14,18.0,1.0,,,False,HARD,18.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.376,-0.491,1.76,2.366,0.08,0.105,76.953
+0 days 01:08:39.583000,LIN,41,76.219,19.0,1.0,,,False,HARD,19.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.297,-0.388,1.839,2.472,0.0,0.0,77.08
+0 days 01:09:56.076000,LIN,41,76.493,20.0,1.0,,,False,HARD,20.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.023,-0.03,2.113,2.841,0.123,0.161,77.402
+0 days 01:11:12.575000,LIN,41,76.499,21.0,1.0,,,False,HARD,21.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.017,-0.022,2.119,2.849,-0.014,-0.018,77.456
+0 days 01:12:28.997000,LIN,41,76.422,22.0,1.0,,,False,HARD,22.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,-0.094,-0.123,2.042,2.745,-0.608,-0.789,77.426
+0 days 01:13:45.531000,LIN,41,76.534,23.0,1.0,,,False,HARD,23.0,True,Racing Bulls,1,8.0,True,5,Canadian Grand Prix,True,C3,True,0.018,0.024,2.154,2.896,0.303,0.397,77.586
+0 days 00:45:52.803000,COL,43,,1.0,1.0,,,False,MEDIUM,9.0,False,Alpine,1,11.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:10.595000,COL,43,77.792,2.0,1.0,,,True,MEDIUM,10.0,False,Alpine,1,11.0,True,5,Canadian Grand Prix,True,C4,True,1.276,1.668,3.412,4.587,0.182,0.235,77.84
+0 days 00:48:27.210000,COL,43,76.615,3.0,1.0,,,True,MEDIUM,11.0,False,Alpine,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.099,0.129,2.235,3.005,-0.445,-0.577,76.711
+0 days 00:49:43.143000,COL,43,75.933,4.0,1.0,,,True,MEDIUM,12.0,False,Alpine,1,11.0,True,5,Canadian Grand Prix,True,C4,True,-0.583,-0.762,1.553,2.088,-0.759,-0.99,76.076
+0 days 00:50:58.939000,COL,43,75.796,5.0,1.0,,,True,MEDIUM,13.0,False,Alpine,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.72,-0.941,1.416,1.904,-1.094,-1.423,75.987
+0 days 00:52:15.545000,COL,43,76.606,6.0,1.0,,,False,MEDIUM,14.0,False,Alpine,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.09,0.118,2.226,2.993,-0.284,-0.369,76.845
+0 days 00:53:32.058000,COL,43,76.513,7.0,1.0,,,False,MEDIUM,15.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.003,-0.004,2.133,2.868,-0.22,-0.287,76.8
+0 days 00:54:48.440000,COL,43,76.382,8.0,1.0,,,False,MEDIUM,16.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.134,-0.175,2.002,2.692,-0.29,-0.378,76.717
+0 days 00:56:04.361000,COL,43,75.921,9.0,1.0,,,False,MEDIUM,17.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.595,-0.778,1.541,2.072,-0.213,-0.28,76.304
+0 days 00:57:20.066000,COL,43,75.705,10.0,1.0,,,True,MEDIUM,18.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.811,-1.06,1.325,1.781,-0.645,-0.845,76.135
+0 days 00:58:35.739000,COL,43,75.673,11.0,1.0,,,True,MEDIUM,19.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.843,-1.102,1.293,1.738,-0.763,-0.998,76.151
+0 days 00:59:51.217000,COL,43,75.478,12.0,1.0,,,True,MEDIUM,20.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-1.038,-1.357,1.098,1.476,-0.812,-1.064,76.004
+0 days 01:01:06.706000,COL,43,75.489,13.0,1.0,,,False,MEDIUM,21.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-1.027,-1.342,1.109,1.491,-0.919,-1.203,76.063
+0 days 01:02:22.335000,COL,43,75.629,14.0,1.0,,,False,MEDIUM,22.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.887,-1.159,1.249,1.679,-0.809,-1.058,76.251
+0 days 01:03:38.372000,COL,43,76.037,15.0,1.0,,,False,MEDIUM,23.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.479,-0.626,1.657,2.228,-0.163,-0.214,76.707
+0 days 01:04:54.232000,COL,43,75.86,16.0,1.0,,,False,MEDIUM,24.0,False,Alpine,12,9.0,True,5,Canadian Grand Prix,True,C4,False,-0.656,-0.857,1.48,1.99,-0.219,-0.288,76.577
+0 days 01:06:10.220000,COL,43,75.988,17.0,1.0,,,False,MEDIUM,25.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.528,-0.69,1.608,2.162,-0.185,-0.243,76.753
+0 days 01:07:26.736000,COL,43,76.516,18.0,1.0,,,False,MEDIUM,26.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,0.0,0.0,2.136,2.872,0.456,0.6,77.329
+0 days 01:08:43.014000,COL,43,76.278,19.0,1.0,,,False,MEDIUM,27.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.238,-0.311,1.898,2.552,0.059,0.077,77.139
+0 days 01:09:59.119000,COL,43,76.105,20.0,1.0,,,False,MEDIUM,28.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.411,-0.537,1.725,2.319,-0.265,-0.347,77.014
+0 days 01:11:15.215000,COL,43,76.096,21.0,1.0,,,False,MEDIUM,29.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.42,-0.549,1.716,2.307,-0.417,-0.545,77.053
+0 days 01:12:31.334000,COL,43,76.119,22.0,1.0,,,False,MEDIUM,30.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.397,-0.519,1.739,2.338,-0.911,-1.183,77.123
+0 days 01:13:47.442000,COL,43,76.108,23.0,1.0,,,False,MEDIUM,31.0,False,Alpine,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.408,-0.533,1.728,2.323,-0.123,-0.161,77.16
+0 days 00:45:51.265000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,10.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:08.643000,SAI,55,77.378,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.862,1.127,2.998,4.031,-0.232,-0.299,77.426
+0 days 00:48:25.509000,SAI,55,76.866,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.35,0.457,2.486,3.342,-0.194,-0.252,76.962
+0 days 00:49:42.015000,SAI,55,76.506,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.01,-0.013,2.126,2.858,-0.186,-0.243,76.649
+0 days 00:50:58.474000,SAI,55,76.459,5.0,1.0,,,True,MEDIUM,5.0,True,Williams,1,9.0,True,5,Canadian Grand Prix,True,C4,True,-0.057,-0.074,2.079,2.795,-0.431,-0.561,76.65
+0 days 00:52:15.174000,SAI,55,76.7,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,1,9.0,True,5,Canadian Grand Prix,True,C4,True,0.184,0.24,2.32,3.119,-0.19,-0.247,76.939
+0 days 00:53:32.421000,SAI,55,77.247,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.731,0.955,2.867,3.855,0.514,0.67,77.534
+0 days 00:54:49.237000,SAI,55,76.816,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.3,0.392,2.436,3.275,0.144,0.188,77.151
+0 days 00:56:05.371000,SAI,55,76.134,9.0,1.0,,,True,MEDIUM,9.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.382,-0.499,1.754,2.358,0.0,0.0,76.517
+0 days 00:57:21.417000,SAI,55,76.046,10.0,1.0,,,True,MEDIUM,10.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.47,-0.614,1.666,2.24,-0.304,-0.398,76.476
+0 days 00:58:37.763000,SAI,55,76.346,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.17,-0.222,1.966,2.643,-0.09,-0.118,76.824
+0 days 00:59:54.193000,SAI,55,76.43,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.086,-0.112,2.05,2.756,0.14,0.184,76.956
+0 days 01:01:10.553000,SAI,55,76.36,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.156,-0.204,1.98,2.662,-0.048,-0.063,76.934
+0 days 01:02:26.991000,SAI,55,76.438,14.0,1.0,,,False,MEDIUM,14.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.078,-0.102,2.058,2.767,0.0,0.0,77.06
+0 days 01:03:43.558000,SAI,55,76.567,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.051,0.067,2.187,2.94,0.367,0.482,77.237
+0 days 01:04:59.637000,SAI,55,76.079,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,12,10.0,True,5,Canadian Grand Prix,True,C4,False,-0.437,-0.571,1.699,2.284,0.0,0.0,76.796
+0 days 01:06:15.580000,SAI,55,75.943,17.0,1.0,,,True,MEDIUM,17.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.573,-0.749,1.563,2.101,-0.23,-0.302,76.708
+0 days 01:07:31.561000,SAI,55,75.981,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.535,-0.699,1.601,2.152,-0.079,-0.104,76.794
+0 days 01:08:47.602000,SAI,55,76.041,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.475,-0.621,1.661,2.233,-0.178,-0.234,76.902
+0 days 01:10:04.045000,SAI,55,76.443,20.0,1.0,,,False,MEDIUM,20.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.073,-0.095,2.063,2.774,0.073,0.096,77.352
+0 days 01:11:19.990000,SAI,55,75.945,21.0,1.0,,,False,MEDIUM,21.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.571,-0.746,1.565,2.104,-0.568,-0.742,76.902
+0 days 01:12:36.605000,SAI,55,76.615,22.0,1.0,,,False,MEDIUM,22.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,0.099,0.129,2.235,3.005,-0.415,-0.539,77.619
+0 days 01:13:52.614000,SAI,55,76.009,23.0,1.0,,,False,MEDIUM,23.0,True,Williams,1,10.0,True,5,Canadian Grand Prix,True,C4,True,-0.507,-0.663,1.629,2.19,-0.222,-0.291,77.061
+0 days 00:45:56.796000,LAW,30,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,17.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:16.207000,LAW,30,79.411,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,16.0,True,5,Canadian Grand Prix,True,C4,True,2.895,3.784,5.031,6.764,1.801,2.321,79.459
+0 days 00:48:33.995000,LAW,30,77.788,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.272,1.662,3.408,4.582,0.728,0.945,77.884
+0 days 00:49:51.486000,LAW,30,77.491,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.975,1.274,3.111,4.183,0.799,1.042,77.634
+0 days 00:51:08.266000,LAW,30,76.78,5.0,1.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.264,0.345,2.4,3.227,-0.11,-0.143,76.971
+0 days 00:52:24.523000,LAW,30,76.257,6.0,1.0,,,True,MEDIUM,6.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,-0.259,-0.338,1.877,2.524,-0.633,-0.823,76.496
+0 days 00:53:41.256000,LAW,30,76.733,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.217,0.284,2.353,3.163,0.0,0.0,77.02
+0 days 00:54:57.999000,LAW,30,76.743,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.227,0.297,2.363,3.177,0.071,0.093,77.078
+0 days 00:56:14.371000,LAW,30,76.372,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,-0.144,-0.188,1.992,2.678,0.238,0.313,76.755
+0 days 00:57:31.342000,LAW,30,76.971,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.455,0.595,2.591,3.483,0.621,0.813,77.401
+0 days 00:58:48.526000,LAW,30,77.184,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.668,0.873,2.804,3.77,0.748,0.979,77.662
+0 days 01:00:06.076000,LAW,30,77.55,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,1.034,1.351,3.17,4.262,1.26,1.652,78.076
+0 days 01:01:22.884000,LAW,30,76.808,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.292,0.382,2.428,3.264,0.4,0.524,77.382
+0 days 01:02:39.498000,LAW,30,76.614,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.098,0.128,2.234,3.003,0.176,0.23,77.236
+0 days 01:03:56.172000,LAW,30,76.674,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.158,0.206,2.294,3.084,0.474,0.622,77.344
+0 days 01:05:13.361000,LAW,30,77.189,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,12,13.0,True,5,Canadian Grand Prix,True,C4,False,0.673,0.88,2.809,3.777,1.11,1.459,77.906
+0 days 01:06:30.423000,LAW,30,77.062,17.0,1.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.546,0.714,2.682,3.606,0.889,1.167,77.827
+0 days 01:07:47.938000,LAW,30,77.515,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.999,1.306,3.135,4.215,1.455,1.913,78.328
+0 days 01:09:05.526000,LAW,30,77.588,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,12.0,True,5,Canadian Grand Prix,True,C4,True,1.072,1.401,3.208,4.313,1.369,1.796,78.449
+0 days 01:10:22.921000,LAW,30,77.395,20.0,1.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,12.0,True,5,Canadian Grand Prix,True,C4,True,0.879,1.149,3.015,4.054,1.025,1.342,78.304
+0 days 01:11:41.763000,LAW,30,78.842,21.0,1.0,,,False,MEDIUM,21.0,True,Racing Bulls,1,12.0,True,5,Canadian Grand Prix,True,C4,True,2.326,3.04,4.462,5.999,2.329,3.044,79.799
+0 days 01:12:58.874000,LAW,30,77.111,22.0,1.0,,,False,MEDIUM,22.0,True,Racing Bulls,1,12.0,True,5,Canadian Grand Prix,True,C4,True,0.595,0.778,2.731,3.672,0.081,0.105,78.115
+0 days 01:14:17.165000,LAW,30,78.291,23.0,1.0,,,False,MEDIUM,23.0,True,Racing Bulls,1,12.0,True,5,Canadian Grand Prix,True,C4,True,1.775,2.32,3.911,5.258,2.06,2.702,79.343
+0 days 00:45:56.758000,BOR,5,,1.0,1.0,,,False,MEDIUM,8.0,False,Audi,1,16.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:16.951000,BOR,5,80.193,2.0,1.0,,,True,MEDIUM,9.0,False,Audi,1,17.0,True,5,Canadian Grand Prix,True,C4,True,3.677,4.806,5.813,7.815,2.583,3.328,80.241
+0 days 00:48:34.753000,BOR,5,77.802,3.0,1.0,,,True,MEDIUM,10.0,False,Audi,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.286,1.681,3.422,4.601,0.742,0.963,77.898
+0 days 00:49:52.495000,BOR,5,77.742,4.0,1.0,,,True,MEDIUM,11.0,False,Audi,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.226,1.602,3.362,4.52,1.05,1.369,77.885
+0 days 00:51:10.057000,BOR,5,77.562,5.0,1.0,,,False,MEDIUM,12.0,False,Audi,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.046,1.367,3.182,4.278,0.672,0.874,77.753
+0 days 00:52:27.378000,BOR,5,77.321,6.0,1.0,,,True,MEDIUM,13.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.805,1.052,2.941,3.954,0.431,0.561,77.56
+0 days 00:53:44.169000,BOR,5,76.791,7.0,1.0,,,True,MEDIUM,14.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.275,0.359,2.411,3.241,0.058,0.076,77.078
+0 days 00:55:00.321000,BOR,5,76.152,8.0,1.0,,,True,MEDIUM,15.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,-0.364,-0.476,1.772,2.382,-0.52,-0.678,76.487
+0 days 00:56:16.301000,BOR,5,75.98,9.0,1.0,,,True,MEDIUM,16.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,-0.536,-0.701,1.6,2.151,-0.154,-0.202,76.363
+0 days 00:57:32.651000,BOR,5,76.35,10.0,1.0,,,False,MEDIUM,17.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,-0.166,-0.217,1.97,2.649,0.0,0.0,76.78
+0 days 00:58:49.414000,BOR,5,76.763,11.0,1.0,,,False,MEDIUM,18.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.247,0.323,2.383,3.204,0.327,0.428,77.241
+0 days 01:00:06.957000,BOR,5,77.543,12.0,1.0,,,False,MEDIUM,19.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,1.027,1.342,3.163,4.252,1.253,1.642,78.069
+0 days 01:01:23.464000,BOR,5,76.507,13.0,1.0,,,False,MEDIUM,20.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,-0.009,-0.012,2.127,2.86,0.099,0.13,77.081
+0 days 01:02:40.617000,BOR,5,77.153,14.0,1.0,,,False,MEDIUM,21.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.637,0.833,2.773,3.728,0.715,0.935,77.775
+0 days 01:03:56.981000,BOR,5,76.364,15.0,1.0,,,False,MEDIUM,22.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,-0.152,-0.199,1.984,2.667,0.164,0.215,77.034
+0 days 01:05:13.947000,BOR,5,76.966,16.0,1.0,,,False,MEDIUM,23.0,False,Audi,12,14.0,True,5,Canadian Grand Prix,True,C4,False,0.45,0.588,2.586,3.477,0.887,1.166,77.683
+0 days 01:06:31.299000,BOR,5,77.352,17.0,1.0,,,False,MEDIUM,24.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.836,1.093,2.972,3.996,1.179,1.548,78.117
+0 days 01:07:48.432000,BOR,5,77.133,18.0,1.0,,,False,MEDIUM,25.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.617,0.806,2.753,3.701,1.073,1.411,77.946
+0 days 01:09:06.707000,BOR,5,78.275,19.0,1.0,,,False,MEDIUM,26.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,1.759,2.299,3.895,5.237,2.056,2.697,79.136
+0 days 01:10:23.873000,BOR,5,77.166,20.0,1.0,,,False,MEDIUM,27.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.65,0.849,2.786,3.746,0.796,1.042,78.075
+0 days 01:11:42.459000,BOR,5,78.586,21.0,1.0,,,False,MEDIUM,28.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,2.07,2.705,4.206,5.655,2.073,2.709,79.543
+0 days 01:13:00.133000,BOR,5,77.674,22.0,1.0,,,False,MEDIUM,29.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,1.158,1.513,3.294,4.429,0.644,0.836,78.678
+0 days 01:14:17.635000,BOR,5,77.502,23.0,1.0,,,False,MEDIUM,30.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.986,1.289,3.122,4.197,1.271,1.667,78.554
+0 days 00:45:55.100000,OCO,31,,1.0,1.0,,,False,MEDIUM,8.0,False,Haas F1 Team,1,12.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:12.805000,OCO,31,77.705,2.0,1.0,,,True,MEDIUM,9.0,False,Haas F1 Team,1,12.0,True,5,Canadian Grand Prix,True,C4,True,1.189,1.554,3.325,4.47,0.095,0.122,77.753
+0 days 00:48:30.059000,OCO,31,77.254,3.0,1.0,,,True,MEDIUM,10.0,False,Haas F1 Team,1,12.0,True,5,Canadian Grand Prix,True,C4,True,0.738,0.965,2.874,3.864,0.194,0.252,77.35
+0 days 00:49:47.297000,OCO,31,77.238,4.0,1.0,,,True,MEDIUM,11.0,False,Haas F1 Team,1,12.0,True,5,Canadian Grand Prix,True,C4,True,0.722,0.944,2.858,3.842,0.546,0.712,77.381
+0 days 00:51:04.681000,OCO,31,77.384,5.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.868,1.134,3.004,4.039,0.494,0.642,77.575
+0 days 00:52:21.626000,OCO,31,76.945,6.0,1.0,,,True,MEDIUM,13.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.429,0.561,2.565,3.449,0.055,0.072,77.184
+0 days 00:53:38.895000,OCO,31,77.269,7.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.753,0.984,2.889,3.884,0.536,0.699,77.556
+0 days 00:54:55.921000,OCO,31,77.026,8.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.51,0.667,2.646,3.557,0.354,0.462,77.361
+0 days 00:56:12.770000,OCO,31,76.849,9.0,1.0,,,True,MEDIUM,16.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.333,0.435,2.469,3.319,0.715,0.939,77.232
+0 days 00:57:29.966000,OCO,31,77.196,10.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.68,0.889,2.816,3.786,0.846,1.108,77.626
+0 days 00:58:47.265000,OCO,31,77.299,11.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.783,1.023,2.919,3.924,0.863,1.129,77.777
+0 days 01:00:04.277000,OCO,31,77.012,12.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.496,0.648,2.632,3.539,0.722,0.946,77.538
+0 days 01:01:21.355000,OCO,31,77.078,13.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.562,0.734,2.698,3.627,0.67,0.877,77.652
+0 days 01:02:38.253000,OCO,31,76.898,14.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.382,0.499,2.518,3.385,0.46,0.602,77.52
+0 days 01:03:55.209000,OCO,31,76.956,15.0,1.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.44,0.575,2.576,3.463,0.756,0.992,77.626
+0 days 01:05:12.350000,OCO,31,77.141,16.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,12,11.0,True,5,Canadian Grand Prix,True,C4,False,0.625,0.817,2.761,3.712,1.062,1.396,77.858
+0 days 01:06:29.679000,OCO,31,77.329,17.0,1.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.813,1.063,2.949,3.965,1.156,1.518,78.094
+0 days 01:07:47.045000,OCO,31,77.366,18.0,1.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,11.0,True,5,Canadian Grand Prix,True,C4,True,0.85,1.111,2.986,4.015,1.306,1.717,78.179
+0 days 01:09:08.564000,OCO,31,81.519,19.0,1.0,,,False,MEDIUM,26.0,False,Haas F1 Team,1,14.0,True,5,Canadian Grand Prix,True,C4,True,5.003,6.539,7.139,9.598,5.3,6.954,82.38
+0 days 01:10:27.310000,OCO,31,78.746,20.0,1.0,,,False,MEDIUM,27.0,False,Haas F1 Team,1,15.0,True,5,Canadian Grand Prix,True,C4,True,2.23,2.914,4.366,5.87,2.376,3.111,79.655
+0 days 01:11:44.835000,OCO,31,77.525,21.0,1.0,,,False,MEDIUM,28.0,False,Haas F1 Team,1,15.0,True,5,Canadian Grand Prix,True,C4,True,1.009,1.319,3.145,4.228,1.012,1.323,78.482
+0 days 01:13:02.114000,OCO,31,77.279,22.0,1.0,,,False,MEDIUM,29.0,False,Haas F1 Team,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.763,0.997,2.899,3.898,0.249,0.323,78.283
+0 days 01:14:20.030000,OCO,31,77.916,23.0,1.0,,,False,MEDIUM,30.0,False,Haas F1 Team,1,15.0,True,5,Canadian Grand Prix,True,C4,True,1.4,1.83,3.536,4.754,1.685,2.21,78.968
+0 days 00:45:55.494000,PER,11,,1.0,1.0,,,False,SOFT,1.0,True,Cadillac,1,13.0,False,5,Canadian Grand Prix,True,C5,False,,,,,,,
+0 days 00:47:13.639000,PER,11,78.145,2.0,1.0,,,True,SOFT,2.0,True,Cadillac,1,13.0,True,5,Canadian Grand Prix,True,C5,True,1.629,2.129,3.765,5.062,0.535,0.689,78.193
+0 days 00:48:31.139000,PER,11,77.5,3.0,1.0,,,True,SOFT,3.0,True,Cadillac,1,13.0,True,5,Canadian Grand Prix,True,C5,True,0.984,1.286,3.12,4.195,0.44,0.571,77.596
+0 days 00:49:48.018000,PER,11,76.879,4.0,1.0,,,True,SOFT,4.0,True,Cadillac,1,13.0,True,5,Canadian Grand Prix,True,C5,True,0.363,0.474,2.499,3.36,0.187,0.244,77.022
+0 days 00:51:05.190000,PER,11,77.172,5.0,1.0,,,False,SOFT,5.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.656,0.857,2.792,3.754,0.282,0.367,77.363
+0 days 00:52:22.072000,PER,11,76.882,6.0,1.0,,,False,SOFT,6.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.366,0.478,2.502,3.364,-0.008,-0.01,77.121
+0 days 00:53:39.705000,PER,11,77.633,7.0,1.0,,,False,SOFT,7.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,1.117,1.46,3.253,4.373,0.9,1.173,77.92
+0 days 00:54:56.715000,PER,11,77.01,8.0,1.0,,,False,SOFT,8.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.494,0.646,2.63,3.536,0.338,0.441,77.345
+0 days 00:56:13.356000,PER,11,76.641,9.0,1.0,,,True,SOFT,9.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.125,0.163,2.261,3.04,0.507,0.666,77.024
+0 days 00:57:30.505000,PER,11,77.149,10.0,1.0,,,False,SOFT,10.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.633,0.827,2.769,3.723,0.799,1.046,77.579
+0 days 00:58:47.647000,PER,11,77.142,11.0,1.0,,,False,SOFT,11.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.626,0.818,2.762,3.713,0.706,0.924,77.62
+0 days 01:00:05.028000,PER,11,77.381,12.0,1.0,,,False,SOFT,12.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.865,1.13,3.001,4.035,1.091,1.43,77.907
+0 days 01:01:22.036000,PER,11,77.008,13.0,1.0,,,False,SOFT,13.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.492,0.643,2.628,3.533,0.6,0.785,77.582
+0 days 01:02:38.842000,PER,11,76.806,14.0,1.0,,,False,SOFT,14.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.29,0.379,2.426,3.262,0.368,0.481,77.428
+0 days 01:03:55.881000,PER,11,77.039,15.0,1.0,,,False,SOFT,15.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.523,0.684,2.659,3.575,0.839,1.101,77.709
+0 days 01:05:12.993000,PER,11,77.112,16.0,1.0,,,False,SOFT,16.0,True,Cadillac,12,12.0,True,5,Canadian Grand Prix,True,C5,False,0.596,0.779,2.732,3.673,1.033,1.358,77.829
+0 days 01:06:29.955000,PER,11,76.962,17.0,1.0,,,False,SOFT,17.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,0.446,0.583,2.582,3.471,0.789,1.036,77.727
+0 days 01:07:47.594000,PER,11,77.639,18.0,1.0,,,False,SOFT,18.0,True,Cadillac,1,12.0,True,5,Canadian Grand Prix,True,C5,True,1.123,1.468,3.259,4.382,1.579,2.076,78.452
+0 days 01:09:05.165000,PER,11,77.571,19.0,1.0,,,False,SOFT,19.0,True,Cadillac,1,11.0,True,5,Canadian Grand Prix,True,C5,True,1.055,1.379,3.191,4.29,1.352,1.774,78.432
+0 days 01:10:22.784000,PER,11,77.619,20.0,1.0,,,False,SOFT,20.0,True,Cadillac,1,11.0,True,5,Canadian Grand Prix,True,C5,True,1.103,1.442,3.239,4.355,1.249,1.635,78.528
+0 days 01:11:40.771000,PER,11,77.987,21.0,1.0,,,False,SOFT,21.0,True,Cadillac,1,11.0,True,5,Canadian Grand Prix,True,C5,True,1.471,1.922,3.607,4.849,1.474,1.926,78.944
+0 days 01:12:58.507000,PER,11,77.736,22.0,1.0,,,False,SOFT,22.0,True,Cadillac,1,11.0,True,5,Canadian Grand Prix,True,C5,True,1.22,1.594,3.356,4.512,0.706,0.917,78.74
+0 days 01:14:16.223000,PER,11,77.716,23.0,1.0,,,False,SOFT,23.0,True,Cadillac,1,11.0,True,5,Canadian Grand Prix,True,C5,True,1.2,1.568,3.336,4.485,1.485,1.948,78.768
+0 days 00:45:56.351000,HUL,27,,1.0,1.0,,,False,MEDIUM,7.0,False,Audi,1,15.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:15.484000,HUL,27,79.133,2.0,1.0,,,True,MEDIUM,8.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,2.617,3.42,4.753,6.39,1.523,1.962,79.181
+0 days 00:48:33.200000,HUL,27,77.716,3.0,1.0,,,True,MEDIUM,9.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,1.2,1.568,3.336,4.485,0.656,0.851,77.812
+0 days 00:49:50.303000,HUL,27,77.103,4.0,1.0,,,True,MEDIUM,10.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.587,0.767,2.723,3.661,0.411,0.536,77.246
+0 days 00:51:07.303000,HUL,27,77.0,5.0,1.0,,,True,MEDIUM,11.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.484,0.633,2.62,3.522,0.11,0.143,77.191
+0 days 00:52:24.202000,HUL,27,76.899,6.0,1.0,,,True,MEDIUM,12.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.383,0.501,2.519,3.387,0.009,0.012,77.138
+0 days 00:53:40.719000,HUL,27,76.517,7.0,1.0,,,True,MEDIUM,13.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.001,0.001,2.137,2.873,-0.216,-0.281,76.804
+0 days 00:54:57.391000,HUL,27,76.672,8.0,1.0,,,False,MEDIUM,14.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.156,0.204,2.292,3.081,0.0,0.0,77.007
+0 days 00:56:13.939000,HUL,27,76.548,9.0,1.0,,,False,MEDIUM,15.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.032,0.042,2.168,2.915,0.414,0.544,76.931
+0 days 00:57:30.906000,HUL,27,76.967,10.0,1.0,,,False,MEDIUM,16.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.451,0.589,2.587,3.478,0.617,0.808,77.397
+0 days 00:58:48.146000,HUL,27,77.24,11.0,1.0,,,False,MEDIUM,17.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.724,0.946,2.86,3.845,0.804,1.052,77.718
+0 days 01:00:05.352000,HUL,27,77.206,12.0,1.0,,,False,MEDIUM,18.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.69,0.902,2.826,3.799,0.916,1.201,77.732
+0 days 01:01:22.636000,HUL,27,77.284,13.0,1.0,,,False,MEDIUM,19.0,False,Audi,1,13.0,True,5,Canadian Grand Prix,True,C4,True,0.768,1.004,2.904,3.904,0.876,1.146,77.858
+0 days 01:02:41.825000,HUL,27,79.189,14.0,1.0,,,False,MEDIUM,20.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,2.673,3.493,4.809,6.465,2.751,3.599,79.811
+0 days 01:03:59.511000,HUL,27,77.686,15.0,1.0,,,False,MEDIUM,21.0,False,Audi,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.17,1.529,3.306,4.445,1.486,1.95,78.356
+0 days 01:05:17.671000,HUL,27,78.16,16.0,1.0,,,False,MEDIUM,22.0,False,Audi,12,16.0,True,5,Canadian Grand Prix,True,C4,False,1.644,2.149,3.78,5.082,2.081,2.735,78.877
+0 days 01:06:35.603000,HUL,27,77.932,17.0,1.0,,,False,MEDIUM,23.0,False,Audi,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.416,1.851,3.552,4.775,1.759,2.309,78.697
+0 days 01:07:51.998000,HUL,27,76.395,18.0,1.0,,,True,MEDIUM,24.0,False,Audi,1,16.0,True,5,Canadian Grand Prix,True,C4,True,-0.121,-0.158,2.015,2.709,0.335,0.44,77.208
+0 days 01:09:08.632000,HUL,27,76.634,19.0,1.0,,,False,MEDIUM,25.0,False,Audi,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.118,0.154,2.254,3.03,0.415,0.544,77.495
+0 days 01:10:24.929000,HUL,27,76.297,20.0,1.0,,,True,MEDIUM,26.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,-0.219,-0.286,1.917,2.577,-0.073,-0.096,77.206
+0 days 01:11:42.818000,HUL,27,77.889,21.0,1.0,,,False,MEDIUM,27.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,1.373,1.794,3.509,4.718,1.376,1.798,78.846
+0 days 01:13:00.297000,HUL,27,77.479,22.0,1.0,,,False,MEDIUM,28.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,0.963,1.259,3.099,4.166,0.449,0.583,78.483
+0 days 01:14:17.979000,HUL,27,77.682,23.0,1.0,,,False,MEDIUM,29.0,False,Audi,1,14.0,True,5,Canadian Grand Prix,True,C4,True,1.166,1.524,3.302,4.439,1.451,1.903,78.734
+0 days 00:46:07.136000,STR,18,,1.0,1.0,0 days 00:44:43.955000,,False,SOFT,1.0,True,Aston Martin,1,22.0,False,5,Canadian Grand Prix,True,C5,False,,,,,,,
+0 days 00:47:25.896000,STR,18,78.76,2.0,1.0,,,True,SOFT,2.0,True,Aston Martin,1,22.0,True,5,Canadian Grand Prix,True,C5,True,2.244,2.933,4.38,5.889,1.15,1.482,78.808
+0 days 00:48:43.910000,STR,18,78.014,3.0,1.0,,,True,SOFT,3.0,True,Aston Martin,1,22.0,True,5,Canadian Grand Prix,True,C5,True,1.498,1.958,3.634,4.886,0.954,1.238,78.11
+0 days 00:50:02.380000,STR,18,78.47,4.0,1.0,,,False,SOFT,4.0,True,Aston Martin,1,22.0,True,5,Canadian Grand Prix,True,C5,True,1.954,2.554,4.09,5.499,1.778,2.318,78.613
+0 days 00:51:21.161000,STR,18,78.781,5.0,1.0,,,False,SOFT,5.0,True,Aston Martin,1,22.0,True,5,Canadian Grand Prix,True,C5,True,2.265,2.96,4.401,5.917,1.891,2.459,78.972
+0 days 00:52:39.372000,STR,18,78.211,6.0,1.0,,,False,SOFT,6.0,True,Aston Martin,1,21.0,True,5,Canadian Grand Prix,True,C5,True,1.695,2.215,3.831,5.151,1.321,1.718,78.45
+0 days 00:53:56.859000,STR,18,77.487,7.0,1.0,,,True,SOFT,7.0,True,Aston Martin,1,21.0,True,5,Canadian Grand Prix,True,C5,True,0.971,1.269,3.107,4.177,0.754,0.983,77.774
+0 days 00:55:14.470000,STR,18,77.611,8.0,1.0,,,False,SOFT,8.0,True,Aston Martin,1,21.0,True,5,Canadian Grand Prix,True,C5,True,1.095,1.431,3.231,4.344,0.939,1.225,77.946
+0 days 00:56:32.352000,STR,18,77.882,9.0,1.0,,,False,SOFT,9.0,True,Aston Martin,1,21.0,True,5,Canadian Grand Prix,True,C5,True,1.366,1.785,3.502,4.708,1.748,2.296,78.265
+0 days 00:57:50.507000,STR,18,78.155,10.0,1.0,,,False,SOFT,10.0,True,Aston Martin,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.639,2.142,3.775,5.075,1.805,2.364,78.585
+0 days 00:59:08.950000,STR,18,78.443,11.0,1.0,,,False,SOFT,11.0,True,Aston Martin,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.927,2.518,4.063,5.462,2.007,2.626,78.921
+0 days 01:00:27.151000,STR,18,78.201,12.0,1.0,,,False,SOFT,12.0,True,Aston Martin,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.685,2.202,3.821,5.137,1.911,2.505,78.727
+0 days 01:01:44.922000,STR,18,77.771,13.0,1.0,,,False,SOFT,13.0,True,Aston Martin,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.255,1.64,3.391,4.559,1.363,1.784,78.345
+0 days 01:03:02.714000,STR,18,77.792,14.0,1.0,,,False,SOFT,14.0,True,Aston Martin,1,19.0,True,5,Canadian Grand Prix,True,C5,True,1.276,1.668,3.412,4.587,1.354,1.771,78.414
+0 days 01:04:20.170000,STR,18,77.456,15.0,1.0,,,True,SOFT,15.0,True,Aston Martin,1,18.0,True,5,Canadian Grand Prix,True,C5,True,0.94,1.229,3.076,4.136,1.256,1.648,78.126
+0 days 01:05:37.793000,STR,18,77.623,16.0,1.0,,,False,SOFT,16.0,True,Aston Martin,12,18.0,True,5,Canadian Grand Prix,True,C5,False,1.107,1.447,3.243,4.36,1.544,2.029,78.34
+0 days 01:06:54.913000,STR,18,77.12,17.0,1.0,,,True,SOFT,17.0,True,Aston Martin,1,18.0,True,5,Canadian Grand Prix,True,C5,True,0.604,0.789,2.74,3.684,0.947,1.243,77.885
+0 days 01:08:12.348000,STR,18,77.435,18.0,1.0,,,False,SOFT,18.0,True,Aston Martin,1,17.0,True,5,Canadian Grand Prix,True,C5,True,0.919,1.201,3.055,4.107,1.375,1.808,78.248
+0 days 01:09:30.170000,STR,18,77.822,19.0,1.0,,,False,SOFT,19.0,True,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C5,True,1.306,1.707,3.442,4.628,1.603,2.103,78.683
+0 days 01:10:50.867000,STR,18,80.697,20.0,1.0,,,False,SOFT,20.0,True,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C5,True,4.181,5.464,6.317,8.493,4.327,5.666,81.606
+0 days 01:12:10.971000,STR,18,80.104,21.0,1.0,,,False,SOFT,21.0,True,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C5,True,3.588,4.689,5.724,7.696,3.591,4.693,81.061
+0 days 01:13:28.948000,STR,18,77.977,22.0,1.0,,,False,SOFT,22.0,True,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C5,True,1.461,1.909,3.597,4.836,0.947,1.229,78.981
+0 days 00:46:01.729000,BOT,77,,1.0,1.0,0 days 00:44:40.068000,,False,SOFT,1.0,True,Cadillac,1,20.0,False,5,Canadian Grand Prix,True,C5,False,,,,,,,
+0 days 00:47:20.699000,BOT,77,78.97,2.0,1.0,,,True,SOFT,2.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,2.454,3.207,4.59,6.171,1.36,1.752,79.018
+0 days 00:48:39.952000,BOT,77,79.253,3.0,1.0,,,False,SOFT,3.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,2.737,3.577,4.873,6.551,2.193,2.846,79.349
+0 days 00:49:59.438000,BOT,77,79.486,4.0,1.0,,,False,SOFT,4.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,2.97,3.882,5.106,6.865,2.794,3.643,79.629
+0 days 00:51:18.364000,BOT,77,78.926,5.0,1.0,,,True,SOFT,5.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,2.41,3.15,4.546,6.112,2.036,2.648,79.117
+0 days 00:52:37.415000,BOT,77,79.051,6.0,1.0,,,False,SOFT,6.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,2.535,3.313,4.671,6.28,2.161,2.811,79.29
+0 days 00:53:55.657000,BOT,77,78.242,7.0,1.0,,,True,SOFT,7.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.726,2.256,3.862,5.192,1.509,1.967,78.529
+0 days 00:55:13.986000,BOT,77,78.329,8.0,1.0,,,False,SOFT,8.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.813,2.369,3.949,5.309,1.657,2.161,78.664
+0 days 00:56:31.634000,BOT,77,77.648,9.0,1.0,,,True,SOFT,9.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.132,1.479,3.268,4.394,1.514,1.989,78.031
+0 days 00:57:50.579000,BOT,77,78.945,10.0,1.0,,,False,SOFT,10.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,2.429,3.174,4.565,6.137,2.595,3.399,79.375
+0 days 00:59:09.480000,BOT,77,78.901,11.0,1.0,,,False,SOFT,11.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,2.385,3.117,4.521,6.078,2.465,3.225,79.379
+0 days 01:00:27.773000,BOT,77,78.293,12.0,1.0,,,False,SOFT,12.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,1.777,2.322,3.913,5.261,2.003,2.626,78.819
+0 days 01:01:45.687000,BOT,77,77.914,13.0,1.0,,,False,SOFT,13.0,True,Cadillac,1,21.0,True,5,Canadian Grand Prix,True,C5,True,1.398,1.827,3.534,4.751,1.506,1.971,78.488
+0 days 01:03:03.600000,BOT,77,77.913,14.0,1.0,,,False,SOFT,14.0,True,Cadillac,1,20.0,True,5,Canadian Grand Prix,True,C5,True,1.397,1.826,3.533,4.75,1.475,1.93,78.535
+0 days 01:04:21.293000,BOT,77,77.693,15.0,1.0,,,False,SOFT,15.0,True,Cadillac,1,19.0,True,5,Canadian Grand Prix,True,C5,True,1.177,1.538,3.313,4.454,1.493,1.959,78.363
+0 days 01:05:38.918000,BOT,77,77.625,16.0,1.0,,,True,SOFT,16.0,True,Cadillac,12,19.0,True,5,Canadian Grand Prix,True,C5,False,1.109,1.449,3.245,4.363,1.546,2.032,78.342
+0 days 01:06:56.130000,BOT,77,77.212,17.0,1.0,,,True,SOFT,17.0,True,Cadillac,1,19.0,True,5,Canadian Grand Prix,True,C5,True,0.696,0.91,2.832,3.807,1.039,1.364,77.977
+0 days 01:08:13.540000,BOT,77,77.41,18.0,1.0,,,False,SOFT,18.0,True,Cadillac,1,18.0,True,5,Canadian Grand Prix,True,C5,True,0.894,1.168,3.03,4.074,1.35,1.775,78.223
+0 days 01:09:33.315000,BOT,77,79.775,19.0,1.0,,,False,SOFT,19.0,True,Cadillac,1,17.0,True,5,Canadian Grand Prix,True,C5,True,3.259,4.259,5.395,7.253,3.556,4.666,80.636
+0 days 01:10:55.693000,BOT,77,82.378,20.0,1.0,,,False,SOFT,20.0,True,Cadillac,1,17.0,True,5,Canadian Grand Prix,True,C5,True,5.862,7.661,7.998,10.753,6.008,7.867,83.287
+0 days 01:12:16.445000,BOT,77,80.752,21.0,1.0,,,False,SOFT,21.0,True,Cadillac,1,17.0,True,5,Canadian Grand Prix,True,C5,True,4.236,5.536,6.372,8.567,4.239,5.54,81.709
+0 days 01:13:33.682000,BOT,77,77.237,22.0,1.0,,,False,SOFT,22.0,True,Cadillac,1,17.0,True,5,Canadian Grand Prix,True,C5,True,0.721,0.942,2.857,3.841,0.207,0.269,78.241
+0 days 00:45:59.059000,BEA,87,,1.0,1.0,0 days 00:44:38.286000,,False,MEDIUM,10.0,False,Haas F1 Team,1,18.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:17.447000,BEA,87,78.388,2.0,1.0,,,True,MEDIUM,11.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,1.872,2.447,4.008,5.389,0.778,1.002,78.436
+0 days 00:48:35.694000,BEA,87,78.247,3.0,1.0,,,True,MEDIUM,12.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,1.731,2.262,3.867,5.199,1.187,1.54,78.343
+0 days 00:49:52.804000,BEA,87,77.11,4.0,1.0,,,True,MEDIUM,13.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.594,0.776,2.73,3.67,0.418,0.545,77.253
+0 days 00:51:12.532000,BEA,87,79.728,5.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,3.212,4.198,5.348,7.19,2.838,3.691,79.919
+0 days 00:52:30.912000,BEA,87,78.38,6.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,1.864,2.436,4.0,5.378,1.49,1.938,78.619
+0 days 00:53:48.252000,BEA,87,77.34,7.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.824,1.077,2.96,3.98,0.607,0.791,77.627
+0 days 00:55:05.396000,BEA,87,77.144,8.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.628,0.821,2.764,3.716,0.472,0.616,77.479
+0 days 00:56:22.471000,BEA,87,77.075,9.0,1.0,,,True,MEDIUM,18.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.559,0.731,2.695,3.623,0.941,1.236,77.458
+0 days 00:57:39.915000,BEA,87,77.444,10.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.928,1.213,3.064,4.119,1.094,1.433,77.874
+0 days 00:58:58.052000,BEA,87,78.137,11.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.621,2.119,3.757,5.051,1.701,2.225,78.615
+0 days 01:00:15.202000,BEA,87,77.15,12.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.634,0.829,2.77,3.724,0.86,1.127,77.676
+0 days 01:01:32.180000,BEA,87,76.978,13.0,1.0,,,True,MEDIUM,22.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.462,0.604,2.598,3.493,0.57,0.746,77.552
+0 days 01:02:49.060000,BEA,87,76.88,14.0,1.0,,,True,MEDIUM,23.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.364,0.476,2.5,3.361,0.442,0.578,77.502
+0 days 01:04:05.705000,BEA,87,76.645,15.0,1.0,,,True,MEDIUM,24.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.129,0.169,2.265,3.045,0.445,0.584,77.315
+0 days 01:05:22.346000,BEA,87,76.641,16.0,1.0,,,True,MEDIUM,25.0,False,Haas F1 Team,12,17.0,True,5,Canadian Grand Prix,True,C4,False,0.125,0.163,2.261,3.04,0.562,0.739,77.358
+0 days 01:06:39.303000,BEA,87,76.957,17.0,1.0,,,False,MEDIUM,26.0,False,Haas F1 Team,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.441,0.576,2.577,3.465,0.784,1.029,77.722
+0 days 01:08:27.459000,BEA,87,108.156,18.0,1.0,,0 days 01:07:50.521000,False,MEDIUM,27.0,False,Haas F1 Team,1,19.0,False,5,Canadian Grand Prix,True,C4,False,31.64,41.351,33.776,45.41,32.096,42.198,108.969
+0 days 01:09:50.082000,BEA,87,82.623,19.0,2.0,0 days 01:08:29.093000,,False,MEDIUM,9.0,False,Haas F1 Team,1,18.0,False,5,Canadian Grand Prix,True,C4,False,6.107,7.981,8.243,11.082,6.404,8.402,83.484
+0 days 01:11:06.930000,BEA,87,76.848,20.0,2.0,,,False,MEDIUM,10.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.332,0.434,2.468,3.318,0.478,0.626,77.757
+0 days 01:12:23.457000,BEA,87,76.527,21.0,2.0,,,True,MEDIUM,11.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,0.011,0.014,2.147,2.887,0.014,0.018,77.484
+0 days 01:13:39.667000,BEA,87,76.21,22.0,2.0,,,True,MEDIUM,12.0,False,Haas F1 Team,1,18.0,True,5,Canadian Grand Prix,True,C4,True,-0.306,-0.4,1.83,2.46,-0.82,-1.065,77.214
+0 days 00:46:02.918000,ALB,23,,1.0,1.0,0 days 00:44:40.974000,,False,MEDIUM,1.0,True,Williams,1,21.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:21.432000,ALB,23,78.514,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,21.0,True,5,Canadian Grand Prix,True,C4,True,1.998,2.611,4.134,5.558,0.904,1.165,78.562
+0 days 00:48:39.867000,ALB,23,78.435,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C4,True,1.919,2.508,4.055,5.452,1.375,1.784,78.531
+0 days 00:49:59.378000,ALB,23,79.511,4.0,1.0,,,False,MEDIUM,4.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C4,True,2.995,3.914,5.131,6.898,2.819,3.676,79.654
+0 days 00:51:17.982000,ALB,23,78.604,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C4,True,2.088,2.729,4.224,5.679,1.714,2.229,78.795
+0 days 00:52:35.956000,ALB,23,77.974,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,1.458,1.905,3.594,4.832,1.084,1.41,78.213
+0 days 00:53:53.260000,ALB,23,77.304,7.0,1.0,,,True,MEDIUM,7.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.788,1.03,2.924,3.931,0.571,0.744,77.591
+0 days 00:55:10.079000,ALB,23,76.819,8.0,1.0,,,True,MEDIUM,8.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.303,0.396,2.439,3.279,0.147,0.192,77.154
+0 days 00:56:26.855000,ALB,23,76.776,9.0,1.0,,,True,MEDIUM,9.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.26,0.34,2.396,3.221,0.642,0.843,77.159
+0 days 00:57:43.378000,ALB,23,76.523,10.0,1.0,,,True,MEDIUM,10.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.007,0.009,2.143,2.881,0.173,0.227,76.953
+0 days 00:59:00.212000,ALB,23,76.834,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.318,0.416,2.454,3.299,0.398,0.521,77.312
+0 days 01:00:17.320000,ALB,23,77.108,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.592,0.774,2.728,3.668,0.818,1.072,77.634
+0 days 01:01:34.853000,ALB,23,77.533,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,18.0,True,5,Canadian Grand Prix,True,C4,True,1.017,1.329,3.153,4.239,1.125,1.472,78.107
+0 days 01:03:08.536000,ALB,23,93.683,14.0,1.0,,0 days 01:02:46.103000,False,MEDIUM,14.0,True,Williams,1,21.0,False,5,Canadian Grand Prix,True,C4,False,17.167,22.436,19.303,25.952,17.245,22.561,94.305
+0 days 01:04:29.776000,ALB,23,81.24,15.0,2.0,0 days 01:03:10.172000,,False,SOFT,1.0,True,Williams,1,20.0,False,5,Canadian Grand Prix,True,C5,False,4.724,6.174,6.86,9.223,5.04,6.614,81.91
+0 days 01:05:46.665000,ALB,23,76.889,16.0,2.0,,,False,SOFT,2.0,True,Williams,12,20.0,True,5,Canadian Grand Prix,True,C5,False,0.373,0.487,2.509,3.373,0.81,1.065,77.606
+0 days 01:07:20.984000,ALB,23,94.319,17.0,2.0,,,False,SOFT,3.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C5,True,17.803,23.267,19.939,26.807,18.146,23.822,95.084
+0 days 01:08:36.701000,ALB,23,75.717,18.0,2.0,,,True,SOFT,4.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C5,True,-0.799,-1.044,1.337,1.798,-0.343,-0.451,76.53
+0 days 01:10:13.017000,ALB,23,96.316,19.0,2.0,,,False,SOFT,5.0,True,Williams,1,20.0,True,5,Canadian Grand Prix,True,C5,True,19.8,25.877,21.936,29.492,20.097,26.367,97.177
+0 days 01:11:34.712000,ALB,23,81.695,20.0,2.0,,,False,SOFT,6.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C5,True,5.179,6.769,7.315,9.835,5.325,6.973,82.604
+0 days 01:12:53.160000,ALB,23,78.448,21.0,2.0,,,False,SOFT,7.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C5,True,1.932,2.525,4.068,5.469,1.935,2.529,79.405
+0 days 01:14:09.314000,ALB,23,76.154,22.0,2.0,,,False,SOFT,8.0,True,Williams,1,19.0,True,5,Canadian Grand Prix,True,C5,True,-0.362,-0.473,1.774,2.385,-0.876,-1.137,77.158
+0 days 00:46:00.337000,GAS,10,,1.0,1.0,0 days 00:44:39.396000,,False,MEDIUM,1.0,True,Alpine,1,19.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:17.852000,GAS,10,77.515,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.999,1.306,3.135,4.215,-0.095,-0.122,77.563
+0 days 00:48:36.222000,GAS,10,78.37,3.0,1.0,,,False,MEDIUM,3.0,True,Alpine,1,19.0,True,5,Canadian Grand Prix,True,C4,True,1.854,2.423,3.99,5.364,1.31,1.7,78.466
+0 days 00:49:53.412000,GAS,10,77.19,4.0,1.0,,,True,MEDIUM,4.0,True,Alpine,1,19.0,True,5,Canadian Grand Prix,True,C4,True,0.674,0.881,2.81,3.778,0.498,0.649,77.333
+0 days 00:51:11.580000,GAS,10,78.168,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.652,2.159,3.788,5.093,1.278,1.662,78.359
+0 days 00:52:28.390000,GAS,10,76.81,6.0,1.0,,,True,MEDIUM,6.0,True,Alpine,1,17.0,True,5,Canadian Grand Prix,True,C4,True,0.294,0.384,2.43,3.267,-0.08,-0.104,77.049
+0 days 00:53:45.897000,GAS,10,77.507,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,0.991,1.295,3.127,4.204,0.774,1.009,77.794
+0 days 00:55:02.943000,GAS,10,77.046,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,0.53,0.693,2.666,3.584,0.374,0.488,77.381
+0 days 00:56:19.872000,GAS,10,76.929,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,0.413,0.54,2.549,3.427,0.795,1.044,77.312
+0 days 00:57:36.252000,GAS,10,76.38,10.0,1.0,,,True,MEDIUM,10.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,-0.136,-0.178,2.0,2.689,0.03,0.039,76.81
+0 days 00:58:52.779000,GAS,10,76.527,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,0.011,0.014,2.147,2.887,0.091,0.119,77.005
+0 days 01:00:08.929000,GAS,10,76.15,12.0,1.0,,,True,MEDIUM,12.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,-0.366,-0.478,1.77,2.38,-0.14,-0.184,76.676
+0 days 01:01:25.386000,GAS,10,76.457,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,-0.059,-0.077,2.077,2.792,0.049,0.064,77.031
+0 days 01:02:42.202000,GAS,10,76.816,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,16.0,True,5,Canadian Grand Prix,True,C4,True,0.3,0.392,2.436,3.275,0.378,0.495,77.438
+0 days 01:03:59.286000,GAS,10,77.084,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.568,0.742,2.704,3.635,0.884,1.16,77.754
+0 days 01:05:16.166000,GAS,10,76.88,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,12,15.0,True,5,Canadian Grand Prix,True,C4,False,0.364,0.476,2.5,3.361,0.801,1.053,77.597
+0 days 01:06:32.501000,GAS,10,76.335,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,15.0,True,5,Canadian Grand Prix,True,C4,True,-0.181,-0.237,1.955,2.628,0.162,0.213,77.1
+0 days 01:07:49.061000,GAS,10,76.56,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,15.0,True,5,Canadian Grand Prix,True,C4,True,0.044,0.058,2.18,2.931,0.5,0.657,77.373
+0 days 01:10:10.598000,GAS,10,141.537,19.0,1.0,,0 days 01:09:01.593000,False,MEDIUM,19.0,True,Alpine,1,19.0,False,5,Canadian Grand Prix,True,C4,False,65.021,84.977,67.157,90.289,65.318,85.698,142.398
+0 days 01:11:35.652000,GAS,10,85.054,20.0,2.0,0 days 01:10:12.209000,,False,SOFT,9.0,False,Alpine,1,20.0,False,5,Canadian Grand Prix,True,C5,False,8.538,11.158,10.674,14.351,8.684,11.371,85.963
+0 days 01:12:56.914000,GAS,10,81.262,21.0,2.0,,,False,SOFT,10.0,False,Alpine,1,20.0,True,5,Canadian Grand Prix,True,C5,True,4.746,6.203,6.882,9.252,4.749,6.207,82.219
+0 days 01:14:24.298000,GAS,10,87.384,22.0,2.0,,,False,SOFT,11.0,False,Alpine,1,20.0,True,5,Canadian Grand Prix,True,C5,True,10.868,14.204,13.004,17.483,10.354,13.442,88.388
+0 days 00:45:50.024000,HAD,6,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,1,8.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:06.713000,HAD,6,76.689,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,8.0,True,5,Canadian Grand Prix,True,C4,True,0.173,0.226,2.309,3.104,-0.921,-1.187,76.737
+0 days 00:48:22.521000,HAD,6,75.808,3.0,1.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,8.0,True,5,Canadian Grand Prix,True,C4,True,-0.708,-0.925,1.428,1.92,-1.252,-1.625,75.904
+0 days 00:49:37.954000,HAD,6,75.433,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,1,8.0,True,5,Canadian Grand Prix,True,C4,True,-1.083,-1.415,1.053,1.416,-1.259,-1.642,75.576
+0 days 00:51:14.984000,HAD,6,97.03,5.0,1.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,19.0,True,5,Canadian Grand Prix,True,C4,True,20.514,26.81,22.65,30.452,20.14,26.193,97.221
+0 days 00:52:46.343000,HAD,6,91.359,6.0,1.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C4,True,14.843,19.399,16.979,22.827,14.469,18.818,91.598
+0 days 00:56:46.330000,HAD,6,,7.0,1.0,,0 days 00:54:12.763000,False,MEDIUM,7.0,True,Red Bull Racing,1,22.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:58:07.492000,HAD,6,81.162,8.0,2.0,0 days 00:56:47.969000,,False,MEDIUM,8.0,False,Red Bull Racing,1,22.0,False,5,Canadian Grand Prix,True,C4,False,4.646,6.072,6.782,9.118,4.49,5.856,81.497
+0 days 00:59:39.941000,HAD,6,92.449,9.0,2.0,,0 days 00:59:18.031000,False,MEDIUM,9.0,False,Red Bull Racing,1,22.0,False,5,Canadian Grand Prix,True,C4,False,15.933,20.823,18.069,24.293,16.315,21.429,92.832
+0 days 01:01:01.124000,HAD,6,81.183,10.0,3.0,0 days 00:59:41.508000,,False,SOFT,6.0,False,Red Bull Racing,1,22.0,False,5,Canadian Grand Prix,True,C5,False,4.667,6.099,6.803,9.146,4.833,6.33,81.613
+0 days 01:02:16.953000,HAD,6,75.829,11.0,3.0,,,False,SOFT,7.0,False,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C5,True,-0.687,-0.898,1.449,1.948,-0.607,-0.794,76.307
+0 days 01:03:31.894000,HAD,6,74.941,12.0,3.0,,,True,SOFT,8.0,False,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C5,True,-1.575,-2.058,0.561,0.754,-1.349,-1.768,75.467
+0 days 01:04:46.856000,HAD,6,74.962,13.0,3.0,,,False,SOFT,9.0,False,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C5,True,-1.554,-2.031,0.582,0.782,-1.446,-1.892,75.536
+0 days 01:06:02.069000,HAD,6,75.213,14.0,3.0,,,False,SOFT,10.0,False,Red Bull Racing,12,22.0,True,5,Canadian Grand Prix,True,C5,False,-1.303,-1.703,0.833,1.12,-1.225,-1.603,75.835
+0 days 01:07:17.099000,HAD,6,75.03,15.0,3.0,,,False,SOFT,11.0,False,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C5,True,-1.486,-1.942,0.65,0.874,-1.17,-1.535,75.7
+0 days 01:08:32.125000,HAD,6,75.026,16.0,3.0,,,False,SOFT,12.0,False,Red Bull Racing,1,22.0,True,5,Canadian Grand Prix,True,C5,True,-1.49,-1.947,0.646,0.869,-1.053,-1.384,75.743
+0 days 01:09:47.382000,HAD,6,75.257,17.0,3.0,,,False,SOFT,13.0,False,Red Bull Racing,1,21.0,True,5,Canadian Grand Prix,True,C5,True,-1.259,-1.645,0.877,1.179,-0.916,-1.203,76.022
+0 days 01:11:02.543000,HAD,6,75.161,18.0,3.0,,,False,SOFT,14.0,False,Red Bull Racing,1,21.0,True,5,Canadian Grand Prix,True,C5,True,-1.355,-1.771,0.781,1.05,-0.899,-1.182,75.974
+0 days 01:12:17.762000,HAD,6,75.219,19.0,3.0,,,False,SOFT,15.0,False,Red Bull Racing,1,21.0,True,5,Canadian Grand Prix,True,C5,True,-1.297,-1.695,0.839,1.128,-1.0,-1.312,76.08
+0 days 01:13:33.938000,HAD,6,76.176,20.0,3.0,,,False,SOFT,16.0,False,Red Bull Racing,1,21.0,True,5,Canadian Grand Prix,True,C5,True,-0.34,-0.444,1.796,2.415,-0.194,-0.254,77.085
+0 days 00:45:56.077000,ALO,14,,1.0,1.0,,,False,MEDIUM,5.0,False,Aston Martin,1,14.0,False,5,Canadian Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:15.038000,ALO,14,78.961,2.0,1.0,,,True,MEDIUM,6.0,False,Aston Martin,1,14.0,True,5,Canadian Grand Prix,True,C4,True,2.445,3.195,4.581,6.159,1.351,1.741,79.009
+0 days 00:48:33.667000,ALO,14,78.629,3.0,1.0,,,True,MEDIUM,7.0,False,Aston Martin,1,15.0,True,5,Canadian Grand Prix,True,C4,True,2.113,2.762,4.249,5.713,1.569,2.036,78.725
+0 days 00:49:52.109000,ALO,14,78.442,4.0,1.0,,,True,MEDIUM,8.0,False,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.926,2.517,4.062,5.461,1.75,2.282,78.585
+0 days 00:51:09.818000,ALO,14,77.709,5.0,1.0,,,True,MEDIUM,9.0,False,Aston Martin,1,15.0,True,5,Canadian Grand Prix,True,C4,True,1.193,1.559,3.329,4.476,0.819,1.065,77.9
+0 days 00:52:28.064000,ALO,14,78.246,6.0,1.0,,,False,MEDIUM,10.0,False,Aston Martin,1,16.0,True,5,Canadian Grand Prix,True,C4,True,1.73,2.261,3.866,5.198,1.356,1.764,78.485
+0 days 00:53:46.481000,ALO,14,78.417,7.0,1.0,,,False,MEDIUM,11.0,False,Aston Martin,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.901,2.484,4.037,5.428,1.684,2.195,78.704
+0 days 00:55:04.024000,ALO,14,77.543,8.0,1.0,,,True,MEDIUM,12.0,False,Aston Martin,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.027,1.342,3.163,4.252,0.871,1.136,77.878
+0 days 00:56:22.046000,ALO,14,78.022,9.0,1.0,,,False,MEDIUM,13.0,False,Aston Martin,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.506,1.968,3.642,4.896,1.888,2.48,78.405
+0 days 00:57:39.719000,ALO,14,77.673,10.0,1.0,,,False,MEDIUM,14.0,False,Aston Martin,1,17.0,True,5,Canadian Grand Prix,True,C4,True,1.157,1.512,3.293,4.427,1.323,1.733,78.103
+0 days 00:58:58.605000,ALO,14,78.886,11.0,1.0,,,False,MEDIUM,15.0,False,Aston Martin,1,18.0,True,5,Canadian Grand Prix,True,C4,True,2.37,3.097,4.506,6.058,2.45,3.205,79.364
+0 days 01:00:16.854000,ALO,14,78.249,12.0,1.0,,,False,MEDIUM,16.0,False,Aston Martin,1,18.0,True,5,Canadian Grand Prix,True,C4,True,1.733,2.265,3.869,5.202,1.959,2.568,78.775
+0 days 01:01:35.287000,ALO,14,78.433,13.0,1.0,,,False,MEDIUM,17.0,False,Aston Martin,1,19.0,True,5,Canadian Grand Prix,True,C4,True,1.917,2.505,4.053,5.449,2.025,2.65,79.007
+0 days 01:02:54.546000,ALO,14,79.259,14.0,1.0,,,False,MEDIUM,18.0,False,Aston Martin,1,18.0,True,5,Canadian Grand Prix,True,C4,True,2.743,3.585,4.879,6.56,2.821,3.691,79.881
+0 days 01:04:31.184000,ALO,14,96.638,15.0,1.0,,0 days 01:04:08.050000,False,MEDIUM,19.0,False,Aston Martin,1,21.0,False,5,Canadian Grand Prix,True,C4,False,20.122,26.298,22.258,29.925,20.438,26.822,97.308
+0 days 01:05:58.836000,ALO,14,,16.0,2.0,0 days 01:04:32.816000,0 days 01:05:58.840000,False,HARD,8.0,False,Aston Martin,12,21.0,False,5,Canadian Grand Prix,True,C3,False,,,,,,,
