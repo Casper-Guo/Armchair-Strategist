@@ -1119,7 +1119,8 @@ def driver_stats_distplot(
             hue=args.hue,
             palette=args.palette,
             order=drivers,
-            linewidth=0,
+            linewidth=0.5,
+            edgecolor="white",
             size=5,
         )
 
