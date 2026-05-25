@@ -1091,8 +1091,10 @@ def driver_stats_distplot(
             x="Driver",
             y=y,
             inner=None,
-            scale="area",
+            density_norm="area",
+            hue="Driver",
             palette=driver_colors,
+            legend=False,
             order=drivers,
         )
     else:
