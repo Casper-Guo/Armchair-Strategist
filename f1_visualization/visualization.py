@@ -295,7 +295,8 @@ def get_session_info(
         driver number.
 
     Returns:
-        A tuple containing the round number, event name, and the drivers in the specified order.
+        A tuple containing the round number, event name, the drivers in the specified order,
+        and the session object.
     """
     session = f.get_session(season, event, session_type)
     session.load(laps=False, telemetry=False, weather=False)
@@ -1094,16 +1095,19 @@ def driver_stats_distplot(
             density_norm="area",
             hue="Driver",
             palette=driver_colors,
-            legend=False,
+            hue_order=drivers,
             order=drivers,
+            legend=False,
         )
     else:
         sns.boxplot(
             data=included_laps,
             x="Driver",
             y=y,
+            hue="Driver",
             palette=driver_colors,
             order=drivers,
+            hue_order=drivers,
             whiskerprops={"color": "white"},
             boxprops={"edgecolor": "white"},
             medianprops={"color": "white"},
