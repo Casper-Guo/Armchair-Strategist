@@ -218,7 +218,7 @@
 
 [2026]
 # Source
-# https://press.pirelli.com/the-tyre-compound-selections-for-monte-carlo-and-barcelona/
+# https://press.pirelli.com/the-full-pirelli-range-for-spielberg-and-silverstone/
 
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
@@ -227,3 +227,5 @@
 5  = ["C3","C4","C5"]
 6  = ["C3","C4","C5"]
 7  = ["C2","C3","C4"]
+8  = ["C3","C4","C5"]
+9  = ["C1","C2","C3"]
