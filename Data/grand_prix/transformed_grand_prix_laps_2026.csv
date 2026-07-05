@@ -9312,3 +9312,1116 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:22:22.598000,BEA,87,72.895,68.0,3.0,,,False,MEDIUM,23.0,True,Haas F1 Team,1,14.0,True,8,Austrian Grand Prix,True,C4,True,0.038,0.052,2.521,3.582,0.596,0.824,76.009
 0 days 02:23:35.948000,BEA,87,73.35,69.0,3.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,14.0,True,8,Austrian Grand Prix,True,C4,True,0.493,0.677,2.976,4.229,0.841,1.16,76.511
 0 days 02:24:48.602000,BEA,87,72.654,70.0,3.0,,,False,MEDIUM,25.0,True,Haas F1 Team,1,14.0,True,8,Austrian Grand Prix,True,C4,True,-0.203,-0.279,2.28,3.24,0.0,0.0,75.861
+0 days 00:57:20.252000,NOR,1,100.454,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,7.0,False,9,British Grand Prix,True,C2,False,5.01,5.249,8.677,9.454,-4.227,-4.038,100.454
+0 days 00:58:55.088000,NOR,1,94.836,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,12,7.0,True,9,British Grand Prix,True,C2,False,-0.608,-0.637,3.059,3.333,-1.529,-1.587,94.899
+0 days 01:00:30.329000,NOR,1,95.241,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.203,-0.213,3.464,3.774,-1.014,-1.053,95.368
+0 days 01:02:05.445000,NOR,1,95.116,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.328,-0.344,3.339,3.638,-1.161,-1.206,95.306
+0 days 01:03:40.599000,NOR,1,95.154,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.29,-0.304,3.377,3.68,-1.28,-1.327,95.408
+0 days 01:05:15.474000,NOR,1,94.875,6.0,1.0,,,False,MEDIUM,6.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.569,-0.596,3.098,3.376,-1.533,-1.59,95.192
+0 days 01:06:50.560000,NOR,1,95.086,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.358,-0.375,3.309,3.605,-1.11,-1.154,95.467
+0 days 01:08:25.841000,NOR,1,95.281,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.163,-0.171,3.504,3.818,-1.293,-1.339,95.725
+0 days 01:10:01.461000,NOR,1,95.62,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,0.176,0.184,3.843,4.187,-0.854,-0.885,96.128
+0 days 01:11:36.747000,NOR,1,95.286,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.158,-0.166,3.509,3.823,-0.966,-1.004,95.857
+0 days 01:13:12.065000,NOR,1,95.318,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.126,-0.132,3.541,3.858,-0.873,-0.908,95.953
+0 days 01:14:47.507000,NOR,1,95.442,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.002,-0.002,3.665,3.993,-0.668,-0.695,96.14
+0 days 01:16:22.654000,NOR,1,95.147,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.297,-0.311,3.37,3.672,-1.083,-1.125,95.909
+0 days 01:17:57.744000,NOR,1,95.09,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.354,-0.371,3.313,3.61,-0.813,-0.848,95.915
+0 days 01:19:32.884000,NOR,1,95.14,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.304,-0.319,3.363,3.664,-0.713,-0.744,96.028
+0 days 01:21:08.162000,NOR,1,95.278,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,-0.166,-0.174,3.501,3.815,-0.748,-0.779,96.23
+0 days 01:22:43.878000,NOR,1,95.716,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,7.0,True,9,British Grand Prix,True,C2,True,0.272,0.285,3.939,4.292,-0.263,-0.274,96.731
+0 days 01:24:18.619000,NOR,1,94.741,18.0,1.0,,,True,MEDIUM,18.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C2,True,-0.703,-0.737,2.964,3.23,-1.144,-1.193,95.82
+0 days 01:25:53.200000,NOR,1,94.581,19.0,1.0,,,True,MEDIUM,19.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C2,True,-0.863,-0.904,2.804,3.055,-1.357,-1.414,95.723
+0 days 01:27:27.922000,NOR,1,94.722,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-0.722,-0.756,2.945,3.209,-0.953,-0.996,95.928
+0 days 01:29:02.502000,NOR,1,94.58,21.0,1.0,,,True,MEDIUM,21.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-0.864,-0.905,2.803,3.054,-1.59,-1.653,95.849
+0 days 01:30:48.168000,NOR,1,105.666,22.0,1.0,,,False,MEDIUM,22.0,True,McLaren,167,5.0,False,9,British Grand Prix,True,C2,False,10.222,10.71,13.889,15.133,1.688,1.623,106.999
+0 days 01:32:22.898000,NOR,1,94.73,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-0.714,-0.748,2.953,3.218,-0.988,-1.032,96.126
+0 days 01:33:57.780000,NOR,1,94.882,24.0,1.0,,,False,MEDIUM,24.0,True,McLaren,1,3.0,True,9,British Grand Prix,True,C2,True,-0.562,-0.589,3.105,3.383,-0.716,-0.749,96.342
+0 days 01:35:32.299000,NOR,1,94.519,25.0,1.0,,,True,MEDIUM,25.0,True,McLaren,1,3.0,True,9,British Grand Prix,True,C2,True,-0.925,-0.969,2.742,2.988,-0.521,-0.548,96.042
+0 days 01:37:07.023000,NOR,1,94.724,26.0,1.0,,,False,MEDIUM,26.0,True,McLaren,1,3.0,True,9,British Grand Prix,True,C2,True,-0.72,-0.754,2.947,3.211,-0.544,-0.571,96.311
+0 days 01:38:41.548000,NOR,1,94.525,27.0,1.0,,,False,MEDIUM,27.0,True,McLaren,1,3.0,True,9,British Grand Prix,True,C2,True,-0.919,-0.963,2.748,2.994,-0.479,-0.504,96.175
+0 days 01:40:15.839000,NOR,1,94.291,28.0,1.0,,0 days 01:40:09.952000,False,MEDIUM,28.0,True,McLaren,1,3.0,False,9,British Grand Prix,True,C2,False,-1.153,-1.208,2.514,2.739,-0.361,-0.381,96.004
+0 days 01:42:10.349000,NOR,1,114.51,29.0,2.0,0 days 01:40:38.805000,,False,HARD,1.0,True,McLaren,1,7.0,False,9,British Grand Prix,True,C1,False,19.066,19.976,22.733,24.77,19.86,20.983,116.287
+0 days 01:43:43.250000,NOR,1,92.901,30.0,2.0,,,True,HARD,2.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C1,True,-2.543,-2.664,1.124,1.225,-1.781,-1.881,94.741
+0 days 01:45:16.704000,NOR,1,93.454,31.0,2.0,,,False,HARD,3.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C1,True,-1.99,-2.085,1.677,1.827,-1.278,-1.349,95.358
+0 days 01:46:49.900000,NOR,1,93.196,32.0,2.0,,,False,HARD,4.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C1,True,-2.248,-2.355,1.419,1.546,-1.762,-1.856,95.163
+0 days 01:48:23.230000,NOR,1,93.33,33.0,2.0,,,False,HARD,5.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C1,True,-2.114,-2.215,1.553,1.692,-1.625,-1.711,95.361
+0 days 01:49:56.698000,NOR,1,93.468,34.0,2.0,,,False,HARD,6.0,True,McLaren,1,6.0,True,9,British Grand Prix,True,C1,True,-1.976,-2.07,1.691,1.843,-1.312,-1.384,95.562
+0 days 01:51:30.230000,NOR,1,93.532,35.0,2.0,,,False,HARD,7.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C1,True,-1.912,-2.003,1.755,1.912,-1.872,-1.962,95.69
+0 days 01:53:03.744000,NOR,1,93.514,36.0,2.0,,,False,HARD,8.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C1,True,-1.93,-2.022,1.737,1.893,-1.423,-1.499,95.735
+0 days 01:54:37.657000,NOR,1,93.913,37.0,2.0,,,False,HARD,9.0,True,McLaren,1,5.0,True,9,British Grand Prix,True,C1,True,-1.531,-1.604,2.136,2.327,-0.72,-0.761,96.198
+0 days 01:56:17.007000,NOR,1,99.35,38.0,2.0,,0 days 01:56:11.189000,False,HARD,10.0,True,McLaren,126,5.0,False,9,British Grand Prix,True,C1,False,3.906,4.092,7.573,8.252,-11.538,-10.405,101.698
+0 days 01:58:19.909000,NOR,1,122.902,39.0,3.0,0 days 01:56:40.908000,,False,MEDIUM,7.0,False,McLaren,671,6.0,False,9,British Grand Prix,True,C2,False,27.458,28.769,31.125,33.914,25.469,26.14,125.314
+0 days 01:59:52.668000,NOR,1,92.759,40.0,3.0,,,True,MEDIUM,8.0,False,McLaren,1,6.0,True,9,British Grand Prix,True,C2,True,-2.685,-2.813,0.982,1.07,-1.515,-1.607,95.234
+0 days 02:01:25.690000,NOR,1,93.022,41.0,3.0,,,False,MEDIUM,9.0,False,McLaren,1,6.0,True,9,British Grand Prix,True,C2,True,-2.422,-2.538,1.245,1.357,-1.347,-1.427,95.56
+0 days 02:02:58.992000,NOR,1,93.302,42.0,3.0,,,False,MEDIUM,10.0,False,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-2.142,-2.244,1.525,1.662,-0.904,-0.96,95.904
+0 days 02:04:32.159000,NOR,1,93.167,43.0,3.0,,,False,MEDIUM,11.0,False,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-2.277,-2.386,1.39,1.515,-1.409,-1.49,95.832
+0 days 02:06:04.934000,NOR,1,92.775,44.0,3.0,,,False,MEDIUM,12.0,False,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-2.669,-2.796,0.998,1.087,-1.552,-1.645,95.504
+0 days 02:07:37.559000,NOR,1,92.625,45.0,3.0,,,True,MEDIUM,13.0,False,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-2.819,-2.954,0.848,0.924,-1.514,-1.608,95.417
+0 days 02:09:10.587000,NOR,1,93.028,46.0,3.0,,,False,MEDIUM,14.0,False,McLaren,1,5.0,True,9,British Grand Prix,True,C2,True,-2.416,-2.531,1.251,1.363,-0.682,-0.728,95.884
+0 days 02:10:49.421000,NOR,1,98.834,47.0,3.0,,,False,MEDIUM,15.0,False,McLaren,124,4.0,False,9,British Grand Prix,True,C2,False,3.39,3.552,7.057,7.689,0.0,0.0,101.753
+0 days 02:12:54.026000,NOR,1,124.605,48.0,3.0,,0 days 02:12:48.076000,False,MEDIUM,16.0,False,McLaren,4,4.0,False,9,British Grand Prix,True,C2,False,29.161,30.553,32.828,35.769,-0.469,-0.375,127.588
+0 days 02:15:16.748000,NOR,1,142.722,49.0,4.0,0 days 02:13:16.680000,,False,SOFT,4.0,False,McLaren,4,4.0,False,9,British Grand Prix,True,C3,False,47.278,49.535,50.945,55.51,30.181,26.818,145.768
+0 days 02:17:41.395000,NOR,1,144.647,50.0,4.0,,,False,SOFT,5.0,False,McLaren,4,4.0,False,9,British Grand Prix,True,C3,False,49.203,51.552,52.87,57.607,37.003,34.375,147.757
+0 days 02:20:29.652000,NOR,1,,51.0,4.0,,,False,SOFT,6.0,False,McLaren,4,4.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:52.401000,NOR,1,142.749,52.0,4.0,,,False,SOFT,7.0,False,McLaren,4,4.0,False,9,British Grand Prix,True,C3,False,47.305,49.563,50.972,55.539,2.481,1.769,145.986
+0 days 00:57:24.845000,GAS,10,105.047,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,12,12.0,False,9,British Grand Prix,True,C2,False,9.603,10.061,13.27,14.459,0.366,0.35,105.047
+0 days 00:59:02.227000,GAS,10,97.382,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,12,13.0,True,9,British Grand Prix,True,C2,False,1.938,2.031,5.605,6.107,1.017,1.055,97.445
+0 days 01:00:38.249000,GAS,10,96.022,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.578,0.606,4.245,4.625,-0.233,-0.242,96.149
+0 days 01:02:14.543000,GAS,10,96.294,4.0,1.0,,,False,MEDIUM,4.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.85,0.891,4.517,4.922,0.017,0.018,96.484
+0 days 01:03:51.712000,GAS,10,97.169,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,1.725,1.807,5.392,5.875,0.735,0.762,97.423
+0 days 01:05:28.048000,GAS,10,96.336,6.0,1.0,,,False,MEDIUM,6.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.892,0.935,4.559,4.967,-0.072,-0.075,96.653
+0 days 01:07:05.104000,GAS,10,97.056,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,1.612,1.689,5.279,5.752,0.86,0.894,97.437
+0 days 01:08:42.360000,GAS,10,97.256,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,1.812,1.898,5.479,5.97,0.682,0.706,97.7
+0 days 01:10:19.247000,GAS,10,96.887,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,1.443,1.512,5.11,5.568,0.413,0.428,97.395
+0 days 01:11:55.409000,GAS,10,96.162,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.718,0.752,4.385,4.778,-0.09,-0.094,96.733
+0 days 01:13:31.634000,GAS,10,96.225,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.781,0.818,4.448,4.847,0.034,0.035,96.86
+0 days 01:15:07.799000,GAS,10,96.165,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.721,0.755,4.388,4.781,0.055,0.057,96.863
+0 days 01:16:44.249000,GAS,10,96.45,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,1.006,1.054,4.673,5.092,0.22,0.229,97.212
+0 days 01:18:20.395000,GAS,10,96.146,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.702,0.736,4.369,4.76,0.243,0.253,96.971
+0 days 01:19:56.384000,GAS,10,95.989,15.0,1.0,,,True,MEDIUM,15.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.545,0.571,4.212,4.589,0.136,0.142,96.877
+0 days 01:21:32.680000,GAS,10,96.296,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.852,0.893,4.519,4.924,0.27,0.281,97.248
+0 days 01:23:08.855000,GAS,10,96.175,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.731,0.766,4.398,4.792,0.196,0.204,97.19
+0 days 01:24:45.178000,GAS,10,96.323,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.879,0.921,4.546,4.953,0.438,0.457,97.402
+0 days 01:26:21.131000,GAS,10,95.953,19.0,1.0,,,True,MEDIUM,19.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.509,0.533,4.176,4.55,0.015,0.016,97.095
+0 days 01:27:56.806000,GAS,10,95.675,20.0,1.0,,,True,MEDIUM,20.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C2,True,0.231,0.242,3.898,4.247,0.0,0.0,96.881
+0 days 01:29:36.784000,GAS,10,99.978,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,16,11.0,False,9,British Grand Prix,True,C2,False,4.534,4.75,8.201,8.936,3.808,3.96,101.247
+0 days 01:31:18.405000,GAS,10,101.621,22.0,1.0,,,False,MEDIUM,22.0,True,Alpine,671,11.0,False,9,British Grand Prix,True,C2,False,6.177,6.472,9.844,10.726,-2.357,-2.267,102.954
+0 days 01:32:53.793000,GAS,10,95.388,23.0,1.0,,0 days 01:32:47.855000,False,MEDIUM,23.0,True,Alpine,1,11.0,False,9,British Grand Prix,True,C2,False,-0.056,-0.059,3.611,3.935,-0.33,-0.345,96.784
+0 days 01:34:56.200000,GAS,10,122.407,24.0,2.0,0 days 01:33:21.573000,,False,HARD,1.0,True,Alpine,1,14.0,False,9,British Grand Prix,True,C1,False,26.963,28.25,30.63,33.374,26.809,28.043,123.867
+0 days 01:36:30.776000,GAS,10,94.576,25.0,2.0,,,True,HARD,2.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C1,True,-0.868,-0.909,2.799,3.05,-0.464,-0.488,96.099
+0 days 01:38:06.390000,GAS,10,95.614,26.0,2.0,,,False,HARD,3.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C1,True,0.17,0.178,3.837,4.181,0.346,0.363,97.201
+0 days 01:39:41.121000,GAS,10,94.731,27.0,2.0,,,False,HARD,4.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.713,-0.747,2.954,3.219,-0.273,-0.287,96.381
+0 days 01:41:15.739000,GAS,10,94.618,28.0,2.0,,,False,HARD,5.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.826,-0.865,2.841,3.096,-0.034,-0.036,96.331
+0 days 01:42:50.176000,GAS,10,94.437,29.0,2.0,,,True,HARD,6.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-1.007,-1.055,2.66,2.898,-0.213,-0.225,96.214
+0 days 01:44:24.795000,GAS,10,94.619,30.0,2.0,,,False,HARD,7.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.825,-0.864,2.842,3.097,-0.063,-0.067,96.459
+0 days 01:45:59.516000,GAS,10,94.721,31.0,2.0,,,False,HARD,8.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.723,-0.758,2.944,3.208,-0.011,-0.012,96.625
+0 days 01:47:34.579000,GAS,10,95.063,32.0,2.0,,,False,HARD,9.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.381,-0.399,3.286,3.58,0.105,0.111,97.03
+0 days 01:49:09.542000,GAS,10,94.963,33.0,2.0,,,False,HARD,10.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.481,-0.504,3.186,3.471,0.008,0.008,96.994
+0 days 01:50:44.538000,GAS,10,94.996,34.0,2.0,,,False,HARD,11.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.448,-0.469,3.219,3.507,0.216,0.228,97.09
+0 days 01:52:20.096000,GAS,10,95.558,35.0,2.0,,,False,HARD,12.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,0.114,0.119,3.781,4.12,0.154,0.161,97.716
+0 days 01:53:55.033000,GAS,10,94.937,36.0,2.0,,,False,HARD,13.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.507,-0.531,3.16,3.443,0.0,0.0,97.158
+0 days 01:55:29.894000,GAS,10,94.861,37.0,2.0,,,False,HARD,14.0,True,Alpine,12,12.0,True,9,British Grand Prix,True,C1,False,-0.583,-0.611,3.084,3.36,0.228,0.241,97.146
+0 days 01:57:27.781000,GAS,10,117.887,38.0,2.0,,,False,HARD,15.0,True,Alpine,2671,12.0,False,9,British Grand Prix,True,C1,False,22.443,23.514,26.11,28.449,6.999,6.312,120.235
+0 days 01:59:02.303000,GAS,10,94.522,39.0,2.0,,,False,HARD,16.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.922,-0.966,2.745,2.991,-2.911,-2.988,96.934
+0 days 02:00:36.758000,GAS,10,94.455,40.0,2.0,,,False,HARD,17.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.989,-1.036,2.678,2.918,0.181,0.192,96.93
+0 days 02:02:11.070000,GAS,10,94.312,41.0,2.0,,,True,HARD,18.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-1.132,-1.186,2.535,2.762,-0.057,-0.06,96.85
+0 days 02:03:45.373000,GAS,10,94.303,42.0,2.0,,,True,HARD,19.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-1.141,-1.195,2.526,2.752,0.097,0.103,96.905
+0 days 02:05:19.760000,GAS,10,94.387,43.0,2.0,,,False,HARD,20.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-1.057,-1.107,2.61,2.844,-0.189,-0.2,97.052
+0 days 02:06:53.939000,GAS,10,94.179,44.0,2.0,,,True,HARD,21.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-1.265,-1.325,2.402,2.617,-0.148,-0.157,96.908
+0 days 02:08:28.449000,GAS,10,94.51,45.0,2.0,,,False,HARD,22.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,-0.934,-0.979,2.733,2.978,0.371,0.394,97.302
+0 days 02:10:04.427000,GAS,10,95.978,46.0,2.0,,,False,HARD,23.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C1,True,0.534,0.559,4.201,4.577,2.268,2.42,98.834
+0 days 02:12:01.332000,GAS,10,116.905,47.0,2.0,,,False,HARD,24.0,True,Alpine,124,11.0,False,9,British Grand Prix,True,C1,False,21.461,22.485,25.128,27.379,18.071,18.284,119.824
+0 days 02:14:03.684000,GAS,10,122.352,48.0,2.0,,0 days 02:13:57.856000,False,HARD,25.0,True,Alpine,4,10.0,False,9,British Grand Prix,True,C1,False,26.908,28.192,30.575,33.314,-2.722,-2.176,125.335
+0 days 02:16:10.664000,GAS,10,126.98,49.0,3.0,0 days 02:14:26.561000,,False,SOFT,1.0,True,Alpine,4,11.0,False,9,British Grand Prix,True,C3,False,31.536,33.041,35.203,38.357,14.439,12.83,130.026
+0 days 02:17:54.003000,GAS,10,103.339,50.0,3.0,,,False,SOFT,2.0,True,Alpine,4,11.0,False,9,British Grand Prix,True,C3,False,7.895,8.272,11.562,12.598,-4.305,-3.999,106.449
+0 days 02:20:35.098000,GAS,10,,51.0,3.0,,,False,SOFT,3.0,True,Alpine,4,11.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:54.678000,GAS,10,139.58,52.0,3.0,,,False,SOFT,4.0,True,Alpine,4,11.0,False,9,British Grand Prix,True,C3,False,44.136,46.243,47.803,52.086,-0.688,-0.49,142.817
+0 days 00:57:26.385000,PER,11,106.587,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,12,17.0,False,9,British Grand Prix,True,C2,False,11.143,11.675,14.81,16.137,1.906,1.821,106.587
+0 days 00:59:04.166000,PER,11,97.781,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,12,15.0,True,9,British Grand Prix,True,C2,False,2.337,2.449,6.004,6.542,1.416,1.469,97.844
+0 days 01:00:41.100000,PER,11,96.934,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.49,1.561,5.157,5.619,0.679,0.705,97.061
+0 days 01:02:18.332000,PER,11,97.232,4.0,1.0,,,False,MEDIUM,4.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.788,1.873,5.455,5.944,0.955,0.992,97.422
+0 days 01:03:55.561000,PER,11,97.229,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.785,1.87,5.452,5.94,0.795,0.824,97.483
+0 days 01:05:32.501000,PER,11,96.94,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.496,1.567,5.163,5.626,0.532,0.552,97.257
+0 days 01:07:09.812000,PER,11,97.311,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.867,1.956,5.534,6.03,1.115,1.159,97.692
+0 days 01:08:47.352000,PER,11,97.54,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,2.096,2.196,5.763,6.279,0.966,1.0,97.984
+0 days 01:10:25.014000,PER,11,97.662,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,2.218,2.324,5.885,6.412,1.188,1.231,98.17
+0 days 01:12:02.787000,PER,11,97.773,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,2.329,2.44,5.996,6.533,1.521,1.58,98.344
+0 days 01:13:40.332000,PER,11,97.545,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,2.101,2.201,5.768,6.285,1.354,1.408,98.18
+0 days 01:15:18.157000,PER,11,97.825,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,2.381,2.495,6.048,6.59,1.715,1.784,98.523
+0 days 01:16:55.451000,PER,11,97.294,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.85,1.938,5.517,6.011,1.064,1.106,98.056
+0 days 01:18:32.607000,PER,11,97.156,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.712,1.794,5.379,5.861,1.253,1.307,97.981
+0 days 01:20:09.582000,PER,11,96.975,15.0,1.0,,,False,MEDIUM,15.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.531,1.604,5.198,5.664,1.122,1.171,97.863
+0 days 01:21:46.847000,PER,11,97.265,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.821,1.908,5.488,5.98,1.239,1.29,98.217
+0 days 01:23:23.794000,PER,11,96.947,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.503,1.575,5.17,5.633,0.968,1.009,97.962
+0 days 01:25:01.371000,PER,11,97.577,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,2.133,2.235,5.8,6.32,1.692,1.765,98.656
+0 days 01:26:38.465000,PER,11,97.094,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.65,1.729,5.317,5.793,1.156,1.205,98.236
+0 days 01:28:15.186000,PER,11,96.721,20.0,1.0,,,True,MEDIUM,20.0,True,Cadillac,1,15.0,True,9,British Grand Prix,True,C2,True,1.277,1.338,4.944,5.387,1.046,1.093,97.927
+0 days 01:30:01.549000,PER,11,106.363,21.0,1.0,,0 days 01:29:55.685000,False,MEDIUM,21.0,True,Cadillac,167,14.0,False,9,British Grand Prix,True,C2,False,10.919,11.44,14.586,15.893,10.193,10.599,107.632
+0 days 01:31:59.004000,PER,11,117.455,22.0,2.0,0 days 01:30:25.008000,,False,HARD,1.0,True,Cadillac,1,18.0,False,9,British Grand Prix,True,C1,False,22.011,23.062,25.678,27.979,13.477,12.961,118.788
+0 days 01:33:36.500000,PER,11,97.496,23.0,2.0,,,False,HARD,2.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,2.052,2.15,5.719,6.231,1.778,1.858,98.892
+0 days 01:35:13.686000,PER,11,97.186,24.0,2.0,,,False,HARD,3.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.742,1.825,5.409,5.894,1.588,1.661,98.646
+0 days 01:36:49.512000,PER,11,95.826,25.0,2.0,,,True,HARD,4.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.382,0.4,4.049,4.412,0.786,0.827,97.349
+0 days 01:38:25.173000,PER,11,95.661,26.0,2.0,,,True,HARD,5.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.217,0.227,3.884,4.232,0.393,0.413,97.248
+0 days 01:40:01.997000,PER,11,96.824,27.0,2.0,,,False,HARD,6.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.38,1.446,5.047,5.499,1.82,1.916,98.474
+0 days 01:41:38.531000,PER,11,96.534,28.0,2.0,,,False,HARD,7.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.09,1.142,4.757,5.183,1.882,1.988,98.247
+0 days 01:43:15.534000,PER,11,97.003,29.0,2.0,,,False,HARD,8.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.559,1.633,5.226,5.694,2.353,2.486,98.78
+0 days 01:44:51.923000,PER,11,96.389,30.0,2.0,,,False,HARD,9.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.945,0.99,4.612,5.025,1.707,1.803,98.229
+0 days 01:46:28.589000,PER,11,96.666,31.0,2.0,,,False,HARD,10.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.222,1.28,4.889,5.327,1.934,2.042,98.57
+0 days 01:48:04.881000,PER,11,96.292,32.0,2.0,,,False,HARD,11.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,0.848,0.888,4.515,4.92,1.334,1.405,98.259
+0 days 01:49:41.284000,PER,11,96.403,33.0,2.0,,,False,HARD,12.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,0.959,1.005,4.626,5.04,1.448,1.525,98.434
+0 days 01:51:19.860000,PER,11,98.576,34.0,2.0,,,False,HARD,13.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,3.132,3.282,6.799,7.408,3.796,4.005,100.67
+0 days 01:52:56.357000,PER,11,96.497,35.0,2.0,,,False,HARD,14.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.053,1.103,4.72,5.143,1.093,1.146,98.655
+0 days 01:54:32.814000,PER,11,96.457,36.0,2.0,,,False,HARD,15.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.013,1.061,4.68,5.099,1.52,1.601,98.678
+0 days 01:56:16.304000,PER,11,103.49,37.0,2.0,,,False,HARD,16.0,True,Cadillac,126,17.0,False,9,British Grand Prix,True,C1,False,8.046,8.43,11.713,12.762,8.857,9.359,105.775
+0 days 01:58:06.918000,PER,11,110.614,38.0,2.0,,,False,HARD,17.0,True,Cadillac,671,17.0,False,9,British Grand Prix,True,C1,False,15.17,15.894,18.837,20.525,-0.274,-0.247,112.962
+0 days 01:59:43.716000,PER,11,96.798,39.0,2.0,,,False,HARD,18.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,1.354,1.419,5.021,5.471,-0.635,-0.652,99.21
+0 days 02:01:21.012000,PER,11,97.296,40.0,2.0,,,False,HARD,19.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,1.852,1.94,5.519,6.013,3.022,3.206,99.771
+0 days 02:02:56.725000,PER,11,95.713,41.0,2.0,,,False,HARD,20.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.269,0.282,3.936,4.289,1.344,1.424,98.251
+0 days 02:04:35.006000,PER,11,98.281,42.0,2.0,,,False,HARD,21.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,2.837,2.972,6.504,7.087,4.075,4.326,100.883
+0 days 02:06:10.563000,PER,11,95.557,43.0,2.0,,,True,HARD,22.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.113,0.118,3.78,4.119,0.981,1.037,98.222
+0 days 02:07:46.083000,PER,11,95.52,44.0,2.0,,,True,HARD,23.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,0.076,0.08,3.743,4.078,1.193,1.265,98.249
+0 days 02:09:22.955000,PER,11,96.872,45.0,2.0,,,False,HARD,24.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C1,True,1.428,1.496,5.095,5.551,2.733,2.903,99.664
+0 days 02:11:04.101000,PER,11,101.146,46.0,2.0,,0 days 02:10:58.215000,False,HARD,25.0,True,Cadillac,124,17.0,False,9,British Grand Prix,True,C1,False,5.702,5.974,9.369,10.208,7.436,7.935,104.002
+0 days 02:13:28.995000,PER,11,144.894,47.0,3.0,0 days 02:11:28.023000,,False,SOFT,1.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,49.45,51.81,53.117,57.876,46.06,46.603,147.813
+0 days 02:15:29.242000,PER,11,120.247,48.0,3.0,,,False,SOFT,2.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,24.803,25.987,28.47,31.021,-4.827,-3.859,123.23
+0 days 02:17:45.744000,PER,11,136.502,49.0,3.0,,,False,SOFT,3.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,41.058,43.018,44.725,48.732,23.961,21.291,139.548
+0 days 02:19:34.551000,PER,11,108.807,50.0,3.0,,,False,SOFT,4.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,13.363,14.001,17.03,18.556,1.163,1.08,111.917
+0 days 02:21:13.307000,PER,11,98.756,51.0,3.0,,,False,SOFT,5.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,3.312,3.47,6.979,7.604,1.356,1.392,101.929
+0 days 02:22:58.536000,PER,11,105.229,52.0,3.0,,,False,SOFT,6.0,True,Cadillac,4,16.0,False,9,British Grand Prix,True,C3,False,9.785,10.252,13.452,14.657,-35.039,-24.98,108.466
+0 days 00:57:17.245000,ANT,12,97.447,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,12,3.0,False,9,British Grand Prix,True,C2,False,2.003,2.099,5.67,6.178,-7.234,-6.911,97.447
+0 days 00:58:51.659000,ANT,12,94.414,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,12,3.0,True,9,British Grand Prix,True,C2,False,-1.03,-1.079,2.637,2.873,-1.951,-2.025,94.477
+0 days 01:00:25.709000,ANT,12,94.05,3.0,1.0,,,True,MEDIUM,3.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-1.394,-1.461,2.273,2.477,-2.205,-2.291,94.177
+0 days 01:02:00.082000,ANT,12,94.373,4.0,1.0,,,False,MEDIUM,4.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-1.071,-1.122,2.596,2.829,-1.904,-1.978,94.563
+0 days 01:03:34.833000,ANT,12,94.751,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.693,-0.726,2.974,3.24,-1.683,-1.745,95.005
+0 days 01:05:09.297000,ANT,12,94.464,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.98,-1.027,2.687,2.928,-1.944,-2.016,94.781
+0 days 01:06:43.774000,ANT,12,94.477,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.967,-1.013,2.7,2.942,-1.719,-1.787,94.858
+0 days 01:08:18.514000,ANT,12,94.74,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.704,-0.738,2.963,3.228,-1.834,-1.899,95.184
+0 days 01:09:53.479000,ANT,12,94.965,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.479,-0.502,3.188,3.474,-1.509,-1.564,95.473
+0 days 01:11:28.496000,ANT,12,95.017,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,3.0,True,9,British Grand Prix,True,C2,True,-0.427,-0.447,3.24,3.53,-1.235,-1.283,95.588
+0 days 01:13:02.772000,ANT,12,94.276,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.168,-1.224,2.499,2.723,-1.915,-1.991,94.911
+0 days 01:14:37.260000,ANT,12,94.488,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-0.956,-1.002,2.711,2.954,-1.622,-1.688,95.186
+0 days 01:16:11.852000,ANT,12,94.592,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-0.852,-0.893,2.815,3.067,-1.638,-1.702,95.354
+0 days 01:17:45.969000,ANT,12,94.117,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.327,-1.39,2.34,2.55,-1.786,-1.862,94.942
+0 days 01:19:19.879000,ANT,12,93.91,15.0,1.0,,,True,MEDIUM,15.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.534,-1.607,2.133,2.324,-1.943,-2.027,94.798
+0 days 01:20:54.169000,ANT,12,94.29,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.154,-1.209,2.513,2.738,-1.736,-1.808,95.242
+0 days 01:22:28.713000,ANT,12,94.544,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-0.9,-0.943,2.767,3.015,-1.435,-1.495,95.559
+0 days 01:24:02.972000,ANT,12,94.259,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.185,-1.242,2.482,2.704,-1.626,-1.696,95.338
+0 days 01:25:37.240000,ANT,12,94.268,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.176,-1.232,2.491,2.714,-1.67,-1.741,95.41
+0 days 01:27:11.306000,ANT,12,94.066,20.0,1.0,,,False,MEDIUM,20.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.378,-1.444,2.289,2.494,-1.609,-1.682,95.272
+0 days 01:28:45.384000,ANT,12,94.078,21.0,1.0,,,False,MEDIUM,21.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.366,-1.431,2.301,2.507,-2.092,-2.175,95.347
+0 days 01:30:29.752000,ANT,12,104.368,22.0,1.0,,,False,MEDIUM,22.0,True,Mercedes,167,2.0,False,9,British Grand Prix,True,C2,False,8.924,9.35,12.591,13.719,0.39,0.375,105.701
+0 days 01:32:03.666000,ANT,12,93.914,23.0,1.0,,,False,MEDIUM,23.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.53,-1.603,2.137,2.328,-1.804,-1.885,95.31
+0 days 01:33:37.621000,ANT,12,93.955,24.0,1.0,,,False,MEDIUM,24.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.489,-1.56,2.178,2.373,-1.643,-1.719,95.415
+0 days 01:35:11.622000,ANT,12,94.001,25.0,1.0,,,False,MEDIUM,25.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C2,True,-1.443,-1.512,2.224,2.423,-1.039,-1.093,95.524
+0 days 01:36:45.573000,ANT,12,93.951,26.0,1.0,,,False,MEDIUM,26.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.493,-1.564,2.174,2.369,-1.317,-1.382,95.538
+0 days 01:38:19.259000,ANT,12,93.686,27.0,1.0,,,True,MEDIUM,27.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.758,-1.842,1.909,2.08,-1.318,-1.387,95.336
+0 days 01:39:52.779000,ANT,12,93.52,28.0,1.0,,,True,MEDIUM,28.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.924,-2.016,1.743,1.899,-1.132,-1.196,95.233
+0 days 01:41:26.246000,ANT,12,93.467,29.0,1.0,,,True,MEDIUM,29.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.977,-2.071,1.69,1.841,-1.183,-1.25,95.244
+0 days 01:42:59.966000,ANT,12,93.72,30.0,1.0,,,False,MEDIUM,30.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.724,-1.806,1.943,2.117,-0.962,-1.016,95.56
+0 days 01:44:33.738000,ANT,12,93.772,31.0,1.0,,,False,MEDIUM,31.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.672,-1.752,1.995,2.174,-0.96,-1.013,95.676
+0 days 01:46:07.189000,ANT,12,93.451,32.0,1.0,,,True,MEDIUM,32.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.993,-2.088,1.674,1.824,-1.507,-1.587,95.418
+0 days 01:47:40.790000,ANT,12,93.601,33.0,1.0,,,False,MEDIUM,33.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.843,-1.931,1.824,1.987,-1.354,-1.426,95.632
+0 days 01:49:14.515000,ANT,12,93.725,34.0,1.0,,,False,MEDIUM,34.0,True,Mercedes,1,1.0,True,9,British Grand Prix,True,C2,True,-1.719,-1.801,1.948,2.123,-1.055,-1.113,95.819
+0 days 01:50:47.491000,ANT,12,92.976,35.0,1.0,,0 days 01:50:41.665000,False,MEDIUM,35.0,True,Mercedes,1,1.0,False,9,British Grand Prix,True,C2,False,-2.468,-2.586,1.199,1.306,-2.428,-2.545,95.134
+0 days 01:52:41.301000,ANT,12,113.81,36.0,2.0,0 days 01:51:10.427000,,False,HARD,1.0,True,Mercedes,1,2.0,False,9,British Grand Prix,True,C1,False,18.366,19.243,22.033,24.007,18.873,19.879,116.031
+0 days 01:54:13.078000,ANT,12,91.777,37.0,2.0,,,True,HARD,2.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C1,True,-3.667,-3.842,0.0,0.0,-2.856,-3.018,94.062
+0 days 01:55:45.227000,ANT,12,92.149,38.0,2.0,,,False,HARD,3.0,True,Mercedes,12,2.0,True,9,British Grand Prix,True,C1,False,-3.295,-3.452,0.372,0.405,-18.739,-16.899,94.497
+0 days 01:57:42.598000,ANT,12,117.371,39.0,2.0,,,False,HARD,4.0,True,Mercedes,2671,2.0,False,9,British Grand Prix,True,C1,False,21.927,22.974,25.594,27.887,19.938,20.463,119.783
+0 days 01:59:14.502000,ANT,12,91.904,40.0,2.0,,,False,HARD,5.0,True,Mercedes,1,2.0,True,9,British Grand Prix,True,C1,True,-3.54,-3.709,0.127,0.138,-2.37,-2.514,94.379
+0 days 02:00:51.618000,ANT,12,97.116,41.0,2.0,,0 days 02:00:45.678000,False,HARD,6.0,True,Mercedes,1,2.0,False,9,British Grand Prix,True,C1,False,1.672,1.752,5.339,5.817,2.747,2.911,99.654
+0 days 02:03:09.400000,ANT,12,137.782,42.0,3.0,0 days 02:01:27.046000,,False,MEDIUM,7.0,False,Mercedes,1,6.0,False,9,British Grand Prix,True,C2,False,42.338,44.359,46.005,50.127,43.576,46.256,140.384
+0 days 02:04:49.272000,ANT,12,99.872,43.0,3.0,,0 days 02:04:43.382000,False,MEDIUM,8.0,False,Mercedes,1,7.0,False,9,British Grand Prix,True,C2,False,4.428,4.639,8.095,8.82,5.296,5.6,102.537
+0 days 02:06:50.588000,ANT,12,121.316,44.0,4.0,0 days 02:05:17.152000,,False,MEDIUM,9.0,False,Mercedes,1,10.0,False,9,British Grand Prix,True,C2,False,25.872,27.107,29.539,32.186,26.989,28.612,124.045
+0 days 02:08:24.400000,ANT,12,93.812,45.0,4.0,,,False,MEDIUM,10.0,False,Mercedes,1,10.0,True,9,British Grand Prix,True,C2,True,-1.632,-1.71,2.035,2.217,-0.327,-0.347,96.604
+0 days 02:09:57.903000,ANT,12,93.503,46.0,4.0,,,False,MEDIUM,11.0,False,Mercedes,1,10.0,True,9,British Grand Prix,True,C2,True,-1.941,-2.034,1.726,1.881,-0.207,-0.221,96.359
+0 days 02:11:50.725000,ANT,12,112.822,47.0,4.0,,,False,MEDIUM,12.0,False,Mercedes,124,9.0,False,9,British Grand Prix,True,C2,False,17.378,18.208,21.045,22.931,13.988,14.153,115.741
+0 days 02:13:55.799000,ANT,12,125.074,48.0,4.0,,,False,MEDIUM,13.0,False,Mercedes,4,9.0,False,9,British Grand Prix,True,C2,False,29.63,31.044,33.297,36.28,0.0,0.0,128.057
+0 days 02:15:38.238000,ANT,12,102.439,49.0,4.0,,,False,MEDIUM,14.0,False,Mercedes,4,9.0,False,9,British Grand Prix,True,C2,False,6.995,7.329,10.662,11.617,-10.102,-8.976,105.485
+0 days 02:17:50.501000,ANT,12,132.263,50.0,4.0,,,False,MEDIUM,15.0,False,Mercedes,4,9.0,False,9,British Grand Prix,True,C2,False,36.819,38.577,40.486,44.113,24.619,22.871,135.373
+0 days 02:20:33.989000,ANT,12,,51.0,4.0,,,False,MEDIUM,16.0,False,Mercedes,4,9.0,False,9,British Grand Prix,True,C2,False,,,,,,,
+0 days 02:22:54.257000,ANT,12,140.268,52.0,4.0,,,False,MEDIUM,17.0,False,Mercedes,4,9.0,False,9,British Grand Prix,True,C2,False,44.824,46.964,48.491,52.836,0.0,0.0,143.505
+0 days 00:57:30.893000,ALO,14,111.095,1.0,1.0,0 days 00:55:53.184000,,False,MEDIUM,1.0,True,Aston Martin,12,21.0,False,9,British Grand Prix,True,C2,False,15.651,16.398,19.318,21.049,6.414,6.127,111.095
+0 days 00:59:10.924000,ALO,14,100.031,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,12,20.0,True,9,British Grand Prix,True,C2,False,4.587,4.806,8.254,8.994,3.666,3.804,100.094
+0 days 01:00:49.556000,ALO,14,98.632,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.188,3.34,6.855,7.469,2.377,2.469,98.759
+0 days 01:02:28.331000,ALO,14,98.775,4.0,1.0,,,False,MEDIUM,4.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.331,3.49,6.998,7.625,2.498,2.595,98.965
+0 days 01:04:07.264000,ALO,14,98.933,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.489,3.656,7.156,7.797,2.499,2.591,99.187
+0 days 01:05:46.054000,ALO,14,98.79,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.346,3.506,7.013,7.641,2.382,2.471,99.107
+0 days 01:07:24.438000,ALO,14,98.384,7.0,1.0,,,True,MEDIUM,7.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,2.94,3.08,6.607,7.199,2.188,2.275,98.765
+0 days 01:09:03.230000,ALO,14,98.792,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.348,3.508,7.015,7.644,2.218,2.297,99.236
+0 days 01:10:42.702000,ALO,14,99.472,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,4.028,4.22,7.695,8.384,2.998,3.108,99.98
+0 days 01:12:21.795000,ALO,14,99.093,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.649,3.823,7.316,7.971,2.841,2.952,99.664
+0 days 01:14:00.798000,ALO,14,99.003,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.559,3.729,7.226,7.873,2.812,2.923,99.638
+0 days 01:15:39.934000,ALO,14,99.136,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.692,3.868,7.359,8.018,3.026,3.148,99.834
+0 days 01:17:18.811000,ALO,14,98.877,13.0,1.0,,,False,MEDIUM,13.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.433,3.597,7.1,7.736,2.647,2.751,99.639
+0 days 01:18:57.897000,ALO,14,99.086,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.642,3.816,7.309,7.964,3.183,3.319,99.911
+0 days 01:20:37.348000,ALO,14,99.451,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C2,True,4.007,4.198,7.674,8.362,3.598,3.754,100.339
+0 days 01:22:16.558000,ALO,14,99.21,16.0,1.0,,,False,MEDIUM,16.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C2,True,3.766,3.946,7.433,8.099,3.184,3.316,100.162
+0 days 01:23:55.900000,ALO,14,99.342,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C2,True,3.898,4.084,7.565,8.243,3.363,3.504,100.357
+0 days 01:25:35.210000,ALO,14,99.31,18.0,1.0,,,False,MEDIUM,18.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C2,True,3.866,4.051,7.533,8.208,3.425,3.572,100.389
+0 days 01:27:14.625000,ALO,14,99.415,19.0,1.0,,,False,MEDIUM,19.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.971,4.161,7.638,8.322,3.477,3.624,100.557
+0 days 01:28:53.174000,ALO,14,98.549,20.0,1.0,,0 days 01:28:47.379000,False,MEDIUM,20.0,True,Aston Martin,1,20.0,False,9,British Grand Prix,True,C2,False,3.105,3.253,6.772,7.379,2.874,3.004,99.755
+0 days 01:30:58.883000,ALO,14,125.709,21.0,2.0,0 days 01:29:15.986000,,False,HARD,1.0,True,Aston Martin,167,21.0,False,9,British Grand Prix,True,C1,False,30.265,31.71,33.932,36.972,29.539,30.715,126.978
+0 days 01:32:36.297000,ALO,14,97.414,22.0,2.0,,,True,HARD,2.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.97,2.064,5.637,6.142,-6.564,-6.313,98.747
+0 days 01:34:13.701000,ALO,14,97.404,23.0,2.0,,,True,HARD,3.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.96,2.054,5.627,6.131,1.686,1.761,98.8
+0 days 01:35:53.623000,ALO,14,99.922,24.0,2.0,,,False,HARD,4.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,4.478,4.692,8.145,8.875,4.324,4.523,101.382
+0 days 01:37:32.318000,ALO,14,98.695,25.0,2.0,,,False,HARD,5.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,3.251,3.406,6.918,7.538,3.655,3.846,100.218
+0 days 01:39:09.693000,ALO,14,97.375,26.0,2.0,,,True,HARD,6.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.931,2.023,5.598,6.1,2.107,2.212,98.962
+0 days 01:40:47.429000,ALO,14,97.736,27.0,2.0,,,False,HARD,7.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.292,2.401,5.959,6.493,2.732,2.876,99.386
+0 days 01:42:25.472000,ALO,14,98.043,28.0,2.0,,,False,HARD,8.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.599,2.723,6.266,6.827,3.391,3.583,99.756
+0 days 01:44:03.006000,ALO,14,97.534,29.0,2.0,,,False,HARD,9.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.09,2.19,5.757,6.273,2.884,3.047,99.311
+0 days 01:45:40.550000,ALO,14,97.544,30.0,2.0,,,False,HARD,10.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.1,2.2,5.767,6.284,2.862,3.023,99.384
+0 days 01:47:20.696000,ALO,14,100.146,31.0,2.0,,,False,HARD,11.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,4.702,4.926,8.369,9.119,5.414,5.715,102.05
+0 days 01:48:58.541000,ALO,14,97.845,32.0,2.0,,,False,HARD,12.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.401,2.516,6.068,6.612,2.887,3.04,99.812
+0 days 01:50:36.061000,ALO,14,97.52,33.0,2.0,,,False,HARD,13.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.076,2.175,5.743,6.258,2.565,2.701,99.551
+0 days 01:52:13.952000,ALO,14,97.891,34.0,2.0,,,False,HARD,14.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.447,2.564,6.114,6.662,3.111,3.282,99.985
+0 days 01:53:52.712000,ALO,14,98.76,35.0,2.0,,,False,HARD,15.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,3.316,3.474,6.983,7.609,3.356,3.518,100.918
+0 days 01:55:31.876000,ALO,14,99.164,36.0,2.0,,,False,HARD,16.0,True,Aston Martin,12,20.0,True,9,British Grand Prix,True,C1,False,3.72,3.898,7.387,8.049,4.227,4.452,101.385
+0 days 01:57:30.881000,ALO,14,119.005,37.0,2.0,,,False,HARD,17.0,True,Aston Martin,2671,19.0,False,9,British Grand Prix,True,C1,False,23.561,24.686,27.228,29.668,24.372,25.754,121.29
+0 days 01:59:08.211000,ALO,14,97.33,38.0,2.0,,,True,HARD,18.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,1.886,1.976,5.553,6.051,-13.558,-12.227,99.678
+0 days 02:00:46.910000,ALO,14,98.699,39.0,2.0,,,False,HARD,19.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,3.255,3.41,6.922,7.542,1.266,1.299,101.111
+0 days 02:02:24.453000,ALO,14,97.543,40.0,2.0,,,False,HARD,20.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,2.099,2.199,5.766,6.283,3.269,3.468,100.018
+0 days 02:04:01.148000,ALO,14,96.695,41.0,2.0,,,True,HARD,21.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,1.251,1.311,4.918,5.359,2.326,2.465,99.233
+0 days 02:05:38.250000,ALO,14,97.102,42.0,2.0,,,False,HARD,22.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,1.658,1.737,5.325,5.802,2.896,3.074,99.704
+0 days 02:07:15.510000,ALO,14,97.26,43.0,2.0,,,False,HARD,23.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,1.816,1.903,5.483,5.974,2.684,2.838,99.925
+0 days 02:08:54.901000,ALO,14,99.391,44.0,2.0,,,False,HARD,24.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C1,True,3.947,4.135,7.614,8.296,5.064,5.369,102.12
+0 days 02:10:34.278000,ALO,14,99.377,45.0,2.0,,,False,HARD,25.0,True,Aston Martin,12,19.0,True,9,British Grand Prix,True,C1,False,3.933,4.121,7.6,8.281,5.238,5.564,102.169
+0 days 02:12:39.054000,ALO,14,124.776,46.0,2.0,,0 days 02:12:33.194000,False,HARD,26.0,True,Aston Martin,24,19.0,False,9,British Grand Prix,True,C1,False,29.332,30.732,32.999,35.956,31.066,33.151,127.632
+0 days 02:15:02.086000,ALO,14,143.032,47.0,3.0,0 days 02:13:03.089000,,False,SOFT,1.0,True,Aston Martin,4,18.0,False,9,British Grand Prix,True,C3,False,47.588,49.86,51.255,55.847,44.198,44.719,145.951
+0 days 02:17:39.933000,ALO,14,,48.0,3.0,,,False,SOFT,2.0,True,Aston Martin,4,18.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:19:22.601000,ALO,14,102.668,49.0,3.0,,,False,SOFT,3.0,True,Aston Martin,4,18.0,False,9,British Grand Prix,True,C3,False,7.224,7.569,10.891,11.867,-9.873,-8.773,105.714
+0 days 02:20:58.428000,ALO,14,95.827,50.0,3.0,,,True,SOFT,4.0,True,Aston Martin,4,18.0,False,9,British Grand Prix,True,C3,False,0.383,0.401,4.05,4.413,-11.817,-10.978,98.937
+0 days 02:22:56.107000,ALO,14,117.679,51.0,3.0,,,False,SOFT,5.0,True,Aston Martin,4,18.0,False,9,British Grand Prix,True,C3,False,22.235,23.296,25.902,28.223,20.279,20.82,120.852
+0 days 00:57:16.073000,LEC,16,96.275,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,12,1.0,False,9,British Grand Prix,True,C2,False,0.831,0.871,4.498,4.901,-8.406,-8.03,96.275
+0 days 00:58:49.989000,LEC,16,93.916,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,12,1.0,True,9,British Grand Prix,True,C2,False,-1.528,-1.601,2.139,2.331,-2.449,-2.541,93.979
+0 days 01:00:23.984000,LEC,16,93.995,3.0,1.0,,,False,MEDIUM,3.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.449,-1.518,2.218,2.417,-2.26,-2.348,94.122
+0 days 01:01:57.721000,LEC,16,93.737,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.707,-1.788,1.96,2.136,-2.54,-2.638,93.927
+0 days 01:03:32.041000,LEC,16,94.32,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.124,-1.178,2.543,2.771,-2.114,-2.192,94.574
+0 days 01:05:06.110000,LEC,16,94.069,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.375,-1.441,2.292,2.497,-2.339,-2.426,94.386
+0 days 01:06:40.770000,LEC,16,94.66,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.784,-0.821,2.883,3.141,-1.536,-1.597,95.041
+0 days 01:08:15.112000,LEC,16,94.342,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.102,-1.155,2.565,2.795,-2.232,-2.311,94.786
+0 days 01:09:49.564000,LEC,16,94.452,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.992,-1.039,2.675,2.915,-2.022,-2.096,94.96
+0 days 01:11:23.866000,LEC,16,94.302,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.142,-1.197,2.525,2.751,-1.95,-2.026,94.873
+0 days 01:12:58.480000,LEC,16,94.614,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.83,-0.87,2.837,3.091,-1.577,-1.639,95.249
+0 days 01:14:32.826000,LEC,16,94.346,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.098,-1.15,2.569,2.799,-1.764,-1.835,95.044
+0 days 01:16:07.286000,LEC,16,94.46,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.984,-1.031,2.683,2.923,-1.77,-1.839,95.222
+0 days 01:17:41.435000,LEC,16,94.149,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.295,-1.357,2.372,2.585,-1.754,-1.829,94.974
+0 days 01:19:15.399000,LEC,16,93.964,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.48,-1.551,2.187,2.383,-1.889,-1.971,94.852
+0 days 01:20:49.802000,LEC,16,94.403,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.041,-1.091,2.626,2.861,-1.623,-1.69,95.355
+0 days 01:22:24.040000,LEC,16,94.238,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.206,-1.264,2.461,2.681,-1.741,-1.814,95.253
+0 days 01:23:58.607000,LEC,16,94.567,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.877,-0.919,2.79,3.04,-1.318,-1.375,95.646
+0 days 01:25:33.267000,LEC,16,94.66,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.784,-0.821,2.883,3.141,-1.278,-1.332,95.802
+0 days 01:27:07.597000,LEC,16,94.33,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.114,-1.167,2.553,2.782,-1.345,-1.406,95.536
+0 days 01:28:41.888000,LEC,16,94.291,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.153,-1.208,2.514,2.739,-1.879,-1.954,95.56
+0 days 01:30:25.866000,LEC,16,103.978,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,167,1.0,False,9,British Grand Prix,True,C2,False,8.534,8.941,12.201,13.294,0.0,0.0,105.311
+0 days 01:32:00.323000,LEC,16,94.457,23.0,1.0,,,False,MEDIUM,23.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-0.987,-1.034,2.68,2.92,-1.261,-1.317,95.853
+0 days 01:33:34.639000,LEC,16,94.316,24.0,1.0,,,False,MEDIUM,24.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C2,True,-1.128,-1.182,2.539,2.766,-1.282,-1.341,95.776
+0 days 01:35:08.682000,LEC,16,94.043,25.0,1.0,,0 days 01:35:02.791000,False,MEDIUM,25.0,True,Ferrari,1,1.0,False,9,British Grand Prix,True,C2,False,-1.401,-1.468,2.266,2.469,-0.997,-1.049,95.566
+0 days 01:37:01.769000,LEC,16,113.087,26.0,2.0,0 days 01:35:31.245000,,False,HARD,1.0,True,Ferrari,1,2.0,False,9,British Grand Prix,True,C1,False,17.643,18.485,21.31,23.219,17.819,18.704,114.674
+0 days 01:38:34.720000,LEC,16,92.951,27.0,2.0,,,True,HARD,2.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.493,-2.612,1.174,1.279,-2.053,-2.161,94.601
+0 days 01:40:08.147000,LEC,16,93.427,28.0,2.0,,,False,HARD,3.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.017,-2.113,1.65,1.798,-1.225,-1.294,95.14
+0 days 01:41:41.154000,LEC,16,93.007,29.0,2.0,,,False,HARD,4.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.437,-2.553,1.23,1.34,-1.643,-1.736,94.784
+0 days 01:43:14.414000,LEC,16,93.26,30.0,2.0,,,False,HARD,5.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.184,-2.288,1.483,1.616,-1.422,-1.502,95.1
+0 days 01:44:47.761000,LEC,16,93.347,31.0,2.0,,,False,HARD,6.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.097,-2.197,1.57,1.711,-1.385,-1.462,95.251
+0 days 01:46:20.833000,LEC,16,93.072,32.0,2.0,,,False,HARD,7.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.372,-2.485,1.295,1.411,-1.886,-1.986,95.039
+0 days 01:47:54.225000,LEC,16,93.392,33.0,2.0,,,False,HARD,8.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.052,-2.15,1.615,1.76,-1.563,-1.646,95.423
+0 days 01:49:27.472000,LEC,16,93.247,34.0,2.0,,,False,HARD,9.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.197,-2.302,1.47,1.602,-1.533,-1.617,95.341
+0 days 01:51:00.807000,LEC,16,93.335,35.0,2.0,,,False,HARD,10.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.109,-2.21,1.558,1.698,-2.069,-2.169,95.493
+0 days 01:52:34.255000,LEC,16,93.448,36.0,2.0,,,False,HARD,11.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-1.996,-2.091,1.671,1.821,-1.489,-1.568,95.669
+0 days 01:54:07.704000,LEC,16,93.449,37.0,2.0,,,False,HARD,12.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-1.995,-2.09,1.672,1.822,-1.184,-1.251,95.734
+0 days 01:55:41.013000,LEC,16,93.309,38.0,2.0,,,False,HARD,13.0,True,Ferrari,12,1.0,True,9,British Grand Prix,True,C1,False,-2.135,-2.237,1.532,1.669,-17.579,-15.853,95.657
+0 days 01:57:37.746000,LEC,16,116.733,39.0,2.0,,,False,HARD,14.0,True,Ferrari,2671,1.0,False,9,British Grand Prix,True,C1,False,21.289,22.305,24.956,27.192,19.3,19.808,119.145
+0 days 01:59:10.847000,LEC,16,93.101,40.0,2.0,,,False,HARD,15.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.343,-2.455,1.324,1.443,-1.173,-1.244,95.576
+0 days 02:00:43.740000,LEC,16,92.893,41.0,2.0,,,True,HARD,16.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.551,-2.673,1.116,1.216,-1.476,-1.564,95.431
+0 days 02:02:17.162000,LEC,16,93.422,42.0,2.0,,,False,HARD,17.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.022,-2.119,1.645,1.792,-0.784,-0.832,96.024
+0 days 02:03:50.033000,LEC,16,92.871,43.0,2.0,,,True,HARD,18.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.573,-2.696,1.094,1.192,-1.705,-1.803,95.536
+0 days 02:05:23.123000,LEC,16,93.09,44.0,2.0,,,False,HARD,19.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.354,-2.466,1.313,1.431,-1.237,-1.311,95.819
+0 days 02:06:56.013000,LEC,16,92.89,45.0,2.0,,,False,HARD,20.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.554,-2.676,1.113,1.213,-1.249,-1.327,95.682
+0 days 02:08:29.398000,LEC,16,93.385,46.0,2.0,,,False,HARD,21.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.059,-2.157,1.608,1.752,-0.325,-0.347,96.241
+0 days 02:10:02.673000,LEC,16,93.275,47.0,2.0,,,False,HARD,22.0,True,Ferrari,1,1.0,True,9,British Grand Prix,True,C1,True,-2.169,-2.273,1.498,1.632,-5.559,-5.625,96.194
+0 days 02:11:57.283000,LEC,16,114.61,48.0,2.0,,0 days 02:11:51.403000,False,HARD,23.0,True,Ferrari,124,1.0,False,9,British Grand Prix,True,C1,False,19.166,20.081,22.833,24.879,-10.464,-8.366,117.593
+0 days 02:14:45.802000,LEC,16,,49.0,3.0,0 days 02:12:20.322000,,False,SOFT,4.0,False,Ferrari,4,1.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:17:34.403000,LEC,16,,50.0,3.0,,,False,SOFT,5.0,False,Ferrari,4,1.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:20:27.418000,LEC,16,,51.0,3.0,,,False,SOFT,6.0,False,Ferrari,4,1.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:51.189000,LEC,16,143.771,52.0,3.0,,,False,SOFT,7.0,False,Ferrari,4,1.0,False,9,British Grand Prix,True,C3,False,48.327,50.634,51.994,56.653,3.503,2.497,147.008
+0 days 00:57:27.808000,STR,18,108.01,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,12,19.0,False,9,British Grand Prix,True,C2,False,12.566,13.166,16.233,17.687,3.329,3.18,108.01
+0 days 00:59:07.697000,STR,18,99.889,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,12,18.0,True,9,British Grand Prix,True,C2,False,4.445,4.657,8.112,8.839,3.524,3.657,99.952
+0 days 01:00:46.461000,STR,18,98.764,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,18.0,True,9,British Grand Prix,True,C2,True,3.32,3.478,6.987,7.613,2.509,2.607,98.891
+0 days 01:02:25.878000,STR,18,99.417,4.0,1.0,,,False,MEDIUM,4.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.973,4.163,7.64,8.325,3.14,3.261,99.607
+0 days 01:04:04.787000,STR,18,98.909,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.465,3.63,7.132,7.771,2.475,2.567,99.163
+0 days 01:05:43.916000,STR,18,99.129,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.685,3.861,7.352,8.011,2.721,2.822,99.446
+0 days 01:07:22.823000,STR,18,98.907,7.0,1.0,,,False,MEDIUM,7.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.463,3.628,7.13,7.769,2.711,2.818,99.288
+0 days 01:09:02.316000,STR,18,99.493,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,4.049,4.242,7.716,8.407,2.919,3.023,99.937
+0 days 01:10:41.647000,STR,18,99.331,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.887,4.073,7.554,8.231,2.857,2.961,99.839
+0 days 01:12:20.903000,STR,18,99.256,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.812,3.994,7.479,8.149,3.004,3.121,99.827
+0 days 01:14:00.098000,STR,18,99.195,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.751,3.93,7.418,8.083,3.004,3.123,99.83
+0 days 01:15:39.081000,STR,18,98.983,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.539,3.708,7.206,7.852,2.873,2.989,99.681
+0 days 01:17:18.086000,STR,18,99.005,13.0,1.0,,,False,MEDIUM,13.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.561,3.731,7.228,7.876,2.775,2.884,99.767
+0 days 01:18:57.120000,STR,18,99.034,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,19.0,True,9,British Grand Prix,True,C2,True,3.59,3.761,7.257,7.907,3.131,3.265,99.859
+0 days 01:20:36.737000,STR,18,99.617,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,4.173,4.372,7.84,8.542,3.764,3.927,100.505
+0 days 01:22:15.866000,STR,18,99.129,16.0,1.0,,,False,MEDIUM,16.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.685,3.861,7.352,8.011,3.103,3.231,100.081
+0 days 01:23:55.201000,STR,18,99.335,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C2,True,3.891,4.077,7.558,8.235,3.356,3.497,100.35
+0 days 01:25:33.756000,STR,18,98.555,18.0,1.0,,0 days 01:25:27.986000,False,MEDIUM,18.0,True,Aston Martin,1,20.0,False,9,British Grand Prix,True,C2,False,3.111,3.26,6.778,7.385,2.67,2.785,99.634
+0 days 01:27:31.670000,STR,18,117.914,19.0,2.0,0 days 01:25:56.583000,,False,HARD,1.0,True,Aston Martin,1,21.0,False,9,British Grand Prix,True,C1,False,22.47,23.543,26.137,28.479,21.976,22.906,119.056
+0 days 01:29:09.936000,STR,18,98.266,20.0,2.0,,,True,HARD,2.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.822,2.957,6.489,7.07,2.591,2.708,99.472
+0 days 01:30:58.329000,STR,18,108.393,21.0,2.0,,,False,HARD,3.0,True,Aston Martin,167,20.0,False,9,British Grand Prix,True,C1,False,12.949,13.567,16.616,18.105,12.223,12.71,109.662
+0 days 01:32:37.536000,STR,18,99.207,22.0,2.0,,,False,HARD,4.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.763,3.943,7.43,8.096,-4.771,-4.588,100.54
+0 days 01:34:15.678000,STR,18,98.142,23.0,2.0,,,True,HARD,5.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.698,2.827,6.365,6.935,2.424,2.532,99.538
+0 days 01:35:57.007000,STR,18,101.329,24.0,2.0,,,False,HARD,6.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,5.885,6.166,9.552,10.408,5.731,5.995,102.789
+0 days 01:37:36.252000,STR,18,99.245,25.0,2.0,,,False,HARD,7.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.801,3.982,7.468,8.137,4.205,4.424,100.768
+0 days 01:39:13.949000,STR,18,97.697,26.0,2.0,,,True,HARD,8.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.253,2.361,5.92,6.45,2.429,2.55,99.284
+0 days 01:40:51.983000,STR,18,98.034,27.0,2.0,,,False,HARD,9.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.59,2.714,6.257,6.818,3.03,3.189,99.684
+0 days 01:42:29.883000,STR,18,97.9,28.0,2.0,,,False,HARD,10.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.456,2.573,6.123,6.672,3.248,3.432,99.613
+0 days 01:44:08.792000,STR,18,98.909,29.0,2.0,,,False,HARD,11.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.465,3.63,7.132,7.771,4.259,4.5,100.686
+0 days 01:45:47.588000,STR,18,98.796,30.0,2.0,,,False,HARD,12.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.352,3.512,7.019,7.648,4.114,4.345,100.636
+0 days 01:47:25.696000,STR,18,98.108,31.0,2.0,,,False,HARD,13.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.664,2.791,6.331,6.898,3.376,3.564,100.012
+0 days 01:49:03.431000,STR,18,97.735,32.0,2.0,,,False,HARD,14.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,2.291,2.4,5.958,6.492,2.777,2.924,99.702
+0 days 01:50:41.988000,STR,18,98.557,33.0,2.0,,,False,HARD,15.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.113,3.262,6.78,7.387,3.602,3.793,100.588
+0 days 01:52:20.872000,STR,18,98.884,34.0,2.0,,,False,HARD,16.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,3.44,3.604,7.107,7.744,4.104,4.33,100.978
+0 days 01:53:58.144000,STR,18,97.272,35.0,2.0,,,False,HARD,17.0,True,Aston Martin,1,21.0,True,9,British Grand Prix,True,C1,True,1.828,1.915,5.495,5.987,1.868,1.958,99.43
+0 days 01:55:35.940000,STR,18,97.796,36.0,2.0,,,False,HARD,18.0,True,Aston Martin,12,21.0,True,9,British Grand Prix,True,C1,False,2.352,2.464,6.019,6.558,2.859,3.011,100.017
+0 days 01:57:35.506000,STR,18,119.566,37.0,2.0,,,False,HARD,19.0,True,Aston Martin,2671,20.0,False,9,British Grand Prix,True,C1,False,24.122,25.273,27.789,30.279,24.933,26.347,121.851
+0 days 01:59:12.792000,STR,18,97.286,38.0,2.0,,,True,HARD,20.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.842,1.93,5.509,6.003,-13.602,-12.266,99.634
+0 days 02:00:51.056000,STR,18,98.264,39.0,2.0,,,False,HARD,21.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.82,2.955,6.487,7.068,0.831,0.853,100.676
+0 days 02:02:28.416000,STR,18,97.36,40.0,2.0,,,False,HARD,22.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.916,2.007,5.583,6.083,3.086,3.273,99.835
+0 days 02:04:05.648000,STR,18,97.232,41.0,2.0,,,True,HARD,23.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,1.788,1.873,5.455,5.944,2.863,3.034,99.77
+0 days 02:05:45.860000,STR,18,100.212,42.0,2.0,,,False,HARD,24.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,4.768,4.996,8.435,9.191,6.006,6.375,102.814
+0 days 02:07:23.370000,STR,18,97.51,43.0,2.0,,,False,HARD,25.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.066,2.165,5.733,6.247,2.934,3.102,100.175
+0 days 02:09:01.073000,STR,18,97.703,44.0,2.0,,,False,HARD,26.0,True,Aston Martin,1,20.0,True,9,British Grand Prix,True,C1,True,2.259,2.367,5.926,6.457,3.376,3.579,100.432
+0 days 02:10:43.005000,STR,18,101.932,45.0,2.0,,,False,HARD,27.0,True,Aston Martin,124,20.0,False,9,British Grand Prix,True,C1,False,6.488,6.798,10.155,11.065,7.793,8.278,104.724
+0 days 02:12:46.019000,STR,18,123.014,46.0,2.0,,0 days 02:12:39.839000,False,HARD,28.0,True,Aston Martin,4,20.0,False,9,British Grand Prix,True,C1,False,27.57,28.886,31.237,34.036,29.304,31.271,125.87
+0 days 02:15:26.499000,STR,18,,47.0,3.0,0 days 02:13:26.223000,,False,SOFT,1.0,True,Aston Martin,4,19.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:17:43.439000,STR,18,136.94,48.0,3.0,,,False,SOFT,2.0,True,Aston Martin,4,19.0,False,9,British Grand Prix,True,C3,False,41.496,43.477,45.163,49.209,11.866,9.487,139.923
+0 days 02:19:33.852000,STR,18,110.413,49.0,3.0,,,False,SOFT,3.0,True,Aston Martin,4,19.0,False,9,British Grand Prix,True,C3,False,14.969,15.684,18.636,20.306,-2.128,-1.891,113.459
+0 days 02:21:12.097000,STR,18,98.245,50.0,3.0,,,False,SOFT,4.0,True,Aston Martin,4,19.0,False,9,British Grand Prix,True,C3,False,2.801,2.935,6.468,7.048,-9.399,-8.732,101.355
+0 days 02:22:57.928000,STR,18,105.831,51.0,3.0,,,False,SOFT,5.0,True,Aston Martin,4,19.0,False,9,British Grand Prix,True,C3,False,10.387,10.883,14.054,15.313,8.431,8.656,109.004
+0 days 00:58:02.150000,ALB,23,142.352,1.0,1.0,,0 days 00:57:55.688000,False,MEDIUM,1.0,True,Williams,12,22.0,False,9,British Grand Prix,True,C2,False,46.908,49.147,50.575,55.106,37.671,35.986,142.352
+0 days 01:00:15.532000,ALB,23,133.382,2.0,2.0,0 days 00:58:39.933000,,False,HARD,1.0,True,Williams,12,22.0,False,9,British Grand Prix,True,C1,False,37.938,39.749,41.605,45.333,37.017,38.413,133.445
+0 days 01:01:51.348000,ALB,23,95.816,3.0,2.0,,,True,HARD,2.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,0.372,0.39,4.039,4.401,-0.439,-0.456,95.943
+0 days 01:03:27.808000,ALB,23,96.46,4.0,2.0,,,False,HARD,3.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,1.016,1.064,4.683,5.103,0.183,0.19,96.65
+0 days 01:05:04.107000,ALB,23,96.299,5.0,2.0,,,False,HARD,4.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,0.855,0.896,4.522,4.927,-0.135,-0.14,96.553
+0 days 01:06:42.177000,ALB,23,98.07,6.0,2.0,,,False,HARD,5.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,2.626,2.751,6.293,6.857,1.662,1.724,98.387
+0 days 01:08:27.305000,ALB,23,105.128,7.0,2.0,,,False,HARD,6.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,9.684,10.146,13.351,14.547,8.932,9.285,105.509
+0 days 01:10:05.187000,ALB,23,97.882,8.0,2.0,,,False,HARD,7.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,2.438,2.554,6.105,6.652,1.308,1.354,98.326
+0 days 01:11:42.372000,ALB,23,97.185,9.0,2.0,,,False,HARD,8.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,1.741,1.824,5.408,5.893,0.711,0.737,97.693
+0 days 01:13:19.496000,ALB,23,97.124,10.0,2.0,,,False,HARD,9.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,1.68,1.76,5.347,5.826,0.872,0.906,97.695
+0 days 01:14:56.644000,ALB,23,97.148,11.0,2.0,,,False,HARD,10.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,1.704,1.785,5.371,5.852,0.957,0.995,97.783
+0 days 01:16:37.183000,ALB,23,100.539,12.0,2.0,,,False,HARD,11.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,5.095,5.338,8.762,9.547,4.429,4.608,101.237
+0 days 01:18:16.511000,ALB,23,99.328,13.0,2.0,,,False,HARD,12.0,True,Williams,1,22.0,True,9,British Grand Prix,True,C1,True,3.884,4.069,7.551,8.228,3.098,3.219,100.09
+0 days 01:19:52.812000,ALB,23,96.301,14.0,2.0,,0 days 01:19:46.945000,False,HARD,13.0,True,Williams,1,22.0,False,9,British Grand Prix,True,C1,False,0.857,0.898,4.524,4.929,0.398,0.415,97.126
+0 days 01:22:03.290000,ALB,23,130.478,15.0,3.0,0 days 01:20:28.179000,,False,MEDIUM,8.0,False,Williams,1,22.0,False,9,British Grand Prix,True,C2,False,35.034,36.706,38.701,42.169,34.625,36.123,131.366
+0 days 01:23:39.743000,ALB,23,96.453,16.0,3.0,,,False,MEDIUM,9.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,1.009,1.057,4.676,5.095,0.427,0.445,97.405
+0 days 01:25:16.402000,ALB,23,96.659,17.0,3.0,,,False,MEDIUM,10.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,1.215,1.273,4.882,5.319,0.68,0.708,97.674
+0 days 01:26:52.775000,ALB,23,96.373,18.0,3.0,,,False,MEDIUM,11.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,0.929,0.973,4.596,5.008,0.488,0.509,97.452
+0 days 01:28:29.162000,ALB,23,96.387,19.0,3.0,,,False,MEDIUM,12.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,0.943,0.988,4.61,5.023,0.449,0.468,97.529
+0 days 01:30:18.326000,ALB,23,109.164,20.0,3.0,,,False,MEDIUM,13.0,False,Williams,167,22.0,False,9,British Grand Prix,True,C2,False,13.72,14.375,17.387,18.945,13.489,14.099,110.37
+0 days 01:31:55.228000,ALB,23,96.902,21.0,3.0,,,False,MEDIUM,14.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,1.458,1.528,5.125,5.584,0.732,0.761,98.171
+0 days 01:33:32.078000,ALB,23,96.85,22.0,3.0,,,False,MEDIUM,15.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C2,True,1.406,1.473,5.073,5.528,-7.128,-6.855,98.183
+0 days 01:35:07.774000,ALB,23,95.696,23.0,3.0,,0 days 01:35:01.907000,False,MEDIUM,16.0,False,Williams,1,22.0,False,9,British Grand Prix,True,C2,False,0.252,0.264,3.919,4.27,-0.022,-0.023,97.092
+0 days 01:37:19.048000,ALB,23,131.274,24.0,4.0,0 days 01:35:41.678000,,False,SOFT,3.0,False,Williams,1,22.0,False,9,British Grand Prix,True,C3,False,35.83,37.54,39.497,43.036,35.676,37.319,132.734
+0 days 01:38:53.945000,ALB,23,94.897,25.0,4.0,,,True,SOFT,4.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,-0.547,-0.573,3.12,3.4,-0.143,-0.15,96.42
+0 days 01:40:29.035000,ALB,23,95.09,26.0,4.0,,,False,SOFT,5.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,-0.354,-0.371,3.313,3.61,-0.178,-0.187,96.677
+0 days 01:42:04.609000,ALB,23,95.574,27.0,4.0,,,False,SOFT,6.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,0.13,0.136,3.797,4.137,0.57,0.6,97.224
+0 days 01:43:40.102000,ALB,23,95.493,28.0,4.0,,,False,SOFT,7.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,0.049,0.051,3.716,4.049,0.841,0.889,97.206
+0 days 01:45:15.355000,ALB,23,95.253,29.0,4.0,,,False,SOFT,8.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,-0.191,-0.2,3.476,3.787,0.603,0.637,97.03
+0 days 01:46:52.729000,ALB,23,97.374,30.0,4.0,,,False,SOFT,9.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,1.93,2.022,5.597,6.098,2.692,2.843,99.214
+0 days 01:48:30.579000,ALB,23,97.85,31.0,4.0,,,False,SOFT,10.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,2.406,2.521,6.073,6.617,3.118,3.291,99.754
+0 days 01:50:06.407000,ALB,23,95.828,32.0,4.0,,,False,SOFT,11.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,0.384,0.402,4.051,4.414,0.87,0.916,97.795
+0 days 01:51:42.144000,ALB,23,95.737,33.0,4.0,,,False,SOFT,12.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,0.293,0.307,3.96,4.315,0.782,0.824,97.768
+0 days 01:53:17.681000,ALB,23,95.537,34.0,4.0,,,False,SOFT,13.0,False,Williams,1,22.0,True,9,British Grand Prix,True,C3,True,0.093,0.097,3.76,4.097,0.757,0.799,97.631
+0 days 01:54:52.654000,ALB,23,94.973,35.0,4.0,,0 days 01:54:46.894000,False,SOFT,14.0,False,Williams,1,22.0,False,9,British Grand Prix,True,C3,False,-0.471,-0.493,3.196,3.482,-0.431,-0.452,97.131
+0 days 01:57:13.891000,ALB,23,141.237,36.0,5.0,0 days 01:55:18.243000,,False,SOFT,4.0,False,Williams,1267,22.0,False,9,British Grand Prix,True,C3,False,45.793,47.979,49.46,53.891,46.3,48.769,143.458
+0 days 01:58:52.020000,ALB,23,98.129,37.0,5.0,,,False,SOFT,5.0,False,Williams,71,21.0,False,9,British Grand Prix,True,C3,False,2.685,2.813,6.352,6.921,3.496,3.694,100.414
+0 days 02:00:26.189000,ALB,23,94.169,38.0,5.0,,,True,SOFT,6.0,False,Williams,1,21.0,True,9,British Grand Prix,True,C3,True,-1.275,-1.336,2.392,2.606,-16.719,-15.077,96.517
+0 days 02:02:00.751000,ALB,23,94.562,39.0,5.0,,,False,SOFT,7.0,False,Williams,1,21.0,True,9,British Grand Prix,True,C3,True,-0.882,-0.924,2.785,3.035,-2.871,-2.947,96.974
+0 days 02:03:35.243000,ALB,23,94.492,40.0,5.0,,0 days 02:03:29.196000,False,SOFT,8.0,False,Williams,1,21.0,False,9,British Grand Prix,True,C3,False,-0.952,-0.997,2.715,2.958,0.218,0.231,96.967
+0 days 02:05:35.062000,ALB,23,119.819,41.0,6.0,0 days 02:04:01.812000,,False,SOFT,4.0,False,Williams,1,21.0,False,9,British Grand Prix,True,C3,False,24.375,25.539,28.042,30.554,25.45,26.969,122.357
+0 days 02:07:08.929000,ALB,23,93.867,42.0,6.0,,,True,SOFT,5.0,False,Williams,1,21.0,True,9,British Grand Prix,True,C3,True,-1.577,-1.652,2.09,2.277,-0.339,-0.36,96.469
+0 days 02:08:47.618000,ALB,23,98.689,43.0,6.0,,0 days 02:08:41.240000,False,SOFT,6.0,False,Williams,1,21.0,False,9,British Grand Prix,True,C3,False,3.245,3.4,6.912,7.531,4.113,4.349,101.354
+0 days 00:57:25.577000,HUL,27,105.779,1.0,1.0,,,False,MEDIUM,1.0,True,Audi,12,15.0,False,9,British Grand Prix,True,C2,False,10.335,10.828,14.002,15.257,1.098,1.049,105.779
+0 days 00:59:10.216000,HUL,27,104.639,2.0,1.0,,,True,MEDIUM,2.0,True,Audi,12,19.0,True,9,British Grand Prix,True,C2,False,9.195,9.634,12.862,14.014,8.274,8.586,104.702
+0 days 01:00:47.019000,HUL,27,96.803,3.0,1.0,,,True,MEDIUM,3.0,True,Audi,1,19.0,True,9,British Grand Prix,True,C2,True,1.359,1.424,5.026,5.476,0.548,0.569,96.93
+0 days 01:02:23.673000,HUL,27,96.654,4.0,1.0,,,True,MEDIUM,4.0,True,Audi,1,18.0,True,9,British Grand Prix,True,C2,True,1.21,1.268,4.877,5.314,0.377,0.392,96.844
+0 days 01:04:00.349000,HUL,27,96.676,5.0,1.0,,,False,MEDIUM,5.0,True,Audi,1,18.0,True,9,British Grand Prix,True,C2,True,1.232,1.291,4.899,5.338,0.242,0.251,96.93
+0 days 01:05:37.115000,HUL,27,96.766,6.0,1.0,,,False,MEDIUM,6.0,True,Audi,1,18.0,True,9,British Grand Prix,True,C2,True,1.322,1.385,4.989,5.436,0.358,0.371,97.083
+0 days 01:07:13.409000,HUL,27,96.294,7.0,1.0,,,True,MEDIUM,7.0,True,Audi,1,17.0,True,9,British Grand Prix,True,C2,True,0.85,0.891,4.517,4.922,0.098,0.102,96.675
+0 days 01:08:50.626000,HUL,27,97.217,8.0,1.0,,,False,MEDIUM,8.0,True,Audi,1,17.0,True,9,British Grand Prix,True,C2,True,1.773,1.858,5.44,5.927,0.643,0.666,97.661
+0 days 01:10:27.510000,HUL,27,96.884,9.0,1.0,,,False,MEDIUM,9.0,True,Audi,1,17.0,True,9,British Grand Prix,True,C2,True,1.44,1.509,5.107,5.565,0.41,0.425,97.392
+0 days 01:12:04.117000,HUL,27,96.607,10.0,1.0,,,False,MEDIUM,10.0,True,Audi,1,16.0,True,9,British Grand Prix,True,C2,True,1.163,1.219,4.83,5.263,0.355,0.369,97.178
+0 days 01:13:40.891000,HUL,27,96.774,11.0,1.0,,,False,MEDIUM,11.0,True,Audi,1,16.0,True,9,British Grand Prix,True,C2,True,1.33,1.393,4.997,5.445,0.583,0.606,97.409
+0 days 01:15:16.946000,HUL,27,96.055,12.0,1.0,,,True,MEDIUM,12.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C2,True,0.611,0.64,4.278,4.661,-0.055,-0.057,96.753
+0 days 01:16:53.704000,HUL,27,96.758,13.0,1.0,,,False,MEDIUM,13.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C2,True,1.314,1.377,4.981,5.427,0.528,0.549,97.52
+0 days 01:18:29.799000,HUL,27,96.095,14.0,1.0,,,False,MEDIUM,14.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C2,True,0.651,0.682,4.318,4.705,0.192,0.2,96.92
+0 days 01:20:05.652000,HUL,27,95.853,15.0,1.0,,,True,MEDIUM,15.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C2,True,0.409,0.429,4.076,4.441,0.0,0.0,96.741
+0 days 01:21:41.614000,HUL,27,95.962,16.0,1.0,,,False,MEDIUM,16.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C2,True,0.518,0.543,4.185,4.56,-0.064,-0.067,96.914
+0 days 01:23:16.934000,HUL,27,95.32,17.0,1.0,,0 days 01:23:10.902000,False,MEDIUM,17.0,True,Audi,1,14.0,False,9,British Grand Prix,True,C2,False,-0.124,-0.13,3.543,3.86,-0.659,-0.687,96.335
+0 days 01:25:13.986000,HUL,27,117.052,18.0,2.0,0 days 01:23:40.030000,,False,HARD,1.0,True,Audi,1,18.0,False,9,British Grand Prix,True,C1,False,21.608,22.639,25.275,27.54,21.167,22.075,118.131
+0 days 01:26:49.965000,HUL,27,95.979,19.0,2.0,,,False,HARD,2.0,True,Audi,1,18.0,True,9,British Grand Prix,True,C1,True,0.535,0.561,4.202,4.578,0.041,0.043,97.121
+0 days 01:28:25.351000,HUL,27,95.386,20.0,2.0,,,True,HARD,3.0,True,Audi,1,17.0,True,9,British Grand Prix,True,C1,True,-0.058,-0.061,3.609,3.932,-0.289,-0.302,96.592
+0 days 01:30:10.495000,HUL,27,105.144,21.0,2.0,,,False,HARD,4.0,True,Audi,167,17.0,False,9,British Grand Prix,True,C1,False,9.7,10.163,13.367,14.565,8.974,9.331,106.413
+0 days 01:31:45.610000,HUL,27,95.115,22.0,2.0,,,True,HARD,5.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C1,True,-0.329,-0.345,3.338,3.637,-8.863,-8.524,96.448
+0 days 01:33:20.687000,HUL,27,95.077,23.0,2.0,,,True,HARD,6.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C1,True,-0.367,-0.385,3.3,3.596,-0.641,-0.67,96.473
+0 days 01:34:56.707000,HUL,27,96.02,24.0,2.0,,,False,HARD,7.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C1,True,0.576,0.603,4.243,4.623,0.422,0.441,97.48
+0 days 01:36:31.747000,HUL,27,95.04,25.0,2.0,,,True,HARD,8.0,True,Audi,1,14.0,True,9,British Grand Prix,True,C1,True,-0.404,-0.423,3.263,3.555,0.0,0.0,96.563
+0 days 01:38:06.820000,HUL,27,95.073,26.0,2.0,,,False,HARD,9.0,True,Audi,1,14.0,True,9,British Grand Prix,True,C1,True,-0.371,-0.389,3.296,3.591,-0.195,-0.205,96.66
+0 days 01:39:41.839000,HUL,27,95.019,27.0,2.0,,,True,HARD,10.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.425,-0.445,3.242,3.532,0.015,0.016,96.669
+0 days 01:41:16.423000,HUL,27,94.584,28.0,2.0,,,True,HARD,11.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.86,-0.901,2.807,3.059,-0.068,-0.072,96.297
+0 days 01:42:50.977000,HUL,27,94.554,29.0,2.0,,,True,HARD,12.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.89,-0.932,2.777,3.026,-0.096,-0.101,96.331
+0 days 01:44:25.735000,HUL,27,94.758,30.0,2.0,,,False,HARD,13.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.686,-0.719,2.981,3.248,0.076,0.08,96.598
+0 days 01:46:00.518000,HUL,27,94.783,31.0,2.0,,,False,HARD,14.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.661,-0.693,3.006,3.275,0.051,0.054,96.687
+0 days 01:47:35.598000,HUL,27,95.08,32.0,2.0,,,False,HARD,15.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.364,-0.381,3.303,3.599,0.122,0.128,97.047
+0 days 01:49:10.545000,HUL,27,94.947,33.0,2.0,,,False,HARD,16.0,True,Audi,1,13.0,True,9,British Grand Prix,True,C1,True,-0.497,-0.521,3.17,3.454,-0.008,-0.008,96.978
+0 days 01:50:46.245000,HUL,27,95.7,34.0,2.0,,0 days 01:50:38.310000,False,HARD,17.0,True,Audi,1,13.0,False,9,British Grand Prix,True,C1,False,0.256,0.268,3.923,4.274,0.92,0.971,97.794
+0 days 01:52:45.797000,HUL,27,119.552,35.0,3.0,0 days 01:51:14.237000,,False,SOFT,1.0,True,Audi,1,15.0,False,9,British Grand Prix,True,C3,False,24.108,25.259,27.775,30.264,24.148,25.311,121.71
+0 days 01:54:19.230000,HUL,27,93.433,36.0,3.0,,,True,SOFT,2.0,True,Audi,1,15.0,True,9,British Grand Prix,True,C3,True,-2.011,-2.107,1.656,1.804,-1.504,-1.584,95.654
+0 days 01:56:49.230000,HUL,27,,37.0,3.0,,,True,SOFT,3.0,True,Audi,126,,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 00:57:19.098000,VER,3,99.3,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,12,6.0,False,9,British Grand Prix,True,C2,False,3.856,4.04,7.523,8.197,-5.381,-5.14,99.3
+0 days 00:58:54.017000,VER,3,94.919,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,12,6.0,True,9,British Grand Prix,True,C2,False,-0.525,-0.55,3.142,3.424,-1.446,-1.501,94.982
+0 days 01:00:29.144000,VER,3,95.127,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.317,-0.332,3.35,3.65,-1.128,-1.172,95.254
+0 days 01:02:03.870000,VER,3,94.726,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.718,-0.752,2.949,3.213,-1.551,-1.611,94.916
+0 days 01:03:38.671000,VER,3,94.801,5.0,1.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.643,-0.674,3.024,3.295,-1.633,-1.693,95.055
+0 days 01:05:13.259000,VER,3,94.588,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.856,-0.897,2.811,3.063,-1.82,-1.888,94.905
+0 days 01:06:47.773000,VER,3,94.514,7.0,1.0,,,True,MEDIUM,7.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.93,-0.974,2.737,2.982,-1.682,-1.749,94.895
+0 days 01:08:22.448000,VER,3,94.675,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.769,-0.806,2.898,3.158,-1.899,-1.966,95.119
+0 days 01:09:57.396000,VER,3,94.948,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.496,-0.52,3.171,3.455,-1.526,-1.582,95.456
+0 days 01:11:32.499000,VER,3,95.103,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.341,-0.357,3.326,3.624,-1.149,-1.194,95.674
+0 days 01:13:07.334000,VER,3,94.835,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.609,-0.638,3.058,3.332,-1.356,-1.41,95.47
+0 days 01:14:42.243000,VER,3,94.909,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.535,-0.561,3.132,3.413,-1.201,-1.25,95.607
+0 days 01:16:17.222000,VER,3,94.979,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.465,-0.487,3.202,3.489,-1.251,-1.3,95.741
+0 days 01:17:51.772000,VER,3,94.55,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.894,-0.937,2.773,3.021,-1.353,-1.411,95.375
+0 days 01:19:26.342000,VER,3,94.57,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.874,-0.916,2.793,3.043,-1.283,-1.339,95.458
+0 days 01:21:01.100000,VER,3,94.758,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.686,-0.719,2.981,3.248,-1.268,-1.32,95.71
+0 days 01:22:35.170000,VER,3,94.07,17.0,1.0,,0 days 01:22:29.384000,False,MEDIUM,17.0,True,Red Bull Racing,1,4.0,False,9,British Grand Prix,True,C2,False,-1.374,-1.44,2.293,2.498,-1.909,-1.989,95.085
+0 days 01:24:28.975000,VER,3,113.805,18.0,2.0,0 days 01:22:58.096000,,False,HARD,1.0,True,Red Bull Racing,1,7.0,False,9,British Grand Prix,True,C1,False,18.361,19.237,22.028,24.002,17.92,18.689,114.884
+0 days 01:26:02.537000,VER,3,93.562,19.0,2.0,,,True,HARD,2.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-1.882,-1.972,1.785,1.945,-2.376,-2.477,94.704
+0 days 01:27:36.156000,VER,3,93.619,20.0,2.0,,,False,HARD,3.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C1,True,-1.825,-1.912,1.842,2.007,-2.056,-2.149,94.825
+0 days 01:29:10.291000,VER,3,94.135,21.0,2.0,,,False,HARD,4.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C1,True,-1.309,-1.371,2.358,2.569,-2.035,-2.116,95.404
+0 days 01:30:55.156000,VER,3,104.865,22.0,2.0,,,False,HARD,5.0,True,Red Bull Racing,167,6.0,False,9,British Grand Prix,True,C1,False,9.421,9.871,13.088,14.261,0.887,0.853,106.198
+0 days 01:32:29.414000,VER,3,94.258,23.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C1,True,-1.186,-1.243,2.481,2.703,-1.46,-1.525,95.654
+0 days 01:34:03.549000,VER,3,94.135,24.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.309,-1.371,2.358,2.569,-1.463,-1.53,95.595
+0 days 01:35:37.513000,VER,3,93.964,25.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.48,-1.551,2.187,2.383,-1.076,-1.132,95.487
+0 days 01:37:11.541000,VER,3,94.028,26.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.416,-1.484,2.251,2.453,-1.24,-1.302,95.615
+0 days 01:38:45.684000,VER,3,94.143,27.0,2.0,,,False,HARD,10.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.301,-1.363,2.366,2.578,-0.861,-0.906,95.793
+0 days 01:40:19.507000,VER,3,93.823,28.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.621,-1.698,2.046,2.229,-0.829,-0.876,95.536
+0 days 01:41:53.557000,VER,3,94.05,29.0,2.0,,,False,HARD,12.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.394,-1.461,2.273,2.477,-0.6,-0.634,95.827
+0 days 01:43:27.530000,VER,3,93.973,30.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.471,-1.541,2.196,2.393,-0.709,-0.749,95.813
+0 days 01:45:01.488000,VER,3,93.958,31.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.486,-1.557,2.181,2.376,-0.774,-0.817,95.862
+0 days 01:46:35.697000,VER,3,94.209,32.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.235,-1.294,2.432,2.65,-0.749,-0.789,96.176
+0 days 01:48:10.010000,VER,3,94.313,33.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.131,-1.185,2.536,2.763,-0.642,-0.676,96.344
+0 days 01:49:44.454000,VER,3,94.444,34.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C1,True,-1.0,-1.048,2.667,2.906,-0.336,-0.355,96.538
+0 days 01:51:18.193000,VER,3,93.739,35.0,2.0,,,False,HARD,18.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.705,-1.786,1.962,2.138,-1.665,-1.745,95.897
+0 days 01:52:52.144000,VER,3,93.951,36.0,2.0,,,False,HARD,19.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.493,-1.564,2.174,2.369,-0.986,-1.039,96.172
+0 days 01:54:26.416000,VER,3,94.272,37.0,2.0,,,False,HARD,20.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C1,True,-1.172,-1.228,2.495,2.719,-0.361,-0.381,96.557
+0 days 01:56:01.132000,VER,3,94.716,38.0,2.0,,0 days 01:55:55.287000,False,HARD,21.0,True,Red Bull Racing,126,3.0,False,9,British Grand Prix,True,C1,False,-0.728,-0.763,2.939,3.202,-16.172,-14.584,97.064
+0 days 01:58:08.130000,VER,3,126.998,39.0,3.0,0 days 01:56:24.158000,,False,MEDIUM,1.0,True,Red Bull Racing,671,4.0,False,9,British Grand Prix,True,C2,False,31.554,33.06,35.221,38.377,29.565,30.344,129.41
+0 days 01:59:40.231000,VER,3,92.101,40.0,3.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C2,True,-3.343,-3.503,0.324,0.353,-2.173,-2.305,94.576
+0 days 02:01:13.166000,VER,3,92.935,41.0,3.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,4.0,True,9,British Grand Prix,True,C2,True,-2.509,-2.629,1.158,1.262,-1.434,-1.52,95.473
+0 days 02:02:45.710000,VER,3,92.544,42.0,3.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C2,True,-2.9,-3.038,0.767,0.836,-1.662,-1.764,95.146
+0 days 02:04:18.331000,VER,3,92.621,43.0,3.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C2,True,-2.823,-2.958,0.844,0.92,-1.955,-2.067,95.286
+0 days 02:05:50.721000,VER,3,92.39,44.0,3.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C2,True,-3.054,-3.2,0.613,0.668,-1.937,-2.053,95.119
+0 days 02:07:23.594000,VER,3,92.873,45.0,3.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C2,True,-2.571,-2.694,1.096,1.194,-1.266,-1.345,95.665
+0 days 02:08:56.501000,VER,3,92.907,46.0,3.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,3.0,True,9,British Grand Prix,True,C2,True,-2.537,-2.658,1.13,1.231,-0.803,-0.857,95.763
+0 days 02:11:26.501000,VER,3,,47.0,3.0,,,True,MEDIUM,9.0,True,Red Bull Racing,124,,False,9,British Grand Prix,True,C2,False,,,,,,,
+0 days 00:57:21.078000,LAW,30,101.28,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,12,8.0,False,9,British Grand Prix,True,C2,False,5.836,6.115,9.503,10.354,-3.401,-3.249,101.28
+0 days 00:58:57.161000,LAW,30,96.083,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,12,8.0,True,9,British Grand Prix,True,C2,False,0.639,0.67,4.306,4.692,-0.282,-0.293,96.146
+0 days 01:00:33.416000,LAW,30,96.255,3.0,1.0,,,False,MEDIUM,3.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.811,0.85,4.478,4.879,0.0,0.0,96.382
+0 days 01:02:09.123000,LAW,30,95.707,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.263,0.276,3.93,4.282,-0.57,-0.592,95.897
+0 days 01:03:44.762000,LAW,30,95.639,5.0,1.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.195,0.204,3.862,4.208,-0.795,-0.824,95.893
+0 days 01:05:20.499000,LAW,30,95.737,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.293,0.307,3.96,4.315,-0.671,-0.696,96.054
+0 days 01:06:56.596000,LAW,30,96.097,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.653,0.684,4.32,4.707,-0.099,-0.103,96.478
+0 days 01:08:32.567000,LAW,30,95.971,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.527,0.552,4.194,4.57,-0.603,-0.624,96.415
+0 days 01:10:08.893000,LAW,30,96.326,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.882,0.924,4.549,4.957,-0.148,-0.153,96.834
+0 days 01:11:45.148000,LAW,30,96.255,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.811,0.85,4.478,4.879,0.003,0.003,96.826
+0 days 01:13:21.306000,LAW,30,96.158,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.714,0.748,4.381,4.774,-0.033,-0.034,96.793
+0 days 01:14:57.707000,LAW,30,96.401,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.957,1.003,4.624,5.038,0.291,0.303,97.099
+0 days 01:16:33.538000,LAW,30,95.831,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.387,0.405,4.054,4.417,-0.399,-0.415,96.593
+0 days 01:18:09.441000,LAW,30,95.903,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.459,0.481,4.126,4.496,0.0,0.0,96.728
+0 days 01:19:45.101000,LAW,30,95.66,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.216,0.226,3.883,4.231,-0.193,-0.201,96.548
+0 days 01:21:20.822000,LAW,30,95.721,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.277,0.29,3.944,4.297,-0.305,-0.318,96.673
+0 days 01:22:56.425000,LAW,30,95.603,17.0,1.0,,,True,MEDIUM,17.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.159,0.167,3.826,4.169,-0.376,-0.392,96.618
+0 days 01:24:32.235000,LAW,30,95.81,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.366,0.383,4.033,4.394,-0.075,-0.078,96.889
+0 days 01:26:07.923000,LAW,30,95.688,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.244,0.256,3.911,4.261,-0.25,-0.261,96.83
+0 days 01:27:43.558000,LAW,30,95.635,20.0,1.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C2,True,0.191,0.2,3.858,4.204,-0.04,-0.042,96.841
+0 days 01:29:19.165000,LAW,30,95.607,21.0,1.0,,,False,MEDIUM,21.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C2,True,0.163,0.171,3.83,4.173,-0.563,-0.585,96.876
+0 days 01:31:04.823000,LAW,30,105.658,22.0,1.0,,,False,MEDIUM,22.0,True,Racing Bulls,167,7.0,False,9,British Grand Prix,True,C2,False,10.214,10.702,13.881,15.125,1.68,1.616,106.991
+0 days 01:32:40.874000,LAW,30,96.051,23.0,1.0,,,False,MEDIUM,23.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C2,True,0.607,0.636,4.274,4.657,0.333,0.348,97.447
+0 days 01:34:16.662000,LAW,30,95.788,24.0,1.0,,,False,MEDIUM,24.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C2,True,0.344,0.36,4.011,4.37,0.19,0.199,97.248
+0 days 01:35:53.100000,LAW,30,96.438,25.0,1.0,,,False,MEDIUM,25.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.994,1.041,4.661,5.079,1.398,1.471,97.961
+0 days 01:37:28.547000,LAW,30,95.447,26.0,1.0,,,True,MEDIUM,26.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.003,0.003,3.67,3.999,0.179,0.188,97.034
+0 days 01:39:03.730000,LAW,30,95.183,27.0,1.0,,,True,MEDIUM,27.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,-0.261,-0.273,3.406,3.711,0.179,0.188,96.833
+0 days 01:40:38.155000,LAW,30,94.425,28.0,1.0,,0 days 01:40:32.317000,False,MEDIUM,28.0,True,Racing Bulls,1,8.0,False,9,British Grand Prix,True,C2,False,-1.019,-1.068,2.648,2.885,-0.227,-0.24,96.138
+0 days 01:42:33.411000,LAW,30,115.256,29.0,2.0,0 days 01:41:01.369000,,False,HARD,1.0,True,Racing Bulls,1,8.0,False,9,British Grand Prix,True,C1,False,19.812,20.758,23.479,25.583,20.606,21.771,117.033
+0 days 01:44:07.856000,LAW,30,94.445,30.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-0.999,-1.047,2.668,2.907,-0.237,-0.25,96.285
+0 days 01:45:41.955000,LAW,30,94.099,31.0,2.0,,,True,HARD,3.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.345,-1.409,2.322,2.53,-0.633,-0.668,96.003
+0 days 01:47:15.893000,LAW,30,93.938,32.0,2.0,,,True,HARD,4.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.506,-1.578,2.161,2.355,-1.02,-1.074,95.905
+0 days 01:48:49.750000,LAW,30,93.857,33.0,2.0,,,True,HARD,5.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.587,-1.663,2.08,2.266,-1.098,-1.156,95.888
+0 days 01:50:23.617000,LAW,30,93.867,34.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.577,-1.652,2.09,2.277,-0.913,-0.963,95.961
+0 days 01:51:57.795000,LAW,30,94.178,35.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.266,-1.326,2.401,2.616,-1.226,-1.285,96.336
+0 days 01:53:32.033000,LAW,30,94.238,36.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.206,-1.264,2.461,2.681,-0.699,-0.736,96.459
+0 days 01:55:05.976000,LAW,30,93.943,37.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.501,-1.573,2.166,2.36,-0.69,-0.729,96.228
+0 days 01:56:57.866000,LAW,30,111.89,38.0,2.0,,,False,HARD,10.0,True,Racing Bulls,126,8.0,False,9,British Grand Prix,True,C1,False,16.446,17.231,20.113,21.915,1.002,0.904,114.238
+0 days 01:58:36.180000,LAW,30,98.314,39.0,2.0,,,False,HARD,11.0,True,Racing Bulls,671,8.0,False,9,British Grand Prix,True,C1,False,2.87,3.007,6.537,7.123,0.881,0.904,100.726
+0 days 02:00:10.092000,LAW,30,93.912,40.0,2.0,,,False,HARD,12.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.532,-1.605,2.135,2.326,-0.362,-0.384,96.387
+0 days 02:01:44.338000,LAW,30,94.246,41.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.198,-1.255,2.469,2.69,-0.123,-0.13,96.784
+0 days 02:03:18.142000,LAW,30,93.804,42.0,2.0,,,True,HARD,14.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.64,-1.718,2.027,2.209,-0.402,-0.427,96.406
+0 days 02:04:52.168000,LAW,30,94.026,43.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.418,-1.486,2.249,2.451,-0.55,-0.582,96.691
+0 days 02:06:25.873000,LAW,30,93.705,44.0,2.0,,,True,HARD,16.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C1,True,-1.739,-1.822,1.928,2.101,-0.622,-0.659,96.434
+0 days 02:07:59.521000,LAW,30,93.648,45.0,2.0,,,True,HARD,17.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C1,True,-1.796,-1.882,1.871,2.039,-0.491,-0.522,96.44
+0 days 02:09:33.439000,LAW,30,93.918,46.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,7.0,True,9,British Grand Prix,True,C1,True,-1.526,-1.599,2.141,2.333,0.208,0.222,96.774
+0 days 02:11:19.877000,LAW,30,106.438,47.0,2.0,,0 days 02:11:13.976000,False,HARD,19.0,True,Racing Bulls,124,6.0,False,9,British Grand Prix,True,C1,False,10.994,11.519,14.661,15.975,7.604,7.694,109.357
+0 days 02:13:39.196000,LAW,30,139.319,48.0,3.0,0 days 02:11:42.659000,,False,SOFT,4.0,False,Racing Bulls,4,6.0,False,9,British Grand Prix,True,C3,False,43.875,45.969,47.542,51.802,14.245,11.389,142.302
+0 days 02:15:31.737000,LAW,30,112.541,49.0,3.0,,,False,SOFT,5.0,False,Racing Bulls,4,6.0,False,9,British Grand Prix,True,C3,False,17.097,17.913,20.764,22.624,0.0,0.0,115.587
+0 days 02:17:47.721000,LAW,30,135.984,50.0,3.0,,,False,SOFT,6.0,False,Racing Bulls,4,6.0,False,9,British Grand Prix,True,C3,False,40.54,42.475,44.207,48.168,28.34,26.328,139.094
+0 days 02:20:31.351000,LAW,30,,51.0,3.0,,,False,SOFT,7.0,False,Racing Bulls,4,6.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:53.221000,LAW,30,141.87,52.0,3.0,,,False,SOFT,8.0,False,Racing Bulls,4,6.0,False,9,British Grand Prix,True,C3,False,46.426,48.642,50.093,54.581,1.602,1.142,145.107
+0 days 00:57:24.479000,OCO,31,104.681,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,12,11.0,False,9,British Grand Prix,True,C2,False,9.237,9.678,12.904,14.06,0.0,0.0,104.681
+0 days 00:59:01.682000,OCO,31,97.203,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,12,12.0,True,9,British Grand Prix,True,C2,False,1.759,1.843,5.426,5.912,0.838,0.87,97.266
+0 days 01:00:38.804000,OCO,31,97.122,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,13.0,True,9,British Grand Prix,True,C2,True,1.678,1.758,5.345,5.824,0.867,0.901,97.249
+0 days 01:02:15.601000,OCO,31,96.797,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,13.0,True,9,British Grand Prix,True,C2,True,1.353,1.418,5.02,5.47,0.52,0.54,96.987
+0 days 01:03:53.274000,OCO,31,97.673,5.0,1.0,,,False,MEDIUM,5.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,2.229,2.335,5.896,6.424,1.239,1.285,97.927
+0 days 01:05:30.571000,OCO,31,97.297,6.0,1.0,,,False,MEDIUM,6.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.853,1.941,5.52,6.015,0.889,0.922,97.614
+0 days 01:07:07.268000,OCO,31,96.697,7.0,1.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.253,1.313,4.92,5.361,0.501,0.521,97.078
+0 days 01:08:44.273000,OCO,31,97.005,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.561,1.636,5.228,5.696,0.431,0.446,97.449
+0 days 01:10:21.648000,OCO,31,97.375,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.931,2.023,5.598,6.1,0.901,0.934,97.883
+0 days 01:11:59.332000,OCO,31,97.684,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,2.24,2.347,5.907,6.436,1.432,1.488,98.255
+0 days 01:13:36.420000,OCO,31,97.088,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.644,1.722,5.311,5.787,0.897,0.933,97.723
+0 days 01:15:13.441000,OCO,31,97.021,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.577,1.652,5.244,5.714,0.911,0.948,97.719
+0 days 01:16:50.130000,OCO,31,96.689,13.0,1.0,,,True,MEDIUM,13.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.245,1.304,4.912,5.352,0.459,0.477,97.451
+0 days 01:18:26.996000,OCO,31,96.866,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.422,1.49,5.089,5.545,0.963,1.004,97.691
+0 days 01:20:03.666000,OCO,31,96.67,15.0,1.0,,,True,MEDIUM,15.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.226,1.285,4.893,5.331,0.817,0.852,97.558
+0 days 01:21:40.739000,OCO,31,97.073,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.629,1.707,5.296,5.771,1.047,1.09,98.025
+0 days 01:23:18.002000,OCO,31,97.263,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C2,True,1.819,1.906,5.486,5.978,1.284,1.338,98.278
+0 days 01:24:54.955000,OCO,31,96.953,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.509,1.581,5.176,5.64,1.068,1.114,98.032
+0 days 01:26:31.720000,OCO,31,96.765,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.321,1.384,4.988,5.435,0.827,0.862,97.907
+0 days 01:28:08.234000,OCO,31,96.514,20.0,1.0,,,True,MEDIUM,20.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.07,1.121,4.737,5.161,0.839,0.877,97.72
+0 days 01:29:48.542000,OCO,31,100.308,21.0,1.0,,0 days 01:29:42.617000,False,MEDIUM,21.0,True,Haas F1 Team,167,13.0,False,9,British Grand Prix,True,C2,False,4.864,5.096,8.531,9.295,4.138,4.303,101.577
+0 days 01:32:02.236000,OCO,31,133.694,22.0,2.0,0 days 01:30:25.892000,,False,HARD,1.0,True,Haas F1 Team,71,19.0,False,9,British Grand Prix,True,C1,False,38.25,40.076,41.917,45.673,29.716,28.579,135.027
+0 days 01:33:38.743000,OCO,31,96.507,23.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,19.0,True,9,British Grand Prix,True,C1,True,1.063,1.114,4.73,5.154,0.789,0.824,97.903
+0 days 01:35:14.276000,OCO,31,95.533,24.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,19.0,True,9,British Grand Prix,True,C1,True,0.089,0.093,3.756,4.093,-0.065,-0.068,96.993
+0 days 01:36:50.014000,OCO,31,95.738,25.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,18.0,True,9,British Grand Prix,True,C1,True,0.294,0.308,3.961,4.316,0.698,0.734,97.261
+0 days 01:38:25.725000,OCO,31,95.711,26.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,18.0,True,9,British Grand Prix,True,C1,True,0.267,0.28,3.934,4.286,0.443,0.465,97.298
+0 days 01:40:01.569000,OCO,31,95.844,27.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,0.4,0.419,4.067,4.431,0.84,0.884,97.494
+0 days 01:41:37.515000,OCO,31,95.946,28.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,0.502,0.526,4.169,4.543,1.294,1.367,97.659
+0 days 01:43:13.408000,OCO,31,95.893,29.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,0.449,0.47,4.116,4.485,1.243,1.313,97.67
+0 days 01:44:50.586000,OCO,31,97.178,30.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,1.734,1.817,5.401,5.885,2.496,2.636,99.018
+0 days 01:46:25.946000,OCO,31,95.36,31.0,2.0,,,True,HARD,10.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.084,-0.088,3.583,3.904,0.628,0.663,97.264
+0 days 01:48:01.560000,OCO,31,95.614,32.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,0.17,0.178,3.837,4.181,0.656,0.691,97.581
+0 days 01:49:36.970000,OCO,31,95.41,33.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.034,-0.036,3.633,3.959,0.455,0.479,97.441
+0 days 01:51:13.222000,OCO,31,96.252,34.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,0.808,0.847,4.475,4.876,1.472,1.553,98.346
+0 days 01:52:48.677000,OCO,31,95.455,35.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,0.011,0.012,3.678,4.008,0.051,0.053,97.613
+0 days 01:54:23.819000,OCO,31,95.142,36.0,2.0,,,True,HARD,15.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,-0.302,-0.316,3.365,3.666,0.205,0.216,97.363
+0 days 01:56:04.529000,OCO,31,100.71,37.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,126,15.0,False,9,British Grand Prix,True,C1,False,5.266,5.517,8.933,9.733,6.077,6.422,102.995
+0 days 01:57:58.289000,OCO,31,113.76,38.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,671,15.0,False,9,British Grand Prix,True,C1,False,18.316,19.19,21.983,23.953,2.872,2.59,116.108
+0 days 01:59:33.682000,OCO,31,95.393,39.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.051,-0.053,3.616,3.94,-2.04,-2.094,97.805
+0 days 02:01:09.168000,OCO,31,95.486,40.0,2.0,,,False,HARD,19.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,0.042,0.044,3.709,4.041,1.212,1.286,97.961
+0 days 02:02:44.295000,OCO,31,95.127,41.0,2.0,,,True,HARD,20.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.317,-0.332,3.35,3.65,0.758,0.803,97.665
+0 days 02:04:20.188000,OCO,31,95.893,42.0,2.0,,,False,HARD,21.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,0.449,0.47,4.116,4.485,1.687,1.791,98.495
+0 days 02:05:54.980000,OCO,31,94.792,43.0,2.0,,,True,HARD,22.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.652,-0.683,3.015,3.285,0.216,0.228,97.457
+0 days 02:07:30.905000,OCO,31,95.925,44.0,2.0,,,False,HARD,23.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,0.481,0.504,4.148,4.52,1.598,1.694,98.654
+0 days 02:09:05.801000,OCO,31,94.896,45.0,2.0,,,False,HARD,24.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.548,-0.574,3.119,3.398,0.757,0.804,97.688
+0 days 02:10:47.622000,OCO,31,101.821,46.0,2.0,,,False,HARD,25.0,True,Haas F1 Team,124,16.0,False,9,British Grand Prix,True,C1,False,6.377,6.681,10.044,10.944,8.111,8.655,104.677
+0 days 02:12:53.625000,OCO,31,126.003,47.0,2.0,,0 days 02:12:47.794000,False,HARD,26.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C1,False,30.559,32.018,34.226,37.293,27.169,27.49,128.922
+0 days 02:15:19.221000,OCO,31,145.596,48.0,3.0,0 days 02:13:19.072000,,False,SOFT,1.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C3,False,50.152,52.546,53.819,58.641,20.522,16.408,148.579
+0 days 02:17:42.068000,OCO,31,142.847,49.0,3.0,,,False,SOFT,2.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C3,False,47.403,49.666,51.07,55.646,30.306,26.929,145.893
+0 days 02:19:24.157000,OCO,31,102.089,50.0,3.0,,,False,SOFT,3.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C3,False,6.645,6.962,10.312,11.236,-5.555,-5.161,105.199
+0 days 02:21:00.016000,OCO,31,95.859,51.0,3.0,,,False,SOFT,4.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C3,False,0.415,0.435,4.082,4.448,-1.541,-1.582,99.032
+0 days 02:22:56.645000,OCO,31,116.629,52.0,3.0,,,False,SOFT,5.0,True,Haas F1 Team,4,15.0,False,9,British Grand Prix,True,C3,False,21.185,22.196,24.852,27.079,-23.639,-16.853,119.866
+0 days 00:57:22.804000,LIN,41,103.006,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,12,9.0,False,9,British Grand Prix,True,C2,False,7.562,7.923,11.229,12.235,-1.675,-1.6,103.006
+0 days 00:58:59.007000,LIN,41,96.203,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,12,9.0,True,9,British Grand Prix,True,C2,False,0.759,0.795,4.426,4.823,-0.162,-0.168,96.266
+0 days 01:00:34.966000,LIN,41,95.959,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.515,0.54,4.182,4.557,-0.296,-0.308,96.086
+0 days 01:02:10.608000,LIN,41,95.642,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.198,0.207,3.865,4.211,-0.635,-0.66,95.832
+0 days 01:03:46.338000,LIN,41,95.73,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.286,0.3,3.953,4.307,-0.704,-0.73,95.984
+0 days 01:05:22.162000,LIN,41,95.824,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.38,0.398,4.047,4.41,-0.584,-0.606,96.141
+0 days 01:06:58.134000,LIN,41,95.972,7.0,1.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.528,0.553,4.195,4.571,-0.224,-0.233,96.353
+0 days 01:08:34.278000,LIN,41,96.144,8.0,1.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.7,0.733,4.367,4.758,-0.43,-0.445,96.588
+0 days 01:10:10.678000,LIN,41,96.4,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.956,1.002,4.623,5.037,-0.074,-0.077,96.908
+0 days 01:11:46.927000,LIN,41,96.249,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.805,0.843,4.472,4.873,-0.003,-0.003,96.82
+0 days 01:13:23.020000,LIN,41,96.093,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.649,0.68,4.316,4.703,-0.098,-0.102,96.728
+0 days 01:14:58.925000,LIN,41,95.905,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.461,0.483,4.128,4.498,-0.205,-0.213,96.603
+0 days 01:16:35.092000,LIN,41,96.167,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.723,0.758,4.39,4.783,-0.063,-0.065,96.929
+0 days 01:18:10.812000,LIN,41,95.72,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.276,0.289,3.943,4.296,-0.183,-0.191,96.545
+0 days 01:19:46.260000,LIN,41,95.448,15.0,1.0,,,True,MEDIUM,15.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.004,0.004,3.671,4.0,-0.405,-0.423,96.336
+0 days 01:21:22.250000,LIN,41,95.99,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.546,0.572,4.213,4.59,-0.036,-0.037,96.942
+0 days 01:22:58.001000,LIN,41,95.751,17.0,1.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.307,0.322,3.974,4.33,-0.228,-0.238,96.766
+0 days 01:24:33.858000,LIN,41,95.857,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.413,0.433,4.08,4.446,-0.028,-0.029,96.936
+0 days 01:26:09.781000,LIN,41,95.923,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.479,0.502,4.146,4.517,-0.015,-0.016,97.065
+0 days 01:27:45.622000,LIN,41,95.841,20.0,1.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C2,True,0.397,0.416,4.064,4.428,0.166,0.174,97.047
+0 days 01:29:21.401000,LIN,41,95.779,21.0,1.0,,,False,MEDIUM,21.0,True,Racing Bulls,16,8.0,False,9,British Grand Prix,True,C2,False,0.335,0.351,4.002,4.361,-0.391,-0.407,97.048
+0 days 01:31:08.192000,LIN,41,106.791,22.0,1.0,,,False,MEDIUM,22.0,True,Racing Bulls,671,8.0,False,9,British Grand Prix,True,C2,False,11.347,11.889,15.014,16.359,2.813,2.705,108.124
+0 days 01:32:44.800000,LIN,41,96.608,23.0,1.0,,,False,MEDIUM,23.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,1.164,1.22,4.831,5.264,0.89,0.93,98.004
+0 days 01:34:20.323000,LIN,41,95.523,24.0,1.0,,,False,MEDIUM,24.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.079,0.083,3.746,4.082,-0.075,-0.078,96.983
+0 days 01:35:56.143000,LIN,41,95.82,25.0,1.0,,,False,MEDIUM,25.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.376,0.394,4.043,4.405,0.78,0.821,97.343
+0 days 01:37:31.666000,LIN,41,95.523,26.0,1.0,,,False,MEDIUM,26.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C2,True,0.079,0.083,3.746,4.082,0.255,0.268,97.11
+0 days 01:39:06.248000,LIN,41,94.582,27.0,1.0,,0 days 01:39:00.334000,False,MEDIUM,27.0,True,Racing Bulls,1,9.0,False,9,British Grand Prix,True,C2,False,-0.862,-0.903,2.805,3.056,-0.422,-0.444,96.232
+0 days 01:41:01.562000,LIN,41,115.314,28.0,2.0,0 days 01:39:29.334000,,False,HARD,1.0,True,Racing Bulls,1,9.0,False,9,British Grand Prix,True,C1,False,19.87,20.818,23.537,25.646,20.662,21.829,117.027
+0 days 01:42:35.194000,LIN,41,93.632,29.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.812,-1.898,1.855,2.021,-1.018,-1.076,95.409
+0 days 01:44:09.122000,LIN,41,93.928,30.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.516,-1.588,2.151,2.344,-0.754,-0.796,95.768
+0 days 01:45:42.870000,LIN,41,93.748,31.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.696,-1.777,1.971,2.148,-0.984,-1.039,95.652
+0 days 01:47:16.789000,LIN,41,93.919,32.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.525,-1.598,2.142,2.334,-1.039,-1.094,95.886
+0 days 01:48:50.642000,LIN,41,93.853,33.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.591,-1.667,2.076,2.262,-1.102,-1.161,95.884
+0 days 01:50:24.716000,LIN,41,94.074,34.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.37,-1.435,2.297,2.503,-0.706,-0.745,96.168
+0 days 01:51:58.874000,LIN,41,94.158,35.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.286,-1.347,2.381,2.594,-1.246,-1.306,96.316
+0 days 01:53:33.254000,LIN,41,94.38,36.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.064,-1.115,2.603,2.836,-0.557,-0.587,96.601
+0 days 01:55:07.501000,LIN,41,94.247,37.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.197,-1.254,2.47,2.691,-0.386,-0.408,96.532
+0 days 01:57:01.028000,LIN,41,113.527,38.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1267,9.0,False,9,British Grand Prix,True,C1,False,18.083,18.946,21.75,23.699,2.639,2.38,115.875
+0 days 01:58:38.243000,LIN,41,97.215,39.0,2.0,,,False,HARD,12.0,True,Racing Bulls,71,9.0,False,9,British Grand Prix,True,C1,False,1.771,1.856,5.438,5.925,-0.218,-0.224,99.627
+0 days 02:00:12.379000,LIN,41,94.136,40.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.308,-1.37,2.359,2.57,-0.138,-0.146,96.611
+0 days 02:01:46.748000,LIN,41,94.369,41.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.075,-1.126,2.592,2.824,0.0,0.0,96.907
+0 days 02:03:20.858000,LIN,41,94.11,42.0,2.0,,,False,HARD,15.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-1.334,-1.398,2.333,2.542,-0.096,-0.102,96.712
+0 days 02:04:55.434000,LIN,41,94.576,43.0,2.0,,,False,HARD,16.0,True,Racing Bulls,1,9.0,True,9,British Grand Prix,True,C1,True,-0.868,-0.909,2.799,3.05,0.0,0.0,97.241
+0 days 02:06:29.761000,LIN,41,94.327,44.0,2.0,,,False,HARD,17.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.117,-1.17,2.55,2.778,0.0,0.0,97.056
+0 days 02:08:03.800000,LIN,41,94.039,45.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.405,-1.472,2.262,2.465,-0.1,-0.106,96.831
+0 days 02:09:38.057000,LIN,41,94.257,46.0,2.0,,,False,HARD,19.0,True,Racing Bulls,1,8.0,True,9,British Grand Prix,True,C1,True,-1.187,-1.244,2.48,2.702,0.547,0.584,97.113
+0 days 02:11:22.822000,LIN,41,104.765,47.0,2.0,,0 days 02:11:16.921000,False,HARD,20.0,True,Racing Bulls,124,7.0,False,9,British Grand Prix,True,C1,False,9.321,9.766,12.988,14.152,5.931,6.001,107.684
+0 days 02:13:48.473000,LIN,41,145.651,48.0,3.0,0 days 02:11:49.002000,,False,SOFT,4.0,False,Racing Bulls,4,7.0,False,9,British Grand Prix,True,C3,False,50.207,52.604,53.874,58.701,20.577,16.452,148.634
+0 days 02:15:34.742000,LIN,41,106.269,49.0,3.0,,,False,SOFT,5.0,False,Racing Bulls,4,7.0,False,9,British Grand Prix,True,C3,False,10.825,11.342,14.492,15.79,-6.272,-5.573,109.315
+0 days 02:17:48.649000,LIN,41,133.907,50.0,3.0,,,False,SOFT,6.0,False,Racing Bulls,4,7.0,False,9,British Grand Prix,True,C3,False,38.463,40.299,42.13,45.905,26.263,24.398,137.017
+0 days 02:20:31.976000,LIN,41,,51.0,3.0,,,False,SOFT,7.0,False,Racing Bulls,4,7.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:53.447000,LIN,41,141.471,52.0,3.0,,,False,SOFT,8.0,False,Racing Bulls,4,7.0,False,9,British Grand Prix,True,C3,False,46.027,48.224,49.694,54.146,1.203,0.858,144.708
+0 days 00:57:25.972000,COL,43,106.174,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,12,16.0,False,9,British Grand Prix,True,C2,False,10.73,11.242,14.397,15.687,1.493,1.426,106.174
+0 days 00:59:03.177000,COL,43,97.205,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,12,14.0,True,9,British Grand Prix,True,C2,False,1.761,1.845,5.428,5.914,0.84,0.872,97.268
+0 days 01:00:39.854000,COL,43,96.677,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,14.0,True,9,British Grand Prix,True,C2,True,1.233,1.292,4.9,5.339,0.422,0.438,96.804
+0 days 01:02:16.165000,COL,43,96.311,4.0,1.0,,,True,MEDIUM,4.0,True,Alpine,1,14.0,True,9,British Grand Prix,True,C2,True,0.867,0.908,4.534,4.94,0.034,0.035,96.501
+0 days 01:03:52.859000,COL,43,96.694,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C2,True,1.25,1.31,4.917,5.358,0.26,0.27,96.948
+0 days 01:05:29.978000,COL,43,97.119,6.0,1.0,,,False,MEDIUM,6.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C2,True,1.675,1.755,5.342,5.821,0.711,0.737,97.436
+0 days 01:07:06.437000,COL,43,96.459,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C2,True,1.015,1.063,4.682,5.101,0.263,0.273,96.84
+0 days 01:08:43.645000,COL,43,97.208,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,13.0,True,9,British Grand Prix,True,C2,True,1.764,1.848,5.431,5.918,0.634,0.656,97.652
+0 days 01:10:20.193000,COL,43,96.548,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,1.104,1.157,4.771,5.198,0.074,0.077,97.056
+0 days 01:11:57.661000,COL,43,97.468,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,2.024,2.121,5.691,6.201,1.216,1.263,98.039
+0 days 01:13:34.138000,COL,43,96.477,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,1.033,1.082,4.7,5.121,0.286,0.297,97.112
+0 days 01:15:10.981000,COL,43,96.843,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,1.399,1.466,5.066,5.52,0.733,0.763,97.541
+0 days 01:16:47.054000,COL,43,96.073,13.0,1.0,,,True,MEDIUM,13.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.629,0.659,4.296,4.681,-0.157,-0.163,96.835
+0 days 01:18:22.971000,COL,43,95.917,14.0,1.0,,,True,MEDIUM,14.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.473,0.496,4.14,4.511,0.014,0.015,96.742
+0 days 01:19:58.828000,COL,43,95.857,15.0,1.0,,,True,MEDIUM,15.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.413,0.433,4.08,4.446,0.004,0.004,96.745
+0 days 01:21:35.407000,COL,43,96.579,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,1.135,1.189,4.802,5.232,0.553,0.576,97.531
+0 days 01:23:11.646000,COL,43,96.239,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.795,0.833,4.462,4.862,0.26,0.271,97.254
+0 days 01:24:47.894000,COL,43,96.248,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.804,0.842,4.471,4.872,0.363,0.379,97.327
+0 days 01:26:23.966000,COL,43,96.072,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.628,0.658,4.295,4.68,0.134,0.14,97.214
+0 days 01:27:59.746000,COL,43,95.78,20.0,1.0,,,True,MEDIUM,20.0,True,Alpine,1,12.0,True,9,British Grand Prix,True,C2,True,0.336,0.352,4.003,4.362,0.105,0.11,96.986
+0 days 01:29:40.214000,COL,43,100.468,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,16,12.0,False,9,British Grand Prix,True,C2,False,5.024,5.264,8.691,9.47,4.298,4.469,101.737
+0 days 01:31:19.517000,COL,43,99.303,22.0,1.0,,0 days 01:31:13.599000,False,MEDIUM,22.0,True,Alpine,671,12.0,False,9,British Grand Prix,True,C2,False,3.859,4.043,7.526,8.2,-4.675,-4.496,100.636
+0 days 01:33:16.261000,COL,43,116.744,23.0,2.0,0 days 01:31:43.006000,,False,HARD,1.0,True,Alpine,1,13.0,False,9,British Grand Prix,True,C1,False,21.3,22.317,24.967,27.204,21.026,21.967,118.14
+0 days 01:34:50.973000,COL,43,94.712,24.0,2.0,,,True,HARD,2.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.732,-0.767,2.935,3.198,-0.886,-0.927,96.172
+0 days 01:36:25.254000,COL,43,94.281,25.0,2.0,,,True,HARD,3.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-1.163,-1.219,2.504,2.728,-0.759,-0.799,95.804
+0 days 01:37:59.966000,COL,43,94.712,26.0,2.0,,,False,HARD,4.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.732,-0.767,2.935,3.198,-0.556,-0.584,96.299
+0 days 01:39:34.576000,COL,43,94.61,27.0,2.0,,,False,HARD,5.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.834,-0.874,2.833,3.087,-0.394,-0.415,96.26
+0 days 01:41:09.228000,COL,43,94.652,28.0,2.0,,,False,HARD,6.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.792,-0.83,2.875,3.133,0.0,0.0,96.365
+0 days 01:42:44.096000,COL,43,94.868,29.0,2.0,,,False,HARD,7.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.576,-0.603,3.091,3.368,0.218,0.23,96.645
+0 days 01:44:18.840000,COL,43,94.744,30.0,2.0,,,False,HARD,8.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.7,-0.733,2.967,3.233,0.062,0.065,96.584
+0 days 01:45:53.857000,COL,43,95.017,31.0,2.0,,,False,HARD,9.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.427,-0.447,3.24,3.53,0.285,0.301,96.921
+0 days 01:47:30.124000,COL,43,96.267,32.0,2.0,,,False,HARD,10.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,0.823,0.862,4.49,4.892,1.309,1.379,98.234
+0 days 01:49:05.443000,COL,43,95.319,33.0,2.0,,,False,HARD,11.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.125,-0.131,3.542,3.859,0.364,0.383,97.35
+0 days 01:50:41.150000,COL,43,95.707,34.0,2.0,,,False,HARD,12.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,0.263,0.276,3.93,4.282,0.927,0.978,97.801
+0 days 01:52:16.608000,COL,43,95.458,35.0,2.0,,,False,HARD,13.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,0.014,0.015,3.681,4.011,0.054,0.057,97.616
+0 days 01:53:51.745000,COL,43,95.137,36.0,2.0,,,False,HARD,14.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.307,-0.322,3.36,3.661,0.2,0.211,97.358
+0 days 01:55:26.504000,COL,43,94.759,37.0,2.0,,,False,HARD,15.0,True,Alpine,12,11.0,True,9,British Grand Prix,True,C1,False,-0.685,-0.718,2.982,3.249,0.126,0.133,97.044
+0 days 01:57:23.853000,COL,43,117.349,38.0,2.0,,,False,HARD,16.0,True,Alpine,2671,11.0,False,9,British Grand Prix,True,C1,False,21.905,22.951,25.572,27.863,6.461,5.827,119.697
+0 days 01:58:58.462000,COL,43,94.609,39.0,2.0,,,False,HARD,17.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.835,-0.875,2.832,3.086,-2.824,-2.898,97.021
+0 days 02:00:33.227000,COL,43,94.765,40.0,2.0,,,False,HARD,18.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.679,-0.711,2.988,3.256,0.491,0.521,97.24
+0 days 02:02:07.945000,COL,43,94.718,41.0,2.0,,,False,HARD,19.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.726,-0.761,2.941,3.205,0.349,0.37,97.256
+0 days 02:03:42.569000,COL,43,94.624,42.0,2.0,,,False,HARD,20.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.82,-0.859,2.847,3.102,0.418,0.444,97.226
+0 days 02:05:17.354000,COL,43,94.785,43.0,2.0,,,False,HARD,21.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.659,-0.69,3.008,3.278,0.209,0.221,97.45
+0 days 02:06:51.786000,COL,43,94.432,44.0,2.0,,,False,HARD,22.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-1.012,-1.06,2.655,2.893,0.105,0.111,97.161
+0 days 02:08:26.351000,COL,43,94.565,45.0,2.0,,,False,HARD,23.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.879,-0.921,2.788,3.038,0.426,0.453,97.357
+0 days 02:10:01.221000,COL,43,94.87,46.0,2.0,,,False,HARD,24.0,True,Alpine,1,11.0,True,9,British Grand Prix,True,C1,True,-0.574,-0.601,3.093,3.37,1.16,1.238,97.726
+0 days 02:11:53.331000,COL,43,112.11,47.0,2.0,,0 days 02:11:47.432000,False,HARD,25.0,True,Alpine,124,10.0,False,9,British Grand Prix,True,C1,False,16.666,17.462,20.333,22.155,13.276,13.433,115.029
+0 days 02:14:15.822000,COL,43,142.491,48.0,3.0,0 days 02:12:16.939000,,False,SOFT,1.0,True,Alpine,4,11.0,False,9,British Grand Prix,True,C3,False,47.047,49.293,50.714,55.258,17.417,13.925,145.474
+0 days 02:16:02.020000,COL,43,106.198,49.0,3.0,,,False,SOFT,2.0,True,Alpine,4,10.0,False,9,British Grand Prix,True,C3,False,10.754,11.267,14.421,15.713,-6.343,-5.636,109.244
+0 days 02:17:51.776000,COL,43,109.756,50.0,3.0,,,False,SOFT,3.0,True,Alpine,4,10.0,False,9,British Grand Prix,True,C3,False,14.312,14.995,17.979,19.59,2.112,1.962,112.866
+0 days 02:20:34.462000,COL,43,,51.0,3.0,,,False,SOFT,4.0,True,Alpine,4,10.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:54.421000,COL,43,139.959,52.0,3.0,,,False,SOFT,5.0,True,Alpine,4,10.0,False,9,British Grand Prix,True,C3,False,44.515,46.64,48.182,52.499,-0.309,-0.22,143.196
+0 days 00:57:16.710000,HAM,44,96.912,1.0,1.0,,,False,MEDIUM,1.0,True,Ferrari,12,2.0,False,9,British Grand Prix,True,C2,False,1.468,1.538,5.135,5.595,-7.769,-7.422,96.912
+0 days 00:58:50.936000,HAM,44,94.226,2.0,1.0,,,True,MEDIUM,2.0,True,Ferrari,12,2.0,True,9,British Grand Prix,True,C2,False,-1.218,-1.276,2.449,2.668,-2.139,-2.22,94.289
+0 days 01:00:24.986000,HAM,44,94.05,3.0,1.0,,,True,MEDIUM,3.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-1.394,-1.461,2.273,2.477,-2.205,-2.291,94.177
+0 days 01:01:58.929000,HAM,44,93.943,4.0,1.0,,,True,MEDIUM,4.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-1.501,-1.573,2.166,2.36,-2.334,-2.424,94.133
+0 days 01:03:33.684000,HAM,44,94.755,5.0,1.0,,,False,MEDIUM,5.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.689,-0.722,2.978,3.245,-1.679,-1.741,95.009
+0 days 01:05:08.356000,HAM,44,94.672,6.0,1.0,,,False,MEDIUM,6.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.772,-0.809,2.895,3.154,-1.736,-1.801,94.989
+0 days 01:06:43.091000,HAM,44,94.735,7.0,1.0,,,False,MEDIUM,7.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.709,-0.743,2.958,3.223,-1.461,-1.519,95.116
+0 days 01:08:17.742000,HAM,44,94.651,8.0,1.0,,,False,MEDIUM,8.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.793,-0.831,2.874,3.132,-1.923,-1.991,95.095
+0 days 01:09:52.751000,HAM,44,95.009,9.0,1.0,,,False,MEDIUM,9.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.435,-0.456,3.232,3.522,-1.465,-1.519,95.517
+0 days 01:11:27.737000,HAM,44,94.986,10.0,1.0,,,False,MEDIUM,10.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C2,True,-0.458,-0.48,3.209,3.497,-1.266,-1.315,95.557
+0 days 01:13:03.478000,HAM,44,95.741,11.0,1.0,,,False,MEDIUM,11.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,0.297,0.311,3.964,4.319,-0.45,-0.468,96.376
+0 days 01:14:38.119000,HAM,44,94.641,12.0,1.0,,,False,MEDIUM,12.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.803,-0.841,2.864,3.121,-1.469,-1.528,95.339
+0 days 01:16:12.897000,HAM,44,94.778,13.0,1.0,,,False,MEDIUM,13.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.666,-0.698,3.001,3.27,-1.452,-1.509,95.54
+0 days 01:17:47.328000,HAM,44,94.431,14.0,1.0,,,False,MEDIUM,14.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-1.013,-1.061,2.654,2.892,-1.472,-1.535,95.256
+0 days 01:19:22.089000,HAM,44,94.761,15.0,1.0,,,False,MEDIUM,15.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.683,-0.716,2.984,3.251,-1.092,-1.139,95.649
+0 days 01:20:57.461000,HAM,44,95.372,16.0,1.0,,,False,MEDIUM,16.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.072,-0.075,3.595,3.917,-0.654,-0.681,96.324
+0 days 01:22:32.568000,HAM,44,95.107,17.0,1.0,,,False,MEDIUM,17.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.337,-0.353,3.33,3.628,-0.872,-0.909,96.122
+0 days 01:24:07.455000,HAM,44,94.887,18.0,1.0,,,False,MEDIUM,18.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.557,-0.584,3.11,3.389,-0.998,-1.041,95.966
+0 days 01:25:42.061000,HAM,44,94.606,19.0,1.0,,,False,MEDIUM,19.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.838,-0.878,2.829,3.082,-1.332,-1.388,95.748
+0 days 01:27:16.456000,HAM,44,94.395,20.0,1.0,,,False,MEDIUM,20.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-1.049,-1.099,2.618,2.853,-1.28,-1.338,95.601
+0 days 01:28:51.257000,HAM,44,94.801,21.0,1.0,,,False,MEDIUM,21.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C2,True,-0.643,-0.674,3.024,3.295,-1.369,-1.424,96.07
+0 days 01:30:35.904000,HAM,44,104.647,22.0,1.0,,,False,MEDIUM,22.0,True,Ferrari,167,3.0,False,9,British Grand Prix,True,C2,False,9.203,9.642,12.87,14.023,0.669,0.643,105.98
+0 days 01:32:10.149000,HAM,44,94.245,23.0,1.0,,0 days 01:32:04.292000,False,MEDIUM,23.0,True,Ferrari,1,3.0,False,9,British Grand Prix,True,C2,False,-1.199,-1.256,2.468,2.689,-1.473,-1.539,95.641
+0 days 01:34:09.845000,HAM,44,119.696,24.0,2.0,0 days 01:32:39.190000,,False,HARD,1.0,True,Ferrari,1,6.0,False,9,British Grand Prix,True,C1,False,24.252,25.41,27.919,30.42,24.098,25.208,121.156
+0 days 01:35:42.154000,HAM,44,92.309,25.0,2.0,,,True,HARD,2.0,True,Ferrari,1,6.0,True,9,British Grand Prix,True,C1,True,-3.135,-3.285,0.532,0.58,-2.731,-2.874,93.832
+0 days 01:37:14.821000,HAM,44,92.667,26.0,2.0,,,False,HARD,3.0,True,Ferrari,1,6.0,True,9,British Grand Prix,True,C1,True,-2.777,-2.91,0.89,0.97,-2.601,-2.73,94.254
+0 days 01:38:47.737000,HAM,44,92.916,27.0,2.0,,,False,HARD,4.0,True,Ferrari,1,6.0,True,9,British Grand Prix,True,C1,True,-2.528,-2.649,1.139,1.241,-2.088,-2.198,94.566
+0 days 01:40:20.659000,HAM,44,92.922,28.0,2.0,,,False,HARD,5.0,True,Ferrari,1,6.0,True,9,British Grand Prix,True,C1,True,-2.522,-2.642,1.145,1.248,-1.73,-1.828,94.635
+0 days 01:41:55.406000,HAM,44,94.747,29.0,2.0,,,False,HARD,6.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-0.697,-0.73,2.97,3.236,0.097,0.102,96.524
+0 days 01:43:28.613000,HAM,44,93.207,30.0,2.0,,,False,HARD,7.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-2.237,-2.344,1.43,1.558,-1.475,-1.558,95.047
+0 days 01:45:03.351000,HAM,44,94.738,31.0,2.0,,,False,HARD,8.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-0.706,-0.74,2.961,3.226,0.006,0.006,96.642
+0 days 01:46:37.097000,HAM,44,93.746,32.0,2.0,,,False,HARD,9.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-1.698,-1.779,1.969,2.145,-1.212,-1.276,95.713
+0 days 01:48:10.979000,HAM,44,93.882,33.0,2.0,,,False,HARD,10.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-1.562,-1.637,2.105,2.294,-1.073,-1.13,95.913
+0 days 01:49:44.875000,HAM,44,93.896,34.0,2.0,,,False,HARD,11.0,True,Ferrari,1,5.0,True,9,British Grand Prix,True,C1,True,-1.548,-1.622,2.119,2.309,-0.884,-0.933,95.99
+0 days 01:51:18.909000,HAM,44,94.034,35.0,2.0,,,False,HARD,12.0,True,Ferrari,1,4.0,True,9,British Grand Prix,True,C1,True,-1.41,-1.477,2.257,2.459,-1.37,-1.436,96.192
+0 days 01:52:52.902000,HAM,44,93.993,36.0,2.0,,,False,HARD,13.0,True,Ferrari,1,4.0,True,9,British Grand Prix,True,C1,True,-1.451,-1.52,2.216,2.415,-0.944,-0.994,96.214
+0 days 01:54:26.640000,HAM,44,93.738,37.0,2.0,,,False,HARD,14.0,True,Ferrari,1,4.0,True,9,British Grand Prix,True,C1,True,-1.706,-1.787,1.961,2.137,-0.895,-0.946,96.023
+0 days 01:56:05.934000,HAM,44,99.294,38.0,2.0,,,False,HARD,15.0,True,Ferrari,126,4.0,False,9,British Grand Prix,True,C1,False,3.85,4.034,7.517,8.191,-11.594,-10.456,101.642
+0 days 01:57:57.528000,HAM,44,111.594,39.0,2.0,,,False,HARD,16.0,True,Ferrari,671,3.0,False,9,British Grand Prix,True,C1,False,16.15,16.921,19.817,21.593,14.161,14.534,114.006
+0 days 01:59:31.270000,HAM,44,93.742,40.0,2.0,,,False,HARD,17.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C1,True,-1.702,-1.783,1.965,2.141,-0.532,-0.564,96.217
+0 days 02:01:04.691000,HAM,44,93.421,41.0,2.0,,,False,HARD,18.0,True,Ferrari,1,3.0,True,9,British Grand Prix,True,C1,True,-2.023,-2.12,1.644,1.791,-0.948,-1.005,95.959
+0 days 02:02:38.028000,HAM,44,93.337,42.0,2.0,,,False,HARD,19.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.107,-2.208,1.56,1.7,-0.869,-0.922,95.939
+0 days 02:04:11.057000,HAM,44,93.029,43.0,2.0,,,False,HARD,20.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.415,-2.53,1.252,1.364,-1.547,-1.636,95.694
+0 days 02:05:44.099000,HAM,44,93.042,44.0,2.0,,,False,HARD,21.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.402,-2.517,1.265,1.378,-1.285,-1.362,95.771
+0 days 02:07:16.882000,HAM,44,92.783,45.0,2.0,,,False,HARD,22.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.661,-2.788,1.006,1.096,-1.356,-1.44,95.575
+0 days 02:08:49.855000,HAM,44,92.973,46.0,2.0,,,False,HARD,23.0,True,Ferrari,1,2.0,True,9,British Grand Prix,True,C1,True,-2.471,-2.589,1.196,1.303,-0.737,-0.786,95.829
+0 days 02:10:22.915000,HAM,44,93.06,47.0,2.0,,,False,HARD,24.0,True,Ferrari,12,2.0,True,9,British Grand Prix,True,C1,False,-2.384,-2.498,1.283,1.398,-5.774,-5.842,95.979
+0 days 02:12:24.670000,HAM,44,121.755,48.0,2.0,,0 days 02:12:18.858000,False,HARD,25.0,True,Ferrari,24,2.0,False,9,British Grand Prix,True,C1,False,26.311,27.567,29.978,32.664,-3.319,-2.654,124.738
+0 days 02:14:53.836000,HAM,44,149.166,49.0,3.0,0 days 02:12:47.572000,,False,SOFT,4.0,False,Ferrari,4,3.0,False,9,British Grand Prix,True,C3,False,53.722,56.286,57.389,62.531,36.625,32.544,152.212
+0 days 02:17:37.546000,HAM,44,,50.0,3.0,,,False,SOFT,5.0,False,Ferrari,4,3.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:20:28.855000,HAM,44,,51.0,3.0,,,False,SOFT,6.0,False,Ferrari,4,3.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:51.995000,HAM,44,143.14,52.0,3.0,,,False,SOFT,7.0,False,Ferrari,4,3.0,False,9,British Grand Prix,True,C3,False,47.696,49.973,51.363,55.965,2.872,2.048,146.377
+0 days 00:57:25.006000,BOR,5,105.208,1.0,1.0,,,False,MEDIUM,1.0,True,Audi,12,13.0,False,9,British Grand Prix,True,C2,False,9.764,10.23,13.431,14.634,0.527,0.503,105.208
+0 days 00:59:01.140000,BOR,5,96.134,2.0,1.0,,,True,MEDIUM,2.0,True,Audi,12,11.0,True,9,British Grand Prix,True,C2,False,0.69,0.723,4.357,4.747,-0.231,-0.24,96.197
+0 days 01:00:37.309000,BOR,5,96.169,3.0,1.0,,,False,MEDIUM,3.0,True,Audi,1,11.0,True,9,British Grand Prix,True,C2,True,0.725,0.76,4.392,4.786,-0.086,-0.089,96.296
+0 days 01:02:13.571000,BOR,5,96.262,4.0,1.0,,,False,MEDIUM,4.0,True,Audi,1,11.0,True,9,British Grand Prix,True,C2,True,0.818,0.857,4.485,4.887,-0.015,-0.016,96.452
+0 days 01:03:50.140000,BOR,5,96.569,5.0,1.0,,,False,MEDIUM,5.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,1.125,1.179,4.792,5.221,0.135,0.14,96.823
+0 days 01:05:26.643000,BOR,5,96.503,6.0,1.0,,,False,MEDIUM,6.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,1.059,1.11,4.726,5.149,0.095,0.099,96.82
+0 days 01:07:02.435000,BOR,5,95.792,7.0,1.0,,,True,MEDIUM,7.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.348,0.365,4.015,4.375,-0.404,-0.42,96.173
+0 days 01:08:38.407000,BOR,5,95.972,8.0,1.0,,,False,MEDIUM,8.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.528,0.553,4.195,4.571,-0.602,-0.623,96.416
+0 days 01:10:14.548000,BOR,5,96.141,9.0,1.0,,,False,MEDIUM,9.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.697,0.73,4.364,4.755,-0.333,-0.345,96.649
+0 days 01:11:50.664000,BOR,5,96.116,10.0,1.0,,,False,MEDIUM,10.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.672,0.704,4.339,4.728,-0.136,-0.141,96.687
+0 days 01:13:26.335000,BOR,5,95.671,11.0,1.0,,,True,MEDIUM,11.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.227,0.238,3.894,4.243,-0.52,-0.541,96.306
+0 days 01:15:02.215000,BOR,5,95.88,12.0,1.0,,,False,MEDIUM,12.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.436,0.457,4.103,4.471,-0.23,-0.239,96.578
+0 days 01:16:38.508000,BOR,5,96.293,13.0,1.0,,,False,MEDIUM,13.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.849,0.89,4.516,4.921,0.063,0.065,97.055
+0 days 01:18:14.370000,BOR,5,95.862,14.0,1.0,,,False,MEDIUM,14.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.418,0.438,4.085,4.451,-0.041,-0.043,96.687
+0 days 01:19:50.136000,BOR,5,95.766,15.0,1.0,,,False,MEDIUM,15.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.322,0.337,3.989,4.346,-0.087,-0.091,96.654
+0 days 01:21:26.198000,BOR,5,96.062,16.0,1.0,,,False,MEDIUM,16.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.618,0.648,4.285,4.669,0.036,0.037,97.014
+0 days 01:23:01.860000,BOR,5,95.662,17.0,1.0,,,True,MEDIUM,17.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.218,0.228,3.885,4.233,-0.317,-0.33,96.677
+0 days 01:24:37.745000,BOR,5,95.885,18.0,1.0,,,False,MEDIUM,18.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.441,0.462,4.108,4.476,0.0,0.0,96.964
+0 days 01:26:13.621000,BOR,5,95.876,19.0,1.0,,,False,MEDIUM,19.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.432,0.453,4.099,4.466,-0.062,-0.065,97.018
+0 days 01:27:50.337000,BOR,5,96.716,20.0,1.0,,,False,MEDIUM,20.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,1.272,1.333,4.939,5.382,1.041,1.088,97.922
+0 days 01:29:26.897000,BOR,5,96.56,21.0,1.0,,,False,MEDIUM,21.0,True,Audi,16,10.0,False,9,British Grand Prix,True,C2,False,1.116,1.169,4.783,5.212,0.39,0.406,97.829
+0 days 01:31:11.781000,BOR,5,104.884,22.0,1.0,,,False,MEDIUM,22.0,True,Audi,671,10.0,False,9,British Grand Prix,True,C2,False,9.44,9.891,13.107,14.281,0.906,0.871,106.217
+0 days 01:32:47.499000,BOR,5,95.718,23.0,1.0,,,False,MEDIUM,23.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.274,0.287,3.941,4.294,0.0,0.0,97.114
+0 days 01:34:23.162000,BOR,5,95.663,24.0,1.0,,,False,MEDIUM,24.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.219,0.229,3.886,4.234,0.065,0.068,97.123
+0 days 01:35:58.687000,BOR,5,95.525,25.0,1.0,,,True,MEDIUM,25.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C2,True,0.081,0.085,3.748,4.084,0.485,0.51,97.048
+0 days 01:37:33.837000,BOR,5,95.15,26.0,1.0,,0 days 01:37:27.812000,False,MEDIUM,26.0,True,Audi,1,10.0,False,9,British Grand Prix,True,C2,False,-0.294,-0.308,3.373,3.675,-0.118,-0.124,96.737
+0 days 01:39:28.470000,BOR,5,114.633,27.0,2.0,0 days 01:37:56.557000,,False,HARD,1.0,True,Audi,1,10.0,False,9,British Grand Prix,True,C1,False,19.189,20.105,22.856,24.904,19.629,20.661,116.283
+0 days 01:41:02.540000,BOR,5,94.07,28.0,2.0,,,True,HARD,2.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.374,-1.44,2.293,2.498,-0.582,-0.615,95.783
+0 days 01:42:36.316000,BOR,5,93.776,29.0,2.0,,,True,HARD,3.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.668,-1.748,1.999,2.178,-0.874,-0.923,95.553
+0 days 01:44:09.966000,BOR,5,93.65,30.0,2.0,,,True,HARD,4.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.794,-1.88,1.873,2.041,-1.032,-1.09,95.49
+0 days 01:45:44.124000,BOR,5,94.158,31.0,2.0,,,False,HARD,5.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.286,-1.347,2.381,2.594,-0.574,-0.606,96.062
+0 days 01:47:18.546000,BOR,5,94.422,32.0,2.0,,,False,HARD,6.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.022,-1.071,2.645,2.882,-0.536,-0.564,96.389
+0 days 01:48:53.198000,BOR,5,94.652,33.0,2.0,,,False,HARD,7.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.792,-0.83,2.875,3.133,-0.303,-0.319,96.683
+0 days 01:50:27.683000,BOR,5,94.485,34.0,2.0,,,False,HARD,8.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.959,-1.005,2.708,2.951,-0.295,-0.311,96.579
+0 days 01:52:02.199000,BOR,5,94.516,35.0,2.0,,,False,HARD,9.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.928,-0.972,2.739,2.984,-0.888,-0.931,96.674
+0 days 01:53:36.787000,BOR,5,94.588,36.0,2.0,,,False,HARD,10.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.856,-0.897,2.811,3.063,-0.349,-0.368,96.809
+0 days 01:55:11.294000,BOR,5,94.507,37.0,2.0,,,False,HARD,11.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.937,-0.982,2.73,2.975,-0.126,-0.133,96.792
+0 days 01:57:05.304000,BOR,5,114.01,38.0,2.0,,,False,HARD,12.0,True,Audi,1267,10.0,False,9,British Grand Prix,True,C1,False,18.566,19.452,22.233,24.225,3.122,2.815,116.358
+0 days 01:58:43.134000,BOR,5,97.83,39.0,2.0,,,False,HARD,13.0,True,Audi,71,10.0,False,9,British Grand Prix,True,C1,False,2.386,2.5,6.053,6.595,0.397,0.407,100.242
+0 days 02:00:17.546000,BOR,5,94.412,40.0,2.0,,,False,HARD,14.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-1.032,-1.081,2.635,2.871,0.138,0.146,96.887
+0 days 02:01:52.194000,BOR,5,94.648,41.0,2.0,,,False,HARD,15.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.796,-0.834,2.871,3.128,0.279,0.296,97.186
+0 days 02:03:26.646000,BOR,5,94.452,42.0,2.0,,,False,HARD,16.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.992,-1.039,2.675,2.915,0.246,0.261,97.054
+0 days 02:05:01.304000,BOR,5,94.658,43.0,2.0,,,False,HARD,17.0,True,Audi,1,10.0,True,9,British Grand Prix,True,C1,True,-0.786,-0.824,2.881,3.139,0.082,0.087,97.323
+0 days 02:06:35.706000,BOR,5,94.402,44.0,2.0,,,False,HARD,18.0,True,Audi,1,9.0,True,9,British Grand Prix,True,C1,True,-1.042,-1.092,2.625,2.86,0.075,0.08,97.131
+0 days 02:08:09.945000,BOR,5,94.239,45.0,2.0,,,False,HARD,19.0,True,Audi,1,9.0,True,9,British Grand Prix,True,C1,True,-1.205,-1.263,2.462,2.683,0.1,0.106,97.031
+0 days 02:09:44.483000,BOR,5,94.538,46.0,2.0,,,False,HARD,20.0,True,Audi,1,9.0,True,9,British Grand Prix,True,C1,True,-0.906,-0.949,2.761,3.008,0.828,0.884,97.394
+0 days 02:11:30.529000,BOR,5,106.046,47.0,2.0,,0 days 02:11:24.488000,False,HARD,21.0,True,Audi,124,8.0,False,9,British Grand Prix,True,C1,False,10.602,11.108,14.269,15.547,7.212,7.297,108.965
+0 days 02:13:53.493000,BOR,5,142.964,48.0,3.0,0 days 02:11:54.429000,,False,SOFT,1.0,True,Audi,4,8.0,False,9,British Grand Prix,True,C3,False,47.52,49.788,51.187,55.773,17.89,14.304,145.947
+0 days 02:15:37.177000,BOR,5,103.684,49.0,3.0,,,False,SOFT,2.0,True,Audi,4,8.0,False,9,British Grand Prix,True,C3,False,8.24,8.633,11.907,12.974,-8.857,-7.87,106.73
+0 days 02:17:49.715000,BOR,5,132.538,50.0,3.0,,,False,SOFT,3.0,True,Audi,4,8.0,False,9,British Grand Prix,True,C3,False,37.094,38.865,40.761,44.413,24.894,23.126,135.648
+0 days 02:20:32.877000,BOR,5,,51.0,3.0,,,False,SOFT,4.0,True,Audi,4,8.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:53.600000,BOR,5,140.723,52.0,3.0,,,False,SOFT,5.0,True,Audi,4,8.0,False,9,British Grand Prix,True,C3,False,45.279,47.44,48.946,53.331,0.455,0.324,143.96
+0 days 00:57:23.787000,SAI,55,103.989,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,12,10.0,False,9,British Grand Prix,True,C2,False,8.545,8.953,12.212,13.306,-0.692,-0.661,103.989
+0 days 00:59:00.314000,SAI,55,96.527,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,12,10.0,True,9,British Grand Prix,True,C2,False,1.083,1.135,4.75,5.176,0.162,0.168,96.59
+0 days 01:00:36.784000,SAI,55,96.47,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,10.0,True,9,British Grand Prix,True,C2,True,1.026,1.075,4.693,5.113,0.215,0.223,96.597
+0 days 01:02:13.076000,SAI,55,96.292,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,10.0,True,9,British Grand Prix,True,C2,True,0.848,0.888,4.515,4.92,0.015,0.016,96.482
+0 days 01:03:51.151000,SAI,55,98.075,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,1,11.0,True,9,British Grand Prix,True,C2,True,2.631,2.757,6.298,6.862,1.641,1.702,98.329
+0 days 01:05:28.575000,SAI,55,97.424,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,1,12.0,True,9,British Grand Prix,True,C2,True,1.98,2.075,5.647,6.153,1.016,1.054,97.741
+0 days 01:07:05.730000,SAI,55,97.155,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,12.0,True,9,British Grand Prix,True,C2,True,1.711,1.793,5.378,5.86,0.959,0.997,97.536
+0 days 01:08:42.907000,SAI,55,97.177,8.0,1.0,,,False,MEDIUM,8.0,True,Williams,1,12.0,True,9,British Grand Prix,True,C2,True,1.733,1.816,5.4,5.884,0.603,0.624,97.621
+0 days 01:10:20.656000,SAI,55,97.749,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,2.305,2.415,5.972,6.507,1.275,1.322,98.257
+0 days 01:11:58.537000,SAI,55,97.881,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,2.437,2.553,6.104,6.651,1.629,1.692,98.452
+0 days 01:13:35.491000,SAI,55,96.954,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.51,1.582,5.177,5.641,0.763,0.793,97.589
+0 days 01:15:12.467000,SAI,55,96.976,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.532,1.605,5.199,5.665,0.866,0.901,97.674
+0 days 01:16:49.102000,SAI,55,96.635,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.191,1.248,4.858,5.293,0.405,0.421,97.397
+0 days 01:18:25.153000,SAI,55,96.051,14.0,1.0,,,True,MEDIUM,14.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,0.607,0.636,4.274,4.657,0.148,0.154,96.876
+0 days 01:20:01.536000,SAI,55,96.383,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,0.939,0.984,4.606,5.019,0.53,0.553,97.271
+0 days 01:21:38.090000,SAI,55,96.554,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.11,1.163,4.777,5.205,0.528,0.55,97.506
+0 days 01:23:14.676000,SAI,55,96.586,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.142,1.197,4.809,5.24,0.607,0.632,97.601
+0 days 01:24:51.333000,SAI,55,96.657,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,1.213,1.271,4.88,5.317,0.772,0.805,97.736
+0 days 01:26:27.621000,SAI,55,96.288,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C2,True,0.844,0.884,4.511,4.915,0.35,0.365,97.43
+0 days 01:28:03.137000,SAI,55,95.516,20.0,1.0,,0 days 01:27:57.301000,False,MEDIUM,20.0,True,Williams,1,13.0,False,9,British Grand Prix,True,C2,False,0.072,0.075,3.739,4.074,-0.159,-0.166,96.722
+0 days 01:30:08.786000,SAI,55,125.649,21.0,2.0,0 days 01:28:26.127000,,False,HARD,1.0,True,Williams,167,16.0,False,9,British Grand Prix,True,C1,False,30.205,31.647,33.872,36.907,29.479,30.653,126.918
+0 days 01:31:44.235000,SAI,55,95.449,22.0,2.0,,,True,HARD,2.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.005,0.005,3.672,4.001,-8.529,-8.203,96.782
+0 days 01:33:19.158000,SAI,55,94.923,23.0,2.0,,,True,HARD,3.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,-0.521,-0.546,3.146,3.428,-0.795,-0.831,96.319
+0 days 01:34:55.695000,SAI,55,96.537,24.0,2.0,,,False,HARD,4.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,1.093,1.145,4.76,5.186,0.939,0.982,97.997
+0 days 01:36:32.437000,SAI,55,96.742,25.0,2.0,,,False,HARD,5.0,True,Williams,1,15.0,True,9,British Grand Prix,True,C1,True,1.298,1.36,4.965,5.41,1.702,1.791,98.265
+0 days 01:38:07.986000,SAI,55,95.549,26.0,2.0,,,False,HARD,6.0,True,Williams,1,15.0,True,9,British Grand Prix,True,C1,True,0.105,0.11,3.772,4.11,0.281,0.295,97.136
+0 days 01:39:43.693000,SAI,55,95.707,27.0,2.0,,,False,HARD,7.0,True,Williams,1,15.0,True,9,British Grand Prix,True,C1,True,0.263,0.276,3.93,4.282,0.703,0.74,97.357
+0 days 01:41:19.462000,SAI,55,95.769,28.0,2.0,,,False,HARD,8.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.325,0.341,3.992,4.35,1.117,1.18,97.482
+0 days 01:42:54.915000,SAI,55,95.453,29.0,2.0,,,False,HARD,9.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.009,0.009,3.676,4.005,0.803,0.848,97.23
+0 days 01:44:30.437000,SAI,55,95.522,30.0,2.0,,,False,HARD,10.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.078,0.082,3.745,4.081,0.84,0.887,97.362
+0 days 01:46:06.057000,SAI,55,95.62,31.0,2.0,,,False,HARD,11.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.176,0.184,3.843,4.187,0.888,0.937,97.524
+0 days 01:47:43.241000,SAI,55,97.184,32.0,2.0,,,False,HARD,12.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,1.74,1.823,5.407,5.891,2.226,2.344,99.151
+0 days 01:49:19.807000,SAI,55,96.566,33.0,2.0,,,False,HARD,13.0,True,Williams,1,15.0,True,9,British Grand Prix,True,C1,True,1.122,1.176,4.789,5.218,1.611,1.697,98.597
+0 days 01:50:57.165000,SAI,55,97.358,34.0,2.0,,,False,HARD,14.0,True,Williams,1,15.0,True,9,British Grand Prix,True,C1,True,1.914,2.005,5.581,6.081,2.578,2.72,99.452
+0 days 01:52:32.940000,SAI,55,95.775,35.0,2.0,,,False,HARD,15.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.331,0.347,3.998,4.356,0.371,0.389,97.933
+0 days 01:54:09.637000,SAI,55,96.697,36.0,2.0,,,False,HARD,16.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,1.253,1.313,4.92,5.361,1.76,1.854,98.918
+0 days 01:55:46.538000,SAI,55,96.901,37.0,2.0,,,False,HARD,17.0,True,Williams,12,13.0,True,9,British Grand Prix,True,C1,False,1.457,1.527,5.124,5.583,2.268,2.397,99.186
+0 days 01:57:45.931000,SAI,55,119.393,38.0,2.0,,,False,HARD,18.0,True,Williams,2671,13.0,False,9,British Grand Prix,True,C1,False,23.949,25.092,27.616,30.09,8.505,7.67,121.741
+0 days 01:59:21.191000,SAI,55,95.26,39.0,2.0,,,False,HARD,19.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,-0.184,-0.193,3.483,3.795,-2.173,-2.23,97.672
+0 days 02:00:56.733000,SAI,55,95.542,40.0,2.0,,,False,HARD,20.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,0.098,0.103,3.765,4.102,1.268,1.345,98.017
+0 days 02:02:32.286000,SAI,55,95.553,41.0,2.0,,,False,HARD,21.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,0.109,0.114,3.776,4.114,1.184,1.255,98.091
+0 days 02:04:07.371000,SAI,55,95.085,42.0,2.0,,,False,HARD,22.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,-0.359,-0.376,3.308,3.604,0.879,0.933,97.687
+0 days 02:05:43.037000,SAI,55,95.666,43.0,2.0,,,False,HARD,23.0,True,Williams,1,13.0,True,9,British Grand Prix,True,C1,True,0.222,0.233,3.889,4.237,1.09,1.153,98.331
+0 days 02:07:20.025000,SAI,55,96.988,44.0,2.0,,,False,HARD,24.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,1.544,1.618,5.211,5.678,2.661,2.821,99.717
+0 days 02:08:55.625000,SAI,55,95.6,45.0,2.0,,,False,HARD,25.0,True,Williams,1,14.0,True,9,British Grand Prix,True,C1,True,0.156,0.163,3.823,4.166,1.461,1.552,98.392
+0 days 02:10:32.329000,SAI,55,96.704,46.0,2.0,,,False,HARD,26.0,True,Williams,12,14.0,True,9,British Grand Prix,True,C1,False,1.26,1.32,4.927,5.368,2.994,3.195,99.56
+0 days 02:12:40.533000,SAI,55,128.204,47.0,2.0,,,False,HARD,27.0,True,Williams,24,13.0,False,9,British Grand Prix,True,C1,False,32.76,34.324,36.427,39.691,29.37,29.716,131.123
+0 days 02:14:41.107000,SAI,55,120.574,48.0,2.0,,0 days 02:14:35.184000,False,HARD,28.0,True,Williams,4,12.0,False,9,British Grand Prix,True,C1,False,25.13,26.33,28.797,31.377,-4.5,-3.598,123.557
+0 days 02:17:39.042000,SAI,55,,49.0,3.0,0 days 02:15:04.479000,,False,SOFT,1.0,True,Williams,4,13.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:19:17.394000,SAI,55,98.352,50.0,3.0,,,False,SOFT,2.0,True,Williams,4,13.0,False,9,British Grand Prix,True,C3,False,2.908,3.047,6.575,7.164,-9.292,-8.632,101.462
+0 days 02:20:50.128000,SAI,55,92.734,51.0,3.0,,,True,SOFT,3.0,True,Williams,4,13.0,False,9,British Grand Prix,True,C3,False,-2.71,-2.839,0.957,1.043,-4.666,-4.791,95.907
+0 days 02:22:55.566000,SAI,55,125.438,52.0,3.0,,,False,SOFT,4.0,True,Williams,4,13.0,False,9,British Grand Prix,True,C3,False,29.994,31.426,33.661,36.677,-14.83,-10.573,128.675
+0 days 00:57:18.554000,HAD,6,98.756,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,12,5.0,False,9,British Grand Prix,True,C2,False,3.312,3.47,6.979,7.604,-5.925,-5.66,98.756
+0 days 00:58:53.499000,HAD,6,94.945,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,12,5.0,True,9,British Grand Prix,True,C2,False,-0.499,-0.523,3.168,3.452,-1.42,-1.474,95.008
+0 days 01:00:29.871000,HAD,6,96.372,3.0,1.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,0.928,0.972,4.595,5.007,0.117,0.122,96.499
+0 days 01:02:04.717000,HAD,6,94.846,4.0,1.0,,,True,MEDIUM,4.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.598,-0.627,3.069,3.344,-1.431,-1.486,95.036
+0 days 01:03:39.719000,HAD,6,95.002,5.0,1.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.442,-0.463,3.225,3.514,-1.432,-1.485,95.256
+0 days 01:05:14.250000,HAD,6,94.531,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.913,-0.957,2.754,3.001,-1.877,-1.947,94.848
+0 days 01:06:49.132000,HAD,6,94.882,7.0,1.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.562,-0.589,3.105,3.383,-1.314,-1.366,95.263
+0 days 01:08:24.302000,HAD,6,95.17,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.274,-0.287,3.393,3.697,-1.404,-1.454,95.614
+0 days 01:09:59.642000,HAD,6,95.34,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.104,-0.109,3.563,3.882,-1.134,-1.175,95.848
+0 days 01:11:35.179000,HAD,6,95.537,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,0.093,0.097,3.76,4.097,-0.715,-0.743,96.108
+0 days 01:13:10.832000,HAD,6,95.653,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,0.209,0.219,3.876,4.223,-0.538,-0.559,96.288
+0 days 01:14:46.397000,HAD,6,95.565,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,0.121,0.127,3.788,4.127,-0.545,-0.567,96.263
+0 days 01:16:21.733000,HAD,6,95.336,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.108,-0.113,3.559,3.878,-0.894,-0.929,96.098
+0 days 01:17:56.762000,HAD,6,95.029,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.415,-0.435,3.252,3.543,-0.874,-0.911,95.854
+0 days 01:19:32.067000,HAD,6,95.305,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.139,-0.146,3.528,3.844,-0.548,-0.572,96.193
+0 days 01:21:07.251000,HAD,6,95.184,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.26,-0.272,3.407,3.712,-0.842,-0.877,96.136
+0 days 01:22:42.633000,HAD,6,95.382,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-0.062,-0.065,3.605,3.928,-0.597,-0.622,96.397
+0 days 01:24:17.657000,HAD,6,95.024,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,5.0,True,9,British Grand Prix,True,C2,True,-0.42,-0.44,3.247,3.538,-0.861,-0.898,96.103
+0 days 01:25:51.809000,HAD,6,94.152,19.0,1.0,,0 days 01:25:45.933000,False,MEDIUM,19.0,True,Red Bull Racing,1,5.0,False,9,British Grand Prix,True,C2,False,-1.292,-1.354,2.375,2.588,-1.786,-1.862,95.294
+0 days 01:27:48.931000,HAD,6,117.122,20.0,2.0,0 days 01:26:15.968000,,False,HARD,1.0,True,Red Bull Racing,1,9.0,False,9,British Grand Prix,True,C1,False,21.678,22.713,25.345,27.616,21.447,22.417,118.328
+0 days 01:29:22.974000,HAD,6,94.043,21.0,2.0,,,True,HARD,2.0,True,Red Bull Racing,16,9.0,False,9,British Grand Prix,True,C1,False,-1.401,-1.468,2.266,2.469,-2.127,-2.212,95.312
+0 days 01:31:08.641000,HAD,6,105.667,22.0,2.0,,,False,HARD,3.0,True,Red Bull Racing,671,9.0,False,9,British Grand Prix,True,C1,False,10.223,10.711,13.89,15.135,1.689,1.624,107.0
+0 days 01:32:43.371000,HAD,6,94.73,23.0,2.0,,,False,HARD,4.0,True,Red Bull Racing,1,8.0,True,9,British Grand Prix,True,C1,True,-0.714,-0.748,2.953,3.218,-0.988,-1.032,96.126
+0 days 01:34:17.873000,HAD,6,94.502,24.0,2.0,,,False,HARD,5.0,True,Red Bull Racing,1,8.0,True,9,British Grand Prix,True,C1,True,-0.942,-0.987,2.725,2.969,-1.096,-1.146,95.962
+0 days 01:35:52.203000,HAD,6,94.33,25.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-1.114,-1.167,2.553,2.782,-0.71,-0.747,95.853
+0 days 01:37:26.907000,HAD,6,94.704,26.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.74,-0.775,2.927,3.189,-0.564,-0.592,96.291
+0 days 01:39:01.543000,HAD,6,94.636,27.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.808,-0.847,2.859,3.115,-0.368,-0.387,96.286
+0 days 01:40:35.786000,HAD,6,94.243,28.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-1.201,-1.258,2.466,2.687,-0.409,-0.432,95.956
+0 days 01:42:09.727000,HAD,6,93.941,29.0,2.0,,,True,HARD,10.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C1,True,-1.503,-1.575,2.164,2.358,-0.709,-0.749,95.718
+0 days 01:43:44.604000,HAD,6,94.877,30.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.567,-0.594,3.1,3.378,0.195,0.206,96.717
+0 days 01:45:19.329000,HAD,6,94.725,31.0,2.0,,,False,HARD,12.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.719,-0.753,2.948,3.212,-0.007,-0.007,96.629
+0 days 01:46:54.172000,HAD,6,94.843,32.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.601,-0.63,3.066,3.341,-0.115,-0.121,96.81
+0 days 01:48:28.932000,HAD,6,94.76,33.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.684,-0.717,2.983,3.25,-0.195,-0.205,96.791
+0 days 01:50:03.256000,HAD,6,94.324,34.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-1.12,-1.173,2.547,2.775,-0.456,-0.481,96.418
+0 days 01:51:37.516000,HAD,6,94.26,35.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C1,True,-1.184,-1.241,2.483,2.705,-1.144,-1.199,96.418
+0 days 01:53:12.477000,HAD,6,94.961,36.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-0.483,-0.506,3.184,3.469,0.024,0.025,97.182
+0 days 01:54:46.801000,HAD,6,94.324,37.0,2.0,,,False,HARD,18.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C1,True,-1.12,-1.173,2.547,2.775,-0.309,-0.327,96.609
+0 days 01:56:29.255000,HAD,6,102.454,38.0,2.0,,0 days 01:56:23.445000,False,HARD,19.0,True,Red Bull Racing,126,7.0,False,9,British Grand Prix,True,C1,False,7.01,7.345,10.677,11.634,-8.434,-7.606,104.802
+0 days 01:58:32.450000,HAD,6,123.195,39.0,3.0,0 days 01:56:59.794000,,False,MEDIUM,1.0,True,Red Bull Racing,671,7.0,False,9,British Grand Prix,True,C2,False,27.751,29.076,31.418,34.233,25.762,26.441,125.607
+0 days 02:00:04.718000,HAD,6,92.268,40.0,3.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C2,True,-3.176,-3.328,0.491,0.535,-2.006,-2.128,94.743
+0 days 02:01:37.415000,HAD,6,92.697,41.0,3.0,,,False,MEDIUM,3.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C2,True,-2.747,-2.878,0.92,1.002,-1.672,-1.772,95.235
+0 days 02:03:10.334000,HAD,6,92.919,42.0,3.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,7.0,True,9,British Grand Prix,True,C2,True,-2.525,-2.646,1.142,1.244,-1.287,-1.366,95.521
+0 days 02:04:43.229000,HAD,6,92.895,43.0,3.0,,,False,MEDIUM,5.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-2.549,-2.671,1.118,1.218,-1.681,-1.777,95.56
+0 days 02:06:15.922000,HAD,6,92.693,44.0,3.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-2.751,-2.882,0.916,0.998,-1.634,-1.732,95.422
+0 days 02:07:48.403000,HAD,6,92.481,45.0,3.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-2.963,-3.104,0.704,0.767,-1.658,-1.761,95.273
+0 days 02:09:21.475000,HAD,6,93.072,46.0,3.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,6.0,True,9,British Grand Prix,True,C2,True,-2.372,-2.485,1.295,1.411,-0.638,-0.681,95.928
+0 days 02:10:58.547000,HAD,6,97.072,47.0,3.0,,0 days 02:10:52.586000,False,MEDIUM,9.0,True,Red Bull Racing,124,5.0,False,9,British Grand Prix,True,C2,False,1.628,1.706,5.295,5.769,-1.762,-1.783,99.991
+0 days 02:13:23.322000,HAD,6,144.775,48.0,4.0,0 days 02:11:22.243000,,False,SOFT,4.0,False,Red Bull Racing,4,5.0,False,9,British Grand Prix,True,C3,False,49.331,51.686,52.998,57.746,19.701,15.751,147.758
+0 days 02:15:28.164000,HAD,6,124.842,49.0,4.0,,,False,SOFT,5.0,False,Red Bull Racing,4,5.0,False,9,British Grand Prix,True,C3,False,29.398,30.801,33.065,36.028,12.301,10.93,127.888
+0 days 02:17:44.652000,HAD,6,136.488,50.0,4.0,,,False,SOFT,6.0,False,Red Bull Racing,4,5.0,False,9,British Grand Prix,True,C3,False,41.044,43.003,44.711,48.717,28.844,26.796,139.598
+0 days 02:20:30.529000,HAD,6,,51.0,4.0,,,False,SOFT,7.0,False,Red Bull Racing,4,5.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:22:52.770000,HAD,6,142.241,52.0,4.0,,,False,SOFT,8.0,False,Red Bull Racing,4,5.0,False,9,British Grand Prix,True,C3,False,46.797,49.031,50.464,54.985,1.973,1.407,145.478
+0 days 00:57:17.969000,RUS,63,98.171,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,12,4.0,False,9,British Grand Prix,True,C2,False,2.727,2.857,6.394,6.967,-6.51,-6.219,98.171
+0 days 00:58:52.778000,RUS,63,94.809,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,12,4.0,True,9,British Grand Prix,True,C2,False,-0.635,-0.665,3.032,3.304,-1.556,-1.615,94.872
+0 days 01:00:27.503000,RUS,63,94.725,3.0,1.0,,,True,MEDIUM,3.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.719,-0.753,2.948,3.212,-1.53,-1.59,94.852
+0 days 01:02:02.101000,RUS,63,94.598,4.0,1.0,,,True,MEDIUM,4.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.846,-0.886,2.821,3.074,-1.679,-1.744,94.788
+0 days 01:03:36.870000,RUS,63,94.769,5.0,1.0,,,False,MEDIUM,5.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.675,-0.707,2.992,3.26,-1.665,-1.727,95.023
+0 days 01:05:11.742000,RUS,63,94.872,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.572,-0.599,3.095,3.372,-1.536,-1.593,95.189
+0 days 01:06:46.211000,RUS,63,94.469,7.0,1.0,,,True,MEDIUM,7.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.975,-1.022,2.692,2.933,-1.727,-1.795,94.85
+0 days 01:08:21.008000,RUS,63,94.797,8.0,1.0,,,False,MEDIUM,8.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.647,-0.678,3.02,3.291,-1.777,-1.84,95.241
+0 days 01:09:56.051000,RUS,63,95.043,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.401,-0.42,3.266,3.559,-1.431,-1.483,95.551
+0 days 01:11:31.098000,RUS,63,95.047,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.397,-0.416,3.27,3.563,-1.205,-1.252,95.618
+0 days 01:13:06.205000,RUS,63,95.107,11.0,1.0,,,False,MEDIUM,11.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.337,-0.353,3.33,3.628,-1.084,-1.127,95.742
+0 days 01:14:41.166000,RUS,63,94.961,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.483,-0.506,3.184,3.469,-1.149,-1.196,95.659
+0 days 01:16:16.243000,RUS,63,95.077,13.0,1.0,,,False,MEDIUM,13.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.367,-0.385,3.3,3.596,-1.153,-1.198,95.839
+0 days 01:17:50.951000,RUS,63,94.708,14.0,1.0,,,False,MEDIUM,14.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.736,-0.771,2.931,3.194,-1.195,-1.246,95.533
+0 days 01:19:25.515000,RUS,63,94.564,15.0,1.0,,,False,MEDIUM,15.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.88,-0.922,2.787,3.037,-1.289,-1.345,95.452
+0 days 01:21:00.382000,RUS,63,94.867,16.0,1.0,,,False,MEDIUM,16.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.577,-0.605,3.09,3.367,-1.159,-1.207,95.819
+0 days 01:22:36.165000,RUS,63,95.783,17.0,1.0,,,False,MEDIUM,17.0,True,Mercedes,1,5.0,True,9,British Grand Prix,True,C2,True,0.339,0.355,4.006,4.365,-0.196,-0.204,96.798
+0 days 01:24:11.361000,RUS,63,95.196,18.0,1.0,,,False,MEDIUM,18.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.248,-0.26,3.419,3.725,-0.689,-0.719,96.275
+0 days 01:25:45.942000,RUS,63,94.581,19.0,1.0,,,False,MEDIUM,19.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.863,-0.904,2.804,3.055,-1.357,-1.414,95.723
+0 days 01:27:20.495000,RUS,63,94.553,20.0,1.0,,,False,MEDIUM,20.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-0.891,-0.934,2.776,3.025,-1.122,-1.173,95.759
+0 days 01:28:54.900000,RUS,63,94.405,21.0,1.0,,,True,MEDIUM,21.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-1.039,-1.089,2.628,2.863,-1.765,-1.835,95.674
+0 days 01:30:40.834000,RUS,63,105.934,22.0,1.0,,,False,MEDIUM,22.0,True,Mercedes,167,4.0,False,9,British Grand Prix,True,C2,False,10.49,10.991,14.157,15.425,1.956,1.881,107.267
+0 days 01:32:14.784000,RUS,63,93.95,23.0,1.0,,0 days 01:32:08.864000,False,MEDIUM,23.0,True,Mercedes,1,4.0,False,9,British Grand Prix,True,C2,False,-1.494,-1.565,2.173,2.368,-1.768,-1.847,95.346
+0 days 01:34:08.487000,RUS,63,113.703,24.0,2.0,0 days 01:32:37.473000,,False,HARD,1.0,True,Mercedes,1,5.0,False,9,British Grand Prix,True,C1,False,18.259,19.131,21.926,23.891,18.105,18.939,115.163
+0 days 01:35:41.245000,RUS,63,92.758,25.0,2.0,,,True,HARD,2.0,True,Mercedes,1,5.0,True,9,British Grand Prix,True,C1,True,-2.686,-2.814,0.981,1.069,-2.282,-2.401,94.281
+0 days 01:37:14.052000,RUS,63,92.807,26.0,2.0,,,False,HARD,3.0,True,Mercedes,1,5.0,True,9,British Grand Prix,True,C1,True,-2.637,-2.763,1.03,1.122,-2.461,-2.583,94.394
+0 days 01:38:47.005000,RUS,63,92.953,27.0,2.0,,,False,HARD,4.0,True,Mercedes,1,5.0,True,9,British Grand Prix,True,C1,True,-2.491,-2.61,1.176,1.281,-2.051,-2.159,94.603
+0 days 01:40:20.113000,RUS,63,93.108,28.0,2.0,,,False,HARD,5.0,True,Mercedes,1,5.0,True,9,British Grand Prix,True,C1,True,-2.336,-2.448,1.331,1.45,-1.544,-1.631,94.821
+0 days 01:41:54.610000,RUS,63,94.497,29.0,2.0,,,False,HARD,6.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C1,True,-0.947,-0.992,2.72,2.964,-0.153,-0.162,96.274
+0 days 01:43:28.344000,RUS,63,93.734,30.0,2.0,,,False,HARD,7.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C1,True,-1.71,-1.792,1.957,2.132,-0.948,-1.001,95.574
+0 days 01:45:02.239000,RUS,63,93.895,31.0,2.0,,,False,HARD,8.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C1,True,-1.549,-1.623,2.118,2.308,-0.837,-0.884,95.799
+0 days 01:46:36.254000,RUS,63,94.015,32.0,2.0,,,False,HARD,9.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C1,True,-1.429,-1.497,2.238,2.439,-0.943,-0.993,95.982
+0 days 01:48:10.434000,RUS,63,94.18,33.0,2.0,,,False,HARD,10.0,True,Mercedes,1,4.0,True,9,British Grand Prix,True,C1,True,-1.264,-1.324,2.403,2.618,-0.775,-0.816,96.211
+0 days 01:49:43.864000,RUS,63,93.43,34.0,2.0,,0 days 01:49:37.973000,False,HARD,11.0,True,Mercedes,1,3.0,False,9,British Grand Prix,True,C1,False,-2.014,-2.11,1.653,1.801,-1.35,-1.424,95.524
+0 days 01:51:37.905000,RUS,63,114.041,35.0,3.0,0 days 01:50:06.364000,,False,MEDIUM,7.0,False,Mercedes,1,7.0,False,9,British Grand Prix,True,C2,False,18.597,19.485,22.264,24.259,18.637,19.535,116.199
+0 days 01:53:10.394000,RUS,63,92.489,36.0,3.0,,,True,MEDIUM,8.0,False,Mercedes,1,6.0,True,9,British Grand Prix,True,C2,True,-2.955,-3.096,0.712,0.776,-2.448,-2.579,94.71
+0 days 01:54:42.892000,RUS,63,92.498,37.0,3.0,,,False,MEDIUM,9.0,False,Mercedes,1,6.0,True,9,British Grand Prix,True,C2,True,-2.946,-3.087,0.721,0.786,-2.135,-2.256,94.783
+0 days 01:56:27.056000,RUS,63,104.164,38.0,3.0,,,False,MEDIUM,10.0,False,Mercedes,126,6.0,False,9,British Grand Prix,True,C2,False,8.72,9.136,12.387,13.497,-6.724,-6.064,106.512
+0 days 01:58:12.552000,RUS,63,105.496,39.0,3.0,,,False,MEDIUM,11.0,False,Mercedes,671,5.0,False,9,British Grand Prix,True,C2,False,10.052,10.532,13.719,14.948,8.063,8.275,107.908
+0 days 01:59:45.135000,RUS,63,92.583,40.0,3.0,,,False,MEDIUM,12.0,False,Mercedes,1,5.0,True,9,British Grand Prix,True,C2,True,-2.861,-2.998,0.806,0.878,-1.691,-1.794,95.058
+0 days 02:01:17.867000,RUS,63,92.732,41.0,3.0,,,False,MEDIUM,13.0,False,Mercedes,1,5.0,True,9,British Grand Prix,True,C2,True,-2.712,-2.841,0.955,1.041,-1.637,-1.735,95.27
+0 days 02:02:50.553000,RUS,63,92.686,42.0,3.0,,,False,MEDIUM,14.0,False,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-2.758,-2.89,0.909,0.99,-1.52,-1.613,95.288
+0 days 02:04:23.308000,RUS,63,92.755,43.0,3.0,,,False,MEDIUM,15.0,False,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-2.689,-2.817,0.978,1.066,-1.821,-1.925,95.42
+0 days 02:05:55.799000,RUS,63,92.491,44.0,3.0,,,False,MEDIUM,16.0,False,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-2.953,-3.094,0.714,0.778,-1.836,-1.946,95.22
+0 days 02:07:28.941000,RUS,63,93.142,45.0,3.0,,,False,MEDIUM,17.0,False,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-2.302,-2.412,1.365,1.487,-0.997,-1.059,95.934
+0 days 02:09:01.927000,RUS,63,92.986,46.0,3.0,,,False,MEDIUM,18.0,False,Mercedes,1,4.0,True,9,British Grand Prix,True,C2,True,-2.458,-2.575,1.209,1.317,-0.724,-0.773,95.842
+0 days 02:10:35.185000,RUS,63,93.258,47.0,3.0,,,False,MEDIUM,19.0,False,Mercedes,12,3.0,True,9,British Grand Prix,True,C2,False,-2.186,-2.29,1.481,1.614,-5.576,-5.642,96.177
+0 days 02:12:42.024000,RUS,63,126.839,48.0,3.0,,,False,MEDIUM,20.0,False,Mercedes,24,3.0,False,9,British Grand Prix,True,C2,False,31.395,32.894,35.062,38.203,1.765,1.411,129.822
+0 days 02:14:53.010000,RUS,63,130.986,49.0,3.0,,,False,MEDIUM,21.0,False,Mercedes,4,2.0,False,9,British Grand Prix,True,C2,False,35.542,37.239,39.209,42.722,18.445,16.39,134.032
+0 days 02:17:36.179000,RUS,63,,50.0,3.0,,,False,MEDIUM,22.0,False,Mercedes,4,2.0,False,9,British Grand Prix,True,C2,False,,,,,,,
+0 days 02:20:28.303000,RUS,63,,51.0,3.0,,,False,MEDIUM,23.0,False,Mercedes,4,2.0,False,9,British Grand Prix,True,C2,False,,,,,,,
+0 days 02:22:51.588000,RUS,63,143.285,52.0,3.0,,,False,MEDIUM,24.0,False,Mercedes,4,2.0,False,9,British Grand Prix,True,C2,False,47.841,50.125,51.508,56.123,3.017,2.151,146.522
+0 days 00:57:27.094000,BOT,77,107.296,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,12,18.0,False,9,British Grand Prix,True,C2,False,11.852,12.418,15.519,16.909,2.615,2.498,107.296
+0 days 00:59:05.802000,BOT,77,98.708,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,12,16.0,True,9,British Grand Prix,True,C2,False,3.264,3.42,6.931,7.552,2.343,2.431,98.771
+0 days 01:00:43.329000,BOT,77,97.527,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,2.083,2.182,5.75,6.265,1.272,1.321,97.654
+0 days 01:02:20.612000,BOT,77,97.283,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.839,1.927,5.506,5.999,1.006,1.045,97.473
+0 days 01:03:57.769000,BOT,77,97.157,5.0,1.0,,,True,MEDIUM,5.0,True,Cadillac,1,16.0,True,9,British Grand Prix,True,C2,True,1.713,1.795,5.38,5.862,0.723,0.75,97.411
+0 days 01:05:35.797000,BOT,77,98.028,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,2.584,2.707,6.251,6.811,1.62,1.68,98.345
+0 days 01:07:14.211000,BOT,77,98.414,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.97,3.112,6.637,7.232,2.218,2.306,98.795
+0 days 01:08:51.970000,BOT,77,97.759,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.315,2.426,5.982,6.518,1.185,1.227,98.203
+0 days 01:10:30.134000,BOT,77,98.164,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.72,2.85,6.387,6.959,1.69,1.752,98.672
+0 days 01:12:08.178000,BOT,77,98.044,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.6,2.724,6.267,6.829,1.792,1.862,98.615
+0 days 01:13:46.260000,BOT,77,98.082,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.638,2.764,6.305,6.87,1.891,1.966,98.717
+0 days 01:15:24.114000,BOT,77,97.854,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.41,2.525,6.077,6.621,1.744,1.815,98.552
+0 days 01:17:01.758000,BOT,77,97.644,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.2,2.305,5.867,6.393,1.414,1.469,98.406
+0 days 01:18:39.458000,BOT,77,97.7,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.256,2.364,5.923,6.454,1.797,1.874,98.525
+0 days 01:20:17.035000,BOT,77,97.577,15.0,1.0,,,False,MEDIUM,15.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.133,2.235,5.8,6.32,1.724,1.799,98.465
+0 days 01:21:54.702000,BOT,77,97.667,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.223,2.329,5.89,6.418,1.641,1.709,98.619
+0 days 01:23:32.377000,BOT,77,97.675,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,2.231,2.337,5.898,6.426,1.696,1.767,98.69
+0 days 01:25:10.444000,BOT,77,98.067,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,2.623,2.748,6.29,6.854,2.182,2.276,99.146
+0 days 01:26:48.273000,BOT,77,97.829,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,2.385,2.499,6.052,6.594,1.891,1.971,98.971
+0 days 01:28:27.061000,BOT,77,98.788,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C2,True,3.344,3.504,7.011,7.639,3.113,3.254,99.994
+0 days 01:30:14.101000,BOT,77,107.04,21.0,1.0,,,False,MEDIUM,21.0,True,Cadillac,167,18.0,False,9,British Grand Prix,True,C2,False,11.596,12.15,15.263,16.631,10.87,11.303,108.309
+0 days 01:31:53.373000,BOT,77,99.272,22.0,1.0,,,False,MEDIUM,22.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,3.828,4.011,7.495,8.167,-4.706,-4.526,100.605
+0 days 01:33:31.365000,BOT,77,97.992,23.0,1.0,,,False,MEDIUM,23.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,2.548,2.67,6.215,6.772,2.274,2.376,99.388
+0 days 01:35:10.541000,BOT,77,99.176,24.0,1.0,,,False,MEDIUM,24.0,True,Cadillac,1,17.0,True,9,British Grand Prix,True,C2,True,3.732,3.91,7.399,8.062,3.578,3.743,100.636
+0 days 01:36:50.742000,BOT,77,100.201,25.0,1.0,,,False,MEDIUM,25.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C2,True,4.757,4.984,8.424,9.179,5.161,5.43,101.724
+0 days 01:38:28.242000,BOT,77,97.5,26.0,1.0,,,False,MEDIUM,26.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C2,True,2.056,2.154,5.723,6.236,2.232,2.343,99.087
+0 days 01:40:06.168000,BOT,77,97.926,27.0,1.0,,,False,MEDIUM,27.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C2,True,2.482,2.6,6.149,6.7,2.922,3.076,99.576
+0 days 01:41:44.766000,BOT,77,98.598,28.0,1.0,,,False,MEDIUM,28.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C2,True,3.154,3.305,6.821,7.432,3.946,4.169,100.311
+0 days 01:43:21.799000,BOT,77,97.033,29.0,1.0,,0 days 01:43:15.799000,False,MEDIUM,29.0,True,Cadillac,1,19.0,False,9,British Grand Prix,True,C2,False,1.589,1.665,5.256,5.727,2.383,2.518,98.81
+0 days 01:45:22.278000,BOT,77,120.479,30.0,2.0,0 days 01:43:47.420000,,False,HARD,1.0,True,Cadillac,1,19.0,False,9,British Grand Prix,True,C1,False,25.035,26.23,28.702,31.274,25.797,27.246,122.319
+0 days 01:46:58.171000,BOT,77,95.893,31.0,2.0,,,True,HARD,2.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,0.449,0.47,4.116,4.485,1.161,1.226,97.797
+0 days 01:48:34.363000,BOT,77,96.192,32.0,2.0,,,False,HARD,3.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,0.748,0.784,4.415,4.811,1.234,1.3,98.159
+0 days 01:50:10.567000,BOT,77,96.204,33.0,2.0,,,False,HARD,4.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,0.76,0.796,4.427,4.824,1.249,1.315,98.235
+0 days 01:51:47.107000,BOT,77,96.54,34.0,2.0,,,False,HARD,5.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,1.096,1.148,4.763,5.19,1.76,1.857,98.634
+0 days 01:53:23.238000,BOT,77,96.131,35.0,2.0,,,False,HARD,6.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,0.687,0.72,4.354,4.744,0.727,0.762,98.289
+0 days 01:54:59.419000,BOT,77,96.181,36.0,2.0,,,False,HARD,7.0,True,Cadillac,1,19.0,True,9,British Grand Prix,True,C1,True,0.737,0.772,4.404,4.799,1.244,1.31,98.402
+0 days 01:56:50.938000,BOT,77,111.519,37.0,2.0,,,False,HARD,8.0,True,Cadillac,126,18.0,False,9,British Grand Prix,True,C1,False,16.075,16.842,19.742,21.511,16.886,17.844,113.804
+0 days 01:58:37.209000,BOT,77,106.271,38.0,2.0,,,False,HARD,9.0,True,Cadillac,671,18.0,False,9,British Grand Prix,True,C1,False,10.827,11.344,14.494,15.793,-4.617,-4.164,108.619
+0 days 02:00:14.860000,BOT,77,97.651,39.0,2.0,,,False,HARD,10.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,2.207,2.312,5.874,6.4,0.218,0.224,100.063
+0 days 02:01:53.310000,BOT,77,98.45,40.0,2.0,,,False,HARD,11.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,3.006,3.149,6.673,7.271,4.176,4.43,100.925
+0 days 02:03:29.451000,BOT,77,96.141,41.0,2.0,,,False,HARD,12.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,0.697,0.73,4.364,4.755,1.772,1.878,98.679
+0 days 02:05:05.738000,BOT,77,96.287,42.0,2.0,,,False,HARD,13.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,0.843,0.883,4.51,4.914,2.081,2.209,98.889
+0 days 02:06:41.899000,BOT,77,96.161,43.0,2.0,,,False,HARD,14.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,0.717,0.751,4.384,4.777,1.585,1.676,98.826
+0 days 02:08:18.911000,BOT,77,97.012,44.0,2.0,,,False,HARD,15.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.568,1.643,5.235,5.704,2.685,2.846,99.741
+0 days 02:09:55.472000,BOT,77,96.561,45.0,2.0,,,False,HARD,16.0,True,Cadillac,1,18.0,True,9,British Grand Prix,True,C1,True,1.117,1.17,4.784,5.213,2.422,2.573,99.353
+0 days 02:11:48.550000,BOT,77,113.078,46.0,2.0,,0 days 02:11:42.647000,False,HARD,17.0,True,Cadillac,124,18.0,False,9,British Grand Prix,True,C1,False,17.634,18.476,21.301,23.21,19.368,20.668,115.934
+0 days 02:14:13.228000,BOT,77,144.678,47.0,3.0,0 days 02:12:12.196000,,False,SOFT,1.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,49.234,51.584,52.901,57.641,45.844,46.385,147.597
+0 days 02:15:55.117000,BOT,77,101.889,48.0,3.0,,,False,SOFT,2.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,6.445,6.753,10.112,11.018,-23.185,-18.537,104.872
+0 days 02:17:49.055000,BOT,77,113.938,49.0,3.0,,,False,SOFT,3.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,18.494,19.377,22.161,24.147,1.397,1.241,116.984
+0 days 02:19:35.537000,BOT,77,106.482,50.0,3.0,,,False,SOFT,4.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,11.038,11.565,14.705,16.023,-1.162,-1.079,109.592
+0 days 02:21:14.163000,BOT,77,98.626,51.0,3.0,,,False,SOFT,5.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,3.182,3.334,6.849,7.463,1.226,1.259,101.799
+0 days 02:22:59.295000,BOT,77,105.132,52.0,3.0,,,False,SOFT,6.0,True,Cadillac,4,17.0,False,9,British Grand Prix,True,C3,False,9.688,10.15,13.355,14.552,-35.136,-25.049,108.369
+0 days 00:57:25.274000,PIA,81,105.476,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,14.0,False,9,British Grand Prix,True,C2,False,10.032,10.511,13.699,14.926,0.795,0.759,105.476
+0 days 00:59:26.238000,PIA,81,120.964,2.0,1.0,,0 days 00:59:20.265000,False,MEDIUM,2.0,True,McLaren,12,21.0,False,9,British Grand Prix,True,C2,False,25.52,26.738,29.187,31.802,24.599,25.527,121.027
+0 days 01:01:33.453000,PIA,81,127.215,3.0,2.0,0 days 01:00:00.945000,,False,HARD,1.0,True,McLaren,1,21.0,False,9,British Grand Prix,True,C1,False,31.771,33.288,35.438,38.613,30.96,32.165,127.342
+0 days 01:03:07.816000,PIA,81,94.363,4.0,2.0,,,True,HARD,2.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-1.081,-1.133,2.586,2.818,-1.914,-1.988,94.553
+0 days 01:04:42.537000,PIA,81,94.721,5.0,2.0,,,False,HARD,3.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.723,-0.758,2.944,3.208,-1.713,-1.776,94.975
+0 days 01:06:17.168000,PIA,81,94.631,6.0,2.0,,,False,HARD,4.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.813,-0.852,2.854,3.11,-1.777,-1.843,94.948
+0 days 01:07:52.046000,PIA,81,94.878,7.0,2.0,,,False,HARD,5.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.566,-0.593,3.101,3.379,-1.318,-1.37,95.259
+0 days 01:09:26.844000,PIA,81,94.798,8.0,2.0,,,False,HARD,6.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.646,-0.677,3.021,3.292,-1.776,-1.839,95.242
+0 days 01:11:02.240000,PIA,81,95.396,9.0,2.0,,,False,HARD,7.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.048,-0.05,3.619,3.943,-1.078,-1.117,95.904
+0 days 01:12:37.464000,PIA,81,95.224,10.0,2.0,,,False,HARD,8.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.22,-0.231,3.447,3.756,-1.028,-1.068,95.795
+0 days 01:14:12.766000,PIA,81,95.302,11.0,2.0,,,False,HARD,9.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.142,-0.149,3.525,3.841,-0.889,-0.924,95.937
+0 days 01:15:48.406000,PIA,81,95.64,12.0,2.0,,,False,HARD,10.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,0.196,0.205,3.863,4.209,-0.47,-0.489,96.338
+0 days 01:17:23.588000,PIA,81,95.182,13.0,2.0,,,False,HARD,11.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.262,-0.275,3.405,3.71,-1.048,-1.089,95.944
+0 days 01:18:58.905000,PIA,81,95.317,14.0,2.0,,,False,HARD,12.0,True,McLaren,1,21.0,True,9,British Grand Prix,True,C1,True,-0.127,-0.133,3.54,3.857,-0.586,-0.611,96.142
+0 days 01:20:35.229000,PIA,81,96.324,15.0,2.0,,,False,HARD,13.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,0.88,0.922,4.547,4.954,0.471,0.491,97.212
+0 days 01:22:10.386000,PIA,81,95.157,16.0,2.0,,,False,HARD,14.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,-0.287,-0.301,3.38,3.683,-0.869,-0.905,96.109
+0 days 01:23:45.627000,PIA,81,95.241,17.0,2.0,,,False,HARD,15.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,-0.203,-0.213,3.464,3.774,-0.738,-0.769,96.256
+0 days 01:25:20.555000,PIA,81,94.928,18.0,2.0,,,False,HARD,16.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,-0.516,-0.541,3.151,3.433,-0.957,-0.998,96.007
+0 days 01:26:55.418000,PIA,81,94.863,19.0,2.0,,,False,HARD,17.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,-0.581,-0.609,3.086,3.362,-1.075,-1.121,96.005
+0 days 01:28:30.414000,PIA,81,94.996,20.0,2.0,,,False,HARD,18.0,True,McLaren,1,19.0,True,9,British Grand Prix,True,C1,True,-0.448,-0.469,3.219,3.507,-0.679,-0.71,96.202
+0 days 01:30:15.792000,PIA,81,105.378,21.0,2.0,,,False,HARD,19.0,True,McLaren,167,19.0,False,9,British Grand Prix,True,C1,False,9.934,10.408,13.601,14.82,9.208,9.575,106.647
+0 days 01:31:51.087000,PIA,81,95.295,22.0,2.0,,,False,HARD,20.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.149,-0.156,3.518,3.833,-8.683,-8.351,96.628
+0 days 01:33:26.051000,PIA,81,94.964,23.0,2.0,,,False,HARD,21.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.48,-0.503,3.187,3.473,-0.754,-0.788,96.36
+0 days 01:35:00.814000,PIA,81,94.763,24.0,2.0,,,False,HARD,22.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.681,-0.714,2.986,3.254,-0.835,-0.873,96.223
+0 days 01:36:35.499000,PIA,81,94.685,25.0,2.0,,,False,HARD,23.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.759,-0.795,2.908,3.169,-0.355,-0.374,96.208
+0 days 01:38:10.115000,PIA,81,94.616,26.0,2.0,,,False,HARD,24.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.828,-0.868,2.839,3.093,-0.652,-0.684,96.203
+0 days 01:39:45.105000,PIA,81,94.99,27.0,2.0,,,False,HARD,25.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,-0.454,-0.476,3.213,3.501,-0.014,-0.015,96.64
+0 days 01:41:20.999000,PIA,81,95.894,28.0,2.0,,,False,HARD,26.0,True,McLaren,1,16.0,True,9,British Grand Prix,True,C1,True,0.45,0.471,4.117,4.486,1.242,1.312,97.607
+0 days 01:42:56.401000,PIA,81,95.402,29.0,2.0,,,False,HARD,27.0,True,McLaren,1,15.0,True,9,British Grand Prix,True,C1,True,-0.042,-0.044,3.625,3.95,0.752,0.795,97.179
+0 days 01:44:31.686000,PIA,81,95.285,30.0,2.0,,,False,HARD,28.0,True,McLaren,1,15.0,True,9,British Grand Prix,True,C1,True,-0.159,-0.167,3.508,3.822,0.603,0.637,97.125
+0 days 01:46:08.371000,PIA,81,96.685,31.0,2.0,,,False,HARD,29.0,True,McLaren,1,15.0,True,9,British Grand Prix,True,C1,True,1.241,1.3,4.908,5.348,1.953,2.062,98.589
+0 days 01:47:44.081000,PIA,81,95.71,32.0,2.0,,,False,HARD,30.0,True,McLaren,1,15.0,True,9,British Grand Prix,True,C1,True,0.266,0.279,3.933,4.285,0.752,0.792,97.677
+0 days 01:49:19.384000,PIA,81,95.303,33.0,2.0,,,False,HARD,31.0,True,McLaren,1,14.0,True,9,British Grand Prix,True,C1,True,-0.141,-0.148,3.526,3.842,0.348,0.366,97.334
+0 days 01:50:56.200000,PIA,81,96.816,34.0,2.0,,,False,HARD,32.0,True,McLaren,1,14.0,True,9,British Grand Prix,True,C1,True,1.372,1.437,5.039,5.49,2.036,2.148,98.91
+0 days 01:52:32.129000,PIA,81,95.929,35.0,2.0,,,False,HARD,33.0,True,McLaren,1,13.0,True,9,British Grand Prix,True,C1,True,0.485,0.508,4.152,4.524,0.525,0.55,98.087
+0 days 01:54:06.675000,PIA,81,94.546,36.0,2.0,,0 days 01:54:00.780000,False,HARD,34.0,True,McLaren,1,13.0,False,9,British Grand Prix,True,C1,False,-0.898,-0.941,2.769,3.017,-0.391,-0.412,96.767
+0 days 01:56:08.080000,PIA,81,121.405,37.0,3.0,0 days 01:54:30.249000,,False,MEDIUM,4.0,False,McLaren,126,16.0,False,9,British Grand Prix,True,C2,False,25.961,27.2,29.628,32.283,26.772,28.29,123.69
+0 days 01:57:59.242000,PIA,81,111.162,38.0,3.0,,,False,MEDIUM,5.0,False,McLaren,671,16.0,False,9,British Grand Prix,True,C2,False,15.718,16.468,19.385,21.122,0.274,0.247,113.51
+0 days 01:59:32.411000,PIA,81,93.169,39.0,3.0,,,True,MEDIUM,6.0,False,McLaren,1,15.0,True,9,British Grand Prix,True,C2,True,-2.275,-2.384,1.392,1.517,-4.264,-4.376,95.581
+0 days 02:01:05.946000,PIA,81,93.535,40.0,3.0,,,False,MEDIUM,7.0,False,McLaren,1,14.0,True,9,British Grand Prix,True,C2,True,-1.909,-2.0,1.758,1.916,-0.739,-0.784,96.01
+0 days 02:02:39.091000,PIA,81,93.145,41.0,3.0,,,True,MEDIUM,8.0,False,McLaren,1,14.0,True,9,British Grand Prix,True,C2,True,-2.299,-2.409,1.368,1.491,-1.224,-1.297,95.683
+0 days 02:04:12.008000,PIA,81,92.917,42.0,3.0,,,True,MEDIUM,9.0,False,McLaren,1,14.0,True,9,British Grand Prix,True,C2,True,-2.527,-2.648,1.14,1.242,-1.289,-1.368,95.519
+0 days 02:05:45.077000,PIA,81,93.069,43.0,3.0,,,False,MEDIUM,10.0,False,McLaren,1,14.0,True,9,British Grand Prix,True,C2,True,-2.375,-2.488,1.292,1.408,-1.507,-1.593,95.734
+0 days 02:07:19.364000,PIA,81,94.287,44.0,3.0,,,False,MEDIUM,11.0,False,McLaren,1,13.0,True,9,British Grand Prix,True,C2,True,-1.157,-1.212,2.51,2.735,-0.04,-0.042,97.016
+0 days 02:08:52.769000,PIA,81,93.405,45.0,3.0,,,False,MEDIUM,12.0,False,McLaren,1,13.0,True,9,British Grand Prix,True,C2,True,-2.039,-2.136,1.628,1.774,-0.734,-0.78,96.197
+0 days 02:10:25.801000,PIA,81,93.032,46.0,3.0,,,False,MEDIUM,13.0,False,McLaren,12,13.0,True,9,British Grand Prix,True,C2,False,-2.412,-2.527,1.255,1.367,-0.678,-0.724,95.888
+0 days 02:12:26.150000,PIA,81,120.349,47.0,3.0,,0 days 02:12:20.318000,False,MEDIUM,14.0,False,McLaren,24,12.0,False,9,British Grand Prix,True,C2,False,24.905,26.094,28.572,31.132,21.515,21.769,123.268
+0 days 02:14:55.043000,PIA,81,148.893,48.0,4.0,0 days 02:12:49.334000,,False,SOFT,4.0,False,McLaren,4,13.0,False,9,British Grand Prix,True,C3,False,53.449,56.0,57.116,62.233,23.819,19.044,151.876
+0 days 02:17:38.325000,PIA,81,,49.0,4.0,,,False,SOFT,5.0,False,McLaren,4,12.0,False,9,British Grand Prix,True,C3,False,,,,,,,
+0 days 02:19:13.031000,PIA,81,94.706,50.0,4.0,,,False,SOFT,6.0,False,McLaren,4,12.0,False,9,British Grand Prix,True,C3,False,-0.738,-0.773,2.929,3.191,-12.938,-12.019,97.816
+0 days 02:20:46.617000,PIA,81,93.586,51.0,4.0,,,False,SOFT,7.0,False,McLaren,4,12.0,False,9,British Grand Prix,True,C3,False,-1.858,-1.947,1.809,1.971,-3.814,-3.916,96.759
+0 days 02:22:55.195000,PIA,81,128.578,52.0,4.0,,,False,SOFT,8.0,False,McLaren,4,12.0,False,9,British Grand Prix,True,C3,False,33.134,34.716,36.801,40.098,-11.69,-8.334,131.815
+0 days 00:57:29.355000,BEA,87,109.557,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,12,20.0,False,9,British Grand Prix,True,C2,False,14.113,14.787,17.78,19.373,4.876,4.658,109.557
+0 days 00:59:07.188000,BEA,87,97.833,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,12,17.0,True,9,British Grand Prix,True,C2,False,2.389,2.503,6.056,6.599,1.468,1.523,97.896
+0 days 01:00:44.561000,BEA,87,97.373,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.929,2.021,5.596,6.097,1.118,1.161,97.5
+0 days 01:02:21.691000,BEA,87,97.13,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.686,1.766,5.353,5.833,0.853,0.886,97.32
+0 days 01:03:58.558000,BEA,87,96.867,5.0,1.0,,,True,MEDIUM,5.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.423,1.491,5.09,5.546,0.433,0.449,97.121
+0 days 01:05:35.037000,BEA,87,96.479,6.0,1.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.035,1.084,4.702,5.123,0.071,0.074,96.796
+0 days 01:07:12.368000,BEA,87,97.331,7.0,1.0,,,False,MEDIUM,7.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.887,1.977,5.554,6.052,1.135,1.18,97.712
+0 days 01:08:49.573000,BEA,87,97.205,8.0,1.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.761,1.845,5.428,5.914,0.631,0.653,97.649
+0 days 01:10:26.862000,BEA,87,97.289,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.845,1.933,5.512,6.006,0.815,0.845,97.797
+0 days 01:12:05.231000,BEA,87,98.369,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,2.925,3.065,6.592,7.183,2.117,2.199,98.94
+0 days 01:13:42.272000,BEA,87,97.041,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.597,1.673,5.264,5.736,0.85,0.884,97.676
+0 days 01:15:19.452000,BEA,87,97.18,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.736,1.819,5.403,5.887,1.07,1.113,97.878
+0 days 01:16:56.571000,BEA,87,97.119,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.675,1.755,5.342,5.821,0.889,0.924,97.881
+0 days 01:18:33.465000,BEA,87,96.894,14.0,1.0,,,False,MEDIUM,14.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.45,1.519,5.117,5.575,0.991,1.033,97.719
+0 days 01:20:10.600000,BEA,87,97.135,15.0,1.0,,,False,MEDIUM,15.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.691,1.772,5.358,5.838,1.282,1.337,98.023
+0 days 01:21:47.596000,BEA,87,96.996,16.0,1.0,,,False,MEDIUM,16.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.552,1.626,5.219,5.687,0.97,1.01,97.948
+0 days 01:23:24.604000,BEA,87,97.008,17.0,1.0,,,False,MEDIUM,17.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C2,True,1.564,1.639,5.231,5.7,1.029,1.072,98.023
+0 days 01:25:02.057000,BEA,87,97.453,18.0,1.0,,,False,MEDIUM,18.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,2.009,2.105,5.676,6.185,1.568,1.635,98.532
+0 days 01:26:39.214000,BEA,87,97.157,19.0,1.0,,,False,MEDIUM,19.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.713,1.795,5.38,5.862,1.219,1.271,98.299
+0 days 01:28:15.943000,BEA,87,96.729,20.0,1.0,,,False,MEDIUM,20.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C2,True,1.285,1.346,4.952,5.396,1.054,1.102,97.935
+0 days 01:30:02.799000,BEA,87,106.856,21.0,1.0,,,False,MEDIUM,21.0,True,Haas F1 Team,167,15.0,False,9,British Grand Prix,True,C2,False,11.412,11.957,15.079,16.43,10.686,11.112,108.125
+0 days 01:31:39.218000,BEA,87,96.419,22.0,1.0,,,True,MEDIUM,22.0,True,Haas F1 Team,1,13.0,True,9,British Grand Prix,True,C2,True,0.975,1.022,4.642,5.058,-7.559,-7.27,97.752
+0 days 01:33:15.875000,BEA,87,96.657,23.0,1.0,,,False,MEDIUM,23.0,True,Haas F1 Team,1,12.0,True,9,British Grand Prix,True,C2,True,1.213,1.271,4.88,5.317,0.939,0.981,98.053
+0 days 01:34:52.831000,BEA,87,96.956,24.0,1.0,,,False,MEDIUM,24.0,True,Haas F1 Team,1,12.0,True,9,British Grand Prix,True,C2,True,1.512,1.584,5.179,5.643,1.358,1.421,98.416
+0 days 01:36:29.326000,BEA,87,96.495,25.0,1.0,,,False,MEDIUM,25.0,True,Haas F1 Team,1,12.0,True,9,British Grand Prix,True,C2,True,1.051,1.101,4.718,5.141,1.455,1.531,98.018
+0 days 01:38:05.943000,BEA,87,96.617,26.0,1.0,,,False,MEDIUM,26.0,True,Haas F1 Team,1,12.0,True,9,British Grand Prix,True,C2,True,1.173,1.229,4.84,5.274,1.349,1.416,98.204
+0 days 01:39:43.263000,BEA,87,97.32,27.0,1.0,,,False,MEDIUM,27.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C2,True,1.876,1.966,5.543,6.04,2.316,2.438,98.97
+0 days 01:41:20.448000,BEA,87,97.185,28.0,1.0,,,False,MEDIUM,28.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C2,True,1.741,1.824,5.408,5.893,2.533,2.676,98.898
+0 days 01:42:56.808000,BEA,87,96.36,29.0,1.0,,0 days 01:42:50.910000,False,MEDIUM,29.0,True,Haas F1 Team,1,16.0,False,9,British Grand Prix,True,C2,False,0.916,0.96,4.583,4.994,1.71,1.807,98.137
+0 days 01:44:53.565000,BEA,87,116.757,30.0,2.0,0 days 01:43:20.830000,,False,HARD,1.0,True,Haas F1 Team,1,18.0,False,9,British Grand Prix,True,C1,False,21.313,22.33,24.98,27.218,22.075,23.315,118.597
+0 days 01:46:28.020000,BEA,87,94.455,31.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,-0.989,-1.036,2.678,2.918,-0.277,-0.292,96.359
+0 days 01:48:02.874000,BEA,87,94.854,32.0,2.0,,,False,HARD,3.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,-0.59,-0.618,3.077,3.353,-0.104,-0.11,96.821
+0 days 01:49:37.880000,BEA,87,95.006,33.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,17.0,True,9,British Grand Prix,True,C1,True,-0.438,-0.459,3.229,3.518,0.051,0.054,97.037
+0 days 01:51:12.445000,BEA,87,94.565,34.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.879,-0.921,2.788,3.038,-0.215,-0.227,96.659
+0 days 01:52:47.797000,BEA,87,95.352,35.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.092,-0.096,3.575,3.895,-0.052,-0.055,97.51
+0 days 01:54:22.801000,BEA,87,95.004,36.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,16.0,True,9,British Grand Prix,True,C1,True,-0.44,-0.461,3.227,3.516,0.067,0.071,97.225
+0 days 01:56:02.687000,BEA,87,99.886,37.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,126,14.0,False,9,British Grand Prix,True,C1,False,4.442,4.654,8.109,8.836,5.253,5.551,102.171
+0 days 01:57:55.696000,BEA,87,113.009,38.0,2.0,,,False,HARD,9.0,True,Haas F1 Team,671,14.0,False,9,British Grand Prix,True,C1,False,17.565,18.403,21.232,23.134,2.121,1.913,115.357
+0 days 01:59:32.127000,BEA,87,96.431,39.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,14.0,True,9,British Grand Prix,True,C1,True,0.987,1.034,4.654,5.071,-1.002,-1.028,98.843
+0 days 02:01:07.591000,BEA,87,95.464,40.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,0.02,0.021,3.687,4.017,1.19,1.262,97.939
+0 days 02:02:42.754000,BEA,87,95.163,41.0,2.0,,,False,HARD,12.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,-0.281,-0.294,3.386,3.689,0.794,0.841,97.701
+0 days 02:04:17.743000,BEA,87,94.989,42.0,2.0,,,False,HARD,13.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,-0.455,-0.477,3.212,3.5,0.783,0.831,97.591
+0 days 02:05:53.619000,BEA,87,95.876,43.0,2.0,,,False,HARD,14.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,0.432,0.453,4.099,4.466,1.3,1.375,98.541
+0 days 02:07:29.613000,BEA,87,95.994,44.0,2.0,,,False,HARD,15.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,0.55,0.576,4.217,4.595,1.667,1.767,98.723
+0 days 02:09:04.529000,BEA,87,94.916,45.0,2.0,,,False,HARD,16.0,True,Haas F1 Team,1,15.0,True,9,British Grand Prix,True,C1,True,-0.528,-0.553,3.139,3.42,0.777,0.825,97.708
+0 days 02:10:45.279000,BEA,87,100.75,46.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,124,15.0,False,9,British Grand Prix,True,C1,False,5.306,5.559,8.973,9.777,7.04,7.513,103.606
+0 days 02:12:47.543000,BEA,87,122.264,47.0,2.0,,0 days 02:12:41.735000,False,HARD,18.0,True,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C1,False,26.82,28.1,30.487,33.219,23.43,23.706,125.183
+0 days 02:15:10.815000,BEA,87,143.272,48.0,3.0,0 days 02:13:11.940000,,False,SOFT,4.0,False,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C3,False,47.828,50.111,51.495,56.109,18.198,14.55,146.255
+0 days 02:17:40.547000,BEA,87,149.732,49.0,3.0,,,False,SOFT,5.0,False,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C3,False,54.288,56.879,57.955,63.148,37.191,33.047,152.778
+0 days 02:19:23.259000,BEA,87,102.712,50.0,3.0,,,False,SOFT,6.0,False,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C3,False,7.268,7.615,10.935,11.915,-4.932,-4.582,105.822
+0 days 02:20:59.433000,BEA,87,96.174,51.0,3.0,,,False,SOFT,7.0,False,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C3,False,0.73,0.765,4.397,4.791,-1.226,-1.259,99.347
+0 days 02:22:56.378000,BEA,87,116.945,52.0,3.0,,,False,SOFT,8.0,False,Haas F1 Team,4,14.0,False,9,British Grand Prix,True,C3,False,21.501,22.527,25.168,27.423,-23.323,-16.627,120.182
