@@ -218,7 +218,7 @@
 
 [2026]
 # Source
-# https://press.pirelli.com/the-full-pirelli-range-for-spielberg-and-silverstone/
+# https://press.pirelli.com/the-compounds-selected-for-belgium-and-hungary/
 
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
@@ -229,3 +229,5 @@
 7  = ["C2","C3","C4"]
 8  = ["C3","C4","C5"]
 9  = ["C1","C2","C3"]
+10 = ["C2","C3","C4"]
+11 = ["C3","C4","C5"]
