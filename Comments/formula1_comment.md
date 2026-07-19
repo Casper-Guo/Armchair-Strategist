@@ -1,4 +1,4 @@
-Welcome to the 2026 season! The new season and new regulations can cause unforeseenable changes in data format and quality, and I am not always able to review graphics before they are posted, so please forgive and call out any inaccuracy you see in these visualizations.
+Welcome to the 2026 season! This post is programmatically generated and I may not have had a chance to review it. Please call out any bugs you see and I will address them ASAP.
 
 Check out the interactive version of these graphics and more at my [strategy dashboard](https://armchair-strategist.dev/).
 
