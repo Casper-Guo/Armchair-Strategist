@@ -5,6 +5,7 @@ import shutil
 import time
 
 import praw
+from praw.models import PostMedia
 
 from f1_visualization.consts import ROOT_PATH
 
@@ -34,44 +35,44 @@ def main() -> None:
         event_name = fin.read().strip()
 
     dashboard_link = "Check out more at armchair-strategist.dev!"
-    images = [
+    gallery = [
         {
-            "image_path": VISUALS_PATH / "strategy.png",
+            "media": PostMedia((VISUALS_PATH / "strategy.png").as_posix()),
             "caption": f"Tyre strategy recap. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "position.png",
+            "media": PostMedia((VISUALS_PATH / "position.png").as_posix()),
             "caption": f"Race position history. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "laptime.png",
+            "media": PostMedia((VISUALS_PATH / "laptime.png").as_posix()),
             "caption": f"Point finishers' lap times. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "fuel_adjusted.png",
+            "media": PostMedia((VISUALS_PATH / "fuel_adjusted.png").as_posix()),
             "caption": f"Point finishers' fuel-adjusted lap times. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "podium_gap.png",
+            "media": PostMedia((VISUALS_PATH / "podium_gap.png").as_posix()),
             "caption": f"Podium finishers' gaps to winners. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "race_trace.png",
+            "media": PostMedia((VISUALS_PATH / "race_trace.png").as_posix()),
             "caption": f"Race trace vs P1 average pace. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "team_pace.png",
+            "media": PostMedia((VISUALS_PATH / "team_pace.png").as_posix()),
             "caption": f"Team pace ranking. {dashboard_link}",
         },
         {
-            "image_path": VISUALS_PATH / "teammate_violin.png",
+            "media": PostMedia((VISUALS_PATH / "teammate_violin.png").as_posix()),
             "caption": (
                 "Driver pace ranking (teammates vs teammates). Largest gap on the left. "
                 f"{dashboard_link}"
             ),
         },
         {
-            "image_path": VISUALS_PATH / "driver_pace.png",
+            "media": PostMedia((VISUALS_PATH / "driver_pace.png").as_posix()),
             "caption": (
                 "Driver pace ranking (finishing order). Highest finisher on the left. "
                 f"{dashboard_link}"
@@ -79,9 +80,9 @@ def main() -> None:
         },
     ]
 
-    formula1_post = r_formula1.submit_gallery(
+    formula1_post = r_formula1.submit(
         title=f"{event_name} Strategy & Performance Recap",
-        images=images,
+        gallery=gallery,
         flair_id=formula1_flair_id,
     )
     with open(COMMENTS_PATH / "formula1_comment.md", "r", encoding="utf-8") as fin:
@@ -91,9 +92,9 @@ def main() -> None:
 
     time.sleep(5)
 
-    f1technical_post = r_f1technical.submit_gallery(
+    f1technical_post = r_f1technical.submit(
         title=f"{event_name} Strategy & Performance Recap",
-        images=images,
+        gallery=gallery,
         flair_id=f1technical_flair_id,
     )
     with open(COMMENTS_PATH / "f1technical_comment.md", "r", encoding="utf-8") as fin:
