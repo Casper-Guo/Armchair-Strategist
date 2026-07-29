@@ -218,7 +218,7 @@
 
 [2026]
 # Source
-# https://press.pirelli.com/the-compounds-selected-for-belgium-and-hungary/
+# https://press.pirelli.com/tyre-compounds-selected-for-zandvoort-monza-and-madrid/
 
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
@@ -231,3 +231,6 @@
 9  = ["C1","C2","C3"]
 10 = ["C2","C3","C4"]
 11 = ["C3","C4","C5"]
+12 = ["C2","C3","C4"]
+13 = ["C3","C4","C5"]
+14 = ["C2","C3","C4"]
