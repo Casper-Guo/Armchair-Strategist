@@ -185,7 +185,8 @@ def set_event_options(
     schedule = schedule[schedule["RoundNumber"] <= max(last_round_numbers)]
 
     return (
-        list(schedule["EventName"]),
+        # show the most recent event first
+        list(schedule["EventName"])[::-1],
         old_event if old_event in set(schedule["EventName"]) else None,
         schedule.set_index("EventName").to_dict(orient="index"),
         *last_round_numbers,
