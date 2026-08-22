@@ -1641,3 +1641,509 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 01:11:28.053000,ALB,23,94.79,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,18.0,True,9,British Grand Prix,True,C2,True,0.617,0.655,3.183,3.475,0.522,0.554,95.696
 0 days 01:13:02.161000,ALB,23,94.108,16.0,1.0,,,True,MEDIUM,16.0,True,Williams,1,18.0,True,9,British Grand Prix,True,C2,True,-0.065,-0.069,2.501,2.73,0.168,0.179,95.079
 0 days 01:14:36.150000,ALB,23,93.989,17.0,1.0,,,True,MEDIUM,17.0,True,Williams,1,18.0,True,9,British Grand Prix,True,C2,True,-0.184,-0.195,2.382,2.6,0.487,0.521,95.024
+0 days 00:46:26.161000,RUS,63,,1.0,1.0,,,False,MEDIUM,5.0,False,Mercedes,1,1.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:41.810000,RUS,63,75.649,2.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.907,-2.459,0.768,1.026,-2.765,-3.526,75.695
+0 days 00:48:57.089000,RUS,63,75.279,3.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-2.277,-2.936,0.398,0.532,-2.003,-2.592,75.371
+0 days 00:50:12.537000,RUS,63,75.448,4.0,1.0,,,False,MEDIUM,8.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-2.108,-2.718,0.567,0.757,-1.604,-2.082,75.586
+0 days 00:51:27.473000,RUS,63,74.936,5.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-2.62,-3.378,0.055,0.073,-1.988,-2.584,75.119
+0 days 00:52:42.589000,RUS,63,75.116,6.0,1.0,,,False,MEDIUM,10.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-2.44,-3.146,0.235,0.314,-1.911,-2.481,75.345
+0 days 00:53:58.247000,RUS,63,75.658,7.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.898,-2.447,0.777,1.038,-1.552,-2.01,75.933
+0 days 00:55:13.544000,RUS,63,75.297,8.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-2.259,-2.913,0.416,0.556,-2.096,-2.708,75.618
+0 days 00:56:29.197000,RUS,63,75.653,9.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.903,-2.454,0.772,1.031,-1.644,-2.127,76.02
+0 days 00:57:44.908000,RUS,63,75.711,10.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.845,-2.379,0.83,1.108,-1.76,-2.272,76.124
+0 days 00:59:01.007000,RUS,63,76.099,11.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.457,-1.879,1.218,1.627,-1.4,-1.806,76.557
+0 days 01:00:17.035000,RUS,63,76.028,12.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.528,-1.97,1.147,1.532,-1.44,-1.859,76.532
+0 days 01:01:32.912000,RUS,63,75.877,13.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.679,-2.165,0.996,1.33,-1.682,-2.169,76.427
+0 days 01:02:48.839000,RUS,63,75.927,14.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.629,-2.1,1.046,1.397,-1.711,-2.204,76.523
+0 days 01:04:05.163000,RUS,63,76.324,15.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.232,-1.589,1.443,1.927,-1.365,-1.757,76.966
+0 days 01:05:21.344000,RUS,63,76.181,16.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.375,-1.773,1.3,1.736,-1.409,-1.816,76.868
+0 days 01:06:37.717000,RUS,63,76.373,17.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.183,-1.525,1.492,1.992,-1.398,-1.798,77.106
+0 days 01:07:53.978000,RUS,63,76.261,18.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.295,-1.67,1.38,1.843,-1.648,-2.115,77.04
+0 days 01:09:10.010000,RUS,63,76.032,19.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.524,-1.965,1.151,1.537,-1.548,-1.995,76.857
+0 days 01:10:26.274000,RUS,63,76.264,20.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.292,-1.666,1.383,1.847,-1.327,-1.71,77.135
+0 days 01:11:42.532000,RUS,63,76.258,21.0,1.0,,,False,MEDIUM,25.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.298,-1.674,1.377,1.839,-1.634,-2.098,77.175
+0 days 01:12:58.785000,RUS,63,76.253,22.0,1.0,,,False,MEDIUM,26.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.303,-1.68,1.372,1.832,-1.509,-1.941,77.216
+0 days 01:14:15.228000,RUS,63,76.443,23.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-1.113,-1.435,1.562,2.086,-1.462,-1.877,77.451
+0 days 01:15:32.070000,RUS,63,76.842,24.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,1.0,True,12,Dutch Grand Prix,True,C3,True,-0.714,-0.921,1.961,2.619,-4.645,-5.7,77.896
+0 days 00:46:27.883000,LEC,16,,1.0,1.0,,,False,SOFT,5.0,False,Ferrari,1,3.0,False,12,Dutch Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:43.728000,LEC,16,75.845,2.0,1.0,,,True,SOFT,6.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.711,-2.206,0.964,1.287,-2.569,-3.276,75.891
+0 days 00:48:59.025000,LEC,16,75.297,3.0,1.0,,,True,SOFT,7.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-2.259,-2.913,0.416,0.556,-1.985,-2.569,75.389
+0 days 00:50:14.144000,LEC,16,75.119,4.0,1.0,,,True,SOFT,8.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-2.437,-3.142,0.238,0.318,-1.933,-2.509,75.256
+0 days 00:51:29.193000,LEC,16,75.049,5.0,1.0,,,True,SOFT,9.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-2.507,-3.233,0.168,0.224,-1.875,-2.437,75.232
+0 days 00:52:44.793000,LEC,16,75.6,6.0,1.0,,,False,SOFT,10.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.956,-2.522,0.719,0.96,-1.427,-1.853,75.829
+0 days 00:54:00.229000,LEC,16,75.436,7.0,1.0,,,False,SOFT,11.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-2.12,-2.734,0.555,0.741,-1.774,-2.298,75.711
+0 days 00:55:15.591000,LEC,16,75.362,8.0,1.0,,,False,SOFT,12.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-2.194,-2.829,0.481,0.642,-2.031,-2.624,75.683
+0 days 00:56:31.234000,LEC,16,75.643,9.0,1.0,,,False,SOFT,13.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.913,-2.467,0.762,1.018,-1.654,-2.14,76.01
+0 days 00:57:47.252000,LEC,16,76.018,10.0,1.0,,,False,SOFT,14.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.538,-1.983,1.137,1.518,-1.453,-1.876,76.43
+0 days 00:59:03.206000,LEC,16,75.954,11.0,1.0,,,False,SOFT,15.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.602,-2.066,1.073,1.433,-1.545,-1.994,76.412
+0 days 01:00:18.987000,LEC,16,75.781,12.0,1.0,,,False,SOFT,16.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.775,-2.289,0.9,1.202,-1.687,-2.178,76.285
+0 days 01:01:34.990000,LEC,16,76.003,13.0,1.0,,,False,SOFT,17.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.553,-2.002,1.122,1.498,-1.556,-2.006,76.553
+0 days 01:02:51.082000,LEC,16,76.092,14.0,1.0,,,False,SOFT,18.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.464,-1.888,1.211,1.617,-1.546,-1.991,76.688
+0 days 01:04:07.003000,LEC,16,75.921,15.0,1.0,,,False,SOFT,19.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.635,-2.108,1.04,1.389,-1.768,-2.276,76.563
+0 days 01:05:23.041000,LEC,16,76.038,16.0,1.0,,,False,SOFT,20.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.518,-1.957,1.157,1.545,-1.552,-2.0,76.726
+0 days 01:06:39.116000,LEC,16,76.075,17.0,1.0,,,False,SOFT,21.0,False,Ferrari,1,3.0,True,12,Dutch Grand Prix,True,C4,True,-1.481,-1.91,1.194,1.595,-1.696,-2.181,76.808
+0 days 01:07:55.371000,LEC,16,76.255,18.0,1.0,,,False,SOFT,22.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.301,-1.677,1.374,1.835,-1.654,-2.123,77.034
+0 days 01:09:11.332000,LEC,16,75.961,19.0,1.0,,,False,SOFT,23.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.595,-2.057,1.08,1.442,-1.619,-2.087,76.786
+0 days 01:10:27.674000,LEC,16,76.342,20.0,1.0,,,False,SOFT,24.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.214,-1.565,1.461,1.951,-1.249,-1.61,77.213
+0 days 01:11:43.866000,LEC,16,76.192,21.0,1.0,,,False,SOFT,25.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.364,-1.759,1.311,1.751,-1.7,-2.183,77.109
+0 days 01:13:00.237000,LEC,16,76.371,22.0,1.0,,,False,SOFT,26.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.185,-1.528,1.49,1.99,-1.391,-1.789,77.334
+0 days 01:14:16.462000,LEC,16,76.225,23.0,1.0,,,False,SOFT,27.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-1.331,-1.716,1.344,1.795,-1.68,-2.156,77.233
+0 days 01:15:33.430000,LEC,16,76.968,24.0,1.0,,,False,SOFT,28.0,False,Ferrari,1,2.0,True,12,Dutch Grand Prix,True,C4,True,-0.588,-0.758,2.087,2.787,-4.519,-5.546,78.022
+0 days 00:46:27.273000,NOR,1,,1.0,1.0,,,False,MEDIUM,5.0,False,McLaren,1,2.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:43.038000,NOR,1,75.765,2.0,1.0,,,True,MEDIUM,6.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.791,-2.309,0.884,1.181,-2.649,-3.378,75.811
+0 days 00:48:58.154000,NOR,1,75.116,3.0,1.0,,,True,MEDIUM,7.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-2.44,-3.146,0.235,0.314,-2.166,-2.803,75.208
+0 days 00:50:13.411000,NOR,1,75.257,4.0,1.0,,,False,MEDIUM,8.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-2.299,-2.964,0.376,0.502,-1.795,-2.33,75.395
+0 days 00:51:28.292000,NOR,1,74.881,5.0,1.0,,,True,MEDIUM,9.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-2.675,-3.449,0.0,0.0,-2.043,-2.656,75.064
+0 days 00:52:43.635000,NOR,1,75.343,6.0,1.0,,,False,MEDIUM,10.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-2.213,-2.853,0.462,0.617,-1.684,-2.186,75.572
+0 days 00:53:59.211000,NOR,1,75.576,7.0,1.0,,,False,MEDIUM,11.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.98,-2.553,0.695,0.928,-1.634,-2.116,75.851
+0 days 00:55:14.650000,NOR,1,75.439,8.0,1.0,,,False,MEDIUM,12.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-2.117,-2.73,0.558,0.745,-1.954,-2.525,75.76
+0 days 00:56:30.474000,NOR,1,75.824,9.0,1.0,,,False,MEDIUM,13.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.732,-2.233,0.943,1.259,-1.473,-1.906,76.191
+0 days 00:57:46.631000,NOR,1,76.157,10.0,1.0,,,False,MEDIUM,14.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.399,-1.804,1.276,1.704,-1.314,-1.696,76.569
+0 days 00:59:02.700000,NOR,1,76.069,11.0,1.0,,,False,MEDIUM,15.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.487,-1.917,1.188,1.587,-1.43,-1.845,76.527
+0 days 01:00:18.475000,NOR,1,75.775,12.0,1.0,,,False,MEDIUM,16.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.781,-2.296,0.894,1.194,-1.693,-2.185,76.279
+0 days 01:01:34.479000,NOR,1,76.004,13.0,1.0,,,False,MEDIUM,17.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.552,-2.001,1.123,1.5,-1.555,-2.005,76.554
+0 days 01:02:50.304000,NOR,1,75.825,14.0,1.0,,,False,MEDIUM,18.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.731,-2.232,0.944,1.261,-1.813,-2.335,76.421
+0 days 01:04:06.369000,NOR,1,76.065,15.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.491,-1.922,1.184,1.581,-1.624,-2.09,76.707
+0 days 01:05:22.592000,NOR,1,76.223,16.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.333,-1.719,1.342,1.792,-1.367,-1.762,76.91
+0 days 01:06:38.874000,NOR,1,76.282,17.0,1.0,,,False,MEDIUM,21.0,False,McLaren,1,2.0,True,12,Dutch Grand Prix,True,C3,True,-1.274,-1.643,1.401,1.871,-1.489,-1.915,77.015
+0 days 01:07:56.783000,NOR,1,77.909,18.0,1.0,,,False,MEDIUM,22.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,0.353,0.455,3.028,4.044,0.0,0.0,78.688
+0 days 01:09:12.932000,NOR,1,76.149,19.0,1.0,,,False,MEDIUM,23.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,-1.407,-1.814,1.268,1.693,-1.431,-1.845,76.974
+0 days 01:10:29.460000,NOR,1,76.528,20.0,1.0,,,False,MEDIUM,24.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,-1.028,-1.325,1.647,2.199,-1.063,-1.37,77.399
+0 days 01:11:45.894000,NOR,1,76.434,21.0,1.0,,,False,MEDIUM,25.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,-1.122,-1.447,1.553,2.074,-1.458,-1.872,77.351
+0 days 01:13:02.441000,NOR,1,76.547,22.0,1.0,,,False,MEDIUM,26.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,-1.009,-1.301,1.666,2.225,-1.215,-1.562,77.51
+0 days 01:14:19.429000,NOR,1,76.988,23.0,1.0,,,False,MEDIUM,27.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,-0.568,-0.732,2.107,2.814,-0.917,-1.177,77.996
+0 days 01:15:37.266000,NOR,1,77.837,24.0,1.0,,,False,MEDIUM,28.0,False,McLaren,1,3.0,True,12,Dutch Grand Prix,True,C3,True,0.281,0.362,2.956,3.948,-3.65,-4.479,78.891
+0 days 00:46:28.564000,ANT,12,,1.0,1.0,,,False,MEDIUM,5.0,False,Mercedes,1,4.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:44.541000,ANT,12,75.977,2.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.579,-2.036,1.096,1.464,-2.437,-3.108,76.023
+0 days 00:48:59.764000,ANT,12,75.223,3.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-2.333,-3.008,0.342,0.457,-2.059,-2.664,75.315
+0 days 00:50:14.754000,ANT,12,74.99,4.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-2.566,-3.309,0.109,0.146,-2.062,-2.676,75.128
+0 days 00:51:29.787000,ANT,12,75.033,5.0,1.0,,,False,MEDIUM,9.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-2.523,-3.253,0.152,0.203,-1.891,-2.458,75.216
+0 days 00:52:45.369000,ANT,12,75.582,6.0,1.0,,,False,MEDIUM,10.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.974,-2.545,0.701,0.936,-1.445,-1.876,75.811
+0 days 00:54:01.031000,ANT,12,75.662,7.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.894,-2.442,0.781,1.043,-1.548,-2.005,75.937
+0 days 00:55:16.198000,ANT,12,75.167,8.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-2.389,-3.08,0.286,0.382,-2.226,-2.876,75.488
+0 days 00:56:32.121000,ANT,12,75.923,9.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.633,-2.106,1.042,1.392,-1.374,-1.778,76.29
+0 days 00:57:48.089000,ANT,12,75.968,10.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.588,-2.048,1.087,1.452,-1.503,-1.94,76.38
+0 days 00:59:03.914000,ANT,12,75.825,11.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.731,-2.232,0.944,1.261,-1.674,-2.16,76.283
+0 days 01:00:19.867000,ANT,12,75.953,12.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.603,-2.067,1.072,1.432,-1.515,-1.956,76.457
+0 days 01:01:35.848000,ANT,12,75.981,13.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.575,-2.031,1.1,1.469,-1.578,-2.035,76.531
+0 days 01:02:51.822000,ANT,12,75.974,14.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.582,-2.04,1.093,1.46,-1.664,-2.143,76.57
+0 days 01:04:07.816000,ANT,12,75.994,15.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.562,-2.014,1.113,1.486,-1.695,-2.182,76.636
+0 days 01:05:24.084000,ANT,12,76.268,16.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.288,-1.661,1.387,1.852,-1.322,-1.704,76.956
+0 days 01:06:40.226000,ANT,12,76.142,17.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.414,-1.823,1.261,1.684,-1.629,-2.095,76.875
+0 days 01:07:57.305000,ANT,12,77.079,18.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-0.477,-0.615,2.198,2.935,-0.83,-1.065,77.858
+0 days 01:09:13.841000,ANT,12,76.536,19.0,1.0,,,False,MEDIUM,23.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.02,-1.315,1.655,2.21,-1.044,-1.346,77.361
+0 days 01:10:30.199000,ANT,12,76.358,20.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.198,-1.545,1.477,1.972,-1.233,-1.589,77.229
+0 days 01:11:46.434000,ANT,12,76.235,21.0,1.0,,,False,MEDIUM,25.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-1.321,-1.703,1.354,1.808,-1.657,-2.127,77.152
+0 days 01:13:03.175000,ANT,12,76.741,22.0,1.0,,,False,MEDIUM,26.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-0.815,-1.051,1.86,2.484,-1.021,-1.313,77.704
+0 days 01:14:19.759000,ANT,12,76.584,23.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,-0.972,-1.253,1.703,2.274,-1.321,-1.696,77.592
+0 days 01:15:37.651000,ANT,12,77.892,24.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,4.0,True,12,Dutch Grand Prix,True,C3,True,0.336,0.433,3.011,4.021,-3.595,-4.412,78.946
+0 days 00:46:29.143000,PIA,81,,1.0,1.0,,,False,MEDIUM,5.0,False,McLaren,1,5.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:45.359000,PIA,81,76.216,2.0,1.0,,,True,MEDIUM,6.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.34,-1.728,1.335,1.783,-2.198,-2.803,76.262
+0 days 00:49:00.683000,PIA,81,75.324,3.0,1.0,,,True,MEDIUM,7.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-2.232,-2.878,0.443,0.592,-1.958,-2.534,75.416
+0 days 00:50:16.047000,PIA,81,75.364,4.0,1.0,,,False,MEDIUM,8.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-2.192,-2.826,0.483,0.645,-1.688,-2.191,75.502
+0 days 00:51:31.493000,PIA,81,75.446,5.0,1.0,,,False,MEDIUM,9.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-2.11,-2.721,0.565,0.755,-1.478,-1.921,75.629
+0 days 00:52:47.181000,PIA,81,75.688,6.0,1.0,,,False,MEDIUM,10.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.868,-2.409,0.807,1.078,-1.339,-1.738,75.917
+0 days 00:54:03.361000,PIA,81,76.18,7.0,1.0,,,False,MEDIUM,11.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.376,-1.774,1.299,1.735,-1.03,-1.334,76.455
+0 days 00:55:18.919000,PIA,81,75.558,8.0,1.0,,,False,MEDIUM,12.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.998,-2.576,0.677,0.904,-1.835,-2.371,75.879
+0 days 00:56:34.922000,PIA,81,76.003,9.0,1.0,,,False,MEDIUM,13.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.553,-2.002,1.122,1.498,-1.294,-1.674,76.37
+0 days 00:57:50.880000,PIA,81,75.958,10.0,1.0,,,False,MEDIUM,14.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.598,-2.06,1.077,1.438,-1.513,-1.953,76.37
+0 days 00:59:07.164000,PIA,81,76.284,11.0,1.0,,,False,MEDIUM,15.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.272,-1.64,1.403,1.874,-1.215,-1.568,76.742
+0 days 01:00:23.865000,PIA,81,76.701,12.0,1.0,,,False,MEDIUM,16.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.855,-1.102,1.82,2.431,-0.767,-0.99,77.205
+0 days 01:01:40.164000,PIA,81,76.299,13.0,1.0,,,False,MEDIUM,17.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.257,-1.621,1.418,1.894,-1.26,-1.625,76.849
+0 days 01:02:56.280000,PIA,81,76.116,14.0,1.0,,,False,MEDIUM,18.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.44,-1.857,1.235,1.649,-1.522,-1.96,76.712
+0 days 01:04:12.622000,PIA,81,76.342,15.0,1.0,,,False,MEDIUM,19.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.214,-1.565,1.461,1.951,-1.347,-1.734,76.984
+0 days 01:05:28.695000,PIA,81,76.073,16.0,1.0,,,False,MEDIUM,20.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.483,-1.912,1.192,1.592,-1.517,-1.955,76.76
+0 days 01:06:45.293000,PIA,81,76.598,17.0,1.0,,,False,MEDIUM,21.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.958,-1.235,1.717,2.293,-1.173,-1.508,77.331
+0 days 01:08:01.731000,PIA,81,76.438,18.0,1.0,,,False,MEDIUM,22.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-1.118,-1.442,1.557,2.079,-1.471,-1.888,77.217
+0 days 01:09:18.331000,PIA,81,76.6,19.0,1.0,,,False,MEDIUM,23.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.956,-1.233,1.719,2.296,-0.98,-1.263,77.425
+0 days 01:10:34.913000,PIA,81,76.582,20.0,1.0,,,False,MEDIUM,24.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.974,-1.256,1.701,2.272,-1.009,-1.3,77.453
+0 days 01:11:51.532000,PIA,81,76.619,21.0,1.0,,,False,MEDIUM,25.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.937,-1.208,1.738,2.321,-1.273,-1.634,77.536
+0 days 01:13:08.172000,PIA,81,76.64,22.0,1.0,,,False,MEDIUM,26.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.916,-1.181,1.759,2.349,-1.122,-1.443,77.602
+0 days 01:14:25.021000,PIA,81,76.849,23.0,1.0,,,False,MEDIUM,27.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.707,-0.912,1.968,2.628,-1.056,-1.355,77.857
+0 days 01:15:42.255000,PIA,81,77.234,24.0,1.0,,,False,MEDIUM,28.0,False,McLaren,1,5.0,True,12,Dutch Grand Prix,True,C3,True,-0.322,-0.415,2.353,3.142,-4.253,-5.219,78.288
+0 days 00:46:29.628000,VER,3,,1.0,1.0,,,False,MEDIUM,5.0,False,Red Bull Racing,1,6.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:46.422000,VER,3,76.794,2.0,1.0,,,True,MEDIUM,6.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.762,-0.983,1.913,2.555,-1.62,-2.066,76.84
+0 days 00:49:02.298000,VER,3,75.876,3.0,1.0,,,True,MEDIUM,7.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.68,-2.166,0.995,1.329,-1.406,-1.819,75.968
+0 days 00:50:18.205000,VER,3,75.907,4.0,1.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.649,-2.126,1.026,1.37,-1.145,-1.486,76.044
+0 days 00:51:33.953000,VER,3,75.748,5.0,1.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.808,-2.331,0.867,1.158,-1.176,-1.529,75.931
+0 days 00:52:49.654000,VER,3,75.701,6.0,1.0,,,True,MEDIUM,10.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.855,-2.392,0.82,1.095,-1.326,-1.721,75.93
+0 days 00:54:05.527000,VER,3,75.873,7.0,1.0,,,False,MEDIUM,11.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.683,-2.17,0.992,1.325,-1.337,-1.732,76.148
+0 days 00:55:20.970000,VER,3,75.443,8.0,1.0,,,True,MEDIUM,12.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-2.113,-2.724,0.562,0.751,-1.95,-2.52,75.764
+0 days 00:56:36.873000,VER,3,75.903,9.0,1.0,,,False,MEDIUM,13.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.653,-2.131,1.022,1.365,-1.394,-1.803,76.27
+0 days 00:57:52.744000,VER,3,75.871,10.0,1.0,,,False,MEDIUM,14.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.685,-2.173,0.99,1.322,-1.6,-2.065,76.283
+0 days 00:59:08.663000,VER,3,75.919,11.0,1.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.637,-2.111,1.038,1.386,-1.58,-2.039,76.377
+0 days 01:00:24.670000,VER,3,76.007,12.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.549,-1.997,1.126,1.504,-1.461,-1.886,76.511
+0 days 01:01:40.963000,VER,3,76.293,13.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.263,-1.629,1.412,1.886,-1.266,-1.632,76.843
+0 days 01:02:57.375000,VER,3,76.412,14.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.144,-1.475,1.531,2.045,-1.226,-1.579,77.008
+0 days 01:04:13.995000,VER,3,76.62,15.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.936,-1.207,1.739,2.322,-1.069,-1.376,77.262
+0 days 01:05:30.170000,VER,3,76.175,16.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.381,-1.781,1.294,1.728,-1.415,-1.824,76.862
+0 days 01:06:46.654000,VER,3,76.484,17.0,1.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.072,-1.382,1.603,2.141,-1.287,-1.655,77.217
+0 days 01:08:03.001000,VER,3,76.347,18.0,1.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.209,-1.559,1.466,1.958,-1.562,-2.005,77.126
+0 days 01:09:19.303000,VER,3,76.302,19.0,1.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.254,-1.617,1.421,1.898,-1.278,-1.647,77.127
+0 days 01:10:35.630000,VER,3,76.327,20.0,1.0,,,False,MEDIUM,24.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-1.229,-1.585,1.446,1.931,-1.264,-1.629,77.198
+0 days 01:11:52.379000,VER,3,76.749,21.0,1.0,,,False,MEDIUM,25.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.807,-1.041,1.868,2.495,-1.143,-1.467,77.666
+0 days 01:13:08.978000,VER,3,76.599,22.0,1.0,,,False,MEDIUM,26.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.957,-1.234,1.718,2.294,-1.163,-1.496,77.562
+0 days 01:14:25.569000,VER,3,76.591,23.0,1.0,,,False,MEDIUM,27.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.965,-1.244,1.71,2.284,-1.314,-1.687,77.599
+0 days 01:15:42.599000,VER,3,77.03,24.0,1.0,,,False,MEDIUM,28.0,False,Red Bull Racing,1,6.0,True,12,Dutch Grand Prix,True,C3,True,-0.526,-0.678,2.149,2.87,-4.457,-5.47,78.084
+0 days 00:46:30.182000,HAM,44,,1.0,1.0,,,False,MEDIUM,8.0,False,Ferrari,1,7.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:47.202000,HAM,44,77.02,2.0,1.0,,,True,MEDIUM,9.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.536,-0.691,2.139,2.857,-1.394,-1.778,77.066
+0 days 00:49:02.891000,HAM,44,75.689,3.0,1.0,,,True,MEDIUM,10.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.867,-2.407,0.808,1.079,-1.593,-2.061,75.781
+0 days 00:50:18.908000,HAM,44,76.017,4.0,1.0,,,False,MEDIUM,11.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.539,-1.984,1.136,1.517,-1.035,-1.343,76.154
+0 days 00:51:34.465000,HAM,44,75.557,5.0,1.0,,,True,MEDIUM,12.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.999,-2.577,0.676,0.903,-1.367,-1.777,75.74
+0 days 00:52:50.793000,HAM,44,76.328,6.0,1.0,,,False,MEDIUM,13.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.228,-1.583,1.447,1.932,-0.699,-0.907,76.557
+0 days 00:54:06.833000,HAM,44,76.04,7.0,1.0,,,False,MEDIUM,14.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.516,-1.955,1.159,1.548,-1.17,-1.515,76.315
+0 days 00:55:23.077000,HAM,44,76.244,8.0,1.0,,,False,MEDIUM,15.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.312,-1.692,1.363,1.82,-1.149,-1.485,76.565
+0 days 00:56:39.024000,HAM,44,75.947,9.0,1.0,,,False,MEDIUM,16.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.609,-2.075,1.066,1.424,-1.35,-1.747,76.314
+0 days 00:57:55.061000,HAM,44,76.037,10.0,1.0,,,False,MEDIUM,17.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.519,-1.959,1.156,1.544,-1.434,-1.851,76.45
+0 days 00:59:10.909000,HAM,44,75.848,11.0,1.0,,,False,MEDIUM,18.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.708,-2.202,0.967,1.291,-1.651,-2.13,76.306
+0 days 01:00:26.821000,HAM,44,75.912,12.0,1.0,,,False,MEDIUM,19.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.644,-2.12,1.031,1.377,-1.556,-2.009,76.416
+0 days 01:01:42.604000,HAM,44,75.783,13.0,1.0,,,False,MEDIUM,20.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.773,-2.286,0.902,1.205,-1.776,-2.29,76.333
+0 days 01:02:58.519000,HAM,44,75.915,14.0,1.0,,,False,MEDIUM,21.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.641,-2.116,1.034,1.381,-1.723,-2.219,76.511
+0 days 01:04:14.714000,HAM,44,76.195,15.0,1.0,,,False,MEDIUM,22.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.361,-1.755,1.314,1.755,-1.494,-1.923,76.837
+0 days 01:05:31.181000,HAM,44,76.467,16.0,1.0,,,False,MEDIUM,23.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.089,-1.404,1.586,2.118,-1.123,-1.447,77.154
+0 days 01:06:47.263000,HAM,44,76.082,17.0,1.0,,,False,MEDIUM,24.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.474,-1.901,1.201,1.604,-1.689,-2.172,76.815
+0 days 01:08:03.837000,HAM,44,76.574,18.0,1.0,,,False,MEDIUM,25.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.982,-1.266,1.693,2.261,-1.335,-1.714,77.353
+0 days 01:09:20.515000,HAM,44,76.678,19.0,1.0,,,False,MEDIUM,26.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.878,-1.132,1.797,2.4,-0.902,-1.163,77.503
+0 days 01:10:37.282000,HAM,44,76.767,20.0,1.0,,,False,MEDIUM,27.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.789,-1.017,1.886,2.519,-0.824,-1.062,77.638
+0 days 01:11:53.759000,HAM,44,76.477,21.0,1.0,,,False,MEDIUM,28.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-1.079,-1.391,1.596,2.131,-1.415,-1.817,77.394
+0 days 01:13:10.482000,HAM,44,76.723,22.0,1.0,,,False,MEDIUM,29.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.833,-1.074,1.842,2.46,-1.039,-1.336,77.686
+0 days 01:14:27.297000,HAM,44,76.815,23.0,1.0,,,False,MEDIUM,30.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.741,-0.955,1.934,2.583,-1.09,-1.399,77.823
+0 days 01:15:44.258000,HAM,44,76.961,24.0,1.0,,,False,MEDIUM,31.0,False,Ferrari,1,7.0,True,12,Dutch Grand Prix,True,C3,True,-0.595,-0.767,2.08,2.778,-4.526,-5.554,78.015
+0 days 00:46:30.917000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,8.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:48.874000,GAS,10,77.957,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.401,0.517,3.076,4.108,-0.457,-0.583,78.003
+0 days 00:49:05.769000,GAS,10,76.895,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.661,-0.852,2.014,2.69,-0.387,-0.501,76.987
+0 days 00:50:22.724000,GAS,10,76.955,4.0,1.0,,,False,MEDIUM,4.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.601,-0.775,2.074,2.77,-0.097,-0.126,77.092
+0 days 00:51:39.648000,GAS,10,76.924,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.632,-0.815,2.043,2.728,0.0,0.0,77.107
+0 days 00:52:56.675000,GAS,10,77.027,6.0,1.0,,,False,MEDIUM,6.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.529,-0.682,2.146,2.866,0.0,0.0,77.256
+0 days 00:54:13.730000,GAS,10,77.055,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.501,-0.646,2.174,2.903,-0.155,-0.201,77.33
+0 days 00:55:31.303000,GAS,10,77.573,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.017,0.022,2.692,3.595,0.18,0.233,77.894
+0 days 00:56:48.423000,GAS,10,77.12,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.436,-0.562,2.239,2.99,-0.177,-0.229,77.487
+0 days 00:58:05.527000,GAS,10,77.104,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.452,-0.583,2.223,2.969,-0.367,-0.474,77.516
+0 days 00:59:22.628000,GAS,10,77.101,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.455,-0.587,2.22,2.965,-0.398,-0.514,77.559
+0 days 01:00:39.727000,GAS,10,77.099,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.457,-0.589,2.218,2.962,-0.369,-0.476,77.603
+0 days 01:01:57.239000,GAS,10,77.512,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.044,-0.057,2.631,3.514,-0.047,-0.061,78.062
+0 days 01:03:14.732000,GAS,10,77.493,14.0,1.0,,,False,MEDIUM,14.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.063,-0.081,2.612,3.488,-0.145,-0.187,78.089
+0 days 01:04:32.352000,GAS,10,77.62,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.064,0.083,2.739,3.658,-0.069,-0.089,78.262
+0 days 01:05:49.878000,GAS,10,77.526,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.03,-0.039,2.645,3.532,-0.064,-0.082,78.214
+0 days 01:07:07.667000,GAS,10,77.789,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.233,0.3,2.908,3.883,0.018,0.023,78.522
+0 days 01:08:25.484000,GAS,10,77.817,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.261,0.337,2.936,3.921,-0.092,-0.118,78.596
+0 days 01:09:42.459000,GAS,10,76.975,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.581,-0.749,2.094,2.796,-0.605,-0.78,77.8
+0 days 01:10:59.917000,GAS,10,77.458,20.0,1.0,,,False,MEDIUM,20.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.098,-0.126,2.577,3.441,-0.133,-0.171,78.329
+0 days 01:12:17.549000,GAS,10,77.632,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.076,0.098,2.751,3.674,-0.26,-0.334,78.549
+0 days 01:13:35.032000,GAS,10,77.483,22.0,1.0,,,False,MEDIUM,22.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,-0.073,-0.094,2.602,3.475,-0.279,-0.359,78.446
+0 days 01:14:52.888000,GAS,10,77.856,23.0,1.0,,,False,MEDIUM,23.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,0.3,0.387,2.975,3.973,-0.049,-0.063,78.864
+0 days 01:16:14.580000,GAS,10,81.692,24.0,1.0,,,False,MEDIUM,24.0,True,Alpine,1,8.0,True,12,Dutch Grand Prix,True,C3,True,4.136,5.333,6.811,9.096,0.205,0.252,82.746
+0 days 00:46:31.475000,BOR,5,,1.0,1.0,,,False,MEDIUM,7.0,False,Audi,1,9.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:49.416000,BOR,5,77.941,2.0,1.0,,,True,MEDIUM,8.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.385,0.496,3.06,4.086,-0.473,-0.603,77.987
+0 days 00:49:06.406000,BOR,5,76.99,3.0,1.0,,,True,MEDIUM,9.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.566,-0.73,2.109,2.816,-0.292,-0.378,77.082
+0 days 00:50:23.529000,BOR,5,77.123,4.0,1.0,,,False,MEDIUM,10.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.433,-0.558,2.242,2.994,0.071,0.092,77.261
+0 days 00:51:40.451000,BOR,5,76.922,5.0,1.0,,,True,MEDIUM,11.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.634,-0.817,2.041,2.726,-0.002,-0.003,77.105
+0 days 00:52:57.425000,BOR,5,76.974,6.0,1.0,,,False,MEDIUM,12.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.582,-0.75,2.093,2.795,-0.053,-0.069,77.203
+0 days 00:54:14.690000,BOR,5,77.265,7.0,1.0,,,False,MEDIUM,13.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.291,-0.375,2.384,3.184,0.055,0.071,77.54
+0 days 00:55:32.053000,BOR,5,77.363,8.0,1.0,,,False,MEDIUM,14.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.193,-0.249,2.482,3.315,-0.03,-0.039,77.684
+0 days 00:56:49.350000,BOR,5,77.297,9.0,1.0,,,False,MEDIUM,15.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.259,-0.334,2.416,3.226,0.0,0.0,77.664
+0 days 00:58:06.541000,BOR,5,77.191,10.0,1.0,,,False,MEDIUM,16.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.365,-0.471,2.31,3.085,-0.28,-0.361,77.604
+0 days 00:59:23.853000,BOR,5,77.312,11.0,1.0,,,False,MEDIUM,17.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.244,-0.315,2.431,3.246,-0.187,-0.241,77.77
+0 days 01:00:41.280000,BOR,5,77.427,12.0,1.0,,,False,MEDIUM,18.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.129,-0.166,2.546,3.4,-0.041,-0.053,77.931
+0 days 01:01:58.839000,BOR,5,77.559,13.0,1.0,,,False,MEDIUM,19.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.003,0.004,2.678,3.576,0.0,0.0,78.109
+0 days 01:03:16.209000,BOR,5,77.37,14.0,1.0,,,False,MEDIUM,20.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.186,-0.24,2.489,3.324,-0.268,-0.345,77.966
+0 days 01:04:33.447000,BOR,5,77.238,15.0,1.0,,,False,MEDIUM,21.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.318,-0.41,2.357,3.148,-0.451,-0.581,77.88
+0 days 01:05:50.918000,BOR,5,77.471,16.0,1.0,,,False,MEDIUM,22.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,-0.085,-0.11,2.59,3.459,-0.119,-0.153,78.158
+0 days 01:07:08.671000,BOR,5,77.753,17.0,1.0,,,False,MEDIUM,23.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.197,0.254,2.872,3.835,-0.018,-0.023,78.486
+0 days 01:08:26.488000,BOR,5,77.817,18.0,1.0,,,False,MEDIUM,24.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.261,0.337,2.936,3.921,-0.092,-0.118,78.596
+0 days 01:09:44.068000,BOR,5,77.58,19.0,1.0,,,False,MEDIUM,25.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.024,0.031,2.699,3.604,0.0,0.0,78.405
+0 days 01:11:01.653000,BOR,5,77.585,20.0,1.0,,,False,MEDIUM,26.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.029,0.037,2.704,3.611,-0.006,-0.008,78.456
+0 days 01:12:19.439000,BOR,5,77.786,21.0,1.0,,,False,MEDIUM,27.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.23,0.297,2.905,3.879,-0.106,-0.136,78.703
+0 days 01:13:37.271000,BOR,5,77.832,22.0,1.0,,,False,MEDIUM,28.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.276,0.356,2.951,3.941,0.07,0.09,78.794
+0 days 01:14:55.225000,BOR,5,77.954,23.0,1.0,,,False,MEDIUM,29.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,0.398,0.513,3.073,4.104,0.049,0.063,78.962
+0 days 01:16:16.507000,BOR,5,81.282,24.0,1.0,,,False,MEDIUM,30.0,False,Audi,1,9.0,True,12,Dutch Grand Prix,True,C3,True,3.726,4.804,6.401,8.548,-0.205,-0.252,82.336
+0 days 00:46:32.419000,LIN,41,,1.0,1.0,,,False,MEDIUM,5.0,False,Racing Bulls,1,10.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:50.435000,LIN,41,78.016,2.0,1.0,,,True,MEDIUM,6.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.46,0.593,3.135,4.187,-0.398,-0.508,78.062
+0 days 00:49:07.537000,LIN,41,77.102,3.0,1.0,,,True,MEDIUM,7.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.454,-0.585,2.221,2.966,-0.18,-0.233,77.194
+0 days 00:50:24.583000,LIN,41,77.046,4.0,1.0,,,True,MEDIUM,8.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.51,-0.658,2.165,2.891,-0.006,-0.008,77.184
+0 days 00:51:41.469000,LIN,41,76.886,5.0,1.0,,,True,MEDIUM,9.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.67,-0.864,2.005,2.678,-0.038,-0.049,77.069
+0 days 00:52:58.527000,LIN,41,77.058,6.0,1.0,,,False,MEDIUM,10.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.498,-0.642,2.177,2.907,0.031,0.04,77.287
+0 days 00:54:15.666000,LIN,41,77.139,7.0,1.0,,,False,MEDIUM,11.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.417,-0.538,2.258,3.015,-0.071,-0.092,77.414
+0 days 00:55:32.976000,LIN,41,77.31,8.0,1.0,,,False,MEDIUM,12.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.246,-0.317,2.429,3.244,-0.083,-0.107,77.631
+0 days 00:56:50.122000,LIN,41,77.146,9.0,1.0,,,False,MEDIUM,13.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.41,-0.529,2.265,3.025,-0.151,-0.195,77.513
+0 days 00:58:07.593000,LIN,41,77.471,10.0,1.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.085,-0.11,2.59,3.459,0.0,0.0,77.884
+0 days 00:59:25.081000,LIN,41,77.488,11.0,1.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.068,-0.088,2.607,3.482,-0.011,-0.014,77.946
+0 days 01:00:42.591000,LIN,41,77.51,12.0,1.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.046,-0.059,2.629,3.511,0.042,0.054,78.014
+0 days 01:01:59.925000,LIN,41,77.334,13.0,1.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.222,-0.286,2.453,3.276,-0.225,-0.29,77.884
+0 days 01:03:17.563000,LIN,41,77.638,14.0,1.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.082,0.106,2.757,3.682,0.0,0.0,78.234
+0 days 01:04:35.252000,LIN,41,77.689,15.0,1.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.133,0.171,2.808,3.75,0.0,0.0,78.331
+0 days 01:05:52.724000,LIN,41,77.472,16.0,1.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.084,-0.108,2.591,3.46,-0.118,-0.152,78.16
+0 days 01:07:10.141000,LIN,41,77.417,17.0,1.0,,,False,MEDIUM,21.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.139,-0.179,2.536,3.387,-0.354,-0.455,78.15
+0 days 01:08:28,LIN,41,77.859,18.0,1.0,,,False,MEDIUM,22.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.303,0.391,2.978,3.977,-0.05,-0.064,78.638
+0 days 01:09:45.455000,LIN,41,77.455,19.0,1.0,,,False,MEDIUM,23.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,-0.101,-0.13,2.574,3.437,-0.125,-0.161,78.28
+0 days 01:11:03.036000,LIN,41,77.581,20.0,1.0,,,False,MEDIUM,24.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.025,0.032,2.7,3.606,-0.01,-0.013,78.452
+0 days 01:12:20.928000,LIN,41,77.892,21.0,1.0,,,False,MEDIUM,25.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.336,0.433,3.011,4.021,0.0,0.0,78.809
+0 days 01:13:38.561000,LIN,41,77.633,22.0,1.0,,,False,MEDIUM,26.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.077,0.099,2.752,3.675,-0.129,-0.166,78.596
+0 days 01:14:56.335000,LIN,41,77.774,23.0,1.0,,,False,MEDIUM,27.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,0.218,0.281,2.893,3.863,-0.131,-0.168,78.782
+0 days 01:16:17.041000,LIN,41,80.706,24.0,1.0,,,False,MEDIUM,28.0,False,Racing Bulls,1,10.0,True,12,Dutch Grand Prix,True,C3,True,3.15,4.062,5.825,7.779,-0.781,-0.958,81.76
+0 days 00:46:32.993000,LAW,30,,1.0,1.0,,,False,MEDIUM,7.0,False,Red Bull Racing,1,11.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:51.310000,LAW,30,78.317,2.0,1.0,,,True,MEDIUM,8.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.761,0.981,3.436,4.589,-0.097,-0.124,78.363
+0 days 00:49:08.350000,LAW,30,77.04,3.0,1.0,,,True,MEDIUM,9.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.516,-0.665,2.159,2.883,-0.242,-0.313,77.132
+0 days 00:50:25.407000,LAW,30,77.057,4.0,1.0,,,False,MEDIUM,10.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.499,-0.643,2.176,2.906,0.005,0.006,77.194
+0 days 00:51:42.430000,LAW,30,77.023,5.0,1.0,,,True,MEDIUM,11.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.533,-0.687,2.142,2.861,0.099,0.129,77.206
+0 days 00:52:59.339000,LAW,30,76.909,6.0,1.0,,,True,MEDIUM,12.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.647,-0.834,2.028,2.708,-0.118,-0.153,77.138
+0 days 00:54:16.494000,LAW,30,77.155,7.0,1.0,,,False,MEDIUM,13.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.401,-0.517,2.274,3.037,-0.055,-0.071,77.43
+0 days 00:55:33.887000,LAW,30,77.393,8.0,1.0,,,False,MEDIUM,14.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.163,-0.21,2.512,3.355,0.0,0.0,77.714
+0 days 00:56:51.002000,LAW,30,77.115,9.0,1.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.441,-0.569,2.234,2.983,-0.182,-0.235,77.482
+0 days 00:58:08.216000,LAW,30,77.214,10.0,1.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.342,-0.441,2.333,3.116,-0.257,-0.332,77.626
+0 days 00:59:25.715000,LAW,30,77.499,11.0,1.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.057,-0.073,2.618,3.496,0.0,0.0,77.957
+0 days 01:00:43.233000,LAW,30,77.518,12.0,1.0,,,False,MEDIUM,18.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.038,-0.049,2.637,3.522,0.05,0.065,78.022
+0 days 01:02:00.655000,LAW,30,77.422,13.0,1.0,,,False,MEDIUM,19.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.134,-0.173,2.541,3.393,-0.137,-0.177,77.972
+0 days 01:03:18.092000,LAW,30,77.437,14.0,1.0,,,False,MEDIUM,20.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.119,-0.153,2.556,3.413,-0.201,-0.259,78.033
+0 days 01:04:36.071000,LAW,30,77.979,15.0,1.0,,,False,MEDIUM,21.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.423,0.545,3.098,4.137,0.29,0.373,78.621
+0 days 01:05:53.810000,LAW,30,77.739,16.0,1.0,,,False,MEDIUM,22.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.183,0.236,2.858,3.817,0.149,0.192,78.426
+0 days 01:07:11.504000,LAW,30,77.694,17.0,1.0,,,False,MEDIUM,23.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.138,0.178,2.813,3.757,-0.077,-0.099,78.427
+0 days 01:08:29.363000,LAW,30,77.859,18.0,1.0,,,False,MEDIUM,24.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.303,0.391,2.978,3.977,-0.05,-0.064,78.638
+0 days 01:09:46.916000,LAW,30,77.553,19.0,1.0,,,False,MEDIUM,25.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,-0.003,-0.004,2.672,3.568,-0.027,-0.035,78.378
+0 days 01:11:04.507000,LAW,30,77.591,20.0,1.0,,,False,MEDIUM,26.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.035,0.045,2.71,3.619,0.0,0.0,78.462
+0 days 01:12:22.240000,LAW,30,77.733,21.0,1.0,,,False,MEDIUM,27.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.177,0.228,2.852,3.809,-0.159,-0.204,78.65
+0 days 01:13:39.933000,LAW,30,77.693,22.0,1.0,,,False,MEDIUM,28.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.137,0.177,2.812,3.755,-0.069,-0.089,78.656
+0 days 01:14:57.541000,LAW,30,77.608,23.0,1.0,,,False,MEDIUM,29.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,0.052,0.067,2.727,3.642,-0.297,-0.381,78.616
+0 days 01:16:19.541000,LAW,30,82.0,24.0,1.0,,,False,MEDIUM,30.0,False,Red Bull Racing,1,11.0,True,12,Dutch Grand Prix,True,C3,True,4.444,5.73,7.119,9.507,0.513,0.63,83.054
+0 days 00:46:33.303000,COL,43,,1.0,1.0,,,False,MEDIUM,4.0,False,Alpine,1,12.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:51.813000,COL,43,78.51,2.0,1.0,,,True,MEDIUM,5.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.954,1.23,3.629,4.846,0.096,0.122,78.556
+0 days 00:49:09.429000,COL,43,77.616,3.0,1.0,,,True,MEDIUM,6.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.06,0.077,2.735,3.652,0.334,0.432,77.708
+0 days 00:50:26.147000,COL,43,76.718,4.0,1.0,,,True,MEDIUM,7.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.838,-1.081,1.837,2.453,-0.334,-0.433,76.856
+0 days 00:51:42.947000,COL,43,76.8,5.0,1.0,,,False,MEDIUM,8.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.756,-0.975,1.919,2.563,-0.124,-0.161,76.983
+0 days 00:53:00.550000,COL,43,77.603,6.0,1.0,,,False,MEDIUM,9.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.047,0.061,2.722,3.635,0.576,0.748,77.832
+0 days 00:54:17.649000,COL,43,77.099,7.0,1.0,,,False,MEDIUM,10.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.457,-0.589,2.218,2.962,-0.111,-0.144,77.374
+0 days 00:55:35.138000,COL,43,77.489,8.0,1.0,,,False,MEDIUM,11.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.067,-0.086,2.608,3.483,0.096,0.124,77.81
+0 days 00:56:52.499000,COL,43,77.361,9.0,1.0,,,False,MEDIUM,12.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.195,-0.251,2.48,3.312,0.064,0.083,77.728
+0 days 00:58:10.316000,COL,43,77.817,10.0,1.0,,,False,MEDIUM,13.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.261,0.337,2.936,3.921,0.346,0.447,78.229
+0 days 00:59:27.893000,COL,43,77.577,11.0,1.0,,,False,MEDIUM,14.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.021,0.027,2.696,3.6,0.078,0.101,78.035
+0 days 01:00:45.422000,COL,43,77.529,12.0,1.0,,,False,MEDIUM,15.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,-0.027,-0.035,2.648,3.536,0.061,0.079,78.033
+0 days 01:02:03.340000,COL,43,77.918,13.0,1.0,,,False,MEDIUM,16.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.362,0.467,3.037,4.056,0.359,0.463,78.468
+0 days 01:03:20.989000,COL,43,77.649,14.0,1.0,,,False,MEDIUM,17.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.093,0.12,2.768,3.697,0.011,0.014,78.245
+0 days 01:04:38.636000,COL,43,77.647,15.0,1.0,,,False,MEDIUM,18.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.091,0.117,2.766,3.694,-0.042,-0.054,78.289
+0 days 01:05:56.400000,COL,43,77.764,16.0,1.0,,,False,MEDIUM,19.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.208,0.268,2.883,3.85,0.174,0.224,78.452
+0 days 01:07:14.497000,COL,43,78.097,17.0,1.0,,,False,MEDIUM,20.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.541,0.698,3.216,4.295,0.326,0.419,78.83
+0 days 01:08:32.442000,COL,43,77.945,18.0,1.0,,,False,MEDIUM,21.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.389,0.502,3.064,4.092,0.036,0.046,78.724
+0 days 01:09:50.347000,COL,43,77.905,19.0,1.0,,,False,MEDIUM,22.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.349,0.45,3.024,4.038,0.325,0.419,78.73
+0 days 01:11:08.418000,COL,43,78.071,20.0,1.0,,,False,MEDIUM,23.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.515,0.664,3.19,4.26,0.48,0.619,78.942
+0 days 01:12:26.400000,COL,43,77.982,21.0,1.0,,,False,MEDIUM,24.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.426,0.549,3.101,4.141,0.09,0.116,78.899
+0 days 01:13:44.568000,COL,43,78.168,22.0,1.0,,,False,MEDIUM,25.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,0.612,0.789,3.287,4.39,0.406,0.522,79.131
+0 days 01:15:03.227000,COL,43,78.659,23.0,1.0,,,False,MEDIUM,26.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,1.103,1.422,3.778,5.045,0.754,0.968,79.667
+0 days 01:16:26.536000,COL,43,83.309,24.0,1.0,,,False,MEDIUM,27.0,False,Alpine,1,12.0,True,12,Dutch Grand Prix,True,C3,True,5.753,7.418,8.428,11.255,1.822,2.236,84.363
+0 days 00:46:33.826000,TSU,22,,1.0,1.0,,,False,MEDIUM,5.0,False,Racing Bulls,1,13.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:52.468000,TSU,22,78.642,2.0,1.0,,,True,MEDIUM,6.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,1.086,1.4,3.761,5.023,0.228,0.291,78.688
+0 days 00:49:10.052000,TSU,22,77.584,3.0,1.0,,,True,MEDIUM,7.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.028,0.036,2.703,3.61,0.302,0.391,77.676
+0 days 00:50:26.977000,TSU,22,76.925,4.0,1.0,,,True,MEDIUM,8.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.631,-0.814,2.044,2.73,-0.127,-0.165,77.062
+0 days 00:51:43.934000,TSU,22,76.957,5.0,1.0,,,False,MEDIUM,9.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.599,-0.772,2.076,2.772,0.033,0.043,77.14
+0 days 00:53:00.883000,TSU,22,76.949,6.0,1.0,,,False,MEDIUM,10.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.607,-0.783,2.068,2.762,-0.078,-0.101,77.178
+0 days 00:54:18.457000,TSU,22,77.574,7.0,1.0,,,False,MEDIUM,11.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.018,0.023,2.693,3.596,0.364,0.471,77.849
+0 days 00:55:35.850000,TSU,22,77.393,8.0,1.0,,,False,MEDIUM,12.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.163,-0.21,2.512,3.355,0.0,0.0,77.714
+0 days 00:56:53.237000,TSU,22,77.387,9.0,1.0,,,False,MEDIUM,13.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.169,-0.218,2.506,3.347,0.09,0.116,77.754
+0 days 00:58:10.965000,TSU,22,77.728,10.0,1.0,,,False,MEDIUM,14.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.172,0.222,2.847,3.802,0.257,0.332,78.14
+0 days 00:59:28.868000,TSU,22,77.903,11.0,1.0,,,False,MEDIUM,15.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.347,0.447,3.022,4.036,0.404,0.521,78.361
+0 days 01:00:46.333000,TSU,22,77.465,12.0,1.0,,,False,MEDIUM,16.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,-0.091,-0.117,2.584,3.451,-0.003,-0.004,77.969
+0 days 01:02:04.341000,TSU,22,78.008,13.0,1.0,,,False,MEDIUM,17.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.452,0.583,3.127,4.176,0.449,0.579,78.558
+0 days 01:03:22.052000,TSU,22,77.711,14.0,1.0,,,False,MEDIUM,18.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.155,0.2,2.83,3.779,0.073,0.094,78.307
+0 days 01:04:39.944000,TSU,22,77.892,15.0,1.0,,,False,MEDIUM,19.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.336,0.433,3.011,4.021,0.203,0.261,78.534
+0 days 01:05:57.598000,TSU,22,77.654,16.0,1.0,,,False,MEDIUM,20.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.098,0.126,2.773,3.703,0.064,0.082,78.342
+0 days 01:07:15.395000,TSU,22,77.797,17.0,1.0,,,False,MEDIUM,21.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.241,0.311,2.916,3.894,0.026,0.033,78.53
+0 days 01:08:33.385000,TSU,22,77.99,18.0,1.0,,,False,MEDIUM,22.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.434,0.56,3.109,4.152,0.081,0.104,78.769
+0 days 01:09:51.327000,TSU,22,77.942,19.0,1.0,,,False,MEDIUM,23.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.386,0.498,3.061,4.088,0.362,0.467,78.767
+0 days 01:11:09.376000,TSU,22,78.049,20.0,1.0,,,False,MEDIUM,24.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.493,0.636,3.168,4.231,0.458,0.59,78.92
+0 days 01:12:27.584000,TSU,22,78.208,21.0,1.0,,,False,MEDIUM,25.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.652,0.841,3.327,4.443,0.316,0.406,79.125
+0 days 01:13:45.490000,TSU,22,77.906,22.0,1.0,,,False,MEDIUM,26.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.35,0.451,3.025,4.04,0.144,0.185,78.869
+0 days 01:15:03.878000,TSU,22,78.388,23.0,1.0,,,False,MEDIUM,27.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,0.832,1.073,3.507,4.683,0.483,0.62,79.396
+0 days 01:16:28.553000,TSU,22,84.675,24.0,1.0,,,False,MEDIUM,28.0,False,Racing Bulls,1,13.0,True,12,Dutch Grand Prix,True,C3,True,7.119,9.179,9.794,13.079,3.188,3.912,85.729
+0 days 00:46:34.279000,OCO,31,,1.0,1.0,,,False,MEDIUM,7.0,False,Haas F1 Team,1,14.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:53.226000,OCO,31,78.947,2.0,1.0,,,True,MEDIUM,8.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,1.391,1.794,4.066,5.43,0.533,0.68,78.993
+0 days 00:49:11.087000,OCO,31,77.861,3.0,1.0,,,True,MEDIUM,9.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.305,0.393,2.98,3.98,0.579,0.749,77.953
+0 days 00:50:28.225000,OCO,31,77.138,4.0,1.0,,,True,MEDIUM,10.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,-0.418,-0.539,2.257,3.014,0.086,0.112,77.276
+0 days 00:51:45.436000,OCO,31,77.211,5.0,1.0,,,False,MEDIUM,11.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,-0.345,-0.445,2.33,3.112,0.287,0.373,77.394
+0 days 00:53:02.710000,OCO,31,77.274,6.0,1.0,,,False,MEDIUM,12.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,-0.282,-0.364,2.393,3.196,0.247,0.321,77.503
+0 days 00:54:20.154000,OCO,31,77.444,7.0,1.0,,,False,MEDIUM,13.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,-0.112,-0.144,2.563,3.423,0.234,0.303,77.719
+0 days 00:55:37.807000,OCO,31,77.653,8.0,1.0,,,False,MEDIUM,14.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.097,0.125,2.772,3.702,0.26,0.336,77.974
+0 days 00:56:55.296000,OCO,31,77.489,9.0,1.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,-0.067,-0.086,2.608,3.483,0.192,0.248,77.856
+0 days 00:58:12.973000,OCO,31,77.677,10.0,1.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.121,0.156,2.796,3.734,0.206,0.266,78.09
+0 days 00:59:30.891000,OCO,31,77.918,11.0,1.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.362,0.467,3.037,4.056,0.419,0.541,78.376
+0 days 01:00:48.791000,OCO,31,77.9,12.0,1.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.344,0.444,3.019,4.032,0.432,0.558,78.404
+0 days 01:02:06.878000,OCO,31,78.087,13.0,1.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.531,0.685,3.206,4.281,0.528,0.681,78.637
+0 days 01:03:24.625000,OCO,31,77.747,14.0,1.0,,,False,MEDIUM,20.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.191,0.246,2.866,3.827,0.109,0.14,78.343
+0 days 01:04:42.581000,OCO,31,77.956,15.0,1.0,,,False,MEDIUM,21.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.4,0.516,3.075,4.107,0.267,0.344,78.598
+0 days 01:06:00.528000,OCO,31,77.947,16.0,1.0,,,False,MEDIUM,22.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.391,0.504,3.066,4.094,0.357,0.46,78.634
+0 days 01:07:18.877000,OCO,31,78.349,17.0,1.0,,,False,MEDIUM,23.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.793,1.022,3.468,4.631,0.578,0.743,79.082
+0 days 01:08:37.281000,OCO,31,78.404,18.0,1.0,,,False,MEDIUM,24.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.848,1.093,3.523,4.705,0.495,0.635,79.183
+0 days 01:09:55.492000,OCO,31,78.211,19.0,1.0,,,False,MEDIUM,25.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,0.655,0.845,3.33,4.447,0.631,0.813,79.036
+0 days 01:11:14.166000,OCO,31,78.674,20.0,1.0,,,False,MEDIUM,26.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,1.118,1.442,3.793,5.065,1.083,1.396,79.545
+0 days 01:12:33.010000,OCO,31,78.844,21.0,1.0,,,False,MEDIUM,27.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,1.288,1.661,3.963,5.292,0.952,1.222,79.761
+0 days 01:13:51.616000,OCO,31,78.606,22.0,1.0,,,False,MEDIUM,28.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,1.05,1.354,3.725,4.975,0.844,1.085,79.568
+0 days 01:15:10.323000,OCO,31,78.707,23.0,1.0,,,False,MEDIUM,29.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,1.151,1.484,3.826,5.109,0.802,1.029,79.715
+0 days 01:16:38.168000,OCO,31,87.845,24.0,1.0,,,False,MEDIUM,30.0,False,Haas F1 Team,1,14.0,True,12,Dutch Grand Prix,True,C3,True,10.289,13.267,12.964,17.313,6.358,7.802,88.899
+0 days 00:46:34.828000,BEA,87,,1.0,1.0,,,False,SOFT,1.0,True,Haas F1 Team,1,15.0,False,12,Dutch Grand Prix,True,C4,False,,,,,,,
+0 days 00:47:53.809000,BEA,87,78.981,2.0,1.0,,,True,SOFT,2.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,1.425,1.837,4.1,5.475,0.567,0.723,79.027
+0 days 00:49:11.722000,BEA,87,77.913,3.0,1.0,,,True,SOFT,3.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.357,0.46,3.032,4.049,0.631,0.816,78.005
+0 days 00:50:29.124000,BEA,87,77.402,4.0,1.0,,,True,SOFT,4.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.154,-0.199,2.521,3.367,0.35,0.454,77.54
+0 days 00:51:46.261000,BEA,87,77.137,5.0,1.0,,,True,SOFT,5.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.419,-0.54,2.256,3.013,0.213,0.277,77.32
+0 days 00:53:03.785000,BEA,87,77.524,6.0,1.0,,,False,SOFT,6.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.032,-0.041,2.643,3.53,0.497,0.645,77.753
+0 days 00:54:21.334000,BEA,87,77.549,7.0,1.0,,,False,SOFT,7.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.007,-0.009,2.668,3.563,0.339,0.439,77.824
+0 days 00:55:38.823000,BEA,87,77.489,8.0,1.0,,,False,SOFT,8.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.067,-0.086,2.608,3.483,0.096,0.124,77.81
+0 days 00:56:56.450000,BEA,87,77.627,9.0,1.0,,,False,SOFT,9.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.071,0.092,2.746,3.667,0.33,0.427,77.994
+0 days 00:58:13.932000,BEA,87,77.482,10.0,1.0,,,False,SOFT,10.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,-0.074,-0.095,2.601,3.474,0.011,0.014,77.894
+0 days 00:59:32.003000,BEA,87,78.071,11.0,1.0,,,False,SOFT,11.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.515,0.664,3.19,4.26,0.572,0.738,78.529
+0 days 01:00:49.852000,BEA,87,77.849,12.0,1.0,,,False,SOFT,12.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.293,0.378,2.968,3.964,0.381,0.492,78.353
+0 days 01:02:07.837000,BEA,87,77.985,13.0,1.0,,,False,SOFT,13.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.429,0.553,3.104,4.145,0.426,0.549,78.535
+0 days 01:03:25.608000,BEA,87,77.771,14.0,1.0,,,False,SOFT,14.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.215,0.277,2.89,3.859,0.133,0.171,78.367
+0 days 01:04:43.819000,BEA,87,78.211,15.0,1.0,,,False,SOFT,15.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.655,0.845,3.33,4.447,0.522,0.672,78.853
+0 days 01:06:01.737000,BEA,87,77.918,16.0,1.0,,,False,SOFT,16.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.362,0.467,3.037,4.056,0.328,0.423,78.606
+0 days 01:07:20.018000,BEA,87,78.281,17.0,1.0,,,False,SOFT,17.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.725,0.935,3.4,4.541,0.51,0.656,79.014
+0 days 01:08:38.012000,BEA,87,77.994,18.0,1.0,,,False,SOFT,18.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.438,0.565,3.113,4.157,0.085,0.109,78.773
+0 days 01:09:56.437000,BEA,87,78.425,19.0,1.0,,,False,SOFT,19.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.869,1.12,3.544,4.733,0.845,1.089,79.25
+0 days 01:11:14.835000,BEA,87,78.398,20.0,1.0,,,False,SOFT,20.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.842,1.086,3.517,4.697,0.807,1.04,79.269
+0 days 01:12:33.648000,BEA,87,78.813,21.0,1.0,,,False,SOFT,21.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,1.257,1.621,3.932,5.251,0.921,1.182,79.73
+0 days 01:13:52.169000,BEA,87,78.521,22.0,1.0,,,False,SOFT,22.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,0.965,1.244,3.64,4.861,0.759,0.976,79.484
+0 days 01:15:10.801000,BEA,87,78.632,23.0,1.0,,,False,SOFT,23.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,1.076,1.387,3.751,5.009,0.727,0.933,79.64
+0 days 01:16:38.658000,BEA,87,87.857,24.0,1.0,,,False,SOFT,24.0,True,Haas F1 Team,1,15.0,True,12,Dutch Grand Prix,True,C4,True,10.301,13.282,12.976,17.329,6.37,7.817,88.911
+0 days 00:46:35.323000,ALB,23,,1.0,1.0,,,False,MEDIUM,6.0,False,Williams,1,16.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:54.640000,ALB,23,79.317,2.0,1.0,,,True,MEDIUM,7.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.761,2.271,4.436,5.924,0.903,1.152,79.363
+0 days 00:49:12.782000,ALB,23,78.142,3.0,1.0,,,True,MEDIUM,8.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.586,0.756,3.261,4.355,0.86,1.113,78.234
+0 days 00:50:30.638000,ALB,23,77.856,4.0,1.0,,,True,MEDIUM,9.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.3,0.387,2.975,3.973,0.804,1.043,77.994
+0 days 00:51:48.348000,ALB,23,77.71,5.0,1.0,,,True,MEDIUM,10.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.154,0.199,2.829,3.778,0.786,1.022,77.893
+0 days 00:53:06.203000,ALB,23,77.855,6.0,1.0,,,False,MEDIUM,11.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.299,0.386,2.974,3.972,0.828,1.075,78.084
+0 days 00:54:23.876000,ALB,23,77.673,7.0,1.0,,,True,MEDIUM,12.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.117,0.151,2.792,3.729,0.463,0.6,77.948
+0 days 00:55:41.753000,ALB,23,77.877,8.0,1.0,,,False,MEDIUM,13.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.321,0.414,2.996,4.001,0.484,0.625,78.198
+0 days 00:56:59.580000,ALB,23,77.827,9.0,1.0,,,False,MEDIUM,14.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.271,0.349,2.946,3.934,0.53,0.686,78.194
+0 days 00:58:17.503000,ALB,23,77.923,10.0,1.0,,,False,MEDIUM,15.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.367,0.473,3.042,4.062,0.452,0.583,78.336
+0 days 00:59:35.697000,ALB,23,78.194,11.0,1.0,,,False,MEDIUM,16.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.638,0.823,3.313,4.424,0.695,0.897,78.652
+0 days 01:00:54.221000,ALB,23,78.524,12.0,1.0,,,False,MEDIUM,17.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.968,1.248,3.643,4.865,1.056,1.363,79.028
+0 days 01:02:12.796000,ALB,23,78.575,13.0,1.0,,,False,MEDIUM,18.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.019,1.314,3.694,4.933,1.016,1.31,79.125
+0 days 01:03:31.251000,ALB,23,78.455,14.0,1.0,,,False,MEDIUM,19.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.899,1.159,3.574,4.773,0.817,1.052,79.051
+0 days 01:04:49.811000,ALB,23,78.56,15.0,1.0,,,False,MEDIUM,20.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.004,1.295,3.679,4.913,0.871,1.121,79.202
+0 days 01:06:08.457000,ALB,23,78.646,16.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.09,1.405,3.765,5.028,1.056,1.361,79.334
+0 days 01:07:27.312000,ALB,23,78.855,17.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.299,1.675,3.974,5.307,1.084,1.394,79.588
+0 days 01:08:45.987000,ALB,23,78.675,18.0,1.0,,,False,MEDIUM,23.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.119,1.443,3.794,5.067,0.766,0.983,79.454
+0 days 01:10:04.396000,ALB,23,78.409,19.0,1.0,,,False,MEDIUM,24.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,0.853,1.1,3.528,4.711,0.829,1.069,79.234
+0 days 01:11:23.040000,ALB,23,78.644,20.0,1.0,,,False,MEDIUM,25.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.088,1.403,3.763,5.025,1.053,1.357,79.515
+0 days 01:12:41.854000,ALB,23,78.814,21.0,1.0,,,False,MEDIUM,26.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.258,1.622,3.933,5.252,0.922,1.184,79.731
+0 days 01:14:00.799000,ALB,23,78.945,22.0,1.0,,,False,MEDIUM,27.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.389,1.791,4.064,5.427,1.183,1.521,79.908
+0 days 01:15:19.494000,ALB,23,78.695,23.0,1.0,,,False,MEDIUM,28.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,1.139,1.469,3.814,5.093,0.79,1.014,79.703
+0 days 01:16:46.702000,ALB,23,87.208,24.0,1.0,,,False,MEDIUM,29.0,False,Williams,1,16.0,True,12,Dutch Grand Prix,True,C3,True,9.652,12.445,12.327,16.462,5.721,7.021,88.262
+0 days 00:46:36.093000,STR,18,,1.0,1.0,,,False,MEDIUM,1.0,True,Aston Martin,1,18.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:54.937000,STR,18,78.844,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.288,1.661,3.963,5.292,0.43,0.548,78.89
+0 days 00:49:13.301000,STR,18,78.364,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.808,1.042,3.483,4.651,1.082,1.4,78.456
+0 days 00:50:31.180000,STR,18,77.879,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.323,0.416,2.998,4.004,0.827,1.073,78.017
+0 days 00:51:49.234000,STR,18,78.054,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.498,0.642,3.173,4.237,1.13,1.469,78.237
+0 days 00:53:07.025000,STR,18,77.791,6.0,1.0,,,True,MEDIUM,6.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.235,0.303,2.91,3.886,0.764,0.992,78.02
+0 days 00:54:24.745000,STR,18,77.72,7.0,1.0,,,True,MEDIUM,7.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.164,0.211,2.839,3.791,0.51,0.661,77.995
+0 days 00:55:42.458000,STR,18,77.713,8.0,1.0,,,True,MEDIUM,8.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.157,0.202,2.832,3.782,0.32,0.413,78.034
+0 days 00:57:00.401000,STR,18,77.943,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.387,0.499,3.062,4.089,0.646,0.836,78.31
+0 days 00:58:18.209000,STR,18,77.808,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.252,0.325,2.927,3.909,0.337,0.435,78.22
+0 days 00:59:36.296000,STR,18,78.087,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.531,0.685,3.206,4.281,0.588,0.759,78.545
+0 days 01:00:54.920000,STR,18,78.624,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.068,1.377,3.743,4.999,1.156,1.492,79.128
+0 days 01:02:13.490000,STR,18,78.57,13.0,1.0,,,False,MEDIUM,13.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.014,1.307,3.689,4.926,1.011,1.304,79.12
+0 days 01:03:31.941000,STR,18,78.451,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.895,1.154,3.57,4.768,0.813,1.047,79.047
+0 days 01:04:50.600000,STR,18,78.659,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.103,1.422,3.778,5.045,0.97,1.249,79.301
+0 days 01:06:09.122000,STR,18,78.522,16.0,1.0,,,False,MEDIUM,16.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.966,1.246,3.641,4.862,0.932,1.201,79.21
+0 days 01:07:27.839000,STR,18,78.717,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.161,1.497,3.836,5.123,0.946,1.216,79.45
+0 days 01:08:46.421000,STR,18,78.582,18.0,1.0,,,False,MEDIUM,18.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.026,1.323,3.701,4.943,0.673,0.864,79.361
+0 days 01:10:04.811000,STR,18,78.39,19.0,1.0,,,False,MEDIUM,19.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,0.834,1.075,3.509,4.686,0.81,1.044,79.215
+0 days 01:11:23.558000,STR,18,78.747,20.0,1.0,,,False,MEDIUM,20.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.191,1.536,3.866,5.163,1.156,1.49,79.618
+0 days 01:12:42.312000,STR,18,78.754,21.0,1.0,,,False,MEDIUM,21.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.198,1.545,3.873,5.172,0.862,1.107,79.671
+0 days 01:14:01.272000,STR,18,78.96,22.0,1.0,,,False,MEDIUM,22.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.404,1.81,4.079,5.447,1.198,1.541,79.922
+0 days 01:15:20.127000,STR,18,78.855,23.0,1.0,,,False,MEDIUM,23.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,1.299,1.675,3.974,5.307,0.95,1.219,79.863
+0 days 01:16:46.720000,STR,18,86.593,24.0,1.0,,,False,MEDIUM,24.0,True,Aston Martin,1,17.0,True,12,Dutch Grand Prix,True,C3,True,9.037,11.652,11.712,15.641,5.106,6.266,87.647
+0 days 00:46:39.141000,ALO,14,,1.0,1.0,0 days 00:45:20.991000,,False,MEDIUM,1.0,True,Aston Martin,1,21.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:57.685000,ALO,14,78.544,2.0,1.0,,,True,MEDIUM,2.0,True,Aston Martin,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.988,1.274,3.663,4.892,0.13,0.166,78.59
+0 days 00:49:15.920000,ALO,14,78.235,3.0,1.0,,,True,MEDIUM,3.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,0.679,0.875,3.354,4.479,0.953,1.233,78.327
+0 days 00:50:33.369000,ALO,14,77.449,4.0,1.0,,,True,MEDIUM,4.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,-0.107,-0.138,2.568,3.429,0.397,0.515,77.586
+0 days 00:51:50.946000,ALO,14,77.577,5.0,1.0,,,False,MEDIUM,5.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,0.021,0.027,2.696,3.6,0.653,0.849,77.76
+0 days 00:53:08.827000,ALO,14,77.881,6.0,1.0,,,False,MEDIUM,6.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,0.325,0.419,3.0,4.006,0.854,1.109,78.11
+0 days 00:54:27.296000,ALO,14,78.469,7.0,1.0,,,False,MEDIUM,7.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,0.913,1.177,3.588,4.792,1.259,1.631,78.744
+0 days 00:55:45.790000,ALO,14,78.494,8.0,1.0,,,False,MEDIUM,8.0,True,Aston Martin,1,19.0,True,12,Dutch Grand Prix,True,C3,True,0.938,1.209,3.613,4.825,1.101,1.423,78.815
+0 days 00:57:04.177000,ALO,14,78.387,9.0,1.0,,,False,MEDIUM,9.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.831,1.071,3.506,4.682,1.09,1.41,78.754
+0 days 00:58:21.824000,ALO,14,77.647,10.0,1.0,,,False,MEDIUM,10.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.091,0.117,2.766,3.694,0.176,0.227,78.06
+0 days 00:59:39.672000,ALO,14,77.848,11.0,1.0,,,False,MEDIUM,11.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.292,0.377,2.967,3.962,0.349,0.45,78.306
+0 days 01:00:57.140000,ALO,14,77.468,12.0,1.0,,,False,MEDIUM,12.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,-0.088,-0.113,2.587,3.455,0.0,0.0,77.972
+0 days 01:02:14.925000,ALO,14,77.785,13.0,1.0,,,False,MEDIUM,13.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.229,0.295,2.904,3.878,0.226,0.291,78.335
+0 days 01:03:32.806000,ALO,14,77.881,14.0,1.0,,,False,MEDIUM,14.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.325,0.419,3.0,4.006,0.243,0.313,78.477
+0 days 01:04:50.803000,ALO,14,77.997,15.0,1.0,,,False,MEDIUM,15.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.441,0.569,3.116,4.161,0.308,0.396,78.639
+0 days 01:06:09.540000,ALO,14,78.737,16.0,1.0,,,False,MEDIUM,16.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,1.181,1.523,3.856,5.15,1.147,1.478,79.424
+0 days 01:07:28.658000,ALO,14,79.118,17.0,1.0,,,False,MEDIUM,17.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,1.562,2.014,4.237,5.658,1.347,1.732,79.851
+0 days 01:08:47.023000,ALO,14,78.365,18.0,1.0,,,False,MEDIUM,18.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.809,1.043,3.484,4.653,0.456,0.585,79.144
+0 days 01:10:05.323000,ALO,14,78.3,19.0,1.0,,,False,MEDIUM,19.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.744,0.959,3.419,4.566,0.72,0.928,79.125
+0 days 01:11:24.006000,ALO,14,78.683,20.0,1.0,,,False,MEDIUM,20.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,1.127,1.453,3.802,5.077,1.092,1.407,79.554
+0 days 01:12:43.801000,ALO,14,79.795,21.0,1.0,,,False,MEDIUM,21.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,2.239,2.887,4.914,6.562,1.903,2.443,80.712
+0 days 01:14:01.919000,ALO,14,78.118,22.0,1.0,,,False,MEDIUM,22.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.562,0.725,3.237,4.323,0.356,0.458,79.08
+0 days 01:15:20.667000,ALO,14,78.748,23.0,1.0,,,False,MEDIUM,23.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,1.192,1.537,3.867,5.164,0.843,1.082,79.756
+0 days 01:16:47.354000,ALO,14,86.687,24.0,1.0,,,False,MEDIUM,24.0,True,Aston Martin,1,18.0,True,12,Dutch Grand Prix,True,C3,True,9.131,11.773,11.806,15.766,5.2,6.381,87.741
+0 days 00:46:36.553000,BOT,77,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,1,19.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:56.780000,BOT,77,80.227,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,2.671,3.444,5.346,7.139,1.813,2.312,80.273
+0 days 00:49:14.769000,BOT,77,77.989,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.433,0.558,3.108,4.151,0.707,0.915,78.081
+0 days 00:50:32.589000,BOT,77,77.82,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.264,0.34,2.939,3.925,0.768,0.997,77.958
+0 days 00:51:50.299000,BOT,77,77.71,5.0,1.0,,,True,MEDIUM,5.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.154,0.199,2.829,3.778,0.786,1.022,77.893
+0 days 00:53:08.401000,BOT,77,78.102,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.546,0.704,3.221,4.301,1.075,1.396,78.331
+0 days 00:54:26.912000,BOT,77,78.511,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.955,1.231,3.63,4.848,1.301,1.685,78.786
+0 days 00:55:45.239000,BOT,77,78.327,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,1,18.0,True,12,Dutch Grand Prix,True,C3,True,0.771,0.994,3.446,4.602,0.934,1.207,78.648
+0 days 00:57:04.540000,BOT,77,79.301,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.745,2.25,4.42,5.903,2.004,2.593,79.668
+0 days 00:58:23.741000,BOT,77,79.201,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.645,2.121,4.32,5.769,1.73,2.233,79.613
+0 days 00:59:42.552000,BOT,77,78.811,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.255,1.618,3.93,5.248,1.312,1.693,79.269
+0 days 01:01:01.363000,BOT,77,78.811,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.255,1.618,3.93,5.248,1.343,1.734,79.315
+0 days 01:02:20.376000,BOT,77,79.013,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.457,1.879,4.132,5.518,1.454,1.875,79.563
+0 days 01:03:39.223000,BOT,77,78.847,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.291,1.665,3.966,5.296,1.209,1.557,79.443
+0 days 01:04:58.339000,BOT,77,79.116,15.0,1.0,,,False,MEDIUM,15.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.56,2.011,4.235,5.656,1.427,1.837,79.758
+0 days 01:06:17.408000,BOT,77,79.069,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.513,1.951,4.188,5.593,1.479,1.906,79.756
+0 days 01:07:36.574000,BOT,77,79.166,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.61,2.076,4.285,5.722,1.395,1.794,79.899
+0 days 01:08:55.810000,BOT,77,79.236,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.68,2.166,4.355,5.816,1.327,1.703,80.015
+0 days 01:10:15.032000,BOT,77,79.222,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.666,2.148,4.341,5.797,1.642,2.117,80.047
+0 days 01:11:34.067000,BOT,77,79.035,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.479,1.907,4.154,5.547,1.444,1.861,79.906
+0 days 01:12:53.145000,BOT,77,79.078,21.0,1.0,,,False,MEDIUM,21.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.522,1.962,4.197,5.605,1.186,1.523,79.995
+0 days 01:14:12.297000,BOT,77,79.152,22.0,1.0,,,False,MEDIUM,22.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,1.596,2.058,4.271,5.704,1.39,1.788,80.114
+0 days 01:15:35.979000,BOT,77,83.682,23.0,1.0,,,False,MEDIUM,23.0,True,Cadillac,1,19.0,True,12,Dutch Grand Prix,True,C3,True,6.126,7.899,8.801,11.753,5.777,7.415,84.69
+0 days 00:46:38.668000,SAI,55,,1.0,1.0,0 days 00:45:19.942000,,False,MEDIUM,8.0,False,Williams,1,20.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:58.223000,SAI,55,79.555,2.0,1.0,,,True,MEDIUM,9.0,False,Williams,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.999,2.577,4.674,6.242,1.141,1.455,79.601
+0 days 00:49:17.521000,SAI,55,79.298,3.0,1.0,,,True,MEDIUM,10.0,False,Williams,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.742,2.246,4.417,5.899,2.016,2.609,79.39
+0 days 00:50:35.233000,SAI,55,77.712,4.0,1.0,,,True,MEDIUM,11.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.156,0.201,2.831,3.781,0.66,0.857,77.85
+0 days 00:51:52.664000,SAI,55,77.431,5.0,1.0,,,True,MEDIUM,12.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,-0.125,-0.161,2.55,3.405,0.507,0.659,77.614
+0 days 00:53:10.406000,SAI,55,77.742,6.0,1.0,,,False,MEDIUM,13.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.186,0.24,2.861,3.821,0.715,0.928,77.971
+0 days 00:54:28.679000,SAI,55,78.273,7.0,1.0,,,False,MEDIUM,14.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.717,0.924,3.392,4.53,1.063,1.377,78.548
+0 days 00:55:46.888000,SAI,55,78.209,8.0,1.0,,,False,MEDIUM,15.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.653,0.842,3.328,4.444,0.816,1.054,78.53
+0 days 00:57:05.262000,SAI,55,78.374,9.0,1.0,,,False,MEDIUM,16.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.818,1.055,3.493,4.665,1.077,1.393,78.741
+0 days 00:58:24.703000,SAI,55,79.441,10.0,1.0,,,False,MEDIUM,17.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.885,2.431,4.56,6.09,1.97,2.543,79.854
+0 days 00:59:43.681000,SAI,55,78.978,11.0,1.0,,,False,MEDIUM,18.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.422,1.834,4.097,5.471,1.479,1.908,79.436
+0 days 01:01:06.589000,SAI,55,82.908,12.0,1.0,,,False,MEDIUM,19.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,5.352,6.901,8.027,10.72,5.44,7.022,83.412
+0 days 01:02:24.998000,SAI,55,78.409,13.0,1.0,,,False,MEDIUM,20.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,0.853,1.1,3.528,4.711,0.85,1.096,78.959
+0 days 01:03:43.738000,SAI,55,78.74,14.0,1.0,,,False,MEDIUM,21.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.184,1.527,3.859,5.154,1.102,1.419,79.336
+0 days 01:05:02.532000,SAI,55,78.794,15.0,1.0,,,False,MEDIUM,22.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.238,1.596,3.913,5.226,1.105,1.422,79.436
+0 days 01:06:25.741000,SAI,55,83.209,16.0,1.0,,0 days 01:06:24.636000,False,MEDIUM,23.0,False,Williams,1,20.0,False,12,Dutch Grand Prix,True,C3,False,5.653,7.289,8.328,11.122,5.619,7.242,83.896
+0 days 01:08:09.311000,SAI,55,103.57,17.0,2.0,0 days 01:06:48.624000,,False,MEDIUM,24.0,False,Williams,1,20.0,False,12,Dutch Grand Prix,True,C3,False,26.014,33.542,28.689,38.313,25.799,33.173,104.303
+0 days 01:09:28.028000,SAI,55,78.717,18.0,2.0,,,False,MEDIUM,25.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.161,1.497,3.836,5.123,0.808,1.037,79.496
+0 days 01:10:47.129000,SAI,55,79.101,19.0,2.0,,,False,MEDIUM,26.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.545,1.992,4.22,5.636,1.521,1.961,79.926
+0 days 01:12:06.204000,SAI,55,79.075,20.0,2.0,,,False,MEDIUM,27.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.519,1.959,4.194,5.601,1.484,1.913,79.946
+0 days 01:13:25.540000,SAI,55,79.336,21.0,2.0,,,False,MEDIUM,28.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.78,2.295,4.455,5.949,1.444,1.854,80.253
+0 days 01:14:45.016000,SAI,55,79.476,22.0,2.0,,,False,MEDIUM,29.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,1.92,2.476,4.595,6.136,1.714,2.204,80.438
+0 days 01:16:09.793000,SAI,55,84.777,23.0,2.0,,,False,MEDIUM,30.0,False,Williams,1,20.0,True,12,Dutch Grand Prix,True,C3,True,7.221,9.311,9.896,13.216,6.872,8.821,85.785
+0 days 00:49:57.065000,PER,11,,1.0,1.0,0 days 00:48:28.530000,,False,MEDIUM,1.0,True,Cadillac,1,22.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:51:15.790000,PER,11,78.725,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,22.0,True,12,Dutch Grand Prix,True,C3,True,1.169,1.507,3.844,5.133,0.311,0.397,78.771
+0 days 00:52:33.252000,PER,11,77.462,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,22.0,True,12,Dutch Grand Prix,True,C3,True,-0.094,-0.121,2.581,3.447,0.18,0.233,77.554
+0 days 00:53:51.170000,PER,11,77.918,4.0,1.0,,,False,MEDIUM,4.0,True,Cadillac,1,22.0,True,12,Dutch Grand Prix,True,C3,True,0.362,0.467,3.037,4.056,0.866,1.124,78.056
+0 days 00:55:08.991000,PER,11,77.821,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,1,22.0,True,12,Dutch Grand Prix,True,C3,True,0.265,0.342,2.94,3.926,0.897,1.166,78.004
+0 days 00:56:27.023000,PER,11,78.032,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.476,0.614,3.151,4.208,1.005,1.305,78.261
+0 days 00:57:57.084000,PER,11,90.061,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,12.505,16.124,15.18,20.272,12.851,16.644,90.336
+0 days 00:59:15.476000,PER,11,78.392,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.836,1.078,3.511,4.689,0.999,1.291,78.713
+0 days 01:00:33.653000,PER,11,78.177,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.621,0.801,3.296,4.402,0.88,1.138,78.544
+0 days 01:01:52.041000,PER,11,78.388,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.832,1.073,3.507,4.683,0.917,1.184,78.8
+0 days 01:03:10.682000,PER,11,78.641,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.085,1.399,3.76,5.021,1.142,1.474,79.099
+0 days 01:04:29.031000,PER,11,78.349,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.793,1.022,3.468,4.631,0.881,1.137,78.853
+0 days 01:05:47.478000,PER,11,78.447,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.891,1.149,3.566,4.762,0.888,1.145,78.997
+0 days 01:07:05.966000,PER,11,78.488,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,0.932,1.202,3.607,4.817,0.85,1.095,79.084
+0 days 01:08:30.264000,PER,11,84.298,15.0,1.0,,,False,MEDIUM,15.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,6.742,8.693,9.417,12.576,6.609,8.507,84.94
+0 days 01:09:49.036000,PER,11,78.772,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.216,1.568,3.891,5.196,1.182,1.523,79.46
+0 days 01:11:11.129000,PER,11,82.093,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,4.537,5.85,7.212,9.631,4.322,5.557,82.826
+0 days 01:12:30.014000,PER,11,78.885,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.329,1.714,4.004,5.347,0.976,1.253,79.664
+0 days 01:13:49.112000,PER,11,79.098,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.542,1.988,4.217,5.632,1.518,1.957,79.923
+0 days 01:15:08.212000,PER,11,79.1,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.544,1.991,4.219,5.634,1.509,1.945,79.971
+0 days 01:16:34.571000,PER,11,86.359,21.0,1.0,,,False,MEDIUM,21.0,True,Cadillac,1,21.0,True,12,Dutch Grand Prix,True,C3,True,8.803,11.351,11.478,15.328,8.467,10.87,87.276
+0 days 00:46:35.941000,HUL,27,,1.0,1.0,,,False,MEDIUM,8.0,False,Audi,1,17.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 00:47:56.731000,HUL,27,80.79,2.0,1.0,,,True,MEDIUM,9.0,False,Audi,1,18.0,True,12,Dutch Grand Prix,True,C3,True,3.234,4.17,5.909,7.891,2.376,3.03,80.836
+0 days 00:49:17.297000,HUL,27,80.566,3.0,1.0,,,True,MEDIUM,10.0,False,Audi,1,20.0,True,12,Dutch Grand Prix,True,C3,True,3.01,3.881,5.685,7.592,3.284,4.249,80.658
+0 days 00:50:36.334000,HUL,27,79.037,4.0,1.0,,,True,MEDIUM,11.0,False,Audi,1,21.0,True,12,Dutch Grand Prix,True,C3,True,1.481,1.91,4.156,5.55,1.985,2.576,79.175
+0 days 00:52:00.762000,HUL,27,84.428,5.0,1.0,,0 days 00:51:59.504000,False,MEDIUM,12.0,False,Audi,1,21.0,False,12,Dutch Grand Prix,True,C3,False,6.872,8.861,9.547,12.75,7.504,9.755,84.611
+0 days 01:14:32.666000,HUL,27,,6.0,2.0,0 days 01:13:09.959000,,False,MEDIUM,1.0,False,Audi,1,22.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
+0 days 01:15:50.372000,HUL,27,77.706,7.0,2.0,,,True,MEDIUM,2.0,False,Audi,1,22.0,True,12,Dutch Grand Prix,True,C3,True,0.15,0.193,2.825,3.773,0.496,0.642,77.981
