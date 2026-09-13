@@ -15150,3 +15150,1109 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:46:34.932000,BEA,87,86.955,51.0,2.0,,,False,HARD,48.0,True,Haas F1 Team,1,14.0,True,13,Italian Grand Prix,True,C3,True,0.398,0.46,3.451,4.133,0.722,0.837,90.068
 0 days 02:48:02.972000,BEA,87,88.04,52.0,2.0,,,False,HARD,49.0,True,Haas F1 Team,1,15.0,True,13,Italian Grand Prix,True,C3,True,1.483,1.713,4.536,5.432,2.424,2.831,91.215
 0 days 02:49:30.130000,BEA,87,87.158,53.0,2.0,,,False,HARD,50.0,True,Haas F1 Team,1,15.0,True,13,Italian Grand Prix,True,C3,True,0.601,0.694,3.654,4.376,1.58,1.846,90.396
+0 days 00:59:55.878000,NOR,1,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,12,1.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:35.282000,NOR,1,99.404,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.216,-0.217,3.817,3.993,-3.566,-3.463,99.462
+0 days 01:03:15.393000,NOR,1,100.111,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,0.491,0.493,4.524,4.733,-2.591,-2.523,100.227
+0 days 01:04:55.512000,NOR,1,100.119,4.0,1.0,,,False,MEDIUM,4.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,0.499,0.501,4.532,4.741,-2.581,-2.513,100.293
+0 days 01:06:35.276000,NOR,1,99.764,5.0,1.0,,,False,MEDIUM,5.0,True,McLaren,12,1.0,True,14,Spanish Grand Prix,True,C3,False,0.144,0.145,4.177,4.37,-3.586,-3.47,99.996
+0 days 01:08:14.621000,NOR,1,99.345,6.0,1.0,,,True,MEDIUM,6.0,True,McLaren,21,1.0,True,14,Spanish Grand Prix,True,C3,False,-0.275,-0.276,3.758,3.931,-3.74,-3.628,99.634
+0 days 01:09:54.119000,NOR,1,99.498,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.122,-0.122,3.911,4.092,-2.67,-2.613,99.845
+0 days 01:11:33.462000,NOR,1,99.343,8.0,1.0,,,True,MEDIUM,8.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.277,-0.278,3.756,3.929,-2.753,-2.696,99.748
+0 days 01:13:12.584000,NOR,1,99.122,9.0,1.0,,,True,MEDIUM,9.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.498,-0.5,3.535,3.698,-3.197,-3.125,99.585
+0 days 01:14:51.675000,NOR,1,99.091,10.0,1.0,,,True,MEDIUM,10.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.529,-0.531,3.504,3.666,-3.954,-3.837,99.612
+0 days 01:16:30.904000,NOR,1,99.229,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.391,-0.392,3.642,3.81,-3.318,-3.236,99.808
+0 days 01:18:10.199000,NOR,1,99.295,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.325,-0.326,3.708,3.879,-3.365,-3.278,99.932
+0 days 01:19:49.621000,NOR,1,99.422,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,1.0,True,14,Spanish Grand Prix,True,C3,True,-0.198,-0.199,3.835,4.012,-3.088,-3.012,100.117
+0 days 01:21:29.951000,NOR,1,100.33,14.0,1.0,,,False,MEDIUM,14.0,True,McLaren,126,1.0,False,14,Spanish Grand Prix,True,C3,False,0.71,0.713,4.743,4.962,-25.514,-20.274,101.083
+0 days 01:23:56.075000,NOR,1,146.124,15.0,1.0,,0 days 01:23:55.220000,False,MEDIUM,15.0,True,McLaren,671,1.0,False,14,Spanish Grand Prix,True,C3,False,46.504,46.681,50.537,52.87,25.09,20.73,146.935
+0 days 01:26:02.585000,NOR,1,126.51,16.0,2.0,0 days 01:24:30.219000,,False,HARD,1.0,True,McLaren,1,5.0,False,14,Spanish Grand Prix,True,C2,False,26.89,26.993,30.923,32.351,26.082,25.971,127.378
+0 days 01:27:40.871000,NOR,1,98.286,17.0,2.0,,,True,HARD,2.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.334,-1.339,2.699,2.824,-1.872,-1.869,99.212
+0 days 01:29:18.831000,NOR,1,97.96,18.0,2.0,,,True,HARD,3.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.66,-1.666,2.373,2.483,-2.318,-2.312,98.944
+0 days 01:30:57.056000,NOR,1,98.225,19.0,2.0,,,False,HARD,4.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.395,-1.4,2.638,2.76,-1.819,-1.818,99.267
+0 days 01:32:35.041000,NOR,1,97.985,20.0,2.0,,,False,HARD,5.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.635,-1.641,2.398,2.509,-2.199,-2.195,99.085
+0 days 01:34:13.280000,NOR,1,98.239,21.0,2.0,,,False,HARD,6.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.381,-1.386,2.652,2.774,-1.892,-1.89,99.397
+0 days 01:35:51.447000,NOR,1,98.167,22.0,2.0,,,False,HARD,7.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.453,-1.459,2.58,2.699,-1.815,-1.815,99.383
+0 days 01:37:29.623000,NOR,1,98.176,23.0,2.0,,,False,HARD,8.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.444,-1.45,2.589,2.709,-1.498,-1.503,99.45
+0 days 01:39:07.674000,NOR,1,98.051,24.0,2.0,,,False,HARD,9.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.569,-1.575,2.464,2.578,-1.845,-1.847,99.383
+0 days 01:40:46.195000,NOR,1,98.521,25.0,2.0,,,False,HARD,10.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.099,-1.103,2.934,3.069,-1.575,-1.573,99.91
+0 days 01:42:25.093000,NOR,1,98.898,26.0,2.0,,,False,HARD,11.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.722,-0.725,3.311,3.464,-0.853,-0.855,100.345
+0 days 01:44:04.128000,NOR,1,99.035,27.0,2.0,,,False,HARD,12.0,True,McLaren,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.585,-0.587,3.448,3.607,-0.729,-0.731,100.54
+0 days 01:45:42.997000,NOR,1,98.869,28.0,2.0,,,False,HARD,13.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.751,-0.754,3.282,3.434,-0.951,-0.953,100.432
+0 days 01:47:20.706000,NOR,1,97.709,29.0,2.0,,,True,HARD,14.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-1.911,-1.918,2.122,2.22,-1.709,-1.719,99.33
+0 days 01:48:58.943000,NOR,1,98.237,30.0,2.0,,,False,HARD,15.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-1.383,-1.388,2.65,2.772,-0.993,-1.001,99.916
+0 days 01:50:36.554000,NOR,1,97.611,31.0,2.0,,,True,HARD,16.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.009,-2.017,2.024,2.117,-1.585,-1.598,99.348
+0 days 01:52:14.678000,NOR,1,98.124,32.0,2.0,,,False,HARD,17.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-1.496,-1.502,2.537,2.654,-1.125,-1.134,99.919
+0 days 01:53:52.151000,NOR,1,97.473,33.0,2.0,,,True,HARD,18.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.147,-2.155,1.886,1.973,-1.314,-1.33,99.326
+0 days 01:55:29.284000,NOR,1,97.133,34.0,2.0,,,True,HARD,19.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.487,-2.496,1.546,1.617,-1.519,-1.54,99.044
+0 days 01:57:06.444000,NOR,1,97.16,35.0,2.0,,,False,HARD,20.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.46,-2.469,1.573,1.646,-1.778,-1.797,99.128
+0 days 01:58:43.473000,NOR,1,97.029,36.0,2.0,,,True,HARD,21.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.591,-2.601,1.442,1.509,-1.617,-1.639,99.055
+0 days 02:00:21.178000,NOR,1,97.705,37.0,2.0,,,False,HARD,22.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-1.915,-1.922,2.118,2.216,-1.127,-1.14,99.789
+0 days 02:01:58.075000,NOR,1,96.897,38.0,2.0,,,True,HARD,23.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.723,-2.733,1.31,1.37,-1.793,-1.817,99.039
+0 days 02:03:35.026000,NOR,1,96.951,39.0,2.0,,,False,HARD,24.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.669,-2.679,1.364,1.427,-2.125,-2.145,99.151
+0 days 02:05:11.822000,NOR,1,96.796,40.0,2.0,,,True,HARD,25.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.824,-2.835,1.209,1.265,-1.968,-1.993,99.054
+0 days 02:06:49.030000,NOR,1,97.208,41.0,2.0,,,False,HARD,26.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.412,-2.421,1.621,1.696,-1.73,-1.749,99.524
+0 days 02:08:26.097000,NOR,1,97.067,42.0,2.0,,,False,HARD,27.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.553,-2.563,1.48,1.548,-1.929,-1.949,99.441
+0 days 02:10:03.246000,NOR,1,97.149,43.0,2.0,,,False,HARD,28.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.471,-2.48,1.562,1.634,-1.636,-1.656,99.581
+0 days 02:11:40.336000,NOR,1,97.09,44.0,2.0,,,False,HARD,29.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.53,-2.54,1.503,1.572,-2.002,-2.02,99.579
+0 days 02:13:17.462000,NOR,1,97.126,45.0,2.0,,,False,HARD,30.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.494,-2.504,1.539,1.61,-2.004,-2.022,99.673
+0 days 02:14:54.795000,NOR,1,97.333,46.0,2.0,,,False,HARD,31.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.287,-2.296,1.746,1.827,-1.771,-1.787,99.938
+0 days 02:16:32.122000,NOR,1,97.327,47.0,2.0,,,False,HARD,32.0,True,McLaren,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-2.293,-2.302,1.74,1.82,-1.334,-1.352,99.99
+0 days 02:18:09.469000,NOR,1,97.347,48.0,2.0,,,False,HARD,33.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.273,-2.282,1.76,1.841,-0.855,-0.871,100.068
+0 days 02:19:46.468000,NOR,1,96.999,49.0,2.0,,,False,HARD,34.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.621,-2.631,1.412,1.477,-1.315,-1.338,99.778
+0 days 02:21:23.603000,NOR,1,97.135,50.0,2.0,,,False,HARD,35.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.485,-2.494,1.548,1.619,-1.015,-1.034,99.972
+0 days 02:23:00.503000,NOR,1,96.9,51.0,2.0,,,False,HARD,36.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.72,-2.73,1.313,1.374,-1.287,-1.311,99.795
+0 days 02:24:37.183000,NOR,1,96.68,52.0,2.0,,,True,HARD,37.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.94,-2.951,1.093,1.143,-1.616,-1.644,99.633
+0 days 02:26:14.166000,NOR,1,96.983,53.0,2.0,,,False,HARD,38.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.637,-2.647,1.396,1.46,-1.628,-1.651,99.994
+0 days 02:27:51.100000,NOR,1,96.934,54.0,2.0,,,False,HARD,39.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.686,-2.696,1.347,1.409,-1.48,-1.504,100.002
+0 days 02:29:27.887000,NOR,1,96.787,55.0,2.0,,,False,HARD,40.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.833,-2.844,1.2,1.255,-2.147,-2.17,99.913
+0 days 02:31:05.890000,NOR,1,98.003,56.0,2.0,,,False,HARD,41.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.617,-1.623,2.416,2.528,-0.012,-0.012,101.187
+0 days 02:32:42.908000,NOR,1,97.018,57.0,2.0,,,False,HARD,42.0,True,McLaren,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.602,-2.612,1.431,1.497,-0.664,-0.68,100.26
+0 days 01:00:04.272000,GAS,10,,1.0,1.0,,,False,HARD,1.0,True,Alpine,12,13.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:47.261000,GAS,10,102.989,2.0,1.0,,,True,HARD,2.0,True,Alpine,1,13.0,True,14,Spanish Grand Prix,True,C2,True,3.369,3.382,7.402,7.744,0.019,0.018,103.047
+0 days 01:03:30.056000,GAS,10,102.795,3.0,1.0,,,True,HARD,3.0,True,Alpine,1,13.0,True,14,Spanish Grand Prix,True,C2,True,3.175,3.187,7.208,7.541,0.093,0.091,102.911
+0 days 01:05:12.760000,GAS,10,102.704,4.0,1.0,,,True,HARD,4.0,True,Alpine,1,13.0,True,14,Spanish Grand Prix,True,C2,True,3.084,3.096,7.117,7.446,0.004,0.004,102.878
+0 days 01:06:56.012000,GAS,10,103.252,5.0,1.0,,,False,HARD,5.0,True,Alpine,12,13.0,True,14,Spanish Grand Prix,True,C2,False,3.632,3.646,7.665,8.019,-0.098,-0.095,103.484
+0 days 01:08:39.388000,GAS,10,103.376,6.0,1.0,,,False,HARD,6.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,3.756,3.77,7.789,8.149,0.291,0.282,103.665
+0 days 01:10:21.798000,GAS,10,102.41,7.0,1.0,,,True,HARD,7.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.79,2.801,6.823,7.138,0.242,0.237,102.757
+0 days 01:12:03.910000,GAS,10,102.112,8.0,1.0,,,True,HARD,8.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.492,2.502,6.525,6.826,0.016,0.016,102.517
+0 days 01:13:46.091000,GAS,10,102.181,9.0,1.0,,,False,HARD,9.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.561,2.571,6.594,6.898,-0.138,-0.135,102.644
+0 days 01:15:28.391000,GAS,10,102.3,10.0,1.0,,,False,HARD,10.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.68,2.69,6.713,7.023,-0.745,-0.723,102.821
+0 days 01:17:10.851000,GAS,10,102.46,11.0,1.0,,,False,HARD,11.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.84,2.851,6.873,7.19,-0.087,-0.085,103.039
+0 days 01:18:53.428000,GAS,10,102.577,12.0,1.0,,,False,HARD,12.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.957,2.968,6.99,7.313,-0.083,-0.081,103.214
+0 days 01:20:35.864000,GAS,10,102.436,13.0,1.0,,,False,HARD,13.0,True,Alpine,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.816,2.827,6.849,7.165,-0.074,-0.072,103.131
+0 days 01:22:41.538000,GAS,10,125.674,14.0,1.0,,,False,HARD,14.0,True,Alpine,126,12.0,False,14,Spanish Grand Prix,True,C2,False,26.054,26.153,30.087,31.476,-0.17,-0.135,126.427
+0 days 01:24:42.572000,GAS,10,121.034,15.0,1.0,,,False,HARD,15.0,True,Alpine,671,8.0,False,14,Spanish Grand Prix,True,C2,False,21.414,21.496,25.447,26.622,0.0,0.0,121.845
+0 days 01:26:23.198000,GAS,10,100.626,16.0,1.0,,,True,HARD,16.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,1.006,1.01,5.039,5.272,0.198,0.197,101.494
+0 days 01:28:03.291000,GAS,10,100.093,17.0,1.0,,,True,HARD,17.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.473,0.475,4.506,4.714,-0.065,-0.065,101.019
+0 days 01:29:43.368000,GAS,10,100.077,18.0,1.0,,,True,HARD,18.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.457,0.459,4.49,4.697,-0.201,-0.2,101.061
+0 days 01:31:23.121000,GAS,10,99.753,19.0,1.0,,,True,HARD,19.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.133,0.134,4.166,4.358,-0.291,-0.291,100.795
+0 days 01:33:03.082000,GAS,10,99.961,20.0,1.0,,,False,HARD,20.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.341,0.342,4.374,4.576,-0.223,-0.223,101.061
+0 days 01:34:42.536000,GAS,10,99.454,21.0,1.0,,,True,HARD,21.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.166,-0.167,3.867,4.046,-0.677,-0.676,100.612
+0 days 01:36:21.522000,GAS,10,98.986,22.0,1.0,,,True,HARD,22.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.634,-0.636,3.399,3.556,-0.996,-0.996,100.202
+0 days 01:38:00.660000,GAS,10,99.138,23.0,1.0,,,False,HARD,23.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.482,-0.484,3.551,3.715,-0.536,-0.538,100.412
+0 days 01:39:39.852000,GAS,10,99.192,24.0,1.0,,,False,HARD,24.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.428,-0.43,3.605,3.771,-0.704,-0.705,100.524
+0 days 01:41:19.747000,GAS,10,99.895,25.0,1.0,,,False,HARD,25.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.275,0.276,4.308,4.507,-0.201,-0.201,101.284
+0 days 01:42:59.062000,GAS,10,99.315,26.0,1.0,,,False,HARD,26.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.305,-0.306,3.728,3.9,-0.436,-0.437,100.762
+0 days 01:44:38.321000,GAS,10,99.259,27.0,1.0,,,False,HARD,27.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.361,-0.362,3.672,3.842,-0.505,-0.506,100.764
+0 days 01:46:17.051000,GAS,10,98.73,28.0,1.0,,,True,HARD,28.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.89,-0.893,3.143,3.288,-1.09,-1.092,100.293
+0 days 01:47:56.339000,GAS,10,99.288,29.0,1.0,,,False,HARD,29.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.332,-0.333,3.701,3.872,-0.13,-0.131,100.909
+0 days 01:49:35.971000,GAS,10,99.632,30.0,1.0,,,False,HARD,30.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.012,0.012,4.045,4.232,0.402,0.405,101.311
+0 days 01:51:15.244000,GAS,10,99.273,31.0,1.0,,,False,HARD,31.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.347,-0.348,3.686,3.856,0.077,0.078,101.01
+0 days 01:52:54.248000,GAS,10,99.004,32.0,1.0,,,False,HARD,32.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.616,-0.618,3.417,3.575,-0.245,-0.247,100.799
+0 days 01:54:32.797000,GAS,10,98.549,33.0,1.0,,,True,HARD,33.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.071,-1.075,2.962,3.099,-0.238,-0.241,100.402
+0 days 01:56:11.235000,GAS,10,98.438,34.0,1.0,,,True,HARD,34.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.182,-1.187,2.851,2.983,-0.214,-0.217,100.349
+0 days 01:57:49.830000,GAS,10,98.595,35.0,1.0,,,False,HARD,35.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.025,-1.029,3.008,3.147,-0.343,-0.347,100.563
+0 days 01:59:27.971000,GAS,10,98.141,36.0,1.0,,,True,HARD,36.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.479,-1.485,2.554,2.672,-0.505,-0.512,100.167
+0 days 02:01:07.076000,GAS,10,99.105,37.0,1.0,,,False,HARD,37.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.515,-0.517,3.518,3.68,0.273,0.276,101.189
+0 days 02:02:46.242000,GAS,10,99.166,38.0,1.0,,,False,HARD,38.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.454,-0.456,3.579,3.744,0.476,0.482,101.308
+0 days 02:04:25.470000,GAS,10,99.228,39.0,1.0,,,False,HARD,39.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.392,-0.393,3.641,3.809,0.152,0.153,101.428
+0 days 02:06:04.653000,GAS,10,99.183,40.0,1.0,,,False,HARD,40.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.437,-0.439,3.596,3.762,0.419,0.424,101.441
+0 days 02:07:43.783000,GAS,10,99.13,41.0,1.0,,,False,HARD,41.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.49,-0.492,3.543,3.707,0.192,0.194,101.446
+0 days 02:09:22.765000,GAS,10,98.982,42.0,1.0,,,False,HARD,42.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.638,-0.64,3.395,3.552,-0.014,-0.014,101.356
+0 days 02:11:01.480000,GAS,10,98.715,43.0,1.0,,,False,HARD,43.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.905,-0.908,3.128,3.272,-0.07,-0.071,101.147
+0 days 02:12:40.805000,GAS,10,99.325,44.0,1.0,,,False,HARD,44.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.295,-0.296,3.738,3.911,0.233,0.235,101.814
+0 days 02:14:19.328000,GAS,10,98.523,45.0,1.0,,,False,HARD,45.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.097,-1.101,2.936,3.072,-0.607,-0.612,101.07
+0 days 02:15:58.073000,GAS,10,98.745,46.0,1.0,,,False,HARD,46.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.875,-0.878,3.158,3.304,-0.359,-0.362,101.35
+0 days 02:17:36.646000,GAS,10,98.573,47.0,1.0,,,False,HARD,47.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.047,-1.051,2.986,3.124,-0.088,-0.089,101.236
+0 days 02:19:15.235000,GAS,10,98.589,48.0,1.0,,,False,HARD,48.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.031,-1.035,3.002,3.141,0.387,0.394,101.31
+0 days 02:20:53.749000,GAS,10,98.514,49.0,1.0,,,False,HARD,49.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.106,-1.11,2.927,3.062,0.2,0.203,101.293
+0 days 02:22:32.690000,GAS,10,98.941,50.0,1.0,,,False,HARD,50.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.679,-0.682,3.354,3.509,0.791,0.806,101.778
+0 days 02:24:12.200000,GAS,10,99.51,51.0,1.0,,,False,HARD,51.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.11,-0.11,3.923,4.104,1.323,1.347,102.405
+0 days 02:25:51.739000,GAS,10,99.539,52.0,1.0,,,False,HARD,52.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.081,-0.081,3.952,4.134,1.243,1.265,102.492
+0 days 02:27:31.784000,GAS,10,100.045,53.0,1.0,,,False,HARD,53.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.425,0.427,4.458,4.664,1.434,1.454,103.056
+0 days 02:29:13.209000,GAS,10,101.425,54.0,1.0,,,False,HARD,54.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,1.805,1.812,5.838,6.108,3.011,3.06,104.493
+0 days 02:30:57.922000,GAS,10,104.713,55.0,1.0,,0 days 02:30:57.040000,False,HARD,55.0,True,Alpine,1,9.0,False,14,Spanish Grand Prix,True,C2,False,5.093,5.112,9.126,9.547,5.779,5.841,107.839
+0 days 02:32:58.971000,GAS,10,121.049,56.0,2.0,0 days 02:31:28.467000,,False,SOFT,1.0,True,Alpine,1,12.0,False,14,Spanish Grand Prix,True,C4,False,21.429,21.511,25.462,26.638,23.034,23.5,124.233
+0 days 01:00:05.771000,PER,11,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,12,16.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:50.256000,PER,11,104.485,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,16.0,True,14,Spanish Grand Prix,True,C3,True,4.865,4.884,8.898,9.309,1.515,1.471,104.543
+0 days 01:03:34.051000,PER,11,103.795,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,16.0,True,14,Spanish Grand Prix,True,C3,True,4.175,4.191,8.208,8.587,1.093,1.064,103.911
+0 days 01:05:17.557000,PER,11,103.506,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,16.0,True,14,Spanish Grand Prix,True,C3,True,3.886,3.901,7.919,8.285,0.806,0.785,103.68
+0 days 01:07:01.648000,PER,11,104.091,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,12,16.0,True,14,Spanish Grand Prix,True,C3,False,4.471,4.488,8.504,8.897,0.741,0.717,104.323
+0 days 01:08:46.096000,PER,11,104.448,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.828,4.846,8.861,9.27,1.363,1.322,104.737
+0 days 01:10:29.623000,PER,11,103.527,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,3.907,3.922,7.94,8.307,1.359,1.33,103.874
+0 days 01:12:13.473000,PER,11,103.85,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.23,4.246,8.263,8.644,1.754,1.718,104.255
+0 days 01:13:57.160000,PER,11,103.687,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.067,4.083,8.1,8.474,1.368,1.337,104.15
+0 days 01:15:40.845000,PER,11,103.685,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.065,4.081,8.098,8.472,0.64,0.621,104.206
+0 days 01:17:24.469000,PER,11,103.624,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.004,4.019,8.037,8.408,1.077,1.05,104.203
+0 days 01:19:08.401000,PER,11,103.932,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.312,4.328,8.345,8.73,1.272,1.239,104.569
+0 days 01:20:53.271000,PER,11,104.87,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,12,15.0,True,14,Spanish Grand Prix,True,C3,False,5.25,5.27,9.283,9.712,2.36,2.302,105.565
+0 days 01:23:05.812000,PER,11,132.541,14.0,1.0,,0 days 01:23:04.990000,False,MEDIUM,14.0,True,Cadillac,26,16.0,False,14,Spanish Grand Prix,True,C3,False,32.921,33.047,36.954,38.66,6.697,5.322,133.294
+0 days 01:25:12.717000,PER,11,126.905,15.0,2.0,0 days 01:23:37.048000,,False,HARD,1.0,True,Cadillac,671,19.0,False,14,Spanish Grand Prix,True,C2,False,27.285,27.389,31.318,32.764,5.871,4.851,127.716
+0 days 01:26:53.833000,PER,11,101.116,16.0,2.0,,,True,HARD,2.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.496,1.502,5.529,5.784,0.688,0.685,101.984
+0 days 01:28:35.257000,PER,11,101.424,17.0,2.0,,,False,HARD,3.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.804,1.811,5.837,6.106,1.266,1.264,102.35
+0 days 01:30:16.682000,PER,11,101.425,18.0,2.0,,,False,HARD,4.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.805,1.812,5.838,6.108,1.147,1.144,102.409
+0 days 01:31:58.123000,PER,11,101.441,19.0,2.0,,,False,HARD,5.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.821,1.828,5.854,6.124,1.397,1.396,102.483
+0 days 01:33:39.384000,PER,11,101.261,20.0,2.0,,,False,HARD,6.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.641,1.647,5.674,5.936,1.077,1.075,102.361
+0 days 01:35:21.066000,PER,11,101.682,21.0,2.0,,,False,HARD,7.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.062,2.07,6.095,6.376,1.551,1.549,102.84
+0 days 01:37:02.401000,PER,11,101.335,22.0,2.0,,,False,HARD,8.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.715,1.722,5.748,6.013,1.353,1.353,102.551
+0 days 01:38:43.622000,PER,11,101.221,23.0,2.0,,,False,HARD,9.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.601,1.607,5.634,5.894,1.547,1.552,102.495
+0 days 01:40:24.742000,PER,11,101.12,24.0,2.0,,,False,HARD,10.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,1.5,1.506,5.533,5.788,1.224,1.225,102.452
+0 days 01:42:06.948000,PER,11,102.206,25.0,2.0,,,False,HARD,11.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.586,2.596,6.619,6.925,2.11,2.108,103.595
+0 days 01:43:50.471000,PER,11,103.523,26.0,2.0,,,False,HARD,12.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,3.903,3.918,7.936,8.302,3.772,3.781,104.97
+0 days 01:45:34.238000,PER,11,103.767,27.0,2.0,,,False,HARD,13.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.147,4.163,8.18,8.558,4.003,4.012,105.272
+0 days 01:47:19.654000,PER,11,105.416,28.0,2.0,,,False,HARD,14.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,5.796,5.818,9.829,10.283,5.596,5.606,106.979
+0 days 01:49:07.785000,PER,11,108.131,29.0,2.0,,,False,HARD,15.0,True,Cadillac,1,17.0,True,14,Spanish Grand Prix,True,C2,True,8.511,8.543,12.544,13.123,8.713,8.764,109.752
+0 days 01:50:56.528000,PER,11,108.743,30.0,2.0,,,False,HARD,16.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,9.123,9.158,13.156,13.763,9.513,9.587,110.422
+0 days 01:52:54.044000,PER,11,117.516,31.0,2.0,,0 days 01:52:53.126000,False,HARD,17.0,True,Cadillac,1,18.0,False,14,Spanish Grand Prix,True,C2,False,17.896,17.964,21.929,22.941,18.32,18.468,119.253
+0 days 00:59:57.962000,ANT,12,,1.0,1.0,,,False,MEDIUM,1.0,True,Mercedes,12,3.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:38.213000,ANT,12,100.251,2.0,1.0,,,True,MEDIUM,2.0,True,Mercedes,1,3.0,True,14,Spanish Grand Prix,True,C3,True,0.631,0.633,4.664,4.879,-2.719,-2.641,100.309
+0 days 01:03:18.298000,ANT,12,100.085,3.0,1.0,,,True,MEDIUM,3.0,True,Mercedes,1,3.0,True,14,Spanish Grand Prix,True,C3,True,0.465,0.467,4.498,4.706,-2.617,-2.548,100.201
+0 days 01:04:58.209000,ANT,12,99.911,4.0,1.0,,,True,MEDIUM,4.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,0.291,0.292,4.324,4.524,-2.789,-2.716,100.085
+0 days 01:06:37.741000,ANT,12,99.532,5.0,1.0,,,True,MEDIUM,5.0,True,Mercedes,12,2.0,True,14,Spanish Grand Prix,True,C3,False,-0.088,-0.088,3.945,4.127,-3.818,-3.694,99.764
+0 days 01:08:18.907000,ANT,12,101.166,6.0,1.0,,,False,MEDIUM,6.0,True,Mercedes,21,2.0,True,14,Spanish Grand Prix,True,C3,False,1.546,1.552,5.579,5.837,-1.919,-1.862,101.455
+0 days 01:09:58.665000,ANT,12,99.758,7.0,1.0,,,False,MEDIUM,7.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,0.138,0.139,4.171,4.364,-2.41,-2.359,100.105
+0 days 01:11:38.098000,ANT,12,99.433,8.0,1.0,,,True,MEDIUM,8.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,-0.187,-0.188,3.846,4.024,-2.663,-2.608,99.838
+0 days 01:13:17.699000,ANT,12,99.601,9.0,1.0,,,False,MEDIUM,9.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,-0.019,-0.019,4.014,4.199,-2.718,-2.656,100.064
+0 days 01:14:57.344000,ANT,12,99.645,10.0,1.0,,,False,MEDIUM,10.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,0.025,0.025,4.058,4.245,-3.4,-3.3,100.166
+0 days 01:16:36.759000,ANT,12,99.415,11.0,1.0,,,True,MEDIUM,11.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,-0.205,-0.206,3.828,4.005,-3.132,-3.054,99.994
+0 days 01:18:16.518000,ANT,12,99.759,12.0,1.0,,,False,MEDIUM,12.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,0.139,0.14,4.172,4.365,-2.901,-2.826,100.396
+0 days 01:19:55.840000,ANT,12,99.322,13.0,1.0,,,True,MEDIUM,13.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C3,True,-0.298,-0.299,3.735,3.907,-3.188,-3.11,100.017
+0 days 01:21:40.144000,ANT,12,104.304,14.0,1.0,,0 days 01:21:39.244000,False,MEDIUM,14.0,True,Mercedes,126,2.0,False,14,Spanish Grand Prix,True,C3,False,4.684,4.702,8.717,9.119,-21.54,-17.116,105.057
+0 days 01:24:09.381000,ANT,12,149.237,15.0,2.0,0 days 01:22:11.083000,,False,HARD,1.0,True,Mercedes,671,3.0,False,14,Spanish Grand Prix,True,C2,False,49.617,49.806,53.65,56.127,28.203,23.302,150.048
+0 days 01:25:46.858000,ANT,12,97.477,16.0,2.0,,,True,HARD,2.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.143,-2.151,1.89,1.977,-2.951,-2.938,98.345
+0 days 01:27:25.019000,ANT,12,98.161,17.0,2.0,,,False,HARD,3.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.459,-1.465,2.574,2.693,-1.997,-1.994,99.087
+0 days 01:29:03.538000,ANT,12,98.519,18.0,2.0,,,False,HARD,4.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.101,-1.105,2.932,3.067,-1.759,-1.754,99.503
+0 days 01:30:41.903000,ANT,12,98.365,19.0,2.0,,,False,HARD,5.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.255,-1.26,2.778,2.906,-1.679,-1.678,99.407
+0 days 01:32:20.310000,ANT,12,98.407,20.0,2.0,,,False,HARD,6.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.213,-1.218,2.82,2.95,-1.777,-1.774,99.507
+0 days 01:34:00.089000,ANT,12,99.779,21.0,2.0,,,False,HARD,7.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,0.159,0.16,4.192,4.386,-0.352,-0.352,100.937
+0 days 01:35:39.276000,ANT,12,99.187,22.0,2.0,,,False,HARD,8.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.433,-0.435,3.6,3.766,-0.795,-0.795,100.403
+0 days 01:37:18.421000,ANT,12,99.145,23.0,2.0,,,False,HARD,9.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.475,-0.477,3.558,3.722,-0.529,-0.531,100.419
+0 days 01:38:57.206000,ANT,12,98.785,24.0,2.0,,,False,HARD,10.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.835,-0.838,3.198,3.346,-1.111,-1.112,100.117
+0 days 01:40:34.698000,ANT,12,97.492,25.0,2.0,,,False,HARD,11.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.128,-2.136,1.905,1.993,-2.604,-2.602,98.881
+0 days 01:42:12.755000,ANT,12,98.057,26.0,2.0,,,False,HARD,12.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.563,-1.569,2.47,2.584,-1.694,-1.698,99.504
+0 days 01:43:51.416000,ANT,12,98.661,27.0,2.0,,,False,HARD,13.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.959,-0.963,3.074,3.216,-1.103,-1.106,100.166
+0 days 01:45:30.443000,ANT,12,99.027,28.0,2.0,,,False,HARD,14.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.593,-0.595,3.44,3.599,-0.793,-0.794,100.59
+0 days 01:47:08.927000,ANT,12,98.484,29.0,2.0,,,False,HARD,15.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.136,-1.14,2.897,3.031,-0.934,-0.939,100.105
+0 days 01:48:47.591000,ANT,12,98.664,30.0,2.0,,,False,HARD,16.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-0.956,-0.96,3.077,3.219,-0.566,-0.57,100.343
+0 days 01:50:25.344000,ANT,12,97.753,31.0,2.0,,,False,HARD,17.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.867,-1.874,2.166,2.266,-1.443,-1.455,99.49
+0 days 01:52:03.211000,ANT,12,97.867,32.0,2.0,,,False,HARD,18.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.753,-1.76,2.28,2.385,-1.382,-1.392,99.662
+0 days 01:53:41.255000,ANT,12,98.044,33.0,2.0,,,False,HARD,19.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.576,-1.582,2.457,2.57,-0.743,-0.752,99.897
+0 days 01:55:19.041000,ANT,12,97.786,34.0,2.0,,,False,HARD,20.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.834,-1.841,2.199,2.301,-0.866,-0.878,99.697
+0 days 01:56:56.900000,ANT,12,97.859,35.0,2.0,,,False,HARD,21.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.761,-1.768,2.272,2.377,-1.079,-1.091,99.827
+0 days 01:58:34.899000,ANT,12,97.999,36.0,2.0,,,False,HARD,22.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.621,-1.627,2.412,2.523,-0.647,-0.656,100.025
+0 days 02:00:12.541000,ANT,12,97.642,37.0,2.0,,,False,HARD,23.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.978,-1.986,2.055,2.15,-1.19,-1.204,99.726
+0 days 02:01:51.033000,ANT,12,98.492,38.0,2.0,,,False,HARD,24.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.128,-1.132,2.905,3.039,-0.198,-0.201,100.634
+0 days 02:03:28.660000,ANT,12,97.627,39.0,2.0,,,False,HARD,25.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.993,-2.001,2.04,2.134,-1.449,-1.463,99.827
+0 days 02:05:06.403000,ANT,12,97.743,40.0,2.0,,,False,HARD,26.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.877,-1.884,2.156,2.256,-1.021,-1.034,100.001
+0 days 02:06:43.950000,ANT,12,97.547,41.0,2.0,,,False,HARD,27.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.073,-2.081,1.96,2.05,-1.391,-1.406,99.863
+0 days 02:08:21.246000,ANT,12,97.296,42.0,2.0,,,True,HARD,28.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.324,-2.333,1.709,1.788,-1.7,-1.717,99.67
+0 days 02:09:58.581000,ANT,12,97.335,43.0,2.0,,,False,HARD,29.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.285,-2.294,1.748,1.829,-1.45,-1.468,99.767
+0 days 02:11:35.748000,ANT,12,97.167,44.0,2.0,,,True,HARD,30.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.453,-2.462,1.58,1.653,-1.925,-1.943,99.656
+0 days 02:13:14.063000,ANT,12,98.315,45.0,2.0,,,False,HARD,31.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.305,-1.31,2.728,2.854,-0.815,-0.822,100.862
+0 days 02:14:52.373000,ANT,12,98.31,46.0,2.0,,,False,HARD,32.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.31,-1.315,2.723,2.849,-0.794,-0.801,100.915
+0 days 02:16:30.041000,ANT,12,97.668,47.0,2.0,,,False,HARD,33.0,True,Mercedes,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.952,-1.959,2.081,2.177,-0.993,-1.006,100.331
+0 days 02:18:07.874000,ANT,12,97.833,48.0,2.0,,,False,HARD,34.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.787,-1.794,2.246,2.35,-0.369,-0.376,100.554
+0 days 02:19:44.435000,ANT,12,96.561,49.0,2.0,,,True,HARD,35.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.059,-3.071,0.974,1.019,-1.753,-1.783,99.34
+0 days 02:21:20.996000,ANT,12,96.561,50.0,2.0,,,False,HARD,36.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.059,-3.071,0.974,1.019,-1.589,-1.619,99.398
+0 days 02:22:57.593000,ANT,12,96.597,51.0,2.0,,,False,HARD,37.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.023,-3.035,1.01,1.057,-1.59,-1.619,99.492
+0 days 02:24:33.790000,ANT,12,96.197,52.0,2.0,,,True,HARD,38.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.423,-3.436,0.61,0.638,-2.099,-2.135,99.15
+0 days 02:26:09.870000,ANT,12,96.08,53.0,2.0,,,True,HARD,39.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.54,-3.554,0.493,0.516,-2.531,-2.567,99.091
+0 days 02:27:47.060000,ANT,12,97.19,54.0,2.0,,,False,HARD,40.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-2.43,-2.439,1.603,1.677,-1.224,-1.244,100.258
+0 days 02:29:25.100000,ANT,12,98.04,55.0,2.0,,,False,HARD,41.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.58,-1.586,2.453,2.566,-0.894,-0.904,101.166
+0 days 02:31:01.789000,ANT,12,96.689,56.0,2.0,,,False,HARD,42.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-2.931,-2.942,1.102,1.153,-1.326,-1.353,99.873
+0 days 02:32:37.819000,ANT,12,96.03,57.0,2.0,,,True,HARD,43.0,True,Mercedes,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-3.59,-3.604,0.443,0.463,-1.652,-1.691,99.272
+0 days 01:00:08.238000,ALO,14,,1.0,1.0,,,False,HARD,1.0,True,Aston Martin,12,20.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:53.705000,ALO,14,105.467,2.0,1.0,,,True,HARD,2.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,5.847,5.869,9.88,10.336,2.497,2.425,105.525
+0 days 01:03:37.478000,ALO,14,103.773,3.0,1.0,,,True,HARD,3.0,True,Aston Martin,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.153,4.169,8.186,8.564,1.071,1.043,103.889
+0 days 01:05:21.746000,ALO,14,104.268,4.0,1.0,,,False,HARD,4.0,True,Aston Martin,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.648,4.666,8.681,9.082,1.568,1.527,104.442
+0 days 01:07:05.819000,ALO,14,104.073,5.0,1.0,,,False,HARD,5.0,True,Aston Martin,12,19.0,True,14,Spanish Grand Prix,True,C2,False,4.453,4.47,8.486,8.878,0.723,0.7,104.305
+0 days 01:08:49.644000,ALO,14,103.825,6.0,1.0,,,False,HARD,6.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.205,4.221,8.238,8.618,0.74,0.718,104.114
+0 days 01:10:33.689000,ALO,14,104.045,7.0,1.0,,,False,HARD,7.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.425,4.442,8.458,8.848,1.877,1.837,104.392
+0 days 01:12:17.315000,ALO,14,103.626,8.0,1.0,,,True,HARD,8.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.006,4.021,8.039,8.41,1.53,1.499,104.031
+0 days 01:14:01.430000,ALO,14,104.115,9.0,1.0,,,False,HARD,9.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.495,4.512,8.528,8.922,1.796,1.755,104.578
+0 days 01:15:45.126000,ALO,14,103.696,10.0,1.0,,,False,HARD,10.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.076,4.092,8.109,8.483,0.651,0.632,104.217
+0 days 01:17:28.488000,ALO,14,103.362,11.0,1.0,,,True,HARD,11.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,3.742,3.756,7.775,8.134,0.815,0.795,103.941
+0 days 01:19:12.672000,ALO,14,104.184,12.0,1.0,,,False,HARD,12.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.564,4.581,8.597,8.994,1.524,1.485,104.821
+0 days 01:20:55.960000,ALO,14,103.288,13.0,1.0,,,True,HARD,13.0,True,Aston Martin,12,18.0,True,14,Spanish Grand Prix,True,C2,False,3.668,3.682,7.701,8.057,0.778,0.759,103.983
+0 days 01:23:09.204000,ALO,14,133.244,14.0,1.0,,0 days 01:23:08.333000,False,HARD,14.0,True,Aston Martin,26,18.0,False,14,Spanish Grand Prix,True,C2,False,33.624,33.752,37.657,39.396,7.4,5.88,133.997
+0 days 01:25:26.658000,ALO,14,137.454,15.0,2.0,0 days 01:23:52.077000,,False,SOFT,1.0,True,Aston Martin,671,20.0,False,14,Spanish Grand Prix,True,C4,False,37.834,37.978,41.867,43.8,16.42,13.566,138.265
+0 days 01:27:06.998000,ALO,14,100.34,16.0,2.0,,,True,SOFT,2.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,0.72,0.723,4.753,4.972,-0.088,-0.088,101.208
+0 days 01:28:47.818000,ALO,14,100.82,17.0,2.0,,,False,SOFT,3.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,1.2,1.205,5.233,5.475,0.662,0.661,101.746
+0 days 01:30:29.273000,ALO,14,101.455,18.0,2.0,,,False,SOFT,4.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,1.835,1.842,5.868,6.139,1.177,1.174,102.439
+0 days 01:32:10.016000,ALO,14,100.743,19.0,2.0,,,False,SOFT,5.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,1.123,1.127,5.156,5.394,0.699,0.699,101.785
+0 days 01:33:50.655000,ALO,14,100.639,20.0,2.0,,,False,SOFT,6.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,1.019,1.023,5.052,5.285,0.455,0.454,101.739
+0 days 01:35:32.174000,ALO,14,101.519,21.0,2.0,,,False,SOFT,7.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,1.899,1.906,5.932,6.206,1.388,1.386,102.677
+0 days 01:37:14.017000,ALO,14,101.843,22.0,2.0,,,False,SOFT,8.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,2.223,2.231,6.256,6.545,1.861,1.861,103.059
+0 days 01:38:58.994000,ALO,14,104.977,23.0,2.0,,,False,SOFT,9.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C4,True,5.357,5.377,9.39,9.824,5.303,5.32,106.251
+0 days 01:40:40.265000,ALO,14,101.271,24.0,2.0,,,False,SOFT,10.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,1.651,1.657,5.684,5.946,1.375,1.376,102.603
+0 days 01:42:22.304000,ALO,14,102.039,25.0,2.0,,,False,SOFT,11.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,2.419,2.428,6.452,6.75,1.943,1.941,103.428
+0 days 01:44:06.065000,ALO,14,103.761,26.0,2.0,,,False,SOFT,12.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,4.141,4.157,8.174,8.551,4.01,4.02,105.208
+0 days 01:45:46.845000,ALO,14,100.78,27.0,2.0,,,False,SOFT,13.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,1.16,1.164,5.193,5.433,1.016,1.018,102.285
+0 days 01:47:27.490000,ALO,14,100.645,28.0,2.0,,,False,SOFT,14.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,1.025,1.029,5.058,5.292,0.825,0.826,102.208
+0 days 01:49:08.390000,ALO,14,100.9,29.0,2.0,,,False,SOFT,15.0,True,Aston Martin,1,18.0,True,14,Spanish Grand Prix,True,C4,True,1.28,1.285,5.313,5.558,1.482,1.491,102.521
+0 days 01:50:48.857000,ALO,14,100.467,30.0,2.0,,,False,SOFT,16.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,0.847,0.85,4.88,5.105,1.237,1.247,102.146
+0 days 01:52:29.355000,ALO,14,100.498,31.0,2.0,,,False,SOFT,17.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,0.878,0.881,4.911,5.138,1.302,1.313,102.235
+0 days 01:54:09.843000,ALO,14,100.488,32.0,2.0,,,False,SOFT,18.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,0.868,0.871,4.901,5.127,1.239,1.248,102.283
+0 days 01:55:49.985000,ALO,14,100.142,33.0,2.0,,,True,SOFT,19.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,0.522,0.524,4.555,4.765,1.355,1.372,101.995
+0 days 01:57:30.410000,ALO,14,100.425,34.0,2.0,,,False,SOFT,20.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,0.805,0.808,4.838,5.061,1.773,1.797,102.336
+0 days 01:59:11.284000,ALO,14,100.874,35.0,2.0,,,False,SOFT,21.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,1.254,1.259,5.287,5.531,1.936,1.957,102.842
+0 days 02:00:56.484000,ALO,14,105.2,36.0,2.0,,,False,SOFT,22.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C4,True,5.58,5.601,9.613,10.057,6.554,6.644,107.226
+0 days 02:02:40.737000,ALO,14,104.253,37.0,2.0,,0 days 02:02:39.908000,False,SOFT,23.0,True,Aston Martin,1,17.0,False,14,Spanish Grand Prix,True,C4,False,4.633,4.651,8.666,9.066,5.421,5.485,106.337
+0 days 02:04:46.128000,ALO,14,125.391,38.0,3.0,0 days 02:03:11.852000,,False,HARD,1.0,True,Aston Martin,1,17.0,False,14,Spanish Grand Prix,True,C2,False,25.771,25.869,29.804,31.18,26.701,27.055,127.533
+0 days 02:06:25.262000,ALO,14,99.134,39.0,3.0,,,True,HARD,2.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.486,-0.488,3.547,3.711,0.058,0.059,101.334
+0 days 02:08:04.265000,ALO,14,99.003,40.0,3.0,,,True,HARD,3.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.617,-0.619,3.416,3.574,0.239,0.242,101.261
+0 days 02:09:43.929000,ALO,14,99.664,41.0,3.0,,,False,HARD,4.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.044,0.044,4.077,4.265,0.726,0.734,101.98
+0 days 02:11:22.939000,ALO,14,99.01,42.0,3.0,,,False,HARD,5.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.61,-0.612,3.423,3.581,0.014,0.014,101.384
+0 days 02:13:05.639000,ALO,14,102.7,43.0,3.0,,,False,HARD,6.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,3.08,3.092,7.113,7.441,3.915,3.963,105.132
+0 days 02:14:45.798000,ALO,14,100.159,44.0,3.0,,,False,HARD,7.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.539,0.541,4.572,4.783,1.067,1.077,102.648
+0 days 02:16:25.906000,ALO,14,100.108,45.0,3.0,,,False,HARD,8.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.488,0.49,4.521,4.73,0.978,0.987,102.655
+0 days 02:18:05.530000,ALO,14,99.624,46.0,3.0,,,False,HARD,9.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.004,0.004,4.037,4.223,0.52,0.525,102.229
+0 days 02:19:49.940000,ALO,14,104.41,47.0,3.0,,,False,HARD,10.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.79,4.808,8.823,9.23,5.749,5.827,107.073
+0 days 02:21:29.146000,ALO,14,99.206,48.0,3.0,,,False,HARD,11.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.414,-0.416,3.619,3.786,1.004,1.022,101.927
+0 days 02:23:08.992000,ALO,14,99.846,49.0,3.0,,,False,HARD,12.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.226,0.227,4.259,4.456,1.532,1.558,102.625
+0 days 02:24:48.262000,ALO,14,99.27,50.0,3.0,,,False,HARD,13.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.35,-0.351,3.683,3.853,1.12,1.141,102.107
+0 days 02:26:27.881000,ALO,14,99.619,51.0,3.0,,,False,HARD,14.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,-0.001,-0.001,4.032,4.218,1.432,1.458,102.514
+0 days 02:28:09.497000,ALO,14,101.616,52.0,3.0,,,False,HARD,15.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,1.996,2.004,6.029,6.307,3.32,3.378,104.569
+0 days 02:29:49.131000,ALO,14,99.634,53.0,3.0,,,False,HARD,16.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.014,0.014,4.047,4.234,1.023,1.037,102.645
+0 days 02:31:31.104000,ALO,14,101.973,54.0,3.0,,,False,HARD,17.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.353,2.362,6.386,6.681,3.559,3.616,105.041
+0 days 02:33:11.595000,ALO,14,100.491,55.0,3.0,,,False,HARD,18.0,True,Aston Martin,1,17.0,True,14,Spanish Grand Prix,True,C2,True,0.871,0.874,4.904,5.13,1.557,1.574,103.617
+0 days 00:59:59.178000,LEC,16,,1.0,1.0,,,False,HARD,1.0,True,Ferrari,12,5.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:40.681000,LEC,16,101.503,2.0,1.0,,,True,HARD,2.0,True,Ferrari,1,5.0,True,14,Spanish Grand Prix,True,C2,True,1.883,1.89,5.916,6.189,-1.467,-1.425,101.561
+0 days 01:03:20.893000,LEC,16,100.212,3.0,1.0,,,True,HARD,3.0,True,Ferrari,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.592,0.594,4.625,4.839,-2.49,-2.424,100.328
+0 days 01:05:03.191000,LEC,16,102.298,4.0,1.0,,,False,HARD,4.0,True,Ferrari,1,5.0,True,14,Spanish Grand Prix,True,C2,True,2.678,2.688,6.711,7.021,-0.402,-0.391,102.472
+0 days 01:06:45.237000,LEC,16,102.046,5.0,1.0,,,False,HARD,5.0,True,Ferrari,12,4.0,True,14,Spanish Grand Prix,True,C2,False,2.426,2.435,6.459,6.757,-1.304,-1.262,102.278
+0 days 01:08:25.899000,LEC,16,100.662,6.0,1.0,,,False,HARD,6.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,1.042,1.046,5.075,5.309,-2.423,-2.35,100.951
+0 days 01:10:05.976000,LEC,16,100.077,7.0,1.0,,,True,HARD,7.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,0.457,0.459,4.49,4.697,-2.091,-2.047,100.424
+0 days 01:11:45.998000,LEC,16,100.022,8.0,1.0,,,True,HARD,8.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,0.402,0.404,4.435,4.64,-2.074,-2.031,100.427
+0 days 01:13:25.472000,LEC,16,99.474,9.0,1.0,,,True,HARD,9.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.146,-0.147,3.887,4.066,-2.845,-2.781,99.937
+0 days 01:15:05.069000,LEC,16,99.597,10.0,1.0,,,False,HARD,10.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.023,-0.023,4.01,4.195,-3.448,-3.346,100.118
+0 days 01:16:44.570000,LEC,16,99.501,11.0,1.0,,,False,HARD,11.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.119,-0.119,3.914,4.095,-3.046,-2.97,100.08
+0 days 01:18:24.129000,LEC,16,99.559,12.0,1.0,,,False,HARD,12.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.061,-0.061,3.972,4.155,-3.101,-3.021,100.196
+0 days 01:20:03.578000,LEC,16,99.449,13.0,1.0,,,True,HARD,13.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C2,True,-0.171,-0.172,3.862,4.04,-3.061,-2.986,100.144
+0 days 01:21:51.395000,LEC,16,107.817,14.0,1.0,,,False,HARD,14.0,True,Ferrari,126,4.0,False,14,Spanish Grand Prix,True,C2,False,8.197,8.228,12.23,12.795,-18.027,-14.325,108.57
+0 days 01:24:06.613000,LEC,16,135.218,15.0,1.0,,,False,HARD,15.0,True,Ferrari,671,2.0,False,14,Spanish Grand Prix,True,C2,False,35.598,35.734,39.631,41.461,14.184,11.719,136.029
+0 days 01:25:45.386000,LEC,16,98.773,16.0,1.0,,,True,HARD,16.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-0.847,-0.85,3.186,3.333,-1.655,-1.648,99.641
+0 days 01:27:23.684000,LEC,16,98.298,17.0,1.0,,,True,HARD,17.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.322,-1.327,2.711,2.836,-1.86,-1.857,99.224
+0 days 01:29:02.540000,LEC,16,98.856,18.0,1.0,,,False,HARD,18.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-0.764,-0.767,3.269,3.42,-1.422,-1.418,99.84
+0 days 01:30:40.875000,LEC,16,98.335,19.0,1.0,,,False,HARD,19.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.285,-1.29,2.748,2.875,-1.709,-1.708,99.377
+0 days 01:32:19.470000,LEC,16,98.595,20.0,1.0,,,False,HARD,20.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.025,-1.029,3.008,3.147,-1.589,-1.586,99.695
+0 days 01:33:57.854000,LEC,16,98.384,21.0,1.0,,,False,HARD,21.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.236,-1.241,2.797,2.926,-1.747,-1.745,99.542
+0 days 01:35:36.331000,LEC,16,98.477,22.0,1.0,,,False,HARD,22.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.143,-1.147,2.89,3.023,-1.505,-1.505,99.693
+0 days 01:37:14.932000,LEC,16,98.601,23.0,1.0,,,False,HARD,23.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.019,-1.023,3.014,3.153,-1.073,-1.077,99.875
+0 days 01:38:53.587000,LEC,16,98.655,24.0,1.0,,,False,HARD,24.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-0.965,-0.969,3.068,3.21,-1.241,-1.242,99.987
+0 days 01:40:31.915000,LEC,16,98.328,25.0,1.0,,,False,HARD,25.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.292,-1.297,2.741,2.868,-1.768,-1.766,99.717
+0 days 01:42:10.529000,LEC,16,98.614,26.0,1.0,,,False,HARD,26.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.006,-1.01,3.027,3.167,-1.137,-1.14,100.061
+0 days 01:43:49.434000,LEC,16,98.905,27.0,1.0,,,False,HARD,27.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-0.715,-0.718,3.318,3.471,-0.859,-0.861,100.41
+0 days 01:45:27.835000,LEC,16,98.401,28.0,1.0,,,False,HARD,28.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.219,-1.224,2.814,2.944,-1.419,-1.422,99.964
+0 days 01:47:05.974000,LEC,16,98.139,29.0,1.0,,,True,HARD,29.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.481,-1.487,2.552,2.67,-1.279,-1.286,99.76
+0 days 01:48:43.900000,LEC,16,97.926,30.0,1.0,,,True,HARD,30.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.694,-1.7,2.339,2.447,-1.304,-1.314,99.605
+0 days 01:50:21.837000,LEC,16,97.937,31.0,1.0,,,False,HARD,31.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.683,-1.689,2.35,2.458,-1.259,-1.269,99.674
+0 days 01:52:00.017000,LEC,16,98.18,32.0,1.0,,,False,HARD,32.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.44,-1.445,2.593,2.713,-1.069,-1.077,99.975
+0 days 01:53:38.089000,LEC,16,98.072,33.0,1.0,,,False,HARD,33.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.548,-1.554,2.485,2.6,-0.715,-0.724,99.925
+0 days 01:55:16.107000,LEC,16,98.018,34.0,1.0,,,False,HARD,34.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.602,-1.608,2.431,2.543,-0.634,-0.643,99.929
+0 days 01:56:54.130000,LEC,16,98.023,35.0,1.0,,,False,HARD,35.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.597,-1.603,2.436,2.548,-0.915,-0.925,99.991
+0 days 01:58:32.292000,LEC,16,98.162,36.0,1.0,,,False,HARD,36.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.458,-1.464,2.575,2.694,-0.484,-0.491,100.188
+0 days 02:00:10.212000,LEC,16,97.92,37.0,1.0,,,True,HARD,37.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.7,-1.706,2.333,2.441,-0.912,-0.923,100.004
+0 days 02:01:48.151000,LEC,16,97.939,38.0,1.0,,,False,HARD,38.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.681,-1.687,2.352,2.461,-0.751,-0.761,100.081
+0 days 02:03:25.866000,LEC,16,97.715,39.0,1.0,,,True,HARD,39.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.905,-1.912,2.128,2.226,-1.361,-1.374,99.915
+0 days 02:05:03.653000,LEC,16,97.787,40.0,1.0,,,False,HARD,40.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.833,-1.84,2.2,2.302,-0.977,-0.989,100.045
+0 days 02:06:41.314000,LEC,16,97.661,41.0,1.0,,,True,HARD,41.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.959,-1.966,2.074,2.17,-1.277,-1.291,99.977
+0 days 02:08:19.085000,LEC,16,97.771,42.0,1.0,,,False,HARD,42.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.849,-1.856,2.184,2.285,-1.225,-1.237,100.145
+0 days 02:09:56.595000,LEC,16,97.51,43.0,1.0,,,True,HARD,43.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-2.11,-2.118,1.923,2.012,-1.275,-1.291,99.942
+0 days 02:11:34.415000,LEC,16,97.82,44.0,1.0,,,False,HARD,44.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.8,-1.807,2.233,2.336,-1.272,-1.284,100.309
+0 days 02:13:12.510000,LEC,16,98.095,45.0,1.0,,,False,HARD,45.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.525,-1.531,2.508,2.624,-1.035,-1.044,100.642
+0 days 02:14:50.671000,LEC,16,98.161,46.0,1.0,,,False,HARD,46.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.459,-1.465,2.574,2.693,-0.943,-0.952,100.766
+0 days 02:16:28.840000,LEC,16,98.169,47.0,1.0,,,False,HARD,47.0,True,Ferrari,1,1.0,True,14,Spanish Grand Prix,True,C2,True,-1.451,-1.457,2.582,2.701,-0.492,-0.499,100.832
+0 days 02:18:10.416000,LEC,16,101.576,48.0,1.0,,0 days 02:18:09.514000,False,HARD,48.0,True,Ferrari,1,4.0,False,14,Spanish Grand Prix,True,C2,False,1.956,1.963,5.989,6.265,3.374,3.436,104.297
+0 days 02:20:10.983000,LEC,16,120.567,49.0,2.0,0 days 02:18:40.755000,,False,SOFT,1.0,True,Ferrari,1,4.0,False,14,Spanish Grand Prix,True,C4,False,20.947,21.027,24.98,26.133,22.253,22.635,123.346
+0 days 02:21:47.046000,LEC,16,96.063,50.0,2.0,,,True,SOFT,2.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-3.557,-3.571,0.476,0.498,-2.087,-2.126,98.9
+0 days 02:23:23.385000,LEC,16,96.339,51.0,2.0,,,False,SOFT,3.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-3.281,-3.294,0.752,0.787,-1.848,-1.882,99.234
+0 days 02:25:01.022000,LEC,16,97.637,52.0,2.0,,,False,SOFT,4.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-1.983,-1.991,2.05,2.145,-0.659,-0.67,100.59
+0 days 02:26:38.038000,LEC,16,97.016,53.0,2.0,,,False,SOFT,5.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-2.604,-2.614,1.429,1.495,-1.595,-1.617,100.027
+0 days 02:28:15.042000,LEC,16,97.004,54.0,2.0,,,False,SOFT,6.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-2.616,-2.626,1.417,1.482,-1.41,-1.433,100.072
+0 days 02:29:51.719000,LEC,16,96.677,55.0,2.0,,,False,SOFT,7.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-2.943,-2.954,1.09,1.14,-2.257,-2.281,99.803
+0 days 02:31:28.986000,LEC,16,97.267,56.0,2.0,,,False,SOFT,8.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-2.353,-2.362,1.68,1.758,-0.748,-0.763,100.451
+0 days 02:33:06.935000,LEC,16,97.949,57.0,2.0,,,False,SOFT,9.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,-1.671,-1.677,2.362,2.471,0.267,0.273,101.191
+0 days 01:00:07.728000,STR,18,,1.0,1.0,,,False,HARD,1.0,True,Aston Martin,12,19.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:53.101000,STR,18,105.373,2.0,1.0,,,True,HARD,2.0,True,Aston Martin,1,19.0,True,14,Spanish Grand Prix,True,C2,True,5.753,5.775,9.786,10.238,2.403,2.334,105.431
+0 days 01:03:38.043000,STR,18,104.942,3.0,1.0,,,True,HARD,3.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,5.322,5.342,9.355,9.787,2.24,2.181,105.058
+0 days 01:05:22.627000,STR,18,104.584,4.0,1.0,,,True,HARD,4.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.964,4.983,8.997,9.412,1.884,1.834,104.758
+0 days 01:07:06.896000,STR,18,104.269,5.0,1.0,,,True,HARD,5.0,True,Aston Martin,12,20.0,True,14,Spanish Grand Prix,True,C2,False,4.649,4.667,8.682,9.083,0.919,0.889,104.501
+0 days 01:08:51.064000,STR,18,104.168,6.0,1.0,,,True,HARD,6.0,True,Aston Martin,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.548,4.565,8.581,8.977,1.083,1.051,104.457
+0 days 01:10:35.240000,STR,18,104.176,7.0,1.0,,,False,HARD,7.0,True,Aston Martin,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.556,4.573,8.589,8.986,2.008,1.965,104.523
+0 days 01:12:20.150000,STR,18,104.91,8.0,1.0,,,False,HARD,8.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,5.29,5.31,9.323,9.753,2.814,2.756,105.315
+0 days 01:14:04.364000,STR,18,104.214,9.0,1.0,,,False,HARD,9.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.594,4.612,8.627,9.025,1.895,1.852,104.677
+0 days 01:15:48.353000,STR,18,103.989,10.0,1.0,,,True,HARD,10.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.369,4.386,8.402,8.79,0.944,0.916,104.51
+0 days 01:17:31.815000,STR,18,103.462,11.0,1.0,,,True,HARD,11.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,3.842,3.857,7.875,8.239,0.915,0.892,104.041
+0 days 01:19:15.488000,STR,18,103.673,12.0,1.0,,,False,HARD,12.0,True,Aston Martin,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.053,4.068,8.086,8.459,1.013,0.987,104.31
+0 days 01:21:45.488000,STR,18,,13.0,1.0,,,True,HARD,13.0,True,Aston Martin,126,,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:00:06.606000,TSU,22,,1.0,1.0,,,False,HARD,1.0,True,Racing Bulls,12,17.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:50.767000,TSU,22,104.161,2.0,1.0,,,True,HARD,2.0,True,Racing Bulls,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.541,4.558,8.574,8.97,1.191,1.157,104.219
+0 days 01:03:34.961000,TSU,22,104.194,3.0,1.0,,,False,HARD,3.0,True,Racing Bulls,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.574,4.591,8.607,9.004,1.492,1.453,104.31
+0 days 01:05:18.555000,TSU,22,103.594,4.0,1.0,,,True,HARD,4.0,True,Racing Bulls,1,17.0,True,14,Spanish Grand Prix,True,C2,True,3.974,3.989,8.007,8.377,0.894,0.87,103.768
+0 days 01:07:02.809000,TSU,22,104.254,5.0,1.0,,,False,HARD,5.0,True,Racing Bulls,12,17.0,True,14,Spanish Grand Prix,True,C2,False,4.634,4.652,8.667,9.067,0.904,0.875,104.486
+0 days 01:08:46.644000,TSU,22,103.835,6.0,1.0,,,False,HARD,6.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,4.215,4.231,8.248,8.629,0.75,0.728,104.124
+0 days 01:10:30.161000,TSU,22,103.517,7.0,1.0,,,False,HARD,7.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,3.897,3.912,7.93,8.296,1.349,1.32,103.864
+0 days 01:12:13.920000,TSU,22,103.759,8.0,1.0,,,False,HARD,8.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,4.139,4.155,8.172,8.549,1.663,1.629,104.164
+0 days 01:13:57.757000,TSU,22,103.837,9.0,1.0,,,False,HARD,9.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,4.217,4.233,8.25,8.631,1.518,1.484,104.3
+0 days 01:15:41.489000,TSU,22,103.732,10.0,1.0,,,False,HARD,10.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,4.112,4.128,8.145,8.521,0.687,0.667,104.253
+0 days 01:17:24.918000,TSU,22,103.429,11.0,1.0,,,True,HARD,11.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,3.809,3.824,7.842,8.204,0.882,0.86,104.008
+0 days 01:19:09.277000,TSU,22,104.359,12.0,1.0,,,False,HARD,12.0,True,Racing Bulls,1,16.0,True,14,Spanish Grand Prix,True,C2,True,4.739,4.757,8.772,9.177,1.699,1.655,104.996
+0 days 01:20:53.771000,TSU,22,104.494,13.0,1.0,,,False,HARD,13.0,True,Racing Bulls,12,16.0,True,14,Spanish Grand Prix,True,C2,False,4.874,4.893,8.907,9.318,1.984,1.935,105.189
+0 days 01:23:05.128000,TSU,22,131.357,14.0,1.0,,,False,HARD,14.0,True,Racing Bulls,26,15.0,False,14,Spanish Grand Prix,True,C2,False,31.737,31.858,35.77,37.421,5.513,4.381,132.11
+0 days 01:24:59.983000,TSU,22,114.855,15.0,1.0,,,False,HARD,15.0,True,Racing Bulls,671,14.0,False,14,Spanish Grand Prix,True,C2,False,15.235,15.293,19.268,20.158,-6.179,-5.105,115.666
+0 days 01:26:41.746000,TSU,22,101.763,16.0,1.0,,,True,HARD,16.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,2.143,2.151,6.176,6.461,1.335,1.329,102.631
+0 days 01:28:23,TSU,22,101.254,17.0,1.0,,,True,HARD,17.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,1.634,1.64,5.667,5.929,1.096,1.094,102.18
+0 days 01:30:04.192000,TSU,22,101.192,18.0,1.0,,,True,HARD,18.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,1.572,1.578,5.605,5.864,0.914,0.911,102.176
+0 days 01:31:45.241000,TSU,22,101.049,19.0,1.0,,,True,HARD,19.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,1.429,1.434,5.462,5.714,1.005,1.005,102.091
+0 days 01:33:26.112000,TSU,22,100.871,20.0,1.0,,,True,HARD,20.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,1.251,1.256,5.284,5.528,0.687,0.686,101.971
+0 days 01:35:06.894000,TSU,22,100.782,21.0,1.0,,,True,HARD,21.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,1.162,1.166,5.195,5.435,0.651,0.65,101.94
+0 days 01:36:47.451000,TSU,22,100.557,22.0,1.0,,,True,HARD,22.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.937,0.941,4.97,5.199,0.575,0.575,101.773
+0 days 01:38:28.055000,TSU,22,100.604,23.0,1.0,,,False,HARD,23.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.984,0.988,5.017,5.249,0.93,0.933,101.878
+0 days 01:40:08.263000,TSU,22,100.208,24.0,1.0,,,True,HARD,24.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.588,0.59,4.621,4.834,0.312,0.312,101.54
+0 days 01:41:48.441000,TSU,22,100.178,25.0,1.0,,,True,HARD,25.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.558,0.56,4.591,4.803,0.082,0.082,101.567
+0 days 01:43:28.667000,TSU,22,100.226,26.0,1.0,,,False,HARD,26.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.606,0.608,4.639,4.853,0.475,0.476,101.673
+0 days 01:45:09.022000,TSU,22,100.355,27.0,1.0,,,False,HARD,27.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.735,0.738,4.768,4.988,0.591,0.592,101.86
+0 days 01:46:49.109000,TSU,22,100.087,28.0,1.0,,,True,HARD,28.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.467,0.469,4.5,4.708,0.267,0.267,101.65
+0 days 01:48:29.178000,TSU,22,100.069,29.0,1.0,,,True,HARD,29.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.449,0.451,4.482,4.689,0.651,0.655,101.69
+0 days 01:50:09.225000,TSU,22,100.047,30.0,1.0,,,True,HARD,30.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.427,0.429,4.46,4.666,0.817,0.823,101.726
+0 days 01:51:49.059000,TSU,22,99.834,31.0,1.0,,,True,HARD,31.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.214,0.215,4.247,4.443,0.638,0.643,101.571
+0 days 01:53:28.896000,TSU,22,99.837,32.0,1.0,,,False,HARD,32.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.217,0.218,4.25,4.446,0.588,0.592,101.632
+0 days 01:55:08.732000,TSU,22,99.836,33.0,1.0,,,False,HARD,33.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.216,0.217,4.249,4.445,1.049,1.062,101.689
+0 days 01:56:48.592000,TSU,22,99.86,34.0,1.0,,,False,HARD,34.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.24,0.241,4.273,4.47,1.208,1.225,101.771
+0 days 01:58:28.566000,TSU,22,99.974,35.0,1.0,,,False,HARD,35.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C2,True,0.354,0.355,4.387,4.59,1.036,1.047,101.942
+0 days 02:00:11.302000,TSU,22,102.736,36.0,1.0,,0 days 02:00:10.477000,False,HARD,36.0,True,Racing Bulls,1,14.0,False,14,Spanish Grand Prix,True,C2,False,3.116,3.128,7.149,7.479,4.09,4.146,104.762
+0 days 02:02:14.123000,TSU,22,122.821,37.0,2.0,0 days 02:00:41.755000,,False,MEDIUM,1.0,True,Racing Bulls,1,14.0,False,14,Spanish Grand Prix,True,C3,False,23.201,23.29,27.234,28.491,23.989,24.273,124.905
+0 days 02:03:52.993000,TSU,22,98.87,38.0,2.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.75,-0.753,3.283,3.435,0.18,0.182,101.012
+0 days 02:05:32.069000,TSU,22,99.076,39.0,2.0,,,False,MEDIUM,3.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.544,-0.546,3.489,3.65,0.0,0.0,101.276
+0 days 02:07:11.318000,TSU,22,99.249,40.0,2.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.371,-0.372,3.662,3.831,0.485,0.491,101.507
+0 days 02:08:51.079000,TSU,22,99.761,41.0,2.0,,,False,MEDIUM,5.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,0.141,0.142,4.174,4.367,0.823,0.832,102.077
+0 days 02:10:30.843000,TSU,22,99.764,42.0,2.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,0.144,0.145,4.177,4.37,0.768,0.776,102.138
+0 days 02:12:10.520000,TSU,22,99.677,43.0,2.0,,,False,MEDIUM,7.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,0.057,0.057,4.09,4.279,0.892,0.903,102.109
+0 days 02:13:51.152000,TSU,22,100.632,44.0,2.0,,,False,MEDIUM,8.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,1.012,1.016,5.045,5.278,1.54,1.554,103.121
+0 days 02:15:30.590000,TSU,22,99.438,45.0,2.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.182,-0.183,3.851,4.029,0.308,0.311,101.985
+0 days 02:17:10.106000,TSU,22,99.516,46.0,2.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.104,-0.104,3.929,4.11,0.412,0.416,102.121
+0 days 02:18:49.253000,TSU,22,99.147,47.0,2.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.473,-0.475,3.56,3.724,0.486,0.493,101.81
+0 days 02:20:28.323000,TSU,22,99.07,48.0,2.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.55,-0.552,3.483,3.644,0.868,0.884,101.791
+0 days 02:22:07.549000,TSU,22,99.226,49.0,2.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.394,-0.396,3.639,3.807,0.912,0.928,102.005
+0 days 02:23:46.275000,TSU,22,98.726,50.0,2.0,,,True,MEDIUM,14.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.894,-0.897,3.139,3.284,0.576,0.587,101.563
+0 days 02:25:25.034000,TSU,22,98.759,51.0,2.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.861,-0.864,3.172,3.318,0.572,0.583,101.654
+0 days 02:27:03.441000,TSU,22,98.407,52.0,2.0,,,True,MEDIUM,16.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-1.213,-1.218,2.82,2.95,0.111,0.113,101.36
+0 days 02:28:41.984000,TSU,22,98.543,53.0,2.0,,,False,MEDIUM,17.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-1.077,-1.081,2.956,3.092,-0.068,-0.069,101.554
+0 days 02:30:20.380000,TSU,22,98.396,54.0,2.0,,,True,MEDIUM,18.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-1.224,-1.229,2.809,2.939,-0.018,-0.018,101.464
+0 days 02:31:59.164000,TSU,22,98.784,55.0,2.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.836,-0.839,3.197,3.345,-0.15,-0.152,101.91
+0 days 02:33:37.982000,TSU,22,98.818,56.0,2.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,14.0,True,14,Spanish Grand Prix,True,C3,True,-0.802,-0.805,3.231,3.38,0.803,0.819,102.002
+0 days 01:00:05.024000,ALB,23,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,12,14.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:49.235000,ALB,23,104.211,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C3,True,4.591,4.609,8.624,9.022,1.241,1.205,104.269
+0 days 01:03:32.838000,ALB,23,103.603,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C3,True,3.983,3.998,8.016,8.386,0.901,0.877,103.719
+0 days 01:05:16.202000,ALB,23,103.364,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C3,True,3.744,3.758,7.777,8.136,0.664,0.647,103.538
+0 days 01:07:00.679000,ALB,23,104.477,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,12,15.0,True,14,Spanish Grand Prix,True,C3,False,4.857,4.876,8.89,9.3,1.127,1.09,104.709
+0 days 01:08:44.463000,ALB,23,103.784,6.0,1.0,,,False,MEDIUM,6.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,4.164,4.18,8.197,8.575,0.699,0.678,104.073
+0 days 01:10:27.906000,ALB,23,103.443,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.823,3.838,7.856,8.219,1.275,1.248,103.79
+0 days 01:12:11.107000,ALB,23,103.201,8.0,1.0,,,True,MEDIUM,8.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.581,3.595,7.614,7.966,1.105,1.082,103.606
+0 days 01:13:54.470000,ALB,23,103.363,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.743,3.757,7.776,8.135,1.044,1.02,103.826
+0 days 01:15:37.656000,ALB,23,103.186,10.0,1.0,,,True,MEDIUM,10.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.566,3.58,7.599,7.95,0.141,0.137,103.707
+0 days 01:17:20.887000,ALB,23,103.231,11.0,1.0,,,False,MEDIUM,11.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.611,3.625,7.644,7.997,0.684,0.667,103.81
+0 days 01:19:04.322000,ALB,23,103.435,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.815,3.83,7.848,8.21,0.775,0.755,104.072
+0 days 01:20:47.817000,ALB,23,103.495,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,14.0,True,14,Spanish Grand Prix,True,C3,True,3.875,3.89,7.908,8.273,0.985,0.961,104.19
+0 days 01:22:58.071000,ALB,23,130.254,14.0,1.0,,0 days 01:22:57.078000,False,MEDIUM,14.0,True,Williams,126,14.0,False,14,Spanish Grand Prix,True,C3,False,30.634,30.751,34.667,36.267,4.41,3.504,131.007
+0 days 01:25:06.500000,ALB,23,128.429,15.0,2.0,0 days 01:23:28.329000,,False,HARD,1.0,True,Williams,671,17.0,False,14,Spanish Grand Prix,True,C2,False,28.809,28.919,32.842,34.358,7.395,6.11,129.24
+0 days 01:26:48.632000,ALB,23,102.132,16.0,2.0,,,False,HARD,2.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.512,2.522,6.545,6.847,1.704,1.697,103.0
+0 days 01:28:30.186000,ALB,23,101.554,17.0,2.0,,,True,HARD,3.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,1.934,1.941,5.967,6.242,1.396,1.394,102.48
+0 days 01:30:11.912000,ALB,23,101.726,18.0,2.0,,,False,HARD,4.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.106,2.114,6.139,6.422,1.448,1.444,102.71
+0 days 01:31:53.719000,ALB,23,101.807,19.0,2.0,,,False,HARD,5.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.187,2.195,6.22,6.507,1.763,1.762,102.849
+0 days 01:33:35.636000,ALB,23,101.917,20.0,2.0,,,False,HARD,6.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.297,2.306,6.33,6.622,1.733,1.73,103.017
+0 days 01:35:17.497000,ALB,23,101.861,21.0,2.0,,,False,HARD,7.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.241,2.25,6.274,6.564,1.73,1.728,103.019
+0 days 01:36:59.398000,ALB,23,101.901,22.0,2.0,,,False,HARD,8.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.281,2.29,6.314,6.606,1.919,1.919,103.117
+0 days 01:38:41.059000,ALB,23,101.661,23.0,2.0,,,False,HARD,9.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,2.041,2.049,6.074,6.354,1.987,1.993,102.935
+0 days 01:40:22.351000,ALB,23,101.292,24.0,2.0,,,True,HARD,10.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,1.672,1.678,5.705,5.968,1.396,1.397,102.624
+0 days 01:42:03.397000,ALB,23,101.046,25.0,2.0,,,True,HARD,11.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,1.426,1.431,5.459,5.711,0.95,0.949,102.435
+0 days 01:43:44.022000,ALB,23,100.625,26.0,2.0,,,True,HARD,12.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,1.005,1.009,5.038,5.271,0.874,0.876,102.072
+0 days 01:45:24.374000,ALB,23,100.352,27.0,2.0,,,True,HARD,13.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,0.732,0.735,4.765,4.985,0.588,0.589,101.857
+0 days 01:47:04.886000,ALB,23,100.512,28.0,2.0,,,False,HARD,14.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,0.892,0.895,4.925,5.152,0.692,0.693,102.075
+0 days 01:48:49.799000,ALB,23,104.913,29.0,2.0,,,False,HARD,15.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,5.293,5.313,9.326,9.757,5.495,5.527,106.534
+0 days 01:50:32.328000,ALB,23,102.529,30.0,2.0,,,False,HARD,16.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.909,2.92,6.942,7.262,3.299,3.325,104.208
+0 days 01:52:13.778000,ALB,23,101.45,31.0,2.0,,,False,HARD,17.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,1.83,1.837,5.863,6.134,2.254,2.272,103.187
+0 days 01:53:55.864000,ALB,23,102.086,32.0,2.0,,,False,HARD,18.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.466,2.475,6.499,6.799,2.837,2.858,103.881
+0 days 01:55:35.928000,ALB,23,100.064,33.0,2.0,,,True,HARD,19.0,True,Williams,1,16.0,True,14,Spanish Grand Prix,True,C2,True,0.444,0.446,4.477,4.684,1.277,1.293,101.917
+0 days 01:57:15.825000,ALB,23,99.897,34.0,2.0,,,True,HARD,20.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.277,0.278,4.31,4.509,1.245,1.262,101.808
+0 days 01:58:55.708000,ALB,23,99.883,35.0,2.0,,,True,HARD,21.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.263,0.264,4.296,4.494,0.945,0.955,101.851
+0 days 02:00:35.702000,ALB,23,99.994,36.0,2.0,,,False,HARD,22.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.374,0.375,4.407,4.61,1.348,1.367,102.02
+0 days 02:02:16.321000,ALB,23,100.619,37.0,2.0,,,False,HARD,23.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.999,1.003,5.032,5.264,1.787,1.808,102.703
+0 days 02:03:56.487000,ALB,23,100.166,38.0,2.0,,,False,HARD,24.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.546,0.548,4.579,4.79,1.476,1.496,102.308
+0 days 02:05:36.749000,ALB,23,100.262,39.0,2.0,,,False,HARD,25.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.642,0.644,4.675,4.891,1.186,1.197,102.462
+0 days 02:07:16.821000,ALB,23,100.072,40.0,2.0,,,False,HARD,26.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.452,0.454,4.485,4.692,1.308,1.324,102.33
+0 days 02:08:56.952000,ALB,23,100.131,41.0,2.0,,,False,HARD,27.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.511,0.513,4.544,4.754,1.193,1.206,102.447
+0 days 02:10:38.734000,ALB,23,101.782,42.0,2.0,,,False,HARD,28.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.162,2.17,6.195,6.481,2.786,2.814,104.156
+0 days 02:12:18.794000,ALB,23,100.06,43.0,2.0,,,False,HARD,29.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.44,0.442,4.473,4.68,1.275,1.291,102.492
+0 days 02:13:59.925000,ALB,23,101.131,44.0,2.0,,,False,HARD,30.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,1.511,1.517,5.544,5.8,2.039,2.058,103.62
+0 days 02:15:39.697000,ALB,23,99.772,45.0,2.0,,,True,HARD,31.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.152,0.153,4.185,4.378,0.642,0.648,102.319
+0 days 02:17:19.193000,ALB,23,99.496,46.0,2.0,,,True,HARD,32.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.124,-0.124,3.909,4.089,0.392,0.396,102.101
+0 days 02:18:58.590000,ALB,23,99.397,47.0,2.0,,,True,HARD,33.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.223,-0.224,3.81,3.986,0.736,0.746,102.06
+0 days 02:20:38.025000,ALB,23,99.435,48.0,2.0,,,False,HARD,34.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.185,-0.186,3.848,4.026,1.233,1.256,102.156
+0 days 02:22:17.631000,ALB,23,99.606,49.0,2.0,,,False,HARD,35.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.014,-0.014,4.019,4.205,1.292,1.314,102.385
+0 days 02:23:57.758000,ALB,23,100.127,50.0,2.0,,,False,HARD,36.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.507,0.509,4.54,4.75,1.977,2.014,102.964
+0 days 02:25:37.374000,ALB,23,99.616,51.0,2.0,,,False,HARD,37.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.004,-0.004,4.029,4.215,1.429,1.455,102.511
+0 days 02:27:17.668000,ALB,23,100.294,52.0,2.0,,,False,HARD,38.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.674,0.677,4.707,4.924,1.998,2.033,103.247
+0 days 02:28:57.697000,ALB,23,100.029,53.0,2.0,,,False,HARD,39.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.409,0.411,4.442,4.647,1.418,1.438,103.04
+0 days 02:30:38.217000,ALB,23,100.52,54.0,2.0,,,False,HARD,40.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.9,0.903,4.933,5.161,2.106,2.14,103.588
+0 days 02:32:21.563000,ALB,23,103.346,55.0,2.0,,,False,HARD,41.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,3.726,3.74,7.759,8.117,4.412,4.46,106.472
+0 days 02:34:04.031000,ALB,23,102.468,56.0,2.0,,,False,HARD,42.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.848,2.859,6.881,7.199,4.453,4.543,105.652
+0 days 01:00:03.297000,HUL,27,,1.0,1.0,,,False,SOFT,1.0,True,Audi,12,12.0,False,14,Spanish Grand Prix,True,C4,False,,,,,,,
+0 days 01:01:46.674000,HUL,27,103.377,2.0,1.0,,,True,SOFT,2.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C4,True,3.757,3.771,7.79,8.15,0.407,0.395,103.435
+0 days 01:03:29.481000,HUL,27,102.807,3.0,1.0,,,True,SOFT,3.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C4,True,3.187,3.199,7.22,7.553,0.105,0.102,102.923
+0 days 01:05:12.002000,HUL,27,102.521,4.0,1.0,,,True,SOFT,4.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C4,True,2.901,2.912,6.934,7.254,-0.179,-0.174,102.695
+0 days 01:06:55.156000,HUL,27,103.154,5.0,1.0,,,False,SOFT,5.0,True,Audi,12,12.0,True,14,Spanish Grand Prix,True,C4,False,3.534,3.547,7.567,7.916,-0.196,-0.19,103.386
+0 days 01:08:38.241000,HUL,27,103.085,6.0,1.0,,,False,SOFT,6.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,3.465,3.478,7.498,7.844,0.0,0.0,103.374
+0 days 01:10:20.350000,HUL,27,102.109,7.0,1.0,,,True,SOFT,7.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.489,2.498,6.522,6.823,-0.059,-0.058,102.456
+0 days 01:12:02.397000,HUL,27,102.047,8.0,1.0,,,True,SOFT,8.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.427,2.436,6.46,6.758,-0.049,-0.048,102.452
+0 days 01:13:44.844000,HUL,27,102.447,9.0,1.0,,,False,SOFT,9.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.827,2.838,6.86,7.177,0.128,0.125,102.91
+0 days 01:15:26.870000,HUL,27,102.026,10.0,1.0,,,True,SOFT,10.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.406,2.415,6.439,6.736,-1.019,-0.989,102.547
+0 days 01:17:09.415000,HUL,27,102.545,11.0,1.0,,,False,SOFT,11.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.925,2.936,6.958,7.279,-0.002,-0.002,103.124
+0 days 01:18:52.209000,HUL,27,102.794,12.0,1.0,,,False,SOFT,12.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,3.174,3.186,7.207,7.54,0.134,0.131,103.431
+0 days 01:20:34.739000,HUL,27,102.53,13.0,1.0,,,False,SOFT,13.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C4,True,2.91,2.921,6.943,7.264,0.02,0.02,103.225
+0 days 01:22:39.095000,HUL,27,124.356,14.0,1.0,,0 days 01:22:38.120000,False,SOFT,14.0,True,Audi,126,11.0,False,14,Spanish Grand Prix,True,C4,False,24.736,24.83,28.769,30.097,-1.488,-1.182,125.109
+0 days 01:24:51.156000,HUL,27,132.061,15.0,2.0,0 days 01:23:09.287000,,False,HARD,1.0,True,Audi,671,12.0,False,14,Spanish Grand Prix,True,C2,False,32.441,32.565,36.474,38.158,11.027,9.111,132.872
+0 days 01:26:31.584000,HUL,27,100.428,16.0,2.0,,,True,HARD,2.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.808,0.811,4.841,5.064,0.0,0.0,101.296
+0 days 01:28:11.968000,HUL,27,100.384,17.0,2.0,,,True,HARD,3.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.764,0.767,4.797,5.018,0.226,0.226,101.31
+0 days 01:29:52.201000,HUL,27,100.233,18.0,2.0,,,True,HARD,4.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.613,0.615,4.646,4.86,-0.045,-0.045,101.217
+0 days 01:31:32.641000,HUL,27,100.44,19.0,2.0,,,False,HARD,5.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.82,0.823,4.853,5.077,0.396,0.396,101.482
+0 days 01:33:12.900000,HUL,27,100.259,20.0,2.0,,,False,HARD,6.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.639,0.641,4.672,4.888,0.075,0.075,101.359
+0 days 01:34:52.491000,HUL,27,99.591,21.0,2.0,,,True,HARD,7.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.029,-0.029,4.004,4.189,-0.54,-0.539,100.749
+0 days 01:36:32.651000,HUL,27,100.16,22.0,2.0,,,False,HARD,8.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.54,0.542,4.573,4.784,0.178,0.178,101.376
+0 days 01:38:12.168000,HUL,27,99.517,23.0,2.0,,,True,HARD,9.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.103,-0.103,3.93,4.111,-0.157,-0.158,100.791
+0 days 01:39:52.064000,HUL,27,99.896,24.0,2.0,,,False,HARD,10.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.276,0.277,4.309,4.508,0.0,0.0,101.228
+0 days 01:41:32.270000,HUL,27,100.206,25.0,2.0,,,False,HARD,11.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.586,0.588,4.619,4.832,0.11,0.11,101.595
+0 days 01:43:12.262000,HUL,27,99.992,26.0,2.0,,,False,HARD,12.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.372,0.373,4.405,4.608,0.241,0.242,101.439
+0 days 01:44:52.457000,HUL,27,100.195,27.0,2.0,,,False,HARD,13.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.575,0.577,4.608,4.821,0.431,0.432,101.7
+0 days 01:46:32.605000,HUL,27,100.148,28.0,2.0,,,False,HARD,14.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.528,0.53,4.561,4.772,0.328,0.329,101.711
+0 days 01:48:12.169000,HUL,27,99.564,29.0,2.0,,,False,HARD,15.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.056,-0.056,3.977,4.161,0.146,0.147,101.185
+0 days 01:49:51.399000,HUL,27,99.23,30.0,2.0,,,True,HARD,16.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.39,-0.391,3.643,3.811,0.0,0.0,100.909
+0 days 01:51:30.608000,HUL,27,99.209,31.0,2.0,,,True,HARD,17.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.411,-0.413,3.622,3.789,0.013,0.013,100.946
+0 days 01:53:09.800000,HUL,27,99.192,32.0,2.0,,,True,HARD,18.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.428,-0.43,3.605,3.771,-0.057,-0.057,100.987
+0 days 01:54:48.737000,HUL,27,98.937,33.0,2.0,,,True,HARD,19.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.683,-0.686,3.35,3.505,0.15,0.152,100.79
+0 days 01:56:27.541000,HUL,27,98.804,34.0,2.0,,,True,HARD,20.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.816,-0.819,3.217,3.366,0.152,0.154,100.715
+0 days 01:58:05.909000,HUL,27,98.368,35.0,2.0,,,True,HARD,21.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-1.252,-1.257,2.781,2.909,-0.57,-0.576,100.336
+0 days 01:59:44.499000,HUL,27,98.59,36.0,2.0,,,False,HARD,22.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-1.03,-1.034,3.003,3.142,-0.056,-0.057,100.616
+0 days 02:01:23.312000,HUL,27,98.813,37.0,2.0,,,False,HARD,23.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.807,-0.81,3.226,3.375,-0.019,-0.019,100.897
+0 days 02:03:02.163000,HUL,27,98.851,38.0,2.0,,,False,HARD,24.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.769,-0.772,3.264,3.415,0.161,0.163,100.993
+0 days 02:04:41.620000,HUL,27,99.457,39.0,2.0,,,False,HARD,25.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.163,-0.164,3.87,4.049,0.381,0.385,101.657
+0 days 02:06:20.384000,HUL,27,98.764,40.0,2.0,,,False,HARD,26.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.856,-0.859,3.177,3.324,0.0,0.0,101.022
+0 days 02:07:58.950000,HUL,27,98.566,41.0,2.0,,,False,HARD,27.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-1.054,-1.058,2.979,3.117,-0.372,-0.376,100.882
+0 days 02:09:37.711000,HUL,27,98.761,42.0,2.0,,,False,HARD,28.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.859,-0.862,3.174,3.321,-0.235,-0.237,101.135
+0 days 02:11:16.496000,HUL,27,98.785,43.0,2.0,,,False,HARD,29.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.835,-0.838,3.198,3.346,0.0,0.0,101.217
+0 days 02:12:55.276000,HUL,27,98.78,44.0,2.0,,,False,HARD,30.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.84,-0.843,3.193,3.34,-0.312,-0.315,101.269
+0 days 02:14:35.026000,HUL,27,99.75,45.0,2.0,,,False,HARD,31.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.13,0.13,4.163,4.355,0.62,0.625,102.297
+0 days 02:16:14.946000,HUL,27,99.92,46.0,2.0,,,False,HARD,32.0,True,Audi,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.3,0.301,4.333,4.533,0.816,0.823,102.525
+0 days 02:17:54.955000,HUL,27,100.009,47.0,2.0,,,False,HARD,33.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.389,0.39,4.422,4.626,1.348,1.366,102.672
+0 days 02:19:33.834000,HUL,27,98.879,48.0,2.0,,,False,HARD,34.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.741,-0.744,3.292,3.444,0.677,0.689,101.6
+0 days 02:21:12.523000,HUL,27,98.689,49.0,2.0,,,False,HARD,35.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.931,-0.935,3.102,3.245,0.375,0.381,101.468
+0 days 02:22:50.637000,HUL,27,98.114,50.0,2.0,,,True,HARD,36.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.506,-1.512,2.527,2.644,-0.036,-0.037,100.951
+0 days 02:24:28.823000,HUL,27,98.186,51.0,2.0,,,False,HARD,37.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.434,-1.439,2.599,2.719,-0.001,-0.001,101.081
+0 days 02:26:07.007000,HUL,27,98.184,52.0,2.0,,,False,HARD,38.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.436,-1.441,2.597,2.717,-0.112,-0.114,101.137
+0 days 02:27:45.830000,HUL,27,98.823,53.0,2.0,,,False,HARD,39.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.797,-0.8,3.236,3.385,0.212,0.215,101.834
+0 days 02:29:26.834000,HUL,27,101.004,54.0,2.0,,,False,HARD,40.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,1.384,1.389,5.417,5.667,2.59,2.632,104.072
+0 days 02:31:09.471000,HUL,27,102.637,55.0,2.0,,,False,HARD,41.0,True,Audi,1,11.0,True,14,Spanish Grand Prix,True,C2,True,3.017,3.029,7.05,7.375,3.703,3.743,105.763
+0 days 02:32:49.117000,HUL,27,99.646,56.0,2.0,,,False,HARD,42.0,True,Audi,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.026,0.026,4.059,4.246,1.631,1.664,102.83
+0 days 00:59:57.196000,VER,3,,1.0,1.0,,,False,SOFT,4.0,False,Red Bull Racing,12,2.0,False,14,Spanish Grand Prix,True,C4,False,,,,,,,
+0 days 01:01:37.321000,VER,3,100.125,2.0,1.0,,,True,SOFT,5.0,False,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C4,True,0.505,0.507,4.538,4.748,-2.845,-2.763,100.183
+0 days 01:03:17.476000,VER,3,100.155,3.0,1.0,,,False,SOFT,6.0,False,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C4,True,0.535,0.537,4.568,4.779,-2.547,-2.48,100.271
+0 days 01:05:02.800000,VER,3,105.324,4.0,1.0,,,False,SOFT,7.0,False,Red Bull Racing,1,4.0,True,14,Spanish Grand Prix,True,C4,True,5.704,5.726,9.737,10.187,2.624,2.555,105.498
+0 days 01:06:42.903000,VER,3,100.103,5.0,1.0,,,True,SOFT,8.0,False,Red Bull Racing,12,3.0,True,14,Spanish Grand Prix,True,C4,False,0.483,0.485,4.516,4.724,-3.247,-3.142,100.335
+0 days 01:08:23.368000,VER,3,100.465,6.0,1.0,,,False,SOFT,9.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.845,0.848,4.878,5.103,-2.62,-2.542,100.754
+0 days 01:10:03.794000,VER,3,100.426,7.0,1.0,,,False,SOFT,10.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.806,0.809,4.839,5.062,-1.742,-1.705,100.773
+0 days 01:11:43.688000,VER,3,99.894,8.0,1.0,,,True,SOFT,11.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.274,0.275,4.307,4.506,-2.202,-2.157,100.299
+0 days 01:13:23.514000,VER,3,99.826,9.0,1.0,,,True,SOFT,12.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.206,0.207,4.239,4.435,-2.493,-2.436,100.289
+0 days 01:15:03.111000,VER,3,99.597,10.0,1.0,,,True,SOFT,13.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,-0.023,-0.023,4.01,4.195,-3.448,-3.346,100.118
+0 days 01:16:42.661000,VER,3,99.55,11.0,1.0,,,True,SOFT,14.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,-0.07,-0.07,3.963,4.146,-2.997,-2.923,100.129
+0 days 01:18:22.351000,VER,3,99.69,12.0,1.0,,,False,SOFT,15.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.07,0.07,4.103,4.292,-2.97,-2.893,100.327
+0 days 01:20:02.069000,VER,3,99.718,13.0,1.0,,,False,SOFT,16.0,False,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C4,True,0.098,0.098,4.131,4.322,-2.792,-2.724,100.413
+0 days 01:21:48.138000,VER,3,106.069,14.0,1.0,,0 days 01:21:47.157000,False,SOFT,17.0,False,Red Bull Racing,126,3.0,False,14,Spanish Grand Prix,True,C4,False,6.449,6.474,10.482,10.966,-19.775,-15.714,106.822
+0 days 01:24:14.147000,VER,3,146.009,15.0,2.0,0 days 01:22:18.303000,,False,HARD,1.0,True,Red Bull Racing,671,4.0,False,14,Spanish Grand Prix,True,C2,False,46.389,46.566,50.422,52.75,24.975,20.635,146.82
+0 days 01:25:53.201000,VER,3,99.054,16.0,2.0,,,True,HARD,2.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.566,-0.568,3.467,3.627,-1.374,-1.368,99.922
+0 days 01:27:32.020000,VER,3,98.819,17.0,2.0,,,True,HARD,3.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.801,-0.804,3.232,3.381,-1.339,-1.337,99.745
+0 days 01:29:10.700000,VER,3,98.68,18.0,2.0,,,True,HARD,4.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.94,-0.944,3.093,3.236,-1.598,-1.594,99.664
+0 days 01:30:49.141000,VER,3,98.441,19.0,2.0,,,True,HARD,5.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.179,-1.183,2.854,2.986,-1.603,-1.602,99.483
+0 days 01:32:27.695000,VER,3,98.554,20.0,2.0,,,False,HARD,6.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.066,-1.07,2.967,3.104,-1.63,-1.627,99.654
+0 days 01:34:06.402000,VER,3,98.707,21.0,2.0,,,False,HARD,7.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.913,-0.916,3.12,3.264,-1.424,-1.422,99.865
+0 days 01:35:45.238000,VER,3,98.836,22.0,2.0,,,False,HARD,8.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.784,-0.787,3.249,3.399,-1.146,-1.146,100.052
+0 days 01:37:23.973000,VER,3,98.735,23.0,2.0,,,False,HARD,9.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.885,-0.888,3.148,3.293,-0.939,-0.942,100.009
+0 days 01:39:02.524000,VER,3,98.551,24.0,2.0,,,False,HARD,10.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.069,-1.073,2.964,3.101,-1.345,-1.346,99.883
+0 days 01:40:41.424000,VER,3,98.9,25.0,2.0,,,False,HARD,11.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.72,-0.723,3.313,3.466,-1.196,-1.195,100.289
+0 days 01:42:19.498000,VER,3,98.074,26.0,2.0,,,True,HARD,12.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.546,-1.552,2.487,2.602,-1.677,-1.681,99.521
+0 days 01:43:57.579000,VER,3,98.081,27.0,2.0,,,False,HARD,13.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.539,-1.545,2.494,2.609,-1.683,-1.687,99.586
+0 days 01:45:36.257000,VER,3,98.678,28.0,2.0,,,False,HARD,14.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-0.942,-0.946,3.091,3.234,-1.142,-1.144,100.241
+0 days 01:47:14.497000,VER,3,98.24,29.0,2.0,,,False,HARD,15.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.38,-1.385,2.653,2.775,-1.178,-1.185,99.861
+0 days 01:48:52.747000,VER,3,98.25,30.0,2.0,,,False,HARD,16.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.37,-1.375,2.663,2.786,-0.98,-0.988,99.929
+0 days 01:50:31.015000,VER,3,98.268,31.0,2.0,,,False,HARD,17.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.352,-1.357,2.681,2.805,-0.928,-0.936,100.005
+0 days 01:52:08.925000,VER,3,97.91,32.0,2.0,,,True,HARD,18.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.71,-1.717,2.323,2.43,-1.339,-1.349,99.705
+0 days 01:53:46.955000,VER,3,98.03,33.0,2.0,,,False,HARD,19.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.59,-1.596,2.443,2.556,-0.757,-0.766,99.883
+0 days 01:55:24.523000,VER,3,97.568,34.0,2.0,,,True,HARD,20.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.052,-2.06,1.981,2.072,-1.084,-1.099,99.479
+0 days 01:57:02.214000,VER,3,97.691,35.0,2.0,,,False,HARD,21.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.929,-1.936,2.104,2.201,-1.247,-1.26,99.659
+0 days 01:58:39.905000,VER,3,97.691,36.0,2.0,,,False,HARD,22.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.929,-1.936,2.104,2.201,-0.955,-0.968,99.717
+0 days 02:00:17.723000,VER,3,97.818,37.0,2.0,,,False,HARD,23.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.802,-1.809,2.231,2.334,-1.014,-1.026,99.902
+0 days 02:01:55.235000,VER,3,97.512,38.0,2.0,,,True,HARD,24.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.108,-2.116,1.925,2.014,-1.178,-1.194,99.654
+0 days 02:03:32.911000,VER,3,97.676,39.0,2.0,,,False,HARD,25.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-1.944,-1.951,2.089,2.185,-1.4,-1.413,99.876
+0 days 02:05:10.330000,VER,3,97.419,40.0,2.0,,,True,HARD,26.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.201,-2.209,1.832,1.917,-1.345,-1.362,99.677
+0 days 02:06:47.893000,VER,3,97.563,41.0,2.0,,,False,HARD,27.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.057,-2.065,1.976,2.067,-1.375,-1.39,99.879
+0 days 02:08:25.270000,VER,3,97.377,42.0,2.0,,,True,HARD,28.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.243,-2.252,1.79,1.873,-1.619,-1.635,99.751
+0 days 02:10:02.426000,VER,3,97.156,43.0,2.0,,,True,HARD,29.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.464,-2.473,1.569,1.641,-1.629,-1.649,99.588
+0 days 02:11:39.503000,VER,3,97.077,44.0,2.0,,,True,HARD,30.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.543,-2.553,1.49,1.559,-2.015,-2.033,99.566
+0 days 02:13:16.607000,VER,3,97.104,45.0,2.0,,,False,HARD,31.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.516,-2.526,1.517,1.587,-2.026,-2.044,99.651
+0 days 02:14:53.924000,VER,3,97.317,46.0,2.0,,,False,HARD,32.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.303,-2.312,1.73,1.81,-1.787,-1.803,99.922
+0 days 02:16:31.235000,VER,3,97.311,47.0,2.0,,,False,HARD,33.0,True,Red Bull Racing,1,3.0,True,14,Spanish Grand Prix,True,C2,True,-2.309,-2.318,1.724,1.804,-1.35,-1.368,99.974
+0 days 02:18:08.895000,VER,3,97.66,48.0,2.0,,,False,HARD,34.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.96,-1.967,2.073,2.169,-0.542,-0.552,100.381
+0 days 02:19:45.817000,VER,3,96.922,49.0,2.0,,,True,HARD,35.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.698,-2.708,1.335,1.397,-1.392,-1.416,99.701
+0 days 02:21:22.751000,VER,3,96.934,50.0,2.0,,,False,HARD,36.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.686,-2.696,1.347,1.409,-1.216,-1.239,99.771
+0 days 02:22:59.696000,VER,3,96.945,51.0,2.0,,,False,HARD,37.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.675,-2.685,1.358,1.421,-1.242,-1.265,99.84
+0 days 02:24:36.456000,VER,3,96.76,52.0,2.0,,,True,HARD,38.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.86,-2.871,1.173,1.227,-1.536,-1.563,99.713
+0 days 02:26:13.273000,VER,3,96.817,53.0,2.0,,,False,HARD,39.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.803,-2.814,1.23,1.287,-1.794,-1.819,99.828
+0 days 02:27:50.097000,VER,3,96.824,54.0,2.0,,,False,HARD,40.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.796,-2.807,1.237,1.294,-1.59,-1.616,99.892
+0 days 02:29:27.332000,VER,3,97.235,55.0,2.0,,,False,HARD,41.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.385,-2.394,1.648,1.724,-1.699,-1.717,100.361
+0 days 02:31:05.169000,VER,3,97.837,56.0,2.0,,,False,HARD,42.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-1.783,-1.79,2.25,2.354,-0.178,-0.182,101.021
+0 days 02:32:42.170000,VER,3,97.001,57.0,2.0,,,False,HARD,43.0,True,Red Bull Racing,1,2.0,True,14,Spanish Grand Prix,True,C2,True,-2.619,-2.629,1.414,1.479,-0.681,-0.697,100.243
+0 days 01:00:01.268000,LAW,30,,1.0,1.0,,,False,HARD,1.0,True,Red Bull Racing,12,8.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:43.857000,LAW,30,102.589,2.0,1.0,,,True,HARD,2.0,True,Red Bull Racing,1,8.0,True,14,Spanish Grand Prix,True,C2,True,2.969,2.98,7.002,7.325,-0.381,-0.37,102.647
+0 days 01:03:26.020000,LAW,30,102.163,3.0,1.0,,,True,HARD,3.0,True,Red Bull Racing,1,8.0,True,14,Spanish Grand Prix,True,C2,True,2.543,2.553,6.576,6.88,-0.539,-0.525,102.279
+0 days 01:05:07.830000,LAW,30,101.81,4.0,1.0,,,True,HARD,4.0,True,Red Bull Racing,1,8.0,True,14,Spanish Grand Prix,True,C2,True,2.19,2.198,6.223,6.51,-0.89,-0.867,101.984
+0 days 01:06:51.285000,LAW,30,103.455,5.0,1.0,,,False,HARD,5.0,True,Red Bull Racing,12,7.0,True,14,Spanish Grand Prix,True,C2,False,3.835,3.85,7.868,8.231,0.105,0.102,103.687
+0 days 01:08:33.476000,LAW,30,102.191,6.0,1.0,,,False,HARD,6.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C2,True,2.571,2.581,6.604,6.909,-0.894,-0.867,102.48
+0 days 01:10:15.541000,LAW,30,102.065,7.0,1.0,,,False,HARD,7.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C2,True,2.445,2.454,6.478,6.777,-0.103,-0.101,102.412
+0 days 01:11:57.500000,LAW,30,101.959,8.0,1.0,,,False,HARD,8.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C2,True,2.339,2.348,6.372,6.666,-0.137,-0.134,102.364
+0 days 01:13:39.768000,LAW,30,102.268,9.0,1.0,,,False,HARD,9.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C2,True,2.648,2.658,6.681,6.989,-0.051,-0.05,102.731
+0 days 01:15:21.360000,LAW,30,101.592,10.0,1.0,,,True,HARD,10.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,1.972,1.98,6.005,6.282,-1.453,-1.41,102.113
+0 days 01:17:01.755000,LAW,30,100.395,11.0,1.0,,,True,HARD,11.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.775,0.778,4.808,5.03,-2.152,-2.099,100.974
+0 days 01:18:42.313000,LAW,30,100.558,12.0,1.0,,,False,HARD,12.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.938,0.942,4.971,5.2,-2.102,-2.048,101.195
+0 days 01:20:22.418000,LAW,30,100.105,13.0,1.0,,,True,HARD,13.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.485,0.487,4.518,4.727,-2.405,-2.346,100.8
+0 days 01:22:21.619000,LAW,30,119.201,14.0,1.0,,,False,HARD,14.0,True,Red Bull Racing,126,6.0,False,14,Spanish Grand Prix,True,C2,False,19.581,19.656,23.614,24.704,-6.643,-5.279,119.954
+0 days 01:24:26.639000,LAW,30,125.02,15.0,1.0,,,False,HARD,15.0,True,Red Bull Racing,671,6.0,False,14,Spanish Grand Prix,True,C2,False,25.4,25.497,29.433,30.792,3.986,3.293,125.831
+0 days 01:26:06.852000,LAW,30,100.213,16.0,1.0,,,False,HARD,16.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.593,0.595,4.626,4.84,-0.215,-0.214,101.081
+0 days 01:27:46.859000,LAW,30,100.007,17.0,1.0,,,True,HARD,17.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.387,0.388,4.42,4.624,-0.151,-0.151,100.933
+0 days 01:29:26.688000,LAW,30,99.829,18.0,1.0,,,True,HARD,18.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.209,0.21,4.242,4.438,-0.449,-0.448,100.813
+0 days 01:31:05.840000,LAW,30,99.152,19.0,1.0,,,True,HARD,19.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.468,-0.47,3.565,3.73,-0.892,-0.892,100.194
+0 days 01:32:45.194000,LAW,30,99.354,20.0,1.0,,,False,HARD,20.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.266,-0.267,3.767,3.941,-0.83,-0.828,100.454
+0 days 01:34:24.714000,LAW,30,99.52,21.0,1.0,,,False,HARD,21.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.1,-0.1,3.933,4.115,-0.611,-0.61,100.678
+0 days 01:36:04.052000,LAW,30,99.338,22.0,1.0,,,False,HARD,22.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.282,-0.283,3.751,3.924,-0.644,-0.644,100.554
+0 days 01:37:42.996000,LAW,30,98.944,23.0,1.0,,,True,HARD,23.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.676,-0.679,3.357,3.512,-0.73,-0.732,100.218
+0 days 01:39:22.062000,LAW,30,99.066,24.0,1.0,,,False,HARD,24.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.554,-0.556,3.479,3.64,-0.83,-0.831,100.398
+0 days 01:41:01.990000,LAW,30,99.928,25.0,1.0,,,False,HARD,25.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,0.308,0.309,4.341,4.541,-0.168,-0.168,101.317
+0 days 01:42:41.261000,LAW,30,99.271,26.0,1.0,,,False,HARD,26.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.349,-0.35,3.684,3.854,-0.48,-0.481,100.718
+0 days 01:44:20.661000,LAW,30,99.4,27.0,1.0,,,False,HARD,27.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.22,-0.221,3.813,3.989,-0.364,-0.365,100.905
+0 days 01:46:00.013000,LAW,30,99.352,28.0,1.0,,,False,HARD,28.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.268,-0.269,3.765,3.939,-0.468,-0.469,100.915
+0 days 01:47:39.755000,LAW,30,99.742,29.0,1.0,,,False,HARD,29.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.122,0.122,4.155,4.347,0.324,0.326,101.363
+0 days 01:49:18.638000,LAW,30,98.883,30.0,1.0,,,True,HARD,30.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.737,-0.74,3.296,3.448,-0.347,-0.35,100.562
+0 days 01:50:57.820000,LAW,30,99.182,31.0,1.0,,,False,HARD,31.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.438,-0.44,3.595,3.761,-0.014,-0.014,100.919
+0 days 01:52:37.093000,LAW,30,99.273,32.0,1.0,,,False,HARD,32.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.347,-0.348,3.686,3.856,0.024,0.024,101.068
+0 days 01:54:15.668000,LAW,30,98.575,33.0,1.0,,,True,HARD,33.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.045,-1.049,2.988,3.126,-0.212,-0.215,100.428
+0 days 01:55:54.133000,LAW,30,98.465,34.0,1.0,,,True,HARD,34.0,True,Red Bull Racing,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.155,-1.159,2.878,3.011,-0.187,-0.19,100.376
+0 days 01:57:36.662000,LAW,30,102.529,35.0,1.0,,,False,HARD,35.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,2.909,2.92,6.942,7.262,3.591,3.63,104.497
+0 days 01:59:15.603000,LAW,30,98.941,36.0,1.0,,,False,HARD,36.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.679,-0.682,3.354,3.509,0.295,0.299,100.967
+0 days 02:00:54.688000,LAW,30,99.085,37.0,1.0,,,False,HARD,37.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.535,-0.537,3.498,3.659,0.253,0.256,101.169
+0 days 02:02:33.433000,LAW,30,98.745,38.0,1.0,,,False,HARD,38.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.875,-0.878,3.158,3.304,0.055,0.056,100.887
+0 days 02:04:12.194000,LAW,30,98.761,39.0,1.0,,,False,HARD,39.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.859,-0.862,3.174,3.321,-0.315,-0.318,100.961
+0 days 02:05:50.892000,LAW,30,98.698,40.0,1.0,,,False,HARD,40.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.922,-0.926,3.111,3.255,-0.066,-0.067,100.956
+0 days 02:07:29.559000,LAW,30,98.667,41.0,1.0,,,False,HARD,41.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.953,-0.957,3.08,3.222,-0.271,-0.274,100.983
+0 days 02:09:08.444000,LAW,30,98.885,42.0,1.0,,,False,HARD,42.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-0.735,-0.738,3.298,3.45,-0.111,-0.112,101.259
+0 days 02:10:46.950000,LAW,30,98.506,43.0,1.0,,,False,HARD,43.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.114,-1.118,2.919,3.054,-0.279,-0.282,100.938
+0 days 02:12:28.535000,LAW,30,101.585,44.0,1.0,,0 days 02:12:27.613000,False,HARD,44.0,True,Red Bull Racing,1,6.0,False,14,Spanish Grand Prix,True,C2,False,1.965,1.972,5.998,6.275,2.493,2.516,104.074
+0 days 02:14:30.238000,LAW,30,121.703,45.0,2.0,0 days 02:12:58.574000,,False,MEDIUM,1.0,True,Red Bull Racing,1,7.0,False,14,Spanish Grand Prix,True,C3,False,22.083,22.167,26.116,27.322,22.573,22.771,124.25
+0 days 02:16:08.177000,LAW,30,97.939,46.0,2.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-1.681,-1.687,2.352,2.461,-1.165,-1.176,100.544
+0 days 02:17:45.378000,LAW,30,97.201,47.0,2.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-2.419,-2.428,1.614,1.689,-1.46,-1.48,99.864
+0 days 02:19:22.609000,LAW,30,97.231,48.0,2.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-2.389,-2.398,1.644,1.72,-0.971,-0.989,99.952
+0 days 02:20:59.455000,LAW,30,96.846,49.0,2.0,,,True,MEDIUM,5.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-2.774,-2.785,1.259,1.317,-1.468,-1.493,99.625
+0 days 02:22:36.853000,LAW,30,97.398,50.0,2.0,,,False,MEDIUM,6.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-2.222,-2.23,1.811,1.895,-0.752,-0.766,100.235
+0 days 02:24:14.478000,LAW,30,97.625,51.0,2.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-1.995,-2.003,2.038,2.132,-0.562,-0.572,100.52
+0 days 02:25:52.905000,LAW,30,98.427,52.0,2.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-1.193,-1.198,2.84,2.971,0.131,0.133,101.38
+0 days 02:27:32.226000,LAW,30,99.321,53.0,2.0,,,False,MEDIUM,9.0,True,Red Bull Racing,1,7.0,True,14,Spanish Grand Prix,True,C3,True,-0.299,-0.3,3.734,3.906,0.71,0.72,102.332
+0 days 02:29:11.969000,LAW,30,99.743,54.0,2.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C3,True,0.123,0.123,4.156,4.348,1.329,1.35,102.811
+0 days 02:30:49.425000,LAW,30,97.456,55.0,2.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C3,True,-2.164,-2.172,1.869,1.955,-1.478,-1.494,100.582
+0 days 02:32:26.713000,LAW,30,97.288,56.0,2.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C3,True,-2.332,-2.341,1.701,1.78,-0.727,-0.742,100.472
+0 days 02:34:04.565000,LAW,30,97.852,57.0,2.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,6.0,True,14,Spanish Grand Prix,True,C3,True,-1.768,-1.775,2.265,2.37,0.17,0.174,101.094
+0 days 01:00:02.802000,OCO,31,,1.0,1.0,,,False,MEDIUM,1.0,True,Haas F1 Team,12,11.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:46.007000,OCO,31,103.205,2.0,1.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,11.0,True,14,Spanish Grand Prix,True,C3,True,3.585,3.599,7.618,7.97,0.235,0.228,103.263
+0 days 01:03:28.615000,OCO,31,102.608,3.0,1.0,,,True,MEDIUM,3.0,True,Haas F1 Team,1,11.0,True,14,Spanish Grand Prix,True,C3,True,2.988,2.999,7.021,7.345,-0.094,-0.092,102.724
+0 days 01:05:11.211000,OCO,31,102.596,4.0,1.0,,,True,MEDIUM,4.0,True,Haas F1 Team,1,11.0,True,14,Spanish Grand Prix,True,C3,True,2.976,2.987,7.009,7.333,-0.104,-0.101,102.77
+0 days 01:06:54.644000,OCO,31,103.433,5.0,1.0,,,False,MEDIUM,5.0,True,Haas F1 Team,12,11.0,True,14,Spanish Grand Prix,True,C3,False,3.813,3.828,7.846,8.208,0.083,0.08,103.665
+0 days 01:08:37.122000,OCO,31,102.478,6.0,1.0,,,True,MEDIUM,6.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.858,2.869,6.891,7.209,-0.607,-0.589,102.767
+0 days 01:10:19.240000,OCO,31,102.118,7.0,1.0,,,True,MEDIUM,7.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.498,2.508,6.531,6.833,-0.05,-0.049,102.465
+0 days 01:12:01.336000,OCO,31,102.096,8.0,1.0,,,True,MEDIUM,8.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.476,2.485,6.509,6.81,0.0,0.0,102.501
+0 days 01:13:43.479000,OCO,31,102.143,9.0,1.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.523,2.533,6.556,6.859,-0.176,-0.172,102.606
+0 days 01:15:25.936000,OCO,31,102.457,10.0,1.0,,,False,MEDIUM,10.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.837,2.848,6.87,7.187,-0.588,-0.571,102.978
+0 days 01:17:08.510000,OCO,31,102.574,11.0,1.0,,,False,MEDIUM,11.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.954,2.965,6.987,7.31,0.027,0.026,103.153
+0 days 01:18:51.122000,OCO,31,102.612,12.0,1.0,,,False,MEDIUM,12.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,2.992,3.003,7.025,7.349,-0.048,-0.047,103.249
+0 days 01:20:33.745000,OCO,31,102.623,13.0,1.0,,,False,MEDIUM,13.0,True,Haas F1 Team,1,10.0,True,14,Spanish Grand Prix,True,C3,True,3.003,3.014,7.036,7.361,0.113,0.11,103.318
+0 days 01:22:38.529000,OCO,31,124.784,14.0,1.0,,0 days 01:22:37.624000,False,MEDIUM,14.0,True,Haas F1 Team,126,10.0,False,14,Spanish Grand Prix,True,C3,False,25.164,25.26,29.197,30.545,-1.06,-0.842,125.537
+0 days 01:24:52.256000,OCO,31,133.727,15.0,2.0,0 days 01:23:09.743000,,False,HARD,1.0,True,Haas F1 Team,671,13.0,False,14,Spanish Grand Prix,True,C2,False,34.107,34.237,38.14,39.901,12.693,10.487,134.538
+0 days 01:26:33.104000,OCO,31,100.848,16.0,2.0,,,True,HARD,2.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.228,1.233,5.261,5.504,0.42,0.418,101.716
+0 days 01:28:13.648000,OCO,31,100.544,17.0,2.0,,,True,HARD,3.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.924,0.928,4.957,5.186,0.386,0.385,101.47
+0 days 01:29:54.520000,OCO,31,100.872,18.0,2.0,,,False,HARD,4.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.252,1.257,5.285,5.529,0.594,0.592,101.856
+0 days 01:31:35.104000,OCO,31,100.584,19.0,2.0,,,False,HARD,5.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.964,0.968,4.997,5.228,0.54,0.54,101.626
+0 days 01:33:15.748000,OCO,31,100.644,20.0,2.0,,,False,HARD,6.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.024,1.028,5.057,5.29,0.46,0.459,101.744
+0 days 01:34:56.652000,OCO,31,100.904,21.0,2.0,,,False,HARD,7.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.284,1.289,5.317,5.562,0.773,0.772,102.062
+0 days 01:36:37.384000,OCO,31,100.732,22.0,2.0,,,False,HARD,8.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.112,1.116,5.145,5.383,0.75,0.75,101.948
+0 days 01:38:17.854000,OCO,31,100.47,23.0,2.0,,,True,HARD,9.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.85,0.853,4.883,5.108,0.796,0.799,101.744
+0 days 01:39:58.502000,OCO,31,100.648,24.0,2.0,,,False,HARD,10.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.028,1.032,5.061,5.295,0.752,0.753,101.98
+0 days 01:41:39.178000,OCO,31,100.676,25.0,2.0,,,False,HARD,11.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,1.056,1.06,5.089,5.324,0.58,0.579,102.065
+0 days 01:43:19.467000,OCO,31,100.289,26.0,2.0,,,True,HARD,12.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.669,0.672,4.702,4.919,0.538,0.539,101.736
+0 days 01:44:59.483000,OCO,31,100.016,27.0,2.0,,,True,HARD,13.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.396,0.398,4.429,4.633,0.252,0.253,101.521
+0 days 01:46:39.489000,OCO,31,100.006,28.0,2.0,,,True,HARD,14.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.386,0.387,4.419,4.623,0.186,0.186,101.569
+0 days 01:48:19.166000,OCO,31,99.677,29.0,2.0,,,True,HARD,15.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.057,0.057,4.09,4.279,0.259,0.261,101.298
+0 days 01:49:58.535000,OCO,31,99.369,30.0,2.0,,,True,HARD,16.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.251,-0.252,3.782,3.957,0.139,0.14,101.048
+0 days 01:51:38.082000,OCO,31,99.547,31.0,2.0,,,False,HARD,17.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.073,-0.073,3.96,4.143,0.351,0.354,101.284
+0 days 01:53:17.778000,OCO,31,99.696,32.0,2.0,,,False,HARD,18.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,0.076,0.076,4.109,4.299,0.447,0.45,101.491
+0 days 01:54:57.070000,OCO,31,99.292,33.0,2.0,,,True,HARD,19.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.328,-0.329,3.705,3.876,0.505,0.511,101.145
+0 days 01:56:36.139000,OCO,31,99.069,34.0,2.0,,,True,HARD,20.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.551,-0.553,3.482,3.643,0.417,0.423,100.98
+0 days 01:58:14.944000,OCO,31,98.805,35.0,2.0,,,True,HARD,21.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.815,-0.818,3.218,3.367,-0.133,-0.134,100.773
+0 days 01:59:53.550000,OCO,31,98.606,36.0,2.0,,,True,HARD,22.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-1.014,-1.018,3.019,3.158,-0.04,-0.041,100.632
+0 days 02:01:32.230000,OCO,31,98.68,37.0,2.0,,,False,HARD,23.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.94,-0.944,3.093,3.236,-0.152,-0.154,100.764
+0 days 02:03:10.833000,OCO,31,98.603,38.0,2.0,,,True,HARD,24.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-1.017,-1.021,3.016,3.155,-0.087,-0.088,100.745
+0 days 02:04:49.768000,OCO,31,98.935,39.0,2.0,,,False,HARD,25.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.685,-0.688,3.348,3.503,-0.141,-0.142,101.135
+0 days 02:06:28.353000,OCO,31,98.585,40.0,2.0,,,True,HARD,26.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-1.035,-1.039,2.998,3.136,-0.179,-0.181,100.843
+0 days 02:08:07.003000,OCO,31,98.65,41.0,2.0,,,False,HARD,27.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.97,-0.974,3.063,3.204,-0.288,-0.291,100.966
+0 days 02:09:45.888000,OCO,31,98.885,42.0,2.0,,,False,HARD,28.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.735,-0.738,3.298,3.45,-0.111,-0.112,101.259
+0 days 02:11:24.929000,OCO,31,99.041,43.0,2.0,,,False,HARD,29.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.579,-0.581,3.454,3.613,0.256,0.259,101.473
+0 days 02:13:04.104000,OCO,31,99.175,44.0,2.0,,,False,HARD,30.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.445,-0.447,3.588,3.754,0.083,0.084,101.664
+0 days 02:14:42.533000,OCO,31,98.429,45.0,2.0,,,True,HARD,31.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-1.191,-1.196,2.842,2.973,-0.701,-0.707,100.976
+0 days 02:16:21.018000,OCO,31,98.485,46.0,2.0,,,False,HARD,32.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-1.135,-1.139,2.898,3.032,-0.619,-0.625,101.09
+0 days 02:17:59.679000,OCO,31,98.661,47.0,2.0,,,False,HARD,33.0,True,Haas F1 Team,1,13.0,True,14,Spanish Grand Prix,True,C2,True,-0.959,-0.963,3.074,3.216,0.0,0.0,101.324
+0 days 02:19:37.944000,OCO,31,98.265,48.0,2.0,,,True,HARD,34.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-1.355,-1.36,2.678,2.802,0.063,0.064,100.986
+0 days 02:21:16.063000,OCO,31,98.119,49.0,2.0,,,True,HARD,35.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-1.501,-1.507,2.532,2.649,-0.195,-0.198,100.898
+0 days 02:22:54.832000,OCO,31,98.769,50.0,2.0,,,False,HARD,36.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.851,-0.854,3.182,3.329,0.619,0.631,101.606
+0 days 02:24:35.074000,OCO,31,100.242,51.0,2.0,,,False,HARD,37.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,0.622,0.624,4.655,4.87,2.055,2.093,103.137
+0 days 02:26:16.701000,OCO,31,101.627,52.0,2.0,,,False,HARD,38.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,2.007,2.015,6.04,6.319,3.331,3.389,104.58
+0 days 02:27:55.946000,OCO,31,99.245,53.0,2.0,,,False,HARD,39.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.375,-0.376,3.658,3.827,0.634,0.643,102.256
+0 days 02:29:34.673000,OCO,31,98.727,54.0,2.0,,,False,HARD,40.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.893,-0.896,3.14,3.285,0.313,0.318,101.795
+0 days 02:31:13.788000,OCO,31,99.115,55.0,2.0,,,False,HARD,41.0,True,Haas F1 Team,1,12.0,True,14,Spanish Grand Prix,True,C2,True,-0.505,-0.507,3.528,3.691,0.181,0.183,102.241
+0 days 02:32:52.962000,OCO,31,99.174,56.0,2.0,,,False,HARD,42.0,True,Haas F1 Team,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.446,-0.448,3.587,3.753,1.159,1.182,102.358
+0 days 01:00:01.806000,LIN,41,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,12,9.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:44.673000,LIN,41,102.867,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,9.0,True,14,Spanish Grand Prix,True,C3,True,3.247,3.259,7.28,7.616,-0.103,-0.1,102.925
+0 days 01:03:26.904000,LIN,41,102.231,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,9.0,True,14,Spanish Grand Prix,True,C3,True,2.611,2.621,6.644,6.951,-0.471,-0.459,102.347
+0 days 01:05:09.330000,LIN,41,102.426,4.0,1.0,,,False,MEDIUM,4.0,True,Racing Bulls,1,9.0,True,14,Spanish Grand Prix,True,C3,True,2.806,2.817,6.839,7.155,-0.274,-0.267,102.6
+0 days 01:06:52.411000,LIN,41,103.081,5.0,1.0,,,False,MEDIUM,5.0,True,Racing Bulls,12,8.0,True,14,Spanish Grand Prix,True,C3,False,3.461,3.474,7.494,7.84,-0.269,-0.26,103.313
+0 days 01:08:34.546000,LIN,41,102.135,6.0,1.0,,,True,MEDIUM,6.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.515,2.525,6.548,6.85,-0.95,-0.922,102.424
+0 days 01:10:16.578000,LIN,41,102.032,7.0,1.0,,,True,MEDIUM,7.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.412,2.421,6.445,6.743,-0.136,-0.133,102.379
+0 days 01:11:58.559000,LIN,41,101.981,8.0,1.0,,,True,MEDIUM,8.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.361,2.37,6.394,6.689,-0.115,-0.113,102.386
+0 days 01:13:40.878000,LIN,41,102.319,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.699,2.709,6.732,7.043,0.0,0.0,102.782
+0 days 01:15:24.131000,LIN,41,103.253,10.0,1.0,,,False,MEDIUM,10.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,3.633,3.647,7.666,8.02,0.208,0.202,103.774
+0 days 01:17:06.678000,LIN,41,102.547,11.0,1.0,,,False,MEDIUM,11.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.927,2.938,6.96,7.281,0.0,0.0,103.126
+0 days 01:18:49.295000,LIN,41,102.617,12.0,1.0,,,False,MEDIUM,12.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.997,3.008,7.03,7.355,-0.043,-0.042,103.254
+0 days 01:20:31.900000,LIN,41,102.605,13.0,1.0,,,False,MEDIUM,13.0,True,Racing Bulls,1,8.0,True,14,Spanish Grand Prix,True,C3,True,2.985,2.996,7.018,7.342,0.095,0.093,103.3
+0 days 01:22:36.105000,LIN,41,124.205,14.0,1.0,,0 days 01:22:35.176000,False,MEDIUM,14.0,True,Racing Bulls,126,8.0,False,14,Spanish Grand Prix,True,C3,False,24.585,24.679,28.618,29.939,-1.639,-1.302,124.958
+0 days 01:24:49.481000,LIN,41,133.376,15.0,2.0,0 days 01:23:07.045000,,False,HARD,1.0,True,Racing Bulls,671,11.0,False,14,Spanish Grand Prix,True,C2,False,33.756,33.885,37.789,39.534,12.342,10.197,134.187
+0 days 01:26:29.364000,LIN,41,99.883,16.0,2.0,,,True,HARD,2.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.263,0.264,4.296,4.494,-0.545,-0.543,100.751
+0 days 01:28:09.265000,LIN,41,99.901,17.0,2.0,,,False,HARD,3.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.281,0.282,4.314,4.513,-0.257,-0.257,100.827
+0 days 01:29:49.588000,LIN,41,100.323,18.0,2.0,,,False,HARD,4.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.703,0.706,4.736,4.955,0.045,0.045,101.307
+0 days 01:31:29.545000,LIN,41,99.957,19.0,2.0,,,False,HARD,5.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.337,0.338,4.37,4.572,-0.087,-0.087,100.999
+0 days 01:33:09.847000,LIN,41,100.302,20.0,2.0,,,False,HARD,6.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.682,0.685,4.715,4.933,0.118,0.118,101.402
+0 days 01:34:50.158000,LIN,41,100.311,21.0,2.0,,,False,HARD,7.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.691,0.694,4.724,4.942,0.18,0.18,101.469
+0 days 01:36:30.322000,LIN,41,100.164,22.0,2.0,,,False,HARD,8.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.544,0.546,4.577,4.788,0.182,0.182,101.38
+0 days 01:38:10.441000,LIN,41,100.119,23.0,2.0,,,False,HARD,9.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.499,0.501,4.532,4.741,0.445,0.446,101.393
+0 days 01:39:50.421000,LIN,41,99.98,24.0,2.0,,,False,HARD,10.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.36,0.361,4.393,4.596,0.084,0.084,101.312
+0 days 01:41:30.651000,LIN,41,100.23,25.0,2.0,,,False,HARD,11.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.61,0.612,4.643,4.857,0.134,0.134,101.619
+0 days 01:43:10.299000,LIN,41,99.648,26.0,2.0,,,True,HARD,12.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.028,0.028,4.061,4.248,-0.103,-0.103,101.095
+0 days 01:44:50.196000,LIN,41,99.897,27.0,2.0,,,False,HARD,13.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.277,0.278,4.31,4.509,0.133,0.133,101.402
+0 days 01:46:30.016000,LIN,41,99.82,28.0,2.0,,,False,HARD,14.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.2,0.201,4.233,4.428,0.0,0.0,101.383
+0 days 01:48:09.496000,LIN,41,99.48,29.0,2.0,,,True,HARD,15.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.14,-0.141,3.893,4.073,0.062,0.062,101.101
+0 days 01:49:49.133000,LIN,41,99.637,30.0,2.0,,,False,HARD,16.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.017,0.017,4.05,4.237,0.407,0.41,101.316
+0 days 01:51:28.183000,LIN,41,99.05,31.0,2.0,,,True,HARD,17.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.57,-0.572,3.463,3.623,-0.146,-0.147,100.787
+0 days 01:53:07.349000,LIN,41,99.166,32.0,2.0,,,False,HARD,18.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.454,-0.456,3.579,3.744,-0.083,-0.084,100.961
+0 days 01:54:46.120000,LIN,41,98.771,33.0,2.0,,,True,HARD,19.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.849,-0.852,3.184,3.331,-0.016,-0.016,100.624
+0 days 01:56:24.692000,LIN,41,98.572,34.0,2.0,,,True,HARD,20.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.048,-1.052,2.985,3.123,-0.08,-0.081,100.483
+0 days 01:58:03.212000,LIN,41,98.52,35.0,2.0,,,True,HARD,21.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.1,-1.104,2.933,3.068,-0.418,-0.422,100.488
+0 days 01:59:41.899000,LIN,41,98.687,36.0,2.0,,,False,HARD,22.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.933,-0.937,3.1,3.243,0.041,0.042,100.713
+0 days 02:01:21.615000,LIN,41,99.716,37.0,2.0,,,False,HARD,23.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.096,0.096,4.129,4.32,0.884,0.894,101.8
+0 days 02:03:00,LIN,41,98.385,38.0,2.0,,,True,HARD,24.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.235,-1.24,2.798,2.927,-0.305,-0.309,100.527
+0 days 02:04:38.356000,LIN,41,98.356,39.0,2.0,,,True,HARD,25.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.264,-1.269,2.769,2.897,-0.72,-0.727,100.556
+0 days 02:06:16.567000,LIN,41,98.211,40.0,2.0,,,True,HARD,26.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-1.409,-1.414,2.624,2.745,-0.553,-0.56,100.469
+0 days 02:07:55.505000,LIN,41,98.938,41.0,2.0,,,False,HARD,27.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.682,-0.685,3.351,3.506,0.0,0.0,101.254
+0 days 02:09:34.533000,LIN,41,99.028,42.0,2.0,,,False,HARD,28.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.592,-0.594,3.441,3.6,0.032,0.032,101.402
+0 days 02:11:14.044000,LIN,41,99.511,43.0,2.0,,,False,HARD,29.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.109,-0.109,3.924,4.105,0.726,0.735,101.943
+0 days 02:12:53.959000,LIN,41,99.915,44.0,2.0,,,False,HARD,30.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.295,0.296,4.328,4.528,0.823,0.831,102.404
+0 days 02:14:34.309000,LIN,41,100.35,45.0,2.0,,,False,HARD,31.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,0.73,0.733,4.763,4.983,1.22,1.231,102.897
+0 days 02:16:13.773000,LIN,41,99.464,46.0,2.0,,,False,HARD,32.0,True,Racing Bulls,1,11.0,True,14,Spanish Grand Prix,True,C2,True,-0.156,-0.157,3.877,4.056,0.36,0.363,102.069
+0 days 02:17:54.421000,LIN,41,100.648,47.0,2.0,,,False,HARD,33.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,1.028,1.032,5.061,5.295,1.987,2.014,103.311
+0 days 02:19:32.691000,LIN,41,98.27,48.0,2.0,,,False,HARD,34.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.35,-1.355,2.683,2.807,0.068,0.069,100.991
+0 days 02:21:11.005000,LIN,41,98.314,49.0,2.0,,,False,HARD,35.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.306,-1.311,2.727,2.853,0.0,0.0,101.093
+0 days 02:22:49.284000,LIN,41,98.279,50.0,2.0,,,False,HARD,36.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.341,-1.346,2.692,2.816,0.129,0.131,101.116
+0 days 02:24:27.741000,LIN,41,98.457,51.0,2.0,,,False,HARD,37.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.163,-1.167,2.87,3.003,0.27,0.275,101.352
+0 days 02:26:06.376000,LIN,41,98.635,52.0,2.0,,,False,HARD,38.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.985,-0.989,3.048,3.189,0.339,0.345,101.588
+0 days 02:27:45.055000,LIN,41,98.679,53.0,2.0,,,False,HARD,39.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.941,-0.945,3.092,3.235,0.068,0.069,101.69
+0 days 02:29:26.610000,LIN,41,101.555,54.0,2.0,,,False,HARD,40.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,1.935,1.942,5.968,6.244,3.141,3.192,104.623
+0 days 02:31:08.993000,LIN,41,102.383,55.0,2.0,,,False,HARD,41.0,True,Racing Bulls,1,10.0,True,14,Spanish Grand Prix,True,C2,True,2.763,2.774,6.796,7.11,3.449,3.486,105.509
+0 days 02:32:48.227000,LIN,41,99.234,56.0,2.0,,,False,HARD,42.0,True,Racing Bulls,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.386,-0.387,3.647,3.815,1.219,1.244,102.418
+0 days 01:00:00.529000,COL,43,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,12,7.0,False,14,Spanish Grand Prix,True,C3,False,,,,,,,
+0 days 01:01:42.996000,COL,43,102.467,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,2.847,2.858,6.88,7.198,-0.503,-0.488,102.525
+0 days 01:03:25.133000,COL,43,102.137,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,2.517,2.527,6.55,6.852,-0.565,-0.55,102.253
+0 days 01:05:07.052000,COL,43,101.919,4.0,1.0,,,True,MEDIUM,4.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,2.299,2.308,6.332,6.624,-0.781,-0.76,102.093
+0 days 01:06:50.319000,COL,43,103.267,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,12,6.0,True,14,Spanish Grand Prix,True,C3,False,3.647,3.661,7.68,8.035,-0.083,-0.08,103.499
+0 days 01:08:32.637000,COL,43,102.318,6.0,1.0,,,False,MEDIUM,6.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C3,True,2.698,2.708,6.731,7.042,-0.767,-0.744,102.607
+0 days 01:10:14.805000,COL,43,102.168,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C3,True,2.548,2.558,6.581,6.885,0.0,0.0,102.515
+0 days 01:11:56.598000,COL,43,101.793,8.0,1.0,,,True,MEDIUM,8.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C3,True,2.173,2.181,6.206,6.493,-0.303,-0.297,102.198
+0 days 01:13:39.162000,COL,43,102.564,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,1,6.0,True,14,Spanish Grand Prix,True,C3,True,2.944,2.955,6.977,7.299,0.245,0.239,103.027
+0 days 01:15:23.504000,COL,43,104.342,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,4.722,4.74,8.755,9.159,1.297,1.259,104.863
+0 days 01:17:05.763000,COL,43,102.259,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,2.639,2.649,6.672,6.98,-0.288,-0.281,102.838
+0 days 01:18:48.423000,COL,43,102.66,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,3.04,3.052,7.073,7.4,0.0,0.0,103.297
+0 days 01:20:30.748000,COL,43,102.325,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C3,True,2.705,2.715,6.738,7.049,-0.185,-0.18,103.02
+0 days 01:22:33.929000,COL,43,123.181,14.0,1.0,,0 days 01:22:32.980000,False,MEDIUM,14.0,True,Alpine,126,7.0,False,14,Spanish Grand Prix,True,C3,False,23.561,23.651,27.594,28.868,-2.663,-2.116,123.934
+0 days 01:24:48.812000,COL,43,134.883,15.0,2.0,0 days 01:23:04.740000,,False,HARD,1.0,True,Alpine,671,10.0,False,14,Spanish Grand Prix,True,C2,False,35.263,35.398,39.296,41.11,13.849,11.442,135.694
+0 days 01:26:28.630000,COL,43,99.818,16.0,2.0,,,True,HARD,2.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.198,0.199,4.231,4.426,-0.61,-0.607,100.686
+0 days 01:28:08.554000,COL,43,99.924,17.0,2.0,,,False,HARD,3.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.304,0.305,4.337,4.537,-0.234,-0.234,100.85
+0 days 01:29:48.963000,COL,43,100.409,18.0,2.0,,,False,HARD,4.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.789,0.792,4.822,5.045,0.131,0.131,101.393
+0 days 01:31:28.963000,COL,43,100.0,19.0,2.0,,,False,HARD,5.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.38,0.381,4.413,4.617,-0.044,-0.044,101.042
+0 days 01:33:09.073000,COL,43,100.11,20.0,2.0,,,False,HARD,6.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.49,0.492,4.523,4.732,-0.074,-0.074,101.21
+0 days 01:34:49.361000,COL,43,100.288,21.0,2.0,,,False,HARD,7.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.668,0.671,4.701,4.918,0.157,0.157,101.446
+0 days 01:36:29.164000,COL,43,99.803,22.0,2.0,,,True,HARD,8.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.183,0.184,4.216,4.411,-0.179,-0.179,101.019
+0 days 01:38:09.343000,COL,43,100.179,23.0,2.0,,,False,HARD,9.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.559,0.561,4.592,4.804,0.505,0.507,101.453
+0 days 01:39:49.394000,COL,43,100.051,24.0,2.0,,,False,HARD,10.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.431,0.433,4.464,4.67,0.155,0.155,101.383
+0 days 01:41:29.430000,COL,43,100.036,25.0,2.0,,,False,HARD,11.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.416,0.418,4.449,4.654,-0.06,-0.06,101.425
+0 days 01:43:09.329000,COL,43,99.899,26.0,2.0,,,False,HARD,12.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.279,0.28,4.312,4.511,0.148,0.148,101.346
+0 days 01:44:49.015000,COL,43,99.686,27.0,2.0,,,True,HARD,13.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.066,0.066,4.099,4.288,-0.078,-0.078,101.191
+0 days 01:46:28.723000,COL,43,99.708,28.0,2.0,,,False,HARD,14.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,0.088,0.088,4.121,4.311,-0.112,-0.112,101.271
+0 days 01:48:08.079000,COL,43,99.356,29.0,2.0,,,True,HARD,15.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.264,-0.265,3.769,3.943,-0.062,-0.062,100.977
+0 days 01:49:47.227000,COL,43,99.148,30.0,2.0,,,True,HARD,16.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.472,-0.474,3.561,3.725,-0.082,-0.083,100.827
+0 days 01:51:26.002000,COL,43,98.775,31.0,2.0,,,True,HARD,17.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.845,-0.848,3.188,3.335,-0.421,-0.424,100.512
+0 days 01:53:05.491000,COL,43,99.489,32.0,2.0,,,False,HARD,18.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.131,-0.131,3.902,4.082,0.24,0.242,101.284
+0 days 01:54:44.294000,COL,43,98.803,33.0,2.0,,,False,HARD,19.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.817,-0.82,3.216,3.364,0.016,0.016,100.656
+0 days 01:56:23.027000,COL,43,98.733,34.0,2.0,,,True,HARD,20.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.887,-0.89,3.146,3.291,0.081,0.082,100.644
+0 days 01:58:01.965000,COL,43,98.938,35.0,2.0,,,False,HARD,21.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.682,-0.685,3.351,3.506,0.0,0.0,100.906
+0 days 01:59:39.931000,COL,43,97.966,36.0,2.0,,,True,HARD,22.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.654,-1.66,2.379,2.489,-0.68,-0.689,99.992
+0 days 02:01:18.535000,COL,43,98.604,37.0,2.0,,,False,HARD,23.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.016,-1.02,3.017,3.156,-0.228,-0.231,100.688
+0 days 02:02:56.758000,COL,43,98.223,38.0,2.0,,,False,HARD,24.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-1.397,-1.402,2.636,2.758,-0.467,-0.473,100.365
+0 days 02:04:35.968000,COL,43,99.21,39.0,2.0,,,False,HARD,25.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.41,-0.412,3.623,3.79,0.134,0.135,101.41
+0 days 02:06:15.261000,COL,43,99.293,40.0,2.0,,,False,HARD,26.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.327,-0.328,3.706,3.877,0.529,0.536,101.551
+0 days 02:07:54.663000,COL,43,99.402,41.0,2.0,,,False,HARD,27.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.218,-0.219,3.815,3.991,0.464,0.469,101.718
+0 days 02:09:33.872000,COL,43,99.209,42.0,2.0,,,False,HARD,28.0,True,Alpine,1,10.0,True,14,Spanish Grand Prix,True,C2,True,-0.411,-0.413,3.622,3.789,0.213,0.215,101.583
+0 days 02:11:13.536000,COL,43,99.664,43.0,2.0,,,False,HARD,29.0,True,Alpine,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.044,0.044,4.077,4.265,0.879,0.89,102.096
+0 days 02:12:52.628000,COL,43,99.092,44.0,2.0,,,False,HARD,30.0,True,Alpine,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.528,-0.53,3.505,3.667,0.0,0.0,101.581
+0 days 02:14:33.098000,COL,43,100.47,45.0,2.0,,,False,HARD,31.0,True,Alpine,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.85,0.853,4.883,5.108,1.34,1.352,103.017
+0 days 02:16:12.703000,COL,43,99.605,46.0,2.0,,,False,HARD,32.0,True,Alpine,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.015,-0.015,4.018,4.204,0.501,0.506,102.21
+0 days 02:17:51.595000,COL,43,98.892,47.0,2.0,,,False,HARD,33.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.728,-0.731,3.305,3.458,0.231,0.234,101.555
+0 days 02:19:29.067000,COL,43,97.472,48.0,2.0,,,True,HARD,34.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-2.148,-2.156,1.885,1.972,-0.73,-0.743,100.193
+0 days 02:21:06.591000,COL,43,97.524,49.0,2.0,,,False,HARD,35.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-2.096,-2.104,1.937,2.026,-0.79,-0.804,100.303
+0 days 02:22:44.351000,COL,43,97.76,50.0,2.0,,,False,HARD,36.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.86,-1.867,2.173,2.273,-0.39,-0.397,100.597
+0 days 02:24:21.676000,COL,43,97.325,51.0,2.0,,,True,HARD,37.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-2.295,-2.304,1.738,1.818,-0.862,-0.878,100.22
+0 days 02:25:58.997000,COL,43,97.321,52.0,2.0,,,True,HARD,38.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-2.299,-2.308,1.734,1.814,-0.975,-0.992,100.274
+0 days 02:27:36.447000,COL,43,97.45,53.0,2.0,,,False,HARD,39.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-2.17,-2.178,1.863,1.949,-1.161,-1.177,100.461
+0 days 02:29:14.746000,COL,43,98.299,54.0,2.0,,,False,HARD,40.0,True,Alpine,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-1.321,-1.326,2.712,2.837,-0.115,-0.117,101.367
+0 days 02:30:55.597000,COL,43,100.851,55.0,2.0,,,False,HARD,41.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,1.231,1.236,5.264,5.507,1.917,1.938,103.977
+0 days 02:32:33.612000,COL,43,98.015,56.0,2.0,,,False,HARD,42.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.605,-1.611,2.428,2.54,0.0,0.0,101.199
+0 days 02:34:12.100000,COL,43,98.488,57.0,2.0,,,False,HARD,43.0,True,Alpine,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.132,-1.136,2.901,3.035,0.806,0.825,101.73
+0 days 00:59:58.489000,HAM,44,,1.0,1.0,,,False,SOFT,1.0,True,Ferrari,12,4.0,False,14,Spanish Grand Prix,True,C4,False,,,,,,,
+0 days 01:01:39.474000,HAM,44,100.985,2.0,1.0,,,True,SOFT,2.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,1.365,1.37,5.398,5.647,-1.985,-1.928,101.043
+0 days 01:03:19.313000,HAM,44,99.839,3.0,1.0,,,True,SOFT,3.0,True,Ferrari,1,4.0,True,14,Spanish Grand Prix,True,C4,True,0.219,0.22,4.252,4.448,-2.863,-2.788,99.955
+0 days 01:05:02.368000,HAM,44,103.055,4.0,1.0,,,False,SOFT,4.0,True,Ferrari,1,3.0,True,14,Spanish Grand Prix,True,C4,True,3.435,3.448,7.468,7.813,0.355,0.346,103.229
+0 days 01:06:54.300000,HAM,44,111.932,5.0,1.0,,,False,SOFT,5.0,True,Ferrari,12,10.0,True,14,Spanish Grand Prix,True,C4,False,12.312,12.359,16.345,17.1,8.582,8.304,112.164
+0 days 01:09:09.237000,HAM,44,134.937,6.0,1.0,,0 days 01:09:08.174000,False,SOFT,6.0,True,Ferrari,1,22.0,False,14,Spanish Grand Prix,True,C4,False,35.317,35.452,39.35,41.167,31.852,30.899,135.226
+0 days 01:00:05.348000,BOR,5,,1.0,1.0,,,False,HARD,1.0,True,Audi,12,15.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:47.930000,BOR,5,102.582,2.0,1.0,,,True,HARD,2.0,True,Audi,1,14.0,True,14,Spanish Grand Prix,True,C2,True,2.962,2.973,6.995,7.318,-0.388,-0.377,102.64
+0 days 01:03:30.770000,BOR,5,102.84,3.0,1.0,,,False,HARD,3.0,True,Audi,1,14.0,True,14,Spanish Grand Prix,True,C2,True,3.22,3.232,7.253,7.588,0.138,0.134,102.956
+0 days 01:05:13.465000,BOR,5,102.695,4.0,1.0,,,False,HARD,4.0,True,Audi,1,14.0,True,14,Spanish Grand Prix,True,C2,True,3.075,3.087,7.108,7.436,-0.005,-0.005,102.869
+0 days 01:06:56.662000,BOR,5,103.197,5.0,1.0,,,False,HARD,5.0,True,Audi,12,14.0,True,14,Spanish Grand Prix,True,C2,False,3.577,3.591,7.61,7.961,-0.153,-0.148,103.429
+0 days 01:08:40.103000,BOR,5,103.441,6.0,1.0,,,False,HARD,6.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,3.821,3.836,7.854,8.217,0.356,0.345,103.73
+0 days 01:10:22.614000,BOR,5,102.511,7.0,1.0,,,True,HARD,7.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.891,2.902,6.924,7.244,0.343,0.336,102.858
+0 days 01:12:04.936000,BOR,5,102.322,8.0,1.0,,,True,HARD,8.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.702,2.712,6.735,7.046,0.226,0.221,102.727
+0 days 01:13:46.992000,BOR,5,102.056,9.0,1.0,,,True,HARD,9.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.436,2.445,6.469,6.768,-0.263,-0.257,102.519
+0 days 01:15:29.519000,BOR,5,102.527,10.0,1.0,,,False,HARD,10.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.907,2.918,6.94,7.26,-0.518,-0.503,103.048
+0 days 01:17:12.122000,BOR,5,102.603,11.0,1.0,,,False,HARD,11.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.983,2.994,7.016,7.34,0.056,0.055,103.182
+0 days 01:18:54.480000,BOR,5,102.358,12.0,1.0,,,False,HARD,12.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.738,2.748,6.771,7.084,-0.302,-0.294,102.995
+0 days 01:20:36.733000,BOR,5,102.253,13.0,1.0,,,False,HARD,13.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C2,True,2.633,2.643,6.666,6.974,-0.257,-0.251,102.948
+0 days 01:22:42.746000,BOR,5,126.013,14.0,1.0,,,False,HARD,14.0,True,Audi,126,13.0,False,14,Spanish Grand Prix,True,C2,False,26.393,26.494,30.426,31.831,0.169,0.134,126.766
+0 days 01:24:43.953000,BOR,5,121.207,15.0,1.0,,,False,HARD,15.0,True,Audi,671,9.0,False,14,Spanish Grand Prix,True,C2,False,21.587,21.669,25.62,26.803,0.173,0.143,122.018
+0 days 01:26:24.948000,BOR,5,100.995,16.0,1.0,,,True,HARD,16.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,1.375,1.38,5.408,5.658,0.567,0.565,101.863
+0 days 01:28:05.171000,BOR,5,100.223,17.0,1.0,,,True,HARD,17.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.603,0.605,4.636,4.85,0.065,0.065,101.149
+0 days 01:29:45.398000,BOR,5,100.227,18.0,1.0,,,False,HARD,18.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.607,0.609,4.64,4.854,-0.051,-0.051,101.211
+0 days 01:31:25.487000,BOR,5,100.089,19.0,1.0,,,True,HARD,19.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.469,0.471,4.502,4.71,0.045,0.045,101.131
+0 days 01:33:05.525000,BOR,5,100.038,20.0,1.0,,,True,HARD,20.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.418,0.42,4.451,4.656,-0.146,-0.146,101.138
+0 days 01:34:45.499000,BOR,5,99.974,21.0,1.0,,,True,HARD,21.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.354,0.355,4.387,4.59,-0.157,-0.157,101.132
+0 days 01:36:24.949000,BOR,5,99.45,22.0,1.0,,,True,HARD,22.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.17,-0.171,3.863,4.041,-0.532,-0.532,100.666
+0 days 01:38:04.623000,BOR,5,99.674,23.0,1.0,,,False,HARD,23.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.054,0.054,4.087,4.276,0.0,0.0,100.948
+0 days 01:39:44.233000,BOR,5,99.61,24.0,1.0,,,False,HARD,24.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.01,-0.01,4.023,4.209,-0.286,-0.286,100.942
+0 days 01:41:23.829000,BOR,5,99.596,25.0,1.0,,,False,HARD,25.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.024,-0.024,4.009,4.194,-0.5,-0.5,100.985
+0 days 01:43:03.582000,BOR,5,99.753,26.0,1.0,,,False,HARD,26.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.133,0.134,4.166,4.358,0.002,0.002,101.2
+0 days 01:44:43.360000,BOR,5,99.778,27.0,1.0,,,False,HARD,27.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.158,0.159,4.191,4.384,0.014,0.014,101.283
+0 days 01:46:22.642000,BOR,5,99.282,28.0,1.0,,,True,HARD,28.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.338,-0.339,3.695,3.866,-0.538,-0.539,100.845
+0 days 01:48:01.953000,BOR,5,99.311,29.0,1.0,,,False,HARD,29.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.309,-0.31,3.724,3.896,-0.107,-0.108,100.932
+0 days 01:49:41.573000,BOR,5,99.62,30.0,1.0,,,False,HARD,30.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.0,0.0,4.033,4.219,0.39,0.393,101.299
+0 days 01:51:21.126000,BOR,5,99.553,31.0,1.0,,,False,HARD,31.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.067,-0.067,3.966,4.149,0.357,0.36,101.29
+0 days 01:53:00.521000,BOR,5,99.395,32.0,1.0,,,False,HARD,32.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.225,-0.226,3.808,3.984,0.146,0.147,101.19
+0 days 01:54:39.534000,BOR,5,99.013,33.0,1.0,,,True,HARD,33.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.607,-0.609,3.426,3.584,0.226,0.229,100.866
+0 days 01:56:19.184000,BOR,5,99.65,34.0,1.0,,,False,HARD,34.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,0.03,0.03,4.063,4.251,0.998,1.012,101.561
+0 days 01:57:58.322000,BOR,5,99.138,35.0,1.0,,,False,HARD,35.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.482,-0.484,3.551,3.715,0.2,0.202,101.106
+0 days 01:59:37.365000,BOR,5,99.043,36.0,1.0,,,False,HARD,36.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.577,-0.579,3.456,3.616,0.397,0.402,101.069
+0 days 02:01:16.636000,BOR,5,99.271,37.0,1.0,,,False,HARD,37.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.349,-0.35,3.684,3.854,0.439,0.444,101.355
+0 days 02:02:55.769000,BOR,5,99.133,38.0,1.0,,,False,HARD,38.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.487,-0.489,3.546,3.71,0.443,0.449,101.275
+0 days 02:04:35.180000,BOR,5,99.411,39.0,1.0,,,False,HARD,39.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.209,-0.21,3.824,4.001,0.335,0.338,101.611
+0 days 02:06:14.559000,BOR,5,99.379,40.0,1.0,,,False,HARD,40.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.241,-0.242,3.792,3.967,0.615,0.623,101.637
+0 days 02:07:53.908000,BOR,5,99.349,41.0,1.0,,,False,HARD,41.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.271,-0.272,3.762,3.936,0.411,0.415,101.665
+0 days 02:09:33.350000,BOR,5,99.442,42.0,1.0,,,False,HARD,42.0,True,Audi,1,9.0,True,14,Spanish Grand Prix,True,C2,True,-0.178,-0.179,3.855,4.033,0.446,0.451,101.816
+0 days 02:11:12.752000,BOR,5,99.402,43.0,1.0,,,False,HARD,43.0,True,Audi,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.218,-0.219,3.815,3.991,0.617,0.625,101.834
+0 days 02:12:52.259000,BOR,5,99.507,44.0,1.0,,,False,HARD,44.0,True,Audi,1,8.0,True,14,Spanish Grand Prix,True,C2,True,-0.113,-0.113,3.92,4.101,0.415,0.419,101.996
+0 days 02:14:32.552000,BOR,5,100.293,45.0,1.0,,,False,HARD,45.0,True,Audi,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.673,0.676,4.706,4.923,1.163,1.173,102.84
+0 days 02:16:12.299000,BOR,5,99.747,46.0,1.0,,,False,HARD,46.0,True,Audi,1,8.0,True,14,Spanish Grand Prix,True,C2,True,0.127,0.127,4.16,4.352,0.643,0.649,102.352
+0 days 02:17:56.002000,BOR,5,103.703,47.0,1.0,,0 days 02:17:55.220000,False,HARD,47.0,True,Audi,1,12.0,False,14,Spanish Grand Prix,True,C2,False,4.083,4.099,8.116,8.491,5.042,5.11,106.366
+0 days 02:19:56.652000,BOR,5,120.65,48.0,2.0,0 days 02:18:25.981000,,False,SOFT,1.0,True,Audi,1,13.0,False,14,Spanish Grand Prix,True,C4,False,21.03,21.11,25.063,26.22,22.448,22.859,123.371
+0 days 02:21:35.082000,BOR,5,98.43,49.0,2.0,,,False,SOFT,2.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.19,-1.195,2.843,2.974,0.116,0.118,101.209
+0 days 02:23:12.919000,BOR,5,97.837,50.0,2.0,,,True,SOFT,3.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.783,-1.79,2.25,2.354,-0.313,-0.319,100.674
+0 days 02:24:51.107000,BOR,5,98.188,51.0,2.0,,,False,SOFT,4.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.432,-1.437,2.601,2.721,0.001,0.001,101.083
+0 days 02:26:29.223000,BOR,5,98.116,52.0,2.0,,,False,SOFT,5.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.504,-1.51,2.529,2.646,-0.18,-0.183,101.069
+0 days 02:28:07.732000,BOR,5,98.509,53.0,2.0,,,False,SOFT,6.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.111,-1.115,2.922,3.057,-0.102,-0.103,101.52
+0 days 02:29:46.165000,BOR,5,98.433,54.0,2.0,,,False,SOFT,7.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-1.187,-1.192,2.846,2.977,0.019,0.019,101.501
+0 days 02:31:25.623000,BOR,5,99.458,55.0,2.0,,,False,SOFT,8.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,-0.162,-0.163,3.871,4.05,0.524,0.53,102.584
+0 days 02:33:06.208000,BOR,5,100.585,56.0,2.0,,,False,SOFT,9.0,True,Audi,1,13.0,True,14,Spanish Grand Prix,True,C4,True,0.965,0.969,4.998,5.229,2.57,2.622,103.769
+0 days 01:00:07.028000,SAI,55,,1.0,1.0,,,False,HARD,1.0,True,Williams,12,18.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:52.209000,SAI,55,105.181,2.0,1.0,,,True,HARD,2.0,True,Williams,1,18.0,True,14,Spanish Grand Prix,True,C2,True,5.561,5.582,9.594,10.037,2.211,2.147,105.239
+0 days 01:03:36.720000,SAI,55,104.511,3.0,1.0,,,True,HARD,3.0,True,Williams,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.891,4.91,8.924,9.336,1.809,1.761,104.627
+0 days 01:05:21.021000,SAI,55,104.301,4.0,1.0,,,True,HARD,4.0,True,Williams,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.681,4.699,8.714,9.116,1.601,1.559,104.475
+0 days 01:07:05.179000,SAI,55,104.158,5.0,1.0,,,True,HARD,5.0,True,Williams,12,18.0,True,14,Spanish Grand Prix,True,C2,False,4.538,4.555,8.571,8.967,0.808,0.782,104.39
+0 days 01:08:49.160000,SAI,55,103.981,6.0,1.0,,,True,HARD,6.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.361,4.378,8.394,8.782,0.896,0.869,104.27
+0 days 01:10:33.098000,SAI,55,103.938,7.0,1.0,,,True,HARD,7.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.318,4.334,8.351,8.737,1.77,1.732,104.285
+0 days 01:12:16.736000,SAI,55,103.638,8.0,1.0,,,True,HARD,8.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.018,4.033,8.051,8.423,1.542,1.51,104.043
+0 days 01:14:00.654000,SAI,55,103.918,9.0,1.0,,,False,HARD,9.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.298,4.314,8.331,8.716,1.599,1.563,104.381
+0 days 01:15:44.598000,SAI,55,103.944,10.0,1.0,,,False,HARD,10.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.324,4.34,8.357,8.743,0.899,0.872,104.465
+0 days 01:17:27.964000,SAI,55,103.366,11.0,1.0,,,True,HARD,11.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,3.746,3.76,7.779,8.138,0.819,0.799,103.945
+0 days 01:19:12.081000,SAI,55,104.117,12.0,1.0,,,False,HARD,12.0,True,Williams,1,17.0,True,14,Spanish Grand Prix,True,C2,True,4.497,4.514,8.53,8.924,1.457,1.419,104.754
+0 days 01:20:55.337000,SAI,55,103.256,13.0,1.0,,,False,HARD,13.0,True,Williams,12,17.0,True,14,Spanish Grand Prix,True,C2,False,3.636,3.65,7.669,8.023,0.746,0.728,103.951
+0 days 01:23:07.002000,SAI,55,131.665,14.0,1.0,,,False,HARD,14.0,True,Williams,26,17.0,False,14,Spanish Grand Prix,True,C2,False,32.045,32.167,36.078,37.744,5.821,4.626,132.418
+0 days 01:25:02.170000,SAI,55,115.168,15.0,1.0,,,False,HARD,15.0,True,Williams,671,15.0,False,14,Spanish Grand Prix,True,C2,False,15.548,15.607,19.581,20.485,-5.866,-4.847,115.979
+0 days 01:26:44.332000,SAI,55,102.162,16.0,1.0,,,True,HARD,16.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.542,2.552,6.575,6.879,1.734,1.727,103.03
+0 days 01:28:26.507000,SAI,55,102.175,17.0,1.0,,,False,HARD,17.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.555,2.565,6.588,6.892,2.017,2.014,103.101
+0 days 01:30:08.568000,SAI,55,102.061,18.0,1.0,,,True,HARD,18.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.441,2.45,6.474,6.773,1.783,1.778,103.045
+0 days 01:31:50.272000,SAI,55,101.704,19.0,1.0,,,True,HARD,19.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.084,2.092,6.117,6.399,1.66,1.659,102.746
+0 days 01:33:32.098000,SAI,55,101.826,20.0,1.0,,,False,HARD,20.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.206,2.214,6.239,6.527,1.642,1.639,102.926
+0 days 01:35:13.823000,SAI,55,101.725,21.0,1.0,,,False,HARD,21.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.105,2.113,6.138,6.421,1.594,1.592,102.883
+0 days 01:36:55.844000,SAI,55,102.021,22.0,1.0,,,False,HARD,22.0,True,Williams,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.401,2.41,6.434,6.731,2.039,2.039,103.237
+0 days 01:38:40.831000,SAI,55,104.987,23.0,1.0,,0 days 01:38:39.974000,False,HARD,23.0,True,Williams,1,16.0,False,14,Spanish Grand Prix,True,C2,False,5.367,5.387,9.4,9.834,5.313,5.33,106.261
+0 days 01:41:03.998000,SAI,55,143.167,24.0,2.0,0 days 01:39:26.290000,,False,MEDIUM,1.0,True,Williams,1,20.0,False,14,Spanish Grand Prix,True,C3,False,43.547,43.713,47.58,49.777,43.271,43.316,144.499
+0 days 01:42:44.583000,SAI,55,100.585,25.0,2.0,,,True,MEDIUM,2.0,True,Williams,1,20.0,True,14,Spanish Grand Prix,True,C3,True,0.965,0.969,4.998,5.229,0.489,0.489,101.974
+0 days 01:44:25.928000,SAI,55,101.345,26.0,2.0,,,False,MEDIUM,3.0,True,Williams,1,20.0,True,14,Spanish Grand Prix,True,C3,True,1.725,1.732,5.758,6.024,1.594,1.598,102.792
+0 days 01:46:09.292000,SAI,55,103.364,27.0,2.0,,,False,MEDIUM,4.0,True,Williams,1,20.0,True,14,Spanish Grand Prix,True,C3,True,3.744,3.758,7.777,8.136,3.6,3.609,104.869
+0 days 01:47:52.028000,SAI,55,102.736,28.0,2.0,,,False,MEDIUM,5.0,True,Williams,1,20.0,True,14,Spanish Grand Prix,True,C3,True,3.116,3.128,7.149,7.479,2.916,2.921,104.299
+0 days 01:49:34.687000,SAI,55,102.659,29.0,2.0,,,False,MEDIUM,6.0,True,Williams,1,20.0,True,14,Spanish Grand Prix,True,C3,True,3.039,3.051,7.072,7.398,3.241,3.26,104.28
+0 days 01:51:19.938000,SAI,55,105.251,30.0,2.0,,,False,MEDIUM,7.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C3,True,5.631,5.652,9.664,10.11,6.021,6.068,106.93
+0 days 01:53:07.443000,SAI,55,107.505,31.0,2.0,,0 days 01:53:06.596000,False,MEDIUM,8.0,True,Williams,1,19.0,False,14,Spanish Grand Prix,True,C3,False,7.885,7.915,11.918,12.468,8.309,8.376,109.242
+0 days 01:55:12.514000,SAI,55,125.071,32.0,3.0,0 days 01:53:37.838000,,False,HARD,1.0,True,Williams,1,19.0,False,14,Spanish Grand Prix,True,C2,False,25.451,25.548,29.484,30.845,25.822,26.017,126.866
+0 days 01:56:53.146000,SAI,55,100.632,33.0,3.0,,,False,HARD,2.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,1.012,1.016,5.045,5.278,1.845,1.868,102.485
+0 days 01:58:38.065000,SAI,55,104.919,34.0,3.0,,,False,HARD,3.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,5.299,5.319,9.332,9.763,6.267,6.353,106.83
+0 days 02:00:22.582000,SAI,55,104.517,35.0,3.0,,,False,HARD,4.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.897,4.916,8.93,9.342,5.579,5.639,106.485
+0 days 02:02:02.777000,SAI,55,100.195,36.0,3.0,,,True,HARD,5.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,0.575,0.577,4.608,4.821,1.549,1.57,102.221
+0 days 02:03:44.216000,SAI,55,101.439,37.0,3.0,,,False,HARD,6.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,1.819,1.826,5.852,6.122,2.607,2.638,103.523
+0 days 02:05:25.470000,SAI,55,101.254,38.0,3.0,,,False,HARD,7.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,1.634,1.64,5.667,5.929,2.564,2.598,103.396
+0 days 02:07:06.514000,SAI,55,101.044,39.0,3.0,,,False,HARD,8.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,1.424,1.429,5.457,5.709,1.968,1.986,103.244
+0 days 02:08:47.362000,SAI,55,100.848,40.0,3.0,,,False,HARD,9.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,1.228,1.233,5.261,5.504,2.084,2.11,103.106
+0 days 02:10:29.337000,SAI,55,101.975,41.0,3.0,,,False,HARD,10.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,2.355,2.364,6.388,6.683,3.037,3.07,104.291
+0 days 02:12:15.202000,SAI,55,105.865,42.0,3.0,,,False,HARD,11.0,True,Williams,1,19.0,True,14,Spanish Grand Prix,True,C2,True,6.245,6.269,10.278,10.753,6.869,6.939,108.239
+0 days 02:14:02.813000,SAI,55,107.611,43.0,3.0,,0 days 02:14:01.957000,False,HARD,12.0,True,Williams,1,19.0,False,14,Spanish Grand Prix,True,C2,False,7.991,8.021,12.024,12.579,8.826,8.935,110.043
+0 days 00:59:59.649000,RUS,63,,1.0,1.0,,,False,HARD,1.0,True,Mercedes,12,6.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:41.332000,RUS,63,101.683,2.0,1.0,,,True,HARD,2.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,2.063,2.071,6.096,6.377,-1.287,-1.25,101.741
+0 days 01:03:21.972000,RUS,63,100.64,3.0,1.0,,,True,HARD,3.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,1.02,1.024,5.053,5.286,-2.062,-2.008,100.756
+0 days 01:05:04.091000,RUS,63,102.119,4.0,1.0,,,False,HARD,4.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,2.499,2.509,6.532,6.834,-0.581,-0.566,102.293
+0 days 01:06:47.098000,RUS,63,103.007,5.0,1.0,,,False,HARD,5.0,True,Mercedes,12,5.0,True,14,Spanish Grand Prix,True,C2,False,3.387,3.4,7.42,7.763,-0.343,-0.332,103.239
+0 days 01:08:27.648000,RUS,63,100.55,6.0,1.0,,,True,HARD,6.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.93,0.934,4.963,5.192,-2.535,-2.459,100.839
+0 days 01:10:07.679000,RUS,63,100.031,7.0,1.0,,,True,HARD,7.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.411,0.413,4.444,4.649,-2.137,-2.092,100.378
+0 days 01:11:47.797000,RUS,63,100.118,8.0,1.0,,,False,HARD,8.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.498,0.5,4.531,4.74,-1.978,-1.937,100.523
+0 days 01:13:27.600000,RUS,63,99.803,9.0,1.0,,,True,HARD,9.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.183,0.184,4.216,4.411,-2.516,-2.459,100.266
+0 days 01:15:07.149000,RUS,63,99.549,10.0,1.0,,,True,HARD,10.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.071,-0.071,3.962,4.145,-3.496,-3.393,100.07
+0 days 01:16:46.531000,RUS,63,99.382,11.0,1.0,,,True,HARD,11.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.238,-0.239,3.795,3.97,-3.165,-3.086,99.961
+0 days 01:18:26.161000,RUS,63,99.63,12.0,1.0,,,False,HARD,12.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.01,0.01,4.043,4.23,-3.03,-2.951,100.267
+0 days 01:20:05.468000,RUS,63,99.307,13.0,1.0,,,True,HARD,13.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-0.313,-0.314,3.72,3.892,-3.203,-3.125,100.002
+0 days 01:21:55.435000,RUS,63,109.967,14.0,1.0,,0 days 01:21:54.512000,False,HARD,14.0,True,Mercedes,126,5.0,False,14,Spanish Grand Prix,True,C2,False,10.347,10.386,14.38,15.044,-15.877,-12.616,110.72
+0 days 01:24:17.875000,RUS,63,142.44,15.0,2.0,0 days 01:22:25.313000,,False,MEDIUM,1.0,True,Mercedes,671,5.0,False,14,Spanish Grand Prix,True,C3,False,42.82,42.983,46.853,49.016,21.406,17.686,143.251
+0 days 01:25:56.253000,RUS,63,98.378,16.0,2.0,,,True,MEDIUM,2.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-1.242,-1.247,2.791,2.92,-2.05,-2.041,99.246
+0 days 01:27:34.922000,RUS,63,98.669,17.0,2.0,,,False,MEDIUM,3.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.951,-0.955,3.082,3.224,-1.489,-1.487,99.595
+0 days 01:29:13.223000,RUS,63,98.301,18.0,2.0,,,True,MEDIUM,4.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-1.319,-1.324,2.714,2.839,-1.977,-1.972,99.285
+0 days 01:30:52.170000,RUS,63,98.947,19.0,2.0,,,False,MEDIUM,5.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.673,-0.676,3.36,3.515,-1.097,-1.097,99.989
+0 days 01:32:31.251000,RUS,63,99.081,20.0,2.0,,,False,MEDIUM,6.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.539,-0.541,3.494,3.655,-1.103,-1.101,100.181
+0 days 01:34:09.554000,RUS,63,98.303,21.0,2.0,,,False,MEDIUM,7.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-1.317,-1.322,2.716,2.841,-1.828,-1.826,99.461
+0 days 01:35:48.470000,RUS,63,98.916,22.0,2.0,,,False,MEDIUM,8.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.704,-0.707,3.329,3.483,-1.066,-1.066,100.132
+0 days 01:37:26.971000,RUS,63,98.501,23.0,2.0,,,False,MEDIUM,9.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-1.119,-1.123,2.914,3.049,-1.173,-1.177,99.775
+0 days 01:39:05.523000,RUS,63,98.552,24.0,2.0,,,False,MEDIUM,10.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-1.068,-1.072,2.965,3.102,-1.344,-1.345,99.884
+0 days 01:40:44.922000,RUS,63,99.399,25.0,2.0,,,False,MEDIUM,11.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.221,-0.222,3.812,3.988,-0.697,-0.696,100.788
+0 days 01:42:24.234000,RUS,63,99.312,26.0,2.0,,,False,MEDIUM,12.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.308,-0.309,3.725,3.897,-0.439,-0.44,100.759
+0 days 01:44:03.148000,RUS,63,98.914,27.0,2.0,,,False,MEDIUM,13.0,True,Mercedes,1,4.0,True,14,Spanish Grand Prix,True,C3,True,-0.706,-0.709,3.327,3.481,-0.85,-0.852,100.419
+0 days 01:45:44.585000,RUS,63,101.437,28.0,2.0,,0 days 01:45:43.653000,False,MEDIUM,14.0,True,Mercedes,1,5.0,False,14,Spanish Grand Prix,True,C3,False,1.817,1.824,5.85,6.12,1.617,1.62,103.0
+0 days 01:47:45.463000,RUS,63,120.878,29.0,3.0,0 days 01:46:14.341000,,False,HARD,1.0,True,Mercedes,1,6.0,False,14,Spanish Grand Prix,True,C2,False,21.258,21.339,25.291,26.459,21.46,21.586,122.499
+0 days 01:49:23.367000,RUS,63,97.904,30.0,3.0,,,True,HARD,2.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.716,-1.723,2.317,2.424,-1.326,-1.336,99.583
+0 days 01:51:01.185000,RUS,63,97.818,31.0,3.0,,,True,HARD,3.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.802,-1.809,2.231,2.334,-1.378,-1.389,99.555
+0 days 01:52:39.132000,RUS,63,97.947,32.0,3.0,,,False,HARD,4.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.673,-1.679,2.36,2.469,-1.302,-1.312,99.742
+0 days 01:54:16.850000,RUS,63,97.718,33.0,3.0,,,True,HARD,5.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.902,-1.909,2.131,2.229,-1.069,-1.082,99.571
+0 days 01:55:54.780000,RUS,63,97.93,34.0,3.0,,,False,HARD,6.0,True,Mercedes,1,6.0,True,14,Spanish Grand Prix,True,C2,True,-1.69,-1.696,2.343,2.451,-0.722,-0.732,99.841
+0 days 01:57:35.331000,RUS,63,100.551,35.0,3.0,,,False,HARD,7.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,0.931,0.935,4.964,5.193,1.613,1.63,102.519
+0 days 01:59:13.326000,RUS,63,97.995,36.0,3.0,,,False,HARD,8.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.625,-1.631,2.408,2.519,-0.651,-0.66,100.021
+0 days 02:00:51.224000,RUS,63,97.898,37.0,3.0,,,False,HARD,9.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.722,-1.729,2.311,2.418,-0.934,-0.945,99.982
+0 days 02:02:28.337000,RUS,63,97.113,38.0,3.0,,,True,HARD,10.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.507,-2.517,1.526,1.596,-1.577,-1.598,99.255
+0 days 02:04:05.194000,RUS,63,96.857,39.0,3.0,,,True,HARD,11.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.763,-2.774,1.27,1.329,-2.219,-2.24,99.057
+0 days 02:05:42.227000,RUS,63,97.033,40.0,3.0,,,False,HARD,12.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.587,-2.597,1.446,1.513,-1.731,-1.753,99.291
+0 days 02:07:19.393000,RUS,63,97.166,41.0,3.0,,,False,HARD,13.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.454,-2.463,1.579,1.652,-1.772,-1.791,99.482
+0 days 02:08:57.756000,RUS,63,98.363,42.0,3.0,,,False,HARD,14.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.257,-1.262,2.776,2.904,-0.633,-0.639,100.737
+0 days 02:10:34.971000,RUS,63,97.215,43.0,3.0,,,False,HARD,15.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.405,-2.414,1.628,1.703,-1.57,-1.589,99.647
+0 days 02:12:13.236000,RUS,63,98.265,44.0,3.0,,,False,HARD,16.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-1.355,-1.36,2.678,2.802,-0.827,-0.835,100.754
+0 days 02:13:50.345000,RUS,63,97.109,45.0,3.0,,,False,HARD,17.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.511,-2.521,1.522,1.592,-2.021,-2.039,99.656
+0 days 02:15:26.427000,RUS,63,96.082,46.0,3.0,,,True,HARD,18.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.538,-3.551,0.495,0.518,-3.022,-3.049,98.687
+0 days 02:17:02.300000,RUS,63,95.873,47.0,3.0,,,True,HARD,19.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.747,-3.761,0.286,0.299,-2.788,-2.826,98.536
+0 days 02:18:38.058000,RUS,63,95.758,48.0,3.0,,,True,HARD,20.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.862,-3.877,0.171,0.179,-2.444,-2.489,98.479
+0 days 02:20:13.645000,RUS,63,95.587,49.0,3.0,,,True,HARD,21.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-4.033,-4.048,0.0,0.0,-2.727,-2.774,98.366
+0 days 02:21:50.106000,RUS,63,96.461,50.0,3.0,,,False,HARD,22.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.159,-3.171,0.874,0.914,-1.689,-1.721,99.298
+0 days 02:23:26.210000,RUS,63,96.104,51.0,3.0,,,False,HARD,23.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.516,-3.529,0.517,0.541,-2.083,-2.121,98.999
+0 days 02:25:02.697000,RUS,63,96.487,52.0,3.0,,,False,HARD,24.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.133,-3.145,0.9,0.942,-1.809,-1.84,99.44
+0 days 02:26:39.112000,RUS,63,96.415,53.0,3.0,,,False,HARD,25.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-3.205,-3.217,0.828,0.866,-2.196,-2.227,99.426
+0 days 02:28:16.014000,RUS,63,96.902,54.0,3.0,,,False,HARD,26.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.718,-2.728,1.315,1.376,-1.512,-1.536,99.97
+0 days 02:29:52.831000,RUS,63,96.817,55.0,3.0,,,False,HARD,27.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.803,-2.814,1.23,1.287,-2.117,-2.14,99.943
+0 days 02:31:30.137000,RUS,63,97.306,56.0,3.0,,,False,HARD,28.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.314,-2.323,1.719,1.798,-0.709,-0.723,100.49
+0 days 02:33:07.648000,RUS,63,97.511,57.0,3.0,,,False,HARD,29.0,True,Mercedes,1,5.0,True,14,Spanish Grand Prix,True,C2,True,-2.109,-2.117,1.924,2.013,-0.171,-0.175,100.753
+0 days 01:00:09.296000,BOT,77,,1.0,1.0,,,False,HARD,1.0,True,Cadillac,12,21.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:55.816000,BOT,77,106.52,2.0,1.0,,,True,HARD,2.0,True,Cadillac,1,22.0,True,14,Spanish Grand Prix,True,C2,True,6.9,6.926,10.933,11.438,3.55,3.448,106.578
+0 days 01:03:40.817000,BOT,77,105.001,3.0,1.0,,,True,HARD,3.0,True,Cadillac,1,22.0,True,14,Spanish Grand Prix,True,C2,True,5.381,5.402,9.414,9.849,2.299,2.239,105.117
+0 days 01:05:25.578000,BOT,77,104.761,4.0,1.0,,,True,HARD,4.0,True,Cadillac,1,22.0,True,14,Spanish Grand Prix,True,C2,True,5.141,5.161,9.174,9.598,2.061,2.007,104.935
+0 days 01:07:09.801000,BOT,77,104.223,5.0,1.0,,,True,HARD,5.0,True,Cadillac,12,22.0,True,14,Spanish Grand Prix,True,C2,False,4.603,4.621,8.636,9.035,0.873,0.845,104.455
+0 days 01:08:54.858000,BOT,77,105.057,6.0,1.0,,,False,HARD,6.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,5.437,5.458,9.47,9.907,1.972,1.913,105.346
+0 days 01:10:38.617000,BOT,77,103.759,7.0,1.0,,,True,HARD,7.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.139,4.155,8.172,8.549,1.591,1.557,104.106
+0 days 01:12:22.460000,BOT,77,103.843,8.0,1.0,,,False,HARD,8.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.223,4.239,8.256,8.637,1.747,1.711,104.248
+0 days 01:14:06.599000,BOT,77,104.139,9.0,1.0,,,False,HARD,9.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.519,4.536,8.552,8.947,1.82,1.779,104.602
+0 days 01:15:50.788000,BOT,77,104.189,10.0,1.0,,,False,HARD,10.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.569,4.586,8.602,8.999,1.144,1.11,104.71
+0 days 01:17:34.515000,BOT,77,103.727,11.0,1.0,,,True,HARD,11.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.107,4.123,8.14,8.516,1.18,1.151,104.306
+0 days 01:19:18.857000,BOT,77,104.342,12.0,1.0,,,False,HARD,12.0,True,Cadillac,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.722,4.74,8.755,9.159,1.682,1.638,104.979
+0 days 01:21:03.432000,BOT,77,104.575,13.0,1.0,,,False,HARD,13.0,True,Cadillac,12,20.0,True,14,Spanish Grand Prix,True,C2,False,4.955,4.974,8.988,9.403,2.065,2.014,105.27
+0 days 01:23:19.442000,BOT,77,136.01,14.0,1.0,,,False,HARD,14.0,True,Cadillac,26,20.0,False,14,Spanish Grand Prix,True,C2,False,36.39,36.529,40.423,42.289,10.166,8.078,136.763
+0 days 01:25:12.295000,BOT,77,112.853,15.0,1.0,,,False,HARD,15.0,True,Cadillac,671,18.0,False,14,Spanish Grand Prix,True,C2,False,13.233,13.283,17.266,18.063,-8.181,-6.759,113.664
+0 days 01:26:56.540000,BOT,77,104.245,16.0,1.0,,,False,HARD,16.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.625,4.643,8.658,9.058,3.817,3.801,105.113
+0 days 01:28:39.732000,BOT,77,103.192,17.0,1.0,,,True,HARD,17.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.572,3.586,7.605,7.956,3.034,3.029,104.118
+0 days 01:30:22.665000,BOT,77,102.933,18.0,1.0,,,True,HARD,18.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.313,3.326,7.346,7.685,2.655,2.648,103.917
+0 days 01:32:05.248000,BOT,77,102.583,19.0,1.0,,,True,HARD,19.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,2.963,2.974,6.996,7.319,2.539,2.538,103.625
+0 days 01:33:48.068000,BOT,77,102.82,20.0,1.0,,,False,HARD,20.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.2,3.212,7.233,7.567,2.636,2.631,103.92
+0 days 01:35:30.953000,BOT,77,102.885,21.0,1.0,,,False,HARD,21.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.265,3.277,7.298,7.635,2.754,2.75,104.043
+0 days 01:37:13.572000,BOT,77,102.619,22.0,1.0,,,False,HARD,22.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,2.999,3.01,7.032,7.357,2.637,2.637,103.835
+0 days 01:38:58.696000,BOT,77,105.124,23.0,1.0,,,False,HARD,23.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,5.504,5.525,9.537,9.977,5.45,5.468,106.398
+0 days 01:40:47.413000,BOT,77,108.717,24.0,1.0,,,False,HARD,24.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,9.097,9.132,13.13,13.736,8.821,8.83,110.049
+0 days 01:42:31.138000,BOT,77,103.725,25.0,1.0,,,False,HARD,25.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.105,4.121,8.138,8.514,3.629,3.626,105.114
+0 days 01:44:13.805000,BOT,77,102.667,26.0,1.0,,,False,HARD,26.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.047,3.059,7.08,7.407,2.916,2.923,104.114
+0 days 01:45:56.575000,BOT,77,102.77,27.0,1.0,,,False,HARD,27.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.15,3.162,7.183,7.515,3.006,3.013,104.275
+0 days 01:47:40.635000,BOT,77,104.06,28.0,1.0,,,False,HARD,28.0,True,Cadillac,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.44,4.457,8.473,8.864,4.24,4.248,105.623
+0 days 01:49:28.684000,BOT,77,108.049,29.0,1.0,,0 days 01:49:27.733000,False,HARD,29.0,True,Cadillac,1,19.0,False,14,Spanish Grand Prix,True,C2,False,8.429,8.461,12.462,13.037,8.631,8.682,109.67
+0 days 01:51:36.220000,BOT,77,127.536,30.0,2.0,0 days 01:49:59.401000,,False,HARD,1.0,True,Cadillac,1,20.0,False,14,Spanish Grand Prix,True,C2,False,27.916,28.022,31.949,33.424,28.306,28.526,129.215
+0 days 01:53:20.008000,BOT,77,103.788,31.0,2.0,,,False,HARD,2.0,True,Cadillac,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.168,4.184,8.201,8.58,4.592,4.629,105.525
+0 days 01:55:01.555000,BOT,77,101.547,32.0,2.0,,,True,HARD,3.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.927,1.934,5.96,6.235,2.298,2.315,103.342
+0 days 01:56:43.206000,BOT,77,101.651,33.0,2.0,,,False,HARD,4.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.031,2.039,6.064,6.344,2.864,2.899,103.504
+0 days 01:58:24.482000,BOT,77,101.276,34.0,2.0,,,True,HARD,5.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.656,1.662,5.689,5.952,2.624,2.66,103.187
+0 days 02:00:05.765000,BOT,77,101.283,35.0,2.0,,,False,HARD,6.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,1.663,1.669,5.696,5.959,2.345,2.37,103.251
+0 days 02:01:49.677000,BOT,77,103.912,36.0,2.0,,,False,HARD,7.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,4.292,4.308,8.325,8.709,5.266,5.338,105.938
+0 days 02:03:39.470000,BOT,77,109.793,37.0,2.0,,,False,HARD,8.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,10.173,10.212,14.206,14.862,10.961,11.091,111.877
+0 days 02:05:21.594000,BOT,77,102.124,38.0,2.0,,,False,HARD,9.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.504,2.514,6.537,6.839,3.434,3.48,104.266
+0 days 02:07:03.636000,BOT,77,102.042,39.0,2.0,,,False,HARD,10.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.422,2.431,6.455,6.753,2.966,2.994,104.242
+0 days 02:08:45.945000,BOT,77,102.309,40.0,2.0,,,False,HARD,11.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.689,2.699,6.722,7.032,3.545,3.589,104.567
+0 days 02:10:28.423000,BOT,77,102.478,41.0,2.0,,,False,HARD,12.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,2.858,2.869,6.891,7.209,3.54,3.578,104.794
+0 days 02:12:14.455000,BOT,77,106.032,42.0,2.0,,,False,HARD,13.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C2,True,6.412,6.436,10.445,10.927,7.036,7.107,108.406
+0 days 02:14:00.586000,BOT,77,106.131,43.0,2.0,,0 days 02:13:59.645000,False,HARD,14.0,True,Cadillac,1,18.0,False,14,Spanish Grand Prix,True,C2,False,6.511,6.536,10.544,11.031,7.346,7.436,108.563
+0 days 02:16:05.016000,BOT,77,124.43,44.0,3.0,0 days 02:14:31.300000,,False,SOFT,1.0,True,Cadillac,1,18.0,False,14,Spanish Grand Prix,True,C4,False,24.81,24.905,28.843,30.175,25.338,25.57,126.919
+0 days 02:17:44.146000,BOT,77,99.13,45.0,3.0,,,True,SOFT,2.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,-0.49,-0.492,3.543,3.707,0.0,0.0,101.677
+0 days 02:19:26.365000,BOT,77,102.219,46.0,3.0,,,False,SOFT,3.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,2.599,2.609,6.632,6.938,3.115,3.143,104.824
+0 days 02:21:14.121000,BOT,77,107.756,47.0,3.0,,,False,SOFT,4.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,8.136,8.167,12.169,12.731,9.095,9.218,110.419
+0 days 02:23:04.486000,BOT,77,110.365,48.0,3.0,,,False,SOFT,5.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,10.745,10.786,14.778,15.46,12.163,12.386,113.086
+0 days 02:24:46.504000,BOT,77,102.018,49.0,3.0,,,False,SOFT,6.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,2.398,2.407,6.431,6.728,3.704,3.768,104.797
+0 days 02:26:32.320000,BOT,77,105.816,50.0,3.0,,,False,SOFT,7.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,6.196,6.22,10.229,10.701,7.666,7.81,108.653
+0 days 02:28:17.977000,BOT,77,105.657,51.0,3.0,,,False,SOFT,8.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,6.037,6.06,10.07,10.535,7.47,7.608,108.552
+0 days 02:30:00.394000,BOT,77,102.417,52.0,3.0,,,False,SOFT,9.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,2.797,2.808,6.83,7.145,4.121,4.192,105.37
+0 days 02:31:43.147000,BOT,77,102.753,53.0,3.0,,,False,SOFT,10.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,3.133,3.145,7.166,7.497,4.142,4.2,105.764
+0 days 02:33:27.065000,BOT,77,103.918,54.0,3.0,,,False,SOFT,11.0,True,Cadillac,1,18.0,True,14,Spanish Grand Prix,True,C4,True,4.298,4.314,8.331,8.716,5.504,5.593,106.986
+0 days 01:00:02.323000,PIA,81,,1.0,1.0,,,False,HARD,1.0,True,McLaren,12,10.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:45.274000,PIA,81,102.951,2.0,1.0,,,True,HARD,2.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C2,True,3.331,3.344,7.364,7.704,-0.019,-0.018,103.009
+0 days 01:03:27.771000,PIA,81,102.497,3.0,1.0,,,True,HARD,3.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C2,True,2.877,2.888,6.91,7.229,-0.205,-0.2,102.613
+0 days 01:05:10.193000,PIA,81,102.422,4.0,1.0,,,True,HARD,4.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C2,True,2.802,2.813,6.835,7.151,-0.278,-0.271,102.596
+0 days 01:06:53.057000,PIA,81,102.864,5.0,1.0,,,False,HARD,5.0,True,McLaren,12,9.0,True,14,Spanish Grand Prix,True,C2,False,3.244,3.256,7.277,7.613,-0.486,-0.47,103.096
+0 days 01:08:35.811000,PIA,81,102.754,6.0,1.0,,,False,HARD,6.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,3.134,3.146,7.167,7.498,-0.331,-0.321,103.043
+0 days 01:10:17.805000,PIA,81,101.994,7.0,1.0,,,True,HARD,7.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,2.374,2.383,6.407,6.703,-0.174,-0.17,102.341
+0 days 01:11:59.763000,PIA,81,101.958,8.0,1.0,,,True,HARD,8.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,2.338,2.347,6.371,6.665,-0.138,-0.135,102.363
+0 days 01:13:41.573000,PIA,81,101.81,9.0,1.0,,,True,HARD,9.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,2.19,2.198,6.223,6.51,-0.509,-0.497,102.273
+0 days 01:15:24.618000,PIA,81,103.045,10.0,1.0,,,False,HARD,10.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,3.425,3.438,7.458,7.802,0.0,0.0,103.566
+0 days 01:17:07.142000,PIA,81,102.524,11.0,1.0,,,False,HARD,11.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,2.904,2.915,6.937,7.257,-0.023,-0.022,103.103
+0 days 01:18:49.844000,PIA,81,102.702,12.0,1.0,,,False,HARD,12.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,3.082,3.094,7.115,7.443,0.042,0.041,103.339
+0 days 01:20:32.334000,PIA,81,102.49,13.0,1.0,,,False,HARD,13.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C2,True,2.87,2.881,6.903,7.222,-0.02,-0.02,103.185
+0 days 01:22:36.567000,PIA,81,124.233,14.0,1.0,,,False,HARD,14.0,True,McLaren,126,9.0,False,14,Spanish Grand Prix,True,C2,False,24.613,24.707,28.646,29.969,-1.611,-1.28,124.986
+0 days 01:24:38.485000,PIA,81,121.918,15.0,1.0,,,False,HARD,15.0,True,McLaren,671,7.0,False,14,Spanish Grand Prix,True,C2,False,22.298,22.383,26.331,27.547,0.884,0.73,122.729
+0 days 01:26:18.552000,PIA,81,100.067,16.0,1.0,,,True,HARD,16.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,0.447,0.449,4.48,4.687,-0.361,-0.359,100.935
+0 days 01:27:58.511000,PIA,81,99.959,17.0,1.0,,,True,HARD,17.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,0.339,0.34,4.372,4.574,-0.199,-0.199,100.885
+0 days 01:29:37.690000,PIA,81,99.179,18.0,1.0,,,True,HARD,18.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.441,-0.443,3.592,3.758,-1.099,-1.096,100.163
+0 days 01:31:17.018000,PIA,81,99.328,19.0,1.0,,,False,HARD,19.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.292,-0.293,3.741,3.914,-0.716,-0.716,100.37
+0 days 01:32:56.401000,PIA,81,99.383,20.0,1.0,,,False,HARD,20.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.237,-0.238,3.796,3.971,-0.801,-0.8,100.483
+0 days 01:34:35.548000,PIA,81,99.147,21.0,1.0,,,True,HARD,21.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.473,-0.475,3.56,3.724,-0.984,-0.983,100.305
+0 days 01:36:14.662000,PIA,81,99.114,22.0,1.0,,,True,HARD,22.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.506,-0.508,3.527,3.69,-0.868,-0.868,100.33
+0 days 01:37:53.188000,PIA,81,98.526,23.0,1.0,,,True,HARD,23.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.094,-1.098,2.939,3.075,-1.148,-1.152,99.8
+0 days 01:39:31.875000,PIA,81,98.687,24.0,1.0,,,False,HARD,24.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.933,-0.937,3.1,3.243,-1.209,-1.21,100.019
+0 days 01:41:10.554000,PIA,81,98.679,25.0,1.0,,,False,HARD,25.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.941,-0.945,3.092,3.235,-1.417,-1.416,100.068
+0 days 01:42:49.949000,PIA,81,99.395,26.0,1.0,,,False,HARD,26.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.225,-0.226,3.808,3.984,-0.356,-0.357,100.842
+0 days 01:44:28.797000,PIA,81,98.848,27.0,1.0,,,False,HARD,27.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.772,-0.775,3.261,3.412,-0.916,-0.918,100.353
+0 days 01:46:07.977000,PIA,81,99.18,28.0,1.0,,,False,HARD,28.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.44,-0.442,3.593,3.759,-0.64,-0.641,100.743
+0 days 01:47:47.031000,PIA,81,99.054,29.0,1.0,,,False,HARD,29.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.566,-0.568,3.467,3.627,-0.364,-0.366,100.675
+0 days 01:49:26.064000,PIA,81,99.033,30.0,1.0,,,False,HARD,30.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.587,-0.589,3.446,3.605,-0.197,-0.199,100.712
+0 days 01:51:04.252000,PIA,81,98.188,31.0,1.0,,,True,HARD,31.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.432,-1.437,2.601,2.721,-1.008,-1.016,99.925
+0 days 01:52:43.515000,PIA,81,99.263,32.0,1.0,,,False,HARD,32.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.357,-0.358,3.676,3.846,0.014,0.014,101.058
+0 days 01:54:21.529000,PIA,81,98.014,33.0,1.0,,,True,HARD,33.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.606,-1.612,2.427,2.539,-0.773,-0.782,99.867
+0 days 01:55:59.494000,PIA,81,97.965,34.0,1.0,,,True,HARD,34.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.655,-1.661,2.378,2.488,-0.687,-0.696,99.876
+0 days 01:57:37.818000,PIA,81,98.324,35.0,1.0,,,False,HARD,35.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.296,-1.301,2.737,2.863,-0.614,-0.621,100.292
+0 days 01:59:16.677000,PIA,81,98.859,36.0,1.0,,,False,HARD,36.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.761,-0.764,3.272,3.423,0.213,0.216,100.885
+0 days 02:00:55.509000,PIA,81,98.832,37.0,1.0,,,False,HARD,37.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.788,-0.791,3.245,3.395,0.0,0.0,100.916
+0 days 02:02:34.145000,PIA,81,98.636,38.0,1.0,,,False,HARD,38.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.984,-0.988,3.049,3.19,-0.054,-0.055,100.778
+0 days 02:04:12.995000,PIA,81,98.85,39.0,1.0,,,False,HARD,39.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.77,-0.773,3.263,3.414,-0.226,-0.228,101.05
+0 days 02:05:51.560000,PIA,81,98.565,40.0,1.0,,,False,HARD,40.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-1.055,-1.059,2.978,3.115,-0.199,-0.201,100.823
+0 days 02:07:30.327000,PIA,81,98.767,41.0,1.0,,,False,HARD,41.0,True,McLaren,1,7.0,True,14,Spanish Grand Prix,True,C2,True,-0.853,-0.856,3.18,3.327,-0.171,-0.173,101.083
+0 days 02:09:12.521000,PIA,81,102.194,42.0,1.0,,0 days 02:09:11.608000,False,HARD,42.0,True,McLaren,1,7.0,False,14,Spanish Grand Prix,True,C2,False,2.574,2.584,6.607,6.912,3.198,3.23,104.568
+0 days 02:11:14.310000,PIA,81,121.789,43.0,2.0,0 days 02:09:42.994000,,False,MEDIUM,1.0,True,McLaren,1,11.0,False,14,Spanish Grand Prix,True,C3,False,22.169,22.254,26.202,27.412,23.004,23.287,124.221
+0 days 02:12:52.951000,PIA,81,98.641,44.0,2.0,,,False,MEDIUM,2.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C3,True,-0.979,-0.983,3.054,3.195,-0.451,-0.455,101.13
+0 days 02:14:33.505000,PIA,81,100.554,45.0,2.0,,,False,MEDIUM,3.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C3,True,0.934,0.938,4.967,5.196,1.424,1.436,103.101
+0 days 02:16:12.983000,PIA,81,99.478,46.0,2.0,,,False,MEDIUM,4.0,True,McLaren,1,10.0,True,14,Spanish Grand Prix,True,C3,True,-0.142,-0.143,3.891,4.071,0.374,0.377,102.083
+0 days 02:17:53.571000,PIA,81,100.588,47.0,2.0,,,False,MEDIUM,5.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,0.968,0.972,5.001,5.232,1.927,1.953,103.251
+0 days 02:19:30.797000,PIA,81,97.226,48.0,2.0,,,True,MEDIUM,6.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-2.394,-2.403,1.639,1.715,-0.976,-0.994,99.947
+0 days 02:21:08.856000,PIA,81,98.059,49.0,2.0,,,False,MEDIUM,7.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-1.561,-1.567,2.472,2.586,-0.255,-0.259,100.838
+0 days 02:22:47.043000,PIA,81,98.187,50.0,2.0,,,False,MEDIUM,8.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-1.433,-1.438,2.6,2.72,0.037,0.038,101.024
+0 days 02:24:24.331000,PIA,81,97.288,51.0,2.0,,,False,MEDIUM,9.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-2.332,-2.341,1.701,1.78,-0.899,-0.916,100.183
+0 days 02:26:01.853000,PIA,81,97.522,52.0,2.0,,,False,MEDIUM,10.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-2.098,-2.106,1.935,2.024,-0.774,-0.787,100.475
+0 days 02:27:39.510000,PIA,81,97.657,53.0,2.0,,,False,MEDIUM,11.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-1.963,-1.97,2.07,2.166,-0.954,-0.967,100.668
+0 days 02:29:17.089000,PIA,81,97.579,54.0,2.0,,,False,MEDIUM,12.0,True,McLaren,1,9.0,True,14,Spanish Grand Prix,True,C3,True,-2.041,-2.049,1.992,2.084,-0.835,-0.848,100.647
+0 days 02:30:56.073000,PIA,81,98.984,55.0,2.0,,,False,MEDIUM,13.0,True,McLaren,1,8.0,True,14,Spanish Grand Prix,True,C3,True,-0.636,-0.638,3.397,3.554,0.05,0.051,102.11
+0 days 02:32:34.787000,PIA,81,98.714,56.0,2.0,,,False,MEDIUM,14.0,True,McLaren,1,8.0,True,14,Spanish Grand Prix,True,C3,True,-0.906,-0.909,3.127,3.271,0.699,0.713,101.898
+0 days 02:34:13.658000,PIA,81,98.871,57.0,2.0,,,False,MEDIUM,15.0,True,McLaren,1,8.0,True,14,Spanish Grand Prix,True,C3,True,-0.749,-0.752,3.284,3.436,1.189,1.217,102.113
+0 days 01:00:10.878000,BEA,87,,1.0,1.0,0 days 00:58:35.010000,,False,HARD,1.0,True,Haas F1 Team,12,22.0,False,14,Spanish Grand Prix,True,C2,False,,,,,,,
+0 days 01:01:54.893000,BEA,87,104.015,2.0,1.0,,,True,HARD,2.0,True,Haas F1 Team,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.395,4.412,8.428,8.817,1.045,1.015,104.073
+0 days 01:03:38.672000,BEA,87,103.779,3.0,1.0,,,True,HARD,3.0,True,Haas F1 Team,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.159,4.175,8.192,8.57,1.077,1.049,103.895
+0 days 01:05:23.168000,BEA,87,104.496,4.0,1.0,,,False,HARD,4.0,True,Haas F1 Team,1,21.0,True,14,Spanish Grand Prix,True,C2,True,4.876,4.895,8.909,9.32,1.796,1.749,104.67
+0 days 01:07:07.442000,BEA,87,104.274,5.0,1.0,,,False,HARD,5.0,True,Haas F1 Team,12,21.0,True,14,Spanish Grand Prix,True,C2,False,4.654,4.672,8.687,9.088,0.924,0.894,104.506
+0 days 01:08:52.100000,BEA,87,104.658,6.0,1.0,,,False,HARD,6.0,True,Haas F1 Team,1,20.0,True,14,Spanish Grand Prix,True,C2,True,5.038,5.057,9.071,9.49,1.573,1.526,104.947
+0 days 01:10:35.868000,BEA,87,103.768,7.0,1.0,,,True,HARD,7.0,True,Haas F1 Team,1,20.0,True,14,Spanish Grand Prix,True,C2,True,4.148,4.164,8.181,8.559,1.6,1.566,104.115
+0 days 01:12:18.843000,BEA,87,102.975,8.0,1.0,,,True,HARD,8.0,True,Haas F1 Team,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.355,3.368,7.388,7.729,0.879,0.861,103.38
+0 days 01:14:02.339000,BEA,87,103.496,9.0,1.0,,,False,HARD,9.0,True,Haas F1 Team,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.876,3.891,7.909,8.274,1.177,1.15,103.959
+0 days 01:15:45.648000,BEA,87,103.309,10.0,1.0,,,False,HARD,10.0,True,Haas F1 Team,1,19.0,True,14,Spanish Grand Prix,True,C2,True,3.689,3.703,7.722,8.079,0.264,0.256,103.83
+0 days 01:17:29.550000,BEA,87,103.902,11.0,1.0,,,False,HARD,11.0,True,Haas F1 Team,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.282,4.298,8.315,8.699,1.355,1.321,104.481
+0 days 01:19:13.765000,BEA,87,104.215,12.0,1.0,,,False,HARD,12.0,True,Haas F1 Team,1,19.0,True,14,Spanish Grand Prix,True,C2,True,4.595,4.613,8.628,9.026,1.555,1.515,104.852
+0 days 01:20:56.888000,BEA,87,103.123,13.0,1.0,,,False,HARD,13.0,True,Haas F1 Team,12,19.0,True,14,Spanish Grand Prix,True,C2,False,3.503,3.516,7.536,7.884,0.613,0.598,103.818
+0 days 01:23:10.037000,BEA,87,133.149,14.0,1.0,,,False,HARD,14.0,True,Haas F1 Team,26,19.0,False,14,Spanish Grand Prix,True,C2,False,33.529,33.657,37.562,39.296,7.305,5.805,133.902
+0 days 01:25:03.273000,BEA,87,113.236,15.0,1.0,,,False,HARD,15.0,True,Haas F1 Team,671,16.0,False,14,Spanish Grand Prix,True,C2,False,13.616,13.668,17.649,18.464,-7.798,-6.443,114.047
+0 days 01:26:45.054000,BEA,87,101.781,16.0,1.0,,,True,HARD,16.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.161,2.169,6.194,6.48,1.353,1.347,102.649
+0 days 01:28:27.250000,BEA,87,102.196,17.0,1.0,,,False,HARD,17.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.576,2.586,6.609,6.914,2.038,2.035,103.122
+0 days 01:30:09.389000,BEA,87,102.139,18.0,1.0,,,False,HARD,18.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.519,2.529,6.552,6.854,1.861,1.856,103.123
+0 days 01:31:51.185000,BEA,87,101.796,19.0,1.0,,,False,HARD,19.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.176,2.184,6.209,6.496,1.752,1.751,102.838
+0 days 01:33:32.845000,BEA,87,101.66,20.0,1.0,,,True,HARD,20.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.04,2.048,6.073,6.353,1.476,1.473,102.76
+0 days 01:35:14.539000,BEA,87,101.694,21.0,1.0,,,False,HARD,21.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.074,2.082,6.107,6.389,1.563,1.561,102.852
+0 days 01:36:56.580000,BEA,87,102.041,22.0,1.0,,,False,HARD,22.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,2.421,2.43,6.454,6.752,2.059,2.059,103.257
+0 days 01:38:38.516000,BEA,87,101.936,23.0,1.0,,,False,HARD,23.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,2.316,2.325,6.349,6.642,2.262,2.269,103.21
+0 days 01:40:18.631000,BEA,87,100.115,24.0,1.0,,,True,HARD,24.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.495,0.497,4.528,4.737,0.219,0.219,101.447
+0 days 01:41:58.788000,BEA,87,100.157,25.0,1.0,,,False,HARD,25.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.537,0.539,4.57,4.781,0.061,0.061,101.546
+0 days 01:43:38.537000,BEA,87,99.749,26.0,1.0,,,True,HARD,26.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.129,0.129,4.162,4.354,-0.002,-0.002,101.196
+0 days 01:45:18.288000,BEA,87,99.751,27.0,1.0,,,False,HARD,27.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.131,0.131,4.164,4.356,-0.013,-0.013,101.256
+0 days 01:46:58.205000,BEA,87,99.917,28.0,1.0,,,False,HARD,28.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,0.297,0.298,4.33,4.53,0.097,0.097,101.48
+0 days 01:48:37.403000,BEA,87,99.198,29.0,1.0,,,True,HARD,29.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.422,-0.424,3.611,3.778,-0.22,-0.221,100.819
+0 days 01:50:16.608000,BEA,87,99.205,30.0,1.0,,,False,HARD,30.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.415,-0.417,3.618,3.785,-0.025,-0.025,100.884
+0 days 01:51:55.929000,BEA,87,99.321,31.0,1.0,,,False,HARD,31.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.299,-0.3,3.734,3.906,0.125,0.126,101.058
+0 days 01:53:35.164000,BEA,87,99.235,32.0,1.0,,,False,HARD,32.0,True,Haas F1 Team,1,15.0,True,14,Spanish Grand Prix,True,C2,True,-0.385,-0.386,3.648,3.816,-0.014,-0.014,101.03
+0 days 01:55:16.875000,BEA,87,101.711,33.0,1.0,,0 days 01:55:15.871000,False,HARD,33.0,True,Haas F1 Team,1,15.0,False,14,Spanish Grand Prix,True,C2,False,2.091,2.099,6.124,6.407,2.924,2.96,103.564
+0 days 01:57:21.855000,BEA,87,124.98,34.0,2.0,0 days 01:55:49.247000,,False,MEDIUM,1.0,True,Haas F1 Team,1,16.0,False,14,Spanish Grand Prix,True,C3,False,25.36,25.457,29.393,30.75,26.328,26.688,126.891
+0 days 01:59:00.802000,BEA,87,98.947,35.0,2.0,,,True,MEDIUM,2.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,-0.673,-0.676,3.36,3.515,0.009,0.009,100.915
+0 days 02:00:39.753000,BEA,87,98.951,36.0,2.0,,,False,MEDIUM,3.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,-0.669,-0.672,3.364,3.519,0.305,0.309,100.977
+0 days 02:02:18.811000,BEA,87,99.058,37.0,2.0,,,False,MEDIUM,4.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,-0.562,-0.564,3.471,3.631,0.226,0.229,101.142
+0 days 02:03:58.210000,BEA,87,99.399,38.0,2.0,,,False,MEDIUM,5.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,-0.221,-0.222,3.812,3.988,0.709,0.718,101.541
+0 days 02:05:37.707000,BEA,87,99.497,39.0,2.0,,,False,MEDIUM,6.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,-0.123,-0.123,3.91,4.091,0.421,0.425,101.697
+0 days 02:07:17.660000,BEA,87,99.953,40.0,2.0,,,False,MEDIUM,7.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,0.333,0.334,4.366,4.568,1.189,1.204,102.211
+0 days 02:08:59.489000,BEA,87,101.829,41.0,2.0,,,False,MEDIUM,8.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,2.209,2.217,6.242,6.53,2.891,2.922,104.145
+0 days 02:10:39.683000,BEA,87,100.194,42.0,2.0,,,False,MEDIUM,9.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C3,True,0.574,0.576,4.607,4.82,1.198,1.21,102.568
+0 days 02:12:22.034000,BEA,87,102.351,43.0,2.0,,0 days 02:12:21.064000,False,MEDIUM,10.0,True,Haas F1 Team,1,16.0,False,14,Spanish Grand Prix,True,C3,False,2.731,2.741,6.764,7.076,3.566,3.61,104.783
+0 days 02:14:23.524000,BEA,87,121.49,44.0,3.0,0 days 02:12:52.636000,,False,HARD,1.0,True,Haas F1 Team,1,16.0,False,14,Spanish Grand Prix,True,C2,False,21.87,21.953,25.903,27.099,22.398,22.603,123.979
+0 days 02:16:00.832000,BEA,87,97.308,45.0,3.0,,,True,HARD,2.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-2.312,-2.321,1.721,1.8,-1.822,-1.838,99.855
+0 days 02:17:38.499000,BEA,87,97.667,46.0,3.0,,,False,HARD,3.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-1.953,-1.96,2.08,2.176,-1.437,-1.45,100.272
+0 days 02:19:16.426000,BEA,87,97.927,47.0,3.0,,,False,HARD,4.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-1.693,-1.699,2.34,2.448,-0.734,-0.744,100.59
+0 days 02:20:54.565000,BEA,87,98.139,48.0,3.0,,,False,HARD,5.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-1.481,-1.487,2.552,2.67,-0.063,-0.064,100.86
+0 days 02:22:33.200000,BEA,87,98.635,49.0,3.0,,,False,HARD,6.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-0.985,-0.989,3.048,3.189,0.321,0.327,101.414
+0 days 02:24:12.641000,BEA,87,99.441,50.0,3.0,,,False,HARD,7.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-0.179,-0.18,3.854,4.032,1.291,1.315,102.278
+0 days 02:25:53.720000,BEA,87,101.079,51.0,3.0,,,False,HARD,8.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,1.459,1.465,5.492,5.746,2.892,2.945,103.974
+0 days 02:27:32.944000,BEA,87,99.224,52.0,3.0,,,False,HARD,9.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-0.396,-0.398,3.637,3.805,0.928,0.944,102.177
+0 days 02:29:13.423000,BEA,87,100.479,53.0,3.0,,,False,HARD,10.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,0.859,0.862,4.892,5.118,1.868,1.894,103.49
+0 days 02:30:51.586000,BEA,87,98.163,54.0,3.0,,,False,HARD,11.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-1.457,-1.463,2.576,2.695,-0.251,-0.255,101.231
+0 days 02:32:30.471000,BEA,87,98.885,55.0,3.0,,,False,HARD,12.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-0.735,-0.738,3.298,3.45,-0.049,-0.05,102.011
+0 days 02:34:07.782000,BEA,87,97.311,56.0,3.0,,,False,HARD,13.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-2.309,-2.318,1.724,1.804,-0.704,-0.718,100.495
