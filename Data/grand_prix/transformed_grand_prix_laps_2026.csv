@@ -16256,3 +16256,984 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 02:30:51.586000,BEA,87,98.163,54.0,3.0,,,False,HARD,11.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-1.457,-1.463,2.576,2.695,-0.251,-0.255,101.231
 0 days 02:32:30.471000,BEA,87,98.885,55.0,3.0,,,False,HARD,12.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-0.735,-0.738,3.298,3.45,-0.049,-0.05,102.011
 0 days 02:34:07.782000,BEA,87,97.311,56.0,3.0,,,False,HARD,13.0,True,Haas F1 Team,1,16.0,True,14,Spanish Grand Prix,True,C2,True,-2.309,-2.318,1.724,1.804,-0.704,-0.718,100.495
+0 days 00:58:47.973000,NOR,1,,1.0,1.0,,,False,MEDIUM,1.0,True,McLaren,1,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:38.175000,NOR,1,110.202,2.0,1.0,,,True,MEDIUM,2.0,True,McLaren,1,5.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.494,1.374,5.286,5.038,-0.91,-0.819,110.267
+0 days 01:02:29.094000,NOR,1,110.919,3.0,1.0,,,False,MEDIUM,3.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.211,2.034,6.003,5.722,0.523,0.474,111.048
+0 days 01:04:18.571000,NOR,1,109.477,4.0,1.0,,,True,MEDIUM,4.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.769,0.707,4.561,4.347,-0.528,-0.48,109.671
+0 days 01:06:07.708000,NOR,1,109.137,5.0,1.0,,,True,MEDIUM,5.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.429,0.395,4.221,4.023,-0.257,-0.235,109.396
+0 days 01:07:55.953000,NOR,1,108.245,6.0,1.0,,,True,MEDIUM,6.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.463,-0.426,3.329,3.173,-1.573,-1.432,108.569
+0 days 01:09:44.540000,NOR,1,108.587,7.0,1.0,,,False,MEDIUM,7.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.121,-0.111,3.671,3.499,-1.099,-1.002,108.975
+0 days 01:11:33.091000,NOR,1,108.551,8.0,1.0,,,False,MEDIUM,8.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.157,-0.144,3.635,3.465,-0.948,-0.866,109.004
+0 days 01:13:22.456000,NOR,1,109.365,9.0,1.0,,,False,MEDIUM,9.0,True,McLaren,12,6.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.657,0.604,4.449,4.241,0.0,0.0,109.883
+0 days 01:15:10.944000,NOR,1,108.488,10.0,1.0,,,False,MEDIUM,10.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.22,-0.202,3.572,3.405,-0.829,-0.758,109.07
+0 days 01:16:59.506000,NOR,1,108.562,11.0,1.0,,,False,MEDIUM,11.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.146,-0.134,3.646,3.475,-0.803,-0.734,109.209
+0 days 01:18:47.804000,NOR,1,108.298,12.0,1.0,,,False,MEDIUM,12.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.41,-0.377,3.382,3.224,-0.914,-0.837,109.01
+0 days 01:20:36.251000,NOR,1,108.447,13.0,1.0,,,False,MEDIUM,13.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.261,-0.24,3.531,3.366,-0.692,-0.634,109.223
+0 days 01:22:24.353000,NOR,1,108.102,14.0,1.0,,,True,MEDIUM,14.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.606,-0.557,3.186,3.037,-0.889,-0.816,108.943
+0 days 01:24:12.725000,NOR,1,108.372,15.0,1.0,,,False,MEDIUM,15.0,True,McLaren,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.336,-0.309,3.456,3.294,-0.454,-0.417,109.278
+0 days 01:26:02.701000,NOR,1,109.976,16.0,1.0,,,False,MEDIUM,16.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.268,1.166,5.06,4.823,0.643,0.588,110.947
+0 days 01:27:52.109000,NOR,1,109.408,17.0,1.0,,,False,MEDIUM,17.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.7,0.644,4.492,4.282,0.39,0.358,110.443
+0 days 01:29:40.499000,NOR,1,108.39,18.0,1.0,,,False,MEDIUM,18.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.318,-0.293,3.474,3.311,-0.552,-0.507,109.49
+0 days 01:31:29.040000,NOR,1,108.541,19.0,1.0,,,False,MEDIUM,19.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.167,-0.154,3.625,3.455,-0.252,-0.232,109.706
+0 days 01:33:17.281000,NOR,1,108.241,20.0,1.0,,,False,MEDIUM,20.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.467,-0.43,3.325,3.169,-0.397,-0.365,109.47
+0 days 01:35:05.453000,NOR,1,108.172,21.0,1.0,,,False,MEDIUM,21.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.536,-0.493,3.256,3.103,-0.333,-0.307,109.466
+0 days 01:36:53.488000,NOR,1,108.035,22.0,1.0,,,True,MEDIUM,22.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.673,-0.619,3.119,2.973,-0.835,-0.767,109.394
+0 days 01:38:42.393000,NOR,1,108.905,23.0,1.0,,,False,MEDIUM,23.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.197,0.181,3.989,3.802,0.0,0.0,110.329
+0 days 01:40:30.726000,NOR,1,108.333,24.0,1.0,,,False,MEDIUM,24.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.375,-0.345,3.417,3.257,-0.434,-0.399,109.821
+0 days 01:42:18.768000,NOR,1,108.042,25.0,1.0,,,False,MEDIUM,25.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.666,-0.613,3.126,2.98,-0.564,-0.519,109.595
+0 days 01:44:06.749000,NOR,1,107.981,26.0,1.0,,,True,MEDIUM,26.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.727,-0.669,3.065,2.921,-0.567,-0.522,109.599
+0 days 01:45:54.710000,NOR,1,107.961,27.0,1.0,,,True,MEDIUM,27.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.747,-0.687,3.045,2.902,-0.082,-0.076,109.643
+0 days 01:47:42.471000,NOR,1,107.761,28.0,1.0,,,True,MEDIUM,28.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.947,-0.871,2.845,2.712,-0.819,-0.754,109.508
+0 days 01:49:30.559000,NOR,1,108.088,29.0,1.0,,,False,MEDIUM,29.0,True,McLaren,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.62,-0.57,3.172,3.023,-0.194,-0.179,109.9
+0 days 01:51:49.612000,NOR,1,139.053,30.0,1.0,,0 days 01:51:48.410000,False,MEDIUM,30.0,True,McLaren,124,9.0,False,15,Azerbaijan Grand Prix,True,C4,False,30.345,27.914,34.137,32.537,31.658,29.478,140.929
+0 days 01:54:34.417000,NOR,1,,31.0,2.0,0 days 01:52:09.239000,,False,SOFT,1.0,True,McLaren,4,9.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:46.747000,NOR,1,132.33,32.0,2.0,,,False,SOFT,2.0,True,McLaren,4,9.0,False,15,Azerbaijan Grand Prix,True,C5,False,23.622,21.73,27.414,26.129,1.046,0.797,134.336
+0 days 01:59:15.764000,NOR,1,149.017,33.0,2.0,,,False,SOFT,3.0,True,McLaren,4,9.0,False,15,Azerbaijan Grand Prix,True,C5,False,40.309,37.08,44.101,42.035,13.812,10.216,151.088
+0 days 02:02:00.300000,NOR,1,,34.0,2.0,,,False,SOFT,4.0,True,McLaren,4,9.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:29.846000,NOR,1,149.546,35.0,2.0,,,False,SOFT,5.0,True,McLaren,41,9.0,False,15,Azerbaijan Grand Prix,True,C5,False,40.838,37.567,44.63,42.539,5.15,3.567,151.746
+0 days 02:06:59.846000,NOR,1,,36.0,2.0,,,True,SOFT,6.0,True,McLaren,124,,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:51.001000,GAS,10,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,8.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:41.268000,GAS,10,110.267,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.559,1.434,5.351,5.1,-0.845,-0.76,110.332
+0 days 01:02:30.525000,GAS,10,109.257,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.549,0.505,4.341,4.138,-1.139,-1.032,109.386
+0 days 01:04:19.905000,GAS,10,109.38,4.0,1.0,,,False,MEDIUM,4.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.672,0.618,4.464,4.255,-0.625,-0.568,109.574
+0 days 01:06:09.248000,GAS,10,109.343,5.0,1.0,,,False,MEDIUM,5.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.635,0.584,4.427,4.22,-0.051,-0.047,109.602
+0 days 01:07:58.452000,GAS,10,109.204,6.0,1.0,,,True,MEDIUM,6.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.496,0.456,4.288,4.087,-0.614,-0.559,109.528
+0 days 01:09:47.685000,GAS,10,109.233,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.525,0.483,4.317,4.115,-0.453,-0.413,109.621
+0 days 01:11:36.606000,GAS,10,108.921,8.0,1.0,,,True,MEDIUM,8.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.213,0.196,4.005,3.817,-0.578,-0.528,109.374
+0 days 01:13:25.408000,GAS,10,108.802,9.0,1.0,,,True,MEDIUM,9.0,True,Alpine,12,8.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.094,0.086,3.886,3.704,-0.563,-0.515,109.32
+0 days 01:15:14.334000,GAS,10,108.926,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.218,0.201,4.01,3.822,-0.391,-0.358,109.508
+0 days 01:17:03.327000,GAS,10,108.993,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.285,0.262,4.077,3.886,-0.372,-0.34,109.64
+0 days 01:18:51.963000,GAS,10,108.636,12.0,1.0,,,True,MEDIUM,12.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.072,-0.066,3.72,3.546,-0.576,-0.527,109.348
+0 days 01:20:40.547000,GAS,10,108.584,13.0,1.0,,,True,MEDIUM,13.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.124,-0.114,3.668,3.496,-0.555,-0.509,109.36
+0 days 01:22:29.089000,GAS,10,108.542,14.0,1.0,,,True,MEDIUM,14.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.166,-0.153,3.626,3.456,-0.449,-0.412,109.383
+0 days 01:24:17.978000,GAS,10,108.889,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.181,0.167,3.973,3.787,0.063,0.058,109.795
+0 days 01:26:06.424000,GAS,10,108.446,16.0,1.0,,,True,MEDIUM,16.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.262,-0.241,3.53,3.365,-0.887,-0.811,109.417
+0 days 01:27:54.975000,GAS,10,108.551,17.0,1.0,,,False,MEDIUM,17.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.157,-0.144,3.635,3.465,-0.467,-0.428,109.586
+0 days 01:29:43.276000,GAS,10,108.301,18.0,1.0,,,True,MEDIUM,18.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.407,-0.374,3.385,3.226,-0.641,-0.588,109.401
+0 days 01:31:31.794000,GAS,10,108.518,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.19,-0.175,3.602,3.433,-0.275,-0.253,109.683
+0 days 01:33:19.938000,GAS,10,108.144,20.0,1.0,,,True,MEDIUM,20.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.564,-0.519,3.228,3.077,-0.494,-0.455,109.373
+0 days 01:35:08.167000,GAS,10,108.229,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.479,-0.441,3.313,3.158,-0.276,-0.254,109.523
+0 days 01:36:56.360000,GAS,10,108.193,22.0,1.0,,,False,MEDIUM,22.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.515,-0.474,3.277,3.123,-0.677,-0.622,109.552
+0 days 01:38:44.643000,GAS,10,108.283,23.0,1.0,,,False,MEDIUM,23.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.425,-0.391,3.367,3.209,-0.622,-0.571,109.707
+0 days 01:40:33.172000,GAS,10,108.529,24.0,1.0,,,False,MEDIUM,24.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.179,-0.165,3.613,3.444,-0.238,-0.219,110.017
+0 days 01:42:21.391000,GAS,10,108.219,25.0,1.0,,,False,MEDIUM,25.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.489,-0.45,3.303,3.148,-0.387,-0.356,109.772
+0 days 01:44:09.378000,GAS,10,107.987,26.0,1.0,,,True,MEDIUM,26.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.721,-0.663,3.071,2.927,-0.561,-0.517,109.605
+0 days 01:45:57.421000,GAS,10,108.043,27.0,1.0,,,False,MEDIUM,27.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.665,-0.612,3.127,2.98,0.0,0.0,109.725
+0 days 01:47:45.243000,GAS,10,107.822,28.0,1.0,,,True,MEDIUM,28.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.886,-0.815,2.906,2.77,-0.758,-0.698,109.569
+0 days 01:49:33.242000,GAS,10,107.999,29.0,1.0,,,False,MEDIUM,29.0,True,Alpine,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.709,-0.652,3.083,2.939,-0.283,-0.261,109.811
+0 days 01:51:33.613000,GAS,10,120.371,30.0,1.0,,0 days 01:51:32.346000,False,MEDIUM,30.0,True,Alpine,124,7.0,False,15,Azerbaijan Grand Prix,True,C4,False,11.663,10.729,15.455,14.731,12.976,12.082,122.247
+0 days 01:54:17.656000,GAS,10,,31.0,2.0,0 days 01:51:53.147000,,False,SOFT,1.0,True,Alpine,4,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:34.115000,GAS,10,136.459,32.0,2.0,,,False,SOFT,2.0,True,Alpine,4,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,27.751,25.528,31.543,30.065,5.175,3.942,138.465
+0 days 01:59:12.376000,GAS,10,,33.0,2.0,,,False,SOFT,3.0,True,Alpine,4,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:01:57.370000,GAS,10,,34.0,2.0,,,False,SOFT,4.0,True,Alpine,4,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:29.604000,GAS,10,,35.0,2.0,,,False,SOFT,5.0,True,Alpine,41,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:06:59.604000,GAS,10,,36.0,2.0,,,True,SOFT,6.0,True,Alpine,124,,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:58.778000,PER,11,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,1,19.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:49.909000,PER,11,111.131,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.423,2.229,6.215,5.924,0.019,0.017,111.196
+0 days 01:02:40.900000,PER,11,110.991,3.0,1.0,,,True,MEDIUM,3.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.283,2.1,6.075,5.79,0.595,0.539,111.12
+0 days 01:04:30.980000,PER,11,110.08,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.372,1.262,5.164,4.922,0.075,0.068,110.274
+0 days 01:06:21.361000,PER,11,110.381,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.673,1.539,5.465,5.209,0.987,0.902,110.64
+0 days 01:08:11.867000,PER,11,110.506,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.798,1.654,5.59,5.328,0.688,0.626,110.83
+0 days 01:10:02.276000,PER,11,110.409,7.0,1.0,,,False,MEDIUM,7.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.701,1.565,5.493,5.236,0.723,0.659,110.797
+0 days 01:11:52.202000,PER,11,109.926,8.0,1.0,,,True,MEDIUM,8.0,True,Cadillac,12,19.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.218,1.12,5.01,4.775,0.427,0.39,110.379
+0 days 01:13:42.263000,PER,11,110.061,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.353,1.245,5.145,4.904,0.696,0.636,110.579
+0 days 01:15:32.714000,PER,11,110.451,10.0,1.0,,,False,MEDIUM,10.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.743,1.603,5.535,5.276,1.134,1.037,111.033
+0 days 01:17:22.796000,PER,11,110.082,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.374,1.264,5.166,4.924,0.717,0.656,110.729
+0 days 01:19:12.407000,PER,11,109.611,12.0,1.0,,,True,MEDIUM,12.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.903,0.831,4.695,4.475,0.399,0.365,110.323
+0 days 01:21:03.167000,PER,11,110.76,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.052,1.888,5.844,5.57,1.621,1.485,111.536
+0 days 01:22:52.871000,PER,11,109.704,14.0,1.0,,,False,MEDIUM,14.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.996,0.916,4.788,4.564,0.713,0.654,110.545
+0 days 01:24:42.581000,PER,11,109.71,15.0,1.0,,,False,MEDIUM,15.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.002,0.922,4.794,4.569,0.884,0.812,110.616
+0 days 01:26:32.751000,PER,11,110.17,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.462,1.345,5.254,5.008,0.837,0.766,111.141
+0 days 01:28:22.608000,PER,11,109.857,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.149,1.057,4.941,4.709,0.839,0.77,110.892
+0 days 01:30:12.627000,PER,11,110.019,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.311,1.206,5.103,4.864,1.077,0.989,111.119
+0 days 01:32:02.322000,PER,11,109.695,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,19.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.987,0.908,4.779,4.555,0.902,0.829,110.86
+0 days 01:33:52.118000,PER,11,109.796,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.088,1.001,4.88,4.651,1.158,1.066,111.025
+0 days 01:35:41.612000,PER,11,109.494,21.0,1.0,,,True,MEDIUM,21.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.786,0.723,4.578,4.363,0.989,0.911,110.788
+0 days 01:37:31.505000,PER,11,109.893,22.0,1.0,,,False,MEDIUM,22.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.185,1.09,4.977,4.744,1.023,0.94,111.252
+0 days 01:39:21.714000,PER,11,110.209,23.0,1.0,,,False,MEDIUM,23.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.501,1.381,5.293,5.045,1.304,1.197,111.633
+0 days 01:41:11.811000,PER,11,110.097,24.0,1.0,,,False,MEDIUM,24.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.389,1.278,5.181,4.938,1.33,1.223,111.585
+0 days 01:43:01.396000,PER,11,109.585,25.0,1.0,,,False,MEDIUM,25.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.877,0.807,4.669,4.45,0.979,0.901,111.138
+0 days 01:44:51.083000,PER,11,109.687,26.0,1.0,,,False,MEDIUM,26.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.979,0.901,4.771,4.547,1.139,1.049,111.305
+0 days 01:46:40.598000,PER,11,109.515,27.0,1.0,,,False,MEDIUM,27.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.807,0.742,4.599,4.384,1.472,1.362,111.197
+0 days 01:48:30.157000,PER,11,109.559,28.0,1.0,,,False,MEDIUM,28.0,True,Cadillac,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.851,0.783,4.643,4.425,0.979,0.902,111.306
+0 days 01:50:19.560000,PER,11,109.403,29.0,1.0,,,True,MEDIUM,29.0,True,Cadillac,12,18.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.695,0.639,4.487,4.277,1.121,1.035,111.215
+0 days 01:52:40.056000,PER,11,140.496,30.0,1.0,,0 days 01:52:38.737000,False,MEDIUM,30.0,True,Cadillac,124,17.0,False,15,Azerbaijan Grand Prix,True,C4,False,31.788,29.242,35.58,33.913,33.101,30.822,142.372
+0 days 01:55:27.832000,PER,11,,31.0,2.0,0 days 01:53:01.168000,,False,SOFT,1.0,True,Cadillac,4,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:57:33.682000,PER,11,125.85,32.0,2.0,,,False,SOFT,2.0,True,Cadillac,4,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,17.142,15.769,20.934,19.953,-5.434,-4.139,127.856
+0 days 01:59:33.702000,PER,11,120.02,33.0,2.0,,,False,SOFT,3.0,True,Cadillac,4,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,11.312,10.406,15.104,14.396,-15.185,-11.231,122.091
+0 days 02:02:09.191000,PER,11,,34.0,2.0,,,False,SOFT,4.0,True,Cadillac,4,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:31.500000,PER,11,142.309,35.0,2.0,,,False,SOFT,5.0,True,Cadillac,41,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,33.601,30.909,37.393,35.641,-2.087,-1.445,144.509
+0 days 02:06:59.187000,PER,11,147.687,36.0,2.0,,0 days 02:06:58.039000,False,SOFT,6.0,True,Cadillac,124,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,38.979,35.857,42.771,40.767,,,149.952
+0 days 02:09:39.290000,PER,11,,37.0,3.0,0 days 02:07:13.221000,,False,SOFT,7.0,False,Cadillac,4,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:07.900000,PER,11,148.61,38.0,3.0,,,False,SOFT,8.0,False,Cadillac,41,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,39.902,36.706,43.694,41.647,-0.2,-0.134,151.004
+0 days 02:13:59.064000,PER,11,111.164,39.0,3.0,,,False,SOFT,9.0,False,Cadillac,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.456,2.259,6.248,5.955,1.851,1.693,113.623
+0 days 02:15:49.017000,PER,11,109.953,40.0,3.0,,,False,SOFT,10.0,False,Cadillac,12,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,1.245,1.145,5.037,4.801,1.461,1.347,112.477
+0 days 02:17:36.609000,PER,11,107.592,41.0,3.0,,,True,SOFT,11.0,False,Cadillac,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.116,-1.027,2.676,2.551,0.058,0.054,110.18
+0 days 02:19:24.120000,PER,11,107.511,42.0,3.0,,,True,SOFT,12.0,False,Cadillac,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.197,-1.101,2.595,2.473,0.084,0.078,110.164
+0 days 02:21:11.483000,PER,11,107.363,43.0,3.0,,,True,SOFT,13.0,False,Cadillac,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.345,-1.237,2.447,2.332,0.169,0.158,110.081
+0 days 02:22:59.385000,PER,11,107.902,44.0,3.0,,,False,SOFT,14.0,False,Cadillac,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.806,-0.741,2.986,2.846,0.861,0.804,110.684
+0 days 02:24:47.901000,PER,11,108.516,45.0,3.0,,,False,SOFT,15.0,False,Cadillac,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.192,-0.177,3.6,3.431,1.602,1.498,111.363
+0 days 02:26:35.653000,PER,11,107.752,46.0,3.0,,,False,SOFT,16.0,False,Cadillac,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.956,-0.879,2.836,2.703,0.802,0.75,110.664
+0 days 02:28:24.602000,PER,11,108.949,47.0,3.0,,,False,SOFT,17.0,False,Cadillac,1,15.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.241,0.222,4.033,3.844,1.92,1.794,111.925
+0 days 02:30:12.499000,PER,11,107.897,48.0,3.0,,,False,SOFT,18.0,False,Cadillac,1,15.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.811,-0.746,2.981,2.841,0.522,0.486,110.938
+0 days 02:32:00.881000,PER,11,108.382,49.0,3.0,,,False,SOFT,19.0,False,Cadillac,1,15.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.326,-0.3,3.466,3.304,1.585,1.484,111.488
+0 days 02:33:48.385000,PER,11,107.504,50.0,3.0,,,False,SOFT,20.0,False,Cadillac,12,15.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.204,-1.108,2.588,2.467,0.269,0.251,110.675
+0 days 02:35:37.051000,PER,11,108.666,51.0,3.0,,,False,SOFT,21.0,False,Cadillac,12,15.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.042,-0.039,3.75,3.574,0.343,0.317,111.901
+0 days 00:58:56.635000,ANT,12,,1.0,1.0,,,False,MEDIUM,3.0,False,Mercedes,1,17.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:48.272000,ANT,12,111.637,2.0,1.0,,,True,MEDIUM,4.0,False,Mercedes,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.929,2.694,6.721,6.406,0.525,0.472,111.702
+0 days 01:02:39.016000,ANT,12,110.744,3.0,1.0,,,True,MEDIUM,5.0,False,Mercedes,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.036,1.873,5.828,5.555,0.348,0.315,110.873
+0 days 01:04:28.967000,ANT,12,109.951,4.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.243,1.143,5.035,4.799,-0.054,-0.049,110.145
+0 days 01:06:17.880000,ANT,12,108.913,5.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.205,0.189,3.997,3.81,-0.481,-0.44,109.172
+0 days 01:08:06.125000,ANT,12,108.245,6.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.463,-0.426,3.329,3.173,-1.573,-1.432,108.569
+0 days 01:09:55.558000,ANT,12,109.433,7.0,1.0,,,False,MEDIUM,9.0,False,Mercedes,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.725,0.667,4.517,4.305,-0.253,-0.231,109.821
+0 days 01:11:45.034000,ANT,12,109.476,8.0,1.0,,,False,MEDIUM,10.0,False,Mercedes,12,14.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.768,0.706,4.56,4.346,-0.023,-0.021,109.929
+0 days 01:13:34.905000,ANT,12,109.871,9.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,21,14.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.163,1.07,4.955,4.723,0.506,0.463,110.389
+0 days 01:15:23.023000,ANT,12,108.118,10.0,1.0,,,True,MEDIUM,12.0,False,Mercedes,1,13.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.59,-0.543,3.202,3.052,-1.199,-1.097,108.7
+0 days 01:17:13.335000,ANT,12,110.312,11.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,13.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.604,1.476,5.396,5.143,0.947,0.866,110.959
+0 days 01:19:02.571000,ANT,12,109.236,12.0,1.0,,,False,MEDIUM,14.0,False,Mercedes,1,11.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.528,0.486,4.32,4.118,0.024,0.022,109.948
+0 days 01:20:50.706000,ANT,12,108.135,13.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,11.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.573,-0.527,3.219,3.068,-1.004,-0.92,108.911
+0 days 01:22:38.772000,ANT,12,108.066,14.0,1.0,,,True,MEDIUM,16.0,False,Mercedes,1,11.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.642,-0.591,3.15,3.002,-0.925,-0.849,108.907
+0 days 01:24:26.834000,ANT,12,108.062,15.0,1.0,,,True,MEDIUM,17.0,False,Mercedes,1,11.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.646,-0.594,3.146,2.999,-0.764,-0.702,108.968
+0 days 01:26:15.306000,ANT,12,108.472,16.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,11.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.236,-0.217,3.556,3.389,-0.861,-0.788,109.443
+0 days 01:28:03.158000,ANT,12,107.852,17.0,1.0,,,True,MEDIUM,19.0,False,Mercedes,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.856,-0.787,2.936,2.798,-1.166,-1.07,108.887
+0 days 01:29:51.211000,ANT,12,108.053,18.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.655,-0.603,3.137,2.99,-0.889,-0.816,109.153
+0 days 01:31:39.071000,ANT,12,107.86,19.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.848,-0.78,2.944,2.806,-0.933,-0.858,109.025
+0 days 01:33:27.080000,ANT,12,108.009,20.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.699,-0.643,3.093,2.948,-0.629,-0.579,109.238
+0 days 01:35:14.812000,ANT,12,107.732,21.0,1.0,,,True,MEDIUM,23.0,False,Mercedes,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.976,-0.898,2.816,2.684,-0.773,-0.712,109.026
+0 days 01:37:03.143000,ANT,12,108.331,22.0,1.0,,,False,MEDIUM,24.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.377,-0.347,3.415,3.255,-0.539,-0.495,109.69
+0 days 01:38:51.044000,ANT,12,107.901,23.0,1.0,,,False,MEDIUM,25.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.807,-0.742,2.985,2.845,-1.004,-0.922,109.325
+0 days 01:40:38.562000,ANT,12,107.518,24.0,1.0,,,True,MEDIUM,26.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.19,-1.095,2.602,2.48,-1.249,-1.148,109.006
+0 days 01:42:26.461000,ANT,12,107.899,25.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.809,-0.744,2.983,2.843,-0.707,-0.651,109.452
+0 days 01:44:14.043000,ANT,12,107.582,26.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.126,-1.036,2.666,2.541,-0.966,-0.89,109.2
+0 days 01:46:01.597000,ANT,12,107.554,27.0,1.0,,,False,MEDIUM,29.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.154,-1.062,2.638,2.514,-0.489,-0.453,109.236
+0 days 01:47:48.886000,ANT,12,107.289,28.0,1.0,,,True,MEDIUM,30.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.419,-1.305,2.373,2.262,-1.291,-1.189,109.036
+0 days 01:49:36.338000,ANT,12,107.452,29.0,1.0,,,False,MEDIUM,31.0,False,Mercedes,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.256,-1.155,2.536,2.417,-0.83,-0.767,109.264
+0 days 01:51:38.807000,ANT,12,122.469,30.0,1.0,,0 days 01:51:37.529000,False,MEDIUM,32.0,False,Mercedes,124,8.0,False,15,Azerbaijan Grand Prix,True,C4,False,13.761,12.659,17.553,16.731,15.074,14.036,124.345
+0 days 01:54:22.238000,ANT,12,,31.0,2.0,0 days 01:51:58.391000,,False,SOFT,1.0,False,Mercedes,4,8.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:34.783000,ANT,12,132.545,32.0,2.0,,,False,SOFT,2.0,False,Mercedes,4,8.0,False,15,Azerbaijan Grand Prix,True,C5,False,23.837,21.928,27.629,26.334,1.261,0.961,134.551
+0 days 01:59:14.472000,ANT,12,,33.0,2.0,,,False,SOFT,3.0,False,Mercedes,4,8.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:01:58.452000,ANT,12,,34.0,2.0,,,False,SOFT,4.0,False,Mercedes,4,8.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:29.776000,ANT,12,,35.0,2.0,,,False,SOFT,5.0,False,Mercedes,41,8.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:06:50.287000,ANT,12,140.511,36.0,2.0,,0 days 02:06:48.895000,False,SOFT,6.0,False,Mercedes,124,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,31.803,29.255,35.595,33.927,,,142.776
+0 days 02:09:32.257000,ANT,12,,37.0,3.0,0 days 02:07:05.410000,,False,SOFT,7.0,False,Mercedes,4,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:05.148000,ANT,12,,38.0,3.0,,,False,SOFT,8.0,False,Mercedes,41,7.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:13:54.483000,ANT,12,109.335,39.0,3.0,,,False,SOFT,9.0,False,Mercedes,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.627,0.577,4.419,4.212,0.022,0.02,111.794
+0 days 02:15:41.732000,ANT,12,107.249,40.0,3.0,,,True,SOFT,10.0,False,Mercedes,12,6.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.459,-1.342,2.333,2.224,-1.243,-1.146,109.773
+0 days 02:17:28.798000,ANT,12,107.066,41.0,3.0,,,True,SOFT,11.0,False,Mercedes,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.642,-1.51,2.15,2.049,-0.468,-0.435,109.654
+0 days 02:19:16.208000,ANT,12,107.41,42.0,3.0,,,False,SOFT,12.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.298,-1.194,2.494,2.377,-0.017,-0.016,110.063
+0 days 02:21:02.264000,ANT,12,106.056,43.0,3.0,,,True,SOFT,13.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.652,-2.44,1.14,1.087,-1.138,-1.062,108.774
+0 days 02:22:48.473000,ANT,12,106.209,44.0,3.0,,,False,SOFT,14.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.499,-2.299,1.293,1.232,-0.832,-0.777,108.991
+0 days 02:24:34.111000,ANT,12,105.638,45.0,3.0,,,True,SOFT,15.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.07,-2.824,0.722,0.688,-1.276,-1.193,108.485
+0 days 02:26:19.662000,ANT,12,105.551,46.0,3.0,,,True,SOFT,16.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.157,-2.904,0.635,0.605,-1.399,-1.308,108.463
+0 days 02:28:05.465000,ANT,12,105.803,47.0,3.0,,,False,SOFT,17.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.905,-2.672,0.887,0.845,-1.226,-1.145,108.779
+0 days 02:29:51.181000,ANT,12,105.716,48.0,3.0,,,False,SOFT,18.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.992,-2.752,0.8,0.763,-1.659,-1.545,108.757
+0 days 02:31:36.714000,ANT,12,105.533,49.0,3.0,,,True,SOFT,19.0,False,Mercedes,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.175,-2.921,0.617,0.588,-1.264,-1.184,108.639
+0 days 02:33:22.127000,ANT,12,105.413,50.0,3.0,,,True,SOFT,20.0,False,Mercedes,12,5.0,True,15,Azerbaijan Grand Prix,True,C5,False,-3.295,-3.031,0.497,0.474,-1.822,-1.699,108.584
+0 days 02:35:10.159000,ANT,12,108.032,51.0,3.0,,,False,SOFT,21.0,False,Mercedes,12,5.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.676,-0.622,3.116,2.97,-0.291,-0.269,111.267
+0 days 00:58:58.888000,ALO,14,,1.0,1.0,,,False,SOFT,1.0,True,Aston Martin,1,20.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:51.698000,ALO,14,112.81,2.0,1.0,,,True,SOFT,2.0,True,Aston Martin,1,20.0,True,15,Azerbaijan Grand Prix,True,C5,True,4.102,3.773,7.894,7.524,1.698,1.528,112.875
+0 days 01:02:44.531000,ALO,14,112.833,3.0,1.0,,,False,SOFT,3.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,4.125,3.795,7.917,7.546,2.437,2.208,112.962
+0 days 01:04:37.329000,ALO,14,112.798,4.0,1.0,,,True,SOFT,4.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,4.09,3.762,7.882,7.513,2.793,2.539,112.992
+0 days 01:06:29.575000,ALO,14,112.246,5.0,1.0,,,True,SOFT,5.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.538,3.255,7.33,6.987,2.852,2.607,112.505
+0 days 01:08:21.273000,ALO,14,111.698,6.0,1.0,,,True,SOFT,6.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.99,2.75,6.782,6.464,1.88,1.712,112.022
+0 days 01:10:12.687000,ALO,14,111.414,7.0,1.0,,,True,SOFT,7.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.706,2.489,6.498,6.194,1.728,1.575,111.802
+0 days 01:12:04.831000,ALO,14,112.144,8.0,1.0,,,False,SOFT,8.0,True,Aston Martin,12,21.0,True,15,Azerbaijan Grand Prix,True,C5,False,3.436,3.161,7.228,6.889,2.645,2.416,112.597
+0 days 01:13:57.175000,ALO,14,112.344,9.0,1.0,,,False,SOFT,9.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.636,3.345,7.428,7.08,2.979,2.724,112.862
+0 days 01:15:48.490000,ALO,14,111.315,10.0,1.0,,,True,SOFT,10.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.607,2.398,6.399,6.099,1.998,1.828,111.897
+0 days 01:17:41.031000,ALO,14,112.541,11.0,1.0,,,False,SOFT,11.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.833,3.526,7.625,7.268,3.176,2.904,113.188
+0 days 01:19:33.418000,ALO,14,112.387,12.0,1.0,,,False,SOFT,12.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.679,3.384,7.471,7.121,3.175,2.907,113.099
+0 days 01:21:24.718000,ALO,14,111.3,13.0,1.0,,,True,SOFT,13.0,True,Aston Martin,1,20.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.592,2.384,6.384,6.085,2.161,1.98,112.076
+0 days 01:23:17.933000,ALO,14,113.215,14.0,1.0,,,False,SOFT,14.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,4.507,4.146,8.299,7.91,4.224,3.876,114.056
+0 days 01:25:08.901000,ALO,14,110.968,15.0,1.0,,,True,SOFT,15.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.26,2.079,6.052,5.768,2.142,1.968,111.874
+0 days 01:27:00.761000,ALO,14,111.86,16.0,1.0,,,False,SOFT,16.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.152,2.9,6.944,6.619,2.527,2.311,112.831
+0 days 01:28:52.135000,ALO,14,111.374,17.0,1.0,,,False,SOFT,17.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.666,2.452,6.458,6.155,2.356,2.161,112.409
+0 days 01:30:44.250000,ALO,14,112.115,18.0,1.0,,,False,SOFT,18.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.407,3.134,7.199,6.862,3.173,2.913,113.215
+0 days 01:32:36.287000,ALO,14,112.037,19.0,1.0,,,False,SOFT,19.0,True,Aston Martin,1,21.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.329,3.062,7.121,6.787,3.244,2.982,113.202
+0 days 01:34:34.214000,ALO,14,117.927,20.0,1.0,,0 days 01:34:33.073000,False,SOFT,20.0,True,Aston Martin,1,21.0,False,15,Azerbaijan Grand Prix,True,C5,False,9.219,8.481,13.011,12.401,9.289,8.55,119.156
+0 days 00:58:47.171000,LEC,16,,1.0,1.0,,,False,SOFT,1.0,True,Ferrari,1,3.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:37.554000,LEC,16,110.383,2.0,1.0,,,True,SOFT,2.0,True,Ferrari,1,3.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.675,1.541,5.467,5.211,-0.729,-0.656,110.448
+0 days 01:02:26.828000,LEC,16,109.274,3.0,1.0,,,True,SOFT,3.0,True,Ferrari,1,3.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.566,0.521,4.358,4.154,-1.122,-1.016,109.403
+0 days 01:04:17.415000,LEC,16,110.587,4.0,1.0,,,False,SOFT,4.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.879,1.728,5.671,5.405,0.582,0.529,110.781
+0 days 01:06:06.578000,LEC,16,109.163,5.0,1.0,,,True,SOFT,5.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.455,0.419,4.247,4.048,-0.231,-0.211,109.422
+0 days 01:07:55.187000,LEC,16,108.609,6.0,1.0,,,True,SOFT,6.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.099,-0.091,3.693,3.52,-1.209,-1.101,108.933
+0 days 01:09:43.567000,LEC,16,108.38,7.0,1.0,,,True,SOFT,7.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.328,-0.302,3.464,3.302,-1.306,-1.191,108.768
+0 days 01:11:32.187000,LEC,16,108.62,8.0,1.0,,,False,SOFT,8.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.088,-0.081,3.704,3.53,-0.879,-0.803,109.073
+0 days 01:13:21.112000,LEC,16,108.925,9.0,1.0,,,False,SOFT,9.0,True,Ferrari,12,5.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.217,0.2,4.009,3.821,-0.44,-0.402,109.443
+0 days 01:15:09.523000,LEC,16,108.411,10.0,1.0,,,False,SOFT,10.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.297,-0.273,3.495,3.331,-0.906,-0.829,108.993
+0 days 01:16:57.945000,LEC,16,108.422,11.0,1.0,,,False,SOFT,11.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.286,-0.263,3.506,3.342,-0.943,-0.862,109.069
+0 days 01:18:46.052000,LEC,16,108.107,12.0,1.0,,,True,SOFT,12.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.601,-0.553,3.191,3.041,-1.105,-1.012,108.819
+0 days 01:20:34.124000,LEC,16,108.072,13.0,1.0,,,True,SOFT,13.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.636,-0.585,3.156,3.008,-1.067,-0.978,108.848
+0 days 01:22:22.232000,LEC,16,108.108,14.0,1.0,,,False,SOFT,14.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.6,-0.552,3.192,3.042,-0.883,-0.81,108.949
+0 days 01:24:10.042000,LEC,16,107.81,15.0,1.0,,,True,SOFT,15.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.898,-0.826,2.894,2.758,-1.016,-0.934,108.716
+0 days 01:25:58.259000,LEC,16,108.217,16.0,1.0,,,False,SOFT,16.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.491,-0.452,3.301,3.146,-1.116,-1.021,109.188
+0 days 01:27:46.341000,LEC,16,108.082,17.0,1.0,,,False,SOFT,17.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.626,-0.576,3.166,3.018,-0.936,-0.859,109.117
+0 days 01:29:34.394000,LEC,16,108.053,18.0,1.0,,,False,SOFT,18.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.655,-0.603,3.137,2.99,-0.889,-0.816,109.153
+0 days 01:31:22.317000,LEC,16,107.923,19.0,1.0,,,False,SOFT,19.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.785,-0.722,3.007,2.866,-0.87,-0.8,109.088
+0 days 01:33:10.441000,LEC,16,108.124,20.0,1.0,,,False,SOFT,20.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.584,-0.537,3.208,3.058,-0.514,-0.473,109.353
+0 days 01:34:58.221000,LEC,16,107.78,21.0,1.0,,,True,SOFT,21.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.928,-0.854,2.864,2.73,-0.725,-0.668,109.074
+0 days 01:36:46.040000,LEC,16,107.819,22.0,1.0,,,False,SOFT,22.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.889,-0.818,2.903,2.767,-1.051,-0.965,109.178
+0 days 01:38:33.609000,LEC,16,107.569,23.0,1.0,,,True,SOFT,23.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.139,-1.048,2.653,2.529,-1.336,-1.227,108.993
+0 days 01:40:21.282000,LEC,16,107.673,24.0,1.0,,,False,SOFT,24.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.035,-0.952,2.757,2.628,-1.094,-1.006,109.161
+0 days 01:42:08.981000,LEC,16,107.699,25.0,1.0,,,False,SOFT,25.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.009,-0.928,2.783,2.653,-0.907,-0.835,109.252
+0 days 01:43:56.710000,LEC,16,107.729,26.0,1.0,,,False,SOFT,26.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.979,-0.901,2.813,2.681,-0.819,-0.755,109.347
+0 days 01:45:44.431000,LEC,16,107.721,27.0,1.0,,,False,SOFT,27.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.987,-0.908,2.805,2.674,-0.322,-0.298,109.403
+0 days 01:47:32.179000,LEC,16,107.748,28.0,1.0,,,False,SOFT,28.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.96,-0.883,2.832,2.699,-0.832,-0.766,109.495
+0 days 01:49:19.387000,LEC,16,107.208,29.0,1.0,,,True,SOFT,29.0,True,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.5,-1.38,2.292,2.185,-1.074,-0.992,109.02
+0 days 01:51:06.803000,LEC,16,107.416,30.0,1.0,,,False,SOFT,30.0,True,Ferrari,12,5.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.292,-1.189,2.5,2.383,0.021,0.02,109.292
+0 days 01:53:41.821000,LEC,16,,31.0,1.0,,0 days 01:53:40.429000,False,SOFT,31.0,True,Ferrari,24,5.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:28.852000,LEC,16,,32.0,2.0,0 days 01:54:02.517000,,False,MEDIUM,1.0,True,Ferrari,4,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:59:09.049000,LEC,16,,33.0,2.0,,,False,MEDIUM,2.0,True,Ferrari,4,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:01:54.993000,LEC,16,,34.0,2.0,,,False,MEDIUM,3.0,True,Ferrari,4,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:29.303000,LEC,16,,35.0,2.0,,,False,MEDIUM,4.0,True,Ferrari,41,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:06:47.999000,LEC,16,138.696,36.0,2.0,,0 days 02:06:46.653000,False,MEDIUM,5.0,True,Ferrari,124,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,29.988,27.586,33.78,32.197,,,140.961
+0 days 02:09:28.308000,LEC,16,,37.0,3.0,0 days 02:07:02.187000,,False,MEDIUM,6.0,False,Ferrari,4,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:04.660000,LEC,16,,38.0,3.0,,,False,MEDIUM,7.0,False,Ferrari,41,5.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:53.263000,LEC,16,108.603,39.0,3.0,,,False,MEDIUM,8.0,False,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.105,-0.097,3.687,3.514,-0.71,-0.65,111.062
+0 days 02:15:40.306000,LEC,16,107.043,40.0,3.0,,,True,MEDIUM,9.0,False,Ferrari,12,4.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.665,-1.532,2.127,2.027,-1.449,-1.336,109.567
+0 days 02:17:26.658000,LEC,16,106.352,41.0,3.0,,,True,MEDIUM,10.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.356,-2.167,1.436,1.369,-1.182,-1.099,108.94
+0 days 02:19:12.679000,LEC,16,106.021,42.0,3.0,,,True,MEDIUM,11.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.687,-2.472,1.105,1.053,-1.406,-1.309,108.674
+0 days 02:20:58.881000,LEC,16,106.202,43.0,3.0,,,False,MEDIUM,12.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.506,-2.305,1.286,1.226,-0.992,-0.925,108.92
+0 days 02:22:44.665000,LEC,16,105.784,44.0,3.0,,,True,MEDIUM,13.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.924,-2.69,0.868,0.827,-1.257,-1.174,108.566
+0 days 02:24:30.597000,LEC,16,105.932,45.0,3.0,,,False,MEDIUM,14.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.776,-2.554,1.016,0.968,-0.982,-0.918,108.779
+0 days 02:26:16.634000,LEC,16,106.037,46.0,3.0,,,False,MEDIUM,15.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.671,-2.457,1.121,1.068,-0.913,-0.854,108.949
+0 days 02:28:02.606000,LEC,16,105.972,47.0,3.0,,,False,MEDIUM,16.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.736,-2.517,1.056,1.007,-1.057,-0.988,108.948
+0 days 02:29:48.681000,LEC,16,106.075,48.0,3.0,,,False,MEDIUM,17.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.633,-2.422,1.159,1.105,-1.3,-1.211,109.116
+0 days 02:31:34.804000,LEC,16,106.123,49.0,3.0,,,False,MEDIUM,18.0,False,Ferrari,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.585,-2.378,1.207,1.15,-0.674,-0.631,109.229
+0 days 02:33:21.088000,LEC,16,106.284,50.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,12,4.0,True,15,Azerbaijan Grand Prix,True,C4,False,-2.424,-2.23,1.368,1.304,-0.951,-0.887,109.455
+0 days 02:35:09.787000,LEC,16,108.699,51.0,3.0,,,False,MEDIUM,20.0,False,Ferrari,12,4.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.009,-0.008,3.783,3.606,0.376,0.347,111.934
+0 days 00:59:01.391000,STR,18,,1.0,1.0,,,False,SOFT,1.0,True,Aston Martin,1,22.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:53.544000,STR,18,112.153,2.0,1.0,,,True,SOFT,2.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.445,3.169,7.237,6.898,1.041,0.937,112.218
+0 days 01:02:45.626000,STR,18,112.082,3.0,1.0,,,True,SOFT,3.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.374,3.104,7.166,6.83,1.686,1.527,112.211
+0 days 01:04:37.984000,STR,18,112.358,4.0,1.0,,,False,SOFT,4.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.65,3.358,7.442,7.093,2.353,2.139,112.552
+0 days 01:06:30.336000,STR,18,112.352,5.0,1.0,,,False,SOFT,5.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.644,3.352,7.436,7.088,2.958,2.704,112.611
+0 days 01:08:22.210000,STR,18,111.874,6.0,1.0,,,True,SOFT,6.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.166,2.912,6.958,6.632,2.056,1.872,112.198
+0 days 01:10:13.933000,STR,18,111.723,7.0,1.0,,,True,SOFT,7.0,True,Aston Martin,1,22.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.015,2.773,6.807,6.488,2.037,1.857,112.111
+0 days 01:12:43.933000,STR,18,,8.0,1.0,,,True,SOFT,8.0,True,Aston Martin,12,,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:52.974000,ALB,23,,1.0,1.0,,,False,SOFT,1.0,True,Williams,1,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:44.775000,ALB,23,111.801,2.0,1.0,,,True,SOFT,2.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,3.093,2.845,6.885,6.562,0.689,0.62,111.866
+0 days 01:02:35.163000,ALB,23,110.388,3.0,1.0,,,True,SOFT,3.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.68,1.545,5.472,5.216,-0.008,-0.007,110.517
+0 days 01:04:25.225000,ALB,23,110.062,4.0,1.0,,,True,SOFT,4.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.354,1.246,5.146,4.905,0.057,0.052,110.256
+0 days 01:06:14.776000,ALB,23,109.551,5.0,1.0,,,True,SOFT,5.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.843,0.775,4.635,4.418,0.157,0.144,109.81
+0 days 01:08:04.608000,ALB,23,109.832,6.0,1.0,,,False,SOFT,6.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.124,1.034,4.916,4.686,0.014,0.013,110.156
+0 days 01:09:54.308000,ALB,23,109.7,7.0,1.0,,,False,SOFT,7.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.992,0.913,4.784,4.56,0.014,0.013,110.088
+0 days 01:11:43.827000,ALB,23,109.519,8.0,1.0,,,True,SOFT,8.0,True,Williams,12,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.811,0.746,4.603,4.387,0.02,0.018,109.972
+0 days 01:13:33.494000,ALB,23,109.667,9.0,1.0,,,False,SOFT,9.0,True,Williams,21,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.959,0.882,4.751,4.528,0.302,0.276,110.185
+0 days 01:15:22.743000,ALB,23,109.249,10.0,1.0,,,True,SOFT,10.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.541,0.498,4.333,4.13,-0.068,-0.062,109.831
+0 days 01:17:13.075000,ALB,23,110.332,11.0,1.0,,,False,SOFT,11.0,True,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.624,1.494,5.416,5.162,0.967,0.884,110.979
+0 days 01:19:03.516000,ALB,23,110.441,12.0,1.0,,,False,SOFT,12.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.733,1.594,5.525,5.266,1.229,1.125,111.153
+0 days 01:20:53.101000,ALB,23,109.585,13.0,1.0,,,False,SOFT,13.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.877,0.807,4.669,4.45,0.446,0.409,110.361
+0 days 01:22:42.307000,ALB,23,109.206,14.0,1.0,,,True,SOFT,14.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.498,0.458,4.29,4.089,0.215,0.197,110.047
+0 days 01:24:31.330000,ALB,23,109.023,15.0,1.0,,,True,SOFT,15.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.315,0.29,4.107,3.915,0.197,0.181,109.929
+0 days 01:26:20.811000,ALB,23,109.481,16.0,1.0,,,False,SOFT,16.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.773,0.711,4.565,4.351,0.148,0.135,110.452
+0 days 01:28:09.526000,ALB,23,108.715,17.0,1.0,,,True,SOFT,17.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.007,0.006,3.799,3.621,-0.303,-0.278,109.75
+0 days 01:29:58.733000,ALB,23,109.207,18.0,1.0,,,False,SOFT,18.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.499,0.459,4.291,4.09,0.265,0.243,110.307
+0 days 01:31:47.726000,ALB,23,108.993,19.0,1.0,,,False,SOFT,19.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.285,0.262,4.077,3.886,0.2,0.184,110.158
+0 days 01:33:36.589000,ALB,23,108.863,20.0,1.0,,,False,SOFT,20.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.155,0.143,3.947,3.762,0.225,0.207,110.092
+0 days 01:35:25.390000,ALB,23,108.801,21.0,1.0,,,False,SOFT,21.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.093,0.086,3.885,3.703,0.296,0.273,110.095
+0 days 01:37:14.481000,ALB,23,109.091,22.0,1.0,,,False,SOFT,22.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.383,0.352,4.175,3.979,0.221,0.203,110.45
+0 days 01:39:03.386000,ALB,23,108.905,23.0,1.0,,,False,SOFT,23.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.197,0.181,3.989,3.802,0.0,0.0,110.329
+0 days 01:40:52.705000,ALB,23,109.319,24.0,1.0,,,False,SOFT,24.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.611,0.562,4.403,4.197,0.552,0.508,110.807
+0 days 01:42:41.439000,ALB,23,108.734,25.0,1.0,,,False,SOFT,25.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.026,0.024,3.818,3.639,0.128,0.118,110.287
+0 days 01:44:30.072000,ALB,23,108.633,26.0,1.0,,,True,SOFT,26.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.075,-0.069,3.717,3.543,0.085,0.078,110.251
+0 days 01:46:18.634000,ALB,23,108.562,27.0,1.0,,,True,SOFT,27.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.146,-0.134,3.646,3.475,0.519,0.48,110.244
+0 days 01:48:08.940000,ALB,23,110.306,28.0,1.0,,,False,SOFT,28.0,True,Williams,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.598,1.47,5.39,5.137,1.726,1.59,112.053
+0 days 01:49:57.383000,ALB,23,108.443,29.0,1.0,,,True,SOFT,29.0,True,Williams,12,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.265,-0.244,3.527,3.362,0.161,0.149,110.255
+0 days 01:52:27.383000,ALB,23,,30.0,1.0,,,True,SOFT,30.0,True,Williams,124,,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:56.283000,HUL,27,,1.0,1.0,,,False,MEDIUM,1.0,True,Audi,1,16.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:47.764000,HUL,27,111.481,2.0,1.0,,,True,MEDIUM,2.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.773,2.551,6.565,6.257,0.369,0.332,111.546
+0 days 01:02:39.175000,HUL,27,111.411,3.0,1.0,,,True,MEDIUM,3.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.703,2.486,6.495,6.191,1.015,0.919,111.54
+0 days 01:04:29.873000,HUL,27,110.698,4.0,1.0,,,True,MEDIUM,4.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.99,1.831,5.782,5.511,0.693,0.63,110.892
+0 days 01:06:20.278000,HUL,27,110.405,5.0,1.0,,,True,MEDIUM,5.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.697,1.561,5.489,5.232,1.011,0.924,110.664
+0 days 01:08:10.085000,HUL,27,109.807,6.0,1.0,,,True,MEDIUM,6.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.099,1.011,4.891,4.662,-0.011,-0.01,110.131
+0 days 01:10:00.793000,HUL,27,110.708,7.0,1.0,,,False,MEDIUM,7.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.0,1.84,5.792,5.521,1.022,0.932,111.096
+0 days 01:11:50.443000,HUL,27,109.65,8.0,1.0,,,True,MEDIUM,8.0,True,Audi,12,17.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.942,0.867,4.734,4.512,0.151,0.138,110.103
+0 days 01:13:39.764000,HUL,27,109.321,9.0,1.0,,,True,MEDIUM,9.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.613,0.564,4.405,4.199,-0.044,-0.04,109.839
+0 days 01:15:30.063000,HUL,27,110.299,10.0,1.0,,,False,MEDIUM,10.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.591,1.464,5.383,5.131,0.982,0.898,110.881
+0 days 01:17:19.905000,HUL,27,109.842,11.0,1.0,,,False,MEDIUM,11.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.134,1.043,4.926,4.695,0.477,0.436,110.489
+0 days 01:19:09.575000,HUL,27,109.67,12.0,1.0,,,False,MEDIUM,12.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.962,0.885,4.754,4.531,0.458,0.419,110.382
+0 days 01:20:59.065000,HUL,27,109.49,13.0,1.0,,,False,MEDIUM,13.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.782,0.719,4.574,4.36,0.351,0.322,110.266
+0 days 01:22:48.499000,HUL,27,109.434,14.0,1.0,,,False,MEDIUM,14.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.726,0.668,4.518,4.306,0.443,0.406,110.275
+0 days 01:24:38.153000,HUL,27,109.654,15.0,1.0,,,False,MEDIUM,15.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.946,0.87,4.738,4.516,0.828,0.761,110.56
+0 days 01:26:27.683000,HUL,27,109.53,16.0,1.0,,,False,MEDIUM,16.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.822,0.756,4.614,4.398,0.197,0.18,110.501
+0 days 01:28:17.265000,HUL,27,109.582,17.0,1.0,,,False,MEDIUM,17.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.874,0.804,4.666,4.447,0.564,0.517,110.617
+0 days 01:30:07.097000,HUL,27,109.832,18.0,1.0,,,False,MEDIUM,18.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.124,1.034,4.916,4.686,0.89,0.817,110.932
+0 days 01:31:56.550000,HUL,27,109.453,19.0,1.0,,,False,MEDIUM,19.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.745,0.685,4.537,4.324,0.66,0.607,110.618
+0 days 01:33:46.016000,HUL,27,109.466,20.0,1.0,,,False,MEDIUM,20.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.758,0.697,4.55,4.337,0.828,0.762,110.695
+0 days 01:35:35.646000,HUL,27,109.63,21.0,1.0,,,False,MEDIUM,21.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.922,0.848,4.714,4.493,1.125,1.037,110.924
+0 days 01:37:25.488000,HUL,27,109.842,22.0,1.0,,,False,MEDIUM,22.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.134,1.043,4.926,4.695,0.972,0.893,111.201
+0 days 01:39:15.234000,HUL,27,109.746,23.0,1.0,,,False,MEDIUM,23.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.038,0.955,4.83,4.604,0.841,0.772,111.17
+0 days 01:41:05.079000,HUL,27,109.845,24.0,1.0,,,False,MEDIUM,24.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.137,1.046,4.929,4.698,1.078,0.991,111.333
+0 days 01:42:54.425000,HUL,27,109.346,25.0,1.0,,,False,MEDIUM,25.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.638,0.587,4.43,4.222,0.74,0.681,110.899
+0 days 01:44:44.111000,HUL,27,109.686,26.0,1.0,,,False,MEDIUM,26.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.978,0.9,4.77,4.546,1.138,1.048,111.304
+0 days 01:46:34.508000,HUL,27,110.397,27.0,1.0,,,False,MEDIUM,27.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.689,1.554,5.481,5.224,2.354,2.179,112.079
+0 days 01:48:23.522000,HUL,27,109.014,28.0,1.0,,,True,MEDIUM,28.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.306,0.281,4.098,3.906,0.434,0.4,110.761
+0 days 01:50:12.603000,HUL,27,109.081,29.0,1.0,,,False,MEDIUM,29.0,True,Audi,12,17.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.373,0.343,4.165,3.97,0.799,0.738,110.893
+0 days 01:52:26.945000,HUL,27,134.342,30.0,1.0,,,False,MEDIUM,30.0,True,Audi,124,15.0,False,15,Azerbaijan Grand Prix,True,C4,False,25.634,23.581,29.426,28.047,26.947,25.091,136.218
+0 days 01:55:00.210000,HUL,27,,31.0,1.0,,,False,MEDIUM,31.0,True,Audi,4,14.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:57:07.836000,HUL,27,127.626,32.0,1.0,,0 days 01:57:06.502000,False,MEDIUM,32.0,True,Audi,4,14.0,False,15,Azerbaijan Grand Prix,True,C4,False,18.918,17.403,22.71,21.646,-3.658,-2.786,129.632
+0 days 01:59:23.780000,HUL,27,135.944,33.0,2.0,0 days 01:57:26.638000,,False,SOFT,1.0,True,Audi,4,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,27.236,25.054,31.028,29.574,0.739,0.547,138.015
+0 days 02:02:07.562000,HUL,27,,34.0,2.0,,,False,SOFT,2.0,True,Audi,4,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:30.931000,HUL,27,143.369,35.0,2.0,,,False,SOFT,3.0,True,Audi,41,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,34.661,31.884,38.453,36.651,-1.027,-0.711,145.569
+0 days 02:06:55.477000,HUL,27,144.546,36.0,2.0,,0 days 02:06:54.091000,False,SOFT,4.0,True,Audi,124,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,35.838,32.967,39.63,37.773,,,146.811
+0 days 02:09:37.166000,HUL,27,,37.0,3.0,0 days 02:07:09.270000,,False,SOFT,5.0,False,Audi,4,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:07.036000,HUL,27,149.87,38.0,3.0,,,False,SOFT,6.0,False,Audi,41,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,41.162,37.865,44.954,42.848,1.06,0.712,152.264
+0 days 02:13:57.739000,HUL,27,110.703,39.0,3.0,,,False,SOFT,7.0,False,Audi,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.995,1.835,5.787,5.516,1.39,1.272,113.162
+0 days 02:15:45.992000,HUL,27,108.253,40.0,3.0,,,True,SOFT,8.0,False,Audi,12,10.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.455,-0.419,3.337,3.181,-0.239,-0.22,110.777
+0 days 02:17:33.467000,HUL,27,107.475,41.0,3.0,,,True,SOFT,9.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.233,-1.134,2.559,2.439,-0.059,-0.055,110.063
+0 days 02:19:20.997000,HUL,27,107.53,42.0,3.0,,,False,SOFT,10.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.178,-1.084,2.614,2.492,0.103,0.096,110.183
+0 days 02:21:08.285000,HUL,27,107.288,43.0,3.0,,,True,SOFT,11.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.42,-1.306,2.372,2.261,0.094,0.088,110.006
+0 days 02:22:55.328000,HUL,27,107.043,44.0,3.0,,,True,SOFT,12.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.665,-1.532,2.127,2.027,0.002,0.002,109.825
+0 days 02:24:42.178000,HUL,27,106.85,45.0,3.0,,,True,SOFT,13.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.858,-1.709,1.934,1.843,-0.064,-0.06,109.697
+0 days 02:26:29.445000,HUL,27,107.267,46.0,3.0,,,False,SOFT,14.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.441,-1.326,2.351,2.241,0.317,0.296,110.179
+0 days 02:28:16.871000,HUL,27,107.426,47.0,3.0,,,False,SOFT,15.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.282,-1.179,2.51,2.392,0.397,0.371,110.402
+0 days 02:30:05.663000,HUL,27,108.792,48.0,3.0,,,False,SOFT,16.0,False,Audi,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.084,0.077,3.876,3.694,1.417,1.32,111.833
+0 days 02:31:52.990000,HUL,27,107.327,49.0,3.0,,,False,SOFT,17.0,False,Audi,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.381,-1.27,2.411,2.298,0.53,0.496,110.433
+0 days 02:33:40.614000,HUL,27,107.624,50.0,3.0,,,False,SOFT,18.0,False,Audi,12,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.084,-0.997,2.708,2.581,0.389,0.363,110.795
+0 days 02:35:28.879000,HUL,27,108.265,51.0,3.0,,,False,SOFT,19.0,False,Audi,12,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.443,-0.408,3.349,3.192,-0.058,-0.054,111.5
+0 days 00:58:49.614000,VER,3,,1.0,1.0,,,False,MEDIUM,1.0,True,Red Bull Racing,1,7.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:38.850000,VER,3,109.236,2.0,1.0,,,True,MEDIUM,2.0,True,Red Bull Racing,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.528,0.486,4.32,4.118,-1.876,-1.688,109.301
+0 days 01:02:27.873000,VER,3,109.023,3.0,1.0,,,True,MEDIUM,3.0,True,Red Bull Racing,1,5.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.315,0.29,4.107,3.915,-1.373,-1.244,109.152
+0 days 01:04:17.330000,VER,3,109.457,4.0,1.0,,,False,MEDIUM,4.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.749,0.689,4.541,4.328,-0.548,-0.498,109.651
+0 days 01:06:05.181000,VER,3,107.851,5.0,1.0,,,True,MEDIUM,5.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.857,-0.788,2.935,2.797,-1.543,-1.41,108.11
+0 days 01:07:52.755000,VER,3,107.574,6.0,1.0,,,True,MEDIUM,6.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.134,-1.043,2.658,2.533,-2.244,-2.043,107.898
+0 days 01:09:40.686000,VER,3,107.931,7.0,1.0,,,False,MEDIUM,7.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.777,-0.715,3.015,2.874,-1.755,-1.6,108.319
+0 days 01:11:28.605000,VER,3,107.919,8.0,1.0,,,False,MEDIUM,8.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.789,-0.726,3.003,2.862,-1.58,-1.443,108.372
+0 days 01:13:17.473000,VER,3,108.868,9.0,1.0,,,False,MEDIUM,9.0,True,Red Bull Racing,12,3.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.16,0.147,3.952,3.767,-0.497,-0.454,109.386
+0 days 01:15:05.492000,VER,3,108.019,10.0,1.0,,,False,MEDIUM,10.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.689,-0.634,3.103,2.958,-1.298,-1.187,108.601
+0 days 01:16:54.049000,VER,3,108.557,11.0,1.0,,,False,MEDIUM,11.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.151,-0.139,3.641,3.47,-0.808,-0.739,109.204
+0 days 01:18:42.456000,VER,3,108.407,12.0,1.0,,,False,MEDIUM,12.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.301,-0.277,3.491,3.327,-0.805,-0.737,109.119
+0 days 01:20:30.457000,VER,3,108.001,13.0,1.0,,,False,MEDIUM,13.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.707,-0.65,3.085,2.94,-1.138,-1.043,108.777
+0 days 01:22:18.468000,VER,3,108.011,14.0,1.0,,,False,MEDIUM,14.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.697,-0.641,3.095,2.95,-0.98,-0.899,108.852
+0 days 01:24:06.600000,VER,3,108.132,15.0,1.0,,,False,MEDIUM,15.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.576,-0.53,3.216,3.065,-0.694,-0.638,109.038
+0 days 01:25:54.542000,VER,3,107.942,16.0,1.0,,,False,MEDIUM,16.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.766,-0.705,3.026,2.884,-1.391,-1.272,108.913
+0 days 01:27:42.229000,VER,3,107.687,17.0,1.0,,,False,MEDIUM,17.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.021,-0.939,2.771,2.641,-1.331,-1.221,108.722
+0 days 01:29:30.145000,VER,3,107.916,18.0,1.0,,,False,MEDIUM,18.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.792,-0.729,3.0,2.859,-1.026,-0.942,109.016
+0 days 01:31:18.599000,VER,3,108.454,19.0,1.0,,,False,MEDIUM,19.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.254,-0.234,3.538,3.372,-0.339,-0.312,109.619
+0 days 01:33:06.437000,VER,3,107.838,20.0,1.0,,,False,MEDIUM,20.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.87,-0.8,2.922,2.785,-0.8,-0.736,109.067
+0 days 01:34:54.100000,VER,3,107.663,21.0,1.0,,,False,MEDIUM,21.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.045,-0.961,2.747,2.618,-0.842,-0.776,108.957
+0 days 01:36:41.755000,VER,3,107.655,22.0,1.0,,,False,MEDIUM,22.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.053,-0.969,2.739,2.611,-1.215,-1.116,109.014
+0 days 01:38:29.140000,VER,3,107.385,23.0,1.0,,,True,MEDIUM,23.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.323,-1.217,2.469,2.353,-1.52,-1.396,108.809
+0 days 01:40:16.637000,VER,3,107.497,24.0,1.0,,,False,MEDIUM,24.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.211,-1.114,2.581,2.46,-1.27,-1.168,108.985
+0 days 01:42:03.844000,VER,3,107.207,25.0,1.0,,,True,MEDIUM,25.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.501,-1.381,2.291,2.184,-1.399,-1.288,108.76
+0 days 01:43:51.644000,VER,3,107.8,26.0,1.0,,,False,MEDIUM,26.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.908,-0.835,2.884,2.749,-0.748,-0.689,109.418
+0 days 01:45:39.124000,VER,3,107.48,27.0,1.0,,,False,MEDIUM,27.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.228,-1.13,2.564,2.444,-0.563,-0.521,109.162
+0 days 01:47:26.494000,VER,3,107.37,28.0,1.0,,,False,MEDIUM,28.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.338,-1.231,2.454,2.339,-1.21,-1.114,109.117
+0 days 01:49:13.801000,VER,3,107.307,29.0,1.0,,,False,MEDIUM,29.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.401,-1.289,2.391,2.279,-0.975,-0.9,109.119
+0 days 01:51:01.091000,VER,3,107.29,30.0,1.0,,,False,MEDIUM,30.0,True,Red Bull Racing,12,3.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.418,-1.304,2.374,2.263,-0.105,-0.098,109.166
+0 days 01:53:33.415000,VER,3,,31.0,1.0,,0 days 01:53:32.136000,False,MEDIUM,31.0,True,Red Bull Racing,24,3.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:56:20.431000,VER,3,,32.0,2.0,0 days 01:53:52.865000,,False,SOFT,1.0,True,Red Bull Racing,4,3.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:59:06.658000,VER,3,,33.0,2.0,,,False,SOFT,2.0,True,Red Bull Racing,4,3.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:01:51.404000,VER,3,,34.0,2.0,,,False,SOFT,3.0,True,Red Bull Racing,4,3.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:28.871000,VER,3,,35.0,2.0,,,False,SOFT,4.0,True,Red Bull Racing,41,3.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:06:38.809000,VER,3,129.938,36.0,2.0,,0 days 02:06:37.589000,False,SOFT,5.0,True,Red Bull Racing,124,2.0,False,15,Azerbaijan Grand Prix,True,C5,False,21.23,19.529,25.022,23.85,,,132.203
+0 days 02:09:23.350000,VER,3,,37.0,3.0,0 days 02:06:52.708000,,False,SOFT,6.0,False,Red Bull Racing,4,2.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:04.198000,VER,3,,38.0,3.0,,,False,SOFT,7.0,False,Red Bull Racing,41,2.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:13:50.620000,VER,3,106.422,39.0,3.0,,,True,SOFT,8.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.286,-2.103,1.506,1.435,-2.891,-2.645,108.881
+0 days 02:15:36.816000,VER,3,106.196,40.0,3.0,,,True,SOFT,9.0,False,Red Bull Racing,12,2.0,True,15,Azerbaijan Grand Prix,True,C5,False,-2.512,-2.311,1.28,1.22,-2.296,-2.116,108.72
+0 days 02:17:22.600000,VER,3,105.784,41.0,3.0,,,True,SOFT,10.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.924,-2.69,0.868,0.827,-1.75,-1.627,108.372
+0 days 02:19:07.989000,VER,3,105.389,42.0,3.0,,,True,SOFT,11.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.319,-3.053,0.473,0.451,-2.038,-1.897,108.042
+0 days 02:20:53.563000,VER,3,105.574,43.0,3.0,,,False,SOFT,12.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.134,-2.883,0.658,0.627,-1.62,-1.511,108.292
+0 days 02:22:38.698000,VER,3,105.135,44.0,3.0,,,True,SOFT,13.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.573,-3.287,0.219,0.209,-1.906,-1.781,107.917
+0 days 02:24:23.768000,VER,3,105.07,45.0,3.0,,,True,SOFT,14.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.638,-3.347,0.154,0.147,-1.844,-1.725,107.917
+0 days 02:26:09.039000,VER,3,105.271,46.0,3.0,,,False,SOFT,15.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.437,-3.162,0.355,0.338,-1.679,-1.57,108.183
+0 days 02:27:54.175000,VER,3,105.136,47.0,3.0,,,False,SOFT,16.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.572,-3.286,0.22,0.21,-1.893,-1.769,108.112
+0 days 02:29:39.168000,VER,3,104.993,48.0,3.0,,,True,SOFT,17.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.715,-3.417,0.077,0.073,-2.382,-2.218,108.034
+0 days 02:31:24.188000,VER,3,105.02,49.0,3.0,,,False,SOFT,18.0,False,Red Bull Racing,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.688,-3.393,0.104,0.099,-1.777,-1.664,108.126
+0 days 02:33:09.376000,VER,3,105.188,50.0,3.0,,,False,SOFT,19.0,False,Red Bull Racing,12,2.0,True,15,Azerbaijan Grand Prix,True,C5,False,-3.52,-3.238,0.272,0.259,-2.047,-1.909,108.359
+0 days 02:34:55.896000,VER,3,106.52,51.0,3.0,,,False,SOFT,20.0,False,Red Bull Racing,12,2.0,True,15,Azerbaijan Grand Prix,True,C5,False,-2.188,-2.013,1.604,1.529,-1.803,-1.664,109.755
+0 days 00:58:51.989000,LAW,30,,1.0,1.0,,,False,SOFT,1.0,True,Racing Bulls,1,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:43.275000,LAW,30,111.286,2.0,1.0,,,True,SOFT,2.0,True,Racing Bulls,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.578,2.371,6.37,6.072,0.174,0.157,111.351
+0 days 01:02:33.678000,LAW,30,110.403,3.0,1.0,,,True,SOFT,3.0,True,Racing Bulls,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.695,1.559,5.487,5.23,0.007,0.006,110.532
+0 days 01:04:23.627000,LAW,30,109.949,4.0,1.0,,,True,SOFT,4.0,True,Racing Bulls,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.241,1.142,5.033,4.797,-0.056,-0.051,110.143
+0 days 01:06:13.205000,LAW,30,109.578,5.0,1.0,,,True,SOFT,5.0,True,Racing Bulls,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.87,0.8,4.662,4.444,0.184,0.168,109.837
+0 days 01:08:03.972000,LAW,30,110.767,6.0,1.0,,,False,SOFT,6.0,True,Racing Bulls,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.059,1.894,5.851,5.577,0.949,0.864,111.091
+0 days 01:09:53.805000,LAW,30,109.833,7.0,1.0,,,False,SOFT,7.0,True,Racing Bulls,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.125,1.035,4.917,4.687,0.147,0.134,110.221
+0 days 01:11:43.526000,LAW,30,109.721,8.0,1.0,,,False,SOFT,8.0,True,Racing Bulls,12,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,1.013,0.932,4.805,4.58,0.222,0.203,110.174
+0 days 01:13:32.815000,LAW,30,109.289,9.0,1.0,,,True,SOFT,9.0,True,Racing Bulls,21,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.581,0.534,4.373,4.168,-0.076,-0.069,109.807
+0 days 01:15:22.438000,LAW,30,109.623,10.0,1.0,,,False,SOFT,10.0,True,Racing Bulls,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.915,0.842,4.707,4.486,0.306,0.28,110.205
+0 days 01:17:12.856000,LAW,30,110.418,11.0,1.0,,,False,SOFT,11.0,True,Racing Bulls,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.71,1.573,5.502,5.244,1.053,0.963,111.065
+0 days 01:19:02.580000,LAW,30,109.724,12.0,1.0,,,False,SOFT,12.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.016,0.935,4.808,4.583,0.512,0.469,110.436
+0 days 01:20:52.846000,LAW,30,110.266,13.0,1.0,,,False,SOFT,13.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.558,1.433,5.35,5.099,1.127,1.033,111.042
+0 days 01:22:41.895000,LAW,30,109.049,14.0,1.0,,,True,SOFT,14.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.341,0.314,4.133,3.939,0.058,0.053,109.89
+0 days 01:24:30.629000,LAW,30,108.734,15.0,1.0,,,True,SOFT,15.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.026,0.024,3.818,3.639,-0.092,-0.085,109.64
+0 days 01:26:19.687000,LAW,30,109.058,16.0,1.0,,,False,SOFT,16.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.35,0.322,4.142,3.948,-0.275,-0.252,110.029
+0 days 01:28:08.705000,LAW,30,109.018,17.0,1.0,,,False,SOFT,17.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.31,0.285,4.102,3.91,0.0,0.0,110.053
+0 days 01:29:57.647000,LAW,30,108.942,18.0,1.0,,,False,SOFT,18.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.234,0.215,4.026,3.837,0.0,0.0,110.042
+0 days 01:31:46.731000,LAW,30,109.084,19.0,1.0,,,False,SOFT,19.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.376,0.346,4.168,3.973,0.291,0.267,110.249
+0 days 01:33:35.659000,LAW,30,108.928,20.0,1.0,,,False,SOFT,20.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.22,0.202,4.012,3.824,0.29,0.267,110.157
+0 days 01:35:24.367000,LAW,30,108.708,21.0,1.0,,,True,SOFT,21.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.0,0.0,3.792,3.614,0.203,0.187,110.002
+0 days 01:37:13.520000,LAW,30,109.153,22.0,1.0,,,False,SOFT,22.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.445,0.409,4.237,4.038,0.283,0.26,110.512
+0 days 01:39:02.449000,LAW,30,108.929,23.0,1.0,,,False,SOFT,23.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.221,0.203,4.013,3.825,0.024,0.022,110.353
+0 days 01:40:51.499000,LAW,30,109.05,24.0,1.0,,,False,SOFT,24.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.342,0.315,4.134,3.94,0.283,0.26,110.538
+0 days 01:42:40.356000,LAW,30,108.857,25.0,1.0,,,False,SOFT,25.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.149,0.137,3.941,3.756,0.251,0.231,110.41
+0 days 01:44:29.016000,LAW,30,108.66,26.0,1.0,,,True,SOFT,26.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.048,-0.044,3.744,3.569,0.112,0.103,110.278
+0 days 01:46:17.520000,LAW,30,108.504,27.0,1.0,,,True,SOFT,27.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.204,-0.188,3.588,3.42,0.461,0.427,110.186
+0 days 01:48:06.094000,LAW,30,108.574,28.0,1.0,,,False,SOFT,28.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.134,-0.123,3.658,3.487,-0.006,-0.006,110.321
+0 days 01:49:54.357000,LAW,30,108.263,29.0,1.0,,,True,SOFT,29.0,True,Racing Bulls,12,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.445,-0.409,3.347,3.19,-0.019,-0.018,110.075
+0 days 01:52:00.901000,LAW,30,126.544,30.0,1.0,,,False,SOFT,30.0,True,Racing Bulls,124,12.0,False,15,Azerbaijan Grand Prix,True,C5,False,17.836,16.407,21.628,20.615,19.149,17.83,128.42
+0 days 01:54:36.156000,LAW,30,,31.0,1.0,,0 days 01:54:34.818000,False,SOFT,31.0,True,Racing Bulls,4,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:57:00.747000,LAW,30,144.591,32.0,2.0,0 days 01:54:56.515000,,False,MEDIUM,1.0,True,Racing Bulls,4,12.0,False,15,Azerbaijan Grand Prix,True,C4,False,35.883,33.009,39.675,37.816,13.307,10.136,146.597
+0 days 01:59:20.426000,LAW,30,139.679,33.0,2.0,,,False,MEDIUM,2.0,True,Racing Bulls,4,12.0,False,15,Azerbaijan Grand Prix,True,C4,False,30.971,28.49,34.763,33.134,4.474,3.309,141.75
+0 days 02:02:04.873000,LAW,30,,34.0,2.0,,,False,MEDIUM,3.0,True,Racing Bulls,4,12.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:30.590000,LAW,30,145.717,35.0,2.0,,,False,MEDIUM,4.0,True,Racing Bulls,41,12.0,False,15,Azerbaijan Grand Prix,True,C4,False,37.009,34.044,40.801,38.889,1.321,0.915,147.917
+0 days 02:07:01.365000,LAW,30,,36.0,2.0,,0 days 02:07:00.054000,False,MEDIUM,5.0,True,Racing Bulls,124,15.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:09:50.042000,LAW,30,,37.0,3.0,0 days 02:07:23.776000,,False,SOFT,1.0,True,Racing Bulls,4,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:08.210000,LAW,30,138.168,38.0,3.0,,,False,SOFT,2.0,True,Racing Bulls,41,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,29.46,27.1,33.252,31.694,-10.642,-7.151,140.562
+0 days 02:13:59.262000,LAW,30,111.052,39.0,3.0,,,False,SOFT,3.0,True,Racing Bulls,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.344,2.156,6.136,5.848,1.739,1.591,113.511
+0 days 02:15:47.955000,LAW,30,108.693,40.0,3.0,,,False,SOFT,4.0,True,Racing Bulls,12,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.015,-0.014,3.777,3.6,0.201,0.185,111.217
+0 days 02:17:35.774000,LAW,30,107.819,41.0,3.0,,,True,SOFT,5.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.889,-0.818,2.903,2.767,0.285,0.265,110.407
+0 days 02:19:23.164000,LAW,30,107.39,42.0,3.0,,,True,SOFT,6.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.318,-1.212,2.474,2.358,-0.037,-0.034,110.043
+0 days 02:21:10.379000,LAW,30,107.215,43.0,3.0,,,True,SOFT,7.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.493,-1.373,2.299,2.191,0.021,0.02,109.933
+0 days 02:22:57.639000,LAW,30,107.26,44.0,3.0,,,False,SOFT,8.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.448,-1.332,2.344,2.234,0.219,0.205,110.042
+0 days 02:24:44.833000,LAW,30,107.194,45.0,3.0,,,True,SOFT,9.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.514,-1.393,2.278,2.171,0.28,0.262,110.041
+0 days 02:26:31.739000,LAW,30,106.906,46.0,3.0,,,True,SOFT,10.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.802,-1.658,1.99,1.897,-0.044,-0.041,109.818
+0 days 02:28:18.671000,LAW,30,106.932,47.0,3.0,,,False,SOFT,11.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.776,-1.634,2.016,1.922,-0.097,-0.091,109.908
+0 days 02:30:06.136000,LAW,30,107.465,48.0,3.0,,,False,SOFT,12.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.243,-1.143,2.549,2.43,0.09,0.084,110.506
+0 days 02:31:54.091000,LAW,30,107.955,49.0,3.0,,,False,SOFT,13.0,True,Racing Bulls,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.753,-0.693,3.039,2.897,1.158,1.084,111.061
+0 days 02:33:41.779000,LAW,30,107.688,50.0,3.0,,,False,SOFT,14.0,True,Racing Bulls,12,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.02,-0.938,2.772,2.642,0.453,0.422,110.859
+0 days 02:35:29.651000,LAW,30,107.872,51.0,3.0,,,False,SOFT,15.0,True,Racing Bulls,12,12.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.836,-0.769,2.956,2.817,-0.451,-0.416,111.107
+0 days 00:58:54.133000,OCO,31,,1.0,1.0,,,False,SOFT,1.0,True,Haas F1 Team,1,13.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:45.225000,OCO,31,111.092,2.0,1.0,,,True,SOFT,2.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.384,2.193,6.176,5.887,-0.02,-0.018,111.157
+0 days 01:02:35.973000,OCO,31,110.748,3.0,1.0,,,True,SOFT,3.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.04,1.877,5.832,5.559,0.352,0.319,110.877
+0 days 01:04:25.748000,OCO,31,109.775,4.0,1.0,,,True,SOFT,4.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.067,0.982,4.859,4.631,-0.23,-0.209,109.969
+0 days 01:06:15.193000,OCO,31,109.445,5.0,1.0,,,True,SOFT,5.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.737,0.678,4.529,4.317,0.051,0.047,109.704
+0 days 01:08:05.357000,OCO,31,110.164,6.0,1.0,,,False,SOFT,6.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.456,1.339,5.248,5.002,0.346,0.315,110.488
+0 days 01:09:55.133000,OCO,31,109.776,7.0,1.0,,,False,SOFT,7.0,True,Haas F1 Team,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.068,0.982,4.86,4.632,0.09,0.082,110.164
+0 days 01:11:44.632000,OCO,31,109.499,8.0,1.0,,,False,SOFT,8.0,True,Haas F1 Team,12,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.791,0.728,4.583,4.368,0.0,0.0,109.952
+0 days 01:13:34.669000,OCO,31,110.037,9.0,1.0,,,False,SOFT,9.0,True,Haas F1 Team,21,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,1.329,1.223,5.121,4.881,0.672,0.614,110.555
+0 days 01:15:25.165000,OCO,31,110.496,10.0,1.0,,,False,SOFT,10.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.788,1.645,5.58,5.319,1.179,1.079,111.078
+0 days 01:17:14.780000,OCO,31,109.615,11.0,1.0,,,False,SOFT,11.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.907,0.834,4.699,4.479,0.25,0.229,110.262
+0 days 01:19:03.992000,OCO,31,109.212,12.0,1.0,,,True,SOFT,12.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.504,0.464,4.296,4.095,0.0,0.0,109.924
+0 days 01:20:53.856000,OCO,31,109.864,13.0,1.0,,,False,SOFT,13.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.156,1.063,4.948,4.716,0.725,0.664,110.64
+0 days 01:22:43.390000,OCO,31,109.534,14.0,1.0,,,False,SOFT,14.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.826,0.76,4.618,4.402,0.543,0.498,110.375
+0 days 01:24:32.709000,OCO,31,109.319,15.0,1.0,,,False,SOFT,15.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.611,0.562,4.403,4.197,0.493,0.453,110.225
+0 days 01:26:22.133000,OCO,31,109.424,16.0,1.0,,,False,SOFT,16.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.716,0.659,4.508,4.297,0.091,0.083,110.395
+0 days 01:28:11.313000,OCO,31,109.18,17.0,1.0,,,True,SOFT,17.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.472,0.434,4.264,4.064,0.162,0.149,110.215
+0 days 01:30:00.328000,OCO,31,109.015,18.0,1.0,,,True,SOFT,18.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.307,0.282,4.099,3.907,0.073,0.067,110.115
+0 days 01:31:49.405000,OCO,31,109.077,19.0,1.0,,,False,SOFT,19.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.369,0.339,4.161,3.966,0.284,0.261,110.242
+0 days 01:33:38.305000,OCO,31,108.9,20.0,1.0,,,True,SOFT,20.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.192,0.177,3.984,3.797,0.262,0.241,110.129
+0 days 01:35:26.810000,OCO,31,108.505,21.0,1.0,,,True,SOFT,21.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.203,-0.187,3.589,3.421,0.0,0.0,109.799
+0 days 01:37:15.650000,OCO,31,108.84,22.0,1.0,,,False,SOFT,22.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.132,0.121,3.924,3.74,-0.03,-0.028,110.199
+0 days 01:39:04.493000,OCO,31,108.843,23.0,1.0,,,False,SOFT,23.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.135,0.124,3.927,3.743,-0.062,-0.057,110.267
+0 days 01:40:53.173000,OCO,31,108.68,24.0,1.0,,,False,SOFT,24.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.028,-0.026,3.764,3.588,-0.087,-0.08,110.168
+0 days 01:42:41.773000,OCO,31,108.6,25.0,1.0,,,False,SOFT,25.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.108,-0.099,3.684,3.511,-0.006,-0.006,110.153
+0 days 01:44:30.798000,OCO,31,109.025,26.0,1.0,,,False,SOFT,26.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.317,0.292,4.109,3.916,0.477,0.439,110.643
+0 days 01:46:18.819000,OCO,31,108.021,27.0,1.0,,,True,SOFT,27.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.687,-0.632,3.105,2.96,-0.022,-0.02,109.703
+0 days 01:48:09.653000,OCO,31,110.834,28.0,1.0,,,False,SOFT,28.0,True,Haas F1 Team,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.126,1.956,5.918,5.641,2.254,2.076,112.581
+0 days 01:49:57.953000,OCO,31,108.3,29.0,1.0,,,False,SOFT,29.0,True,Haas F1 Team,12,14.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.408,-0.375,3.384,3.225,0.018,0.017,110.112
+0 days 01:52:09.029000,OCO,31,131.076,30.0,1.0,,0 days 01:52:07.734000,False,SOFT,30.0,True,Haas F1 Team,124,13.0,False,15,Azerbaijan Grand Prix,True,C5,False,22.368,20.576,26.16,24.934,23.681,22.05,132.952
+0 days 01:54:53.806000,OCO,31,,31.0,2.0,0 days 01:52:29.132000,,False,MEDIUM,1.0,True,Haas F1 Team,4,13.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:57:03.196000,OCO,31,129.39,32.0,2.0,,,False,MEDIUM,2.0,True,Haas F1 Team,4,13.0,False,15,Azerbaijan Grand Prix,True,C4,False,20.682,19.025,24.474,23.327,-1.894,-1.443,131.396
+0 days 01:59:20.932000,OCO,31,137.736,33.0,2.0,,,False,MEDIUM,3.0,True,Haas F1 Team,4,13.0,False,15,Azerbaijan Grand Prix,True,C4,False,29.028,26.703,32.82,31.282,2.531,1.872,139.807
+0 days 02:02:05.530000,OCO,31,,34.0,2.0,,,False,MEDIUM,4.0,True,Haas F1 Team,4,13.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:30.636000,OCO,31,145.106,35.0,2.0,,,False,MEDIUM,5.0,True,Haas F1 Team,41,13.0,False,15,Azerbaijan Grand Prix,True,C4,False,36.398,33.482,40.19,38.307,0.71,0.492,147.306
+0 days 02:06:51.463000,OCO,31,140.827,36.0,2.0,,0 days 02:06:50.192000,False,MEDIUM,6.0,True,Haas F1 Team,124,8.0,False,15,Azerbaijan Grand Prix,True,C4,False,32.119,29.546,35.911,34.228,,,143.092
+0 days 02:09:33.297000,OCO,31,,37.0,3.0,0 days 02:07:06.348000,,False,MEDIUM,7.0,False,Haas F1 Team,4,8.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:06.319000,OCO,31,,38.0,3.0,,,False,MEDIUM,8.0,False,Haas F1 Team,41,8.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:55.227000,OCO,31,108.908,39.0,3.0,,,False,MEDIUM,9.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.2,0.184,3.992,3.805,-0.405,-0.37,111.367
+0 days 02:15:43.758000,OCO,31,108.531,40.0,3.0,,,False,MEDIUM,10.0,False,Haas F1 Team,12,7.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.177,-0.163,3.615,3.446,0.039,0.036,111.055
+0 days 02:17:31.618000,OCO,31,107.86,41.0,3.0,,,True,MEDIUM,11.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.848,-0.78,2.944,2.806,0.326,0.303,110.448
+0 days 02:19:19.114000,OCO,31,107.496,42.0,3.0,,,True,MEDIUM,12.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.212,-1.115,2.58,2.459,0.069,0.064,110.149
+0 days 02:21:06.310000,OCO,31,107.196,43.0,3.0,,,True,MEDIUM,13.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.512,-1.391,2.28,2.173,0.002,0.002,109.914
+0 days 02:22:53.378000,OCO,31,107.068,44.0,3.0,,,True,MEDIUM,14.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.64,-1.509,2.152,2.051,0.027,0.025,109.85
+0 days 02:24:40.552000,OCO,31,107.174,45.0,3.0,,,False,MEDIUM,15.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.534,-1.411,2.258,2.152,0.26,0.243,110.021
+0 days 02:26:27.880000,OCO,31,107.328,46.0,3.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.38,-1.269,2.412,2.299,0.378,0.353,110.24
+0 days 02:28:15.441000,OCO,31,107.561,47.0,3.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.147,-1.055,2.645,2.521,0.532,0.497,110.537
+0 days 02:30:03.139000,OCO,31,107.698,48.0,3.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.01,-0.929,2.782,2.652,0.323,0.301,110.739
+0 days 02:31:50.272000,OCO,31,107.133,49.0,3.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,7.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.575,-1.449,2.217,2.113,0.336,0.315,110.239
+0 days 02:33:37.896000,OCO,31,107.624,50.0,3.0,,,False,MEDIUM,20.0,False,Haas F1 Team,12,7.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.084,-0.997,2.708,2.581,0.389,0.363,110.795
+0 days 02:35:26.821000,OCO,31,108.925,51.0,3.0,,,False,MEDIUM,21.0,False,Haas F1 Team,12,8.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.217,0.2,4.009,3.821,0.602,0.556,112.16
+0 days 00:58:54.864000,LIN,41,,1.0,1.0,,,False,MEDIUM,1.0,True,Racing Bulls,1,14.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:46.533000,LIN,41,111.669,2.0,1.0,,,True,MEDIUM,2.0,True,Racing Bulls,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.961,2.724,6.753,6.437,0.557,0.501,111.734
+0 days 01:02:37.322000,LIN,41,110.789,3.0,1.0,,,True,MEDIUM,3.0,True,Racing Bulls,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.081,1.914,5.873,5.598,0.393,0.356,110.918
+0 days 01:04:27.578000,LIN,41,110.256,4.0,1.0,,,True,MEDIUM,4.0,True,Racing Bulls,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.548,1.424,5.34,5.09,0.251,0.228,110.45
+0 days 01:06:17.829000,LIN,41,110.251,5.0,1.0,,,True,MEDIUM,5.0,True,Racing Bulls,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.543,1.419,5.335,5.085,0.857,0.783,110.51
+0 days 01:08:08.799000,LIN,41,110.97,6.0,1.0,,,False,MEDIUM,6.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.262,2.081,6.054,5.77,1.152,1.049,111.294
+0 days 01:09:58.780000,LIN,41,109.981,7.0,1.0,,,True,MEDIUM,7.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.273,1.171,5.065,4.828,0.295,0.269,110.369
+0 days 01:11:48.590000,LIN,41,109.81,8.0,1.0,,,True,MEDIUM,8.0,True,Racing Bulls,12,15.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.102,1.014,4.894,4.665,0.311,0.284,110.263
+0 days 01:13:38.447000,LIN,41,109.857,9.0,1.0,,,False,MEDIUM,9.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.149,1.057,4.941,4.709,0.492,0.45,110.375
+0 days 01:15:28.101000,LIN,41,109.654,10.0,1.0,,,True,MEDIUM,10.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.946,0.87,4.738,4.516,0.337,0.308,110.236
+0 days 01:17:17.466000,LIN,41,109.365,11.0,1.0,,,True,MEDIUM,11.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.657,0.604,4.449,4.241,0.0,0.0,110.012
+0 days 01:19:06.805000,LIN,41,109.339,12.0,1.0,,,True,MEDIUM,12.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.631,0.58,4.423,4.216,0.127,0.116,110.051
+0 days 01:20:56.108000,LIN,41,109.303,13.0,1.0,,,True,MEDIUM,13.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.595,0.547,4.387,4.181,0.164,0.15,110.079
+0 days 01:22:45.423000,LIN,41,109.315,14.0,1.0,,,False,MEDIUM,14.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.607,0.558,4.399,4.193,0.324,0.297,110.156
+0 days 01:24:35.098000,LIN,41,109.675,15.0,1.0,,,False,MEDIUM,15.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.967,0.89,4.759,4.536,0.849,0.78,110.581
+0 days 01:26:24.597000,LIN,41,109.499,16.0,1.0,,,False,MEDIUM,16.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.791,0.728,4.583,4.368,0.166,0.152,110.47
+0 days 01:28:13.699000,LIN,41,109.102,17.0,1.0,,,True,MEDIUM,17.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.394,0.362,4.186,3.99,0.084,0.077,110.137
+0 days 01:30:03.079000,LIN,41,109.38,18.0,1.0,,,False,MEDIUM,18.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.672,0.618,4.464,4.255,0.438,0.402,110.48
+0 days 01:31:52.359000,LIN,41,109.28,19.0,1.0,,,False,MEDIUM,19.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.572,0.526,4.364,4.16,0.487,0.448,110.445
+0 days 01:33:41.602000,LIN,41,109.243,20.0,1.0,,,False,MEDIUM,20.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.535,0.492,4.327,4.124,0.605,0.557,110.472
+0 days 01:35:30.728000,LIN,41,109.126,21.0,1.0,,,False,MEDIUM,21.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.418,0.385,4.21,4.013,0.621,0.572,110.42
+0 days 01:37:19.870000,LIN,41,109.142,22.0,1.0,,,False,MEDIUM,22.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.434,0.399,4.226,4.028,0.272,0.25,110.501
+0 days 01:39:09.042000,LIN,41,109.172,23.0,1.0,,,False,MEDIUM,23.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.464,0.427,4.256,4.057,0.267,0.245,110.596
+0 days 01:40:58.453000,LIN,41,109.411,24.0,1.0,,,False,MEDIUM,24.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.703,0.647,4.495,4.284,0.644,0.592,110.899
+0 days 01:42:47.677000,LIN,41,109.224,25.0,1.0,,,False,MEDIUM,25.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.516,0.475,4.308,4.106,0.618,0.569,110.777
+0 days 01:44:36.770000,LIN,41,109.093,26.0,1.0,,,True,MEDIUM,26.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.385,0.354,4.177,3.981,0.545,0.502,110.711
+0 days 01:46:25.659000,LIN,41,108.889,27.0,1.0,,,True,MEDIUM,27.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.181,0.167,3.973,3.787,0.846,0.783,110.571
+0 days 01:48:14.700000,LIN,41,109.041,28.0,1.0,,,False,MEDIUM,28.0,True,Racing Bulls,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.333,0.306,4.125,3.932,0.461,0.425,110.788
+0 days 01:50:03.643000,LIN,41,108.943,29.0,1.0,,,False,MEDIUM,29.0,True,Racing Bulls,12,15.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.235,0.216,4.027,3.838,0.661,0.61,110.755
+0 days 01:52:17.648000,LIN,41,134.005,30.0,1.0,,0 days 01:52:16.446000,False,MEDIUM,30.0,True,Racing Bulls,124,14.0,False,15,Azerbaijan Grand Prix,True,C4,False,25.297,23.271,29.089,27.726,26.61,24.778,135.881
+0 days 01:55:03.359000,LIN,41,,31.0,2.0,0 days 01:52:38.491000,,False,SOFT,1.0,True,Racing Bulls,4,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:57:09.342000,LIN,41,125.983,32.0,2.0,,,False,SOFT,2.0,True,Racing Bulls,4,15.0,False,15,Azerbaijan Grand Prix,True,C5,False,17.275,15.891,21.067,20.08,-5.301,-4.038,127.989
+0 days 01:59:22.016000,LIN,41,132.674,33.0,2.0,,,False,SOFT,3.0,True,Racing Bulls,4,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,23.966,22.046,27.758,26.457,-2.531,-1.872,134.745
+0 days 02:02:06.407000,LIN,41,,34.0,2.0,,,False,SOFT,4.0,True,Racing Bulls,4,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:30.803000,LIN,41,144.396,35.0,2.0,,,False,SOFT,5.0,True,Racing Bulls,41,14.0,False,15,Azerbaijan Grand Prix,True,C5,False,35.688,32.829,39.48,37.63,0.0,0.0,146.596
+0 days 02:06:53.458000,LIN,41,142.655,36.0,2.0,,0 days 02:06:52.237000,False,SOFT,6.0,True,Racing Bulls,124,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,33.947,31.228,37.739,35.971,,,144.92
+0 days 02:09:35.723000,LIN,41,,37.0,3.0,0 days 02:07:08.261000,,False,SOFT,7.0,False,Racing Bulls,4,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:06.720000,LIN,41,,38.0,3.0,,,False,SOFT,8.0,False,Racing Bulls,41,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:13:56.011000,LIN,41,109.291,39.0,3.0,,,False,SOFT,9.0,False,Racing Bulls,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.583,0.536,4.375,4.17,-0.022,-0.02,111.75
+0 days 02:15:44.655000,LIN,41,108.644,40.0,3.0,,,True,SOFT,10.0,False,Racing Bulls,12,9.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.064,-0.059,3.728,3.553,0.152,0.14,111.168
+0 days 02:17:32.584000,LIN,41,107.929,41.0,3.0,,,True,SOFT,11.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.779,-0.717,3.013,2.872,0.395,0.367,110.517
+0 days 02:19:20.028000,LIN,41,107.444,42.0,3.0,,,True,SOFT,12.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.264,-1.163,2.528,2.41,0.017,0.016,110.097
+0 days 02:21:07.587000,LIN,41,107.559,43.0,3.0,,,False,SOFT,13.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.149,-1.057,2.643,2.519,0.365,0.341,110.277
+0 days 02:22:54.436000,LIN,41,106.849,44.0,3.0,,,True,SOFT,14.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.859,-1.71,1.933,1.842,-0.192,-0.179,109.631
+0 days 02:24:41.652000,LIN,41,107.216,45.0,3.0,,,False,SOFT,15.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.492,-1.372,2.3,2.192,0.302,0.282,110.063
+0 days 02:26:28.647000,LIN,41,106.995,46.0,3.0,,,False,SOFT,16.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.713,-1.576,2.079,1.982,0.045,0.042,109.907
+0 days 02:28:16.391000,LIN,41,107.744,47.0,3.0,,,False,SOFT,17.0,False,Racing Bulls,1,9.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.964,-0.887,2.828,2.695,0.715,0.668,110.72
+0 days 02:30:03.800000,LIN,41,107.409,48.0,3.0,,,False,SOFT,18.0,False,Racing Bulls,1,8.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.299,-1.195,2.493,2.376,0.034,0.032,110.45
+0 days 02:31:50.657000,LIN,41,106.857,49.0,3.0,,,False,SOFT,19.0,False,Racing Bulls,1,8.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.851,-1.703,1.941,1.85,0.06,0.056,109.963
+0 days 02:33:38.452000,LIN,41,107.795,50.0,3.0,,,False,SOFT,20.0,False,Racing Bulls,12,8.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.913,-0.84,2.879,2.744,0.56,0.522,110.966
+0 days 02:35:26.775000,LIN,41,108.323,51.0,3.0,,,False,SOFT,21.0,False,Racing Bulls,12,7.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.385,-0.354,3.407,3.247,0.0,0.0,111.558
+0 days 00:58:51.539000,COL,43,,1.0,1.0,,,False,MEDIUM,1.0,True,Alpine,1,9.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:41.986000,COL,43,110.447,2.0,1.0,,,True,MEDIUM,2.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.739,1.6,5.531,5.272,-0.665,-0.598,110.512
+0 days 01:02:31.703000,COL,43,109.717,3.0,1.0,,,True,MEDIUM,3.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.009,0.928,4.801,4.576,-0.679,-0.615,109.846
+0 days 01:04:21.535000,COL,43,109.832,4.0,1.0,,,False,MEDIUM,4.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.124,1.034,4.916,4.686,-0.173,-0.157,110.026
+0 days 01:06:10.830000,COL,43,109.295,5.0,1.0,,,True,MEDIUM,5.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.587,0.54,4.379,4.174,-0.099,-0.09,109.554
+0 days 01:07:59.631000,COL,43,108.801,6.0,1.0,,,True,MEDIUM,6.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.093,0.086,3.885,3.703,-1.017,-0.926,109.125
+0 days 01:09:48.998000,COL,43,109.367,7.0,1.0,,,False,MEDIUM,7.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.659,0.606,4.451,4.242,-0.319,-0.291,109.755
+0 days 01:11:38.530000,COL,43,109.532,8.0,1.0,,,False,MEDIUM,8.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.824,0.758,4.616,4.4,0.033,0.03,109.985
+0 days 01:13:27.872000,COL,43,109.342,9.0,1.0,,,False,MEDIUM,9.0,True,Alpine,12,9.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.634,0.583,4.426,4.219,-0.023,-0.021,109.86
+0 days 01:15:17.361000,COL,43,109.489,10.0,1.0,,,False,MEDIUM,10.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.781,0.718,4.573,4.359,0.172,0.157,110.071
+0 days 01:17:06.219000,COL,43,108.858,11.0,1.0,,,False,MEDIUM,11.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.15,0.138,3.942,3.757,-0.507,-0.464,109.505
+0 days 01:18:55.133000,COL,43,108.914,12.0,1.0,,,False,MEDIUM,12.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.206,0.189,3.998,3.811,-0.298,-0.273,109.626
+0 days 01:20:44.105000,COL,43,108.972,13.0,1.0,,,False,MEDIUM,13.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.264,0.243,4.056,3.866,-0.167,-0.153,109.748
+0 days 01:22:32.648000,COL,43,108.543,14.0,1.0,,,True,MEDIUM,14.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.165,-0.152,3.627,3.457,-0.448,-0.411,109.384
+0 days 01:24:21.393000,COL,43,108.745,15.0,1.0,,,False,MEDIUM,15.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.037,0.034,3.829,3.65,-0.081,-0.074,109.651
+0 days 01:26:10.021000,COL,43,108.628,16.0,1.0,,,False,MEDIUM,16.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.08,-0.074,3.712,3.538,-0.705,-0.645,109.599
+0 days 01:27:58.505000,COL,43,108.484,17.0,1.0,,,True,MEDIUM,17.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.224,-0.206,3.568,3.401,-0.534,-0.49,109.519
+0 days 01:29:47.337000,COL,43,108.832,18.0,1.0,,,False,MEDIUM,18.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.124,0.114,3.916,3.733,-0.11,-0.101,109.932
+0 days 01:31:36.096000,COL,43,108.759,19.0,1.0,,,False,MEDIUM,19.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.051,0.047,3.843,3.663,-0.034,-0.031,109.924
+0 days 01:33:25.133000,COL,43,109.037,20.0,1.0,,,False,MEDIUM,20.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.329,0.303,4.121,3.928,0.399,0.367,110.266
+0 days 01:35:14.254000,COL,43,109.121,21.0,1.0,,,False,MEDIUM,21.0,True,Alpine,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.413,0.38,4.205,4.008,0.616,0.568,110.415
+0 days 01:37:03.153000,COL,43,108.899,22.0,1.0,,,False,MEDIUM,22.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.191,0.176,3.983,3.796,0.029,0.027,110.258
+0 days 01:38:52.707000,COL,43,109.554,23.0,1.0,,,False,MEDIUM,23.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.846,0.778,4.638,4.421,0.649,0.596,110.978
+0 days 01:40:41.610000,COL,43,108.903,24.0,1.0,,,False,MEDIUM,24.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.195,0.179,3.987,3.8,0.136,0.125,110.391
+0 days 01:42:30.909000,COL,43,109.299,25.0,1.0,,,False,MEDIUM,25.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.591,0.544,4.383,4.178,0.693,0.638,110.852
+0 days 01:44:19.761000,COL,43,108.852,26.0,1.0,,,False,MEDIUM,26.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.144,0.132,3.936,3.752,0.304,0.28,110.47
+0 days 01:46:08.671000,COL,43,108.91,27.0,1.0,,,False,MEDIUM,27.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.202,0.186,3.994,3.807,0.867,0.802,110.592
+0 days 01:47:57.426000,COL,43,108.755,28.0,1.0,,,False,MEDIUM,28.0,True,Alpine,1,10.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.047,0.043,3.839,3.659,0.175,0.161,110.502
+0 days 01:49:46.229000,COL,43,108.803,29.0,1.0,,,False,MEDIUM,29.0,True,Alpine,12,10.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.095,0.087,3.887,3.705,0.521,0.481,110.615
+0 days 01:51:52.497000,COL,43,126.268,30.0,1.0,,0 days 01:51:51.288000,False,MEDIUM,30.0,True,Alpine,124,10.0,False,15,Azerbaijan Grand Prix,True,C4,False,17.56,16.153,21.352,20.352,18.873,17.573,128.144
+0 days 01:54:38.423000,COL,43,,31.0,2.0,0 days 01:52:11.946000,,False,SOFT,1.0,True,Alpine,4,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:49.707000,COL,43,131.284,32.0,2.0,,,False,SOFT,2.0,True,Alpine,4,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,22.576,20.768,26.368,25.132,0.0,0.0,133.29
+0 days 01:59:17.715000,COL,43,148.008,33.0,2.0,,,False,SOFT,3.0,True,Alpine,4,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,39.3,36.152,43.092,41.073,12.803,9.469,150.079
+0 days 02:02:01.062000,COL,43,,34.0,2.0,,,False,SOFT,4.0,True,Alpine,4,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:30.062000,COL,43,149.0,35.0,2.0,,,False,SOFT,5.0,True,Alpine,41,10.0,False,15,Azerbaijan Grand Prix,True,C5,False,40.292,37.064,44.084,42.018,4.604,3.188,151.2
+0 days 02:08:41.412000,COL,43,,36.0,2.0,,0 days 02:08:40.131000,False,SOFT,6.0,True,Alpine,124,17.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:49.310000,HAM,44,,1.0,1.0,,,False,SOFT,1.0,True,Ferrari,1,6.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:40.038000,HAM,44,110.728,2.0,1.0,,,True,SOFT,2.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.02,1.858,5.812,5.54,-0.384,-0.346,110.793
+0 days 01:02:29.437000,HAM,44,109.399,3.0,1.0,,,True,SOFT,3.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.691,0.636,4.483,4.273,-0.997,-0.903,109.528
+0 days 01:04:19.346000,HAM,44,109.909,4.0,1.0,,,False,SOFT,4.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.201,1.105,4.993,4.759,-0.096,-0.087,110.103
+0 days 01:06:08.207000,HAM,44,108.861,5.0,1.0,,,True,SOFT,5.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.153,0.141,3.945,3.76,-0.533,-0.487,109.12
+0 days 01:07:57.082000,HAM,44,108.875,6.0,1.0,,,False,SOFT,6.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.167,0.154,3.959,3.773,-0.943,-0.859,109.199
+0 days 01:09:46.143000,HAM,44,109.061,7.0,1.0,,,False,SOFT,7.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.353,0.325,4.145,3.951,-0.625,-0.57,109.449
+0 days 01:11:34.931000,HAM,44,108.788,8.0,1.0,,,True,SOFT,8.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.08,0.074,3.872,3.691,-0.711,-0.649,109.241
+0 days 01:13:23.516000,HAM,44,108.585,9.0,1.0,,,True,SOFT,9.0,True,Ferrari,12,7.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.123,-0.113,3.669,3.497,-0.78,-0.713,109.103
+0 days 01:15:12.224000,HAM,44,108.708,10.0,1.0,,,False,SOFT,10.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.0,0.0,3.792,3.614,-0.609,-0.557,109.29
+0 days 01:17:00.573000,HAM,44,108.349,11.0,1.0,,,True,SOFT,11.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.359,-0.33,3.433,3.272,-1.016,-0.929,108.996
+0 days 01:18:48.957000,HAM,44,108.384,12.0,1.0,,,False,SOFT,12.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.324,-0.298,3.468,3.306,-0.828,-0.758,109.096
+0 days 01:20:36.999000,HAM,44,108.042,13.0,1.0,,,True,SOFT,13.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.666,-0.613,3.126,2.98,-1.097,-1.005,108.818
+0 days 01:22:25.083000,HAM,44,108.084,14.0,1.0,,,False,SOFT,14.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.624,-0.574,3.168,3.02,-0.907,-0.832,108.925
+0 days 01:24:13.201000,HAM,44,108.118,15.0,1.0,,,False,SOFT,15.0,True,Ferrari,1,7.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.59,-0.543,3.202,3.052,-0.708,-0.651,109.024
+0 days 01:26:02.534000,HAM,44,109.333,16.0,1.0,,,False,SOFT,16.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.625,0.575,4.417,4.21,0.0,0.0,110.304
+0 days 01:27:50.784000,HAM,44,108.25,17.0,1.0,,,False,SOFT,17.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.458,-0.421,3.334,3.178,-0.768,-0.704,109.285
+0 days 01:29:39.360000,HAM,44,108.576,18.0,1.0,,,False,SOFT,18.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.132,-0.121,3.66,3.489,-0.366,-0.336,109.676
+0 days 01:31:27.697000,HAM,44,108.337,19.0,1.0,,,False,SOFT,19.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.371,-0.341,3.421,3.261,-0.456,-0.419,109.502
+0 days 01:33:15.760000,HAM,44,108.063,20.0,1.0,,,False,SOFT,20.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.645,-0.593,3.147,3.0,-0.575,-0.529,109.292
+0 days 01:35:03.829000,HAM,44,108.069,21.0,1.0,,,False,SOFT,21.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.639,-0.588,3.153,3.005,-0.436,-0.402,109.363
+0 days 01:36:51.809000,HAM,44,107.98,22.0,1.0,,,True,SOFT,22.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.728,-0.67,3.064,2.92,-0.89,-0.817,109.339
+0 days 01:38:39.870000,HAM,44,108.061,23.0,1.0,,,False,SOFT,23.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.647,-0.595,3.145,2.998,-0.844,-0.775,109.485
+0 days 01:40:27.805000,HAM,44,107.935,24.0,1.0,,,True,SOFT,24.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.773,-0.711,3.019,2.878,-0.832,-0.765,109.423
+0 days 01:42:15.931000,HAM,44,108.126,25.0,1.0,,,False,SOFT,25.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.582,-0.535,3.21,3.06,-0.48,-0.442,109.679
+0 days 01:44:03.860000,HAM,44,107.929,26.0,1.0,,,True,SOFT,26.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.779,-0.717,3.013,2.872,-0.619,-0.57,109.547
+0 days 01:45:51.467000,HAM,44,107.607,27.0,1.0,,,True,SOFT,27.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.101,-1.013,2.691,2.565,-0.436,-0.404,109.289
+0 days 01:47:38.954000,HAM,44,107.487,28.0,1.0,,,True,SOFT,28.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.221,-1.123,2.571,2.451,-1.093,-1.007,109.234
+0 days 01:49:26.555000,HAM,44,107.601,29.0,1.0,,,False,SOFT,29.0,True,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.107,-1.018,2.685,2.559,-0.681,-0.629,109.413
+0 days 01:51:20.464000,HAM,44,113.909,30.0,1.0,,,False,SOFT,30.0,True,Ferrari,124,6.0,False,15,Azerbaijan Grand Prix,True,C5,False,5.201,4.784,8.993,8.572,6.514,6.065,115.785
+0 days 01:53:53.763000,HAM,44,,31.0,1.0,,0 days 01:53:52.473000,False,SOFT,31.0,True,Ferrari,4,6.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:31.305000,HAM,44,,32.0,2.0,0 days 01:54:14.629000,,False,MEDIUM,1.0,True,Ferrari,4,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:59:10.402000,HAM,44,,33.0,2.0,,,False,MEDIUM,2.0,True,Ferrari,4,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:01:55.735000,HAM,44,,34.0,2.0,,,False,MEDIUM,3.0,True,Ferrari,4,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:29.555000,HAM,44,,35.0,2.0,,,False,MEDIUM,4.0,True,Ferrari,41,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:06:48.907000,HAM,44,139.352,36.0,2.0,,0 days 02:06:47.591000,False,MEDIUM,5.0,True,Ferrari,124,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,30.644,28.189,34.436,32.822,,,141.617
+0 days 02:09:30.266000,HAM,44,,37.0,3.0,0 days 02:07:04.050000,,False,MEDIUM,6.0,False,Ferrari,4,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:05.026000,HAM,44,,38.0,3.0,,,False,MEDIUM,7.0,False,Ferrari,41,6.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:53.900000,HAM,44,108.874,39.0,3.0,,,False,MEDIUM,8.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.166,0.153,3.958,3.773,-0.439,-0.402,111.333
+0 days 02:15:41.458000,HAM,44,107.558,40.0,3.0,,,False,MEDIUM,9.0,False,Ferrari,12,5.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.15,-1.058,2.642,2.518,-0.934,-0.861,110.082
+0 days 02:17:28.783000,HAM,44,107.325,41.0,3.0,,,True,MEDIUM,10.0,False,Ferrari,1,5.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.383,-1.272,2.409,2.296,-0.209,-0.194,109.913
+0 days 02:19:16.359000,HAM,44,107.576,42.0,3.0,,,False,MEDIUM,11.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.132,-1.041,2.66,2.535,0.149,0.139,110.229
+0 days 02:21:03.915000,HAM,44,107.556,43.0,3.0,,,False,MEDIUM,12.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.152,-1.06,2.64,2.516,0.362,0.338,110.274
+0 days 02:22:50.338000,HAM,44,106.423,44.0,3.0,,,True,MEDIUM,13.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.285,-2.102,1.507,1.436,-0.618,-0.577,109.205
+0 days 02:24:36.629000,HAM,44,106.291,45.0,3.0,,,True,MEDIUM,14.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.417,-2.223,1.375,1.311,-0.623,-0.583,109.138
+0 days 02:26:22.853000,HAM,44,106.224,46.0,3.0,,,True,MEDIUM,15.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.484,-2.285,1.308,1.247,-0.726,-0.679,109.136
+0 days 02:28:09.363000,HAM,44,106.51,47.0,3.0,,,False,MEDIUM,16.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.198,-2.022,1.594,1.519,-0.519,-0.485,109.486
+0 days 02:29:55.839000,HAM,44,106.476,48.0,3.0,,,False,MEDIUM,17.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.232,-2.053,1.56,1.487,-0.899,-0.837,109.517
+0 days 02:31:42.009000,HAM,44,106.17,49.0,3.0,,,True,MEDIUM,18.0,False,Ferrari,1,6.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.538,-2.335,1.254,1.195,-0.627,-0.587,109.276
+0 days 02:33:28.315000,HAM,44,106.306,50.0,3.0,,,False,MEDIUM,19.0,False,Ferrari,12,6.0,True,15,Azerbaijan Grand Prix,True,C4,False,-2.402,-2.21,1.39,1.325,-0.929,-0.866,109.477
+0 days 02:35:18.054000,HAM,44,109.739,51.0,3.0,,,False,MEDIUM,20.0,False,Ferrari,12,6.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.031,0.948,4.823,4.597,1.416,1.307,112.974
+0 days 00:58:57.827000,BOR,5,,1.0,1.0,,,False,MEDIUM,1.0,True,Audi,1,18.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:49.649000,BOR,5,111.822,2.0,1.0,,,True,MEDIUM,2.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.114,2.865,6.906,6.582,0.71,0.639,111.887
+0 days 01:02:40.035000,BOR,5,110.386,3.0,1.0,,,True,MEDIUM,3.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.678,1.544,5.47,5.214,-0.01,-0.009,110.515
+0 days 01:04:30.361000,BOR,5,110.326,4.0,1.0,,,True,MEDIUM,4.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.618,1.488,5.41,5.157,0.321,0.292,110.52
+0 days 01:06:20.913000,BOR,5,110.552,5.0,1.0,,,False,MEDIUM,5.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.844,1.696,5.636,5.372,1.158,1.059,110.811
+0 days 01:08:10.748000,BOR,5,109.835,6.0,1.0,,,True,MEDIUM,6.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.127,1.037,4.919,4.689,0.017,0.015,110.159
+0 days 01:10:01.488000,BOR,5,110.74,7.0,1.0,,,False,MEDIUM,7.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.032,1.869,5.824,5.551,1.054,0.961,111.128
+0 days 01:11:51.543000,BOR,5,110.055,8.0,1.0,,,False,MEDIUM,8.0,True,Audi,12,18.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.347,1.239,5.139,4.898,0.556,0.508,110.508
+0 days 01:13:41.727000,BOR,5,110.184,9.0,1.0,,,False,MEDIUM,9.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.476,1.358,5.268,5.021,0.819,0.749,110.702
+0 days 01:15:31.704000,BOR,5,109.977,10.0,1.0,,,False,MEDIUM,10.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.269,1.167,5.061,4.824,0.66,0.604,110.559
+0 days 01:17:21.871000,BOR,5,110.167,11.0,1.0,,,False,MEDIUM,11.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.459,1.342,5.251,5.005,0.802,0.733,110.814
+0 days 01:19:11.268000,BOR,5,109.397,12.0,1.0,,,True,MEDIUM,12.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.689,0.634,4.481,4.271,0.185,0.169,110.109
+0 days 01:21:02.328000,BOR,5,111.06,13.0,1.0,,,False,MEDIUM,13.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.352,2.164,6.144,5.856,1.921,1.76,111.836
+0 days 01:22:52.113000,BOR,5,109.785,14.0,1.0,,,False,MEDIUM,14.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.077,0.991,4.869,4.641,0.794,0.729,110.626
+0 days 01:24:41.453000,BOR,5,109.34,15.0,1.0,,,True,MEDIUM,15.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.632,0.581,4.424,4.217,0.514,0.472,110.246
+0 days 01:26:30.905000,BOR,5,109.452,16.0,1.0,,,False,MEDIUM,16.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.744,0.684,4.536,4.323,0.119,0.109,110.423
+0 days 01:28:20.243000,BOR,5,109.338,17.0,1.0,,,True,MEDIUM,17.0,True,Audi,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.63,0.58,4.422,4.215,0.32,0.294,110.373
+0 days 01:30:09.955000,BOR,5,109.712,18.0,1.0,,,False,MEDIUM,18.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.004,0.924,4.796,4.571,0.77,0.707,110.812
+0 days 01:31:59.652000,BOR,5,109.697,19.0,1.0,,,False,MEDIUM,19.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.989,0.91,4.781,4.557,0.904,0.831,110.862
+0 days 01:33:48.869000,BOR,5,109.217,20.0,1.0,,,True,MEDIUM,20.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.509,0.468,4.301,4.099,0.579,0.533,110.446
+0 days 01:35:37.865000,BOR,5,108.996,21.0,1.0,,,True,MEDIUM,21.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.288,0.265,4.08,3.889,0.491,0.453,110.29
+0 days 01:37:26.970000,BOR,5,109.105,22.0,1.0,,,False,MEDIUM,22.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.397,0.365,4.189,3.993,0.235,0.216,110.464
+0 days 01:39:16.176000,BOR,5,109.206,23.0,1.0,,,False,MEDIUM,23.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.498,0.458,4.29,4.089,0.301,0.276,110.63
+0 days 01:41:05.684000,BOR,5,109.508,24.0,1.0,,,False,MEDIUM,24.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.8,0.736,4.592,4.377,0.741,0.681,110.996
+0 days 01:42:54.677000,BOR,5,108.993,25.0,1.0,,,True,MEDIUM,25.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.285,0.262,4.077,3.886,0.387,0.356,110.546
+0 days 01:44:44.520000,BOR,5,109.843,26.0,1.0,,,False,MEDIUM,26.0,True,Audi,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.135,1.044,4.927,4.696,1.295,1.193,111.461
+0 days 01:46:33.787000,BOR,5,109.267,27.0,1.0,,,False,MEDIUM,27.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.559,0.514,4.351,4.147,1.224,1.133,110.949
+0 days 01:48:22.959000,BOR,5,109.172,28.0,1.0,,,False,MEDIUM,28.0,True,Audi,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.464,0.427,4.256,4.057,0.592,0.545,110.919
+0 days 01:50:11.868000,BOR,5,108.909,29.0,1.0,,,True,MEDIUM,29.0,True,Audi,12,16.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.201,0.185,3.993,3.806,0.627,0.579,110.721
+0 days 01:52:28.295000,BOR,5,136.427,30.0,1.0,,0 days 01:52:27.076000,False,MEDIUM,30.0,True,Audi,124,16.0,False,15,Azerbaijan Grand Prix,True,C4,False,27.719,25.499,31.511,30.035,29.032,27.033,138.303
+0 days 01:55:13.477000,BOR,5,,31.0,2.0,0 days 01:52:47.518000,,False,SOFT,1.0,True,Audi,4,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:57:24.305000,BOR,5,130.828,32.0,2.0,,,False,SOFT,2.0,True,Audi,4,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,22.12,20.348,25.912,24.698,-0.456,-0.347,132.834
+0 days 01:59:25.970000,BOR,5,121.665,33.0,2.0,,,False,SOFT,3.0,True,Audi,4,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,12.957,11.919,16.749,15.964,-13.54,-10.014,123.736
+0 days 02:02:08.686000,BOR,5,,34.0,2.0,,,False,SOFT,4.0,True,Audi,4,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:31.466000,BOR,5,142.78,35.0,2.0,,,False,SOFT,5.0,True,Audi,41,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,34.072,31.343,37.864,36.09,-1.616,-1.119,144.98
+0 days 02:06:57.839000,BOR,5,146.373,36.0,2.0,,0 days 02:06:56.530000,False,SOFT,6.0,True,Audi,124,13.0,False,15,Azerbaijan Grand Prix,True,C5,False,37.665,34.648,41.457,39.514,,,148.638
+0 days 02:09:38.407000,BOR,5,,37.0,3.0,0 days 02:07:11.839000,,False,SOFT,7.0,False,Audi,4,13.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:07.416000,BOR,5,149.009,38.0,3.0,,,False,SOFT,8.0,False,Audi,41,13.0,False,15,Azerbaijan Grand Prix,True,C5,False,40.301,37.073,44.093,42.027,0.199,0.134,151.403
+0 days 02:14:00.613000,BOR,5,113.197,39.0,3.0,,,False,SOFT,9.0,False,Audi,1,15.0,True,15,Azerbaijan Grand Prix,True,C5,True,4.489,4.129,8.281,7.893,3.884,3.553,115.656
+0 days 02:15:49.712000,BOR,5,109.099,40.0,3.0,,,False,SOFT,10.0,False,Audi,12,14.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.391,0.36,4.183,3.987,0.607,0.559,111.623
+0 days 02:17:37.712000,BOR,5,108.0,41.0,3.0,,,False,SOFT,11.0,False,Audi,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.708,-0.651,3.084,2.939,0.466,0.433,110.588
+0 days 02:19:24.637000,BOR,5,106.925,42.0,3.0,,,True,SOFT,12.0,False,Audi,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.783,-1.64,2.009,1.915,-0.502,-0.467,109.578
+0 days 02:21:11.529000,BOR,5,106.892,43.0,3.0,,,True,SOFT,13.0,False,Audi,1,14.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.816,-1.671,1.976,1.883,-0.302,-0.282,109.61
+0 days 02:22:59.374000,BOR,5,107.845,44.0,3.0,,,False,SOFT,14.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.863,-0.794,2.929,2.792,0.804,0.751,110.627
+0 days 02:24:46.146000,BOR,5,106.772,45.0,3.0,,,True,SOFT,15.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.936,-1.781,1.856,1.769,-0.142,-0.133,109.619
+0 days 02:26:32.482000,BOR,5,106.336,46.0,3.0,,,True,SOFT,16.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.372,-2.182,1.42,1.353,-0.614,-0.574,109.248
+0 days 02:28:19.456000,BOR,5,106.974,47.0,3.0,,,False,SOFT,17.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.734,-1.595,2.058,1.962,-0.055,-0.051,109.95
+0 days 02:30:07.220000,BOR,5,107.764,48.0,3.0,,,False,SOFT,18.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.944,-0.868,2.848,2.715,0.389,0.362,110.805
+0 days 02:31:54.459000,BOR,5,107.239,49.0,3.0,,,False,SOFT,19.0,False,Audi,1,13.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.469,-1.351,2.323,2.214,0.442,0.414,110.345
+0 days 02:33:42.260000,BOR,5,107.801,50.0,3.0,,,False,SOFT,20.0,False,Audi,12,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.907,-0.834,2.885,2.75,0.566,0.528,110.972
+0 days 02:35:29.865000,BOR,5,107.605,51.0,3.0,,,False,SOFT,21.0,False,Audi,12,13.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.103,-1.015,2.689,2.563,-0.718,-0.663,110.84
+0 days 00:58:56.272000,SAI,55,,1.0,1.0,,,False,MEDIUM,1.0,True,Williams,1,15.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:47.654000,SAI,55,111.382,2.0,1.0,,,True,MEDIUM,2.0,True,Williams,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.674,2.46,6.466,6.163,0.27,0.243,111.447
+0 days 01:02:38.454000,SAI,55,110.8,3.0,1.0,,,True,MEDIUM,3.0,True,Williams,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.092,1.924,5.884,5.608,0.404,0.366,110.929
+0 days 01:04:28.752000,SAI,55,110.298,4.0,1.0,,,True,MEDIUM,4.0,True,Williams,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.59,1.463,5.382,5.13,0.293,0.266,110.492
+0 days 01:06:19.811000,SAI,55,111.059,5.0,1.0,,,False,MEDIUM,5.0,True,Williams,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.351,2.163,6.143,5.855,1.665,1.522,111.318
+0 days 01:08:10,SAI,55,110.189,6.0,1.0,,,True,MEDIUM,6.0,True,Williams,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.481,1.362,5.273,5.026,0.371,0.338,110.513
+0 days 01:10:00.414000,SAI,55,110.414,7.0,1.0,,,False,MEDIUM,7.0,True,Williams,1,16.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.706,1.569,5.498,5.24,0.728,0.664,110.802
+0 days 01:11:50.339000,SAI,55,109.925,8.0,1.0,,,True,MEDIUM,8.0,True,Williams,12,16.0,True,15,Azerbaijan Grand Prix,True,C4,False,1.217,1.12,5.009,4.774,0.426,0.389,110.378
+0 days 01:13:41.521000,SAI,55,111.182,9.0,1.0,,,False,MEDIUM,9.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.474,2.276,6.266,5.972,1.817,1.661,111.7
+0 days 01:15:31.456000,SAI,55,109.935,10.0,1.0,,,False,MEDIUM,10.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.227,1.129,5.019,4.784,0.618,0.565,110.517
+0 days 01:17:21.285000,SAI,55,109.829,11.0,1.0,,,True,MEDIUM,11.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.121,1.031,4.913,4.683,0.464,0.424,110.476
+0 days 01:19:11.129000,SAI,55,109.844,12.0,1.0,,,False,MEDIUM,12.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.136,1.045,4.928,4.697,0.632,0.579,110.556
+0 days 01:21:01.966000,SAI,55,110.837,13.0,1.0,,,False,MEDIUM,13.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.129,1.958,5.921,5.644,1.698,1.556,111.613
+0 days 01:22:51.285000,SAI,55,109.319,14.0,1.0,,,True,MEDIUM,14.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.611,0.562,4.403,4.197,0.328,0.301,110.16
+0 days 01:24:40.632000,SAI,55,109.347,15.0,1.0,,,False,MEDIUM,15.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.639,0.588,4.431,4.223,0.521,0.479,110.253
+0 days 01:26:30.661000,SAI,55,110.029,16.0,1.0,,,False,MEDIUM,16.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.321,1.215,5.113,4.873,0.696,0.637,111.0
+0 days 01:28:20.218000,SAI,55,109.557,17.0,1.0,,,False,MEDIUM,17.0,True,Williams,1,17.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.849,0.781,4.641,4.424,0.539,0.494,110.592
+0 days 01:30:11.314000,SAI,55,111.096,18.0,1.0,,,False,MEDIUM,18.0,True,Williams,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.388,2.197,6.18,5.89,2.154,1.977,112.196
+0 days 01:32:01.269000,SAI,55,109.955,19.0,1.0,,,False,MEDIUM,19.0,True,Williams,1,18.0,True,15,Azerbaijan Grand Prix,True,C4,True,1.247,1.147,5.039,4.803,1.162,1.068,111.12
+0 days 01:33:54.724000,SAI,55,113.455,20.0,1.0,,0 days 01:33:53.400000,False,MEDIUM,20.0,True,Williams,1,19.0,False,15,Azerbaijan Grand Prix,True,C4,False,4.747,4.367,8.539,8.139,4.817,4.434,114.684
+0 days 01:36:02.451000,SAI,55,127.727,21.0,2.0,0 days 01:34:14.188000,,False,SOFT,5.0,False,Williams,1,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,19.019,17.495,22.811,21.742,19.222,17.715,129.021
+0 days 01:37:51.374000,SAI,55,108.923,22.0,2.0,,,True,SOFT,6.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.215,0.198,4.007,3.819,0.053,0.049,110.282
+0 days 01:39:40.300000,SAI,55,108.926,23.0,2.0,,,False,SOFT,7.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.218,0.201,4.01,3.822,0.021,0.019,110.35
+0 days 01:41:29.154000,SAI,55,108.854,24.0,2.0,,,True,SOFT,8.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.146,0.134,3.938,3.753,0.087,0.08,110.342
+0 days 01:43:17.765000,SAI,55,108.611,25.0,2.0,,,True,SOFT,9.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.097,-0.089,3.695,3.522,0.005,0.005,110.164
+0 days 01:45:06.492000,SAI,55,108.727,26.0,2.0,,,False,SOFT,10.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.019,0.017,3.811,3.632,0.179,0.165,110.345
+0 days 01:46:55.147000,SAI,55,108.655,27.0,2.0,,,False,SOFT,11.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.053,-0.049,3.739,3.564,0.612,0.566,110.337
+0 days 01:48:43.844000,SAI,55,108.697,28.0,2.0,,,False,SOFT,12.0,False,Williams,1,19.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.011,-0.01,3.781,3.604,0.117,0.108,110.444
+0 days 01:50:32.547000,SAI,55,108.703,29.0,2.0,,,False,SOFT,13.0,False,Williams,12,19.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.005,-0.005,3.787,3.61,0.421,0.389,110.515
+0 days 01:52:56.136000,SAI,55,143.589,30.0,2.0,,0 days 01:52:54.913000,False,SOFT,14.0,False,Williams,124,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,34.881,32.087,38.673,36.861,36.194,33.702,145.465
+0 days 01:55:43.704000,SAI,55,,31.0,3.0,0 days 01:53:16.347000,,False,SOFT,5.0,False,Williams,4,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:57:57.596000,SAI,55,133.892,32.0,3.0,,,False,SOFT,6.0,False,Williams,4,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,25.184,23.167,28.976,27.618,2.608,1.987,135.898
+0 days 01:59:56.686000,SAI,55,119.09,33.0,3.0,,,False,SOFT,7.0,False,Williams,4,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,10.382,9.55,14.174,13.51,-16.115,-11.919,121.161
+0 days 02:02:11.711000,SAI,55,135.025,34.0,3.0,,,False,SOFT,8.0,False,Williams,4,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,26.317,24.209,30.109,28.698,11.311,9.143,137.16
+0 days 02:04:31.753000,SAI,55,140.042,35.0,3.0,,,False,SOFT,9.0,False,Williams,41,18.0,False,15,Azerbaijan Grand Prix,True,C5,False,31.334,28.824,35.126,33.48,-4.354,-3.015,142.242
+0 days 02:06:56.318000,SAI,55,144.565,36.0,3.0,,0 days 02:06:55.044000,False,SOFT,10.0,False,Williams,124,12.0,False,15,Azerbaijan Grand Prix,True,C5,False,35.857,32.985,39.649,37.791,,,146.83
+0 days 02:09:37.997000,SAI,55,,37.0,4.0,0 days 02:07:10.933000,,False,SOFT,11.0,False,Williams,4,12.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:07.157000,SAI,55,149.16,38.0,4.0,,,False,SOFT,12.0,False,Williams,41,12.0,False,15,Azerbaijan Grand Prix,True,C5,False,40.452,37.212,44.244,42.171,0.35,0.235,151.554
+0 days 02:13:57.928000,SAI,55,110.771,39.0,4.0,,,False,SOFT,13.0,False,Williams,1,12.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.063,1.898,5.855,5.581,1.458,1.334,113.23
+0 days 02:15:47.156000,SAI,55,109.228,40.0,4.0,,,False,SOFT,14.0,False,Williams,12,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.52,0.478,4.312,4.11,0.736,0.678,111.752
+0 days 02:17:34.875000,SAI,55,107.719,41.0,4.0,,,True,SOFT,15.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.989,-0.91,2.803,2.672,0.185,0.172,110.307
+0 days 02:19:22.213000,SAI,55,107.338,42.0,4.0,,,True,SOFT,16.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.37,-1.26,2.422,2.309,-0.089,-0.083,109.991
+0 days 02:21:09.405000,SAI,55,107.192,43.0,4.0,,,True,SOFT,17.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.516,-1.395,2.276,2.169,-0.002,-0.002,109.91
+0 days 02:22:56.766000,SAI,55,107.361,44.0,4.0,,,False,SOFT,18.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.347,-1.239,2.445,2.33,0.32,0.299,110.143
+0 days 02:24:43.941000,SAI,55,107.175,45.0,4.0,,,True,SOFT,19.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.533,-1.41,2.259,2.153,0.261,0.244,110.022
+0 days 02:26:31.019000,SAI,55,107.078,46.0,4.0,,,True,SOFT,20.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.63,-1.499,2.162,2.061,0.128,0.12,109.99
+0 days 02:28:18.408000,SAI,55,107.389,47.0,4.0,,,False,SOFT,21.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.319,-1.213,2.473,2.357,0.36,0.336,110.365
+0 days 02:30:05.748000,SAI,55,107.34,48.0,4.0,,,False,SOFT,22.0,False,Williams,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.368,-1.258,2.424,2.31,-0.035,-0.033,110.381
+0 days 02:31:52.485000,SAI,55,106.737,49.0,4.0,,,True,SOFT,23.0,False,Williams,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.971,-1.813,1.821,1.736,-0.06,-0.056,109.843
+0 days 02:33:39.720000,SAI,55,107.235,50.0,4.0,,,False,SOFT,24.0,False,Williams,12,10.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.473,-1.355,2.319,2.21,0.0,0.0,110.406
+0 days 02:35:28.089000,SAI,55,108.369,51.0,4.0,,,False,SOFT,25.0,False,Williams,12,10.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.339,-0.312,3.453,3.291,0.046,0.042,111.604
+0 days 00:58:48.104000,HAD,6,,1.0,1.0,,,False,SOFT,1.0,True,Red Bull Racing,1,5.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:38.080000,HAD,6,109.976,2.0,1.0,,,True,SOFT,2.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.268,1.166,5.06,4.823,-1.136,-1.022,110.041
+0 days 01:02:26.913000,HAD,6,108.833,3.0,1.0,,,True,SOFT,3.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.125,0.115,3.917,3.733,-1.563,-1.416,108.962
+0 days 01:04:16.235000,HAD,6,109.322,4.0,1.0,,,False,SOFT,4.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.614,0.565,4.406,4.2,-0.683,-0.621,109.516
+0 days 01:06:04.682000,HAD,6,108.447,5.0,1.0,,,True,SOFT,5.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.261,-0.24,3.531,3.366,-0.947,-0.866,108.706
+0 days 01:07:52.676000,HAD,6,107.994,6.0,1.0,,,True,SOFT,6.0,True,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.714,-0.657,3.078,2.934,-1.824,-1.661,108.318
+0 days 01:09:41.709000,HAD,6,109.033,7.0,1.0,,,False,SOFT,7.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.325,0.299,4.117,3.924,-0.653,-0.595,109.421
+0 days 01:11:29.644000,HAD,6,107.935,8.0,1.0,,,True,SOFT,8.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.773,-0.711,3.019,2.878,-1.564,-1.428,108.388
+0 days 01:13:17.892000,HAD,6,108.248,9.0,1.0,,,False,SOFT,9.0,True,Red Bull Racing,12,4.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.46,-0.423,3.332,3.176,-1.117,-1.021,108.766
+0 days 01:15:06.535000,HAD,6,108.643,10.0,1.0,,,False,SOFT,10.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.065,-0.06,3.727,3.552,-0.674,-0.617,109.225
+0 days 01:16:54.901000,HAD,6,108.366,11.0,1.0,,,False,SOFT,11.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.342,-0.315,3.45,3.288,-0.999,-0.913,109.013
+0 days 01:18:43.044000,HAD,6,108.143,12.0,1.0,,,False,SOFT,12.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.565,-0.52,3.227,3.076,-1.069,-0.979,108.855
+0 days 01:20:31.174000,HAD,6,108.13,13.0,1.0,,,False,SOFT,13.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.578,-0.532,3.214,3.063,-1.009,-0.925,108.906
+0 days 01:22:19.185000,HAD,6,108.011,14.0,1.0,,,False,SOFT,14.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.697,-0.641,3.095,2.95,-0.98,-0.899,108.852
+0 days 01:24:07.365000,HAD,6,108.18,15.0,1.0,,,False,SOFT,15.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.528,-0.486,3.264,3.111,-0.646,-0.594,109.086
+0 days 01:25:55.248000,HAD,6,107.883,16.0,1.0,,,True,SOFT,16.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.825,-0.759,2.967,2.828,-1.45,-1.326,108.854
+0 days 01:27:43.157000,HAD,6,107.909,17.0,1.0,,,False,SOFT,17.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.799,-0.735,2.993,2.853,-1.109,-1.017,108.944
+0 days 01:29:31.178000,HAD,6,108.021,18.0,1.0,,,False,SOFT,18.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.687,-0.632,3.105,2.96,-0.921,-0.845,109.121
+0 days 01:31:18.776000,HAD,6,107.598,19.0,1.0,,,True,SOFT,19.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.11,-1.021,2.682,2.556,-1.195,-1.098,108.763
+0 days 01:33:07.097000,HAD,6,108.321,20.0,1.0,,,False,SOFT,20.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.387,-0.356,3.405,3.245,-0.317,-0.292,109.55
+0 days 01:34:54.644000,HAD,6,107.547,21.0,1.0,,,True,SOFT,21.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.161,-1.068,2.631,2.508,-0.958,-0.883,108.841
+0 days 01:36:42.450000,HAD,6,107.806,22.0,1.0,,,False,SOFT,22.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.902,-0.83,2.89,2.755,-1.064,-0.977,109.165
+0 days 01:38:29.894000,HAD,6,107.444,23.0,1.0,,,True,SOFT,23.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.264,-1.163,2.528,2.41,-1.461,-1.342,108.868
+0 days 01:40:17.143000,HAD,6,107.249,24.0,1.0,,,True,SOFT,24.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.459,-1.342,2.333,2.224,-1.518,-1.396,108.737
+0 days 01:42:04.625000,HAD,6,107.482,25.0,1.0,,,False,SOFT,25.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.226,-1.128,2.566,2.446,-1.124,-1.035,109.035
+0 days 01:43:51.797000,HAD,6,107.172,26.0,1.0,,,True,SOFT,26.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.536,-1.413,2.256,2.15,-1.376,-1.268,108.79
+0 days 01:45:39.789000,HAD,6,107.992,27.0,1.0,,,False,SOFT,27.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.716,-0.659,3.076,2.932,-0.051,-0.047,109.674
+0 days 01:47:27.038000,HAD,6,107.249,28.0,1.0,,,False,SOFT,28.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.459,-1.342,2.333,2.224,-1.331,-1.226,108.996
+0 days 01:49:14.375000,HAD,6,107.337,29.0,1.0,,,False,SOFT,29.0,True,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.371,-1.261,2.421,2.308,-0.945,-0.873,109.149
+0 days 01:51:01.749000,HAD,6,107.374,30.0,1.0,,,False,SOFT,30.0,True,Red Bull Racing,12,4.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.334,-1.227,2.458,2.343,-0.021,-0.02,109.25
+0 days 01:53:39.304000,HAD,6,,31.0,1.0,,0 days 01:53:37.791000,False,SOFT,31.0,True,Red Bull Racing,24,4.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:22.043000,HAD,6,,32.0,2.0,0 days 01:53:59.776000,,False,MEDIUM,1.0,True,Red Bull Racing,4,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:59:07.486000,HAD,6,,33.0,2.0,,,False,MEDIUM,2.0,True,Red Bull Racing,4,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:01:53.363000,HAD,6,,34.0,2.0,,,False,MEDIUM,3.0,True,Red Bull Racing,4,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:29.293000,HAD,6,,35.0,2.0,,,False,MEDIUM,4.0,True,Red Bull Racing,41,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:06:45.556000,HAD,6,136.263,36.0,2.0,,0 days 02:06:44.298000,False,MEDIUM,5.0,True,Red Bull Racing,124,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,27.555,25.348,31.347,29.878,,,138.528
+0 days 02:09:26.569000,HAD,6,,37.0,3.0,0 days 02:06:59.457000,,False,MEDIUM,6.0,False,Red Bull Racing,4,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:04.488000,HAD,6,,38.0,3.0,,,False,MEDIUM,7.0,False,Red Bull Racing,41,4.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:52.741000,HAD,6,108.253,39.0,3.0,,,False,MEDIUM,8.0,False,Red Bull Racing,1,4.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.455,-0.419,3.337,3.181,-1.06,-0.97,110.712
+0 days 02:15:39.369000,HAD,6,106.628,40.0,3.0,,,True,MEDIUM,9.0,False,Red Bull Racing,12,3.0,True,15,Azerbaijan Grand Prix,True,C4,False,-2.08,-1.913,1.712,1.632,-1.864,-1.718,109.152
+0 days 02:17:25.620000,HAD,6,106.251,41.0,3.0,,,True,MEDIUM,10.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.457,-2.26,1.335,1.272,-1.283,-1.193,108.839
+0 days 02:19:11.775000,HAD,6,106.155,42.0,3.0,,,True,MEDIUM,11.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.553,-2.348,1.239,1.181,-1.272,-1.184,108.808
+0 days 02:20:57.942000,HAD,6,106.167,43.0,3.0,,,False,MEDIUM,12.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.541,-2.337,1.251,1.192,-1.027,-0.958,108.885
+0 days 02:22:43.788000,HAD,6,105.846,44.0,3.0,,,True,MEDIUM,13.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.862,-2.633,0.93,0.886,-1.195,-1.116,108.628
+0 days 02:24:29.521000,HAD,6,105.733,45.0,3.0,,,True,MEDIUM,14.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.975,-2.737,0.817,0.779,-1.181,-1.105,108.58
+0 days 02:26:15.377000,HAD,6,105.856,46.0,3.0,,,False,MEDIUM,15.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.852,-2.624,0.94,0.896,-1.094,-1.023,108.768
+0 days 02:28:01.221000,HAD,6,105.844,47.0,3.0,,,False,MEDIUM,16.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.864,-2.635,0.928,0.885,-1.185,-1.107,108.82
+0 days 02:29:47.013000,HAD,6,105.792,48.0,3.0,,,False,MEDIUM,17.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.916,-2.682,0.876,0.835,-1.583,-1.474,108.833
+0 days 02:31:32.631000,HAD,6,105.618,49.0,3.0,,,True,MEDIUM,18.0,False,Red Bull Racing,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-3.09,-2.842,0.702,0.669,-1.179,-1.104,108.724
+0 days 02:33:18.563000,HAD,6,105.932,50.0,3.0,,,False,MEDIUM,19.0,False,Red Bull Racing,12,3.0,True,15,Azerbaijan Grand Prix,True,C4,False,-2.776,-2.554,1.016,0.968,-1.303,-1.215,109.103
+0 days 02:35:06.368000,HAD,6,107.805,51.0,3.0,,,False,MEDIUM,20.0,False,Red Bull Racing,12,3.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.903,-0.831,2.889,2.754,-0.518,-0.478,111.04
+0 days 00:58:45.408000,RUS,63,,1.0,1.0,,,False,MEDIUM,3.0,False,Mercedes,1,1.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:34.943000,RUS,63,109.535,2.0,1.0,,,True,MEDIUM,4.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.827,0.761,4.619,4.403,-1.577,-1.419,109.6
+0 days 01:02:23.801000,RUS,63,108.858,3.0,1.0,,,True,MEDIUM,5.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.15,0.138,3.942,3.757,-1.538,-1.393,108.987
+0 days 01:04:12.420000,RUS,63,108.619,4.0,1.0,,,True,MEDIUM,6.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.089,-0.082,3.703,3.529,-1.386,-1.26,108.813
+0 days 01:06:00.589000,RUS,63,108.169,5.0,1.0,,,True,MEDIUM,7.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.539,-0.496,3.253,3.101,-1.225,-1.12,108.428
+0 days 01:07:48.521000,RUS,63,107.932,6.0,1.0,,,True,MEDIUM,8.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.776,-0.714,3.016,2.875,-1.886,-1.717,108.256
+0 days 01:09:36.333000,RUS,63,107.812,7.0,1.0,,,True,MEDIUM,9.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.896,-0.824,2.896,2.76,-1.874,-1.709,108.2
+0 days 01:11:24.020000,RUS,63,107.687,8.0,1.0,,,True,MEDIUM,10.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.021,-0.939,2.771,2.641,-1.812,-1.655,108.14
+0 days 01:13:12.036000,RUS,63,108.016,9.0,1.0,,,False,MEDIUM,11.0,False,Mercedes,12,1.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.692,-0.637,3.1,2.955,-1.349,-1.233,108.534
+0 days 01:14:59.927000,RUS,63,107.891,10.0,1.0,,,False,MEDIUM,12.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.817,-0.752,2.975,2.836,-1.426,-1.304,108.473
+0 days 01:16:47.796000,RUS,63,107.869,11.0,1.0,,,False,MEDIUM,13.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.839,-0.772,2.953,2.815,-1.496,-1.368,108.516
+0 days 01:18:35.293000,RUS,63,107.497,12.0,1.0,,,True,MEDIUM,14.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.211,-1.114,2.581,2.46,-1.715,-1.57,108.209
+0 days 01:20:22.900000,RUS,63,107.607,13.0,1.0,,,False,MEDIUM,15.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.101,-1.013,2.691,2.565,-1.532,-1.404,108.383
+0 days 01:22:10.466000,RUS,63,107.566,14.0,1.0,,,False,MEDIUM,16.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.142,-1.051,2.65,2.526,-1.425,-1.307,108.407
+0 days 01:23:58.477000,RUS,63,108.011,15.0,1.0,,,False,MEDIUM,17.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.697,-0.641,3.095,2.95,-0.815,-0.749,108.917
+0 days 01:25:45.980000,RUS,63,107.503,16.0,1.0,,,False,MEDIUM,18.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.205,-1.108,2.587,2.466,-1.83,-1.674,108.474
+0 days 01:27:33.905000,RUS,63,107.925,17.0,1.0,,,False,MEDIUM,19.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.783,-0.72,3.009,2.868,-1.093,-1.003,108.96
+0 days 01:29:21.775000,RUS,63,107.87,18.0,1.0,,,False,MEDIUM,20.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.838,-0.771,2.954,2.816,-1.072,-0.984,108.97
+0 days 01:31:09.355000,RUS,63,107.58,19.0,1.0,,,False,MEDIUM,21.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.128,-1.038,2.664,2.539,-1.213,-1.115,108.745
+0 days 01:32:56.927000,RUS,63,107.572,20.0,1.0,,,False,MEDIUM,22.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.136,-1.045,2.656,2.532,-1.066,-0.981,108.801
+0 days 01:34:44.392000,RUS,63,107.465,21.0,1.0,,,True,MEDIUM,23.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.243,-1.143,2.549,2.43,-1.04,-0.958,108.759
+0 days 01:36:31.583000,RUS,63,107.191,22.0,1.0,,,True,MEDIUM,24.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.517,-1.395,2.275,2.168,-1.679,-1.542,108.55
+0 days 01:38:18.692000,RUS,63,107.109,23.0,1.0,,,True,MEDIUM,25.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.599,-1.471,2.193,2.09,-1.796,-1.649,108.533
+0 days 01:40:06.055000,RUS,63,107.363,24.0,1.0,,,False,MEDIUM,26.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.345,-1.237,2.447,2.332,-1.404,-1.291,108.851
+0 days 01:41:53.419000,RUS,63,107.364,25.0,1.0,,,False,MEDIUM,27.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.344,-1.236,2.448,2.333,-1.242,-1.144,108.917
+0 days 01:43:40.595000,RUS,63,107.176,26.0,1.0,,,False,MEDIUM,28.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.532,-1.409,2.26,2.154,-1.372,-1.264,108.794
+0 days 01:45:27.653000,RUS,63,107.058,27.0,1.0,,,True,MEDIUM,29.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.65,-1.518,2.142,2.042,-0.985,-0.912,108.74
+0 days 01:47:14.658000,RUS,63,107.005,28.0,1.0,,,True,MEDIUM,30.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.703,-1.567,2.089,1.991,-1.575,-1.451,108.752
+0 days 01:49:01.649000,RUS,63,106.991,29.0,1.0,,,True,MEDIUM,31.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.717,-1.579,2.075,1.978,-1.291,-1.192,108.803
+0 days 01:50:48.586000,RUS,63,106.937,30.0,1.0,,,True,MEDIUM,32.0,False,Mercedes,12,1.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.771,-1.629,2.021,1.926,-0.458,-0.426,108.813
+0 days 01:53:16.834000,RUS,63,148.248,31.0,1.0,,0 days 01:53:15.528000,False,MEDIUM,33.0,False,Mercedes,124,1.0,False,15,Azerbaijan Grand Prix,True,C4,False,39.54,36.373,43.332,41.302,16.129,12.208,150.189
+0 days 01:56:17.986000,RUS,63,,32.0,2.0,0 days 01:53:36.289000,,False,SOFT,1.0,False,Mercedes,4,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:59:05.233000,RUS,63,,33.0,2.0,,,False,SOFT,2.0,False,Mercedes,4,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:01:49.834000,RUS,63,,34.0,2.0,,,False,SOFT,3.0,False,Mercedes,4,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:04:28.493000,RUS,63,,35.0,2.0,,,False,SOFT,4.0,False,Mercedes,41,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:06:37.492000,RUS,63,128.999,36.0,2.0,,0 days 02:06:36.309000,False,SOFT,5.0,False,Mercedes,124,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,20.291,18.666,24.083,22.955,,,131.264
+0 days 02:09:22.288000,RUS,63,,37.0,3.0,0 days 02:06:51.351000,,False,SOFT,6.0,False,Mercedes,4,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:03.810000,RUS,63,,38.0,3.0,,,False,SOFT,7.0,False,Mercedes,41,1.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:13:50.142000,RUS,63,106.332,39.0,3.0,,,True,SOFT,8.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.376,-2.186,1.416,1.35,-2.981,-2.727,108.791
+0 days 02:15:36.181000,RUS,63,106.039,40.0,3.0,,,True,SOFT,9.0,False,Mercedes,12,1.0,True,15,Azerbaijan Grand Prix,True,C5,False,-2.669,-2.455,1.123,1.07,-2.453,-2.261,108.563
+0 days 02:17:21.801000,RUS,63,105.62,41.0,3.0,,,True,SOFT,10.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.088,-2.841,0.704,0.671,-1.914,-1.78,108.208
+0 days 02:19:07.281000,RUS,63,105.48,42.0,3.0,,,True,SOFT,11.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.228,-2.969,0.564,0.538,-1.947,-1.812,108.133
+0 days 02:20:53.002000,RUS,63,105.721,43.0,3.0,,,False,SOFT,12.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-2.987,-2.748,0.805,0.767,-1.473,-1.374,108.439
+0 days 02:22:38.166000,RUS,63,105.164,44.0,3.0,,,True,SOFT,13.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.544,-3.26,0.248,0.236,-1.877,-1.754,107.946
+0 days 02:24:23.221000,RUS,63,105.055,45.0,3.0,,,True,SOFT,14.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.653,-3.36,0.139,0.132,-1.859,-1.739,107.902
+0 days 02:26:08.480000,RUS,63,105.259,46.0,3.0,,,False,SOFT,15.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.449,-3.173,0.343,0.327,-1.691,-1.581,108.171
+0 days 02:27:53.517000,RUS,63,105.037,47.0,3.0,,,True,SOFT,16.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.671,-3.377,0.121,0.115,-1.992,-1.861,108.013
+0 days 02:29:38.513000,RUS,63,104.996,48.0,3.0,,,True,SOFT,17.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.712,-3.415,0.08,0.076,-2.379,-2.216,108.037
+0 days 02:31:23.429000,RUS,63,104.916,49.0,3.0,,,True,SOFT,18.0,False,Mercedes,1,1.0,True,15,Azerbaijan Grand Prix,True,C5,True,-3.792,-3.488,0.0,0.0,-1.881,-1.761,108.022
+0 days 02:33:08.434000,RUS,63,105.005,50.0,3.0,,,False,SOFT,19.0,False,Mercedes,12,1.0,True,15,Azerbaijan Grand Prix,True,C5,False,-3.703,-3.406,0.089,0.085,-2.23,-2.08,108.176
+0 days 02:34:55.664000,RUS,63,107.23,51.0,3.0,,,False,SOFT,20.0,False,Mercedes,12,1.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.478,-1.36,2.314,2.206,-1.093,-1.009,110.465
+0 days 00:59:00.270000,BOT,77,,1.0,1.0,,,False,MEDIUM,1.0,True,Cadillac,1,21.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:00:52.257000,BOT,77,111.987,2.0,1.0,,,True,MEDIUM,2.0,True,Cadillac,1,21.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.279,3.016,7.071,6.74,0.875,0.787,112.052
+0 days 01:02:44.383000,BOT,77,112.126,3.0,1.0,,,False,MEDIUM,3.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.418,3.144,7.21,6.872,1.73,1.567,112.255
+0 days 01:04:36.231000,BOT,77,111.848,4.0,1.0,,,True,MEDIUM,4.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.14,2.888,6.932,6.607,1.843,1.675,112.042
+0 days 01:06:28.199000,BOT,77,111.968,5.0,1.0,,,False,MEDIUM,5.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.26,2.999,7.052,6.722,2.574,2.353,112.227
+0 days 01:08:20.126000,BOT,77,111.927,6.0,1.0,,,False,MEDIUM,6.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.219,2.961,7.011,6.682,2.109,1.92,112.251
+0 days 01:10:11.916000,BOT,77,111.79,7.0,1.0,,,True,MEDIUM,7.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.082,2.835,6.874,6.552,2.104,1.918,112.178
+0 days 01:12:03.782000,BOT,77,111.866,8.0,1.0,,,False,MEDIUM,8.0,True,Cadillac,12,20.0,True,15,Azerbaijan Grand Prix,True,C4,False,3.158,2.905,6.95,6.624,2.367,2.162,112.319
+0 days 01:13:56.106000,BOT,77,112.324,9.0,1.0,,,False,MEDIUM,9.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.616,3.326,7.408,7.061,2.959,2.706,112.842
+0 days 01:15:47.878000,BOT,77,111.772,10.0,1.0,,,True,MEDIUM,10.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.064,2.819,6.856,6.535,2.455,2.246,112.354
+0 days 01:17:40.725000,BOT,77,112.847,11.0,1.0,,,False,MEDIUM,11.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,4.139,3.807,7.931,7.559,3.482,3.184,113.494
+0 days 01:19:32.864000,BOT,77,112.139,12.0,1.0,,,False,MEDIUM,12.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.431,3.156,7.223,6.885,2.927,2.68,112.851
+0 days 01:21:24.904000,BOT,77,112.04,13.0,1.0,,,False,MEDIUM,13.0,True,Cadillac,1,21.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.332,3.065,7.124,6.79,2.901,2.658,112.816
+0 days 01:23:16.514000,BOT,77,111.61,14.0,1.0,,,True,MEDIUM,14.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.902,2.67,6.694,6.38,2.619,2.403,112.451
+0 days 01:25:07.967000,BOT,77,111.453,15.0,1.0,,,True,MEDIUM,15.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.745,2.525,6.537,6.231,2.627,2.414,112.359
+0 days 01:27:00.040000,BOT,77,112.073,16.0,1.0,,,False,MEDIUM,16.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.365,3.095,7.157,6.822,2.74,2.506,113.044
+0 days 01:28:52.032000,BOT,77,111.992,17.0,1.0,,,False,MEDIUM,17.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.284,3.021,7.076,6.744,2.974,2.728,113.027
+0 days 01:30:43.607000,BOT,77,111.575,18.0,1.0,,,False,MEDIUM,18.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.867,2.637,6.659,6.347,2.633,2.417,112.675
+0 days 01:32:35.996000,BOT,77,112.389,19.0,1.0,,,False,MEDIUM,19.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,3.681,3.386,7.473,7.123,3.596,3.305,113.554
+0 days 01:34:28.906000,BOT,77,112.91,20.0,1.0,,,False,MEDIUM,20.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,4.202,3.865,7.994,7.619,4.272,3.932,114.139
+0 days 01:36:20.099000,BOT,77,111.193,21.0,1.0,,,True,MEDIUM,21.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.485,2.286,6.277,5.983,2.688,2.477,112.487
+0 days 01:38:11.790000,BOT,77,111.691,22.0,1.0,,,False,MEDIUM,22.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.983,2.744,6.775,6.458,2.821,2.591,113.05
+0 days 01:40:03.465000,BOT,77,111.675,23.0,1.0,,,False,MEDIUM,23.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.967,2.729,6.759,6.442,2.77,2.544,113.099
+0 days 01:41:56.607000,BOT,77,113.142,24.0,1.0,,,False,MEDIUM,24.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,4.434,4.079,8.226,7.841,4.375,4.022,114.63
+0 days 01:43:47.882000,BOT,77,111.275,25.0,1.0,,,False,MEDIUM,25.0,True,Cadillac,1,20.0,True,15,Azerbaijan Grand Prix,True,C4,True,2.567,2.361,6.359,6.061,2.669,2.458,112.828
+0 days 01:45:46.893000,BOT,77,119.011,26.0,1.0,,0 days 01:45:45.664000,False,MEDIUM,26.0,True,Cadillac,1,20.0,False,15,Azerbaijan Grand Prix,True,C4,False,10.303,9.478,14.095,13.435,10.463,9.639,120.629
+0 days 01:48:00.468000,BOT,77,133.575,27.0,2.0,0 days 01:46:08.665000,,False,SOFT,1.0,True,Cadillac,1,20.0,False,15,Azerbaijan Grand Prix,True,C5,False,24.867,22.875,28.659,27.316,25.532,23.631,135.257
+0 days 01:49:52.681000,BOT,77,112.213,28.0,2.0,,,False,SOFT,2.0,True,Cadillac,12,20.0,True,15,Azerbaijan Grand Prix,True,C5,False,3.505,3.224,7.297,6.955,3.633,3.346,113.96
+0 days 01:52:04.034000,BOT,77,131.353,29.0,2.0,,,False,SOFT,3.0,True,Cadillac,124,20.0,False,15,Azerbaijan Grand Prix,True,C5,False,22.645,20.831,26.437,25.198,23.071,21.306,133.165
+0 days 01:54:36.825000,BOT,77,,30.0,2.0,,,False,SOFT,4.0,True,Cadillac,4,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:48.944000,BOT,77,132.119,31.0,2.0,,,False,SOFT,5.0,True,Cadillac,4,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,23.411,21.536,27.203,25.928,0.0,0.0,134.06
+0 days 01:59:16.948000,BOT,77,148.004,32.0,2.0,,,False,SOFT,6.0,True,Cadillac,4,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,39.296,36.148,43.088,41.069,16.72,12.736,150.01
+0 days 02:01:16.785000,BOT,77,119.837,33.0,2.0,,,False,SOFT,7.0,True,Cadillac,4,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,11.129,10.238,14.921,14.222,-15.368,-11.366,121.908
+0 days 02:03:09.189000,BOT,77,112.404,34.0,2.0,,,False,SOFT,8.0,True,Cadillac,4,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,3.696,3.4,7.488,7.137,-11.31,-9.142,114.539
+0 days 02:05:00.790000,BOT,77,111.601,35.0,2.0,,,False,SOFT,9.0,True,Cadillac,412,19.0,False,15,Azerbaijan Grand Prix,True,C5,False,2.893,2.661,6.685,6.372,-32.795,-22.712,113.801
+0 days 02:07:38.320000,BOT,77,,36.0,2.0,,0 days 02:07:37.012000,False,SOFT,10.0,True,Cadillac,24,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:10:19.001000,BOT,77,,37.0,3.0,0 days 02:07:52.121000,,False,SOFT,11.0,False,Cadillac,4,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 02:12:14.303000,BOT,77,115.302,38.0,3.0,,,False,SOFT,12.0,False,Cadillac,41,16.0,False,15,Azerbaijan Grand Prix,True,C5,False,6.594,6.066,10.386,9.899,-33.508,-22.517,117.696
+0 days 02:14:05.557000,BOT,77,111.254,39.0,3.0,,,False,SOFT,13.0,False,Cadillac,12,16.0,True,15,Azerbaijan Grand Prix,True,C5,False,2.546,2.342,6.338,6.041,1.941,1.776,113.713
+0 days 02:15:57.040000,BOT,77,111.483,40.0,3.0,,,False,SOFT,14.0,False,Cadillac,21,16.0,True,15,Azerbaijan Grand Prix,True,C5,False,2.775,2.553,6.567,6.259,2.991,2.757,114.007
+0 days 02:17:46.658000,BOT,77,109.618,41.0,3.0,,,True,SOFT,15.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.91,0.837,4.702,4.482,2.084,1.938,112.206
+0 days 02:19:36.583000,BOT,77,109.925,42.0,3.0,,,False,SOFT,16.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.217,1.12,5.009,4.774,2.498,2.325,112.578
+0 days 02:21:26.552000,BOT,77,109.969,43.0,3.0,,,False,SOFT,17.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.261,1.16,5.053,4.816,2.775,2.589,112.687
+0 days 02:23:16.458000,BOT,77,109.906,44.0,3.0,,,False,SOFT,18.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.198,1.102,4.99,4.756,2.865,2.677,112.688
+0 days 02:25:06.102000,BOT,77,109.644,45.0,3.0,,,False,SOFT,19.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.936,0.861,4.728,4.506,2.73,2.553,112.491
+0 days 02:26:55.749000,BOT,77,109.647,46.0,3.0,,,False,SOFT,20.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.939,0.864,4.731,4.509,2.697,2.522,112.559
+0 days 02:28:45.247000,BOT,77,109.498,47.0,3.0,,,True,SOFT,21.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.79,0.727,4.582,4.367,2.469,2.307,112.474
+0 days 02:30:34.505000,BOT,77,109.258,48.0,3.0,,,True,SOFT,22.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.55,0.506,4.342,4.139,1.883,1.754,112.299
+0 days 02:32:23.357000,BOT,77,108.852,49.0,3.0,,,True,SOFT,23.0,False,Cadillac,1,16.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.144,0.132,3.936,3.752,2.055,1.924,111.958
+0 days 02:34:53.357000,BOT,77,,50.0,3.0,,,True,SOFT,24.0,False,Cadillac,12,,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 00:58:46.688000,PIA,81,,1.0,1.0,,,False,SOFT,1.0,True,McLaren,1,2.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:36.495000,PIA,81,109.807,2.0,1.0,,,True,SOFT,2.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.099,1.011,4.891,4.662,-1.305,-1.174,109.872
+0 days 01:02:25.997000,PIA,81,109.502,3.0,1.0,,,True,SOFT,3.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.794,0.73,4.586,4.371,-0.894,-0.81,109.631
+0 days 01:04:15.036000,PIA,81,109.039,4.0,1.0,,,True,SOFT,4.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.331,0.304,4.123,3.93,-0.966,-0.878,109.233
+0 days 01:06:03.752000,PIA,81,108.716,5.0,1.0,,,True,SOFT,5.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.008,0.007,3.8,3.622,-0.678,-0.62,108.975
+0 days 01:07:51.751000,PIA,81,107.999,6.0,1.0,,,True,SOFT,6.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.709,-0.652,3.083,2.939,-1.819,-1.656,108.323
+0 days 01:09:39.943000,PIA,81,108.192,7.0,1.0,,,False,SOFT,7.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.516,-0.475,3.276,3.122,-1.494,-1.362,108.58
+0 days 01:11:28.254000,PIA,81,108.311,8.0,1.0,,,False,SOFT,8.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.397,-0.365,3.395,3.236,-1.188,-1.085,108.764
+0 days 01:13:16.886000,PIA,81,108.632,9.0,1.0,,,False,SOFT,9.0,True,McLaren,12,2.0,True,15,Azerbaijan Grand Prix,True,C5,False,-0.076,-0.07,3.716,3.542,-0.733,-0.67,109.15
+0 days 01:15:05.113000,PIA,81,108.227,10.0,1.0,,,False,SOFT,10.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.481,-0.442,3.311,3.156,-1.09,-0.997,108.809
+0 days 01:16:53.666000,PIA,81,108.553,11.0,1.0,,,False,SOFT,11.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.155,-0.143,3.637,3.467,-0.812,-0.742,109.2
+0 days 01:18:41.735000,PIA,81,108.069,12.0,1.0,,,False,SOFT,12.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.639,-0.588,3.153,3.005,-1.143,-1.047,108.781
+0 days 01:20:29.808000,PIA,81,108.073,13.0,1.0,,,False,SOFT,13.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.635,-0.584,3.157,3.009,-1.066,-0.977,108.849
+0 days 01:22:17.706000,PIA,81,107.898,14.0,1.0,,,True,SOFT,14.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.81,-0.745,2.982,2.842,-1.093,-1.003,108.739
+0 days 01:24:05.698000,PIA,81,107.992,15.0,1.0,,,False,SOFT,15.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.716,-0.659,3.076,2.932,-0.834,-0.766,108.898
+0 days 01:25:53.649000,PIA,81,107.951,16.0,1.0,,,False,SOFT,16.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.757,-0.696,3.035,2.893,-1.382,-1.264,108.922
+0 days 01:27:41.608000,PIA,81,107.959,17.0,1.0,,,False,SOFT,17.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.749,-0.689,3.043,2.9,-1.059,-0.971,108.994
+0 days 01:29:29.617000,PIA,81,108.009,18.0,1.0,,,False,SOFT,18.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.699,-0.643,3.093,2.948,-0.933,-0.856,109.109
+0 days 01:31:17.655000,PIA,81,108.038,19.0,1.0,,,False,SOFT,19.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.67,-0.616,3.122,2.976,-0.755,-0.694,109.203
+0 days 01:33:05.493000,PIA,81,107.838,20.0,1.0,,,True,SOFT,20.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.87,-0.8,2.922,2.785,-0.8,-0.736,109.067
+0 days 01:34:53.235000,PIA,81,107.742,21.0,1.0,,,True,SOFT,21.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.966,-0.889,2.826,2.694,-0.763,-0.703,109.036
+0 days 01:36:40.808000,PIA,81,107.573,22.0,1.0,,,True,SOFT,22.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.135,-1.044,2.657,2.533,-1.297,-1.191,108.932
+0 days 01:38:28.400000,PIA,81,107.592,23.0,1.0,,,False,SOFT,23.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.116,-1.027,2.676,2.551,-1.313,-1.206,109.016
+0 days 01:40:15.840000,PIA,81,107.44,24.0,1.0,,,True,SOFT,24.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.268,-1.166,2.524,2.406,-1.327,-1.22,108.928
+0 days 01:42:03.204000,PIA,81,107.364,25.0,1.0,,,True,SOFT,25.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.344,-1.236,2.448,2.333,-1.242,-1.144,108.917
+0 days 01:43:50.456000,PIA,81,107.252,26.0,1.0,,,True,SOFT,26.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.456,-1.339,2.336,2.227,-1.296,-1.194,108.87
+0 days 01:45:38.103000,PIA,81,107.647,27.0,1.0,,,False,SOFT,27.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.061,-0.976,2.731,2.603,-0.396,-0.367,109.329
+0 days 01:47:25.477000,PIA,81,107.374,28.0,1.0,,,False,SOFT,28.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.334,-1.227,2.458,2.343,-1.206,-1.111,109.121
+0 days 01:49:12.871000,PIA,81,107.394,29.0,1.0,,,False,SOFT,29.0,True,McLaren,1,2.0,True,15,Azerbaijan Grand Prix,True,C5,True,-1.314,-1.209,2.478,2.362,-0.888,-0.82,109.206
+0 days 01:51:00.049000,PIA,81,107.178,30.0,1.0,,,True,SOFT,30.0,True,McLaren,12,2.0,True,15,Azerbaijan Grand Prix,True,C5,False,-1.53,-1.407,2.262,2.156,-0.217,-0.202,109.054
+0 days 01:53:32.840000,PIA,81,,31.0,1.0,,0 days 01:53:31.408000,False,SOFT,31.0,True,McLaren,24,2.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:56:18.730000,PIA,81,,32.0,2.0,0 days 01:53:52.048000,,False,MEDIUM,1.0,True,McLaren,4,2.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:59:05.830000,PIA,81,,33.0,2.0,,,False,MEDIUM,2.0,True,McLaren,4,2.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:01:50.350000,PIA,81,,34.0,2.0,,,False,MEDIUM,3.0,True,McLaren,4,2.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:28.843000,PIA,81,,35.0,2.0,,,False,MEDIUM,4.0,True,McLaren,41,2.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:06:43.199000,PIA,81,134.356,36.0,2.0,,0 days 02:06:41.925000,False,MEDIUM,5.0,True,McLaren,124,3.0,False,15,Azerbaijan Grand Prix,True,C4,False,25.648,23.593,29.44,28.061,,,136.621
+0 days 02:09:25.218000,PIA,81,,37.0,3.0,0 days 02:06:56.940000,,False,MEDIUM,6.0,False,McLaren,4,3.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:04.469000,PIA,81,,38.0,3.0,,,False,MEDIUM,7.0,False,McLaren,41,3.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:52.567000,PIA,81,108.098,39.0,3.0,,,False,MEDIUM,8.0,False,McLaren,1,3.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.61,-0.561,3.182,3.033,-1.215,-1.111,110.557
+0 days 02:15:51.162000,PIA,81,118.595,40.0,3.0,,,False,MEDIUM,9.0,False,McLaren,12,15.0,True,15,Azerbaijan Grand Prix,True,C4,False,9.887,9.095,13.679,13.038,10.103,9.312,121.119
+0 days 02:17:38.353000,PIA,81,107.191,41.0,3.0,,,False,MEDIUM,10.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.517,-1.395,2.275,2.168,-0.343,-0.319,109.779
+0 days 02:19:26.115000,PIA,81,107.762,42.0,3.0,,,False,MEDIUM,11.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.946,-0.87,2.846,2.713,0.335,0.312,110.415
+0 days 02:21:13.193000,PIA,81,107.078,43.0,3.0,,,True,MEDIUM,12.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.63,-1.499,2.162,2.061,-0.116,-0.108,109.796
+0 days 02:23:00.448000,PIA,81,107.255,44.0,3.0,,,False,MEDIUM,13.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.453,-1.337,2.339,2.229,0.214,0.2,110.037
+0 days 02:24:48.126000,PIA,81,107.678,45.0,3.0,,,False,MEDIUM,14.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.03,-0.947,2.762,2.633,0.764,0.715,110.525
+0 days 02:26:35.721000,PIA,81,107.595,46.0,3.0,,,False,MEDIUM,15.0,False,McLaren,1,15.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.113,-1.024,2.679,2.553,0.645,0.603,110.507
+0 days 02:28:22.805000,PIA,81,107.084,47.0,3.0,,,False,MEDIUM,16.0,False,McLaren,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.624,-1.494,2.168,2.066,0.055,0.051,110.06
+0 days 02:30:09.407000,PIA,81,106.602,48.0,3.0,,,True,MEDIUM,17.0,False,McLaren,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.106,-1.937,1.686,1.607,-0.773,-0.72,109.643
+0 days 02:31:56.048000,PIA,81,106.641,49.0,3.0,,,False,MEDIUM,18.0,False,McLaren,1,14.0,True,15,Azerbaijan Grand Prix,True,C4,True,-2.067,-1.901,1.725,1.644,-0.156,-0.146,109.747
+0 days 02:33:43.027000,PIA,81,106.979,50.0,3.0,,,False,MEDIUM,19.0,False,McLaren,12,14.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.729,-1.59,2.063,1.966,-0.256,-0.239,110.15
+0 days 02:35:32.057000,PIA,81,109.03,51.0,3.0,,,False,MEDIUM,20.0,False,McLaren,12,14.0,True,15,Azerbaijan Grand Prix,True,C4,False,0.322,0.296,4.114,3.921,0.707,0.653,112.265
+0 days 00:58:52.979000,BEA,87,,1.0,1.0,,,False,SOFT,1.0,True,Haas F1 Team,1,12.0,False,15,Azerbaijan Grand Prix,True,C5,False,,,,,,,
+0 days 01:00:43.980000,BEA,87,111.001,2.0,1.0,,,True,SOFT,2.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,2.293,2.109,6.085,5.8,-0.111,-0.1,111.066
+0 days 01:02:33.960000,BEA,87,109.98,3.0,1.0,,,True,SOFT,3.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.272,1.17,5.064,4.827,-0.416,-0.377,110.109
+0 days 01:04:24.019000,BEA,87,110.059,4.0,1.0,,,False,SOFT,4.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.351,1.243,5.143,4.902,0.054,0.049,110.253
+0 days 01:06:13.323000,BEA,87,109.304,5.0,1.0,,,True,SOFT,5.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.596,0.548,4.388,4.182,-0.09,-0.082,109.563
+0 days 01:08:03.153000,BEA,87,109.83,6.0,1.0,,,False,SOFT,6.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.122,1.032,4.914,4.684,0.012,0.011,110.154
+0 days 01:09:52.824000,BEA,87,109.671,7.0,1.0,,,False,SOFT,7.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.963,0.886,4.755,4.532,-0.015,-0.014,110.059
+0 days 01:11:41.998000,BEA,87,109.174,8.0,1.0,,,True,SOFT,8.0,True,Haas F1 Team,12,10.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.466,0.429,4.258,4.058,-0.325,-0.297,109.627
+0 days 01:13:31.456000,BEA,87,109.458,9.0,1.0,,,False,SOFT,9.0,True,Haas F1 Team,21,10.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.75,0.69,4.542,4.329,0.093,0.085,109.976
+0 days 01:15:20.773000,BEA,87,109.317,10.0,1.0,,,False,SOFT,10.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.609,0.56,4.401,4.195,0.0,0.0,109.899
+0 days 01:17:10.107000,BEA,87,109.334,11.0,1.0,,,False,SOFT,11.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.626,0.576,4.418,4.211,-0.031,-0.028,109.981
+0 days 01:18:59.066000,BEA,87,108.959,12.0,1.0,,,True,SOFT,12.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.251,0.231,4.043,3.854,-0.253,-0.232,109.671
+0 days 01:20:48.205000,BEA,87,109.139,13.0,1.0,,,False,SOFT,13.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.431,0.396,4.223,4.025,0.0,0.0,109.915
+0 days 01:22:37.196000,BEA,87,108.991,14.0,1.0,,,False,SOFT,14.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.283,0.26,4.075,3.884,0.0,0.0,109.832
+0 days 01:24:26.022000,BEA,87,108.826,15.0,1.0,,,True,SOFT,15.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.118,0.109,3.91,3.727,0.0,0.0,109.732
+0 days 01:26:15.157000,BEA,87,109.135,16.0,1.0,,,False,SOFT,16.0,True,Haas F1 Team,1,10.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.427,0.393,4.219,4.021,-0.198,-0.181,110.106
+0 days 01:28:05.186000,BEA,87,110.029,17.0,1.0,,,False,SOFT,17.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,1.321,1.215,5.113,4.873,1.011,0.927,111.064
+0 days 01:29:54.290000,BEA,87,109.104,18.0,1.0,,,False,SOFT,18.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.396,0.364,4.188,3.992,0.162,0.149,110.204
+0 days 01:31:43.083000,BEA,87,108.793,19.0,1.0,,,True,SOFT,19.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.085,0.078,3.877,3.695,0.0,0.0,109.958
+0 days 01:33:31.721000,BEA,87,108.638,20.0,1.0,,,True,SOFT,20.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.07,-0.064,3.722,3.548,0.0,0.0,109.867
+0 days 01:35:20.893000,BEA,87,109.172,21.0,1.0,,,False,SOFT,21.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.464,0.427,4.256,4.057,0.667,0.615,110.466
+0 days 01:37:09.948000,BEA,87,109.055,22.0,1.0,,,False,SOFT,22.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.347,0.319,4.139,3.945,0.185,0.17,110.414
+0 days 01:38:58.977000,BEA,87,109.029,23.0,1.0,,,False,SOFT,23.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.321,0.295,4.113,3.92,0.124,0.114,110.453
+0 days 01:40:48.048000,BEA,87,109.071,24.0,1.0,,,False,SOFT,24.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.363,0.334,4.155,3.96,0.304,0.279,110.559
+0 days 01:42:36.791000,BEA,87,108.743,25.0,1.0,,,False,SOFT,25.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,0.035,0.032,3.827,3.648,0.137,0.126,110.296
+0 days 01:44:25.339000,BEA,87,108.548,26.0,1.0,,,True,SOFT,26.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.16,-0.147,3.632,3.462,0.0,0.0,110.166
+0 days 01:46:13.968000,BEA,87,108.629,27.0,1.0,,,False,SOFT,27.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.079,-0.073,3.713,3.539,0.586,0.542,110.311
+0 days 01:48:02.553000,BEA,87,108.585,28.0,1.0,,,False,SOFT,28.0,True,Haas F1 Team,1,11.0,True,15,Azerbaijan Grand Prix,True,C5,True,-0.123,-0.113,3.669,3.497,0.005,0.005,110.332
+0 days 01:49:51.531000,BEA,87,108.978,29.0,1.0,,,False,SOFT,29.0,True,Haas F1 Team,12,11.0,True,15,Azerbaijan Grand Prix,True,C5,False,0.27,0.248,4.062,3.872,0.696,0.643,110.79
+0 days 01:51:58.771000,BEA,87,127.24,30.0,1.0,,0 days 01:51:57.468000,False,SOFT,30.0,True,Haas F1 Team,124,11.0,False,15,Azerbaijan Grand Prix,True,C5,False,18.532,17.048,22.324,21.278,19.845,18.479,129.116
+0 days 01:54:44.708000,BEA,87,,31.0,2.0,0 days 01:52:18.756000,,False,MEDIUM,1.0,True,Haas F1 Team,4,12.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 01:56:53.053000,BEA,87,128.345,32.0,2.0,,,False,MEDIUM,2.0,True,Haas F1 Team,4,11.0,False,15,Azerbaijan Grand Prix,True,C4,False,19.637,18.064,23.429,22.331,-2.939,-2.239,130.351
+0 days 01:59:18.718000,BEA,87,145.665,33.0,2.0,,,False,MEDIUM,3.0,True,Haas F1 Team,4,11.0,False,15,Azerbaijan Grand Prix,True,C4,False,36.957,33.997,40.749,38.84,10.46,7.736,147.736
+0 days 02:02:02.514000,BEA,87,,34.0,2.0,,,False,MEDIUM,4.0,True,Haas F1 Team,4,11.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:04:30.182000,BEA,87,147.668,35.0,2.0,,,False,MEDIUM,5.0,True,Haas F1 Team,41,11.0,False,15,Azerbaijan Grand Prix,True,C4,False,38.96,35.839,42.752,40.749,3.272,2.266,149.868
+0 days 02:06:52.361000,BEA,87,142.179,36.0,2.0,,0 days 02:06:51.150000,False,MEDIUM,6.0,True,Haas F1 Team,124,9.0,False,15,Azerbaijan Grand Prix,True,C4,False,33.471,30.79,37.263,35.517,,,144.444
+0 days 02:09:34.742000,BEA,87,,37.0,3.0,0 days 02:07:07.441000,,False,MEDIUM,7.0,False,Haas F1 Team,4,9.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:12:06.549000,BEA,87,,38.0,3.0,,,False,MEDIUM,8.0,False,Haas F1 Team,41,9.0,False,15,Azerbaijan Grand Prix,True,C4,False,,,,,,,
+0 days 02:13:55.969000,BEA,87,109.42,39.0,3.0,,,False,MEDIUM,9.0,False,Haas F1 Team,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,0.712,0.655,4.504,4.293,0.107,0.098,111.879
+0 days 02:15:44.422000,BEA,87,108.453,40.0,3.0,,,True,MEDIUM,10.0,False,Haas F1 Team,12,8.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.255,-0.235,3.537,3.371,-0.039,-0.036,110.977
+0 days 02:17:32.206000,BEA,87,107.784,41.0,3.0,,,True,MEDIUM,11.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.924,-0.85,2.868,2.734,0.25,0.232,110.372
+0 days 02:19:19.722000,BEA,87,107.516,42.0,3.0,,,True,MEDIUM,12.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.192,-1.097,2.6,2.478,0.089,0.083,110.169
+0 days 02:21:07.186000,BEA,87,107.464,43.0,3.0,,,True,MEDIUM,13.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.244,-1.144,2.548,2.429,0.27,0.252,110.182
+0 days 02:22:54.225000,BEA,87,107.039,44.0,3.0,,,True,MEDIUM,14.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.669,-1.535,2.123,2.024,-0.002,-0.002,109.821
+0 days 02:24:41.203000,BEA,87,106.978,45.0,3.0,,,True,MEDIUM,15.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.73,-1.591,2.062,1.965,0.064,0.06,109.825
+0 days 02:26:28.428000,BEA,87,107.225,46.0,3.0,,,False,MEDIUM,16.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.483,-1.364,2.309,2.201,0.275,0.257,110.137
+0 days 02:28:16.080000,BEA,87,107.652,47.0,3.0,,,False,MEDIUM,17.0,False,Haas F1 Team,1,8.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.056,-0.971,2.736,2.608,0.623,0.582,110.628
+0 days 02:30:04.745000,BEA,87,108.665,48.0,3.0,,,False,MEDIUM,18.0,False,Haas F1 Team,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-0.043,-0.04,3.749,3.573,1.29,1.201,111.706
+0 days 02:31:52,BEA,87,107.255,49.0,3.0,,,False,MEDIUM,19.0,False,Haas F1 Team,1,9.0,True,15,Azerbaijan Grand Prix,True,C4,True,-1.453,-1.337,2.339,2.229,0.458,0.429,110.361
+0 days 02:33:39.243000,BEA,87,107.243,50.0,3.0,,,False,MEDIUM,20.0,False,Haas F1 Team,12,9.0,True,15,Azerbaijan Grand Prix,True,C4,False,-1.465,-1.348,2.327,2.218,0.008,0.007,110.414
+0 days 02:35:27.603000,BEA,87,108.36,51.0,3.0,,,False,MEDIUM,21.0,False,Haas F1 Team,12,9.0,True,15,Azerbaijan Grand Prix,True,C4,False,-0.348,-0.32,3.444,3.283,0.037,0.034,111.595
