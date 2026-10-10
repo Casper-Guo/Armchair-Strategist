@@ -2147,3 +2147,317 @@ Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,IsPersonal
 0 days 00:52:00.762000,HUL,27,84.428,5.0,1.0,,0 days 00:51:59.504000,False,MEDIUM,12.0,False,Audi,1,21.0,False,12,Dutch Grand Prix,True,C3,False,6.872,8.861,9.547,12.75,7.504,9.755,84.611
 0 days 01:14:32.666000,HUL,27,,6.0,2.0,0 days 01:13:09.959000,,False,MEDIUM,1.0,False,Audi,1,22.0,False,12,Dutch Grand Prix,True,C3,False,,,,,,,
 0 days 01:15:50.372000,HUL,27,77.706,7.0,2.0,,,True,MEDIUM,2.0,False,Audi,1,22.0,True,12,Dutch Grand Prix,True,C3,True,0.15,0.193,2.825,3.773,0.496,0.642,77.981
+0 days 01:20:52.098000,NOR,1,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,McLaren,12,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:20.289000,NOR,1,148.191,2.0,1.0,,0 days 01:23:14.533000,False,INTERMEDIATE,2.0,True,McLaren,24,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,40.361,37.43,42.734,40.523,,,148.246
+0 days 01:25:59.869000,NOR,1,,3.0,2.0,0 days 01:23:32.938000,0 days 01:25:52.847000,False,INTERMEDIATE,3.0,False,McLaren,4,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:44.050000,NOR,1,,4.0,3.0,0 days 01:26:12.901000,0 days 01:28:37.931000,False,INTERMEDIATE,4.0,False,McLaren,4,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:21.837000,NOR,1,,5.0,4.0,0 days 01:29:02.472000,,False,INTERMEDIATE,5.0,False,McLaren,4,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:55.156000,NOR,1,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,McLaren,41,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:43.486000,NOR,1,108.33,7.0,4.0,,,True,INTERMEDIATE,7.0,False,McLaren,12,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.5,0.464,2.873,2.724,-1.116,-1.02,108.66
+0 days 01:37:30.788000,NOR,1,107.302,8.0,4.0,,,True,INTERMEDIATE,8.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.528,-0.49,1.845,1.75,-1.606,-1.475,107.687
+0 days 01:39:18.552000,NOR,1,107.764,9.0,4.0,,,False,INTERMEDIATE,9.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.066,-0.061,2.307,2.188,-0.691,-0.637,108.204
+0 days 01:41:05.933000,NOR,1,107.381,10.0,4.0,,,False,INTERMEDIATE,10.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.449,-0.416,1.924,1.824,-0.587,-0.544,107.876
+0 days 01:42:53.341000,NOR,1,107.408,11.0,4.0,,,False,INTERMEDIATE,11.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.422,-0.391,1.951,1.85,-0.39,-0.362,107.958
+0 days 01:44:41.171000,NOR,1,107.83,12.0,4.0,,,False,INTERMEDIATE,12.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.0,0.0,2.373,2.25,-0.199,-0.184,108.435
+0 days 01:46:28.902000,NOR,1,107.731,13.0,4.0,,,False,INTERMEDIATE,13.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.099,-0.092,2.274,2.156,-0.214,-0.198,108.391
+0 days 01:48:16.248000,NOR,1,107.346,14.0,4.0,,,False,INTERMEDIATE,14.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.484,-0.449,1.889,1.791,-0.352,-0.327,108.061
+0 days 01:50:03.140000,NOR,1,106.892,15.0,4.0,,,True,INTERMEDIATE,15.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.938,-0.87,1.435,1.361,-0.755,-0.701,107.662
+0 days 01:51:50.042000,NOR,1,106.902,16.0,4.0,,,False,INTERMEDIATE,16.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.928,-0.861,1.445,1.37,-0.837,-0.777,107.727
+0 days 01:53:36.953000,NOR,1,106.911,17.0,4.0,,,False,INTERMEDIATE,17.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.919,-0.852,1.454,1.379,-0.533,-0.496,107.791
+0 days 01:55:24.528000,NOR,1,107.575,18.0,4.0,,,False,INTERMEDIATE,18.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.255,-0.236,2.118,2.008,-0.133,-0.123,108.51
+0 days 01:57:12.210000,NOR,1,107.682,19.0,4.0,,,False,INTERMEDIATE,19.0,False,McLaren,1,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.148,-0.137,2.225,2.11,-0.05,-0.046,108.672
+0 days 01:59:12.439000,NOR,1,120.229,20.0,4.0,,,False,INTERMEDIATE,20.0,False,McLaren,12,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,12.399,11.499,14.772,14.008,11.136,10.208,121.274
+0 days 01:20:54.454000,GAS,10,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Alpine,12,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:26.437000,GAS,10,,2.0,1.0,,0 days 01:23:19.900000,False,INTERMEDIATE,2.0,True,Alpine,24,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:04.657000,GAS,10,,3.0,2.0,0 days 01:23:38.910000,0 days 01:25:57.524000,False,INTERMEDIATE,3.0,False,Alpine,4,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:48.487000,GAS,10,,4.0,3.0,0 days 01:26:17.710000,0 days 01:28:42.439000,False,INTERMEDIATE,4.0,False,Alpine,4,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:25.415000,GAS,10,,5.0,4.0,0 days 01:29:08.371000,,False,INTERMEDIATE,5.0,False,Alpine,4,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:56.467000,GAS,10,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Alpine,41,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:46.794000,GAS,10,110.327,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Alpine,12,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.497,2.316,4.87,4.618,0.881,0.805,110.657
+0 days 01:37:36.987000,GAS,10,110.193,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Alpine,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.363,2.191,4.736,4.491,1.285,1.18,110.578
+0 days 01:39:28.428000,GAS,10,111.441,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.611,3.349,5.984,5.674,2.986,2.753,111.881
+0 days 01:41:16.920000,GAS,10,108.492,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.662,0.614,3.035,2.878,0.524,0.485,108.987
+0 days 01:43:05.915000,GAS,10,108.995,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.165,1.08,3.538,3.355,1.197,1.11,109.545
+0 days 01:44:54.004000,GAS,10,108.089,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.259,0.24,2.632,2.496,0.06,0.056,108.694
+0 days 01:46:41.780000,GAS,10,107.776,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.054,-0.05,2.319,2.199,-0.169,-0.157,108.436
+0 days 01:48:30.057000,GAS,10,108.277,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.447,0.415,2.82,2.674,0.579,0.538,108.992
+0 days 01:50:18.242000,GAS,10,108.185,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.355,0.329,2.728,2.587,0.538,0.5,108.955
+0 days 01:52:06.553000,GAS,10,108.311,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.481,0.446,2.854,2.706,0.572,0.531,109.136
+0 days 01:53:55.149000,GAS,10,108.596,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.766,0.71,3.139,2.977,1.152,1.072,109.476
+0 days 01:55:43.258000,GAS,10,108.109,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.279,0.259,2.652,2.515,0.401,0.372,109.044
+0 days 01:57:31.616000,GAS,10,108.358,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Alpine,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.528,0.49,2.901,2.751,0.626,0.581,109.348
+0 days 01:59:20.387000,GAS,10,108.771,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Alpine,12,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.941,0.873,3.314,3.143,-0.322,-0.295,109.816
+0 days 01:22:29.714000,PER,11,,1.0,1.0,,0 days 01:22:23.954000,False,INTERMEDIATE,1.0,True,Cadillac,124,21.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:20:52.605000,ANT,12,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Mercedes,12,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:21.359000,ANT,12,148.754,2.0,1.0,,0 days 01:23:15.439000,False,INTERMEDIATE,2.0,True,Mercedes,24,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,40.924,37.952,43.297,41.057,,,148.809
+0 days 01:26:00.847000,ANT,12,,3.0,2.0,0 days 01:23:33.939000,0 days 01:25:53.948000,False,INTERMEDIATE,3.0,False,Mercedes,4,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:45.151000,ANT,12,,4.0,3.0,0 days 01:26:13.735000,0 days 01:28:39.031000,False,INTERMEDIATE,4.0,False,Mercedes,4,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:22.483000,ANT,12,,5.0,4.0,0 days 01:29:04.425000,,False,INTERMEDIATE,5.0,False,Mercedes,4,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:55.727000,ANT,12,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Mercedes,41,6.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:44.325000,ANT,12,108.598,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Mercedes,12,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.768,0.712,3.141,2.978,-0.848,-0.775,108.928
+0 days 01:37:31.809000,ANT,12,107.484,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.346,-0.321,2.027,1.922,-1.424,-1.308,107.869
+0 days 01:39:20.017000,ANT,12,108.208,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.378,0.351,2.751,2.609,-0.247,-0.228,108.648
+0 days 01:41:07.846000,ANT,12,107.829,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.001,-0.001,2.372,2.249,-0.139,-0.129,108.324
+0 days 01:42:55.647000,ANT,12,107.801,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.029,-0.027,2.344,2.223,0.003,0.003,108.351
+0 days 01:44:42.813000,ANT,12,107.166,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.664,-0.616,1.709,1.621,-0.863,-0.799,107.771
+0 days 01:46:29.941000,ANT,12,107.128,13.0,4.0,,,True,INTERMEDIATE,13.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.702,-0.651,1.671,1.585,-0.817,-0.757,107.788
+0 days 01:48:17.264000,ANT,12,107.323,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.507,-0.47,1.866,1.769,-0.375,-0.348,108.038
+0 days 01:50:04.254000,ANT,12,106.99,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.84,-0.779,1.533,1.454,-0.657,-0.61,107.76
+0 days 01:51:51.213000,ANT,12,106.959,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.871,-0.808,1.502,1.424,-0.78,-0.724,107.784
+0 days 01:53:38.075000,ANT,12,106.862,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.968,-0.898,1.405,1.332,-0.582,-0.542,107.742
+0 days 01:55:25.299000,ANT,12,107.224,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.606,-0.562,1.767,1.676,-0.484,-0.449,108.159
+0 days 01:57:13.064000,ANT,12,107.765,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Mercedes,1,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.065,-0.06,2.308,2.189,0.033,0.031,108.755
+0 days 01:59:01.405000,ANT,12,108.341,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Mercedes,12,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.511,0.474,2.884,2.735,-0.752,-0.689,109.386
+0 days 01:20:59.051000,ALO,14,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Aston Martin,12,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:38.117000,ALO,14,,2.0,1.0,,0 days 01:23:32.281000,False,INTERMEDIATE,2.0,True,Aston Martin,24,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:15.450000,ALO,14,,3.0,2.0,0 days 01:23:50.533000,0 days 01:26:09.716000,False,INTERMEDIATE,3.0,False,Aston Martin,4,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:53.680000,ALO,14,,4.0,3.0,0 days 01:26:27.997000,0 days 01:28:47.919000,False,INTERMEDIATE,4.0,False,Aston Martin,4,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:31.316000,ALO,14,,5.0,4.0,0 days 01:29:20.163000,,False,INTERMEDIATE,5.0,False,Aston Martin,4,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:58.283000,ALO,14,146.967,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Aston Martin,41,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,39.137,36.295,41.51,39.362,0.0,0.0,147.242
+0 days 01:35:49.318000,ALO,14,111.035,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Aston Martin,12,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.205,2.972,5.578,5.289,1.589,1.452,111.365
+0 days 01:37:39.560000,ALO,14,110.242,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.412,2.237,4.785,4.537,1.334,1.225,110.627
+0 days 01:39:30.468000,ALO,14,110.908,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.078,2.854,5.451,5.169,2.453,2.262,111.348
+0 days 01:41:20.538000,ALO,14,110.07,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.24,2.077,4.613,4.374,2.102,1.947,110.565
+0 days 01:43:09.829000,ALO,14,109.291,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.461,1.355,3.834,3.636,1.493,1.385,109.841
+0 days 01:44:59.049000,ALO,14,109.22,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.39,1.289,3.763,3.568,1.191,1.102,109.825
+0 days 01:46:48.348000,ALO,14,109.299,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.469,1.362,3.842,3.643,1.354,1.254,109.959
+0 days 01:48:37.864000,ALO,14,109.516,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.686,1.564,4.059,3.849,1.818,1.688,110.231
+0 days 01:50:26.792000,ALO,14,108.928,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.098,1.018,3.471,3.291,1.281,1.19,109.698
+0 days 01:52:15.900000,ALO,14,109.108,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.278,1.185,3.651,3.462,1.369,1.271,109.933
+0 days 01:54:04.496000,ALO,14,108.596,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.766,0.71,3.139,2.977,1.152,1.072,109.476
+0 days 01:55:53.596000,ALO,14,109.1,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Aston Martin,1,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.27,1.178,3.643,3.454,1.392,1.292,110.035
+0 days 01:57:43.114000,ALO,14,109.518,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Aston Martin,12,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.688,1.565,4.061,3.851,1.786,1.658,110.508
+0 days 01:59:34.631000,ALO,14,111.517,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Aston Martin,2,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.687,3.419,6.06,5.746,2.424,2.222,112.562
+0 days 01:20:50.376000,LEC,16,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,12,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:14.106000,LEC,16,143.73,2.0,1.0,,0 days 01:23:08.268000,False,INTERMEDIATE,2.0,True,Ferrari,24,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,35.9,33.293,38.273,36.293,,,143.785
+0 days 01:25:56.074000,LEC,16,,3.0,2.0,0 days 01:23:26.738000,0 days 01:25:49.865000,False,INTERMEDIATE,3.0,False,Ferrari,4,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:38.776000,LEC,16,,4.0,3.0,0 days 01:26:09.324000,0 days 01:28:32.749000,False,INTERMEDIATE,4.0,False,Ferrari,4,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:19.369000,LEC,16,,5.0,4.0,0 days 01:28:57.579000,,False,INTERMEDIATE,5.0,False,Ferrari,4,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:54.543000,LEC,16,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Ferrari,41,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:41.650000,LEC,16,107.107,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Ferrari,12,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.723,-0.67,1.65,1.565,-2.339,-2.137,107.437
+0 days 01:37:28.631000,LEC,16,106.981,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.849,-0.787,1.524,1.445,-1.927,-1.769,107.366
+0 days 01:39:15.573000,LEC,16,106.942,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.888,-0.824,1.485,1.408,-1.513,-1.395,107.382
+0 days 01:41:02.544000,LEC,16,106.971,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.859,-0.797,1.514,1.436,-0.997,-0.923,107.466
+0 days 01:42:49.282000,LEC,16,106.738,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.092,-1.013,1.281,1.215,-1.06,-0.983,107.288
+0 days 01:44:37.295000,LEC,16,108.013,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.183,0.17,2.556,2.424,-0.016,-0.015,108.618
+0 days 01:46:24.263000,LEC,16,106.968,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.862,-0.799,1.511,1.433,-0.977,-0.905,107.628
+0 days 01:48:11.555000,LEC,16,107.292,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.538,-0.499,1.835,1.74,-0.406,-0.377,108.007
+0 days 01:49:58.930000,LEC,16,107.375,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.455,-0.422,1.918,1.819,-0.272,-0.253,108.145
+0 days 01:51:47.155000,LEC,16,108.225,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.395,0.366,2.768,2.625,0.486,0.451,109.05
+0 days 01:53:35.342000,LEC,16,108.187,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.357,0.331,2.73,2.589,0.743,0.692,109.067
+0 days 01:55:23.440000,LEC,16,108.098,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.268,0.249,2.641,2.504,0.39,0.362,109.033
+0 days 01:57:11.315000,LEC,16,107.875,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Ferrari,1,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.045,0.042,2.418,2.293,0.143,0.133,108.865
+0 days 01:59:01.038000,LEC,16,109.723,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Ferrari,12,3.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.893,1.756,4.266,4.045,0.63,0.577,110.768
+0 days 01:20:46.983000,STR,18,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Aston Martin,1,,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:00.519000,ALB,23,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Williams,12,18.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:41.978000,ALB,23,,2.0,1.0,,0 days 01:23:36.146000,False,INTERMEDIATE,2.0,True,Williams,24,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:20.266000,ALB,23,,3.0,2.0,0 days 01:23:54.536000,0 days 01:26:14.583000,False,INTERMEDIATE,3.0,False,Williams,4,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:57.507000,ALB,23,,4.0,3.0,0 days 01:26:32.798000,0 days 01:28:51.559000,False,INTERMEDIATE,4.0,False,Williams,4,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:37.005000,ALB,23,,5.0,4.0,0 days 01:29:26.396000,,False,INTERMEDIATE,5.0,False,Williams,4,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:34:09.605000,ALB,23,,6.0,4.0,,0 days 01:34:03.641000,False,INTERMEDIATE,6.0,False,Williams,41,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:36:39.505000,ALB,23,149.9,7.0,5.0,0 days 01:34:49.481000,,False,INTERMEDIATE,1.0,True,Williams,12,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,42.07,39.015,44.443,42.143,40.454,36.963,150.23
+0 days 01:38:30.659000,ALB,23,111.154,8.0,5.0,,,True,INTERMEDIATE,2.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.324,3.083,5.697,5.402,2.246,2.062,111.539
+0 days 01:40:22.526000,ALB,23,111.867,9.0,5.0,,,False,INTERMEDIATE,3.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,4.037,3.744,6.41,6.078,3.412,3.146,112.307
+0 days 01:42:13.555000,ALB,23,111.029,10.0,5.0,,,True,INTERMEDIATE,4.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.199,2.967,5.572,5.284,3.061,2.835,111.524
+0 days 01:44:04.415000,ALB,23,110.86,11.0,5.0,,,True,INTERMEDIATE,5.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.03,2.81,5.403,5.123,3.062,2.84,111.41
+0 days 01:45:55.520000,ALB,23,111.105,12.0,5.0,,,False,INTERMEDIATE,6.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.275,3.037,5.648,5.356,3.076,2.847,111.71
+0 days 01:47:46.598000,ALB,23,111.078,13.0,5.0,,,False,INTERMEDIATE,7.0,True,Williams,1,15.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.248,3.012,5.621,5.33,3.133,2.902,111.738
+0 days 01:49:47.888000,ALB,23,121.29,14.0,5.0,,0 days 01:49:42.036000,False,INTERMEDIATE,8.0,True,Williams,1,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,13.46,12.483,15.833,15.014,13.592,12.62,122.005
+0 days 01:20:56.360000,HUL,27,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Audi,12,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:30.083000,HUL,27,,2.0,1.0,,0 days 01:23:24.300000,False,INTERMEDIATE,2.0,True,Audi,24,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:08.212000,HUL,27,,3.0,2.0,0 days 01:23:42.733000,0 days 01:26:02.348000,False,INTERMEDIATE,3.0,False,Audi,4,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:50.657000,HUL,27,,4.0,3.0,0 days 01:26:20.794000,0 days 01:28:44.296000,False,INTERMEDIATE,4.0,False,Audi,4,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:27.391000,HUL,27,,5.0,4.0,0 days 01:29:13.963000,,False,INTERMEDIATE,5.0,False,Audi,4,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:57.072000,HUL,27,149.681,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Audi,41,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,41.851,38.812,44.224,41.936,2.714,1.847,149.956
+0 days 01:35:47.516000,HUL,27,110.444,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Audi,12,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.614,2.424,4.987,4.729,0.998,0.912,110.774
+0 days 01:37:37.368000,HUL,27,109.852,8.0,4.0,,,False,INTERMEDIATE,8.0,False,Audi,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.022,1.875,4.395,4.168,0.944,0.867,110.237
+0 days 01:39:25.424000,HUL,27,108.056,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.226,0.21,2.599,2.465,-0.399,-0.368,108.496
+0 days 01:41:12.819000,HUL,27,107.395,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.435,-0.403,1.938,1.838,-0.573,-0.531,107.89
+0 days 01:43:00.129000,HUL,27,107.31,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.52,-0.482,1.853,1.757,-0.488,-0.453,107.86
+0 days 01:44:48.158000,HUL,27,108.029,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.199,0.185,2.572,2.439,0.0,0.0,108.634
+0 days 01:46:36.479000,HUL,27,108.321,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.491,0.455,2.864,2.716,0.376,0.348,108.981
+0 days 01:48:24.839000,HUL,27,108.36,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.53,0.492,2.903,2.753,0.662,0.615,109.075
+0 days 01:50:12.630000,HUL,27,107.791,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.039,-0.036,2.334,2.213,0.144,0.134,108.561
+0 days 01:52:00.494000,HUL,27,107.864,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.034,0.032,2.407,2.282,0.125,0.116,108.689
+0 days 01:53:48.019000,HUL,27,107.525,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.305,-0.283,2.068,1.961,0.081,0.075,108.405
+0 days 01:55:35.446000,HUL,27,107.427,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.403,-0.374,1.97,1.868,-0.281,-0.261,108.362
+0 days 01:57:22.899000,HUL,27,107.453,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Audi,1,9.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.377,-0.35,1.996,1.893,-0.279,-0.259,108.443
+0 days 01:59:11.692000,HUL,27,108.793,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Audi,12,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.963,0.893,3.336,3.163,-0.3,-0.275,109.838
+0 days 01:20:47.897000,VER,3,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Red Bull Racing,1,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:09.326000,VER,3,141.429,2.0,1.0,,0 days 01:23:03.513000,False,INTERMEDIATE,2.0,True,Red Bull Racing,124,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,33.599,31.159,35.972,34.111,,,141.484
+0 days 01:25:52.447000,VER,3,,3.0,2.0,0 days 01:23:21.972000,0 days 01:25:46.254000,False,INTERMEDIATE,3.0,False,Red Bull Racing,4,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:36.488000,VER,3,,4.0,3.0,0 days 01:26:05.446000,0 days 01:28:30.370000,False,INTERMEDIATE,4.0,False,Red Bull Racing,4,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:17.448000,VER,3,,5.0,4.0,0 days 01:28:53.343000,,False,INTERMEDIATE,5.0,False,Red Bull Racing,4,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:53.038000,VER,3,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Red Bull Racing,41,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:39.150000,VER,3,106.112,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Red Bull Racing,12,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.718,-1.593,0.655,0.621,-3.334,-3.046,106.442
+0 days 01:37:25.832000,VER,3,106.682,8.0,4.0,,,False,INTERMEDIATE,8.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.148,-1.065,1.225,1.162,-2.226,-2.044,107.067
+0 days 01:39:12.705000,VER,3,106.873,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.957,-0.888,1.416,1.343,-1.582,-1.459,107.313
+0 days 01:40:59.354000,VER,3,106.649,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.181,-1.095,1.192,1.13,-1.319,-1.222,107.144
+0 days 01:42:46.011000,VER,3,106.657,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.173,-1.088,1.2,1.138,-1.141,-1.058,107.207
+0 days 01:44:32.699000,VER,3,106.688,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.142,-1.059,1.231,1.167,-1.341,-1.241,107.293
+0 days 01:46:19.421000,VER,3,106.722,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.108,-1.028,1.265,1.2,-1.223,-1.133,107.382
+0 days 01:48:05.830000,VER,3,106.409,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.421,-1.318,0.952,0.903,-1.289,-1.197,107.124
+0 days 01:49:52.238000,VER,3,106.408,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.422,-1.319,0.951,0.902,-1.239,-1.151,107.178
+0 days 01:51:38.977000,VER,3,106.739,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.091,-1.012,1.282,1.216,-1.0,-0.928,107.564
+0 days 01:53:25.464000,VER,3,106.487,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.343,-1.245,1.03,0.977,-0.957,-0.891,107.367
+0 days 01:55:11.805000,VER,3,106.341,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.489,-1.381,0.884,0.838,-1.367,-1.269,107.276
+0 days 01:56:57.822000,VER,3,106.017,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Red Bull Racing,1,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.813,-1.681,0.56,0.531,-1.715,-1.592,107.007
+0 days 01:58:44.167000,VER,3,106.345,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Red Bull Racing,12,1.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.485,-1.377,0.888,0.842,-2.748,-2.519,107.39
+0 days 01:20:53.322000,LAW,30,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Racing Bulls,12,8.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:23.651000,LAW,30,,2.0,1.0,,0 days 01:23:17.663000,False,INTERMEDIATE,2.0,True,Racing Bulls,24,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:03.247000,LAW,30,,3.0,2.0,0 days 01:23:36.223000,0 days 01:25:55.924000,False,INTERMEDIATE,3.0,False,Racing Bulls,4,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:46.737000,LAW,30,,4.0,3.0,0 days 01:26:16.074000,0 days 01:28:40.454000,False,INTERMEDIATE,4.0,False,Racing Bulls,4,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:23.850000,LAW,30,,5.0,4.0,0 days 01:29:06.126000,,False,INTERMEDIATE,5.0,False,Racing Bulls,4,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:56.018000,LAW,30,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Racing Bulls,41,7.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:45.423000,LAW,30,109.405,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Racing Bulls,12,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.575,1.461,3.948,3.744,-0.041,-0.037,109.735
+0 days 01:37:33.916000,LAW,30,108.493,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.663,0.615,3.036,2.879,-0.415,-0.381,108.878
+0 days 01:39:22.394000,LAW,30,108.478,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.648,0.601,3.021,2.865,0.023,0.021,108.918
+0 days 01:41:10.362000,LAW,30,107.968,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.138,0.128,2.511,2.381,0.0,0.0,108.463
+0 days 01:42:58.069000,LAW,30,107.707,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.123,-0.114,2.25,2.134,-0.091,-0.084,108.257
+0 days 01:44:46.039000,LAW,30,107.97,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.14,0.13,2.513,2.383,-0.059,-0.055,108.575
+0 days 01:46:34.171000,LAW,30,108.132,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.302,0.28,2.675,2.537,0.187,0.173,108.792
+0 days 01:48:21.742000,LAW,30,107.571,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.259,-0.24,2.114,2.005,-0.127,-0.118,108.286
+0 days 01:50:09.304000,LAW,30,107.562,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.268,-0.249,2.105,1.996,-0.085,-0.079,108.332
+0 days 01:51:56.415000,LAW,30,107.111,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.719,-0.667,1.654,1.568,-0.628,-0.583,107.936
+0 days 01:53:43.229000,LAW,30,106.814,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.016,-0.942,1.357,1.287,-0.63,-0.586,107.694
+0 days 01:55:30.103000,LAW,30,106.874,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.956,-0.887,1.417,1.344,-0.834,-0.774,107.809
+0 days 01:57:16.375000,LAW,30,106.272,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Racing Bulls,1,7.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.558,-1.445,0.815,0.773,-1.46,-1.355,107.262
+0 days 01:59:04.799000,LAW,30,108.424,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Racing Bulls,12,5.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.594,0.551,2.967,2.813,-0.669,-0.613,109.469
+0 days 01:20:57.601000,OCO,31,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Haas F1 Team,12,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:32.410000,OCO,31,,2.0,1.0,,0 days 01:23:26.628000,False,INTERMEDIATE,2.0,True,Haas F1 Team,24,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:12.012000,OCO,31,,3.0,2.0,0 days 01:23:44.917000,0 days 01:26:06.258000,False,INTERMEDIATE,3.0,False,Haas F1 Team,4,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:51.876000,OCO,31,,4.0,3.0,0 days 01:26:24.516000,0 days 01:28:45.355000,False,INTERMEDIATE,4.0,False,Haas F1 Team,4,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:28.576000,OCO,31,,5.0,4.0,0 days 01:29:17.696000,,False,INTERMEDIATE,5.0,False,Haas F1 Team,4,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:57.671000,OCO,31,149.095,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Haas F1 Team,41,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,41.265,38.269,43.638,41.38,2.128,1.448,149.37
+0 days 01:35:48.313000,OCO,31,110.642,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Haas F1 Team,12,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.812,2.608,5.185,4.917,1.196,1.093,110.972
+0 days 01:37:38.474000,OCO,31,110.161,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Haas F1 Team,1,11.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.331,2.162,4.704,4.461,1.253,1.151,110.546
+0 days 01:39:27.257000,OCO,31,108.783,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.953,0.884,3.326,3.154,0.328,0.302,109.223
+0 days 01:41:15.534000,OCO,31,108.277,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.447,0.415,2.82,2.674,0.309,0.286,108.772
+0 days 01:43:03.546000,OCO,31,108.012,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.182,0.169,2.555,2.423,0.214,0.199,108.562
+0 days 01:44:51.907000,OCO,31,108.361,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.531,0.492,2.904,2.754,0.332,0.307,108.966
+0 days 01:46:40.249000,OCO,31,108.342,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.512,0.475,2.885,2.736,0.397,0.368,109.002
+0 days 01:48:28.611000,OCO,31,108.362,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.532,0.493,2.905,2.755,0.664,0.617,109.077
+0 days 01:50:17.098000,OCO,31,108.487,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.657,0.609,3.03,2.873,0.84,0.78,109.257
+0 days 01:52:06.104000,OCO,31,109.006,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.176,1.091,3.549,3.365,1.267,1.176,109.831
+0 days 01:53:54.543000,OCO,31,108.439,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.609,0.565,2.982,2.828,0.995,0.926,109.319
+0 days 01:55:42.754000,OCO,31,108.211,18.0,4.0,,,False,INTERMEDIATE,18.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.381,0.353,2.754,2.611,0.503,0.467,109.146
+0 days 01:57:31.055000,OCO,31,108.301,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Haas F1 Team,1,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.471,0.437,2.844,2.697,0.569,0.528,109.291
+0 days 01:59:21.807000,OCO,31,110.752,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Haas F1 Team,12,10.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.922,2.71,5.295,5.021,1.659,1.521,111.797
+0 days 01:20:58.438000,LIN,41,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Racing Bulls,12,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:35.295000,LIN,41,,2.0,1.0,,0 days 01:23:29.456000,False,INTERMEDIATE,2.0,True,Racing Bulls,24,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:14.337000,LIN,41,,3.0,2.0,0 days 01:23:47.841000,0 days 01:26:08.539000,False,INTERMEDIATE,3.0,False,Racing Bulls,4,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:29:07.352000,LIN,41,,4.0,3.0,0 days 01:26:26.849000,0 days 01:29:01.566000,False,INTERMEDIATE,4.0,False,Racing Bulls,4,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:42.371000,LIN,41,,5.0,4.0,0 days 01:29:32.889000,,False,INTERMEDIATE,5.0,False,Racing Bulls,4,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:34:02.916000,LIN,41,140.545,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Racing Bulls,41,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,32.715,30.339,35.088,33.272,-6.422,-4.37,140.82
+0 days 01:35:53.022000,LIN,41,110.106,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Racing Bulls,12,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.276,2.111,4.649,4.408,0.66,0.603,110.436
+0 days 01:37:42.761000,LIN,41,109.739,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.909,1.77,4.282,4.06,0.831,0.763,110.124
+0 days 01:39:32.825000,LIN,41,110.064,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.234,2.072,4.607,4.369,1.609,1.484,110.504
+0 days 01:41:22.747000,LIN,41,109.922,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.092,1.94,4.465,4.234,1.954,1.81,110.417
+0 days 01:43:12.698000,LIN,41,109.951,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.121,1.967,4.494,4.261,2.153,1.997,110.501
+0 days 01:45:02.584000,LIN,41,109.886,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.056,1.907,4.429,4.2,1.857,1.719,110.491
+0 days 01:46:52.655000,LIN,41,110.071,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.241,2.078,4.614,4.375,2.126,1.97,110.731
+0 days 01:48:42.778000,LIN,41,110.123,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.293,2.126,4.666,4.425,2.425,2.252,110.838
+0 days 01:50:32.323000,LIN,41,109.545,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.715,1.59,4.088,3.876,1.898,1.763,110.315
+0 days 01:52:21.647000,LIN,41,109.324,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.494,1.386,3.867,3.667,1.585,1.471,110.149
+0 days 01:54:10.798000,LIN,41,109.151,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.321,1.225,3.694,3.503,1.707,1.589,110.031
+0 days 01:55:59.710000,LIN,41,108.912,18.0,4.0,,,True,INTERMEDIATE,18.0,False,Racing Bulls,1,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.082,1.003,3.455,3.276,1.204,1.118,109.847
+0 days 01:57:48.394000,LIN,41,108.684,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Racing Bulls,12,14.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.854,0.792,3.227,3.06,0.952,0.884,109.674
+0 days 01:59:39.959000,LIN,41,111.565,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Racing Bulls,2,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.735,3.464,6.108,5.792,2.472,2.266,112.61
+0 days 01:20:57.356000,COL,43,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Alpine,12,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:31.256000,COL,43,,2.0,1.0,,0 days 01:23:25.206000,False,INTERMEDIATE,2.0,True,Alpine,24,12.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:20:48.950000,HAM,44,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Ferrari,12,3.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:12.444000,HAM,44,143.494,2.0,1.0,,0 days 01:23:06.535000,False,INTERMEDIATE,2.0,True,Ferrari,24,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,35.664,33.074,38.037,36.069,,,143.549
+0 days 01:25:53.712000,HAM,44,,3.0,2.0,0 days 01:23:25.050000,0 days 01:25:47.879000,False,INTERMEDIATE,3.0,False,Ferrari,4,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:37.466000,HAM,44,,4.0,3.0,0 days 01:26:07.164000,0 days 01:28:31.540000,False,INTERMEDIATE,4.0,False,Ferrari,4,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:17.908000,HAM,44,,5.0,4.0,0 days 01:28:54.983000,,False,INTERMEDIATE,5.0,False,Ferrari,4,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:53.751000,HAM,44,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Ferrari,41,2.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:40.332000,HAM,44,106.581,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Ferrari,12,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.249,-1.158,1.124,1.066,-2.865,-2.618,106.911
+0 days 01:37:27.113000,HAM,44,106.781,8.0,4.0,,,False,INTERMEDIATE,8.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.049,-0.973,1.324,1.255,-2.127,-1.953,107.166
+0 days 01:39:13.990000,HAM,44,106.877,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.953,-0.884,1.42,1.347,-1.578,-1.455,107.317
+0 days 01:41:00.655000,HAM,44,106.665,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.165,-1.08,1.208,1.145,-1.303,-1.207,107.16
+0 days 01:42:47.771000,HAM,44,107.116,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.714,-0.662,1.659,1.573,-0.682,-0.633,107.666
+0 days 01:44:35.330000,HAM,44,107.559,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.271,-0.251,2.102,1.993,-0.47,-0.435,108.164
+0 days 01:46:22.793000,HAM,44,107.463,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.367,-0.34,2.006,1.902,-0.482,-0.447,108.123
+0 days 01:48:10.177000,HAM,44,107.384,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.446,-0.414,1.927,1.827,-0.314,-0.292,108.099
+0 days 01:49:56.988000,HAM,44,106.811,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.019,-0.945,1.354,1.284,-0.836,-0.777,107.581
+0 days 01:51:43.395000,HAM,44,106.407,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.423,-1.32,0.95,0.901,-1.332,-1.236,107.232
+0 days 01:53:29.585000,HAM,44,106.19,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.64,-1.521,0.733,0.695,-1.254,-1.167,107.07
+0 days 01:55:15.211000,HAM,44,105.626,18.0,4.0,,,True,INTERMEDIATE,18.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-2.204,-2.044,0.169,0.16,-2.082,-1.933,106.561
+0 days 01:57:01.301000,HAM,44,106.09,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Ferrari,1,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.74,-1.614,0.633,0.6,-1.642,-1.524,107.08
+0 days 01:58:46.758000,HAM,44,105.457,20.0,4.0,,,True,INTERMEDIATE,20.0,False,Ferrari,12,2.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-2.373,-2.201,0.0,0.0,-3.636,-3.333,106.502
+0 days 01:20:59.683000,BOR,5,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Audi,12,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:39.566000,BOR,5,,2.0,1.0,,0 days 01:23:33.657000,False,INTERMEDIATE,2.0,True,Audi,24,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:17.152000,BOR,5,,3.0,2.0,0 days 01:23:52.097000,0 days 01:26:11.358000,False,INTERMEDIATE,3.0,False,Audi,4,14.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:55.468000,BOR,5,,4.0,3.0,0 days 01:26:29.665000,0 days 01:28:49.622000,False,INTERMEDIATE,1.0,False,Audi,4,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:33.025000,BOR,5,,5.0,4.0,0 days 01:29:22.861000,,False,INTERMEDIATE,5.0,False,Audi,4,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:34:08.445000,BOR,5,,6.0,4.0,,0 days 01:34:02.442000,False,INTERMEDIATE,6.0,False,Audi,41,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:03.974000,SAI,55,,1.0,1.0,0 days 01:19:08.723000,,False,INTERMEDIATE,1.0,True,Williams,12,20.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:45.814000,SAI,55,,2.0,1.0,,0 days 01:23:39.566000,False,INTERMEDIATE,2.0,True,Williams,24,19.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:24.648000,SAI,55,,3.0,2.0,0 days 01:23:59.098000,0 days 01:26:18.350000,False,INTERMEDIATE,3.0,False,Williams,4,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:29:00.476000,SAI,55,,4.0,3.0,0 days 01:26:37.869000,0 days 01:28:54.249000,False,INTERMEDIATE,4.0,False,Williams,4,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:39.941000,SAI,55,,5.0,4.0,0 days 01:29:29.637000,,False,INTERMEDIATE,5.0,False,Williams,4,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:34:02.202000,SAI,55,142.261,6.0,4.0,,,True,INTERMEDIATE,6.0,False,Williams,41,13.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,34.431,31.931,36.804,34.9,-4.706,-3.202,142.536
+0 days 01:35:51.734000,SAI,55,109.532,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Williams,12,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.702,1.578,4.075,3.864,0.086,0.079,109.862
+0 days 01:37:41.430000,SAI,55,109.696,8.0,4.0,,,False,INTERMEDIATE,8.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.866,1.731,4.239,4.02,0.788,0.724,110.081
+0 days 01:39:31.672000,SAI,55,110.242,9.0,4.0,,,False,INTERMEDIATE,9.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.412,2.237,4.785,4.537,1.787,1.648,110.682
+0 days 01:41:21.695000,SAI,55,110.023,10.0,4.0,,,False,INTERMEDIATE,10.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.193,2.034,4.566,4.33,2.055,1.903,110.518
+0 days 01:43:11.391000,SAI,55,109.696,11.0,4.0,,,False,INTERMEDIATE,11.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.866,1.731,4.239,4.02,1.898,1.761,110.246
+0 days 01:45:00.886000,SAI,55,109.495,12.0,4.0,,,True,INTERMEDIATE,12.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.665,1.544,4.038,3.829,1.466,1.357,110.1
+0 days 01:46:50.775000,SAI,55,109.889,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,2.059,1.909,4.432,4.203,1.944,1.801,110.549
+0 days 01:48:39.991000,SAI,55,109.216,14.0,4.0,,,True,INTERMEDIATE,14.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.386,1.285,3.759,3.564,1.518,1.409,109.931
+0 days 01:50:29.293000,SAI,55,109.302,15.0,4.0,,,False,INTERMEDIATE,15.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.472,1.365,3.845,3.646,1.655,1.537,110.072
+0 days 01:52:18.612000,SAI,55,109.319,16.0,4.0,,,False,INTERMEDIATE,16.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.489,1.381,3.862,3.662,1.58,1.467,110.144
+0 days 01:54:08.111000,SAI,55,109.499,17.0,4.0,,,False,INTERMEDIATE,17.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.669,1.548,4.042,3.833,2.055,1.913,110.379
+0 days 01:55:57.014000,SAI,55,108.903,18.0,4.0,,,True,INTERMEDIATE,18.0,False,Williams,1,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.073,0.995,3.446,3.268,1.195,1.109,109.838
+0 days 01:57:45.657000,SAI,55,108.643,19.0,4.0,,,True,INTERMEDIATE,19.0,False,Williams,12,13.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.813,0.754,3.186,3.021,0.911,0.846,109.633
+0 days 01:59:36.544000,SAI,55,110.887,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Williams,2,12.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,3.057,2.835,5.43,5.149,1.794,1.644,111.932
+0 days 01:20:56.191000,HAD,6,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Red Bull Racing,12,11.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:28.222000,HAD,6,,2.0,1.0,,0 days 01:23:22.284000,False,INTERMEDIATE,2.0,True,Red Bull Racing,24,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:20:46.983000,RUS,63,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Mercedes,1,1.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:16.983000,RUS,63,,2.0,1.0,,,True,INTERMEDIATE,2.0,True,Mercedes,124,,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:21:03.481000,BOT,77,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Cadillac,12,19.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:43.999000,BOT,77,,2.0,1.0,,0 days 01:23:38.046000,False,INTERMEDIATE,2.0,True,Cadillac,24,18.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:22.338000,BOT,77,,3.0,2.0,0 days 01:23:56.473000,0 days 01:26:16.474000,False,INTERMEDIATE,3.0,False,Cadillac,4,16.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:58.576000,BOT,77,,4.0,3.0,0 days 01:26:34.902000,0 days 01:28:52.608000,False,INTERMEDIATE,4.0,False,Cadillac,4,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:39.304000,BOT,77,,5.0,4.0,0 days 01:29:28.225000,,False,INTERMEDIATE,5.0,False,Cadillac,4,15.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:34:12.823000,BOT,77,,6.0,4.0,,0 days 01:34:06.928000,False,INTERMEDIATE,6.0,False,Cadillac,41,17.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:20:51.483000,PIA,81,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,McLaren,12,5.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:16.963000,PIA,81,145.48,2.0,1.0,,0 days 01:23:11.177000,False,INTERMEDIATE,2.0,True,McLaren,24,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,37.65,34.916,40.023,37.952,,,145.535
+0 days 01:25:58.840000,PIA,81,,3.0,2.0,0 days 01:23:29.472000,0 days 01:25:52.026000,False,INTERMEDIATE,3.0,False,McLaren,4,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:41.721000,PIA,81,,4.0,3.0,0 days 01:26:11.405000,0 days 01:28:35.604000,False,INTERMEDIATE,4.0,False,McLaren,4,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:21.149000,PIA,81,,5.0,4.0,0 days 01:28:59.518000,,False,INTERMEDIATE,5.0,False,McLaren,4,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:54.830000,PIA,81,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,McLaren,41,4.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:42.599000,PIA,81,107.769,7.0,4.0,,,True,INTERMEDIATE,7.0,False,McLaren,12,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.061,-0.057,2.312,2.192,-1.677,-1.532,108.099
+0 days 01:37:29.754000,PIA,81,107.155,8.0,4.0,,,True,INTERMEDIATE,8.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.675,-0.626,1.698,1.61,-1.753,-1.61,107.54
+0 days 01:39:17.538000,PIA,81,107.784,9.0,4.0,,,False,INTERMEDIATE,9.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.046,-0.043,2.327,2.207,-0.671,-0.619,108.224
+0 days 01:41:05.183000,PIA,81,107.645,10.0,4.0,,,False,INTERMEDIATE,10.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.185,-0.172,2.188,2.075,-0.323,-0.299,108.14
+0 days 01:42:52.819000,PIA,81,107.636,11.0,4.0,,,False,INTERMEDIATE,11.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.194,-0.18,2.179,2.066,-0.162,-0.15,108.186
+0 days 01:44:40.323000,PIA,81,107.504,12.0,4.0,,,False,INTERMEDIATE,12.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.326,-0.302,2.047,1.941,-0.525,-0.486,108.109
+0 days 01:46:27.755000,PIA,81,107.432,13.0,4.0,,,False,INTERMEDIATE,13.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.398,-0.369,1.975,1.873,-0.513,-0.475,108.092
+0 days 01:48:14.843000,PIA,81,107.088,14.0,4.0,,,True,INTERMEDIATE,14.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.742,-0.688,1.631,1.547,-0.61,-0.566,107.803
+0 days 01:50:02.028000,PIA,81,107.185,15.0,4.0,,,False,INTERMEDIATE,15.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.645,-0.598,1.728,1.639,-0.462,-0.429,107.955
+0 days 01:51:49.194000,PIA,81,107.166,16.0,4.0,,,False,INTERMEDIATE,16.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.664,-0.616,1.709,1.621,-0.573,-0.532,107.991
+0 days 01:53:36.288000,PIA,81,107.094,17.0,4.0,,,False,INTERMEDIATE,17.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.736,-0.683,1.637,1.552,-0.35,-0.326,107.974
+0 days 01:55:24.130000,PIA,81,107.842,18.0,4.0,,,False,INTERMEDIATE,18.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.012,0.011,2.385,2.262,0.134,0.124,108.777
+0 days 01:57:11.828000,PIA,81,107.698,19.0,4.0,,,False,INTERMEDIATE,19.0,False,McLaren,1,4.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.132,-0.122,2.241,2.125,-0.034,-0.032,108.688
+0 days 01:59:41.828000,PIA,81,,20.0,4.0,,,True,INTERMEDIATE,20.0,False,McLaren,12,,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:20:54.851000,BEA,87,,1.0,1.0,,,False,INTERMEDIATE,1.0,True,Haas F1 Team,12,10.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:23:27.037000,BEA,87,,2.0,1.0,,0 days 01:23:20.333000,False,INTERMEDIATE,2.0,True,Haas F1 Team,24,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:26:05.633000,BEA,87,,3.0,2.0,0 days 01:23:39.566000,0 days 01:25:58.483000,False,INTERMEDIATE,3.0,False,Haas F1 Team,4,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:28:49.215000,BEA,87,,4.0,3.0,0 days 01:26:18.554000,0 days 01:28:42.985000,False,INTERMEDIATE,4.0,False,Haas F1 Team,4,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:31:25.798000,BEA,87,,5.0,4.0,0 days 01:29:10.062000,,False,INTERMEDIATE,5.0,False,Haas F1 Team,4,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:33:56.547000,BEA,87,,6.0,4.0,,,False,INTERMEDIATE,6.0,False,Haas F1 Team,41,9.0,False,17,Singapore Grand Prix,False,INTERMEDIATE,False,,,,,,,
+0 days 01:35:46.035000,BEA,87,109.488,7.0,4.0,,,True,INTERMEDIATE,7.0,False,Haas F1 Team,12,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.658,1.538,4.031,3.822,0.042,0.038,109.818
+0 days 01:37:34.943000,BEA,87,108.908,8.0,4.0,,,True,INTERMEDIATE,8.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.078,1.0,3.451,3.272,0.0,0.0,109.293
+0 days 01:39:23.398000,BEA,87,108.455,9.0,4.0,,,True,INTERMEDIATE,9.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.625,0.58,2.998,2.843,0.0,0.0,108.895
+0 days 01:41:11.466000,BEA,87,108.068,10.0,4.0,,,True,INTERMEDIATE,10.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.238,0.221,2.611,2.476,0.1,0.093,108.563
+0 days 01:42:59.264000,BEA,87,107.798,11.0,4.0,,,True,INTERMEDIATE,11.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.032,-0.03,2.341,2.22,0.0,0.0,108.348
+0 days 01:44:47.322000,BEA,87,108.058,12.0,4.0,,,False,INTERMEDIATE,12.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.228,0.211,2.601,2.466,0.029,0.027,108.663
+0 days 01:46:35.267000,BEA,87,107.945,13.0,4.0,,,False,INTERMEDIATE,13.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,0.115,0.107,2.488,2.359,0.0,0.0,108.605
+0 days 01:48:23.092000,BEA,87,107.825,14.0,4.0,,,False,INTERMEDIATE,14.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.005,-0.005,2.368,2.245,0.127,0.118,108.54
+0 days 01:50:10.824000,BEA,87,107.732,15.0,4.0,,,True,INTERMEDIATE,15.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.098,-0.091,2.275,2.157,0.085,0.079,108.502
+0 days 01:51:58.439000,BEA,87,107.615,16.0,4.0,,,True,INTERMEDIATE,16.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.215,-0.199,2.158,2.046,-0.124,-0.115,108.44
+0 days 01:53:45.802000,BEA,87,107.363,17.0,4.0,,,True,INTERMEDIATE,17.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.467,-0.433,1.906,1.807,-0.081,-0.075,108.243
+0 days 01:55:32.768000,BEA,87,106.966,18.0,4.0,,,True,INTERMEDIATE,18.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-0.864,-0.801,1.509,1.431,-0.742,-0.689,107.901
+0 days 01:57:19.395000,BEA,87,106.627,19.0,4.0,,,False,INTERMEDIATE,19.0,False,Haas F1 Team,1,8.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,-1.203,-1.116,1.17,1.109,-1.105,-1.026,107.617
+0 days 01:59:08.488000,BEA,87,109.093,20.0,4.0,,,False,INTERMEDIATE,20.0,False,Haas F1 Team,12,6.0,True,17,Singapore Grand Prix,False,INTERMEDIATE,False,1.263,1.171,3.636,3.448,0.0,0.0,110.138
