@@ -218,7 +218,7 @@
 
 [2026]
 # Source
-# https://press.pirelli.com/tyre-compound-selections-for-baku-sepang-and-singapore/
+# https://press.pirelli.com/the-compound-selection-for-austin-mexico-city-and-so-paulo/
 
 1  = ["C3","C4","C5"]
 2  = ["C2","C3","C4"]
@@ -237,3 +237,6 @@
 15 = ["C3","C4","C5"]
 16 = ["C2","C3","C4"]
 17 = ["C3","C4","C5"]
+18 = ["C2","C3","C4"]
+19 = ["C3","C4","C5"]
+20 = ["C3","C4","C5"]
