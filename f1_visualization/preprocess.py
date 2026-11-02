@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 from fastf1.exceptions import (
     ErgastError,
-    InvalidSessionError,
     NoLapDataError,
     RateLimitExceededError,
 )
@@ -63,7 +62,7 @@ def load_all_data(season: int, path: Path, session_type: str) -> None:
         try:
             session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
-        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError):
+        except (NoLapDataError, RateLimitExceededError, ErgastError):
             logger.exception("Cannot load %s", session)
             raise
 
@@ -137,7 +136,7 @@ def update_data(season: int, path: Path, session_type: str) -> None:
         try:
             session = f.get_session(season, i, session_type)
             session.load(telemetry=False)
-        except (NoLapDataError, InvalidSessionError, RateLimitExceededError, ErgastError):
+        except (NoLapDataError, RateLimitExceededError, ErgastError):
             logger.exception("Cannot load %s", session)
             raise
 
