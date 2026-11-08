@@ -438,7 +438,7 @@ def add_gap(
 
 def remove_low_data_drivers(
     included_laps: pd.DataFrame,
-    drivers: tuple[str],
+    drivers: tuple[str, ...],
     min_laps: int,
 ) -> tuple[str, ...]:
     """
@@ -459,7 +459,7 @@ def remove_low_data_drivers(
 
 def teammate_comp_order(
     included_laps: pd.DataFrame,
-    drivers: tuple[str],
+    drivers: tuple[str, ...],
     by: str,
 ) -> tuple[str, ...]:
     """
