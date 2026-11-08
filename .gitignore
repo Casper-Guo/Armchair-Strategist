@@ -5,6 +5,7 @@ tmp/
 *.log
 praw.ini
 aws_login.sh
+f1tv.txt
 
 # playground notebooks
 *.ipynb

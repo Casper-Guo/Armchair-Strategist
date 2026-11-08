@@ -54,6 +54,10 @@ UTC=$(date)
 # shutdown dash app, ignore non-zero return status in case there is no gunicorn process running
 pkill -cef gunicorn || true
 
+{ read -r F1_USERNAME; read -r F1_PASSWORD; } < f1tv.txt
+export F1_USERNAME F1_PASSWORD
+python3 -m fastf1 auth f1tv --authenticate --method password
+
 python3 f1_visualization/preprocess.py
 
 # update README and commit if there are unstaged changes
