@@ -520,15 +520,15 @@ def after_laps_data_callback(included_laps: dict) -> str:
 def render_strategy_plot(
     drivers: list[str],
     _: str,
-    included_laps: dict,
+    laps_data: dict,
     session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and configure strategy plot title."""
     # return empty figure on startup
-    if not included_laps or not drivers:
+    if not laps_data or not drivers:
         return go.Figure()
 
-    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = pd.DataFrame.from_dict(laps_data)
     included_laps = included_laps[included_laps["Driver"].isin(drivers)]
 
     event_name = session_info[3]
@@ -552,17 +552,17 @@ def render_scatterplot(
     y: str,
     upper_bound: int,
     lap_numbers: list[int],
-    included_laps: dict,
+    laps_data: dict,
     session_info: Session_info,
     teammate_comp: bool,
 ) -> go.Figure:
     """Filter laps and configure scatterplot title."""
-    if not included_laps or not drivers:
+    if not laps_data or not drivers:
         return go.Figure()
 
     minimum, maximum = lap_numbers
     lap_interval = range(minimum, maximum + 1)
-    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = pd.DataFrame.from_dict(laps_data)
     included_laps = included_laps[
         (included_laps["Driver"].isin(drivers))
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
@@ -595,16 +595,16 @@ def render_lineplot(
     upper_bound: int,
     lap_numbers: list[int],
     starting_grid: list,
-    included_laps: dict,
+    laps_data: dict,
     session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and configure lineplot title."""
-    if not included_laps or not drivers:
+    if not laps_data or not drivers:
         return go.Figure()
 
     minimum, maximum = lap_numbers
     lap_interval = range(minimum, maximum + 1)
-    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = pd.DataFrame.from_dict(laps_data)
 
     # upper bound not filtered here because we need to identify SC/VSC laps
     # inside the function
@@ -644,15 +644,15 @@ def render_distplot(
     upper_bound: int,
     boxplot: bool,
     _: str,
-    included_laps: dict,
+    laps_data: dict,
     session_info: Session_info,
     teammate_comp: bool,
 ) -> go.Figure:
     """Filter laps and render distribution plot."""
-    if not included_laps or not drivers:
+    if not laps_data or not drivers:
         return go.Figure()
 
-    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = pd.DataFrame.from_dict(laps_data)
     included_laps = included_laps[
         (included_laps["Driver"].isin(drivers))
         & (included_laps["PctFromFastest"] < (upper_bound - 100))
@@ -678,14 +678,14 @@ def render_distplot(
 def render_compound_plot(
     compounds: list[str],
     show_seconds: bool,
-    included_laps: dict,
+    laps_data: dict,
     session_info: Session_info,
 ) -> go.Figure:
     """Filter laps and render compound performance plot."""
-    if not included_laps or not compounds:
+    if not laps_data or not compounds:
         return go.Figure()
 
-    included_laps = pd.DataFrame.from_dict(included_laps)
+    included_laps = pd.DataFrame.from_dict(laps_data)
 
     # TyreLife = 1 rows seem to always be outliers relative to the representative lap time
     # might be because they are out laps
