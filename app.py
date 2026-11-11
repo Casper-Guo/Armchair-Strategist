@@ -460,7 +460,7 @@ def set_lineplot_slider(data: dict) -> tuple[int, list[int], dict[int, str]]:
 )
 def set_starting_grid_switch(
     y: str,
-    session_info: Session_info,
+    session_info: Session_info | None,
     current_setting: list | None,
 ) -> tuple[list[dict], list | None]:
     """

@@ -132,28 +132,28 @@ def _plot_args(season: int, absolute_compound: bool) -> PlotArgs:
                            (SOFT, MEDIUM, HARD) in legend
     """
     if absolute_compound:
-        if season == 2018:  # noqa: PLR2004
+        if season == 2018:  # ruff: ignore[PLR2004]
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["18"],
                 VISUAL_CONFIG["absolute"]["markers"]["18"],
                 VISUAL_CONFIG["absolute"]["labels"]["18"],
             )
-        if season < 2023:  # noqa: PLR2004
+        if season < 2023:  # ruff: ignore[PLR2004]
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["19_22"],
                 VISUAL_CONFIG["absolute"]["markers"]["19_22"],
                 VISUAL_CONFIG["absolute"]["labels"]["19_22"],
             )
-        if season < 2025:  # noqa: PLR2004
+        if season < 2025:  # ruff: ignore[PLR2004]
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["23_24"],
                 VISUAL_CONFIG["absolute"]["markers"]["23_24"],
                 VISUAL_CONFIG["absolute"]["labels"]["23_24"],
             )
-        if season < 2026:  # noqa: PLR2004
+        if season < 2026:  # ruff: ignore[PLR2004]
             return PlotArgs(
                 "CompoundName",
                 VISUAL_CONFIG["absolute"]["palette"]["25"],
@@ -220,8 +220,7 @@ def get_drivers(
     if drivers is None:
         return list(results["Abbreviation"].unique())
     if isinstance(drivers, int):
-        drivers = results["Abbreviation"].unique()[:drivers]
-        return list(drivers)
+        return list(results["Abbreviation"].unique()[:drivers])
     if isinstance(drivers, str):
         drivers = [drivers]
 
@@ -311,16 +310,20 @@ def get_session_info(
     event_name = f"{session.event['EventName']} - {session.name}"
 
     if teammate_comp:
-        drivers = get_drivers(
+        driver_abbreviations = get_drivers(
             session,
             drivers,
             by="TeamName",
             exclude_dns_drivers=exclude_dns_drivers,
         )
     else:
-        drivers = get_drivers(session, drivers, exclude_dns_drivers=exclude_dns_drivers)
+        driver_abbreviations = get_drivers(
+            session,
+            drivers,
+            exclude_dns_drivers=exclude_dns_drivers,
+        )
 
-    return round_number, event_name, tuple(drivers), session
+    return round_number, event_name, tuple(driver_abbreviations), session
 
 
 def _distribute_pit_loss(df_laps: pd.DataFrame) -> pd.DataFrame:
@@ -366,7 +369,9 @@ def add_gap(
     df_laps: pd.DataFrame | None = None,
     modify_global: bool = False,
     distribute_pit_loss: bool = False,
-    **kwargs,  # noqa: ANN003
+    *,
+    season: int | None = None,
+    session_type: str | None = None,
 ) -> pd.DataFrame:
     """
     Calculate the gap to a certain driver.
@@ -385,20 +390,22 @@ def add_gap(
         time series that distributes it evenly, thus erasing the dramatic delta jumps
         caused by pitstops
 
+        season: Championship season. Required if modify_global is True.
+
+        session_type: Follow Fastf1 session identifier convention.
+        Required if modify_global is True.
+
     Returns:
         Modified dataframe with the gap column under the name GapTo{driver} or
         GapTo{driver}Pace, depending on whether the pit loss is distributed.
     """
-    assert not (not modify_global and df_laps is None), (
-        "df_laps must be provided if not editing in-place."
-    )
-
     if modify_global:
-        assert "season" in kwargs and "session_type" in kwargs, (
+        assert season is not None and session_type is not None, (
             "Setting modify_global=True requires specifying season and session_type."
         )
-        season, session_type = kwargs["season"], kwargs["session_type"]
         df_laps = DF_DICT[season][session_type]
+
+    assert df_laps is not None, "df_laps must be provided if not editing in-place."
 
     driver = driver.upper()
     assert driver in df_laps["Driver"].unique(), "Driver not available."
@@ -431,7 +438,8 @@ def add_gap(
     df_laps = df_laps.drop(columns=timing_column_name)
 
     if modify_global:
-        DF_DICT[kwargs["season"]][kwargs["session_type"]] = df_laps
+        assert season is not None and session_type is not None
+        DF_DICT[season][session_type] = df_laps
 
     return df_laps
 
@@ -502,9 +510,9 @@ def teammate_comp_order(
             team_median_gaps.append([teammates, 0])
 
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
-    drivers = [driver for team in team_median_gaps for driver in team[0]]
-    drivers.extend(odd_driver_out)
-    return tuple(drivers)
+    ordered_drivers = [driver for team in team_median_gaps for driver in team[0]]
+    ordered_drivers.extend(odd_driver_out)
+    return tuple(ordered_drivers)
 
 
 def _lap_filter_sc(row: pd.Series) -> bool:
@@ -623,7 +631,7 @@ def _convert_compound_name(
         ) = ["C1", "C3"]
     """
     compound_to_index = {"SOFT": 2, "MEDIUM": 1, "HARD": 0}
-    if season == 2018:  # noqa: PLR2004
+    if season == 2018:  # ruff: ignore[PLR2004]
         compound_to_index = {"SOFT": 0, "MEDIUM": 1, "HARD": 2}
 
     try:
@@ -673,15 +681,7 @@ def _process_input(
             x,
         )
 
-    if not absolute_compound and len(events) > 1:
-        logger.warning(
-            """
-            Different events may use different compounds under the same name!
-            e.g. SOFT may be any of C3 to C5 dependinging on the event
-            """,
-        )
-
-    if isinstance(seasons, (int, str)):
+    if isinstance(seasons, int):
         seasons = [seasons]
 
     if isinstance(events, (int, str)):
@@ -689,6 +689,14 @@ def _process_input(
 
     if isinstance(session_types, str):
         session_types = [session_types]
+
+    if not absolute_compound and len(events) > 1:
+        logger.warning(
+            """
+            Different events may use different compounds under the same name!
+            e.g. SOFT may be any of C3 to C5 dependinging on the event
+            """,
+        )
 
     assert len(seasons) == len(events) == len(session_types), (
         f"Arguments {seasons}, {events}, {session_types} have different lengths."
@@ -712,7 +720,7 @@ def _process_input(
         # The high outlier values are filtered by upper_bound
         # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
         if y in {"PctFromLapRep", "DeltaToLapRep"}:
-            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
+            df_laps = df_laps[df_laps["PctFromLapRep"] > -5]  # ruff: ignore[PLR2004]
 
         included_laps_list.append(df_laps)
 
@@ -815,7 +823,7 @@ def driver_stats_scatterplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # ruff: ignore[PLR2004]
 
     for index, driver in enumerate(drivers):
         row, col = divmod(index, max_width)
@@ -829,7 +837,7 @@ def driver_stats_scatterplot(
         # filter out laps that doesn't meet the upper_bound
         driver_laps = driver_laps[driver_laps["PctFromFastest"] < upper_bound]
 
-        if driver_laps.shape[0] < 5:  # noqa: PLR2004
+        if driver_laps.shape[0] < 5:  # ruff: ignore[PLR2004]
             logger.warning("%s HAS LESS THAN 5 LAPS ON RECORD FOR THIS EVENT", driver)
 
         sns.scatterplot(
@@ -1310,9 +1318,8 @@ def compounds_lineplot(
     if len(event_objects) == 1:
         axs = [axs]
 
-    # Copy compounds values
     # May need to convert from relative to absolute names when plotting
-    compounds_copy = compounds.copy()
+    compounds_copy: Iterable[str] = compounds
 
     for idx, event in enumerate(event_objects):
         ax = axs[idx]
@@ -1338,12 +1345,12 @@ def compounds_lineplot(
                     label=compound,
                 )
             else:
-                logger.warning((
+                logger.warning(
                     "%s is not plotted for %s %s because there is not enough data",
-                    compounds[idx],
+                    compound,
                     seasons[idx],
                     event_name,
-                ))
+                )
 
         ax.set_ylabel(y, fontsize=12)
 
@@ -1442,9 +1449,8 @@ def compounds_distplot(
     if len(event_objects) == 1:
         axs = [axs]
 
-    # Copy compounds values
     # May need to convert from relative to absolute names when plotting
-    compounds_copy = compounds.copy()
+    compounds_copy: Iterable[str] = compounds
 
     for idx, event in enumerate(event_objects):
         ax = axs[idx]
@@ -1460,12 +1466,12 @@ def compounds_distplot(
 
         for compound in compounds_copy:
             if compound not in plotted_compounds:
-                logger.warning((
+                logger.warning(
                     "%s is not plotted for %s %s because there is not enough data",
-                    compounds[idx],
+                    compound,
                     seasons[idx],
                     event_name,
-                ))
+                )
 
         if violin_plot:
             sns.violinplot(
@@ -1501,8 +1507,8 @@ def compounds_distplot(
         sns.despine(left=True, bottom=True)
 
     # reorder compound names for title
-    compounds = [compounds[i] for i in _find_legend_order(compounds)]
+    sorted_compounds = [compounds[i] for i in _find_legend_order(compounds)]
 
-    fig.suptitle(t=" VS ".join(compounds), fontsize="16")
+    fig.suptitle(t=" VS ".join(sorted_compounds), fontsize="16")
 
     return fig
