@@ -1220,6 +1220,15 @@ def strategy_barplot(
     _shade_sc_periods(*find_sc_laps(included_laps))
     _deduplicate_legend_labels(ax, loc="lower right", fontsize=10)
 
+    # The Fresh/Used legend handles are copied from whichever stint first used each label
+    # so they inherit that stint's compound color
+    # Recolor them uniformly to clarify that the hatch pattern is the distinguishing feature
+    legend = ax.get_legend()
+    if legend is not None:
+        for handle, text in zip(legend.legend_handles, legend.get_texts(), strict=True):
+            if text.get_text() in {"Fresh", "Used"}:
+                handle.set_facecolor(VISUAL_CONFIG["relative"]["palette"]["HARD"])
+
     plt.title(f"{season} {event_name}", fontsize=16)
     plt.xlabel("Lap Number")
     plt.grid(False)
