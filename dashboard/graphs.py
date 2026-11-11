@@ -83,8 +83,7 @@ def strategy_barplot(
     # so we need to reverse the list of the drivers to get them ordered by finishing position
     for driver in reversed(drivers):
         stints = driver_stints.loc[driver_stints["Driver"] == driver]
-        stint_num = 1
-        for _, stint in stints.iterrows():
+        for stint_num, (_, stint) in enumerate(stints.iterrows(), start=1):
             fig.add_trace(
                 go.Bar(
                     y=[driver],
@@ -100,7 +99,6 @@ def strategy_barplot(
                     ),
                 ),
             )
-            stint_num += 1
 
     num_laps = included_laps["LapNumber"].max()
     fig = shade_sc_periods(fig, *find_sc_laps(included_laps))
@@ -133,7 +131,7 @@ def stats_scatterplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # ruff: ignore[PLR2004]
 
     num_row = ceil(len(drivers) / 4)
     num_col = min(4, len(drivers))
@@ -206,7 +204,7 @@ def stats_lineplot(
     # The high outlier values are filtered by upper_bound
     # Using a lower bound of -5 on PctFromLapRep will retain 95+% of all laps
     if y in {"PctFromLapRep", "DeltaToLapRep"}:
-        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # noqa: PLR2004
+        included_laps = included_laps[included_laps["PctFromLapRep"] > -5]  # ruff: ignore[PLR2004]
 
     for _, driver in enumerate(reversed(drivers)):
         driver_laps = included_laps[(included_laps["Driver"] == driver)]
@@ -326,14 +324,14 @@ def compounds_lineplot(included_laps: pd.DataFrame, y: str, compounds: list[str]
 
         # clip tyre life range to where there are at least three records
         # if a driver does a very long stint, not all of it will be plotted
-        tyre_life_range = compound_laps.groupby("TyreLife").size()
-        tyre_life_range = tyre_life_range[tyre_life_range >= 3].index  # noqa: PLR2004
+        tyre_life_counts = compound_laps.groupby("TyreLife").size()
+        tyre_life_range = tyre_life_counts[tyre_life_counts >= 3].index  # ruff: ignore[PLR2004]
 
         # use the max instead of the length because tyre life range is
         # not guaranteed to start at 0
         max_stint_length = max(max_stint_length, tyre_life_range.max())
-        median_LRT = compound_laps.groupby("TyreLife")[y].median()  # noqa: N806
-        median_LRT = median_LRT.loc[tyre_life_range]  # noqa: N806
+        median_LRT = compound_laps.groupby("TyreLife")[y].median()  # ruff: ignore[N806]
+        median_LRT = median_LRT.loc[tyre_life_range]  # ruff: ignore[N806]
 
         fig.add_trace(
             go.Scatter(

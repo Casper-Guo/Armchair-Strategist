@@ -291,7 +291,7 @@ def add_is_slick(season: int, df_laps: pd.DataFrame) -> pd.DataFrame:
     """
     slick_names = []
 
-    if season == 2018:  # noqa: PLR2004
+    if season == 2018:  # ruff: ignore[PLR2004]
         slick_names = VISUAL_CONFIG["slick_names"]["18"]
     else:
         slick_names = VISUAL_CONFIG["slick_names"]["19_"]
@@ -324,7 +324,7 @@ def add_compound_name(
     Returns:
         The modified dataframe.
     """
-    if season == 2018:  # noqa: PLR2004
+    if season == 2018:  # ruff: ignore[PLR2004]
         df_laps["CompoundName"] = df_laps["Compound"]
 
         return df_laps
@@ -540,7 +540,7 @@ def add_fuel_adjusted_time(
 
     median_lap_count = df_laps["LapNumber_final"].median()
     # The shortest GP is at Spa and has 44 laps
-    is_sprint = median_lap_count < 30  # noqa: PLR2004
+    is_sprint = median_lap_count < 30  # ruff: ignore[PLR2004]
 
     df_laps["FuelAdjLapTime"] = (
         df_laps["LapTime"]
@@ -584,7 +584,7 @@ def find_diff(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> p
         # If no transformed_laps is found, the entirety of all_laps is in the diff
         return dfs["all"]
 
-    if len(dfs) == 2:  # noqa: PLR2004
+    if len(dfs) == 2:  # ruff: ignore[PLR2004]
         # "all" should be the key for the first pair in items
         # but we will not rely on this
         assert "all" in dfs and "transformed" in dfs
@@ -670,7 +670,7 @@ def transform(season: int, dfs: dict[str, pd.DataFrame], session_type: str) -> N
         df_transform = add_is_slick(season, df_transform)
         df_transform = add_compound_name(df_transform, COMPOUND_SELECTION[str(season)], season)
 
-        if season == 2018:  # noqa: PLR2004
+        if season == 2018:  # ruff: ignore[PLR2004]
             df_transform = convert_compound(df_transform)
 
         df_transform = add_is_valid(df_transform)

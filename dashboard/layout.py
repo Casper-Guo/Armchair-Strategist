@@ -1,10 +1,12 @@
 """Dash app static layout specifications."""
 
+from typing import Any
+
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
 
-def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:  # noqa: ANN003
+def upper_bound_slider(slider_id: str, **kwargs: Any) -> dcc.Slider:  # ruff: ignore[ANN401]
     """Generate generic slider for setting upper bound."""
     return dcc.Slider(
         min=100,
@@ -18,7 +20,7 @@ def upper_bound_slider(slider_id: str, **kwargs) -> dcc.Slider:  # noqa: ANN003
     )
 
 
-def lap_numbers_slider(slider_id: str, **kwargs) -> dcc.RangeSlider:  # noqa: ANN003
+def lap_numbers_slider(slider_id: str, **kwargs: Any) -> dcc.RangeSlider:  # ruff: ignore[ANN401]
     """Generate generic range slider for setting lap numbers."""
     return dcc.RangeSlider(
         min=1,

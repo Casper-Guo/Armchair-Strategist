@@ -29,6 +29,16 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 packages = ["f1_visualization"]
 
+[[tool.mypy.overrides]]
+# These packages ship without type information
+module = ["dash_bootstrap_components.*", "fastf1.*", "plotly.*", "praw.*", "seaborn.*"]
+ignore_missing_imports = true
+
+[tool.pre-commit-update.yaml]
+mapping = 2
+sequence = 4
+offset = 2
+
 [tool.ruff]
 preview = true
 include = ["f1_visualization/*.py", "./*.py"]
@@ -126,7 +136,6 @@ select = [
 
 ignore = [
     "PTH123",  # all open calls already uses Pathlib for file handling
-    "PD901",   # df is a perfectly fine variable name
     "D203",    # conflict with preferred D211 (No blank lines allowed before class docstring)
     "D212",    # conflict with preferred D213 (Multi-line docstring summary should start at the second line)
     "PLR0912", # function too many branches
@@ -135,8 +144,8 @@ ignore = [
     "PLR0915", # function too many statements
     "PLR0917", # function too many positional arguments
     "UP015",   # explicit is better than implicit
-    "UP038",   # deprecated
     "FURB101", # Nothing wrong with using open and read
     "FURB118", # this is not better
     "TRY003",  # too nitpicky
+    "RUF106",  # prefer rule codes over rule names in suppression comments
 ]
