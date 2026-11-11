@@ -1,10 +1,10 @@
 """Plotting functions and other visualization helpers."""
 
 import logging
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 from functools import lru_cache
 from math import ceil
-from typing import Literal
+from typing import Any, Literal
 
 import fastf1 as f
 import fastf1.plotting as p
@@ -13,6 +13,7 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from matplotlib import rcParams
+from matplotlib.patches import Patch
 
 from f1_visualization.annotations import Axes, Figure, PlotArgs, Session
 from f1_visualization.consts import (
@@ -81,7 +82,7 @@ def load_laps() -> dict[int, dict[str, pd.DataFrame]]:
 DF_DICT = load_laps()
 
 
-def _find_legend_order(labels: Iterable[str]) -> list[int]:
+def _find_legend_order(labels: Sequence[str]) -> list[int]:
     """
     Provide the index of a list of compounds sorted from soft to hard.
 
@@ -269,7 +270,7 @@ def get_session_info(
     season: int,
     event: int | str,
     session_type: str,
-    drivers: tuple[str | int] | str | int | None = None,
+    drivers: tuple[str | int, ...] | str | int | None = None,
     teammate_comp: bool = False,
     exclude_dns_drivers: bool = True,
 ) -> tuple[int, str, tuple[str, ...], Session]:
@@ -592,7 +593,7 @@ def _shade_sc_periods(sc_laps: np.ndarray, vsc_laps: np.ndarray) -> None:
     plot_periods(vsc_laps, "VSC", "xx")
 
 
-def _deduplicate_legend_labels(ax: Axes, **kwargs) -> None:  # noqa: ANN003
+def _deduplicate_legend_labels(ax: Axes, **kwargs: Any) -> None:  # ruff: ignore[ANN401]
     """
     Add legend to the current plot after deduplicating labels.
 
@@ -648,11 +649,11 @@ def _convert_compound_name(
 
 
 def _process_input(
-    seasons: int | Iterable[int],
-    events: int | str | Iterable[str | int],
-    session_types: str | Iterable[str],
+    seasons: int | Sequence[int],
+    events: int | str | Sequence[str | int],
+    session_types: str | Sequence[str],
     y: str,
-    compounds: Iterable[str],
+    compounds: Sequence[str],
     x: str,
     upper_bound: int | float,
     absolute_compound: bool,
@@ -1159,7 +1160,7 @@ def strategy_barplot(
     season: int,
     event: int | str,
     session_type: str = "R",
-    drivers: Iterable[str] | int | None = None,
+    drivers: Iterable[str | int] | str | int | None = None,
     absolute_compound: bool = False,
 ) -> Figure:
     """
@@ -1234,7 +1235,7 @@ def strategy_barplot(
     legend = ax.get_legend()
     if legend is not None:
         for handle, text in zip(legend.legend_handles, legend.get_texts(), strict=True):
-            if text.get_text() in {"Fresh", "Used"}:
+            if isinstance(handle, Patch) and text.get_text() in {"Fresh", "Used"}:
                 handle.set_facecolor(VISUAL_CONFIG["relative"]["palette"]["HARD"])
 
     plt.title(f"{season} {event_name}", fontsize=16)
@@ -1253,11 +1254,11 @@ def strategy_barplot(
 
 
 def compounds_lineplot(
-    seasons: int | Iterable[int],
-    events: int | str | Iterable[int | str],
-    session_types: str | Iterable[str] = "R",
+    seasons: int | Sequence[int],
+    events: int | str | Sequence[int | str],
+    session_types: str | Sequence[str] = "R",
     y: str = "LapTime",
-    compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
+    compounds: Sequence[str] = ("SOFT", "MEDIUM", "HARD"),
     x: str = "TyreLife",
     upper_bound: int | float = 10,
     absolute_compound: bool = True,
@@ -1371,19 +1372,19 @@ def compounds_lineplot(
         sns.despine(left=True, bottom=True)
 
     # reorder compound names for title
-    compounds = [compounds[i] for i in _find_legend_order(compounds)]
+    sorted_compounds = [compounds[i] for i in _find_legend_order(compounds)]
 
-    fig.suptitle(t=" VS ".join(compounds), fontsize=14)
+    fig.suptitle(t=" VS ".join(sorted_compounds), fontsize=14)
 
     return fig
 
 
 def compounds_distplot(
-    seasons: int | Iterable[int],
-    events: int | str | Iterable[int | str],
-    session_types: str | Iterable[str] = "R",
+    seasons: int | Sequence[int],
+    events: int | str | Sequence[int | str],
+    session_types: str | Sequence[str] = "R",
     y: str = "LapTime",
-    compounds: Iterable[str] = ["SOFT", "MEDIUM", "HARD"],
+    compounds: Sequence[str] = ("SOFT", "MEDIUM", "HARD"),
     violin_plot: bool = False,
     x: str = "TyreLife",
     upper_bound: int | float = 10,

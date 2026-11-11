@@ -23,3 +23,18 @@ repos:
       # Run the formatter.
       - id: ruff-format
         args: [--preview]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v2.4.1
+    hooks:
+      - id: mypy
+        # Use the settings and file list in pyproject.toml instead of the hook defaults
+        args: []
+        pass_filenames: false
+        additional_dependencies:
+          - click >= 8.0.0
+          - dash >= 3.0.0
+          - matplotlib >= 3.8.0
+          - numpy >= 2.0.0
+          - pandas-stubs >= 2.1.1
+          - tomli >= 2.0.0
+          - tomli-w >= 1.2.0
