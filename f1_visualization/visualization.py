@@ -485,35 +485,41 @@ def teammate_comp_order(
     teammate_comp_order to compare driver performance during the wet period.
 
     Assumes:
-        - teammates are next to each other in the drivers tuple
-          This assumption is enforced if drivers is returned from get_session_info
-          with teammate_comp=True argument.
-          This assumption may be invalidated by remove_low_data_drivers
         - by is a column in included_laps.
     """
     metric_median = included_laps.groupby("Driver")[by].median(numeric_only=True)
-    team_median_gaps = []
+    driver_team = included_laps.drop_duplicates("Driver").set_index("Driver")["Team"]
 
-    # deal with odd number of drivers case
-    odd_driver_out = [] if len(drivers) % 2 == 0 else [drivers[-1]]
+    # group drivers by team, preserving the order in which teams first appear
+    # drivers without laps or team information get a group of their own
+    teams: dict[str, list[str]] = {}
+    for driver in drivers:
+        team = driver_team.get(driver)
+        if pd.isna(team):
+            team = f"_no_team_{driver}"
+        if team in teams:
+            teams[team].append(driver)
+        else:
+            teams[team] = [driver]
 
-    # TODO: Python 3.12 added itertools.batched to simplify the following logic
-    for i in range(0, len(drivers) - 1, 2):
-        teammates = drivers[i], drivers[i + 1]
-        if all(driver in metric_median for driver in teammates):
+    team_median_gaps: list[tuple[list[str], float]] = []
+    for teammates in teams.values():
+        if len(teammates) == 2 and all(  # ruff: ignore[PLR2004]
+            pd.notna(metric_median.get(driver)) for driver in teammates
+        ):
             median_gap = metric_median[teammates[0]] - metric_median[teammates[1]]
             if median_gap < 0:
                 # faster driver on the left
-                team_median_gaps.append([teammates, -median_gap])
+                team_median_gaps.append((teammates, -median_gap))
             else:
-                team_median_gaps.append([teammates[::-1], median_gap])
+                team_median_gaps.append((teammates[::-1], median_gap))
         else:
-            team_median_gaps.append([teammates, 0])
+            # gap of -1 places these drivers after all teammate pairs
+            team_median_gaps.append((teammates, -1))
 
+    # stable sort keeps the input order among teams with equal gaps
     team_median_gaps.sort(key=lambda x: x[1], reverse=True)
-    ordered_drivers = [driver for team in team_median_gaps for driver in team[0]]
-    ordered_drivers.extend(odd_driver_out)
-    return tuple(ordered_drivers)
+    return tuple(driver for teammates, _ in team_median_gaps for driver in teammates)
 
 
 def _lap_filter_sc(row: pd.Series) -> bool:
